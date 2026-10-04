@@ -1,0 +1,827 @@
+{
+ "courseId": "lab",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: Putting It All Together.",
+     "say": "Lesson 7: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/eddad0e34594.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Follow Robert's 2025 lab results and find members whose diabetes is poorly controlled.",
+     "say": "Follow Robert's 2025 lab results and find members whose diabetes is poorly controlled.",
+     "focus": -1,
+     "file": "clips/098757c2d2e7.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read a year of lab results for one member as a data table.",
+     "say": "Read a year of lab results for one member as a data table.",
+     "focus": 0,
+     "file": "clips/d94b01565504.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Link lab claims to lab results.",
+     "say": "Link lab claims to lab results.",
+     "focus": 1,
+     "file": "clips/4a008fb6081e.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Find the most recent HbA1c result for each member.",
+     "say": "Find the most recent H b A 1 c result for each member.",
+     "focus": 2,
+     "file": "clips/e8d2d604d832.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Apply a simple version of the HEDIS \"HbA1c above 9%\" check.",
+     "say": "Apply a simple version of the HEDIS \"H b A 1 c above 9 percent\" check.",
+     "focus": 3,
+     "file": "clips/715f748f1398.mp3",
+     "seconds": 5.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story.",
+     "say": "The story.",
+     "focus": -1,
+     "file": "clips/5103112bb3ad.mp3",
+     "seconds": 1.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "**10 February 2025**: Robert's blood is tested (lessons 2 and 3).",
+     "say": "10 February 2025: Robert's blood is tested (lessons 2 and 3).",
+     "focus": 0,
+     "file": "clips/4532234474c1.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "His HbA1c is **9.4%** and his cholesterol is high.",
+     "say": "His H b A 1 c is 9.4 percent and his cholesterol is high.",
+     "focus": 0,
+     "file": "clips/c6b03f6462da.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Dr. Nguyen changes his diabetes medicine and starts a cholesterol medicine.",
+     "say": "Doctor Nguyen changes his diabetes medicine and starts a cholesterol medicine.",
+     "focus": 0,
+     "file": "clips/1e6f91269df8.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "**12 May 2025**: HbA1c re-check: **8.6%**.",
+     "say": "12 May 2025: H b A 1 c re-check: 8.6 percent.",
+     "focus": 1,
+     "file": "clips/fbdc54248c7c.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "Getting better.",
+     "say": "Getting better.",
+     "focus": 1,
+     "file": "clips/707228169120.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "**18 August 2025**: HbA1c **7.8%**, and a repeat lipid panel shows cholesterol improving.",
+     "say": "18 August 2025: H b A 1 c 7.8 percent, and a repeat lipid panel shows cholesterol improving.",
+     "focus": 2,
+     "file": "clips/e30653a14d81.mp3",
+     "seconds": 9
+    },
+    {
+     "raw": "**17 November 2025**: HbA1c **7.2%**.",
+     "say": "17 November 2025: H b A 1 c 7.2 percent.",
+     "focus": 3,
+     "file": "clips/ae304c92b0a6.mp3",
+     "seconds": 5.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "Robert has a **Medicare Advantage** plan, **Gulf Coast Advantage (HMO)** from Gulf Coast Health Plan (fictional), and his plan member ID is **GC5001**.",
+     "say": "Robert has a Medicare Advantage plan, Gulf Coast Advantage (H M O) from Gulf Coast Health Plan (fictional), and his plan member I D is G C 5 0 0 1.",
+     "focus": -1,
+     "file": "clips/510bff13784c.mp3",
+     "seconds": 11.95
+    },
+    {
+     "raw": "All labs are done at Bayou Clinical Lab and ordered by his primary care doctor, Dr. Nguyen at Bayou Family Medicine (both fictional).",
+     "say": "All labs are done at Bayou Clinical Lab and ordered by his primary care doctor, Doctor Nguyen at Bayou Family Medicine (both fictional).",
+     "focus": -1,
+     "file": "clips/fd3a1c700b0f.mp3",
+     "seconds": 9.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram's and Sita's versions in Kathmandu.",
+     "say": "In Nepal: Ram's and Sita's versions in Kathmandu.",
+     "focus": -1,
+     "file": "clips/ecf4d9a6f580.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "If Ram had diabetes, he would have his HbA1c checked every few months and keep a **file of paper reports** at home.",
+     "say": "If Ram had diabetes, he would have his H b A 1 c checked every few months and keep a file of paper reports at home.",
+     "focus": 0,
+     "file": "clips/71b2882adcb5.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "To see his trend, his doctor flips through the reports.",
+     "say": "To see his trend, his doctor flips through the reports.",
+     "focus": 1,
+     "file": "clips/9d9151eef41f.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "His insurer sees only the bills.",
+     "say": "His insurer sees only the bills.",
+     "focus": 1,
+     "file": "clips/289d2681ef41.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita would get her repeat tests at her SSF-listed hospital.",
+     "say": "Sita would get her repeat tests at her S S F listed hospital.",
+     "focus": 2,
+     "file": "clips/88c17ea29917.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Her results sit in the hospital's records and on her reports.",
+     "say": "Her results sit in the hospital's records and on her reports.",
+     "focus": 2,
+     "file": "clips/d170d4dbd6e0.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "The tests show up in the hospital's claims to SSF, but the **numbers** generally stay with the hospital and Sita.",
+     "say": "The tests show up in the hospital's claims to S S F, but the numbers generally stay with the hospital and Sita.",
+     "focus": 3,
+     "file": "clips/f5500fc12685.mp3",
+     "seconds": 7.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Robert's lab result table.",
+     "say": "Robert's lab result table.",
+     "focus": -1,
+     "file": "clips/911098366b6d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Robert's lab result table",
+   "lines": [
+    {
+     "raw": "Results are stored with **one row per result** (one OBX line in HL7 terms).",
+     "say": "Results are stored with one row per result (one O B X line in HL7 terms).",
+     "focus": -1,
+     "file": "clips/d94bb41291a7.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "A lipid panel makes four rows.",
+     "say": "A lipid panel makes four rows.",
+     "focus": -1,
+     "file": "clips/4e30d7f0b095.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Robert's year makes **13 rows**.",
+     "say": "Robert's year makes 13 rows.",
+     "focus": -1,
+     "file": "clips/e012d87aca47.mp3",
+     "seconds": 2.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Robert's lab result table",
+   "lines": [
+    {
+     "raw": "Lab results for member GC5001, 2025 (one row per result).",
+     "say": "Lab results for member G C 5 0 0 1, 2025 (one row per result).",
+     "focus": -1,
+     "file": "clips/21cb3571484d.mp3",
+     "seconds": 6.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Robert's lab result table",
+   "lines": [
+    {
+     "raw": "How the lab calculates LDL (Friedewald formula, all in mg/dL).",
+     "say": "How the lab calculates L D L (Friedewald formula, all in mg/dL).",
+     "focus": -1,
+     "file": "clips/1352443ee006.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "LDL equals Total cholesterol − HDL − (Triglycerides ÷ 5).",
+     "say": "L D L equals Total cholesterol − H D L − (Triglycerides ÷ 5).",
+     "focus": 0,
+     "file": "clips/184ab36e85ed.mp3",
+     "seconds": 7.35
+    },
+    {
+     "raw": "For example: February: 228 − 38 − (240 ÷ 5) equals 228 − 38 − 48 equals 142.",
+     "say": "For example: February: 228 − 38 − (240 ÷ 5) equals 228 − 38 − 48 equals 142.",
+     "focus": 1,
+     "file": "clips/2f0accb3e520.mp3",
+     "seconds": 13.35
+    },
+    {
+     "raw": "August: 190 − 42 − (180 ÷ 5) equals 190 − 42 − 36 equals 112.",
+     "say": "August: 190 − 42 − (180 ÷ 5) equals 190 − 42 − 36 equals 112.",
+     "focus": 1,
+     "file": "clips/0a79e1787410.mp3",
+     "seconds": 11.45
+    },
+    {
+     "raw": "That is why LDL has its own LOINC code with \"calculated\" in the name.",
+     "say": "That is why L D L has its own L O I N C code with \"calculated\" in the name.",
+     "focus": 1,
+     "file": "clips/71abd61c732c.mp3",
+     "seconds": 5.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Robert's lab result table",
+   "lines": [
+    {
+     "raw": "Reading the trend.",
+     "say": "Reading the trend.",
+     "focus": -1,
+     "file": "clips/a6a30bcb267e.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "Filter to `loinc_cd = 4548-4` and sort by `collection_dt`: **9.4 → 8.6 → 7.8 → 7.2**.",
+     "say": "Filter to l o i n c _ c d = 4 5 4 8 dash 4 and sort by collection_dt: 9.4 to 8.6 to 7.8 to 7.2.",
+     "focus": -1,
+     "file": "clips/22b1a430cd6c.mp3",
+     "seconds": 12.8
+    },
+    {
+     "raw": "Every value still has an **H** flag, yet Robert's control has clearly improved.",
+     "say": "Every value still has an H flag, yet Robert's control has clearly improved.",
+     "focus": -1,
+     "file": "clips/af5c0d21ba45.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "This is why analysts look at the values, not just the flags (lesson 5).",
+     "say": "This is why analysts look at the values, not just the flags (lesson 5).",
+     "focus": -1,
+     "file": "clips/0eba857c9f2c.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Linking the February claim to its results.",
+     "say": "Linking the February claim to its results.",
+     "focus": -1,
+     "file": "clips/625300dd09ba.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Linking the February claim to its results",
+   "lines": [
+    {
+     "raw": "The lab claim from lesson 3 (`640118`) has the same member and the same date as order `ORD5521`.",
+     "say": "The lab claim from lesson 3 (6 4 0 1 1 8) has the same member and the same date as order O R D 5 5 2 1.",
+     "focus": -1,
+     "file": "clips/48cad84fd45b.mp3",
+     "seconds": 9.55
+    },
+    {
+     "raw": "Using the CPT-to-LOINC map from lesson 6, each billed line points to the results it produced.",
+     "say": "Using the C P T to-LOINC map from lesson 6, each billed line points to the results it produced.",
+     "focus": -1,
+     "file": "clips/d91f8c15fefc.mp3",
+     "seconds": 6.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Linking the February claim to its results",
+   "lines": [
+    {
+     "raw": "Claim 640118 lines joined to results on member_id + date.",
+     "say": "Claim 640118 lines joined to results on member_id and date.",
+     "focus": -1,
+     "file": "clips/fe848c7e1c9b.mp3",
+     "seconds": 6.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Linking the February claim to its results",
+   "lines": [
+    {
+     "raw": "Remember: joins multiply rows.",
+     "say": "Remember: joins multiply rows.",
+     "focus": -1,
+     "file": "clips/0a13b77708c6.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Claim line 4 appears **four times**, once per lipid result, so its $45 must be summed from the **claim table**, not from this joined table (lesson 6).",
+     "say": "Claim line 4 appears four times, once per lipid result, so its 45 dollars must be summed from the claim table, not from this joined table (lesson 6).",
+     "focus": -1,
+     "file": "clips/240bae3b15e4.mp3",
+     "seconds": 10.65
+    },
+    {
+     "raw": "Our CMP line shows only glucose to keep it short; a real CMP has many more results.",
+     "say": "Our C M P line shows only glucose to keep it short; a real C M P has many more results.",
+     "focus": -1,
+     "file": "clips/c769edd6a306.mp3",
+     "seconds": 6.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Finding diabetics with poor control.",
+     "say": "Finding diabetics with poor control.",
+     "focus": -1,
+     "file": "clips/16bd7f051f0a.mp3",
+     "seconds": 2.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Finding diabetics with poor control",
+   "lines": [
+    {
+     "raw": "Health plans, including Medicare Advantage plans like Robert's, are scored on quality by **HEDIS** (Healthcare Effectiveness Data and Information Set), a set of measures run by **NCQA** (National Committee for Quality Assurance), a US non-profit.",
+     "say": "Health plans, including Medicare Advantage plans like Robert's, are scored on quality by HEDIS (Healthcare Effectiveness Data and Information Set), a set of measures run by N C Q A (National Committee for Quality Assurance), a U S non-profit.",
+     "focus": -1,
+     "file": "clips/d96593773d27.mp3",
+     "seconds": 16.6
+    },
+    {
+     "raw": "One well-known diabetes measure asks: of members with diabetes (aged 18 to 75), what share have their **most recent HbA1c of the year above 9.0%**?",
+     "say": "One well-known diabetes measure asks: of members with diabetes (aged 18 to 75), what share have their most recent H b A 1 c of the year above 9.0 percent?",
+     "focus": -1,
+     "file": "clips/f16ac53de6d7.mp3",
+     "seconds": 12.625
+    },
+    {
+     "raw": "This is an \"inverse\" measure: a **lower** rate is better.",
+     "say": "This is an \"inverse\" measure: a lower rate is better.",
+     "focus": -1,
+     "file": "clips/bf75209a8ef2.mp3",
+     "seconds": 3.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Finding diabetics with poor control",
+   "lines": [
+    {
+     "raw": "Find members with diabetes (from diagnosis codes like `E11.9` on claims, or diabetes medicines on pharmacy claims).",
+     "say": "Find members with diabetes (from diagnosis codes like E 1 1 . 9 on claims, or diabetes medicines on pharmacy claims).",
+     "focus": 0,
+     "file": "clips/518c22005afa.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "For each, keep HbA1c results (`4548-4` and the other codes on the measure's list) from the measurement year, 2025.",
+     "say": "For each, keep H b A 1 c results (4 5 4 8 dash 4 and the other codes on the measure's list) from the measurement year, 2025.",
+     "focus": 1,
+     "file": "clips/2040edbe1022.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "Keep only the **most recent** one (latest `collection_dt`).",
+     "say": "Keep only the most recent one (latest collection_dt).",
+     "focus": 2,
+     "file": "clips/2dc3e317d76d.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "If it is **above 9.0%**, or if there is **no result at all**, the member counts as **poorly controlled**.",
+     "say": "If it is above 9.0 percent, or if there is no result at all, the member counts as poorly controlled.",
+     "focus": 3,
+     "file": "clips/b00806d0d4d2.mp3",
+     "seconds": 7.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Finding diabetics with poor control",
+   "lines": [
+    {
+     "raw": "A simplified check for five members with diabetes, 2025 (other members are fictional).",
+     "say": "A simplified check for five members with diabetes, 2025 (other members are fictional).",
+     "focus": -1,
+     "file": "clips/a123467dacf6.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "GC5001 (Robert). HbA1c results in 2025: 9.4, 8.6, 7.8, 7.2. Most recent: **7.2%** (17 Nov). Above 9.0%?: No. Poor control?: No.",
+     "say": "G C 5 0 0 1 (Robert). H b A 1 c results in 2025: 9.4, 8.6, 7.8, 7.2. Most recent: 7.2 percent (17 Nov). Above 9.0 percent?: No. Poor control?: No.",
+     "focus": 0,
+     "file": "clips/0ceee199c512.mp3",
+     "seconds": 19.3
+    },
+    {
+     "raw": "GC5002. HbA1c results in 2025: 8.1, 9.6. Most recent: **9.6%**. Above 9.0%?: Yes. Poor control?: **Yes**.",
+     "say": "G C 5 0 0 2. H b A 1 c results in 2025: 8.1, 9.6. Most recent: 9.6 percent. Above 9.0 percent?: Yes. Poor control?: Yes.",
+     "focus": 1,
+     "file": "clips/44589a595531.mp3",
+     "seconds": 15.7
+    },
+    {
+     "raw": "GC5003. HbA1c results in 2025: 8.4. Most recent: **8.4%**. Above 9.0%?: No. Poor control?: No.",
+     "say": "G C 5 0 0 3. H b A 1 c results in 2025: 8.4. Most recent: 8.4 percent. Above 9.0 percent?: No. Poor control?: No.",
+     "focus": 2,
+     "file": "clips/d32bf86e44fc.mp3",
+     "seconds": 14.375
+    },
+    {
+     "raw": "GC5004. HbA1c results in 2025: None. Most recent: No result. Above 9.0%?: n/a. Poor control?: **Yes** (no test counts as poor).",
+     "say": "G C 5 0 0 4. H b A 1 c results in 2025: None. Most recent: No result. Above 9.0 percent?: n/a. Poor control?: Yes (no test counts as poor).",
+     "focus": 3,
+     "file": "clips/23525dc01214.mp3",
+     "seconds": 14.9
+    },
+    {
+     "raw": "GC5005. HbA1c results in 2025: 9.8, 9.0. Most recent: **9.0%**. Above 9.0%?: No: 9.0 is not **above** 9.0. Poor control?: No.",
+     "say": "G C 5 0 0 5. H b A 1 c results in 2025: 9.8, 9.0. Most recent: 9.0 percent. Above 9.0 percent?: No: 9.0 is not above 9.0. Poor control?: No.",
+     "focus": 4,
+     "file": "clips/bca90e14705c.mp3",
+     "seconds": 19.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Finding diabetics with poor control",
+   "lines": [
+    {
+     "raw": "Poor control rate (lower is better).",
+     "say": "Poor control rate (lower is better).",
+     "focus": -1,
+     "file": "clips/0018a68fc060.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "rate equals members with poor control ÷ members with diabetes.",
+     "say": "rate equals members with poor control ÷ members with diabetes.",
+     "focus": 0,
+     "file": "clips/dcf2adee43a9.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "For example: 2 (GC5002 and GC5004) ÷ 5 equals 0.40, so 40%.",
+     "say": "For example: 2 (G C 5 0 0 2 and G C 5 0 0 4) ÷ 5 equals 0.40, so 40 percent.",
+     "focus": 1,
+     "file": "clips/54a998dcdc4e.mp3",
+     "seconds": 11.1
+    },
+    {
+     "raw": "Robert counts as controlled because his latest result, 7.2%, is the one that matters, even though he started the year at 9.4%.",
+     "say": "Robert counts as controlled because his latest result, 7.2 percent, is the one that matters, even though he started the year at 9.4 percent.",
+     "focus": 1,
+     "file": "clips/6684fa23b1bd.mp3",
+     "seconds": 10.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Finding diabetics with poor control",
+   "lines": [
+    {
+     "raw": "This is simplified.",
+     "say": "This is simplified.",
+     "focus": -1,
+     "file": "clips/51e40e980aa9.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "The real HEDIS rules, set by NCQA, include exclusions, exact code lists and other details, and they are updated every year.",
+     "say": "The real HEDIS rules, set by N C Q A, include exclusions, exact code lists and other details, and they are updated every year.",
+     "focus": -1,
+     "file": "clips/d2dcf9218fe5.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "In recent years the measure has been renamed (it is now called Glycemic Status Assessment), but the \"above 9%\" idea is the same.",
+     "say": "In recent years the measure has been renamed (it is now called Glycemic Status Assessment), but the \"above 9 percent\" idea is the same.",
+     "focus": -1,
+     "file": "clips/2c584661b7a4.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "Always use the official specification for real reporting.",
+     "say": "Always use the official specification for real reporting.",
+     "focus": -1,
+     "file": "clips/a0dec934e16d.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "The HEDIS course explains how measures are built.",
+     "say": "The HEDIS course explains how measures are built.",
+     "focus": -1,
+     "file": "clips/3880e9729263.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Finding diabetics with poor control",
+   "lines": [
+    {
+     "raw": "Why claims alone are not enough.",
+     "say": "Why claims alone are not enough.",
+     "focus": -1,
+     "file": "clips/99280b31a6e5.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "From claims, you would see that GC5001 had **four** HbA1c tests (`83036`) and GC5004 had **none**.",
+     "say": "From claims, you would see that G C 5 0 0 1 had four H b A 1 c tests (8 3 0 3 6) and G C 5 0 0 4 had none.",
+     "focus": -1,
+     "file": "clips/939633a63d04.mp3",
+     "seconds": 11.65
+    },
+    {
+     "raw": "You could not tell whether GC5002 is controlled, unless a doctor added a CPT II code like `3046F`.",
+     "say": "You could not tell whether G C 5 0 0 2 is controlled, unless a doctor added a C P T I I code like 3 0 4 6 F.",
+     "focus": -1,
+     "file": "clips/34a0e9579ae4.mp3",
+     "seconds": 10.4
+    },
+    {
+     "raw": "Results turn \"was tested\" into \"is controlled\".",
+     "say": "Results turn \"was tested\" into \"is controlled\".",
+     "focus": -1,
+     "file": "clips/ec8caa87a266.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Field → lesson map.",
+     "say": "Field to lesson map.",
+     "focus": -1,
+     "file": "clips/e9cf9eeca18e.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "member_id, ordering_npi. Question it answers: Whose test? Who ordered it? Lesson: 1. What is Lab Data?",
+     "say": "member_id, ordering_npi. Question it answers: Whose test? Who ordered it? Lesson: 1. What is Lab Data?",
+     "focus": 0,
+     "file": "clips/c316e8d34793.mp3",
+     "seconds": 8.175
+    },
+    {
+     "raw": "order_id, OBX segments, FHIR Observation. Question it answers: How did the result travel? Lesson: 2. How Lab Data Moves.",
+     "say": "order_id, O B X segments, F H I R Observation. Question it answers: How did the result travel? Lesson: 2. How Lab Data Moves.",
+     "focus": 1,
+     "file": "clips/b989cb2235ea.mp3",
+     "seconds": 10.65
+    },
+    {
+     "raw": "claim_id, cpt, service_dt, billed_amt. Question it answers: What was billed, when, for how much? Lesson: 3. The Lab Claim.",
+     "say": "claim_id, cpt, service_dt, billed_amt. Question it answers: What was billed, when, for how much? Lesson: 3. The Lab Claim.",
+     "focus": 2,
+     "file": "clips/c770a14913eb.mp3",
+     "seconds": 9.75
+    },
+    {
+     "raw": "loinc_cd, test_name. Question it answers: Which test exactly? Lesson: 4. LOINC: The Test Code.",
+     "say": "loinc_cd, test_name. Question it answers: Which test exactly? Lesson: 4. L O I N C: The Test Code.",
+     "focus": 3,
+     "file": "clips/faa0733bfb6c.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "result_value, ref_range, abnormal_flag, result_status, collection_dt, result_dt. Question it answers: What did it find? Is it normal? Is it final? Lesson: 5. Reading a Result.",
+     "say": "result_value, ref_range, abnormal_flag, result_status, collection_dt, result_dt. Question it answers: What did it find? Is it normal? Is it final? Lesson: 5. Reading a Result.",
+     "focus": 4,
+     "file": "clips/3dd1015fb04d.mp3",
+     "seconds": 14
+    },
+    {
+     "raw": "result_units, claim-to-result join, CPT II codes. Question it answers: Can the numbers be combined? How do claims link? Lesson: 6. Linking & Data Quality.",
+     "say": "result_units, claim-to-result join, C P T I I codes. Question it answers: Can the numbers be combined? How do claims link? Lesson: 6. Linking and Data Quality.",
+     "focus": 5,
+     "file": "clips/c511213f951f.mp3",
+     "seconds": 12.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You can now read lab results, explain LOINC codes, and use results to answer a real quality question.",
+     "say": "You can now read lab results, explain L O I N C codes, and use results to answer a real quality question.",
+     "focus": -1,
+     "file": "clips/96bd04d63afa.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "Lab data works best alongside claims: continue with the **Biometrics** course to see the other kind of health numbers plans collect: blood pressure, weight and screenings.",
+     "say": "Lab data works best alongside claims: continue with the Biometrics course to see the other kind of health numbers plans collect: blood pressure, weight and screenings.",
+     "focus": -1,
+     "file": "clips/d5cbe58f80a6.mp3",
+     "seconds": 10.55
+    },
+    {
+     "raw": "The **Medical** course covers the claims side, and the **Pharmacy** course covers medicines like Emily's atorvastatin.",
+     "say": "The Medical course covers the claims side, and the Pharmacy course covers medicines like Emily's atorvastatin.",
+     "focus": -1,
+     "file": "clips/c1751cc3b482.mp3",
+     "seconds": 7.375
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Results are stored one row per result; a panel creates several rows.",
+     "say": "Results are stored one row per result; a panel creates several rows.",
+     "focus": 0,
+     "file": "clips/fcc0eb81fd02.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "Sort by collection date to see a trend; flags alone can hide improvement.",
+     "say": "Sort by collection date to see a trend; flags alone can hide improvement.",
+     "focus": 1,
+     "file": "clips/bdf4dad02e7c.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "Link claims to results by member, date and a CPT-to-LOINC map, but sum money from the claim table.",
+     "say": "Link claims to results by member, date and a C P T to-LOINC map, but sum money from the claim table.",
+     "focus": 2,
+     "file": "clips/2930dca326d4.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "The HEDIS-style check uses the **most recent** HbA1c of the year; above 9.0% or no test counts as poor control.",
+     "say": "The HEDIS-style check uses the most recent H b A 1 c of the year; above 9.0 percent or no test counts as poor control.",
+     "focus": 3,
+     "file": "clips/7e6cbd00297c.mp3",
+     "seconds": 9.75
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

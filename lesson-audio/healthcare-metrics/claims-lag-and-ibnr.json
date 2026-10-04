@@ -1,0 +1,743 @@
+{
+ "courseId": "healthcare-metrics",
+ "lessonId": "claims-lag-and-ibnr",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: Claims Lag & IBNR.",
+     "say": "Lesson 7: Claims Lag and I B N R.",
+     "focus": -1,
+     "file": "clips/e465fa1bfb6c.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Claims arrive weeks or months after the care.",
+     "say": "Claims arrive weeks or months after the care.",
+     "focus": -1,
+     "file": "clips/e64f2b050716.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "How plans estimate what has not arrived yet.",
+     "say": "How plans estimate what has not arrived yet.",
+     "focus": -1,
+     "file": "clips/83a34234ddf0.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Tell the incurred date from the paid date, and explain claims lag.",
+     "say": "Tell the incurred date from the paid date, and explain claims lag.",
+     "focus": 0,
+     "file": "clips/c214063d4f98.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "Read a lag triangle.",
+     "say": "Read a lag triangle.",
+     "focus": 1,
+     "file": "clips/6ad481b74801.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Calculate completion factors and estimate IBNR.",
+     "say": "Calculate completion factors and estimate I B N R.",
+     "focus": 2,
+     "file": "clips/3386e096e837.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Explain why the most recent months always look too cheap.",
+     "say": "Explain why the most recent months always look too cheap.",
+     "focus": 3,
+     "file": "clips/831bfa8af171.mp3",
+     "seconds": 3.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with Ram's receipts.",
+     "say": "Start with Ram's receipts.",
+     "focus": -1,
+     "file": "clips/19e4aee2f97e.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with Ram's receipts",
+   "lines": [
+    {
+     "raw": "In Nepal: March's bills, paid in May.",
+     "say": "In Nepal: March's bills, paid in May.",
+     "focus": -1,
+     "file": "clips/81961fe9fe07.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram visits a clinic on **10 March** and pays Rs 3,000.",
+     "say": "Ram visits a clinic on 10 March and pays Rs 3,000.",
+     "focus": 0,
+     "file": "clips/374988882317.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "He is busy, so he sends the receipt to his insurer on **20 April**.",
+     "say": "He is busy, so he sends the receipt to his insurer on 20 April.",
+     "focus": 0,
+     "file": "clips/d656443c6dd0.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "The insurer reimburses him on **5 May**.",
+     "say": "The insurer reimburses him on 5 May.",
+     "focus": 0,
+     "file": "clips/c75de01a373a.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "If the insurer adds up \"money paid for March care\" on 31 March, Ram's visit is **missing**.",
+     "say": "If the insurer adds up \"money paid for March care\" on 31 March, Ram's visit is missing.",
+     "focus": 1,
+     "file": "clips/d1bc6d5f6518.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "It happened in March, but nobody at the insurer knew yet.",
+     "say": "It happened in March, but nobody at the insurer knew yet.",
+     "focus": 1,
+     "file": "clips/c4399b2ee8e7.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Most of March's claims arrive within a few weeks, but a few trickle in for months.",
+     "say": "Most of March's claims arrive within a few weeks, but a few trickle in for months.",
+     "focus": 2,
+     "file": "clips/4b8b5fcb314c.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "The insurer has to **estimate** the rest.",
+     "say": "The insurer has to estimate the rest.",
+     "focus": 2,
+     "file": "clips/9ecc9938a9b8.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF-listed hospitals send their claims after discharge, and SSF reviews them before paying.",
+     "say": "S S F listed hospitals send their claims after discharge, and S S F reviews them before paying.",
+     "focus": 3,
+     "file": "clips/d0784e663992.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "So SSF's figures for last month are also incomplete for a while.",
+     "say": "So SSF's figures for last month are also incomplete for a while.",
+     "focus": 3,
+     "file": "clips/604a1cf2e816.mp3",
+     "seconds": 4.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with Ram's receipts",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Because claims arrive **after** the care, the money for recent months is always incomplete, and **IBNR (incurred but not reported)** is the plan's estimate of the claims for care that has already happened but has not reached it yet.",
+     "say": "Because claims arrive after the care, the money for recent months is always incomplete, and I B N R (incurred but not reported) is the plan's estimate of the claims for care that has already happened but has not reached it yet.",
+     "focus": -1,
+     "file": "clips/24201604995e.mp3",
+     "seconds": 14.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: two dates on every claim.",
+     "say": "The U S version: two dates on every claim.",
+     "focus": -1,
+     "file": "clips/3b45a698755b.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: two dates on every claim",
+   "lines": [
+    {
+     "raw": "Incurred date.",
+     "say": "Incurred date.",
+     "focus": 0,
+     "file": "clips/b637f5c92f97.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "When the care happened: the service date (for a hospital stay, usually the admission or discharge date, by company rule).",
+     "say": "When the care happened: the service date (for a hospital stay, usually the admission or discharge date, by company rule).",
+     "focus": 0,
+     "file": "clips/e1d15334c5e5.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "Paid date.",
+     "say": "Paid date.",
+     "focus": 1,
+     "file": "clips/c6457beeba50.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "When the plan paid the claim.",
+     "say": "When the plan paid the claim.",
+     "focus": 1,
+     "file": "clips/425312b5d619.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Always on or after the incurred date.",
+     "say": "Always on or after the incurred date.",
+     "focus": 1,
+     "file": "clips/ae5d433443ec.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Claims lag.",
+     "say": "Claims lag.",
+     "focus": 2,
+     "file": "clips/01207afd92bb.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "The time between the incurred date and the paid date, often counted in months: lag 0 = paid in the same month, lag 1 = the next month, and so on.",
+     "say": "The time between the incurred date and the paid date, often counted in months: lag 0 = paid in the same month, lag 1 = the next month, and so on.",
+     "focus": 2,
+     "file": "clips/f62549531ce1.mp3",
+     "seconds": 10.45
+    },
+    {
+     "raw": "Run-out.",
+     "say": "Run-out.",
+     "focus": 3,
+     "file": "clips/48921aef6f6e.mp3",
+     "seconds": 1.45
+    },
+    {
+     "raw": "Extra months of paid claims you wait for after a period ends, so its claims are mostly complete.",
+     "say": "Extra months of paid claims you wait for after a period ends, so its claims are mostly complete.",
+     "focus": 3,
+     "file": "clips/484366113bf7.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "\"2025 incurred, paid through March 2026\" has 3 months of run-out.",
+     "say": "\"2025 incurred, paid through March 2026\" has 3 months of run-out.",
+     "focus": 3,
+     "file": "clips/f67fc3346f3d.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Completion factor.",
+     "say": "Completion factor.",
+     "focus": 4,
+     "file": "clips/4c2019501bff.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "The share of a month's final claims that has been paid by a given lag.",
+     "say": "The share of a month's final claims that has been paid by a given lag.",
+     "focus": 4,
+     "file": "clips/5fe48b9e9f92.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "80% complete at lag 1 means 80% of the money has arrived one month later.",
+     "say": "80 percent complete at lag 1 means 80 percent of the money has arrived one month later.",
+     "focus": 4,
+     "file": "clips/9d0b8cf20389.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "IBNR (incurred but not reported).",
+     "say": "I B N R (incurred but not reported).",
+     "focus": 5,
+     "file": "clips/6b36074239c8.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Estimated claims still to come for care already given.",
+     "say": "Estimated claims still to come for care already given.",
+     "focus": 5,
+     "file": "clips/7666c9f49a7c.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "Also called the **claims reserve** or \"unpaid claims liability\".",
+     "say": "Also called the claims reserve or \"unpaid claims liability\".",
+     "focus": 5,
+     "file": "clips/997bc65b2289.mp3",
+     "seconds": 4.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The US version: two dates on every claim",
+   "lines": [
+    {
+     "raw": "Why claims take time.",
+     "say": "Why claims take time.",
+     "focus": -1,
+     "file": "clips/66afb741b3af.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Providers have weeks or months to submit a claim.",
+     "say": "Providers have weeks or months to submit a claim.",
+     "focus": -1,
+     "file": "clips/a74bc8e67550.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Hospital stays are billed after discharge.",
+     "say": "Hospital stays are billed after discharge.",
+     "focus": -1,
+     "file": "clips/b3ad015d61bc.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "Some claims are held for missing information or reviewed before payment, and some are adjusted later.",
+     "say": "Some claims are held for missing information or reviewed before payment, and some are adjusted later.",
+     "focus": -1,
+     "file": "clips/92db6a391398.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "The Claim Payment course follows a claim through payment.",
+     "say": "The Claim Payment course follows a claim through payment.",
+     "focus": -1,
+     "file": "clips/1e6cdc9a1839.mp3",
+     "seconds": 3.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The lag triangle.",
+     "say": "The lag triangle.",
+     "focus": -1,
+     "file": "clips/1b4af047cb9e.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The lag triangle",
+   "lines": [
+    {
+     "raw": "A **lag triangle** puts incurred months down the side and lag months across the top.",
+     "say": "A lag triangle puts incurred months down the side and lag months across the top.",
+     "focus": -1,
+     "file": "clips/d8e8cee318cf.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "Each cell is the money paid for that incurred month at that lag.",
+     "say": "Each cell is the money paid for that incurred month at that lag.",
+     "focus": -1,
+     "file": "clips/28845e24632a.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "It is a triangle because recent months have not had time to fill in yet.",
+     "say": "It is a triangle because recent months have not had time to fill in yet.",
+     "focus": -1,
+     "file": "clips/00a0f6fd53b6.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Here is Lone Star Health's triangle **as of 30 April 2025**, in thousands of dollars (illustrative, and simplified so that claims are complete after 3 months; real claims have a longer tail).",
+     "say": "Here is Lone Star Health's triangle as of 30 April 2025, in thousands of dollars (illustrative, and simplified so that claims are complete after 3 months; real claims have a longer tail).",
+     "focus": -1,
+     "file": "clips/5fddb41bd1e8.mp3",
+     "seconds": 13.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The lag triangle",
+   "lines": [
+    {
+     "raw": "Paid claims by incurred month and lag, $ thousands, as of 30 April 2025.",
+     "say": "Paid claims by incurred month and lag, $ thousands, as of 30 April 2025.",
+     "focus": -1,
+     "file": "clips/1a3cfeef75a6.mp3",
+     "seconds": 6.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The lag triangle",
+   "lines": [
+    {
+     "raw": "The trap.",
+     "say": "The trap.",
+     "focus": -1,
+     "file": "clips/83ccf8f156a5.mp3",
+     "seconds": 1.375
+    },
+    {
+     "raw": "Read the last column alone and April looks **60% cheaper** than January: $400k vs $1,000k.",
+     "say": "Read the last column alone and April looks 60 percent cheaper than January: 400 dollarsk versus 1000 dollarsk.",
+     "focus": -1,
+     "file": "clips/59411dd3f3de.mp3",
+     "seconds": 8.85
+    },
+    {
+     "raw": "Nothing improved.",
+     "say": "Nothing improved.",
+     "focus": -1,
+     "file": "clips/51bbc825342c.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "April simply has had **one month** for claims to arrive; January has had four.",
+     "say": "April simply has had one month for claims to arrive; January has had four.",
+     "focus": -1,
+     "file": "clips/b854ba8413ae.mp3",
+     "seconds": 5.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Completion factors and IBNR.",
+     "say": "Completion factors and I B N R.",
+     "focus": -1,
+     "file": "clips/7301a7574a19.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Completion factors and IBNR",
+   "lines": [
+    {
+     "raw": "January is complete, so it shows the **pattern**: 400 of 1,000 (40%) arrives at lag 0; 800 of 1,000 (80%) by lag 1; 950 of 1,000 (95%) by lag 2.",
+     "say": "January is complete, so it shows the pattern: 400 of 1,000 (40 percent) arrives at lag 0; 800 of 1,000 (80 percent) by lag 1; 950 of 1,000 (95 percent) by lag 2.",
+     "focus": -1,
+     "file": "clips/a2867df5d30a.mp3",
+     "seconds": 15.3
+    },
+    {
+     "raw": "(Real actuaries average the pattern over many months.)",
+     "say": "(Real actuaries average the pattern over many months.)",
+     "focus": -1,
+     "file": "clips/ac0368730329.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Completion factors and IBNR",
+   "lines": [
+    {
+     "raw": "Estimated final (ultimate) claims.",
+     "say": "Estimated final (ultimate) claims.",
+     "focus": -1,
+     "file": "clips/36f396e2d985.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Estimated ultimate equals Paid to date ÷ Completion factor.",
+     "say": "Estimated ultimate equals Paid to date ÷ Completion factor.",
+     "focus": 0,
+     "file": "clips/423cecc85b06.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "For example: March: paid $840k by lag 1, which is 80% complete.",
+     "say": "For example: March: paid 840 dollarsk by lag 1, which is 80 percent complete.",
+     "focus": 1,
+     "file": "clips/254e71c961cd.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "$840k ÷ 0.80 equals $1,050k expected in the end.",
+     "say": "840 dollarsk ÷ 0.80 equals 1050 dollarsk expected in the end.",
+     "focus": 1,
+     "file": "clips/71b6faecf1f5.mp3",
+     "seconds": 8.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Completion factors and IBNR",
+   "lines": [
+    {
+     "raw": "IBNR.",
+     "say": "I B N R.",
+     "focus": -1,
+     "file": "clips/32caaa5a6dd7.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "IBNR equals Estimated ultimate − Paid to date.",
+     "say": "I B N R equals Estimated ultimate − Paid to date.",
+     "focus": 0,
+     "file": "clips/a24499ca6c73.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "For example: March: $1,050k − $840k equals $210k still to come.",
+     "say": "For example: March: 1050 dollarsk − 840 dollarsk equals 210 dollarsk still to come.",
+     "focus": 1,
+     "file": "clips/058153b942a7.mp3",
+     "seconds": 8.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Completion factors and IBNR",
+   "lines": [
+    {
+     "raw": "IBNR estimate as of 30 April 2025 ($ thousands).",
+     "say": "I B N R estimate as of 30 April 2025 ($ thousands).",
+     "focus": -1,
+     "file": "clips/7b72f0de3f55.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Jan 2025. Paid to date: 1,000. Completion factor: 100%. Estimated ultimate: 1,000. IBNR: 0.",
+     "say": "Jan 2025. Paid to date: 1,000. Completion factor: 100 percent. Estimated ultimate: 1,000. I B N R: 0.",
+     "focus": 0,
+     "file": "clips/3936602bcf90.mp3",
+     "seconds": 11
+    },
+    {
+     "raw": "Feb 2025. Paid to date: 912. Completion factor: 95%. Estimated ultimate: 912 ÷ 0.95 = 960. IBNR: 48.",
+     "say": "Feb 2025. Paid to date: 912. Completion factor: 95 percent. Estimated ultimate: 912 ÷ 0.95 = 960. I B N R: 48.",
+     "focus": 1,
+     "file": "clips/16e9df9c76ea.mp3",
+     "seconds": 16.25
+    },
+    {
+     "raw": "Mar 2025. Paid to date: 840. Completion factor: 80%. Estimated ultimate: 840 ÷ 0.80 = 1,050. IBNR: 210.",
+     "say": "Mar 2025. Paid to date: 840. Completion factor: 80 percent. Estimated ultimate: 840 ÷ 0.80 = 1,050. I B N R: 210.",
+     "focus": 2,
+     "file": "clips/476069a15c95.mp3",
+     "seconds": 16.05
+    },
+    {
+     "raw": "Apr 2025. Paid to date: 400. Completion factor: 40%. Estimated ultimate: 400 ÷ 0.40 = 1,000. IBNR: 600.",
+     "say": "Apr 2025. Paid to date: 400. Completion factor: 40 percent. Estimated ultimate: 400 ÷ 0.40 = 1,000. I B N R: 600.",
+     "focus": 3,
+     "file": "clips/32c4760f7e50.mp3",
+     "seconds": 14.925
+    },
+    {
+     "raw": "**Total**. Paid to date: **3,152**. Estimated ultimate: **4,010**. IBNR: **858**.",
+     "say": "Total. Paid to date: 3,152. Estimated ultimate: 4,010. I B N R: 858.",
+     "focus": 4,
+     "file": "clips/ad90ca5d946f.mp3",
+     "seconds": 9.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Completion factors and IBNR",
+   "lines": [
+    {
+     "raw": "What Maria reports.",
+     "say": "What Maria reports.",
+     "focus": -1,
+     "file": "clips/3559638a6838.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Lone Star Health owes about **$858,000** for January to April care that it has not been billed for yet.",
+     "say": "Lone Star Health owes about 858000 dollars for January to April care that it has not been billed for yet.",
+     "focus": -1,
+     "file": "clips/9ac4edd5a87d.mp3",
+     "seconds": 8.55
+    },
+    {
+     "raw": "Finance books this as a liability.",
+     "say": "Finance books this as a liability.",
+     "focus": -1,
+     "file": "clips/296a5813fa53.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "And Maria's PMPM for April uses the **estimated ultimate** ($1,000k), not the $400k paid so far.",
+     "say": "And Maria's P M P M for April uses the estimated ultimate (1000 dollarsk), not the 400 dollarsk paid so far.",
+     "focus": -1,
+     "file": "clips/4c767fb54d71.mp3",
+     "seconds": 9.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Completion factors and IBNR",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Any report built on **incurred** months must say how much run-out it has, and whether recent months are **completed** (adjusted with IBNR) or raw.",
+     "say": "Any report built on incurred months must say how much run-out it has, and whether recent months are completed (adjusted with I B N R) or raw.",
+     "focus": -1,
+     "file": "clips/cdc2bf55b079.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "Raw recent months always look too low, which can make a rising trend look like a fall.",
+     "say": "Raw recent months always look too low, which can make a rising trend look like a fall.",
+     "focus": -1,
+     "file": "clips/e5040b66790f.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "A completion factor from the latest month is very uncertain (a big claim arriving late can swing it), which is why many reports show recent months greyed out or leave them out.",
+     "say": "A completion factor from the latest month is very uncertain (a big claim arriving late can swing it), which is why many reports show recent months greyed out or leave them out.",
+     "focus": -1,
+     "file": "clips/1e77989eb258.mp3",
+     "seconds": 10.95
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Every claim has an incurred date (care) and a paid date; the gap is the claims lag.",
+     "say": "Every claim has an incurred date (care) and a paid date; the gap is the claims lag.",
+     "focus": 0,
+     "file": "clips/cf3d0dba4507.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "A lag triangle shows how each incurred month fills in over time.",
+     "say": "A lag triangle shows how each incurred month fills in over time.",
+     "focus": 1,
+     "file": "clips/f62cf6490012.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Completion factor = share of final claims paid by a given lag; ultimate = paid ÷ completion factor.",
+     "say": "Completion factor = share of final claims paid by a given lag; ultimate = paid ÷ completion factor.",
+     "focus": 2,
+     "file": "clips/5504ac4960cf.mp3",
+     "seconds": 8.55
+    },
+    {
+     "raw": "IBNR = estimated ultimate − paid to date: the money still owed for care already given.",
+     "say": "I B N R = estimated ultimate − paid to date: the money still owed for care already given.",
+     "focus": 3,
+     "file": "clips/01fbddc98bd5.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "Recent incurred months always look too cheap unless they are completed with IBNR.",
+     "say": "Recent incurred months always look too cheap unless they are completed with I B N R.",
+     "focus": 4,
+     "file": "clips/891eeaaf2ed3.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

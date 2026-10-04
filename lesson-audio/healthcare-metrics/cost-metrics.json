@@ -1,0 +1,694 @@
+{
+ "courseId": "healthcare-metrics",
+ "lessonId": "cost-metrics",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: Cost Metrics.",
+     "say": "Lesson 3: Cost Metrics.",
+     "focus": -1,
+     "file": "clips/63de3b780ca9.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Where the money goes: PMPM by service category, allowed vs paid, and cost per unit.",
+     "say": "Where the money goes: P M P M by service category, allowed versus paid, and cost per unit.",
+     "focus": -1,
+     "file": "clips/6a8091c3af51.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Split total PMPM into service categories.",
+     "say": "Split total P M P M into service categories.",
+     "focus": 0,
+     "file": "clips/e489dad09f00.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Tell allowed PMPM, paid PMPM and member cost share apart.",
+     "say": "Tell allowed P M P M, paid P M P M and member cost share apart.",
+     "focus": 1,
+     "file": "clips/af0cca094c9a.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "Calculate cost per unit for admissions, visits and prescriptions.",
+     "say": "Calculate cost per unit for admissions, visits and prescriptions.",
+     "focus": 2,
+     "file": "clips/066929867a15.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Pick the right cost metric for an analyst's question.",
+     "say": "Pick the right cost metric for an analyst's question.",
+     "focus": 3,
+     "file": "clips/0cd6f6b49c61.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with a household budget.",
+     "say": "Start with a household budget.",
+     "focus": -1,
+     "file": "clips/7f04e9e82aa6.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with a household budget",
+   "lines": [
+    {
+     "raw": "In Nepal: Sita's family budget, per person per month.",
+     "say": "In Nepal: Sita's family budget, per person per month.",
+     "focus": -1,
+     "file": "clips/b956b5421bb4.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Sita's family of four spends Rs 48,000 a month.",
+     "say": "Sita's family of four spends Rs 48,000 a month.",
+     "focus": 0,
+     "file": "clips/5ab487c5b11a.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Per person: Rs 48,000 ÷ 4 = **Rs 12,000 per person per month**.",
+     "say": "Per person: Rs 48,000 ÷ 4 = Rs 12,000 per person per month.",
+     "focus": 0,
+     "file": "clips/187c51fb206a.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "That one number does not tell her where to save.",
+     "say": "That one number does not tell her where to save.",
+     "focus": 1,
+     "file": "clips/fe20bd5c434b.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "So she splits it: rent Rs 5,000, food Rs 4,000, transport Rs 1,500, school Rs 1,000, other Rs 500 (all per person).",
+     "say": "So she splits it: rent Rs 5,000, food Rs 4,000, transport Rs 1,500, school Rs 1,000, other Rs 500 (all per person).",
+     "focus": 1,
+     "file": "clips/a05f5e1e7ce1.mp3",
+     "seconds": 13.525
+    },
+    {
+     "raw": "Then she looks at **price per unit**: rice was Rs 90 a kilo last year and Rs 110 now.",
+     "say": "Then she looks at price per unit: rice was Rs 90 a kilo last year and Rs 110 now.",
+     "focus": 2,
+     "file": "clips/9312a453b0ba.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "Food went up because of **price**, not because the family eats more.",
+     "say": "Food went up because of price, not because the family eats more.",
+     "focus": 2,
+     "file": "clips/431332bffc2a.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The SSF could split its medical spending the same way: inpatient stays, outpatient visits and medicines, each per contributor per month.",
+     "say": "The S S F could split its medical spending the same way: inpatient stays, outpatient visits and medicines, each per contributor per month.",
+     "focus": 3,
+     "file": "clips/6cd4a16a7410.mp3",
+     "seconds": 9.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with a household budget",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Total PMPM tells you **how much**; splitting it by **service category** tells you **where**; and **cost per unit** tells you whether a category is expensive because each service is pricey.",
+     "say": "Total P M P M tells you how much; splitting it by service category tells you where; and cost per unit tells you whether a category is expensive because each service is pricey.",
+     "focus": -1,
+     "file": "clips/866dc76afbfd.mp3",
+     "seconds": 11.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: PMPM by service category.",
+     "say": "The U S version: P M P M by service category.",
+     "focus": -1,
+     "file": "clips/da823c146b38.mp3",
+     "seconds": 4.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: PMPM by service category",
+   "lines": [
+    {
+     "raw": "Plans group claims into a handful of **service categories**, mostly by claim type and care setting.",
+     "say": "Plans group claims into a handful of service categories, mostly by claim type and care setting.",
+     "focus": -1,
+     "file": "clips/6e2376061407.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "The exact list varies by company, but this split is common:",
+     "say": "The exact list varies by company, but this split is common:",
+     "focus": -1,
+     "file": "clips/7fc0473ff03e.mp3",
+     "seconds": 4.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The US version: PMPM by service category",
+   "lines": [
+    {
+     "raw": "Lone Star Health, allowed PMPM by service category, 2025 (illustrative).",
+     "say": "Lone Star Health, allowed P M P M by service category, 2025 (illustrative).",
+     "focus": -1,
+     "file": "clips/8d24af8b44ca.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "**Inpatient facility**. What is in it: Hospital stays (the hospital's bill, not the doctors'). Allowed PMPM: $108.00. Share: 23%.",
+     "say": "Inpatient facility. What is in it: Hospital stays (the hospital's bill, not the doctors'). Allowed P M P M: 108 dollars. Share: 23 percent.",
+     "focus": 0,
+     "file": "clips/f3f731539de2.mp3",
+     "seconds": 11.45
+    },
+    {
+     "raw": "**Outpatient facility**. What is in it: Emergency room (ER), outpatient surgery, imaging and tests at a hospital. Allowed PMPM: $95.00. Share: 21%.",
+     "say": "Outpatient facility. What is in it: Emergency room (E R), outpatient surgery, imaging and tests at a hospital. Allowed P M P M: 95 dollars. Share: 21 percent.",
+     "focus": 1,
+     "file": "clips/1a722cfa93e1.mp3",
+     "seconds": 13.475
+    },
+    {
+     "raw": "**Professional**. What is in it: Doctors and other clinicians, wherever they work. Allowed PMPM: $150.00. Share: 33%.",
+     "say": "Professional. What is in it: Doctors and other clinicians, wherever they work. Allowed P M P M: 150 dollars. Share: 33 percent.",
+     "focus": 2,
+     "file": "clips/e207b37b745b.mp3",
+     "seconds": 10.625
+    },
+    {
+     "raw": "**Pharmacy**. What is in it: Prescriptions filled at a pharmacy. Allowed PMPM: $90.00. Share: 20%.",
+     "say": "Pharmacy. What is in it: Prescriptions filled at a pharmacy. Allowed P M P M: 90 dollars. Share: 20 percent.",
+     "focus": 3,
+     "file": "clips/0eec7bd13a8a.mp3",
+     "seconds": 8.5
+    },
+    {
+     "raw": "**Other**. What is in it: Ambulance, equipment, home health and the rest. Allowed PMPM: $17.00. Share: 4%.",
+     "say": "Other. What is in it: Ambulance, equipment, home health and the rest. Allowed P M P M: 17 dollars. Share: 4 percent.",
+     "focus": 4,
+     "file": "clips/89f12fc91517.mp3",
+     "seconds": 9.225
+    },
+    {
+     "raw": "**Total**. Allowed PMPM: **$460.00**. Share: 100%.",
+     "say": "Total. Allowed P M P M: 460 dollars. Share: 100 percent.",
+     "focus": 5,
+     "file": "clips/aca00c19bc19.mp3",
+     "seconds": 6.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The US version: PMPM by service category",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "$108 + $95 + $150 + $90 + $17 = **$460.00**.",
+     "say": "108 dollars and 95 dollars and 150 dollars and 90 dollars and 17 dollars = 460 dollars.",
+     "focus": -1,
+     "file": "clips/4ca812e19891.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "The shares are rounded, so they add to 101%.",
+     "say": "The shares are rounded, so they add to 101 percent.",
+     "focus": -1,
+     "file": "clips/7da801aa5859.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Over 120,000 member months, $460 PMPM is $55,200,000 allowed in the year.",
+     "say": "Over 120,000 member months, 460 dollars P M P M is 55200000 dollars allowed in the year.",
+     "focus": -1,
+     "file": "clips/64a79ea7a406.mp3",
+     "seconds": 10.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Allowed, paid and member share.",
+     "say": "Allowed, paid and member share.",
+     "focus": -1,
+     "file": "clips/16deffd5e602.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Allowed, paid and member share",
+   "lines": [
+    {
+     "raw": "Allowed PMPM.",
+     "say": "Allowed P M P M.",
+     "focus": 0,
+     "file": "clips/274cf6dbd533.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "The full agreed price of all care, per member per month: what the plan paid **plus** what members paid.",
+     "say": "The full agreed price of all care, per member per month: what the plan paid plus what members paid.",
+     "focus": 0,
+     "file": "clips/ef54eb7164da.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Best for comparing the **cost of care** between groups with different benefits.",
+     "say": "Best for comparing the cost of care between groups with different benefits.",
+     "focus": 0,
+     "file": "clips/f7467d4b3232.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "Paid PMPM.",
+     "say": "Paid P M P M.",
+     "focus": 1,
+     "file": "clips/e010676ac7c0.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "Only what the plan paid.",
+     "say": "Only what the plan paid.",
+     "focus": 1,
+     "file": "clips/8f9934855f4f.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Best for the plan's **own finances**.",
+     "say": "Best for the plan's own finances.",
+     "focus": 1,
+     "file": "clips/6a4abf85a04c.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Member cost share.",
+     "say": "Member cost share.",
+     "focus": 2,
+     "file": "clips/22be5973b17f.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "What members paid themselves: deductibles, copays and coinsurance.",
+     "say": "What members paid themselves: deductibles, copays and coinsurance.",
+     "focus": 2,
+     "file": "clips/385319f1c5e3.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Allowed − paid.",
+     "say": "Allowed − paid.",
+     "focus": 2,
+     "file": "clips/203a5093c587.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Billed (charged) amount.",
+     "say": "Billed (charged) amount.",
+     "focus": 3,
+     "file": "clips/d0c2b977278f.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "The provider's list price before discounts.",
+     "say": "The provider's list price before discounts.",
+     "focus": 3,
+     "file": "clips/333a38e4f73c.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Rarely used for metrics because it says little about the real cost.",
+     "say": "Rarely used for metrics because it says little about the real cost.",
+     "focus": 3,
+     "file": "clips/12532d6fcbde.mp3",
+     "seconds": 4.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Allowed, paid and member share",
+   "lines": [
+    {
+     "raw": "Allowed = paid + member cost share.",
+     "say": "Allowed = paid and member cost share.",
+     "focus": -1,
+     "file": "clips/29b101bfe0aa.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Allowed PMPM $460.00 equals Paid PMPM $391.00 plus Member cost share PMPM $69.00.",
+     "say": "Allowed P M P M 460 dollars equals Paid P M P M 391 dollars plus Member cost share P M P M 69 dollars.",
+     "focus": 0,
+     "file": "clips/844bcf9e68f5.mp3",
+     "seconds": 11.55
+    },
+    {
+     "raw": "For example: Members paid $69 ÷ $460 equals 15% of the cost of their care; the plan paid 85%.",
+     "say": "For example: Members paid 69 dollars ÷ 460 dollars equals 15 percent of the cost of their care; the plan paid 85 percent.",
+     "focus": 1,
+     "file": "clips/8313f56a7b16.mp3",
+     "seconds": 11.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Allowed, paid and member share",
+   "lines": [
+    {
+     "raw": "Benefit changes move paid PMPM, not allowed PMPM.",
+     "say": "Benefit changes move paid P M P M, not allowed P M P M.",
+     "focus": -1,
+     "file": "clips/ded31b5110e4.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "If an employer raises the deductible, members pay more and the **paid** PMPM drops, even if exactly the same care was used at the same prices.",
+     "say": "If an employer raises the deductible, members pay more and the paid P M P M drops, even if exactly the same care was used at the same prices.",
+     "focus": -1,
+     "file": "clips/b47fa62ec448.mp3",
+     "seconds": 10.375
+    },
+    {
+     "raw": "Comparing **allowed** PMPM removes that effect.",
+     "say": "Comparing allowed P M P M removes that effect.",
+     "focus": -1,
+     "file": "clips/a767f17311ea.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Always say which one a report shows.",
+     "say": "Always say which one a report shows.",
+     "focus": -1,
+     "file": "clips/66b49435b964.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Cost per unit.",
+     "say": "Cost per unit.",
+     "focus": -1,
+     "file": "clips/a4dd6bb7c43f.mp3",
+     "seconds": 1.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Cost per unit",
+   "lines": [
+    {
+     "raw": "Lone Star Health, allowed cost per unit, 2025 (illustrative).",
+     "say": "Lone Star Health, allowed cost per unit, 2025 (illustrative).",
+     "focus": -1,
+     "file": "clips/d03f094e3c63.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Hospital admission. Allowed dollars: $12,960,000. Units: 720 admissions. Cost per unit: **$18,000** per admission.",
+     "say": "Hospital admission. Allowed dollars: 12960000 dollars. Units: 720 admissions. Cost per unit: 18000 dollars per admission.",
+     "focus": 0,
+     "file": "clips/60d4b60a6b4a.mp3",
+     "seconds": 12.625
+    },
+    {
+     "raw": "ER visit (facility). Allowed dollars: $3,600,000. Units: 1,800 visits. Cost per unit: **$2,000** per visit.",
+     "say": "E R visit (facility). Allowed dollars: 3600000 dollars. Units: 1,800 visits. Cost per unit: 2000 dollars per visit.",
+     "focus": 1,
+     "file": "clips/eadcb47edcb0.mp3",
+     "seconds": 11.675
+    },
+    {
+     "raw": "Primary care office visit (professional). Allowed dollars: $3,120,000. Units: 24,000 visits. Cost per unit: **$130** per visit.",
+     "say": "Primary care office visit (professional). Allowed dollars: 3120000 dollars. Units: 24,000 visits. Cost per unit: 130 dollars per visit.",
+     "focus": 2,
+     "file": "clips/39145ba869cf.mp3",
+     "seconds": 13.025
+    },
+    {
+     "raw": "Prescription (script). Allowed dollars: $10,800,000. Units: 120,000 scripts. Cost per unit: **$90** per script.",
+     "say": "Prescription (script). Allowed dollars: 10800000 dollars. Units: 120,000 scripts. Cost per unit: 90 dollars per script.",
+     "focus": 3,
+     "file": "clips/8f9c5c0b5ca1.mp3",
+     "seconds": 11.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Cost per unit",
+   "lines": [
+    {
+     "raw": "Unit cost depends on more than price.",
+     "say": "Unit cost depends on more than price.",
+     "focus": -1,
+     "file": "clips/9d877d8ea3ad.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Cost per admission rises if the plan's contracted prices go up, but also if the **mix** changes: more heart surgeries and fewer short stays raises the average even at the same prices.",
+     "say": "Cost per admission rises if the plan's contracted prices go up, but also if the mix changes: more heart surgeries and fewer short stays raises the average even at the same prices.",
+     "focus": -1,
+     "file": "clips/b10e7e725384.mp3",
+     "seconds": 12.55
+    },
+    {
+     "raw": "A drug example: one new expensive specialty drug can lift the **average cost per script** for the whole plan.",
+     "say": "A drug example: one new expensive specialty drug can lift the average cost per script for the whole plan.",
+     "focus": -1,
+     "file": "clips/7cc8eeda08ee.mp3",
+     "seconds": 7.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Cost per unit",
+   "lines": [
+    {
+     "raw": "In the US: Maria answers three questions with three metrics.",
+     "say": "In the U S: Maria answers three questions with three metrics.",
+     "focus": -1,
+     "file": "clips/af217c056a7f.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "\"What did our members' care cost in 2025?\" → **Allowed PMPM**: $460.00.",
+     "say": "\"What did our members' care cost in 2025?\" to Allowed P M P M: 460 dollars.",
+     "focus": 0,
+     "file": "clips/6fb089f1a876.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "\"What did it cost us, the plan?\" → **Paid PMPM**: $391.00.",
+     "say": "\"What did it cost us, the plan?\" to Paid P M P M: 391 dollars.",
+     "focus": 1,
+     "file": "clips/aa134fec47a9.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "\"Are our hospitals getting more expensive?\" → **Allowed cost per admission**: $18,000 this year vs last year's figure.",
+     "say": "\"Are our hospitals getting more expensive?\" to Allowed cost per admission: 18000 dollars this year versus last year's figure.",
+     "focus": 2,
+     "file": "clips/84bd47b5e270.mp3",
+     "seconds": 8.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Cost per unit",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "To split PMPM by category, every claim line needs a **service category** assigned by a rule (claim type, bill type, place of service, revenue code).",
+     "say": "To split P M P M by category, every claim line needs a service category assigned by a rule (claim type, bill type, place of service, revenue code).",
+     "focus": -1,
+     "file": "clips/00e215c21efc.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "Different teams use different rules, so the same plan can show different \"inpatient PMPM\" in two reports.",
+     "say": "Different teams use different rules, so the same plan can show different \"inpatient P M P M\" in two reports.",
+     "focus": -1,
+     "file": "clips/65e6a3d23d48.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "Write down the mapping and keep it the same from year to year.",
+     "say": "Write down the mapping and keep it the same from year to year.",
+     "focus": -1,
+     "file": "clips/274a54bbb08a.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "How those claim fields work is taught in the Medical course.",
+     "say": "How those claim fields work is taught in the Medical course.",
+     "focus": -1,
+     "file": "clips/3f2be07deed6.mp3",
+     "seconds": 3.8
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Split total PMPM by service category (inpatient, outpatient, professional, pharmacy, other) to see where money goes.",
+     "say": "Split total P M P M by service category (inpatient, outpatient, professional, pharmacy, other) to see where money goes.",
+     "focus": 0,
+     "file": "clips/2ddc8db6ba92.mp3",
+     "seconds": 8.525
+    },
+    {
+     "raw": "Allowed = paid + member cost share.",
+     "say": "Allowed = paid and member cost share.",
+     "focus": 1,
+     "file": "clips/29b101bfe0aa.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Use allowed to compare the cost of care; paid for the plan's own finances.",
+     "say": "Use allowed to compare the cost of care; paid for the plan's own finances.",
+     "focus": 1,
+     "file": "clips/48c2d340089f.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Benefit changes (like a higher deductible) move paid PMPM even when care does not change.",
+     "say": "Benefit changes (like a higher deductible) move paid P M P M even when care does not change.",
+     "focus": 2,
+     "file": "clips/e3b6f84f42a1.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "Cost per unit = dollars ÷ units: per admission, per visit, per script.",
+     "say": "Cost per unit = dollars ÷ units: per admission, per visit, per script.",
+     "focus": 3,
+     "file": "clips/20955a1491c2.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "Unit cost changes with price and with the mix of services.",
+     "say": "Unit cost changes with price and with the mix of services.",
+     "focus": 4,
+     "file": "clips/89b29b21f89a.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

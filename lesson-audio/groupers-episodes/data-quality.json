@@ -1,0 +1,673 @@
+{
+ "courseId": "groupers-episodes",
+ "lessonId": "data-quality",
+ "lessonNumber": 8,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 8: Data Quality.",
+     "say": "Lesson 8: Data Quality.",
+     "focus": -1,
+     "file": "clips/71e58e998e32.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Grouper versions, missing POA flags, ungroupable claims, split stays and overlapping episodes.",
+     "say": "Grouper versions, missing P O A flags, ungroupable claims, split stays and overlapping episodes.",
+     "focus": -1,
+     "file": "clips/00f3ce37953e.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Choose the right grouper version for payment checks and for trend analysis.",
+     "say": "Choose the right grouper version for payment checks and for trend analysis.",
+     "focus": 0,
+     "file": "clips/7f98d0b9dd93.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Spot missing or invalid POA flags and ungroupable claims.",
+     "say": "Spot missing or invalid P O A flags and ungroupable claims.",
+     "focus": 1,
+     "file": "clips/ad57431d316a.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Combine interim bills before grouping, and tell a billed DRG from a regrouped one.",
+     "say": "Combine interim bills before grouping, and tell a billed D R G from a regrouped one.",
+     "focus": 2,
+     "file": "clips/1648994ed10d.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "Handle overlapping and incomplete episodes.",
+     "say": "Handle overlapping and incomplete episodes.",
+     "focus": 3,
+     "file": "clips/953897e1030a.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with exam grades.",
+     "say": "Start with exam grades.",
+     "focus": -1,
+     "file": "clips/a835124a46ab.mp3",
+     "seconds": 2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with exam grades",
+   "lines": [
+    {
+     "raw": "In Nepal: Comparing SEE results across years.",
+     "say": "In Nepal: Comparing S E E results across years.",
+     "focus": -1,
+     "file": "clips/c3c303c9815c.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Nepal's school-leaving exam changed from the SLC (School Leaving Certificate) to the **SEE** (Secondary Education Examination), and from **percentages and divisions** to **letter grades** (A+, A, B+…).",
+     "say": "Nepal's school-leaving exam changed from the S L C (School Leaving Certificate) to the S E E (Secondary Education Examination), and from percentages and divisions to letter grades (A+, A, B+…).",
+     "focus": 0,
+     "file": "clips/bf37c730aae2.mp3",
+     "seconds": 14.8
+    },
+    {
+     "raw": "A school that compares \"first division\" students from before the change with \"A grade\" students after it is comparing two different rulebooks.",
+     "say": "A school that compares \"first division\" students from before the change with \"A grade\" students after it is comparing two different rulebooks.",
+     "focus": 1,
+     "file": "clips/7adb3fff3e51.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "The numbers move even if the students did not change.",
+     "say": "The numbers move even if the students did not change.",
+     "focus": 1,
+     "file": "clips/bb96f14d04d6.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "To compare fairly, you either use the rulebook of each year to **check** each year's results, or **re-grade every year with one rulebook** to see the trend.",
+     "say": "To compare fairly, you either use the rulebook of each year to check each year's results, or re-grade every year with one rulebook to see the trend.",
+     "focus": 2,
+     "file": "clips/a9d7242e9c35.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The SSF's package list is revised from time to time too.",
+     "say": "The SSF's package list is revised from time to time too.",
+     "focus": 3,
+     "file": "clips/d13d40af4dc3.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "Comparing package counts across a revision has the same problem.",
+     "say": "Comparing package counts across a revision has the same problem.",
+     "focus": 3,
+     "file": "clips/0e61efe68249.mp3",
+     "seconds": 4.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with exam grades",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Grouper results are only as reliable as the **version** used and the **codes, flags and claims** fed in, so check those before you trust any DRG, APC, category or episode count.",
+     "say": "Grouper results are only as reliable as the version used and the codes, flags and claims fed in, so check those before you trust any D R G, A P C, category or episode count.",
+     "focus": -1,
+     "file": "clips/9de5fba72e54.mp3",
+     "seconds": 12.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Problem 1: grouper versions.",
+     "say": "Problem 1: grouper versions.",
+     "focus": -1,
+     "file": "clips/116b0475dc9f.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Problem 1: grouper versions",
+   "lines": [
+    {
+     "raw": "How often the main groupers change.",
+     "say": "How often the main groupers change.",
+     "focus": -1,
+     "file": "clips/96f1d2d1dc46.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "MS-DRG. New version starts: Every **1 October**, the start of the US government's fiscal year (FY): FY2025 began on 1 October 2024. Which version applies to a claim: The version in effect on the **discharge date**.",
+     "say": "M S DRG. New version starts: Every 1 October, the start of the U S government's fiscal year (F Y): F Y 2 0 2 5 began on 1 October 2024. Which version applies to a claim: The version in effect on the discharge date.",
+     "focus": 0,
+     "file": "clips/3b4139ce06e8.mp3",
+     "seconds": 18.275
+    },
+    {
+     "raw": "APC (OPPS). New version starts: Every **1 January**, with quarterly updates. Which version applies to a claim: The version in effect on the **service date**.",
+     "say": "A P C (O P P S). New version starts: Every 1 January, with quarterly updates. Which version applies to a claim: The version in effect on the service date.",
+     "focus": 1,
+     "file": "clips/bd5666e60d09.mp3",
+     "seconds": 11.325
+    },
+    {
+     "raw": "ICD-10-CM / PCS codes. New version starts: Every **1 October** (plus occasional 1 April updates). Which version applies to a claim: Codes valid on the service or discharge date.",
+     "say": "I C D 10-CM or P C S codes. New version starts: Every 1 October (plus occasional 1 April updates). Which version applies to a claim: Codes valid on the service or discharge date.",
+     "focus": 2,
+     "file": "clips/32d0f1ce9492.mp3",
+     "seconds": 14.05
+    },
+    {
+     "raw": "CCSR, HCC and episode groupers. New version starts: Usually yearly. Which version applies to a claim: Depends on the use: see below.",
+     "say": "C C S R, H C C and episode groupers. New version starts: Usually yearly. Which version applies to a claim: Depends on the use: see below.",
+     "focus": 3,
+     "file": "clips/f4a3d2710519.mp3",
+     "seconds": 10.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Problem 1: grouper versions",
+   "lines": [
+    {
+     "raw": "In the US: Which version should you use?",
+     "say": "In the U S: Which version should you use?",
+     "focus": -1,
+     "file": "clips/85972e0a473a.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "**To check or replicate a payment**: use the version in effect for the claim's date.",
+     "say": "To check or replicate a payment: use the version in effect for the claim's date.",
+     "focus": 0,
+     "file": "clips/85f5fbb2e85b.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "A stay discharged on 28 September 2024 uses the FY2024 MS-DRG version; one discharged on 2 October 2024 uses FY2025.",
+     "say": "A stay discharged on 28 September 2024 uses the F Y 2 0 2 4 M S DRG version; one discharged on 2 October 2024 uses F Y 2 0 2 5.",
+     "focus": 0,
+     "file": "clips/6bc9fb76639a.mp3",
+     "seconds": 15.225
+    },
+    {
+     "raw": "A different version can give a different DRG and so a different price.",
+     "say": "A different version can give a different D R G and so a different price.",
+     "focus": 0,
+     "file": "clips/db63f3ecf5cc.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "**To study a trend over years**: regroup **every year with one version**, so a change in the rulebook does not look like a change in care.",
+     "say": "To study a trend over years: regroup every year with one version, so a change in the rulebook does not look like a change in care.",
+     "focus": 1,
+     "file": "clips/b640c1b50f52.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "Real example: in FY2024 (from 1 October 2023), Medicare created new MS-DRGs for hip replacement after a **hip fracture**, taking those stays out of the general hip and knee replacement DRGs.",
+     "say": "Real example: in F Y 2 0 2 4 (from 1 October 2023), Medicare created new M S DRGs for hip replacement after a hip fracture, taking those stays out of the general hip and knee replacement D R G's.",
+     "focus": 2,
+     "file": "clips/b650923d8d66.mp3",
+     "seconds": 17.05
+    },
+    {
+     "raw": "Counted with each year's own version, the old DRGs suddenly \"lost\" stays.",
+     "say": "Counted with each year's own version, the old D R G's suddenly \"lost\" stays.",
+     "focus": 2,
+     "file": "clips/74d423280209.mp3",
+     "seconds": 5.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Problem 2: bad inputs.",
+     "say": "Problem 2: bad inputs.",
+     "focus": -1,
+     "file": "clips/feecb8607f99.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Problem 2: bad inputs",
+   "lines": [
+    {
+     "raw": "Input problems and what they do.",
+     "say": "Input problems and what they do.",
+     "focus": -1,
+     "file": "clips/4e9e068f037e.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "**Missing or invalid POA flag**. What happens: The grouper cannot tell if a condition started in hospital; hospital-acquired condition checks fail. What to do: Count and report missing POA by hospital. Some hospital types (for example critical access hospitals) are exempt from Medicare's POA payment rules.",
+     "say": "Missing or invalid P O A flag. What happens: The grouper cannot tell if a condition started in hospital; hospital-acquired condition checks fail. What to do: Count and report missing P O A by hospital. Some hospital types (for example critical access hospitals) are exempt from Medicare's P O A payment rules.",
+     "focus": 0,
+     "file": "clips/951a266e2178.mp3",
+     "seconds": 21.55
+    },
+    {
+     "raw": "**Ungroupable claim**. What happens: Invalid principal diagnosis, impossible age or sex for a code, or missing data. MS-DRG puts it in DRG **999 (Ungroupable)**. What to do: Keep a count; fix the source data or exclude with a note.",
+     "say": "Ungroupable claim. What happens: Invalid principal diagnosis, impossible age or sex for a code, or missing data. M S DRG puts it in D R G 999 (Ungroupable). What to do: Keep a count; fix the source data or exclude with a note.",
+     "focus": 1,
+     "file": "clips/0a9a07c8b7ef.mp3",
+     "seconds": 18.45
+    },
+    {
+     "raw": "**Code not valid on that date**. What happens: A retired or not-yet-valid ICD-10 code is ignored or makes the claim ungroupable. What to do: Check codes against the code set for the service date.",
+     "say": "Code not valid on that date. What happens: A retired or not-yet-valid I C D 10 code is ignored or makes the claim ungroupable. What to do: Check codes against the code set for the service date.",
+     "focus": 2,
+     "file": "clips/f4286957bd53.mp3",
+     "seconds": 13.725
+    },
+    {
+     "raw": "**Missing secondary diagnoses**. What happens: Stays group to lower-severity DRGs. What to do: Compare the average number of diagnoses per stay by hospital.",
+     "say": "Missing secondary diagnoses. What happens: Stays group to lower-severity D R G's. What to do: Compare the average number of diagnoses per stay by hospital.",
+     "focus": 3,
+     "file": "clips/678ee496c0e3.mp3",
+     "seconds": 11.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Problem 3: one stay, many claims.",
+     "say": "Problem 3: one stay, many claims.",
+     "focus": -1,
+     "file": "clips/00848fcb369b.mp3",
+     "seconds": 2.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Problem 3: one stay, many claims",
+   "lines": [
+    {
+     "raw": "Interim bill.",
+     "say": "Interim bill.",
+     "focus": 0,
+     "file": "clips/382aaefd8e35.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "For a long stay, a hospital may bill in parts.",
+     "say": "For a long stay, a hospital may bill in parts.",
+     "focus": 0,
+     "file": "clips/7065ba883301.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "The type of bill code shows it: `0112` first interim bill, `0113` continuing, `0114` last.",
+     "say": "The type of bill code shows it: 0 1 1 2 first interim bill, 0 1 1 3 continuing, 0 1 1 4 last.",
+     "focus": 0,
+     "file": "clips/2a76630c692a.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "Group the **combined** stay, not each part.",
+     "say": "Group the combined stay, not each part.",
+     "focus": 0,
+     "file": "clips/53104efe17f2.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Transfer.",
+     "say": "Transfer.",
+     "focus": 1,
+     "file": "clips/44952530882b.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "A patient moved from one hospital to another: two stays, two DRGs.",
+     "say": "A patient moved from one hospital to another: two stays, two D R G's.",
+     "focus": 1,
+     "file": "clips/46eb6862afc8.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Payment rules for transfers differ, and the first hospital's stay looks short.",
+     "say": "Payment rules for transfers differ, and the first hospital's stay looks short.",
+     "focus": 1,
+     "file": "clips/17dddb642381.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "Billed DRG vs regrouped DRG.",
+     "say": "Billed D R G versus regrouped D R G.",
+     "focus": 2,
+     "file": "clips/db6d8c91d8c9.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "The hospital puts a DRG on its claim; payers and analysts often **regroup** the claim themselves.",
+     "say": "The hospital puts a D R G on its claim; payers and analysts often regroup the claim themselves.",
+     "focus": 2,
+     "file": "clips/77a487d6fe2a.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "If they differ, check the version and the codes; payers also audit DRGs (\"DRG validation\").",
+     "say": "If they differ, check the version and the codes; payers also audit D R G's (\"D R G validation\").",
+     "focus": 2,
+     "file": "clips/3419cebbe3b6.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "MS-DRG vs APR-DRG.",
+     "say": "M S DRG versus A P R DRG.",
+     "focus": 3,
+     "file": "clips/90cd2a3171d1.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Different systems with different numbers and meanings.",
+     "say": "Different systems with different numbers and meanings.",
+     "focus": 3,
+     "file": "clips/85212c297c97.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Never mix them in one column or one trend.",
+     "say": "Never mix them in one column or one trend.",
+     "focus": 3,
+     "file": "clips/d0e0ac1aa3a0.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Problem 4: episodes that overlap or are cut short.",
+     "say": "Problem 4: episodes that overlap or are cut short.",
+     "focus": -1,
+     "file": "clips/d20d234a5347.mp3",
+     "seconds": 3.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Problem 4: episodes that overlap or are cut short",
+   "lines": [
+    {
+     "raw": "**Overlap**: one claim can fit two episodes (an ER visit during both a knee replacement episode and a diabetes episode).",
+     "say": "Overlap: one claim can fit two episodes (an E R visit during both a knee replacement episode and a diabetes episode).",
+     "focus": 0,
+     "file": "clips/9d048af85448.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "Use **priority or nesting rules** so each dollar is counted once.",
+     "say": "Use priority or nesting rules so each dollar is counted once.",
+     "focus": 0,
+     "file": "clips/8cf019ebf536.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "**Incomplete windows**: an episode that ends on 9 December is not complete until its claims arrive.",
+     "say": "Incomplete windows: an episode that ends on 9 December is not complete until its claims arrive.",
+     "focus": 1,
+     "file": "clips/570bdd66c617.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "Leave enough **run-out** after the window ends before reporting.",
+     "say": "Leave enough run-out after the window ends before reporting.",
+     "focus": 1,
+     "file": "clips/5d606e908d0f.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "**Eligibility gaps**: a member who leaves the plan mid-episode has missing care.",
+     "say": "Eligibility gaps: a member who leaves the plan mid-episode has missing care.",
+     "focus": 2,
+     "file": "clips/2aaecce3a88a.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "Flag or exclude those episodes.",
+     "say": "Flag or exclude those episodes.",
+     "focus": 2,
+     "file": "clips/266904083569.mp3",
+     "seconds": 2.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Gulf Coast Advantage's quality check.",
+     "say": "Worked example: Gulf Coast Advantage's quality check.",
+     "focus": -1,
+     "file": "clips/9a70f2628487.mp3",
+     "seconds": 3.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: Gulf Coast Advantage's quality check",
+   "lines": [
+    {
+     "raw": "Before publishing a hospital DRG report for October 2023 to September 2025, the analytics team at Gulf Coast Advantage (a made-up Medicare Advantage plan) runs its checks on 2,000 inpatient claims (illustrative).",
+     "say": "Before publishing a hospital D R G report for October 2023 to September 2025, the analytics team at Gulf Coast Advantage (a made-up Medicare Advantage plan) runs its checks on 2,000 inpatient claims (illustrative).",
+     "focus": -1,
+     "file": "clips/9c14049a7850.mp3",
+     "seconds": 16.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: Gulf Coast Advantage's quality check",
+   "lines": [
+    {
+     "raw": "Data quality results (illustrative).",
+     "say": "Data quality results (illustrative).",
+     "focus": -1,
+     "file": "clips/3f05a1854f07.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Interim bills (`0112`–`0114`). Result: 60 claims forming 24 stays. Action: Combined into 24 stays before grouping.",
+     "say": "Interim bills (0 1 1 2–0 1 1 4). Result: 60 claims forming 24 stays. Action: Combined into 24 stays before grouping.",
+     "focus": 0,
+     "file": "clips/00cb847d388f.mp3",
+     "seconds": 11.3
+    },
+    {
+     "raw": "Ungroupable (DRG 999). Result: 6 stays. Action: Sent back to fix; excluded with a footnote.",
+     "say": "Ungroupable (D R G 999). Result: 6 stays. Action: Sent back to fix; excluded with a footnote.",
+     "focus": 1,
+     "file": "clips/56541963315b.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "Missing POA on required codes. Result: 3% overall; 18% at one hospital. Action: That hospital's hospital-acquired condition rates marked unreliable.",
+     "say": "Missing P O A on required codes. Result: 3 percent overall; 18 percent at one hospital. Action: That hospital's hospital-acquired condition rates marked unreliable.",
+     "focus": 2,
+     "file": "clips/fccf03002d2f.mp3",
+     "seconds": 12.825
+    },
+    {
+     "raw": "Billed DRG ≠ regrouped DRG. Result: 45 stays. Action: Reviewed: 30 used an older version, 15 had different codes.",
+     "say": "Billed D R G ≠ regrouped D R G. Result: 45 stays. Action: Reviewed: 30 used an older version, 15 had different codes.",
+     "focus": 3,
+     "file": "clips/5e9337744b45.mp3",
+     "seconds": 11.15
+    },
+    {
+     "raw": "Version for the trend. Result: Two fiscal years in the report. Action: All stays regrouped with the FY2025 version for the trend chart.",
+     "say": "Version for the trend. Result: Two fiscal years in the report. Action: All stays regrouped with the F Y 2 0 2 5 version for the trend chart.",
+     "focus": 4,
+     "file": "clips/b63b50c1eb62.mp3",
+     "seconds": 10.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: Gulf Coast Advantage's quality check",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Always store the **grouper name and version** next to every group code, and keep a count of what was combined, excluded or ungroupable.",
+     "say": "Always store the grouper name and version next to every group code, and keep a count of what was combined, excluded or ungroupable.",
+     "focus": -1,
+     "file": "clips/6c11e19d6c29.mp3",
+     "seconds": 8.475
+    },
+    {
+     "raw": "Without that, nobody can reproduce your numbers, and a change in a rulebook will be mistaken for a change in care.",
+     "say": "Without that, nobody can reproduce your numbers, and a change in a rulebook will be mistaken for a change in care.",
+     "focus": -1,
+     "file": "clips/bc44bd9d5b8b.mp3",
+     "seconds": 7.1
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "MS-DRG versions change every 1 October, APCs every 1 January; use the claim-date version to check payments.",
+     "say": "M S DRG versions change every 1 October, A P C's every 1 January; use the claim-date version to check payments.",
+     "focus": 0,
+     "file": "clips/e040dd67d48f.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "For trends over years, regroup all years with one version.",
+     "say": "For trends over years, regroup all years with one version.",
+     "focus": 1,
+     "file": "clips/cd3e5e856247.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Missing POA, invalid codes and missing secondary diagnoses change groups; ungroupable stays go to DRG 999.",
+     "say": "Missing P O A, invalid codes and missing secondary diagnoses change groups; ungroupable stays go to D R G 999.",
+     "focus": 2,
+     "file": "clips/02e8ce9ca6d0.mp3",
+     "seconds": 10
+    },
+    {
+     "raw": "Combine interim bills before grouping; never mix MS-DRG and APR-DRG.",
+     "say": "Combine interim bills before grouping; never mix M S DRG and A P R DRG.",
+     "focus": 3,
+     "file": "clips/f00a89b39b45.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Episodes need overlap rules, enough run-out and full eligibility.",
+     "say": "Episodes need overlap rules, enough run-out and full eligibility.",
+     "focus": 4,
+     "file": "clips/5bb9ed5d865d.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

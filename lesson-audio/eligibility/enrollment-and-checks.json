@@ -1,0 +1,1184 @@
+{
+ "courseId": "eligibility",
+ "lessonId": "enrollment-and-checks",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: How Eligibility Data Moves.",
+     "say": "Lesson 5: How Eligibility Data Moves.",
+     "focus": -1,
+     "file": "clips/5f69e3bc3df9.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "The 834 enrollment file, the ID card and 270/271 checks: how the insurer learns who is covered, and how a hospital asks.",
+     "say": "The 8 34 enrollment file, the I D card and 2 70/2 71 checks: how the insurer learns who is covered, and how a hospital asks.",
+     "focus": -1,
+     "file": "clips/170910b95112.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Know what an 834 enrollment file is, who sends it and what it contains.",
+     "say": "Know what an 8 34 enrollment file is, who sends it and what it contains.",
+     "focus": 0,
+     "file": "clips/1d83bc9f2aaf.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Understand why every 834 member record carries a maintenance type (add, change, term).",
+     "say": "Understand why every 8 34 member record carries a maintenance type (add, change, term).",
+     "focus": 1,
+     "file": "clips/8b991ccdd95f.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "Tell a full file from a change file.",
+     "say": "Tell a full file from a change file.",
+     "focus": 2,
+     "file": "clips/5a8f487d6dfa.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Follow a 270 question and 271 answer, and read an insurance ID card.",
+     "say": "Follow a 2 70 question and 2 71 answer, and read an insurance I D card.",
+     "focus": 3,
+     "file": "clips/e3902c731ec7.mp3",
+     "seconds": 6.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Think of a school register being kept up to date.",
+     "say": "Think of a school register being kept up to date.",
+     "focus": -1,
+     "file": "clips/6325e6a17d46.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "The school office sends the class teacher a note: \"new student from Monday\", \"Asha has moved to another school\".",
+     "say": "The school office sends the class teacher a note: \"new student from Monday\", \"Asha has moved to another school\".",
+     "focus": -1,
+     "file": "clips/75237c4cd160.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "The teacher updates the register.",
+     "say": "The teacher updates the register.",
+     "focus": -1,
+     "file": "clips/9141a9b95a23.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Later, a parent phones to ask \"is my son enrolled in this class?\" Eligibility data moves the same two ways: **updates flow in** to the insurer, and **questions come in** from doctors and hospitals.",
+     "say": "Later, a parent phones to ask \"is my son enrolled in this class?\" Eligibility data moves the same two ways: updates flow in to the insurer, and questions come in from doctors and hospitals.",
+     "focus": -1,
+     "file": "clips/1e78a8c2393d.mp3",
+     "seconds": 12.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two directions of eligibility data.",
+     "say": "Two directions of eligibility data.",
+     "focus": -1,
+     "file": "clips/a6c576465ae5.mp3",
+     "seconds": 2.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Two directions of eligibility data",
+   "lines": [
+    {
+     "raw": "Step 1: Enrollment.",
+     "say": "Step 1: Enrollment.",
+     "focus": 0,
+     "file": "clips/7561ffb07b28.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Emily adds Daniel through her employer's HR or benefits website.",
+     "say": "Emily adds Daniel through her employer's H R or benefits website.",
+     "focus": 0,
+     "file": "clips/a533238dac80.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "Step 2: 834 file.",
+     "say": "Step 2: 8 34 file.",
+     "focus": 1,
+     "file": "clips/3c0fc947e1fd.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "The employer sends an **834** enrollment file to the insurer: \"add Daniel from 1 July\".",
+     "say": "The employer sends an 8 34 enrollment file to the insurer: \"add Daniel from 1 July\".",
+     "focus": 1,
+     "file": "clips/6f7be3917375.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "Step 3: Eligibility table.",
+     "say": "Step 3: Eligibility table.",
+     "focus": 2,
+     "file": "clips/c1e9c76badcb.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "The insurer loads it, creating Daniel's member ID and span.",
+     "say": "The insurer loads it, creating Daniel's member I D and span.",
+     "focus": 2,
+     "file": "clips/b3273f4b32f2.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "Step 4: ID card.",
+     "say": "Step 4: I D card.",
+     "focus": 3,
+     "file": "clips/e578c204c985.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "The insurer sends Daniel his own card.",
+     "say": "The insurer sends Daniel his own card.",
+     "focus": 3,
+     "file": "clips/b07bafb1da9b.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Step 5: 270 / 271 check.",
+     "say": "Step 5: 2 70 or 2 71 check.",
+     "focus": 4,
+     "file": "clips/9435e92931ac.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "Daniel's doctor asks the insurer: \"is he covered today?\" and gets an answer.",
+     "say": "Daniel's doctor asks the insurer: \"is he covered today?\" and gets an answer.",
+     "focus": 4,
+     "file": "clips/cc2cb69f53bb.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "Step 6: Claim.",
+     "say": "Step 6: Claim.",
+     "focus": 5,
+     "file": "clips/978068a4fc0d.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "After the visit, the claim is checked against the same eligibility table before payment.",
+     "say": "After the visit, the claim is checked against the same eligibility table before payment.",
+     "focus": 5,
+     "file": "clips/67bf0c282388.mp3",
+     "seconds": 5.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The 834: benefit enrollment file.",
+     "say": "The 8 34: benefit enrollment file.",
+     "focus": -1,
+     "file": "clips/85d130a251fc.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The 834: benefit enrollment file",
+   "lines": [
+    {
+     "raw": "The **834** is the US standard electronic file (an **X12 EDI** transaction, the standard named under HIPAA) for sending enrollment to an insurer.",
+     "say": "The 8 34 is the U S standard electronic file (an X12 E D I transaction, the standard named under HIPAA) for sending enrollment to an insurer.",
+     "focus": -1,
+     "file": "clips/7869e548bec2.mp3",
+     "seconds": 11.075
+    },
+    {
+     "raw": "\"834\" is just its number, like \"837\" for claims.",
+     "say": "\"8 34\" is just its number, like \"8 37\" for claims.",
+     "focus": -1,
+     "file": "clips/78151aa78858.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "It is sent by whoever decides who is covered: an **employer** (or its benefits vendor), a **state Medicaid agency**, or an **ACA Marketplace**.",
+     "say": "It is sent by whoever decides who is covered: an employer (or its benefits vendor), a state Medicaid agency, or an A C A Marketplace.",
+     "focus": -1,
+     "file": "clips/c860934b2b23.mp3",
+     "seconds": 9.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The 834: benefit enrollment file",
+   "lines": [
+    {
+     "raw": "What an 834 carries for each member (simplified).",
+     "say": "What an 8 34 carries for each member (simplified).",
+     "focus": -1,
+     "file": "clips/fc63dead7008.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "**Member level (INS)**. Contents: Subscriber or dependent, relationship code, **what kind of change** this is. Lesson: 3, and below.",
+     "say": "Member level (I N S). Contents: Subscriber or dependent, relationship code, what kind of change this is. Lesson: 3, and below.",
+     "focus": 0,
+     "file": "clips/5dcb07842819.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "**Member ID and name**. Contents: IDs, name, address, date of birth, gender. Lesson: 3.",
+     "say": "Member I D and name. Contents: I D's, name, address, date of birth, gender. Lesson: 3.",
+     "focus": 1,
+     "file": "clips/7232edfe926a.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "**Health coverage (HD)**. Contents: Plan, coverage level (e.g. employee only, family). Lesson: 2.",
+     "say": "Health coverage (H D). Contents: Plan, coverage level (for example employee only, family). Lesson: 2.",
+     "focus": 2,
+     "file": "clips/85b2d045bc6b.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "**Dates (DTP)**. Contents: Benefit **begin** date and benefit **end** date. Lesson: 4.",
+     "say": "Dates (D T P). Contents: Benefit begin date and benefit end date. Lesson: 4.",
+     "focus": 3,
+     "file": "clips/59fefec76313.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "**Other insurance (COB)**. Contents: Other cover the member has, and whether it pays first or second. Lesson: 6 (next lesson).",
+     "say": "Other insurance (C O B). Contents: Other cover the member has, and whether it pays first or second. Lesson: 6 (next lesson).",
+     "focus": 4,
+     "file": "clips/d5bc5d519aa4.mp3",
+     "seconds": 9.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The 834: benefit enrollment file",
+   "lines": [
+    {
+     "raw": "The member line that adds Daniel (simplified).",
+     "say": "The member line that adds Daniel (simplified).",
+     "focus": -1,
+     "file": "clips/a2cc6c84d3a3.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "INS: Member level detail: \"here comes one person\".",
+     "say": "I N S: Member level detail: \"here comes one person\".",
+     "focus": 0,
+     "file": "clips/adaf42a13788.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "N: Is this person the subscriber?",
+     "say": "N: Is this person the subscriber?",
+     "focus": 1,
+     "file": "clips/946691637c49.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "**N** = no (a dependent).",
+     "say": "N = no (a dependent).",
+     "focus": 1,
+     "file": "clips/3899086fba6e.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Emily's line has **Y**.",
+     "say": "Emily's line has Y.",
+     "focus": 1,
+     "file": "clips/2b3add61615e.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "01: Relationship to the subscriber: **01** = spouse (18 = self, 19 = child).",
+     "say": "01: Relationship to the subscriber: 01 = spouse (18 = self, 19 = child).",
+     "focus": 2,
+     "file": "clips/d8439004246b.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "021: Maintenance type: **021** = addition, a new member.",
+     "say": "021: Maintenance type: 021 = addition, a new member.",
+     "focus": 3,
+     "file": "clips/72d4390489fb.mp3",
+     "seconds": 6.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The 834: benefit enrollment file",
+   "lines": [
+    {
+     "raw": "Daniel's cover start date.",
+     "say": "Daniel's cover start date.",
+     "focus": -1,
+     "file": "clips/c56cef3821cd.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "DTP: A date follows.",
+     "say": "D T P: A date follows.",
+     "focus": 0,
+     "file": "clips/2324f009ea6b.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "348: **Benefit begin** date (the effective date).",
+     "say": "348: Benefit begin date (the effective date).",
+     "focus": 1,
+     "file": "clips/3325d32d4621.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "**349** would be benefit end (the termination date).",
+     "say": "349 would be benefit end (the termination date).",
+     "focus": 1,
+     "file": "clips/876d5dfac747.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "D8: Date format: one date written as CCYYMMDD.",
+     "say": "D8: Date format: one date written as CCYYMMDD.",
+     "focus": 2,
+     "file": "clips/c049e292c123.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "20250701: 1 July 2025.",
+     "say": "20250701: 1 July 2025.",
+     "focus": 3,
+     "file": "clips/e7bfbf4b3d38.mp3",
+     "seconds": 6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The 834: benefit enrollment file",
+   "lines": [
+    {
+     "raw": "Real files are longer.",
+     "say": "Real files are longer.",
+     "focus": -1,
+     "file": "clips/b0d97271503b.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "Each line (called a **segment**) in a real 834 has more parts, separated by `*`, and a member's record spans many segments.",
+     "say": "Each line (called a segment) in a real 8 34 has more parts, separated by *, and a member's record spans many segments.",
+     "focus": -1,
+     "file": "clips/69eb921c0f87.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "You do not need to memorise them.",
+     "say": "You do not need to memorise them.",
+     "focus": -1,
+     "file": "clips/3bf3b233deb6.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Most analysts never read raw 834s: the insurer loads them into an eligibility table first.",
+     "say": "Most analysts never read raw 834s: the insurer loads them into an eligibility table first.",
+     "focus": -1,
+     "file": "clips/2410fa64282a.mp3",
+     "seconds": 7.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The 834: benefit enrollment file",
+   "lines": [
+    {
+     "raw": "The wider X12 family.",
+     "say": "The wider X12 family.",
+     "focus": -1,
+     "file": "clips/1a8f4118099e.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The 834, 270 and 271 belong to a family of standard X12 transactions (837 claims, 835 payments and more).",
+     "say": "The 8 34, 2 70 and 2 71 belong to a family of standard X12 transactions (8 37 claims, 8 35 payments and more).",
+     "focus": -1,
+     "file": "clips/be3dfcc57d2b.mp3",
+     "seconds": 11.1
+    },
+    {
+     "raw": "This course shows only the eligibility ones; the Interoperability course explains the whole family.",
+     "say": "This course shows only the eligibility ones; the Interoperability course explains the whole family.",
+     "focus": -1,
+     "file": "clips/583a9535fc1c.mp3",
+     "seconds": 6.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Maintenance type codes: what kind of change?",
+     "say": "Maintenance type codes: what kind of change?",
+     "focus": -1,
+     "file": "clips/35f370a60b3c.mp3",
+     "seconds": 3.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Maintenance type codes: what kind of change?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`021`. Meaning: **Addition**: a new member. Example: Daniel joins on 1 July 2025.",
+     "say": "021. Meaning: Addition: a new member. Example: Daniel joins on 1 July 2025.",
+     "focus": 0,
+     "file": "clips/874c4d6290d5.mp3",
+     "seconds": 8.2
+    },
+    {
+     "raw": "`001`. Meaning: **Change**: update details of an existing member. Example: Emily moves to a new address.",
+     "say": "001. Meaning: Change: update details of an existing member. Example: Emily moves to a new address.",
+     "focus": 1,
+     "file": "clips/3f60d48ecbf4.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "`024`. Meaning: **Cancellation or termination**: end cover. Example: An employee leaves the company.",
+     "say": "024. Meaning: Cancellation or termination: end cover. Example: An employee leaves the company.",
+     "focus": 2,
+     "file": "clips/1661d9325c5d.mp3",
+     "seconds": 8.2
+    },
+    {
+     "raw": "`025`. Meaning: **Reinstatement**: restore cover that was ended. Example: A termination sent by mistake is undone.",
+     "say": "025. Meaning: Reinstatement: restore cover that was ended. Example: A termination sent by mistake is undone.",
+     "focus": 3,
+     "file": "clips/9dcf7ce9fd35.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "`030`. Meaning: **Audit or compare**: \"here is a member who is still covered\", sent in full files. Example: Emily appears in every monthly full file.",
+     "say": "030. Meaning: Audit or compare: \"here is a member who is still covered\", sent in full files. Example: Emily appears in every monthly full file.",
+     "focus": 4,
+     "file": "clips/3a157e0e6289.mp3",
+     "seconds": 11.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Full file vs change file.",
+     "say": "Full file versus change file.",
+     "focus": -1,
+     "file": "clips/12ca52c2333a.mp3",
+     "seconds": 2.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Full file vs change file",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "What it holds. Full file (audit file): **Every** member who is covered right now. Change file: Only members who **changed** since the last file.",
+     "say": "What it holds. Full file (audit file): Every member who is covered right now. Change file: Only members who changed since the last file.",
+     "focus": 0,
+     "file": "clips/02ef8ea71fc7.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "Size. Full file (audit file): Large. Change file: Small.",
+     "say": "Size. Full file (audit file): Large. Change file: Small.",
+     "focus": 1,
+     "file": "clips/c8fb1eaaddbb.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "How the insurer uses it. Full file (audit file): Compares with its own table: anyone **missing** from the file may need to be termed. Change file: Applies each add, change or term.",
+     "say": "How the insurer uses it. Full file (audit file): Compares with its own table: anyone missing from the file may need to be termed. Change file: Applies each add, change or term.",
+     "focus": 2,
+     "file": "clips/953df8ba4922.mp3",
+     "seconds": 12.35
+    },
+    {
+     "raw": "Risk. Full file (audit file): A missing person can be termed by mistake. Change file: A lost file means lost changes.",
+     "say": "Risk. Full file (audit file): A missing person can be termed by mistake. Change file: A lost file means lost changes.",
+     "focus": 3,
+     "file": "clips/ff59fdcc0c92.mp3",
+     "seconds": 8.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Full file vs change file",
+   "lines": [
+    {
+     "raw": "Where errors creep in.",
+     "say": "Where errors creep in.",
+     "focus": -1,
+     "file": "clips/88778b32f187.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Many eligibility problems start in the 834: an employer forgets to send a term (so claims are paid for someone who left), or a full file accidentally leaves people out (so they are termed and their claims are denied).",
+     "say": "Many eligibility problems start in the 8 34: an employer forgets to send a term (so claims are paid for someone who left), or a full file accidentally leaves people out (so they are termed and their claims are denied).",
+     "focus": -1,
+     "file": "clips/1f30f448aab3.mp3",
+     "seconds": 14.625
+    },
+    {
+     "raw": "This is why insurers have teams that only reconcile enrollment.",
+     "say": "This is why insurers have teams that only reconcile enrollment.",
+     "focus": -1,
+     "file": "clips/5b93e30cd17c.mp3",
+     "seconds": 4.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The ID card.",
+     "say": "The I D card.",
+     "focus": -1,
+     "file": "clips/8256f711b7f9.mp3",
+     "seconds": 1.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "The ID card",
+   "lines": [
+    {
+     "raw": "Here is the Member ID card form: Emily's insurance card (front).",
+     "say": "Here is the Member I D card form: Emily's insurance card (front).",
+     "focus": -1,
+     "file": "clips/72aeccba0495.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Member name: Emily Carter.",
+     "say": "Member name: Emily Carter.",
+     "focus": 0,
+     "file": "clips/65ab1408dcb7.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Member ID: 48291307-01.",
+     "say": "Member I D: 4 8 2 9 1 3 0 7 dash 0 1.",
+     "focus": 1,
+     "file": "clips/6fefe4f5ef2d.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Family ID + suffix (lesson 3).",
+     "say": "Family I D and suffix (lesson 3).",
+     "focus": 1,
+     "file": "clips/b63da2708fee.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Group number: G20450.",
+     "say": "Group number: G 2 0 4 5 0.",
+     "focus": 2,
+     "file": "clips/33adabc0e6e2.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "Bluebonnet Logistics.",
+     "say": "Bluebonnet Logistics.",
+     "focus": 2,
+     "file": "clips/55e8c989ab8d.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Plan: TXPPO1000.",
+     "say": "Plan: T X P P O 1 0 0 0.",
+     "focus": 3,
+     "file": "clips/a6ba0cff02fa.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "PPO, in-network and out-of-network.",
+     "say": "P P O, in-network and out-of-network.",
+     "focus": 3,
+     "file": "clips/09741e7fef2a.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Office visit copay: $25.",
+     "say": "Office visit copay: 25 dollars.",
+     "focus": 4,
+     "file": "clips/6fc766bc45c6.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Deductible / coinsurance: $1,000 / 20%.",
+     "say": "Deductible or coinsurance: 1000 dollars or 20 percent.",
+     "focus": 5,
+     "file": "clips/b5abef230f5e.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "Effective date: 01/01/2022.",
+     "say": "Effective date: 01/01/2022.",
+     "focus": 6,
+     "file": "clips/3a7f24507092.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "Pharmacy (Rx BIN / PCN): Printed for pharmacies.",
+     "say": "Pharmacy (Rx B I N or P C N): Printed for pharmacies.",
+     "focus": 7,
+     "file": "clips/4d78c1d23fcf.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Routes drug claims; see the Pharmacy course.",
+     "say": "Routes drug claims; see the Pharmacy course.",
+     "focus": 7,
+     "file": "clips/c7a39f209b2a.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Provider phone: On the back.",
+     "say": "Provider phone: On the back.",
+     "focus": 8,
+     "file": "clips/a01f97eac672.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "For eligibility and claims questions.",
+     "say": "For eligibility and claims questions.",
+     "focus": 8,
+     "file": "clips/7879149d5833.mp3",
+     "seconds": 2.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "The ID card",
+   "lines": [
+    {
+     "raw": "A card is not proof of cover.",
+     "say": "A card is not proof of cover.",
+     "focus": -1,
+     "file": "clips/9569d629ebe4.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The card shows who was enrolled **when it was printed**.",
+     "say": "The card shows who was enrolled when it was printed.",
+     "focus": -1,
+     "file": "clips/f64f8b3b95b5.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "If Emily left her job yesterday, her card would look exactly the same.",
+     "say": "If Emily left her job yesterday, her card would look exactly the same.",
+     "focus": -1,
+     "file": "clips/5d50582ac4b6.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "That is why providers check eligibility electronically before treating.",
+     "say": "That is why providers check eligibility electronically before treating.",
+     "focus": -1,
+     "file": "clips/96cce3e2a722.mp3",
+     "seconds": 4.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "",
+   "lines": [
+    {
+     "raw": "270 and 271: \"Is this person covered?\".",
+     "say": "2 70 and 2 71: \"Is this person covered?\".",
+     "focus": -1,
+     "file": "clips/ce269ebdacfb.mp3",
+     "seconds": 4.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "270 and 271: \"Is this person covered?\"",
+   "lines": [
+    {
+     "raw": "270: eligibility inquiry.",
+     "say": "2 70: eligibility inquiry.",
+     "focus": 0,
+     "file": "clips/95b9d606080b.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Sent by a **provider** (or its software) to the insurer: the member's ID, name, date of birth and the **date of service**.",
+     "say": "Sent by a provider (or its software) to the insurer: the member's I D, name, date of birth and the date of service.",
+     "focus": 0,
+     "file": "clips/93cb6ce178c8.mp3",
+     "seconds": 7.525
+    },
+    {
+     "raw": "271: eligibility response.",
+     "say": "2 71: eligibility response.",
+     "focus": 1,
+     "file": "clips/96ec59ec19a2.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "The insurer's **answer**: active or not, the plan, and benefits such as copay, deductible and how much is left.",
+     "say": "The insurer's answer: active or not, the plan, and benefits such as copay, deductible and how much is left.",
+     "focus": 1,
+     "file": "clips/13e8122b19bb.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "Usually back within seconds.",
+     "say": "Usually back within seconds.",
+     "focus": 1,
+     "file": "clips/0e67571aa252.mp3",
+     "seconds": 2.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "270 and 271: \"Is this person covered?\"",
+   "lines": [
+    {
+     "raw": "In the US: Lakeside General Hospital checks Emily on 2 June 2025.",
+     "say": "In the U S: Lakeside General Hospital checks Emily on 2 June 2025.",
+     "focus": -1,
+     "file": "clips/c05cb8157592.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "Emily arrives at the emergency room with appendicitis.",
+     "say": "Emily arrives at the emergency room with appendicitis.",
+     "focus": 0,
+     "file": "clips/b138ed302627.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "She will have her appendix removed that day and go home on 4 June (the Medical course follows the claims from this stay in detail).",
+     "say": "She will have her appendix removed that day and go home on 4 June (the Medical course follows the claims from this stay in detail).",
+     "focus": 0,
+     "file": "clips/44995b2f2ab2.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "The registration desk scans her card.",
+     "say": "The registration desk scans her card.",
+     "focus": 1,
+     "file": "clips/46a1cce1ea52.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "The hospital system sends a **270** for member `48291307-01`, date of birth 14 Aug 1990, service date 2 June 2025.",
+     "say": "The hospital system sends a 2 70 for member 4 8 2 9 1 3 0 7 dash 0 1, date of birth 14 Aug 1990, service date 2 June 2025.",
+     "focus": 1,
+     "file": "clips/5bd5325c14ce.mp3",
+     "seconds": 12.8
+    },
+    {
+     "raw": "Seconds later, a **271** comes back.",
+     "say": "Seconds later, a 2 71 comes back.",
+     "focus": 2,
+     "file": "clips/154556cee274.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "The hospital now knows she is covered, and roughly what she will owe.",
+     "say": "The hospital now knows she is covered, and roughly what she will owe.",
+     "focus": 2,
+     "file": "clips/154ba9d00dfc.mp3",
+     "seconds": 4.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "270 and 271: \"Is this person covered?\"",
+   "lines": [
+    {
+     "raw": "Here is the 271 response form: Eligibility answer for Emily Carter.",
+     "say": "Here is the 2 71 response form: Eligibility answer for Emily Carter.",
+     "focus": -1,
+     "file": "clips/6b89224fb56e.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Coverage status: Active.",
+     "say": "Coverage status: Active.",
+     "focus": 0,
+     "file": "clips/c10034f55259.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Active coverage on 02 Jun 2025.",
+     "say": "Active coverage on 02 Jun 2025.",
+     "focus": 0,
+     "file": "clips/937b203d55ec.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Group / plan: G20450 / TXPPO1000.",
+     "say": "Group or plan: G 2 0 4 5 0 or T X P P O 1 0 0 0.",
+     "focus": 1,
+     "file": "clips/e7299fc73f48.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "In-network deductible: $1,000.",
+     "say": "In-network deductible: 1000 dollars.",
+     "focus": 2,
+     "file": "clips/86b9d6dde435.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Remaining: $1,000 (none used yet this year).",
+     "say": "Remaining: 1000 dollars (none used yet this year).",
+     "focus": 2,
+     "file": "clips/b2ee99e30538.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Coinsurance: 20%.",
+     "say": "Coinsurance: 20 percent.",
+     "focus": 3,
+     "file": "clips/a6f90387a3c1.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "After the deductible.",
+     "say": "After the deductible.",
+     "focus": 3,
+     "file": "clips/d84efba4940d.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Out-of-pocket maximum: $5,000.",
+     "say": "Out-of-pocket maximum: 5000 dollars.",
+     "focus": 4,
+     "file": "clips/0d1066aee60b.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Remaining: $4,975 (the $25 copay from her sore throat visit in March counts).",
+     "say": "Remaining: 4975 dollars (the 25 dollars copay from her sore throat visit in March counts).",
+     "focus": 4,
+     "file": "clips/2ed3ff0b7994.mp3",
+     "seconds": 7.5
+    },
+    {
+     "raw": "Office visit copay: $25.",
+     "say": "Office visit copay: 25 dollars.",
+     "focus": 5,
+     "file": "clips/6fc766bc45c6.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "270 and 271: \"Is this person covered?\"",
+   "lines": [
+    {
+     "raw": "Common benefit codes in a 271 (the EB segment).",
+     "say": "Common benefit codes in a 2 71 (the E B segment).",
+     "focus": -1,
+     "file": "clips/879277b9551e.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "`1`. Meaning: Active coverage.",
+     "say": "1. Meaning: Active coverage.",
+     "focus": 0,
+     "file": "clips/b338fdd5d593.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "`6`. Meaning: Inactive (not covered on that date).",
+     "say": "6. Meaning: Inactive (not covered on that date).",
+     "focus": 1,
+     "file": "clips/c900ccbec625.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "`C`. Meaning: Deductible.",
+     "say": "C. Meaning: Deductible.",
+     "focus": 2,
+     "file": "clips/c68b144922ec.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "`B`. Meaning: Copayment.",
+     "say": "B. Meaning: Copayment.",
+     "focus": 3,
+     "file": "clips/c8416db54071.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "`A`. Meaning: Coinsurance.",
+     "say": "A. Meaning: Coinsurance.",
+     "focus": 4,
+     "file": "clips/492762fe046e.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "`G`. Meaning: Out-of-pocket (stop loss) maximum.",
+     "say": "G. Meaning: Out-of-pocket (stop loss) maximum.",
+     "focus": 5,
+     "file": "clips/6dc963f0c514.mp3",
+     "seconds": 3.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "270 and 271: \"Is this person covered?\"",
+   "lines": [
+    {
+     "raw": "A 271 is a snapshot, not a promise.",
+     "say": "A 2 71 is a snapshot, not a promise.",
+     "focus": -1,
+     "file": "clips/4b333b2f3674.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "The 271 says what the insurer knows **right now**.",
+     "say": "The 2 71 says what the insurer knows right now.",
+     "focus": -1,
+     "file": "clips/882f530f2bd5.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "A later retro term (lesson 4) can still lead to the claim being denied.",
+     "say": "A later retro term (lesson 4) can still lead to the claim being denied.",
+     "focus": -1,
+     "file": "clips/bfd7857b553f.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "And the money figures are estimates: the real split is decided when the claim is processed.",
+     "say": "And the money figures are estimates: the real split is decided when the claim is processed.",
+     "focus": -1,
+     "file": "clips/345eae039ef8.mp3",
+     "seconds": 5.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "270 and 271: \"Is this person covered?\"",
+   "lines": [
+    {
+     "raw": "Eligibility checks in Nepal.",
+     "say": "Eligibility checks in Nepal.",
+     "focus": -1,
+     "file": "clips/264867f71422.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's insurer checks his eligibility **after** treatment, when he sends his claim: is the policy active, was Ram on the startup's list of insured staff on that date?",
+     "say": "Ram's insurer checks his eligibility after treatment, when he sends his claim: is the policy active, was Ram on the startup's list of insured staff on that date?",
+     "focus": 0,
+     "file": "clips/67d1e763e3da.mp3",
+     "seconds": 10.575
+    },
+    {
+     "raw": "The startup's HR sends the insurer a list of staff to add or remove, usually by email or a spreadsheet.",
+     "say": "The startup's H R sends the insurer a list of staff to add or remove, usually by email or a spreadsheet.",
+     "focus": 1,
+     "file": "clips/0596c6d5c2c8.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "That is Nepal's simple version of an **834**.",
+     "say": "That is Nepal's simple version of an 8 34.",
+     "focus": 1,
+     "file": "clips/9a63575c6d33.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "An SSF-listed hospital checks Sita's **SSF ID** on admission, **before** treatment.",
+     "say": "An S S F listed hospital checks Sita's S S F I D on admission, before treatment.",
+     "focus": 2,
+     "file": "clips/ad3fe4136bcb.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "That is like a US **270/271** check.",
+     "say": "That is like a U S 2 70/2 71 check.",
+     "focus": 2,
+     "file": "clips/07d6d4f4d002.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "If the check shows a problem, such as missing contributions, Sita finds out at the hospital desk rather than weeks later.",
+     "say": "If the check shows a problem, such as missing contributions, Sita finds out at the hospital desk rather than weeks later.",
+     "focus": 3,
+     "file": "clips/3b948af6e0b4.mp3",
+     "seconds": 7.625
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The **834** carries enrollment from employers, states or the Marketplace to the insurer.",
+     "say": "The 8 34 carries enrollment from employers, states or the Marketplace to the insurer.",
+     "focus": 0,
+     "file": "clips/7f0c76ad15c8.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "Every 834 member record carries a **maintenance type** saying whether it is an add, a change, a termination, a reinstatement or an audit record.",
+     "say": "Every 8 34 member record carries a maintenance type saying whether it is an add, a change, a termination, a reinstatement or an audit record.",
+     "focus": 1,
+     "file": "clips/a7e2f1bb5b5c.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "Full files list everyone; change files list only changes.",
+     "say": "Full files list everyone; change files list only changes.",
+     "focus": 2,
+     "file": "clips/7d5593c6aadd.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "A **270** asks \"is this person covered?\"; a **271** answers with status and benefits.",
+     "say": "A 2 70 asks \"is this person covered?\"; a 2 71 answers with status and benefits.",
+     "focus": 3,
+     "file": "clips/7b7654322c9e.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "An ID card is not proof of current cover; the electronic check is.",
+     "say": "An I D card is not proof of current cover; the electronic check is.",
+     "focus": 4,
+     "file": "clips/c788f57f9ff0.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

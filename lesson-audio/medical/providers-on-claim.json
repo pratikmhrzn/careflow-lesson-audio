@@ -1,0 +1,764 @@
+{
+ "courseId": "medical",
+ "lessonId": "providers-on-claim",
+ "lessonNumber": 8,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 8: Provider: Who Gave the Care.",
+     "say": "Lesson 8: Provider: Who Gave the Care.",
+     "focus": -1,
+     "file": "clips/2a7d316de913.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "A single claim can name several doctors, each with a different role.",
+     "say": "A single claim can name several doctors, each with a different role.",
+     "focus": -1,
+     "file": "clips/5f899a70a9e5.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Understand that a provider can be a person (doctor) or an organization (hospital).",
+     "say": "Understand that a provider can be a person (doctor) or an organization (hospital).",
+     "focus": 0,
+     "file": "clips/5f4e1fa9e120.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "Know what NPI, Tax ID and taxonomy codes are.",
+     "say": "Know what N P I, Tax I D and taxonomy codes are.",
+     "focus": 1,
+     "file": "clips/1bf3fc9e753b.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Tell apart rendering, billing, referring, ordering and attending providers.",
+     "say": "Tell apart rendering, billing, referring, ordering and attending providers.",
+     "focus": 2,
+     "file": "clips/f0f22807405d.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "Understand in-network vs. out-of-network.",
+     "say": "Understand in-network versus out-of-network.",
+     "focus": 3,
+     "file": "clips/62231a2800f2.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A provider can be a person or an organization.",
+     "say": "A provider can be a person or an organization.",
+     "focus": -1,
+     "file": "clips/bb3bcbcc477d.mp3",
+     "seconds": 3.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "A provider can be a person or an organization",
+   "lines": [
+    {
+     "raw": "A **provider** is anyone who gives healthcare.",
+     "say": "A provider is anyone who gives healthcare.",
+     "focus": -1,
+     "file": "clips/65aea68bdb24.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "The important thing to remember: a provider is **not only a doctor**.",
+     "say": "The important thing to remember: a provider is not only a doctor.",
+     "focus": -1,
+     "file": "clips/bf6c8af89ff3.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "It can be a **person** or an **organization**.",
+     "say": "It can be a person or an organization.",
+     "focus": -1,
+     "file": "clips/910c089794fe.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "A provider can be a person or an organization",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Who. 👩‍⚕️ Individual provider (a person): Doctors, nurses, physiotherapists, dentists, pharmacists. 🏥 Organization provider (a facility): Hospitals, clinics, labs, nursing homes, pharmacies.",
+     "say": "Who. 👩‍⚕️ Individual provider (a person): Doctors, nurses, physiotherapists, dentists, pharmacists. 🏥 Organization provider (a facility): Hospitals, clinics, labs, nursing homes, pharmacies.",
+     "focus": 0,
+     "file": "clips/a986e82b8e4d.mp3",
+     "seconds": 14.675
+    },
+    {
+     "raw": "US example. 👩‍⚕️ Individual provider (a person): Dr. Patel, Emily's family doctor. 🏥 Organization provider (a facility): Sunrise Family Clinic, where Dr. Patel works.",
+     "say": "U S example. 👩‍⚕️ Individual provider (a person): Doctor Patel, Emily's family doctor. 🏥 Organization provider (a facility): Sunrise Family Clinic, where Doctor Patel works.",
+     "focus": 1,
+     "file": "clips/4766016ebff4.mp3",
+     "seconds": 13.925
+    },
+    {
+     "raw": "Nepal example. 👩‍⚕️ Individual provider (a person): Dr. Shrestha, the OPD doctor Ram sees. 🏥 Organization provider (a facility): The hospital where Ram is treated.",
+     "say": "Nepal example. 👩‍⚕️ Individual provider (a person): Doctor Shrestha, the O P D doctor Ram sees. 🏥 Organization provider (a facility): The hospital where Ram is treated.",
+     "focus": 2,
+     "file": "clips/f9acf2a30353.mp3",
+     "seconds": 13.575
+    },
+    {
+     "raw": "ID in the US. 👩‍⚕️ Individual provider (a person): **Type 1 NPI** (for a person). 🏥 Organization provider (a facility): **Type 2 NPI** (for an organization).",
+     "say": "I D in the U S. 👩‍⚕️ Individual provider (a person): Type 1 N P I (for a person). 🏥 Organization provider (a facility): Type 2 N P I (for an organization).",
+     "focus": 3,
+     "file": "clips/3b8e8a6b8281.mp3",
+     "seconds": 13.775
+    },
+    {
+     "raw": "Nepal ID comparison. 👩‍⚕️ Individual provider (a person): **NMC number** (Nepal Medical Council). 🏥 Organization provider (a facility): Hospital **registration** and **PAN number**.",
+     "say": "Nepal I D comparison. 👩‍⚕️ Individual provider (a person): N M C number (Nepal Medical Council). 🏥 Organization provider (a facility): Hospital registration and P A N number.",
+     "focus": 4,
+     "file": "clips/76bc3fa383ea.mp3",
+     "seconds": 14.85
+    },
+    {
+     "raw": "Usually bills on. 👩‍⚕️ Individual provider (a person): Professional claim (CMS-1500). 🏥 Organization provider (a facility): Institutional claim (UB-04) for hospitals.",
+     "say": "Usually bills on. 👩‍⚕️ Individual provider (a person): Professional claim (C M S 1500). 🏥 Organization provider (a facility): Institutional claim (U B 04) for hospitals.",
+     "focus": 5,
+     "file": "clips/5c13813fc613.mp3",
+     "seconds": 15.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "A provider can be a person or an organization",
+   "lines": [
+    {
+     "raw": "One visit, both kinds of provider.",
+     "say": "One visit, both kinds of provider.",
+     "focus": -1,
+     "file": "clips/17c2f2f4b104.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "When Emily sees Dr. Patel at Sunrise Family Clinic, **both** are providers on the same claim: Dr. Patel (a **person**) did the work, and the clinic (an **organization**) sends the bill and receives the money.",
+     "say": "When Emily sees Doctor Patel at Sunrise Family Clinic, both are providers on the same claim: Doctor Patel (a person) did the work, and the clinic (an organization) sends the bill and receives the money.",
+     "focus": -1,
+     "file": "clips/7672938d1522.mp3",
+     "seconds": 13.1
+    },
+    {
+     "raw": "On the claim, Dr. Patel is the **rendering provider** (who gave the care) and the clinic is the **billing provider** (who gets paid).",
+     "say": "On the claim, Doctor Patel is the rendering provider (who gave the care) and the clinic is the billing provider (who gets paid).",
+     "focus": -1,
+     "file": "clips/354035a5de9b.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "More on these roles below.",
+     "say": "More on these roles below.",
+     "focus": -1,
+     "file": "clips/dba673697b86.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "In data, always check which kind of provider you are looking at.",
+     "say": "In data, always check which kind of provider you are looking at.",
+     "focus": -1,
+     "file": "clips/422afbef306b.mp3",
+     "seconds": 4.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Every provider has an ID.",
+     "say": "Every provider has an I D.",
+     "focus": -1,
+     "file": "clips/18eef01b4eb9.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Every provider has an ID",
+   "lines": [
+    {
+     "raw": "Names can be spelled many ways (\"Dr. R.",
+     "say": "Names can be spelled many ways (\"Doctor R.",
+     "focus": -1,
+     "file": "clips/28738637885d.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Sharma\", \"Ramesh Sharma MD\", \"Sharma Ramesh\"), so claims identify providers with **ID numbers** instead.",
+     "say": "Sharma\", \"Ramesh Sharma M D\", \"Sharma Ramesh\"), so claims identify providers with I D numbers instead.",
+     "focus": -1,
+     "file": "clips/db85bb251a29.mp3",
+     "seconds": 7.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Every provider has an ID",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**NPI** (National Provider Identifier). What it is: A 10-digit number every US provider gets from **CMS** (Centers for Medicare & Medicaid Services, the US government's health agency). It never changes, even if the doctor moves. Nepal comparison: A doctor's **NMC registration number** from the Nepal Medical Council.",
+     "say": "N P I (National Provider Identifier). What it is: A 10-digit number every U S provider gets from C M S (Centers for Medicare and Medicaid Services, the U S government's health agency). It never changes, even if the doctor moves. Nepal comparison: A doctor's N M C registration number from the Nepal Medical Council.",
+     "focus": 0,
+     "file": "clips/fdedb66f0494.mp3",
+     "seconds": 23.5
+    },
+    {
+     "raw": "**TIN** (Tax Identification Number). What it is: A **9-digit** tax number of the business that receives the money. Usually written as `XX-XXXXXXX`, for example `12-3456789`. Nepal comparison: A hospital's **PAN number**, printed on every bill. Also 9 digits!",
+     "say": "T I N (Tax Identification Number). What it is: A 9-digit tax number of the business that receives the money. Usually written as X X XXXXXXX, for example 1 2 dash 3 4 5 6 7 8 9. Nepal comparison: A hospital's P A N number, printed on every bill. Also 9 digits!",
+     "focus": 1,
+     "file": "clips/7c4a3c4b380f.mp3",
+     "seconds": 21.625
+    },
+    {
+     "raw": "**Taxonomy code**. What it is: A 10-character code for the provider's type and specialty. Example: `207Q00000X` = Family Medicine. Nepal comparison: The specialty written on the doctor's nameboard: \"MD, Internal Medicine\".",
+     "say": "Taxonomy code. What it is: A 10-character code for the provider's type and specialty. Example: 2 0 7 Q 0 0 0 0 0 X = Family Medicine. Nepal comparison: The specialty written on the doctor's nameboard: \"M D, Internal Medicine\".",
+     "focus": 2,
+     "file": "clips/d1c1eb67410b.mp3",
+     "seconds": 19.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Every provider has an ID",
+   "lines": [
+    {
+     "raw": "Type 1 NPI.",
+     "say": "Type 1 N P I.",
+     "focus": 0,
+     "file": "clips/afceed845857.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Given to a **person** (individual provider): Dr. Patel has her own NPI.",
+     "say": "Given to a person (individual provider): Doctor Patel has her own N P I.",
+     "focus": 0,
+     "file": "clips/6a3161e71b58.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Type 2 NPI.",
+     "say": "Type 2 N P I.",
+     "focus": 1,
+     "file": "clips/9be6e9d5b867.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Given to an **organization** (facility): the hospital or clinic has its own NPI.",
+     "say": "Given to an organization (facility): the hospital or clinic has its own N P I.",
+     "focus": 1,
+     "file": "clips/d8e445ca39ec.mp3",
+     "seconds": 5.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Roles: who did what?",
+     "say": "Roles: who did what?",
+     "focus": -1,
+     "file": "clips/9adfbd481005.mp3",
+     "seconds": 1.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Roles: who did what?",
+   "lines": [
+    {
+     "raw": "A claim can mention several providers.",
+     "say": "A claim can mention several providers.",
+     "focus": -1,
+     "file": "clips/67dcf0d5fba0.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Each one has a **role**.",
+     "say": "Each one has a role.",
+     "focus": -1,
+     "file": "clips/22328277e25c.mp3",
+     "seconds": 1.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Roles: who did what?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Rendering** (servicing). Meaning: The person who actually performed the service. Example: Dr. Patel, who examined Emily.",
+     "say": "Rendering (servicing). Meaning: The person who actually performed the service. Example: Doctor Patel, who examined Emily.",
+     "focus": 0,
+     "file": "clips/559d1d7943a7.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "**Billing**. Meaning: The person or organization that sends the claim and receives the money. Example: Sunrise Family Clinic, where Dr. Patel works.",
+     "say": "Billing. Meaning: The person or organization that sends the claim and receives the money. Example: Sunrise Family Clinic, where Doctor Patel works.",
+     "focus": 1,
+     "file": "clips/51d369f7f717.mp3",
+     "seconds": 10.3
+    },
+    {
+     "raw": "**Referring**. Meaning: The provider who sent the patient to another provider. Example: Emily's family doctor sends her to a surgeon.",
+     "say": "Referring. Meaning: The provider who sent the patient to another provider. Example: Emily's family doctor sends her to a surgeon.",
+     "focus": 2,
+     "file": "clips/50fa66785ba7.mp3",
+     "seconds": 9.025
+    },
+    {
+     "raw": "**Ordering**. Meaning: The provider who asked for a test or item. Example: Dr. Patel orders a blood test from a lab.",
+     "say": "Ordering. Meaning: The provider who asked for a test or item. Example: Doctor Patel orders a blood test from a lab.",
+     "focus": 3,
+     "file": "clips/85b1c121ab44.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "**Attending**. Meaning: The main doctor responsible for a hospital patient (on UB-04). Example: The surgeon in charge of Emily's hospital stay.",
+     "say": "Attending. Meaning: The main doctor responsible for a hospital patient (on U B 04). Example: The surgeon in charge of Emily's hospital stay.",
+     "focus": 4,
+     "file": "clips/52b097dcf806.mp3",
+     "seconds": 10.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Roles: who did what?",
+   "lines": [
+    {
+     "raw": "Rendering vs. billing, in everyday words.",
+     "say": "Rendering versus billing, in everyday words.",
+     "focus": -1,
+     "file": "clips/02d9b58475d3.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "A chef cooks your food (**rendering**), but you pay the restaurant (**billing**).",
+     "say": "A chef cooks your food (rendering), but you pay the restaurant (billing).",
+     "focus": -1,
+     "file": "clips/d964758068cc.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "Dr. Patel examined Emily, but the money goes to the clinic that employs her.",
+     "say": "Doctor Patel examined Emily, but the money goes to the clinic that employs her.",
+     "focus": -1,
+     "file": "clips/fb90a43b3516.mp3",
+     "seconds": 5.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Roles: who did what?",
+   "lines": [
+    {
+     "raw": "Roles in a Nepali hospital.",
+     "say": "Roles in a Nepali hospital.",
+     "focus": -1,
+     "file": "clips/f038cd58050c.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram sees **Dr. Shrestha** in the OPD.",
+     "say": "Ram sees Doctor Shrestha in the O P D.",
+     "focus": 0,
+     "file": "clips/599e8d4a61d9.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Dr. Shrestha is the **rendering** provider.",
+     "say": "Doctor Shrestha is the rendering provider.",
+     "focus": 0,
+     "file": "clips/ad62807a15ab.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "Ram pays the **hospital cash counter**, not Dr. Shrestha.",
+     "say": "Ram pays the hospital cash counter, not Doctor Shrestha.",
+     "focus": 1,
+     "file": "clips/850f55377770.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "The hospital is the **billing** provider.",
+     "say": "The hospital is the billing provider.",
+     "focus": 1,
+     "file": "clips/496079a5057a.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Its PAN number is on the receipt.",
+     "say": "Its P A N number is on the receipt.",
+     "focus": 1,
+     "file": "clips/92c0e6572415.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "When Ram claims from his insurer, the receipt with the hospital's **PAN** and the doctor's **NMC number** helps prove the bill is genuine.",
+     "say": "When Ram claims from his insurer, the receipt with the hospital's P A N and the doctor's N M C number helps prove the bill is genuine.",
+     "focus": 2,
+     "file": "clips/7841e1c25631.mp3",
+     "seconds": 8.9
+    },
+    {
+     "raw": "Dr. Shrestha writes \"refer to ENT\".",
+     "say": "Doctor Shrestha writes \"refer to E N T\".",
+     "focus": 3,
+     "file": "clips/f05de0dbcec9.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "The ENT doctor Ram sees next was **referred** by Dr. Shrestha.",
+     "say": "The E N T doctor Ram sees next was referred by Doctor Shrestha.",
+     "focus": 3,
+     "file": "clips/d787bdc03a04.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 4,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF only pays hospitals that are **listed (empanelled)** with SSF.",
+     "say": "S S F only pays hospitals that are listed (empanelled) with S S F.",
+     "focus": 4,
+     "file": "clips/15498c2692eb.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "This is just like a US \"network\".",
+     "say": "This is just like a U S \"network\".",
+     "focus": 4,
+     "file": "clips/6111751aa923.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "If Sita goes to a hospital that is **not** SSF-listed, SSF will normally not pay that hospital directly.",
+     "say": "If Sita goes to a hospital that is not S S F listed, S S F will normally not pay that hospital directly.",
+     "focus": 5,
+     "file": "clips/6e231daf314b.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "In the claim to SSF, the hospital is the billing provider and the treating doctor is recorded on the visit.",
+     "say": "In the claim to S S F, the hospital is the billing provider and the treating doctor is recorded on the visit.",
+     "focus": 6,
+     "file": "clips/b6246acd4db2.mp3",
+     "seconds": 7.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "In-network vs. out-of-network.",
+     "say": "In-network versus out-of-network.",
+     "focus": -1,
+     "file": "clips/ef6401971e50.mp3",
+     "seconds": 2.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "In-network vs. out-of-network",
+   "lines": [
+    {
+     "raw": "US insurance companies sign contracts with many doctors and hospitals.",
+     "say": "U S insurance companies sign contracts with many doctors and hospitals.",
+     "focus": -1,
+     "file": "clips/158f90c8f9af.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "These contracted providers form the insurer's **network**.",
+     "say": "These contracted providers form the insurer's network.",
+     "focus": -1,
+     "file": "clips/49a1c5635d53.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "They agree to accept **discounted prices**.",
+     "say": "They agree to accept discounted prices.",
+     "focus": -1,
+     "file": "clips/46189a4616f7.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "In-network vs. out-of-network",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Contract with insurer? In-network: Yes. Out-of-network: No.",
+     "say": "Contract with insurer? In-network: Yes. Out-of-network: No.",
+     "focus": 0,
+     "file": "clips/86a0fddcb0b2.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "Price. In-network: Agreed discounted price. Out-of-network: Full price, or whatever the insurer decides.",
+     "say": "Price. In-network: Agreed discounted price. Out-of-network: Full price, or whatever the insurer decides.",
+     "focus": 1,
+     "file": "clips/27e290882631.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "What patient pays. In-network: Less. Out-of-network: More, or sometimes everything.",
+     "say": "What patient pays. In-network: Less. Out-of-network: More, or sometimes everything.",
+     "focus": 2,
+     "file": "clips/db8c719c8629.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "Who sends the claim? In-network: The provider. Out-of-network: Often the **patient** pays first and claims it back (like Ram).",
+     "say": "Who sends the claim? In-network: The provider. Out-of-network: Often the patient pays first and claims it back (like Ram).",
+     "focus": 3,
+     "file": "clips/64b47b75bfd2.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "Nepal SSF comparison. In-network: SSF-listed hospital. Out-of-network: Hospital not listed with SSF.",
+     "say": "Nepal S S F comparison. In-network: S S F listed hospital. Out-of-network: Hospital not listed with S S F.",
+     "focus": 4,
+     "file": "clips/86b6c4c21269.mp3",
+     "seconds": 8.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "In-network vs. out-of-network",
+   "lines": [
+    {
+     "raw": "Primary Care Physician (PCP).",
+     "say": "Primary Care Physician (P C P).",
+     "focus": -1,
+     "file": "clips/0d5684775f0f.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Some US plans (HMOs) make each member choose a **PCP**, a regular family doctor who is the first stop for every problem and who must **refer** the patient before they can see a specialist.",
+     "say": "Some U S plans (H M O's) make each member choose a P C P, a regular family doctor who is the first stop for every problem and who must refer the patient before they can see a specialist.",
+     "focus": -1,
+     "file": "clips/6dcd8659958d.mp3",
+     "seconds": 12.975
+    },
+    {
+     "raw": "This rule is **not for emergencies**: in an emergency, patients can skip the PCP and go straight to the **emergency room (ER)**.",
+     "say": "This rule is not for emergencies: in an emergency, patients can skip the P C P and go straight to the emergency room (E R).",
+     "focus": -1,
+     "file": "clips/7ad67f70ea9d.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "Nepal's government health insurance has a similar idea: you register at a first service point and need a referral for bigger hospitals.",
+     "say": "Nepal's government health insurance has a similar idea: you register at a first service point and need a referral for bigger hospitals.",
+     "focus": -1,
+     "file": "clips/f39f3f6bc2fc.mp3",
+     "seconds": 8.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "In-network vs. out-of-network",
+   "lines": [
+    {
+     "raw": "Data tip.",
+     "say": "Data tip.",
+     "focus": -1,
+     "file": "clips/59763fb2c07e.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "One hospital can have several NPIs (for its main building, rehab unit, outpatient clinic...).",
+     "say": "One hospital can have several N P I's (for its main building, rehab unit, outpatient clinic...).",
+     "focus": -1,
+     "file": "clips/9298e94a44d7.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "One NPI should only ever belong to one provider.",
+     "say": "One N P I should only ever belong to one provider.",
+     "focus": -1,
+     "file": "clips/14c0a7462afb.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "When totals by provider look odd, check whether you need to group multiple NPIs together.",
+     "say": "When totals by provider look odd, check whether you need to group multiple N P I's together.",
+     "focus": -1,
+     "file": "clips/30c663405de3.mp3",
+     "seconds": 6.025
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A provider can be a **person** (doctor, nurse) or an **organization** (hospital, clinic, lab).",
+     "say": "A provider can be a person (doctor, nurse) or an organization (hospital, clinic, lab).",
+     "focus": 0,
+     "file": "clips/4a2e15f294fd.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "NPI = 10-digit provider ID (like an NMC number).",
+     "say": "N P I = 10-digit provider I D (like an N M C number).",
+     "focus": 1,
+     "file": "clips/8ae2b8ba1d84.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "TIN = tax ID (like a PAN number).",
+     "say": "T I N = tax I D (like a P A N number).",
+     "focus": 1,
+     "file": "clips/cb624938db7d.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Rendering = who did the work.",
+     "say": "Rendering = who did the work.",
+     "focus": 2,
+     "file": "clips/0be65b3d4b8b.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Billing = who gets paid.",
+     "say": "Billing = who gets paid.",
+     "focus": 2,
+     "file": "clips/a77fc05d3be8.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Referring sends the patient; ordering asks for a test; attending leads a hospital stay.",
+     "say": "Referring sends the patient; ordering asks for a test; attending leads a hospital stay.",
+     "focus": 3,
+     "file": "clips/adb5396277b8.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "In-network providers have a contract with the insurer, like SSF-listed hospitals in Nepal.",
+     "say": "In-network providers have a contract with the insurer, like S S F listed hospitals in Nepal.",
+     "focus": 4,
+     "file": "clips/2669adf7e441.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

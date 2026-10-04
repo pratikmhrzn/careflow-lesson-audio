@@ -1,0 +1,785 @@
+{
+ "courseId": "vision",
+ "lessonId": "vision-benefits",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: Vision Benefits.",
+     "say": "Lesson 3: Vision Benefits.",
+     "focus": -1,
+     "file": "clips/5ed9c6e2dacd.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Copays, allowances and time limits: how a vision plan decides who pays.",
+     "say": "Copays, allowances and time limits: how a vision plan decides who pays.",
+     "focus": -1,
+     "file": "clips/4053cbc7f36b.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read a vision plan's benefit summary.",
+     "say": "Read a vision plan's benefit summary.",
+     "focus": 0,
+     "file": "clips/5ebf5e54585a.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Calculate what a member pays using a copay and an allowance.",
+     "say": "Calculate what a member pays using a copay and an allowance.",
+     "focus": 1,
+     "file": "clips/aa784bb5c39f.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Understand frequency limits (every 12 or 24 months).",
+     "say": "Understand frequency limits (every 12 or 24 months).",
+     "focus": 2,
+     "file": "clips/e6dfdd4bd083.mp3",
+     "seconds": 4.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A vision plan is simple on purpose.",
+     "say": "A vision plan is simple on purpose.",
+     "focus": -1,
+     "file": "clips/d46a118208c3.mp3",
+     "seconds": 2.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "A vision plan is simple on purpose",
+   "lines": [
+    {
+     "raw": "Lesson 2 showed that a routine vision plan is much simpler than a medical plan.",
+     "say": "Lesson 2 showed that a routine vision plan is much simpler than a medical plan.",
+     "focus": -1,
+     "file": "clips/14f0a60111a9.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "Most vision plans use just **three ideas**: a **copay**, an **allowance**, and a **frequency** (how often you can use it).",
+     "say": "Most vision plans use just three ideas: a copay, an allowance, and a frequency (how often you can use it).",
+     "focus": -1,
+     "file": "clips/555b105df5eb.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "This lesson shows how they work together.",
+     "say": "This lesson shows how they work together.",
+     "focus": -1,
+     "file": "clips/c343a08d713a.mp3",
+     "seconds": 2.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "A vision plan is simple on purpose",
+   "lines": [
+    {
+     "raw": "Copay.",
+     "say": "Copay.",
+     "focus": 0,
+     "file": "clips/1fb28b60b88d.mp3",
+     "seconds": 1.35
+    },
+    {
+     "raw": "A small **fixed amount** you pay, like **$10** for the eye exam or **$25** for your glasses.",
+     "say": "A small fixed amount you pay, like 10 dollars for the eye exam or 25 dollars for your glasses.",
+     "focus": 0,
+     "file": "clips/f5351c6ed3b8.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "The Medical course explains copays in more detail.",
+     "say": "The Medical course explains copays in more detail.",
+     "focus": 0,
+     "file": "clips/25375dd25a62.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Materials.",
+     "say": "Materials.",
+     "focus": 1,
+     "file": "clips/951b2f4f34a3.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "The things you take home: **frames**, **lenses** and **contact lenses**.",
+     "say": "The things you take home: frames, lenses and contact lenses.",
+     "focus": 1,
+     "file": "clips/241256e03d73.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "The exam is a **service**; glasses are **materials**.",
+     "say": "The exam is a service; glasses are materials.",
+     "focus": 1,
+     "file": "clips/c21088c2bc47.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Allowance.",
+     "say": "Allowance.",
+     "focus": 2,
+     "file": "clips/62607743dcfc.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "The **most the plan will pay** toward an item, such as **$150 for frames**.",
+     "say": "The most the plan will pay toward an item, such as 150 dollars for frames.",
+     "focus": 2,
+     "file": "clips/723c0df23744.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "You pay anything above it (the **overage**).",
+     "say": "You pay anything above it (the overage).",
+     "focus": 2,
+     "file": "clips/6a7780e7b2e6.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Anything you do not use is simply lost.",
+     "say": "Anything you do not use is simply lost.",
+     "focus": 2,
+     "file": "clips/78115e7ee652.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Frequency.",
+     "say": "Frequency.",
+     "focus": 3,
+     "file": "clips/07691fadec55.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "How often you can use each benefit: for example an exam **every 12 months** and frames **every 24 months**.",
+     "say": "How often you can use each benefit: for example an exam every 12 months and frames every 24 months.",
+     "focus": 3,
+     "file": "clips/7c87e1175fbe.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "Before that, the plan pays nothing for it.",
+     "say": "Before that, the plan pays nothing for it.",
+     "focus": 3,
+     "file": "clips/b0866b94b704.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "In lieu of.",
+     "say": "In lieu of.",
+     "focus": 4,
+     "file": "clips/2bfa47133743.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "Means **instead of**.",
+     "say": "Means instead of.",
+     "focus": 4,
+     "file": "clips/3b11c5bb72bc.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Most plans let you get **contact lenses in lieu of glasses**: one or the other in the same period, not both.",
+     "say": "Most plans let you get contact lenses in lieu of glasses: one or the other in the same period, not both.",
+     "focus": 4,
+     "file": "clips/ea54d8d669af.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "Out-of-network reimbursement.",
+     "say": "Out-of-network reimbursement.",
+     "focus": 5,
+     "file": "clips/07eb303117af.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "If you go to a shop outside the network, you pay in full and the plan pays you back a **fixed amount** that is usually lower than the in-network benefit.",
+     "say": "If you go to a shop outside the network, you pay in full and the plan pays you back a fixed amount that is usually lower than the in-network benefit.",
+     "focus": 5,
+     "file": "clips/948bf1efd17d.mp3",
+     "seconds": 9.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "A vision plan is simple on purpose",
+   "lines": [
+    {
+     "raw": "A gift voucher with an expiry date.",
+     "say": "A gift voucher with an expiry date.",
+     "focus": -1,
+     "file": "clips/1bdd344f43ef.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Imagine your office gives you a **Rs 3,000 voucher** for a clothes shop, valid **once every two years**.",
+     "say": "Imagine your office gives you a Rs 3,000 voucher for a clothes shop, valid once every two years.",
+     "focus": -1,
+     "file": "clips/d45aa97b75cc.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "If you pick a jacket for Rs 4,500, the voucher covers Rs 3,000 and you pay **Rs 1,500**.",
+     "say": "If you pick a jacket for Rs 4,500, the voucher covers Rs 3,000 and you pay Rs 1,500.",
+     "focus": -1,
+     "file": "clips/d6036d3a6b8b.mp3",
+     "seconds": 9.75
+    },
+    {
+     "raw": "If you pick one for Rs 2,500, you pay nothing, but the **Rs 500 left over is lost**.",
+     "say": "If you pick one for Rs 2,500, you pay nothing, but the Rs 500 left over is lost.",
+     "focus": -1,
+     "file": "clips/ab2c475ddbd1.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "And you cannot use another voucher until two years have passed.",
+     "say": "And you cannot use another voucher until two years have passed.",
+     "focus": -1,
+     "file": "clips/4f3ebe5cfa87.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "A frame allowance works exactly like this.",
+     "say": "A frame allowance works exactly like this.",
+     "focus": -1,
+     "file": "clips/36f002fe20fe.mp3",
+     "seconds": 3.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Emily's vision plan.",
+     "say": "Emily's vision plan.",
+     "focus": -1,
+     "file": "clips/8bc84185f4f4.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Emily's vision plan",
+   "lines": [
+    {
+     "raw": "Emily's employer, Bluebonnet Logistics, offers a vision plan run by **ClearSight Vision** (a fictional company).",
+     "say": "Emily's employer, Bluebonnet Logistics, offers a vision plan run by ClearSight Vision (a fictional company).",
+     "focus": -1,
+     "file": "clips/ba1fb99e353a.mp3",
+     "seconds": 7.5
+    },
+    {
+     "raw": "Emily enrolled herself and Lily.",
+     "say": "Emily enrolled herself and Lily.",
+     "focus": -1,
+     "file": "clips/a33c39d6b9d7.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Here is the benefit summary, the kind of table you would find in the plan booklet.",
+     "say": "Here is the benefit summary, the kind of table you would find in the plan booklet.",
+     "focus": -1,
+     "file": "clips/c89b07a49851.mp3",
+     "seconds": 4.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Emily's vision plan",
+   "lines": [
+    {
+     "raw": "ClearSight Vision benefit summary (fictional, typical of real plans).",
+     "say": "ClearSight Vision benefit summary (fictional, typical of real plans).",
+     "focus": -1,
+     "file": "clips/dc4099d2295f.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Eye exam (with refraction). In-network: member pays: $10 copay. How often: Once every 12 months. Out-of-network: plan pays back up to: $45.",
+     "say": "Eye exam (with refraction). In-network: member pays: 10 dollars copay. How often: Once every 12 months. Out-of-network: plan pays back up to: 45 dollars.",
+     "focus": 0,
+     "file": "clips/759d9cad1bf8.mp3",
+     "seconds": 11.675
+    },
+    {
+     "raw": "Standard lenses (single vision, bifocal, trifocal). In-network: member pays: $25 materials copay. How often: Once every 12 months. Out-of-network: plan pays back up to: $30 to $65 a pair, by lens type.",
+     "say": "Standard lenses (single vision, bifocal, trifocal). In-network: member pays: 25 dollars materials copay. How often: Once every 12 months. Out-of-network: plan pays back up to: 30 dollars to 65 dollars a pair, by lens type.",
+     "focus": 1,
+     "file": "clips/66e29043a65d.mp3",
+     "seconds": 17
+    },
+    {
+     "raw": "Frames. In-network: member pays: Anything over the **$150 allowance**. How often: Once every 24 months. Out-of-network: plan pays back up to: $70.",
+     "say": "Frames. In-network: member pays: Anything over the 150 dollars allowance. How often: Once every 24 months. Out-of-network: plan pays back up to: 70 dollars.",
+     "focus": 2,
+     "file": "clips/9e9459b1f2fd.mp3",
+     "seconds": 12.425
+    },
+    {
+     "raw": "Contact lenses (in lieu of glasses). In-network: member pays: Anything over the **$150 allowance**. How often: Once every 12 months. Out-of-network: plan pays back up to: $105.",
+     "say": "Contact lenses (in lieu of glasses). In-network: member pays: Anything over the 150 dollars allowance. How often: Once every 12 months. Out-of-network: plan pays back up to: 105 dollars.",
+     "focus": 3,
+     "file": "clips/fa80a2b1780b.mp3",
+     "seconds": 14.6
+    },
+    {
+     "raw": "Extras (anti-glare coating, progressive lenses). In-network: member pays: Extra charge set by the plan. How often: With lenses. Out-of-network: plan pays back up to: Not covered.",
+     "say": "Extras (anti-glare coating, progressive lenses). In-network: member pays: Extra charge set by the plan. How often: With lenses. Out-of-network: plan pays back up to: Not covered.",
+     "focus": 4,
+     "file": "clips/1559575634e7.mp3",
+     "seconds": 12.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example 1: Emily buys glasses.",
+     "say": "Worked example 1: Emily buys glasses.",
+     "focus": -1,
+     "file": "clips/4123725d537c.mp3",
+     "seconds": 3.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Worked example 1: Emily buys glasses",
+   "lines": [
+    {
+     "raw": "On **22 April 2025**, Emily has her yearly exam with **Dr. Anna Novak**, an optometrist at **Hill Country Eye Care** (fictional), which is in the ClearSight network.",
+     "say": "On 22 April 2025, Emily has her yearly exam with Doctor Anna Novak, an optometrist at Hill Country Eye Care (fictional), which is in the ClearSight network.",
+     "focus": -1,
+     "file": "clips/6d76d85df9df.mp3",
+     "seconds": 11.675
+    },
+    {
+     "raw": "Her power has changed, so she buys new glasses there: standard single vision lenses and a frame priced **$230**.",
+     "say": "Her power has changed, so she buys new glasses there: standard single vision lenses and a frame priced 230 dollars.",
+     "focus": -1,
+     "file": "clips/0f5f3510a360.mp3",
+     "seconds": 8.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Worked example 1: Emily buys glasses",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Eye exam. Plan rule: $10 copay. Emily pays: **$10**. Why: Fixed copay for the exam.",
+     "say": "Eye exam. Plan rule: 10 dollars copay. Emily pays: 10 dollars. Why: Fixed copay for the exam.",
+     "focus": 0,
+     "file": "clips/67db7ee7d716.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "Lenses (standard). Plan rule: $25 materials copay. Emily pays: **$25**. Why: Standard lenses are covered after the copay.",
+     "say": "Lenses (standard). Plan rule: 25 dollars materials copay. Emily pays: 25 dollars. Why: Standard lenses are covered after the copay.",
+     "focus": 1,
+     "file": "clips/918d363ed730.mp3",
+     "seconds": 11.2
+    },
+    {
+     "raw": "Frame, price $230. Plan rule: $150 allowance. Emily pays: **$80**. Why: $230 − $150 = $80 overage.",
+     "say": "Frame, price 230 dollars. Plan rule: 150 dollars allowance. Emily pays: 80 dollars. Why: 230 dollars − 150 dollars = 80 dollars overage.",
+     "focus": 2,
+     "file": "clips/665264321257.mp3",
+     "seconds": 14.725
+    },
+    {
+     "raw": "**Total**. Emily pays: **$115**. Why: $10 + $25 + $80.",
+     "say": "Total. Emily pays: 115 dollars. Why: 10 dollars and 25 dollars and 80 dollars.",
+     "focus": 3,
+     "file": "clips/629ae65e3460.mp3",
+     "seconds": 7.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Worked example 1: Emily buys glasses",
+   "lines": [
+    {
+     "raw": "Allowance maths.",
+     "say": "Allowance maths.",
+     "focus": -1,
+     "file": "clips/af444f52e8ea.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Member pays equals max(0, Price − Allowance).",
+     "say": "Member pays equals max(0, Price − Allowance).",
+     "focus": 0,
+     "file": "clips/c32f56414abd.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "For example: Emily's frame: $230 − $150 equals $80.",
+     "say": "For example: Emily's frame: 230 dollars − 150 dollars equals 80 dollars.",
+     "focus": 1,
+     "file": "clips/c5575f8e06cc.mp3",
+     "seconds": 7.35
+    },
+    {
+     "raw": "A $120 frame would cost her $0, and the unused $30 is lost.",
+     "say": "A 120 dollars frame would cost her 0 dollars and the unused 30 dollars is lost.",
+     "focus": 1,
+     "file": "clips/8fb031e6678a.mp3",
+     "seconds": 6.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Worked example 1: Emily buys glasses",
+   "lines": [
+    {
+     "raw": "Some plans give a discount on the overage.",
+     "say": "Some plans give a discount on the overage.",
+     "focus": -1,
+     "file": "clips/69e92b0f3eb8.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Many real vision plans give an extra discount (for example **20% off**) on the amount above the allowance at network shops.",
+     "say": "Many real vision plans give an extra discount (for example 20 percent off) on the amount above the allowance at network shops.",
+     "focus": -1,
+     "file": "clips/277ca2efeecc.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "ClearSight does not, to keep our maths simple.",
+     "say": "ClearSight does not, to keep our maths simple.",
+     "focus": -1,
+     "file": "clips/7bb7a788bf68.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Always read the plan booklet.",
+     "say": "Always read the plan booklet.",
+     "focus": -1,
+     "file": "clips/132d784cc1d8.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example 2: contacts instead.",
+     "say": "Worked example 2: contacts instead.",
+     "focus": -1,
+     "file": "clips/95dd2641e48f.mp3",
+     "seconds": 3.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example 2: contacts instead",
+   "lines": [
+    {
+     "raw": "What if Emily had chosen **contact lenses** instead of glasses?",
+     "say": "What if Emily had chosen contact lenses instead of glasses?",
+     "focus": -1,
+     "file": "clips/bdaa3ce285e3.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "A year's supply costs **$210**.",
+     "say": "A year's supply costs 210 dollars.",
+     "focus": -1,
+     "file": "clips/2a9d674ca7bc.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "The contact lens allowance is **$150**, so she pays **$210 − $150 = $60**, plus the **$10** exam copay: **$70** in total.",
+     "say": "The contact lens allowance is 150 dollars so she pays 210 dollars − 150 dollars = 60 dollars plus the 10 dollars exam copay: 70 dollars in total.",
+     "focus": -1,
+     "file": "clips/bd4f636015e3.mp3",
+     "seconds": 13.7
+    },
+    {
+     "raw": "But because contacts are **in lieu of** glasses, the plan would pay **nothing** toward lenses or a frame until the next period.",
+     "say": "But because contacts are in lieu of glasses, the plan would pay nothing toward lenses or a frame until the next period.",
+     "focus": -1,
+     "file": "clips/1e1ff98ffe12.mp3",
+     "seconds": 7.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example 2: contacts instead",
+   "lines": [
+    {
+     "raw": "Contact lens fitting.",
+     "say": "Contact lens fitting.",
+     "focus": -1,
+     "file": "clips/74f9c648188f.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "A **contact lens fitting** (measuring the eye for contacts) is often an **extra** charge on top of the routine exam.",
+     "say": "A contact lens fitting (measuring the eye for contacts) is often an extra charge on top of the routine exam.",
+     "focus": -1,
+     "file": "clips/31dbcea46571.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "Many plans give a discount on it but do not cover it in full.",
+     "say": "Many plans give a discount on it but do not cover it in full.",
+     "focus": -1,
+     "file": "clips/d58bc23e17cd.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "We leave it out of the example above.",
+     "say": "We leave it out of the example above.",
+     "focus": -1,
+     "file": "clips/2120b00054dc.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Frequency: the calendar of benefits.",
+     "say": "Frequency: the calendar of benefits.",
+     "focus": -1,
+     "file": "clips/39c6915b0d3e.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Frequency: the calendar of benefits",
+   "lines": [
+    {
+     "raw": "Plans count frequency in one of two ways: from the **date of your last service** (12 months after 22 April 2025 is 22 April 2026), or by **calendar year** (a new benefit every 1 January).",
+     "say": "Plans count frequency in one of two ways: from the date of your last service (12 months after 22 April 2025 is 22 April 2026), or by calendar year (a new benefit every 1 January).",
+     "focus": -1,
+     "file": "clips/dab3ea0cf6cf.mp3",
+     "seconds": 14.975
+    },
+    {
+     "raw": "Emily's plan counts from the **last service date**.",
+     "say": "Emily's plan counts from the last service date.",
+     "focus": -1,
+     "file": "clips/5ec942b25478.mp3",
+     "seconds": 3.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Frequency: the calendar of benefits",
+   "lines": [
+    {
+     "raw": "When can Emily use each benefit again?",
+     "say": "When can Emily use each benefit again?",
+     "focus": -1,
+     "file": "clips/79ecce74934c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Eye exam. Last used: 22 Apr 2025. Frequency: 12 months. Next eligible: 22 Apr 2026.",
+     "say": "Eye exam. Last used: 22 Apr 2025. Frequency: 12 months. Next eligible: 22 Apr 2026.",
+     "focus": 0,
+     "file": "clips/a5694694cdac.mp3",
+     "seconds": 10.125
+    },
+    {
+     "raw": "Lenses. Last used: 22 Apr 2025. Frequency: 12 months. Next eligible: 22 Apr 2026.",
+     "say": "Lenses. Last used: 22 Apr 2025. Frequency: 12 months. Next eligible: 22 Apr 2026.",
+     "focus": 1,
+     "file": "clips/6a27e6f04630.mp3",
+     "seconds": 10.025
+    },
+    {
+     "raw": "Frames. Last used: 22 Apr 2025. Frequency: 24 months. Next eligible: 22 Apr 2027.",
+     "say": "Frames. Last used: 22 Apr 2025. Frequency: 24 months. Next eligible: 22 Apr 2027.",
+     "focus": 2,
+     "file": "clips/17dfdac34b02.mp3",
+     "seconds": 10.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Frequency: the calendar of benefits",
+   "lines": [
+    {
+     "raw": "In Nepal: Compare with Ram and Sita.",
+     "say": "In Nepal: Compare with Ram and Sita.",
+     "focus": -1,
+     "file": "clips/4fa4b22b27ab.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "If Ram's policy did pay for glasses, it would probably set a **limit** (a maximum amount) and he would pay the rest, just like an allowance.",
+     "say": "If Ram's policy did pay for glasses, it would probably set a limit (a maximum amount) and he would pay the rest, just like an allowance.",
+     "focus": 0,
+     "file": "clips/fe89175e02d4.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "He would still pay first and claim later.",
+     "say": "He would still pay first and claim later.",
+     "focus": 0,
+     "file": "clips/c1bc198bc87d.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF works with **limits** and Sita's **20%** share for covered treatment.",
+     "say": "S S F works with limits and Sita's 20 percent share for covered treatment.",
+     "focus": 1,
+     "file": "clips/a71c4cf9a1f2.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "For glasses, Sita should check SSF's current rules rather than assume a benefit exists.",
+     "say": "For glasses, Sita should check SSF's current rules rather than assume a benefit exists.",
+     "focus": 1,
+     "file": "clips/6437a0581388.mp3",
+     "seconds": 6.025
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Routine vision plans use copays, allowances and frequency limits, not big deductibles.",
+     "say": "Routine vision plans use copays, allowances and frequency limits, not big deductibles.",
+     "focus": 0,
+     "file": "clips/f4ad60ea56de.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "The exam is a service; frames, lenses and contacts are materials.",
+     "say": "The exam is a service; frames, lenses and contacts are materials.",
+     "focus": 1,
+     "file": "clips/792d5de0cc78.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Member pays = Price − Allowance (never less than $0).",
+     "say": "Member pays = Price − Allowance (never less than 0 dollars).",
+     "focus": 2,
+     "file": "clips/76b7090e9725.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Unused allowance is lost.",
+     "say": "Unused allowance is lost.",
+     "focus": 2,
+     "file": "clips/c9263db3f121.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Contacts are usually in lieu of glasses: one or the other per period.",
+     "say": "Contacts are usually in lieu of glasses: one or the other per period.",
+     "focus": 3,
+     "file": "clips/53cb7729b947.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

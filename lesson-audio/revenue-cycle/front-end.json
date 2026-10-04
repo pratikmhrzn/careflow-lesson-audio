@@ -1,0 +1,939 @@
+{
+ "courseId": "revenue-cycle",
+ "lessonId": "front-end",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: Front End: Before the Visit.",
+     "say": "Lesson 2: Front End: Before the Visit.",
+     "focus": -1,
+     "file": "clips/59d0a80c2f2e.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "Scheduling, registration, insurance checks and cost estimates: getting it right at the door.",
+     "say": "Scheduling, registration, insurance checks and cost estimates: getting it right at the door.",
+     "focus": -1,
+     "file": "clips/16628fdbffdf.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "List the front-end steps from scheduling to check-in.",
+     "say": "List the front-end steps from scheduling to check-in.",
+     "focus": 0,
+     "file": "clips/18f8aa773021.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Explain why registration data decides whether a claim gets paid.",
+     "say": "Explain why registration data decides whether a claim gets paid.",
+     "focus": 1,
+     "file": "clips/6736b032092b.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Describe what an insurance check and a prior authorization check tell the provider.",
+     "say": "Describe what an insurance check and a prior authorization check tell the provider.",
+     "focus": 2,
+     "file": "clips/c7c18e1fd6be.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Explain patient cost estimates and point-of-service collections.",
+     "say": "Explain patient cost estimates and point-of-service collections.",
+     "focus": 3,
+     "file": "clips/6c9e18326687.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "In Nepal: The registration counter.",
+     "say": "In Nepal: The registration counter.",
+     "focus": -1,
+     "file": "clips/b0ee0b0ee3ac.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "At a private hospital in Kathmandu, Ram first goes to the **registration counter**.",
+     "say": "At a private hospital in Kathmandu, Ram first goes to the registration counter.",
+     "focus": 0,
+     "file": "clips/46579dc0f991.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "A clerk takes his name, age, address and phone number and gives him a patient number or card.",
+     "say": "A clerk takes his name, age, address and phone number and gives him a patient number or card.",
+     "focus": 0,
+     "file": "clips/0381ab42ca19.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "He often pays the OPD ticket there and then.",
+     "say": "He often pays the O P D ticket there and then.",
+     "focus": 1,
+     "file": "clips/3802d7906297.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "If a clerk spells his name wrong, nobody minds much: he is paying cash.",
+     "say": "If a clerk spells his name wrong, nobody minds much: he is paying cash.",
+     "focus": 1,
+     "file": "clips/a74c18ef2ccd.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "At an SSF-listed hospital, the clerk must also confirm that Sita is an **active SSF contributor** and record her SSF details.",
+     "say": "At an S S F listed hospital, the clerk must also confirm that Sita is an active S S F contributor and record her S S F details.",
+     "focus": 2,
+     "file": "clips/ac997a1fddb7.mp3",
+     "seconds": 10.025
+    },
+    {
+     "raw": "If those details are wrong, the hospital's claim to SSF may be refused later, and the hospital may not get its share.",
+     "say": "If those details are wrong, the hospital's claim to S S F may be refused later, and the hospital may not get its share.",
+     "focus": 3,
+     "file": "clips/316a5e55b032.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "So the front desk matters much more for Sita's visit than for Ram's.",
+     "say": "So the front desk matters much more for Sita's visit than for Ram's.",
+     "focus": 3,
+     "file": "clips/dbfb74b21784.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "Front end.",
+     "say": "Front end.",
+     "focus": -1,
+     "file": "clips/9cb0d999de62.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "The **front end** collects the facts a claim will need (who the patient is, who pays, what is covered and approved) and the patient's share, **before** any care is given.",
+     "say": "The front end collects the facts a claim will need (who the patient is, who pays, what is covered and approved) and the patient's share, before any care is given.",
+     "focus": -1,
+     "file": "clips/1ea1509b060c.mp3",
+     "seconds": 9.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "In the US: In the US, the front end is where most denials start.",
+     "say": "In the U S: In the U S, the front end is where most denials start.",
+     "focus": -1,
+     "file": "clips/bc0cb3529af4.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "Industry surveys regularly find that **registration and eligibility** problems are among the largest causes of claim denials.",
+     "say": "Industry surveys regularly find that registration and eligibility problems are among the largest causes of claim denials.",
+     "focus": 0,
+     "file": "clips/94e4908b05e5.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "A wrong date of birth, an old insurance card or a missing approval cannot be fixed by good coding later.",
+     "say": "A wrong date of birth, an old insurance card or a missing approval cannot be fixed by good coding later.",
+     "focus": 1,
+     "file": "clips/fb971165275a.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "The claim is wrong from the start.",
+     "say": "The claim is wrong from the start.",
+     "focus": 1,
+     "file": "clips/86cca8f09ade.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Fixing a problem at the front desk takes minutes.",
+     "say": "Fixing a problem at the front desk takes minutes.",
+     "focus": 2,
+     "file": "clips/0bd9eb885ac8.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "Fixing it after a denial can take weeks and staff time.",
+     "say": "Fixing it after a denial can take weeks and staff time.",
+     "focus": 2,
+     "file": "clips/9319c8c45f60.mp3",
+     "seconds": 3.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The front-end steps.",
+     "say": "The front-end steps.",
+     "focus": -1,
+     "file": "clips/db6ce45a9a4f.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The front-end steps",
+   "lines": [
+    {
+     "raw": "Step 1: Scheduling.",
+     "say": "Step 1: Scheduling.",
+     "focus": 0,
+     "file": "clips/4931328c0240.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "The patient books a visit.",
+     "say": "The patient books a visit.",
+     "focus": 0,
+     "file": "clips/71e059f1eeac.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "The scheduler records the reason, the doctor and the date, and asks for insurance details.",
+     "say": "The scheduler records the reason, the doctor and the date, and asks for insurance details.",
+     "focus": 0,
+     "file": "clips/3a3e2a28c3ae.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Step 2: Pre-registration.",
+     "say": "Step 2: Pre-registration.",
+     "focus": 1,
+     "file": "clips/af2a0abe72ba.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Before the visit, staff enter or update the patient's details and insurance, often from a photo of the card.",
+     "say": "Before the visit, staff enter or update the patient's details and insurance, often from a photo of the card.",
+     "focus": 1,
+     "file": "clips/9c64b617fa26.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "Step 3: Insurance check.",
+     "say": "Step 3: Insurance check.",
+     "focus": 2,
+     "file": "clips/eb5c56164aa1.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Staff (or software) ask the insurer: is this person covered on the visit date, and what will they pay?",
+     "say": "Staff (or software) ask the insurer: is this person covered on the visit date, and what will they pay?",
+     "focus": 2,
+     "file": "clips/9d507e1d5fce.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "Step 4: Prior authorization check.",
+     "say": "Step 4: Prior authorization check.",
+     "focus": 3,
+     "file": "clips/ced6b9c9843d.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "For some expensive services, the insurer must approve in advance.",
+     "say": "For some expensive services, the insurer must approve in advance.",
+     "focus": 3,
+     "file": "clips/f1cc59416a35.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "Staff check whether an approval is needed and on file.",
+     "say": "Staff check whether an approval is needed and on file.",
+     "focus": 3,
+     "file": "clips/71a0bf3106b2.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Step 5: Cost estimate.",
+     "say": "Step 5: Cost estimate.",
+     "focus": 4,
+     "file": "clips/d6f67ac052a9.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "The clinic estimates what the patient will owe, using the benefits returned by the insurance check.",
+     "say": "The clinic estimates what the patient will owe, using the benefits returned by the insurance check.",
+     "focus": 4,
+     "file": "clips/3d96ba759ec7.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Step 6: Check-in and collection.",
+     "say": "Step 6: Check-in and collection.",
+     "focus": 5,
+     "file": "clips/936861211485.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "On the day, the patient confirms details, signs forms and pays the copay or an estimated share.",
+     "say": "On the day, the patient confirms details, signs forms and pays the copay or an estimated share.",
+     "focus": 5,
+     "file": "clips/829df25bc51e.mp3",
+     "seconds": 6.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Registration: the facts every claim needs.",
+     "say": "Registration: the facts every claim needs.",
+     "focus": -1,
+     "file": "clips/84e04319ebb5.mp3",
+     "seconds": 3.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Registration: the facts every claim needs",
+   "lines": [
+    {
+     "raw": "Registration fields that end up on the claim.",
+     "say": "Registration fields that end up on the claim.",
+     "focus": -1,
+     "file": "clips/b0335a36cfdf.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Patient name and date of birth. Why it matters: The insurer matches the patient by these. Typical error: Nickname instead of legal name; day and month swapped.",
+     "say": "Patient name and date of birth. Why it matters: The insurer matches the patient by these. Typical error: Nickname instead of legal name; day and month swapped.",
+     "focus": 0,
+     "file": "clips/b6f2a59267c0.mp3",
+     "seconds": 10.8
+    },
+    {
+     "raw": "Insurance member ID (from the card). Why it matters: Identifies the coverage. Typical error: Old card used after a job change.",
+     "say": "Insurance member I D (from the card). Why it matters: Identifies the coverage. Typical error: Old card used after a job change.",
+     "focus": 1,
+     "file": "clips/d20db91eb1a5.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "Subscriber and relationship. Why it matters: Whose plan it is (self, spouse, child). Typical error: Child entered as the subscriber.",
+     "say": "Subscriber and relationship. Why it matters: Whose plan it is (self, spouse, child). Typical error: Child entered as the subscriber.",
+     "focus": 2,
+     "file": "clips/af9a704b3ca3.mp3",
+     "seconds": 9.4
+    },
+    {
+     "raw": "Payer and plan. Why it matters: Which insurer to send the claim to. Typical error: Wrong one of two plans with similar names.",
+     "say": "Payer and plan. Why it matters: Which insurer to send the claim to. Typical error: Wrong one of two plans with similar names.",
+     "focus": 3,
+     "file": "clips/b170c97cbcab.mp3",
+     "seconds": 8.525
+    },
+    {
+     "raw": "Other insurance. Why it matters: Decides which plan pays first. Typical error: Second insurance not asked about.",
+     "say": "Other insurance. Why it matters: Decides which plan pays first. Typical error: Second insurance not asked about.",
+     "focus": 4,
+     "file": "clips/969cc37e0825.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Guarantor. Why it matters: Who gets the patient statement. Typical error: Bill sent to a parent who is not on file.",
+     "say": "Guarantor. Why it matters: Who gets the patient statement. Typical error: Bill sent to a parent who is not on file.",
+     "focus": 5,
+     "file": "clips/25d64943c028.mp3",
+     "seconds": 7.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The insurance check.",
+     "say": "The insurance check.",
+     "focus": -1,
+     "file": "clips/7e6445015c63.mp3",
+     "seconds": 1.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The insurance check",
+   "lines": [
+    {
+     "raw": "Before the visit, the clinic sends an electronic **eligibility and benefits inquiry** (the **270**, in X12, the standard format for US healthcare electronic transactions) and gets a **271** response back.",
+     "say": "Before the visit, the clinic sends an electronic eligibility and benefits inquiry (the 2 70, in X12, the standard format for U S healthcare electronic transactions) and gets a 2 71 response back.",
+     "focus": -1,
+     "file": "clips/a8cc0ee1ada6.mp3",
+     "seconds": 14.3
+    },
+    {
+     "raw": "It tells the clinic whether the patient is covered on that date and what their copay, deductible and coinsurance are.",
+     "say": "It tells the clinic whether the patient is covered on that date and what their copay, deductible and coinsurance are.",
+     "focus": -1,
+     "file": "clips/af11b4ed6d39.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "The **Eligibility** course explains these transactions and the coverage data behind them; here we only use the answer.",
+     "say": "The Eligibility course explains these transactions and the coverage data behind them; here we only use the answer.",
+     "focus": -1,
+     "file": "clips/373863049d21.mp3",
+     "seconds": 7.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The insurance check",
+   "lines": [
+    {
+     "raw": "Eligibility owns coverage.",
+     "say": "Eligibility owns coverage.",
+     "focus": -1,
+     "file": "clips/65ef18e1f506.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Coverage dates, subscribers and dependents, and the 270/271 exchange are taught in the Eligibility course.",
+     "say": "Coverage dates, subscribers and dependents, and the 2 70/2 71 exchange are taught in the Eligibility course.",
+     "focus": -1,
+     "file": "clips/75df9119586d.mp3",
+     "seconds": 8.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The insurance check",
+   "lines": [
+    {
+     "raw": "For planned scans, surgeries and some drugs, the insurer requires **prior authorization**: approval before the service.",
+     "say": "For planned scans, surgeries and some drugs, the insurer requires prior authorization: approval before the service.",
+     "focus": -1,
+     "file": "clips/db6d81233e8e.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "The front end checks the plan's list and makes sure the approval is requested and on file before the visit.",
+     "say": "The front end checks the plan's list and makes sure the approval is requested and on file before the visit.",
+     "focus": -1,
+     "file": "clips/b960994b05a2.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "If it is missing, the claim is likely to be denied later.",
+     "say": "If it is missing, the claim is likely to be denied later.",
+     "focus": -1,
+     "file": "clips/3a8b29cbf4ff.mp3",
+     "seconds": 3.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The insurance check",
+   "lines": [
+    {
+     "raw": "Prior authorization has its own course.",
+     "say": "Prior authorization has its own course.",
+     "focus": -1,
+     "file": "clips/27ac79f8f20d.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "What is sent, how insurers decide and how approvals are matched to claims are covered in the Prior Authorization & Utilization Management course.",
+     "say": "What is sent, how insurers decide and how approvals are matched to claims are covered in the Prior Authorization and Utilization Management course.",
+     "focus": -1,
+     "file": "clips/e6fe4a320a6c.mp3",
+     "seconds": 9.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Estimates and collecting at the visit.",
+     "say": "Estimates and collecting at the visit.",
+     "focus": -1,
+     "file": "clips/1a9e91d101e8.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Estimates and collecting at the visit",
+   "lines": [
+    {
+     "raw": "Patient cost estimate.",
+     "say": "Patient cost estimate.",
+     "focus": 0,
+     "file": "clips/5facb2312136.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "The clinic's best guess of what the patient will owe, using the expected charges, the insurer's rates and the patient's remaining deductible and coinsurance.",
+     "say": "The clinic's best guess of what the patient will owe, using the expected charges, the insurer's rates and the patient's remaining deductible and coinsurance.",
+     "focus": 0,
+     "file": "clips/c2a542217d79.mp3",
+     "seconds": 10
+    },
+    {
+     "raw": "Point-of-service (POS) collection.",
+     "say": "Point-of-service (P O S) collection.",
+     "focus": 1,
+     "file": "clips/0b1332eaa68b.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Money collected from the patient **at** the visit: the copay, or a deposit toward an expected deductible.",
+     "say": "Money collected from the patient at the visit: the copay, or a deposit toward an expected deductible.",
+     "focus": 1,
+     "file": "clips/2d103a10b8fc.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Financial counseling.",
+     "say": "Financial counseling.",
+     "focus": 2,
+     "file": "clips/940be709d676.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "Help for patients who may struggle to pay: payment plans, financial assistance, or applying for Medicaid.",
+     "say": "Help for patients who may struggle to pay: payment plans, financial assistance, or applying for Medicaid.",
+     "focus": 2,
+     "file": "clips/cb816e9c4b98.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "Lesson 6 covers this.",
+     "say": "Lesson 6 covers this.",
+     "focus": 2,
+     "file": "clips/33bb8fc6b34b.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Self-pay patient.",
+     "say": "Self-pay patient.",
+     "focus": 3,
+     "file": "clips/dc1c19bf33f4.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "A patient with no insurance, or who chooses not to use it.",
+     "say": "A patient with no insurance, or who chooses not to use it.",
+     "focus": 3,
+     "file": "clips/8215650d796e.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "US law gives them a right to a **good faith estimate**, covered in the Price Transparency & No Surprises Act course.",
+     "say": "U S law gives them a right to a good faith estimate, covered in the Price Transparency and No Surprises Act course.",
+     "focus": 3,
+     "file": "clips/2f542adde170.mp3",
+     "seconds": 7.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Estimates and collecting at the visit",
+   "lines": [
+    {
+     "raw": "Why collect at the visit?",
+     "say": "Why collect at the visit?",
+     "focus": -1,
+     "file": "clips/e301d8de1327.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Once a patient leaves, collecting even a small balance means statements, reminders and staff time, and some of it is never paid.",
+     "say": "Once a patient leaves, collecting even a small balance means statements, reminders and staff time, and some of it is never paid.",
+     "focus": -1,
+     "file": "clips/3a73385e024c.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "Collecting a known copay at check-in is the cheapest money a provider will ever collect.",
+     "say": "Collecting a known copay at check-in is the cheapest money a provider will ever collect.",
+     "focus": -1,
+     "file": "clips/8a49db688a72.mp3",
+     "seconds": 5.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Estimates and collecting at the visit",
+   "lines": [
+    {
+     "raw": "Estimates for uninsured patients.",
+     "say": "Estimates for uninsured patients.",
+     "focus": -1,
+     "file": "clips/496ebe16d1e0.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Good faith estimates and the price disclosure rules behind them are taught in the Price Transparency & No Surprises Act course.",
+     "say": "Good faith estimates and the price disclosure rules behind them are taught in the Price Transparency and No Surprises Act course.",
+     "focus": -1,
+     "file": "clips/df427c5702d7.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Emily's front end.",
+     "say": "Worked example: Emily's front end.",
+     "focus": -1,
+     "file": "clips/6b3a7dfa3d07.mp3",
+     "seconds": 2.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example: Emily's front end",
+   "lines": [
+    {
+     "raw": "Here is the Registration form: Sunrise Family Clinic: registration and insurance check for Emily.",
+     "say": "Here is the Registration form: Sunrise Family Clinic: registration and insurance check for Emily.",
+     "focus": -1,
+     "file": "clips/ed7729353759.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "Patient: Emily Carter.",
+     "say": "Patient: Emily Carter.",
+     "focus": 0,
+     "file": "clips/481f9e1c8979.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Legal name, matches the insurance card.",
+     "say": "Legal name, matches the insurance card.",
+     "focus": 0,
+     "file": "clips/833a0de48199.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "Patient account: SFC-0457.",
+     "say": "Patient account: S F C 0457.",
+     "focus": 1,
+     "file": "clips/93c0d17b9c00.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "The clinic's own number for this visit.",
+     "say": "The clinic's own number for this visit.",
+     "focus": 1,
+     "file": "clips/dcc4d7026123.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Payer: Lone Star Health Insurance.",
+     "say": "Payer: Lone Star Health Insurance.",
+     "focus": 2,
+     "file": "clips/dd49f76457cc.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Employer PPO plan.",
+     "say": "Employer P P O plan.",
+     "focus": 2,
+     "file": "clips/023a8b076b82.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Member ID (card): 48291307-01.",
+     "say": "Member I D (card): 4 8 2 9 1 3 0 7 dash 0 1.",
+     "focus": 3,
+     "file": "clips/ff9c0f03cd56.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Copied from a photo of her card.",
+     "say": "Copied from a photo of her card.",
+     "focus": 3,
+     "file": "clips/a773629bca02.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Relationship to subscriber: Self.",
+     "say": "Relationship to subscriber: Self.",
+     "focus": 4,
+     "file": "clips/db441218d5a7.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Emily is the subscriber.",
+     "say": "Emily is the subscriber.",
+     "focus": 4,
+     "file": "clips/3a5e68e59de1.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Other insurance: None.",
+     "say": "Other insurance: None.",
+     "focus": 5,
+     "file": "clips/735af07c9da0.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "Asked and answered at check-in.",
+     "say": "Asked and answered at check-in.",
+     "focus": 5,
+     "file": "clips/a6a7fd96b1a6.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Eligibility check (271): Active on 10 Mar 2025.",
+     "say": "Eligibility check (2 71): Active on 10 Mar 2025.",
+     "focus": 6,
+     "file": "clips/0c62facb128d.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "Run on 7 Mar 2025.",
+     "say": "Run on 7 Mar 2025.",
+     "focus": 6,
+     "file": "clips/f39644fc045e.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Office visit copay: $25.",
+     "say": "Office visit copay: 25 dollars.",
+     "focus": 7,
+     "file": "clips/6fc766bc45c6.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "From the 271 benefits.",
+     "say": "From the 2 71 benefits.",
+     "focus": 7,
+     "file": "clips/cea23fa9c1bc.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Prior authorization needed?: No.",
+     "say": "Prior authorization needed?: No.",
+     "focus": 8,
+     "file": "clips/cb765e46173c.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Office visits and a rapid strep test need no approval.",
+     "say": "Office visits and a rapid strep test need no approval.",
+     "focus": 8,
+     "file": "clips/1c373d81b162.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "Collected at check-in: $25.00 copay.",
+     "say": "Collected at check-in: 25 dollars copay.",
+     "focus": 9,
+     "file": "clips/7029d8c44696.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "10 Mar 2025.",
+     "say": "10 Mar 2025.",
+     "focus": 9,
+     "file": "clips/414dcf397e2c.mp3",
+     "seconds": 2.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Worked example: Emily's front end",
+   "lines": [
+    {
+     "raw": "Because the front end did its job, the claim that leaves the clinic the next day already has the right patient, the right payer and the right ID, and the copay is already in the bank.",
+     "say": "Because the front end did its job, the claim that leaves the clinic the next day already has the right patient, the right payer and the right I D, and the copay is already in the bank.",
+     "focus": -1,
+     "file": "clips/f7521f472255.mp3",
+     "seconds": 11.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Worked example: Emily's front end",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Front-end data sets up everything downstream.",
+     "say": "Front-end data sets up everything downstream.",
+     "focus": -1,
+     "file": "clips/ef3361eb4804.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Analysts look for: visits with **no insurance check** on file, insurance checks that came back **inactive** but the visit went ahead, registrations **edited after** the claim was sent, and how much of the expected patient share was **collected at the visit**.",
+     "say": "Analysts look for: visits with no insurance check on file, insurance checks that came back inactive but the visit went ahead, registrations edited after the claim was sent, and how much of the expected patient share was collected at the visit.",
+     "focus": -1,
+     "file": "clips/d138c054ea9c.mp3",
+     "seconds": 15.65
+    },
+    {
+     "raw": "Linking denials back to the registration step shows where training or software checks would help most.",
+     "say": "Linking denials back to the registration step shows where training or software checks would help most.",
+     "focus": -1,
+     "file": "clips/70a44adcae99.mp3",
+     "seconds": 6.3
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The front end gathers who the patient is, who pays, what is covered and approved, and collects the patient's share, before care.",
+     "say": "The front end gathers who the patient is, who pays, what is covered and approved, and collects the patient's share, before care.",
+     "focus": 0,
+     "file": "clips/964be830dddc.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "Registration fields (name, date of birth, member ID, relationship, other insurance) flow straight onto the claim.",
+     "say": "Registration fields (name, date of birth, member I D, relationship, other insurance) flow straight onto the claim.",
+     "focus": 1,
+     "file": "clips/b1b62133777d.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "The 270/271 insurance check confirms coverage and benefits; prior authorization is checked for expensive planned services.",
+     "say": "The 2 70/2 71 insurance check confirms coverage and benefits; prior authorization is checked for expensive planned services.",
+     "focus": 2,
+     "file": "clips/aa7f064ec754.mp3",
+     "seconds": 10.175
+    },
+    {
+     "raw": "Collecting copays and estimated shares at the visit is far cheaper than chasing them later.",
+     "say": "Collecting copays and estimated shares at the visit is far cheaper than chasing them later.",
+     "focus": 3,
+     "file": "clips/ab855ee6361c.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "Many denials are born at the front end, so fixing errors there has the biggest payoff.",
+     "say": "Many denials are born at the front end, so fixing errors there has the biggest payoff.",
+     "focus": 4,
+     "file": "clips/a0af77c49a74.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

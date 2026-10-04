@@ -1,0 +1,1009 @@
+{
+ "courseId": "medical",
+ "lessonId": "what-is-medical-data",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What is a Medical Claim?",
+     "say": "Lesson 1: What is a Medical Claim?",
+     "focus": -1,
+     "file": "clips/d53f112138a1.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Every doctor visit leaves a paper trail.",
+     "say": "Every doctor visit leaves a paper trail.",
+     "focus": -1,
+     "file": "clips/58ad958fc941.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "That trail is a medical claim.",
+     "say": "That trail is a medical claim.",
+     "focus": -1,
+     "file": "clips/df266d5242a3.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain in one sentence what a medical claim is.",
+     "say": "Explain in one sentence what a medical claim is.",
+     "focus": 0,
+     "file": "clips/475da5bda3f8.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Know who creates a claim, who sends it, and who pays it.",
+     "say": "Know who creates a claim, who sends it, and who pays it.",
+     "focus": 1,
+     "file": "clips/8daa0ae8881c.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Name the six questions every claim answers.",
+     "say": "Name the six questions every claim answers.",
+     "focus": 2,
+     "file": "clips/c8958cc78289.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Tell a claim apart from an encounter and a medical record.",
+     "say": "Tell a claim apart from an encounter and a medical record.",
+     "focus": 3,
+     "file": "clips/3ab7254e7d0d.mp3",
+     "seconds": 3.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Think about the last time you or someone in your family went to a hospital in Nepal.",
+     "say": "Think about the last time you or someone in your family went to a hospital in Nepal.",
+     "focus": -1,
+     "file": "clips/bd7ae5e009c1.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "You probably got an **OPD ticket**, the doctor wrote on a **prescription paper**, you paid for **tests** at the counter, and you walked out with a **bill** (receipt).",
+     "say": "You probably got an O P D ticket, the doctor wrote on a prescription paper, you paid for tests at the counter, and you walked out with a bill (receipt).",
+     "focus": -1,
+     "file": "clips/58cbeebf7076.mp3",
+     "seconds": 9.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "That bill quietly records a lot: **who** was treated, **which doctor** saw them, **what** was done, **when** it happened, and **how much** it cost.",
+     "say": "That bill quietly records a lot: who was treated, which doctor saw them, what was done, when it happened, and how much it cost.",
+     "focus": -1,
+     "file": "clips/fbfb395038fc.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "In the US, that same information is collected in a standard format and sent to an insurance company.",
+     "say": "In the U S, that same information is collected in a standard format and sent to an insurance company.",
+     "focus": -1,
+     "file": "clips/44caa13f0df4.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "That bill is called a **medical claim**, and a pile of them is what people call **medical data**.",
+     "say": "That bill is called a medical claim, and a pile of them is what people call medical data.",
+     "focus": -1,
+     "file": "clips/d367c412d9a2.mp3",
+     "seconds": 5.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Simple definition.",
+     "say": "Simple definition.",
+     "focus": -1,
+     "file": "clips/a5c5927139e3.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "A medical claim is a bill that a doctor or hospital sends to an insurance company, asking to be paid for care they gave, written in a way the insurance company can read and pay.",
+     "say": "A medical claim is a bill that a doctor or hospital sends to an insurance company, asking to be paid for care they gave, written in a way the insurance company can read and pay.",
+     "focus": -1,
+     "file": "clips/26c951eae9c2.mp3",
+     "seconds": 11.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet our three people.",
+     "say": "Meet our three people.",
+     "focus": -1,
+     "file": "clips/fcc756f4d5cd.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Meet our three people",
+   "lines": [
+    {
+     "raw": "Throughout this course we will follow three people with the same kind of problem, so you can compare how things work.",
+     "say": "Throughout this course we will follow three people with the same kind of problem, so you can compare how things work.",
+     "focus": -1,
+     "file": "clips/b8a73e489b93.mp3",
+     "seconds": 6.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Meet our three people",
+   "lines": [
+    {
+     "raw": "In Nepal: Sita and Ram both get sick in Kathmandu.",
+     "say": "In Nepal: Sita and Ram both get sick in Kathmandu.",
+     "focus": -1,
+     "file": "clips/e0a8a993e69d.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "**Ram** works at a tech startup.",
+     "say": "Ram works at a tech startup.",
+     "focus": 0,
+     "file": "clips/50989f15aa25.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "The startup is not in SSF, but it gives Ram **private health insurance** from an insurance company.",
+     "say": "The startup is not in S S F, but it gives Ram private health insurance from an insurance company.",
+     "focus": 0,
+     "file": "clips/6c770bbf5de1.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "He visits a hospital with a sore throat and fever.",
+     "say": "He visits a hospital with a sore throat and fever.",
+     "focus": 1,
+     "file": "clips/ea00812b9a71.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "He buys an OPD ticket, sees the doctor, pays for a blood test, and buys medicine.",
+     "say": "He buys an O P D ticket, sees the doctor, pays for a blood test, and buys medicine.",
+     "focus": 1,
+     "file": "clips/cb146ea13c38.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "He **pays the whole bill himself** at the counter and keeps the original bills, prescription and reports.",
+     "say": "He pays the whole bill himself at the counter and keeps the original bills, prescription and reports.",
+     "focus": 2,
+     "file": "clips/d722a5676d51.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Later, he **submits a claim** with those papers to his insurance company.",
+     "say": "Later, he submits a claim with those papers to his insurance company.",
+     "focus": 3,
+     "file": "clips/fd9538284ae7.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "The insurer checks it and **reimburses** (pays back) Ram.",
+     "say": "The insurer checks it and reimburses (pays back) Ram.",
+     "focus": 3,
+     "file": "clips/607928f8db07.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 4,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "**Sita** is an accountant at a private company.",
+     "say": "Sita is an accountant at a private company.",
+     "focus": 4,
+     "file": "clips/1bd6c46b3d08.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Every month, part of her salary goes to the **Social Security Fund (SSF)**.",
+     "say": "Every month, part of her salary goes to the Social Security Fund (S S F).",
+     "focus": 4,
+     "file": "clips/2a34ff2b6da1.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "She visits an **SSF-listed hospital** with the same sore throat.",
+     "say": "She visits an S S F listed hospital with the same sore throat.",
+     "focus": 5,
+     "file": "clips/b5dc4eb8702c.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "She shows her SSF ID card.",
+     "say": "She shows her S S F I D card.",
+     "focus": 5,
+     "file": "clips/8d1d5ff57494.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "The hospital treats her.",
+     "say": "The hospital treats her.",
+     "focus": 6,
+     "file": "clips/ecbf831b42fd.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "Sita pays **20%** of the bill herself at the hospital.",
+     "say": "Sita pays 20 percent of the bill herself at the hospital.",
+     "focus": 6,
+     "file": "clips/59a31e22ac07.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "This is called **cost sharing**.",
+     "say": "This is called cost sharing.",
+     "focus": 6,
+     "file": "clips/58941b2ada93.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "The hospital then **sends the bill to SSF** for the other **80%**.",
+     "say": "The hospital then sends the bill to S S F for the other 80 percent.",
+     "focus": 7,
+     "file": "clips/376169d2800c.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "SSF checks it and pays the hospital.",
+     "say": "S S F checks it and pays the hospital.",
+     "focus": 7,
+     "file": "clips/fd2695370f05.mp3",
+     "seconds": 3.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Meet our three people",
+   "lines": [
+    {
+     "raw": "In the US: Emily gets sick in Texas, USA.",
+     "say": "In the U S: Emily gets sick in Texas, U S A.",
+     "focus": -1,
+     "file": "clips/23f46e3b361c.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "**Emily** works at a company that gives her **health insurance** (an \"employer plan\").",
+     "say": "Emily works at a company that gives her health insurance (an \"employer plan\").",
+     "focus": 0,
+     "file": "clips/a10b8d03e1d3.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "She visits her doctor with a sore throat.",
+     "say": "She visits her doctor with a sore throat.",
+     "focus": 1,
+     "file": "clips/4d048ab8ddce.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "She shows her insurance card at the front desk.",
+     "say": "She shows her insurance card at the front desk.",
+     "focus": 1,
+     "file": "clips/7a8499e19ccc.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "After the visit, the doctor's office **sends a bill to her insurance company**.",
+     "say": "After the visit, the doctor's office sends a bill to her insurance company.",
+     "focus": 2,
+     "file": "clips/588d2c39934c.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "That bill is called a **claim**.",
+     "say": "That bill is called a claim.",
+     "focus": 2,
+     "file": "clips/cabe59709acc.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "The insurance company checks it, pays its share, and tells Emily what she still owes.",
+     "say": "The insurance company checks it, pays its share, and tells Emily what she still owes.",
+     "focus": 3,
+     "file": "clips/021798de8769.mp3",
+     "seconds": 5.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Meet our three people",
+   "lines": [
+    {
+     "raw": "The big idea.",
+     "say": "The big idea.",
+     "focus": -1,
+     "file": "clips/7d7554d3f69f.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "Both Sita and Ram create a **claim**, just in different ways.",
+     "say": "Both Sita and Ram create a claim, just in different ways.",
+     "focus": -1,
+     "file": "clips/0475b67d2b4a.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "With SSF, the **hospital** sends the claim and gets paid directly.",
+     "say": "With S S F, the hospital sends the claim and gets paid directly.",
+     "focus": -1,
+     "file": "clips/d688daba2499.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "That is how most US visits work.",
+     "say": "That is how most U S visits work.",
+     "focus": -1,
+     "file": "clips/d884d7fdc9c0.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "With Ram's private insurance, **Ram** pays first and sends the claim himself to get his money back.",
+     "say": "With Ram's private insurance, Ram pays first and sends the claim himself to get his money back.",
+     "focus": -1,
+     "file": "clips/99ebc16429e2.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "That happens in the US too, usually when a patient sees a doctor outside their insurer's network.",
+     "say": "That happens in the U S too, usually when a patient sees a doctor outside their insurer's network.",
+     "focus": -1,
+     "file": "clips/3b4c79b34e6d.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "Even Sita's 20% share has a US twin: Emily also pays part of each bill herself.",
+     "say": "Even Sita's 20 percent share has a U S twin: Emily also pays part of each bill herself.",
+     "focus": -1,
+     "file": "clips/54ce1c4b140d.mp3",
+     "seconds": 6.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who is involved?",
+     "say": "Who is involved?",
+     "focus": -1,
+     "file": "clips/0818adc0294f.mp3",
+     "seconds": 1.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Who is involved?",
+   "lines": [
+    {
+     "raw": "The same roles in three situations.",
+     "say": "The same roles in three situations.",
+     "focus": -1,
+     "file": "clips/7a4cd99fb486.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Patient. Ram (Nepal, private insurance): Ram (policyholder). Sita (Nepal, SSF): Sita (SSF contributor). Emily (USA): Emily (called a **member**).",
+     "say": "Patient. Ram (Nepal, private insurance): Ram (policyholder). Sita (Nepal, S S F): Sita (S S F contributor). Emily (U S A): Emily (called a member).",
+     "focus": 0,
+     "file": "clips/d202ad08973d.mp3",
+     "seconds": 11.575
+    },
+    {
+     "raw": "Provider (who gives care). Ram (Nepal, private insurance): Any hospital & doctor. Sita (Nepal, SSF): SSF-listed hospital & doctor. Emily (USA): Doctor's office or hospital.",
+     "say": "Provider (who gives care). Ram (Nepal, private insurance): Any hospital and doctor. Sita (Nepal, S S F): S S F listed hospital and doctor. Emily (U S A): Doctor's office or hospital.",
+     "focus": 1,
+     "file": "clips/b111c43f76db.mp3",
+     "seconds": 14.225
+    },
+    {
+     "raw": "Payer (who pays the bill). Ram (Nepal, private insurance): Ram pays first, then his insurer pays him back. Sita (Nepal, SSF): SSF pays 80%, Sita pays 20%. Emily (USA): Insurance company (the **payer**), Emily pays a share.",
+     "say": "Payer (who pays the bill). Ram (Nepal, private insurance): Ram pays first, then his insurer pays him back. Sita (Nepal, S S F): S S F pays 80 percent, Sita pays 20 percent. Emily (U S A): Insurance company (the payer), Emily pays a share.",
+     "focus": 2,
+     "file": "clips/d68d30b50cb3.mp3",
+     "seconds": 17.8
+    },
+    {
+     "raw": "Who sends the claim? Ram (Nepal, private insurance): **Ram** (to his insurer). Sita (Nepal, SSF): The **hospital** (to SSF). Emily (USA): The **doctor or hospital** (to the insurer).",
+     "say": "Who sends the claim? Ram (Nepal, private insurance): Ram (to his insurer). Sita (Nepal, S S F): The hospital (to S S F). Emily (U S A): The doctor or hospital (to the insurer).",
+     "focus": 3,
+     "file": "clips/6bc6277ace83.mp3",
+     "seconds": 13.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A claim is a bill with a story.",
+     "say": "A claim is a bill with a story.",
+     "focus": -1,
+     "file": "clips/252dc7535d04.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "A claim is a bill with a story",
+   "lines": [
+    {
+     "raw": "A claim is more than a number.",
+     "say": "A claim is more than a number.",
+     "focus": -1,
+     "file": "clips/0d1ca1486396.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "It tells the full story of the visit by answering six questions.",
+     "say": "It tells the full story of the visit by answering six questions.",
+     "focus": -1,
+     "file": "clips/219dc848718f.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Each later lesson in this course explains one of them.",
+     "say": "Each later lesson in this course explains one of them.",
+     "focus": -1,
+     "file": "clips/bba50390b9d1.mp3",
+     "seconds": 3.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "A claim is a bill with a story",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Why?**. What the claim records: The health problem (diagnosis). Emily's example: Strep throat. Lesson: 5.",
+     "say": "Why?. What the claim records: The health problem (diagnosis). Emily's example: Strep throat. Lesson: 5.",
+     "focus": 0,
+     "file": "clips/f25eb0b571ac.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "**What?**. What the claim records: Services and procedures done. Emily's example: Office visit + strep throat test. Lesson: 6.",
+     "say": "What?. What the claim records: Services and procedures done. Emily's example: Office visit and strep throat test. Lesson: 6.",
+     "focus": 1,
+     "file": "clips/1e742b71e8c2.mp3",
+     "seconds": 9.325
+    },
+    {
+     "raw": "**When?**. What the claim records: The date(s) of service. Emily's example: 10 March 2025. Lesson: 7.",
+     "say": "When?. What the claim records: The date(s) of service. Emily's example: 10 March 2025. Lesson: 7.",
+     "focus": 2,
+     "file": "clips/988574b9b297.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "**Who?**. What the claim records: The patient, and the doctor or hospital who treated them. Emily's example: Emily Carter, seen by Dr. Patel. Lesson: 8.",
+     "say": "Who?. What the claim records: The patient, and the doctor or hospital who treated them. Emily's example: Emily Carter, seen by Doctor Patel. Lesson: 8.",
+     "focus": 3,
+     "file": "clips/c238ab19ac57.mp3",
+     "seconds": 10.775
+    },
+    {
+     "raw": "**Where?**. What the claim records: The place care happened. Emily's example: Doctor's office. Lesson: 9.",
+     "say": "Where?. What the claim records: The place care happened. Emily's example: Doctor's office. Lesson: 9.",
+     "focus": 4,
+     "file": "clips/9ffd28d7fd1b.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "**How much?**. What the claim records: The amount charged, and later, what was paid. Emily's example: $150 charged. Lesson: 10.",
+     "say": "How much?. What the claim records: The amount charged, and later, what was paid. Emily's example: 150 dollars charged. Lesson: 10.",
+     "focus": 5,
+     "file": "clips/c76dbb2de451.mp3",
+     "seconds": 9.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "A claim is a bill with a story",
+   "lines": [
+    {
+     "raw": "Remember: Who, What, Where, When, Why, How much.",
+     "say": "Remember: Who, What, Where, When, Why, How much.",
+     "focus": -1,
+     "file": "clips/0b69163fdb5d.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "If you remember these six questions, you understand the shape of every medical claim.",
+     "say": "If you remember these six questions, you understand the shape of every medical claim.",
+     "focus": -1,
+     "file": "clips/dbefcf3f72ca.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "Lessons 2 to 4 first show how a claim is laid out; lessons 5 to 10 then fill in one question each.",
+     "say": "Lessons 2 to 4 first show how a claim is laid out; lessons 5 to 10 then fill in one question each.",
+     "focus": -1,
+     "file": "clips/2ea30aa3afff.mp3",
+     "seconds": 7.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Claim vs. encounter vs. medical record.",
+     "say": "Claim versus encounter versus medical record.",
+     "focus": -1,
+     "file": "clips/474cf3733a3f.mp3",
+     "seconds": 3.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Claim vs. encounter vs. medical record",
+   "lines": [
+    {
+     "raw": "Three kinds of records describe the same visit.",
+     "say": "Three kinds of records describe the same visit.",
+     "focus": -1,
+     "file": "clips/0dc9c7a73a8b.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Only one of them is a bill.",
+     "say": "Only one of them is a bill.",
+     "focus": -1,
+     "file": "clips/e67b581e796e.mp3",
+     "seconds": 2.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Claim vs. encounter vs. medical record",
+   "lines": [
+    {
+     "raw": "Claim.",
+     "say": "Claim.",
+     "focus": 0,
+     "file": "clips/7f263c375fb5.mp3",
+     "seconds": 1.4
+    },
+    {
+     "raw": "A bill sent for payment.",
+     "say": "A bill sent for payment.",
+     "focus": 0,
+     "file": "clips/0e3a976d0f53.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "Contains codes and money.",
+     "say": "Contains codes and money.",
+     "focus": 0,
+     "file": "clips/505bbc7de8a8.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Encounter.",
+     "say": "Encounter.",
+     "focus": 1,
+     "file": "clips/9c0cad4c7a8d.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "A record of a visit sent for reporting, even when no separate payment is needed (for example, when a doctor is already paid a fixed monthly amount).",
+     "say": "A record of a visit sent for reporting, even when no separate payment is needed (for example, when a doctor is already paid a fixed monthly amount).",
+     "focus": 1,
+     "file": "clips/5532c8b7145d.mp3",
+     "seconds": 9.35
+    },
+    {
+     "raw": "Looks almost like a claim.",
+     "say": "Looks almost like a claim.",
+     "focus": 1,
+     "file": "clips/34e07c713385.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Medical record (EMR / EHR).",
+     "say": "Medical record (E M R or E H R).",
+     "focus": 2,
+     "file": "clips/b0fd1069467b.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "The doctor's detailed notes about the patient (Electronic Medical / Health Record).",
+     "say": "The doctor's detailed notes about the patient (Electronic Medical or Health Record).",
+     "focus": 2,
+     "file": "clips/d4121d220acf.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Like the full patient file kept at the hospital in Nepal.",
+     "say": "Like the full patient file kept at the hospital in Nepal.",
+     "focus": 2,
+     "file": "clips/5b658475240b.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "It stays with the provider and is not sent as a bill.",
+     "say": "It stays with the provider and is not sent as a bill.",
+     "focus": 2,
+     "file": "clips/1b0570a238c0.mp3",
+     "seconds": 3.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Medical claims are one of several data types.",
+     "say": "Medical claims are one of several data types.",
+     "focus": -1,
+     "file": "clips/f81e9558786a.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Medical claims are one of several data types",
+   "lines": [
+    {
+     "raw": "An insurance company receives many kinds of data.",
+     "say": "An insurance company receives many kinds of data.",
+     "focus": -1,
+     "file": "clips/f74ee9eb704b.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "This course focuses on **Medical**.",
+     "say": "This course focuses on Medical.",
+     "focus": -1,
+     "file": "clips/6b06282dcd5e.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "The others have their own courses.",
+     "say": "The others have their own courses.",
+     "focus": -1,
+     "file": "clips/87ce438be0d8.mp3",
+     "seconds": 2.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Medical claims are one of several data types",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Eligibility**. What it tells you: Who is covered, and from which date to which date. Nepal comparison: Is Sita's SSF contribution up to date?",
+     "say": "Eligibility. What it tells you: Who is covered, and from which date to which date. Nepal comparison: Is Sita's S S F contribution up to date?",
+     "focus": 0,
+     "file": "clips/80d25a2e00b6.mp3",
+     "seconds": 10.125
+    },
+    {
+     "raw": "**Medical**. What it tells you: Doctor and hospital services. Nepal comparison: OPD, admission, surgery bills.",
+     "say": "Medical. What it tells you: Doctor and hospital services. Nepal comparison: O P D, admission, surgery bills.",
+     "focus": 1,
+     "file": "clips/0e4ce2d3a965.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "**Pharmacy**. What it tells you: Medicines bought with a prescription. Nepal comparison: Bill from the medical shop / pharmacy.",
+     "say": "Pharmacy. What it tells you: Medicines bought with a prescription. Nepal comparison: Bill from the medical shop or pharmacy.",
+     "focus": 2,
+     "file": "clips/39d379c84795.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "**Lab**. What it tells you: Test results (sugar level, cholesterol). Nepal comparison: The lab report you collect the next day.",
+     "say": "Lab. What it tells you: Test results (sugar level, cholesterol). Nepal comparison: The lab report you collect the next day.",
+     "focus": 3,
+     "file": "clips/fb4f8178c917.mp3",
+     "seconds": 8.5
+    },
+    {
+     "raw": "**Biometrics**. What it tells you: Height, weight, blood pressure. Nepal comparison: Numbers written on your OPD card.",
+     "say": "Biometrics. What it tells you: Height, weight, blood pressure. Nepal comparison: Numbers written on your O P D card.",
+     "focus": 4,
+     "file": "clips/401c75527cb5.mp3",
+     "seconds": 8.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How big is US healthcare?",
+     "say": "How big is U S healthcare?",
+     "focus": -1,
+     "file": "clips/93678ac18975.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "How big is US healthcare?",
+   "lines": [
+    {
+     "raw": "Very big.",
+     "say": "Very big.",
+     "focus": -1,
+     "file": "clips/0fcd712d4a97.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "Most of this money moves through claims, which is why claims data matters so much.",
+     "say": "Most of this money moves through claims, which is why claims data matters so much.",
+     "focus": -1,
+     "file": "clips/e5319ca31bb2.mp3",
+     "seconds": 5.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "How big is US healthcare?",
+   "lines": [
+    {
+     "raw": "US health spending in 2023 (source: CMS, the Centers for Medicare & Medicaid Services, the US government's health agency).",
+     "say": "U S health spending in 2023 (source: C M S, the Centers for Medicare and Medicaid Services, the U S government's health agency).",
+     "focus": -1,
+     "file": "clips/aeb8c8985c13.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "Total spent in one year. Amount: **$4.9 trillion**. To picture it: More than **100 times** Nepal's entire economy (about $40 billion a year).",
+     "say": "Total spent in one year. Amount: 4.9 trillion dollars. To picture it: More than 100 times Nepal's entire economy (about 40 billion dollars a year).",
+     "focus": 0,
+     "file": "clips/923b531304e5.mp3",
+     "seconds": 11.95
+    },
+    {
+     "raw": "Share of the US economy. Amount: **17.6%**. To picture it: About **$1 of every $6** spent in the US goes to healthcare.",
+     "say": "Share of the U S economy. Amount: 17.6 percent. To picture it: About 1 dollar of every 6 dollars spent in the U S goes to healthcare.",
+     "focus": 1,
+     "file": "clips/78f2b60a3761.mp3",
+     "seconds": 11.225
+    },
+    {
+     "raw": "Spent per person. Amount: **$14,570**. To picture it: Roughly **Rs 20 lakh** per person, every year.",
+     "say": "Spent per person. Amount: 14570 dollars. To picture it: Roughly Rs 20 lakh per person, every year.",
+     "focus": 2,
+     "file": "clips/2056082a8884.mp3",
+     "seconds": 9.575
+    },
+    {
+     "raw": "Hospital care alone. Amount: **$1.5 trillion**. To picture it: The largest single piece, about 3 of every 10 dollars.",
+     "say": "Hospital care alone. Amount: 1.5 trillion dollars. To picture it: The largest single piece, about 3 of every 10 dollars.",
+     "focus": 3,
+     "file": "clips/4eaf23ebbfea.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "Doctor and clinic services. Amount: **$978 billion**. To picture it: About 2 of every 10 dollars.",
+     "say": "Doctor and clinic services. Amount: 978 billion dollars. To picture it: About 2 of every 10 dollars.",
+     "focus": 4,
+     "file": "clips/b4df313f2825.mp3",
+     "seconds": 8.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "How big is US healthcare?",
+   "lines": [
+    {
+     "raw": "Why this matters for data.",
+     "say": "Why this matters for data.",
+     "focus": -1,
+     "file": "clips/c8f083c01ae7.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Insurers, employers and data companies use medical claims to pay bills correctly, catch fraud, find people who need extra care, and measure whether care is good.",
+     "say": "Insurers, employers and data companies use medical claims to pay bills correctly, catch fraud, find people who need extra care, and measure whether care is good.",
+     "focus": -1,
+     "file": "clips/052a1c3c46db.mp3",
+     "seconds": 10.8
+    },
+    {
+     "raw": "When so much money moves through claims, even a tiny error rate is huge: a mistake in just **1%** of US health spending is about **$49 billion**.",
+     "say": "When so much money moves through claims, even a tiny error rate is huge: a mistake in just 1 percent of U S health spending is about 49 billion dollars.",
+     "focus": -1,
+     "file": "clips/9dad891d37a1.mp3",
+     "seconds": 11.025
+    },
+    {
+     "raw": "If you work with US healthcare data, medical claims will be the biggest table you touch.",
+     "say": "If you work with U S healthcare data, medical claims will be the biggest table you touch.",
+     "focus": -1,
+     "file": "clips/fc4b27875891.mp3",
+     "seconds": 5.65
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A medical claim is the bill a doctor or hospital sends to an insurance company for care it gave.",
+     "say": "A medical claim is the bill a doctor or hospital sends to an insurance company for care it gave.",
+     "focus": 0,
+     "file": "clips/34fd522e2f57.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "Nepal's SSF works the same way as most US visits: the hospital sends the claim.",
+     "say": "Nepal's S S F works the same way as most U S visits: the hospital sends the claim.",
+     "focus": 1,
+     "file": "clips/89d7f5c66854.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "Ram's private insurance works by **reimbursement**: he pays first, then claims the money back.",
+     "say": "Ram's private insurance works by reimbursement: he pays first, then claims the money back.",
+     "focus": 1,
+     "file": "clips/94c2f5672636.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "Every claim answers six questions: Who, What, Where, When, Why and How much.",
+     "say": "Every claim answers six questions: Who, What, Where, When, Why and How much.",
+     "focus": 2,
+     "file": "clips/e0194228ceee.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "A claim is a bill; an encounter reports a visit without asking for separate payment; a medical record is the doctor's notes.",
+     "say": "A claim is a bill; an encounter reports a visit without asking for separate payment; a medical record is the doctor's notes.",
+     "focus": 3,
+     "file": "clips/4b61e526d9d0.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "Medical is one data type.",
+     "say": "Medical is one data type.",
+     "focus": 4,
+     "file": "clips/f0dccbe1eade.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Others include eligibility, pharmacy, lab and biometrics.",
+     "say": "Others include eligibility, pharmacy, lab and biometrics.",
+     "focus": 4,
+     "file": "clips/ade428f3f022.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,855 @@
+{
+ "courseId": "eligibility",
+ "lessonId": "member-months",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: Member Months & PMPM.",
+     "say": "Lesson 7: Member Months and P M P M.",
+     "focus": -1,
+     "file": "clips/8d79a6b605d7.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "How insurers measure membership fairly when people join and leave all year.",
+     "say": "How insurers measure membership fairly when people join and leave all year.",
+     "focus": -1,
+     "file": "clips/f88fdf9cd0be.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a member month is and why it is used.",
+     "say": "Explain what a member month is and why it is used.",
+     "focus": 0,
+     "file": "clips/248717db0b2d.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Count member months from enrollment spans, under different counting rules.",
+     "say": "Count member months from enrollment spans, under different counting rules.",
+     "focus": 1,
+     "file": "clips/b8734347d69d.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Calculate PMPM (per member per month) cost.",
+     "say": "Calculate P M P M (per member per month) cost.",
+     "focus": 2,
+     "file": "clips/72a784233688.mp3",
+     "seconds": 3.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "\"How many members do we have?\" is a tricky question.",
+     "say": "\"How many members do we have?\" is a tricky question.",
+     "focus": -1,
+     "file": "clips/7a8840e29044.mp3",
+     "seconds": 3.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "\"How many members do we have?\" is a tricky question",
+   "lines": [
+    {
+     "raw": "Members join and leave every month.",
+     "say": "Members join and leave every month.",
+     "focus": -1,
+     "file": "clips/0d37f6905f5b.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "If a plan had 1,000 members in January and 1,500 in December, how many members did it have \"in 2025\"?",
+     "say": "If a plan had 1,000 members in January and 1,500 in December, how many members did it have \"in 2025\"?",
+     "focus": -1,
+     "file": "clips/75c2a4fe76b3.mp3",
+     "seconds": 8.8
+    },
+    {
+     "raw": "Neither number is fair.",
+     "say": "Neither number is fair.",
+     "focus": -1,
+     "file": "clips/9e1e8401e654.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "So insurers count **member months** instead.",
+     "say": "So insurers count member months instead.",
+     "focus": -1,
+     "file": "clips/0fd478d629d1.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "\"How many members do we have?\" is a tricky question",
+   "lines": [
+    {
+     "raw": "Think of renting a flat.",
+     "say": "Think of renting a flat.",
+     "focus": -1,
+     "file": "clips/1205d1d8eb8a.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "A landlord in Kathmandu with one flat rented for 12 months, and another rented for only 6, has had **18 flat-months** of rent this year.",
+     "say": "A landlord in Kathmandu with one flat rented for 12 months, and another rented for only 6, has had 18 flat-months of rent this year.",
+     "focus": -1,
+     "file": "clips/04ef33d4f525.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "Counting \"2 flats\" would hide that one stood empty for half the year.",
+     "say": "Counting \"2 flats\" would hide that one stood empty for half the year.",
+     "focus": -1,
+     "file": "clips/84461c56399c.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "A **member month** is the same idea: **one person covered for one month**.",
+     "say": "A member month is the same idea: one person covered for one month.",
+     "focus": -1,
+     "file": "clips/91eb4a4745eb.mp3",
+     "seconds": 4.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "\"How many members do we have?\" is a tricky question",
+   "lines": [
+    {
+     "raw": "Member months.",
+     "say": "Member months.",
+     "focus": -1,
+     "file": "clips/f9c80dfd801e.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Member months equals sum of (months each member was covered).",
+     "say": "Member months equals sum of (months each member was covered).",
+     "focus": 0,
+     "file": "clips/60129363b4b0.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "For example: Emily's family in 2025: Emily 12 plus Lily 12 plus Daniel 6 (July to December) equals 30 member months.",
+     "say": "For example: Emily's family in 2025: Emily 12 plus Lily 12 plus Daniel 6 (July to December) equals 30 member months.",
+     "focus": 1,
+     "file": "clips/308116ed48fd.mp3",
+     "seconds": 10.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "\"How many members do we have?\" is a tricky question",
+   "lines": [
+    {
+     "raw": "From member months to average members.",
+     "say": "From member months to average members.",
+     "focus": -1,
+     "file": "clips/f48141b5d611.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Divide member months by 12 to get the **average number of members** in the year.",
+     "say": "Divide member months by 12 to get the average number of members in the year.",
+     "focus": -1,
+     "file": "clips/f8ea507b4f32.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Emily's family: 30 ÷ 12 = **2.5** average members.",
+     "say": "Emily's family: 30 ÷ 12 = 2.5 average members.",
+     "focus": -1,
+     "file": "clips/9f9b54bada7a.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "That is fair: two people all year plus one person for half the year.",
+     "say": "That is fair: two people all year plus one person for half the year.",
+     "focus": -1,
+     "file": "clips/3162cae2d309.mp3",
+     "seconds": 4.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Counting months from spans.",
+     "say": "Counting months from spans.",
+     "focus": -1,
+     "file": "clips/c3fa327639fd.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Counting months from spans",
+   "lines": [
+    {
+     "raw": "Most US spans start on the **1st** of a month and end on the **last day** of a month.",
+     "say": "Most U S spans start on the 1st of a month and end on the last day of a month.",
+     "focus": -1,
+     "file": "clips/7313e70521c1.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "Then counting is easy: count every month the span touches inside your reporting period.",
+     "say": "Then counting is easy: count every month the span touches inside your reporting period.",
+     "focus": -1,
+     "file": "clips/64b76827d9b0.mp3",
+     "seconds": 5.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Counting months from spans",
+   "lines": [
+    {
+     "raw": "Months in a whole-month span (after cutting it to the reporting period).",
+     "say": "Months in a whole-month span (after cutting it to the reporting period).",
+     "focus": -1,
+     "file": "clips/089331bca4cc.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "Months equals (end year − start year) times 12 plus (end month − start month) plus 1.",
+     "say": "Months equals (end year − start year) times 12 plus (end month − start month) plus 1.",
+     "focus": 0,
+     "file": "clips/c7140f87d16d.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "For example: Daniel: 2025-07-01 to 9999-12-31.",
+     "say": "For example: Daniel: 2025-07-01 to 9999-12-31.",
+     "focus": 1,
+     "file": "clips/6e9db9783512.mp3",
+     "seconds": 8.525
+    },
+    {
+     "raw": "Cut to 2025: 2025-07-01 to 2025-12-31.",
+     "say": "Cut to 2025: 2025-07-01 to 2025-12-31.",
+     "focus": 1,
+     "file": "clips/4c815f4f428b.mp3",
+     "seconds": 8.3
+    },
+    {
+     "raw": "Months equals 0 times 12 plus (12 − 7) plus 1 equals 6.",
+     "say": "Months equals 0 times 12 plus (12 − 7) plus 1 equals 6.",
+     "focus": 1,
+     "file": "clips/fb815f829112.mp3",
+     "seconds": 5.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Counting months from spans",
+   "lines": [
+    {
+     "raw": "Always cut spans to the reporting period first.",
+     "say": "Always cut spans to the reporting period first.",
+     "focus": -1,
+     "file": "clips/44e3b9bb924f.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Emily's span starts in **2022** and has no end (`9999-12-31`).",
+     "say": "Emily's span starts in 2022 and has no end (9 9 9 9 dash 1 2 dash 3 1).",
+     "focus": -1,
+     "file": "clips/4486bafaba51.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "If you forget to cut it to 2025, you will count thousands of months.",
+     "say": "If you forget to cut it to 2025, you will count thousands of months.",
+     "focus": -1,
+     "file": "clips/606c8fefbeb2.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "For a 2025 report, every span is clipped to **2025-01-01 to 2025-12-31** before counting.",
+     "say": "For a 2025 report, every span is clipped to 2025-01-01 to 2025-12-31 before counting.",
+     "focus": -1,
+     "file": "clips/38e2fc48cfdb.mp3",
+     "seconds": 10.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What about mid-month dates?",
+     "say": "What about mid-month dates?",
+     "focus": -1,
+     "file": "clips/fa77aa6a88fa.mp3",
+     "seconds": 2.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "What about mid-month dates?",
+   "lines": [
+    {
+     "raw": "Some spans start or end in the middle of a month.",
+     "say": "Some spans start or end in the middle of a month.",
+     "focus": -1,
+     "file": "clips/a915963c9148.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Does that month count?",
+     "say": "Does that month count?",
+     "focus": -1,
+     "file": "clips/ccb72e3c56b8.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "There is **no single national rule**.",
+     "say": "There is no single national rule.",
+     "focus": -1,
+     "file": "clips/9fee405b5ffe.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Each organisation picks a convention and uses it consistently.",
+     "say": "Each organisation picks a convention and uses it consistently.",
+     "focus": -1,
+     "file": "clips/3102f97deb2d.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "Three common ones:",
+     "say": "Three common ones:",
+     "focus": -1,
+     "file": "clips/56ea5e48c0fd.mp3",
+     "seconds": 1.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "What about mid-month dates?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**1st-of-month rule**. A month counts if the member was covered...: ...on the **1st** of that month.",
+     "say": "1st-of-month rule. A month counts if the member was covered...: ...on the 1st of that month.",
+     "focus": 0,
+     "file": "clips/4ef60942910d.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "**Any-day rule**. A month counts if the member was covered...: ...on **at least one day** of that month.",
+     "say": "Any-day rule. A month counts if the member was covered...: ...on at least one day of that month.",
+     "focus": 1,
+     "file": "clips/40c1b67a412e.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "**15th rule (mid-month)**. A month counts if the member was covered...: ...on the **15th** of that month.",
+     "say": "15th rule (mid-month). A month counts if the member was covered...: ...on the 15th of that month.",
+     "focus": 2,
+     "file": "clips/f843f2f0a7f2.mp3",
+     "seconds": 6.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "What about mid-month dates?",
+   "lines": [
+    {
+     "raw": "Four members, January to March 2025 (Q1), counted three ways.",
+     "say": "Four members, January to March 2025 (Q1), counted three ways.",
+     "focus": -1,
+     "file": "clips/2465c8769cc0.mp3",
+     "seconds": 5.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "What about mid-month dates?",
+   "lines": [
+    {
+     "raw": "Same people, three answers.",
+     "say": "Same people, three answers.",
+     "focus": -1,
+     "file": "clips/5c46e85e12ff.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "The same four people give **6, 8 or 7** member months.",
+     "say": "The same four people give 6, 8 or 7 member months.",
+     "focus": -1,
+     "file": "clips/525304ac1f79.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "None is wrong; they are just different rules.",
+     "say": "None is wrong; they are just different rules.",
+     "focus": -1,
+     "file": "clips/b0bc3bbc4a4e.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "When you compare numbers from two reports, first check they use the **same convention**.",
+     "say": "When you compare numbers from two reports, first check they use the same convention.",
+     "focus": -1,
+     "file": "clips/3c49df64130d.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Some teams avoid the problem by counting **days** instead (e.g. 17 days in a 31-day month = 0.55 of a month).",
+     "say": "Some teams avoid the problem by counting days instead (for example 17 days in a 31-day month = 0.55 of a month).",
+     "focus": -1,
+     "file": "clips/88fde515c9da.mp3",
+     "seconds": 10.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "PMPM: cost per member per month.",
+     "say": "P M P M: cost per member per month.",
+     "focus": -1,
+     "file": "clips/43d68dbf5d5f.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "PMPM: cost per member per month",
+   "lines": [
+    {
+     "raw": "Once you have member months, you can compare costs fairly.",
+     "say": "Once you have member months, you can compare costs fairly.",
+     "focus": -1,
+     "file": "clips/8dc81329288f.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "The standard measure is **PMPM**: per member per month.",
+     "say": "The standard measure is P M P M: per member per month.",
+     "focus": -1,
+     "file": "clips/8a9b11b9d50c.mp3",
+     "seconds": 3.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "PMPM: cost per member per month",
+   "lines": [
+    {
+     "raw": "PMPM.",
+     "say": "P M P M.",
+     "focus": -1,
+     "file": "clips/e6892e948713.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "PMPM equals Total cost ÷ Member months.",
+     "say": "P M P M equals Total cost ÷ Member months.",
+     "focus": 0,
+     "file": "clips/fd2e25056f13.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "For example: \"Total cost\" is usually the sum of paid amounts (paid PMPM) or allowed amounts (allowed PMPM).",
+     "say": "For example: \"Total cost\" is usually the sum of paid amounts (paid P M P M) or allowed amounts (allowed P M P M).",
+     "focus": 1,
+     "file": "clips/b8e0925c7054.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "Say which one you used.",
+     "say": "Say which one you used.",
+     "focus": 1,
+     "file": "clips/3aac043345f5.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: why \"per member\" is not enough.",
+     "say": "Worked example: why \"per member\" is not enough.",
+     "focus": -1,
+     "file": "clips/76a4dfa96875.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example: why \"per member\" is not enough",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Members. Plan A: 1,000, all year. Plan B: 750 all year + 750 who joined on 1 July.",
+     "say": "Members. Plan A: 1,000, all year. Plan B: 750 all year and 750 who joined on 1 July.",
+     "focus": 0,
+     "file": "clips/9b431733624f.mp3",
+     "seconds": 9.4
+    },
+    {
+     "raw": "Members at year end. Plan A: 1,000. Plan B: 1,500.",
+     "say": "Members at year end. Plan A: 1,000. Plan B: 1,500.",
+     "focus": 1,
+     "file": "clips/e76f9b7f4286.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Member months. Plan A: 1,000 × 12 = **12,000**. Plan B: 750 × 12 + 750 × 6 = 9,000 + 4,500 = **13,500**.",
+     "say": "Member months. Plan A: 1,000 × 12 = 12,000. Plan B: 750 × 12 and 750 × 6 = 9,000 and 4,500 = 13,500.",
+     "focus": 2,
+     "file": "clips/3a0351e6deeb.mp3",
+     "seconds": 15.75
+    },
+    {
+     "raw": "Total paid in the year. Plan A: $6,000,000. Plan B: $6,075,000.",
+     "say": "Total paid in the year. Plan A: 6000000 dollars. Plan B: 6075000 dollars.",
+     "focus": 3,
+     "file": "clips/c4757357956c.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "Cost per year-end member (misleading). Plan A: $6,000,000 ÷ 1,000 = $6,000. Plan B: $6,075,000 ÷ 1,500 = $4,050.",
+     "say": "Cost per year-end member (misleading). Plan A: 6000000 dollars ÷ 1,000 = 6000 dollars. Plan B: 6075000 dollars ÷ 1,500 = 4050 dollars.",
+     "focus": 4,
+     "file": "clips/63e5ef77577f.mp3",
+     "seconds": 16.025
+    },
+    {
+     "raw": "**PMPM** (fair). Plan A: $6,000,000 ÷ 12,000 = **$500**. Plan B: $6,075,000 ÷ 13,500 = **$450**.",
+     "say": "P M P M (fair). Plan A: 6000000 dollars ÷ 12,000 = 500 dollars. Plan B: 6075000 dollars ÷ 13,500 = 450 dollars.",
+     "focus": 5,
+     "file": "clips/ce6ad4b270fb.mp3",
+     "seconds": 16.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Worked example: why \"per member\" is not enough",
+   "lines": [
+    {
+     "raw": "What changed?",
+     "say": "What changed?",
+     "focus": -1,
+     "file": "clips/4cc210bff67a.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "Divided by year-end members, Plan B looks about **a third cheaper** ($4,050 vs $6,000).",
+     "say": "Divided by year-end members, Plan B looks about a third cheaper (4050 dollars versus 6000 dollars).",
+     "focus": -1,
+     "file": "clips/baab7f587fdc.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "But half its members were only there for 6 months.",
+     "say": "But half its members were only there for 6 months.",
+     "focus": -1,
+     "file": "clips/6c44cc2a5d2d.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "PMPM shows the fair difference: **$450 vs $500**, about 10% cheaper.",
+     "say": "P M P M shows the fair difference: 450 dollars versus 500 dollars about 10 percent cheaper.",
+     "focus": -1,
+     "file": "clips/ee4824fbe995.mp3",
+     "seconds": 8.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Worked example: why \"per member\" is not enough",
+   "lines": [
+    {
+     "raw": "PMPY (per member per year).",
+     "say": "P M P Y (per member per year).",
+     "focus": 0,
+     "file": "clips/2b053ce0bcc3.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "PMPM × 12.",
+     "say": "P M P M × 12.",
+     "focus": 0,
+     "file": "clips/e3f97d3862ac.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Plan A: $500 × 12 = **$6,000** PMPY.",
+     "say": "Plan A: 500 dollars × 12 = 6000 dollars P M P Y.",
+     "focus": 0,
+     "file": "clips/e3e0d6701c5a.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "Premium PMPM.",
+     "say": "Premium P M P M.",
+     "focus": 1,
+     "file": "clips/ee175a66b56a.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "The premium the insurer collects per member per month.",
+     "say": "The premium the insurer collects per member per month.",
+     "focus": 1,
+     "file": "clips/b2b9417f723c.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Comparing it with cost PMPM shows whether a plan makes or loses money.",
+     "say": "Comparing it with cost P M P M shows whether a plan makes or loses money.",
+     "focus": 1,
+     "file": "clips/cb8db472eb7a.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Medical loss ratio (MLR).",
+     "say": "Medical loss ratio (M L R).",
+     "focus": 2,
+     "file": "clips/098cd9bf62d4.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Claims cost ÷ premium.",
+     "say": "Claims cost ÷ premium.",
+     "focus": 2,
+     "file": "clips/537256b9fdf1.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "The ACA requires insurers to spend at least **80%** (individual and small group) or **85%** (large group) of premiums on care and quality, or refund the difference.",
+     "say": "The A C A requires insurers to spend at least 80 percent (individual and small group) or 85 percent (large group) of premiums on care and quality, or refund the difference.",
+     "focus": 2,
+     "file": "clips/60ee60746c5d.mp3",
+     "seconds": 11.825
+    },
+    {
+     "raw": "Utilisation per 1,000.",
+     "say": "Utilisation per 1,000.",
+     "focus": 3,
+     "file": "clips/bc57d53d5d0e.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Events (visits, admissions) ÷ member months × 12,000.",
+     "say": "Events (visits, admissions) ÷ member months × 12,000.",
+     "focus": 3,
+     "file": "clips/4fd33c32b911.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "A fair way to compare how often members use care.",
+     "say": "A fair way to compare how often members use care.",
+     "focus": 3,
+     "file": "clips/8a40d19bba1f.mp3",
+     "seconds": 3.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Worked example: why \"per member\" is not enough",
+   "lines": [
+    {
+     "raw": "Member months in Nepal.",
+     "say": "Member months in Nepal.",
+     "focus": -1,
+     "file": "clips/c7d892eabb54.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's startup has **20 employees** on its group policy all year: 20 × 12 = **240 member months**.",
+     "say": "Ram's startup has 20 employees on its group policy all year: 20 × 12 = 240 member months.",
+     "focus": 0,
+     "file": "clips/0dc0b2b2b57f.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "The insurer reimbursed **Rs 4.8 lakh** (Rs 4,80,000) in claims for the group that year.",
+     "say": "The insurer reimbursed Rs 4.8 lakh (Rs 4,80,000) in claims for the group that year.",
+     "focus": 1,
+     "file": "clips/4f684c100764.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "Cost PMPM = Rs 4,80,000 ÷ 240 = **Rs 2,000** per member per month.",
+     "say": "Cost P M P M = Rs 4,80,000 ÷ 240 = Rs 2,000 per member per month.",
+     "focus": 2,
+     "file": "clips/70bf8af3b5c5.mp3",
+     "seconds": 9.875
+    },
+    {
+     "raw": "When the policy is renewed, the insurer compares this with the premium it charged, to decide next year's price.",
+     "say": "When the policy is renewed, the insurer compares this with the premium it charged, to decide next year's price.",
+     "focus": 3,
+     "file": "clips/c234523a5ace.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 4,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "A fund like SSF can use the same idea: medical spending ÷ (contributors × months covered) gives the average medical cost per contributor per month.",
+     "say": "A fund like S S F can use the same idea: medical spending ÷ (contributors × months covered) gives the average medical cost per contributor per month.",
+     "focus": 4,
+     "file": "clips/3f506669b898.mp3",
+     "seconds": 11.675
+    },
+    {
+     "raw": "It is fairer than dividing by the number of contributors at year end, because many people join SSF part-way through the year.",
+     "say": "It is fairer than dividing by the number of contributors at year end, because many people join S S F part-way through the year.",
+     "focus": 5,
+     "file": "clips/3636508ae433.mp3",
+     "seconds": 8.1
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "One member month = one person covered for one month.",
+     "say": "One member month = one person covered for one month.",
+     "focus": 0,
+     "file": "clips/2c76cf7086b4.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Cut every span to the reporting period before counting.",
+     "say": "Cut every span to the reporting period before counting.",
+     "focus": 1,
+     "file": "clips/cb776976811d.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Mid-month rules vary (1st of month, any day, 15th); use one rule consistently.",
+     "say": "Mid-month rules vary (1st of month, any day, 15th); use one rule consistently.",
+     "focus": 2,
+     "file": "clips/a8a2e22398eb.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "PMPM = total cost ÷ member months.",
+     "say": "P M P M = total cost ÷ member months.",
+     "focus": 3,
+     "file": "clips/2abed38c2324.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "Say whether it is paid or allowed.",
+     "say": "Say whether it is paid or allowed.",
+     "focus": 3,
+     "file": "clips/67129304418d.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

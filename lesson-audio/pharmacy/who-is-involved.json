@@ -1,0 +1,883 @@
+{
+ "courseId": "pharmacy",
+ "lessonId": "who-is-involved",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: How a Pharmacy Claim Works.",
+     "say": "Lesson 2: How a Pharmacy Claim Works.",
+     "focus": -1,
+     "file": "clips/85d026bced8e.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Five players, one insurance card, and an answer at the counter in seconds.",
+     "say": "Five players, one insurance card, and an answer at the counter in seconds.",
+     "focus": -1,
+     "file": "clips/0d78914197c5.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Name the five main players in a US prescription.",
+     "say": "Name the five main players in a U S prescription.",
+     "focus": 0,
+     "file": "clips/dd9d567d831f.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Explain what a PBM (pharmacy benefit manager) does.",
+     "say": "Explain what a P B M (pharmacy benefit manager) does.",
+     "focus": 1,
+     "file": "clips/c3b32a05323b.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Explain what the BIN, PCN and Group numbers on an insurance card are for.",
+     "say": "Explain what the B I N, P C N and Group numbers on an insurance card are for.",
+     "focus": 2,
+     "file": "clips/34fe8d55f3b3.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "Follow a claim from the counter to the PBM and back in seconds.",
+     "say": "Follow a claim from the counter to the P B M and back in seconds.",
+     "focus": 3,
+     "file": "clips/f9dd194acd16.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "Know why pharmacy claims arrive in a different format and file from medical claims.",
+     "say": "Know why pharmacy claims arrive in a different format and file from medical claims.",
+     "focus": 4,
+     "file": "clips/5c9c079e4f01.mp3",
+     "seconds": 5.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Five players, one prescription.",
+     "say": "Five players, one prescription.",
+     "focus": -1,
+     "file": "clips/9ce9ada06720.mp3",
+     "seconds": 2.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Five players, one prescription",
+   "lines": [
+    {
+     "raw": "Prescriber.",
+     "say": "Prescriber.",
+     "focus": 0,
+     "file": "clips/613c845e8526.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "The doctor (or nurse practitioner, dentist...) who **writes the prescription**.",
+     "say": "The doctor (or nurse practitioner, dentist...) who writes the prescription.",
+     "focus": 0,
+     "file": "clips/c592b98c5a6c.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Their ID on the claim is covered in lesson 6.",
+     "say": "Their I D on the claim is covered in lesson 6.",
+     "focus": 0,
+     "file": "clips/2402da9f826e.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Pharmacy.",
+     "say": "Pharmacy.",
+     "focus": 1,
+     "file": "clips/a2e5d9c5c357.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "The shop that **dispenses** (gives out) the medicine and **sends the claim**.",
+     "say": "The shop that dispenses (gives out) the medicine and sends the claim.",
+     "focus": 1,
+     "file": "clips/c5ce763d8086.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "Can be a retail pharmacy, a hospital pharmacy, a mail-order pharmacy or a specialty pharmacy.",
+     "say": "Can be a retail pharmacy, a hospital pharmacy, a mail-order pharmacy or a specialty pharmacy.",
+     "focus": 1,
+     "file": "clips/b01db7ed61e7.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "PBM (Pharmacy Benefit Manager).",
+     "say": "P B M (Pharmacy Benefit Manager).",
+     "focus": 2,
+     "file": "clips/c1da96a4f30b.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "A company hired by the plan to **run the drug benefit**: it receives and decides every pharmacy claim, builds the list of covered drugs, pays pharmacies and negotiates with drug makers.",
+     "say": "A company hired by the plan to run the drug benefit: it receives and decides every pharmacy claim, builds the list of covered drugs, pays pharmacies and negotiates with drug makers.",
+     "focus": 2,
+     "file": "clips/377530347d45.mp3",
+     "seconds": 12.075
+    },
+    {
+     "raw": "Plan (insurer or employer).",
+     "say": "Plan (insurer or employer).",
+     "focus": 3,
+     "file": "clips/0f67c37bce83.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "The **payer** whose money pays for the drug.",
+     "say": "The payer whose money pays for the drug.",
+     "focus": 3,
+     "file": "clips/08e289eadc78.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Emily's employer plan pays; the PBM works for it.",
+     "say": "Emily's employer plan pays; the P B M works for it.",
+     "focus": 3,
+     "file": "clips/6416fcd12b0e.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Manufacturer.",
+     "say": "Manufacturer.",
+     "focus": 4,
+     "file": "clips/cc6ff73df6ff.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "The company that **makes the drug**.",
+     "say": "The company that makes the drug.",
+     "focus": 4,
+     "file": "clips/7254934e89a9.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "It does not appear on the claim as a party, but its drug code (NDC) does, and it may pay **rebates** to the PBM later (lesson 8).",
+     "say": "It does not appear on the claim as a party, but its drug code (N D C) does, and it may pay rebates to the P B M later (lesson 8).",
+     "focus": 4,
+     "file": "clips/ffc027fed5a7.mp3",
+     "seconds": 8.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Five players, one prescription",
+   "lines": [
+    {
+     "raw": "Think of a PBM as a canteen manager.",
+     "say": "Think of a P B M as a canteen manager.",
+     "focus": -1,
+     "file": "clips/b5458081873e.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "A big office in Kathmandu hires a **canteen manager** to run the staff canteen.",
+     "say": "A big office in Kathmandu hires a canteen manager to run the staff canteen.",
+     "focus": -1,
+     "file": "clips/ab5601505963.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "The office pays the bills, but the manager decides the menu, makes deals with suppliers for cheaper rice and dal, and checks each staff member's meal card at the counter.",
+     "say": "The office pays the bills, but the manager decides the menu, makes deals with suppliers for cheaper rice and dal, and checks each staff member's meal card at the counter.",
+     "focus": -1,
+     "file": "clips/6cdb673f335e.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "The office is the **plan**, the manager is the **PBM**, the suppliers are the **manufacturers**, and the meal card is Emily's **insurance card**.",
+     "say": "The office is the plan, the manager is the P B M, the suppliers are the manufacturers, and the meal card is Emily's insurance card.",
+     "focus": -1,
+     "file": "clips/9d2ef8d7e3f6.mp3",
+     "seconds": 9.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Five players, one prescription",
+   "lines": [
+    {
+     "raw": "A few very large PBMs.",
+     "say": "A few very large P B M's.",
+     "focus": -1,
+     "file": "clips/2711aa50bda8.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "The US has many PBMs, but **three very large PBMs** handle roughly **80%** of all prescriptions.",
+     "say": "The U S has many P B M's, but three very large P B M's handle roughly 80 percent of all prescriptions.",
+     "focus": -1,
+     "file": "clips/a0f03abb95f8.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "Some PBMs are owned by insurance companies and also run their own **mail-order** and **specialty** pharmacies.",
+     "say": "Some P B M's are owned by insurance companies and also run their own mail-order and specialty pharmacies.",
+     "focus": -1,
+     "file": "clips/da9fd1e84a6b.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "In data, you will often receive pharmacy claims **from the PBM**, in a different file from the medical claims.",
+     "say": "In data, you will often receive pharmacy claims from the P B M, in a different file from the medical claims.",
+     "focus": -1,
+     "file": "clips/e1b478eacdcc.mp3",
+     "seconds": 7.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Five players, one prescription",
+   "lines": [
+    {
+     "raw": "Each player has an ID on the claim.",
+     "say": "Each player has an I D on the claim.",
+     "focus": -1,
+     "file": "clips/eb382f686c35.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "The claim names the prescriber, the pharmacy and the drug with ID numbers.",
+     "say": "The claim names the prescriber, the pharmacy and the drug with I D numbers.",
+     "focus": -1,
+     "file": "clips/12aa795db791.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "The drug code (NDC) gets its own lesson (lesson 4), and the prescriber and pharmacy IDs are covered in lesson 6.",
+     "say": "The drug code (N D C) gets its own lesson (lesson 4), and the prescriber and pharmacy I D's are covered in lesson 6.",
+     "focus": -1,
+     "file": "clips/10b3985f9d5d.mp3",
+     "seconds": 8.9
+    },
+    {
+     "raw": "This lesson is about how the claim travels.",
+     "say": "This lesson is about how the claim travels.",
+     "focus": -1,
+     "file": "clips/7b4be7befd3c.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The card that routes the claim.",
+     "say": "The card that routes the claim.",
+     "focus": -1,
+     "file": "clips/e71f1d7d8911.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The card that routes the claim",
+   "lines": [
+    {
+     "raw": "Emily's insurance card has a small pharmacy section.",
+     "say": "Emily's insurance card has a small pharmacy section.",
+     "focus": -1,
+     "file": "clips/0345ace9d556.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "These numbers tell the pharmacy's computer **where to send the claim**, like the address on an envelope.",
+     "say": "These numbers tell the pharmacy's computer where to send the claim, like the address on an envelope.",
+     "focus": -1,
+     "file": "clips/6e4f2c31263e.mp3",
+     "seconds": 5.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The card that routes the claim",
+   "lines": [
+    {
+     "raw": "Here is the ID card form: Emily's insurance card (pharmacy section).",
+     "say": "Here is the I D card form: Emily's insurance card (pharmacy section).",
+     "focus": -1,
+     "file": "clips/7eb938c96a47.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Member: Emily Carter.",
+     "say": "Member: Emily Carter.",
+     "focus": 0,
+     "file": "clips/79ffaf90671c.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Member ID: 48291307-01.",
+     "say": "Member I D: 4 8 2 9 1 3 0 7 dash 0 1.",
+     "focus": 1,
+     "file": "clips/6fefe4f5ef2d.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Card ID; the plan links it to its internal member ID M1001, used in claims data.",
+     "say": "Card I D; the plan links it to its internal member I D M 1 0 0 1, used in claims data.",
+     "focus": 1,
+     "file": "clips/72ebaee8859d.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "RxBIN: 012345.",
+     "say": "RxBIN: 012345.",
+     "focus": 2,
+     "file": "clips/b9e8f5a94fb8.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Which PBM processes the claim.",
+     "say": "Which P B M processes the claim.",
+     "focus": 2,
+     "file": "clips/35189dac08aa.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "RxPCN: CFRX.",
+     "say": "RxPCN: C F R X.",
+     "focus": 3,
+     "file": "clips/82577a98ffa3.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Processor Control Number: which benefit or program at that PBM.",
+     "say": "Processor Control Number: which benefit or program at that P B M.",
+     "focus": 3,
+     "file": "clips/dfc21a3a1d04.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "RxGroup: TXEMP01.",
+     "say": "RxGroup: T X E M P 0 1.",
+     "focus": 4,
+     "file": "clips/4790acef3daf.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Which employer group Emily belongs to.",
+     "say": "Which employer group Emily belongs to.",
+     "focus": 4,
+     "file": "clips/58cfb400b759.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Pharmacy help desk: 1-800-555-0123.",
+     "say": "Pharmacy help desk: 1-800-555-0123.",
+     "focus": 5,
+     "file": "clips/da3f7d047673.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "Phone number for pharmacists.",
+     "say": "Phone number for pharmacists.",
+     "focus": 5,
+     "file": "clips/87b13b40a083.mp3",
+     "seconds": 2.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The card that routes the claim",
+   "lines": [
+    {
+     "raw": "BIN (Bank Identification Number).",
+     "say": "B I N (Bank Identification Number).",
+     "focus": 0,
+     "file": "clips/5d4d13b665f1.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "**6 digits**.",
+     "say": "6 digits.",
+     "focus": 0,
+     "file": "clips/044b86df3c04.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Points the claim to the right **processor** (usually the PBM).",
+     "say": "Points the claim to the right processor (usually the P B M).",
+     "focus": 0,
+     "file": "clips/4ede82c2773b.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "The name comes from banking, because the routing idea came from credit cards.",
+     "say": "The name comes from banking, because the routing idea came from credit cards.",
+     "focus": 0,
+     "file": "clips/aac3328cfe3f.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "PCN (Processor Control Number).",
+     "say": "P C N (Processor Control Number).",
+     "focus": 1,
+     "file": "clips/99c4001f3c28.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "A short code that tells the processor **which program** to use.",
+     "say": "A short code that tells the processor which program to use.",
+     "focus": 1,
+     "file": "clips/e5bc82a8f350.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "One PBM can run many programs on the same BIN.",
+     "say": "One P B M can run many programs on the same B I N.",
+     "focus": 1,
+     "file": "clips/9cbad8604691.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "Group number.",
+     "say": "Group number.",
+     "focus": 2,
+     "file": "clips/c3400ef95680.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "Identifies the **employer or plan group**, so the PBM applies the right benefit rules (copays, covered drugs).",
+     "say": "Identifies the employer or plan group, so the P B M applies the right benefit rules (copays, covered drugs).",
+     "focus": 2,
+     "file": "clips/8aab6ca20c90.mp3",
+     "seconds": 7.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The card that routes the claim",
+   "lines": [
+    {
+     "raw": "These numbers are examples.",
+     "say": "These numbers are examples.",
+     "focus": -1,
+     "file": "clips/93b28bc29569.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "The BIN, PCN, Group, NPI and NCPDP numbers in this course are made up for learning.",
+     "say": "The B I N, P C N, Group, N P I and N C P D P numbers in this course are made up for learning.",
+     "focus": -1,
+     "file": "clips/277541f5194c.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "Real BINs belong to real processors.",
+     "say": "Real B I N's belong to real processors.",
+     "focus": -1,
+     "file": "clips/eeaf55b7732f.mp3",
+     "seconds": 3.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "At the counter: a claim in seconds.",
+     "say": "At the counter: a claim in seconds.",
+     "focus": -1,
+     "file": "clips/aa7e0fde6914.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "At the counter: a claim in seconds",
+   "lines": [
+    {
+     "raw": "Step 1: Prescription arrives.",
+     "say": "Step 1: Prescription arrives.",
+     "focus": 0,
+     "file": "clips/b63ef7864d65.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Dr. Patel sends an e-prescription for amoxicillin to Main Street Pharmacy.",
+     "say": "Doctor Patel sends an e-prescription for amoxicillin to Main Street Pharmacy.",
+     "focus": 0,
+     "file": "clips/1706212e3a93.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Step 2: Pharmacy enters it.",
+     "say": "Step 2: Pharmacy enters it.",
+     "focus": 1,
+     "file": "clips/2afa98902196.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "The pharmacist picks the drug (NDC), quantity and days supply, and enters Emily's card details.",
+     "say": "The pharmacist picks the drug (N D C), quantity and days supply, and enters Emily's card details.",
+     "focus": 1,
+     "file": "clips/89601cd2d07f.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Step 3: Claim sent.",
+     "say": "Step 3: Claim sent.",
+     "focus": 2,
+     "file": "clips/64a991a5b6ec.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "The pharmacy system sends the claim, usually through a **switch** (a routing company), to the PBM named by the BIN and PCN.",
+     "say": "The pharmacy system sends the claim, usually through a switch (a routing company), to the P B M named by the B I N and P C N.",
+     "focus": 2,
+     "file": "clips/7182fe016867.mp3",
+     "seconds": 9.35
+    },
+    {
+     "raw": "Step 4: PBM checks.",
+     "say": "Step 4: P B M checks.",
+     "focus": 3,
+     "file": "clips/b6a555200e2c.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Is Emily covered today?",
+     "say": "Is Emily covered today?",
+     "focus": 3,
+     "file": "clips/c658df56b91e.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Is the drug on the list?",
+     "say": "Is the drug on the list?",
+     "focus": 3,
+     "file": "clips/d85b3870d0f6.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "Too soon for a refill?",
+     "say": "Too soon for a refill?",
+     "focus": 3,
+     "file": "clips/3eff9976bf9f.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Any safety warnings with her other medicines?",
+     "say": "Any safety warnings with her other medicines?",
+     "focus": 3,
+     "file": "clips/9cec5b6ae299.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Step 5: Response returned.",
+     "say": "Step 5: Response returned.",
+     "focus": 4,
+     "file": "clips/93bc8f1f2e65.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Paid or rejected, with the exact amount Emily pays and the plan pays.",
+     "say": "Paid or rejected, with the exact amount Emily pays and the plan pays.",
+     "focus": 4,
+     "file": "clips/c58701aa8e68.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "All of this takes a few seconds.",
+     "say": "All of this takes a few seconds.",
+     "focus": 4,
+     "file": "clips/0dfdc5f1bf7c.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Step 6: Medicine handed over.",
+     "say": "Step 6: Medicine handed over.",
+     "focus": 5,
+     "file": "clips/bbcccc05d127.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Emily pays $5 and takes her amoxicillin.",
+     "say": "Emily pays 5 dollars and takes her amoxicillin.",
+     "focus": 5,
+     "file": "clips/50da7564d673.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "The PBM pays the pharmacy later, in a regular payment cycle.",
+     "say": "The P B M pays the pharmacy later, in a regular payment cycle.",
+     "focus": 5,
+     "file": "clips/acf566fa52ea.mp3",
+     "seconds": 4.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "At the counter: a claim in seconds",
+   "lines": [
+    {
+     "raw": "A safety check at every counter.",
+     "say": "A safety check at every counter.",
+     "focus": -1,
+     "file": "clips/6b865660bdf7.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "In step 4, the PBM also runs a **DUR (Drug Utilization Review)**.",
+     "say": "In step 4, the P B M also runs a D U R (Drug Utilization Review).",
+     "focus": -1,
+     "file": "clips/626f9b7918cf.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "It looks at all of Emily's recent pharmacy claims, even from other pharmacies, and warns the pharmacist about dangerous combinations or duplicate medicines.",
+     "say": "It looks at all of Emily's recent pharmacy claims, even from other pharmacies, and warns the pharmacist about dangerous combinations or duplicate medicines.",
+     "focus": -1,
+     "file": "clips/840ff8885104.mp3",
+     "seconds": 10.575
+    },
+    {
+     "raw": "A medical shop in Nepal cannot see what you bought at another shop.",
+     "say": "A medical shop in Nepal cannot see what you bought at another shop.",
+     "focus": -1,
+     "file": "clips/eaf5320c6672.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "A US PBM can.",
+     "say": "A U S P B M can.",
+     "focus": -1,
+     "file": "clips/7fbccc11de07.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A different language from medical claims.",
+     "say": "A different language from medical claims.",
+     "focus": -1,
+     "file": "clips/fdb53017e0be.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "A different language from medical claims",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Electronic standard. Medical claim: **X12 837** (837P for doctors, 837I for hospitals). Pharmacy claim: **NCPDP Telecommunication Standard** (version D.0 today).",
+     "say": "Electronic standard. Medical claim: X12 8 37 (8 3 7 P for doctors, 8 3 7 I for hospitals). Pharmacy claim: N C P D P Telecommunication Standard (version D.0 today).",
+     "focus": 0,
+     "file": "clips/c0c9dd9dcb1b.mp3",
+     "seconds": 16.025
+    },
+    {
+     "raw": "Paper form. Medical claim: CMS-1500 or UB-04. Pharmacy claim: NCPDP Universal Claim Form (rarely used).",
+     "say": "Paper form. Medical claim: C M S 1500 or U B 04. Pharmacy claim: N C P D P Universal Claim Form (rarely used).",
+     "focus": 1,
+     "file": "clips/0f12e744a994.mp3",
+     "seconds": 11.05
+    },
+    {
+     "raw": "Sent by. Medical claim: Doctor or hospital. Pharmacy claim: Pharmacy.",
+     "say": "Sent by. Medical claim: Doctor or hospital. Pharmacy claim: Pharmacy.",
+     "focus": 2,
+     "file": "clips/b4a5978798d0.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "Received by. Medical claim: Insurer. Pharmacy claim: PBM (on behalf of the plan).",
+     "say": "Received by. Medical claim: Insurer. Pharmacy claim: P B M (on behalf of the plan).",
+     "focus": 3,
+     "file": "clips/8f799acb3f9b.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "Answer comes back. Medical claim: Days or weeks later. Pharmacy claim: In seconds.",
+     "say": "Answer comes back. Medical claim: Days or weeks later. Pharmacy claim: In seconds.",
+     "focus": 4,
+     "file": "clips/5cd9ef11e748.mp3",
+     "seconds": 5.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "A different language from medical claims",
+   "lines": [
+    {
+     "raw": "Who is involved in Nepal?",
+     "say": "Who is involved in Nepal?",
+     "focus": -1,
+     "file": "clips/662c3a1c0da2.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "For Ram, only three players matter: the **doctor** who writes the prescription, the **medical shop**, and his **insurer**.",
+     "say": "For Ram, only three players matter: the doctor who writes the prescription, the medical shop, and his insurer.",
+     "focus": 0,
+     "file": "clips/7bdcbd63a4d3.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "Nobody checks the claim at the counter.",
+     "say": "Nobody checks the claim at the counter.",
+     "focus": 1,
+     "file": "clips/5bfa8a372b73.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "The insurer checks it weeks later, when Ram sends the papers.",
+     "say": "The insurer checks it weeks later, when Ram sends the papers.",
+     "focus": 1,
+     "file": "clips/6be7eaf54da8.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "There is no \"PBM\" in between.",
+     "say": "There is no \"P B M\" in between.",
+     "focus": 1,
+     "file": "clips/a39e59367e28.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "For Sita, the **SSF-listed hospital** is both the provider and the pharmacy, and it deals with **SSF** directly.",
+     "say": "For Sita, the S S F listed hospital is both the provider and the pharmacy, and it deals with S S F directly.",
+     "focus": 2,
+     "file": "clips/5a73938626e5.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "The hospital checks Sita's SSF eligibility before giving her the medicine, a little like the PBM eligibility check at a US counter, but not in seconds for each medicine.",
+     "say": "The hospital checks Sita's S S F eligibility before giving her the medicine, a little like the P B M eligibility check at a U S counter, but not in seconds for each medicine.",
+     "focus": 3,
+     "file": "clips/7eed2d8f21ac.mp3",
+     "seconds": 12.75
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Five players: **prescriber**, **pharmacy**, **PBM**, **plan** and **manufacturer**.",
+     "say": "Five players: prescriber, pharmacy, P B M, plan and manufacturer.",
+     "focus": 0,
+     "file": "clips/820613b5d7aa.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "The PBM runs the drug benefit for the plan: it decides claims, sets the drug list and pays pharmacies.",
+     "say": "The P B M runs the drug benefit for the plan: it decides claims, sets the drug list and pays pharmacies.",
+     "focus": 1,
+     "file": "clips/bbd93e817a41.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "**BIN**, **PCN** and **Group** on the insurance card route the claim to the right PBM and benefit.",
+     "say": "B I N, P C N and Group on the insurance card route the claim to the right P B M and benefit.",
+     "focus": 2,
+     "file": "clips/6c08894f9f9e.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "Pharmacy claims use the **NCPDP** standard, not X12 837, and are answered in seconds.",
+     "say": "Pharmacy claims use the N C P D P standard, not X12 8 37, and are answered in seconds.",
+     "focus": 3,
+     "file": "clips/5cf95d318fc5.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

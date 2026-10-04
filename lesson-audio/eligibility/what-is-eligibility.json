@@ -1,0 +1,820 @@
+{
+ "courseId": "eligibility",
+ "lessonId": "what-is-eligibility",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What is Eligibility Data?",
+     "say": "Lesson 1: What is Eligibility Data?",
+     "focus": -1,
+     "file": "clips/05dcaeb5fc75.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Before any bill is paid, someone asks: was this person covered on that day?",
+     "say": "Before any bill is paid, someone asks: was this person covered on that day?",
+     "focus": -1,
+     "file": "clips/b618d60a7f1f.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain in one sentence what \"eligibility data\" means.",
+     "say": "Explain in one sentence what \"eligibility data\" means.",
+     "focus": 0,
+     "file": "clips/058e3ea7a64e.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Know why the insurer checks eligibility before paying every claim.",
+     "say": "Know why the insurer checks eligibility before paying every claim.",
+     "focus": 1,
+     "file": "clips/35450e2fdc2e.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "See where eligibility sits next to medical and pharmacy data.",
+     "say": "See where eligibility sits next to medical and pharmacy data.",
+     "focus": 2,
+     "file": "clips/5dc255fa9405.mp3",
+     "seconds": 4.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Think about a gym membership in Kathmandu.",
+     "say": "Think about a gym membership in Kathmandu.",
+     "focus": -1,
+     "file": "clips/6e374b2b0f27.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "When you walk in, the person at the desk looks you up.",
+     "say": "When you walk in, the person at the desk looks you up.",
+     "focus": -1,
+     "file": "clips/862617da7bf1.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Are you a **member**?",
+     "say": "Are you a member?",
+     "focus": -1,
+     "file": "clips/0fb552d6582c.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "Which **package** did you buy?",
+     "say": "Which package did you buy?",
+     "focus": -1,
+     "file": "clips/471955b8b79a.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "Is it still **valid today**, or did it run out last month?",
+     "say": "Is it still valid today, or did it run out last month?",
+     "focus": -1,
+     "file": "clips/c7b712baae23.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Only then do they let you in.",
+     "say": "Only then do they let you in.",
+     "focus": -1,
+     "file": "clips/54c719ac6c1f.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Health insurance works the same way.",
+     "say": "Health insurance works the same way.",
+     "focus": -1,
+     "file": "clips/9e6d7e20eafd.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Before an insurer pays a single rupee or dollar, it checks its list of members: is this person **covered**, by **which plan**, and was the cover **active on the day** of the visit?",
+     "say": "Before an insurer pays a single rupee or dollar, it checks its list of members: is this person covered, by which plan, and was the cover active on the day of the visit?",
+     "focus": -1,
+     "file": "clips/3c3b2516cd89.mp3",
+     "seconds": 10.75
+    },
+    {
+     "raw": "That list is called **eligibility data** (also called **enrollment** or **membership** data).",
+     "say": "That list is called eligibility data (also called enrollment or membership data).",
+     "focus": -1,
+     "file": "clips/5a15eb57a222.mp3",
+     "seconds": 5.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Simple definition.",
+     "say": "Simple definition.",
+     "focus": -1,
+     "file": "clips/a5c5927139e3.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Eligibility data is the record of **who is covered**, **by which plan**, and **from which date to which date**.",
+     "say": "Eligibility data is the record of who is covered, by which plan, and from which date to which date.",
+     "focus": -1,
+     "file": "clips/cd2e69827bce.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "It is the insurer's list of members, with a start and end date for every person.",
+     "say": "It is the insurer's list of members, with a start and end date for every person.",
+     "focus": -1,
+     "file": "clips/c6ac5b9493a6.mp3",
+     "seconds": 5.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet our people.",
+     "say": "Meet our people.",
+     "focus": -1,
+     "file": "clips/f8aec1fba809.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "This course follows three people.",
+     "say": "This course follows three people.",
+     "focus": -1,
+     "file": "clips/47febabdfc42.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "**Ram** works at a tech startup in Kathmandu and is covered by its group health policy.",
+     "say": "Ram works at a tech startup in Kathmandu and is covered by its group health policy.",
+     "focus": -1,
+     "file": "clips/0419b6e0e17f.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "**Sita** is an accountant in Kathmandu who contributes to the Social Security Fund (SSF).",
+     "say": "Sita is an accountant in Kathmandu who contributes to the Social Security Fund (S S F).",
+     "focus": -1,
+     "file": "clips/44d49b8f2103.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "**Emily** is an office worker in Texas, USA, with health insurance through her employer.",
+     "say": "Emily is an office worker in Texas, U S A, with health insurance through her employer.",
+     "focus": -1,
+     "file": "clips/9fe3abcd12b1.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "For each of them we ask one question: not \"what care did they get?\" but \"**were they covered when they got it?**\"",
+     "say": "For each of them we ask one question: not \"what care did they get?\" but \"were they covered when they got it?\"",
+     "focus": -1,
+     "file": "clips/3e8a69d2f263.mp3",
+     "seconds": 6.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "In Nepal: Is Ram's and Sita's cover active?",
+     "say": "In Nepal: Is Ram's and Sita's cover active?",
+     "focus": -1,
+     "file": "clips/514fe291b054.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "**Ram** is covered by a **group health policy** that his startup buys from a private insurer.",
+     "say": "Ram is covered by a group health policy that his startup buys from a private insurer.",
+     "focus": 0,
+     "file": "clips/f8d3617b053d.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "The policy has a **start date** and an **end date**, usually one year.",
+     "say": "The policy has a start date and an end date, usually one year.",
+     "focus": 1,
+     "file": "clips/2ffcc9697496.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Each year the startup must **renew** it.",
+     "say": "Each year the startup must renew it.",
+     "focus": 1,
+     "file": "clips/f273a28eba8b.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "When Ram sends a claim, the insurer first checks: was the policy **active** on the date of Ram's treatment?",
+     "say": "When Ram sends a claim, the insurer first checks: was the policy active on the date of Ram's treatment?",
+     "focus": 2,
+     "file": "clips/9bd2c45ce6a5.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "Was Ram still an employee on the list?",
+     "say": "Was Ram still an employee on the list?",
+     "focus": 2,
+     "file": "clips/c5395f2f6189.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "If the startup forgot to renew, or Ram had already left the company, the claim is rejected, no matter how real the illness was.",
+     "say": "If the startup forgot to renew, or Ram had already left the company, the claim is rejected, no matter how real the illness was.",
+     "focus": 3,
+     "file": "clips/6b6da007916b.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 4,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "**Sita** is covered because she **contributes to SSF** through her employer.",
+     "say": "Sita is covered because she contributes to S S F through her employer.",
+     "focus": 4,
+     "file": "clips/73b8dc40b020.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "When she visits an SSF-listed hospital, the hospital checks her **SSF ID** and whether her **contributions are up to date**.",
+     "say": "When she visits an S S F listed hospital, the hospital checks her S S F I D and whether her contributions are up to date.",
+     "focus": 5,
+     "file": "clips/645185f7a7d7.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "If her employer stopped depositing contributions, SSF may not treat her as eligible, even though she has an SSF ID card.",
+     "say": "If her employer stopped depositing contributions, S S F may not treat her as eligible, even though she has an S S F I D card.",
+     "focus": 6,
+     "file": "clips/b9a0e9da809e.mp3",
+     "seconds": 9.625
+    },
+    {
+     "raw": "So \"Do you have a card?\" is not enough.",
+     "say": "So \"Do you have a card?\" is not enough.",
+     "focus": 7,
+     "file": "clips/a0478ac2f584.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "The real question is \"Is your cover **active today**?\".",
+     "say": "The real question is \"Is your cover active today?\".",
+     "focus": 7,
+     "file": "clips/9572cabdda83.mp3",
+     "seconds": 3.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "In the US: Emily's cover in Texas.",
+     "say": "In the U S: Emily's cover in Texas.",
+     "focus": -1,
+     "file": "clips/9ebebf258426.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "**Emily Carter** works at a company that gives her **health insurance** (an \"employer plan\").",
+     "say": "Emily Carter works at a company that gives her health insurance (an \"employer plan\").",
+     "focus": 0,
+     "file": "clips/d8c32628aca6.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Her insurer keeps a record for her: member ID **M1001**, her plan, and the date her cover started.",
+     "say": "Her insurer keeps a record for her: member I D M 1 0 0 1, her plan, and the date her cover started.",
+     "focus": 1,
+     "file": "clips/166a3c920edc.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "Her plan has a **$1,000 deductible** and **20% coinsurance** (the Medical course works through her claims on this plan in detail).",
+     "say": "Her plan has a 1000 dollars deductible and 20 percent coinsurance (the Medical course works through her claims on this plan in detail).",
+     "focus": 2,
+     "file": "clips/f04ddd9e478d.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "Every time a claim for Emily arrives, the insurer looks up M1001 and checks the **service date** against her coverage dates before paying.",
+     "say": "Every time a claim for Emily arrives, the insurer looks up M 1 0 0 1 and checks the service date against her coverage dates before paying.",
+     "focus": 3,
+     "file": "clips/404305fd22b8.mp3",
+     "seconds": 9.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What does eligibility data contain?",
+     "say": "What does eligibility data contain?",
+     "focus": -1,
+     "file": "clips/40ce9d18ca94.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "What does eligibility data contain?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Who**. What it includes: Name, date of birth, gender, address, member ID. Emily's example: Emily Carter, born 14 Aug 1990, female, Austin TX, M1001.",
+     "say": "Who. What it includes: Name, date of birth, gender, address, member I D. Emily's example: Emily Carter, born 14 Aug 1990, female, Austin T X, M 1 0 0 1.",
+     "focus": 0,
+     "file": "clips/c9d9dc935c02.mp3",
+     "seconds": 13.625
+    },
+    {
+     "raw": "**Family link**. What it includes: Who the main policyholder is, and how each person is related to them. Emily's example: Emily is the policyholder herself (relationship: self).",
+     "say": "Family link. What it includes: Who the main policyholder is, and how each person is related to them. Emily's example: Emily is the policyholder herself (relationship: self).",
+     "focus": 1,
+     "file": "clips/d47692387c32.mp3",
+     "seconds": 12.275
+    },
+    {
+     "raw": "**Which plan**. What it includes: The employer group, the plan, the type of insurance. Emily's example: Her employer's group, a PPO plan, commercial insurance.",
+     "say": "Which plan. What it includes: The employer group, the plan, the type of insurance. Emily's example: Her employer's group, a P P O plan, commercial insurance.",
+     "focus": 2,
+     "file": "clips/d4f9d5b7744d.mp3",
+     "seconds": 10.55
+    },
+    {
+     "raw": "**When**. What it includes: The **effective date** (start) and **termination date** (end) of cover. Emily's example: Started 1 Jan 2022, no end date yet.",
+     "say": "When. What it includes: The effective date (start) and termination date (end) of cover. Emily's example: Started 1 Jan 2022, no end date yet.",
+     "focus": 3,
+     "file": "clips/f5128a2f2e5a.mp3",
+     "seconds": 10.575
+    },
+    {
+     "raw": "**Other insurance**. What it includes: Whether the person has a second insurance, and which pays first. Emily's example: None for Emily herself.",
+     "say": "Other insurance. What it includes: Whether the person has a second insurance, and which pays first. Emily's example: None for Emily herself.",
+     "focus": 4,
+     "file": "clips/80af20d1dc80.mp3",
+     "seconds": 9.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "What does eligibility data contain?",
+   "lines": [
+    {
+     "raw": "Coming up.",
+     "say": "Coming up.",
+     "focus": -1,
+     "file": "clips/b7ef242b061e.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "You will learn about each group in later lessons: plans in lesson 2, family links in lesson 3, dates in lesson 4, how the data arrives in lesson 5 and other insurance in lesson 6.",
+     "say": "You will learn about each group in later lessons: plans in lesson 2, family links in lesson 3, dates in lesson 4, how the data arrives in lesson 5 and other insurance in lesson 6.",
+     "focus": -1,
+     "file": "clips/2d58877720bf.mp3",
+     "seconds": 12.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Why check eligibility before every claim?",
+     "say": "Why check eligibility before every claim?",
+     "focus": -1,
+     "file": "clips/5eeda0fcf986.mp3",
+     "seconds": 3.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Why check eligibility before every claim?",
+   "lines": [
+    {
+     "raw": "**People change jobs.**",
+     "say": "People change jobs.",
+     "focus": 0,
+     "file": "clips/69d5a6a1b1fe.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "When Emily leaves her company, her employer cover ends.",
+     "say": "When Emily leaves her company, her employer cover ends.",
+     "focus": 0,
+     "file": "clips/62d9446f7a20.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "A claim after that date should not be paid by this plan.",
+     "say": "A claim after that date should not be paid by this plan.",
+     "focus": 0,
+     "file": "clips/863048beec58.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "**Families change.**",
+     "say": "Families change.",
+     "focus": 1,
+     "file": "clips/0ac1f40237bb.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "A baby is born, a couple marries, a child grows up and leaves the plan.",
+     "say": "A baby is born, a couple marries, a child grows up and leaves the plan.",
+     "focus": 1,
+     "file": "clips/80143db74491.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "**Plans change.**",
+     "say": "Plans change.",
+     "focus": 2,
+     "file": "clips/52d3c1a71832.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Each year an employer may switch plans or insurers.",
+     "say": "Each year an employer may switch plans or insurers.",
+     "focus": 2,
+     "file": "clips/f2f2c5ee7e45.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "**Money is at stake.**",
+     "say": "Money is at stake.",
+     "focus": 3,
+     "file": "clips/a79027ed636c.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Paying for someone who was not covered is a loss, and getting it back later is slow and difficult.",
+     "say": "Paying for someone who was not covered is a loss, and getting it back later is slow and difficult.",
+     "focus": 3,
+     "file": "clips/2a8e721e904c.mp3",
+     "seconds": 6.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Why check eligibility before every claim?",
+   "lines": [
+    {
+     "raw": "Where this fits.",
+     "say": "Where this fits.",
+     "focus": -1,
+     "file": "clips/172053dde833.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "When an insurer processes a claim, one of the first steps is the **eligibility check**, and one of the most common denial reasons is **\"Not eligible: the patient was not covered on the service date\"**.",
+     "say": "When an insurer processes a claim, one of the first steps is the eligibility check, and one of the most common denial reasons is \"Not eligible: the patient was not covered on the service date\".",
+     "focus": -1,
+     "file": "clips/33329ccd6aba.mp3",
+     "seconds": 12.1
+    },
+    {
+     "raw": "The Medical course follows the whole claim journey; this course explains the data behind that check.",
+     "say": "The Medical course follows the whole claim journey; this course explains the data behind that check.",
+     "focus": -1,
+     "file": "clips/7fc6029968a2.mp3",
+     "seconds": 6.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Eligibility is the \"who\" table every claim joins to.",
+     "say": "Eligibility is the \"who\" table every claim joins to.",
+     "focus": -1,
+     "file": "clips/39c4b0dec267.mp3",
+     "seconds": 3.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Eligibility is the \"who\" table every claim joins to",
+   "lines": [
+    {
+     "raw": "An insurer receives several kinds of data.",
+     "say": "An insurer receives several kinds of data.",
+     "focus": -1,
+     "file": "clips/a9a32d03c05c.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Medical and pharmacy claims say **what happened**.",
+     "say": "Medical and pharmacy claims say what happened.",
+     "focus": -1,
+     "file": "clips/1bd0cf75d54d.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Eligibility says **who was allowed to have it paid for**.",
+     "say": "Eligibility says who was allowed to have it paid for.",
+     "focus": -1,
+     "file": "clips/66e8a0e445a0.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Every claim carries a member ID, and analysts link it to the eligibility table using that ID and the service date.",
+     "say": "Every claim carries a member I D, and analysts link it to the eligibility table using that I D and the service date.",
+     "focus": -1,
+     "file": "clips/e48525af75ad.mp3",
+     "seconds": 8.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Eligibility is the \"who\" table every claim joins to",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Eligibility**. What it tells you: Who is covered, by which plan, from which date to which date. Nepal comparison: Is Sita's SSF contribution up to date? Is Ram's policy still running?",
+     "say": "Eligibility. What it tells you: Who is covered, by which plan, from which date to which date. Nepal comparison: Is Sita's S S F contribution up to date? Is Ram's policy still running?",
+     "focus": 0,
+     "file": "clips/bc145db78d5b.mp3",
+     "seconds": 12.875
+    },
+    {
+     "raw": "**Medical**. What it tells you: Doctor and hospital services. Nepal comparison: OPD, admission, surgery bills.",
+     "say": "Medical. What it tells you: Doctor and hospital services. Nepal comparison: O P D, admission, surgery bills.",
+     "focus": 1,
+     "file": "clips/0e4ce2d3a965.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "**Pharmacy**. What it tells you: Medicines bought with a prescription. Nepal comparison: Bill from the medical shop / pharmacy.",
+     "say": "Pharmacy. What it tells you: Medicines bought with a prescription. Nepal comparison: Bill from the medical shop or pharmacy.",
+     "focus": 2,
+     "file": "clips/39d379c84795.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "**Lab**. What it tells you: Test results. Nepal comparison: The lab report you collect the next day.",
+     "say": "Lab. What it tells you: Test results. Nepal comparison: The lab report you collect the next day.",
+     "focus": 3,
+     "file": "clips/1d3c84b6f170.mp3",
+     "seconds": 6.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Eligibility is the \"who\" table every claim joins to",
+   "lines": [
+    {
+     "raw": "Think of a school register.",
+     "say": "Think of a school register.",
+     "focus": -1,
+     "file": "clips/d5370651a622.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "A school has an **attendance register** (who is enrolled in which class, since when) and **mark sheets** (what each student scored).",
+     "say": "A school has an attendance register (who is enrolled in which class, since when) and mark sheets (what each student scored).",
+     "focus": -1,
+     "file": "clips/c77d429f5789.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "A mark sheet for a student who is not on the register makes no sense.",
+     "say": "A mark sheet for a student who is not on the register makes no sense.",
+     "focus": -1,
+     "file": "clips/fc69d51d69c9.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Eligibility is the register; claims are the mark sheets.",
+     "say": "Eligibility is the register; claims are the mark sheets.",
+     "focus": -1,
+     "file": "clips/1e2fa8d5ed65.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "You always check the register first.",
+     "say": "You always check the register first.",
+     "focus": -1,
+     "file": "clips/0ea645e70b02.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Eligibility is the \"who\" table every claim joins to",
+   "lines": [
+    {
+     "raw": "Why analysts care.",
+     "say": "Why analysts care.",
+     "focus": -1,
+     "file": "clips/8750cb2eed2b.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Eligibility is usually a **small** table compared to claims, but almost every report needs it.",
+     "say": "Eligibility is usually a small table compared to claims, but almost every report needs it.",
+     "focus": -1,
+     "file": "clips/95eb41340aaf.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "Want the cost per member?",
+     "say": "Want the cost per member?",
+     "focus": -1,
+     "file": "clips/343b378d1c85.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "You need to know how many members there were (lesson 7).",
+     "say": "You need to know how many members there were (lesson 7).",
+     "focus": -1,
+     "file": "clips/5444de84b8d7.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Want to know which plan paid for a claim?",
+     "say": "Want to know which plan paid for a claim?",
+     "focus": -1,
+     "file": "clips/0dbe64116653.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "You need the plan from eligibility.",
+     "say": "You need the plan from eligibility.",
+     "focus": -1,
+     "file": "clips/383447b5f032.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Want to check a claim is valid?",
+     "say": "Want to check a claim is valid?",
+     "focus": -1,
+     "file": "clips/e03d371c2ce3.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "You need the coverage dates.",
+     "say": "You need the coverage dates.",
+     "focus": -1,
+     "file": "clips/c288d0819b6d.mp3",
+     "seconds": 2.025
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Eligibility data = who is covered, by which plan, and from when to when.",
+     "say": "Eligibility data = who is covered, by which plan, and from when to when.",
+     "focus": 0,
+     "file": "clips/2ff105ba16a9.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "Insurers check eligibility on the **service date** before paying any claim.",
+     "say": "Insurers check eligibility on the service date before paying any claim.",
+     "focus": 1,
+     "file": "clips/72bab74bc32a.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Having a card is not enough; cover must be **active on that day**.",
+     "say": "Having a card is not enough; cover must be active on that day.",
+     "focus": 2,
+     "file": "clips/1ba5607a058b.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Eligibility is the \"who\" table that medical and pharmacy claims join to, using member ID and dates.",
+     "say": "Eligibility is the \"who\" table that medical and pharmacy claims join to, using member I D and dates.",
+     "focus": 3,
+     "file": "clips/39cc843e79f4.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

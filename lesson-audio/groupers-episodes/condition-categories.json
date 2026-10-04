@@ -1,0 +1,673 @@
+{
+ "courseId": "groupers-episodes",
+ "lessonId": "condition-categories",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Condition Categories.",
+     "say": "Lesson 5: Condition Categories.",
+     "focus": -1,
+     "file": "clips/6de1e4c7cb3a.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Grouping diagnosis codes into clinical categories and turning them into \"this member has diabetes\" flags.",
+     "say": "Grouping diagnosis codes into clinical categories and turning them into \"this member has diabetes\" flags.",
+     "focus": -1,
+     "file": "clips/2b8cadfefca4.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what CCSR does and why one code can map to more than one category.",
+     "say": "Explain what C C S R does and why one code can map to more than one category.",
+     "focus": 0,
+     "file": "clips/e40f76bb3543.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Tell a code-level category from a member-level chronic condition flag.",
+     "say": "Tell a code-level category from a member-level chronic condition flag.",
+     "focus": 1,
+     "file": "clips/003ae9549245.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Apply a simple chronic condition rule with a look-back period and a claim count.",
+     "say": "Apply a simple chronic condition rule with a look-back period and a claim count.",
+     "focus": 2,
+     "file": "clips/ccd68edb2b35.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Name comorbidity indexes and say what they are used for.",
+     "say": "Name comorbidity indexes and say what they are used for.",
+     "focus": 3,
+     "file": "clips/95d171bd7457.mp3",
+     "seconds": 4.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with a pharmacy shelf.",
+     "say": "Start with a pharmacy shelf.",
+     "focus": -1,
+     "file": "clips/3cf88e043a66.mp3",
+     "seconds": 2.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with a pharmacy shelf",
+   "lines": [
+    {
+     "raw": "In Nepal: Sorting hundreds of medicines.",
+     "say": "In Nepal: Sorting hundreds of medicines.",
+     "focus": -1,
+     "file": "clips/af578e9458b3.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "A pharmacy in New Road stocks hundreds of brands.",
+     "say": "A pharmacy in New Road stocks hundreds of brands.",
+     "focus": 0,
+     "file": "clips/aaf0b73a29b6.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "The owner does not shelve them alphabetically.",
+     "say": "The owner does not shelve them alphabetically.",
+     "focus": 0,
+     "file": "clips/ab98af46d37c.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "He groups them by **what they treat**: pain and fever, stomach, blood pressure, diabetes, skin.",
+     "say": "He groups them by what they treat: pain and fever, stomach, blood pressure, diabetes, skin.",
+     "focus": 0,
+     "file": "clips/f21c2be258df.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "A few medicines belong on **two** shelves: a combination tablet for blood pressure and cholesterol, for example.",
+     "say": "A few medicines belong on two shelves: a combination tablet for blood pressure and cholesterol, for example.",
+     "focus": 1,
+     "file": "clips/3324afa3e176.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "Now he can quickly answer: \"How much of my stock is for diabetes?\".",
+     "say": "Now he can quickly answer: \"How much of my stock is for diabetes?\".",
+     "focus": 2,
+     "file": "clips/c83071b77edf.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "If the SSF wanted to know how many contributors have diabetes, it would face the same task: thousands of diagnosis entries have to be grouped into a few clear conditions first.",
+     "say": "If the S S F wanted to know how many contributors have diabetes, it would face the same task: thousands of diagnosis entries have to be grouped into a few clear conditions first.",
+     "focus": 3,
+     "file": "clips/719f52e7e004.mp3",
+     "seconds": 11.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with a pharmacy shelf",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Condition groupers sort tens of thousands of diagnosis codes into a few hundred **clinical categories**, and chronic condition rules turn those codes into a simple **yes/no flag per member** such as \"has diabetes\".",
+     "say": "Condition groupers sort tens of thousands of diagnosis codes into a few hundred clinical categories, and chronic condition rules turn those codes into a simple yes/no flag per member such as \"has diabetes\".",
+     "focus": -1,
+     "file": "clips/e5a80cdd1002.mp3",
+     "seconds": 14.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: CCSR.",
+     "say": "The U S version: C C S R.",
+     "focus": -1,
+     "file": "clips/fae9fd253493.mp3",
+     "seconds": 2.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: CCSR",
+   "lines": [
+    {
+     "raw": "In the US: Clinical Classifications Software Refined (CCSR).",
+     "say": "In the U S: Clinical Classifications Software Refined (C C S R).",
+     "focus": -1,
+     "file": "clips/0fbf92a781bc.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "Free software from **AHRQ (Agency for Healthcare Research and Quality)**, part of its HCUP (Healthcare Cost and Utilization Project) tools.",
+     "say": "Free software from A H R Q (Agency for Healthcare Research and Quality), part of its H C U P (Healthcare Cost and Utilization Project) tools.",
+     "focus": 0,
+     "file": "clips/a92db04e4374.mp3",
+     "seconds": 10.425
+    },
+    {
+     "raw": "Maps every **ICD-10-CM** diagnosis code to one or more of **more than 500 clinical categories**, organised into body systems.",
+     "say": "Maps every I C D 10-CM diagnosis code to one or more of more than 500 clinical categories, organised into body systems.",
+     "focus": 1,
+     "file": "clips/cbfa70feb005.mp3",
+     "seconds": 9.7
+    },
+    {
+     "raw": "Each category has a code made of a body-system prefix and a number, for example `END002` (END = endocrine) or `CIR007` (CIR = circulatory).",
+     "say": "Each category has a code made of a body-system prefix and a number, for example E N D 0 0 2 (E N D = endocrine) or C I R 0 0 7 (C I R = circulatory).",
+     "focus": 2,
+     "file": "clips/c97da8cbe4f6.mp3",
+     "seconds": 15.075
+    },
+    {
+     "raw": "A code that describes two problems maps to **both** categories.",
+     "say": "A code that describes two problems maps to both categories.",
+     "focus": 3,
+     "file": "clips/e0b92914e0eb.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "For example, type 2 diabetes **with** chronic kidney disease maps to \"diabetes with complication\" **and** to a chronic kidney disease category.",
+     "say": "For example, type 2 diabetes with chronic kidney disease maps to \"diabetes with complication\" and to a chronic kidney disease category.",
+     "focus": 3,
+     "file": "clips/af9ca29b9cb1.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "For counting each stay **once**, CCSR also gives a **default category** for the principal diagnosis.",
+     "say": "For counting each stay once, C C S R also gives a default category for the principal diagnosis.",
+     "focus": 4,
+     "file": "clips/ccff487f5e0c.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "There is a separate CCSR for ICD-10-PCS hospital procedures.",
+     "say": "There is a separate C C S R for I C D 10-PCS hospital procedures.",
+     "focus": 5,
+     "file": "clips/39be72674b18.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Both are updated every year with the new codes.",
+     "say": "Both are updated every year with the new codes.",
+     "focus": 5,
+     "file": "clips/86629e779718.mp3",
+     "seconds": 3.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The US version: CCSR",
+   "lines": [
+    {
+     "raw": "Example diagnosis codes and their CCSR categories (check the current CCSR release for exact assignments).",
+     "say": "Example diagnosis codes and their C C S R categories (check the current C C S R release for exact assignments).",
+     "focus": -1,
+     "file": "clips/10d9b1fcd26c.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "`E11.9`. Meaning: Type 2 diabetes without complications. CCSR category: `END002` Diabetes mellitus without complication.",
+     "say": "E 1 1 . 9. Meaning: Type 2 diabetes without complications. C C S R category: E N D 0 0 2 Diabetes mellitus without complication.",
+     "focus": 0,
+     "file": "clips/5726fdebc583.mp3",
+     "seconds": 12.425
+    },
+    {
+     "raw": "`I10`. Meaning: High blood pressure (essential hypertension). CCSR category: `CIR007` Essential hypertension.",
+     "say": "I10. Meaning: High blood pressure (essential hypertension). C C S R category: C I R 0 0 7 Essential hypertension.",
+     "focus": 1,
+     "file": "clips/4b8799112085.mp3",
+     "seconds": 10.5
+    },
+    {
+     "raw": "`M17.11`. Meaning: Primary osteoarthritis (wear-and-tear arthritis), right knee. CCSR category: `MUS006` Osteoarthritis.",
+     "say": "M 1 7 . 1 1. Meaning: Primary osteoarthritis (wear-and-tear arthritis), right knee. C C S R category: M U S 0 0 6 Osteoarthritis.",
+     "focus": 2,
+     "file": "clips/ea42e47aa882.mp3",
+     "seconds": 12.525
+    },
+    {
+     "raw": "`K35.80`. Meaning: Acute appendicitis. CCSR category: A digestive-system (`DIG`) category for appendicitis.",
+     "say": "K 3 5 . 8 0. Meaning: Acute appendicitis. C C S R category: A digestive-system (D I G) category for appendicitis.",
+     "focus": 3,
+     "file": "clips/6e3e557e48c5.mp3",
+     "seconds": 10.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Chronic condition flags.",
+     "say": "Chronic condition flags.",
+     "focus": -1,
+     "file": "clips/937599cb6b2a.mp3",
+     "seconds": 2.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Chronic condition flags",
+   "lines": [
+    {
+     "raw": "A category describes a **code**.",
+     "say": "A category describes a code.",
+     "focus": -1,
+     "file": "clips/e753f6502cfa.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "Analysts usually need a statement about a **member**: \"Robert has diabetes.\" A **chronic condition flag** is a rule that decides this from a member's claims over a period.",
+     "say": "Analysts usually need a statement about a member: \"Robert has diabetes.\" A chronic condition flag is a rule that decides this from a member's claims over a period.",
+     "focus": -1,
+     "file": "clips/f4db5372e495.mp3",
+     "seconds": 10.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Chronic condition flags",
+   "lines": [
+    {
+     "raw": "Chronic condition.",
+     "say": "Chronic condition.",
+     "focus": 0,
+     "file": "clips/4dcdd74e5664.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "A long-lasting illness, such as diabetes, high blood pressure, asthma or heart failure.",
+     "say": "A long-lasting illness, such as diabetes, high blood pressure, asthma or heart failure.",
+     "focus": 0,
+     "file": "clips/08cd88699d54.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "Look-back period.",
+     "say": "Look-back period.",
+     "focus": 1,
+     "file": "clips/8b9d9965f603.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "How far back the rule searches claims, for example 1 or 2 years.",
+     "say": "How far back the rule searches claims, for example 1 or 2 years.",
+     "focus": 1,
+     "file": "clips/335c030d1a6b.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Qualifying claim.",
+     "say": "Qualifying claim.",
+     "focus": 2,
+     "file": "clips/c2836b6d3a54.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "A claim with a diagnosis on the condition's code list, from an allowed claim type.",
+     "say": "A claim with a diagnosis on the condition's code list, from an allowed claim type.",
+     "focus": 2,
+     "file": "clips/f1db683224d7.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Rule-out diagnosis.",
+     "say": "Rule-out diagnosis.",
+     "focus": 3,
+     "file": "clips/a2cec13770bf.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "A code on a test ordered to **check** for a condition the patient may not have.",
+     "say": "A code on a test ordered to check for a condition the patient may not have.",
+     "focus": 3,
+     "file": "clips/48a35ee5958d.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Requiring two outpatient claims protects against flagging members on one test alone.",
+     "say": "Requiring two outpatient claims protects against flagging members on one test alone.",
+     "focus": 3,
+     "file": "clips/79984ed06e04.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "CCW.",
+     "say": "C C W.",
+     "focus": 4,
+     "file": "clips/cc5389b03446.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "CMS's Chronic Conditions Data Warehouse, which publishes standard chronic condition rules for Medicare data.",
+     "say": "CMS's Chronic Conditions Data Warehouse, which publishes standard chronic condition rules for Medicare data.",
+     "focus": 4,
+     "file": "clips/b203d05a36cf.mp3",
+     "seconds": 7.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Chronic condition flags",
+   "lines": [
+    {
+     "raw": "A typical chronic condition rule (the CCW diabetes rule, simplified).",
+     "say": "A typical chronic condition rule (the C C W diabetes rule, simplified).",
+     "focus": -1,
+     "file": "clips/efd3361bba6e.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "Flag equals YES if, in a 2-year look-back, the member has ≥ 1 inpatient, skilled nursing or home health claim, OR ≥ 2 outpatient or doctor claims, with a diabetes code.",
+     "say": "Flag equals Y E S if, in a 2-year look-back, the member has ≥ 1 inpatient, skilled nursing or home health claim, O R ≥ 2 outpatient or doctor claims, with a diabetes code.",
+     "focus": 0,
+     "file": "clips/b109ae7e64af.mp3",
+     "seconds": 15.525
+    },
+    {
+     "raw": "For example: Two outpatient claims are required because a single one could be a test to rule diabetes out.",
+     "say": "For example: Two outpatient claims are required because a single one could be a test to rule diabetes out.",
+     "focus": 1,
+     "file": "clips/694be10997ef.mp3",
+     "seconds": 7.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Chronic condition flags",
+   "lines": [
+    {
+     "raw": "Comorbidity indexes: one score from many conditions.",
+     "say": "Comorbidity indexes: one score from many conditions.",
+     "focus": -1,
+     "file": "clips/c7cbc973ed05.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "**Charlson Comorbidity Index**. What it does: Gives points for a short list of serious conditions (such as heart failure, cancer, kidney disease) and adds them up. Typical use: Adjusting outcome comparisons (for example death rates) for how ill patients were.",
+     "say": "Charlson Comorbidity Index. What it does: Gives points for a short list of serious conditions (such as heart failure, cancer, kidney disease) and adds them up. Typical use: Adjusting outcome comparisons (for example death rates) for how ill patients were.",
+     "focus": 0,
+     "file": "clips/d190cc9283a0.mp3",
+     "seconds": 17.175
+    },
+    {
+     "raw": "**Elixhauser comorbidity measures**. What it does: Flags a longer list of conditions, each as yes/no; AHRQ publishes a refined version. Typical use: Research and risk adjustment of hospital outcomes.",
+     "say": "Elixhauser comorbidity measures. What it does: Flags a longer list of conditions, each as yes/no; A H R Q publishes a refined version. Typical use: Research and risk adjustment of hospital outcomes.",
+     "focus": 1,
+     "file": "clips/0ca1ef7f7ec1.mp3",
+     "seconds": 15.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Chronic condition flags",
+   "lines": [
+    {
+     "raw": "HCCs are a different tool.",
+     "say": "H C C's are a different tool.",
+     "focus": -1,
+     "file": "clips/dcf3ae34f004.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "HCCs also group diagnoses, but they are built to **predict cost** for risk adjustment, with hierarchies and payment weights.",
+     "say": "H C C's also group diagnoses, but they are built to predict cost for risk adjustment, with hierarchies and payment weights.",
+     "focus": -1,
+     "file": "clips/f6eb1499e446.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "They are taught in the Risk Adjustment course.",
+     "say": "They are taught in the Risk Adjustment course.",
+     "focus": -1,
+     "file": "clips/d56696deb619.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Robert's 2025 conditions.",
+     "say": "Worked example: Robert's 2025 conditions.",
+     "focus": -1,
+     "file": "clips/b8817fc0725e.mp3",
+     "seconds": 3.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: Robert's 2025 conditions",
+   "lines": [
+    {
+     "raw": "Robert (born 1957, retired teacher in Houston, on the made-up Medicare Advantage plan Gulf Coast Advantage) had these claims in 2025:",
+     "say": "Robert (born 1957, retired teacher in Houston, on the made-up Medicare Advantage plan Gulf Coast Advantage) had these claims in 2025:",
+     "focus": -1,
+     "file": "clips/569d602c317a.mp3",
+     "seconds": 11.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: Robert's 2025 conditions",
+   "lines": [
+    {
+     "raw": "Robert's 2025 claims and diagnoses (illustrative).",
+     "say": "Robert's 2025 claims and diagnoses (illustrative).",
+     "focus": -1,
+     "file": "clips/10b0b2b1d474.mp3",
+     "seconds": 4.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: Robert's 2025 conditions",
+   "lines": [
+    {
+     "raw": "Robert's member-level chronic condition flags.",
+     "say": "Robert's member-level chronic condition flags.",
+     "focus": -1,
+     "file": "clips/15cbc32a0d24.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Diabetes. Qualifying claims: 1 inpatient + 2 doctor claims. Flag: **Yes**.",
+     "say": "Diabetes. Qualifying claims: 1 inpatient and 2 doctor claims. Flag: Yes.",
+     "focus": 0,
+     "file": "clips/e5616d39114a.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "High blood pressure. Qualifying claims: 1 inpatient + 1 doctor claim. Flag: **Yes**.",
+     "say": "High blood pressure. Qualifying claims: 1 inpatient and 1 doctor claim. Flag: Yes.",
+     "focus": 1,
+     "file": "clips/59e909b55e35.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "Osteoarthritis. Qualifying claims: 1 inpatient + 1 hospital outpatient claim. Flag: **Yes**.",
+     "say": "Osteoarthritis. Qualifying claims: 1 inpatient and 1 hospital outpatient claim. Flag: Yes.",
+     "focus": 2,
+     "file": "clips/f5c1fc119143.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "Heart failure. Qualifying claims: None. Flag: No.",
+     "say": "Heart failure. Qualifying claims: None. Flag: No.",
+     "focus": 3,
+     "file": "clips/761be222915d.mp3",
+     "seconds": 4.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: Robert's 2025 conditions",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Decide whether your question is about **codes**, **claims** or **members**.",
+     "say": "Decide whether your question is about codes, claims or members.",
+     "focus": -1,
+     "file": "clips/9cdbdec665a5.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Counting CCSR categories across all claims counts **visits** for diabetes; counting members with a diabetes flag counts **people** with diabetes.",
+     "say": "Counting C C S R categories across all claims counts visits for diabetes; counting members with a diabetes flag counts people with diabetes.",
+     "focus": -1,
+     "file": "clips/f2be3eeaaea3.mp3",
+     "seconds": 10.625
+    },
+    {
+     "raw": "And because one code can map to several CCSR categories, adding categories together can count the same claim twice: use the default category when every claim must be counted once.",
+     "say": "And because one code can map to several C C S R categories, adding categories together can count the same claim twice: use the default category when every claim must be counted once.",
+     "focus": -1,
+     "file": "clips/340347127853.mp3",
+     "seconds": 12.425
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "CCSR (from AHRQ) groups ICD-10-CM codes into more than 500 clinical categories by body system.",
+     "say": "C C S R (from A H R Q) groups I C D 10-CM codes into more than 500 clinical categories by body system.",
+     "focus": 0,
+     "file": "clips/d17cafe334ca.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "One diagnosis code can map to more than one category; the default category counts each stay once.",
+     "say": "One diagnosis code can map to more than one category; the default category counts each stay once.",
+     "focus": 1,
+     "file": "clips/efa451ab7d05.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "Chronic condition flags turn claims into a yes/no per member, using a look-back period and a claim-count rule.",
+     "say": "Chronic condition flags turn claims into a yes/no per member, using a look-back period and a claim-count rule.",
+     "focus": 2,
+     "file": "clips/6e2331525c54.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "Comorbidity indexes (Charlson, Elixhauser) summarise many conditions into one score or set of flags.",
+     "say": "Comorbidity indexes (Charlson, Elixhauser) summarise many conditions into one score or set of flags.",
+     "focus": 3,
+     "file": "clips/c48397728c79.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "HCCs predict cost for risk adjustment and belong to the Risk Adjustment course.",
+     "say": "H C C's predict cost for risk adjustment and belong to the Risk Adjustment course.",
+     "focus": 4,
+     "file": "clips/09873ec8bf4a.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

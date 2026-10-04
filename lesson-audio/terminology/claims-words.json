@@ -1,0 +1,897 @@
+{
+ "courseId": "terminology",
+ "lessonId": "claims-words",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: Claims Words.",
+     "say": "Lesson 4: Claims Words.",
+     "focus": -1,
+     "file": "clips/fe9f4b001458.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Claim, encounter, adjudication, EOB, remittance, denial, appeal and the codes on every bill.",
+     "say": "Claim, encounter, adjudication, E O B, remittance, denial, appeal and the codes on every bill.",
+     "focus": -1,
+     "file": "clips/b7ccd40693a4.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a claim and an encounter are.",
+     "say": "Explain what a claim and an encounter are.",
+     "focus": 0,
+     "file": "clips/69bb74e3302b.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Follow a claim from submission to payment using the right words.",
+     "say": "Follow a claim from submission to payment using the right words.",
+     "focus": 1,
+     "file": "clips/2b6d8aced82a.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "Tell an EOB from a remittance.",
+     "say": "Tell an E O B from a remittance.",
+     "focus": 2,
+     "file": "clips/c1ef9000558f.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Know what CPT, ICD-10 and NPI codes identify.",
+     "say": "Know what C P T, I C D 10 and N P I codes identify.",
+     "focus": 3,
+     "file": "clips/26e851aaa8bc.mp3",
+     "seconds": 5.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The bill and the visit.",
+     "say": "The bill and the visit.",
+     "focus": -1,
+     "file": "clips/91e924996ccd.mp3",
+     "seconds": 1.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The bill and the visit",
+   "lines": [
+    {
+     "raw": "Claim.",
+     "say": "Claim.",
+     "focus": 0,
+     "file": "clips/7f263c375fb5.mp3",
+     "seconds": 1.4
+    },
+    {
+     "raw": "The **bill** a provider sends to a payer asking to be paid for care.",
+     "say": "The bill a provider sends to a payer asking to be paid for care.",
+     "focus": 0,
+     "file": "clips/4602c6397deb.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Emily's strep throat visit created claim `23098908`.",
+     "say": "Emily's strep throat visit created claim 2 3 0 9 8 9 0 8.",
+     "focus": 0,
+     "file": "clips/bc9755f6f997.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "Claim line.",
+     "say": "Claim line.",
+     "focus": 1,
+     "file": "clips/5f41b818acf1.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "One **item** on a claim.",
+     "say": "One item on a claim.",
+     "focus": 1,
+     "file": "clips/b676c8a4015e.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Emily's strep claim has two lines: the office visit and the rapid strep test.",
+     "say": "Emily's strep claim has two lines: the office visit and the rapid strep test.",
+     "focus": 1,
+     "file": "clips/4bf0bc4f85d4.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Encounter.",
+     "say": "Encounter.",
+     "focus": 2,
+     "file": "clips/9c0cad4c7a8d.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "A **visit** or contact between a patient and a provider.",
+     "say": "A visit or contact between a patient and a provider.",
+     "focus": 2,
+     "file": "clips/193cc1ad9ef0.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "Also used for a record of care that is reported but **not paid line by line**, for example when a doctor is paid a fixed monthly amount (capitation, see the glossary in lesson 6).",
+     "say": "Also used for a record of care that is reported but not paid line by line, for example when a doctor is paid a fixed monthly amount (capitation, see the glossary in lesson 6).",
+     "focus": 2,
+     "file": "clips/36c24087ec87.mp3",
+     "seconds": 11.85
+    },
+    {
+     "raw": "Clearinghouse.",
+     "say": "Clearinghouse.",
+     "focus": 3,
+     "file": "clips/8172c8e776b3.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "A middle company that **checks and forwards** claims from thousands of providers to hundreds of payers, in the standard electronic format.",
+     "say": "A middle company that checks and forwards claims from thousands of providers to hundreds of payers, in the standard electronic format.",
+     "focus": 3,
+     "file": "clips/555937377cea.mp3",
+     "seconds": 8.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The bill and the visit",
+   "lines": [
+    {
+     "raw": "Claims in Nepal.",
+     "say": "Claims in Nepal.",
+     "focus": -1,
+     "file": "clips/0d007b6a8591.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram fills in a **claim form** and attaches his original bills, prescription and reports.",
+     "say": "Ram fills in a claim form and attaches his original bills, prescription and reports.",
+     "focus": 0,
+     "file": "clips/efa46853733a.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "**He** is the one who submits the claim.",
+     "say": "He is the one who submits the claim.",
+     "focus": 0,
+     "file": "clips/ac6b2f9d8af0.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The SSF-listed hospital submits the claim to SSF for Sita's 80%.",
+     "say": "The S S F listed hospital submits the claim to S S F for Sita's 80 percent.",
+     "focus": 1,
+     "file": "clips/be1291d99175.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "The **hospital** is the one who submits, just like a US provider.",
+     "say": "The hospital is the one who submits, just like a U S provider.",
+     "focus": 1,
+     "file": "clips/ebc71a238a5d.mp3",
+     "seconds": 4.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What happens to a claim.",
+     "say": "What happens to a claim.",
+     "focus": -1,
+     "file": "clips/0c3fa19a984d.mp3",
+     "seconds": 1.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "What happens to a claim",
+   "lines": [
+    {
+     "raw": "Service.",
+     "say": "Service.",
+     "focus": 0,
+     "file": "clips/075ea67084bd.mp3",
+     "seconds": 1.425
+    },
+    {
+     "raw": "Emily sees Dr. Patel on 10 March 2025.",
+     "say": "Emily sees Doctor Patel on 10 March 2025.",
+     "focus": 0,
+     "file": "clips/7dc190a87fe7.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "The clinic records diagnosis and procedure codes.",
+     "say": "The clinic records diagnosis and procedure codes.",
+     "focus": 0,
+     "file": "clips/633532ef50bf.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Submission.",
+     "say": "Submission.",
+     "focus": 1,
+     "file": "clips/e4ea4da2acaa.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "The clinic sends claim `23098908` electronically (an **837**), often through a **clearinghouse**.",
+     "say": "The clinic sends claim 2 3 0 9 8 9 0 8 electronically (an 8 37), often through a clearinghouse.",
+     "focus": 1,
+     "file": "clips/0d54bec1ffce.mp3",
+     "seconds": 8.475
+    },
+    {
+     "raw": "Adjudication.",
+     "say": "Adjudication.",
+     "focus": 2,
+     "file": "clips/84afb86fb00e.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "The payer checks: is Emily covered?",
+     "say": "The payer checks: is Emily covered?",
+     "focus": 2,
+     "file": "clips/e3f4a986a3b0.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Is the service a benefit?",
+     "say": "Is the service a benefit?",
+     "focus": 2,
+     "file": "clips/f9c919bf362b.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Is Dr. Patel in-network?",
+     "say": "Is Doctor Patel in-network?",
+     "focus": 2,
+     "file": "clips/28638a005b46.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Then it prices the claim.",
+     "say": "Then it prices the claim.",
+     "focus": 2,
+     "file": "clips/5d9c096be5ec.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "Decision.",
+     "say": "Decision.",
+     "focus": 3,
+     "file": "clips/3daf3c7e750b.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "Each line is **paid**, **denied** or **pended** (held for review).",
+     "say": "Each line is paid, denied or pended (held for review).",
+     "focus": 3,
+     "file": "clips/d68ab132dbe0.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Allowed $102, copay $25, plan pays $77.",
+     "say": "Allowed 102 dollars copay 25 dollars plan pays 77 dollars.",
+     "focus": 3,
+     "file": "clips/035eac1938da.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Remittance.",
+     "say": "Remittance.",
+     "focus": 4,
+     "file": "clips/ea8ae34cdc5e.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "The payer pays the clinic and sends a **remittance advice** (an **835**) explaining the payment.",
+     "say": "The payer pays the clinic and sends a remittance advice (an 8 35) explaining the payment.",
+     "focus": 4,
+     "file": "clips/071f59c461d9.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "EOB.",
+     "say": "E O B.",
+     "focus": 5,
+     "file": "clips/82aead59299f.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "The payer sends Emily an **Explanation of Benefits** showing what was billed, allowed, paid and what she owes.",
+     "say": "The payer sends Emily an Explanation of Benefits showing what was billed, allowed, paid and what she owes.",
+     "focus": 5,
+     "file": "clips/01b2f286a2da.mp3",
+     "seconds": 7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "What happens to a claim",
+   "lines": [
+    {
+     "raw": "Adjudication.",
+     "say": "Adjudication.",
+     "focus": 0,
+     "file": "clips/84afb86fb00e.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "The payer's **decision process** on a claim: checking eligibility, benefits, codes and contracts, then deciding how much to pay.",
+     "say": "The payer's decision process on a claim: checking eligibility, benefits, codes and contracts, then deciding how much to pay.",
+     "focus": 0,
+     "file": "clips/acade3948580.mp3",
+     "seconds": 8.65
+    },
+    {
+     "raw": "Like an SSF officer reviewing a hospital's bill against the rules.",
+     "say": "Like an S S F officer reviewing a hospital's bill against the rules.",
+     "focus": 0,
+     "file": "clips/3fe055af5c30.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Pended claim.",
+     "say": "Pended claim.",
+     "focus": 1,
+     "file": "clips/df76c8902412.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "A claim **on hold**, waiting for more information or a manual review.",
+     "say": "A claim on hold, waiting for more information or a manual review.",
+     "focus": 1,
+     "file": "clips/b94dbba8f584.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Denial.",
+     "say": "Denial.",
+     "focus": 2,
+     "file": "clips/3c1891b81144.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "The payer **refuses to pay** a claim or a line.",
+     "say": "The payer refuses to pay a claim or a line.",
+     "focus": 2,
+     "file": "clips/f8a728392e93.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "Common reasons: not covered on that date, service not a benefit, missing prior authorization, coding errors, duplicate claim.",
+     "say": "Common reasons: not covered on that date, service not a benefit, missing prior authorization, coding errors, duplicate claim.",
+     "focus": 2,
+     "file": "clips/ef38be1121b1.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "Appeal.",
+     "say": "Appeal.",
+     "focus": 3,
+     "file": "clips/a57e14031282.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "A formal request asking the payer to **review a denial again**.",
+     "say": "A formal request asking the payer to review a denial again.",
+     "focus": 3,
+     "file": "clips/b3572b225c3d.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Providers and members both can appeal.",
+     "say": "Providers and members both can appeal.",
+     "focus": 3,
+     "file": "clips/a075fc1a385d.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "EOB (Explanation of Benefits).",
+     "say": "E O B (Explanation of Benefits).",
+     "focus": 4,
+     "file": "clips/74bf7323f361.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "A statement sent to the **member** explaining how a claim was handled.",
+     "say": "A statement sent to the member explaining how a claim was handled.",
+     "focus": 4,
+     "file": "clips/8490a00ccb98.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "It says \"This is **not a bill**.\" The bill comes from the provider.",
+     "say": "It says \"This is not a bill.\" The bill comes from the provider.",
+     "focus": 4,
+     "file": "clips/4106b5579aaa.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Remittance advice (RA / ERA).",
+     "say": "Remittance advice (R A or E R A).",
+     "focus": 5,
+     "file": "clips/4c8607372f14.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "The payment explanation sent to the **provider**.",
+     "say": "The payment explanation sent to the provider.",
+     "focus": 5,
+     "file": "clips/21c735a65c20.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "In electronic form it is the **835** file, called an **ERA** (electronic remittance advice).",
+     "say": "In electronic form it is the 8 35 file, called an E R A (electronic remittance advice).",
+     "focus": 5,
+     "file": "clips/a0d757c77076.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Adjustment / reversal.",
+     "say": "Adjustment or reversal.",
+     "focus": 6,
+     "file": "clips/bbba86128772.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "A later change to a claim already processed, for example a correction.",
+     "say": "A later change to a claim already processed, for example a correction.",
+     "focus": 6,
+     "file": "clips/20089e7149c3.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "In data it often appears as a **new row** that cancels or changes the old one.",
+     "say": "In data it often appears as a new row that cancels or changes the old one.",
+     "focus": 6,
+     "file": "clips/aa3f9effee79.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Clean claim.",
+     "say": "Clean claim.",
+     "focus": 7,
+     "file": "clips/ab1725c13637.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "A claim with no errors or missing information, which can be paid without extra questions.",
+     "say": "A claim with no errors or missing information, which can be paid without extra questions.",
+     "focus": 7,
+     "file": "clips/b2a037dc7c53.mp3",
+     "seconds": 6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "What happens to a claim",
+   "lines": [
+    {
+     "raw": "EOB vs remittance: same claim, two readers.",
+     "say": "E O B versus remittance: same claim, two readers.",
+     "focus": -1,
+     "file": "clips/5f18ea980fec.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Sent to. EOB: The **member** (Emily). Remittance (835 / ERA): The **provider** (Sunrise Family Clinic).",
+     "say": "Sent to. E O B: The member (Emily). Remittance (8 35 or E R A): The provider (Sunrise Family Clinic).",
+     "focus": 0,
+     "file": "clips/c33ce21f5ea0.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "Purpose. EOB: Explain what the plan paid and what the member may owe. Remittance (835 / ERA): Explain the payment the provider is receiving.",
+     "say": "Purpose. E O B: Explain what the plan paid and what the member may owe. Remittance (8 35 or E R A): Explain the payment the provider is receiving.",
+     "focus": 1,
+     "file": "clips/10628553b229.mp3",
+     "seconds": 11.15
+    },
+    {
+     "raw": "Is it a bill? EOB: No. Remittance (835 / ERA): No, it comes with a payment.",
+     "say": "Is it a bill? E O B: No. Remittance (8 35 or E R A): No, it comes with a payment.",
+     "focus": 2,
+     "file": "clips/b79c58bc8c6c.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "Emily's strep claim. EOB: Billed $150, allowed $102, plan paid $77, you may owe $25. Remittance (835 / ERA): Claim 23098908: paid $77, patient responsibility $25, $48 contractual adjustment.",
+     "say": "Emily's strep claim. E O B: Billed 150 dollars allowed 102 dollars plan paid 77 dollars you may owe 25 dollars. Remittance (8 35 or E R A): Claim 23098908: paid 77 dollars patient responsibility 25 dollars 48 dollars contractual adjustment.",
+     "focus": 3,
+     "file": "clips/da964fbfede6.mp3",
+     "seconds": 23.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "What happens to a claim",
+   "lines": [
+    {
+     "raw": "Ram gets something like an EOB too.",
+     "say": "Ram gets something like an E O B too.",
+     "focus": -1,
+     "file": "clips/04712bfc4e9d.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "When Ram's insurer settles his claim, it sends him a **settlement letter**: what he claimed, what was approved, what was deducted and why.",
+     "say": "When Ram's insurer settles his claim, it sends him a settlement letter: what he claimed, what was approved, what was deducted and why.",
+     "focus": -1,
+     "file": "clips/3a60432cf1c9.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "That is the same idea as a US EOB.",
+     "say": "That is the same idea as a U S E O B.",
+     "focus": -1,
+     "file": "clips/77fa5ae84b97.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The codes on every claim.",
+     "say": "The codes on every claim.",
+     "focus": -1,
+     "file": "clips/afae322a53b5.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The codes on every claim",
+   "lines": [
+    {
+     "raw": "Claims use **standard codes** so a computer can read them.",
+     "say": "Claims use standard codes so a computer can read them.",
+     "focus": -1,
+     "file": "clips/ffed5ba63efa.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "You will meet these three on almost every medical claim.",
+     "say": "You will meet these three on almost every medical claim.",
+     "focus": -1,
+     "file": "clips/17ba1cec375b.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The codes on every claim",
+   "lines": [
+    {
+     "raw": "ICD-10 (ICD-10-CM).",
+     "say": "I C D 10 (I C D 10-CM).",
+     "focus": 0,
+     "file": "clips/97702297ffdc.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Diagnosis codes: **why** the patient needed care.",
+     "say": "Diagnosis codes: why the patient needed care.",
+     "focus": 0,
+     "file": "clips/7d1d6b9e94d3.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Emily's strep throat is `J02.0`; her appendicitis is `K35.80`.",
+     "say": "Emily's strep throat is J 0 2 . 0; her appendicitis is K 3 5 . 8 0.",
+     "focus": 0,
+     "file": "clips/9a5668c16ba6.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "CPT.",
+     "say": "C P T.",
+     "focus": 1,
+     "file": "clips/bca797788e91.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Procedure codes: **what** the doctor did.",
+     "say": "Procedure codes: what the doctor did.",
+     "focus": 1,
+     "file": "clips/002d8a99aafc.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "5 characters, owned by the American Medical Association.",
+     "say": "5 characters, owned by the American Medical Association.",
+     "focus": 1,
+     "file": "clips/1dfe94a30895.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "`99213` is an office visit for an existing patient; `44970` is keyhole appendix removal.",
+     "say": "9 9 2 1 3 is an office visit for an existing patient; 4 4 9 7 0 is keyhole appendix removal.",
+     "focus": 1,
+     "file": "clips/4c98e2fca295.mp3",
+     "seconds": 8.9
+    },
+    {
+     "raw": "HCPCS.",
+     "say": "H C P C S.",
+     "focus": 2,
+     "file": "clips/53c985f0bc5e.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "A wider code set that includes CPT plus codes for supplies, equipment, ambulances and some drugs, such as `E0114` for crutches.",
+     "say": "A wider code set that includes C P T plus codes for supplies, equipment, ambulances and some drugs, such as E 0 1 1 4 for crutches.",
+     "focus": 2,
+     "file": "clips/7739eea557a7.mp3",
+     "seconds": 10.475
+    },
+    {
+     "raw": "NPI (National Provider Identifier).",
+     "say": "N P I (National Provider Identifier).",
+     "focus": 3,
+     "file": "clips/d09ff3f80570.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "A **10-digit ID** for every US provider: **who** gave the care.",
+     "say": "A 10-digit I D for every U S provider: who gave the care.",
+     "focus": 3,
+     "file": "clips/8d0e6b69c4e5.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Lakeside General Hospital is `1234567893`; Dr. Lee is `1093817462`.",
+     "say": "Lakeside General Hospital is 1 2 3 4 5 6 7 8 9 3; Doctor Lee is 1 0 9 3 8 1 7 4 6 2.",
+     "focus": 3,
+     "file": "clips/a3a4a7d1ec8d.mp3",
+     "seconds": 9.975
+    },
+    {
+     "raw": "DRG.",
+     "say": "D R G.",
+     "focus": 4,
+     "file": "clips/d39a5e1b1222.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "A code that groups a hospital stay into one **payment package**, used by Medicare and many other payers for inpatient stays.",
+     "say": "A code that groups a hospital stay into one payment package, used by Medicare and many other payers for inpatient stays.",
+     "focus": 4,
+     "file": "clips/f66290b3d33a.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "Revenue code.",
+     "say": "Revenue code.",
+     "focus": 5,
+     "file": "clips/edfbf038dc35.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "A 4-digit code on hospital claims for the **department**, such as `0120` for a semi-private room.",
+     "say": "A 4-digit code on hospital claims for the department, such as 0 1 2 0 for a semi-private room.",
+     "focus": 5,
+     "file": "clips/8f00c8d8a6bb.mp3",
+     "seconds": 7.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The codes on every claim",
+   "lines": [
+    {
+     "raw": "Codes in Nepal.",
+     "say": "Codes in Nepal.",
+     "focus": -1,
+     "file": "clips/c0af5669ff48.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "A Nepali doctor's **NMC registration number** works like a personal provider ID.",
+     "say": "A Nepali doctor's N M C registration number works like a personal provider I D.",
+     "focus": 0,
+     "file": "clips/3eebe16e3aa0.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "The US **NPI** is the same idea, but every provider and organization has one in a single national list.",
+     "say": "The U S N P I is the same idea, but every provider and organization has one in a single national list.",
+     "focus": 0,
+     "file": "clips/a07a47e62ad3.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Hospital records in Nepal may use ICD codes for diagnoses too, since ICD is a World Health Organization standard.",
+     "say": "Hospital records in Nepal may use I C D codes for diagnoses too, since I C D is a World Health Organization standard.",
+     "focus": 1,
+     "file": "clips/e9d835eb127c.mp3",
+     "seconds": 8.95
+    },
+    {
+     "raw": "The US uses its own version, **ICD-10-CM**.",
+     "say": "The U S uses its own version, I C D 10-CM.",
+     "focus": 1,
+     "file": "clips/7534ca3cd633.mp3",
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The codes on every claim",
+   "lines": [
+    {
+     "raw": "Go deeper.",
+     "say": "Go deeper.",
+     "focus": -1,
+     "file": "clips/582592e06c59.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "This lesson only names the codes.",
+     "say": "This lesson only names the codes.",
+     "focus": -1,
+     "file": "clips/858bf7f22dbf.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "The Medical course explains how to read each one, from diagnosis and procedure codes to provider IDs and claim status.",
+     "say": "The Medical course explains how to read each one, from diagnosis and procedure codes to provider I D's and claim status.",
+     "focus": -1,
+     "file": "clips/49bd4dcf4637.mp3",
+     "seconds": 8.9
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A **claim** is the bill to the payer; a **claim line** is one item; an **encounter** is a visit.",
+     "say": "A claim is the bill to the payer; a claim line is one item; an encounter is a visit.",
+     "focus": 0,
+     "file": "clips/6843eff861fb.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "**Adjudication** = the payer deciding what to pay.",
+     "say": "Adjudication = the payer deciding what to pay.",
+     "focus": 1,
+     "file": "clips/9f2b3dcf40d9.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Result: paid, denied or pended.",
+     "say": "Result: paid, denied or pended.",
+     "focus": 1,
+     "file": "clips/65f4672f01c6.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "A **denial** can be challenged with an **appeal**.",
+     "say": "A denial can be challenged with an appeal.",
+     "focus": 2,
+     "file": "clips/3657b0dbfc17.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "The **EOB** goes to the member and is not a bill.",
+     "say": "The E O B goes to the member and is not a bill.",
+     "focus": 3,
+     "file": "clips/8ca3a979ddfc.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "The **remittance (835)** goes to the provider.",
+     "say": "The remittance (8 35) goes to the provider.",
+     "focus": 3,
+     "file": "clips/32fde9ac8421.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "**ICD-10** = why, **CPT/HCPCS** = what, **NPI** = who.",
+     "say": "I C D 10 = why, CPT/HCPCS = what, N P I = who.",
+     "focus": 4,
+     "file": "clips/80a3e9445674.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

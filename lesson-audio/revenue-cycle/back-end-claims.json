@@ -1,0 +1,820 @@
+{
+ "courseId": "revenue-cycle",
+ "lessonId": "back-end-claims",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: Back End: Claims.",
+     "say": "Lesson 4: Back End: Claims.",
+     "focus": -1,
+     "file": "clips/4de389eb2b56.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Scrubbing, sending and following up claims until the money arrives.",
+     "say": "Scrubbing, sending and following up claims until the money arrives.",
+     "focus": -1,
+     "file": "clips/1cda56e0e5dc.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a claim scrubber does before a claim leaves the provider.",
+     "say": "Explain what a claim scrubber does before a claim leaves the provider.",
+     "focus": 0,
+     "file": "clips/74f9790350bb.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Tell a rejection apart from a denial.",
+     "say": "Tell a rejection apart from a denial.",
+     "focus": 1,
+     "file": "clips/1e2425f59c26.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Follow an unpaid claim using claim status checks and AR aging.",
+     "say": "Follow an unpaid claim using claim status checks and A R aging.",
+     "focus": 2,
+     "file": "clips/90f396e27682.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "Know what a corrected claim is and where payment posting fits.",
+     "say": "Know what a corrected claim is and where payment posting fits.",
+     "focus": 3,
+     "file": "clips/7f8a5f0ce0b8.mp3",
+     "seconds": 4.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "In Nepal: Checking the file before it goes.",
+     "say": "In Nepal: Checking the file before it goes.",
+     "focus": -1,
+     "file": "clips/007e30476207.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Before Ram sends his insurance claim, he checks the form is signed, every receipt is attached and the policy number is right.",
+     "say": "Before Ram sends his insurance claim, he checks the form is signed, every receipt is attached and the policy number is right.",
+     "focus": 0,
+     "file": "clips/db98b5e3b273.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "A missing paper means the insurer sends it back.",
+     "say": "A missing paper means the insurer sends it back.",
+     "focus": 0,
+     "file": "clips/5a62d01e013e.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's hospital has a billing team that checks each SSF claim before it is submitted: right contributor details, diagnosis, services and documents.",
+     "say": "Sita's hospital has a billing team that checks each S S F claim before it is submitted: right contributor details, diagnosis, services and documents.",
+     "focus": 1,
+     "file": "clips/fc05ebf25578.mp3",
+     "seconds": 10.475
+    },
+    {
+     "raw": "If SSF has not paid after some weeks, the team follows up to ask why.",
+     "say": "If S S F has not paid after some weeks, the team follows up to ask why.",
+     "focus": 2,
+     "file": "clips/3fa417e6cf2c.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "A claim nobody follows up on can quietly stay unpaid.",
+     "say": "A claim nobody follows up on can quietly stay unpaid.",
+     "focus": 2,
+     "file": "clips/0ab5a203c4cf.mp3",
+     "seconds": 4.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "Back end: claims.",
+     "say": "Back end: claims.",
+     "focus": -1,
+     "file": "clips/bc6dd9a441c2.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "The claims part of the back end **checks** each claim before it leaves, **sends** it, **fixes** anything bounced back, and **follows up** until it is paid or resolved.",
+     "say": "The claims part of the back end checks each claim before it leaves, sends it, fixes anything bounced back, and follows up until it is paid or resolved.",
+     "focus": -1,
+     "file": "clips/da077893288f.mp3",
+     "seconds": 9.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "Step 1: Build the claim.",
+     "say": "Step 1: Build the claim.",
+     "focus": 0,
+     "file": "clips/a22aee002920.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "The billing system turns the registration and charge data into a claim: an electronic **837P** for a doctor's office or **837I** for a hospital.",
+     "say": "The billing system turns the registration and charge data into a claim: an electronic 8 3 7 P for a doctor's office or 8 3 7 I for a hospital.",
+     "focus": 0,
+     "file": "clips/e09cc034d110.mp3",
+     "seconds": 11.275
+    },
+    {
+     "raw": "Step 2: Scrub.",
+     "say": "Step 2: Scrub.",
+     "focus": 1,
+     "file": "clips/db77b09e9e71.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "A **claim scrubber** runs edits to catch errors before the insurer sees them.",
+     "say": "A claim scrubber runs edits to catch errors before the insurer sees them.",
+     "focus": 1,
+     "file": "clips/aa537ac77381.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "Step 3: Submit.",
+     "say": "Step 3: Submit.",
+     "focus": 2,
+     "file": "clips/e1fbb1ec1f24.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "The claim goes to a **clearinghouse**, which checks and forwards it to the right insurer.",
+     "say": "The claim goes to a clearinghouse, which checks and forwards it to the right insurer.",
+     "focus": 2,
+     "file": "clips/9b01b152df9f.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Step 4: Acknowledgements.",
+     "say": "Step 4: Acknowledgements.",
+     "focus": 3,
+     "file": "clips/34d509cd7f73.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The provider gets back \"file received\" and \"claim accepted\" or \"rejected\" messages.",
+     "say": "The provider gets back \"file received\" and \"claim accepted\" or \"rejected\" messages.",
+     "focus": 3,
+     "file": "clips/c90165e323d4.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Step 5: Follow up.",
+     "say": "Step 5: Follow up.",
+     "focus": 4,
+     "file": "clips/0b8baeb34aed.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Unpaid claims are tracked by age and chased with status checks.",
+     "say": "Unpaid claims are tracked by age and chased with status checks.",
+     "focus": 4,
+     "file": "clips/6f175b2c1a0c.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Step 6: Payment posted.",
+     "say": "Step 6: Payment posted.",
+     "focus": 5,
+     "file": "clips/dc3962830ef2.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "The payment and remittance arrive and are posted to the patient's account.",
+     "say": "The payment and remittance arrive and are posted to the patient's account.",
+     "focus": 5,
+     "file": "clips/aa985f6dd9a3.mp3",
+     "seconds": 4.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Claim scrubbing.",
+     "say": "Claim scrubbing.",
+     "focus": -1,
+     "file": "clips/ab4c43342493.mp3",
+     "seconds": 1.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Claim scrubbing",
+   "lines": [
+    {
+     "raw": "A **claim scrubber** is software (in the billing system or at the clearinghouse) that checks each claim against thousands of rules before it is sent.",
+     "say": "A claim scrubber is software (in the billing system or at the clearinghouse) that checks each claim against thousands of rules before it is sent.",
+     "focus": -1,
+     "file": "clips/80c53761f6ef.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "It is the provider's own copy of the checks the insurer will run, so errors are fixed **before** they cost time.",
+     "say": "It is the provider's own copy of the checks the insurer will run, so errors are fixed before they cost time.",
+     "focus": -1,
+     "file": "clips/078d6377e2f8.mp3",
+     "seconds": 6.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Claim scrubbing",
+   "lines": [
+    {
+     "raw": "Typical scrubber edits.",
+     "say": "Typical scrubber edits.",
+     "focus": -1,
+     "file": "clips/b4faaa1f416d.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "Missing or badly formed fields. Example it catches: No date of birth; member ID missing a suffix.",
+     "say": "Missing or badly formed fields. Example it catches: No date of birth; member I D missing a suffix.",
+     "focus": 0,
+     "file": "clips/b94948133a65.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "Invalid codes. Example it catches: A deleted CPT code; a diagnosis code missing a required character.",
+     "say": "Invalid codes. Example it catches: A deleted C P T code; a diagnosis code missing a required character.",
+     "focus": 1,
+     "file": "clips/8164c88f06bc.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "Code pairs. Example it catches: Two procedures that should not be billed together on the same day.",
+     "say": "Code pairs. Example it catches: Two procedures that should not be billed together on the same day.",
+     "focus": 2,
+     "file": "clips/d5a7a5d19051.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "Diagnosis supports procedure. Example it catches: A test billed with a diagnosis the insurer does not accept for it.",
+     "say": "Diagnosis supports procedure. Example it catches: A test billed with a diagnosis the insurer does not accept for it.",
+     "focus": 3,
+     "file": "clips/3edeb1863f26.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "Payer-specific rules. Example it catches: This insurer wants a particular modifier or a referring doctor.",
+     "say": "Payer-specific rules. Example it catches: This insurer wants a particular modifier or a referring doctor.",
+     "focus": 4,
+     "file": "clips/4a206abe4478.mp3",
+     "seconds": 7.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Rejection vs denial.",
+     "say": "Rejection versus denial.",
+     "focus": -1,
+     "file": "clips/3589ab50650e.mp3",
+     "seconds": 2.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Rejection vs denial",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**When**. Rejection: At intake, before the insurer decides anything. Denial: After the insurer has processed the claim.",
+     "say": "When. Rejection: At intake, before the insurer decides anything. Denial: After the insurer has processed the claim.",
+     "focus": 0,
+     "file": "clips/a43773ed5c51.mp3",
+     "seconds": 8.175
+    },
+    {
+     "raw": "**Why**. Rejection: Format or data errors (bad ID, missing field). Denial: A decision: not covered, no approval, not medically necessary.",
+     "say": "Why. Rejection: Format or data errors (bad I D, missing field). Denial: A decision: not covered, no approval, not medically necessary.",
+     "focus": 1,
+     "file": "clips/6a5d2aa4b2e3.mp3",
+     "seconds": 10.2
+    },
+    {
+     "raw": "**Where you see it**. Rejection: Acknowledgement files from the clearinghouse or insurer. Denial: The remittance (835), with a reason code.",
+     "say": "Where you see it. Rejection: Acknowledgement files from the clearinghouse or insurer. Denial: The remittance (8 35), with a reason code.",
+     "focus": 2,
+     "file": "clips/cc7574574741.mp3",
+     "seconds": 9.675
+    },
+    {
+     "raw": "**What the provider does**. Rejection: Fix the data and send it again as a new claim. Denial: Correct and resubmit, or appeal (lesson 5).",
+     "say": "What the provider does. Rejection: Fix the data and send it again as a new claim. Denial: Correct and resubmit, or appeal (lesson 5).",
+     "focus": 3,
+     "file": "clips/b4e5982cc989.mp3",
+     "seconds": 9.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Rejection vs denial",
+   "lines": [
+    {
+     "raw": "Inside the insurer's front door.",
+     "say": "Inside the insurer's front door.",
+     "focus": -1,
+     "file": "clips/6cfea26e0a36.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Clearinghouses, the 999 and 277CA acknowledgements and the insurer's front-end edits are taught in the Claim Adjudication course.",
+     "say": "Clearinghouses, the 999 and 2 7 7 C A acknowledgements and the insurer's front-end edits are taught in the Claim Adjudication course.",
+     "focus": -1,
+     "file": "clips/37e606efca70.mp3",
+     "seconds": 10.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Following up unpaid claims.",
+     "say": "Following up unpaid claims.",
+     "focus": -1,
+     "file": "clips/761a15e45e31.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Following up unpaid claims",
+   "lines": [
+    {
+     "raw": "Claim status inquiry (276/277).",
+     "say": "Claim status inquiry (2 76/2 77).",
+     "focus": 0,
+     "file": "clips/18545231ec8d.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "An electronic question to the insurer, \"where is this claim?\" (the X12 **276**), and its answer (the **277**): received, pended, paid or denied.",
+     "say": "An electronic question to the insurer, \"where is this claim?\" (the X12 2 76), and its answer (the 2 77): received, pended, paid or denied.",
+     "focus": 0,
+     "file": "clips/05c5b61f5453.mp3",
+     "seconds": 11.125
+    },
+    {
+     "raw": "AR aging.",
+     "say": "A R aging.",
+     "focus": 1,
+     "file": "clips/4c6e4950ac8e.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "Grouping unpaid amounts by how long they have been owed, in buckets such as 0–30, 31–60, 61–90, 91–120 and over 120 days.",
+     "say": "Grouping unpaid amounts by how long they have been owed, in buckets such as 0–30, 31–60, 61–90, 91–120 and over 120 days.",
+     "focus": 1,
+     "file": "clips/8db07b99adf0.mp3",
+     "seconds": 12.225
+    },
+    {
+     "raw": "Work queue.",
+     "say": "Work queue.",
+     "focus": 2,
+     "file": "clips/a718f9e07157.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "A to-do list in the billing system.",
+     "say": "A to-do list in the billing system.",
+     "focus": 2,
+     "file": "clips/cb5c5c4315eb.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Unpaid or problem claims land here for a person to work.",
+     "say": "Unpaid or problem claims land here for a person to work.",
+     "focus": 2,
+     "file": "clips/a719d82cd47a.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Timely filing limit.",
+     "say": "Timely filing limit.",
+     "focus": 3,
+     "file": "clips/5b5dfdb7ae1e.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "The insurer's deadline for receiving a claim, counted from the service date.",
+     "say": "The insurer's deadline for receiving a claim, counted from the service date.",
+     "focus": 3,
+     "file": "clips/f38769bb8d12.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "Miss it and the claim is denied, usually with no right to bill the patient.",
+     "say": "Miss it and the claim is denied, usually with no right to bill the patient.",
+     "focus": 3,
+     "file": "clips/caa6b2f9b7d0.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Limits vary by payer and contract.",
+     "say": "Limits vary by payer and contract.",
+     "focus": 3,
+     "file": "clips/888b345bd601.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "Corrected claim.",
+     "say": "Corrected claim.",
+     "focus": 4,
+     "file": "clips/cd788b27587e.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "A new version of a claim that **replaces** (or **voids**) one the insurer already processed.",
+     "say": "A new version of a claim that replaces (or voids) one the insurer already processed.",
+     "focus": 4,
+     "file": "clips/065436475b64.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "On the 837 it is marked with a claim frequency code (7 = replacement, 8 = void) and the original claim number.",
+     "say": "On the 8 37 it is marked with a claim frequency code (7 = replacement, 8 = void) and the original claim number.",
+     "focus": 4,
+     "file": "clips/4a3a80292b92.mp3",
+     "seconds": 9.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Following up unpaid claims",
+   "lines": [
+    {
+     "raw": "Sunrise Family Clinic: insurance AR aging on 31 March 2025 (fictional).",
+     "say": "Sunrise Family Clinic: insurance A R aging on 31 March 2025 (fictional).",
+     "focus": -1,
+     "file": "clips/8b08bfcc9649.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "0–30. Amount owed: $62,000. Share: 62%. What the team does: Normal: most clean claims are paid here.",
+     "say": "0–30. Amount owed: 62000 dollars. Share: 62 percent. What the team does: Normal: most clean claims are paid here.",
+     "focus": 0,
+     "file": "clips/ac40d31e418b.mp3",
+     "seconds": 10.125
+    },
+    {
+     "raw": "31–60. Amount owed: $18,000. Share: 18%. What the team does: Status check: is it pended or lost?",
+     "say": "31–60. Amount owed: 18000 dollars. Share: 18 percent. What the team does: Status check: is it pended or lost?",
+     "focus": 1,
+     "file": "clips/6cf895f201a2.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "61–90. Amount owed: $9,000. Share: 9%. What the team does: Call the insurer; look for missing information requests.",
+     "say": "61–90. Amount owed: 9000 dollars. Share: 9 percent. What the team does: Call the insurer; look for missing information requests.",
+     "focus": 2,
+     "file": "clips/2ba76cd3b714.mp3",
+     "seconds": 10.4
+    },
+    {
+     "raw": "91–120. Amount owed: $6,000. Share: 6%. What the team does: Escalate; check timely filing and appeal deadlines.",
+     "say": "91–120. Amount owed: 6000 dollars. Share: 6 percent. What the team does: Escalate; check timely filing and appeal deadlines.",
+     "focus": 3,
+     "file": "clips/45c2e24573f4.mp3",
+     "seconds": 11.3
+    },
+    {
+     "raw": "Over 120. Amount owed: $5,000. Share: 5%. What the team does: Decide: appeal, rebill or write off.",
+     "say": "Over 120. Amount owed: 5000 dollars. Share: 5 percent. What the team does: Decide: appeal, rebill or write off.",
+     "focus": 4,
+     "file": "clips/cf119610ccf7.mp3",
+     "seconds": 9.7
+    },
+    {
+     "raw": "**Total**. Amount owed: **$100,000**. Share: **100%**.",
+     "say": "Total. Amount owed: 100000 dollars. Share: 100 percent.",
+     "focus": 5,
+     "file": "clips/bf418d6eda3e.mp3",
+     "seconds": 5.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Following up unpaid claims",
+   "lines": [
+    {
+     "raw": "Old claims get harder to collect.",
+     "say": "Old claims get harder to collect.",
+     "focus": -1,
+     "file": "clips/cbd1139875a4.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "The older a claim gets, the less likely it is to be paid: deadlines pass, records are harder to find and people move on.",
+     "say": "The older a claim gets, the less likely it is to be paid: deadlines pass, records are harder to find and people move on.",
+     "focus": -1,
+     "file": "clips/8df5f4b46203.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "Follow-up teams usually work the **biggest and nearest-deadline** amounts first.",
+     "say": "Follow-up teams usually work the biggest and nearest-deadline amounts first.",
+     "focus": -1,
+     "file": "clips/899b37a38601.mp3",
+     "seconds": 5.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Payment posting.",
+     "say": "Payment posting.",
+     "focus": -1,
+     "file": "clips/2836fcf67203.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Payment posting",
+   "lines": [
+    {
+     "raw": "When the insurer pays, the money (usually an electronic funds transfer) and the remittance (**835**) arrive.",
+     "say": "When the insurer pays, the money (usually an electronic funds transfer) and the remittance (8 35) arrive.",
+     "focus": -1,
+     "file": "clips/25d92fac0241.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "Billing staff **post** each line: the payment, the contract write-off and the patient's share.",
+     "say": "Billing staff post each line: the payment, the contract write-off and the patient's share.",
+     "focus": -1,
+     "file": "clips/936fbed5878c.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Anything denied goes to the denial work queue (lesson 5); anything the patient owes goes to patient billing (lesson 6).",
+     "say": "Anything denied goes to the denial work queue (lesson 5); anything the patient owes goes to patient billing (lesson 6).",
+     "focus": -1,
+     "file": "clips/119a72bc22fd.mp3",
+     "seconds": 7.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Payment posting",
+   "lines": [
+    {
+     "raw": "Claim Payment owns posting.",
+     "say": "Claim Payment owns posting.",
+     "focus": -1,
+     "file": "clips/fe3d7eae4039.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "Reading the 835, the EOB and posting payments to the patient ledger are taught in the Claim Payment course.",
+     "say": "Reading the 8 35, the E O B and posting payments to the patient ledger are taught in the Claim Payment course.",
+     "focus": -1,
+     "file": "clips/d3c9d51a2b45.mp3",
+     "seconds": 7.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Emily's claim history.",
+     "say": "Worked example: Emily's claim history.",
+     "focus": -1,
+     "file": "clips/93efbea47869.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example: Emily's claim history",
+   "lines": [
+    {
+     "raw": "On 11 March the scrubber stopped Emily's claim: the member ID had been entered as `48291307`, without the `-01` that identifies Emily on her card.",
+     "say": "On 11 March the scrubber stopped Emily's claim: the member I D had been entered as 4 8 2 9 1 3 0 7, without the -01 that identifies Emily on her card.",
+     "focus": -1,
+     "file": "clips/a033b4041426.mp3",
+     "seconds": 12.7
+    },
+    {
+     "raw": "A biller fixed it from the card image in two minutes.",
+     "say": "A biller fixed it from the card image in two minutes.",
+     "focus": -1,
+     "file": "clips/90c76fc367f3.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Without the scrubber, the insurer would have rejected it.",
+     "say": "Without the scrubber, the insurer would have rejected it.",
+     "focus": -1,
+     "file": "clips/03bfac185ac2.mp3",
+     "seconds": 3.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Worked example: Emily's claim history",
+   "lines": [
+    {
+     "raw": "claim_event: one row per event for claim SFC-0457.",
+     "say": "claim_event: one row per event for claim S F C 0457.",
+     "focus": -1,
+     "file": "clips/14907bfb0ca9.mp3",
+     "seconds": 5.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Worked example: Emily's claim history",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Claim event data answers \"where did the time go?\" Analysts measure the share of claims passing the scrubber first time, rejection reasons, days from service to submission, days from submission to payment, and the AR aging profile.",
+     "say": "Claim event data answers \"where did the time go?\" Analysts measure the share of claims passing the scrubber first time, rejection reasons, days from service to submission, days from submission to payment, and the A R aging profile.",
+     "focus": -1,
+     "file": "clips/f01cbef6ebf2.mp3",
+     "seconds": 14.875
+    },
+    {
+     "raw": "Watch for **one visit with several claim versions** (rejected, resubmitted, corrected): count the visit once, and use the version that was finally paid.",
+     "say": "Watch for one visit with several claim versions (rejected, resubmitted, corrected): count the visit once, and use the version that was finally paid.",
+     "focus": -1,
+     "file": "clips/4da298a83d5c.mp3",
+     "seconds": 9.575
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A **claim scrubber** catches errors before the claim leaves, so they never cost a rejection or denial.",
+     "say": "A claim scrubber catches errors before the claim leaves, so they never cost a rejection or denial.",
+     "focus": 0,
+     "file": "clips/c84e3ee1c002.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "A **rejection** happens at intake and is fixed by resending; a **denial** is a decision made after processing.",
+     "say": "A rejection happens at intake and is fixed by resending; a denial is a decision made after processing.",
+     "focus": 1,
+     "file": "clips/8ac6cac1464e.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "Unpaid claims are tracked with **claim status checks** and **AR aging** buckets; older claims are harder to collect.",
+     "say": "Unpaid claims are tracked with claim status checks and A R aging buckets; older claims are harder to collect.",
+     "focus": 2,
+     "file": "clips/71cbc950066c.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "**Corrected claims** replace or void earlier versions, so one visit can have several claim records.",
+     "say": "Corrected claims replace or void earlier versions, so one visit can have several claim records.",
+     "focus": 3,
+     "file": "clips/d74215eacf83.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "Payment posting turns the 835 into ledger entries (taught in Claim Payment).",
+     "say": "Payment posting turns the 8 35 into ledger entries (taught in Claim Payment).",
+     "focus": 4,
+     "file": "clips/562b1ae274f9.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,575 @@
+{
+ "courseId": "vision",
+ "lessonId": "vision-vs-medical",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: Vision vs Medical.",
+     "say": "Lesson 2: Vision versus Medical.",
+     "focus": -1,
+     "file": "clips/51bb7660788a.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Two plans for one pair of eyes: a side-by-side comparison.",
+     "say": "Two plans for one pair of eyes: a side-by-side comparison.",
+     "focus": -1,
+     "file": "clips/89cc5c289f41.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a carve-out vision plan is.",
+     "say": "Explain what a carve-out vision plan is.",
+     "focus": 0,
+     "file": "clips/5fcfd6c94dae.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Compare how a vision plan and a medical plan share costs.",
+     "say": "Compare how a vision plan and a medical plan share costs.",
+     "focus": 1,
+     "file": "clips/64bf3602a9cc.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "Know that refraction and glasses are paid by the vision plan, not the medical plan.",
+     "say": "Know that refraction and glasses are paid by the vision plan, not the medical plan.",
+     "focus": 2,
+     "file": "clips/21bdfdcaff53.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Know what Original Medicare and Medicare Advantage cover for eyes.",
+     "say": "Know what Original Medicare and Medicare Advantage cover for eyes.",
+     "focus": 3,
+     "file": "clips/bf2e7a7f263f.mp3",
+     "seconds": 4.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A voucher and an insurance policy.",
+     "say": "A voucher and an insurance policy.",
+     "focus": -1,
+     "file": "clips/a739edf4412a.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Your office gives you a yearly **voucher** for new glasses: a fixed amount, once a year, simple.",
+     "say": "Your office gives you a yearly voucher for new glasses: a fixed amount, once a year, simple.",
+     "focus": -1,
+     "file": "clips/7b28cb3cfc9f.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Your **health insurance** is different: it is there for the big, unpredictable costs of being ill.",
+     "say": "Your health insurance is different: it is there for the big, unpredictable costs of being ill.",
+     "focus": -1,
+     "file": "clips/16228c93bba3.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "In the US, routine eye care works like the voucher and medical eye care works like the insurance policy, and they are usually **two separate plans**.",
+     "say": "In the U S, routine eye care works like the voucher and medical eye care works like the insurance policy, and they are usually two separate plans.",
+     "focus": -1,
+     "file": "clips/1c0bfafadc3c.mp3",
+     "seconds": 9.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The idea in one sentence: a **vision plan** pays fixed amounts for predictable routine care (exams, glasses, contacts), while the **medical plan** pays for eye disease and injury with the same rules it uses for the rest of the body.",
+     "say": "The idea in one sentence: a vision plan pays fixed amounts for predictable routine care (exams, glasses, contacts), while the medical plan pays for eye disease and injury with the same rules it uses for the rest of the body.",
+     "focus": -1,
+     "file": "clips/516f2426fd7f.mp3",
+     "seconds": 15.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The medical side, in one line.",
+     "say": "The medical side, in one line.",
+     "focus": -1,
+     "file": "clips/e578dbf3e782.mp3",
+     "seconds": 2.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The medical side, in one line",
+   "lines": [
+    {
+     "raw": "A **medical plan** pays for doctors and hospitals: the patient pays a deductible, then copays or coinsurance, up to a yearly **out-of-pocket maximum**, and every claim carries a diagnosis code (why) and a procedure code (what).",
+     "say": "A medical plan pays for doctors and hospitals: the patient pays a deductible, then copays or coinsurance, up to a yearly out-of-pocket maximum, and every claim carries a diagnosis code (why) and a procedure code (what).",
+     "focus": -1,
+     "file": "clips/a6333594a6f9.mp3",
+     "seconds": 15.35
+    },
+    {
+     "raw": "The Medical course teaches this in detail; here we only need it for the comparison.",
+     "say": "The Medical course teaches this in detail; here we only need it for the comparison.",
+     "focus": -1,
+     "file": "clips/235cc08aa6bc.mp3",
+     "seconds": 5.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The medical side, in one line",
+   "lines": [
+    {
+     "raw": "New to medical claims?",
+     "say": "New to medical claims?",
+     "focus": -1,
+     "file": "clips/6c0b9e31a967.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "You do not need the Medical course to follow this one, but it explains the medical column of the table below in full.",
+     "say": "You do not need the Medical course to follow this one, but it explains the medical column of the table below in full.",
+     "focus": -1,
+     "file": "clips/e15294039a32.mp3",
+     "seconds": 7.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A carve-out plan.",
+     "say": "A carve-out plan.",
+     "focus": -1,
+     "file": "clips/11b4d2fe9fd5.mp3",
+     "seconds": 1.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "A carve-out plan",
+   "lines": [
+    {
+     "raw": "In the US: How employers offer vision.",
+     "say": "In the U S: How employers offer vision.",
+     "focus": -1,
+     "file": "clips/ec0dff21d4e7.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Most employers offer a **separate vision plan** next to the health plan.",
+     "say": "Most employers offer a separate vision plan next to the health plan.",
+     "focus": 0,
+     "file": "clips/9bb37d6306a9.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Employees choose to join it and pay a small extra **premium**.",
+     "say": "Employees choose to join it and pay a small extra premium.",
+     "focus": 0,
+     "file": "clips/fd42576d9240.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "This is called a **carve-out**: vision is cut out of the main plan and run by its own company, with its own card and member records.",
+     "say": "This is called a carve-out: vision is cut out of the main plan and run by its own company, with its own card and member records.",
+     "focus": 1,
+     "file": "clips/30867a430513.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "Large vision benefit companies such as **VSP** and **EyeMed** run many of these plans and have their own networks of optometrists and optical shops.",
+     "say": "Large vision benefit companies such as V S P and EyeMed run many of these plans and have their own networks of optometrists and optical shops.",
+     "focus": 2,
+     "file": "clips/8c46b6c2a277.mp3",
+     "seconds": 10.3
+    },
+    {
+     "raw": "Emily's vision plan is run by **ClearSight Vision** (fictional).",
+     "say": "Emily's vision plan is run by ClearSight Vision (fictional).",
+     "focus": 3,
+     "file": "clips/b58503199b05.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Her medical plan is her employer PPO.",
+     "say": "Her medical plan is her employer P P O.",
+     "focus": 3,
+     "file": "clips/e906650af6b2.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Side by side.",
+     "say": "Side by side.",
+     "focus": -1,
+     "file": "clips/7ef8948b2fc8.mp3",
+     "seconds": 1.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Side by side",
+   "lines": [
+    {
+     "raw": "Emily's vision plan vs her medical plan.",
+     "say": "Emily's vision plan versus her medical plan.",
+     "focus": -1,
+     "file": "clips/2972a700da77.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "**Plan and card**. Vision plan (ClearSight Vision): A separate **carve-out** plan and card. Medical plan (Emily's PPO): The main health plan and card.",
+     "say": "Plan and card. Vision plan (ClearSight Vision): A separate carve-out plan and card. Medical plan (Emily's P P O): The main health plan and card.",
+     "focus": 0,
+     "file": "clips/21218024c8e9.mp3",
+     "seconds": 10.575
+    },
+    {
+     "raw": "**Pays for**. Vision plan (ClearSight Vision): Routine eye exams with refraction, frames, lenses, contact lenses. Medical plan (Emily's PPO): Eye **disease and injury**: infections, cataract, glaucoma, diabetic eye exams.",
+     "say": "Pays for. Vision plan (ClearSight Vision): Routine eye exams with refraction, frames, lenses, contact lenses. Medical plan (Emily's P P O): Eye disease and injury: infections, cataract, glaucoma, diabetic eye exams.",
+     "focus": 1,
+     "file": "clips/66de8b32bf00.mp3",
+     "seconds": 16.725
+    },
+    {
+     "raw": "**How costs are shared**. Vision plan (ClearSight Vision): A small **copay**, a fixed **allowance** toward materials, and a **frequency** limit (lesson 3). Medical plan (Emily's PPO): **Deductible**, then copays or **coinsurance**, up to an **out-of-pocket maximum**.",
+     "say": "How costs are shared. Vision plan (ClearSight Vision): A small copay, a fixed allowance toward materials, and a frequency limit (lesson 3). Medical plan (Emily's P P O): Deductible, then copays or coinsurance, up to an out-of-pocket maximum.",
+     "focus": 2,
+     "file": "clips/8d34927558ef.mp3",
+     "seconds": 17.3
+    },
+    {
+     "raw": "**Refraction** (measuring power for glasses). Vision plan (ClearSight Vision): Included in the routine exam. Medical plan (Emily's PPO): Usually **not paid**.",
+     "say": "Refraction (measuring power for glasses). Vision plan (ClearSight Vision): Included in the routine exam. Medical plan (Emily's P P O): Usually not paid.",
+     "focus": 3,
+     "file": "clips/0ad26533f952.mp3",
+     "seconds": 11.2
+    },
+    {
+     "raw": "**Glasses and contacts** (HCPCS V-codes). Vision plan (ClearSight Vision): Paid, up to the allowance. Medical plan (Emily's PPO): Usually **not paid**.",
+     "say": "Glasses and contacts (H C P C S V-codes). Vision plan (ClearSight Vision): Paid, up to the allowance. Medical plan (Emily's P P O): Usually not paid.",
+     "focus": 4,
+     "file": "clips/8a5e3ce86538.mp3",
+     "seconds": 11.9
+    },
+    {
+     "raw": "**Claim form**. Vision plan (ClearSight Vision): **CMS-1500** / 837P, or the vision company's portal. Medical plan (Emily's PPO): The **same CMS-1500** / 837P for eye doctors.",
+     "say": "Claim form. Vision plan (ClearSight Vision): C M S 1500 or 8 3 7 P, or the vision company's portal. Medical plan (Emily's P P O): The same C M S 1500 or 8 3 7 P for eye doctors.",
+     "focus": 5,
+     "file": "clips/83872d02f851.mp3",
+     "seconds": 16.95
+    },
+    {
+     "raw": "**Typical diagnosis**. Vision plan (ClearSight Vision): Routine exam or refraction problem (short-sight, reading trouble). Medical plan (Emily's PPO): An eye disease or a body-wide disease such as diabetes (lesson 5).",
+     "say": "Typical diagnosis. Vision plan (ClearSight Vision): Routine exam or refraction problem (short-sight, reading trouble). Medical plan (Emily's P P O): An eye disease or a body-wide disease such as diabetes (lesson 5).",
+     "focus": 6,
+     "file": "clips/2aef82c3c28c.mp3",
+     "seconds": 16.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Side by side",
+   "lines": [
+    {
+     "raw": "What is \"refraction\"?",
+     "say": "What is \"refraction\"?",
+     "focus": -1,
+     "file": "clips/70ad4cddc8ce.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Refraction** is the part of the exam where you look through different lenses (\"better with 1 or 2?\") so the doctor can find your exact **power**.",
+     "say": "Refraction is the part of the exam where you look through different lenses (\"better with 1 or 2?\") so the doctor can find your exact power.",
+     "focus": -1,
+     "file": "clips/a861a854a90d.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "It is what turns an eye exam into a **glasses prescription**.",
+     "say": "It is what turns an eye exam into a glasses prescription.",
+     "focus": -1,
+     "file": "clips/2a229ccb7c9f.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "Routine vision plans include it; medical plans and Medicare often do not.",
+     "say": "Routine vision plans include it; medical plans and Medicare often do not.",
+     "focus": -1,
+     "file": "clips/1b5b0e3612e1.mp3",
+     "seconds": 5.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Side by side",
+   "lines": [
+    {
+     "raw": "Same form, different plan.",
+     "say": "Same form, different plan.",
+     "focus": -1,
+     "file": "clips/24afccbd8d94.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Vision and medical eye claims usually travel on the **same** professional claim form.",
+     "say": "Vision and medical eye claims usually travel on the same professional claim form.",
+     "focus": -1,
+     "file": "clips/6c835870ecf7.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "So the form does not tell you which plan a claim belongs to: the **payer** on the claim and the **diagnosis** do (lesson 5).",
+     "say": "So the form does not tell you which plan a claim belongs to: the payer on the claim and the diagnosis do (lesson 5).",
+     "focus": -1,
+     "file": "clips/8c983da6750e.mp3",
+     "seconds": 7.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Side by side",
+   "lines": [
+    {
+     "raw": "In the US: Why vision plans look like this.",
+     "say": "In the U S: Why vision plans look like this.",
+     "focus": -1,
+     "file": "clips/a371e8853016.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Glasses are a **predictable** cost: almost everyone who needs them buys a new pair every year or two.",
+     "say": "Glasses are a predictable cost: almost everyone who needs them buys a new pair every year or two.",
+     "focus": 0,
+     "file": "clips/cd4a947601b7.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "So plans use **fixed amounts and time limits** rather than a big deductible.",
+     "say": "So plans use fixed amounts and time limits rather than a big deductible.",
+     "focus": 0,
+     "file": "clips/fbfe70e25555.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "The plan's monthly premium is small, so the fixed amounts are modest.",
+     "say": "The plan's monthly premium is small, so the fixed amounts are modest.",
+     "focus": 1,
+     "file": "clips/abc3df2cb3ad.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Members who want designer frames pay the difference themselves.",
+     "say": "Members who want designer frames pay the difference themselves.",
+     "focus": 1,
+     "file": "clips/63d91fdc5fce.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Children's vision is treated as especially important: under the ACA (the Affordable Care Act), **vision care for children** is one of the essential benefits that individual and small-business plans must offer.",
+     "say": "Children's vision is treated as especially important: under the A C A (the Affordable Care Act), vision care for children is one of the essential benefits that individual and small-business plans must offer.",
+     "focus": 2,
+     "file": "clips/15f189d6c65e.mp3",
+     "seconds": 13.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What Medicare covers.",
+     "say": "What Medicare covers.",
+     "focus": -1,
+     "file": "clips/a00a024fdb86.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "What Medicare covers",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Original Medicare**. Routine exams and glasses: Generally **not covered** (including refraction). Medical eye care: Covered, for example a **yearly eye exam for people with diabetes**, cataract surgery and glaucoma care.",
+     "say": "Original Medicare. Routine exams and glasses: Generally not covered (including refraction). Medical eye care: Covered, for example a yearly eye exam for people with diabetes, cataract surgery and glaucoma care.",
+     "focus": 0,
+     "file": "clips/26f46bede7e4.mp3",
+     "seconds": 15.325
+    },
+    {
+     "raw": "**Medicare Advantage**. Routine exams and glasses: Many plans **add** a routine vision benefit. Medical eye care: Covered, with the plan's own copays.",
+     "say": "Medicare Advantage. Routine exams and glasses: Many plans add a routine vision benefit. Medical eye care: Covered, with the plan's own copays.",
+     "focus": 1,
+     "file": "clips/4cde1cd62596.mp3",
+     "seconds": 10.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "What Medicare covers",
+   "lines": [
+    {
+     "raw": "One exception for glasses.",
+     "say": "One exception for glasses.",
+     "focus": -1,
+     "file": "clips/d469c8ef8651.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Original Medicare does not pay for glasses, with one well-known exception: after **cataract surgery** with an artificial lens implant, it helps pay for **one pair** of glasses or contact lenses.",
+     "say": "Original Medicare does not pay for glasses, with one well-known exception: after cataract surgery with an artificial lens implant, it helps pay for one pair of glasses or contact lenses.",
+     "focus": -1,
+     "file": "clips/83ba6d67d416.mp3",
+     "seconds": 12.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "What Medicare covers",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Vision claims usually come from a **different company** than medical claims, so they sit in a separate source.",
+     "say": "Vision claims usually come from a different company than medical claims, so they sit in a separate source.",
+     "focus": -1,
+     "file": "clips/f1ed93ec00fe.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "To see all of a member's eye care you need both, and you cannot use the claim form to tell them apart: use the payer and the diagnosis.",
+     "say": "To see all of a member's eye care you need both, and you cannot use the claim form to tell them apart: use the payer and the diagnosis.",
+     "focus": -1,
+     "file": "clips/cba10e000524.mp3",
+     "seconds": 8.7
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Routine vision is usually a separate **carve-out** plan, run by its own company with its own card.",
+     "say": "Routine vision is usually a separate carve-out plan, run by its own company with its own card.",
+     "focus": 0,
+     "file": "clips/41e3543b162e.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "Vision plans use **copays, allowances and frequency**; medical plans use **deductibles, coinsurance and an out-of-pocket maximum**.",
+     "say": "Vision plans use copays, allowances and frequency; medical plans use deductibles, coinsurance and an out-of-pocket maximum.",
+     "focus": 1,
+     "file": "clips/490d6f61da9f.mp3",
+     "seconds": 9.075
+    },
+    {
+     "raw": "**Refraction** and **glasses / contacts** are paid by the vision plan; medical plans usually do not pay them.",
+     "say": "Refraction and glasses or contacts are paid by the vision plan; medical plans usually do not pay them.",
+     "focus": 2,
+     "file": "clips/a7594def5f52.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "Both kinds of eye claim use the **same** professional claim form, so the payer and diagnosis tell them apart.",
+     "say": "Both kinds of eye claim use the same professional claim form, so the payer and diagnosis tell them apart.",
+     "focus": 3,
+     "file": "clips/97d894492001.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "Original Medicare covers medical eye care (like a diabetic eye exam) but not routine exams or glasses; many Medicare Advantage plans add vision.",
+     "say": "Original Medicare covers medical eye care (like a diabetic eye exam) but not routine exams or glasses; many Medicare Advantage plans add vision.",
+     "focus": 4,
+     "file": "clips/007fdefe35cd.mp3",
+     "seconds": 10.8
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

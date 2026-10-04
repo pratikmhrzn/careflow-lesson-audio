@@ -1,0 +1,799 @@
+{
+ "courseId": "hipaa",
+ "lessonId": "privacy-rule",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: The Privacy Rule.",
+     "say": "Lesson 3: The Privacy Rule.",
+     "focus": -1,
+     "file": "clips/66c7ab5c399a.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "When PHI may be used without asking, the \"minimum necessary\" idea, and the patient's own rights.",
+     "say": "When P H I may be used without asking, the \"minimum necessary\" idea, and the patient's own rights.",
+     "focus": -1,
+     "file": "clips/cc57d2c27df2.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain treatment, payment and health care operations (TPO).",
+     "say": "Explain treatment, payment and health care operations (T P O).",
+     "focus": 0,
+     "file": "clips/515a53ee9239.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "Know when written permission (authorisation) is needed.",
+     "say": "Know when written permission (authorisation) is needed.",
+     "focus": 1,
+     "file": "clips/c618dbba336b.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "Apply the minimum necessary standard to a data request.",
+     "say": "Apply the minimum necessary standard to a data request.",
+     "focus": 2,
+     "file": "clips/7c5fdb9e0b25.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "List the main patient rights: access, amendment and more.",
+     "say": "List the main patient rights: access, amendment and more.",
+     "focus": 3,
+     "file": "clips/95ae6de51d53.mp3",
+     "seconds": 4.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The big idea.",
+     "say": "The big idea.",
+     "focus": -1,
+     "file": "clips/7d7554d3f69f.mp3",
+     "seconds": 1.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The big idea",
+   "lines": [
+    {
+     "raw": "The Privacy Rule answers one question: **when may PHI be used or shared?**",
+     "say": "The Privacy Rule answers one question: when may P H I be used or shared?",
+     "focus": -1,
+     "file": "clips/9de8a076bc94.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "The default answer is \"only when the rule allows it, or when the patient gives written permission\".",
+     "say": "The default answer is \"only when the rule allows it, or when the patient gives written permission\".",
+     "focus": -1,
+     "file": "clips/82bdb254082f.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Luckily, the everyday work of healthcare is allowed without asking each time.",
+     "say": "Luckily, the everyday work of healthcare is allowed without asking each time.",
+     "focus": -1,
+     "file": "clips/22836d06ff67.mp3",
+     "seconds": 5.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The big idea",
+   "lines": [
+    {
+     "raw": "The pharmacy counter in Kathmandu.",
+     "say": "The pharmacy counter in Kathmandu.",
+     "focus": -1,
+     "file": "clips/3ba863bf509f.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "When you hand your prescription to a pharmacist, you expect them to read it, give you the medicine and record the sale.",
+     "say": "When you hand your prescription to a pharmacist, you expect them to read it, give you the medicine and record the sale.",
+     "focus": -1,
+     "file": "clips/14febe222257.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "You do not expect them to read it aloud to the queue, or sell it to a medicine company for advertising.",
+     "say": "You do not expect them to read it aloud to the queue, or sell it to a medicine company for advertising.",
+     "focus": -1,
+     "file": "clips/663effdcc91c.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "Using information for the job is fine.",
+     "say": "Using information for the job is fine.",
+     "focus": -1,
+     "file": "clips/2b04ad4943d5.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Using it for anything else needs your permission.",
+     "say": "Using it for anything else needs your permission.",
+     "focus": -1,
+     "file": "clips/07fa7f54b52f.mp3",
+     "seconds": 3.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Allowed without asking: TPO.",
+     "say": "Allowed without asking: T P O.",
+     "focus": -1,
+     "file": "clips/7209cd554cb7.mp3",
+     "seconds": 2.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Allowed without asking: TPO",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Treatment**. Meaning: Giving and coordinating care. Emily's example: Dr. Patel sends Emily's strep test result to the pharmacy so it can fill amoxicillin.",
+     "say": "Treatment. Meaning: Giving and coordinating care. Emily's example: Doctor Patel sends Emily's strep test result to the pharmacy so it can fill amoxicillin.",
+     "focus": 0,
+     "file": "clips/252c70bbde1f.mp3",
+     "seconds": 11.275
+    },
+    {
+     "raw": "**Payment**. Meaning: Billing, claims, eligibility checks, collecting money. Emily's example: Dr. Patel's clinic sends claim 23098908 to Emily's plan; the plan checks she is covered and pays $77.",
+     "say": "Payment. Meaning: Billing, claims, eligibility checks, collecting money. Emily's example: Doctor Patel's clinic sends claim 23098908 to Emily's plan; the plan checks she is covered and pays 77 dollars.",
+     "focus": 1,
+     "file": "clips/ddd9d4fb2e18.mp3",
+     "seconds": 17.375
+    },
+    {
+     "raw": "**Health care operations**. Meaning: Running the business: quality checks, audits, training, fraud detection, planning. Emily's example: The plan's analysts study how many members had strep throat this year.",
+     "say": "Health care operations. Meaning: Running the business: quality checks, audits, training, fraud detection, planning. Emily's example: The plan's analysts study how many members had strep throat this year.",
+     "focus": 2,
+     "file": "clips/065df4ba49dc.mp3",
+     "seconds": 13.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Allowed without asking: TPO",
+   "lines": [
+    {
+     "raw": "Other allowed uses.",
+     "say": "Other allowed uses.",
+     "focus": -1,
+     "file": "clips/fa1d55a806d0.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "The rule also allows some sharing for public interest reasons without asking, such as reporting certain diseases to **public health** authorities, responding to a **court order**, and reporting **abuse**.",
+     "say": "The rule also allows some sharing for public interest reasons without asking, such as reporting certain diseases to public health authorities, responding to a court order, and reporting abuse.",
+     "focus": -1,
+     "file": "clips/502a6bdfe7c9.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "Each has its own conditions.",
+     "say": "Each has its own conditions.",
+     "focus": -1,
+     "file": "clips/654590ee6b74.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "When written permission is needed.",
+     "say": "When written permission is needed.",
+     "focus": -1,
+     "file": "clips/bf864628a85b.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "When written permission is needed",
+   "lines": [
+    {
+     "raw": "For purposes outside the allowed list, the covered entity needs a signed **authorisation** from the patient.",
+     "say": "For purposes outside the allowed list, the covered entity needs a signed authorisation from the patient.",
+     "focus": -1,
+     "file": "clips/23742ada7dd7.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "It must say what will be shared, with whom, for what purpose, and when the permission ends.",
+     "say": "It must say what will be shared, with whom, for what purpose, and when the permission ends.",
+     "focus": -1,
+     "file": "clips/5fe2ab989403.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "The patient can cancel it later.",
+     "say": "The patient can cancel it later.",
+     "focus": -1,
+     "file": "clips/dcf16b4045a9.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "When written permission is needed",
+   "lines": [
+    {
+     "raw": "**Marketing**: a drug company wants Emily's name to send her advertisements.",
+     "say": "Marketing: a drug company wants Emily's name to send her advertisements.",
+     "focus": 0,
+     "file": "clips/b20f3dd59c83.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "**Selling PHI**: the plan wants to sell member data to another company.",
+     "say": "Selling P H I: the plan wants to sell member data to another company.",
+     "focus": 1,
+     "file": "clips/2fc4e0d4d388.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "**Psychotherapy notes**: a therapist's private session notes have extra protection.",
+     "say": "Psychotherapy notes: a therapist's private session notes have extra protection.",
+     "focus": 2,
+     "file": "clips/c05153bf0c1f.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "**Most research** that uses identifiable data (unless an approved waiver is in place or the data is stripped of identifiers, covered in the De-identification lesson).",
+     "say": "Most research that uses identifiable data (unless an approved waiver is in place or the data is stripped of identifiers, covered in the De-identification lesson).",
+     "focus": 3,
+     "file": "clips/58a8f4c125db.mp3",
+     "seconds": 11.175
+    },
+    {
+     "raw": "**Employer requests**: Emily's manager asks the plan why she was off sick.",
+     "say": "Employer requests: Emily's manager asks the plan why she was off sick.",
+     "focus": 4,
+     "file": "clips/8dce6b7f8087.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Minimum necessary.",
+     "say": "Minimum necessary.",
+     "focus": -1,
+     "file": "clips/3ef6dd70cf35.mp3",
+     "seconds": 1.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Minimum necessary",
+   "lines": [
+    {
+     "raw": "Even when a use is allowed, you should use, share or ask for **only the minimum PHI needed** for the job.",
+     "say": "Even when a use is allowed, you should use, share or ask for only the minimum P H I needed for the job.",
+     "focus": -1,
+     "file": "clips/99912bccccc5.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "This is the rule data people meet every day.",
+     "say": "This is the rule data people meet every day.",
+     "focus": -1,
+     "file": "clips/327dcf823338.mp3",
+     "seconds": 3.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Minimum necessary",
+   "lines": [
+    {
+     "raw": "Minimum necessary.",
+     "say": "Minimum necessary.",
+     "focus": -1,
+     "file": "clips/3ef6dd70cf35.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Share only the fields, rows and people the task truly needs.",
+     "say": "Share only the fields, rows and people the task truly needs.",
+     "focus": 0,
+     "file": "clips/9dfafc6c3021.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "For example: Task: \"count strep throat claims by month\".",
+     "say": "For example: Task: \"count strep throat claims by month\".",
+     "focus": 1,
+     "file": "clips/db7109d3badf.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Needed: diagnosis code and service month.",
+     "say": "Needed: diagnosis code and service month.",
+     "focus": 1,
+     "file": "clips/febb1560a267.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Not needed: names, member IDs, addresses or exact birth dates.",
+     "say": "Not needed: names, member I D's, addresses or exact birth dates.",
+     "focus": 1,
+     "file": "clips/d1aa3b595af1.mp3",
+     "seconds": 5.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Minimum necessary",
+   "lines": [
+    {
+     "raw": "Two ways to answer the same request.",
+     "say": "Two ways to answer the same request.",
+     "focus": -1,
+     "file": "clips/f20e061b889e.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Monthly claim cost report. Too much: `SELECT *` from the claim table, all columns, all years. Minimum necessary: Only `service_month`, `claim_type`, `allowed_amt` for 2025.",
+     "say": "Monthly claim cost report. Too much: SELECT * from the claim table, all columns, all years. Minimum necessary: Only service_month, claim_type, allowed_amt for 2025.",
+     "focus": 0,
+     "file": "clips/e74320ca5115.mp3",
+     "seconds": 13.3
+    },
+    {
+     "raw": "Check one disputed claim. Too much: Send the whole member history. Minimum necessary: Send only claim 23098908 and its lines.",
+     "say": "Check one disputed claim. Too much: Send the whole member history. Minimum necessary: Send only claim 23098908 and its lines.",
+     "focus": 1,
+     "file": "clips/85dd4ab6599e.mp3",
+     "seconds": 11.7
+    },
+    {
+     "raw": "New analyst onboarding. Too much: Give access to every database. Minimum necessary: Give access only to the tables their project uses.",
+     "say": "New analyst onboarding. Too much: Give access to every database. Minimum necessary: Give access only to the tables their project uses.",
+     "focus": 2,
+     "file": "clips/35248c67e97d.mp3",
+     "seconds": 9.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Minimum necessary",
+   "lines": [
+    {
+     "raw": "Where minimum necessary does not apply.",
+     "say": "Where minimum necessary does not apply.",
+     "focus": -1,
+     "file": "clips/cf1b72b46116.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "It does not apply when a doctor shares information with another provider **for treatment**, when the patient asks for their own records, when the patient has signed an authorisation, or when the law requires the disclosure.",
+     "say": "It does not apply when a doctor shares information with another provider for treatment, when the patient asks for their own records, when the patient has signed an authorisation, or when the law requires the disclosure.",
+     "focus": -1,
+     "file": "clips/637aa2cafed0.mp3",
+     "seconds": 13.05
+    },
+    {
+     "raw": "Doctors should not have to guess what another doctor needs to treat safely.",
+     "say": "Doctors should not have to guess what another doctor needs to treat safely.",
+     "focus": -1,
+     "file": "clips/65920f2a9c7c.mp3",
+     "seconds": 4.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Patient rights.",
+     "say": "Patient rights.",
+     "focus": -1,
+     "file": "clips/ec9faae0497c.mp3",
+     "seconds": 1.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Patient rights",
+   "lines": [
+    {
+     "raw": "The Privacy Rule also gives patients rights over their own information.",
+     "say": "The Privacy Rule also gives patients rights over their own information.",
+     "focus": -1,
+     "file": "clips/19d2a57d1bd4.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Covered entities must explain these in a **Notice of Privacy Practices**, the leaflet patients receive at their first visit or find on the insurer's website.",
+     "say": "Covered entities must explain these in a Notice of Privacy Practices, the leaflet patients receive at their first visit or find on the insurer's website.",
+     "focus": -1,
+     "file": "clips/2a446d2aa0df.mp3",
+     "seconds": 10
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Patient rights",
+   "lines": [
+    {
+     "raw": "Right of access.",
+     "say": "Right of access.",
+     "focus": 0,
+     "file": "clips/3b77192b4a3c.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "Patients can see and get a copy of their records, including claims and billing records.",
+     "say": "Patients can see and get a copy of their records, including claims and billing records.",
+     "focus": 0,
+     "file": "clips/0eae6eb18fe3.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "The entity generally has **30 days** to respond (one 30-day extension is allowed) and may charge only a reasonable, cost-based fee.",
+     "say": "The entity generally has 30 days to respond (one 30-day extension is allowed) and may charge only a reasonable, cost-based fee.",
+     "focus": 0,
+     "file": "clips/9f071743d5ab.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "Right to amendment.",
+     "say": "Right to amendment.",
+     "focus": 1,
+     "file": "clips/f6acb3b27cb8.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Patients can ask to correct information they think is wrong.",
+     "say": "Patients can ask to correct information they think is wrong.",
+     "focus": 1,
+     "file": "clips/b14949e21861.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "The entity can refuse in some cases, but must answer in writing, generally within **60 days**.",
+     "say": "The entity can refuse in some cases, but must answer in writing, generally within 60 days.",
+     "focus": 1,
+     "file": "clips/cf368c110621.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "Accounting of disclosures.",
+     "say": "Accounting of disclosures.",
+     "focus": 2,
+     "file": "clips/60d85f84b464.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Patients can ask for a list of certain disclosures of their PHI (not the routine TPO ones).",
+     "say": "Patients can ask for a list of certain disclosures of their P H I (not the routine T P O ones).",
+     "focus": 2,
+     "file": "clips/2506b0242cf3.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "Right to request restrictions.",
+     "say": "Right to request restrictions.",
+     "focus": 3,
+     "file": "clips/0b5986bd738e.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Patients can ask for limits on sharing.",
+     "say": "Patients can ask for limits on sharing.",
+     "focus": 3,
+     "file": "clips/a0b5723ce7c6.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "If they pay for a service fully out of pocket, they can stop the provider telling their health plan about it.",
+     "say": "If they pay for a service fully out of pocket, they can stop the provider telling their health plan about it.",
+     "focus": 3,
+     "file": "clips/3e1ebf0b9b09.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Confidential communications.",
+     "say": "Confidential communications.",
+     "focus": 4,
+     "file": "clips/bbd7b01d9e8d.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Patients can ask to be contacted a certain way, for example at a different address or phone.",
+     "say": "Patients can ask to be contacted a certain way, for example at a different address or phone.",
+     "focus": 4,
+     "file": "clips/f0ff7ba133d1.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "Right to complain.",
+     "say": "Right to complain.",
+     "focus": 5,
+     "file": "clips/68944fc9f9b7.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Patients can complain to the covered entity or to HHS's Office for Civil Rights.",
+     "say": "Patients can complain to the covered entity or to HHS's Office for Civil Rights.",
+     "focus": 5,
+     "file": "clips/5d7aad8c7641.mp3",
+     "seconds": 5.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Patient rights",
+   "lines": [
+    {
+     "raw": "Getting your own records in Nepal.",
+     "say": "Getting your own records in Nepal.",
+     "focus": -1,
+     "file": "clips/c883f80faa58.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram usually leaves the hospital holding his own paper file: prescriptions, test reports and the discharge summary.",
+     "say": "Ram usually leaves the hospital holding his own paper file: prescriptions, test reports and the discharge summary.",
+     "focus": 0,
+     "file": "clips/5509bbebbb08.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "He needs these originals or copies to claim reimbursement.",
+     "say": "He needs these originals or copies to claim reimbursement.",
+     "focus": 0,
+     "file": "clips/2a0570875322.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "If he wants a copy of an old record, he asks the hospital's records section.",
+     "say": "If he wants a copy of an old record, he asks the hospital's records section.",
+     "focus": 1,
+     "file": "clips/11ec3646a5e0.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Practice varies between hospitals.",
+     "say": "Practice varies between hospitals.",
+     "focus": 1,
+     "file": "clips/873ce162c203.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's hospital keeps her records and shares claim details with SSF.",
+     "say": "Sita's hospital keeps her records and shares claim details with S S F.",
+     "focus": 2,
+     "file": "clips/a6f72eaae4e8.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "If she wants to check what was claimed for her, she would ask the hospital or SSF.",
+     "say": "If she wants to check what was claimed for her, she would ask the hospital or S S F.",
+     "focus": 2,
+     "file": "clips/423f388a4eec.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Nepal does not have a single detailed rule, like HIPAA's 30-day deadline, that every hospital follows.",
+     "say": "Nepal does not have a single detailed rule, like HIPAA's 30-day deadline, that every hospital follows.",
+     "focus": 2,
+     "file": "clips/0b9b4c6abc33.mp3",
+     "seconds": 7.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Patient rights",
+   "lines": [
+    {
+     "raw": "In the US: Emily uses her rights.",
+     "say": "In the U S: Emily uses her rights.",
+     "focus": -1,
+     "file": "clips/9af7d20b86f5.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Emily logs in to her plan's website and downloads her claims history: that is the **right of access**.",
+     "say": "Emily logs in to her plan's website and downloads her claims history: that is the right of access.",
+     "focus": 0,
+     "file": "clips/46f22188e277.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "She notices claim 23098908 lists the wrong date of birth.",
+     "say": "She notices claim 23098908 lists the wrong date of birth.",
+     "focus": 1,
+     "file": "clips/7e8904d97f09.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "She asks the plan to fix it: **right to amendment**.",
+     "say": "She asks the plan to fix it: right to amendment.",
+     "focus": 1,
+     "file": "clips/484d1ef24e87.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "She asks that letters about Lily's care go to her work email instead of home: **confidential communications**.",
+     "say": "She asks that letters about Lily's care go to her work email instead of home: confidential communications.",
+     "focus": 2,
+     "file": "clips/7c00b8e85f71.mp3",
+     "seconds": 7.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Patient rights",
+   "lines": [
+    {
+     "raw": "Why analysts care about these rights.",
+     "say": "Why analysts care about these rights.",
+     "focus": -1,
+     "file": "clips/ff51bde6bb41.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "An access request may mean pulling every claim for one member.",
+     "say": "An access request may mean pulling every claim for one member.",
+     "focus": -1,
+     "file": "clips/5611ed26d47f.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "An amendment may mean a corrected row in your table.",
+     "say": "An amendment may mean a corrected row in your table.",
+     "focus": -1,
+     "file": "clips/4238e1cca353.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Data teams often help answer these requests, under deadlines.",
+     "say": "Data teams often help answer these requests, under deadlines.",
+     "focus": -1,
+     "file": "clips/46707c166f82.mp3",
+     "seconds": 4.45
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "PHI may be used without asking for treatment, payment and health care operations (TPO), and some public interest reasons.",
+     "say": "P H I may be used without asking for treatment, payment and health care operations (T P O), and some public interest reasons.",
+     "focus": 0,
+     "file": "clips/093c4c2b1516.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "Marketing, selling PHI and most other uses need the patient's written authorisation.",
+     "say": "Marketing, selling P H I and most other uses need the patient's written authorisation.",
+     "focus": 1,
+     "file": "clips/a30cc1e66366.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "Minimum necessary: use and share only the fields, rows and people the task needs.",
+     "say": "Minimum necessary: use and share only the fields, rows and people the task needs.",
+     "focus": 2,
+     "file": "clips/d3ad3fc8a118.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "Patients have rights to access, amend, get an accounting of disclosures, request restrictions and complain.",
+     "say": "Patients have rights to access, amend, get an accounting of disclosures, request restrictions and complain.",
+     "focus": 3,
+     "file": "clips/4a05cc6fd20a.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

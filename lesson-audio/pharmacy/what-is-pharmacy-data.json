@@ -1,0 +1,813 @@
+{
+ "courseId": "pharmacy",
+ "lessonId": "what-is-pharmacy-data",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What is a Pharmacy Claim?",
+     "say": "Lesson 1: What is a Pharmacy Claim?",
+     "focus": -1,
+     "file": "clips/4c6734bf8cf8.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Every prescription filled at a pharmacy leaves a record: a pharmacy claim.",
+     "say": "Every prescription filled at a pharmacy leaves a record: a pharmacy claim.",
+     "focus": -1,
+     "file": "clips/7d618e789dd5.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "All those claims together are pharmacy data.",
+     "say": "All those claims together are pharmacy data.",
+     "focus": -1,
+     "file": "clips/4d112cb7cf99.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain in one sentence what a pharmacy claim is, and what \"pharmacy data\" means.",
+     "say": "Explain in one sentence what a pharmacy claim is, and what \"pharmacy data\" means.",
+     "focus": 0,
+     "file": "clips/b74b99f4416a.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "See how buying medicine in Nepal compares to filling a prescription in the US.",
+     "say": "See how buying medicine in Nepal compares to filling a prescription in the U S.",
+     "focus": 1,
+     "file": "clips/4fd7c3ca898c.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Tell the pharmacy benefit from the medical benefit.",
+     "say": "Tell the pharmacy benefit from the medical benefit.",
+     "focus": 2,
+     "file": "clips/e3bbf264b390.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "After a doctor visit in Nepal, you walk out with a **prescription paper** (the \"parchi\").",
+     "say": "After a doctor visit in Nepal, you walk out with a prescription paper (the \"parchi\").",
+     "focus": -1,
+     "file": "clips/4e94a9eed0cc.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "You take it to a **medical shop** outside the hospital, or to the **hospital pharmacy**, and buy the medicines.",
+     "say": "You take it to a medical shop outside the hospital, or to the hospital pharmacy, and buy the medicines.",
+     "focus": -1,
+     "file": "clips/c9bbc89dd3c5.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "The shopkeeper gives you the medicine and a **bill**.",
+     "say": "The shopkeeper gives you the medicine and a bill.",
+     "focus": -1,
+     "file": "clips/df0a6e2f308d.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "That bill records **which medicine**, **how much**, **how strong**, **who prescribed it**, **when** you bought it and **how much it cost**.",
+     "say": "That bill records which medicine, how much, how strong, who prescribed it, when you bought it and how much it cost.",
+     "focus": -1,
+     "file": "clips/c43414a62e91.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "In the US, the same details are sent to an insurance company as a **prescription drug claim**.",
+     "say": "In the U S, the same details are sent to an insurance company as a prescription drug claim.",
+     "focus": -1,
+     "file": "clips/223c3141793f.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "All of these claims together are **pharmacy data**.",
+     "say": "All of these claims together are pharmacy data.",
+     "focus": -1,
+     "file": "clips/9e8d06ed8bd8.mp3",
+     "seconds": 3.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Simple definition.",
+     "say": "Simple definition.",
+     "focus": -1,
+     "file": "clips/a5c5927139e3.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Pharmacy data is the record of prescription medicines a patient picked up from a pharmacy, written in a way that an insurance company can read and pay for.",
+     "say": "Pharmacy data is the record of prescription medicines a patient picked up from a pharmacy, written in a way that an insurance company can read and pay for.",
+     "focus": -1,
+     "file": "clips/14b73a142196.mp3",
+     "seconds": 10.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Our three people buy medicine.",
+     "say": "Our three people buy medicine.",
+     "focus": -1,
+     "file": "clips/e69f3308dd66.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Our three people buy medicine",
+   "lines": [
+    {
+     "raw": "This course follows three people.",
+     "say": "This course follows three people.",
+     "focus": -1,
+     "file": "clips/47febabdfc42.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "**Ram** works at a tech startup in Kathmandu and has private health insurance.",
+     "say": "Ram works at a tech startup in Kathmandu and has private health insurance.",
+     "focus": -1,
+     "file": "clips/d655dc65e267.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "**Sita** is an accountant in Kathmandu who contributes to the Social Security Fund (SSF).",
+     "say": "Sita is an accountant in Kathmandu who contributes to the Social Security Fund (S S F).",
+     "focus": -1,
+     "file": "clips/44d49b8f2103.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "**Emily** is an office worker in Texas, USA, with health insurance through her employer.",
+     "say": "Emily is an office worker in Texas, U S A, with health insurance through her employer.",
+     "focus": -1,
+     "file": "clips/9fe3abcd12b1.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "All three had a sore throat with fever, and the doctor found **strep throat**.",
+     "say": "All three had a sore throat with fever, and the doctor found strep throat.",
+     "focus": -1,
+     "file": "clips/be0207edea33.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "Each of them now needs an **antibiotic**.",
+     "say": "Each of them now needs an antibiotic.",
+     "focus": -1,
+     "file": "clips/0c1a61535cb7.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Our three people buy medicine",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram and Sita buy their antibiotics.",
+     "say": "In Nepal: Ram and Sita buy their antibiotics.",
+     "focus": -1,
+     "file": "clips/90a00b9d486d.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "**Ram** takes his prescription to a medical shop near the hospital and buys the antibiotic.",
+     "say": "Ram takes his prescription to a medical shop near the hospital and buys the antibiotic.",
+     "focus": 0,
+     "file": "clips/c51416512ed6.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "He **pays the full price** at the counter and asks for a proper **pharmacy bill** with the medicine name, quantity and price.",
+     "say": "He pays the full price at the counter and asks for a proper pharmacy bill with the medicine name, quantity and price.",
+     "focus": 1,
+     "file": "clips/30ea8ff1cf07.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "Later he sends that bill, **with the prescription**, to his insurer.",
+     "say": "Later he sends that bill, with the prescription, to his insurer.",
+     "focus": 2,
+     "file": "clips/abba813d10b3.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "The insurer checks that the medicine matches the prescription and **reimburses** him.",
+     "say": "The insurer checks that the medicine matches the prescription and reimburses him.",
+     "focus": 2,
+     "file": "clips/32af6d61beaf.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Without the prescription, the insurer would not know a doctor ordered it.",
+     "say": "Without the prescription, the insurer would not know a doctor ordered it.",
+     "focus": 3,
+     "file": "clips/385c56161a70.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "That is why Ram keeps both papers.",
+     "say": "That is why Ram keeps both papers.",
+     "focus": 3,
+     "file": "clips/3dd8325354db.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 4,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "**Sita** gets her medicine from the **pharmacy of the SSF-listed hospital** where she was treated.",
+     "say": "Sita gets her medicine from the pharmacy of the S S F listed hospital where she was treated.",
+     "focus": 4,
+     "file": "clips/93116bea7896.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "She shows her SSF ID and pays her **20%** share for the medicines covered by SSF.",
+     "say": "She shows her S S F I D and pays her 20 percent share for the medicines covered by S S F.",
+     "focus": 5,
+     "file": "clips/4efd92bd72d6.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "The hospital adds the medicine to the bill it sends to SSF, and **SSF pays the other 80%**.",
+     "say": "The hospital adds the medicine to the bill it sends to S S F, and S S F pays the other 80 percent.",
+     "focus": 6,
+     "file": "clips/3b763d872772.mp3",
+     "seconds": 7.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Our three people buy medicine",
+   "lines": [
+    {
+     "raw": "In the US: Emily picks up her antibiotic in Texas.",
+     "say": "In the U S: Emily picks up her antibiotic in Texas.",
+     "focus": -1,
+     "file": "clips/517a0632a515.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "On **10 March 2025**, Dr. Patel sends Emily's prescription for **amoxicillin** straight to the pharmacy's computer (an **e-prescription**).",
+     "say": "On 10 March 2025, Doctor Patel sends Emily's prescription for amoxicillin straight to the pharmacy's computer (an e-prescription).",
+     "focus": 0,
+     "file": "clips/4553d7f8abca.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "At the counter, Emily shows her **insurance card**.",
+     "say": "At the counter, Emily shows her insurance card.",
+     "focus": 1,
+     "file": "clips/01af6ccc2ea8.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "The pharmacist types in the card details.",
+     "say": "The pharmacist types in the card details.",
+     "focus": 1,
+     "file": "clips/bbeddf69c7b8.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "The pharmacy's computer **sends a claim electronically** to her plan.",
+     "say": "The pharmacy's computer sends a claim electronically to her plan.",
+     "focus": 2,
+     "file": "clips/f738036bc1d1.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Within a few **seconds**, the answer comes back: covered, and Emily pays **$5**.",
+     "say": "Within a few seconds, the answer comes back: covered, and Emily pays 5 dollars.",
+     "focus": 2,
+     "file": "clips/edd713bc96b1.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Emily pays her $5 and walks out with the medicine.",
+     "say": "Emily pays her 5 dollars and walks out with the medicine.",
+     "focus": 3,
+     "file": "clips/0b4ab0ffd4a3.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "The plan pays the rest to the pharmacy later.",
+     "say": "The plan pays the rest to the pharmacy later.",
+     "focus": 3,
+     "file": "clips/afde38bf415a.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Our three people buy medicine",
+   "lines": [
+    {
+     "raw": "The big idea: the claim happens at the counter.",
+     "say": "The big idea: the claim happens at the counter.",
+     "focus": -1,
+     "file": "clips/aa21fae26041.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "A US **medical** claim is usually sent **days after** the visit, and the patient waits to learn what they owe.",
+     "say": "A U S medical claim is usually sent days after the visit, and the patient waits to learn what they owe.",
+     "focus": -1,
+     "file": "clips/ce95b2e48522.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "A US **pharmacy** claim is sent and answered **in seconds, while the patient is standing at the counter**.",
+     "say": "A U S pharmacy claim is sent and answered in seconds, while the patient is standing at the counter.",
+     "focus": -1,
+     "file": "clips/2c6ec5b07ed2.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "This is called **real-time adjudication**.",
+     "say": "This is called real-time adjudication.",
+     "focus": -1,
+     "file": "clips/754e81d2efad.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "The pharmacist knows the exact price before handing over the medicine.",
+     "say": "The pharmacist knows the exact price before handing over the medicine.",
+     "focus": -1,
+     "file": "clips/6aa779a74696.mp3",
+     "seconds": 4.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Our three people buy medicine",
+   "lines": [
+    {
+     "raw": "The same roles in three situations.",
+     "say": "The same roles in three situations.",
+     "focus": -1,
+     "file": "clips/7a4cd99fb486.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Who writes the prescription? Ram (Nepal, private insurance): The hospital doctor. Sita (Nepal, SSF): The SSF-listed hospital doctor. Emily (USA): Dr. Patel (the **prescriber**).",
+     "say": "Who writes the prescription? Ram (Nepal, private insurance): The hospital doctor. Sita (Nepal, S S F): The S S F listed hospital doctor. Emily (U S A): Doctor Patel (the prescriber).",
+     "focus": 0,
+     "file": "clips/2719ccb5d878.mp3",
+     "seconds": 13.675
+    },
+    {
+     "raw": "Who gives the medicine? Ram (Nepal, private insurance): A medical shop. Sita (Nepal, SSF): The hospital pharmacy. Emily (USA): A retail pharmacy.",
+     "say": "Who gives the medicine? Ram (Nepal, private insurance): A medical shop. Sita (Nepal, S S F): The hospital pharmacy. Emily (U S A): A retail pharmacy.",
+     "focus": 1,
+     "file": "clips/6f65e80f25d8.mp3",
+     "seconds": 11.45
+    },
+    {
+     "raw": "Who sends the claim? Ram (Nepal, private insurance): **Ram**, with the bill and prescription. Sita (Nepal, SSF): The **hospital**, inside its bill to SSF. Emily (USA): The **pharmacy**, electronically.",
+     "say": "Who sends the claim? Ram (Nepal, private insurance): Ram, with the bill and prescription. Sita (Nepal, S S F): The hospital, inside its bill to S S F. Emily (U S A): The pharmacy, electronically.",
+     "focus": 2,
+     "file": "clips/b1e5483cdc55.mp3",
+     "seconds": 14.25
+    },
+    {
+     "raw": "When is the price known? Ram (Nepal, private insurance): Weeks later, when the insurer reimburses. Sita (Nepal, SSF): At the counter (Sita pays 20%). Emily (USA): At the counter, in seconds.",
+     "say": "When is the price known? Ram (Nepal, private insurance): Weeks later, when the insurer reimburses. Sita (Nepal, S S F): At the counter (Sita pays 20 percent). Emily (U S A): At the counter, in seconds.",
+     "focus": 3,
+     "file": "clips/7d41fb7dad5a.mp3",
+     "seconds": 14.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Our three people buy medicine",
+   "lines": [
+    {
+     "raw": "Ram's way exists in the US too.",
+     "say": "Ram's way exists in the U S too.",
+     "focus": -1,
+     "file": "clips/9116086b3c11.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "If a US patient uses a pharmacy outside their plan's network, or forgets their card, they may pay the full price and later mail a **paper claim form** with the receipt to get money back.",
+     "say": "If a U S patient uses a pharmacy outside their plan's network, or forgets their card, they may pay the full price and later mail a paper claim form with the receipt to get money back.",
+     "focus": -1,
+     "file": "clips/1548f4d7f44a.mp3",
+     "seconds": 11.7
+    },
+    {
+     "raw": "That is exactly what Ram does.",
+     "say": "That is exactly what Ram does.",
+     "focus": -1,
+     "file": "clips/b0e5b2daaf05.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "It is the exception, though: almost all US pharmacy claims are electronic.",
+     "say": "It is the exception, though: almost all U S pharmacy claims are electronic.",
+     "focus": -1,
+     "file": "clips/e785b178d1df.mp3",
+     "seconds": 5.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Pharmacy benefit vs medical benefit.",
+     "say": "Pharmacy benefit versus medical benefit.",
+     "focus": -1,
+     "file": "clips/00656ed889f5.mp3",
+     "seconds": 3.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Pharmacy benefit vs medical benefit",
+   "lines": [
+    {
+     "raw": "Here is a surprise for beginners: **not every drug ends up in pharmacy data**.",
+     "say": "Here is a surprise for beginners: not every drug ends up in pharmacy data.",
+     "focus": -1,
+     "file": "clips/f90d787e0f6f.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "It depends on **who gives the drug** and **where**.",
+     "say": "It depends on who gives the drug and where.",
+     "focus": -1,
+     "file": "clips/e1a921f9bf0c.mp3",
+     "seconds": 2.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Pharmacy benefit vs medical benefit",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Where the drug is given. Pharmacy benefit: Picked up at a pharmacy and taken at home. Medical benefit: Given by a nurse or doctor in a clinic, hospital or infusion centre.",
+     "say": "Where the drug is given. Pharmacy benefit: Picked up at a pharmacy and taken at home. Medical benefit: Given by a nurse or doctor in a clinic, hospital or infusion centre.",
+     "focus": 0,
+     "file": "clips/19ee059d9789.mp3",
+     "seconds": 12.125
+    },
+    {
+     "raw": "Example. Pharmacy benefit: Amoxicillin capsules, cholesterol tablets. Medical benefit: An injection in the doctor's office, chemotherapy through a drip.",
+     "say": "Example. Pharmacy benefit: Amoxicillin capsules, cholesterol tablets. Medical benefit: An injection in the doctor's office, chemotherapy through a drip.",
+     "focus": 1,
+     "file": "clips/0fc8a4cb9c5f.mp3",
+     "seconds": 11.15
+    },
+    {
+     "raw": "Which claim? Pharmacy benefit: **Pharmacy claim** (NCPDP format). Medical benefit: **Medical claim** (837P or 837I, see the Medical course).",
+     "say": "Which claim? Pharmacy benefit: Pharmacy claim (N C P D P format). Medical benefit: Medical claim (8 3 7 P or 8 3 7 I, see the Medical course).",
+     "focus": 2,
+     "file": "clips/0638433009cb.mp3",
+     "seconds": 12.225
+    },
+    {
+     "raw": "Drug code. Pharmacy benefit: **NDC** (National Drug Code, lesson 4). Medical benefit: Usually a **HCPCS J-code**, like `J1100` (dexamethasone injection).",
+     "say": "Drug code. Pharmacy benefit: N D C (National Drug Code, lesson 4). Medical benefit: Usually a H C P C S J-code, like J 1 1 0 0 (dexamethasone injection).",
+     "focus": 3,
+     "file": "clips/fafb47ddd518.mp3",
+     "seconds": 14.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Pharmacy benefit vs medical benefit",
+   "lines": [
+    {
+     "raw": "Drugs hide in medical claims.",
+     "say": "Drugs hide in medical claims.",
+     "focus": -1,
+     "file": "clips/6e78f7632098.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "In June 2025, Emily had her appendix removed and stayed two nights in hospital.",
+     "say": "In June 2025, Emily had her appendix removed and stayed two nights in hospital.",
+     "focus": -1,
+     "file": "clips/60bdf92e2a84.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "The hospital billed **$800 of medicines** under revenue code `0250` (pharmacy).",
+     "say": "The hospital billed 800 dollars of medicines under revenue code 0 2 5 0 (pharmacy).",
+     "focus": -1,
+     "file": "clips/5daa25f990b4.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "Those medicines are on the **medical** claim, not in pharmacy data.",
+     "say": "Those medicines are on the medical claim, not in pharmacy data.",
+     "focus": -1,
+     "file": "clips/d6cd981f310c.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "If you want to know **all** the money spent on drugs, you must look in **both** places.",
+     "say": "If you want to know all the money spent on drugs, you must look in both places.",
+     "focus": -1,
+     "file": "clips/42c3bb037d3d.mp3",
+     "seconds": 4.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What does a pharmacy claim contain?",
+     "say": "What does a pharmacy claim contain?",
+     "focus": -1,
+     "file": "clips/e9b165d5a1d6.mp3",
+     "seconds": 2.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "What does a pharmacy claim contain?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Member details**. What it includes: Member ID, name, date of birth, plan details from the card. Example from Emily's amoxicillin: Emily Carter, member ID M1001.",
+     "say": "Member details. What it includes: Member I D, name, date of birth, plan details from the card. Example from Emily's amoxicillin: Emily Carter, member I D M 1 0 0 1.",
+     "focus": 0,
+     "file": "clips/c57fc3e7563c.mp3",
+     "seconds": 13.1
+    },
+    {
+     "raw": "**Prescriber details**. What it includes: Who wrote the prescription (NPI). Example from Emily's amoxicillin: Dr. Patel.",
+     "say": "Prescriber details. What it includes: Who wrote the prescription (N P I). Example from Emily's amoxicillin: Doctor Patel.",
+     "focus": 1,
+     "file": "clips/1b6af928da1b.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "**Pharmacy details**. What it includes: Which pharmacy filled it (NPI and NCPDP ID). Example from Emily's amoxicillin: Main Street Pharmacy.",
+     "say": "Pharmacy details. What it includes: Which pharmacy filled it (N P I and N C P D P I D). Example from Emily's amoxicillin: Main Street Pharmacy.",
+     "focus": 2,
+     "file": "clips/a3a30f40f0f9.mp3",
+     "seconds": 10.975
+    },
+    {
+     "raw": "**Drug details**. What it includes: Which drug (NDC code), how much, how many days it lasts. Example from Emily's amoxicillin: Amoxicillin 500 mg, 30 capsules, 10 days.",
+     "say": "Drug details. What it includes: Which drug (N D C code), how much, how many days it lasts. Example from Emily's amoxicillin: Amoxicillin 500 mg, 30 capsules, 10 days.",
+     "focus": 3,
+     "file": "clips/386ddd98386c.mp3",
+     "seconds": 13.35
+    },
+    {
+     "raw": "**Money details**. What it includes: Drug cost, pharmacy fee, what the patient and plan paid. Example from Emily's amoxicillin: Total $11.30: Emily $5.00, plan $6.30.",
+     "say": "Money details. What it includes: Drug cost, pharmacy fee, what the patient and plan paid. Example from Emily's amoxicillin: Total 11 dollars 30 cents: Emily 5 dollars, plan 6 dollars 30 cents.",
+     "focus": 4,
+     "file": "clips/51d78fec3852.mp3",
+     "seconds": 14.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "What does a pharmacy claim contain?",
+   "lines": [
+    {
+     "raw": "What is missing?",
+     "say": "What is missing?",
+     "focus": -1,
+     "file": "clips/d93bf044c0ac.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "The diagnosis.",
+     "say": "The diagnosis.",
+     "focus": -1,
+     "file": "clips/c9c1635bc425.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "A medical claim always says **why** (the ICD-10 diagnosis).",
+     "say": "A medical claim always says why (the I C D 10 diagnosis).",
+     "focus": -1,
+     "file": "clips/9f5f1ba50c81.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "A pharmacy claim usually **does not**.",
+     "say": "A pharmacy claim usually does not.",
+     "focus": -1,
+     "file": "clips/b765ec24aa8f.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Emily's amoxicillin claim does not say \"strep throat\".",
+     "say": "Emily's amoxicillin claim does not say \"strep throat\".",
+     "focus": -1,
+     "file": "clips/51814b3c85a5.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "Analysts often link pharmacy claims to medical claims by **member and date** to guess the reason.",
+     "say": "Analysts often link pharmacy claims to medical claims by member and date to guess the reason.",
+     "focus": -1,
+     "file": "clips/f8b0fa4f56d2.mp3",
+     "seconds": 6.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How big is it?",
+     "say": "How big is it?",
+     "focus": -1,
+     "file": "clips/8e3bd5878f55.mp3",
+     "seconds": 1.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "How big is it?",
+   "lines": [
+    {
+     "raw": "According to CMS, the US spent about **$450 billion** on **retail prescription drugs** in 2023, roughly **9%** of all US health spending.",
+     "say": "According to C M S, the U S spent about 450 billion dollars on retail prescription drugs in 2023, roughly 9 percent of all U S health spending.",
+     "focus": -1,
+     "file": "clips/35173060a75b.mp3",
+     "seconds": 12.175
+    },
+    {
+     "raw": "That is more than **10 times** Nepal's entire economy.",
+     "say": "That is more than 10 times Nepal's entire economy.",
+     "focus": -1,
+     "file": "clips/54bd68e548a4.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Pharmacy claims are also the **most frequent** claims: many people never go to hospital in a year, but lots of people pick up a prescription every month.",
+     "say": "Pharmacy claims are also the most frequent claims: many people never go to hospital in a year, but lots of people pick up a prescription every month.",
+     "focus": -1,
+     "file": "clips/02a5fbb72814.mp3",
+     "seconds": 9.45
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Pharmacy data = the record of prescription medicines picked up from a pharmacy.",
+     "say": "Pharmacy data = the record of prescription medicines picked up from a pharmacy.",
+     "focus": 0,
+     "file": "clips/6a40e3a64ff0.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "In the US, the pharmacy sends the claim electronically and gets an answer in seconds: **real-time adjudication**.",
+     "say": "In the U S, the pharmacy sends the claim electronically and gets an answer in seconds: real-time adjudication.",
+     "focus": 1,
+     "file": "clips/0ee022acb5a0.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "Drugs taken at home are usually on the **pharmacy benefit**; drugs given in a clinic are usually billed on the **medical** claim with HCPCS J-codes.",
+     "say": "Drugs taken at home are usually on the pharmacy benefit; drugs given in a clinic are usually billed on the medical claim with H C P C S J-codes.",
+     "focus": 2,
+     "file": "clips/c44991ad9a6d.mp3",
+     "seconds": 10.65
+    },
+    {
+     "raw": "A pharmacy claim usually has **no diagnosis code**.",
+     "say": "A pharmacy claim usually has no diagnosis code.",
+     "focus": 3,
+     "file": "clips/3b991120cecf.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

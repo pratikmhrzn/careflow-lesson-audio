@@ -1,0 +1,694 @@
+{
+ "courseId": "basics",
+ "lessonId": "the-patient",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: The Patient (Member).",
+     "say": "Lesson 2: The Patient (Member).",
+     "focus": -1,
+     "file": "clips/0789c9500295.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Insured or uninsured, and where each American's coverage comes from.",
+     "say": "Insured or uninsured, and where each American's coverage comes from.",
+     "focus": -1,
+     "file": "clips/99a0f0b705f9.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Explain the difference between a patient and a member.",
+     "say": "Explain the difference between a patient and a member.",
+     "focus": 0,
+     "file": "clips/9ad96fe94856.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Name the main sources of US health coverage.",
+     "say": "Name the main sources of U S health coverage.",
+     "focus": 1,
+     "file": "clips/942a93973ccb.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Know roughly how many Americans are uninsured.",
+     "say": "Know roughly how many Americans are uninsured.",
+     "focus": 2,
+     "file": "clips/862aaebd484e.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Know that members pay to have cover and a share when they use care.",
+     "say": "Know that members pay to have cover and a share when they use care.",
+     "focus": 3,
+     "file": "clips/46f7fd76b9cb.mp3",
+     "seconds": 4.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Patient or member?",
+     "say": "Patient or member?",
+     "focus": -1,
+     "file": "clips/38e3727d9af1.mp3",
+     "seconds": 1.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Patient or member?",
+   "lines": [
+    {
+     "raw": "A **patient** is anyone who receives care.",
+     "say": "A patient is anyone who receives care.",
+     "focus": -1,
+     "file": "clips/f249d95ac6da.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "When that person has health insurance, the insurance company calls them a **member** of its plan.",
+     "say": "When that person has health insurance, the insurance company calls them a member of its plan.",
+     "focus": -1,
+     "file": "clips/6ffd150eef91.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "Emily is Dr. Patel's **patient**, and she is a **member** of her employer's plan.",
+     "say": "Emily is Doctor Patel's patient, and she is a member of her employer's plan.",
+     "focus": -1,
+     "file": "clips/0d8a8b81a329.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Same person, two names, depending on who is talking.",
+     "say": "Same person, two names, depending on who is talking.",
+     "focus": -1,
+     "file": "clips/8b2f65b738de.mp3",
+     "seconds": 3.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Patient or member?",
+   "lines": [
+    {
+     "raw": "Member.",
+     "say": "Member.",
+     "focus": 0,
+     "file": "clips/8bbaccc90249.mp3",
+     "seconds": 1.375
+    },
+    {
+     "raw": "A person covered by a health plan.",
+     "say": "A person covered by a health plan.",
+     "focus": 0,
+     "file": "clips/6e3d3b56ce99.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Each member has a **member ID**.",
+     "say": "Each member has a member I D.",
+     "focus": 0,
+     "file": "clips/a7c29c91412c.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Emily is `M1001`, her daughter Lily is `M1002`, her husband Daniel is `M1003`.",
+     "say": "Emily is M 1 0 0 1, her daughter Lily is M 1 0 0 2, her husband Daniel is M 1 0 0 3.",
+     "focus": 0,
+     "file": "clips/14428ab1670c.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "(Her insurance card shows the number `48291307-01`; `M1001` is the ID inside the insurer's systems.)",
+     "say": "(Her insurance card shows the number 4 8 2 9 1 3 0 7 dash 0 1; M 1 0 0 1 is the I D inside the insurer's systems.)",
+     "focus": 0,
+     "file": "clips/ebb0e0424dfb.mp3",
+     "seconds": 11.8
+    },
+    {
+     "raw": "Subscriber.",
+     "say": "Subscriber.",
+     "focus": 1,
+     "file": "clips/25e4dfe94565.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The main person who holds the cover, usually the employee.",
+     "say": "The main person who holds the cover, usually the employee.",
+     "focus": 1,
+     "file": "clips/6ff0aff126d1.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Emily is the subscriber.",
+     "say": "Emily is the subscriber.",
+     "focus": 1,
+     "file": "clips/3a5e68e59de1.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Dependent.",
+     "say": "Dependent.",
+     "focus": 2,
+     "file": "clips/fc544d6f343c.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "A family member covered through the subscriber, such as a spouse or child.",
+     "say": "A family member covered through the subscriber, such as a spouse or child.",
+     "focus": 2,
+     "file": "clips/7d8ebea481c4.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Daniel and Lily are dependents.",
+     "say": "Daniel and Lily are dependents.",
+     "focus": 2,
+     "file": "clips/f95af3350d1e.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Insured / uninsured.",
+     "say": "Insured or uninsured.",
+     "focus": 3,
+     "file": "clips/0660dc1d24ee.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "**Insured** means the person has health cover.",
+     "say": "Insured means the person has health cover.",
+     "focus": 3,
+     "file": "clips/d0b08b02c528.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "**Uninsured** means they have none and must pay for care themselves.",
+     "say": "Uninsured means they have none and must pay for care themselves.",
+     "focus": 3,
+     "file": "clips/cc969cec2694.mp3",
+     "seconds": 4.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Patient or member?",
+   "lines": [
+    {
+     "raw": "Members in Nepal too.",
+     "say": "Members in Nepal too.",
+     "focus": -1,
+     "file": "clips/e12f9218ef9b.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Ram is a **policyholder** of his startup's group policy.",
+     "say": "Ram is a policyholder of his startup's group policy.",
+     "focus": 0,
+     "file": "clips/56f5c492b108.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "If the policy also covers his spouse, she would be a covered family member, like a dependent.",
+     "say": "If the policy also covers his spouse, she would be a covered family member, like a dependent.",
+     "focus": 0,
+     "file": "clips/79a6a646accf.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita is an SSF **contributor**.",
+     "say": "Sita is an S S F contributor.",
+     "focus": 1,
+     "file": "clips/3032e1f25a0a.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Her SSF ID card proves she is covered, just like Emily's insurance card proves she is a member.",
+     "say": "Her S S F I D card proves she is covered, just like Emily's insurance card proves she is a member.",
+     "focus": 1,
+     "file": "clips/5985c10d6d15.mp3",
+     "seconds": 7.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Where do Americans get coverage?",
+     "say": "Where do Americans get coverage?",
+     "focus": -1,
+     "file": "clips/37daac37013e.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Where do Americans get coverage?",
+   "lines": [
+    {
+     "raw": "Every American falls into one (or sometimes more than one) of these groups.",
+     "say": "Every American falls into one (or sometimes more than one) of these groups.",
+     "focus": -1,
+     "file": "clips/8c9ad3ebed79.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "The numbers are **approximate** and change a little each year.",
+     "say": "The numbers are approximate and change a little each year.",
+     "focus": -1,
+     "file": "clips/4627ef3b76bb.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Where do Americans get coverage?",
+   "lines": [
+    {
+     "raw": "Main sources of US health coverage (approximate shares of the population).",
+     "say": "Main sources of U S health coverage (approximate shares of the population).",
+     "focus": -1,
+     "file": "clips/d1512451b7f2.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "**Employer plan**. Who it is for: Workers and their families. Roughly how many: About **half** of Americans. Nepal comparison: Ram's startup group policy.",
+     "say": "Employer plan. Who it is for: Workers and their families. Roughly how many: About half of Americans. Nepal comparison: Ram's startup group policy.",
+     "focus": 0,
+     "file": "clips/4a80c348569b.mp3",
+     "seconds": 10.475
+    },
+    {
+     "raw": "**Medicare**. Who it is for: People **65 and older**, and some younger people with disabilities. Roughly how many: Close to **1 in 5**. Nepal comparison: A national scheme earned through years of work and tax, a bit like SSF.",
+     "say": "Medicare. Who it is for: People 65 and older, and some younger people with disabilities. Roughly how many: Close to 1 in 5. Nepal comparison: A national scheme earned through years of work and tax, a bit like S S F.",
+     "focus": 1,
+     "file": "clips/2d7261b15576.mp3",
+     "seconds": 15.55
+    },
+    {
+     "raw": "**Medicaid** (and **CHIP** for children). Who it is for: People with **low income**, run by each state. Roughly how many: Close to **1 in 5**. Nepal comparison: Government help for poor families.",
+     "say": "Medicaid (and CHIP for children). Who it is for: People with low income, run by each state. Roughly how many: Close to 1 in 5. Nepal comparison: Government help for poor families.",
+     "focus": 2,
+     "file": "clips/3d5eeec99595.mp3",
+     "seconds": 12.925
+    },
+    {
+     "raw": "**Individual / Marketplace** (ACA). Who it is for: People who buy their own, e.g. self-employed. Roughly how many: Roughly **1 in 10**. Nepal comparison: Buying your own policy from an insurer.",
+     "say": "Individual or Marketplace (A C A). Who it is for: People who buy their own, for example self-employed. Roughly how many: Roughly 1 in 10. Nepal comparison: Buying your own policy from an insurer.",
+     "focus": 3,
+     "file": "clips/13d715b86663.mp3",
+     "seconds": 14.025
+    },
+    {
+     "raw": "**Military** (TRICARE, VA). Who it is for: Soldiers, veterans and their families. Roughly how many: A few percent. Nepal comparison: Army and police hospitals for service families.",
+     "say": "Military (TRICARE, V A). Who it is for: Soldiers, veterans and their families. Roughly how many: A few percent. Nepal comparison: Army and police hospitals for service families.",
+     "focus": 4,
+     "file": "clips/c5c630a26d69.mp3",
+     "seconds": 12.925
+    },
+    {
+     "raw": "**Uninsured**. Who it is for: People with no cover at all. Roughly how many: About **8%** (roughly 1 in 12). Nepal comparison: Paying everything out of pocket.",
+     "say": "Uninsured. Who it is for: People with no cover at all. Roughly how many: About 8 percent (roughly 1 in 12). Nepal comparison: Paying everything out of pocket.",
+     "focus": 5,
+     "file": "clips/744e81f4a8be.mp3",
+     "seconds": 11.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Where do Americans get coverage?",
+   "lines": [
+    {
+     "raw": "Why the shares add up to more than 100%.",
+     "say": "Why the shares add up to more than 100 percent.",
+     "focus": -1,
+     "file": "clips/7f5c60effac0.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Some people have **two** sources at once.",
+     "say": "Some people have two sources at once.",
+     "focus": -1,
+     "file": "clips/fadb7a6b8551.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "For example, a low-income person over 65 can have both Medicare and Medicaid (called **dual eligible**), and some retirees have Medicare plus a plan from their old employer.",
+     "say": "For example, a low-income person over 65 can have both Medicare and Medicaid (called dual eligible), and some retirees have Medicare plus a plan from their old employer.",
+     "focus": -1,
+     "file": "clips/7910e5155f21.mp3",
+     "seconds": 12.275
+    },
+    {
+     "raw": "So if you add the shares, you get more than 100%.",
+     "say": "So if you add the shares, you get more than 100 percent.",
+     "focus": -1,
+     "file": "clips/708becb8b18f.mp3",
+     "seconds": 3.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Where do Americans get coverage?",
+   "lines": [
+    {
+     "raw": "In the US: Our US family, labelled.",
+     "say": "In the U S: Our U S family, labelled.",
+     "focus": -1,
+     "file": "clips/e346a7adedb1.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "**Emily** (`M1001`): **employer plan** through Bluebonnet Logistics.",
+     "say": "Emily (M 1 0 0 1): employer plan through Bluebonnet Logistics.",
+     "focus": 0,
+     "file": "clips/61aa6e4ed457.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "She is the subscriber.",
+     "say": "She is the subscriber.",
+     "focus": 0,
+     "file": "clips/76552733a2b1.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "**Daniel** (`M1003`): **employer plan** as Emily's dependent, from 1 July 2025.",
+     "say": "Daniel (M 1 0 0 3): employer plan as Emily's dependent, from 1 July 2025.",
+     "focus": 1,
+     "file": "clips/9a0aea451017.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "Before he lost his job, he had cover through his own employer.",
+     "say": "Before he lost his job, he had cover through his own employer.",
+     "focus": 1,
+     "file": "clips/0967dae71616.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "**Lily** (`M1002`): **employer plan** as Emily's dependent.",
+     "say": "Lily (M 1 0 0 2): employer plan as Emily's dependent.",
+     "focus": 2,
+     "file": "clips/d92f07d60788.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "**Robert** (Emily's father): **Medicare**, because he is over 65.",
+     "say": "Robert (Emily's father): Medicare, because he is over 65.",
+     "focus": 3,
+     "file": "clips/3ede4b485289.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "From 2022 to 2023 he had **Original Medicare** (run directly by the government) plus a separate **Part D** plan for medicines.",
+     "say": "From 2022 to 2023 he had Original Medicare (run directly by the government) plus a separate Part D plan for medicines.",
+     "focus": 3,
+     "file": "clips/fdd5e5b815f9.mp3",
+     "seconds": 9.225
+    },
+    {
+     "raw": "Since 1 January 2024 he has a **Medicare Advantage** plan, **Gulf Coast Advantage (HMO)** from Gulf Coast Health Plan (made up), which also covers his medicines.",
+     "say": "Since 1 January 2024 he has a Medicare Advantage plan, Gulf Coast Advantage (H M O) from Gulf Coast Health Plan (made up), which also covers his medicines.",
+     "focus": 3,
+     "file": "clips/4ae19b1c5fef.mp3",
+     "seconds": 11.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What does being uninsured mean?",
+     "say": "What does being uninsured mean?",
+     "focus": -1,
+     "file": "clips/55958e06ce70.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "What does being uninsured mean?",
+   "lines": [
+    {
+     "raw": "An uninsured person can still get care, but must pay the full bill, often at a higher price than an insurer would pay.",
+     "say": "An uninsured person can still get care, but must pay the full bill, often at a higher price than an insurer would pay.",
+     "focus": -1,
+     "file": "clips/51795b48c4e1.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "US hospital **emergency departments** must check and stabilise anyone with an emergency, whether or not they can pay.",
+     "say": "U S hospital emergency departments must check and stabilise anyone with an emergency, whether or not they can pay.",
+     "focus": -1,
+     "file": "clips/e1b2c014ffdc.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "But the bill still comes later.",
+     "say": "But the bill still comes later.",
+     "focus": -1,
+     "file": "clips/ec3412b9e592.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "What does being uninsured mean?",
+   "lines": [
+    {
+     "raw": "Like most patients in Nepal.",
+     "say": "Like most patients in Nepal.",
+     "focus": -1,
+     "file": "clips/4b129d87dd41.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "An uninsured American is in the same position as a Nepali family with no SSF, no Health Insurance Board cover and no private policy: every ticket, test and medicine is paid at the counter.",
+     "say": "An uninsured American is in the same position as a Nepali family with no S S F, no Health Insurance Board cover and no private policy: every ticket, test and medicine is paid at the counter.",
+     "focus": -1,
+     "file": "clips/e2e55f75c4f3.mp3",
+     "seconds": 13.65
+    },
+    {
+     "raw": "The difference is the size of the bill.",
+     "say": "The difference is the size of the bill.",
+     "focus": -1,
+     "file": "clips/613460a1f97c.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "A US hospital stay can cost more than a Nepali family earns in years.",
+     "say": "A U S hospital stay can cost more than a Nepali family earns in years.",
+     "focus": -1,
+     "file": "clips/433ba016d230.mp3",
+     "seconds": 5.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What a member pays.",
+     "say": "What a member pays.",
+     "focus": -1,
+     "file": "clips/4731278f3f44.mp3",
+     "seconds": 1.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "What a member pays",
+   "lines": [
+    {
+     "raw": "Having insurance does not mean care is free.",
+     "say": "Having insurance does not mean care is free.",
+     "focus": -1,
+     "file": "clips/5ad2e2c5d38f.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "A member pays a regular **premium** just to have cover, and a share of the bill (such as a fixed **copay**) when they use care.",
+     "say": "A member pays a regular premium just to have cover, and a share of the bill (such as a fixed copay) when they use care.",
+     "focus": -1,
+     "file": "clips/4f9818cc652f.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "For example, Emily's strep throat visit on **10 March 2025** had a plan-agreed price of **$102**: she paid a **$25 copay** and the plan paid the other **$77**.",
+     "say": "For example, Emily's strep throat visit on 10 March 2025 had a plan-agreed price of 102 dollars: she paid a 25 dollars copay and the plan paid the other 77 dollars.",
+     "focus": -1,
+     "file": "clips/e01e7dfae1e3.mp3",
+     "seconds": 13.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "What a member pays",
+   "lines": [
+    {
+     "raw": "The cost sharing words.",
+     "say": "The cost sharing words.",
+     "focus": -1,
+     "file": "clips/a67e21963fe1.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Premium, deductible, copay, coinsurance and the out-of-pocket maximum are taught step by step, with a worked example, in the Terminologies course.",
+     "say": "Premium, deductible, copay, coinsurance and the out-of-pocket maximum are taught step by step, with a worked example, in the Terminologies course.",
+     "focus": -1,
+     "file": "clips/fccd21effe00.mp3",
+     "seconds": 9.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "What a member pays",
+   "lines": [
+    {
+     "raw": "Want to go deeper?",
+     "say": "Want to go deeper?",
+     "focus": -1,
+     "file": "clips/5f97636bdef1.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Subscribers, dependents, coverage dates and member IDs are the heart of **eligibility data**.",
+     "say": "Subscribers, dependents, coverage dates and member I D's are the heart of eligibility data.",
+     "focus": -1,
+     "file": "clips/bc5a759b3c03.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "The Eligibility course covers them step by step.",
+     "say": "The Eligibility course covers them step by step.",
+     "focus": -1,
+     "file": "clips/6bd75253d48f.mp3",
+     "seconds": 3.525
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A patient receives care; a member is a patient who belongs to a health plan.",
+     "say": "A patient receives care; a member is a patient who belongs to a health plan.",
+     "focus": 0,
+     "file": "clips/a164d3657d99.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Subscriber = main cover holder; dependents = family covered through them.",
+     "say": "Subscriber = main cover holder; dependents = family covered through them.",
+     "focus": 1,
+     "file": "clips/d879f8fba55a.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Main sources: employer (about half), Medicare, Medicaid, individual Marketplace, military.",
+     "say": "Main sources: employer (about half), Medicare, Medicaid, individual Marketplace, military.",
+     "focus": 2,
+     "file": "clips/5cf3ff98d245.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "About 8% are uninsured.",
+     "say": "About 8 percent are uninsured.",
+     "focus": 2,
+     "file": "clips/f71c3c58441f.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Members pay a premium to have cover, plus a share of the bill when they use care (the Terminologies course explains each cost sharing word).",
+     "say": "Members pay a premium to have cover, plus a share of the bill when they use care (the Terminologies course explains each cost sharing word).",
+     "focus": 3,
+     "file": "clips/e9dd8013d23d.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.6
+    }
+   ]
+  }
+ ]
+}

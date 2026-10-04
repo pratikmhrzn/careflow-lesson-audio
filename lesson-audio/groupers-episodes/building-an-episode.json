@@ -1,0 +1,680 @@
+{
+ "courseId": "groupers-episodes",
+ "lessonId": "building-an-episode",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: Building an Episode from Claims.",
+     "say": "Lesson 7: Building an Episode from Claims.",
+     "focus": -1,
+     "file": "clips/11ccc233db5f.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Finding the trigger, pulling the claims in the window, deciding which belong, and costing the episode.",
+     "say": "Finding the trigger, pulling the claims in the window, deciding which belong, and costing the episode.",
+     "focus": -1,
+     "file": "clips/ceb954b3c21b.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "List the steps to build an episode from claims data.",
+     "say": "List the steps to build an episode from claims data.",
+     "focus": 0,
+     "file": "clips/19f11030fffb.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Decide which claims belong to an episode using window and relatedness rules.",
+     "say": "Decide which claims belong to an episode using window and relatedness rules.",
+     "focus": 1,
+     "file": "clips/6353557666c1.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "Calculate an episode's cost and split it into before, during and after.",
+     "say": "Calculate an episode's cost and split it into before, during and after.",
+     "focus": 2,
+     "file": "clips/6c2a28d2ef89.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Compare an episode with its expected cost, and explain price standardization.",
+     "say": "Compare an episode with its expected cost, and explain price standardization.",
+     "focus": 3,
+     "file": "clips/ed0ef5c5bcc6.mp3",
+     "seconds": 5.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with a pile of receipts.",
+     "say": "Start with a pile of receipts.",
+     "focus": -1,
+     "file": "clips/2567d49dfbc0.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with a pile of receipts",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram claims his mother's cataract surgery.",
+     "say": "In Nepal: Ram claims his mother's cataract surgery.",
+     "focus": -1,
+     "file": "clips/2ed5bb37e67e.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's mother had cataract surgery.",
+     "say": "Ram's mother had cataract surgery.",
+     "focus": 0,
+     "file": "clips/4456bfca73ff.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "To claim it from his insurer, Ram empties a folder of three months of receipts onto the table.",
+     "say": "To claim it from his insurer, Ram empties a folder of three months of receipts onto the table.",
+     "focus": 0,
+     "file": "clips/c0dc0e417bf9.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "The eye check-up before surgery: **in**.",
+     "say": "The eye check-up before surgery: in.",
+     "focus": 1,
+     "file": "clips/7d5ce2b51165.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "The surgery bill: **in**.",
+     "say": "The surgery bill: in.",
+     "focus": 1,
+     "file": "clips/42dd551b6080.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "The eye drops afterwards: **in**.",
+     "say": "The eye drops afterwards: in.",
+     "focus": 1,
+     "file": "clips/fe557bd53f08.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "The follow-up eye check: **in**.",
+     "say": "The follow-up eye check: in.",
+     "focus": 1,
+     "file": "clips/dc33b3d4767c.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "Her blood pressure tablets and a dentist bill from the same months: **out**.",
+     "say": "Her blood pressure tablets and a dentist bill from the same months: out.",
+     "focus": 2,
+     "file": "clips/9db11e31357e.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "They are real costs, but not part of the cataract treatment.",
+     "say": "They are real costs, but not part of the cataract treatment.",
+     "focus": 2,
+     "file": "clips/99dce723a200.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "An SSF reviewer does the same sorting when deciding which bills belong to one hospital package and which are separate claims.",
+     "say": "An S S F reviewer does the same sorting when deciding which bills belong to one hospital package and which are separate claims.",
+     "focus": 3,
+     "file": "clips/18d4a9441cf3.mp3",
+     "seconds": 8.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with a pile of receipts",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Building an episode means finding the **trigger** claim, pulling every claim for that member in the **window**, keeping only the ones the **relatedness rules** say belong, and adding up their cost.",
+     "say": "Building an episode means finding the trigger claim, pulling every claim for that member in the window, keeping only the ones the relatedness rules say belong, and adding up their cost.",
+     "focus": -1,
+     "file": "clips/2964dcce376c.mp3",
+     "seconds": 11.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: the build steps.",
+     "say": "The U S version: the build steps.",
+     "focus": -1,
+     "file": "clips/4eaa140f5da8.mp3",
+     "seconds": 2.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: the build steps",
+   "lines": [
+    {
+     "raw": "Step 1: Find triggers.",
+     "say": "Step 1: Find triggers.",
+     "focus": 0,
+     "file": "clips/3681f684657c.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Group hospital stays (DRGs) and outpatient claims, then select those that match the trigger rule.",
+     "say": "Group hospital stays (D R G's) and outpatient claims, then select those that match the trigger rule.",
+     "focus": 0,
+     "file": "clips/59c6d74d275b.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "Step 2: Check the clean period and eligibility.",
+     "say": "Step 2: Check the clean period and eligibility.",
+     "focus": 1,
+     "file": "clips/7fa3d50a6f7f.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Start a new episode only if no episode of the same type is open.",
+     "say": "Start a new episode only if no episode of the same type is open.",
+     "focus": 1,
+     "file": "clips/cbc953a3d51a.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "Check the member was enrolled for the whole window, or the episode will look cheap because care is missing.",
+     "say": "Check the member was enrolled for the whole window, or the episode will look cheap because care is missing.",
+     "focus": 1,
+     "file": "clips/9f1d14514275.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "Step 3: Set the window.",
+     "say": "Step 3: Set the window.",
+     "focus": 2,
+     "file": "clips/958cfb86317b.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Work out the start and end dates from the trigger dates.",
+     "say": "Work out the start and end dates from the trigger dates.",
+     "focus": 2,
+     "file": "clips/18e51e26592f.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Step 4: Pull candidate claims.",
+     "say": "Step 4: Pull candidate claims.",
+     "focus": 3,
+     "file": "clips/56f0bf4f98a3.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "All medical (and, if in scope, pharmacy) claims for that member with service dates in the window.",
+     "say": "All medical (and, if in scope, pharmacy) claims for that member with service dates in the window.",
+     "focus": 3,
+     "file": "clips/155f0c762e7f.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "Step 5: Apply relatedness rules.",
+     "say": "Step 5: Apply relatedness rules.",
+     "focus": 4,
+     "file": "clips/fa1811c1916a.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Keep claims whose diagnoses or procedures are on the episode's lists, or keep everything for an all-cause episode.",
+     "say": "Keep claims whose diagnoses or procedures are on the episode's lists, or keep everything for an all-cause episode.",
+     "focus": 4,
+     "file": "clips/fe474be302bf.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Step 6: Assign each claim once.",
+     "say": "Step 6: Assign each claim once.",
+     "focus": 5,
+     "file": "clips/b9a201e5b1cd.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "If a claim could belong to two episodes, follow priority rules so it is counted only once.",
+     "say": "If a claim could belong to two episodes, follow priority rules so it is counted only once.",
+     "focus": 5,
+     "file": "clips/e9431dc5b92d.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "Step 7: Sum and compare.",
+     "say": "Step 7: Sum and compare.",
+     "focus": 6,
+     "file": "clips/2a4898e42389.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Add the allowed amounts, then compare with the expected cost for a similar patient.",
+     "say": "Add the allowed amounts, then compare with the expected cost for a similar patient.",
+     "focus": 6,
+     "file": "clips/65e48ee6b27d.mp3",
+     "seconds": 5.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Robert's knee replacement episode.",
+     "say": "Worked example: Robert's knee replacement episode.",
+     "focus": -1,
+     "file": "clips/b0fa0ef7fff4.mp3",
+     "seconds": 3.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Worked example: Robert's knee replacement episode",
+   "lines": [
+    {
+     "raw": "**Robert** (born 1957, retired teacher in Houston, type 2 diabetes and high blood pressure, on the made-up Medicare Advantage plan Gulf Coast Advantage since January 2024) had his right knee replaced at the made-up Harbor Point Hospital: admitted **8 September 2025**, discharged **10 September**.",
+     "say": "Robert (born 1957, retired teacher in Houston, type 2 diabetes and high blood pressure, on the made-up Medicare Advantage plan Gulf Coast Advantage since January 2024) had his right knee replaced at the made-up Harbor Point Hospital: admitted 8 September 2025, discharged 10 September.",
+     "focus": -1,
+     "file": "clips/005f53ea6a93.mp3",
+     "seconds": 21.5
+    },
+    {
+     "raw": "The window is **9 August to 9 December 2025** (30 days before admission, 90 days after discharge).",
+     "say": "The window is 9 August to 9 December 2025 (30 days before admission, 90 days after discharge).",
+     "focus": -1,
+     "file": "clips/bbd7c26f60f7.mp3",
+     "seconds": 8.175
+    },
+    {
+     "raw": "He was enrolled the whole time.",
+     "say": "He was enrolled the whole time.",
+     "focus": -1,
+     "file": "clips/0cb99d7c4c61.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Worked example: Robert's knee replacement episode",
+   "lines": [
+    {
+     "raw": "Robert's candidate claims and the decision for each (allowed amounts illustrative).",
+     "say": "Robert's candidate claims and the decision for each (allowed amounts illustrative).",
+     "focus": -1,
+     "file": "clips/2851ff0beeb8.mp3",
+     "seconds": 5.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Worked example: Robert's knee replacement episode",
+   "lines": [
+    {
+     "raw": "Why the follow-up visit is $0.",
+     "say": "Why the follow-up visit is 0 dollars.",
+     "focus": -1,
+     "file": "clips/4747abfd9c5e.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "For a major operation, the surgeon's fee already covers routine follow-up visits for 90 days (the **global surgery period**).",
+     "say": "For a major operation, the surgeon's fee already covers routine follow-up visits for 90 days (the global surgery period).",
+     "focus": -1,
+     "file": "clips/ce4b1553df24.mp3",
+     "seconds": 8.525
+    },
+    {
+     "raw": "The visit still appears in the data, but with $0 allowed.",
+     "say": "The visit still appears in the data, but with 0 dollars allowed.",
+     "focus": -1,
+     "file": "clips/2142472fcc9d.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "It belongs in the episode; it just adds nothing to the cost.",
+     "say": "It belongs in the episode; it just adds nothing to the cost.",
+     "focus": -1,
+     "file": "clips/01b3b2157b7b.mp3",
+     "seconds": 4.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Worked example: Robert's knee replacement episode",
+   "lines": [
+    {
+     "raw": "Robert's episode cost.",
+     "say": "Robert's episode cost.",
+     "focus": -1,
+     "file": "clips/4bf726950eae.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Before (pre-trigger). Claims: Surgeon visit, pre-surgery tests. Allowed: $180 + $150 = **$330**.",
+     "say": "Before (pre-trigger). Claims: Surgeon visit, pre-surgery tests. Allowed: 180 dollars and 150 dollars = 330 dollars.",
+     "focus": 0,
+     "file": "clips/46841c569d4d.mp3",
+     "seconds": 10.975
+    },
+    {
+     "raw": "Trigger. Claims: Hospital stay, surgeon, anaesthesia. Allowed: $14,500 + $1,600 + $500 = **$16,600**.",
+     "say": "Trigger. Claims: Hospital stay, surgeon, anaesthesia. Allowed: 14500 dollars and 1600 dollars and 500 dollars = 16600 dollars.",
+     "focus": 1,
+     "file": "clips/ef97604e193a.mp3",
+     "seconds": 13
+    },
+    {
+     "raw": "After (post-trigger). Claims: Pharmacy, physiotherapy, follow-up, ER visit. Allowed: $60 + $1,800 + $0 + $1,200 = **$3,060**.",
+     "say": "After (post-trigger). Claims: Pharmacy, physiotherapy, follow-up, E R visit. Allowed: 60 dollars and 1800 dollars and 0 dollars and 1200 dollars = 3060 dollars.",
+     "focus": 2,
+     "file": "clips/2aedec09babe.mp3",
+     "seconds": 14.025
+    },
+    {
+     "raw": "**Episode total (related care)**. Claims: 9 claims. Allowed: **$19,990**.",
+     "say": "Episode total (related care). Claims: 9 claims. Allowed: 19990 dollars.",
+     "focus": 3,
+     "file": "clips/ffb1dbcb0887.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "All-cause version (adds the diabetes check). Claims: 10 claims. Allowed: $20,130.",
+     "say": "All-cause version (adds the diabetes check). Claims: 10 claims. Allowed: 20130 dollars.",
+     "focus": 4,
+     "file": "clips/2a769433d6d3.mp3",
+     "seconds": 8.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Comparing the episode fairly.",
+     "say": "Comparing the episode fairly.",
+     "focus": -1,
+     "file": "clips/7fe26215614d.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Comparing the episode fairly",
+   "lines": [
+    {
+     "raw": "Expected cost.",
+     "say": "Expected cost.",
+     "focus": 0,
+     "file": "clips/dd1fa340c69b.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "What a similar episode is expected to cost, from a model that uses age, conditions and other risk factors.",
+     "say": "What a similar episode is expected to cost, from a model that uses age, conditions and other risk factors.",
+     "focus": 0,
+     "file": "clips/f9e054219ebc.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "Robert's diabetes raises his expected cost.",
+     "say": "Robert's diabetes raises his expected cost.",
+     "focus": 0,
+     "file": "clips/02812771fc88.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "O/E ratio (observed ÷ expected).",
+     "say": "O/E ratio (observed ÷ expected).",
+     "focus": 1,
+     "file": "clips/aaafce82a912.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Actual cost divided by expected.",
+     "say": "Actual cost divided by expected.",
+     "focus": 1,
+     "file": "clips/7ea80a4bd532.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Below 1.0 = cheaper than expected.",
+     "say": "Below 1.0 = cheaper than expected.",
+     "focus": 1,
+     "file": "clips/92164b5773f7.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Price standardization.",
+     "say": "Price standardization.",
+     "focus": 2,
+     "file": "clips/2fc088b45fb2.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "Replacing each claim's actual price with a standard price for that service, so a hospital in an expensive city is not penalised for local prices.",
+     "say": "Replacing each claim's actual price with a standard price for that service, so a hospital in an expensive city is not penalised for local prices.",
+     "focus": 2,
+     "file": "clips/1c10a0d3a517.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "What is left is differences in **what care was used**.",
+     "say": "What is left is differences in what care was used.",
+     "focus": 2,
+     "file": "clips/7377a71f3eb7.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Outlier cap.",
+     "say": "Outlier cap.",
+     "focus": 3,
+     "file": "clips/1b11539ddf4a.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Limiting extreme episodes (for example at a high percentile) so a handful of very rare cases do not dominate averages.",
+     "say": "Limiting extreme episodes (for example at a high percentile) so a handful of very rare cases do not dominate averages.",
+     "focus": 3,
+     "file": "clips/94b2284c0128.mp3",
+     "seconds": 8.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Comparing the episode fairly",
+   "lines": [
+    {
+     "raw": "Robert's O/E ratio.",
+     "say": "Robert's O/E ratio.",
+     "focus": -1,
+     "file": "clips/5cd711b15a1f.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "O/E equals $19,990 ÷ $21,000 expected equals 0.95.",
+     "say": "O/E equals 19990 dollars ÷ 21000 dollars expected equals 0.95.",
+     "focus": 0,
+     "file": "clips/2094214c78ad.mp3",
+     "seconds": 10
+    },
+    {
+     "raw": "For example: Robert's episode cost about 5% less than expected for a patient like him, even with an ER visit after surgery.",
+     "say": "For example: Robert's episode cost about 5 percent less than expected for a patient like him, even with an E R visit after surgery.",
+     "focus": 1,
+     "file": "clips/c6f92c4ed283.mp3",
+     "seconds": 9.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Comparing the episode fairly",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Most of the work in an episode is in the **claim-to-episode table**: one row per claim, with the episode ID it was assigned to and why.",
+     "say": "Most of the work in an episode is in the claim-to-episode table: one row per claim, with the episode I D it was assigned to and why.",
+     "focus": -1,
+     "file": "clips/f0c55ee7c16c.mp3",
+     "seconds": 8.9
+    },
+    {
+     "raw": "Keep it.",
+     "say": "Keep it.",
+     "focus": -1,
+     "file": "clips/9c693c6e2a2f.mp3",
+     "seconds": 1.325
+    },
+    {
+     "raw": "When someone asks \"why does this hospital look expensive?\", you can show exactly which claims were included.",
+     "say": "When someone asks \"why does this hospital look expensive?\", you can show exactly which claims were included.",
+     "focus": -1,
+     "file": "clips/ae9a4e4471c0.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "And always check eligibility for the whole window: a member who left the plan in October would have an episode with no post-surgery care, which looks wonderfully cheap and is wrong.",
+     "say": "And always check eligibility for the whole window: a member who left the plan in October would have an episode with no post-surgery care, which looks wonderfully cheap and is wrong.",
+     "focus": -1,
+     "file": "clips/b9da7d6afdcd.mp3",
+     "seconds": 11.375
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Build steps: find triggers, check clean period and eligibility, set the window, pull claims, apply relatedness, assign once, sum.",
+     "say": "Build steps: find triggers, check clean period and eligibility, set the window, pull claims, apply relatedness, assign once, sum.",
+     "focus": 0,
+     "file": "clips/82d24c9c23b1.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "A claim joins the episode only if it is in the window and passes the relatedness rules.",
+     "say": "A claim joins the episode only if it is in the window and passes the relatedness rules.",
+     "focus": 1,
+     "file": "clips/951aace41524.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "Split the cost into before, trigger and after to see where money goes.",
+     "say": "Split the cost into before, trigger and after to see where money goes.",
+     "focus": 2,
+     "file": "clips/283b8c2af236.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Compare episodes with an expected cost (O/E), after price standardization and outlier caps.",
+     "say": "Compare episodes with an expected cost (O/E), after price standardization and outlier caps.",
+     "focus": 3,
+     "file": "clips/0cee7cf8cbd5.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "Keep a claim-to-episode table so every result can be explained.",
+     "say": "Keep a claim-to-episode table so every result can be explained.",
+     "focus": 4,
+     "file": "clips/2132c46a0f8a.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

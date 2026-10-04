@@ -1,0 +1,911 @@
+{
+ "courseId": "population-health",
+ "lessonId": "segmenting-a-population",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: Sorting People Into Groups.",
+     "say": "Lesson 3: Sorting People Into Groups.",
+     "focus": -1,
+     "file": "clips/c41db19f830b.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "Healthy, at risk, chronic, complex: not everyone needs the same help.",
+     "say": "Healthy, at risk, chronic, complex: not everyone needs the same help.",
+     "focus": -1,
+     "file": "clips/bfd42b70ff78.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Name the four common segments of a population.",
+     "say": "Name the four common segments of a population.",
+     "focus": 0,
+     "file": "clips/257d9431e1c9.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "Explain why a few people use most of the healthcare money.",
+     "say": "Explain why a few people use most of the healthcare money.",
+     "focus": 1,
+     "file": "clips/956352fb41fe.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Know what a disease registry is and what it is used for.",
+     "say": "Know what a disease registry is and what it is used for.",
+     "focus": 2,
+     "file": "clips/e34218038d3f.mp3",
+     "seconds": 4.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Not everyone needs the same thing.",
+     "say": "Not everyone needs the same thing.",
+     "focus": -1,
+     "file": "clips/d2cf6a77eacb.mp3",
+     "seconds": 2.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Not everyone needs the same thing",
+   "lines": [
+    {
+     "raw": "An FCHV does not give every household the same visit.",
+     "say": "An F C H V does not give every household the same visit.",
+     "focus": -1,
+     "file": "clips/cff2d70f1379.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "A pregnant mother needs reminders about check-ups.",
+     "say": "A pregnant mother needs reminders about check-ups.",
+     "focus": -1,
+     "file": "clips/a229231e1e12.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "A newborn needs vaccines.",
+     "say": "A newborn needs vaccines.",
+     "focus": -1,
+     "file": "clips/77431293ba8d.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "An old man with a cough that will not go away needs to be sent to the health post.",
+     "say": "An old man with a cough that will not go away needs to be sent to the health post.",
+     "focus": -1,
+     "file": "clips/f2b5bcac3538.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "A healthy young family may just need a reminder about the next vitamin A day.",
+     "say": "A healthy young family may just need a reminder about the next vitamin A day.",
+     "focus": -1,
+     "file": "clips/f31f31dacb16.mp3",
+     "seconds": 5.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Not everyone needs the same thing",
+   "lines": [
+    {
+     "raw": "Population health teams do the same.",
+     "say": "Population health teams do the same.",
+     "focus": -1,
+     "file": "clips/3781529f3723.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "They **segment** (sort) the population into groups, then give each group the right kind of help.",
+     "say": "They segment (sort) the population into groups, then give each group the right kind of help.",
+     "focus": -1,
+     "file": "clips/41e085b2842d.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "This is called **segmentation**.",
+     "say": "This is called segmentation.",
+     "focus": -1,
+     "file": "clips/ff8d5a603ee8.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "This lesson describes the groups; lesson 4 shows how a **risk score** decides who goes in which group and who gets help first.",
+     "say": "This lesson describes the groups; lesson 4 shows how a risk score decides who goes in which group and who gets help first.",
+     "focus": -1,
+     "file": "clips/7ebb37006925.mp3",
+     "seconds": 7.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Not everyone needs the same thing",
+   "lines": [
+    {
+     "raw": "Think of a hospital emergency room.",
+     "say": "Think of a hospital emergency room.",
+     "focus": -1,
+     "file": "clips/0973c00a52f3.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "At the emergency room, a nurse quickly sorts patients: who needs a doctor right now, who can wait an hour, who can go home with advice.",
+     "say": "At the emergency room, a nurse quickly sorts patients: who needs a doctor right now, who can wait an hour, who can go home with advice.",
+     "focus": -1,
+     "file": "clips/8a7f7d8e8922.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "This is called **triage**.",
+     "say": "This is called triage.",
+     "focus": -1,
+     "file": "clips/2e86bdf165ed.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Segmentation is triage for a whole population, done with data, before anyone arrives at the emergency room.",
+     "say": "Segmentation is triage for a whole population, done with data, before anyone arrives at the emergency room.",
+     "focus": -1,
+     "file": "clips/c9f5605bd62e.mp3",
+     "seconds": 7.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The four common segments.",
+     "say": "The four common segments.",
+     "focus": -1,
+     "file": "clips/7df9458149e4.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The four common segments",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Healthy**. Who is in it: No long-term illness, little use of care. Example: Lily (6) and Daniel (37). What they need: Stay healthy: yearly check-ups, vaccines, screening tests.",
+     "say": "Healthy. Who is in it: No long-term illness, little use of care. Example: Lily (6) and Daniel (37). What they need: Stay healthy: yearly check-ups, vaccines, screening tests.",
+     "focus": 0,
+     "file": "clips/abdc12cb51d6.mp3",
+     "seconds": 12.575
+    },
+    {
+     "raw": "**At risk** (rising risk). Who is in it: Not sick yet, but warning signs. Example: Emily: high cholesterol, on a statin since July 2025. What they need: Catch it early: lifestyle help, keep taking the medicine.",
+     "say": "At risk (rising risk). Who is in it: Not sick yet, but warning signs. Example: Emily: high cholesterol, on a statin since July 2025. What they need: Catch it early: lifestyle help, keep taking the medicine.",
+     "focus": 1,
+     "file": "clips/2d4562212945.mp3",
+     "seconds": 15.2
+    },
+    {
+     "raw": "**Chronic**. Who is in it: One or more long-term illnesses, mostly stable. Example: Robert: type 2 diabetes and high blood pressure. What they need: Disease management: regular tests, medicine, education.",
+     "say": "Chronic. Who is in it: One or more long-term illnesses, mostly stable. Example: Robert: type 2 diabetes and high blood pressure. What they need: Disease management: regular tests, medicine, education.",
+     "focus": 2,
+     "file": "clips/18a9345e5e5d.mp3",
+     "seconds": 14.85
+    },
+    {
+     "raw": "**Complex** (high risk). Who is in it: Several serious illnesses, frequent hospital stays. Example: A fictional member with heart failure, diabetes and kidney disease, admitted twice this year. What they need: Care management: a nurse who coordinates everything.",
+     "say": "Complex (high risk). Who is in it: Several serious illnesses, frequent hospital stays. Example: A fictional member with heart failure, diabetes and kidney disease, admitted twice this year. What they need: Care management: a nurse who coordinates everything.",
+     "focus": 3,
+     "file": "clips/cd20fb7abccb.mp3",
+     "seconds": 17.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The four common segments",
+   "lines": [
+    {
+     "raw": "Names vary.",
+     "say": "Names vary.",
+     "focus": -1,
+     "file": "clips/5a275920b330.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "Different companies use different labels and numbers of groups: \"low / medium / high risk\", \"well / rising risk / chronic / catastrophic\", or five or six tiers.",
+     "say": "Different companies use different labels and numbers of groups: \"low or medium or high risk\", \"well or rising risk or chronic or catastrophic\", or five or six tiers.",
+     "focus": -1,
+     "file": "clips/2e50b6a8ad53.mp3",
+     "seconds": 11.7
+    },
+    {
+     "raw": "The idea is always the same: sort people by how much help they need.",
+     "say": "The idea is always the same: sort people by how much help they need.",
+     "focus": -1,
+     "file": "clips/756f7daab869.mp3",
+     "seconds": 4.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A few people use most of the money.",
+     "say": "A few people use most of the money.",
+     "focus": -1,
+     "file": "clips/625a22dd0aee.mp3",
+     "seconds": 2.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "A few people use most of the money",
+   "lines": [
+    {
+     "raw": "This is the most important fact in population health.",
+     "say": "This is the most important fact in population health.",
+     "focus": -1,
+     "file": "clips/6b9c1d739e6b.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "US government survey data has shown the same pattern for many years: roughly **5% of people account for about half of all healthcare spending**, while the healthiest half of people account for only a few percent.",
+     "say": "U S government survey data has shown the same pattern for many years: roughly 5 percent of people account for about half of all healthcare spending, while the healthiest half of people account for only a few percent.",
+     "focus": -1,
+     "file": "clips/171c622610ee.mp3",
+     "seconds": 13.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "A few people use most of the money",
+   "lines": [
+    {
+     "raw": "Here is an **illustrative** plan with 1,000 members, built to show that pattern.",
+     "say": "Here is an illustrative plan with 1,000 members, built to show that pattern.",
+     "focus": -1,
+     "file": "clips/f26e28e27aea.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "(The numbers are made up but realistic.",
+     "say": "(The numbers are made up but realistic.",
+     "focus": -1,
+     "file": "clips/c99425510895.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "The Eligibility course uses the same $500 PMPM \"Plan A\" example.)",
+     "say": "The Eligibility course uses the same 500 dollars P M P M \"Plan A\" example.)",
+     "focus": -1,
+     "file": "clips/1303d36759e3.mp3",
+     "seconds": 6.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "A few people use most of the money",
+   "lines": [
+    {
+     "raw": "An illustrative plan: 1,000 members, all covered for 12 months, $6,000,000 total cost.",
+     "say": "An illustrative plan: 1,000 members, all covered for 12 months, 6000000 dollars total cost.",
+     "focus": -1,
+     "file": "clips/07fa1cb32fdf.mp3",
+     "seconds": 7.35
+    },
+    {
+     "raw": "Healthy. Members: 550. % of members: 55%. Cost per member per year: $1,200. Total cost: $660,000. % of cost: 11%. PMPM (per member per month): $100.",
+     "say": "Healthy. Members: 550. % of members: 55 percent. Cost per member per year: 1200 dollars. Total cost: 660000 dollars. % of cost: 11 percent. P M P M (per member per month): 100 dollars.",
+     "focus": 0,
+     "file": "clips/08910760dfdd.mp3",
+     "seconds": 18.225
+    },
+    {
+     "raw": "At risk. Members: 250. % of members: 25%. Cost per member per year: $3,600. Total cost: $900,000. % of cost: 15%. PMPM (per member per month): $300.",
+     "say": "At risk. Members: 250. % of members: 25 percent. Cost per member per year: 3600 dollars. Total cost: 900000 dollars. % of cost: 15 percent. P M P M (per member per month): 300 dollars.",
+     "focus": 1,
+     "file": "clips/40822ce7052c.mp3",
+     "seconds": 17.975
+    },
+    {
+     "raw": "Chronic. Members: 150. % of members: 15%. Cost per member per year: $9,600. Total cost: $1,440,000. % of cost: 24%. PMPM (per member per month): $800.",
+     "say": "Chronic. Members: 150. % of members: 15 percent. Cost per member per year: 9600 dollars. Total cost: 1440000 dollars. % of cost: 24 percent. P M P M (per member per month): 800 dollars.",
+     "focus": 2,
+     "file": "clips/a33eca5c5112.mp3",
+     "seconds": 19.125
+    },
+    {
+     "raw": "Complex. Members: 50. % of members: 5%. Cost per member per year: $60,000. Total cost: $3,000,000. % of cost: 50%. PMPM (per member per month): $5,000.",
+     "say": "Complex. Members: 50. % of members: 5 percent. Cost per member per year: 60000 dollars. Total cost: 3000000 dollars. % of cost: 50 percent. P M P M (per member per month): 5000 dollars.",
+     "focus": 3,
+     "file": "clips/5b4af88346f9.mp3",
+     "seconds": 16.9
+    },
+    {
+     "raw": "**Total**. Members: **1,000**. % of members: **100%**. Cost per member per year: **$6,000**. Total cost: **$6,000,000**. % of cost: **100%**. PMPM (per member per month): **$500**.",
+     "say": "Total. Members: 1,000. % of members: 100 percent. Cost per member per year: 6000 dollars. Total cost: 6000000 dollars. % of cost: 100 percent. P M P M (per member per month): 500 dollars.",
+     "focus": 4,
+     "file": "clips/5bc5a9d35941.mp3",
+     "seconds": 17.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "A few people use most of the money",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Total cost: $660,000 + $900,000 + $1,440,000 + $3,000,000 = **$6,000,000** ✓.",
+     "say": "Total cost: 660000 dollars and 900000 dollars and 1440000 dollars and 3000000 dollars = 6000000 dollars ✓.",
+     "focus": -1,
+     "file": "clips/7c1cbe0be269.mp3",
+     "seconds": 12.05
+    },
+    {
+     "raw": "Member months: 1,000 × 12 = 12,000, so PMPM = $6,000,000 ÷ 12,000 = **$500** ✓.",
+     "say": "Member months: 1,000 × 12 = 12,000, so P M P M = 6000000 dollars ÷ 12,000 = 500 dollars ✓.",
+     "focus": -1,
+     "file": "clips/4796db14a7f1.mp3",
+     "seconds": 10.875
+    },
+    {
+     "raw": "Complex PMPM: $60,000 ÷ 12 = **$5,000**, which is **50 times** the healthy PMPM of $100.",
+     "say": "Complex P M P M: 60000 dollars ÷ 12 = 5000 dollars which is 50 times the healthy P M P M of 100 dollars.",
+     "focus": -1,
+     "file": "clips/88dd513b70f8.mp3",
+     "seconds": 11.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "A few people use most of the money",
+   "lines": [
+    {
+     "raw": "PMPM (per member per month), also explained in the Eligibility course.",
+     "say": "P M P M (per member per month), also explained in the Eligibility course.",
+     "focus": -1,
+     "file": "clips/45ec00c90b92.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "PMPM equals Total cost ÷ Member months.",
+     "say": "P M P M equals Total cost ÷ Member months.",
+     "focus": 0,
+     "file": "clips/fd2e25056f13.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "For example: Chronic segment: $1,440,000 ÷ (150 times 12) equals $1,440,000 ÷ 1,800 equals $800 PMPM.",
+     "say": "For example: Chronic segment: 1440000 dollars ÷ (150 times 12) equals 1440000 dollars ÷ 1,800 equals 800 dollars P M P M.",
+     "focus": 1,
+     "file": "clips/dd66098ad568.mp3",
+     "seconds": 16.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "A few people use most of the money",
+   "lines": [
+    {
+     "raw": "This is why segmentation matters.",
+     "say": "This is why segmentation matters.",
+     "focus": -1,
+     "file": "clips/88edd468f2fb.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Spending an extra $100 a month on a nurse for each of the 50 complex members costs $60,000 a year.",
+     "say": "Spending an extra 100 dollars a month on a nurse for each of the 50 complex members costs 60000 dollars a year.",
+     "focus": -1,
+     "file": "clips/13af28d7fb43.mp3",
+     "seconds": 8.4
+    },
+    {
+     "raw": "If that prevents even a few hospital stays, it can pay for itself.",
+     "say": "If that prevents even a few hospital stays, it can pay for itself.",
+     "focus": -1,
+     "file": "clips/1af61f2f83ce.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Spending the same on all 1,000 members would cost $1,200,000 a year.",
+     "say": "Spending the same on all 1,000 members would cost 1200000 dollars a year.",
+     "focus": -1,
+     "file": "clips/88aa60629b43.mp3",
+     "seconds": 6.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "A few people use most of the money",
+   "lines": [
+    {
+     "raw": "People move between segments.",
+     "say": "People move between segments.",
+     "focus": -1,
+     "file": "clips/faa39925b06d.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Segments are not fixed.",
+     "say": "Segments are not fixed.",
+     "focus": -1,
+     "file": "clips/2b387313d27b.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "A healthy person can have a car accident.",
+     "say": "A healthy person can have a car accident.",
+     "focus": -1,
+     "file": "clips/62e7c3da7298.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "An at-risk person can develop diabetes.",
+     "say": "An at-risk person can develop diabetes.",
+     "focus": -1,
+     "file": "clips/44372eb85ba3.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "And a person who was very expensive last year (for example, one surgery) may be cheap next year.",
+     "say": "And a person who was very expensive last year (for example, one surgery) may be cheap next year.",
+     "focus": -1,
+     "file": "clips/2efe6db5d7b0.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Emily is a good example: her **appendix surgery** made her one of the more expensive members in 2025, but it was a **one-time event**.",
+     "say": "Emily is a good example: her appendix surgery made her one of the more expensive members in 2025, but it was a one-time event.",
+     "focus": -1,
+     "file": "clips/febd0888c348.mp3",
+     "seconds": 9.15
+    },
+    {
+     "raw": "Her long-term concern is her cholesterol, so she is \"at risk\", not \"complex\".",
+     "say": "Her long-term concern is her cholesterol, so she is \"at risk\", not \"complex\".",
+     "focus": -1,
+     "file": "clips/78b9ea513338.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "Teams re-sort the population regularly, often every month.",
+     "say": "Teams re-sort the population regularly, often every month.",
+     "focus": -1,
+     "file": "clips/05452a25da86.mp3",
+     "seconds": 4.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Registries: the list for one condition.",
+     "say": "Registries: the list for one condition.",
+     "focus": -1,
+     "file": "clips/93be75a17d39.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Registries: the list for one condition",
+   "lines": [
+    {
+     "raw": "Registers you may have seen in Nepal.",
+     "say": "Registers you may have seen in Nepal.",
+     "focus": -1,
+     "file": "clips/20c56eb5f95c.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "A health post keeps a **register of pregnant women** in its area, so staff can check who has missed an antenatal check-up.",
+     "say": "A health post keeps a register of pregnant women in its area, so staff can check who has missed an antenatal check-up.",
+     "focus": -1,
+     "file": "clips/5c9a40a34658.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "TB treatment centres keep a **TB register**: every patient on treatment, when they started and whether they are taking their medicine.",
+     "say": "T B treatment centres keep a T B register: every patient on treatment, when they started and whether they are taking their medicine.",
+     "focus": -1,
+     "file": "clips/c5d2e279decb.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "An FCHV's notebook of households is a register too.",
+     "say": "An FCHV's notebook of households is a register too.",
+     "focus": -1,
+     "file": "clips/6eb088143bf2.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "The common idea: a **list of people with one condition**, kept up to date, with what is still due for each one, so nobody is forgotten.",
+     "say": "The common idea: a list of people with one condition, kept up to date, with what is still due for each one, so nobody is forgotten.",
+     "focus": -1,
+     "file": "clips/07935e833124.mp3",
+     "seconds": 8.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Registries: the list for one condition",
+   "lines": [
+    {
+     "raw": "In the US, this list is called a **registry**.",
+     "say": "In the U S, this list is called a registry.",
+     "focus": -1,
+     "file": "clips/2b18ea84cd51.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "The most common one is the **diabetes registry**.",
+     "say": "The most common one is the diabetes registry.",
+     "focus": -1,
+     "file": "clips/e1adbc3e19a7.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "It lists every member who has diabetes, with their latest test results and which recommended care they have or have not had this year.",
+     "say": "It lists every member who has diabetes, with their latest test results and which recommended care they have or have not had this year.",
+     "focus": -1,
+     "file": "clips/af2f4e00717b.mp3",
+     "seconds": 8.475
+    },
+    {
+     "raw": "The missing items are called **gaps in care**.",
+     "say": "The missing items are called gaps in care.",
+     "focus": -1,
+     "file": "clips/155124d8d003.mp3",
+     "seconds": 2.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Registries: the list for one condition",
+   "lines": [
+    {
+     "raw": "A diabetes registry (one row per person, as of 31 December 2025).",
+     "say": "A diabetes registry (one row per person, as of 31 December 2025).",
+     "focus": -1,
+     "file": "clips/09817be78144.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "For teaching, this course puts members of two different insurers in one small sample: Maria from an employer plan, and Robert and Thomas from Gulf Coast Health Plan's Medicare Advantage plan.",
+     "say": "For teaching, this course puts members of two different insurers in one small sample: Maria from an employer plan, and Robert and Thomas from Gulf Coast Health Plan's Medicare Advantage plan.",
+     "focus": -1,
+     "file": "clips/76935ef93238.mp3",
+     "seconds": 12.4
+    },
+    {
+     "raw": "Maria and Thomas are fictional.",
+     "say": "Maria and Thomas are fictional.",
+     "focus": -1,
+     "file": "clips/6a6d13ae308c.mp3",
+     "seconds": 2.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Registries: the list for one condition",
+   "lines": [
+    {
+     "raw": "A1c (HbA1c).",
+     "say": "A1c (H b A 1 c).",
+     "focus": 0,
+     "file": "clips/2a680f4ee16a.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "A blood test that shows a person's **average blood sugar over about the last 3 months**.",
+     "say": "A blood test that shows a person's average blood sugar over about the last 3 months.",
+     "focus": 0,
+     "file": "clips/7dd82c60f863.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Higher is worse.",
+     "say": "Higher is worse.",
+     "focus": 0,
+     "file": "clips/0ed246f523bf.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "For many adults with diabetes, doctors aim for below about **7%**; above **9%** is usually called poorly controlled.",
+     "say": "For many adults with diabetes, doctors aim for below about 7 percent; above 9 percent is usually called poorly controlled.",
+     "focus": 0,
+     "file": "clips/703bdcebc7f4.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "Gap in care.",
+     "say": "Gap in care.",
+     "focus": 1,
+     "file": "clips/b9a3d62a2fef.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "A recommended test or treatment the person has **not** had yet this year, like a yearly diabetes eye exam.",
+     "say": "A recommended test or treatment the person has not had yet this year, like a yearly diabetes eye exam.",
+     "focus": 1,
+     "file": "clips/c46704c15e8d.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "Registry.",
+     "say": "Registry.",
+     "focus": 2,
+     "file": "clips/04c92bd4c732.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "A list of every person in the population with a given condition, kept up to date, used to track their care.",
+     "say": "A list of every person in the population with a given condition, kept up to date, used to track their care.",
+     "focus": 2,
+     "file": "clips/4230d9654837.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Segment.",
+     "say": "Segment.",
+     "focus": 3,
+     "file": "clips/7a942b2d9c58.mp3",
+     "seconds": 1.45
+    },
+    {
+     "raw": "A group of people who need a similar kind of help (healthy, at risk, chronic, complex).",
+     "say": "A group of people who need a similar kind of help (healthy, at risk, chronic, complex).",
+     "focus": 3,
+     "file": "clips/ed2b7a992768.mp3",
+     "seconds": 5.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Registries: the list for one condition",
+   "lines": [
+    {
+     "raw": "In the US: What the team does with the registry.",
+     "say": "In the U S: What the team does with the registry.",
+     "focus": -1,
+     "file": "clips/932872a20150.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Maria has **two gaps** and an A1c of 9.2%.",
+     "say": "Maria has two gaps and an A1c of 9.2 percent.",
+     "focus": 0,
+     "file": "clips/ed1183993120.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "The plan calls her, books an eye exam and a kidney test, and offers a diabetes education programme.",
+     "say": "The plan calls her, books an eye exam and a kidney test, and offers a diabetes education programme.",
+     "focus": 0,
+     "file": "clips/4fd7d92db63e.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Robert needs a **kidney test**.",
+     "say": "Robert needs a kidney test.",
+     "focus": 1,
+     "file": "clips/15b679089d43.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "A reminder is sent to him and to his doctor.",
+     "say": "A reminder is sent to him and to his doctor.",
+     "focus": 1,
+     "file": "clips/67af75076a1a.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Thomas has no gaps.",
+     "say": "Thomas has no gaps.",
+     "focus": 2,
+     "file": "clips/5ef901c00cd3.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "His care manager keeps an eye on him because of his other illnesses.",
+     "say": "His care manager keeps an eye on him because of his other illnesses.",
+     "focus": 2,
+     "file": "clips/8cb04104d8c4.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Next month, the registry is refreshed with new claims and lab results, and the gaps list changes.",
+     "say": "Next month, the registry is refreshed with new claims and lab results, and the gaps list changes.",
+     "focus": 3,
+     "file": "clips/f5c35069e43a.mp3",
+     "seconds": 6.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Registries: the list for one condition",
+   "lines": [
+    {
+     "raw": "Registries feed quality scores.",
+     "say": "Registries feed quality scores.",
+     "focus": -1,
+     "file": "clips/571c027e72fd.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Many US quality measures (for example, the **HEDIS** measures, short for Healthcare Effectiveness Data and Information Set, used to rate health plans) check exactly these things: did people with diabetes get an eye exam, is their A1c controlled?",
+     "say": "Many U S quality measures (for example, the HEDIS measures, short for Healthcare Effectiveness Data and Information Set, used to rate health plans) check exactly these things: did people with diabetes get an eye exam, is their A1c controlled?",
+     "focus": -1,
+     "file": "clips/38185bb2b8bf.mp3",
+     "seconds": 16.15
+    },
+    {
+     "raw": "A registry helps a plan close gaps before the year ends.",
+     "say": "A registry helps a plan close gaps before the year ends.",
+     "focus": -1,
+     "file": "clips/37231275abfc.mp3",
+     "seconds": 3.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Registries: the list for one condition",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "A segment and a registry are both **snapshots**.",
+     "say": "A segment and a registry are both snapshots.",
+     "focus": -1,
+     "file": "clips/10b5e3e3e67d.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Store them with an **as-of date** (for example `segment_asof = 2025-12-31`), and keep the history, so you can later ask \"who moved from at risk to chronic this year?\".",
+     "say": "Store them with an as-of date (for example s e g m e n t _ a s o f = 2 0 2 5 dash 1 2 dash 3 1), and keep the history, so you can later ask \"who moved from at risk to chronic this year?\".",
+     "focus": -1,
+     "file": "clips/dd6e0ae3fcc3.mp3",
+     "seconds": 14.625
+    },
+    {
+     "raw": "Without dates, last month's list silently overwrites this month's, and nobody can check whether a programme moved people to a better segment.",
+     "say": "Without dates, last month's list silently overwrites this month's, and nobody can check whether a programme moved people to a better segment.",
+     "focus": -1,
+     "file": "clips/17cd5554e95b.mp3",
+     "seconds": 8.775
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Segmentation sorts the population into groups that need different help: healthy, at risk, chronic, complex.",
+     "say": "Segmentation sorts the population into groups that need different help: healthy, at risk, chronic, complex.",
+     "focus": 0,
+     "file": "clips/b77810da4024.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "A small share of people accounts for a large share of US healthcare spending, so the complex group gets the most attention.",
+     "say": "A small share of people accounts for a large share of U S healthcare spending, so the complex group gets the most attention.",
+     "focus": 1,
+     "file": "clips/30bf153ceea5.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "People move between segments; one expensive year (like Emily's surgery) does not always mean high risk.",
+     "say": "People move between segments; one expensive year (like Emily's surgery) does not always mean high risk.",
+     "focus": 2,
+     "file": "clips/009bb2653835.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "A registry is a list of everyone with one condition, used to find gaps in care.",
+     "say": "A registry is a list of everyone with one condition, used to find gaps in care.",
+     "focus": 3,
+     "file": "clips/a1c208ca3323.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

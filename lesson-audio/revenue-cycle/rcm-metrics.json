@@ -1,0 +1,736 @@
+{
+ "courseId": "revenue-cycle",
+ "lessonId": "rcm-metrics",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: RCM Metrics.",
+     "say": "Lesson 7: R C M Metrics.",
+     "focus": -1,
+     "file": "clips/1b56ee1ec518.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Days in AR, clean claim rate, denial rate and collection rate: measuring how well a provider gets paid.",
+     "say": "Days in A R, clean claim rate, denial rate and collection rate: measuring how well a provider gets paid.",
+     "focus": -1,
+     "file": "clips/eced97aee53b.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Calculate days in AR, clean claim rate, denial rate and net collection rate.",
+     "say": "Calculate days in A R, clean claim rate, denial rate and net collection rate.",
+     "focus": 0,
+     "file": "clips/99c2c6314384.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Know which question each metric answers and which part of the cycle it points to.",
+     "say": "Know which question each metric answers and which part of the cycle it points to.",
+     "focus": 1,
+     "file": "clips/134cdc6ef5c8.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "Explain why gross collection rate is misleading.",
+     "say": "Explain why gross collection rate is misleading.",
+     "focus": 2,
+     "file": "clips/1a2ea558ea49.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Spot common data traps when building RCM metrics.",
+     "say": "Spot common data traps when building R C M metrics.",
+     "focus": 3,
+     "file": "clips/b52411ab6ee5.mp3",
+     "seconds": 4.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "In Nepal: A shopkeeper's two questions.",
+     "say": "In Nepal: A shopkeeper's two questions.",
+     "focus": -1,
+     "file": "clips/9f3c85cb07ad.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "A kirana shopkeeper in Kathmandu who gives credit in his **khata** asks two questions every month: \"How long are people taking to pay me?\" and \"How much of what I am owed do I actually get?\".",
+     "say": "A kirana shopkeeper in Kathmandu who gives credit in his khata asks two questions every month: \"How long are people taking to pay me?\" and \"How much of what I am owed do I actually get?\".",
+     "focus": 0,
+     "file": "clips/11da955c7301.mp3",
+     "seconds": 12.275
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "An SSF-listed hospital asks the same about SSF: how many days does SSF take to pay, how many claims come back with problems, and how much of each claim is finally paid?",
+     "say": "An S S F listed hospital asks the same about S S F: how many days does S S F take to pay, how many claims come back with problems, and how much of each claim is finally paid?",
+     "focus": 1,
+     "file": "clips/1a1119a9130d.mp3",
+     "seconds": 12.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "RCM metrics.",
+     "say": "R C M metrics.",
+     "focus": -1,
+     "file": "clips/65ea9c5a6542.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "RCM metrics measure **how fast** a provider turns care into cash, **how cleanly** its claims go through, and **how much** of the money it is owed it actually collects.",
+     "say": "R C M metrics measure how fast a provider turns care into cash, how cleanly its claims go through, and how much of the money it is owed it actually collects.",
+     "focus": -1,
+     "file": "clips/880c6faff17f.mp3",
+     "seconds": 10.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "In the US: Who uses these metrics.",
+     "say": "In the U S: Who uses these metrics.",
+     "focus": -1,
+     "file": "clips/5c43353cd594.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Billing managers watch them weekly to find problems early.",
+     "say": "Billing managers watch them weekly to find problems early.",
+     "focus": 0,
+     "file": "clips/fed0ad87bfc0.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Hospital finance teams report them to leadership, and lenders look at them too.",
+     "say": "Hospital finance teams report them to leadership, and lenders look at them too.",
+     "focus": 1,
+     "file": "clips/15a3fc672fda.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "Industry groups such as the Healthcare Financial Management Association (HFMA) publish standard definitions so providers can compare themselves fairly.",
+     "say": "Industry groups such as the Healthcare Financial Management Association (H F M A) publish standard definitions so providers can compare themselves fairly.",
+     "focus": 2,
+     "file": "clips/29fd07956697.mp3",
+     "seconds": 10.875
+    },
+    {
+     "raw": "RCM companies are often paid or judged on them.",
+     "say": "R C M companies are often paid or judged on them.",
+     "focus": 3,
+     "file": "clips/1b23f9569cff.mp3",
+     "seconds": 4.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The core metrics.",
+     "say": "The core metrics.",
+     "focus": -1,
+     "file": "clips/047fa5653bac.mp3",
+     "seconds": 1.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The core metrics",
+   "lines": [
+    {
+     "raw": "Which metric answers which question.",
+     "say": "Which metric answers which question.",
+     "focus": -1,
+     "file": "clips/26389ae21b05.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "**Days in AR**. Question it answers: How many days of charges are waiting to be collected? If it gets worse, look first at: Follow-up, denials, slow payers.",
+     "say": "Days in A R. Question it answers: How many days of charges are waiting to be collected? If it gets worse, look first at: Follow-up, denials, slow payers.",
+     "focus": 0,
+     "file": "clips/0dab7064bcbf.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "**Clean claim rate**. Question it answers: What share of claims go out with no errors the first time? If it gets worse, look first at: Front end and mid cycle data quality.",
+     "say": "Clean claim rate. Question it answers: What share of claims go out with no errors the first time? If it gets worse, look first at: Front end and mid cycle data quality.",
+     "focus": 1,
+     "file": "clips/1932a0baec69.mp3",
+     "seconds": 11.075
+    },
+    {
+     "raw": "**Initial denial rate**. Question it answers: What share of claims does the insurer deny the first time? If it gets worse, look first at: Denial root causes (lesson 5).",
+     "say": "Initial denial rate. Question it answers: What share of claims does the insurer deny the first time? If it gets worse, look first at: Denial root causes (lesson 5).",
+     "focus": 2,
+     "file": "clips/e9378777adcb.mp3",
+     "seconds": 11.425
+    },
+    {
+     "raw": "**Net collection rate**. Question it answers: Of the money we are owed after contract discounts, how much do we collect? If it gets worse, look first at: Denial write-offs, unpaid patient balances.",
+     "say": "Net collection rate. Question it answers: Of the money we are owed after contract discounts, how much do we collect? If it gets worse, look first at: Denial write-offs, unpaid patient balances.",
+     "focus": 3,
+     "file": "clips/2b44c50ae76c.mp3",
+     "seconds": 12.975
+    },
+    {
+     "raw": "**AR over 90 days**. Question it answers: How much of AR is old and at risk? If it gets worse, look first at: Follow-up on stuck claims.",
+     "say": "A R over 90 days. Question it answers: How much of A R is old and at risk? If it gets worse, look first at: Follow-up on stuck claims.",
+     "focus": 4,
+     "file": "clips/6b13af0dff73.mp3",
+     "seconds": 9.675
+    },
+    {
+     "raw": "**Point-of-service collection rate**. Question it answers: How much of the patient share due at the visit is collected there? If it gets worse, look first at: Front desk processes.",
+     "say": "Point-of-service collection rate. Question it answers: How much of the patient share due at the visit is collected there? If it gets worse, look first at: Front desk processes.",
+     "focus": 5,
+     "file": "clips/ca8ead0d981a.mp3",
+     "seconds": 11.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The core metrics",
+   "lines": [
+    {
+     "raw": "Days in AR.",
+     "say": "Days in A R.",
+     "focus": -1,
+     "file": "clips/a38864d6079c.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "Days in AR equals Total AR ÷ Average daily charges   (average daily charges equals charges over the last 90 days ÷ 90).",
+     "say": "Days in A R equals Total A R ÷ Average daily charges (average daily charges equals charges over the last 90 days ÷ 90).",
+     "focus": 0,
+     "file": "clips/07d8404e57de.mp3",
+     "seconds": 11.25
+    },
+    {
+     "raw": "For example: Sunrise Family Clinic, 31 March 2025: AR $100,000.",
+     "say": "For example: Sunrise Family Clinic, 31 March 2025: A R 100000 dollars.",
+     "focus": 1,
+     "file": "clips/574e697285a1.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "Charges January to March $300,000 ÷ 90 equals $3,333 a day.",
+     "say": "Charges January to March 300000 dollars ÷ 90 equals 3333 dollars a day.",
+     "focus": 1,
+     "file": "clips/ec66cd4c2d24.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "Days in AR equals $100,000 ÷ $3,333 equals 30 days.",
+     "say": "Days in A R equals 100000 dollars ÷ 3333 dollars equals 30 days.",
+     "focus": 1,
+     "file": "clips/68a21bd80caa.mp3",
+     "seconds": 7.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The core metrics",
+   "lines": [
+    {
+     "raw": "Clean claim rate.",
+     "say": "Clean claim rate.",
+     "focus": -1,
+     "file": "clips/6b4229b10de2.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "Clean claim rate equals Claims accepted first time with no edits or rejections ÷ All claims sent.",
+     "say": "Clean claim rate equals Claims accepted first time with no edits or rejections ÷ All claims sent.",
+     "focus": 0,
+     "file": "clips/2dac6bf390ac.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "For example: April 2025: 1,880 of 2,000 claims passed with no changes equals 94%.",
+     "say": "For example: April 2025: 1,880 of 2,000 claims passed with no changes equals 94 percent.",
+     "focus": 1,
+     "file": "clips/35eb75a56e7f.mp3",
+     "seconds": 9.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The core metrics",
+   "lines": [
+    {
+     "raw": "Initial denial rate.",
+     "say": "Initial denial rate.",
+     "focus": -1,
+     "file": "clips/18546db282df.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Initial denial rate equals Claims denied on first processing ÷ Claims processed.",
+     "say": "Initial denial rate equals Claims denied on first processing ÷ Claims processed.",
+     "focus": 0,
+     "file": "clips/1a942e426ea3.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "For example: April 2025: 160 denied ÷ 2,000 equals 8%.",
+     "say": "For example: April 2025: 160 denied ÷ 2,000 equals 8 percent.",
+     "focus": 1,
+     "file": "clips/3bc1e5d56067.mp3",
+     "seconds": 7.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The core metrics",
+   "lines": [
+    {
+     "raw": "Net collection rate.",
+     "say": "Net collection rate.",
+     "focus": -1,
+     "file": "clips/e0db55d1ade4.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Net collection rate equals Payments ÷ (Charges − Contractual adjustments).",
+     "say": "Net collection rate equals Payments ÷ (Charges − Contractual adjustments).",
+     "focus": 0,
+     "file": "clips/f11c2951462b.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "For example: Payments $190,000 ÷ ($300,000 charges − $100,000 contract discounts) equals $190,000 ÷ $200,000 equals 95%.",
+     "say": "For example: Payments 190000 dollars ÷ (300000 dollars charges − 100000 dollars contract discounts) equals 190000 dollars ÷ 200000 dollars equals 95 percent.",
+     "focus": 1,
+     "file": "clips/a42de14b117b.mp3",
+     "seconds": 17.775
+    },
+    {
+     "raw": "The other 5% was lost to denial write-offs and unpaid patient balances.",
+     "say": "The other 5 percent was lost to denial write-offs and unpaid patient balances.",
+     "focus": 1,
+     "file": "clips/a88b12577bc1.mp3",
+     "seconds": 6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The core metrics",
+   "lines": [
+    {
+     "raw": "AR over 90 days.",
+     "say": "A R over 90 days.",
+     "focus": -1,
+     "file": "clips/cebd4b04d271.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "AR over 90 days % equals AR older than 90 days ÷ Total AR.",
+     "say": "A R over 90 days % equals A R older than 90 days ÷ Total A R.",
+     "focus": 0,
+     "file": "clips/a0d83da6ad45.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "For example: From the aging report in lesson 4: ($6,000 plus $5,000) ÷ $100,000 equals 11%.",
+     "say": "For example: From the aging report in lesson 4: (6000 dollars plus 5000 dollars) ÷ 100000 dollars equals 11 percent.",
+     "focus": 1,
+     "file": "clips/5bb6cb922d96.mp3",
+     "seconds": 10.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The core metrics",
+   "lines": [
+    {
+     "raw": "Why gross collection rate misleads.",
+     "say": "Why gross collection rate misleads.",
+     "focus": -1,
+     "file": "clips/6c0656b81cc8.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "**Gross collection rate** = payments ÷ charges.",
+     "say": "Gross collection rate = payments ÷ charges.",
+     "focus": -1,
+     "file": "clips/e3ae6303d91f.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Here $190,000 ÷ $300,000 = 63%.",
+     "say": "Here 190000 dollars ÷ 300000 dollars = 63 percent.",
+     "focus": -1,
+     "file": "clips/7eb9ee29584e.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "That looks terrible, but most of the gap is the **contract discount** the clinic agreed to and never expected to collect.",
+     "say": "That looks terrible, but most of the gap is the contract discount the clinic agreed to and never expected to collect.",
+     "focus": -1,
+     "file": "clips/68549eafc8d2.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "Because charges are list prices, gross collection rate mostly measures how high the chargemaster is, not how well the clinic collects.",
+     "say": "Because charges are list prices, gross collection rate mostly measures how high the chargemaster is, not how well the clinic collects.",
+     "focus": -1,
+     "file": "clips/4de948419928.mp3",
+     "seconds": 8.8
+    },
+    {
+     "raw": "Use **net** collection rate to judge performance.",
+     "say": "Use net collection rate to judge performance.",
+     "focus": -1,
+     "file": "clips/8d32a7bbcfbd.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The core metrics",
+   "lines": [
+    {
+     "raw": "About targets.",
+     "say": "About targets.",
+     "focus": -1,
+     "file": "clips/4d7077c4b4d2.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Industry groups and consultants publish target ranges for each metric, but good values depend on the specialty, the payer mix and how each one is defined.",
+     "say": "Industry groups and consultants publish target ranges for each metric, but good values depend on the specialty, the payer mix and how each one is defined.",
+     "focus": -1,
+     "file": "clips/43a804e430c7.mp3",
+     "seconds": 10.125
+    },
+    {
+     "raw": "Compare a provider with **itself over time** and with peers using the **same definition**.",
+     "say": "Compare a provider with itself over time and with peers using the same definition.",
+     "focus": -1,
+     "file": "clips/ce671faa5983.mp3",
+     "seconds": 5.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Data quality: traps when building RCM metrics.",
+     "say": "Data quality: traps when building R C M metrics.",
+     "focus": -1,
+     "file": "clips/1622f6e343d6.mp3",
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Data quality: traps when building RCM metrics",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Different definitions**. What goes wrong: \"Clean claim\" may mean passing the scrubber, or accepted by the insurer, or paid with no rework. What to do: Write the definition down and use it every month.",
+     "say": "Different definitions. What goes wrong: \"Clean claim\" may mean passing the scrubber, or accepted by the insurer, or paid with no rework. What to do: Write the definition down and use it every month.",
+     "focus": 0,
+     "file": "clips/07772ff413d3.mp3",
+     "seconds": 13.025
+    },
+    {
+     "raw": "**Resubmissions counted as new claims**. What goes wrong: A rejected claim sent twice counts as two claims and inflates the denominator. What to do: Count original claims; track versions separately.",
+     "say": "Resubmissions counted as new claims. What goes wrong: A rejected claim sent twice counts as two claims and inflates the denominator. What to do: Count original claims; track versions separately.",
+     "focus": 1,
+     "file": "clips/6b53975d2d17.mp3",
+     "seconds": 13.7
+    },
+    {
+     "raw": "**Line vs claim vs dollars**. What goes wrong: One denied line on a 5-line claim: is the claim denied? What to do: Report denial rates by claim and by dollars, and say which.",
+     "say": "Line versus claim versus dollars. What goes wrong: One denied line on a 5-line claim: is the claim denied? What to do: Report denial rates by claim and by dollars, and say which.",
+     "focus": 2,
+     "file": "clips/fc5543f3765b.mp3",
+     "seconds": 12.95
+    },
+    {
+     "raw": "**Timing mismatch**. What goes wrong: Payments this month are for charges from earlier months. What to do: Use rolling periods, or match payments back to their service month.",
+     "say": "Timing mismatch. What goes wrong: Payments this month are for charges from earlier months. What to do: Use rolling periods, or match payments back to their service month.",
+     "focus": 3,
+     "file": "clips/40777b3d8b6c.mp3",
+     "seconds": 11
+    },
+    {
+     "raw": "**Credit balances in AR**. What goes wrong: Overpayments are negative AR and make AR look smaller. What to do: Report credit balances separately.",
+     "say": "Credit balances in A R. What goes wrong: Overpayments are negative A R and make A R look smaller. What to do: Report credit balances separately.",
+     "focus": 4,
+     "file": "clips/accd897ade80.mp3",
+     "seconds": 10.275
+    },
+    {
+     "raw": "**Charge changes**. What goes wrong: A price increase raises charges and lowers days in AR without any real change. What to do: Watch for chargemaster updates when trends jump.",
+     "say": "Charge changes. What goes wrong: A price increase raises charges and lowers days in A R without any real change. What to do: Watch for chargemaster updates when trends jump.",
+     "focus": 5,
+     "file": "clips/542aa43c95f1.mp3",
+     "seconds": 12.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: reading the dashboard.",
+     "say": "Worked example: reading the dashboard.",
+     "focus": -1,
+     "file": "clips/46682d28f1c3.mp3",
+     "seconds": 2.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: reading the dashboard",
+   "lines": [
+    {
+     "raw": "Sunrise Family Clinic: two months compared (fictional).",
+     "say": "Sunrise Family Clinic: two months compared (fictional).",
+     "focus": -1,
+     "file": "clips/d550aeb1e8de.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Clean claim rate. March 2025: 97%. April 2025: 94%. Change: ▼ 3 points.",
+     "say": "Clean claim rate. March 2025: 97 percent. April 2025: 94 percent. Change: ▼ 3 points.",
+     "focus": 0,
+     "file": "clips/cc6a697fa9e0.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "Initial denial rate. March 2025: 5%. April 2025: 8%. Change: ▲ 3 points.",
+     "say": "Initial denial rate. March 2025: 5 percent. April 2025: 8 percent. Change: ▲ 3 points.",
+     "focus": 1,
+     "file": "clips/464cdc9c6ed3.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "Days in AR. March 2025: 30. April 2025: 34. Change: ▲ 4 days.",
+     "say": "Days in A R. March 2025: 30. April 2025: 34. Change: ▲ 4 days.",
+     "focus": 2,
+     "file": "clips/c0528e4f37b8.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "Net collection rate. March 2025: 96%. April 2025: 95%. Change: ▼ 1 point.",
+     "say": "Net collection rate. March 2025: 96 percent. April 2025: 95 percent. Change: ▼ 1 point.",
+     "focus": 3,
+     "file": "clips/f99705b01d64.mp3",
+     "seconds": 9.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example: reading the dashboard",
+   "lines": [
+    {
+     "raw": "All four moved together, and the clean claim rate moved **first**.",
+     "say": "All four moved together, and the clean claim rate moved first.",
+     "focus": -1,
+     "file": "clips/945ddbe239fd.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "The denial breakdown in lesson 5 showed eligibility and registration denials were the largest group.",
+     "say": "The denial breakdown in lesson 5 showed eligibility and registration denials were the largest group.",
+     "focus": -1,
+     "file": "clips/f7d955c1a502.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "The billing manager finds a new front-desk employee was skipping the insurance check.",
+     "say": "The billing manager finds a new front-desk employee was skipping the insurance check.",
+     "focus": -1,
+     "file": "clips/cea3ca8ab71f.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "After training, the clean claim rate recovers in May.",
+     "say": "After training, the clean claim rate recovers in May.",
+     "focus": -1,
+     "file": "clips/b01c47505013.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "One cause, four metrics.",
+     "say": "One cause, four metrics.",
+     "focus": -1,
+     "file": "clips/0b0615e452ca.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example: reading the dashboard",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Each metric needs data from a different system: charges and AR from billing, claim events from the clearinghouse, denials from 835s, patient payments from the cashier.",
+     "say": "Each metric needs data from a different system: charges and A R from billing, claim events from the clearinghouse, denials from 835s, patient payments from the cashier.",
+     "focus": -1,
+     "file": "clips/568d9fac1129.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "Analysts who can join these on the **patient account** and **claim number**, with consistent definitions, can trace a falling metric back to the step that caused it.",
+     "say": "Analysts who can join these on the patient account and claim number, with consistent definitions, can trace a falling metric back to the step that caused it.",
+     "focus": -1,
+     "file": "clips/65f068a802fe.mp3",
+     "seconds": 9.875
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Days in AR** = total AR ÷ average daily charges: how quickly charges turn into cash.",
+     "say": "Days in A R = total A R ÷ average daily charges: how quickly charges turn into cash.",
+     "focus": 0,
+     "file": "clips/370c721e0a69.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "**Clean claim rate** and **initial denial rate** show how often claims go wrong, and point to the front end and mid cycle.",
+     "say": "Clean claim rate and initial denial rate show how often claims go wrong, and point to the front end and mid cycle.",
+     "focus": 1,
+     "file": "clips/9fb85d30c5be.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "**Net collection rate** = payments ÷ (charges − contractual adjustments); gross collection rate is distorted by list prices.",
+     "say": "Net collection rate = payments ÷ (charges − contractual adjustments); gross collection rate is distorted by list prices.",
+     "focus": 2,
+     "file": "clips/4451003db2f3.mp3",
+     "seconds": 9.925
+    },
+    {
+     "raw": "Write down every metric's definition; resubmissions, line vs claim counts and timing can all distort the numbers.",
+     "say": "Write down every metric's definition; resubmissions, line versus claim counts and timing can all distort the numbers.",
+     "focus": 3,
+     "file": "clips/a7dce1866f44.mp3",
+     "seconds": 8.3
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

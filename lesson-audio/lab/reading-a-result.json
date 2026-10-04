@@ -1,0 +1,792 @@
+{
+ "courseId": "lab",
+ "lessonId": "reading-a-result",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Reading a Result.",
+     "say": "Lesson 5: Reading a Result.",
+     "focus": -1,
+     "file": "clips/b2cb5d746a2e.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Value, units, normal range and flag: four things to read on every line.",
+     "say": "Value, units, normal range and flag: four things to read on every line.",
+     "focus": -1,
+     "file": "clips/20314819f2d4.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read every part of a lab result line.",
+     "say": "Read every part of a lab result line.",
+     "focus": 0,
+     "file": "clips/ba46b6c9aeb2.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Understand reference ranges and the H / L flags.",
+     "say": "Understand reference ranges and the H or L flags.",
+     "focus": 1,
+     "file": "clips/4460819a50ff.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Know which dates and people appear on a result.",
+     "say": "Know which dates and people appear on a result.",
+     "focus": 2,
+     "file": "clips/926035cf8ec1.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Read results that are words instead of numbers.",
+     "say": "Read results that are words instead of numbers.",
+     "focus": 3,
+     "file": "clips/bee7d1813285.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with your own lab report.",
+     "say": "Start with your own lab report.",
+     "focus": -1,
+     "file": "clips/20fa4930a2ec.mp3",
+     "seconds": 2.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with your own lab report",
+   "lines": [
+    {
+     "raw": "Pick up any lab report from a Kathmandu lab.",
+     "say": "Pick up any lab report from a Kathmandu lab.",
+     "focus": -1,
+     "file": "clips/1ad572b2d9d7.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Each line has the **test name**, your **result**, the **unit**, and a **normal range** (often called \"reference range\" or \"biological reference interval\").",
+     "say": "Each line has the test name, your result, the unit, and a normal range (often called \"reference range\" or \"biological reference interval\").",
+     "focus": -1,
+     "file": "clips/22cbd1646fb9.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "If your number is outside the range, it may be printed in **bold** or marked with an arrow or \"H\".",
+     "say": "If your number is outside the range, it may be printed in bold or marked with an arrow or \"H\".",
+     "focus": -1,
+     "file": "clips/1942a7feb1eb.mp3",
+     "seconds": 6.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with your own lab report",
+   "lines": [
+    {
+     "raw": "A US lab result has exactly the same parts, just stored as separate fields in a computer.",
+     "say": "A U S lab result has exactly the same parts, just stored as separate fields in a computer.",
+     "focus": -1,
+     "file": "clips/c013a2c126e8.mp3",
+     "seconds": 6.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Emily's cholesterol report.",
+     "say": "Emily's cholesterol report.",
+     "focus": -1,
+     "file": "clips/1740fef9f8d8.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Emily's cholesterol report",
+   "lines": [
+    {
+     "raw": "**Emily Carter**, Robert's daughter, is an office worker in Texas.",
+     "say": "Emily Carter, Robert's daughter, is an office worker in Texas.",
+     "focus": -1,
+     "file": "clips/0d2accd57f22.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "In May 2025, a quick finger-prick screening at her workplace showed high cholesterol.",
+     "say": "In May 2025, a quick finger-prick screening at her workplace showed high cholesterol.",
+     "focus": -1,
+     "file": "clips/cebdceeefd93.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "To confirm it, her doctor, **Dr. Patel**, orders a full lipid panel from a lab.",
+     "say": "To confirm it, her doctor, Doctor Patel, orders a full lipid panel from a lab.",
+     "focus": -1,
+     "file": "clips/cc9814a382c1.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "Her blood is drawn on **8 July 2025** and the result is ready the next day.",
+     "say": "Her blood is drawn on 8 July 2025 and the result is ready the next day.",
+     "focus": -1,
+     "file": "clips/8cdb5d09bd31.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "At her check-up on **15 July**, Dr. Patel reviews it and starts her on **atorvastatin**, a common cholesterol medicine (the Pharmacy course follows this prescription).",
+     "say": "At her check-up on 15 July, Doctor Patel reviews it and starts her on atorvastatin, a common cholesterol medicine (the Pharmacy course follows this prescription).",
+     "focus": -1,
+     "file": "clips/10bd7e6d2cc3.mp3",
+     "seconds": 11.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Emily's cholesterol report",
+   "lines": [
+    {
+     "raw": "Here is the Lab report form: Lipid panel: Emily Carter.",
+     "say": "Here is the Lab report form: Lipid panel: Emily Carter.",
+     "focus": -1,
+     "file": "clips/5dc0b4c37628.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "Patient: Emily Carter.",
+     "say": "Patient: Emily Carter.",
+     "focus": 0,
+     "file": "clips/481f9e1c8979.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Member ID M1001 · born 1990-08-14.",
+     "say": "Member I D M 1 0 0 1, born 1990-08-14.",
+     "focus": 0,
+     "file": "clips/f4a50a9a6ac7.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Ordering provider: Dr. Patel.",
+     "say": "Ordering provider: Doctor Patel.",
+     "focus": 1,
+     "file": "clips/3a7fdd1f4c5b.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "The doctor who asked for the test.",
+     "say": "The doctor who asked for the test.",
+     "focus": 1,
+     "file": "clips/d037a3c4be79.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Performing lab: Bayou Clinical Lab.",
+     "say": "Performing lab: Bayou Clinical Lab.",
+     "focus": 2,
+     "file": "clips/f2ac8c76efb9.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Fictional independent lab.",
+     "say": "Fictional independent lab.",
+     "focus": 2,
+     "file": "clips/6cfb129fa20f.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Specimen: Serum.",
+     "say": "Specimen: Serum.",
+     "focus": 3,
+     "file": "clips/57a2c6fdfe68.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "From a blood draw, after fasting.",
+     "say": "From a blood draw, after fasting.",
+     "focus": 3,
+     "file": "clips/c40a2b954513.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Collected: 08 Jul 2025 08:20.",
+     "say": "Collected: 08 Jul 2025 08:20.",
+     "focus": 4,
+     "file": "clips/ef350718dcea.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "When the blood was taken.",
+     "say": "When the blood was taken.",
+     "focus": 4,
+     "file": "clips/a16b6197ab07.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Reported: 09 Jul 2025 14:05.",
+     "say": "Reported: 09 Jul 2025 14:05.",
+     "focus": 5,
+     "file": "clips/35eac3c9daca.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "When the result was released.",
+     "say": "When the result was released.",
+     "focus": 5,
+     "file": "clips/9eaabac286d4.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "Result status: Final.",
+     "say": "Result status: Final.",
+     "focus": 6,
+     "file": "clips/9e82cd7c6215.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Checked and released, not preliminary.",
+     "say": "Checked and released, not preliminary.",
+     "focus": 6,
+     "file": "clips/f1c3f3d44695.mp3",
+     "seconds": 2.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Emily's cholesterol report",
+   "lines": [
+    {
+     "raw": "Reference ranges vary.",
+     "say": "Reference ranges vary.",
+     "focus": -1,
+     "file": "clips/0f5f9c2e43df.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "The ranges here are typical adult ranges for illustration.",
+     "say": "The ranges here are typical adult ranges for illustration.",
+     "focus": -1,
+     "file": "clips/646afa975c84.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Each lab sets its own ranges for its own machines, so always use the range **printed with that result**, not one from a textbook.",
+     "say": "Each lab sets its own ranges for its own machines, so always use the range printed with that result, not one from a textbook.",
+     "focus": -1,
+     "file": "clips/5582f74a09ca.mp3",
+     "seconds": 8.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The parts of one result line.",
+     "say": "The parts of one result line.",
+     "focus": -1,
+     "file": "clips/adf24de92bd8.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The parts of one result line",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Test (LOINC)**. Meaning: What was measured (lesson 4). Emily's total cholesterol: `2093-3` Total cholesterol.",
+     "say": "Test (L O I N C). Meaning: What was measured (lesson 4). Emily's total cholesterol: 2 0 9 3 dash 3 Total cholesterol.",
+     "focus": 0,
+     "file": "clips/bfc86919f6d2.mp3",
+     "seconds": 10.275
+    },
+    {
+     "raw": "**Value**. Meaning: The number (or word) the test found. Emily's total cholesterol: 248.",
+     "say": "Value. Meaning: The number (or word) the test found. Emily's total cholesterol: 248.",
+     "focus": 1,
+     "file": "clips/07406ca86b27.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "**Units**. Meaning: What the number is counted in. A value without units is meaningless (lesson 6). Emily's total cholesterol: mg/dL (milligrams per decilitre).",
+     "say": "Units. Meaning: What the number is counted in. A value without units is meaningless (lesson 6). Emily's total cholesterol: mg/dL (milligrams per decilitre).",
+     "focus": 2,
+     "file": "clips/f53eb20c7509.mp3",
+     "seconds": 12.175
+    },
+    {
+     "raw": "**Reference range**. Meaning: The usual range for healthy people, from this lab. Emily's total cholesterol: Below 200.",
+     "say": "Reference range. Meaning: The usual range for healthy people, from this lab. Emily's total cholesterol: Below 200.",
+     "focus": 3,
+     "file": "clips/5f1f5d57fbf0.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "**Abnormal flag**. Meaning: A quick marker that the value is outside the range. Emily's total cholesterol: H (high).",
+     "say": "Abnormal flag. Meaning: A quick marker that the value is outside the range. Emily's total cholesterol: H (high).",
+     "focus": 4,
+     "file": "clips/57d47988678d.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "**Status**. Meaning: Is the result final, preliminary or corrected? Emily's total cholesterol: Final.",
+     "say": "Status. Meaning: Is the result final, preliminary or corrected? Emily's total cholesterol: Final.",
+     "focus": 5,
+     "file": "clips/36e87e4c4111.mp3",
+     "seconds": 7.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Abnormal flags.",
+     "say": "Abnormal flags.",
+     "focus": -1,
+     "file": "clips/89f28379de3e.mp3",
+     "seconds": 1.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Abnormal flags",
+   "lines": [
+    {
+     "raw": "Common flags (standard HL7 codes, lesson 2).",
+     "say": "Common flags (standard HL7 codes, lesson 2).",
+     "focus": -1,
+     "file": "clips/9bca6e878251.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "`H`. Meaning: Above the high end of the range. Example: Cholesterol 248, range < 200.",
+     "say": "H. Meaning: Above the high end of the range. Example: Cholesterol 248, range < 200.",
+     "focus": 0,
+     "file": "clips/aa3715b52661.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "`L`. Meaning: Below the low end of the range. Example: HDL 35, range > 39.",
+     "say": "L. Meaning: Below the low end of the range. Example: H D L 35, range > 39.",
+     "focus": 1,
+     "file": "clips/21b7e8108829.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "`HH` / `LL`. Meaning: Critically high or low: call the doctor now. Example: Very high potassium.",
+     "say": "H H or L L. Meaning: Critically high or low: call the doctor now. Example: Very high potassium.",
+     "focus": 2,
+     "file": "clips/d6b85bf76b88.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "`N` or blank. Meaning: Normal, inside the range. Example: HDL 46.",
+     "say": "N or blank. Meaning: Normal, inside the range. Example: H D L 46.",
+     "focus": 3,
+     "file": "clips/a198bf4f3ec3.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "`A`. Meaning: Abnormal, for results that are not numbers. Example: A \"positive\" test that should be \"negative\".",
+     "say": "A. Meaning: Abnormal, for results that are not numbers. Example: A \"positive\" test that should be \"negative\".",
+     "focus": 4,
+     "file": "clips/5e32359126c3.mp3",
+     "seconds": 7.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Abnormal flags",
+   "lines": [
+    {
+     "raw": "The flag compares to normal, not to the patient's goal.",
+     "say": "The flag compares to normal, not to the patient's goal.",
+     "focus": -1,
+     "file": "clips/395c73f68516.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Robert's HbA1c of **7.2%** will be flagged **H**, because the normal range for people without diabetes is below about 5.7%.",
+     "say": "Robert's H b A 1 c of 7.2 percent will be flagged H, because the normal range for people without diabetes is below about 5.7 percent.",
+     "focus": -1,
+     "file": "clips/eb224ffba06b.mp3",
+     "seconds": 11.175
+    },
+    {
+     "raw": "But for someone with diabetes, 7.2% may be close to his doctor's goal.",
+     "say": "But for someone with diabetes, 7.2 percent may be close to his doctor's goal.",
+     "focus": -1,
+     "file": "clips/8bc76a246a0d.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "A flag means \"not normal\", not \"bad care\".",
+     "say": "A flag means \"not normal\", not \"bad care\".",
+     "focus": -1,
+     "file": "clips/ed5dfa22b2d7.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Quality measures use their own cut-offs (lesson 7).",
+     "say": "Quality measures use their own cut-offs (lesson 7).",
+     "focus": -1,
+     "file": "clips/28323a398a09.mp3",
+     "seconds": 3.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Dates and people on a result.",
+     "say": "Dates and people on a result.",
+     "focus": -1,
+     "file": "clips/522f12201f51.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Dates and people on a result",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Order date**. Meaning: When the doctor asked for the test. Which one analysts usually use: Rarely.",
+     "say": "Order date. Meaning: When the doctor asked for the test. Which one analysts usually use: Rarely.",
+     "focus": 0,
+     "file": "clips/3cedab18afad.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "**Collection date**. Meaning: When the specimen was taken from the patient. Which one analysts usually use: **Yes**: this is the date the result describes.",
+     "say": "Collection date. Meaning: When the specimen was taken from the patient. Which one analysts usually use: Yes: this is the date the result describes.",
+     "focus": 1,
+     "file": "clips/282998283361.mp3",
+     "seconds": 10.1
+    },
+    {
+     "raw": "**Result (reported) date**. Meaning: When the lab released the result. Which one analysts usually use: For turnaround time and late results.",
+     "say": "Result (reported) date. Meaning: When the lab released the result. Which one analysts usually use: For turnaround time and late results.",
+     "focus": 2,
+     "file": "clips/286ae34483a9.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "**Ordering provider**. Meaning: The doctor who asked for it (by NPI). Which one analysts usually use: To send results back and credit the doctor.",
+     "say": "Ordering provider. Meaning: The doctor who asked for it (by N P I). Which one analysts usually use: To send results back and credit the doctor.",
+     "focus": 3,
+     "file": "clips/9461e230f25a.mp3",
+     "seconds": 10.125
+    },
+    {
+     "raw": "**Performing lab**. Meaning: Who ran the test. Which one analysts usually use: To know which lab's ranges apply.",
+     "say": "Performing lab. Meaning: Who ran the test. Which one analysts usually use: To know which lab's ranges apply.",
+     "focus": 4,
+     "file": "clips/feadbe39e8f5.mp3",
+     "seconds": 7.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Dates and people on a result",
+   "lines": [
+    {
+     "raw": "Collection date vs claim date.",
+     "say": "Collection date versus claim date.",
+     "focus": -1,
+     "file": "clips/80848d1d0074.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "The lab's claim normally uses the **collection date** as the date of service.",
+     "say": "The lab's claim normally uses the collection date as the date of service.",
+     "focus": -1,
+     "file": "clips/de294326b17f.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "That is how a claim and a result for the same test can be matched (lesson 6).",
+     "say": "That is how a claim and a result for the same test can be matched (lesson 6).",
+     "focus": -1,
+     "file": "clips/ec28f654ec18.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "The result date is often a day or more later.",
+     "say": "The result date is often a day or more later.",
+     "focus": -1,
+     "file": "clips/3ff47cfe880a.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Dates and people on a result",
+   "lines": [
+    {
+     "raw": "In Nepal: Reading reports in Kathmandu.",
+     "say": "In Nepal: Reading reports in Kathmandu.",
+     "focus": -1,
+     "file": "clips/dbae4733fd19.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram reads his check-up report himself and sees \"Fasting Blood Sugar: 95 mg/dL (70 to 110)\".",
+     "say": "Ram reads his check-up report himself and sees \"Fasting Blood Sugar: 95 mg/dL (70 to 110)\".",
+     "focus": 0,
+     "file": "clips/7d7a2e598262.mp3",
+     "seconds": 9.075
+    },
+    {
+     "raw": "He is relieved: no flag.",
+     "say": "He is relieved: no flag.",
+     "focus": 0,
+     "file": "clips/4cfa93e89cff.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "His report's range may differ slightly from another lab's.",
+     "say": "His report's range may differ slightly from another lab's.",
+     "focus": 1,
+     "file": "clips/9ef587db7f2b.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "That is normal: each lab sets its own range.",
+     "say": "That is normal: each lab sets its own range.",
+     "focus": 1,
+     "file": "clips/fff2e2495905.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's report from her SSF hospital shows her cholesterol in **bold** with an arrow, the hospital's way of flagging it high.",
+     "say": "Sita's report from her S S F hospital shows her cholesterol in bold with an arrow, the hospital's way of flagging it high.",
+     "focus": 2,
+     "file": "clips/7d3d96d42903.mp3",
+     "seconds": 8.3
+    },
+    {
+     "raw": "Her doctor looks at the value, the range and her history together, exactly what a US doctor does with an H flag.",
+     "say": "Her doctor looks at the value, the range and her history together, exactly what a U S doctor does with an H flag.",
+     "focus": 3,
+     "file": "clips/5267447fe689.mp3",
+     "seconds": 7.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Dates and people on a result",
+   "lines": [
+    {
+     "raw": "In the US: Results that are not numbers.",
+     "say": "In the U S: Results that are not numbers.",
+     "focus": -1,
+     "file": "clips/e115b1bb57fb.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Some tests answer with a word: **Positive / Negative**, **Detected / Not detected**, or a category like \"1+\" for protein in urine.",
+     "say": "Some tests answer with a word: Positive or Negative, Detected or Not detected, or a category like \"1+\" for protein in urine.",
+     "focus": 0,
+     "file": "clips/e1485427a364.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "In LOINC these have a different **scale** (`Ord` for ordered categories, `Nom` for named categories), and the value field holds text, not a number.",
+     "say": "In L O I N C these have a different scale (Ord for ordered categories, Nom for named categories), and the value field holds text, not a number.",
+     "focus": 1,
+     "file": "clips/15afde78e347.mp3",
+     "seconds": 9.7
+    },
+    {
+     "raw": "For example, on 10 March 2025 Emily had a rapid strep test for a sore throat (CPT `87880`; the Medical course follows that visit).",
+     "say": "For example, on 10 March 2025 Emily had a rapid strep test for a sore throat (C P T 8 7 8 8 0; the Medical course follows that visit).",
+     "focus": 2,
+     "file": "clips/75bc68c75f0f.mp3",
+     "seconds": 11.475
+    },
+    {
+     "raw": "The answer was \"positive\", not a number.",
+     "say": "The answer was \"positive\", not a number.",
+     "focus": 2,
+     "file": "clips/8b6d6631692c.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Dates and people on a result",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "In a results table, each part is its own column: `result_value`, `result_units`, `ref_range`, `abnormal_flag`, `result_status`, `collection_dt`.",
+     "say": "In a results table, each part is its own column: result_value, result_units, ref_range, abnormal_flag, result_status, collection_dt.",
+     "focus": -1,
+     "file": "clips/948cb43bd23f.mp3",
+     "seconds": 9.925
+    },
+    {
+     "raw": "An analyst needs **all of them together**: a value with no units, or a flag with no range, can mislead.",
+     "say": "An analyst needs all of them together: a value with no units, or a flag with no range, can mislead.",
+     "focus": -1,
+     "file": "clips/3de89c45b071.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Lesson 6 covers the traps when these columns are missing or mixed.",
+     "say": "Lesson 6 covers the traps when these columns are missing or mixed.",
+     "focus": -1,
+     "file": "clips/ba0d409321ec.mp3",
+     "seconds": 4.6
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Every result line has a test (LOINC), value, units, reference range, flag and status.",
+     "say": "Every result line has a test (L O I N C), value, units, reference range, flag and status.",
+     "focus": 0,
+     "file": "clips/2e56f035e58e.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "Reference ranges belong to each lab; use the range sent with the result.",
+     "say": "Reference ranges belong to each lab; use the range sent with the result.",
+     "focus": 1,
+     "file": "clips/c7f29bb60ef3.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "H and L mean outside the normal range, not necessarily poor care.",
+     "say": "H and L mean outside the normal range, not necessarily poor care.",
+     "focus": 2,
+     "file": "clips/fa68adda6556.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "Use the **collection date** as the date of a result.",
+     "say": "Use the collection date as the date of a result.",
+     "focus": 3,
+     "file": "clips/da7d67463c55.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Some results are words (positive / negative), not numbers, and live in a text value field.",
+     "say": "Some results are words (positive or negative), not numbers, and live in a text value field.",
+     "focus": 4,
+     "file": "clips/d85212a0a55c.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,743 @@
+{
+ "courseId": "revenue-cycle",
+ "lessonId": "patient-payments",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Patient Payments.",
+     "say": "Lesson 6: Patient Payments.",
+     "focus": -1,
+     "file": "clips/6a229e836a6a.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Statements, payment plans, financial assistance, and what happens when a bill is not paid.",
+     "say": "Statements, payment plans, financial assistance, and what happens when a bill is not paid.",
+     "focus": -1,
+     "file": "clips/0faf86e9e2a0.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain where a patient balance comes from and how it is billed.",
+     "say": "Explain where a patient balance comes from and how it is billed.",
+     "focus": 0,
+     "file": "clips/85aa3a046edc.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Describe payment plans and financial assistance (charity care).",
+     "say": "Describe payment plans and financial assistance (charity care).",
+     "focus": 1,
+     "file": "clips/8136014d4a31.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Tell charity care apart from bad debt.",
+     "say": "Tell charity care apart from bad debt.",
+     "focus": 2,
+     "file": "clips/107f1571e997.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Know the main US rules on collecting medical debt, as of 2025.",
+     "say": "Know the main U S rules on collecting medical debt, as of 2025.",
+     "focus": 3,
+     "file": "clips/613e28ad02bf.mp3",
+     "seconds": 5.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Paying in instalments in Nepal.",
+     "say": "Paying in instalments in Nepal.",
+     "focus": -1,
+     "file": "clips/52c47a5cef5a.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "In Kathmandu, Ram usually pays his hospital bill in full at discharge.",
+     "say": "In Kathmandu, Ram usually pays his hospital bill in full at discharge.",
+     "focus": 0,
+     "file": "clips/355339cf4ade.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "A hospital may ask for a **deposit** before admission so it is not left unpaid.",
+     "say": "A hospital may ask for a deposit before admission so it is not left unpaid.",
+     "focus": 0,
+     "file": "clips/be7acf8b8ae8.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "Some hospitals have a **free or reduced-rate** quota or a social service unit for patients who cannot pay.",
+     "say": "Some hospitals have a free or reduced-rate quota or a social service unit for patients who cannot pay.",
+     "focus": 1,
+     "file": "clips/846f56f94329.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "Rules differ by hospital.",
+     "say": "Rules differ by hospital.",
+     "focus": 1,
+     "file": "clips/505ab57715f3.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita pays her share at the hospital counter at discharge.",
+     "say": "Sita pays her share at the hospital counter at discharge.",
+     "focus": 2,
+     "file": "clips/abcbe5acef8e.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "For larger bills the hospital still wants that share before she leaves.",
+     "say": "For larger bills the hospital still wants that share before she leaves.",
+     "focus": 2,
+     "file": "clips/236401f0103c.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "The US is different: a large part of the patient's share is often only known **weeks later**, after the insurer decides, so it is billed by post or online.",
+     "say": "The U S is different: a large part of the patient's share is often only known weeks later, after the insurer decides, so it is billed by post or online.",
+     "focus": 3,
+     "file": "clips/ad11f71a6846.mp3",
+     "seconds": 10.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "Patient payments.",
+     "say": "Patient payments.",
+     "focus": -1,
+     "file": "clips/0d8d0a8ca04b.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "After the insurer pays, whatever the patient still owes (their **patient responsibility**) is billed to them, and the provider either collects it, sets up a plan, reduces it through **financial assistance**, or eventually writes it off as **bad debt**.",
+     "say": "After the insurer pays, whatever the patient still owes (their patient responsibility) is billed to them, and the provider either collects it, sets up a plan, reduces it through financial assistance, or eventually writes it off as bad debt.",
+     "focus": -1,
+     "file": "clips/88a0e850fc1d.mp3",
+     "seconds": 15.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "In the US: Patient payments in the US.",
+     "say": "In the U S: Patient payments in the U S.",
+     "focus": -1,
+     "file": "clips/64813a7b4a87.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "With high deductibles common, patients now pay a large share of many providers' income, so patient collections matter more than they used to.",
+     "say": "With high deductibles common, patients now pay a large share of many providers' income, so patient collections matter more than they used to.",
+     "focus": 0,
+     "file": "clips/d9e8d7bfd3b7.mp3",
+     "seconds": 9.325
+    },
+    {
+     "raw": "Patient balances are much slower and less certain to collect than insurer payments.",
+     "say": "Patient balances are much slower and less certain to collect than insurer payments.",
+     "focus": 1,
+     "file": "clips/d495263d1c2e.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "Uninsured (**self-pay**) patients owe the whole bill, often with a **self-pay discount**.",
+     "say": "Uninsured (self-pay) patients owe the whole bill, often with a self-pay discount.",
+     "focus": 2,
+     "file": "clips/dd32ffe5e83c.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Federal and state rules limit how hard providers can push, especially non-profit hospitals.",
+     "say": "Federal and state rules limit how hard providers can push, especially non-profit hospitals.",
+     "focus": 3,
+     "file": "clips/61123382d104.mp3",
+     "seconds": 6.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "From remittance to statement.",
+     "say": "From remittance to statement.",
+     "focus": -1,
+     "file": "clips/9a65aa28ae0a.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "From remittance to statement",
+   "lines": [
+    {
+     "raw": "Step 1: Insurer pays.",
+     "say": "Step 1: Insurer pays.",
+     "focus": 0,
+     "file": "clips/0533b9b9a5fc.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "The 835 shows the patient responsibility (deductible, copay, coinsurance).",
+     "say": "The 8 35 shows the patient responsibility (deductible, copay, coinsurance).",
+     "focus": 0,
+     "file": "clips/f56c6bff709f.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "Step 2: Balance moves to the patient.",
+     "say": "Step 2: Balance moves to the patient.",
+     "focus": 1,
+     "file": "clips/a8bd691a008f.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "After posting, the remaining balance moves from **insurance AR** to **patient AR**.",
+     "say": "After posting, the remaining balance moves from insurance A R to patient A R.",
+     "focus": 1,
+     "file": "clips/fdf6b552efb9.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Step 3: Statement.",
+     "say": "Step 3: Statement.",
+     "focus": 2,
+     "file": "clips/b7169defa0a2.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "The provider sends a **patient statement** (paper, email or portal), usually on a monthly cycle.",
+     "say": "The provider sends a patient statement (paper, email or portal), usually on a monthly cycle.",
+     "focus": 2,
+     "file": "clips/fb74138d30e0.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "Step 4: Reminders.",
+     "say": "Step 4: Reminders.",
+     "focus": 3,
+     "file": "clips/8c41726cddfb.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Unpaid balances get reminders, texts and calls over the following months.",
+     "say": "Unpaid balances get reminders, texts and calls over the following months.",
+     "focus": 3,
+     "file": "clips/610a95b39049.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Step 5: Options.",
+     "say": "Step 5: Options.",
+     "focus": 4,
+     "file": "clips/1fad6b092f18.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "The patient pays, sets up a **payment plan**, or applies for **financial assistance**.",
+     "say": "The patient pays, sets up a payment plan, or applies for financial assistance.",
+     "focus": 4,
+     "file": "clips/0f4ec5180f28.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Step 6: Last resort.",
+     "say": "Step 6: Last resort.",
+     "focus": 5,
+     "file": "clips/bdfeddcf6e35.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Still unpaid after the provider's policy period: sent to a **collection agency** and/or written off as **bad debt**.",
+     "say": "Still unpaid after the provider's policy period: sent to a collection agency and/or written off as bad debt.",
+     "focus": 5,
+     "file": "clips/3a5d41f577a0.mp3",
+     "seconds": 7.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "From remittance to statement",
+   "lines": [
+    {
+     "raw": "Checking the statement against the EOB.",
+     "say": "Checking the statement against the E O B.",
+     "focus": -1,
+     "file": "clips/715c5c1a09f6.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "The insurer also sends the patient an Explanation of Benefits (EOB).",
+     "say": "The insurer also sends the patient an Explanation of Benefits (E O B).",
+     "focus": -1,
+     "file": "clips/20a1a48a65d9.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "How to check a provider's statement against it is taught in the Claim Payment course.",
+     "say": "How to check a provider's statement against it is taught in the Claim Payment course.",
+     "focus": -1,
+     "file": "clips/65501fbbfc7e.mp3",
+     "seconds": 5.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Payment plans and financial assistance.",
+     "say": "Payment plans and financial assistance.",
+     "focus": -1,
+     "file": "clips/f6cfeee75735.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Payment plans and financial assistance",
+   "lines": [
+    {
+     "raw": "Payment plan.",
+     "say": "Payment plan.",
+     "focus": 0,
+     "file": "clips/6e8b3bb0d278.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "An agreement to pay a balance in instalments, for example monthly.",
+     "say": "An agreement to pay a balance in instalments, for example monthly.",
+     "focus": 0,
+     "file": "clips/8c0c6a08ee8a.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Many providers offer them with no interest.",
+     "say": "Many providers offer them with no interest.",
+     "focus": 0,
+     "file": "clips/e893bfd21704.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Financial assistance policy (FAP).",
+     "say": "Financial assistance policy (F A P).",
+     "focus": 1,
+     "file": "clips/c3340f778290.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "The provider's written rules for who gets free or discounted care, usually based on household income compared with the federal poverty level.",
+     "say": "The provider's written rules for who gets free or discounted care, usually based on household income compared with the federal poverty level.",
+     "focus": 1,
+     "file": "clips/51519617163a.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "Charity care.",
+     "say": "Charity care.",
+     "focus": 2,
+     "file": "clips/0c44761f1336.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "Care given free or at a discount under the financial assistance policy.",
+     "say": "Care given free or at a discount under the financial assistance policy.",
+     "focus": 2,
+     "file": "clips/43c2a487d34c.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "The provider **never expected** to be paid for it.",
+     "say": "The provider never expected to be paid for it.",
+     "focus": 2,
+     "file": "clips/88679aea22fe.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Bad debt.",
+     "say": "Bad debt.",
+     "focus": 3,
+     "file": "clips/1887a90f2921.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "A balance the provider **expected** to collect, billed, but could not collect, so it is written off.",
+     "say": "A balance the provider expected to collect, billed, but could not collect, so it is written off.",
+     "focus": 3,
+     "file": "clips/67dc02217b3b.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "Collection agency.",
+     "say": "Collection agency.",
+     "focus": 4,
+     "file": "clips/d8520d8a2363.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "An outside company that tries to collect old balances, usually for a share of what it collects.",
+     "say": "An outside company that tries to collect old balances, usually for a share of what it collects.",
+     "focus": 4,
+     "file": "clips/b619950faea6.mp3",
+     "seconds": 6.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Payment plans and financial assistance",
+   "lines": [
+    {
+     "raw": "Charity care vs bad debt.",
+     "say": "Charity care versus bad debt.",
+     "focus": -1,
+     "file": "clips/f23fcb5b25c2.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "**Decided**. Charity care: Before or during billing, when the patient qualifies for assistance. Bad debt: After billing and collection efforts fail.",
+     "say": "Decided. Charity care: Before or during billing, when the patient qualifies for assistance. Bad debt: After billing and collection efforts fail.",
+     "focus": 0,
+     "file": "clips/d90f16825218.mp3",
+     "seconds": 9.575
+    },
+    {
+     "raw": "**Expected payment?**. Charity care: No. Bad debt: Yes.",
+     "say": "Expected payment?. Charity care: No. Bad debt: Yes.",
+     "focus": 1,
+     "file": "clips/e7cb5de37e53.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "**Patient's situation**. Charity care: Unable to pay under the policy's rules. Bad debt: Unwilling or unable, but never applied or did not qualify.",
+     "say": "Patient's situation. Charity care: Unable to pay under the policy's rules. Bad debt: Unwilling or unable, but never applied or did not qualify.",
+     "focus": 2,
+     "file": "clips/06b8272560ea.mp3",
+     "seconds": 10.825
+    },
+    {
+     "raw": "**In the books**. Charity care: A charity adjustment; not counted as revenue. Bad debt: A bad debt write-off; may be partly recovered later.",
+     "say": "In the books. Charity care: A charity adjustment; not counted as revenue. Bad debt: A bad debt write-off; may be partly recovered later.",
+     "focus": 3,
+     "file": "clips/fdb49e546686.mp3",
+     "seconds": 9.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Payment plans and financial assistance",
+   "lines": [
+    {
+     "raw": "In the US: Rules on collecting medical debt (as of 2025).",
+     "say": "In the U S: Rules on collecting medical debt (as of 2025).",
+     "focus": -1,
+     "file": "clips/15caca8e8725.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "**Non-profit hospitals** must, under federal tax law (Internal Revenue Code section 501(r)), have a written financial assistance policy, publicise it, limit what eligible patients are charged, and make reasonable efforts to check eligibility before **extraordinary collection actions** such as lawsuits or credit reporting.",
+     "say": "Non-profit hospitals must, under federal tax law (Internal Revenue Code section 501(r)), have a written financial assistance policy, publicise it, limit what eligible patients are charged, and make reasonable efforts to check eligibility before extraordinary collection actions such as lawsuits or credit reporting.",
+     "focus": 0,
+     "file": "clips/8351d600f96e.mp3",
+     "seconds": 21.175
+    },
+    {
+     "raw": "Since 2023, the three national credit bureaus do not show **paid** medical debt or medical collections **under $500** on credit reports.",
+     "say": "Since 2023, the three national credit bureaus do not show paid medical debt or medical collections under 500 dollars on credit reports.",
+     "focus": 1,
+     "file": "clips/d85d6707f7d1.mp3",
+     "seconds": 9.85
+    },
+    {
+     "raw": "A broader federal rule to remove medical debt from credit reports was struck down by a court in 2025.",
+     "say": "A broader federal rule to remove medical debt from credit reports was struck down by a court in 2025.",
+     "focus": 1,
+     "file": "clips/4fc090c24638.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "Many **states** add their own limits, for example on interest, lawsuits or credit reporting.",
+     "say": "Many states add their own limits, for example on interest, lawsuits or credit reporting.",
+     "focus": 2,
+     "file": "clips/4914ccd3ae96.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Rules change often, so always check the current federal and state rules.",
+     "say": "Rules change often, so always check the current federal and state rules.",
+     "focus": 2,
+     "file": "clips/a2d118c0cf61.mp3",
+     "seconds": 4.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Emily's hospital balance.",
+     "say": "Worked example: Emily's hospital balance.",
+     "focus": -1,
+     "file": "clips/93d0a8d476d3.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Worked example: Emily's hospital balance",
+   "lines": [
+    {
+     "raw": "From 2 to 4 June 2025 Emily had **appendix surgery** at **Lakeside General Hospital** (fictional).",
+     "say": "From 2 to 4 June 2025 Emily had appendix surgery at Lakeside General Hospital (fictional).",
+     "focus": -1,
+     "file": "clips/ee5b5f11c3bb.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "Her insurer paid the hospital $4,000 and left her **$2,000** to pay ($1,000 deductible + $1,000 coinsurance).",
+     "say": "Her insurer paid the hospital 4000 dollars and left her 2000 dollars to pay (1000 dollars deductible and 1000 dollars coinsurance).",
+     "focus": -1,
+     "file": "clips/e305387e7b38.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "The Claim Payment course follows the insurer's side; here is the hospital's patient billing side.",
+     "say": "The Claim Payment course follows the insurer's side; here is the hospital's patient billing side.",
+     "focus": -1,
+     "file": "clips/0c73339857fe.mp3",
+     "seconds": 6.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: Emily's hospital balance",
+   "lines": [
+    {
+     "raw": "Lakeside General Hospital: patient AR for Emily's stay.",
+     "say": "Lakeside General Hospital: patient A R for Emily's stay.",
+     "focus": -1,
+     "file": "clips/2a04459528fd.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "25 Jun 2025. Event: Insurer payment posted; $2,000 moved from insurance AR to patient AR. Patient balance: $2,000.",
+     "say": "25 Jun 2025. Event: Insurer payment posted; 2000 dollars moved from insurance A R to patient A R. Patient balance: 2000 dollars.",
+     "focus": 0,
+     "file": "clips/6902fe84bf00.mp3",
+     "seconds": 12.275
+    },
+    {
+     "raw": "1 Jul 2025. Event: First statement sent through the patient portal. Patient balance: $2,000.",
+     "say": "1 Jul 2025. Event: First statement sent through the patient portal. Patient balance: 2000 dollars.",
+     "focus": 1,
+     "file": "clips/4ab7cf8c1251.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "15 Jul 2025. Event: Emily calls the financial counselor. Her income is above the assistance limit, so she agrees a **4-month payment plan** of $500 a month. Patient balance: $2,000.",
+     "say": "15 Jul 2025. Event: Emily calls the financial counselor. Her income is above the assistance limit, so she agrees a 4-month payment plan of 500 dollars a month. Patient balance: 2000 dollars.",
+     "focus": 2,
+     "file": "clips/26f96a8667a1.mp3",
+     "seconds": 15.4
+    },
+    {
+     "raw": "Aug to Nov 2025. Event: Four payments of $500. Patient balance: $0.",
+     "say": "Aug to Nov 2025. Event: Four payments of 500 dollars. Patient balance: 0 dollars.",
+     "focus": 3,
+     "file": "clips/61353b359772.mp3",
+     "seconds": 7.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: Emily's hospital balance",
+   "lines": [
+    {
+     "raw": "Compare a second, fictional patient at the same hospital: uninsured, with household income below the hospital's assistance limit, and a **$6,000** bill.",
+     "say": "Compare a second, fictional patient at the same hospital: uninsured, with household income below the hospital's assistance limit, and a 6000 dollars bill.",
+     "focus": -1,
+     "file": "clips/7596dbd05eff.mp3",
+     "seconds": 10.625
+    },
+    {
+     "raw": "He applies, qualifies for a full discount, and the hospital posts a **$6,000 charity adjustment**.",
+     "say": "He applies, qualifies for a full discount, and the hospital posts a 6000 dollars charity adjustment.",
+     "focus": -1,
+     "file": "clips/cbfefc23a1ec.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "That is **not** bad debt, because the hospital never expected to be paid.",
+     "say": "That is not bad debt, because the hospital never expected to be paid.",
+     "focus": -1,
+     "file": "clips/25a6473ab0e3.mp3",
+     "seconds": 4.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: Emily's hospital balance",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Keep **insurance AR** and **patient AR** apart: they behave very differently.",
+     "say": "Keep insurance A R and patient A R apart: they behave very differently.",
+     "focus": -1,
+     "file": "clips/f6aa90dfae6a.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Separate adjustment codes for **charity**, **bad debt**, **self-pay discount** and **small balance write-off** are essential, because mixing them hides how much free care a hospital gives.",
+     "say": "Separate adjustment codes for charity, bad debt, self-pay discount and small balance write-off are essential, because mixing them hides how much free care a hospital gives.",
+     "focus": -1,
+     "file": "clips/4a5c64738845.mp3",
+     "seconds": 11.25
+    },
+    {
+     "raw": "Bad debt can later be partly **recovered** by a collection agency, so look for payments that arrive after a write-off.",
+     "say": "Bad debt can later be partly recovered by a collection agency, so look for payments that arrive after a write-off.",
+     "focus": -1,
+     "file": "clips/fc5b9185722f.mp3",
+     "seconds": 7.3
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "After the insurer pays, the patient responsibility moves from insurance AR to **patient AR** and is billed on statements.",
+     "say": "After the insurer pays, the patient responsibility moves from insurance A R to patient A R and is billed on statements.",
+     "focus": 0,
+     "file": "clips/1e2e948670fb.mp3",
+     "seconds": 8.225
+    },
+    {
+     "raw": "**Payment plans** spread a balance over time; **financial assistance** reduces or removes it for patients who qualify.",
+     "say": "Payment plans spread a balance over time; financial assistance reduces or removes it for patients who qualify.",
+     "focus": 1,
+     "file": "clips/552b7740b5fe.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "**Charity care** is never expected to be paid; **bad debt** was expected but not collected.",
+     "say": "Charity care is never expected to be paid; bad debt was expected but not collected.",
+     "focus": 2,
+     "file": "clips/957759c4cf94.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Non-profit hospitals must follow federal rules (section 501(r)), and federal and state limits on medical debt collection keep changing.",
+     "say": "Non-profit hospitals must follow federal rules (section 501(r)), and federal and state limits on medical debt collection keep changing.",
+     "focus": 3,
+     "file": "clips/3d27cef09ad2.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

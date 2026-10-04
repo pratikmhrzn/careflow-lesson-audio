@@ -1,0 +1,799 @@
+{
+ "courseId": "flow",
+ "lessonId": "eob-payment-and-bill",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: EOB, Provider Payment & the Patient Bill.",
+     "say": "Lesson 6: E O B, Provider Payment and the Patient Bill.",
+     "focus": -1,
+     "file": "clips/b1cfc429d8a7.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Three messages after the decision: one to the patient, one to the provider, and maybe a bill.",
+     "say": "Three messages after the decision: one to the patient, one to the provider, and maybe a bill.",
+     "focus": -1,
+     "file": "clips/32132ba2bc00.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what an Explanation of Benefits (EOB) is and why it is not a bill.",
+     "say": "Explain what an Explanation of Benefits (E O B) is and why it is not a bill.",
+     "focus": 0,
+     "file": "clips/14afab185f5d.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Describe how the provider is paid: EFT plus an 835 remittance.",
+     "say": "Describe how the provider is paid: E F T plus an 8 35 remittance.",
+     "focus": 1,
+     "file": "clips/11c1e95d8130.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Know when the patient gets a bill, and what is on it.",
+     "say": "Know when the patient gets a bill, and what is on it.",
+     "focus": 2,
+     "file": "clips/ac3e5833b258.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "See where the pharmacy fits in, outside the simulator.",
+     "say": "See where the pharmacy fits in, outside the simulator.",
+     "focus": 3,
+     "file": "clips/335121d4670b.mp3",
+     "seconds": 3.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The EOB: a letter to the patient.",
+     "say": "The E O B: a letter to the patient.",
+     "focus": -1,
+     "file": "clips/950e056db411.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The EOB: a letter to the patient",
+   "lines": [
+    {
+     "raw": "After adjudication the insurer sends Emily an **Explanation of Benefits (EOB)**, by post or in its app.",
+     "say": "After adjudication the insurer sends Emily an Explanation of Benefits (E O B), by post or in its app.",
+     "focus": -1,
+     "file": "clips/134237eca602.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "It explains what the clinic charged, what the plan allowed, what the plan paid and what Emily may owe.",
+     "say": "It explains what the clinic charged, what the plan allowed, what the plan paid and what Emily may owe.",
+     "focus": -1,
+     "file": "clips/8e6a91cf1bc4.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "This is the **EOB screen** in the simulator.",
+     "say": "This is the E O B screen in the simulator.",
+     "focus": -1,
+     "file": "clips/e25958952995.mp3",
+     "seconds": 3.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The EOB: a letter to the patient",
+   "lines": [
+    {
+     "raw": "For the strep visit, Emily's EOB shows: billed **$150.00**, allowed **$102.00**, plan paid **$77.00**, you may owe **$25.00** (her copay).",
+     "say": "For the strep visit, Emily's E O B shows: billed 150 dollars, allowed 102 dollars, plan paid 77 dollars, you may owe 25 dollars (her copay).",
+     "focus": -1,
+     "file": "clips/966fb4badb48.mp3",
+     "seconds": 11.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The EOB: a letter to the patient",
+   "lines": [
+    {
+     "raw": "An EOB is not a bill.",
+     "say": "An E O B is not a bill.",
+     "focus": -1,
+     "file": "clips/566b467092d9.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "Many Americans pay an EOB by mistake, or panic at the big \"billed\" number.",
+     "say": "Many Americans pay an E O B by mistake, or panic at the big \"billed\" number.",
+     "focus": -1,
+     "file": "clips/75636b86dfee.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "The EOB only explains.",
+     "say": "The E O B only explains.",
+     "focus": -1,
+     "file": "clips/f3530923dca1.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Emily should compare it with any bill the clinic sends: the bill should never be more than the \"you may owe\" column.",
+     "say": "Emily should compare it with any bill the clinic sends: the bill should never be more than the \"you may owe\" column.",
+     "focus": -1,
+     "file": "clips/b9e4e70bcabd.mp3",
+     "seconds": 6.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Provider payment: EFT and the 835.",
+     "say": "Provider payment: E F T and the 8 35.",
+     "focus": -1,
+     "file": "clips/17b68825c070.mp3",
+     "seconds": 3.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Provider payment: EFT and the 835",
+   "lines": [
+    {
+     "raw": "At the same time the insurer pays Sunrise Family Clinic.",
+     "say": "At the same time the insurer pays Sunrise Family Clinic.",
+     "focus": -1,
+     "file": "clips/482c2e720107.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "The money moves by **EFT** (electronic funds transfer, a bank transfer).",
+     "say": "The money moves by E F T (electronic funds transfer, a bank transfer).",
+     "focus": -1,
+     "file": "clips/549779ba89de.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "The explanation arrives as an **EDI 835** file, the **remittance advice**.",
+     "say": "The explanation arrives as an E D I 8 35 file, the remittance advice.",
+     "focus": -1,
+     "file": "clips/66d0b6aa3b79.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "This is the **provider payment** screen in the simulator.",
+     "say": "This is the provider payment screen in the simulator.",
+     "focus": -1,
+     "file": "clips/98d182317399.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Provider payment: EFT and the 835",
+   "lines": [
+    {
+     "raw": "Like a bank transfer with a remarks line.",
+     "say": "Like a bank transfer with a remarks line.",
+     "focus": -1,
+     "file": "clips/20bbf8adbd9f.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "When a company in Kathmandu pays a supplier by bank transfer, the supplier sees money arrive, with a remark like \"Invoice 112 and 115, less TDS\".",
+     "say": "When a company in Kathmandu pays a supplier by bank transfer, the supplier sees money arrive, with a remark like \"Invoice 112 and 115, less T D S\".",
+     "focus": -1,
+     "file": "clips/56ea39bf7454.mp3",
+     "seconds": 11.725
+    },
+    {
+     "raw": "The **EFT** is the money; the **835** is a very detailed remarks line saying which claims and which lines the money is for, and why anything was cut.",
+     "say": "The E F T is the money; the 8 35 is a very detailed remarks line saying which claims and which lines the money is for, and why anything was cut.",
+     "focus": -1,
+     "file": "clips/b6f70f67670c.mp3",
+     "seconds": 10.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Provider payment: EFT and the 835",
+   "lines": [
+    {
+     "raw": "Group codes on adjustments (on the 835 and the EOB).",
+     "say": "Group codes on adjustments (on the 8 35 and the E O B).",
+     "focus": -1,
+     "file": "clips/3583309a34b0.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "**CO**. Meaning: Contractual Obligation. Who bears it?: The provider. It cannot bill the patient for it.",
+     "say": "C O. Meaning: Contractual Obligation. Who bears it?: The provider. It cannot bill the patient for it.",
+     "focus": 0,
+     "file": "clips/db15dcee165e.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "**PR**. Meaning: Patient Responsibility. Who bears it?: The patient: deductible (1), coinsurance (2), copay (3).",
+     "say": "P R. Meaning: Patient Responsibility. Who bears it?: The patient: deductible (1), coinsurance (2), copay (3).",
+     "focus": 1,
+     "file": "clips/3e8f7cd37bbc.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "**OA**. Meaning: Other Adjustment. Who bears it?: Neither, usually; for example amounts settled by another insurer.",
+     "say": "O A. Meaning: Other Adjustment. Who bears it?: Neither, usually; for example amounts settled by another insurer.",
+     "focus": 2,
+     "file": "clips/3cce8b42cb55.mp3",
+     "seconds": 8.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Provider payment: EFT and the 835",
+   "lines": [
+    {
+     "raw": "Key segments of the 835 for Emily's claim (simplified).",
+     "say": "Key segments of the 8 35 for Emily's claim (simplified).",
+     "focus": -1,
+     "file": "clips/42094777e02a.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "`BPR`. What it says: Financial information: payment amount, method (EFT or cheque), bank details.",
+     "say": "B P R. What it says: Financial information: payment amount, method (E F T or cheque), bank details.",
+     "focus": 0,
+     "file": "clips/64219a851309.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "`TRN`. What it says: Trace number that links the EFT deposit to this 835, so the clinic can match money to claims.",
+     "say": "T R N. What it says: Trace number that links the E F T deposit to this 8 35, so the clinic can match money to claims.",
+     "focus": 1,
+     "file": "clips/43cec5d4f72d.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "`N1`. What it says: Who is paying (the insurer) and who is being paid (Sunrise Family Clinic).",
+     "say": "N1. What it says: Who is paying (the insurer) and who is being paid (Sunrise Family Clinic).",
+     "focus": 2,
+     "file": "clips/213488bf9c67.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "`CLP*SFC-0457*1*150*77*25*12*23098908~`. What it says: Claim payment: clinic account number, status 1 (processed as primary), billed $150, paid $77, patient owes $25, `12` = PPO, insurer claim number 23098908.",
+     "say": "C L P * S F C dash 0 4 5 7 * 1 * 1 5 0 * 7 7 * 2 5 * 1 2 * 2 3 0 9 8 9 0 8 ~. What it says: Claim payment: clinic account number, status 1 (processed as primary), billed 150 dollars paid 77 dollars patient owes 25 dollars 12 = P P O, insurer claim number 23098908.",
+     "focus": 3,
+     "file": "clips/93cb1a9b1007.mp3",
+     "seconds": 26.15
+    },
+    {
+     "raw": "`SVC*HC:99213*117*55~`. What it says: Service line: CPT 99213 billed $117, paid $55.",
+     "say": "S V C * H C : 9 9 2 1 3 * 1 1 7 * 5 5 ~. What it says: Service line: C P T 99213 billed 117 dollars paid 55 dollars.",
+     "focus": 4,
+     "file": "clips/ddb2471e7075.mp3",
+     "seconds": 16.85
+    },
+    {
+     "raw": "`CAS*CO*45*37~` and `CAS*PR*3*25~`. What it says: Adjustments on that line: $37 contractual write-off, $25 copay.",
+     "say": "C A S * C O * 4 5 * 3 7 ~ and C A S * P R * 3 * 2 5 ~. What it says: Adjustments on that line: 37 dollars contractual write-off, 25 dollars copay.",
+     "focus": 5,
+     "file": "clips/945ef8aaecb8.mp3",
+     "seconds": 17.6
+    },
+    {
+     "raw": "`AMT*B6*80~`. What it says: Allowed amount for the line: $80.",
+     "say": "A M T * B 6 * 8 0 ~. What it says: Allowed amount for the line: 80 dollars.",
+     "focus": 6,
+     "file": "clips/0ff7c174ceba.mp3",
+     "seconds": 7.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Provider payment: EFT and the 835",
+   "lines": [
+    {
+     "raw": "In the US: Sunrise Family Clinic gets paid.",
+     "say": "In the U S: Sunrise Family Clinic gets paid.",
+     "focus": -1,
+     "file": "clips/fdb8583e6414.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "On **25 March 2025** (in our story), the insurer sends **$77.00** by EFT, along with the 835.",
+     "say": "On 25 March 2025 (in our story), the insurer sends 77 dollars by E F T, along with the 8 35.",
+     "focus": 0,
+     "file": "clips/04cce394f965.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "The clinic's billing system **posts** the payment: it marks claim 23098908 as paid, writes off the **$48** CO-45, and records Emily's **$25** copay as already collected.",
+     "say": "The clinic's billing system posts the payment: it marks claim 23098908 as paid, writes off the 48 dollars C O 45, and records Emily's 25 dollars copay as already collected.",
+     "focus": 1,
+     "file": "clips/a5fc89333af9.mp3",
+     "seconds": 15.65
+    },
+    {
+     "raw": "If the 835 had shown a denial, the clinic would fix and resend, or **appeal**.",
+     "say": "If the 8 35 had shown a denial, the clinic would fix and resend, or appeal.",
+     "focus": 2,
+     "file": "clips/8956b1453d20.mp3",
+     "seconds": 5.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Patient billing: does Emily get a bill?",
+     "say": "Patient billing: does Emily get a bill?",
+     "focus": -1,
+     "file": "clips/cf3c31b06274.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Patient billing: does Emily get a bill?",
+   "lines": [
+    {
+     "raw": "The last stage of the simulator is the **patient bill** (a statement).",
+     "say": "The last stage of the simulator is the patient bill (a statement).",
+     "focus": -1,
+     "file": "clips/28cc49683f7f.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "The provider sends it only if the patient still owes something after the insurer has paid.",
+     "say": "The provider sends it only if the patient still owes something after the insurer has paid.",
+     "focus": -1,
+     "file": "clips/f9b836101f17.mp3",
+     "seconds": 5.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Patient billing: does Emily get a bill?",
+   "lines": [
+    {
+     "raw": "What the patient still owes.",
+     "say": "What the patient still owes.",
+     "focus": -1,
+     "file": "clips/65626b4a893d.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Balance due equals Patient responsibility − Amount already paid.",
+     "say": "Balance due equals Patient responsibility − Amount already paid.",
+     "focus": 0,
+     "file": "clips/218e71035d2f.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "For example: Strep visit: $25 − $25 paid at check-in equals $0.",
+     "say": "For example: Strep visit: 25 dollars − 25 dollars paid at check-in equals 0 dollars.",
+     "focus": 1,
+     "file": "clips/cff7d47ad1bd.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "Emily gets no bill.",
+     "say": "Emily gets no bill.",
+     "focus": 1,
+     "file": "clips/8d8f56488e03.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Patient billing: does Emily get a bill?",
+   "lines": [
+    {
+     "raw": "Here is the Statement of services form: A bill Emily does get: Lakeside Surgical Group, June 2025.",
+     "say": "Here is the Statement of services form: A bill Emily does get: Lakeside Surgical Group, June 2025.",
+     "focus": -1,
+     "file": "clips/1ecf28ee3ae4.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "Patient: Emily Carter.",
+     "say": "Patient: Emily Carter.",
+     "focus": 0,
+     "file": "clips/481f9e1c8979.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Insurer claim: 551200.",
+     "say": "Insurer claim: 551200.",
+     "focus": 1,
+     "file": "clips/f0fc27fd55f2.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "Surgeon claim, appendix surgery.",
+     "say": "Surgeon claim, appendix surgery.",
+     "focus": 1,
+     "file": "clips/35124efe3d78.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Billed to insurance: $2,500.00.",
+     "say": "Billed to insurance: 2500 dollars.",
+     "focus": 2,
+     "file": "clips/15554af7749c.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "Insurance allowed: $1,200.00.",
+     "say": "Insurance allowed: 1200 dollars.",
+     "focus": 3,
+     "file": "clips/fff8cf15d48d.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Insurance paid: $960.00.",
+     "say": "Insurance paid: 960 dollars.",
+     "focus": 4,
+     "file": "clips/7acb18dabce3.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Your coinsurance (20%): $240.00.",
+     "say": "Your coinsurance (20 percent): 240 dollars.",
+     "focus": 5,
+     "file": "clips/2091b90c03cf.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Matches \"you may owe\" on the EOB.",
+     "say": "Matches \"you may owe\" on the E O B.",
+     "focus": 5,
+     "file": "clips/08f3af0fa84c.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Total amount due: $240.00.",
+     "say": "Total amount due: 240 dollars.",
+     "focus": 6,
+     "file": "clips/5b376c731c73.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Patient billing: does Emily get a bill?",
+   "lines": [
+    {
+     "raw": "Balance billing and surprise bills.",
+     "say": "Balance billing and surprise bills.",
+     "focus": -1,
+     "file": "clips/b3580df011b5.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "An in-network provider cannot bill the patient for the CO-45 write-off.",
+     "say": "An in-network provider cannot bill the patient for the C O 45 write-off.",
+     "focus": -1,
+     "file": "clips/dfa0f6819037.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "That would be **balance billing**.",
+     "say": "That would be balance billing.",
+     "focus": -1,
+     "file": "clips/bf019b9fb96d.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Since 2022 the federal **No Surprises Act** also protects patients from most surprise out-of-network bills, for example emergency care or an out-of-network doctor at an in-network hospital.",
+     "say": "Since 2022 the federal No Surprises Act also protects patients from most surprise out-of-network bills, for example emergency care or an out-of-network doctor at an in-network hospital.",
+     "focus": -1,
+     "file": "clips/17cfc9397a66.mp3",
+     "seconds": 13.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Patient billing: does Emily get a bill?",
+   "lines": [
+    {
+     "raw": "After the decision in Nepal.",
+     "say": "After the decision in Nepal.",
+     "focus": -1,
+     "file": "clips/62830b24f39c.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram already paid the hospital in full on the day.",
+     "say": "Ram already paid the hospital in full on the day.",
+     "focus": 0,
+     "file": "clips/1cbc55e19c3e.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "The insurer's decision arrives as a **settlement**: a message or letter and a bank transfer **to Ram**, for example Rs 1,800 of his Rs 2,000.",
+     "say": "The insurer's decision arrives as a settlement: a message or letter and a bank transfer to Ram, for example Rs 1,800 of his Rs 2,000.",
+     "focus": 0,
+     "file": "clips/e1b4a355a6e6.mp3",
+     "seconds": 11.775
+    },
+    {
+     "raw": "So Ram's \"EOB\" and his payment come together, and the hospital is not involved at all.",
+     "say": "So Ram's \"E O B\" and his payment come together, and the hospital is not involved at all.",
+     "focus": 1,
+     "file": "clips/9e0655a23c5d.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita paid her 20% at the hospital.",
+     "say": "Sita paid her 20 percent at the hospital.",
+     "focus": 2,
+     "file": "clips/0e980c19ba53.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "Later, SSF pays its **80% to the hospital**, a bit like EFT plus an 835.",
+     "say": "Later, S S F pays its 80 percent to the hospital, a bit like E F T plus an 8 35.",
+     "focus": 2,
+     "file": "clips/609968b00300.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Sita usually gets no extra bill, unless some items were not covered or her yearly limit was used up.",
+     "say": "Sita usually gets no extra bill, unless some items were not covered or her yearly limit was used up.",
+     "focus": 3,
+     "file": "clips/6b51c7e724d9.mp3",
+     "seconds": 6.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "One more stop: the pharmacy.",
+     "say": "One more stop: the pharmacy.",
+     "focus": -1,
+     "file": "clips/3c66fc5f2970.mp3",
+     "seconds": 2.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "One more stop: the pharmacy",
+   "lines": [
+    {
+     "raw": "The simulator ends with the patient bill, but Emily's day did not.",
+     "say": "The simulator ends with the patient bill, but Emily's day did not.",
+     "focus": -1,
+     "file": "clips/5c38333bdc97.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "On the way home she collects her **amoxicillin** from **Main Street Pharmacy**.",
+     "say": "On the way home she collects her amoxicillin from Main Street Pharmacy.",
+     "focus": -1,
+     "file": "clips/c212cab8f98f.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "This creates a separate **pharmacy claim**, decided in **seconds** at the counter.",
+     "say": "This creates a separate pharmacy claim, decided in seconds at the counter.",
+     "focus": -1,
+     "file": "clips/5c3230e37b48.mp3",
+     "seconds": 5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "One more stop: the pharmacy",
+   "lines": [
+    {
+     "raw": "Medical claim vs pharmacy claim for the same day.",
+     "say": "Medical claim versus pharmacy claim for the same day.",
+     "focus": -1,
+     "file": "clips/96c341201edb.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Sent by. Medical claim 23098908: Sunrise Family Clinic. Pharmacy claim 840112301: Main Street Pharmacy.",
+     "say": "Sent by. Medical claim 23098908: Sunrise Family Clinic. Pharmacy claim 840112301: Main Street Pharmacy.",
+     "focus": 0,
+     "file": "clips/e2adda734025.mp3",
+     "seconds": 13.85
+    },
+    {
+     "raw": "Sent to. Medical claim 23098908: Insurer, through a clearinghouse. Pharmacy claim 840112301: PBM (pharmacy benefit manager).",
+     "say": "Sent to. Medical claim 23098908: Insurer, through a clearinghouse. Pharmacy claim 840112301: P B M (pharmacy benefit manager).",
+     "focus": 1,
+     "file": "clips/1a41c3fd60d5.mp3",
+     "seconds": 15.6
+    },
+    {
+     "raw": "Format. Medical claim 23098908: 837P. Pharmacy claim 840112301: NCPDP (the pharmacy standard).",
+     "say": "Format. Medical claim 23098908: 8 3 7 P. Pharmacy claim 840112301: N C P D P (the pharmacy standard).",
+     "focus": 2,
+     "file": "clips/3873c6389312.mp3",
+     "seconds": 15.125
+    },
+    {
+     "raw": "Decision time. Medical claim 23098908: Days to weeks. Pharmacy claim 840112301: Seconds, while Emily waits.",
+     "say": "Decision time. Medical claim 23098908: Days to weeks. Pharmacy claim 840112301: Seconds, while Emily waits.",
+     "focus": 3,
+     "file": "clips/c0cb5c4b95c9.mp3",
+     "seconds": 13.9
+    },
+    {
+     "raw": "Total. Medical claim 23098908: Allowed $102.00. Pharmacy claim 840112301: $11.30 (drug cost $9.30 + dispensing fee $2.00).",
+     "say": "Total. Medical claim 23098908: Allowed 102 dollars. Pharmacy claim 840112301: 11 dollars 30 cents (drug cost 9 dollars 30 cents and dispensing fee 2 dollars).",
+     "focus": 4,
+     "file": "clips/10cbd4ae32fd.mp3",
+     "seconds": 18.825
+    },
+    {
+     "raw": "Emily pays. Medical claim 23098908: $25.00 copay. Pharmacy claim 840112301: $5.00 copay (tier 1 generic).",
+     "say": "Emily pays. Medical claim 23098908: 25 dollars copay. Pharmacy claim 840112301: 5 dollars copay (tier 1 generic).",
+     "focus": 5,
+     "file": "clips/8e21e5a1728d.mp3",
+     "seconds": 15.7
+    },
+    {
+     "raw": "Plan pays. Medical claim 23098908: $77.00. Pharmacy claim 840112301: $6.30.",
+     "say": "Plan pays. Medical claim 23098908: 77 dollars. Pharmacy claim 840112301: 6 dollars 30 cents.",
+     "focus": 6,
+     "file": "clips/299957264925.mp3",
+     "seconds": 14.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "One more stop: the pharmacy",
+   "lines": [
+    {
+     "raw": "Learn the pharmacy road.",
+     "say": "Learn the pharmacy road.",
+     "focus": -1,
+     "file": "clips/bcead3a0967f.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "The Pharmacy Data course follows Emily's amoxicillin claim step by step: NDC codes, the PBM, the formulary and the money.",
+     "say": "The Pharmacy Data course follows Emily's amoxicillin claim step by step: N D C codes, the P B M, the formulary and the money.",
+     "focus": -1,
+     "file": "clips/1f467aa802ac.mp3",
+     "seconds": 9.45
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The EOB explains the decision to the patient.",
+     "say": "The E O B explains the decision to the patient.",
+     "focus": 0,
+     "file": "clips/a8696c4fde48.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "It is not a bill.",
+     "say": "It is not a bill.",
+     "focus": 0,
+     "file": "clips/54587a830e5c.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "The provider is paid by EFT, explained by an 835 remittance with CLP, SVC and CAS segments.",
+     "say": "The provider is paid by E F T, explained by an 8 35 remittance with C L P, S V C and C A S segments.",
+     "focus": 1,
+     "file": "clips/27b7b6e65c37.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "A patient bill comes only if the patient still owes money after insurance: Emily owed $0 for her strep visit, but $240 to her surgeon in June.",
+     "say": "A patient bill comes only if the patient still owes money after insurance: Emily owed 0 dollars for her strep visit, but 240 dollars to her surgeon in June.",
+     "focus": 2,
+     "file": "clips/eb48443b77c4.mp3",
+     "seconds": 11.5
+    },
+    {
+     "raw": "Medicines from a pharmacy travel on a separate claim to a PBM, decided in seconds.",
+     "say": "Medicines from a pharmacy travel on a separate claim to a P B M, decided in seconds.",
+     "focus": 3,
+     "file": "clips/d2df12148b89.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

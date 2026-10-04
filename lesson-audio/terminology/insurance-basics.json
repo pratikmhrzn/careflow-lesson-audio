@@ -1,0 +1,967 @@
+{
+ "courseId": "terminology",
+ "lessonId": "insurance-basics",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: Insurance Basics.",
+     "say": "Lesson 1: Insurance Basics.",
+     "focus": -1,
+     "file": "clips/ce693d500f9d.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Premium, policy, plan, member and the other words at the start of every conversation.",
+     "say": "Premium, policy, plan, member and the other words at the start of every conversation.",
+     "focus": -1,
+     "file": "clips/8064f3665919.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain premium, policy, plan and benefits in plain words.",
+     "say": "Explain premium, policy, plan and benefits in plain words.",
+     "focus": 0,
+     "file": "clips/82d5f2942d9a.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Tell a subscriber, a member and a dependent apart.",
+     "say": "Tell a subscriber, a member and a dependent apart.",
+     "focus": 1,
+     "file": "clips/92f373066d0b.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Know who the payer is and who the provider is.",
+     "say": "Know who the payer is and who the provider is.",
+     "focus": 2,
+     "file": "clips/440a55f9162f.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Understand what a plan year is and why it matters.",
+     "say": "Understand what a plan year is and why it matters.",
+     "focus": 3,
+     "file": "clips/ee00661cee73.mp3",
+     "seconds": 3.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Why learn the words first?",
+     "say": "Why learn the words first?",
+     "focus": -1,
+     "file": "clips/613366ce4eb0.mp3",
+     "seconds": 2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Why learn the words first?",
+   "lines": [
+    {
+     "raw": "US healthcare has its own language.",
+     "say": "U S healthcare has its own language.",
+     "focus": -1,
+     "file": "clips/a192c5c13fab.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "In your first week on a US healthcare project you will hear \"the member hit her deductible\", \"the payer denied the claim\" and \"check the PMPM\".",
+     "say": "In your first week on a U S healthcare project you will hear \"the member hit her deductible\", \"the payer denied the claim\" and \"check the P M P M\".",
+     "focus": -1,
+     "file": "clips/a57d4396dadc.mp3",
+     "seconds": 9.75
+    },
+    {
+     "raw": "If you know the words, the rest is easy.",
+     "say": "If you know the words, the rest is easy.",
+     "focus": -1,
+     "file": "clips/6ed00fecbc50.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "This course is your **glossary**: each lesson groups words by theme and ties them to something you already know in Nepal.",
+     "say": "This course is your glossary: each lesson groups words by theme and ties them to something you already know in Nepal.",
+     "focus": -1,
+     "file": "clips/49b975693201.mp3",
+     "seconds": 7.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Why learn the words first?",
+   "lines": [
+    {
+     "raw": "Insurance in one sentence.",
+     "say": "Insurance in one sentence.",
+     "focus": -1,
+     "file": "clips/1f39109c0c31.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Many people put a little money into a shared pot every month.",
+     "say": "Many people put a little money into a shared pot every month.",
+     "focus": -1,
+     "file": "clips/114e2aa36ebd.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "When one of them gets sick, the pot pays most of the bill.",
+     "say": "When one of them gets sick, the pot pays most of the bill.",
+     "focus": -1,
+     "file": "clips/fc0a4400eb51.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Nobody knows who will get sick, so everyone is protected.",
+     "say": "Nobody knows who will get sick, so everyone is protected.",
+     "focus": -1,
+     "file": "clips/e59e45b8e3a0.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "That shared pot is **insurance**.",
+     "say": "That shared pot is insurance.",
+     "focus": -1,
+     "file": "clips/edf5623f95f5.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet our people.",
+     "say": "Meet our people.",
+     "focus": -1,
+     "file": "clips/f8aec1fba809.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "This course uses a few made-up people as examples.",
+     "say": "This course uses a few made-up people as examples.",
+     "focus": -1,
+     "file": "clips/dd26bab9b946.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "In Kathmandu, **Ram** works at a tech startup that buys private group health insurance for its staff, and **Sita** is an accountant who contributes to the **Social Security Fund (SSF)**.",
+     "say": "In Kathmandu, Ram works at a tech startup that buys private group health insurance for its staff, and Sita is an accountant who contributes to the Social Security Fund (S S F).",
+     "focus": -1,
+     "file": "clips/b5e43151d011.mp3",
+     "seconds": 11.7
+    },
+    {
+     "raw": "In Texas, **Emily Carter** is an office worker covered by her employer's health plan, together with her husband **Daniel** and daughter **Lily**.",
+     "say": "In Texas, Emily Carter is an office worker covered by her employer's health plan, together with her husband Daniel and daughter Lily.",
+     "focus": -1,
+     "file": "clips/47fc1b8feb1e.mp3",
+     "seconds": 8.525
+    },
+    {
+     "raw": "Emily's father **Robert** is a retired teacher covered by Medicare; you will meet him properly in lesson 5.",
+     "say": "Emily's father Robert is a retired teacher covered by Medicare; you will meet him properly in lesson 5.",
+     "focus": -1,
+     "file": "clips/dce3f94a8d04.mp3",
+     "seconds": 7.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The money you pay to stay covered.",
+     "say": "The money you pay to stay covered.",
+     "focus": -1,
+     "file": "clips/0c428742bf52.mp3",
+     "seconds": 2.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The money you pay to stay covered",
+   "lines": [
+    {
+     "raw": "Premium.",
+     "say": "Premium.",
+     "focus": 0,
+     "file": "clips/993938370df8.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "The regular fee you pay to **keep insurance active**, usually every month.",
+     "say": "The regular fee you pay to keep insurance active, usually every month.",
+     "focus": 0,
+     "file": "clips/8e004380de66.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "You pay it whether you visit a doctor or not.",
+     "say": "You pay it whether you visit a doctor or not.",
+     "focus": 0,
+     "file": "clips/8f0426d4806e.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "In the US, an employer often pays a large part of the premium and the worker pays the rest from their salary.",
+     "say": "In the U S, an employer often pays a large part of the premium and the worker pays the rest from their salary.",
+     "focus": 0,
+     "file": "clips/e5a01f88a9df.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "Policy.",
+     "say": "Policy.",
+     "focus": 1,
+     "file": "clips/77ac8b4718c9.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "The **contract** between the insurer and the person or company buying insurance.",
+     "say": "The contract between the insurer and the person or company buying insurance.",
+     "focus": 1,
+     "file": "clips/280145143f0f.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "It lists what is covered, what is not, and the rules.",
+     "say": "It lists what is covered, what is not, and the rules.",
+     "focus": 1,
+     "file": "clips/5981381b5a15.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Plan (health plan).",
+     "say": "Plan (health plan).",
+     "focus": 2,
+     "file": "clips/17c075431858.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "A specific **package of coverage** an insurer sells, with its own costs and rules.",
+     "say": "A specific package of coverage an insurer sells, with its own costs and rules.",
+     "focus": 2,
+     "file": "clips/891a98b750cd.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "One insurer may sell dozens of plans.",
+     "say": "One insurer may sell dozens of plans.",
+     "focus": 2,
+     "file": "clips/49a57a880444.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Emily's plan has the code `TXPPO1000`.",
+     "say": "Emily's plan has the code T X P P O 1 0 0 0.",
+     "focus": 2,
+     "file": "clips/81ff74c38fc5.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "Benefits.",
+     "say": "Benefits.",
+     "focus": 3,
+     "file": "clips/2eb2060c9484.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "The **services the plan pays for**: doctor visits, hospital stays, medicines, lab tests and so on.",
+     "say": "The services the plan pays for: doctor visits, hospital stays, medicines, lab tests and so on.",
+     "focus": 3,
+     "file": "clips/45cab791933b.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "\"Is physiotherapy a covered benefit?\" means \"will the plan pay for it?\"",
+     "say": "\"Is physiotherapy a covered benefit?\" means \"will the plan pay for it?\"",
+     "focus": 3,
+     "file": "clips/e1b9ae2469ef.mp3",
+     "seconds": 4.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The money you pay to stay covered",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram and Sita pay to stay covered.",
+     "say": "In Nepal: Ram and Sita pay to stay covered.",
+     "focus": -1,
+     "file": "clips/f3ace9f753b0.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's startup buys a **group health policy** from an insurance company and pays a yearly **premium** for all its staff.",
+     "say": "Ram's startup buys a group health policy from an insurance company and pays a yearly premium for all its staff.",
+     "focus": 0,
+     "file": "clips/3ed42874d2c2.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "The **policy document** lists what is covered (for example hospital admission) and what is excluded (for example cosmetic treatment).",
+     "say": "The policy document lists what is covered (for example hospital admission) and what is excluded (for example cosmetic treatment).",
+     "focus": 1,
+     "file": "clips/de7b83c72663.mp3",
+     "seconds": 8.4
+    },
+    {
+     "raw": "If the premium is not paid and the policy is not renewed, Ram has no cover.",
+     "say": "If the premium is not paid and the policy is not renewed, Ram has no cover.",
+     "focus": 2,
+     "file": "clips/4a25740e3893.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Every month, part of Sita's salary, plus a contribution from her employer, goes to the **Social Security Fund (SSF)**.",
+     "say": "Every month, part of Sita's salary, plus a contribution from her employer, goes to the Social Security Fund (S S F).",
+     "focus": 3,
+     "file": "clips/5cc1039b53aa.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "That monthly contribution plays the same role as a **premium**: it keeps her covered.",
+     "say": "That monthly contribution plays the same role as a premium: it keeps her covered.",
+     "focus": 4,
+     "file": "clips/f143748817cd.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "The SSF **guidelines** play the role of the **policy**: they say which services are covered and how much SSF pays.",
+     "say": "The S S F guidelines play the role of the policy: they say which services are covered and how much S S F pays.",
+     "focus": 5,
+     "file": "clips/86ff943dd400.mp3",
+     "seconds": 8.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The money you pay to stay covered",
+   "lines": [
+    {
+     "raw": "In the US: Emily pays to stay covered.",
+     "say": "In the U S: Emily pays to stay covered.",
+     "focus": -1,
+     "file": "clips/3171bf0b1a36.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Emily's employer, **Bluebonnet Logistics** (a fictional company in Austin, Texas), offers a health **plan** to its staff.",
+     "say": "Emily's employer, Bluebonnet Logistics (a fictional company in Austin, Texas), offers a health plan to its staff.",
+     "focus": 0,
+     "file": "clips/24c3f8e69c41.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "A **premium** is taken from her salary every month.",
+     "say": "A premium is taken from her salary every month.",
+     "focus": 1,
+     "file": "clips/a5b4baa22719.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Bluebonnet pays the larger part of the premium for her.",
+     "say": "Bluebonnet pays the larger part of the premium for her.",
+     "focus": 1,
+     "file": "clips/78f8b0a0aecc.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Her plan is `TXPPO1000`, a **PPO** with a $1,000 deductible (you will learn these words in lessons 2 and 3).",
+     "say": "Her plan is T X P P O 1 0 0 0, a P P O with a 1000 dollars deductible (you will learn these words in lessons 2 and 3).",
+     "focus": 2,
+     "file": "clips/35a8de2edb03.mp3",
+     "seconds": 10.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The people on a plan.",
+     "say": "The people on a plan.",
+     "focus": -1,
+     "file": "clips/8182a1a4fbb6.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The people on a plan",
+   "lines": [
+    {
+     "raw": "Subscriber.",
+     "say": "Subscriber.",
+     "focus": 0,
+     "file": "clips/25e4dfe94565.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The person who **holds the coverage**, usually the employee.",
+     "say": "The person who holds the coverage, usually the employee.",
+     "focus": 0,
+     "file": "clips/d9fc38d05827.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Here, **Emily**.",
+     "say": "Here, Emily.",
+     "focus": 0,
+     "file": "clips/29f439943b7a.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "Also called the policyholder or primary insured.",
+     "say": "Also called the policyholder or primary insured.",
+     "focus": 0,
+     "file": "clips/97d83cbafe6d.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Dependent.",
+     "say": "Dependent.",
+     "focus": 1,
+     "file": "clips/fc544d6f343c.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "A family member covered **because of** the subscriber, usually a spouse or child.",
+     "say": "A family member covered because of the subscriber, usually a spouse or child.",
+     "focus": 1,
+     "file": "clips/20b4d1f9275a.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Here, Emily's husband **Daniel** and daughter **Lily**.",
+     "say": "Here, Emily's husband Daniel and daughter Lily.",
+     "focus": 1,
+     "file": "clips/b0a8afa906fe.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Member.",
+     "say": "Member.",
+     "focus": 2,
+     "file": "clips/8bbaccc90249.mp3",
+     "seconds": 1.375
+    },
+    {
+     "raw": "**Anyone** covered by the plan: the subscriber **and** every dependent.",
+     "say": "Anyone covered by the plan: the subscriber and every dependent.",
+     "focus": 2,
+     "file": "clips/fe2f76809799.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "Emily (`M1001`), Lily (`M1002`) and Daniel (`M1003`) are all members.",
+     "say": "Emily (M 1 0 0 1), Lily (M 1 0 0 2) and Daniel (M 1 0 0 3) are all members.",
+     "focus": 2,
+     "file": "clips/0428707c094a.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "Enrollee / beneficiary.",
+     "say": "Enrollee or beneficiary.",
+     "focus": 3,
+     "file": "clips/b9e692c4f791.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Other words for a member.",
+     "say": "Other words for a member.",
+     "focus": 3,
+     "file": "clips/f37d71aea0bd.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Beneficiary** is the usual word in Medicare and Medicaid.",
+     "say": "Beneficiary is the usual word in Medicare and Medicaid.",
+     "focus": 3,
+     "file": "clips/23a980e20c8b.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Some companies also say **covered life** or simply **life**.",
+     "say": "Some companies also say covered life or simply life.",
+     "focus": 3,
+     "file": "clips/6193eafe63ae.mp3",
+     "seconds": 3.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The people on a plan",
+   "lines": [
+    {
+     "raw": "Emily's family on plan TXPPO1000.",
+     "say": "Emily's family on plan T X P P O 1 0 0 0.",
+     "focus": -1,
+     "file": "clips/20a5b98b2577.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Emily Carter. Member ID: `M1001`. Role: Subscriber (and member). Covered from: Before 2025, all year.",
+     "say": "Emily Carter. Member I D: M 1 0 0 1. Role: Subscriber (and member). Covered from: Before 2025, all year.",
+     "focus": 0,
+     "file": "clips/55b824c3b13c.mp3",
+     "seconds": 9.75
+    },
+    {
+     "raw": "Lily Carter. Member ID: `M1002`. Role: Dependent (child). Covered from: Before 2025, all year.",
+     "say": "Lily Carter. Member I D: M 1 0 0 2. Role: Dependent (child). Covered from: Before 2025, all year.",
+     "focus": 1,
+     "file": "clips/e2b4a331ae93.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "Daniel Carter. Member ID: `M1003`. Role: Dependent (spouse). Covered from: 1 July 2025, after losing his job.",
+     "say": "Daniel Carter. Member I D: M 1 0 0 3. Role: Dependent (spouse). Covered from: 1 July 2025, after losing his job.",
+     "focus": 2,
+     "file": "clips/99fa57d73021.mp3",
+     "seconds": 10.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The people on a plan",
+   "lines": [
+    {
+     "raw": "Every subscriber is a member, not every member is a subscriber.",
+     "say": "Every subscriber is a member, not every member is a subscriber.",
+     "focus": -1,
+     "file": "clips/2e816c8d402a.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "When someone says \"we have 50,000 members\", they mean all covered people, including children and spouses.",
+     "say": "When someone says \"we have 50,000 members\", they mean all covered people, including children and spouses.",
+     "focus": -1,
+     "file": "clips/c0ad1944d5d9.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "The Eligibility course goes deeper into subscribers, dependents and relationship codes.",
+     "say": "The Eligibility course goes deeper into subscribers, dependents and relationship codes.",
+     "focus": -1,
+     "file": "clips/f721a1dec126.mp3",
+     "seconds": 5.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The two sides of every bill.",
+     "say": "The two sides of every bill.",
+     "focus": -1,
+     "file": "clips/ee14c1807a3a.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "The two sides of every bill",
+   "lines": [
+    {
+     "raw": "Provider.",
+     "say": "Provider.",
+     "focus": 0,
+     "file": "clips/1c1ae4af0bc9.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "Anyone who **gives care**: a doctor, nurse, clinic, hospital, lab or pharmacy.",
+     "say": "Anyone who gives care: a doctor, nurse, clinic, hospital, lab or pharmacy.",
+     "focus": 0,
+     "file": "clips/861c2f5a94de.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "Payer.",
+     "say": "Payer.",
+     "focus": 1,
+     "file": "clips/45bb3e6f2029.mp3",
+     "seconds": 1.275
+    },
+    {
+     "raw": "The organization that **pays for the care**: an insurance company, an employer's plan, or a government program like Medicare.",
+     "say": "The organization that pays for the care: an insurance company, an employer's plan, or a government program like Medicare.",
+     "focus": 1,
+     "file": "clips/3adcf4d7a274.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "Also called the **plan**, **carrier** or **insurer**.",
+     "say": "Also called the plan, carrier or insurer.",
+     "focus": 1,
+     "file": "clips/e854178f01ae.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Insurer / carrier.",
+     "say": "Insurer or carrier.",
+     "focus": 2,
+     "file": "clips/dc149559174d.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "A company in the business of insurance, such as a large US health insurer.",
+     "say": "A company in the business of insurance, such as a large U S health insurer.",
+     "focus": 2,
+     "file": "clips/510200f0a148.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "\"Carrier\" is the same idea: it \"carries\" the risk.",
+     "say": "\"Carrier\" is the same idea: it \"carries\" the risk.",
+     "focus": 2,
+     "file": "clips/1978f750a4fd.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Self-funded (self-insured) plan.",
+     "say": "Self-funded (self-insured) plan.",
+     "focus": 3,
+     "file": "clips/ce3d8754533f.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "A large employer pays claims **from its own money** and hires an insurer only to run the plan.",
+     "say": "A large employer pays claims from its own money and hires an insurer only to run the plan.",
+     "focus": 3,
+     "file": "clips/cac631c4cbb2.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "Emily's plan is the other kind, **fully insured**: the insurer takes the risk in return for the premium.",
+     "say": "Emily's plan is the other kind, fully insured: the insurer takes the risk in return for the premium.",
+     "focus": 3,
+     "file": "clips/d8c1389d2900.mp3",
+     "seconds": 6.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "The two sides of every bill",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Provider. Ram (Nepal, private): Any hospital he chooses. Sita (Nepal, SSF): SSF-listed hospital. Emily (USA): Dr. Patel, Lakeside General Hospital.",
+     "say": "Provider. Ram (Nepal, private): Any hospital he chooses. Sita (Nepal, S S F): S S F listed hospital. Emily (U S A): Doctor Patel, Lakeside General Hospital.",
+     "focus": 0,
+     "file": "clips/e43cb8686e77.mp3",
+     "seconds": 12.2
+    },
+    {
+     "raw": "Payer. Ram (Nepal, private): His insurance company (after he pays first). Sita (Nepal, SSF): SSF (80%) and Sita (20%). Emily (USA): Her employer plan, run by an insurer.",
+     "say": "Payer. Ram (Nepal, private): His insurance company (after he pays first). Sita (Nepal, S S F): S S F (80 percent) and Sita (20 percent). Emily (U S A): Her employer plan, run by an insurer.",
+     "focus": 1,
+     "file": "clips/9c661abfcda1.mp3",
+     "seconds": 14.65
+    },
+    {
+     "raw": "Who holds the cover. Ram (Nepal, private): Ram, through his employer's group policy. Sita (Nepal, SSF): Sita, as an SSF contributor. Emily (USA): Emily, the subscriber.",
+     "say": "Who holds the cover. Ram (Nepal, private): Ram, through his employer's group policy. Sita (Nepal, S S F): Sita, as an S S F contributor. Emily (U S A): Emily, the subscriber.",
+     "focus": 2,
+     "file": "clips/5819e459750c.mp3",
+     "seconds": 13.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Time: the plan year.",
+     "say": "Time: the plan year.",
+     "focus": -1,
+     "file": "clips/fb3440630238.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Time: the plan year",
+   "lines": [
+    {
+     "raw": "Plan year (benefit year).",
+     "say": "Plan year (benefit year).",
+     "focus": 0,
+     "file": "clips/43861753ffae.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "The 12 months the plan's rules run for.",
+     "say": "The 12 months the plan's rules run for.",
+     "focus": 0,
+     "file": "clips/ec4683b5c6c4.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Many plans use the **calendar year** (1 January to 31 December).",
+     "say": "Many plans use the calendar year (1 January to 31 December).",
+     "focus": 0,
+     "file": "clips/60ab1655b563.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Yearly amounts like the deductible **reset** at the start of each plan year.",
+     "say": "Yearly amounts like the deductible reset at the start of each plan year.",
+     "focus": 0,
+     "file": "clips/e1e4185c37b9.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Effective date / termination date.",
+     "say": "Effective date or termination date.",
+     "focus": 1,
+     "file": "clips/389fbe387667.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "The day coverage **starts** and the day it **ends**.",
+     "say": "The day coverage starts and the day it ends.",
+     "focus": 1,
+     "file": "clips/2c6a8a3ab547.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "A claim is only paid if the service date falls between them.",
+     "say": "A claim is only paid if the service date falls between them.",
+     "focus": 1,
+     "file": "clips/bdfa316fbeea.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Open enrollment.",
+     "say": "Open enrollment.",
+     "focus": 2,
+     "file": "clips/6ce37cd32efa.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "The yearly window when people can **join or change plans**.",
+     "say": "The yearly window when people can join or change plans.",
+     "focus": 2,
+     "file": "clips/986b7534cfa2.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Outside it, you usually need a **qualifying life event** (marriage, a new baby, losing other coverage) to make changes.",
+     "say": "Outside it, you usually need a qualifying life event (marriage, a new baby, losing other coverage) to make changes.",
+     "focus": 2,
+     "file": "clips/f2f6d44bd51e.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "Daniel joining Emily's plan after losing his job is an example.",
+     "say": "Daniel joining Emily's plan after losing his job is an example.",
+     "focus": 2,
+     "file": "clips/8efca5196a89.mp3",
+     "seconds": 4.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Time: the plan year",
+   "lines": [
+    {
+     "raw": "Plan years in Nepal.",
+     "say": "Plan years in Nepal.",
+     "focus": -1,
+     "file": "clips/d4404896aac4.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's group policy is usually renewed **once a year**.",
+     "say": "Ram's group policy is usually renewed once a year.",
+     "focus": 0,
+     "file": "clips/65f583ef02c3.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "His yearly limit starts fresh after renewal.",
+     "say": "His yearly limit starts fresh after renewal.",
+     "focus": 0,
+     "file": "clips/c59917c4de7e.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF medical benefits also have **yearly limits**.",
+     "say": "S S F medical benefits also have yearly limits.",
+     "focus": 1,
+     "file": "clips/1a6dfd976338.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Check the latest SSF guidelines for how the year is counted, because rules change over time.",
+     "say": "Check the latest S S F guidelines for how the year is counted, because rules change over time.",
+     "focus": 1,
+     "file": "clips/528f8f4a7446.mp3",
+     "seconds": 6.475
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Premium** = the regular fee to stay covered.",
+     "say": "Premium = the regular fee to stay covered.",
+     "focus": 0,
+     "file": "clips/56e47ac5ab1a.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "It is never on a claim.",
+     "say": "It is never on a claim.",
+     "focus": 0,
+     "file": "clips/7ee07ecb1c5b.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "**Policy** = the contract; **plan** = the package of coverage; **benefits** = the services the plan pays for.",
+     "say": "Policy = the contract; plan = the package of coverage; benefits = the services the plan pays for.",
+     "focus": 1,
+     "file": "clips/8a02e19eb558.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "**Subscriber** holds the coverage; **dependents** are covered through them; **members** = everyone covered.",
+     "say": "Subscriber holds the coverage; dependents are covered through them; members = everyone covered.",
+     "focus": 2,
+     "file": "clips/f25a0a9cf46e.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "**Provider** gives care; **payer** pays for it.",
+     "say": "Provider gives care; payer pays for it.",
+     "focus": 3,
+     "file": "clips/70d1527ea577.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Yearly amounts reset each **plan year**, often on 1 January.",
+     "say": "Yearly amounts reset each plan year, often on 1 January.",
+     "focus": 4,
+     "file": "clips/5a84556a5ed0.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

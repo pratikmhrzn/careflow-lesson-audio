@@ -1,0 +1,750 @@
+{
+ "courseId": "dental",
+ "lessonId": "dental-vs-medical",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: Dental vs Medical.",
+     "say": "Lesson 2: Dental versus Medical.",
+     "focus": -1,
+     "file": "clips/03826a495ad2.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Same family, same employer, two very different plans: a side-by-side comparison.",
+     "say": "Same family, same employer, two very different plans: a side-by-side comparison.",
+     "focus": -1,
+     "file": "clips/ca4a8e28bc2b.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Compare a dental plan with a medical plan, row by row.",
+     "say": "Compare a dental plan with a medical plan, row by row.",
+     "focus": 0,
+     "file": "clips/74e7e6ae9d87.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Explain why the annual maximum and the out-of-pocket maximum point in opposite directions.",
+     "say": "Explain why the annual maximum and the out-of-pocket maximum point in opposite directions.",
+     "focus": 1,
+     "file": "clips/8c476e3568e3.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "Know which claim form, codes and location fields each kind of claim uses.",
+     "say": "Know which claim form, codes and location fields each kind of claim uses.",
+     "focus": 2,
+     "file": "clips/0bbcbc22d66d.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Know what Medicare and Medicaid cover for teeth.",
+     "say": "Know what Medicare and Medicaid cover for teeth.",
+     "focus": 3,
+     "file": "clips/bda6552ded14.mp3",
+     "seconds": 3.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Nepal: Two counters, two bills.",
+     "say": "In Nepal: Two counters, two bills.",
+     "focus": -1,
+     "file": "clips/ca19c0524d63.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "When Ram has a fever, he goes to a **hospital or clinic**, and if he is admitted, his health policy may pay.",
+     "say": "When Ram has a fever, he goes to a hospital or clinic, and if he is admitted, his health policy may pay.",
+     "focus": 0,
+     "file": "clips/a49a9fbce93f.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "When Ram has a toothache, he goes to a separate **dental clinic** and pays at the counter.",
+     "say": "When Ram has a toothache, he goes to a separate dental clinic and pays at the counter.",
+     "focus": 1,
+     "file": "clips/ed68d4db65d0.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Different place, different price list, and usually no insurance claim at all.",
+     "say": "Different place, different price list, and usually no insurance claim at all.",
+     "focus": 1,
+     "file": "clips/f3b4fead9b71.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita uses SSF-listed hospitals for medical care.",
+     "say": "Sita uses S S F listed hospitals for medical care.",
+     "focus": 2,
+     "file": "clips/284a7bb97a02.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "For teeth, she checks SSF's rules first, because dental services are not always treated like other medical services.",
+     "say": "For teeth, she checks SSF's rules first, because dental services are not always treated like other medical services.",
+     "focus": 2,
+     "file": "clips/42f8f80cd02e.mp3",
+     "seconds": 7.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "In the US, a **dental plan is a separate insurance product** with its own card, its own way of sharing costs, its own codes and its own claim form, so dental data must be read on its own terms, not as \"medical claims for the mouth\".",
+     "say": "In the U S, a dental plan is a separate insurance product with its own card, its own way of sharing costs, its own codes and its own claim form, so dental data must be read on its own terms, not as \"medical claims for the mouth\".",
+     "focus": -1,
+     "file": "clips/01f2ab891860.mp3",
+     "seconds": 15.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The medical side, in one line.",
+     "say": "The medical side, in one line.",
+     "focus": -1,
+     "file": "clips/e578dbf3e782.mp3",
+     "seconds": 2.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The medical side, in one line",
+   "lines": [
+    {
+     "raw": "A **medical plan** pays for doctors and hospitals.",
+     "say": "A medical plan pays for doctors and hospitals.",
+     "focus": -1,
+     "file": "clips/2583f8761dfb.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "The patient pays a deductible, then copays or coinsurance, up to a yearly **out-of-pocket maximum**; claims carry diagnosis codes (ICD-10) and procedure codes (CPT/HCPCS).",
+     "say": "The patient pays a deductible, then copays or coinsurance, up to a yearly out-of-pocket maximum; claims carry diagnosis codes (I C D 10) and procedure codes (CPT/HCPCS).",
+     "focus": -1,
+     "file": "clips/f4b2ca07c6c0.mp3",
+     "seconds": 14.25
+    },
+    {
+     "raw": "The Medical course teaches all of this in detail; here we only need it for the comparison.",
+     "say": "The Medical course teaches all of this in detail; here we only need it for the comparison.",
+     "focus": -1,
+     "file": "clips/af1f0eee24d5.mp3",
+     "seconds": 5.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The medical side, in one line",
+   "lines": [
+    {
+     "raw": "New to medical claims?",
+     "say": "New to medical claims?",
+     "focus": -1,
+     "file": "clips/6c0b9e31a967.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "You do not need the Medical course to follow this one, but it explains the medical column of the table below in full.",
+     "say": "You do not need the Medical course to follow this one, but it explains the medical column of the table below in full.",
+     "focus": -1,
+     "file": "clips/e15294039a32.mp3",
+     "seconds": 7.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Side by side.",
+     "say": "Side by side.",
+     "focus": -1,
+     "file": "clips/7ef8948b2fc8.mp3",
+     "seconds": 1.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Side by side",
+   "lines": [
+    {
+     "raw": "Emily's dental plan vs her medical plan.",
+     "say": "Emily's dental plan versus her medical plan.",
+     "focus": -1,
+     "file": "clips/5d27c9f99aab.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "**Plan and card**. Dental plan (Lone Star Dental DPPO): A **separate** plan and card, often from a different company. Medical plan (Emily's PPO): The main health plan and card.",
+     "say": "Plan and card. Dental plan (Lone Star Dental D P P O): A separate plan and card, often from a different company. Medical plan (Emily's P P O): The main health plan and card.",
+     "focus": 0,
+     "file": "clips/3bd7ee650bde.mp3",
+     "seconds": 12.7
+    },
+    {
+     "raw": "**How costs are shared**. Dental plan (Lone Star Dental DPPO): Small deductible (**$50**), then **100-80-50** by service group. Medical plan (Emily's PPO): Larger deductible (**$1,000**), then copays (**$25** office visit) or coinsurance (**20%**).",
+     "say": "How costs are shared. Dental plan (Lone Star Dental D P P O): Small deductible (50 dollars), then 100-80-50 by service group. Medical plan (Emily's P P O): Larger deductible (1000 dollars), then copays (25 dollars office visit) or coinsurance (20 percent).",
+     "focus": 1,
+     "file": "clips/f084b186a3fd.mp3",
+     "seconds": 20.5
+    },
+    {
+     "raw": "**Yearly ceiling**. Dental plan (Lone Star Dental DPPO): **Annual maximum** ($1,500): limits what the **plan** pays. Medical plan (Emily's PPO): **Out-of-pocket maximum** ($5,000): limits what the **patient** pays.",
+     "say": "Yearly ceiling. Dental plan (Lone Star Dental D P P O): Annual maximum (1500 dollars): limits what the plan pays. Medical plan (Emily's P P O): Out-of-pocket maximum (5000 dollars): limits what the patient pays.",
+     "focus": 2,
+     "file": "clips/9875b53f70d4.mp3",
+     "seconds": 16.1
+    },
+    {
+     "raw": "**How often**. Dental plan (Lone Star Dental DPPO): Strict **frequency limits** (e.g. 2 cleanings a year). Medical plan (Emily's PPO): Few frequency limits; most care is paid when medically needed.",
+     "say": "How often. Dental plan (Lone Star Dental D P P O): Strict frequency limits (for example 2 cleanings a year). Medical plan (Emily's P P O): Few frequency limits; most care is paid when medically needed.",
+     "focus": 3,
+     "file": "clips/59f00c8be6ab.mp3",
+     "seconds": 14.425
+    },
+    {
+     "raw": "**What was done**. Dental plan (Lone Star Dental DPPO): **CDT** codes: D + 4 digits (lesson 4). Medical plan (Emily's PPO): **CPT / HCPCS** codes.",
+     "say": "What was done. Dental plan (Lone Star Dental D P P O): C D T codes: D and 4 digits (lesson 4). Medical plan (Emily's P P O): C P T or H C P C S codes.",
+     "focus": 4,
+     "file": "clips/cd47964ca775.mp3",
+     "seconds": 13.725
+    },
+    {
+     "raw": "**Why / where**. Dental plan (Lone Star Dental DPPO): **Tooth number, surface or mouth area** (lesson 5); diagnosis often blank. Medical plan (Emily's PPO): **ICD-10-CM diagnosis** always required; body side shown by modifiers.",
+     "say": "Why or where. Dental plan (Lone Star Dental D P P O): Tooth number, surface or mouth area (lesson 5); diagnosis often blank. Medical plan (Emily's P P O): I C D 10-CM diagnosis always required; body side shown by modifiers.",
+     "focus": 5,
+     "file": "clips/d921fa570a79.mp3",
+     "seconds": 18.525
+    },
+    {
+     "raw": "**Claim form**. Dental plan (Lone Star Dental DPPO): **ADA Dental Claim Form** / **837D** (lesson 3). Medical plan (Emily's PPO): **CMS-1500** / 837P (doctors) or **UB-04** / 837I (hospitals).",
+     "say": "Claim form. Dental plan (Lone Star Dental D P P O): A D A Dental Claim Form or 8 3 7 D (lesson 3). Medical plan (Emily's P P O): C M S 1500 or 8 3 7 P (doctors) or U B 04 or 8 3 7 I (hospitals).",
+     "focus": 6,
+     "file": "clips/0bdbf13f79a0.mp3",
+     "seconds": 18.975
+    },
+    {
+     "raw": "**Before big work**. Dental plan (Lone Star Dental DPPO): Optional **pre-treatment estimate**: the plan says what it expects to pay (lesson 6). Medical plan (Emily's PPO): Prior authorization for some services: the plan must approve first.",
+     "say": "Before big work. Dental plan (Lone Star Dental D P P O): Optional pre-treatment estimate: the plan says what it expects to pay (lesson 6). Medical plan (Emily's P P O): Prior authorization for some services: the plan must approve first.",
+     "focus": 7,
+     "file": "clips/afa57c944923.mp3",
+     "seconds": 16.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The two ceilings point in opposite directions.",
+     "say": "The two ceilings point in opposite directions.",
+     "focus": -1,
+     "file": "clips/f2e92fd5986b.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The two ceilings point in opposite directions",
+   "lines": [
+    {
+     "raw": "This is the difference that surprises people most.",
+     "say": "This is the difference that surprises people most.",
+     "focus": -1,
+     "file": "clips/1c1d1d9ecc55.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "A medical out-of-pocket maximum **protects the patient** from huge bills.",
+     "say": "A medical out-of-pocket maximum protects the patient from huge bills.",
+     "focus": -1,
+     "file": "clips/82dc49441d4f.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "A dental annual maximum **protects the plan** from paying too much.",
+     "say": "A dental annual maximum protects the plan from paying too much.",
+     "focus": -1,
+     "file": "clips/be8b6f8c4bbd.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The two ceilings point in opposite directions",
+   "lines": [
+    {
+     "raw": "Medical vs dental ceilings.",
+     "say": "Medical versus dental ceilings.",
+     "focus": -1,
+     "file": "clips/a5869ce319ab.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Name. Emily's medical plan: Out-of-pocket maximum. Emily's dental plan: Annual maximum.",
+     "say": "Name. Emily's medical plan: Out-of-pocket maximum. Emily's dental plan: Annual maximum.",
+     "focus": 0,
+     "file": "clips/c8087d333d4b.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Amount. Emily's medical plan: $5,000. Emily's dental plan: $1,500 per person.",
+     "say": "Amount. Emily's medical plan: 5000 dollars. Emily's dental plan: 1500 dollars per person.",
+     "focus": 1,
+     "file": "clips/d1030df742a4.mp3",
+     "seconds": 7.825
+    },
+    {
+     "raw": "Limits what... Emily's medical plan: Emily pays. Emily's dental plan: The **plan** pays.",
+     "say": "Limits what... Emily's medical plan: Emily pays. Emily's dental plan: The plan pays.",
+     "focus": 2,
+     "file": "clips/dab2965d0427.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "After the limit. Emily's medical plan: The plan pays 100%. Emily's dental plan: Emily pays 100%.",
+     "say": "After the limit. Emily's medical plan: The plan pays 100 percent. Emily's dental plan: Emily pays 100 percent.",
+     "focus": 3,
+     "file": "clips/e56d0d4d585b.mp3",
+     "seconds": 9.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The two ceilings point in opposite directions",
+   "lines": [
+    {
+     "raw": "Why the difference?",
+     "say": "Why the difference?",
+     "focus": -1,
+     "file": "clips/c205259b79f9.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Dental costs are **predictable and limited**: a mouth can only need so many crowns.",
+     "say": "Dental costs are predictable and limited: a mouth can only need so many crowns.",
+     "focus": -1,
+     "file": "clips/83d1d9437f68.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Medical costs can be **unlimited**: one surgery or cancer treatment can cost hundreds of thousands of dollars.",
+     "say": "Medical costs can be unlimited: one surgery or cancer treatment can cost hundreds of thousands of dollars.",
+     "focus": -1,
+     "file": "clips/3aae20ad77c3.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "So medical plans cap the patient's risk, while dental plans cap their own.",
+     "say": "So medical plans cap the patient's risk, while dental plans cap their own.",
+     "focus": -1,
+     "file": "clips/1f738a7649dc.mp3",
+     "seconds": 5.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Teeth instead of diagnoses.",
+     "say": "Teeth instead of diagnoses.",
+     "focus": -1,
+     "file": "clips/bf18439679fe.mp3",
+     "seconds": 2.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Teeth instead of diagnoses",
+   "lines": [
+    {
+     "raw": "A medical claim always says **why** (a diagnosis code).",
+     "say": "A medical claim always says why (a diagnosis code).",
+     "focus": -1,
+     "file": "clips/d1e6f64a92df.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "On a dental claim, the **CDT code** and the **tooth** do most of the talking.",
+     "say": "On a dental claim, the C D T code and the tooth do most of the talking.",
+     "focus": -1,
+     "file": "clips/fcd702afba6d.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "The ADA form has a space for diagnosis codes and some plans ask for them for certain services, but in dental data the diagnosis column is often **empty**.",
+     "say": "The A D A form has a space for diagnosis codes and some plans ask for them for certain services, but in dental data the diagnosis column is often empty.",
+     "focus": -1,
+     "file": "clips/84db69d06aa6.mp3",
+     "seconds": 10.975
+    },
+    {
+     "raw": "Instead, each line says **where in the mouth**: a tooth number, its surfaces, or an area such as a quadrant.",
+     "say": "Instead, each line says where in the mouth: a tooth number, its surfaces, or an area such as a quadrant.",
+     "focus": -1,
+     "file": "clips/13aa0d1d3605.mp3",
+     "seconds": 6.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Teeth instead of diagnoses",
+   "lines": [
+    {
+     "raw": "Three claim forms in US healthcare.",
+     "say": "Three claim forms in U S healthcare.",
+     "focus": -1,
+     "file": "clips/4002a722e519.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Doctors. Paper form: CMS-1500. Electronic file: 837P. Procedure codes: CPT / HCPCS.",
+     "say": "Doctors. Paper form: C M S 1500. Electronic file: 8 3 7 P. Procedure codes: C P T or H C P C S.",
+     "focus": 0,
+     "file": "clips/08ab800162f5.mp3",
+     "seconds": 10.7
+    },
+    {
+     "raw": "Hospitals. Paper form: UB-04. Electronic file: 837I. Procedure codes: Revenue codes, ICD-10-PCS, CPT/HCPCS.",
+     "say": "Hospitals. Paper form: U B 04. Electronic file: 8 3 7 I. Procedure codes: Revenue codes, I C D 10-PCS, CPT/HCPCS.",
+     "focus": 1,
+     "file": "clips/c3592fc4488b.mp3",
+     "seconds": 13.325
+    },
+    {
+     "raw": "Dentists. Paper form: ADA Dental Claim Form. Electronic file: 837D. Procedure codes: CDT.",
+     "say": "Dentists. Paper form: A D A Dental Claim Form. Electronic file: 8 3 7 D. Procedure codes: C D T.",
+     "focus": 2,
+     "file": "clips/89dc80024a2e.mp3",
+     "seconds": 9.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Teeth instead of diagnoses",
+   "lines": [
+    {
+     "raw": "Dental work can show up on a medical claim.",
+     "say": "Dental work can show up on a medical claim.",
+     "focus": -1,
+     "file": "clips/a0cc22583dc4.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Some mouth problems are **medical**: for example, a broken jaw after a car accident, or oral surgery done in a hospital.",
+     "say": "Some mouth problems are medical: for example, a broken jaw after a car accident, or oral surgery done in a hospital.",
+     "focus": -1,
+     "file": "clips/462218d758f0.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "These can be billed to the **medical** plan with CPT and ICD-10 codes.",
+     "say": "These can be billed to the medical plan with C P T and I C D 10 codes.",
+     "focus": -1,
+     "file": "clips/18b7c155390d.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "Routine teeth care goes to the **dental** plan with CDT codes.",
+     "say": "Routine teeth care goes to the dental plan with C D T codes.",
+     "focus": -1,
+     "file": "clips/df8b44dc96c2.mp3",
+     "seconds": 4.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What government programmes cover.",
+     "say": "What government programmes cover.",
+     "focus": -1,
+     "file": "clips/f5883e47115e.mp3",
+     "seconds": 2.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "What government programmes cover",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Original Medicare**. Dental cover: Generally **no** routine dental care (cleanings, fillings, dentures).",
+     "say": "Original Medicare. Dental cover: Generally no routine dental care (cleanings, fillings, dentures).",
+     "focus": 0,
+     "file": "clips/69e8f0df5b8e.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "**Medicare Advantage**. Dental cover: Many plans **add** some dental benefits on top.",
+     "say": "Medicare Advantage. Dental cover: Many plans add some dental benefits on top.",
+     "focus": 1,
+     "file": "clips/0dcab17021f9.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "**Medicaid (children)**. Dental cover: Dental care is covered for children.",
+     "say": "Medicaid (children). Dental cover: Dental care is covered for children.",
+     "focus": 2,
+     "file": "clips/14b1a8aa0cc4.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "**Medicaid (adults)**. Dental cover: Differs from **state to state**: from emergency-only to fuller cover.",
+     "say": "Medicaid (adults). Dental cover: Differs from state to state: from emergency-only to fuller cover.",
+     "focus": 3,
+     "file": "clips/9deb134dd561.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "**Employer plans**. Dental cover: A separate dental plan that employees choose to join, like Emily's.",
+     "say": "Employer plans. Dental cover: A separate dental plan that employees choose to join, like Emily's.",
+     "focus": 4,
+     "file": "clips/986cd446f8fc.mp3",
+     "seconds": 6.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "What government programmes cover",
+   "lines": [
+    {
+     "raw": "In the US: Emily's two cards.",
+     "say": "In the U S: Emily's two cards.",
+     "focus": -1,
+     "file": "clips/b262976fc780.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Emily carries her **medical** card (her PPO) and a **dental** card (Lone Star Dental).",
+     "say": "Emily carries her medical card (her P P O) and a dental card (Lone Star Dental).",
+     "focus": 0,
+     "file": "clips/189d5feaa7ed.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Lily is on both.",
+     "say": "Lily is on both.",
+     "focus": 0,
+     "file": "clips/d628e179fba6.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Her appendix surgery in June went to the medical plan.",
+     "say": "Her appendix surgery in June went to the medical plan.",
+     "focus": 1,
+     "file": "clips/b52a7152392f.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Her filling in March goes to the dental plan.",
+     "say": "Her filling in March goes to the dental plan.",
+     "focus": 1,
+     "file": "clips/454d40a58616.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "The two insurers keep **separate** member records and claims.",
+     "say": "The two insurers keep separate member records and claims.",
+     "focus": 2,
+     "file": "clips/7d62eac851b8.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "A data team that wants \"all of Emily's care\" has to bring two sources together and match her across them.",
+     "say": "A data team that wants \"all of Emily's care\" has to bring two sources together and match her across them.",
+     "focus": 2,
+     "file": "clips/3fc210366b7f.mp3",
+     "seconds": 6.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "What government programmes cover",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Dental claims usually live in their **own table** (or come from a different vendor), with CDT codes, tooth and surface columns and a mostly empty diagnosis column.",
+     "say": "Dental claims usually live in their own table (or come from a different vendor), with C D T codes, tooth and surface columns and a mostly empty diagnosis column.",
+     "focus": -1,
+     "file": "clips/292c92343ef3.mp3",
+     "seconds": 10.8
+    },
+    {
+     "raw": "Do not mix them into a medical claims table and expect the same fields, and do not judge dental data quality by missing diagnoses.",
+     "say": "Do not mix them into a medical claims table and expect the same fields, and do not judge dental data quality by missing diagnoses.",
+     "focus": -1,
+     "file": "clips/60caa491a6c8.mp3",
+     "seconds": 9.2
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A dental plan is a **separate** product with its own card, rules, codes and claim form.",
+     "say": "A dental plan is a separate product with its own card, rules, codes and claim form.",
+     "focus": 0,
+     "file": "clips/2948c96fc230.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "The dental **annual maximum** limits what the **plan** pays; the medical **out-of-pocket maximum** limits what the **patient** pays.",
+     "say": "The dental annual maximum limits what the plan pays; the medical out-of-pocket maximum limits what the patient pays.",
+     "focus": 1,
+     "file": "clips/0510b8d5a48b.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "Dental claims use **CDT** codes and **tooth / surface / area** fields; diagnosis codes are often blank.",
+     "say": "Dental claims use C D T codes and tooth or surface or area fields; diagnosis codes are often blank.",
+     "focus": 2,
+     "file": "clips/7682dbeac028.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "Dentists bill on the **ADA form / 837D**; doctors and hospitals use CMS-1500 / 837P and UB-04 / 837I.",
+     "say": "Dentists bill on the A D A form or 8 3 7 D; doctors and hospitals use C M S 1500 or 8 3 7 P and U B 04 or 8 3 7 I.",
+     "focus": 3,
+     "file": "clips/3ee4fe9b0535.mp3",
+     "seconds": 12.925
+    },
+    {
+     "raw": "Original Medicare generally does not cover routine dental care; Medicaid covers children, and adult cover varies by state.",
+     "say": "Original Medicare generally does not cover routine dental care; Medicaid covers children, and adult cover varies by state.",
+     "focus": 4,
+     "file": "clips/0a9e145fd48f.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

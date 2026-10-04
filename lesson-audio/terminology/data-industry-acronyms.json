@@ -1,0 +1,666 @@
+{
+ "courseId": "terminology",
+ "lessonId": "data-industry-acronyms",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Data & Industry Acronyms.",
+     "say": "Lesson 6: Data and Industry Acronyms.",
+     "focus": -1,
+     "file": "clips/7e67a405c957.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "A lookup glossary: one line per acronym, and where each one is taught in depth.",
+     "say": "A lookup glossary: one line per acronym, and where each one is taught in depth.",
+     "focus": -1,
+     "file": "clips/e86925ec2f03.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Use the glossary to decode the acronyms you meet in meetings, column names and file names.",
+     "say": "Use the glossary to decode the acronyms you meet in meetings, column names and file names.",
+     "focus": 0,
+     "file": "clips/30b0a42137b9.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "Recognise the main groups: counting and money, payment models, quality and risk, pharmacy, data files.",
+     "say": "Recognise the main groups: counting and money, payment models, quality and risk, pharmacy, data files.",
+     "focus": 1,
+     "file": "clips/4f9b43613ccd.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "Know which course to open when you need the full story behind an acronym.",
+     "say": "Know which course to open when you need the full story behind an acronym.",
+     "focus": 2,
+     "file": "clips/600cbcae18bd.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Spot acronyms with two meanings, such as POS.",
+     "say": "Spot acronyms with two meanings, such as P O S.",
+     "focus": 3,
+     "file": "clips/2eb290bb77ca.mp3",
+     "seconds": 3.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The glossary at the back of a textbook.",
+     "say": "The glossary at the back of a textbook.",
+     "focus": -1,
+     "file": "clips/5618f3dde0b7.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "A school science book has a glossary at the back: one line per word, and a page number to turn to for the full explanation.",
+     "say": "A school science book has a glossary at the back: one line per word, and a page number to turn to for the full explanation.",
+     "focus": -1,
+     "file": "clips/3dc1e2b59bbe.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "This lesson is that glossary for US healthcare.",
+     "say": "This lesson is that glossary for U S healthcare.",
+     "focus": -1,
+     "file": "clips/de5b00aaa5c5.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "It does not teach each idea; it tells you what the letters mean and where to learn more.",
+     "say": "It does not teach each idea; it tells you what the letters mean and where to learn more.",
+     "focus": -1,
+     "file": "clips/0bb7990c1113.mp3",
+     "seconds": 5.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "In one sentence: US healthcare runs on acronyms, and most of them belong to one of five groups: **counting people and money**, **how providers are paid**, **quality and risk**, **pharmacy**, and **data files**.",
+     "say": "In one sentence: U S healthcare runs on acronyms, and most of them belong to one of five groups: counting people and money, how providers are paid, quality and risk, pharmacy, and data files.",
+     "focus": -1,
+     "file": "clips/04b64d9c50a5.mp3",
+     "seconds": 13.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Your lookup table.",
+     "say": "Your lookup table.",
+     "focus": -1,
+     "file": "clips/5da773103481.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Your lookup table",
+   "lines": [
+    {
+     "raw": "US healthcare acronyms A to Z.",
+     "say": "U S healthcare acronyms A to Z.",
+     "focus": -1,
+     "file": "clips/3166c2cefd64.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "ACA. Stands for: Affordable Care Act. One-line meaning: 2010 law: marketplaces, pre-existing condition protections. Taught in: Lesson 5 of this course.",
+     "say": "A C A. Stands for: Affordable Care Act. One-line meaning: 2010 law: marketplaces, pre-existing condition protections. Taught in: Lesson 5 of this course.",
+     "focus": 0,
+     "file": "clips/edd525ac00d2.mp3",
+     "seconds": 11.575
+    },
+    {
+     "raw": "ACO. Stands for: Accountable Care Organization. One-line meaning: Providers sharing responsibility for cost and quality. Taught in: Value Based Care course.",
+     "say": "A C O. Stands for: Accountable Care Organization. One-line meaning: Providers sharing responsibility for cost and quality. Taught in: Value Based Care course.",
+     "focus": 1,
+     "file": "clips/e8b2282c8500.mp3",
+     "seconds": 11.575
+    },
+    {
+     "raw": "Capitation. Stands for: (not an acronym). One-line meaning: Provider paid a fixed amount per member per month, used or not. Taught in: Capitation course.",
+     "say": "Capitation. Stands for: (not an acronym). One-line meaning: Provider paid a fixed amount per member per month, used or not. Taught in: Capitation course.",
+     "focus": 2,
+     "file": "clips/ad581131bcb4.mp3",
+     "seconds": 10.7
+    },
+    {
+     "raw": "CHIP. Stands for: Children's Health Insurance Program. One-line meaning: Government coverage for children. Taught in: Lesson 5 of this course.",
+     "say": "CHIP. Stands for: Children's Health Insurance Program. One-line meaning: Government coverage for children. Taught in: Lesson 5 of this course.",
+     "focus": 3,
+     "file": "clips/43a713000b17.mp3",
+     "seconds": 9.75
+    },
+    {
+     "raw": "CMS. Stands for: Centers for Medicare & Medicaid Services. One-line meaning: Federal agency that runs Medicare. Taught in: Lesson 5 of this course.",
+     "say": "C M S. Stands for: Centers for Medicare and Medicaid Services. One-line meaning: Federal agency that runs Medicare. Taught in: Lesson 5 of this course.",
+     "focus": 4,
+     "file": "clips/29f03c2f1837.mp3",
+     "seconds": 11.775
+    },
+    {
+     "raw": "COB. Stands for: Coordination of Benefits. One-line meaning: Rules for who pays first when someone has two plans. Taught in: Eligibility course.",
+     "say": "C O B. Stands for: Coordination of Benefits. One-line meaning: Rules for who pays first when someone has two plans. Taught in: Eligibility course.",
+     "focus": 5,
+     "file": "clips/45d3516956b3.mp3",
+     "seconds": 11
+    },
+    {
+     "raw": "CPT. Stands for: Current Procedural Terminology. One-line meaning: Codes for what the doctor did. Taught in: Medical course.",
+     "say": "C P T. Stands for: Current Procedural Terminology. One-line meaning: Codes for what the doctor did. Taught in: Medical course.",
+     "focus": 6,
+     "file": "clips/768ab314a02a.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "DRG. Stands for: Diagnosis Related Group. One-line meaning: One payment package for a hospital stay. Taught in: Fee For Service course.",
+     "say": "D R G. Stands for: Diagnosis Related Group. One-line meaning: One payment package for a hospital stay. Taught in: Fee For Service course.",
+     "focus": 7,
+     "file": "clips/3b6aabbadcf6.mp3",
+     "seconds": 10.425
+    },
+    {
+     "raw": "EDI. Stands for: Electronic Data Interchange. One-line meaning: Standard numbered data files exchanged between payers and providers. Taught in: Interoperability course.",
+     "say": "E D I. Stands for: Electronic Data Interchange. One-line meaning: Standard numbered data files exchanged between payers and providers. Taught in: Interoperability course.",
+     "focus": 8,
+     "file": "clips/77fc4e9b367c.mp3",
+     "seconds": 12.675
+    },
+    {
+     "raw": "EOB. Stands for: Explanation of Benefits. One-line meaning: Statement to the member; not a bill. Taught in: Claim Payment course.",
+     "say": "E O B. Stands for: Explanation of Benefits. One-line meaning: Statement to the member; not a bill. Taught in: Claim Payment course.",
+     "focus": 9,
+     "file": "clips/ebc54798f286.mp3",
+     "seconds": 9.425
+    },
+    {
+     "raw": "EPO. Stands for: Exclusive Provider Organization. One-line meaning: In-network only, usually no referrals. Taught in: Lesson 3 of this course.",
+     "say": "E P O. Stands for: Exclusive Provider Organization. One-line meaning: In-network only, usually no referrals. Taught in: Lesson 3 of this course.",
+     "focus": 10,
+     "file": "clips/2d653eb50e5e.mp3",
+     "seconds": 11.125
+    },
+    {
+     "raw": "FFS. Stands for: Fee for Service. One-line meaning: Provider paid for each service. Taught in: Fee For Service course.",
+     "say": "F F S. Stands for: Fee for Service. One-line meaning: Provider paid for each service. Taught in: Fee For Service course.",
+     "focus": 11,
+     "file": "clips/0d15b9b3c2d1.mp3",
+     "seconds": 8.9
+    },
+    {
+     "raw": "HCC. Stands for: Hierarchical Condition Category. One-line meaning: Diagnosis groups used in risk adjustment. Taught in: Risk Adjustment course.",
+     "say": "H C C. Stands for: Hierarchical Condition Category. One-line meaning: Diagnosis groups used in risk adjustment. Taught in: Risk Adjustment course.",
+     "focus": 12,
+     "file": "clips/76ca4dc6a0e3.mp3",
+     "seconds": 11.075
+    },
+    {
+     "raw": "HDHP. Stands for: High Deductible Health Plan. One-line meaning: High deductible; allows an HSA. Taught in: Lesson 3 of this course.",
+     "say": "H D H P. Stands for: High Deductible Health Plan. One-line meaning: High deductible; allows an H S A. Taught in: Lesson 3 of this course.",
+     "focus": 13,
+     "file": "clips/613ba01a9c82.mp3",
+     "seconds": 10.825
+    },
+    {
+     "raw": "HEDIS. Stands for: Healthcare Effectiveness Data and Information Set. One-line meaning: Standard quality measures. Taught in: HEDIS course.",
+     "say": "HEDIS. Stands for: Healthcare Effectiveness Data and Information Set. One-line meaning: Standard quality measures. Taught in: HEDIS course.",
+     "focus": 14,
+     "file": "clips/fc7ede248129.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "HIPAA. Stands for: Health Insurance Portability and Accountability Act. One-line meaning: 1996 law: privacy and data standards. Taught in: HIPAA course.",
+     "say": "HIPAA. Stands for: Health Insurance Portability and Accountability Act. One-line meaning: 1996 law: privacy and data standards. Taught in: HIPAA course.",
+     "focus": 15,
+     "file": "clips/338dfc3ffefd.mp3",
+     "seconds": 11.475
+    },
+    {
+     "raw": "HMO. Stands for: Health Maintenance Organization. One-line meaning: PCP and referrals, in-network only. Taught in: Lesson 3 of this course.",
+     "say": "H M O. Stands for: Health Maintenance Organization. One-line meaning: P C P and referrals, in-network only. Taught in: Lesson 3 of this course.",
+     "focus": 16,
+     "file": "clips/28c07cfe76ab.mp3",
+     "seconds": 10.975
+    },
+    {
+     "raw": "HSA. Stands for: Health Savings Account. One-line meaning: Tax-free medical savings with an HDHP. Taught in: Lesson 3 of this course.",
+     "say": "H S A. Stands for: Health Savings Account. One-line meaning: Tax-free medical savings with an H D H P. Taught in: Lesson 3 of this course.",
+     "focus": 17,
+     "file": "clips/47bd27bc416f.mp3",
+     "seconds": 10.3
+    },
+    {
+     "raw": "ICD-10. Stands for: International Classification of Diseases, 10th revision. One-line meaning: Diagnosis codes: why care was needed. Taught in: Medical course.",
+     "say": "I C D 10. Stands for: International Classification of Diseases, 10th revision. One-line meaning: Diagnosis codes: why care was needed. Taught in: Medical course.",
+     "focus": 18,
+     "file": "clips/186ac010c7ad.mp3",
+     "seconds": 12.475
+    },
+    {
+     "raw": "MA. Stands for: Medicare Advantage. One-line meaning: Private plans that replace Original Medicare. Taught in: Medicare course.",
+     "say": "M A. Stands for: Medicare Advantage. One-line meaning: Private plans that replace Original Medicare. Taught in: Medicare course.",
+     "focus": 19,
+     "file": "clips/de3efe22f9ca.mp3",
+     "seconds": 9.575
+    },
+    {
+     "raw": "MM. Stands for: Member month. One-line meaning: One person covered for one month. Taught in: Eligibility course.",
+     "say": "M M. Stands for: Member month. One-line meaning: One person covered for one month. Taught in: Eligibility course.",
+     "focus": 20,
+     "file": "clips/936144a748a7.mp3",
+     "seconds": 8.225
+    },
+    {
+     "raw": "NDC. Stands for: National Drug Code. One-line meaning: ID for a drug product and pack. Taught in: Pharmacy course.",
+     "say": "N D C. Stands for: National Drug Code. One-line meaning: I D for a drug product and pack. Taught in: Pharmacy course.",
+     "focus": 21,
+     "file": "clips/4517217e52e7.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "NPI. Stands for: National Provider Identifier. One-line meaning: The ID number every US provider uses on claims. Taught in: Provider course.",
+     "say": "N P I. Stands for: National Provider Identifier. One-line meaning: The I D number every U S provider uses on claims. Taught in: Provider course.",
+     "focus": 22,
+     "file": "clips/3a73d0552633.mp3",
+     "seconds": 11.45
+    },
+    {
+     "raw": "OOP. Stands for: Out of pocket. One-line meaning: What the member pays; the OOP max caps it. Taught in: Lesson 2 of this course.",
+     "say": "O O P. Stands for: Out of pocket. One-line meaning: What the member pays; the O O P max caps it. Taught in: Lesson 2 of this course.",
+     "focus": 23,
+     "file": "clips/d7d24d732e63.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "PBM. Stands for: Pharmacy Benefit Manager. One-line meaning: Runs drug benefits for plans. Taught in: Pharmacy Benefits Manager course.",
+     "say": "P B M. Stands for: Pharmacy Benefit Manager. One-line meaning: Runs drug benefits for plans. Taught in: Pharmacy Benefits Manager course.",
+     "focus": 24,
+     "file": "clips/a3e12f48a670.mp3",
+     "seconds": 10.925
+    },
+    {
+     "raw": "PCP. Stands for: Primary Care Provider. One-line meaning: Your main doctor. Taught in: Lesson 3 of this course.",
+     "say": "P C P. Stands for: Primary Care Provider. One-line meaning: Your main doctor. Taught in: Lesson 3 of this course.",
+     "focus": 25,
+     "file": "clips/1814ebdae0ab.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "PHI. Stands for: Protected Health Information. One-line meaning: Health data that identifies a person. Taught in: HIPAA course.",
+     "say": "P H I. Stands for: Protected Health Information. One-line meaning: Health data that identifies a person. Taught in: HIPAA course.",
+     "focus": 26,
+     "file": "clips/b6f28256a59a.mp3",
+     "seconds": 9.675
+    },
+    {
+     "raw": "PMPM. Stands for: Per Member Per Month. One-line meaning: Cost ÷ member months. Taught in: Eligibility course.",
+     "say": "P M P M. Stands for: Per Member Per Month. One-line meaning: Cost ÷ member months. Taught in: Eligibility course.",
+     "focus": 27,
+     "file": "clips/5fbc12635ce1.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "POS. Stands for: Point of Service / Place of Service. One-line meaning: A plan type, or the care setting on a claim (see below). Taught in: Lesson 3 / Medical course.",
+     "say": "P O S. Stands for: Point of Service or Place of Service. One-line meaning: A plan type, or the care setting on a claim (see below). Taught in: Lesson 3 or Medical course.",
+     "focus": 28,
+     "file": "clips/94279da2fb14.mp3",
+     "seconds": 12.2
+    },
+    {
+     "raw": "PPO. Stands for: Preferred Provider Organization. One-line meaning: No referrals, out-of-network covered. Taught in: Lesson 3 of this course.",
+     "say": "P P O. Stands for: Preferred Provider Organization. One-line meaning: No referrals, out-of-network covered. Taught in: Lesson 3 of this course.",
+     "focus": 29,
+     "file": "clips/ee27c61ec2d1.mp3",
+     "seconds": 10.7
+    },
+    {
+     "raw": "RAF. Stands for: Risk Adjustment Factor. One-line meaning: Risk score; around 1.0 means an average member. Taught in: Risk Adjustment course.",
+     "say": "R A F. Stands for: Risk Adjustment Factor. One-line meaning: Risk score; around 1.0 means an average member. Taught in: Risk Adjustment course.",
+     "focus": 30,
+     "file": "clips/7dfda2ec530a.mp3",
+     "seconds": 11.5
+    },
+    {
+     "raw": "VBC. Stands for: Value-Based Care. One-line meaning: Paying for results, not volume. Taught in: Value Based Care course.",
+     "say": "V B C. Stands for: Value-Based Care. One-line meaning: Paying for results, not volume. Taught in: Value Based Care course.",
+     "focus": 31,
+     "file": "clips/0a5560fb91c2.mp3",
+     "seconds": 9.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Your lookup table",
+   "lines": [
+    {
+     "raw": "Watch out: POS has two meanings.",
+     "say": "Watch out: P O S has two meanings.",
+     "focus": -1,
+     "file": "clips/f9a8609ab155.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "On a plan, **POS** means **Point of Service** plan.",
+     "say": "On a plan, P O S means Point of Service plan.",
+     "focus": -1,
+     "file": "clips/a8e2a52c5fcd.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "On a claim, **POS** means **Place of Service**, a short code for where care happened (office, hospital and so on).",
+     "say": "On a claim, P O S means Place of Service, a short code for where care happened (office, hospital and so on).",
+     "focus": -1,
+     "file": "clips/7c50e596581b.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "Check the context: a plan table or a claim table.",
+     "say": "Check the context: a plan table or a claim table.",
+     "focus": -1,
+     "file": "clips/93672fb53795.mp3",
+     "seconds": 3.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Where to go deeper.",
+     "say": "Where to go deeper.",
+     "focus": -1,
+     "file": "clips/bd8e925a7432.mp3",
+     "seconds": 1.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Where to go deeper",
+   "lines": [
+    {
+     "raw": "Counting people and money: MM and PMPM.",
+     "say": "Counting people and money: M M and P M P M.",
+     "focus": -1,
+     "file": "clips/eb2fae82f1f0.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Member months and PMPM (cost per member per month) are how analysts compare groups of different sizes.",
+     "say": "Member months and P M P M (cost per member per month) are how analysts compare groups of different sizes.",
+     "focus": -1,
+     "file": "clips/525b08cec52a.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "Counting member months from enrollment dates is taught in the Eligibility course.",
+     "say": "Counting member months from enrollment dates is taught in the Eligibility course.",
+     "focus": -1,
+     "file": "clips/4b83a3725e85.mp3",
+     "seconds": 5.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Where to go deeper",
+   "lines": [
+    {
+     "raw": "How providers get paid: FFS, capitation, VBC, ACO.",
+     "say": "How providers get paid: F F S, capitation, V B C, A C O.",
+     "focus": -1,
+     "file": "clips/a2a9a07704e7.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Paying per service, paying a fixed amount per member, and paying for results each have their own course in the Payment Models group.",
+     "say": "Paying per service, paying a fixed amount per member, and paying for results each have their own course in the Payment Models group.",
+     "focus": -1,
+     "file": "clips/45ba293064ef.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "Start with Fee For Service.",
+     "say": "Start with Fee For Service.",
+     "focus": -1,
+     "file": "clips/aaa460c25225.mp3",
+     "seconds": 2.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Where to go deeper",
+   "lines": [
+    {
+     "raw": "Quality and risk: HEDIS, Stars, HCC, RAF.",
+     "say": "Quality and risk: HEDIS, Stars, H C C, R A F.",
+     "focus": -1,
+     "file": "clips/aa90cc7c6488.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Quality measures and paying plans more for sicker members are taught in the Quality & Population Health group.",
+     "say": "Quality measures and paying plans more for sicker members are taught in the Quality and Population Health group.",
+     "focus": -1,
+     "file": "clips/a592b2e82622.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "Risk adjustment explains HCCs and risk scores.",
+     "say": "Risk adjustment explains H C C's and risk scores.",
+     "focus": -1,
+     "file": "clips/8e11a50e1005.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Where to go deeper",
+   "lines": [
+    {
+     "raw": "Pharmacy: PBM, NDC, formulary.",
+     "say": "Pharmacy: P B M, N D C, formulary.",
+     "focus": -1,
+     "file": "clips/1dc3bc4b3229.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Pharmacy claims, drug codes and the companies that run drug benefits are taught in the Pharmacy course.",
+     "say": "Pharmacy claims, drug codes and the companies that run drug benefits are taught in the Pharmacy course.",
+     "focus": -1,
+     "file": "clips/36c00878ca3e.mp3",
+     "seconds": 6.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Where to go deeper",
+   "lines": [
+    {
+     "raw": "Data files: EDI and the numbered transactions.",
+     "say": "Data files: E D I and the numbered transactions.",
+     "focus": -1,
+     "file": "clips/a8c2ecd2bb3d.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "People say \"we got the 834\" or \"the 835 did not load\" every day.",
+     "say": "People say \"we got the 8 34\" or \"the 8 35 did not load\" every day.",
+     "focus": -1,
+     "file": "clips/275ccd59827b.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "Those numbers are standard file types, taught in the Interoperability course.",
+     "say": "Those numbers are standard file types, taught in the Interoperability course.",
+     "focus": -1,
+     "file": "clips/6bdfbde1cdcc.mp3",
+     "seconds": 5.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Where to go deeper",
+   "lines": [
+    {
+     "raw": "Why it matters for data work.",
+     "say": "Why it matters for data work.",
+     "focus": -1,
+     "file": "clips/3d85d1677532.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Column names are full of acronyms: `pmpm_paid`, `npi`, `pos`, `hcc_count`.",
+     "say": "Column names are full of acronyms: pmpm_paid, npi, pos, hcc_count.",
+     "focus": -1,
+     "file": "clips/8ee9ece2901b.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "When you meet one you do not know, look it up here first, then open the course that owns it before you build anything on top of it.",
+     "say": "When you meet one you do not know, look it up here first, then open the course that owns it before you build anything on top of it.",
+     "focus": -1,
+     "file": "clips/3a69e0b3eb4f.mp3",
+     "seconds": 7.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Where to go deeper",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You now speak the everyday language of US healthcare.",
+     "say": "You now speak the everyday language of U S healthcare.",
+     "focus": -1,
+     "file": "clips/4c37ceee052f.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Next, see these words in action in the **US Healthcare Flow** course, which follows one doctor visit from choosing a plan to paying the bill.",
+     "say": "Next, see these words in action in the U S Healthcare Flow course, which follows one doctor visit from choosing a plan to paying the bill.",
+     "focus": -1,
+     "file": "clips/749b69bb9da9.mp3",
+     "seconds": 9
+    },
+    {
+     "raw": "After the Foundations courses, the data courses start with **Eligibility**.",
+     "say": "After the Foundations courses, the data courses start with Eligibility.",
+     "focus": -1,
+     "file": "clips/1d838a45b759.mp3",
+     "seconds": 4.9
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "This lesson is a lookup glossary: one line per acronym and the course that teaches it.",
+     "say": "This lesson is a lookup glossary: one line per acronym and the course that teaches it.",
+     "focus": 0,
+     "file": "clips/53dcff1d9e09.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "Most acronyms fall into five groups: counting and money (MM, PMPM), payment models (FFS, VBC, ACO), quality and risk (HEDIS, Stars, HCC, RAF), pharmacy (PBM, NDC) and data files (EDI).",
+     "say": "Most acronyms fall into five groups: counting and money (M M, P M P M), payment models (F F S, V B C, A C O), quality and risk (HEDIS, Stars, H C C, R A F), pharmacy (P B M, N D C) and data files (E D I).",
+     "focus": 1,
+     "file": "clips/ff8b86f3f3e5.mp3",
+     "seconds": 17.175
+    },
+    {
+     "raw": "Some acronyms have two meanings: POS is a plan type and also the care setting on a claim.",
+     "say": "Some acronyms have two meanings: P O S is a plan type and also the care setting on a claim.",
+     "focus": 2,
+     "file": "clips/78a6d3f6615b.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "Check the context.",
+     "say": "Check the context.",
+     "focus": 2,
+     "file": "clips/ab393f081a92.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "When an acronym appears in a column name, learn the idea behind it in its owning course before you use the column.",
+     "say": "When an acronym appears in a column name, learn the idea behind it in its owning course before you use the column.",
+     "focus": 3,
+     "file": "clips/977233629fa0.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

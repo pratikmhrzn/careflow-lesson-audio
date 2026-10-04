@@ -1,0 +1,806 @@
+{
+ "courseId": "medical",
+ "lessonId": "care-setting",
+ "lessonNumber": 9,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 9: Care Setting: Where & Which Department.",
+     "say": "Lesson 9: Care Setting: Where and Which Department.",
+     "focus": -1,
+     "file": "clips/b02f86c6b9d4.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "The same check-up costs different amounts in a clinic and in an emergency room.",
+     "say": "The same check-up costs different amounts in a clinic and in an emergency room.",
+     "focus": -1,
+     "file": "clips/f0aeede3a133.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what Place of Service (POS) tells you on a doctor claim.",
+     "say": "Explain what Place of Service (P O S) tells you on a doctor claim.",
+     "focus": 0,
+     "file": "clips/7b1d6928bf6c.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "Read a Type of Bill (TOB) code on a hospital claim.",
+     "say": "Read a Type of Bill (T O B) code on a hospital claim.",
+     "focus": 1,
+     "file": "clips/b4e1a35ba9b1.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Explain what a revenue code tells you about a hospital charge.",
+     "say": "Explain what a revenue code tells you about a hospital charge.",
+     "focus": 2,
+     "file": "clips/f0ba23e58439.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Know which \"where\" field to use for which claim type.",
+     "say": "Know which \"where\" field to use for which claim type.",
+     "focus": 3,
+     "file": "clips/fa08c6cc5fa2.mp3",
+     "seconds": 3.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Why \"where\" matters.",
+     "say": "Why \"where\" matters.",
+     "focus": -1,
+     "file": "clips/f264bc7b51cb.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Why \"where\" matters",
+   "lines": [
+    {
+     "raw": "Same tea, different price.",
+     "say": "Same tea, different price.",
+     "focus": -1,
+     "file": "clips/100ebc8e69f9.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "A cup of tea costs Rs 30 at a roadside stall and Rs 250 at a five-star hotel.",
+     "say": "A cup of tea costs Rs 30 at a roadside stall and Rs 250 at a five-star hotel.",
+     "focus": -1,
+     "file": "clips/17575bc4e164.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "It is the same tea, but the setting is different.",
+     "say": "It is the same tea, but the setting is different.",
+     "focus": -1,
+     "file": "clips/35066c77b1b9.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Healthcare is similar: the same doctor visit costs much more in an **emergency room** than in a **clinic**, so insurers watch the care setting closely.",
+     "say": "Healthcare is similar: the same doctor visit costs much more in an emergency room than in a clinic, so insurers watch the care setting closely.",
+     "focus": -1,
+     "file": "clips/51b717dbfe55.mp3",
+     "seconds": 9.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Why \"where\" matters",
+   "lines": [
+    {
+     "raw": "In Nepal: Same problem, different places.",
+     "say": "In Nepal: Same problem, different places.",
+     "focus": -1,
+     "file": "clips/f1d2b7378714.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram has a high fever on a Saturday night.",
+     "say": "Ram has a high fever on a Saturday night.",
+     "focus": 0,
+     "file": "clips/4463d510e4c6.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "The clinics are closed, so he goes to the **hospital emergency**.",
+     "say": "The clinics are closed, so he goes to the hospital emergency.",
+     "focus": 0,
+     "file": "clips/6361aaaf5ea2.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "The bill is higher than an OPD visit.",
+     "say": "The bill is higher than an O P D visit.",
+     "focus": 0,
+     "file": "clips/080463b8439a.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Next week, for the follow-up, he goes to the **OPD**, which is cheaper.",
+     "say": "Next week, for the follow-up, he goes to the O P D, which is cheaper.",
+     "focus": 1,
+     "file": "clips/a98977448d95.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "He claims both bills from his insurer.",
+     "say": "He claims both bills from his insurer.",
+     "focus": 2,
+     "file": "clips/ded2a5e4eeca.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "The bill shows **where** he was treated, and his policy may have different limits for emergency and OPD.",
+     "say": "The bill shows where he was treated, and his policy may have different limits for emergency and O P D.",
+     "focus": 2,
+     "file": "clips/70736e5b99a6.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF also treats emergency and OPD visits differently, and admitted (inpatient) care follows its own rules and limits.",
+     "say": "S S F also treats emergency and O P D visits differently, and admitted (inpatient) care follows its own rules and limits.",
+     "focus": 3,
+     "file": "clips/e8784f276a42.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "The hospital must clearly state on the claim whether Sita was seen in OPD, emergency, or was admitted.",
+     "say": "The hospital must clearly state on the claim whether Sita was seen in O P D, emergency, or was admitted.",
+     "focus": 4,
+     "file": "clips/4ed03ddcf29f.mp3",
+     "seconds": 7.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Why \"where\" matters",
+   "lines": [
+    {
+     "raw": "The idea in one sentence: **doctor claims say \"where\" with a Place of Service code; hospital claims say it with a Type of Bill code and a revenue code on each line.**",
+     "say": "The idea in one sentence: doctor claims say \"where\" with a Place of Service code; hospital claims say it with a Type of Bill code and a revenue code on each line.",
+     "focus": -1,
+     "file": "clips/29195f1e7fc4.mp3",
+     "seconds": 10.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Why \"where\" matters",
+   "lines": [
+    {
+     "raw": "Three \"where\" fields.",
+     "say": "Three \"where\" fields.",
+     "focus": -1,
+     "file": "clips/cf1abf56cde5.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "**Place of Service (POS)**. Claim type: Professional. Level: Line. Answers: Where did the doctor see the patient?",
+     "say": "Place of Service (P O S). Claim type: Professional. Level: Line. Answers: Where did the doctor see the patient?",
+     "focus": 0,
+     "file": "clips/1d8eee266d9c.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "**Type of Bill (TOB)**. Claim type: Institutional. Level: Header. Answers: What kind of facility, inpatient or outpatient, and which bill?",
+     "say": "Type of Bill (T O B). Claim type: Institutional. Level: Header. Answers: What kind of facility, inpatient or outpatient, and which bill?",
+     "focus": 1,
+     "file": "clips/f9301c83ab09.mp3",
+     "seconds": 10.025
+    },
+    {
+     "raw": "**Revenue code**. Claim type: Institutional. Level: Line. Answers: Which hospital department is this charge from?",
+     "say": "Revenue code. Claim type: Institutional. Level: Line. Answers: Which hospital department is this charge from?",
+     "focus": 2,
+     "file": "clips/f5b0c4025947.mp3",
+     "seconds": 8.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Place of Service (POS): where the doctor worked.",
+     "say": "Place of Service (P O S): where the doctor worked.",
+     "focus": -1,
+     "file": "clips/a8b4d8b28e41.mp3",
+     "seconds": 3.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Place of Service (POS): where the doctor worked",
+   "lines": [
+    {
+     "raw": "On a professional claim (CMS-1500), each line has a **two-digit Place of Service code** that says **where** the service happened.",
+     "say": "On a professional claim (C M S 1500), each line has a two-digit Place of Service code that says where the service happened.",
+     "focus": -1,
+     "file": "clips/7077702c7c7c.mp3",
+     "seconds": 8.8
+    },
+    {
+     "raw": "The list is maintained by **CMS** (Centers for Medicare & Medicaid Services, the US government's health agency).",
+     "say": "The list is maintained by C M S (Centers for Medicare and Medicaid Services, the U S government's health agency).",
+     "focus": -1,
+     "file": "clips/19a7a37a8592.mp3",
+     "seconds": 8.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Place of Service (POS): where the doctor worked",
+   "lines": [
+    {
+     "raw": "POS codes you will see often (for reference, not to memorise).",
+     "say": "P O S codes you will see often (for reference, not to memorise).",
+     "focus": -1,
+     "file": "clips/352f3604dea4.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "`11`. Meaning: Doctor's office. Nepal comparison: Private clinic / doctor's chamber.",
+     "say": "11. Meaning: Doctor's office. Nepal comparison: Private clinic or doctor's chamber.",
+     "focus": 0,
+     "file": "clips/540902de0b30.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "`02` / `10`. Meaning: Telehealth (video or phone visit). Nepal comparison: Online consultation with a doctor.",
+     "say": "02 or 10. Meaning: Telehealth (video or phone visit). Nepal comparison: Online consultation with a doctor.",
+     "focus": 1,
+     "file": "clips/bbc2e9775358.mp3",
+     "seconds": 9.075
+    },
+    {
+     "raw": "`20`. Meaning: Urgent care centre. Nepal comparison: Walk-in clinic for small emergencies.",
+     "say": "20. Meaning: Urgent care centre. Nepal comparison: Walk-in clinic for small emergencies.",
+     "focus": 2,
+     "file": "clips/2dda23dd63f1.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "`21`. Meaning: Inpatient hospital. Nepal comparison: Admitted to the ward.",
+     "say": "21. Meaning: Inpatient hospital. Nepal comparison: Admitted to the ward.",
+     "focus": 3,
+     "file": "clips/2d88aaf41f89.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "`22`. Meaning: Outpatient hospital. Nepal comparison: Hospital OPD.",
+     "say": "22. Meaning: Outpatient hospital. Nepal comparison: Hospital O P D.",
+     "focus": 4,
+     "file": "clips/00f701d52a3b.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "`23`. Meaning: Emergency room (hospital). Nepal comparison: Hospital emergency department.",
+     "say": "23. Meaning: Emergency room (hospital). Nepal comparison: Hospital emergency department.",
+     "focus": 5,
+     "file": "clips/a77a3fd6090d.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "`31`. Meaning: Skilled nursing facility. Nepal comparison: Nursing / rehabilitation centre.",
+     "say": "31. Meaning: Skilled nursing facility. Nepal comparison: Nursing or rehabilitation centre.",
+     "focus": 6,
+     "file": "clips/566ddee64178.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "`41`. Meaning: Ambulance (land). Nepal comparison: Ambulance ride.",
+     "say": "41. Meaning: Ambulance (land). Nepal comparison: Ambulance ride.",
+     "focus": 7,
+     "file": "clips/b8c807f73399.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "`81`. Meaning: Independent laboratory. Nepal comparison: Separate pathology lab (not inside a hospital).",
+     "say": "81. Meaning: Independent laboratory. Nepal comparison: Separate pathology lab (not inside a hospital).",
+     "focus": 8,
+     "file": "clips/4fa367f004ef.mp3",
+     "seconds": 8.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Place of Service (POS): where the doctor worked",
+   "lines": [
+    {
+     "raw": "A doctor in a hospital still sends a doctor claim.",
+     "say": "A doctor in a hospital still sends a doctor claim.",
+     "focus": -1,
+     "file": "clips/293ffbec5c0e.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "When the surgeon operates on Emily in the hospital, the surgeon's professional claim has POS **inpatient hospital**.",
+     "say": "When the surgeon operates on Emily in the hospital, the surgeon's professional claim has P O S inpatient hospital.",
+     "focus": -1,
+     "file": "clips/b6e55d7969d6.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "The POS tells you the doctor worked inside a hospital, but the hospital's own charges are on a separate institutional claim.",
+     "say": "The P O S tells you the doctor worked inside a hospital, but the hospital's own charges are on a separate institutional claim.",
+     "focus": -1,
+     "file": "clips/0928bbfe2984.mp3",
+     "seconds": 8.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Type of Bill (TOB): what kind of facility bill?",
+     "say": "Type of Bill (T O B): what kind of facility bill?",
+     "focus": -1,
+     "file": "clips/debbb4475f5d.mp3",
+     "seconds": 3.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Type of Bill (TOB): what kind of facility bill?",
+   "lines": [
+    {
+     "raw": "Facility claims (UB-04) do not use POS.",
+     "say": "Facility claims (U B 04) do not use P O S.",
+     "focus": -1,
+     "file": "clips/0321b489b374.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Every UB-04 has a **Type of Bill** code, also called the **Bill Type code**.",
+     "say": "Every U B 04 has a Type of Bill code, also called the Bill Type code.",
+     "focus": -1,
+     "file": "clips/187ebc11e915.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "It is **4 digits**, like `0111`.",
+     "say": "It is 4 digits, like 0 1 1 1.",
+     "focus": -1,
+     "file": "clips/294312ae4f75.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "The first digit is always `0`, so many data files drop it and show just `111`.",
+     "say": "The first digit is always 0, so many data files drop it and show just 111.",
+     "focus": -1,
+     "file": "clips/9c996379cc13.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "Each of the other 3 digits means something.",
+     "say": "Each of the other 3 digits means something.",
+     "focus": -1,
+     "file": "clips/141edbb11740.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "In data files you may see the column as `TypeOfBill`, `TOB` or `BillType`.",
+     "say": "In data files you may see the column as TypeOfBill, T O B or BillType.",
+     "focus": -1,
+     "file": "clips/27d023924089.mp3",
+     "seconds": 5.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Type of Bill (TOB): what kind of facility bill?",
+   "lines": [
+    {
+     "raw": "Type of Bill.",
+     "say": "Type of Bill.",
+     "focus": -1,
+     "file": "clips/1770077b4be6.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "0: **Leading zero**: always `0`.",
+     "say": "0: Leading zero: always 0.",
+     "focus": 0,
+     "file": "clips/fa461b7a473b.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "It carries no meaning, which is why it is often dropped.",
+     "say": "It carries no meaning, which is why it is often dropped.",
+     "focus": 0,
+     "file": "clips/3d43fe679221.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "1: **Type of facility**: who is billing.",
+     "say": "1: Type of facility: who is billing.",
+     "focus": 1,
+     "file": "clips/99c3f87d6791.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "`1` = **hospital**, `2` = skilled nursing facility.",
+     "say": "1 = hospital, 2 = skilled nursing facility.",
+     "focus": 1,
+     "file": "clips/d9000a01f004.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "1: **Type of care**: how the patient was treated.",
+     "say": "1: Type of care: how the patient was treated.",
+     "focus": 2,
+     "file": "clips/c55b716472d7.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "`1` = **inpatient** (admitted), `3` = **outpatient**.",
+     "say": "1 = inpatient (admitted), 3 = outpatient.",
+     "focus": 2,
+     "file": "clips/3a0088bb3539.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "1: **Frequency**: which bill this is.",
+     "say": "1: Frequency: which bill this is.",
+     "focus": 3,
+     "file": "clips/9c3a0a48045a.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "`1` = **one complete bill** for the whole stay.",
+     "say": "1 = one complete bill for the whole stay.",
+     "focus": 3,
+     "file": "clips/0fd938b9edca.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "Other values mark corrections and cancellations (lesson 12).",
+     "say": "Other values mark corrections and cancellations (lesson 12).",
+     "focus": 3,
+     "file": "clips/edbaf5018f59.mp3",
+     "seconds": 4.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Type of Bill (TOB): what kind of facility bill?",
+   "lines": [
+    {
+     "raw": "Put together: common Bill Type codes.",
+     "say": "Put together: common Bill Type codes.",
+     "focus": -1,
+     "file": "clips/18aff4849f41.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "`0111`. Short form: `111`. Reads as: Hospital · Inpatient · One bill. Meaning: Whole hospital stay on one claim.",
+     "say": "0 1 1 1. Short form: 111. Reads as: Hospital, Inpatient, One bill. Meaning: Whole hospital stay on one claim.",
+     "focus": 0,
+     "file": "clips/96298e0220de.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "`0131`. Short form: `131`. Reads as: Hospital · Outpatient · One bill. Meaning: ER visit, day surgery or scan.",
+     "say": "0 1 3 1. Short form: 131. Reads as: Hospital, Outpatient, One bill. Meaning: E R visit, day surgery or scan.",
+     "focus": 1,
+     "file": "clips/38e6592b28eb.mp3",
+     "seconds": 10.725
+    },
+    {
+     "raw": "`0211`. Short form: `211`. Reads as: Nursing facility · Inpatient · One bill. Meaning: Stay at a skilled nursing facility.",
+     "say": "0 2 1 1. Short form: 211. Reads as: Nursing facility, Inpatient, One bill. Meaning: Stay at a skilled nursing facility.",
+     "focus": 2,
+     "file": "clips/36612b3dfe23.mp3",
+     "seconds": 10.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Type of Bill (TOB): what kind of facility bill?",
+   "lines": [
+    {
+     "raw": "Why this matters for data.",
+     "say": "Why this matters for data.",
+     "focus": -1,
+     "file": "clips/c8f083c01ae7.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "To split hospital claims into **inpatient** and **outpatient**, analysts read the **type of care** digit of the Type of Bill.",
+     "say": "To split hospital claims into inpatient and outpatient, analysts read the type of care digit of the Type of Bill.",
+     "focus": -1,
+     "file": "clips/f26ce7a620c1.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "Emily's ER visit hospital claim would be `0131` (outpatient); her appendix stay would be `0111` (inpatient).",
+     "say": "Emily's E R visit hospital claim would be 0 1 3 1 (outpatient); her appendix stay would be 0 1 1 1 (inpatient).",
+     "focus": -1,
+     "file": "clips/5d45321ef09c.mp3",
+     "seconds": 9.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Revenue codes: which hospital department?",
+     "say": "Revenue codes: which hospital department?",
+     "focus": -1,
+     "file": "clips/ee542f7f073b.mp3",
+     "seconds": 3.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Revenue codes: which hospital department?",
+   "lines": [
+    {
+     "raw": "A **revenue code** is a **4-digit code** (usually starting with 0) on each line of a hospital claim.",
+     "say": "A revenue code is a 4-digit code (usually starting with 0) on each line of a hospital claim.",
+     "focus": -1,
+     "file": "clips/c2e61acc81c2.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "It says **which department or type of cost** a charge belongs to: room, pharmacy, lab, operating room, emergency room.",
+     "say": "It says which department or type of cost a charge belongs to: room, pharmacy, lab, operating room, emergency room.",
+     "focus": -1,
+     "file": "clips/41f2809519fb.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "Revenue codes are maintained by the **National Uniform Billing Committee (NUBC)**.",
+     "say": "Revenue codes are maintained by the National Uniform Billing Committee (N U B C).",
+     "focus": -1,
+     "file": "clips/0d34e374620d.mp3",
+     "seconds": 5.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Revenue codes: which hospital department?",
+   "lines": [
+    {
+     "raw": "Common revenue codes (for reference, not to memorise).",
+     "say": "Common revenue codes (for reference, not to memorise).",
+     "focus": -1,
+     "file": "clips/c9f79fc5cbdb.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "`0120`. Meaning: Room & board, semi-private (2 beds). Nepal hospital bill item: Twin-sharing bed charge.",
+     "say": "0 1 2 0. Meaning: Room and board, semi-private (2 beds). Nepal hospital bill item: Twin-sharing bed charge.",
+     "focus": 0,
+     "file": "clips/ecae20ee8d7e.mp3",
+     "seconds": 9.15
+    },
+    {
+     "raw": "`0250`. Meaning: Pharmacy. Nepal hospital bill item: Medicines given in the ward.",
+     "say": "0 2 5 0. Meaning: Pharmacy. Nepal hospital bill item: Medicines given in the ward.",
+     "focus": 1,
+     "file": "clips/15fd384efcc4.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "`0300`. Meaning: Laboratory. Nepal hospital bill item: Lab test charges.",
+     "say": "0 3 0 0. Meaning: Laboratory. Nepal hospital bill item: Lab test charges.",
+     "focus": 2,
+     "file": "clips/d177a2a35086.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "`0360`. Meaning: Operating room. Nepal hospital bill item: OT charge.",
+     "say": "0 3 6 0. Meaning: Operating room. Nepal hospital bill item: O T charge.",
+     "focus": 3,
+     "file": "clips/18755cec9d2a.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "`0450`. Meaning: Emergency room. Nepal hospital bill item: Emergency charge.",
+     "say": "0 4 5 0. Meaning: Emergency room. Nepal hospital bill item: Emergency charge.",
+     "focus": 4,
+     "file": "clips/934b8f2c9f23.mp3",
+     "seconds": 7.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Revenue codes: which hospital department?",
+   "lines": [
+    {
+     "raw": "Revenue code + procedure code work together.",
+     "say": "Revenue code and procedure code work together.",
+     "focus": -1,
+     "file": "clips/23c1ff2e3bc7.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "On outpatient hospital claims, the revenue code says the **department** (laboratory), and a CPT/HCPCS code on the same line says the **exact service** (a complete blood count).",
+     "say": "On outpatient hospital claims, the revenue code says the department (laboratory), and a CPT/HCPCS code on the same line says the exact service (a complete blood count).",
+     "focus": -1,
+     "file": "clips/cbc6e9236553.mp3",
+     "seconds": 12.25
+    },
+    {
+     "raw": "On inpatient claims, many lines carry only a revenue code, like \"2 days of room\".",
+     "say": "On inpatient claims, many lines carry only a revenue code, like \"2 days of room\".",
+     "focus": -1,
+     "file": "clips/f9cb10383215.mp3",
+     "seconds": 5.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Revenue codes: which hospital department?",
+   "lines": [
+    {
+     "raw": "Emily's ER visit: the \"where\" fields on her two claims.",
+     "say": "Emily's E R visit: the \"where\" fields on her two claims.",
+     "focus": -1,
+     "file": "clips/723abdf17e15.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Hospital (institutional). Field: Type of Bill. Value: `0131`. Reads as: Hospital · Outpatient · One bill.",
+     "say": "Hospital (institutional). Field: Type of Bill. Value: 0 1 3 1. Reads as: Hospital, Outpatient, One bill.",
+     "focus": 0,
+     "file": "clips/efc824c763ef.mp3",
+     "seconds": 8.8
+    },
+    {
+     "raw": "Hospital (institutional). Field: Revenue code, line 1. Value: `0450`. Reads as: Emergency room.",
+     "say": "Hospital (institutional). Field: Revenue code, line 1. Value: 0 4 5 0. Reads as: Emergency room.",
+     "focus": 1,
+     "file": "clips/9ddc8ddb28f3.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "Hospital (institutional). Field: Revenue code, line 2. Value: `0320`. Reads as: X-ray (radiology).",
+     "say": "Hospital (institutional). Field: Revenue code, line 2. Value: 0 3 2 0. Reads as: X-ray (radiology).",
+     "focus": 2,
+     "file": "clips/d4e0f3dae2e1.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "ER doctor (professional). Field: Place of Service. Value: `23`. Reads as: Emergency room (hospital).",
+     "say": "E R doctor (professional). Field: Place of Service. Value: 23. Reads as: Emergency room (hospital).",
+     "focus": 3,
+     "file": "clips/47ce086a2488.mp3",
+     "seconds": 8.225
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Place of Service (POS) is a 2-digit code on each professional line that says where the doctor gave care.",
+     "say": "Place of Service (P O S) is a 2-digit code on each professional line that says where the doctor gave care.",
+     "focus": 0,
+     "file": "clips/bec959feab7d.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "Type of Bill (TOB) is a 4-digit code (often shown as 3) on the hospital claim header: facility type, inpatient or outpatient, and which bill.",
+     "say": "Type of Bill (T O B) is a 4-digit code (often shown as 3) on the hospital claim header: facility type, inpatient or outpatient, and which bill.",
+     "focus": 1,
+     "file": "clips/cdf841882a84.mp3",
+     "seconds": 10.45
+    },
+    {
+     "raw": "Revenue codes are 4-digit codes on each hospital line that name the department a charge belongs to.",
+     "say": "Revenue codes are 4-digit codes on each hospital line that name the department a charge belongs to.",
+     "focus": 2,
+     "file": "clips/53d674ac6022.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "Use POS for doctor claims, and Type of Bill + revenue codes for hospital claims.",
+     "say": "Use P O S for doctor claims, and Type of Bill and revenue codes for hospital claims.",
+     "focus": 3,
+     "file": "clips/ad23b4d7afec.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "The care setting changes the price, so insurers and analysts watch it closely.",
+     "say": "The care setting changes the price, so insurers and analysts watch it closely.",
+     "focus": 4,
+     "file": "clips/a5462c227e0b.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

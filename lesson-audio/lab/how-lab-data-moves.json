@@ -1,0 +1,792 @@
+{
+ "courseId": "lab",
+ "lessonId": "how-lab-data-moves",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: How Lab Data Moves.",
+     "say": "Lesson 2: How Lab Data Moves.",
+     "focus": -1,
+     "file": "clips/b83dff7ae07a.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "One blood draw sends out two messages: a result to the doctor and a claim to the payer.",
+     "say": "One blood draw sends out two messages: a result to the doctor and a claim to the payer.",
+     "focus": -1,
+     "file": "clips/4663e4bd15b0.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Follow a lab test from order to result to claim.",
+     "say": "Follow a lab test from order to result to claim.",
+     "focus": 0,
+     "file": "clips/d440408a5524.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Recognise an HL7 v2 result message (ORU) and its OBX line.",
+     "say": "Recognise an HL7 v2 result message (O R U) and its O B X line.",
+     "focus": 1,
+     "file": "clips/f08af539d8bc.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "Know what a FHIR Observation is.",
+     "say": "Know what a F H I R Observation is.",
+     "focus": 2,
+     "file": "clips/8c9399116d1c.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "Explain why the result and the claim travel on separate roads.",
+     "say": "Explain why the result and the claim travel on separate roads.",
+     "focus": 3,
+     "file": "clips/874ab0cdfc81.mp3",
+     "seconds": 4.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two roads from one blood sample.",
+     "say": "Two roads from one blood sample.",
+     "focus": -1,
+     "file": "clips/42ae35e7797a.mp3",
+     "seconds": 2.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Two roads from one blood sample",
+   "lines": [
+    {
+     "raw": "In Nepal: The same two roads in Kathmandu.",
+     "say": "In Nepal: The same two roads in Kathmandu.",
+     "focus": -1,
+     "file": "clips/0623dbaa9aa9.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "At Ram's private hospital, the lab report may be printed, or sent by SMS or email, or downloaded from the hospital's website.",
+     "say": "At Ram's private hospital, the lab report may be printed, or sent by S M S or email, or downloaded from the hospital's website.",
+     "focus": 0,
+     "file": "clips/a040b1ca1160.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "The bill goes with Ram to his insurer when he claims reimbursement.",
+     "say": "The bill goes with Ram to his insurer when he claims reimbursement.",
+     "focus": 1,
+     "file": "clips/f8b3fadf7188.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Result and bill travel separately.",
+     "say": "Result and bill travel separately.",
+     "focus": 1,
+     "file": "clips/add978e45d70.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "At Sita's SSF-listed hospital, the report goes to her doctor and to Sita.",
+     "say": "At Sita's S S F listed hospital, the report goes to her doctor and to Sita.",
+     "focus": 2,
+     "file": "clips/5d95a07e4181.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "The test charge goes in the hospital's claim to SSF.",
+     "say": "The test charge goes in the hospital's claim to S S F.",
+     "focus": 3,
+     "file": "clips/19e6efbbd53e.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Again: one road for the result, one for the money.",
+     "say": "Again: one road for the result, one for the money.",
+     "focus": 3,
+     "file": "clips/fff8f0443c19.mp3",
+     "seconds": 3.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Two roads from one blood sample",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Every lab test sends out **two separate messages**: the **result** goes to the doctor (and sometimes the insurer) so someone can act on it, and the **claim** goes to the payer so the lab gets paid.",
+     "say": "Every lab test sends out two separate messages: the result goes to the doctor (and sometimes the insurer) so someone can act on it, and the claim goes to the payer so the lab gets paid.",
+     "focus": -1,
+     "file": "clips/077965cf6da8.mp3",
+     "seconds": 11.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Two roads from one blood sample",
+   "lines": [
+    {
+     "raw": "Here is the full journey of Robert's tests on **10 February 2025**.",
+     "say": "Here is the full journey of Robert's tests on 10 February 2025.",
+     "focus": -1,
+     "file": "clips/56158e482af1.mp3",
+     "seconds": 5.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Two roads from one blood sample",
+   "lines": [
+    {
+     "raw": "Step 1: Order.",
+     "say": "Step 1: Order.",
+     "focus": 0,
+     "file": "clips/b4860cf3c841.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Dr. Nguyen orders an HbA1c, a metabolic panel and a lipid panel in the Bayou Family Medicine computer system (the **EHR**, electronic health record).",
+     "say": "Doctor Nguyen orders an H b A 1 c, a metabolic panel and a lipid panel in the Bayou Family Medicine computer system (the E H R, electronic health record).",
+     "focus": 0,
+     "file": "clips/8c2b3d6d4f85.mp3",
+     "seconds": 11.425
+    },
+    {
+     "raw": "The order goes electronically to Bayou Clinical Lab.",
+     "say": "The order goes electronically to Bayou Clinical Lab.",
+     "focus": 0,
+     "file": "clips/a21adddbf591.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Step 2: Collection.",
+     "say": "Step 2: Collection.",
+     "focus": 1,
+     "file": "clips/3dba29a49b8e.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "On 10 Feb 2025 at 08:15, blood is drawn from Robert after fasting.",
+     "say": "On 10 Feb 2025 at 08:15, blood is drawn from Robert after fasting.",
+     "focus": 1,
+     "file": "clips/ba257cd6a737.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "The tubes are labelled with his details and an order number.",
+     "say": "The tubes are labelled with his details and an order number.",
+     "focus": 1,
+     "file": "clips/8df7547b581d.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Step 3: Testing.",
+     "say": "Step 3: Testing.",
+     "focus": 2,
+     "file": "clips/0f73522fe1ca.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "The lab's machines measure each test.",
+     "say": "The lab's machines measure each test.",
+     "focus": 2,
+     "file": "clips/145fd5d7cd3b.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "A lab scientist checks the numbers.",
+     "say": "A lab scientist checks the numbers.",
+     "focus": 2,
+     "file": "clips/4cda84e1bf56.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Step 4: Result message.",
+     "say": "Step 4: Result message.",
+     "focus": 3,
+     "file": "clips/9c462554821d.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "On 11 Feb, the lab sends the results to Dr. Nguyen's EHR as an **HL7 ORU** message, each test labelled with its LOINC code.",
+     "say": "On 11 Feb, the lab sends the results to Doctor Nguyen's E H R as an HL7 O R U message, each test labelled with its L O I N C code.",
+     "focus": 3,
+     "file": "clips/f5047485e31f.mp3",
+     "seconds": 11.125
+    },
+    {
+     "raw": "Step 5: Claim.",
+     "say": "Step 5: Claim.",
+     "focus": 4,
+     "file": "clips/7aab5aa97352.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "The lab sends a **claim** (the electronic bill) to Robert's Medicare Advantage plan, Gulf Coast Advantage (run by Gulf Coast Health Plan).",
+     "say": "The lab sends a claim (the electronic bill) to Robert's Medicare Advantage plan, Gulf Coast Advantage (run by Gulf Coast Health Plan).",
+     "focus": 4,
+     "file": "clips/3eb6c21c2665.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "It lists the tests billed, but no result values (lesson 3).",
+     "say": "It lists the tests billed, but no result values (lesson 3).",
+     "focus": 4,
+     "file": "clips/3bda390e338b.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "Step 6: To the payer.",
+     "say": "Step 6: To the payer.",
+     "focus": 5,
+     "file": "clips/cc6f56a55714.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "The plan pays the lab.",
+     "say": "The plan pays the lab.",
+     "focus": 5,
+     "file": "clips/7ea6867d283f.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Because Bayou is a large lab, it also sends the plan the results through a separate **lab data feed**.",
+     "say": "Because Bayou is a large lab, it also sends the plan the results through a separate lab data feed.",
+     "focus": 5,
+     "file": "clips/b2355722cdae.mp3",
+     "seconds": 6.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Two roads from one blood sample",
+   "lines": [
+    {
+     "raw": "The two roads side by side.",
+     "say": "The two roads side by side.",
+     "focus": -1,
+     "file": "clips/b04432e7bc8b.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Goes to. Result road: The ordering doctor's EHR (and the patient portal). Claim road: The payer (insurer or Medicare plan).",
+     "say": "Goes to. Result road: The ordering doctor's E H R (and the patient portal). Claim road: The payer (insurer or Medicare plan).",
+     "focus": 0,
+     "file": "clips/052a27db7146.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "Purpose. Result road: Care: the doctor acts on the numbers. Claim road: Money: the lab gets paid.",
+     "say": "Purpose. Result road: Care: the doctor acts on the numbers. Claim road: Money: the lab gets paid.",
+     "focus": 1,
+     "file": "clips/907cef0be97b.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Format. Result road: HL7 v2 message or FHIR Observation (this lesson). Claim road: An electronic claim (lesson 3).",
+     "say": "Format. Result road: HL7 v2 message or F H I R Observation (this lesson). Claim road: An electronic claim (lesson 3).",
+     "focus": 2,
+     "file": "clips/f039cc535a19.mp3",
+     "seconds": 10.425
+    },
+    {
+     "raw": "Carries the value? Result road: **Yes**. Claim road: **No**.",
+     "say": "Carries the value? Result road: Yes. Claim road: No.",
+     "focus": 3,
+     "file": "clips/9e69c259754f.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Reaches the payer? Result road: Only through an extra feed or medical records. Claim road: **Always**.",
+     "say": "Reaches the payer? Result road: Only through an extra feed or medical records. Claim road: Always.",
+     "focus": 4,
+     "file": "clips/8892d74fe7c2.mp3",
+     "seconds": 7.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "HL7 v2: the old workhorse for results.",
+     "say": "HL7 v2: the old workhorse for results.",
+     "focus": -1,
+     "file": "clips/b92c0ba8e5f2.mp3",
+     "seconds": 3.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "HL7 v2: the old workhorse for results",
+   "lines": [
+    {
+     "raw": "**HL7** (Health Level Seven) is the group that writes the main standards for sending clinical data.",
+     "say": "HL7 (Health Level Seven) is the group that writes the main standards for sending clinical data.",
+     "focus": -1,
+     "file": "clips/583488670e2a.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "**HL7 version 2** is a text format that hospitals and labs have used since the 1990s, and still use every day.",
+     "say": "HL7 version 2 is a text format that hospitals and labs have used since the 1990s, and still use every day.",
+     "focus": -1,
+     "file": "clips/b34a3fa41eaf.mp3",
+     "seconds": 8.65
+    },
+    {
+     "raw": "A result message is called an **ORU** (Observation Result).",
+     "say": "A result message is called an O R U (Observation Result).",
+     "focus": -1,
+     "file": "clips/9b6dbe94c4fc.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "It is made of lines called **segments**, and each segment is split into fields by the `|` (pipe) character.",
+     "say": "It is made of lines called segments, and each segment is split into fields by the | (pipe) character.",
+     "focus": -1,
+     "file": "clips/34be98f137a5.mp3",
+     "seconds": 6.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "HL7 v2: the old workhorse for results",
+   "lines": [
+    {
+     "raw": "A simplified HL7 v2 ORU^R01 message for Robert's HbA1c (fictional IDs).",
+     "say": "A simplified HL7 v2 O R U ^ R 0 1 message for Robert's H b A 1 c (fictional I D's).",
+     "focus": -1,
+     "file": "clips/bc45c2719b24.mp3",
+     "seconds": 9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "HL7 v2: the old workhorse for results",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`MSH`. Stands for: Message header. What it holds: Who sent it, who receives it, when, and the message type `ORU^R01`.",
+     "say": "M S H. Stands for: Message header. What it holds: Who sent it, who receives it, when, and the message type O R U ^ R 0 1.",
+     "focus": 0,
+     "file": "clips/df0695a192b6.mp3",
+     "seconds": 9.325
+    },
+    {
+     "raw": "`PID`. Stands for: Patient identification. What it holds: Patient ID, name (`Carter^Robert`), date of birth, sex.",
+     "say": "P I D. Stands for: Patient identification. What it holds: Patient I D, name (Carter^Robert), date of birth, sex.",
+     "focus": 1,
+     "file": "clips/9d548cb37819.mp3",
+     "seconds": 8.475
+    },
+    {
+     "raw": "`OBR`. Stands for: Observation request. What it holds: The **order**: what was ordered, collection time (10 Feb 2025 08:15), ordering doctor.",
+     "say": "O B R. Stands for: Observation request. What it holds: The order: what was ordered, collection time (10 Feb 2025 08:15), ordering doctor.",
+     "focus": 2,
+     "file": "clips/0bda44e5c47f.mp3",
+     "seconds": 11.7
+    },
+    {
+     "raw": "`OBX`. Stands for: Observation result. What it holds: **One result**. A lipid panel would have one OBX line per test.",
+     "say": "O B X. Stands for: Observation result. What it holds: One result. A lipid panel would have one O B X line per test.",
+     "focus": 3,
+     "file": "clips/615e6d3d7abf.mp3",
+     "seconds": 9.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "HL7 v2: the old workhorse for results",
+   "lines": [
+    {
+     "raw": "Robert's OBX line, field by field.",
+     "say": "Robert's O B X line, field by field.",
+     "focus": -1,
+     "file": "clips/e48766d2b965.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "NM: **Value type** (OBX-2): numeric.",
+     "say": "N M: Value type (O B X 2): numeric.",
+     "focus": 0,
+     "file": "clips/33498b70904c.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Text results use other types.",
+     "say": "Text results use other types.",
+     "focus": 0,
+     "file": "clips/1cba9e5bd40d.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "4548-4^...^LN: **Test** (OBX-3): the LOINC code, its name, and `LN` meaning \"this is a LOINC code\".",
+     "say": "4 5 4 8 dash 4 ^ . . . ^ L N: Test (O B X 3): the L O I N C code, its name, and L N meaning \"this is a L O I N C code\".",
+     "focus": 1,
+     "file": "clips/8c9d6a9dc28c.mp3",
+     "seconds": 10.625
+    },
+    {
+     "raw": "Lesson 4 explains LOINC.",
+     "say": "Lesson 4 explains L O I N C.",
+     "focus": 1,
+     "file": "clips/04090fbe1791.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "9.4: **Value** (OBX-5): what the test found.",
+     "say": "9.4: Value (O B X 5): what the test found.",
+     "focus": 2,
+     "file": "clips/68c81bb2a23c.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "%: **Units** (OBX-6): what the number is counted in.",
+     "say": "%: Units (O B X 6): what the number is counted in.",
+     "focus": 3,
+     "file": "clips/313025a0e21f.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "4.0-5.6: **Reference range** (OBX-7): the usual range for healthy people at this lab.",
+     "say": "4.0-5.6: Reference range (O B X 7): the usual range for healthy people at this lab.",
+     "focus": 4,
+     "file": "clips/cdf122c8aa0f.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "H: **Abnormal flag** (OBX-8): H = high, outside the range.",
+     "say": "H: Abnormal flag (O B X 8): H = high, outside the range.",
+     "focus": 5,
+     "file": "clips/d9a61eae8082.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "F: **Result status** (OBX-11): F = final.",
+     "say": "F: Result status (O B X 11): F = final.",
+     "focus": 6,
+     "file": "clips/c72cb42b89d4.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "P = preliminary, C = corrected.",
+     "say": "P = preliminary, C = corrected.",
+     "focus": 6,
+     "file": "clips/4cac689ae620.mp3",
+     "seconds": 3.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "HL7 v2: the old workhorse for results",
+   "lines": [
+    {
+     "raw": "You do not need to memorise field numbers.",
+     "say": "You do not need to memorise field numbers.",
+     "focus": -1,
+     "file": "clips/c6599045d0ef.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "HL7 is just a way to put the parts of a result in a row, separated by pipes.",
+     "say": "HL7 is just a way to put the parts of a result in a row, separated by pipes.",
+     "focus": -1,
+     "file": "clips/ff58a47c87a6.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "`^` splits a field into smaller pieces, like surname `^` first name.",
+     "say": "^ splits a field into smaller pieces, like surname ^ first name.",
+     "focus": -1,
+     "file": "clips/62f1ac146447.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "Lesson 5 reads each of these parts properly.",
+     "say": "Lesson 5 reads each of these parts properly.",
+     "focus": -1,
+     "file": "clips/468e3a8f59fb.mp3",
+     "seconds": 3.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "FHIR: the modern way.",
+     "say": "F H I R: the modern way.",
+     "focus": -1,
+     "file": "clips/b0096fe333b9.mp3",
+     "seconds": 2.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "FHIR: the modern way",
+   "lines": [
+    {
+     "raw": "**FHIR** (Fast Healthcare Interoperability Resources, say \"fire\") is the newer HL7 standard, built for the web and apps.",
+     "say": "F H I R (Fast Healthcare Interoperability Resources, say \"fire\") is the newer HL7 standard, built for the web and apps.",
+     "focus": -1,
+     "file": "clips/043bf0c66c44.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "Each piece of health data is a **resource**.",
+     "say": "Each piece of health data is a resource.",
+     "focus": -1,
+     "file": "clips/47f3a7b82719.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "A lab result is an **Observation** resource.",
+     "say": "A lab result is an Observation resource.",
+     "focus": -1,
+     "file": "clips/d181dd5d0641.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Patient apps and newer data feeds often use FHIR.",
+     "say": "Patient apps and newer data feeds often use F H I R.",
+     "focus": -1,
+     "file": "clips/6f29e1d4f70d.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "The Interoperability course covers these standards in depth.",
+     "say": "The Interoperability course covers these standards in depth.",
+     "focus": -1,
+     "file": "clips/32425e52fd37.mp3",
+     "seconds": 4.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "FHIR: the modern way",
+   "lines": [
+    {
+     "raw": "Robert's HbA1c as a FHIR Observation (key fields only).",
+     "say": "Robert's H b A 1 c as a F H I R Observation (key fields only).",
+     "focus": -1,
+     "file": "clips/9a931369ac29.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "`status`. Value: final. Same as HL7 v2: OBX-11 = F.",
+     "say": "status. Value: final. Same as HL7 v2: O B X 11 = F.",
+     "focus": 0,
+     "file": "clips/9214c77b43a7.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "`code`. Value: LOINC `4548-4`. Same as HL7 v2: OBX-3.",
+     "say": "code. Value: L O I N C 4 5 4 8 dash 4. Same as HL7 v2: O B X 3.",
+     "focus": 1,
+     "file": "clips/8bf5b620bb3b.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "`subject`. Value: Robert Carter (Patient resource). Same as HL7 v2: PID.",
+     "say": "subject. Value: Robert Carter (Patient resource). Same as HL7 v2: P I D.",
+     "focus": 2,
+     "file": "clips/61c8aa9a62d8.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "`effectiveDateTime`. Value: 2025-02-10T08:15. Same as HL7 v2: OBR-7 collection time.",
+     "say": "effectiveDateTime. Value: 2 0 2 5 dash 0 2 dash 1 0 T 0 8 : 1 5. Same as HL7 v2: O B R 7 collection time.",
+     "focus": 3,
+     "file": "clips/5caab9e5fb1d.mp3",
+     "seconds": 13.025
+    },
+    {
+     "raw": "`valueQuantity`. Value: 9.4 %. Same as HL7 v2: OBX-5 + OBX-6.",
+     "say": "valueQuantity. Value: 9.4 percent. Same as HL7 v2: O B X 5 and O B X 6.",
+     "focus": 4,
+     "file": "clips/387d64a24463.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "`referenceRange`. Value: 4.0 to 5.6 %. Same as HL7 v2: OBX-7.",
+     "say": "referenceRange. Value: 4.0 to 5.6 percent. Same as HL7 v2: O B X 7.",
+     "focus": 5,
+     "file": "clips/359198aba26b.mp3",
+     "seconds": 8.85
+    },
+    {
+     "raw": "`interpretation`. Value: H (high). Same as HL7 v2: OBX-8.",
+     "say": "interpretation. Value: H (high). Same as HL7 v2: O B X 8.",
+     "focus": 6,
+     "file": "clips/9d2b1aab2acd.mp3",
+     "seconds": 6.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "FHIR: the modern way",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "A payer **always** gets the claim road, but only gets the result road if someone builds a feed.",
+     "say": "A payer always gets the claim road, but only gets the result road if someone builds a feed.",
+     "focus": -1,
+     "file": "clips/e9493db4d3c8.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "When an analyst says \"we have no lab values for this member\", the first question is: **did the result road ever reach us?**",
+     "say": "When an analyst says \"we have no lab values for this member\", the first question is: did the result road ever reach us?",
+     "focus": -1,
+     "file": "clips/43aad87683e4.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "Lessons 3 to 6 follow each road in detail and then join them.",
+     "say": "Lessons 3 to 6 follow each road in detail and then join them.",
+     "focus": -1,
+     "file": "clips/bc6545d6fe36.mp3",
+     "seconds": 4.75
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "One test creates two streams: a **result** (to the doctor) and a **claim** (to the payer).",
+     "say": "One test creates two streams: a result (to the doctor) and a claim (to the payer).",
+     "focus": 0,
+     "file": "clips/35e350a7ba07.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "The claim always reaches the payer; the result only does through an extra feed or records.",
+     "say": "The claim always reaches the payer; the result only does through an extra feed or records.",
+     "focus": 1,
+     "file": "clips/9a977e5973b7.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "HL7 v2 ORU messages carry results; each **OBX** segment is one result with test code, value, units, range, flag and status.",
+     "say": "HL7 v2 O R U messages carry results; each O B X segment is one result with test code, value, units, range, flag and status.",
+     "focus": 2,
+     "file": "clips/ec0a6e5c1835.mp3",
+     "seconds": 10.975
+    },
+    {
+     "raw": "FHIR stores the same result as an **Observation** resource.",
+     "say": "F H I R stores the same result as an Observation resource.",
+     "focus": 3,
+     "file": "clips/03d30f7f6be8.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "A panel produces one OBX line per test measured.",
+     "say": "A panel produces one O B X line per test measured.",
+     "focus": 4,
+     "file": "clips/b84b5577eec6.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

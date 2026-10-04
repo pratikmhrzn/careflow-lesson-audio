@@ -1,0 +1,582 @@
+{
+ "courseId": "groupers-episodes",
+ "lessonId": "episodes-of-care",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Episodes of Care.",
+     "say": "Lesson 6: Episodes of Care.",
+     "focus": -1,
+     "file": "clips/fb7175f8a456.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "What defines an episode: the trigger, the time window, the clean period and who is responsible.",
+     "say": "What defines an episode: the trigger, the time window, the clean period and who is responsible.",
+     "focus": -1,
+     "file": "clips/6b2f7cc13257.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what an episode of care is and why analysts build them.",
+     "say": "Explain what an episode of care is and why analysts build them.",
+     "focus": 0,
+     "file": "clips/f15a444f9b8c.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Define the trigger, the window before and after, and the clean period.",
+     "say": "Define the trigger, the window before and after, and the clean period.",
+     "focus": 1,
+     "file": "clips/21b71de63b5b.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Tell procedural, acute medical and chronic episodes apart.",
+     "say": "Tell procedural, acute medical and chronic episodes apart.",
+     "focus": 2,
+     "file": "clips/4ba7e9649af4.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Explain episode attribution.",
+     "say": "Explain episode attribution.",
+     "focus": 3,
+     "file": "clips/fa1f122af0e5.mp3",
+     "seconds": 2.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with a pregnancy in Nepal.",
+     "say": "Start with a pregnancy in Nepal.",
+     "focus": -1,
+     "file": "clips/93e7688171ef.mp3",
+     "seconds": 2.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with a pregnancy in Nepal",
+   "lines": [
+    {
+     "raw": "In Nepal: One pregnancy, many visits.",
+     "say": "In Nepal: One pregnancy, many visits.",
+     "focus": -1,
+     "file": "clips/b312e7fa5124.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "When Ram's wife was pregnant, there were check-ups at the clinic, an ultrasound, iron tablets, the delivery in hospital, and check-ups for mother and baby afterwards.",
+     "say": "When Ram's wife was pregnant, there were check-ups at the clinic, an ultrasound, iron tablets, the delivery in hospital, and check-ups for mother and baby afterwards.",
+     "focus": 0,
+     "file": "clips/1cf3c76f30ff.mp3",
+     "seconds": 10.575
+    },
+    {
+     "raw": "Asking \"what did the delivery cost?\" misses most of it.",
+     "say": "Asking \"what did the delivery cost?\" misses most of it.",
+     "focus": 1,
+     "file": "clips/fd7834e37717.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "The real question is \"what did the **whole pregnancy and birth** cost, from the first check-up to the last visit after the birth?\".",
+     "say": "The real question is \"what did the whole pregnancy and birth cost, from the first check-up to the last visit after the birth?\".",
+     "focus": 1,
+     "file": "clips/9e0ddcd0c868.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Nepal's government **Aama programme** treats pregnancy in a similar way: it pays for the delivery in a health facility and also rewards the mother for completing her antenatal check-ups.",
+     "say": "Nepal's government Aama programme treats pregnancy in a similar way: it pays for the delivery in a health facility and also rewards the mother for completing her antenatal check-ups.",
+     "focus": 2,
+     "file": "clips/de5af97be8ee.mp3",
+     "seconds": 11.9
+    },
+    {
+     "raw": "The care is seen as **one journey**, not separate visits.",
+     "say": "The care is seen as one journey, not separate visits.",
+     "focus": 2,
+     "file": "clips/0989afce5260.mp3",
+     "seconds": 3.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with a pregnancy in Nepal",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "An **episode of care** is all the care linked to one condition or one procedure, gathered from many claims and providers within a defined time window, so that the **whole treatment** can be costed and compared.",
+     "say": "An episode of care is all the care linked to one condition or one procedure, gathered from many claims and providers within a defined time window, so that the whole treatment can be costed and compared.",
+     "focus": -1,
+     "file": "clips/5894e0a385b2.mp3",
+     "seconds": 12.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: the parts of an episode definition.",
+     "say": "The U S version: the parts of an episode definition.",
+     "focus": -1,
+     "file": "clips/48300e809a38.mp3",
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: the parts of an episode definition",
+   "lines": [
+    {
+     "raw": "Trigger.",
+     "say": "Trigger.",
+     "focus": 0,
+     "file": "clips/c7d157950d39.mp3",
+     "seconds": 1.35
+    },
+    {
+     "raw": "The claim that starts an episode, for example a hospital stay with a knee replacement DRG, or a knee replacement procedure code on an outpatient claim.",
+     "say": "The claim that starts an episode, for example a hospital stay with a knee replacement D R G, or a knee replacement procedure code on an outpatient claim.",
+     "focus": 0,
+     "file": "clips/ef83418f4cf7.mp3",
+     "seconds": 10.475
+    },
+    {
+     "raw": "Pre-trigger window (look-back).",
+     "say": "Pre-trigger window (look-back).",
+     "focus": 1,
+     "file": "clips/4387ad721016.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Days **before** the trigger whose related care is included, for example pre-surgery tests and visits.",
+     "say": "Days before the trigger whose related care is included, for example pre-surgery tests and visits.",
+     "focus": 1,
+     "file": "clips/80b511fba44e.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "Post-trigger window.",
+     "say": "Post-trigger window.",
+     "focus": 2,
+     "file": "clips/322a7a5d9444.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Days **after** the trigger (often after hospital discharge) whose related care is included: rehab, follow-up visits, readmissions.",
+     "say": "Days after the trigger (often after hospital discharge) whose related care is included: rehab, follow-up visits, readmissions.",
+     "focus": 2,
+     "file": "clips/437e3cd538db.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "Clean period.",
+     "say": "Clean period.",
+     "focus": 3,
+     "file": "clips/a79ee188f42e.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "The quiet time used to separate episodes.",
+     "say": "The quiet time used to separate episodes.",
+     "focus": 3,
+     "file": "clips/8930824a6c38.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "A new trigger only starts a new episode if there was no episode of the same type for the member during the clean period; otherwise its care belongs to the open episode.",
+     "say": "A new trigger only starts a new episode if there was no episode of the same type for the member during the clean period; otherwise its care belongs to the open episode.",
+     "focus": 3,
+     "file": "clips/ad10e8322d62.mp3",
+     "seconds": 11.125
+    },
+    {
+     "raw": "Relatedness rules.",
+     "say": "Relatedness rules.",
+     "focus": 4,
+     "file": "clips/1670de7e787f.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Which claims inside the window count: all care (\"all-cause\"), or only care linked to the condition by diagnosis and procedure lists.",
+     "say": "Which claims inside the window count: all care (\"all-cause\"), or only care linked to the condition by diagnosis and procedure lists.",
+     "focus": 4,
+     "file": "clips/7baf5b6912ef.mp3",
+     "seconds": 8.95
+    },
+    {
+     "raw": "Attribution.",
+     "say": "Attribution.",
+     "focus": 5,
+     "file": "clips/ed35765279a5.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Deciding which provider is **responsible** for the episode, for example the hospital where the surgery happened, or the operating surgeon.",
+     "say": "Deciding which provider is responsible for the episode, for example the hospital where the surgery happened, or the operating surgeon.",
+     "focus": 5,
+     "file": "clips/94eb5bdb8eb7.mp3",
+     "seconds": 8.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The US version: the parts of an episode definition",
+   "lines": [
+    {
+     "raw": "Three kinds of episode.",
+     "say": "Three kinds of episode.",
+     "focus": -1,
+     "file": "clips/db53e32e5777.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "**Procedural**. Starts with: A planned procedure. Window: Fixed days before and after. Example: Knee replacement, heart bypass surgery.",
+     "say": "Procedural. Starts with: A planned procedure. Window: Fixed days before and after. Example: Knee replacement, heart bypass surgery.",
+     "focus": 0,
+     "file": "clips/166be766468a.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "**Acute medical**. Starts with: An emergency or sudden illness, usually a hospital admission. Window: Fixed days after discharge. Example: Pneumonia, heart attack.",
+     "say": "Acute medical. Starts with: An emergency or sudden illness, usually a hospital admission. Window: Fixed days after discharge. Example: Pneumonia, heart attack.",
+     "focus": 1,
+     "file": "clips/ad80e8b14341.mp3",
+     "seconds": 11.625
+    },
+    {
+     "raw": "**Chronic**. Starts with: A diagnosis of a long-lasting condition. Window: A fixed period, often a year, renewed while the condition lasts. Example: Diabetes, asthma.",
+     "say": "Chronic. Starts with: A diagnosis of a long-lasting condition. Window: A fixed period, often a year, renewed while the condition lasts. Example: Diabetes, asthma.",
+     "focus": 2,
+     "file": "clips/f10b6603610a.mp3",
+     "seconds": 12.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The US version: the parts of an episode definition",
+   "lines": [
+    {
+     "raw": "Two well-known Medicare episode windows.",
+     "say": "Two well-known Medicare episode windows.",
+     "focus": -1,
+     "file": "clips/4339615a8366.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "**MSPB** (Medicare Spending per Beneficiary), a hospital efficiency measure. Trigger: A hospital admission. Window: 3 days before admission to 30 days after discharge.",
+     "say": "M S P B (Medicare Spending per Beneficiary), a hospital efficiency measure. Trigger: A hospital admission. Window: 3 days before admission to 30 days after discharge.",
+     "focus": 0,
+     "file": "clips/4a8f71af15a5.mp3",
+     "seconds": 12.525
+    },
+    {
+     "raw": "**CJR** (Comprehensive Care for Joint Replacement), a bundled payment model. Trigger: A hospital stay for hip or knee replacement. Window: The stay plus 90 days after discharge.",
+     "say": "C J R (Comprehensive Care for Joint Replacement), a bundled payment model. Trigger: A hospital stay for hip or knee replacement. Window: The stay plus 90 days after discharge.",
+     "focus": 1,
+     "file": "clips/7a1b0fa62fb3.mp3",
+     "seconds": 12.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The US version: the parts of an episode definition",
+   "lines": [
+    {
+     "raw": "Episodes vs bundled payments.",
+     "say": "Episodes versus bundled payments.",
+     "focus": -1,
+     "file": "clips/4b0f5955ec25.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "An episode is an **analysis unit**.",
+     "say": "An episode is an analysis unit.",
+     "focus": -1,
+     "file": "clips/a2f40d495d8d.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "A **bundled payment** uses an episode definition to set a target price and share savings or losses with providers.",
+     "say": "A bundled payment uses an episode definition to set a target price and share savings or losses with providers.",
+     "focus": -1,
+     "file": "clips/013e6f3a0ba7.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "How bundles pay is taught in the Value Based Care course; this course shows how episodes are defined and built from claims.",
+     "say": "How bundles pay is taught in the Value Based Care course; this course shows how episodes are defined and built from claims.",
+     "focus": -1,
+     "file": "clips/990d4150530e.mp3",
+     "seconds": 7.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: defining Robert's knee replacement episode.",
+     "say": "Worked example: defining Robert's knee replacement episode.",
+     "focus": -1,
+     "file": "clips/4d4521543f50.mp3",
+     "seconds": 4.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Worked example: defining Robert's knee replacement episode",
+   "lines": [
+    {
+     "raw": "**Robert** (born 1957, a retired teacher in Houston with type 2 diabetes and high blood pressure, on the made-up Medicare Advantage plan Gulf Coast Advantage) is admitted to Harbor Point Hospital (made up) on **8 September 2025** for a right knee replacement and goes home on **10 September**.",
+     "say": "Robert (born 1957, a retired teacher in Houston with type 2 diabetes and high blood pressure, on the made-up Medicare Advantage plan Gulf Coast Advantage) is admitted to Harbor Point Hospital (made up) on 8 September 2025 for a right knee replacement and goes home on 10 September.",
+     "focus": -1,
+     "file": "clips/03f9a3f12a48.mp3",
+     "seconds": 20.625
+    },
+    {
+     "raw": "His plan's analytics team uses this (illustrative) definition:",
+     "say": "His plan's analytics team uses this (illustrative) definition:",
+     "focus": -1,
+     "file": "clips/6be021d831b3.mp3",
+     "seconds": 4.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Worked example: defining Robert's knee replacement episode",
+   "lines": [
+    {
+     "raw": "Gulf Coast Advantage knee replacement episode definition (illustrative).",
+     "say": "Gulf Coast Advantage knee replacement episode definition (illustrative).",
+     "focus": -1,
+     "file": "clips/b0c2e00feddb.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "Trigger. Rule: Inpatient stay grouped to a major knee joint replacement DRG, or outpatient CPT `27447`. For Robert: Stay 8 to 10 September 2025.",
+     "say": "Trigger. Rule: Inpatient stay grouped to a major knee joint replacement D R G, or outpatient C P T 2 7 4 4 7. For Robert: Stay 8 to 10 September 2025.",
+     "focus": 0,
+     "file": "clips/c9a0c9a0a9a0.mp3",
+     "seconds": 14.1
+    },
+    {
+     "raw": "Pre-trigger window. Rule: 30 days before admission. For Robert: 9 August to 7 September 2025.",
+     "say": "Pre-trigger window. Rule: 30 days before admission. For Robert: 9 August to 7 September 2025.",
+     "focus": 1,
+     "file": "clips/e370f871508f.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "Post-trigger window. Rule: 90 days after discharge. For Robert: 11 September to 9 December 2025.",
+     "say": "Post-trigger window. Rule: 90 days after discharge. For Robert: 11 September to 9 December 2025.",
+     "focus": 2,
+     "file": "clips/4ed359fdc3de.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "Clean period. Rule: No knee replacement episode for the same member in the previous 90 days. For Robert: None found: a new episode starts.",
+     "say": "Clean period. Rule: No knee replacement episode for the same member in the previous 90 days. For Robert: None found: a new episode starts.",
+     "focus": 3,
+     "file": "clips/d65d61c4a165.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "Relatedness. Rule: Care with a knee or joint diagnosis, surgical complications, rehab, and any readmission. For Robert: Applied in lesson 7.",
+     "say": "Relatedness. Rule: Care with a knee or joint diagnosis, surgical complications, rehab, and any readmission. For Robert: Applied in lesson 7.",
+     "focus": 4,
+     "file": "clips/dba818a13207.mp3",
+     "seconds": 11.075
+    },
+    {
+     "raw": "Attribution. Rule: The hospital where the trigger stay happened. For Robert: Harbor Point Hospital.",
+     "say": "Attribution. Rule: The hospital where the trigger stay happened. For Robert: Harbor Point Hospital.",
+     "focus": 5,
+     "file": "clips/374e4960d1e6.mp3",
+     "seconds": 6.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Worked example: defining Robert's knee replacement episode",
+   "lines": [
+    {
+     "raw": "Check the dates.",
+     "say": "Check the dates.",
+     "focus": -1,
+     "file": "clips/3cd8fc8a98f9.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "8 September − 30 days = **9 August**.",
+     "say": "8 September − 30 days = 9 August.",
+     "focus": -1,
+     "file": "clips/6ca5773b9f42.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "10 September + 90 days = **9 December** (20 days left in September + 31 in October + 30 in November + 9 in December = 90).",
+     "say": "10 September and 90 days = 9 December (20 days left in September and 31 in October and 30 in November and 9 in December = 90).",
+     "focus": -1,
+     "file": "clips/057922f59cc2.mp3",
+     "seconds": 11.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Worked example: defining Robert's knee replacement episode",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Every part of the definition changes the answer.",
+     "say": "Every part of the definition changes the answer.",
+     "focus": -1,
+     "file": "clips/25e0a15da075.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "A 30-day window and a 90-day window give very different episode costs; \"all-cause\" includes Robert's routine diabetes check, \"related only\" does not.",
+     "say": "A 30-day window and a 90-day window give very different episode costs; \"all-cause\" includes Robert's routine diabetes check, \"related only\" does not.",
+     "focus": -1,
+     "file": "clips/fba56aada930.mp3",
+     "seconds": 11.45
+    },
+    {
+     "raw": "When you compare episode costs, make sure every number used the **same definition**, and write the definition next to the result.",
+     "say": "When you compare episode costs, make sure every number used the same definition, and write the definition next to the result.",
+     "focus": -1,
+     "file": "clips/d415196bb977.mp3",
+     "seconds": 7.9
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "An episode gathers all care for one condition or procedure across claims and providers within a time window.",
+     "say": "An episode gathers all care for one condition or procedure across claims and providers within a time window.",
+     "focus": 0,
+     "file": "clips/c1d3713e496d.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "An episode definition has a trigger, windows before and after, a clean period, relatedness rules and attribution.",
+     "say": "An episode definition has a trigger, windows before and after, a clean period, relatedness rules and attribution.",
+     "focus": 1,
+     "file": "clips/5813dd6a35bb.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "Episodes can be procedural, acute medical or chronic.",
+     "say": "Episodes can be procedural, acute medical or chronic.",
+     "focus": 2,
+     "file": "clips/40bc9a44a5b1.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Bundled payments use episode definitions to pay; the Value Based Care course covers that.",
+     "say": "Bundled payments use episode definitions to pay; the Value Based Care course covers that.",
+     "focus": 3,
+     "file": "clips/f194564a093f.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Different definitions give different costs, so compare only like with like.",
+     "say": "Different definitions give different costs, so compare only like with like.",
+     "focus": 4,
+     "file": "clips/84ca0e4524b2.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

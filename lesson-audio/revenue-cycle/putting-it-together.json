@@ -1,0 +1,673 @@
+{
+ "courseId": "revenue-cycle",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 8,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 8: Putting It All Together.",
+     "say": "Lesson 8: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/45e5c0790752.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Emily's strep throat visit from the clinic's side, from booking to a $0 balance.",
+     "say": "Emily's strep throat visit from the clinic's side, from booking to a 0 dollars balance.",
+     "focus": -1,
+     "file": "clips/5289a09c1cbc.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Follow one visit through every part of the revenue cycle.",
+     "say": "Follow one visit through every part of the revenue cycle.",
+     "focus": 0,
+     "file": "clips/0d54264391ec.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "See the data each step creates and how it joins together.",
+     "say": "See the data each step creates and how it joins together.",
+     "focus": 1,
+     "file": "clips/dc9999ac2851.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Map each field back to the lesson that explains it.",
+     "say": "Map each field back to the lesson that explains it.",
+     "focus": 2,
+     "file": "clips/1453a56fc8c7.mp3",
+     "seconds": 3.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The example.",
+     "say": "The example.",
+     "focus": -1,
+     "file": "clips/6553e9056dad.mp3",
+     "seconds": 1.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The example",
+   "lines": [
+    {
+     "raw": "On **10 March 2025** Emily Carter saw **Dr. Patel** at **Sunrise Family Clinic** (fictional; its National Provider Identifier, or NPI, is 1356789012) for a sore throat.",
+     "say": "On 10 March 2025 Emily Carter saw Doctor Patel at Sunrise Family Clinic (fictional; its National Provider Identifier, or N P I, is 1356789012) for a sore throat.",
+     "focus": -1,
+     "file": "clips/57f3efc9169e.mp3",
+     "seconds": 17.125
+    },
+    {
+     "raw": "A rapid test confirmed **strep throat**.",
+     "say": "A rapid test confirmed strep throat.",
+     "focus": -1,
+     "file": "clips/fa3517b4c40a.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Her insurer is **Lone Star Health Insurance** (fictional), through her employer's PPO.",
+     "say": "Her insurer is Lone Star Health Insurance (fictional), through her employer's P P O.",
+     "focus": -1,
+     "file": "clips/be8eeb3cd503.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Here is everything the clinic did to get paid, in order.",
+     "say": "Here is everything the clinic did to get paid, in order.",
+     "focus": -1,
+     "file": "clips/cf932e3506da.mp3",
+     "seconds": 3.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The example",
+   "lines": [
+    {
+     "raw": "3 Mar: schedule (front end).",
+     "say": "3 Mar: schedule (front end).",
+     "focus": 0,
+     "file": "clips/8c0c6c15ffa9.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Emily books a visit for 10 March.",
+     "say": "Emily books a visit for 10 March.",
+     "focus": 0,
+     "file": "clips/f41a376f193d.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "The scheduler updates her insurance from a photo of her card.",
+     "say": "The scheduler updates her insurance from a photo of her card.",
+     "focus": 0,
+     "file": "clips/72d045471a2c.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "7 Mar: insurance check (front end).",
+     "say": "7 Mar: insurance check (front end).",
+     "focus": 1,
+     "file": "clips/eba0ca9e5540.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "A 270 is sent; the 271 says she is **active** with a **$25 office copay**.",
+     "say": "A 2 70 is sent; the 2 71 says she is active with a 25 dollars office copay.",
+     "focus": 1,
+     "file": "clips/75118131c278.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "No prior authorization is needed.",
+     "say": "No prior authorization is needed.",
+     "focus": 1,
+     "file": "clips/5f26ca4e3f9f.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "10 Mar: check-in (front end).",
+     "say": "10 Mar: check-in (front end).",
+     "focus": 2,
+     "file": "clips/7c761a4772ab.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Emily confirms her details and pays the **$25 copay**.",
+     "say": "Emily confirms her details and pays the 25 dollars copay.",
+     "focus": 2,
+     "file": "clips/a0a24c574c0f.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "10 Mar: charges and codes (mid cycle).",
+     "say": "10 Mar: charges and codes (mid cycle).",
+     "focus": 3,
+     "file": "clips/986482fa4b14.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Dr. Patel documents the visit.",
+     "say": "Doctor Patel documents the visit.",
+     "focus": 3,
+     "file": "clips/41ee03f8d24a.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Charges `99213` ($117) and `87880` ($33), diagnosis `J02.0`.",
+     "say": "Charges 9 9 2 1 3 (117 dollars) and 8 7 8 8 0 (33 dollars), diagnosis J 0 2 . 0.",
+     "focus": 3,
+     "file": "clips/d03649647ed0.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "Charge lag 0 days.",
+     "say": "Charge lag 0 days.",
+     "focus": 3,
+     "file": "clips/56f22e225a6d.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "11 Mar: scrub and submit (back end).",
+     "say": "11 Mar: scrub and submit (back end).",
+     "focus": 4,
+     "file": "clips/9a94349bee7a.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "The scrubber catches an incomplete member ID; fixed and sent the same day through the clearinghouse as an 837P.",
+     "say": "The scrubber catches an incomplete member I D; fixed and sent the same day through the clearinghouse as an 8 3 7 P.",
+     "focus": 4,
+     "file": "clips/8389175de8e4.mp3",
+     "seconds": 8.2
+    },
+    {
+     "raw": "11–12 Mar: acknowledgements (back end).",
+     "say": "11–12 Mar: acknowledgements (back end).",
+     "focus": 5,
+     "file": "clips/c2bce80fc64e.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "File accepted (999); claim accepted (277CA) as payer claim **23098908**.",
+     "say": "File accepted (999); claim accepted (2 7 7 C A) as payer claim 23098908.",
+     "focus": 5,
+     "file": "clips/e94fd07a5cb2.mp3",
+     "seconds": 10.325
+    },
+    {
+     "raw": "26 Mar: payment posted (back end).",
+     "say": "26 Mar: payment posted (back end).",
+     "focus": 6,
+     "file": "clips/218ed3bb415a.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "EFT and 835 arrive: paid **$77**, contract discount `CO-45` **$48**, patient share `PR-3` **$25** (already collected).",
+     "say": "E F T and 8 35 arrive: paid 77 dollars contract discount C O dash 4 5 48 dollars patient share P R dash 3 25 dollars (already collected).",
+     "focus": 6,
+     "file": "clips/de3e777ec22f.mp3",
+     "seconds": 13.225
+    },
+    {
+     "raw": "Balance **$0**.",
+     "say": "Balance 0 dollars.",
+     "focus": 6,
+     "file": "clips/03fd3057ec5f.mp3",
+     "seconds": 2.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The money.",
+     "say": "The money.",
+     "focus": -1,
+     "file": "clips/d234cec36550.mp3",
+     "seconds": 1.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The money",
+   "lines": [
+    {
+     "raw": "Emily's account SFC-0457.",
+     "say": "Emily's account S F C 0457.",
+     "focus": -1,
+     "file": "clips/34988f0b9e8b.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "10 Mar 2025. Entry: Copay collected at check-in. Amount: −$25.00. Balance: −$25.00.",
+     "say": "10 Mar 2025. Entry: Copay collected at check-in. Amount: −25 dollars. Balance: −25 dollars.",
+     "focus": 0,
+     "file": "clips/521fa00bdf3b.mp3",
+     "seconds": 9.95
+    },
+    {
+     "raw": "10 Mar 2025. Entry: Charges: 99213 + 87880. Amount: +$150.00. Balance: $125.00.",
+     "say": "10 Mar 2025. Entry: Charges: 99213 and 87880. Amount: +150 dollars. Balance: 125 dollars.",
+     "focus": 1,
+     "file": "clips/067efb5b66e1.mp3",
+     "seconds": 14.425
+    },
+    {
+     "raw": "26 Mar 2025. Entry: Insurance payment. Amount: −$77.00. Balance: $48.00.",
+     "say": "26 Mar 2025. Entry: Insurance payment. Amount: −77 dollars. Balance: 48 dollars.",
+     "focus": 2,
+     "file": "clips/e2681ae1bbcc.mp3",
+     "seconds": 9.425
+    },
+    {
+     "raw": "26 Mar 2025. Entry: Contractual adjustment `CO-45`. Amount: −$48.00. Balance: $0.00.",
+     "say": "26 Mar 2025. Entry: Contractual adjustment C O dash 4 5. Amount: −48 dollars. Balance: 0 dollars.",
+     "focus": 3,
+     "file": "clips/4f9e73c6ead5.mp3",
+     "seconds": 11.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The money",
+   "lines": [
+    {
+     "raw": "Did the clinic collect everything it was owed?",
+     "say": "Did the clinic collect everything it was owed?",
+     "focus": -1,
+     "file": "clips/3ca6e8e8eec6.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Net collected equals Payments ÷ (Charges − Contractual adjustments).",
+     "say": "Net collected equals Payments ÷ (Charges − Contractual adjustments).",
+     "focus": 0,
+     "file": "clips/dfd69147b595.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "For example: ($77 insurer plus $25 Emily) ÷ ($150 − $48) equals $102 ÷ $102 equals 100%.",
+     "say": "For example: (77 dollars insurer plus 25 dollars Emily) ÷ (150 dollars − 48 dollars) equals 102 dollars ÷ 102 dollars equals 100 percent.",
+     "focus": 1,
+     "file": "clips/da1b5833d68a.mp3",
+     "seconds": 15.325
+    },
+    {
+     "raw": "Days from visit to $0: 16.",
+     "say": "Days from visit to 0 dollars: 16.",
+     "focus": 1,
+     "file": "clips/5ba079b94d49.mp3",
+     "seconds": 3.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What if the front end had slipped?",
+     "say": "What if the front end had slipped?",
+     "focus": -1,
+     "file": "clips/0a85104e603e.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "What if the front end had slipped?",
+   "lines": [
+    {
+     "raw": "Same visit, two different weeks.",
+     "say": "Same visit, two different weeks.",
+     "focus": -1,
+     "file": "clips/65778653d96e.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Claim sent. What happened: 11 Mar (scrubber fixed the ID). If the insurance check had been skipped and the ID was wrong: 11 Mar, with the wrong ID.",
+     "say": "Claim sent. What happened: 11 Mar (scrubber fixed the I D). If the insurance check had been skipped and the I D was wrong: 11 Mar, with the wrong I D.",
+     "focus": 0,
+     "file": "clips/24080368a46e.mp3",
+     "seconds": 10.475
+    },
+    {
+     "raw": "First response. What happened: Accepted 12 Mar. If the insurance check had been skipped and the ID was wrong: Rejected at intake: member not found.",
+     "say": "First response. What happened: Accepted 12 Mar. If the insurance check had been skipped and the I D was wrong: Rejected at intake: member not found.",
+     "focus": 1,
+     "file": "clips/375238879e0b.mp3",
+     "seconds": 10.275
+    },
+    {
+     "raw": "Rework. What happened: None. If the insurance check had been skipped and the ID was wrong: Biller finds the right ID, resends on 18 Mar.",
+     "say": "Rework. What happened: None. If the insurance check had been skipped and the I D was wrong: Biller finds the right I D, resends on 18 Mar.",
+     "focus": 2,
+     "file": "clips/4e07fc706ec7.mp3",
+     "seconds": 9.625
+    },
+    {
+     "raw": "Paid. What happened: 26 Mar. If the insurance check had been skipped and the ID was wrong: About 2 April.",
+     "say": "Paid. What happened: 26 Mar. If the insurance check had been skipped and the I D was wrong: About 2 April.",
+     "focus": 3,
+     "file": "clips/a289383d9d6c.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "Metric effect. What happened: Clean claim ✓. If the insurance check had been skipped and the ID was wrong: Not clean; extra days in AR and staff time.",
+     "say": "Metric effect. What happened: Clean claim ✓. If the insurance check had been skipped and the I D was wrong: Not clean; extra days in A R and staff time.",
+     "focus": 4,
+     "file": "clips/b84a0940ae2c.mp3",
+     "seconds": 10.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How an analyst sees it.",
+     "say": "How an analyst sees it.",
+     "focus": -1,
+     "file": "clips/04b8ca4373bc.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "rcm_visit: one row per visit, built from several systems.",
+     "say": "rcm_visit: one row per visit, built from several systems.",
+     "focus": -1,
+     "file": "clips/93b544fe656f.mp3",
+     "seconds": 4.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Joining the systems.",
+     "say": "Joining the systems.",
+     "focus": -1,
+     "file": "clips/384c03a6d824.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "The **patient account** (`SFC-0457`) links registration, charges and the claim inside the clinic.",
+     "say": "The patient account (S F C dash 0 4 5 7) links registration, charges and the claim inside the clinic.",
+     "focus": -1,
+     "file": "clips/08f79af63641.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "The insurer's **claim number** (`23098908`) comes back on the 277CA and the 835 and links the insurer's answers.",
+     "say": "The insurer's claim number (2 3 0 9 8 9 0 8) comes back on the 2 7 7 C A and the 8 35 and links the insurer's answers.",
+     "focus": -1,
+     "file": "clips/d17bceab339c.mp3",
+     "seconds": 11.075
+    },
+    {
+     "raw": "The clinic also sends its patient account number on the claim, and the insurer returns it on the 835, which is how payments find their way to the right account.",
+     "say": "The clinic also sends its patient account number on the claim, and the insurer returns it on the 8 35, which is how payments find their way to the right account.",
+     "focus": -1,
+     "file": "clips/a8f86e852837.mp3",
+     "seconds": 9.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Field → lesson map.",
+     "say": "Field to lesson map.",
+     "focus": -1,
+     "file": "clips/e9cf9eeca18e.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`patient_acct`, AR, `balance`. What it tells you: The account and what is still owed. Lesson: 1 What is the Revenue Cycle?",
+     "say": "patient_acct, A R, balance. What it tells you: The account and what is still owed. Lesson: 1 What is the Revenue Cycle?",
+     "focus": 0,
+     "file": "clips/ee29d0ea4b3c.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "`payer`, `elig_checked`, `pos_collected`. What it tells you: Who pays, whether coverage was checked, what was collected at the visit. Lesson: 2 Front End.",
+     "say": "payer, elig_checked, pos_collected. What it tells you: Who pays, whether coverage was checked, what was collected at the visit. Lesson: 2 Front End.",
+     "focus": 1,
+     "file": "clips/296387082cb6.mp3",
+     "seconds": 9.575
+    },
+    {
+     "raw": "`charge_amt`, `charge_lag_days`. What it tells you: What was charged and how quickly. Lesson: 3 Mid Cycle.",
+     "say": "charge_amt, charge_lag_days. What it tells you: What was charged and how quickly. Lesson: 3 Mid Cycle.",
+     "focus": 2,
+     "file": "clips/aaf0d1e7f62f.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "`scrub_first_pass`, `submit_dt`, `payer_claim_no`, `paid_dt`. What it tells you: How the claim travelled and when it was paid. Lesson: 4 Back End: Claims.",
+     "say": "scrub_first_pass, submit_dt, payer_claim_no, paid_dt. What it tells you: How the claim travelled and when it was paid. Lesson: 4 Back End: Claims.",
+     "focus": 3,
+     "file": "clips/1063a32d464a.mp3",
+     "seconds": 10.275
+    },
+    {
+     "raw": "`denied` (with CARC and root cause). What it tells you: Whether and why the insurer said no. Lesson: 5 Denials Management.",
+     "say": "denied (with C A R C and root cause). What it tells you: Whether and why the insurer said no. Lesson: 5 Denials Management.",
+     "focus": 4,
+     "file": "clips/9e3f7e92c2e5.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "`patient_resp`. What it tells you: What the patient owes after insurance. Lesson: 6 Patient Payments.",
+     "say": "patient_resp. What it tells you: What the patient owes after insurance. Lesson: 6 Patient Payments.",
+     "focus": 5,
+     "file": "clips/ef10e4f411c2.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "`paid_amt`, `contract_adj` (and the rest, summed). What it tells you: Days in AR, clean claim rate, denial rate, net collection rate. Lesson: 7 RCM Metrics.",
+     "say": "paid_amt, contract_adj (and the rest, summed). What it tells you: Days in A R, clean claim rate, denial rate, net collection rate. Lesson: 7 R C M Metrics.",
+     "focus": 6,
+     "file": "clips/45fd3a0b7093.mp3",
+     "seconds": 11.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "In Nepal: The same visit in Kathmandu.",
+     "say": "In Nepal: The same visit in Kathmandu.",
+     "focus": -1,
+     "file": "clips/3d47195b6892.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram registers, sees the doctor, has the test and pays the whole bill at the counter.",
+     "say": "Ram registers, sees the doctor, has the test and pays the whole bill at the counter.",
+     "focus": 0,
+     "file": "clips/f1096de8a736.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "The hospital's revenue cycle for Ram is finished the same day; Ram's claim to his insurer is his own job.",
+     "say": "The hospital's revenue cycle for Ram is finished the same day; Ram's claim to his insurer is his own job.",
+     "focus": 0,
+     "file": "clips/14fdf9c78fd2.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's SSF hospital registers her and checks her SSF details (front end), records the services and diagnosis (mid cycle), collects her share, then claims the rest from SSF and follows up until paid (back end).",
+     "say": "Sita's S S F hospital registers her and checks her S S F details (front end), records the services and diagnosis (mid cycle), collects her share, then claims the rest from S S F and follows up until paid (back end).",
+     "focus": 1,
+     "file": "clips/822af8ee733e.mp3",
+     "seconds": 15.7
+    },
+    {
+     "raw": "Same three parts as Sunrise Family Clinic.",
+     "say": "Same three parts as Sunrise Family Clinic.",
+     "focus": 1,
+     "file": "clips/f9608bcb74e7.mp3",
+     "seconds": 3.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You can now follow a visit through the whole revenue cycle: front end, mid cycle, claims, denials, patient payments and the metrics that measure them.",
+     "say": "You can now follow a visit through the whole revenue cycle: front end, mid cycle, claims, denials, patient payments and the metrics that measure them.",
+     "focus": -1,
+     "file": "clips/2ccf07387ebd.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "Next, the **Price Transparency & No Surprises Act** course looks at the prices behind these bills and the laws that protect patients from surprise bills.",
+     "say": "Next, the Price Transparency and No Surprises Act course looks at the prices behind these bills and the laws that protect patients from surprise bills.",
+     "focus": -1,
+     "file": "clips/83736f07598d.mp3",
+     "seconds": 10.05
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "One visit passes through front end, mid cycle and back end, and each step leaves data.",
+     "say": "One visit passes through front end, mid cycle and back end, and each step leaves data.",
+     "focus": 0,
+     "file": "clips/48fc38f985f0.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "The patient account links the clinic's systems; the insurer's claim number links the insurer's responses.",
+     "say": "The patient account links the clinic's systems; the insurer's claim number links the insurer's responses.",
+     "focus": 1,
+     "file": "clips/f5f8bf0af679.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "A front-end slip shows up later as a rejection, extra days in AR and a lower clean claim rate.",
+     "say": "A front-end slip shows up later as a rejection, extra days in A R and a lower clean claim rate.",
+     "focus": 2,
+     "file": "clips/2d731f3b5e94.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "Payments + contract discounts + patient payments should bring every account to $0.",
+     "say": "Payments and contract discounts and patient payments should bring every account to 0 dollars.",
+     "focus": 3,
+     "file": "clips/0e3f0f6145a6.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

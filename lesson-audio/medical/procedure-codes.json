@@ -1,0 +1,911 @@
+{
+ "courseId": "medical",
+ "lessonId": "procedure-codes",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Procedure: What Was Done.",
+     "say": "Lesson 6: Procedure: What Was Done.",
+     "focus": -1,
+     "file": "clips/980b18e2ccf4.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "If diagnosis codes are the \"why\", procedure codes are the \"what\".",
+     "say": "If diagnosis codes are the \"why\", procedure codes are the \"what\".",
+     "focus": -1,
+     "file": "clips/0c8d0e65cfc8.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Recognise CPT and HCPCS codes and know the difference.",
+     "say": "Recognise C P T and H C P C S codes and know the difference.",
+     "focus": 0,
+     "file": "clips/423a675766dd.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Understand what modifiers do.",
+     "say": "Understand what modifiers do.",
+     "focus": 1,
+     "file": "clips/b2fccde2195f.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Know what \"units\" mean on a claim line.",
+     "say": "Know what \"units\" mean on a claim line.",
+     "focus": 2,
+     "file": "clips/3ce50ce8284b.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Know when ICD-10-PCS is used instead of CPT.",
+     "say": "Know when I C D 10-PCS is used instead of C P T.",
+     "focus": 3,
+     "file": "clips/a387d1fe7326.mp3",
+     "seconds": 4.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A price list with numbers.",
+     "say": "A price list with numbers.",
+     "focus": -1,
+     "file": "clips/18b184208b09.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "A price list with numbers",
+   "lines": [
+    {
+     "raw": "Every Nepali hospital has a **rate list**: \"OPD ticket – Rs 500\", \"CBC – Rs 600\", \"X-ray chest – Rs 800\".",
+     "say": "Every Nepali hospital has a rate list: \"O P D ticket – Rs 500\", \"C B C – Rs 600\", \"X-ray chest – Rs 800\".",
+     "focus": -1,
+     "file": "clips/0254f7c6a393.mp3",
+     "seconds": 10.1
+    },
+    {
+     "raw": "In the US, every service also has a standard **code**, so every doctor and every insurer means exactly the same thing.",
+     "say": "In the U S, every service also has a standard code, so every doctor and every insurer means exactly the same thing.",
+     "focus": -1,
+     "file": "clips/fd287f640eaa.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "A price list with numbers",
+   "lines": [
+    {
+     "raw": "Think of barcodes in a supermarket.",
+     "say": "Think of barcodes in a supermarket.",
+     "focus": -1,
+     "file": "clips/0ea6ee260972.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Every product in a Bhatbhateni store has a barcode.",
+     "say": "Every product in a Bhatbhateni store has a barcode.",
+     "focus": -1,
+     "file": "clips/2ddff559dc83.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "The cashier scans the code, not the name.",
+     "say": "The cashier scans the code, not the name.",
+     "focus": -1,
+     "file": "clips/a0c34f29c80a.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Procedure codes are the **barcodes of healthcare services**.",
+     "say": "Procedure codes are the barcodes of healthcare services.",
+     "focus": -1,
+     "file": "clips/b437f5128d98.mp3",
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "CPT: codes for what doctors do.",
+     "say": "C P T: codes for what doctors do.",
+     "focus": -1,
+     "file": "clips/9ad49abb494f.mp3",
+     "seconds": 3.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "CPT: codes for what doctors do",
+   "lines": [
+    {
+     "raw": "**CPT** (Current Procedural Terminology) codes are **5 characters** long and cover medical, surgical and diagnostic services.",
+     "say": "C P T (Current Procedural Terminology) codes are 5 characters long and cover medical, surgical and diagnostic services.",
+     "focus": -1,
+     "file": "clips/e3c37946b5bc.mp3",
+     "seconds": 9.425
+    },
+    {
+     "raw": "Most are all numbers (`99213`), but some **end with a letter** (`1000F`, `0016T`).",
+     "say": "Most are all numbers (9 9 2 1 3), but some end with a letter (1 0 0 0 F, 0 0 1 6 T).",
+     "focus": -1,
+     "file": "clips/ea11b38b425d.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "They are owned and updated every year by the **American Medical Association (AMA)**.",
+     "say": "They are owned and updated every year by the American Medical Association (A M A).",
+     "focus": -1,
+     "file": "clips/b758595aac3f.mp3",
+     "seconds": 5.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "CPT: codes for what doctors do",
+   "lines": [
+    {
+     "raw": "Common CPT codes.",
+     "say": "Common C P T codes.",
+     "focus": -1,
+     "file": "clips/368823028db7.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "`99203`. Meaning: Office visit, **new** patient. Nepal rate-list equivalent: New OPD ticket + consultation.",
+     "say": "9 9 2 0 3. Meaning: Office visit, new patient. Nepal rate-list equivalent: New O P D ticket and consultation.",
+     "focus": 0,
+     "file": "clips/8f57d470d7e9.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "`99213`. Meaning: Office visit, **existing** patient. Nepal rate-list equivalent: Follow-up OPD visit.",
+     "say": "9 9 2 1 3. Meaning: Office visit, existing patient. Nepal rate-list equivalent: Follow-up O P D visit.",
+     "focus": 1,
+     "file": "clips/01e365607d09.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "`99284`. Meaning: Emergency room visit (moderate). Nepal rate-list equivalent: Emergency consultation.",
+     "say": "9 9 2 8 4. Meaning: Emergency room visit (moderate). Nepal rate-list equivalent: Emergency consultation.",
+     "focus": 2,
+     "file": "clips/fd8e5cdd0079.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "`85025`. Meaning: Complete blood count (CBC). Nepal rate-list equivalent: CBC test.",
+     "say": "8 5 0 2 5. Meaning: Complete blood count (C B C). Nepal rate-list equivalent: C B C test.",
+     "focus": 3,
+     "file": "clips/1e56569e8c99.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "`87880`. Meaning: Rapid strep test. Nepal rate-list equivalent: Throat swab test.",
+     "say": "8 7 8 8 0. Meaning: Rapid strep test. Nepal rate-list equivalent: Throat swab test.",
+     "focus": 4,
+     "file": "clips/fc648effabce.mp3",
+     "seconds": 7.35
+    },
+    {
+     "raw": "`71046`. Meaning: Chest X-ray, 2 views. Nepal rate-list equivalent: X-ray chest PA & lateral.",
+     "say": "7 1 0 4 6. Meaning: Chest X-ray, 2 views. Nepal rate-list equivalent: X-ray chest P A and lateral.",
+     "focus": 5,
+     "file": "clips/27072479fa32.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "`36415`. Meaning: Taking blood from a vein. Nepal rate-list equivalent: Blood sample collection.",
+     "say": "3 6 4 1 5. Meaning: Taking blood from a vein. Nepal rate-list equivalent: Blood sample collection.",
+     "focus": 6,
+     "file": "clips/abea3b068bd7.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "`44970`. Meaning: Keyhole (laparoscopic) appendix removal. Nepal rate-list equivalent: Lap appendectomy.",
+     "say": "4 4 9 7 0. Meaning: Keyhole (laparoscopic) appendix removal. Nepal rate-list equivalent: Lap appendectomy.",
+     "focus": 7,
+     "file": "clips/ed3ff9ca6b0b.mp3",
+     "seconds": 9.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "CPT: codes for what doctors do",
+   "lines": [
+    {
+     "raw": "Where is the letter?",
+     "say": "Where is the letter?",
+     "focus": -1,
+     "file": "clips/5b75c2f04ce0.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "In a **CPT** code, a letter can only come at the **end** (`0016T`).",
+     "say": "In a C P T code, a letter can only come at the end (0 0 1 6 T).",
+     "focus": -1,
+     "file": "clips/be1860973f0d.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "If a code **starts** with a letter (`J1100`, `A0429`), it is a **HCPCS Level II** code, not CPT.",
+     "say": "If a code starts with a letter (J 1 1 0 0, A 0 4 2 9), it is a H C P C S Level I I code, not C P T.",
+     "focus": -1,
+     "file": "clips/00af8e09b654.mp3",
+     "seconds": 10.05
+    },
+    {
+     "raw": "This is the quickest way to tell them apart in data.",
+     "say": "This is the quickest way to tell them apart in data.",
+     "focus": -1,
+     "file": "clips/1ee32e6a5680.mp3",
+     "seconds": 3.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "HCPCS: codes for things CPT does not cover.",
+     "say": "H C P C S: codes for things C P T does not cover.",
+     "focus": -1,
+     "file": "clips/85da3001be2c.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "HCPCS: codes for things CPT does not cover",
+   "lines": [
+    {
+     "raw": "**HCPCS** (said \"hick-picks\") is the Healthcare Common Procedure Coding System, managed by **CMS** (Centers for Medicare & Medicaid Services, the US government's health agency).",
+     "say": "H C P C S (said \"hick-picks\") is the Healthcare Common Procedure Coding System, managed by C M S (Centers for Medicare and Medicaid Services, the U S government's health agency).",
+     "focus": -1,
+     "file": "clips/9e1e5819c707.mp3",
+     "seconds": 12.95
+    },
+    {
+     "raw": "**Level I** of HCPCS is simply CPT.",
+     "say": "Level I of H C P C S is simply C P T.",
+     "focus": -1,
+     "file": "clips/cd68be688242.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "**Level II** codes are **1 letter + 4 digits** and cover supplies, equipment, ambulance rides and some drugs.",
+     "say": "Level I I codes are 1 letter and 4 digits and cover supplies, equipment, ambulance rides and some drugs.",
+     "focus": -1,
+     "file": "clips/63030af91854.mp3",
+     "seconds": 7.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "HCPCS: codes for things CPT does not cover",
+   "lines": [
+    {
+     "raw": "HCPCS Level II examples.",
+     "say": "H C P C S Level I I examples.",
+     "focus": -1,
+     "file": "clips/b62a30f10ad1.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "`A0429`. Meaning: Ambulance, basic life support, emergency. Letter group: A = transport & supplies.",
+     "say": "A 0 4 2 9. Meaning: Ambulance, basic life support, emergency. Letter group: A = transport and supplies.",
+     "focus": 0,
+     "file": "clips/a21a362acc8a.mp3",
+     "seconds": 9.15
+    },
+    {
+     "raw": "`E0114`. Meaning: Crutches (pair). Letter group: E = durable medical equipment.",
+     "say": "E 0 1 1 4. Meaning: Crutches (pair). Letter group: E = durable medical equipment.",
+     "focus": 1,
+     "file": "clips/dc3b6940026b.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "`J1100`. Meaning: Dexamethasone injection, 1 mg. Letter group: J = drugs given by injection.",
+     "say": "J 1 1 0 0. Meaning: Dexamethasone injection, 1 mg. Letter group: J = drugs given by injection.",
+     "focus": 2,
+     "file": "clips/3a76d7e47a09.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "`L3908`. Meaning: Wrist splint. Letter group: L = orthotics & prosthetics.",
+     "say": "L 3 9 0 8. Meaning: Wrist splint. Letter group: L = orthotics and prosthetics.",
+     "focus": 3,
+     "file": "clips/2624dfa59de7.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "`G0008`. Meaning: Giving a flu vaccine (Medicare). Letter group: G = temporary procedures.",
+     "say": "G 0 0 0 8. Meaning: Giving a flu vaccine (Medicare). Letter group: G = temporary procedures.",
+     "focus": 4,
+     "file": "clips/f05008792ced.mp3",
+     "seconds": 8.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "HCPCS: codes for things CPT does not cover",
+   "lines": [
+    {
+     "raw": "In Nepal: The same visit, line by line.",
+     "say": "In Nepal: The same visit, line by line.",
+     "focus": -1,
+     "file": "clips/724a04c09c59.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's bill items: **OPD consultation**, **CBC test**, **throat swab test**.",
+     "say": "Ram's bill items: O P D consultation, C B C test, throat swab test.",
+     "focus": 0,
+     "file": "clips/94980c9dfaf3.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "In US codes these would be: `99203` (new patient visit), `85025` (CBC), `87880` (strep test).",
+     "say": "In U S codes these would be: 9 9 2 0 3 (new patient visit), 8 5 0 2 5 (C B C), 8 7 8 8 0 (strep test).",
+     "focus": 1,
+     "file": "clips/f1455602d3e4.mp3",
+     "seconds": 10.8
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's claim to SSF lists each service from the hospital's rate list with its own price.",
+     "say": "Sita's claim to S S F lists each service from the hospital's rate list with its own price.",
+     "focus": 2,
+     "file": "clips/6c9252af786d.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "SSF compares each item with its **approved rates and packages**.",
+     "say": "S S F compares each item with its approved rates and packages.",
+     "focus": 3,
+     "file": "clips/f03769fc24db.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Just like a US insurer looks up each CPT code in its fee schedule.",
+     "say": "Just like a U S insurer looks up each C P T code in its fee schedule.",
+     "focus": 3,
+     "file": "clips/8f1af590c61a.mp3",
+     "seconds": 5.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Modifiers: small tags with big meaning.",
+     "say": "Modifiers: small tags with big meaning.",
+     "focus": -1,
+     "file": "clips/65070e13a594.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Modifiers: small tags with big meaning",
+   "lines": [
+    {
+     "raw": "A **modifier** is a **2-character tag** added to a CPT or HCPCS code.",
+     "say": "A modifier is a 2-character tag added to a C P T or H C P C S code.",
+     "focus": -1,
+     "file": "clips/f9b6f892544b.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "It does not change what the service is; it adds a detail about **how** or **why** it was done differently.",
+     "say": "It does not change what the service is; it adds a detail about how or why it was done differently.",
+     "focus": -1,
+     "file": "clips/55b0a9f50815.mp3",
+     "seconds": 6.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Modifiers: small tags with big meaning",
+   "lines": [
+    {
+     "raw": "A code with a modifier.",
+     "say": "A code with a modifier.",
+     "focus": -1,
+     "file": "clips/7f62ed23c23f.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "73110: CPT: **X-ray of the wrist**, 3 or more views.",
+     "say": "73110: C P T: X-ray of the wrist, 3 or more views.",
+     "focus": 0,
+     "file": "clips/ad783bd65f2a.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "RT: Modifier: done on the **right** side.",
+     "say": "R T: Modifier: done on the right side.",
+     "focus": 1,
+     "file": "clips/838045c88bba.mp3",
+     "seconds": 3.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Modifiers: small tags with big meaning",
+   "lines": [
+    {
+     "raw": "Modifiers you will see often.",
+     "say": "Modifiers you will see often.",
+     "focus": -1,
+     "file": "clips/899d83fbbcb0.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "`25`. Meaning: A separate, significant visit on the same day as a procedure. Simple example: Doctor treats a cut and also checks blood pressure problems.",
+     "say": "25. Meaning: A separate, significant visit on the same day as a procedure. Simple example: Doctor treats a cut and also checks blood pressure problems.",
+     "focus": 0,
+     "file": "clips/65b3c69d6d89.mp3",
+     "seconds": 11.05
+    },
+    {
+     "raw": "`50`. Meaning: Done on **both** sides of the body. Simple example: X-ray of both knees.",
+     "say": "50. Meaning: Done on both sides of the body. Simple example: X-ray of both knees.",
+     "focus": 1,
+     "file": "clips/4ac6263eda77.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "`RT` / `LT`. Meaning: Right side / Left side. Simple example: Right wrist X-ray.",
+     "say": "R T or L T. Meaning: Right side or Left side. Simple example: Right wrist X-ray.",
+     "focus": 2,
+     "file": "clips/e0e4b36684dd.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "`26`. Meaning: Only the **doctor's reading** part. Simple example: Radiologist reads the X-ray.",
+     "say": "26. Meaning: Only the doctor's reading part. Simple example: Radiologist reads the X-ray.",
+     "focus": 3,
+     "file": "clips/c95a6b405b3b.mp3",
+     "seconds": 7.525
+    },
+    {
+     "raw": "`TC`. Meaning: Only the **machine/technical** part. Simple example: Hospital takes the X-ray picture.",
+     "say": "T C. Meaning: Only the machine/technical part. Simple example: Hospital takes the X-ray picture.",
+     "focus": 4,
+     "file": "clips/3f868b2b063a.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "`59`. Meaning: A distinct, separate procedure. Simple example: Two different procedures that normally aren't billed together.",
+     "say": "59. Meaning: A distinct, separate procedure. Simple example: Two different procedures that normally aren't billed together.",
+     "focus": 5,
+     "file": "clips/a822f7c108de.mp3",
+     "seconds": 8.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Modifiers: small tags with big meaning",
+   "lines": [
+    {
+     "raw": "Why modifiers 26 and TC exist.",
+     "say": "Why modifiers 26 and T C exist.",
+     "focus": -1,
+     "file": "clips/35ffb97fe9c3.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "An X-ray has two parts: **taking** the picture (machine + technician) and **reading** it (a radiologist).",
+     "say": "An X-ray has two parts: taking the picture (machine and technician) and reading it (a radiologist).",
+     "focus": -1,
+     "file": "clips/7d1a5f5025b2.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "Often different providers do each part.",
+     "say": "Often different providers do each part.",
+     "focus": -1,
+     "file": "clips/154a4e56242a.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "In Nepal, you pay the X-ray fee to the hospital, and the radiologist's report is included.",
+     "say": "In Nepal, you pay the X-ray fee to the hospital, and the radiologist's report is included.",
+     "focus": -1,
+     "file": "clips/df139a802731.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "In the US, the two parts can be billed separately with `TC` and `26`.",
+     "say": "In the U S, the two parts can be billed separately with T C and 26.",
+     "focus": -1,
+     "file": "clips/26eacaad4b4c.mp3",
+     "seconds": 5.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Units: how many?",
+     "say": "Units: how many?",
+     "focus": -1,
+     "file": "clips/470de207fe32.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Units: how many?",
+   "lines": [
+    {
+     "raw": "Each claim line has **units**: how many times the service was done, or how much was used.",
+     "say": "Each claim line has units: how many times the service was done, or how much was used.",
+     "focus": -1,
+     "file": "clips/4579583146bb.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "If Emily got 4 mg of dexamethasone, the line would show `J1100` with **4 units** (because 1 unit = 1 mg).",
+     "say": "If Emily got 4 mg of dexamethasone, the line would show J 1 1 0 0 with 4 units (because 1 unit = 1 mg).",
+     "focus": -1,
+     "file": "clips/6159077160e5.mp3",
+     "seconds": 9.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Units: how many?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "1. Code: `99284`. Units: 1. Meaning: One emergency visit.",
+     "say": "1. Code: 9 9 2 8 4. Units: 1. Meaning: One emergency visit.",
+     "focus": 0,
+     "file": "clips/2af31ba2f585.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "2. Code: `J1100`. Units: 4. Meaning: 4 mg of dexamethasone.",
+     "say": "2. Code: J 1 1 0 0. Units: 4. Meaning: 4 mg of dexamethasone.",
+     "focus": 1,
+     "file": "clips/efcb4d2fdd9d.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "3. Code: `97110`. Units: 3. Meaning: Three 15-minute blocks of physiotherapy exercise.",
+     "say": "3. Code: 9 7 1 1 0. Units: 3. Meaning: Three 15-minute blocks of physiotherapy exercise.",
+     "focus": 2,
+     "file": "clips/789de0fcdee4.mp3",
+     "seconds": 8.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "",
+   "lines": [
+    {
+     "raw": "ICD-10-PCS: procedure codes for inpatient stays.",
+     "say": "I C D 10-PCS: procedure codes for inpatient stays.",
+     "focus": -1,
+     "file": "clips/44745a562888.mp3",
+     "seconds": 4.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "ICD-10-PCS: procedure codes for inpatient stays",
+   "lines": [
+    {
+     "raw": "When a patient is **admitted**, the hospital's own (institutional) claim describes surgeries and procedures with **ICD-10-PCS** codes (PCS = Procedure Coding System), not CPT.",
+     "say": "When a patient is admitted, the hospital's own (institutional) claim describes surgeries and procedures with I C D 10-PCS codes (P C S = Procedure Coding System), not C P T.",
+     "focus": -1,
+     "file": "clips/75f4d7fef830.mp3",
+     "seconds": 13.725
+    },
+    {
+     "raw": "They are always exactly **7 characters**, and each character position has a meaning.",
+     "say": "They are always exactly 7 characters, and each character position has a meaning.",
+     "focus": -1,
+     "file": "clips/8cf9db883226.mp3",
+     "seconds": 5.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "ICD-10-PCS: procedure codes for inpatient stays",
+   "lines": [
+    {
+     "raw": "Sita's / Emily's keyhole appendix removal.",
+     "say": "Sita's or Emily's keyhole appendix removal.",
+     "focus": -1,
+     "file": "clips/135133db31e1.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "0: Section: **medical and surgical**.",
+     "say": "0: Section: medical and surgical.",
+     "focus": 0,
+     "file": "clips/56de51775c2c.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "D: Body system: **gastrointestinal** (digestive).",
+     "say": "D: Body system: gastrointestinal (digestive).",
+     "focus": 1,
+     "file": "clips/3ca5abbbf3fc.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "T: Operation: **resection** (cut out completely).",
+     "say": "T: Operation: resection (cut out completely).",
+     "focus": 2,
+     "file": "clips/22cb1e1f9def.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "J: Body part: **appendix**.",
+     "say": "J: Body part: appendix.",
+     "focus": 3,
+     "file": "clips/ffa02b7127b1.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "4: Approach: **through small cuts with a camera** (laparoscopic).",
+     "say": "4: Approach: through small cuts with a camera (laparoscopic).",
+     "focus": 4,
+     "file": "clips/2e55dc403b70.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Z: Device: **none** left in the body.",
+     "say": "Z: Device: none left in the body.",
+     "focus": 5,
+     "file": "clips/11614a4c1bcb.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Z: Qualifier: **none**.",
+     "say": "Z: Qualifier: none.",
+     "focus": 6,
+     "file": "clips/2be2f932cb87.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "ICD-10-PCS: procedure codes for inpatient stays",
+   "lines": [
+    {
+     "raw": "Which procedure code set appears where.",
+     "say": "Which procedure code set appears where.",
+     "focus": -1,
+     "file": "clips/5effa5154f14.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "Professional (doctor). Procedure code set: CPT / HCPCS. Where on the claim: On each line.",
+     "say": "Professional (doctor). Procedure code set: C P T or H C P C S. Where on the claim: On each line.",
+     "focus": 0,
+     "file": "clips/c8fe92b2c61c.mp3",
+     "seconds": 7.825
+    },
+    {
+     "raw": "Institutional, outpatient (ER, day surgery). Procedure code set: CPT / HCPCS. Where on the claim: On each line, next to a hospital department code (the revenue code, lesson 9).",
+     "say": "Institutional, outpatient (E R, day surgery). Procedure code set: C P T or H C P C S. Where on the claim: On each line, next to a hospital department code (the revenue code, lesson 9).",
+     "focus": 1,
+     "file": "clips/2db39cabb52e.mp3",
+     "seconds": 14.15
+    },
+    {
+     "raw": "Institutional, inpatient (admitted). Procedure code set: ICD-10-PCS. Where on the claim: On the header, as principal and other procedures.",
+     "say": "Institutional, inpatient (admitted). Procedure code set: I C D 10-PCS. Where on the claim: On the header, as principal and other procedures.",
+     "focus": 2,
+     "file": "clips/c796fc856f7a.mp3",
+     "seconds": 10.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "ICD-10-PCS: procedure codes for inpatient stays",
+   "lines": [
+    {
+     "raw": "Don't mix them up.",
+     "say": "Don't mix them up.",
+     "focus": -1,
+     "file": "clips/52d3cc9ca887.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "**ICD-10-CM** = diagnosis (the problem, e.g. `K35.80` appendicitis).",
+     "say": "I C D 10-CM = diagnosis (the problem, for example K 3 5 . 8 0 appendicitis).",
+     "focus": -1,
+     "file": "clips/07e01ad3cf44.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "**ICD-10-PCS** = inpatient procedure (what the hospital did, e.g. `0DTJ4ZZ`).",
+     "say": "I C D 10-PCS = inpatient procedure (what the hospital did, for example 0 D T J 4 Z Z).",
+     "focus": -1,
+     "file": "clips/e726d4917c07.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "The surgeon's own professional claim uses CPT `44970` for the same operation.",
+     "say": "The surgeon's own professional claim uses C P T 4 4 9 7 0 for the same operation.",
+     "focus": -1,
+     "file": "clips/70667dfa2935.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "To count appendix removals across all claims, you must look for **both** code sets.",
+     "say": "To count appendix removals across all claims, you must look for both code sets.",
+     "focus": -1,
+     "file": "clips/898fe02c11f1.mp3",
+     "seconds": 5.475
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**CPT** = 5-character codes for doctors' services (by AMA).",
+     "say": "C P T = 5-character codes for doctors' services (by A M A).",
+     "focus": 0,
+     "file": "clips/687916b78999.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Mostly numbers (`99213`); some end with a letter (`0016T`).",
+     "say": "Mostly numbers (9 9 2 1 3); some end with a letter (0 0 1 6 T).",
+     "focus": 0,
+     "file": "clips/3f58c9072c4f.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "**HCPCS Level II** = 1 letter + 4 digits for supplies, equipment, ambulance, drugs (by CMS).",
+     "say": "H C P C S Level I I = 1 letter and 4 digits for supplies, equipment, ambulance, drugs (by C M S).",
+     "focus": 1,
+     "file": "clips/7d77c36c7638.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "Example: `E0114`.",
+     "say": "Example: E 0 1 1 4.",
+     "focus": 1,
+     "file": "clips/fd509e500da2.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "**Modifiers** are 2-character tags that add detail (side of body, separate visit, part of service).",
+     "say": "Modifiers are 2-character tags that add detail (side of body, separate visit, part of service).",
+     "focus": 2,
+     "file": "clips/55cfccea5cfd.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "**Units** tell how many times or how much of a service was given.",
+     "say": "Units tell how many times or how much of a service was given.",
+     "focus": 3,
+     "file": "clips/28e3bc5c1930.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "**ICD-10-PCS** (7 characters) describes procedures on inpatient hospital claims; the surgeon bills the same operation with CPT.",
+     "say": "I C D 10-PCS (7 characters) describes procedures on inpatient hospital claims; the surgeon bills the same operation with C P T.",
+     "focus": 4,
+     "file": "clips/33525be22b4b.mp3",
+     "seconds": 10.7
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

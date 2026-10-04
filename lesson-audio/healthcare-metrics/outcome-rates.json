@@ -1,0 +1,736 @@
+{
+ "courseId": "healthcare-metrics",
+ "lessonId": "outcome-rates",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Outcome Rates.",
+     "say": "Lesson 5: Outcome Rates.",
+     "focus": -1,
+     "file": "clips/7ee33a2b2526.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Readmissions, avoidable ER visits and generic dispensing: is the care working, and is it sensible?",
+     "say": "Readmissions, avoidable E R visits and generic dispensing: is the care working, and is it sensible?",
+     "focus": -1,
+     "file": "clips/c4c95f2699ab.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain how an outcome rate differs from a per 1,000 rate.",
+     "say": "Explain how an outcome rate differs from a per 1,000 rate.",
+     "focus": 0,
+     "file": "clips/1b7d5ae04e7a.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Calculate a 30-day readmission rate from index stays.",
+     "say": "Calculate a 30-day readmission rate from index stays.",
+     "focus": 1,
+     "file": "clips/cf12adee4094.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "Explain what an avoidable ER rate and a generic dispensing rate measure.",
+     "say": "Explain what an avoidable E R rate and a generic dispensing rate measure.",
+     "focus": 2,
+     "file": "clips/95676744e851.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Use observed vs expected to compare groups with different patients.",
+     "say": "Use observed versus expected to compare groups with different patients.",
+     "focus": 3,
+     "file": "clips/cc08d77935c9.mp3",
+     "seconds": 4.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with a motorbike workshop.",
+     "say": "Start with a motorbike workshop.",
+     "focus": -1,
+     "file": "clips/01857567653d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with a motorbike workshop",
+   "lines": [
+    {
+     "raw": "In Nepal: Is this workshop any good?",
+     "say": "In Nepal: Is this workshop any good?",
+     "focus": -1,
+     "file": "clips/3d7c95db6ba4.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "A workshop in Kalanki repaired **200** motorbikes last month.",
+     "say": "A workshop in Kalanki repaired 200 motorbikes last month.",
+     "focus": 0,
+     "file": "clips/5b88b275c5fa.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "**30** came back within a month with the **same problem**.",
+     "say": "30 came back within a month with the same problem.",
+     "focus": 0,
+     "file": "clips/94246a606534.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "30 ÷ 200 = **15%** came back.",
+     "say": "30 ÷ 200 = 15 percent came back.",
+     "focus": 1,
+     "file": "clips/fe74eeb37217.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "The workshop next door has a comeback rate of 5%.",
+     "say": "The workshop next door has a comeback rate of 5 percent.",
+     "focus": 1,
+     "file": "clips/bf757c2c3e1f.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Ram knows which one he will use.",
+     "say": "Ram knows which one he will use.",
+     "focus": 1,
+     "file": "clips/a9ec037377ea.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Note the denominator: not \"per 1,000 people in Kathmandu\", but **per repair done**.",
+     "say": "Note the denominator: not \"per 1,000 people in Kathmandu\", but per repair done.",
+     "focus": 2,
+     "file": "clips/8abcaf3eeac8.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "The question is \"how often does a repair fail?\".",
+     "say": "The question is \"how often does a repair fail?\".",
+     "focus": 2,
+     "file": "clips/b971d8465339.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "An SSF reviewer could ask the same of a hospital: of the patients it discharged, how many were back in hospital within a month?",
+     "say": "An S S F reviewer could ask the same of a hospital: of the patients it discharged, how many were back in hospital within a month?",
+     "focus": 3,
+     "file": "clips/d132b3551ed0.mp3",
+     "seconds": 8.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with a motorbike workshop",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "An **outcome rate** is a **percentage of events** (stays, visits, prescriptions) that ended well or badly, so its denominator is **the events themselves**, not members.",
+     "say": "An outcome rate is a percentage of events (stays, visits, prescriptions) that ended well or badly, so its denominator is the events themselves, not members.",
+     "focus": -1,
+     "file": "clips/0f243a3d7351.mp3",
+     "seconds": 10.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: three common outcome rates.",
+     "say": "The U S version: three common outcome rates.",
+     "focus": -1,
+     "file": "clips/37503111efcf.mp3",
+     "seconds": 3.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: three common outcome rates",
+   "lines": [
+    {
+     "raw": "Common outcome rates used by health plans.",
+     "say": "Common outcome rates used by health plans.",
+     "focus": -1,
+     "file": "clips/0486b5ac5a34.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "**30-day readmission rate**. Numerator: Index stays followed by an unplanned admission within 30 days of discharge. Denominator: Index stays (hospital discharges that qualify). What a high value suggests: Patients sent home too early, poor follow-up, or very sick patients.",
+     "say": "30-day readmission rate. Numerator: Index stays followed by an unplanned admission within 30 days of discharge. Denominator: Index stays (hospital discharges that qualify). What a high value suggests: Patients sent home too early, poor follow-up, or very sick patients.",
+     "focus": 0,
+     "file": "clips/5ad5dee5d366.mp3",
+     "seconds": 19.625
+    },
+    {
+     "raw": "**Avoidable ER rate**. Numerator: ER visits for problems a doctor's office or urgent care could have handled. Denominator: All ER visits. What a high value suggests: Members cannot reach primary care quickly, or do not know where else to go.",
+     "say": "Avoidable E R rate. Numerator: E R visits for problems a doctor's office or urgent care could have handled. Denominator: All E R visits. What a high value suggests: Members cannot reach primary care quickly, or do not know where else to go.",
+     "focus": 1,
+     "file": "clips/977d3bab0a1a.mp3",
+     "seconds": 17.6
+    },
+    {
+     "raw": "**Generic dispensing rate (GDR)**. Numerator: Scripts filled with a generic drug. Denominator: All scripts. What a high value suggests: Low values: brand drugs used where a cheaper generic would do.",
+     "say": "Generic dispensing rate (G D R). Numerator: Scripts filled with a generic drug. Denominator: All scripts. What a high value suggests: Low values: brand drugs used where a cheaper generic would do.",
+     "focus": 2,
+     "file": "clips/aeb629eac142.mp3",
+     "seconds": 14.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The US version: three common outcome rates",
+   "lines": [
+    {
+     "raw": "Index stay.",
+     "say": "Index stay.",
+     "focus": 0,
+     "file": "clips/d17f1d741667.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "The first hospital stay, the one you check for a readmission afterwards.",
+     "say": "The first hospital stay, the one you check for a readmission afterwards.",
+     "focus": 0,
+     "file": "clips/a19610a20e94.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Readmission.",
+     "say": "Readmission.",
+     "focus": 1,
+     "file": "clips/e163eff2311c.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "A new, unplanned hospital admission within a set window (often 30 days) after an index stay's discharge.",
+     "say": "A new, unplanned hospital admission within a set window (often 30 days) after an index stay's discharge.",
+     "focus": 1,
+     "file": "clips/393f909b7395.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "\"All-cause\" means for any reason, not just the same illness.",
+     "say": "\"All-cause\" means for any reason, not just the same illness.",
+     "focus": 1,
+     "file": "clips/1cb525744908.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "Planned readmission.",
+     "say": "Planned readmission.",
+     "focus": 2,
+     "file": "clips/8b90cb5b7eef.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "A return that was scheduled, such as a second planned surgery or chemotherapy.",
+     "say": "A return that was scheduled, such as a second planned surgery or chemotherapy.",
+     "focus": 2,
+     "file": "clips/2260b9c5ecac.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Usually **excluded** from the numerator.",
+     "say": "Usually excluded from the numerator.",
+     "focus": 2,
+     "file": "clips/72546fbc4ab2.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "Generic drug.",
+     "say": "Generic drug.",
+     "focus": 3,
+     "file": "clips/4ec37793ea3f.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A copy of a brand-name drug, with the same active ingredient, sold after the patent ends, usually far cheaper.",
+     "say": "A copy of a brand-name drug, with the same active ingredient, sold after the patent ends, usually far cheaper.",
+     "focus": 3,
+     "file": "clips/8cc6077ef48f.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "Urgent care.",
+     "say": "Urgent care.",
+     "focus": 4,
+     "file": "clips/e440cbb41d10.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "A walk-in clinic for problems that need same-day care but are not emergencies, much cheaper than an ER.",
+     "say": "A walk-in clinic for problems that need same-day care but are not emergencies, much cheaper than an E R.",
+     "focus": 4,
+     "file": "clips/b5300864bd95.mp3",
+     "seconds": 7.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Detail: building a readmission rate.",
+     "say": "Detail: building a readmission rate.",
+     "focus": -1,
+     "file": "clips/d01d50bd1c61.mp3",
+     "seconds": 2.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Detail: building a readmission rate",
+   "lines": [
+    {
+     "raw": "Step 1: Start with all discharges.",
+     "say": "Step 1: Start with all discharges.",
+     "focus": 0,
+     "file": "clips/c32848e6ec63.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Lone Star Health had 720 admissions in 2025.",
+     "say": "Lone Star Health had 720 admissions in 2025.",
+     "focus": 0,
+     "file": "clips/680b5b17865d.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Step 2: Remove stays that cannot be index stays.",
+     "say": "Step 2: Remove stays that cannot be index stays.",
+     "focus": 1,
+     "file": "clips/42a100056399.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Patients who died in hospital, were transferred to another hospital, or were discharged in December (their 30 days are not over yet): 120 removed, leaving **600 index stays**.",
+     "say": "Patients who died in hospital, were transferred to another hospital, or were discharged in December (their 30 days are not over yet): 120 removed, leaving 600 index stays.",
+     "focus": 1,
+     "file": "clips/7a336c4c7e66.mp3",
+     "seconds": 12.6
+    },
+    {
+     "raw": "Step 3: Look 30 days after each discharge.",
+     "say": "Step 3: Look 30 days after each discharge.",
+     "focus": 2,
+     "file": "clips/50484c6f344e.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Find any new admission for the same member that started within 30 days of the discharge date.",
+     "say": "Find any new admission for the same member that started within 30 days of the discharge date.",
+     "focus": 2,
+     "file": "clips/a820c2ff1c9e.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Step 4: Remove planned returns.",
+     "say": "Step 4: Remove planned returns.",
+     "focus": 3,
+     "file": "clips/a159bbbef5c2.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "62 returns were found; 8 were planned (scheduled surgery).",
+     "say": "62 returns were found; 8 were planned (scheduled surgery).",
+     "focus": 3,
+     "file": "clips/b5908c0c0f70.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "**54 unplanned readmissions** remain.",
+     "say": "54 unplanned readmissions remain.",
+     "focus": 3,
+     "file": "clips/bd5932c0525e.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "Step 5: Divide.",
+     "say": "Step 5: Divide.",
+     "focus": 4,
+     "file": "clips/2fae2af7062d.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "54 ÷ 600 = **9.0%**.",
+     "say": "54 ÷ 600 = 9.0 percent.",
+     "focus": 4,
+     "file": "clips/dea1d581e590.mp3",
+     "seconds": 5.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Detail: building a readmission rate",
+   "lines": [
+    {
+     "raw": "Observed vs expected (O/E).",
+     "say": "Observed versus expected (O/E).",
+     "focus": -1,
+     "file": "clips/7c943e34fa48.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "O/E ratio equals Observed rate ÷ Expected rate.",
+     "say": "O/E ratio equals Observed rate ÷ Expected rate.",
+     "focus": 0,
+     "file": "clips/8bae3959ab64.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "For example: Hospital X: observed 12.0%.",
+     "say": "For example: Hospital X: observed 12.0 percent.",
+     "focus": 1,
+     "file": "clips/5fc2fc96468b.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Its patients are older and sicker, so a model expects 13.0%.",
+     "say": "Its patients are older and sicker, so a model expects 13.0 percent.",
+     "focus": 1,
+     "file": "clips/832a670bb969.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "O/E equals 12.0 ÷ 13.0 equals 0.92, better than expected.",
+     "say": "O/E equals 12.0 ÷ 13.0 equals 0.92, better than expected.",
+     "focus": 1,
+     "file": "clips/11b23ec2566a.mp3",
+     "seconds": 8.9
+    },
+    {
+     "raw": "Hospital Y: observed 8.0%, expected 6.0%.",
+     "say": "Hospital Y: observed 8.0 percent, expected 6.0 percent.",
+     "focus": 1,
+     "file": "clips/68cc3556a3a8.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "O/E equals 1.33, worse than expected.",
+     "say": "O/E equals 1.33, worse than expected.",
+     "focus": 1,
+     "file": "clips/31e4118368a5.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Detail: building a readmission rate",
+   "lines": [
+    {
+     "raw": "Raw rates can mislead.",
+     "say": "Raw rates can mislead.",
+     "focus": -1,
+     "file": "clips/a9f285b4969b.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Hospital X has the **higher** raw rate but the **better** O/E ratio, because it treats sicker patients.",
+     "say": "Hospital X has the higher raw rate but the better O/E ratio, because it treats sicker patients.",
+     "focus": -1,
+     "file": "clips/846d182fb1a6.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "Outcome rates are usually **risk-adjusted** before providers are compared.",
+     "say": "Outcome rates are usually risk-adjusted before providers are compared.",
+     "focus": -1,
+     "file": "clips/c4e4cd13cc19.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "How \"expected\" is built from age and diagnoses is covered in the Risk Adjustment course.",
+     "say": "How \"expected\" is built from age and diagnoses is covered in the Risk Adjustment course.",
+     "focus": -1,
+     "file": "clips/ce917dde8ee0.mp3",
+     "seconds": 6.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Maria's outcome page.",
+     "say": "Worked example: Maria's outcome page.",
+     "focus": -1,
+     "file": "clips/5a5e2f8a813c.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Worked example: Maria's outcome page",
+   "lines": [
+    {
+     "raw": "Lone Star Health outcome rates, 2025 (illustrative).",
+     "say": "Lone Star Health outcome rates, 2025 (illustrative).",
+     "focus": -1,
+     "file": "clips/2b56a8570476.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "30-day all-cause readmission. Numerator: 54 unplanned readmissions. Denominator: 600 index stays. Result: **9.0%**.",
+     "say": "30-day all-cause readmission. Numerator: 54 unplanned readmissions. Denominator: 600 index stays. Result: 9.0 percent.",
+     "focus": 0,
+     "file": "clips/df1aea39af7a.mp3",
+     "seconds": 11.4
+    },
+    {
+     "raw": "Avoidable ER. Numerator: 540 avoidable visits. Denominator: 1,800 ER visits. Result: **30%**.",
+     "say": "Avoidable E R. Numerator: 540 avoidable visits. Denominator: 1,800 E R visits. Result: 30 percent.",
+     "focus": 1,
+     "file": "clips/be33cd79845a.mp3",
+     "seconds": 10.575
+    },
+    {
+     "raw": "Generic dispensing. Numerator: 105,600 generic scripts. Denominator: 120,000 scripts. Result: **88%**.",
+     "say": "Generic dispensing. Numerator: 105,600 generic scripts. Denominator: 120,000 scripts. Result: 88 percent.",
+     "focus": 2,
+     "file": "clips/4bfc82b02de5.mp3",
+     "seconds": 11.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Worked example: Maria's outcome page",
+   "lines": [
+    {
+     "raw": "In the US: What Maria tells her manager.",
+     "say": "In the U S: What Maria tells her manager.",
+     "focus": -1,
+     "file": "clips/677dcbb8cf92.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "30% of ER visits were for problems like a sore throat or a mild rash.",
+     "say": "30 percent of E R visits were for problems like a sore throat or a mild rash.",
+     "focus": 0,
+     "file": "clips/816616c9d20d.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "At about $2,000 per ER visit vs $130 per office visit, steering even some of these 540 visits to primary care or urgent care would save money **and** be more convenient for members.",
+     "say": "At about 2000 dollars per E R visit versus 130 dollars per office visit, steering even some of these 540 visits to primary care or urgent care would save money and be more convenient for members.",
+     "focus": 0,
+     "file": "clips/0aa4d118baf1.mp3",
+     "seconds": 14.875
+    },
+    {
+     "raw": "The readmission rate gives a baseline.",
+     "say": "The readmission rate gives a baseline.",
+     "focus": 1,
+     "file": "clips/d01691d8fae2.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Next year she will compare it by hospital, using O/E so hospitals with sicker patients are not unfairly blamed.",
+     "say": "Next year she will compare it by hospital, using O/E so hospitals with sicker patients are not unfairly blamed.",
+     "focus": 1,
+     "file": "clips/5737abdbefe0.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "The generic rate is high; the next question is whether a few **brand** drugs with generic options are driving pharmacy cost.",
+     "say": "The generic rate is high; the next question is whether a few brand drugs with generic options are driving pharmacy cost.",
+     "focus": 2,
+     "file": "clips/d2b38192a885.mp3",
+     "seconds": 8.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: Maria's outcome page",
+   "lines": [
+    {
+     "raw": "Quality measures have their own rules.",
+     "say": "Quality measures have their own rules.",
+     "focus": -1,
+     "file": "clips/efd20d0e0ace.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Official quality measures, such as the HEDIS (Healthcare Effectiveness Data and Information Set) readmission and screening measures, define every numerator, denominator and exclusion precisely.",
+     "say": "Official quality measures, such as the HEDIS (Healthcare Effectiveness Data and Information Set) readmission and screening measures, define every numerator, denominator and exclusion precisely.",
+     "focus": -1,
+     "file": "clips/b479082994a0.mp3",
+     "seconds": 12.35
+    },
+    {
+     "raw": "When a rate will be reported officially, use the measure's own specification, covered in the HEDIS course.",
+     "say": "When a rate will be reported officially, use the measure's own specification, covered in the HEDIS course.",
+     "focus": -1,
+     "file": "clips/6689f16aab1b.mp3",
+     "seconds": 6.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: Maria's outcome page",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Outcome rates depend on **definitions**: the readmission window (30 days?",
+     "say": "Outcome rates depend on definitions: the readmission window (30 days?",
+     "focus": -1,
+     "file": "clips/1bd902cce0aa.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "90?), what counts as planned, which ER diagnoses count as avoidable, whether a 90-day fill is one script or three.",
+     "say": "90?), what counts as planned, which E R diagnoses count as avoidable, whether a 90-day fill is one script or three.",
+     "focus": -1,
+     "file": "clips/378d5ac817ec.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "Two \"readmission rates\" from different teams can differ by several points with the same data.",
+     "say": "Two \"readmission rates\" from different teams can differ by several points with the same data.",
+     "focus": -1,
+     "file": "clips/7482d778e6bd.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Always publish the definition next to the number.",
+     "say": "Always publish the definition next to the number.",
+     "focus": -1,
+     "file": "clips/b801a849d548.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Outcome rates are percentages of events (stays, visits, scripts), not rates per member.",
+     "say": "Outcome rates are percentages of events (stays, visits, scripts), not rates per member.",
+     "focus": 0,
+     "file": "clips/9447aefbe540.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "Readmission rate = unplanned readmissions within the window ÷ qualifying index stays.",
+     "say": "Readmission rate = unplanned readmissions within the window ÷ qualifying index stays.",
+     "focus": 1,
+     "file": "clips/636daa8fe6d9.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "Avoidable ER rate and generic dispensing rate show where care could be cheaper or better.",
+     "say": "Avoidable E R rate and generic dispensing rate show where care could be cheaper or better.",
+     "focus": 2,
+     "file": "clips/369f94d8f33f.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "Compare providers with observed ÷ expected (O/E), so those with sicker patients are judged fairly.",
+     "say": "Compare providers with observed ÷ expected (O/E), so those with sicker patients are judged fairly.",
+     "focus": 3,
+     "file": "clips/da2efaf203bf.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Definitions change the number: always state the window and exclusions.",
+     "say": "Definitions change the number: always state the window and exclusions.",
+     "focus": 4,
+     "file": "clips/4ca879998080.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

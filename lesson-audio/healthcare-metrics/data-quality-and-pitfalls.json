@@ -1,0 +1,792 @@
+{
+ "courseId": "healthcare-metrics",
+ "lessonId": "data-quality-and-pitfalls",
+ "lessonNumber": 8,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 8: Data Quality & Pitfalls.",
+     "say": "Lesson 8: Data Quality and Pitfalls.",
+     "focus": -1,
+     "file": "clips/15359d7e7e23.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Paid vs incurred, run-out, high-cost claimants, small denominators and the other traps in metrics.",
+     "say": "Paid versus incurred, run-out, high-cost claimants, small denominators and the other traps in metrics.",
+     "focus": -1,
+     "file": "clips/1967c434de5e.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Tell a paid-basis report from an incurred-basis report.",
+     "say": "Tell a paid-basis report from an incurred-basis report.",
+     "focus": 0,
+     "file": "clips/c27b1b579bea.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Show PMPM with and without high-cost claimants.",
+     "say": "Show P M P M with and without high-cost claimants.",
+     "focus": 1,
+     "file": "clips/b0474206ff31.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Recognise when a denominator is too small to trust.",
+     "say": "Recognise when a denominator is too small to trust.",
+     "focus": 2,
+     "file": "clips/ab7c4611c39b.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "List the checks to run before publishing a metric.",
+     "say": "List the checks to run before publishing a metric.",
+     "focus": 3,
+     "file": "clips/9841c7d1344a.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with a cricket average.",
+     "say": "Start with a cricket average.",
+     "focus": -1,
+     "file": "clips/7d0814537710.mp3",
+     "seconds": 2.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with a cricket average",
+   "lines": [
+    {
+     "raw": "In Nepal: The best batter in the team?",
+     "say": "In Nepal: The best batter in the team?",
+     "focus": -1,
+     "file": "clips/5ea05420aabf.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "A new player in a Kathmandu club team scores **85** in his only innings.",
+     "say": "A new player in a Kathmandu club team scores 85 in his only innings.",
+     "focus": 0,
+     "file": "clips/645daca3b759.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "His batting average is 85, the highest in the team.",
+     "say": "His batting average is 85, the highest in the team.",
+     "focus": 0,
+     "file": "clips/79b90e5f29ce.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "The captain, who has played **40** innings, averages **42**.",
+     "say": "The captain, who has played 40 innings, averages 42.",
+     "focus": 1,
+     "file": "clips/273d6f454856.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "Nobody seriously thinks the new player is twice as good yet.",
+     "say": "Nobody seriously thinks the new player is twice as good yet.",
+     "focus": 1,
+     "file": "clips/2e2d95514fdc.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "**One** innings is too little to judge.",
+     "say": "One innings is too little to judge.",
+     "focus": 1,
+     "file": "clips/8f2623d8c746.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "And if the captain once scored 200, his average would jump.",
+     "say": "And if the captain once scored 200, his average would jump.",
+     "focus": 2,
+     "file": "clips/546b5ec4d360.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Analysts sometimes look at the average **without** that one huge score to see his usual form.",
+     "say": "Analysts sometimes look at the average without that one huge score to see his usual form.",
+     "focus": 2,
+     "file": "clips/ab1f81323b20.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF figures for one small employer can swing in the same way: one contributor's cancer treatment can double that employer's medical cost for the year.",
+     "say": "S S F figures for one small employer can swing in the same way: one contributor's cancer treatment can double that employer's medical cost for the year.",
+     "focus": 3,
+     "file": "clips/94b733b26042.mp3",
+     "seconds": 10.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with a cricket average",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Healthcare metrics go wrong in a few predictable ways (the wrong date basis, too little run-out, a handful of huge claims, or too few members), so check each one before you trust or publish a number.",
+     "say": "Healthcare metrics go wrong in a few predictable ways (the wrong date basis, too little run-out, a handful of huge claims, or too few members), so check each one before you trust or publish a number.",
+     "focus": -1,
+     "file": "clips/4e348167e0ce.mp3",
+     "seconds": 12.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Pitfall 1: paid basis vs incurred basis.",
+     "say": "Pitfall 1: paid basis versus incurred basis.",
+     "focus": -1,
+     "file": "clips/1eef36652159.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Pitfall 1: paid basis vs incurred basis",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Groups claims by. Incurred basis: When the **care** happened. Paid basis: When the plan **paid**.",
+     "say": "Groups claims by. Incurred basis: When the care happened. Paid basis: When the plan paid.",
+     "focus": 0,
+     "file": "clips/e98f82ff9bac.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "A claim for 20 Dec 2024 care, paid 15 Jan 2025, counts in. Incurred basis: 2024. Paid basis: 2025.",
+     "say": "A claim for 20 Dec 2024 care, paid 15 Jan 2025, counts in. Incurred basis: 2024. Paid basis: 2025.",
+     "focus": 1,
+     "file": "clips/6dcea4b03185.mp3",
+     "seconds": 11.375
+    },
+    {
+     "raw": "Complete straight away? Incurred basis: No: needs run-out or IBNR (lesson 7). Paid basis: Yes: payments are final when made.",
+     "say": "Complete straight away? Incurred basis: No: needs run-out or I B N R (lesson 7). Paid basis: Yes: payments are final when made.",
+     "focus": 2,
+     "file": "clips/9537ef784330.mp3",
+     "seconds": 10
+    },
+    {
+     "raw": "Best for. Incurred basis: Trends, PMPM, utilization: matching cost to the members covered at the time. Paid basis: Cash flow and accounting.",
+     "say": "Best for. Incurred basis: Trends, P M P M, utilization: matching cost to the members covered at the time. Paid basis: Cash flow and accounting.",
+     "focus": 3,
+     "file": "clips/fa09cd055ba0.mp3",
+     "seconds": 11.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Pitfall 1: paid basis vs incurred basis",
+   "lines": [
+    {
+     "raw": "Never mix the two.",
+     "say": "Never mix the two.",
+     "focus": -1,
+     "file": "clips/31858309cdef.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Paid-basis dollars divided by member months for the same calendar year mix last year's care with this year's members.",
+     "say": "Paid-basis dollars divided by member months for the same calendar year mix last year's care with this year's members.",
+     "focus": -1,
+     "file": "clips/b959357d3159.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "If membership grew a lot, the PMPM is distorted.",
+     "say": "If membership grew a lot, the P M P M is distorted.",
+     "focus": -1,
+     "file": "clips/77257d8294a1.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "For cost and utilization metrics, use **incurred** claims with enough run-out, or completed with IBNR.",
+     "say": "For cost and utilization metrics, use incurred claims with enough run-out, or completed with I B N R.",
+     "focus": -1,
+     "file": "clips/1b66409023f9.mp3",
+     "seconds": 7.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Pitfall 2: high-cost claimants.",
+     "say": "Pitfall 2: high-cost claimants.",
+     "focus": -1,
+     "file": "clips/efba98b834b9.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Pitfall 2: high-cost claimants",
+   "lines": [
+    {
+     "raw": "In any health plan, a tiny share of members accounts for a large share of spending.",
+     "say": "In any health plan, a tiny share of members accounts for a large share of spending.",
+     "focus": -1,
+     "file": "clips/e5ffef4600c8.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "A **high-cost claimant** (HCC in some finance reports, but not to be confused with the risk adjustment HCC) is a member whose claims in a year pass a threshold, often $100,000 to $250,000.",
+     "say": "A high-cost claimant (H C C in some finance reports, but not to be confused with the risk adjustment H C C) is a member whose claims in a year pass a threshold, often 100000 dollars to 250000 dollars.",
+     "focus": -1,
+     "file": "clips/efa4b2a587c1.mp3",
+     "seconds": 16.075
+    },
+    {
+     "raw": "One such member can swamp a small group's PMPM.",
+     "say": "One such member can swamp a small group's P M P M.",
+     "focus": -1,
+     "file": "clips/3089e372e8f5.mp3",
+     "seconds": 3.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Pitfall 2: high-cost claimants",
+   "lines": [
+    {
+     "raw": "A 200-member employer group, 2,400 member months, 2025 (illustrative).",
+     "say": "A 200-member employer group, 2,400 member months, 2025 (illustrative).",
+     "focus": -1,
+     "file": "clips/b0f83ab68547.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "All claims. Allowed dollars: $1,560,000. PMPM: $1,560,000 ÷ 2,400 = **$650.00**.",
+     "say": "All claims. Allowed dollars: 1560000 dollars. P M P M: 1560000 dollars ÷ 2,400 = 650 dollars.",
+     "focus": 0,
+     "file": "clips/941363e2b3dc.mp3",
+     "seconds": 14.475
+    },
+    {
+     "raw": "One member's claims. Allowed dollars: $600,000 (cancer treatment).",
+     "say": "One member's claims. Allowed dollars: 600000 dollars (cancer treatment).",
+     "focus": 1,
+     "file": "clips/8e9d7f08024e.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Excluding that member. Allowed dollars: $960,000. PMPM: $960,000 ÷ 2,400 = **$400.00**.",
+     "say": "Excluding that member. Allowed dollars: 960000 dollars. P M P M: 960000 dollars ÷ 2,400 = 400 dollars.",
+     "focus": 2,
+     "file": "clips/2f37a5b13b1c.mp3",
+     "seconds": 12.95
+    },
+    {
+     "raw": "Capping each member at $250,000 (truncation). Allowed dollars: $960,000 + $250,000 = $1,210,000. PMPM: $1,210,000 ÷ 2,400 = **$504.17**.",
+     "say": "Capping each member at 250000 dollars (truncation). Allowed dollars: 960000 dollars and 250000 dollars = 1210000 dollars. P M P M: 1210000 dollars ÷ 2,400 = 504 dollars 17 cents.",
+     "focus": 3,
+     "file": "clips/a2c3e5ca49e6.mp3",
+     "seconds": 22.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Pitfall 2: high-cost claimants",
+   "lines": [
+    {
+     "raw": "Truncation (capping).",
+     "say": "Truncation (capping).",
+     "focus": 0,
+     "file": "clips/6ccf91b21d3e.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Counting each member's yearly claims only up to a limit, so one extreme case does not hide the underlying trend.",
+     "say": "Counting each member's yearly claims only up to a limit, so one extreme case does not hide the underlying trend.",
+     "focus": 0,
+     "file": "clips/9b1b12329f8e.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "Report the capped and uncapped figures side by side.",
+     "say": "Report the capped and uncapped figures side by side.",
+     "focus": 0,
+     "file": "clips/3d07a1985bb4.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Stop-loss.",
+     "say": "Stop-loss.",
+     "focus": 1,
+     "file": "clips/7bc4b275406b.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "Insurance that pays claims above a threshold per member.",
+     "say": "Insurance that pays claims above a threshold per member.",
+     "focus": 1,
+     "file": "clips/12471867b3bd.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Self-funded employers often buy it, so their own cost for a high-cost claimant is capped.",
+     "say": "Self-funded employers often buy it, so their own cost for a high-cost claimant is capped.",
+     "focus": 1,
+     "file": "clips/248664bd7b9d.mp3",
+     "seconds": 5.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Pitfall 3: small denominators.",
+     "say": "Pitfall 3: small denominators.",
+     "focus": -1,
+     "file": "clips/eb0b8a5bdb9d.mp3",
+     "seconds": 2.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Pitfall 3: small denominators",
+   "lines": [
+    {
+     "raw": "A 50-member group (600 member months).",
+     "say": "A 50-member group (600 member months).",
+     "focus": -1,
+     "file": "clips/e7db02470ef1.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "2024. Admissions: 2. Admits per 1,000: 2 ÷ 600 × 12,000 = 40.",
+     "say": "2024. Admissions: 2. Admits per 1,000: 2 ÷ 600 × 12,000 = 40.",
+     "focus": 0,
+     "file": "clips/1b112a1a6afd.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "2025. Admissions: 4. Admits per 1,000: 4 ÷ 600 × 12,000 = 80.",
+     "say": "2025. Admissions: 4. Admits per 1,000: 4 ÷ 600 × 12,000 = 80.",
+     "focus": 1,
+     "file": "clips/fd9e15c8fcf1.mp3",
+     "seconds": 9.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Pitfall 3: small denominators",
+   "lines": [
+    {
+     "raw": "\"Admissions doubled!\".",
+     "say": "\"Admissions doubled!\".",
+     "focus": -1,
+     "file": "clips/cd6f6c33930f.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Two extra hospital stays doubled the rate.",
+     "say": "Two extra hospital stays doubled the rate.",
+     "focus": -1,
+     "file": "clips/974e9fe16350.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "That is **random noise**, not a trend.",
+     "say": "That is random noise, not a trend.",
+     "focus": -1,
+     "file": "clips/eef5cf771091.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Small groups need several years of data, a **credibility** blend with a larger group's rate, or simply a note that the number is not reliable.",
+     "say": "Small groups need several years of data, a credibility blend with a larger group's rate, or simply a note that the number is not reliable.",
+     "focus": -1,
+     "file": "clips/4d4e72d4ab37.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "Many reports hide rates when member months fall below a threshold.",
+     "say": "Many reports hide rates when member months fall below a threshold.",
+     "focus": -1,
+     "file": "clips/cfd833bf3a47.mp3",
+     "seconds": 4.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Other traps.",
+     "say": "Other traps.",
+     "focus": -1,
+     "file": "clips/e7dd5eb6ebf9.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Other traps",
+   "lines": [
+    {
+     "raw": "**Adjustments and reversals**: a corrected claim can arrive as a reversal plus a new version.",
+     "say": "Adjustments and reversals: a corrected claim can arrive as a reversal plus a new version.",
+     "focus": 0,
+     "file": "clips/7b6aa0272b32.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "Sum the **net** amount by claim, or you double count.",
+     "say": "Sum the net amount by claim, or you double count.",
+     "focus": 0,
+     "file": "clips/fbce5fceed69.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "The Medical course shows how adjusted claims look in data.",
+     "say": "The Medical course shows how adjusted claims look in data.",
+     "focus": 0,
+     "file": "clips/130340f0d60e.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "**Carve-outs**: if pharmacy or behavioural health is managed by another company, those costs are missing from your claims.",
+     "say": "Carve-outs: if pharmacy or behavioural health is managed by another company, those costs are missing from your claims.",
+     "focus": 1,
+     "file": "clips/f999cd831bad.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "A low PMPM may just mean missing data.",
+     "say": "A low P M P M may just mean missing data.",
+     "focus": 1,
+     "file": "clips/f5046bd96a12.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "**Capitation**: providers paid a fixed monthly amount send encounters with **$0 paid**.",
+     "say": "Capitation: providers paid a fixed monthly amount send encounters with 0 dollars paid.",
+     "focus": 2,
+     "file": "clips/89e259e10505.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "Add the capitation payments to the cost, or PMPM is understated (see the Capitation course).",
+     "say": "Add the capitation payments to the cost, or P M P M is understated (see the Capitation course).",
+     "focus": 2,
+     "file": "clips/a2246d517d31.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "**Mix change**: if the plan gains many older members, PMPM rises even if nothing else changes.",
+     "say": "Mix change: if the plan gains many older members, P M P M rises even if nothing else changes.",
+     "focus": 3,
+     "file": "clips/2cd918a46dde.mp3",
+     "seconds": 7.35
+    },
+    {
+     "raw": "Compare age and sex mix, or use risk scores, before blaming prices.",
+     "say": "Compare age and sex mix, or use risk scores, before blaming prices.",
+     "focus": 3,
+     "file": "clips/12e69d09f677.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "**Mismatched populations**: the numerator and denominator must cover the same members, products and months.",
+     "say": "Mismatched populations: the numerator and denominator must cover the same members, products and months.",
+     "focus": 4,
+     "file": "clips/1fb6aa7a3b81.mp3",
+     "seconds": 7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Other traps",
+   "lines": [
+    {
+     "raw": "Adjusted and capitated claims in data.",
+     "say": "Adjusted and capitated claims in data.",
+     "focus": -1,
+     "file": "clips/728a207c146c.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "How a $0-paid capitated encounter looks, and how capitation payment files add the missing cost, is taught in the Capitation course.",
+     "say": "How a 0 dollars-paid capitated encounter looks, and how capitation payment files add the missing cost, is taught in the Capitation course.",
+     "focus": -1,
+     "file": "clips/4f2f302cc749.mp3",
+     "seconds": 9.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Maria's checklist.",
+     "say": "Worked example: Maria's checklist.",
+     "focus": -1,
+     "file": "clips/40fd03479c3f.mp3",
+     "seconds": 2.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example: Maria's checklist",
+   "lines": [
+    {
+     "raw": "In the US: Before Maria publishes any metric, she checks.",
+     "say": "In the U S: Before Maria publishes any metric, she checks.",
+     "focus": -1,
+     "file": "clips/711695c6caea.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "**Basis**: incurred, with how many months of run-out?",
+     "say": "Basis: incurred, with how many months of run-out?",
+     "focus": 0,
+     "file": "clips/684db0ae6d62.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Are recent months completed with IBNR?",
+     "say": "Are recent months completed with I B N R?",
+     "focus": 0,
+     "file": "clips/cd4e588014e2.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "**Dollars**: allowed or paid?",
+     "say": "Dollars: allowed or paid?",
+     "focus": 1,
+     "file": "clips/833f5fdf24a9.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Net of reversals?",
+     "say": "Net of reversals?",
+     "focus": 1,
+     "file": "clips/e4397d5fa94f.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Capitation added?",
+     "say": "Capitation added?",
+     "focus": 1,
+     "file": "clips/39b82c3a6971.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Any carve-outs missing?",
+     "say": "Any carve-outs missing?",
+     "focus": 1,
+     "file": "clips/0f2249d3e8b8.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "**Population**: same members in numerator and denominator?",
+     "say": "Population: same members in numerator and denominator?",
+     "focus": 2,
+     "file": "clips/658d704ea43d.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "Big change in age mix?",
+     "say": "Big change in age mix?",
+     "focus": 2,
+     "file": "clips/9579e4dd41bf.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "**Outliers**: how many high-cost claimants, and what is PMPM with them capped?",
+     "say": "Outliers: how many high-cost claimants, and what is P M P M with them capped?",
+     "focus": 3,
+     "file": "clips/ed85d1c3bd43.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "**Size**: enough member months for the rate to be stable?",
+     "say": "Size: enough member months for the rate to be stable?",
+     "focus": 4,
+     "file": "clips/da164c323bc6.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example: Maria's checklist",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Most \"surprising\" trends in healthcare reports turn out to be one of these traps rather than a real change in care.",
+     "say": "Most \"surprising\" trends in healthcare reports turn out to be one of these traps rather than a real change in care.",
+     "focus": -1,
+     "file": "clips/c1e955859974.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "Putting the basis, run-out, dollar type and outlier treatment **on the report itself** saves hours of confused questions later.",
+     "say": "Putting the basis, run-out, dollar type and outlier treatment on the report itself saves hours of confused questions later.",
+     "focus": -1,
+     "file": "clips/92f599638c59.mp3",
+     "seconds": 8.375
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Incurred basis groups claims by care date and needs run-out; paid basis groups by payment date.",
+     "say": "Incurred basis groups claims by care date and needs run-out; paid basis groups by payment date.",
+     "focus": 0,
+     "file": "clips/f808b6f3b1da.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Do not mix them.",
+     "say": "Do not mix them.",
+     "focus": 0,
+     "file": "clips/c4fc1f43f66a.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "A few high-cost claimants can dominate a small group; show PMPM with and without capping.",
+     "say": "A few high-cost claimants can dominate a small group; show P M P M with and without capping.",
+     "focus": 1,
+     "file": "clips/5fad95b77bcd.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "Small denominators produce big random swings; treat their rates with caution.",
+     "say": "Small denominators produce big random swings; treat their rates with caution.",
+     "focus": 2,
+     "file": "clips/ef55d01b5f7e.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Net out reversals, add capitation, and check for carve-outs before trusting PMPM.",
+     "say": "Net out reversals, add capitation, and check for carve-outs before trusting P M P M.",
+     "focus": 3,
+     "file": "clips/265fd7d56c9f.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "Write the basis, dollar type and outlier rule on every report.",
+     "say": "Write the basis, dollar type and outlier rule on every report.",
+     "focus": 4,
+     "file": "clips/b36bbab9e7ba.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

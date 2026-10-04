@@ -1,0 +1,792 @@
+{
+ "courseId": "interoperability",
+ "lessonId": "what-is-interoperability",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What is Interoperability?",
+     "say": "Lesson 1: What is Interoperability?",
+     "focus": -1,
+     "file": "clips/19af41eaa1eb.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "Systems that can share health data, and actually understand it.",
+     "say": "Systems that can share health data, and actually understand it.",
+     "focus": -1,
+     "file": "clips/f5b865ca86d5.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain interoperability in one plain sentence.",
+     "say": "Explain interoperability in one plain sentence.",
+     "focus": 0,
+     "file": "clips/7b82b8df2578.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Name the four levels: foundational, structural, semantic and organisational.",
+     "say": "Name the four levels: foundational, structural, semantic and organisational.",
+     "focus": 1,
+     "file": "clips/617f132fea00.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "See why the US government cares so much about health data moving.",
+     "say": "See why the U S government cares so much about health data moving.",
+     "focus": 2,
+     "file": "clips/f8a2242ef9e0.mp3",
+     "seconds": 4.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Imagine you have an X-ray at one hospital in Kathmandu, then visit a specialist at another hospital.",
+     "say": "Imagine you have an X-ray at one hospital in Kathmandu, then visit a specialist at another hospital.",
+     "focus": -1,
+     "file": "clips/d9363e7b5f5f.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "What happens to the X-ray?",
+     "say": "What happens to the X-ray?",
+     "focus": -1,
+     "file": "clips/7ee1486b97ef.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "Usually **you carry it**: a printed film, a paper report, or a CD in an envelope.",
+     "say": "Usually you carry it: a printed film, a paper report, or a C D in an envelope.",
+     "focus": -1,
+     "file": "clips/95c80de4556f.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "The second hospital cannot simply open the first hospital's computer and look.",
+     "say": "The second hospital cannot simply open the first hospital's computer and look.",
+     "focus": -1,
+     "file": "clips/73ccdd21f625.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Now imagine the two hospitals' computers could send the report to each other, and the second computer could read it, file it in the right place and show it to the doctor.",
+     "say": "Now imagine the two hospitals' computers could send the report to each other, and the second computer could read it, file it in the right place and show it to the doctor.",
+     "focus": -1,
+     "file": "clips/da99067b321b.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "That ability has a long name: **interoperability**.",
+     "say": "That ability has a long name: interoperability.",
+     "focus": -1,
+     "file": "clips/7998576a0942.mp3",
+     "seconds": 3.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Simple definition.",
+     "say": "Simple definition.",
+     "focus": -1,
+     "file": "clips/a5c5927139e3.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Interoperability means different computer systems can **exchange** health data and **understand** it well enough to use it, without a person retyping or carrying it.",
+     "say": "Interoperability means different computer systems can exchange health data and understand it well enough to use it, without a person retyping or carrying it.",
+     "focus": -1,
+     "file": "clips/edf7cadefb56.mp3",
+     "seconds": 10.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet our people.",
+     "say": "Meet our people.",
+     "focus": -1,
+     "file": "clips/f8aec1fba809.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "This course follows a few people.",
+     "say": "This course follows a few people.",
+     "focus": -1,
+     "file": "clips/51b74f157737.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "**Ram** works at a tech startup in Kathmandu and has private group health insurance through the startup: he pays the hospital first, then claims his money back.",
+     "say": "Ram works at a tech startup in Kathmandu and has private group health insurance through the startup: he pays the hospital first, then claims his money back.",
+     "focus": -1,
+     "file": "clips/2c2c054a5c8c.mp3",
+     "seconds": 9.875
+    },
+    {
+     "raw": "**Sita** is an accountant in Kathmandu who contributes to the Social Security Fund (SSF) and uses SSF-listed hospitals.",
+     "say": "Sita is an accountant in Kathmandu who contributes to the Social Security Fund (S S F) and uses S S F listed hospitals.",
+     "focus": -1,
+     "file": "clips/4370dfe7dd64.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "**Emily Carter** is an office worker in Texas, USA, with health insurance through her employer.",
+     "say": "Emily Carter is an office worker in Texas, U S A, with health insurance through her employer.",
+     "focus": -1,
+     "file": "clips/636039822434.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "Her father, **Robert Carter**, is a retired school teacher in Houston, born in 1957, with type 2 diabetes and high blood pressure.",
+     "say": "Her father, Robert Carter, is a retired school teacher in Houston, born in 1957, with type 2 diabetes and high blood pressure.",
+     "focus": -1,
+     "file": "clips/66f277a0619f.mp3",
+     "seconds": 9.575
+    },
+    {
+     "raw": "Robert has **Medicare**, the US government's health insurance for people aged 65 and over.",
+     "say": "Robert has Medicare, the U S government's health insurance for people aged 65 and over.",
+     "focus": -1,
+     "file": "clips/a937764ef628.mp3",
+     "seconds": 6.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "In Nepal: How health records travel for Ram and Sita.",
+     "say": "In Nepal: How health records travel for Ram and Sita.",
+     "focus": -1,
+     "file": "clips/be3f8c9f0805.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram has a blood test at a private lab, then sees a doctor at a private hospital.",
+     "say": "Ram has a blood test at a private lab, then sees a doctor at a private hospital.",
+     "focus": 0,
+     "file": "clips/ffc50433e2d2.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "He brings the **printed lab report** with him.",
+     "say": "He brings the printed lab report with him.",
+     "focus": 0,
+     "file": "clips/dfddc834f053.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "To claim reimbursement, Ram collects **original bills, prescriptions and reports** and submits them to his insurer.",
+     "say": "To claim reimbursement, Ram collects original bills, prescriptions and reports and submits them to his insurer.",
+     "focus": 1,
+     "file": "clips/8afd46d61654.mp3",
+     "seconds": 7.5
+    },
+    {
+     "raw": "Someone at the insurer reads them and types the details in.",
+     "say": "Someone at the insurer reads them and types the details in.",
+     "focus": 1,
+     "file": "clips/618b7d6ebc03.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "If Ram changes hospital, his history mostly lives in the **file folder** he keeps at home.",
+     "say": "If Ram changes hospital, his history mostly lives in the file folder he keeps at home.",
+     "focus": 2,
+     "file": "clips/f30e26fe815e.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's SSF-listed hospital sends her claim to SSF so it can pay its 80%.",
+     "say": "Sita's S S F listed hospital sends her claim to S S F so it can pay its 80 percent.",
+     "focus": 3,
+     "file": "clips/3be119694c7e.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Moving the claim is a form of data sharing between two organisations.",
+     "say": "Moving the claim is a form of data sharing between two organisations.",
+     "focus": 3,
+     "file": "clips/499ffd17725b.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "But her **clinical record** (notes, scans, results) usually stays inside that one hospital's software.",
+     "say": "But her clinical record (notes, scans, results) usually stays inside that one hospital's software.",
+     "focus": 4,
+     "file": "clips/188cfa90aff9.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "Hospitals in Nepal often use **different software** from different vendors, and those systems generally cannot read each other's records directly.",
+     "say": "Hospitals in Nepal often use different software from different vendors, and those systems generally cannot read each other's records directly.",
+     "focus": 5,
+     "file": "clips/d6b832624a51.mp3",
+     "seconds": 9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "In the US: Robert in Houston.",
+     "say": "In the U S: Robert in Houston.",
+     "focus": -1,
+     "file": "clips/a55aa51f9113.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Robert's family doctor, his lab, the hospital emergency room and his Medicare health plan **all use different computer systems**.",
+     "say": "Robert's family doctor, his lab, the hospital emergency room and his Medicare health plan all use different computer systems.",
+     "focus": 0,
+     "file": "clips/5d348d1a03e2.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "When his lab finishes a blood test, the result is sent **electronically** to his doctor's system.",
+     "say": "When his lab finishes a blood test, the result is sent electronically to his doctor's system.",
+     "focus": 1,
+     "file": "clips/7981c0145886.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "When he goes to an emergency room, a notice can be sent to his doctor that same day.",
+     "say": "When he goes to an emergency room, a notice can be sent to his doctor that same day.",
+     "focus": 2,
+     "file": "clips/313021556093.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "He can open an **app on his phone** and see his own claims, pulled from his health plan through a standard connection.",
+     "say": "He can open an app on his phone and see his own claims, pulled from his health plan through a standard connection.",
+     "focus": 3,
+     "file": "clips/7967d6aa0f6e.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "None of this happened by accident.",
+     "say": "None of this happened by accident.",
+     "focus": 4,
+     "file": "clips/d25f2d460bb4.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "US **laws and rules** pushed it, and **shared standards** made it possible.",
+     "say": "U S laws and rules pushed it, and shared standards made it possible.",
+     "focus": 4,
+     "file": "clips/9958027809a0.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "This course covers both.",
+     "say": "This course covers both.",
+     "focus": 4,
+     "file": "clips/6393327e5495.mp3",
+     "seconds": 2.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Sharing is not the same as understanding.",
+     "say": "Sharing is not the same as understanding.",
+     "focus": -1,
+     "file": "clips/1b7028d3f06f.mp3",
+     "seconds": 2.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Sharing is not the same as understanding",
+   "lines": [
+    {
+     "raw": "Emailing a scanned PDF of a lab report is sharing.",
+     "say": "Emailing a scanned P D F of a lab report is sharing.",
+     "focus": -1,
+     "file": "clips/cb769de61564.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "But the receiving computer sees only a picture.",
+     "say": "But the receiving computer sees only a picture.",
+     "focus": -1,
+     "file": "clips/6569930e2fc0.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "It cannot find \"HbA1c = 9.4%\" inside it, draw a chart, or warn the doctor that the value is high.",
+     "say": "It cannot find \"H b A 1 c = 9.4 percent\" inside it, draw a chart, or warn the doctor that the value is high.",
+     "focus": -1,
+     "file": "clips/b7f3ca17b265.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "True interoperability needs more than a pipe between two computers.",
+     "say": "True interoperability needs more than a pipe between two computers.",
+     "focus": -1,
+     "file": "clips/33133da9fa4e.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Experts often describe it in **four levels**.",
+     "say": "Experts often describe it in four levels.",
+     "focus": -1,
+     "file": "clips/f74e1c4d05c2.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Sharing is not the same as understanding",
+   "lines": [
+    {
+     "raw": "The four levels of interoperability (a common way to describe it).",
+     "say": "The four levels of interoperability (a common way to describe it).",
+     "focus": -1,
+     "file": "clips/aac76222001b.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "**1. Foundational**. Question it answers: Can the data get from A to B at all? Nepal example: A hospital emails a PDF report. US example: A secure connection between a lab and a clinic.",
+     "say": "1. Foundational. Question it answers: Can the data get from A to B at all? Nepal example: A hospital emails a P D F report. U S example: A secure connection between a lab and a clinic.",
+     "focus": 0,
+     "file": "clips/4c93156d9b64.mp3",
+     "seconds": 14.2
+    },
+    {
+     "raw": "**2. Structural**. Question it answers: Is the data in an agreed **format**, so fields land in the right place? Nepal example: Every hospital uses the same printed claim form layout. US example: An HL7 message where the 5th field of the result line is always the value.",
+     "say": "2. Structural. Question it answers: Is the data in an agreed format, so fields land in the right place? Nepal example: Every hospital uses the same printed claim form layout. U S example: An HL7 message where the 5th field of the result line is always the value.",
+     "focus": 1,
+     "file": "clips/558475070725.mp3",
+     "seconds": 19.05
+    },
+    {
+     "raw": "**3. Semantic**. Question it answers: Do both sides agree on what the data **means**? Nepal example: Everyone writes \"sugar\" the same way, in the same units. US example: The code LOINC `4548-4` always means the HbA1c test, everywhere.",
+     "say": "3. Semantic. Question it answers: Do both sides agree on what the data means? Nepal example: Everyone writes \"sugar\" the same way, in the same units. U S example: The code L O I N C 4 5 4 8 dash 4 always means the H b A 1 c test, everywhere.",
+     "focus": 2,
+     "file": "clips/7e4eac345816.mp3",
+     "seconds": 18.95
+    },
+    {
+     "raw": "**4. Organisational**. Question it answers: Do the **rules, agreements and trust** exist to share it? Nepal example: Hospitals agree on who may see a patient's file and why. US example: Laws, privacy rules and network agreements that let a plan share data.",
+     "say": "4. Organisational. Question it answers: Do the rules, agreements and trust exist to share it? Nepal example: Hospitals agree on who may see a patient's file and why. U S example: Laws, privacy rules and network agreements that let a plan share data.",
+     "focus": 3,
+     "file": "clips/08fd27732855.mp3",
+     "seconds": 17.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Sharing is not the same as understanding",
+   "lines": [
+    {
+     "raw": "An easy way to remember.",
+     "say": "An easy way to remember.",
+     "focus": -1,
+     "file": "clips/abab34c5bc04.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Think of sending a letter.",
+     "say": "Think of sending a letter.",
+     "focus": -1,
+     "file": "clips/76519bf0fbdd.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "**Foundational**: there is a postal service.",
+     "say": "Foundational: there is a postal service.",
+     "focus": -1,
+     "file": "clips/ec6c8a64946c.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "**Structural**: the letter uses a standard envelope with the address in the right place.",
+     "say": "Structural: the letter uses a standard envelope with the address in the right place.",
+     "focus": -1,
+     "file": "clips/117bf47120a6.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "**Semantic**: the reader speaks the same language.",
+     "say": "Semantic: the reader speaks the same language.",
+     "focus": -1,
+     "file": "clips/ff9b60ba11a0.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "**Organisational**: both sides are allowed to send and open the letter.",
+     "say": "Organisational: both sides are allowed to send and open the letter.",
+     "focus": -1,
+     "file": "clips/9207c8363fe9.mp3",
+     "seconds": 4.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Words you will meet.",
+     "say": "Words you will meet.",
+     "focus": -1,
+     "file": "clips/648734e4a7b4.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Words you will meet",
+   "lines": [
+    {
+     "raw": "EHR (electronic health record).",
+     "say": "E H R (electronic health record).",
+     "focus": 0,
+     "file": "clips/15aef7324469.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "The computer system a doctor or hospital uses to keep patient notes, orders, results and medicines.",
+     "say": "The computer system a doctor or hospital uses to keep patient notes, orders, results and medicines.",
+     "focus": 0,
+     "file": "clips/bc84ff928c7a.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "Robert's doctor uses one.",
+     "say": "Robert's doctor uses one.",
+     "focus": 0,
+     "file": "clips/b7653744a668.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Standard.",
+     "say": "Standard.",
+     "focus": 1,
+     "file": "clips/b98c88251e01.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "An agreed format that everyone follows, such as **X12**, **HL7** or **FHIR**.",
+     "say": "An agreed format that everyone follows, such as X12, HL7 or F H I R.",
+     "focus": 1,
+     "file": "clips/e6db9c81790a.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Lessons 4 to 6 cover them.",
+     "say": "Lessons 4 to 6 cover them.",
+     "focus": 1,
+     "file": "clips/ec9512cb052d.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Code set.",
+     "say": "Code set.",
+     "focus": 2,
+     "file": "clips/29316a7c335a.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "An agreed list of codes with fixed meanings, such as **ICD-10** for diagnoses or **LOINC** for lab tests.",
+     "say": "An agreed list of codes with fixed meanings, such as I C D 10 for diagnoses or L O I N C for lab tests.",
+     "focus": 2,
+     "file": "clips/804d3b1e4d6a.mp3",
+     "seconds": 8.4
+    },
+    {
+     "raw": "Code sets give semantic interoperability.",
+     "say": "Code sets give semantic interoperability.",
+     "focus": 2,
+     "file": "clips/74d316fb0d9a.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "API.",
+     "say": "A P I.",
+     "focus": 3,
+     "file": "clips/c0abb9d36a7c.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "Application Programming Interface: a standard way for one piece of software to ask another for data, like an app asking a health plan \"show me this member's claims\".",
+     "say": "Application Programming Interface: a standard way for one piece of software to ask another for data, like an app asking a health plan \"show me this member's claims\".",
+     "focus": 3,
+     "file": "clips/1d3cf280c09f.mp3",
+     "seconds": 10.65
+    },
+    {
+     "raw": "Payer.",
+     "say": "Payer.",
+     "focus": 4,
+     "file": "clips/45bb3e6f2029.mp3",
+     "seconds": 1.275
+    },
+    {
+     "raw": "The organisation that pays for care, such as a health insurer or a Medicare health plan.",
+     "say": "The organisation that pays for care, such as a health insurer or a Medicare health plan.",
+     "focus": 4,
+     "file": "clips/3d126f5a7f64.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "Information blocking.",
+     "say": "Information blocking.",
+     "focus": 5,
+     "file": "clips/fc5d64a59321.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Unreasonably stopping health data from being shared.",
+     "say": "Unreasonably stopping health data from being shared.",
+     "focus": 5,
+     "file": "clips/570f7e5e7a8a.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "US law now restricts it (lesson 2).",
+     "say": "U S law now restricts it (lesson 2).",
+     "focus": 5,
+     "file": "clips/ad2f83356a10.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Why does the US government care?",
+     "say": "Why does the U S government care?",
+     "focus": -1,
+     "file": "clips/709023d53fb1.mp3",
+     "seconds": 2.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Why does the US government care?",
+   "lines": [
+    {
+     "raw": "**Safety**: a doctor who can see a patient's other results and medicines is less likely to make a dangerous mistake.",
+     "say": "Safety: a doctor who can see a patient's other results and medicines is less likely to make a dangerous mistake.",
+     "focus": 0,
+     "file": "clips/6c4070840f7c.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "**Cost**: repeating a test because the first result cannot be found wastes money.",
+     "say": "Cost: repeating a test because the first result cannot be found wastes money.",
+     "focus": 1,
+     "file": "clips/14c0ebd57f0b.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "In a system that spends trillions of dollars a year, waste adds up fast.",
+     "say": "In a system that spends trillions of dollars a year, waste adds up fast.",
+     "focus": 1,
+     "file": "clips/c89973c252a3.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "**Patient rights**: US law says patients have a right to their own health information.",
+     "say": "Patient rights: U S law says patients have a right to their own health information.",
+     "focus": 2,
+     "file": "clips/694b0827cd5b.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "Getting it should not require a CD in an envelope.",
+     "say": "Getting it should not require a C D in an envelope.",
+     "focus": 2,
+     "file": "clips/580eeead30c0.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "**Government as payer**: through Medicare and Medicaid, the government pays for care for tens of millions of people, so it can set rules for the plans and providers it pays.",
+     "say": "Government as payer: through Medicare and Medicaid, the government pays for care for tens of millions of people, so it can set rules for the plans and providers it pays.",
+     "focus": 3,
+     "file": "clips/4953fec07fb0.mp3",
+     "seconds": 10.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Why does the US government care?",
+   "lines": [
+    {
+     "raw": "Why this course sits in the CMS section.",
+     "say": "Why this course sits in the C M S section.",
+     "focus": -1,
+     "file": "clips/3b54e91c96ab.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "**CMS** (the Centers for Medicare & Medicaid Services) is the US agency that runs Medicare and works with states on Medicaid.",
+     "say": "C M S (the Centers for Medicare and Medicaid Services) is the U S agency that runs Medicare and works with states on Medicaid.",
+     "focus": -1,
+     "file": "clips/9f87fb1812df.mp3",
+     "seconds": 9.35
+    },
+    {
+     "raw": "Many of the strongest US data sharing rules are CMS rules for the health plans it pays.",
+     "say": "Many of the strongest U S data sharing rules are C M S rules for the health plans it pays.",
+     "focus": -1,
+     "file": "clips/badea7d283b6.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "That is why we look at interoperability from the government side first, then at the standards those rules rely on.",
+     "say": "That is why we look at interoperability from the government side first, then at the standards those rules rely on.",
+     "focus": -1,
+     "file": "clips/c96bcf7c0197.mp3",
+     "seconds": 7.5
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Interoperability = systems can exchange health data **and** understand it, without someone retyping or carrying it.",
+     "say": "Interoperability = systems can exchange health data and understand it, without someone retyping or carrying it.",
+     "focus": 0,
+     "file": "clips/ad1b1cd14878.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "Four levels: **foundational** (it moves), **structural** (agreed format), **semantic** (agreed meaning), **organisational** (rules and trust).",
+     "say": "Four levels: foundational (it moves), structural (agreed format), semantic (agreed meaning), organisational (rules and trust).",
+     "focus": 1,
+     "file": "clips/057d2242261d.mp3",
+     "seconds": 8.2
+    },
+    {
+     "raw": "In Nepal, reports often travel on paper or CD and hospital systems rarely talk to each other.",
+     "say": "In Nepal, reports often travel on paper or C D and hospital systems rarely talk to each other.",
+     "focus": 2,
+     "file": "clips/a6ecfb6c3797.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "In the US, laws and CMS rules push data sharing, and standards make it work.",
+     "say": "In the U S, laws and C M S rules push data sharing, and standards make it work.",
+     "focus": 3,
+     "file": "clips/e4dfcf225dac.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

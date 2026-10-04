@@ -1,0 +1,722 @@
+{
+ "courseId": "cms-datatypes",
+ "lessonId": "mmr-report",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: MA Reports: MMR.",
+     "say": "Lesson 4: M A Reports: M M R.",
+     "focus": -1,
+     "file": "clips/a628cd18aceb.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "The Monthly Membership Report: who CMS paid the plan for, and how much.",
+     "say": "The Monthly Membership Report: who C M S paid the plan for, and how much.",
+     "focus": -1,
+     "file": "clips/5f5bb0e0bc8c.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain in one line how CMS pays a Medicare Advantage plan, and where to learn more.",
+     "say": "Explain in one line how C M S pays a Medicare Advantage plan, and where to learn more.",
+     "focus": 0,
+     "file": "clips/f3678cb43fe3.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "Read simplified MMR rows: run month, payment month, status flags, risk score and payment.",
+     "say": "Read simplified M M R rows: run month, payment month, status flags, risk score and payment.",
+     "focus": 1,
+     "file": "clips/adde13ab0f2b.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Check a retroactive adjustment with simple maths.",
+     "say": "Check a retroactive adjustment with simple maths.",
+     "focus": 2,
+     "file": "clips/46dfe4a47c55.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Reconcile the MMR against the plan's own enrollment list.",
+     "say": "Reconcile the M M R against the plan's own enrollment list.",
+     "focus": 3,
+     "file": "clips/ac3e229b1c6b.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Scenario B: Robert in his Medicare Advantage plan.",
+     "say": "Scenario B: Robert in his Medicare Advantage plan.",
+     "focus": -1,
+     "file": "clips/a822d84ea416.mp3",
+     "seconds": 4.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Scenario B: Robert in his Medicare Advantage plan",
+   "lines": [
+    {
+     "raw": "Now forget the ACO.",
+     "say": "Now forget the A C O.",
+     "focus": -1,
+     "file": "clips/3e0de12509cc.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "This lesson and the next show Robert's actual situation: he left Original Medicare and joined **Gulf Coast Advantage (HMO)** from **Gulf Coast Health Plan** (a fictional Medicare Advantage plan with drug cover, contract `H9876`, plan `012`) on **1 January 2024**.",
+     "say": "This lesson and the next show Robert's actual situation: he left Original Medicare and joined Gulf Coast Advantage (H M O) from Gulf Coast Health Plan (a fictional Medicare Advantage plan with drug cover, contract H 9 8 7 6, plan 012) on 1 January 2024.",
+     "focus": -1,
+     "file": "clips/a839c8f0db3d.mp3",
+     "seconds": 20
+    },
+    {
+     "raw": "His plan member ID is `GC5001`, but CMS reports identify him by his MBI, `3TW7HC2AP58`.",
+     "say": "His plan member I D is G C 5 0 0 1, but C M S reports identify him by his M B I, 3 T W 7 H C 2 A P 5 8.",
+     "focus": -1,
+     "file": "clips/fb8552460b6f.mp3",
+     "seconds": 12.2
+    },
+    {
+     "raw": "He still sees Dr. Nguyen at Bayou Family Medicine, who is in the plan's network.",
+     "say": "He still sees Doctor Nguyen at Bayou Family Medicine, who is in the plan's network.",
+     "focus": -1,
+     "file": "clips/002c90993990.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "Dr. Nguyen and the hospital now send their claims to **the plan**, not to CMS.",
+     "say": "Doctor Nguyen and the hospital now send their claims to the plan, not to C M S.",
+     "focus": -1,
+     "file": "clips/29cede13b760.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "CMS sends **no CCLF** for Robert.",
+     "say": "C M S sends no C C L F for Robert.",
+     "focus": -1,
+     "file": "clips/8b99efc44dfc.mp3",
+     "seconds": 3.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Scenario B: Robert in his Medicare Advantage plan",
+   "lines": [
+    {
+     "raw": "In Nepal: Start with something you already know.",
+     "say": "In Nepal: Start with something you already know.",
+     "focus": -1,
+     "file": "clips/6fa12f38988f.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's insurer receives premiums and pays claims.",
+     "say": "Ram's insurer receives premiums and pays claims.",
+     "focus": 0,
+     "file": "clips/4fcb12255ffb.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "It keeps its own records of who is covered.",
+     "say": "It keeps its own records of who is covered.",
+     "focus": 0,
+     "file": "clips/d885b75be313.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "If a government fund ever paid it per person, the insurer would want a **monthly statement** listing each person and the amount paid for them.",
+     "say": "If a government fund ever paid it per person, the insurer would want a monthly statement listing each person and the amount paid for them.",
+     "focus": 0,
+     "file": "clips/fd5608a24d36.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Picture SSF paying a hospital a fixed amount per enrolled contributor and sending a monthly list: name, ID, amount, and any corrections for past months.",
+     "say": "Picture S S F paying a hospital a fixed amount per enrolled contributor and sending a monthly list: name, I D, amount, and any corrections for past months.",
+     "focus": 1,
+     "file": "clips/b6d28d99331f.mp3",
+     "seconds": 11.2
+    },
+    {
+     "raw": "The hospital would check that list against its own register every month.",
+     "say": "The hospital would check that list against its own register every month.",
+     "focus": 1,
+     "file": "clips/0f76f4aa2f38.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "(An analogy only, not a description of SSF's actual rules.).",
+     "say": "(An analogy only, not a description of SSF's actual rules.).",
+     "focus": 1,
+     "file": "clips/1599cc0c9e17.mp3",
+     "seconds": 4.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Scenario B: Robert in his Medicare Advantage plan",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "The **MMR** (Monthly Membership Report) is CMS's monthly statement to an MA plan: which members it is paying for, their key status flags, the risk score used, and the amount paid, plus corrections to earlier months.",
+     "say": "The M M R (Monthly Membership Report) is CMS's monthly statement to an M A plan: which members it is paying for, their key status flags, the risk score used, and the amount paid, plus corrections to earlier months.",
+     "focus": -1,
+     "file": "clips/b120d3c851b2.mp3",
+     "seconds": 14.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How CMS pays an MA plan, in one line.",
+     "say": "How C M S pays an M A plan, in one line.",
+     "focus": -1,
+     "file": "clips/f30c80f94382.mp3",
+     "seconds": 3.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "How CMS pays an MA plan, in one line",
+   "lines": [
+    {
+     "raw": "CMS pays the plan a fixed amount **every month for every member**, whether the member visits a doctor or not, and pays more for members with a higher **risk score**.",
+     "say": "C M S pays the plan a fixed amount every month for every member, whether the member visits a doctor or not, and pays more for members with a higher risk score.",
+     "focus": -1,
+     "file": "clips/42dce8434832.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "How risk scores and payments are built is taught in the Risk Adjustment course; here we only need the simplified formula to check the MMR.",
+     "say": "How risk scores and payments are built is taught in the Risk Adjustment course; here we only need the simplified formula to check the M M R.",
+     "focus": -1,
+     "file": "clips/a6604a47bcfd.mp3",
+     "seconds": 9.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "How CMS pays an MA plan, in one line",
+   "lines": [
+    {
+     "raw": "The core idea (greatly simplified).",
+     "say": "The core idea (greatly simplified).",
+     "focus": -1,
+     "file": "clips/9f689be5c0bf.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Monthly payment ≈ Base rate times Risk score.",
+     "say": "Monthly payment ≈ Base rate times Risk score.",
+     "focus": 0,
+     "file": "clips/0023cd4ed2b1.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "For example: Illustrative numbers: base rate $1,100 times Robert's risk score 1.150 equals $1,265.00 per month.",
+     "say": "For example: Illustrative numbers: base rate 1100 dollars times Robert's risk score 1.150 equals 1265 dollars per month.",
+     "focus": 1,
+     "file": "clips/fbe4276e827b.mp3",
+     "seconds": 11.35
+    },
+    {
+     "raw": "Real payments also depend on the plan's bid, rebates, county rates, coding adjustments and more.",
+     "say": "Real payments also depend on the plan's bid, rebates, county rates, coding adjustments and more.",
+     "focus": 1,
+     "file": "clips/038aaacc6084.mp3",
+     "seconds": 6.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "How CMS pays an MA plan, in one line",
+   "lines": [
+    {
+     "raw": "Payment is owned by Risk Adjustment.",
+     "say": "Payment is owned by Risk Adjustment.",
+     "focus": -1,
+     "file": "clips/c18321d1e166.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "Bids, benchmarks, HCC models and normalisation are covered in the Risk Adjustment course.",
+     "say": "Bids, benchmarks, H C C models and normalisation are covered in the Risk Adjustment course.",
+     "focus": -1,
+     "file": "clips/db535f52876a.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "This lesson stays with the report itself.",
+     "say": "This lesson stays with the report itself.",
+     "focus": -1,
+     "file": "clips/ca5a404418a0.mp3",
+     "seconds": 2.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What is on an MMR row.",
+     "say": "What is on an M M R row.",
+     "focus": -1,
+     "file": "clips/e2ceab1db8b2.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "What is on an MMR row",
+   "lines": [
+    {
+     "raw": "Risk score.",
+     "say": "Risk score.",
+     "focus": 0,
+     "file": "clips/07c4a36ba278.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "A number around **1.0** for an average beneficiary.",
+     "say": "A number around 1.0 for an average beneficiary.",
+     "focus": 0,
+     "file": "clips/f1e1b1158463.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "1.150 means \"expected to cost about 15% more than average\".",
+     "say": "1.150 means \"expected to cost about 15 percent more than average\".",
+     "focus": 0,
+     "file": "clips/fecf4bdbf9b5.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "Run month.",
+     "say": "Run month.",
+     "focus": 1,
+     "file": "clips/5cd812cd29ad.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "The month CMS produced the report.",
+     "say": "The month C M S produced the report.",
+     "focus": 1,
+     "file": "clips/0d2b74a915b0.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Payment month.",
+     "say": "Payment month.",
+     "focus": 2,
+     "file": "clips/ef6263d26508.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "The month of coverage the money is for.",
+     "say": "The month of coverage the money is for.",
+     "focus": 2,
+     "file": "clips/d2c7b3760f31.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Usually the same as the run month, but a correction can pay for **earlier** months.",
+     "say": "Usually the same as the run month, but a correction can pay for earlier months.",
+     "focus": 2,
+     "file": "clips/a44b92b2ff48.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Retroactive adjustment.",
+     "say": "Retroactive adjustment.",
+     "focus": 3,
+     "file": "clips/153c27e2c0dd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "A row that corrects money already paid for past months, for example after a risk score update or a late enrollment change.",
+     "say": "A row that corrects money already paid for past months, for example after a risk score update or a late enrollment change.",
+     "focus": 3,
+     "file": "clips/9e9dcfaf5cc7.mp3",
+     "seconds": 8.2
+    },
+    {
+     "raw": "Status flags.",
+     "say": "Status flags.",
+     "focus": 4,
+     "file": "clips/abc8274993b7.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Yes/no markers such as **ESRD** (end-stage renal disease, kidney failure), **hospice**, **Medicaid** (also on Medicaid) and **institutional** (lives in a nursing home).",
+     "say": "Yes/no markers such as E S R D (end-stage renal disease, kidney failure), hospice, Medicaid (also on Medicaid) and institutional (lives in a nursing home).",
+     "focus": 4,
+     "file": "clips/bd39b6990937.mp3",
+     "seconds": 12
+    },
+    {
+     "raw": "Each one changes how CMS pays for that member.",
+     "say": "Each one changes how C M S pays for that member.",
+     "focus": 4,
+     "file": "clips/0b1bc0dce684.mp3",
+     "seconds": 3.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "What is on an MMR row",
+   "lines": [
+    {
+     "raw": "Simplified MMR rows for Robert, 2025 (Part C risk-adjusted payment only; numbers illustrative).",
+     "say": "Simplified M M R rows for Robert, 2025 (Part C risk-adjusted payment only; numbers illustrative).",
+     "focus": -1,
+     "file": "clips/db5497663d91.mp3",
+     "seconds": 8.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "What is on an MMR row",
+   "lines": [
+    {
+     "raw": "`pbp_id` is the **plan benefit package**: one contract (`H9876`) can run several plans, and Robert is in plan `012`.",
+     "say": "pbp_id is the plan benefit package: one contract (H 9 8 7 6) can run several plans, and Robert is in plan 012.",
+     "focus": 0,
+     "file": "clips/cd2c09a5b1a9.mp3",
+     "seconds": 10.325
+    },
+    {
+     "raw": "The July **run** has two rows: the normal July payment, and a correction for January to June.",
+     "say": "The July run has two rows: the normal July payment, and a correction for January to June.",
+     "focus": 1,
+     "file": "clips/3df5ddbd3346.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "Robert's flags are all **N**: no kidney failure, not in hospice, not also on Medicaid.",
+     "say": "Robert's flags are all N: no kidney failure, not in hospice, not also on Medicaid.",
+     "focus": 2,
+     "file": "clips/77b081167841.mp3",
+     "seconds": 6.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: checking the mid-year adjustment.",
+     "say": "Worked example: checking the mid-year adjustment.",
+     "focus": -1,
+     "file": "clips/9d956b222b90.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: checking the mid-year adjustment",
+   "lines": [
+    {
+     "raw": "Checking the mid-year adjustment.",
+     "say": "Checking the mid-year adjustment.",
+     "focus": -1,
+     "file": "clips/547d36eeb5eb.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "New payment − old payment equals $1,100 times 1.180 − $1,100 times 1.150 equals $1,298.00 − $1,265.00 equals $33.00 per month.",
+     "say": "New payment − old payment equals 1100 dollars times 1.180 − 1100 dollars times 1.150 equals 1298 dollars − 1265 dollars equals 33 dollars per month.",
+     "focus": 0,
+     "file": "clips/7a964acb1a41.mp3",
+     "seconds": 17.75
+    },
+    {
+     "raw": "For example: $33.00 times 6 months (January to June) equals $198.00, paid as a retroactive adjustment.",
+     "say": "For example: 33 dollars times 6 months (January to June) equals 198 dollars, paid as a retroactive adjustment.",
+     "focus": 1,
+     "file": "clips/b7f3eafd4760.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "Around mid-year CMS updates risk scores with more complete prior-year data, and again in a final update after the year.",
+     "say": "Around mid-year C M S updates risk scores with more complete prior-year data, and again in a final update after the year.",
+     "focus": 1,
+     "file": "clips/53e28cfced97.mp3",
+     "seconds": 8.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: checking the mid-year adjustment",
+   "lines": [
+    {
+     "raw": "Count money by payment month, not run month.",
+     "say": "Count money by payment month, not run month.",
+     "focus": -1,
+     "file": "clips/f06b1418fda8.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "If you total the July run, Robert looks like he cost CMS $1,496 in July.",
+     "say": "If you total the July run, Robert looks like he cost C M S 1496 dollars in July.",
+     "focus": -1,
+     "file": "clips/c815abc89265.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "In fact $198 of that belongs to January to June.",
+     "say": "In fact 198 dollars of that belongs to January to June.",
+     "focus": -1,
+     "file": "clips/b962a9c16b89.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Group by **payment month** to see what each month really cost, and by **run month** only to match the cash CMS sent.",
+     "say": "Group by payment month to see what each month really cost, and by run month only to match the cash C M S sent.",
+     "focus": -1,
+     "file": "clips/5e88675075e6.mp3",
+     "seconds": 7.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Reconciling the MMR.",
+     "say": "Reconciling the M M R.",
+     "focus": -1,
+     "file": "clips/2dd4fabcff2b.mp3",
+     "seconds": 2.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Reconciling the MMR",
+   "lines": [
+    {
+     "raw": "The plan keeps its own enrollment list.",
+     "say": "The plan keeps its own enrollment list.",
+     "focus": -1,
+     "file": "clips/33e760f913ce.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Every month an analyst matches it against the MMR, member by member, using the MBI.",
+     "say": "Every month an analyst matches it against the M M R, member by member, using the M B I.",
+     "focus": -1,
+     "file": "clips/f29c316eb7c1.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "Any mismatch can mean money the plan is owed, or money it may have to pay back.",
+     "say": "Any mismatch can mean money the plan is owed, or money it may have to pay back.",
+     "focus": -1,
+     "file": "clips/0d43a77c77e7.mp3",
+     "seconds": 5.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Reconciling the MMR",
+   "lines": [
+    {
+     "raw": "March 2025 reconciliation (three fictional members).",
+     "say": "March 2025 reconciliation (three fictional members).",
+     "focus": -1,
+     "file": "clips/69eb18e80506.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "3TW7HC2AP58 (Robert). Plan enrollment list: Enrolled. MMR for March: Paid $1,265.00. What the analyst does: Match: nothing to do.",
+     "say": "3 T W 7 H C 2 A P 5 8 (Robert). Plan enrollment list: Enrolled. M M R for March: Paid 1265 dollars. What the analyst does: Match: nothing to do.",
+     "focus": 0,
+     "file": "clips/43c324400fb7.mp3",
+     "seconds": 13.8
+    },
+    {
+     "raw": "5PL2XK8TM14. Plan enrollment list: Enrolled from 1 March. MMR for March: No row. What the analyst does: Check the enrollment was sent and accepted; expect a retro payment in a later run.",
+     "say": "5 P L 2 X K 8 T M 1 4. Plan enrollment list: Enrolled from 1 March. M M R for March: No row. What the analyst does: Check the enrollment was sent and accepted; expect a retro payment in a later run.",
+     "focus": 1,
+     "file": "clips/3b741a9d6b63.mp3",
+     "seconds": 16.225
+    },
+    {
+     "raw": "8QD4RN1VE77. Plan enrollment list: Disenrolled 28 February. MMR for March: Paid $980.00. What the analyst does: CMS will likely take this back; flag it so finance is not surprised.",
+     "say": "8 Q D 4 R N 1 V E 7 7. Plan enrollment list: Disenrolled 28 February. M M R for March: Paid 980 dollars. What the analyst does: C M S will likely take this back; flag it so finance is not surprised.",
+     "focus": 2,
+     "file": "clips/798002228dfc.mp3",
+     "seconds": 17.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Reconciling the MMR",
+   "lines": [
+    {
+     "raw": "Why the MMR matters for data.",
+     "say": "Why the M M R matters for data.",
+     "focus": -1,
+     "file": "clips/c482f5fb88ed.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "The MMR is the **money and membership truth** from CMS.",
+     "say": "The M M R is the money and membership truth from C M S.",
+     "focus": -1,
+     "file": "clips/863b1e9bab99.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Finance uses it to book revenue, and analysts use it to count members and to spot members the plan is not being paid for.",
+     "say": "Finance uses it to book revenue, and analysts use it to count members and to spot members the plan is not being paid for.",
+     "focus": -1,
+     "file": "clips/357abaf38b95.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "Diagnoses and risk-score detail come from the MOR and MAO-004, in the next lesson.",
+     "say": "Diagnoses and risk-score detail come from the M O R and M A O 004, in the next lesson.",
+     "focus": -1,
+     "file": "clips/1290abaf0170.mp3",
+     "seconds": 7.725
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The **MMR** is CMS's monthly statement to an MA plan: members, status flags, risk scores and payments.",
+     "say": "The M M R is CMS's monthly statement to an M A plan: members, status flags, risk scores and payments.",
+     "focus": 0,
+     "file": "clips/76e1c0892ba1.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "CMS pays roughly **base rate × risk score** per member per month; the Risk Adjustment course explains how scores are built.",
+     "say": "C M S pays roughly base rate × risk score per member per month; the Risk Adjustment course explains how scores are built.",
+     "focus": 1,
+     "file": "clips/71f9bafc4655.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "Retroactive adjustments pay or take back money for **earlier** months; group by payment month to see what each month cost.",
+     "say": "Retroactive adjustments pay or take back money for earlier months; group by payment month to see what each month cost.",
+     "focus": 2,
+     "file": "clips/37ec09d0bc9c.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "Status flags (ESRD, hospice, Medicaid, institutional) change how a member is paid.",
+     "say": "Status flags (E S R D, hospice, Medicaid, institutional) change how a member is paid.",
+     "focus": 3,
+     "file": "clips/8a25583e896d.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "Reconcile the MMR against the plan's enrollment list every month, member by member, using the MBI.",
+     "say": "Reconcile the M M R against the plan's enrollment list every month, member by member, using the M B I.",
+     "focus": 4,
+     "file": "clips/4be65ca79306.mp3",
+     "seconds": 7.525
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

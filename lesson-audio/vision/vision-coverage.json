@@ -1,0 +1,673 @@
+{
+ "courseId": "vision",
+ "lessonId": "vision-coverage",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: Vision Coverage.",
+     "say": "Lesson 1: Vision Coverage.",
+     "focus": -1,
+     "file": "clips/faaa5c760774.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Glasses are one thing, eye disease is another.",
+     "say": "Glasses are one thing, eye disease is another.",
+     "focus": -1,
+     "file": "clips/17c2be911d7f.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "US insurance treats them differently.",
+     "say": "U S insurance treats them differently.",
+     "focus": -1,
+     "file": "clips/c6dee77fd58a.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain the difference between routine vision care and medical eye care.",
+     "say": "Explain the difference between routine vision care and medical eye care.",
+     "focus": 0,
+     "file": "clips/e1c8ee25257e.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Tell an optometrist, an ophthalmologist and an optician apart.",
+     "say": "Tell an optometrist, an ophthalmologist and an optician apart.",
+     "focus": 1,
+     "file": "clips/7c6cee6af837.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Know which kind of eye care usually goes to which plan.",
+     "say": "Know which kind of eye care usually goes to which plan.",
+     "focus": 2,
+     "file": "clips/e66634da6959.mp3",
+     "seconds": 3.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Think about the last time someone in your family needed glasses in Nepal.",
+     "say": "Think about the last time someone in your family needed glasses in Nepal.",
+     "focus": -1,
+     "file": "clips/2d6444073125.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Maybe they could not read the board at school, or small print looked blurry.",
+     "say": "Maybe they could not read the board at school, or small print looked blurry.",
+     "focus": -1,
+     "file": "clips/d47ead2c326d.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "They went to an **eye hospital** such as **Tilganga** in Kathmandu, or a local eye clinic, and someone checked their **power** (the number for each eye, like **-1.50**).",
+     "say": "They went to an eye hospital such as Tilganga in Kathmandu, or a local eye clinic, and someone checked their power (the number for each eye, like -1.50).",
+     "focus": -1,
+     "file": "clips/3892a197454f.mp3",
+     "seconds": 11.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Then they took that paper to an **optical shop**, chose a **frame**, and the shop made the **lenses**.",
+     "say": "Then they took that paper to an optical shop, chose a frame, and the shop made the lenses.",
+     "focus": -1,
+     "file": "clips/f7a5d555bff2.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Two different places, two different bills: one for the **eye check**, one for the **glasses**.",
+     "say": "Two different places, two different bills: one for the eye check, one for the glasses.",
+     "focus": -1,
+     "file": "clips/0814e2e41175.mp3",
+     "seconds": 5.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Now think of a different visit: an uncle with **cataract** (cloudy lens in the eye) who needs surgery, or someone with a red, painful, infected eye.",
+     "say": "Now think of a different visit: an uncle with cataract (cloudy lens in the eye) who needs surgery, or someone with a red, painful, infected eye.",
+     "focus": -1,
+     "file": "clips/e2cb8554ed96.mp3",
+     "seconds": 9.6
+    },
+    {
+     "raw": "That is not about buying glasses.",
+     "say": "That is not about buying glasses.",
+     "focus": -1,
+     "file": "clips/0c8b4424d6e0.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "That is an **eye disease** that needs **treatment**.",
+     "say": "That is an eye disease that needs treatment.",
+     "focus": -1,
+     "file": "clips/a4de4587767a.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Two kinds of eye care.",
+     "say": "Two kinds of eye care.",
+     "focus": -1,
+     "file": "clips/0b01372bc754.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "**Routine vision care** is about seeing clearly: a yearly eye test, glasses and contact lenses.",
+     "say": "Routine vision care is about seeing clearly: a yearly eye test, glasses and contact lenses.",
+     "focus": -1,
+     "file": "clips/2bff609d4ffd.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "**Medical eye care** is about a sick or injured eye: infections, cataract, glaucoma, eye damage from diabetes.",
+     "say": "Medical eye care is about a sick or injured eye: infections, cataract, glaucoma, eye damage from diabetes.",
+     "focus": -1,
+     "file": "clips/1f2fd06a990f.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "In the US these two are usually paid by **different plans**.",
+     "say": "In the U S these two are usually paid by different plans.",
+     "focus": -1,
+     "file": "clips/90157aa0385c.mp3",
+     "seconds": 4.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Three eye professionals.",
+     "say": "Three eye professionals.",
+     "focus": -1,
+     "file": "clips/5f149cffbb5d.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Three eye professionals",
+   "lines": [
+    {
+     "raw": "Optometrist (OD).",
+     "say": "Optometrist (O D).",
+     "focus": 0,
+     "file": "clips/77a99c53ffa3.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "A **Doctor of Optometry**, not a medical doctor.",
+     "say": "A Doctor of Optometry, not a medical doctor.",
+     "focus": 0,
+     "file": "clips/d1699bb16b9d.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Does eye exams, measures power, prescribes glasses and contact lenses, and can diagnose and treat many common eye problems.",
+     "say": "Does eye exams, measures power, prescribes glasses and contact lenses, and can diagnose and treat many common eye problems.",
+     "focus": 0,
+     "file": "clips/611d6a713658.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "Most routine eye exams in the US are done by optometrists.",
+     "say": "Most routine eye exams in the U S are done by optometrists.",
+     "focus": 0,
+     "file": "clips/6e010453a651.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "Ophthalmologist (MD or DO).",
+     "say": "Ophthalmologist (M D or D O).",
+     "focus": 1,
+     "file": "clips/410027245c35.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "A **medical doctor** who specialises in eyes.",
+     "say": "A medical doctor who specialises in eyes.",
+     "focus": 1,
+     "file": "clips/2a2b52e1b1cf.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Treats eye diseases and does **eye surgery** (cataract, glaucoma, retina).",
+     "say": "Treats eye diseases and does eye surgery (cataract, glaucoma, retina).",
+     "focus": 1,
+     "file": "clips/90f4aacecb1b.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "Can also do routine exams.",
+     "say": "Can also do routine exams.",
+     "focus": 1,
+     "file": "clips/aec59425acbd.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Optician.",
+     "say": "Optician.",
+     "focus": 2,
+     "file": "clips/fbbfbdfff7ab.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "Not a doctor.",
+     "say": "Not a doctor.",
+     "focus": 2,
+     "file": "clips/4bb3df47989e.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Works in the **optical shop**: helps choose frames, takes measurements, and makes and fits glasses using the prescription.",
+     "say": "Works in the optical shop: helps choose frames, takes measurements, and makes and fits glasses using the prescription.",
+     "focus": 2,
+     "file": "clips/afb8b0ff4e8e.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "Like the person at the optical shop on New Road.",
+     "say": "Like the person at the optical shop on New Road.",
+     "focus": 2,
+     "file": "clips/1315a56ebab0.mp3",
+     "seconds": 3.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Three eye professionals",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Optometrist. Nepal version: The person at the eye hospital or clinic who checks your power. Bills which plan (usually): Vision plan for routine exams; medical plan for eye problems.",
+     "say": "Optometrist. Nepal version: The person at the eye hospital or clinic who checks your power. Bills which plan (usually): Vision plan for routine exams; medical plan for eye problems.",
+     "focus": 0,
+     "file": "clips/bbb2b183ffaa.mp3",
+     "seconds": 12.95
+    },
+    {
+     "raw": "Ophthalmologist. Nepal version: The eye specialist doctor or eye surgeon at Tilganga or another eye hospital. Bills which plan (usually): Mostly the medical plan.",
+     "say": "Ophthalmologist. Nepal version: The eye specialist doctor or eye surgeon at Tilganga or another eye hospital. Bills which plan (usually): Mostly the medical plan.",
+     "focus": 1,
+     "file": "clips/e583d3ce5d51.mp3",
+     "seconds": 12.075
+    },
+    {
+     "raw": "Optician. Nepal version: The optical shop that makes your glasses. Bills which plan (usually): Vision plan (for frames, lenses, contacts).",
+     "say": "Optician. Nepal version: The optical shop that makes your glasses. Bills which plan (usually): Vision plan (for frames, lenses, contacts).",
+     "focus": 2,
+     "file": "clips/08da30aa4487.mp3",
+     "seconds": 9.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Three eye professionals",
+   "lines": [
+    {
+     "raw": "The key question.",
+     "say": "The key question.",
+     "focus": -1,
+     "file": "clips/6c49050f164f.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "It is not **who** you see that decides the plan.",
+     "say": "It is not who you see that decides the plan.",
+     "focus": -1,
+     "file": "clips/95b766dc1d78.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "It is **why** you went.",
+     "say": "It is why you went.",
+     "focus": -1,
+     "file": "clips/781c613a3f79.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "A routine check for glasses goes to the **vision plan**.",
+     "say": "A routine check for glasses goes to the vision plan.",
+     "focus": -1,
+     "file": "clips/e7c548e336a2.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "A sick eye goes to the **medical plan**, even if the same optometrist sees you.",
+     "say": "A sick eye goes to the medical plan, even if the same optometrist sees you.",
+     "focus": -1,
+     "file": "clips/f82578237e92.mp3",
+     "seconds": 5.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How Ram and Sita would pay in Nepal.",
+     "say": "How Ram and Sita would pay in Nepal.",
+     "focus": -1,
+     "file": "clips/7ebd399f421a.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "How Ram and Sita would pay in Nepal",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram and Sita need new glasses.",
+     "say": "In Nepal: Ram and Sita need new glasses.",
+     "focus": -1,
+     "file": "clips/bb41cafd926e.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram gets his eyes checked at an eye hospital and buys glasses at an optical shop.",
+     "say": "Ram gets his eyes checked at an eye hospital and buys glasses at an optical shop.",
+     "focus": 0,
+     "file": "clips/8a4142de1812.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "He **pays both bills himself**.",
+     "say": "He pays both bills himself.",
+     "focus": 0,
+     "file": "clips/ce8f0c63ecf9.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Many private health policies focus on **hospital and treatment costs**, so Ram should **check his policy** before assuming glasses or a routine eye test will be paid back.",
+     "say": "Many private health policies focus on hospital and treatment costs, so Ram should check his policy before assuming glasses or a routine eye test will be paid back.",
+     "focus": 1,
+     "file": "clips/566d2f46b48c.mp3",
+     "seconds": 11.175
+    },
+    {
+     "raw": "If they are covered, he keeps the bills and the prescription and claims later.",
+     "say": "If they are covered, he keeps the bills and the prescription and claims later.",
+     "focus": 1,
+     "file": "clips/3a93d5e90991.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "If Ram had an **eye injury** needing treatment, that is the kind of cost health insurance is meant for, so a claim is much more likely to be accepted.",
+     "say": "If Ram had an eye injury needing treatment, that is the kind of cost health insurance is meant for, so a claim is much more likely to be accepted.",
+     "focus": 2,
+     "file": "clips/abe317e164de.mp3",
+     "seconds": 9.225
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita uses her SSF-listed hospital for medical problems and pays her **20%** share.",
+     "say": "Sita uses her S S F listed hospital for medical problems and pays her 20 percent share.",
+     "focus": 3,
+     "file": "clips/a0b164bf2523.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Whether SSF pays anything toward **spectacles or a routine eye test** depends on SSF's current rules, so Sita should **ask SSF or the hospital** instead of assuming.",
+     "say": "Whether S S F pays anything toward spectacles or a routine eye test depends on SSF's current rules, so Sita should ask S S F or the hospital instead of assuming.",
+     "focus": 4,
+     "file": "clips/9312ded797bb.mp3",
+     "seconds": 12.15
+    },
+    {
+     "raw": "An eye **disease** treated at an SSF-listed hospital is handled like any other SSF treatment.",
+     "say": "An eye disease treated at an S S F listed hospital is handled like any other S S F treatment.",
+     "focus": 5,
+     "file": "clips/9321f6dd602a.mp3",
+     "seconds": 7.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How the US splits eye care.",
+     "say": "How the U S splits eye care.",
+     "focus": -1,
+     "file": "clips/572957b0f816.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "How the US splits eye care",
+   "lines": [
+    {
+     "raw": "In the US: Two plans, one pair of eyes.",
+     "say": "In the U S: Two plans, one pair of eyes.",
+     "focus": -1,
+     "file": "clips/33861c297236.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Most employers offer a **separate vision plan** next to the health plan.",
+     "say": "Most employers offer a separate vision plan next to the health plan.",
+     "focus": 0,
+     "file": "clips/9bb37d6306a9.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Lesson 2 compares the two plans side by side.",
+     "say": "Lesson 2 compares the two plans side by side.",
+     "focus": 0,
+     "file": "clips/2ffb36846ec9.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "The **vision plan** pays for routine eye exams, glasses and contact lenses (lesson 3).",
+     "say": "The vision plan pays for routine eye exams, glasses and contact lenses (lesson 3).",
+     "focus": 1,
+     "file": "clips/7e755d6d3349.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "The **medical plan** (Emily's PPO) pays for eye **diseases and injuries**: pink eye, cataract surgery, glaucoma, and diabetic eye exams (lesson 5).",
+     "say": "The medical plan (Emily's P P O) pays for eye diseases and injuries: pink eye, cataract surgery, glaucoma, and diabetic eye exams (lesson 5).",
+     "focus": 2,
+     "file": "clips/b81f9996962b.mp3",
+     "seconds": 10.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet the people in this course.",
+     "say": "Meet the people in this course.",
+     "focus": -1,
+     "file": "clips/190c911f4aa7.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Meet the people in this course",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Emily Carter** (M1001). Eye care in 2025: Yearly eye exam and new glasses; later, a case of pink eye. Which plan pays: Vision plan for the exam and glasses; medical PPO for the pink eye.",
+     "say": "Emily Carter (M 1 0 0 1). Eye care in 2025: Yearly eye exam and new glasses; later, a case of pink eye. Which plan pays: Vision plan for the exam and glasses; medical P P O for the pink eye.",
+     "focus": 0,
+     "file": "clips/b3cdd500bb27.mp3",
+     "seconds": 16.1
+    },
+    {
+     "raw": "**Lily Carter** (M1002), age 6. Eye care in 2025: First eye exam before school, first glasses. Which plan pays: Vision plan (she is on Emily's vision plan as a dependent).",
+     "say": "Lily Carter (M 1 0 0 2), age 6. Eye care in 2025: First eye exam before school, first glasses. Which plan pays: Vision plan (she is on Emily's vision plan as a dependent).",
+     "focus": 1,
+     "file": "clips/a8c31264b8d2.mp3",
+     "seconds": 14
+    },
+    {
+     "raw": "**Robert Carter**, Emily's father. Eye care in 2025: Yearly diabetic eye exam (we look at his **2023** exam). Which plan pays: Original Medicare Part B in 2023 (medical, not routine vision).",
+     "say": "Robert Carter, Emily's father. Eye care in 2025: Yearly diabetic eye exam (we look at his 2023 exam). Which plan pays: Original Medicare Part B in 2023 (medical, not routine vision).",
+     "focus": 2,
+     "file": "clips/f867b80b9f06.mp3",
+     "seconds": 15.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Meet the people in this course",
+   "lines": [
+    {
+     "raw": "Same family, different plans.",
+     "say": "Same family, different plans.",
+     "focus": -1,
+     "file": "clips/5350b682976b.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Emily enrolled herself and Lily in her employer's vision plan.",
+     "say": "Emily enrolled herself and Lily in her employer's vision plan.",
+     "focus": -1,
+     "file": "clips/29323a60a831.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "In this course the vision plan is run by a **fictional** company called **ClearSight Vision**.",
+     "say": "In this course the vision plan is run by a fictional company called ClearSight Vision.",
+     "focus": -1,
+     "file": "clips/c124eae52150.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "In 2023, Robert had **Original Medicare** with no extra vision plan.",
+     "say": "In 2023, Robert had Original Medicare with no extra vision plan.",
+     "focus": -1,
+     "file": "clips/c6894e32a326.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "(From 2024 he switched to a Medicare Advantage plan, **Gulf Coast Advantage**, but this course follows his 2023 exam.)",
+     "say": "(From 2024 he switched to a Medicare Advantage plan, Gulf Coast Advantage, but this course follows his 2023 exam.)",
+     "focus": -1,
+     "file": "clips/87bdf658b5e5.mp3",
+     "seconds": 9.35
+    },
+    {
+     "raw": "These differences decide who pays each bill.",
+     "say": "These differences decide who pays each bill.",
+     "focus": -1,
+     "file": "clips/385d70789930.mp3",
+     "seconds": 3.25
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Routine vision care (exams, glasses, contacts) is different from medical eye care (disease and injury).",
+     "say": "Routine vision care (exams, glasses, contacts) is different from medical eye care (disease and injury).",
+     "focus": 0,
+     "file": "clips/3caee21c2065.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "Optometrists examine eyes and prescribe glasses, ophthalmologists are eye doctors and surgeons, opticians make and fit glasses.",
+     "say": "Optometrists examine eyes and prescribe glasses, ophthalmologists are eye doctors and surgeons, opticians make and fit glasses.",
+     "focus": 1,
+     "file": "clips/cb4b3200932a.mp3",
+     "seconds": 9.575
+    },
+    {
+     "raw": "In the US, routine vision usually goes to a separate vision plan; eye disease goes to the medical plan.",
+     "say": "In the U S, routine vision usually goes to a separate vision plan; eye disease goes to the medical plan.",
+     "focus": 2,
+     "file": "clips/ab19c84706b6.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "The reason for the visit, not the type of provider, decides which plan pays.",
+     "say": "The reason for the visit, not the type of provider, decides which plan pays.",
+     "focus": 3,
+     "file": "clips/67e62f9a7bd4.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

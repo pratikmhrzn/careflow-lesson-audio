@@ -1,0 +1,512 @@
+{
+ "courseId": "pharmacy",
+ "lessonId": "prescriber-and-pharmacy",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Prescriber & Pharmacy.",
+     "say": "Lesson 6: Prescriber and Pharmacy.",
+     "focus": -1,
+     "file": "clips/0b08f265e6b0.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Who wrote the prescription and who filled it: the provider IDs on a pharmacy claim.",
+     "say": "Who wrote the prescription and who filled it: the provider I D's on a pharmacy claim.",
+     "focus": -1,
+     "file": "clips/112285fd7b96.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Name the IDs that identify the prescriber and the pharmacy on a claim.",
+     "say": "Name the I D's that identify the prescriber and the pharmacy on a claim.",
+     "focus": 0,
+     "file": "clips/82cf98a94665.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Know when a DEA number appears and what it shows.",
+     "say": "Know when a D E A number appears and what it shows.",
+     "focus": 1,
+     "file": "clips/f30174543f51.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Tell the main kinds of pharmacy apart: retail, mail order, specialty.",
+     "say": "Tell the main kinds of pharmacy apart: retail, mail order, specialty.",
+     "focus": 2,
+     "file": "clips/8adcdb38fb6d.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "Use prescriber and pharmacy IDs to answer analyst questions.",
+     "say": "Use prescriber and pharmacy I D's to answer analyst questions.",
+     "focus": 3,
+     "file": "clips/1ac0efe62da5.mp3",
+     "seconds": 5.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Names and numbers on a Nepali prescription.",
+     "say": "Names and numbers on a Nepali prescription.",
+     "focus": -1,
+     "file": "clips/40e4f26329f5.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's prescription carries the doctor's name, stamp and **NMC registration number**.",
+     "say": "Ram's prescription carries the doctor's name, stamp and N M C registration number.",
+     "focus": 0,
+     "file": "clips/1a9c9e3dc399.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "That number proves a registered doctor wrote it.",
+     "say": "That number proves a registered doctor wrote it.",
+     "focus": 0,
+     "file": "clips/e23184289337.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "The medical shop's bill shows the shop's name and its **registration with the Department of Drug Administration**.",
+     "say": "The medical shop's bill shows the shop's name and its registration with the Department of Drug Administration.",
+     "focus": 1,
+     "file": "clips/0d1a02cef97e.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "His insurer checks both before paying him back.",
+     "say": "His insurer checks both before paying him back.",
+     "focus": 2,
+     "file": "clips/fba3ce97e7a2.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "For Sita, the doctor and the pharmacy belong to the **same SSF-listed hospital**, so SSF sees one hospital on the claim.",
+     "say": "For Sita, the doctor and the pharmacy belong to the same S S F listed hospital, so S S F sees one hospital on the claim.",
+     "focus": 3,
+     "file": "clips/c450facb7f95.mp3",
+     "seconds": 9.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "**In one sentence: every pharmacy claim names two providers by ID, the prescriber who ordered the drug and the pharmacy that dispensed it.**",
+     "say": "In one sentence: every pharmacy claim names two providers by I D, the prescriber who ordered the drug and the pharmacy that dispensed it.",
+     "focus": -1,
+     "file": "clips/b9c187085902.mp3",
+     "seconds": 9.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The IDs.",
+     "say": "The I D's.",
+     "focus": -1,
+     "file": "clips/b5faf5395819.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The IDs",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Prescriber. ID on the claim: **NPI** (National Provider Identifier) for a person. What it looks like: 10 digits. Nepal comparison: Doctor's NMC number on the prescription.",
+     "say": "Prescriber. I D on the claim: N P I (National Provider Identifier) for a person. What it looks like: 10 digits. Nepal comparison: Doctor's N M C number on the prescription.",
+     "focus": 0,
+     "file": "clips/a433e85f139a.mp3",
+     "seconds": 13.075
+    },
+    {
+     "raw": "Prescriber (controlled drugs). ID on the claim: **DEA number**. What it looks like: 2 letters + 7 digits. Nepal comparison: A special licence to prescribe strong medicines like opioids.",
+     "say": "Prescriber (controlled drugs). I D on the claim: D E A number. What it looks like: 2 letters and 7 digits. Nepal comparison: A special licence to prescribe strong medicines like opioids.",
+     "focus": 1,
+     "file": "clips/cd89c10a8cfa.mp3",
+     "seconds": 13.6
+    },
+    {
+     "raw": "Pharmacy. ID on the claim: **NPI** for an organization. What it looks like: 10 digits. Nepal comparison: The pharmacy's registration with the Department of Drug Administration.",
+     "say": "Pharmacy. I D on the claim: N P I for an organization. What it looks like: 10 digits. Nepal comparison: The pharmacy's registration with the Department of Drug Administration.",
+     "focus": 2,
+     "file": "clips/f7385d4908e4.mp3",
+     "seconds": 12.875
+    },
+    {
+     "raw": "Pharmacy. ID on the claim: **NCPDP Provider ID**. What it looks like: 7 digits. Nepal comparison: A second ID used only in the pharmacy world.",
+     "say": "Pharmacy. I D on the claim: N C P D P Provider I D. What it looks like: 7 digits. Nepal comparison: A second I D used only in the pharmacy world.",
+     "focus": 3,
+     "file": "clips/a0814417256e.mp3",
+     "seconds": 12.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The IDs",
+   "lines": [
+    {
+     "raw": "NPIs are taught in the Provider course.",
+     "say": "N P I's are taught in the Provider course.",
+     "focus": -1,
+     "file": "clips/46083256bdc7.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "The NPI is the same national provider ID used on medical claims.",
+     "say": "The N P I is the same national provider I D used on medical claims.",
+     "focus": -1,
+     "file": "clips/6e9423bdb369.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "How it is built, checked and looked up is covered in the Provider course.",
+     "say": "How it is built, checked and looked up is covered in the Provider course.",
+     "focus": -1,
+     "file": "clips/ee134a8988a4.mp3",
+     "seconds": 4.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The IDs",
+   "lines": [
+    {
+     "raw": "What is a \"controlled\" drug?",
+     "say": "What is a \"controlled\" drug?",
+     "focus": -1,
+     "file": "clips/c552b072fa3f.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Drugs that can be misused or cause addiction (strong painkillers like oxycodone, some sleeping pills, ADHD medicines) are **controlled substances**.",
+     "say": "Drugs that can be misused or cause addiction (strong painkillers like oxycodone, some sleeping pills, A D H D medicines) are controlled substances.",
+     "focus": -1,
+     "file": "clips/78ab5b419e2e.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "To prescribe them, a doctor needs a registration with the **DEA** (Drug Enforcement Administration).",
+     "say": "To prescribe them, a doctor needs a registration with the D E A (Drug Enforcement Administration).",
+     "focus": -1,
+     "file": "clips/2abc31b6576a.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "In Nepal, some of these medicines are also sold only with a valid prescription.",
+     "say": "In Nepal, some of these medicines are also sold only with a valid prescription.",
+     "focus": -1,
+     "file": "clips/421b040f7926.mp3",
+     "seconds": 5.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Kinds of pharmacy.",
+     "say": "Kinds of pharmacy.",
+     "focus": -1,
+     "file": "clips/3d7f70abba31.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Kinds of pharmacy",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Retail** (community) pharmacy. What it does: The shop on the corner or inside a supermarket. Typical fill: 30-day fills, short courses like antibiotics.",
+     "say": "Retail (community) pharmacy. What it does: The shop on the corner or inside a supermarket. Typical fill: 30-day fills, short courses like antibiotics.",
+     "focus": 0,
+     "file": "clips/b90696a650a9.mp3",
+     "seconds": 10.75
+    },
+    {
+     "raw": "**Mail-order** pharmacy. What it does: Posts medicine to the patient's home. Typical fill: 90-day fills of daily medicines.",
+     "say": "Mail-order pharmacy. What it does: Posts medicine to the patient's home. Typical fill: 90-day fills of daily medicines.",
+     "focus": 1,
+     "file": "clips/6ee1c2e690fd.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "**Specialty** pharmacy. What it does: Handles expensive drugs that need special storage or support. Typical fill: Drugs for cancer, multiple sclerosis or rheumatoid arthritis.",
+     "say": "Specialty pharmacy. What it does: Handles expensive drugs that need special storage or support. Typical fill: Drugs for cancer, multiple sclerosis or rheumatoid arthritis.",
+     "focus": 2,
+     "file": "clips/e8e28fbe89c5.mp3",
+     "seconds": 12.55
+    },
+    {
+     "raw": "**Long-term care** pharmacy. What it does: Supplies nursing homes. Typical fill: Medicines packed for each resident.",
+     "say": "Long-term care pharmacy. What it does: Supplies nursing homes. Typical fill: Medicines packed for each resident.",
+     "focus": 3,
+     "file": "clips/92510cd8d0c9.mp3",
+     "seconds": 7.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Kinds of pharmacy",
+   "lines": [
+    {
+     "raw": "The claim itself usually does not say \"mail order\".",
+     "say": "The claim itself usually does not say \"mail order\".",
+     "focus": -1,
+     "file": "clips/f552eb92c719.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "You find out by joining the **pharmacy NPI** to a pharmacy list that records the kind of pharmacy.",
+     "say": "You find out by joining the pharmacy N P I to a pharmacy list that records the kind of pharmacy.",
+     "focus": -1,
+     "file": "clips/aa23c67f8554.mp3",
+     "seconds": 6.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Emily's prescribers and pharmacies.",
+     "say": "Emily's prescribers and pharmacies.",
+     "focus": -1,
+     "file": "clips/94fac53524c6.mp3",
+     "seconds": 2.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Emily's prescribers and pharmacies",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Amoxicillin (March). Prescriber: Dr. Patel, family doctor. Prescriber NPI: 1043827165. Pharmacy: Main Street Pharmacy (retail). Pharmacy NPI: 1928374655.",
+     "say": "Amoxicillin (March). Prescriber: Doctor Patel, family doctor. Prescriber N P I: 1043827165. Pharmacy: Main Street Pharmacy (retail). Pharmacy N P I: 1928374655.",
+     "focus": 0,
+     "file": "clips/31d2dd67ba04.mp3",
+     "seconds": 21.85
+    },
+    {
+     "raw": "Ibuprofen (June). Prescriber: Dr. Lee, surgeon. Prescriber NPI: 1093817462. Pharmacy: Main Street Pharmacy (retail). Pharmacy NPI: 1928374655.",
+     "say": "Ibuprofen (June). Prescriber: Doctor Lee, surgeon. Prescriber N P I: 1093817462. Pharmacy: Main Street Pharmacy (retail). Pharmacy N P I: 1928374655.",
+     "focus": 1,
+     "file": "clips/5f3c8ea76645.mp3",
+     "seconds": 21
+    },
+    {
+     "raw": "Atorvastatin (July–Sept). Prescriber: Dr. Patel. Prescriber NPI: 1043827165. Pharmacy: Main Street Pharmacy (retail). Pharmacy NPI: 1928374655.",
+     "say": "Atorvastatin (July–Sept). Prescriber: Doctor Patel. Prescriber N P I: 1043827165. Pharmacy: Main Street Pharmacy (retail). Pharmacy N P I: 1928374655.",
+     "focus": 2,
+     "file": "clips/59d9a1a50103.mp3",
+     "seconds": 21.1
+    },
+    {
+     "raw": "Atorvastatin (from late October). Prescriber: Dr. Patel. Prescriber NPI: 1043827165. Pharmacy: Plan's mail-order pharmacy. Pharmacy NPI: 1645230982.",
+     "say": "Atorvastatin (from late October). Prescriber: Doctor Patel. Prescriber N P I: 1043827165. Pharmacy: Plan's mail-order pharmacy. Pharmacy N P I: 1645230982.",
+     "focus": 3,
+     "file": "clips/61b5b6d5ee66.mp3",
+     "seconds": 20.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Emily's prescribers and pharmacies",
+   "lines": [
+    {
+     "raw": "These numbers are examples.",
+     "say": "These numbers are examples.",
+     "focus": -1,
+     "file": "clips/93b28bc29569.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "The NPI and NCPDP numbers in this course are made up for learning.",
+     "say": "The N P I and N C P D P numbers in this course are made up for learning.",
+     "focus": -1,
+     "file": "clips/519ff09a14fa.mp3",
+     "seconds": 5.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Emily's prescribers and pharmacies",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "The **prescriber NPI** lets you ask \"which doctors prescribe the most brand drugs or opioids?\" and link a fill back to the **medical claim** for the visit where it was prescribed.",
+     "say": "The prescriber N P I lets you ask \"which doctors prescribe the most brand drugs or opioids?\" and link a fill back to the medical claim for the visit where it was prescribed.",
+     "focus": -1,
+     "file": "clips/962266fcc100.mp3",
+     "seconds": 11.25
+    },
+    {
+     "raw": "The **pharmacy NPI** lets you compare **retail vs mail order**, or find pharmacies with unusual patterns.",
+     "say": "The pharmacy N P I lets you compare retail versus mail order, or find pharmacies with unusual patterns.",
+     "focus": -1,
+     "file": "clips/414ceb254f23.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "Watch for missing or invalid prescriber IDs: some claims carry a DEA number or a placeholder instead of an NPI.",
+     "say": "Watch for missing or invalid prescriber I D's: some claims carry a D E A number or a placeholder instead of an N P I.",
+     "focus": -1,
+     "file": "clips/5f25a3c442f4.mp3",
+     "seconds": 9.6
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A pharmacy claim names the **prescriber** (NPI for a person) and the **pharmacy** (NPI for an organization, plus an NCPDP ID).",
+     "say": "A pharmacy claim names the prescriber (N P I for a person) and the pharmacy (N P I for an organization, plus an N C P D P I D).",
+     "focus": 0,
+     "file": "clips/8ca2ca384de2.mp3",
+     "seconds": 9.95
+    },
+    {
+     "raw": "A **DEA number** shows the prescriber is registered to prescribe controlled drugs.",
+     "say": "A D E A number shows the prescriber is registered to prescribe controlled drugs.",
+     "focus": 1,
+     "file": "clips/0e79f1bf726f.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "Pharmacies can be retail, mail order, specialty or long-term care; join the pharmacy NPI to a pharmacy list to find out which.",
+     "say": "Pharmacies can be retail, mail order, specialty or long-term care; join the pharmacy N P I to a pharmacy list to find out which.",
+     "focus": 2,
+     "file": "clips/aba5440aa80e.mp3",
+     "seconds": 9.375
+    },
+    {
+     "raw": "Prescriber IDs link fills to doctors and to medical claims; pharmacy IDs support channel and pharmacy analysis.",
+     "say": "Prescriber I D's link fills to doctors and to medical claims; pharmacy I D's support channel and pharmacy analysis.",
+     "focus": 3,
+     "file": "clips/22aa48682bed.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

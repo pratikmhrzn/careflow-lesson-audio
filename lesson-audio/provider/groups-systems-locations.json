@@ -1,0 +1,617 @@
+{
+ "courseId": "provider",
+ "lessonId": "groups-systems-locations",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: Groups, Systems & Locations.",
+     "say": "Lesson 4: Groups, Systems and Locations.",
+     "focus": -1,
+     "file": "clips/ee322cdf77cc.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "How individual doctors roll up into groups and health systems, and why one provider can have many addresses.",
+     "say": "How individual doctors roll up into groups and health systems, and why one provider can have many addresses.",
+     "focus": -1,
+     "file": "clips/893416a292aa.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain group practices, health systems, IPAs and hospital privileges.",
+     "say": "Explain group practices, health systems, I P A's and hospital privileges.",
+     "focus": 0,
+     "file": "clips/fbf5e9a4decc.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Build a simple provider hierarchy from doctor to group to system.",
+     "say": "Build a simple provider hierarchy from doctor to group to system.",
+     "focus": 1,
+     "file": "clips/05763b7b574c.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "Know why one provider can have several locations and addresses.",
+     "say": "Know why one provider can have several locations and addresses.",
+     "focus": 2,
+     "file": "clips/1f85b3204a42.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Choose the right level (NPI, TIN, system) for an analysis.",
+     "say": "Choose the right level (N P I, T I N, system) for an analysis.",
+     "focus": 3,
+     "file": "clips/119046a5bfc8.mp3",
+     "seconds": 4.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Nepal: One doctor, many places.",
+     "say": "In Nepal: One doctor, many places.",
+     "focus": -1,
+     "file": "clips/15e3011ae722.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "In Kathmandu, a specialist often works at a **government hospital** in the morning, a **private hospital** in the afternoon and her own **evening clinic** after that.",
+     "say": "In Kathmandu, a specialist often works at a government hospital in the morning, a private hospital in the afternoon and her own evening clinic after that.",
+     "focus": 0,
+     "file": "clips/4554bbbb4930.mp3",
+     "seconds": 9.9
+    },
+    {
+     "raw": "She has **one NMC number** everywhere, but each place is a different business with its own **PAN**, address and bills.",
+     "say": "She has one N M C number everywhere, but each place is a different business with its own P A N, address and bills.",
+     "focus": 1,
+     "file": "clips/5ea3b63eef1b.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "Ram's receipt shows which one he visited.",
+     "say": "Ram's receipt shows which one he visited.",
+     "focus": 1,
+     "file": "clips/6616e0178a04.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Some private hospitals in Nepal also belong to a larger **group** that runs several hospitals in different cities.",
+     "say": "Some private hospitals in Nepal also belong to a larger group that runs several hospitals in different cities.",
+     "focus": 2,
+     "file": "clips/947e430f4043.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF lists **hospitals**, not doctors.",
+     "say": "S S F lists hospitals, not doctors.",
+     "focus": 3,
+     "file": "clips/0316be646f32.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "A doctor working at both a listed and an unlisted hospital is \"in network\" for Sita only when she sees him at the listed one.",
+     "say": "A doctor working at both a listed and an unlisted hospital is \"in network\" for Sita only when she sees him at the listed one.",
+     "focus": 3,
+     "file": "clips/f73c27b00930.mp3",
+     "seconds": 8.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "**In one sentence: individual providers belong to organizations, organizations belong to larger ones, and each can work from several places, so provider data is a hierarchy, not a flat list.**",
+     "say": "In one sentence: individual providers belong to organizations, organizations belong to larger ones, and each can work from several places, so provider data is a hierarchy, not a flat list.",
+     "focus": -1,
+     "file": "clips/a476eb9b6700.mp3",
+     "seconds": 13.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How providers are connected.",
+     "say": "How providers are connected.",
+     "focus": -1,
+     "file": "clips/2a04731b9fd1.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "How providers are connected",
+   "lines": [
+    {
+     "raw": "Most US doctors do not work or sign contracts alone.",
+     "say": "Most U S doctors do not work or sign contracts alone.",
+     "focus": -1,
+     "file": "clips/9bf7820334cc.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "They belong to a **group**, and the group belongs to something bigger:",
+     "say": "They belong to a group, and the group belongs to something bigger:",
+     "focus": -1,
+     "file": "clips/a201bb8160cf.mp3",
+     "seconds": 3.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "How providers are connected",
+   "lines": [
+    {
+     "raw": "Group practice.",
+     "say": "Group practice.",
+     "focus": 0,
+     "file": "clips/51c7bc9a0378.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Several doctors who share a business, a **TIN** and usually an office.",
+     "say": "Several doctors who share a business, a T I N and usually an office.",
+     "focus": 0,
+     "file": "clips/9133f42008ee.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "**Lakeside Surgical Group** is Dr. Lee's group.",
+     "say": "Lakeside Surgical Group is Doctor Lee's group.",
+     "focus": 0,
+     "file": "clips/2f1379652530.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "Health system.",
+     "say": "Health system.",
+     "focus": 1,
+     "file": "clips/425655178d75.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "A larger organization that owns hospitals, clinics and groups, often under many TINs.",
+     "say": "A larger organization that owns hospitals, clinics and groups, often under many T I N's.",
+     "focus": 1,
+     "file": "clips/92ca8673915c.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Many US hospitals belong to one.",
+     "say": "Many U S hospitals belong to one.",
+     "focus": 1,
+     "file": "clips/81164adbf086.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Hospital affiliation (privileges).",
+     "say": "Hospital affiliation (privileges).",
+     "focus": 2,
+     "file": "clips/ef33dbd3d813.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Permission for a doctor to treat patients inside a hospital.",
+     "say": "Permission for a doctor to treat patients inside a hospital.",
+     "focus": 2,
+     "file": "clips/a6a64f1e99f8.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "Dr. Lee works for Lakeside Surgical Group but has **privileges** at Lakeside General Hospital, which is why he could operate on Emily there.",
+     "say": "Doctor Lee works for Lakeside Surgical Group but has privileges at Lakeside General Hospital, which is why he could operate on Emily there.",
+     "focus": 2,
+     "file": "clips/06b6785ea698.mp3",
+     "seconds": 9.075
+    },
+    {
+     "raw": "IPA (Independent Practice Association).",
+     "say": "I P A (Independent Practice Association).",
+     "focus": 3,
+     "file": "clips/857c168af860.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Independent doctors who join together only to sign contracts with insurers, while keeping their own practices.",
+     "say": "Independent doctors who join together only to sign contracts with insurers, while keeping their own practices.",
+     "focus": 3,
+     "file": "clips/88c7c8422979.mp3",
+     "seconds": 7.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "How providers are connected",
+   "lines": [
+    {
+     "raw": "A provider hierarchy, from biggest to smallest.",
+     "say": "A provider hierarchy, from biggest to smallest.",
+     "focus": -1,
+     "file": "clips/d9cb320c134e.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "**Health system**. Identified by: A system ID kept by the insurer (there is no national one). Example: Imagine a system that owns several clinics in Austin. Answers: How much do we spend with this whole system?",
+     "say": "Health system. Identified by: A system I D kept by the insurer (there is no national one). Example: Imagine a system that owns several clinics in Austin. Answers: How much do we spend with this whole system?",
+     "focus": 0,
+     "file": "clips/5612141fc38e.mp3",
+     "seconds": 14.6
+    },
+    {
+     "raw": "**Business (tax entity)**. Identified by: **TIN**. Example: 74-5550101: Sunrise Family Clinic. Answers: Who gets paid? Which contract applies?",
+     "say": "Business (tax entity). Identified by: T I N. Example: 74-5550101: Sunrise Family Clinic. Answers: Who gets paid? Which contract applies?",
+     "focus": 1,
+     "file": "clips/0863d1449cc9.mp3",
+     "seconds": 14.625
+    },
+    {
+     "raw": "**Organization**. Identified by: **Type 2 NPI**. Example: Sunrise Family Clinic, 1245987601. Answers: Which facility or group billed?",
+     "say": "Organization. Identified by: Type 2 N P I. Example: Sunrise Family Clinic, 1245987601. Answers: Which facility or group billed?",
+     "focus": 2,
+     "file": "clips/40605e59b54b.mp3",
+     "seconds": 15.85
+    },
+    {
+     "raw": "**Individual**. Identified by: **Type 1 NPI**. Example: Dr. Patel, 1043827165. Answers: Who did the work?",
+     "say": "Individual. Identified by: Type 1 N P I. Example: Doctor Patel, 1043827165. Answers: Who did the work?",
+     "focus": 3,
+     "file": "clips/6b0c3acfb4a2.mp3",
+     "seconds": 13.475
+    },
+    {
+     "raw": "**Location**. Identified by: Address (service location). Example: 120 Oak St, Austin. Answers: Where was the care given?",
+     "say": "Location. Identified by: Address (service location). Example: 120 Oak St, Austin. Answers: Where was the care given?",
+     "focus": 4,
+     "file": "clips/632256bca196.mp3",
+     "seconds": 9.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "How providers are connected",
+   "lines": [
+    {
+     "raw": "Same name, different businesses.",
+     "say": "Same name, different businesses.",
+     "focus": -1,
+     "file": "clips/d73005af1c02.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Lakeside **Surgical Group** and Lakeside **General Hospital** share a town name but are **separate businesses** with separate TINs, separate contracts and separate claims.",
+     "say": "Lakeside Surgical Group and Lakeside General Hospital share a town name but are separate businesses with separate T I N's, separate contracts and separate claims.",
+     "focus": -1,
+     "file": "clips/1e2de51894ad.mp3",
+     "seconds": 10.95
+    },
+    {
+     "raw": "That is why Emily got one claim from each.",
+     "say": "That is why Emily got one claim from each.",
+     "focus": -1,
+     "file": "clips/c0cead456766.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Never assume two providers are related because their names look alike: check the TIN and the affiliation data.",
+     "say": "Never assume two providers are related because their names look alike: check the T I N and the affiliation data.",
+     "focus": -1,
+     "file": "clips/d0007fe2e969.mp3",
+     "seconds": 7.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Locations and addresses.",
+     "say": "Locations and addresses.",
+     "focus": -1,
+     "file": "clips/c108d40dee27.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Locations and addresses",
+   "lines": [
+    {
+     "raw": "A provider record can carry **several addresses**, and each answers a different question:",
+     "say": "A provider record can carry several addresses, and each answers a different question:",
+     "focus": -1,
+     "file": "clips/836e125fcb7f.mp3",
+     "seconds": 5.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Locations and addresses",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Service (practice) location**. What it is: Where patients are seen. A group may have many. Use it for: Directories, travel distance, \"where was care given?\".",
+     "say": "Service (practice) location. What it is: Where patients are seen. A group may have many. Use it for: Directories, travel distance, \"where was care given?\".",
+     "focus": 0,
+     "file": "clips/d3418c960c62.mp3",
+     "seconds": 10.1
+    },
+    {
+     "raw": "**Billing address**. What it is: Where the business sends claims from and receives payments. Use it for: Payment and tax forms.",
+     "say": "Billing address. What it is: Where the business sends claims from and receives payments. Use it for: Payment and tax forms.",
+     "focus": 1,
+     "file": "clips/e803ff9513eb.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "**Mailing address**. What it is: Where letters go; can be a head office or a PO box. Use it for: Correspondence only.",
+     "say": "Mailing address. What it is: Where letters go; can be a head office or a P O box. Use it for: Correspondence only.",
+     "focus": 2,
+     "file": "clips/a4d5a9eae6ba.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Locations and addresses",
+   "lines": [
+    {
+     "raw": "One NPI, many locations.",
+     "say": "One N P I, many locations.",
+     "focus": -1,
+     "file": "clips/1e3ddf6a87df.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "An NPI does **not** change when a doctor works at several sites.",
+     "say": "An N P I does not change when a doctor works at several sites.",
+     "focus": -1,
+     "file": "clips/e1684a3f1850.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Dr. Lee keeps one Type 1 NPI whether he is at the group's office or operating at Lakeside General.",
+     "say": "Doctor Lee keeps one Type 1 N P I whether he is at the group's office or operating at Lakeside General.",
+     "focus": -1,
+     "file": "clips/bc8f4981913c.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "To know **where** care happened, use the service location on the claim or the provider's location records, not the NPI.",
+     "say": "To know where care happened, use the service location on the claim or the provider's location records, not the N P I.",
+     "focus": -1,
+     "file": "clips/bb9d7545489c.mp3",
+     "seconds": 8.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Emily's providers as a hierarchy.",
+     "say": "Emily's providers as a hierarchy.",
+     "focus": -1,
+     "file": "clips/331caadc7507.mp3",
+     "seconds": 2.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Emily's providers as a hierarchy",
+   "lines": [
+    {
+     "raw": "provider_affiliation (example data; all IDs made up).",
+     "say": "provider_affiliation (example data; all I D's made up).",
+     "focus": -1,
+     "file": "clips/ba046431eae5.mp3",
+     "seconds": 4.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Emily's providers as a hierarchy",
+   "lines": [
+    {
+     "raw": "Notice that Dr. Lee appears **twice**: once as a member of his group (which pays him) and once with privileges at the hospital (where he works).",
+     "say": "Notice that Doctor Lee appears twice: once as a member of his group (which pays him) and once with privileges at the hospital (where he works).",
+     "focus": -1,
+     "file": "clips/682c880ad3e2.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "Both are true at the same time.",
+     "say": "Both are true at the same time.",
+     "focus": -1,
+     "file": "clips/61034a86ebb5.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Relationships also have **start and end dates**, because doctors change groups.",
+     "say": "Relationships also have start and end dates, because doctors change groups.",
+     "focus": -1,
+     "file": "clips/135e6d882d60.mp3",
+     "seconds": 5.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Emily's providers as a hierarchy",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "The level you group by changes the answer.",
+     "say": "The level you group by changes the answer.",
+     "focus": -1,
+     "file": "clips/c05b99837e6c.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Group by **Type 1 NPI** to compare individual doctors, by **TIN** to see which business was paid and which contract applied, and by **system** to see the insurer's biggest partners.",
+     "say": "Group by Type 1 N P I to compare individual doctors, by T I N to see which business was paid and which contract applied, and by system to see the insurer's biggest partners.",
+     "focus": -1,
+     "file": "clips/f361fc01390f.mp3",
+     "seconds": 12.475
+    },
+    {
+     "raw": "Value-based contracts are often signed with a **TIN** or a **system**, so these roll-ups decide whose members and costs are whose (lesson 6).",
+     "say": "Value-based contracts are often signed with a T I N or a system, so these roll-ups decide whose members and costs are whose (lesson 6).",
+     "focus": -1,
+     "file": "clips/9f8777d73f7b.mp3",
+     "seconds": 9.625
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Doctors usually belong to a **group** (one TIN); groups and hospitals may belong to a **health system**.",
+     "say": "Doctors usually belong to a group (one T I N); groups and hospitals may belong to a health system.",
+     "focus": 0,
+     "file": "clips/9e892223ed5b.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "**Hospital privileges** let a doctor work inside a hospital without being its employee.",
+     "say": "Hospital privileges let a doctor work inside a hospital without being its employee.",
+     "focus": 1,
+     "file": "clips/b9d9164eeaae.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "One provider can have several addresses: service location, billing and mailing.",
+     "say": "One provider can have several addresses: service location, billing and mailing.",
+     "focus": 2,
+     "file": "clips/2e53c8f9f398.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "The NPI stays the same at every site.",
+     "say": "The N P I stays the same at every site.",
+     "focus": 2,
+     "file": "clips/e2d1af3aa1f4.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Affiliations have start and end dates, and one doctor can have several at once.",
+     "say": "Affiliations have start and end dates, and one doctor can have several at once.",
+     "focus": 3,
+     "file": "clips/2ce95e5f5333.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "Choose the level (NPI, TIN or system) that matches the question.",
+     "say": "Choose the level (N P I, T I N or system) that matches the question.",
+     "focus": 4,
+     "file": "clips/999b4d75054b.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

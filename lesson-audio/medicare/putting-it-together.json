@@ -1,0 +1,1030 @@
+{
+ "courseId": "medicare",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 8,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 8: Putting It All Together.",
+     "say": "Lesson 8: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/45e5c0790752.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Robert's 2025 Medicare Advantage coverage, claims and data, end to end.",
+     "say": "Robert's 2025 Medicare Advantage coverage, claims and data, end to end.",
+     "focus": -1,
+     "file": "clips/00bb12d21d13.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Follow a Medicare Advantage claim from the doctor to the plan to CMS.",
+     "say": "Follow a Medicare Advantage claim from the doctor to the plan to C M S.",
+     "focus": 0,
+     "file": "clips/1f0d43be1127.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "Read Robert's eligibility, claim and pharmacy rows as a data analyst would.",
+     "say": "Read Robert's eligibility, claim and pharmacy rows as a data analyst would.",
+     "focus": 1,
+     "file": "clips/16a2944e101d.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Connect the CMS monthly payment to the claims the plan pays.",
+     "say": "Connect the C M S monthly payment to the claims the plan pays.",
+     "focus": 2,
+     "file": "clips/68ab3ed9f92b.mp3",
+     "seconds": 4.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Robert's coverage in 2025.",
+     "say": "Robert's coverage in 2025.",
+     "focus": -1,
+     "file": "clips/7a7c3bb9794d.mp3",
+     "seconds": 2.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Robert's coverage in 2025",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "May 2022 to Dec 2023. Coverage: Original Medicare (Parts A and B). Who pays his claims: Medicare, through its contractor (MAC). Drug cover: A standalone Part D plan (PDP).",
+     "say": "May 2022 to Dec 2023. Coverage: Original Medicare (Parts A and B). Who pays his claims: Medicare, through its contractor (M A C). Drug cover: A standalone Part D plan (P D P).",
+     "focus": 0,
+     "file": "clips/98ab9a5a38be.mp3",
+     "seconds": 14.4
+    },
+    {
+     "raw": "Jan 2024 onwards (incl. 2025). Coverage: Medicare Advantage: Gulf Coast Advantage (HMO), fictional. Who pays his claims: Gulf Coast Health Plan. Drug cover: Built in (MA-PD).",
+     "say": "Jan 2024 onwards (incl. 2025). Coverage: Medicare Advantage: Gulf Coast Advantage (H M O), fictional. Who pays his claims: Gulf Coast Health Plan. Drug cover: Built in (M A PD).",
+     "focus": 1,
+     "file": "clips/ea596e998ab0.mp3",
+     "seconds": 15.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Robert's coverage in 2025",
+   "lines": [
+    {
+     "raw": "In Nepal: The same visit in Kathmandu.",
+     "say": "In Nepal: The same visit in Kathmandu.",
+     "focus": -1,
+     "file": "clips/3d47195b6892.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "For a diabetes check-up, Ram would pay the clinic and the lab himself, then claim from his insurer if his policy covers OPD.",
+     "say": "For a diabetes check-up, Ram would pay the clinic and the lab himself, then claim from his insurer if his policy covers O P D.",
+     "focus": 0,
+     "file": "clips/b0b11a931836.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita would show her SSF ID at an SSF-listed hospital, pay her 20% share, and the hospital would claim the rest from SSF.",
+     "say": "Sita would show her S S F I D at an S S F listed hospital, pay her 20 percent share, and the hospital would claim the rest from S S F.",
+     "focus": 1,
+     "file": "clips/5bd6bd27fd12.mp3",
+     "seconds": 10.225
+    },
+    {
+     "raw": "Robert's visit works like Sita's: the doctor sends the claim to a payer.",
+     "say": "Robert's visit works like Sita's: the doctor sends the claim to a payer.",
+     "focus": 2,
+     "file": "clips/22519ca96597.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "The twist is that the payer is a **private plan** that CMS pays every month.",
+     "say": "The twist is that the payer is a private plan that C M S pays every month.",
+     "focus": 2,
+     "file": "clips/7354aef39efa.mp3",
+     "seconds": 5.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story: a diabetes check-up.",
+     "say": "The story: a diabetes check-up.",
+     "focus": -1,
+     "file": "clips/0ed70b46f9fc.mp3",
+     "seconds": 2.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The story: a diabetes check-up",
+   "lines": [
+    {
+     "raw": "On **18 March 2025**, Robert sees his primary care doctor, **Dr. Nguyen** at **Bayou Family Medicine** (fictional), for a regular diabetes and blood pressure check.",
+     "say": "On 18 March 2025, Robert sees his primary care doctor, Doctor Nguyen at Bayou Family Medicine (fictional), for a regular diabetes and blood pressure check.",
+     "focus": -1,
+     "file": "clips/b24b3f1cdef7.mp3",
+     "seconds": 11.6
+    },
+    {
+     "raw": "The office also does an **HbA1c** blood test, which shows his average blood sugar over the past few months.",
+     "say": "The office also does an H b A 1 c blood test, which shows his average blood sugar over the past few months.",
+     "focus": -1,
+     "file": "clips/27f5d9c82a11.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "The doctor refers him for a yearly **diabetic eye exam**, which he has on **22 April 2025** at **Clear View Eye Center** (fictional), a specialist in his plan's network.",
+     "say": "The doctor refers him for a yearly diabetic eye exam, which he has on 22 April 2025 at Clear View Eye Center (fictional), a specialist in his plan's network.",
+     "focus": -1,
+     "file": "clips/c7614c988608.mp3",
+     "seconds": 11.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The story: a diabetes check-up",
+   "lines": [
+    {
+     "raw": "Step 1: Visit.",
+     "say": "Step 1: Visit.",
+     "focus": 0,
+     "file": "clips/85e6ac863986.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "Robert shows his **Gulf Coast plan card** (member ID `GC5001`), not his red, white and blue Medicare card.",
+     "say": "Robert shows his Gulf Coast plan card (member I D G C 5 0 0 1), not his red, white and blue Medicare card.",
+     "focus": 0,
+     "file": "clips/b5bce3a2432e.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "Step 2: Claim to the MA plan.",
+     "say": "Step 2: Claim to the M A plan.",
+     "focus": 1,
+     "file": "clips/c208f62177b5.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "The doctor's office sends a professional claim (837P) to **Gulf Coast Health Plan**.",
+     "say": "The doctor's office sends a professional claim (8 3 7 P) to Gulf Coast Health Plan.",
+     "focus": 1,
+     "file": "clips/de56181cbade.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "Step 3: Plan checks and pays.",
+     "say": "Step 3: Plan checks and pays.",
+     "focus": 2,
+     "file": "clips/68ea60e8c460.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "The plan checks Robert is enrolled, the doctor is in network and the service is covered, then pays at its contracted rate.",
+     "say": "The plan checks Robert is enrolled, the doctor is in network and the service is covered, then pays at its contracted rate.",
+     "focus": 2,
+     "file": "clips/eefe7b173cb1.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "Step 4: Encounter to CMS.",
+     "say": "Step 4: Encounter to C M S.",
+     "focus": 3,
+     "file": "clips/ee7bb1a2774e.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "The plan sends an **encounter record** of the visit, with the diagnosis codes, to CMS.",
+     "say": "The plan sends an encounter record of the visit, with the diagnosis codes, to C M S.",
+     "focus": 3,
+     "file": "clips/0557572336fb.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "CMS uses diagnoses like these for next year's **risk score**.",
+     "say": "C M S uses diagnoses like these for next year's risk score.",
+     "focus": 3,
+     "file": "clips/cb55494cb260.mp3",
+     "seconds": 4.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The story: a diabetes check-up",
+   "lines": [
+    {
+     "raw": "Here is the CMS-1500 form: Claim 1: the primary care visit.",
+     "say": "Here is the C M S 1500 form: Claim 1: the primary care visit.",
+     "focus": -1,
+     "file": "clips/ee1c7e59ca51.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Claim number: 904417.",
+     "say": "Claim number: 904417.",
+     "focus": 0,
+     "file": "clips/6d31b2adc487.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Claim type: Professional.",
+     "say": "Claim type: Professional.",
+     "focus": 1,
+     "file": "clips/0cc34113cf50.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Doctor bill.",
+     "say": "Doctor bill.",
+     "focus": 1,
+     "file": "clips/d86420d463a7.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Patient: Robert Carter.",
+     "say": "Patient: Robert Carter.",
+     "focus": 2,
+     "file": "clips/f4c5c1c2c56c.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Plan member ID GC5001 · MBI 3TW7HC2AP58.",
+     "say": "Plan member I D G C 5 0 0 1, M B I 3 T W 7 H C 2 A P 5 8.",
+     "focus": 2,
+     "file": "clips/9d2cbf338514.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "Payer: Gulf Coast Health Plan.",
+     "say": "Payer: Gulf Coast Health Plan.",
+     "focus": 3,
+     "file": "clips/b9ca6ceb67dc.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "MA contract H9876, plan 012 (fictional).",
+     "say": "M A contract H 9 8 7 6, plan 012 (fictional).",
+     "focus": 3,
+     "file": "clips/93a088f618ef.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "Billing provider: Bayou Family Medicine.",
+     "say": "Billing provider: Bayou Family Medicine.",
+     "focus": 4,
+     "file": "clips/bb69f6d4bfc1.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "NPI 1679543210 (fictional).",
+     "say": "N P I 1679543210 (fictional).",
+     "focus": 4,
+     "file": "clips/672c34dd24e6.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Diagnoses: E11.9, I10.",
+     "say": "Diagnoses: E 1 1 . 9, I10.",
+     "focus": 5,
+     "file": "clips/bfb7091886b1.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Type 2 diabetes without complications; high blood pressure.",
+     "say": "Type 2 diabetes without complications; high blood pressure.",
+     "focus": 5,
+     "file": "clips/4f2ffd5a295c.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "Total charges: $245.00.",
+     "say": "Total charges: 245 dollars.",
+     "focus": 6,
+     "file": "clips/2035d4e69317.mp3",
+     "seconds": 3.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The story: a diabetes check-up",
+   "lines": [
+    {
+     "raw": "Reading the codes.",
+     "say": "Reading the codes.",
+     "focus": -1,
+     "file": "clips/8f42484278b6.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "`99214` is an office visit for an established patient of moderate complexity.",
+     "say": "9 9 2 1 4 is an office visit for an established patient of moderate complexity.",
+     "focus": -1,
+     "file": "clips/33749935d681.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "`83036` is the HbA1c test.",
+     "say": "8 3 0 3 6 is the H b A 1 c test.",
+     "focus": -1,
+     "file": "clips/f3fc67a3f658.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "`E11.9` is type 2 diabetes without complications and `I10` is essential (primary) high blood pressure.",
+     "say": "E 1 1 . 9 is type 2 diabetes without complications and I10 is essential (primary) high blood pressure.",
+     "focus": -1,
+     "file": "clips/4a6a87461ec0.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "The Medical course explains each of these code types.",
+     "say": "The Medical course explains each of these code types.",
+     "focus": -1,
+     "file": "clips/3743ab08ab49.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The story: a diabetes check-up",
+   "lines": [
+    {
+     "raw": "Here is the CMS-1500 form: Claim 2: the diabetic eye exam (specialist).",
+     "say": "Here is the C M S 1500 form: Claim 2: the diabetic eye exam (specialist).",
+     "focus": -1,
+     "file": "clips/2f27e0504e26.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "Claim number: 906832.",
+     "say": "Claim number: 906832.",
+     "focus": 0,
+     "file": "clips/93fb9a8f80fb.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Claim type: Professional.",
+     "say": "Claim type: Professional.",
+     "focus": 1,
+     "file": "clips/0cc34113cf50.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Doctor bill.",
+     "say": "Doctor bill.",
+     "focus": 1,
+     "file": "clips/d86420d463a7.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Patient: Robert Carter.",
+     "say": "Patient: Robert Carter.",
+     "focus": 2,
+     "file": "clips/f4c5c1c2c56c.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Plan member ID GC5001.",
+     "say": "Plan member I D G C 5 0 0 1.",
+     "focus": 2,
+     "file": "clips/0ed15f96a119.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Billing provider: Clear View Eye Center.",
+     "say": "Billing provider: Clear View Eye Center.",
+     "focus": 3,
+     "file": "clips/7966aeb7403a.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "NPI 1528370946 (fictional).",
+     "say": "N P I 1528370946 (fictional).",
+     "focus": 3,
+     "file": "clips/107d203e69e7.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Total charges: $250.00.",
+     "say": "Total charges: 250 dollars.",
+     "focus": 4,
+     "file": "clips/36690d5a72c8.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who paid what?",
+     "say": "Who paid what?",
+     "focus": -1,
+     "file": "clips/d05e2c0b91db.mp3",
+     "seconds": 1.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Who paid what?",
+   "lines": [
+    {
+     "raw": "Robert's plan: $0 primary care copay, $0 labs, $35 specialist copay (fictional contracted rates).",
+     "say": "Robert's plan: 0 dollars primary care copay, 0 dollars labs, 35 dollars specialist copay (fictional contracted rates).",
+     "focus": -1,
+     "file": "clips/c30d3bfc18e3.mp3",
+     "seconds": 9.6
+    },
+    {
+     "raw": "904417 line 1: office visit. Billed: $210.00. Allowed: $128.00. Robert paid: $0.00. Plan paid: $128.00.",
+     "say": "904417 line 1: office visit. Billed: 210 dollars. Allowed: 128 dollars. Robert paid: 0 dollars. Plan paid: 128 dollars.",
+     "focus": 0,
+     "file": "clips/45124915af37.mp3",
+     "seconds": 14.875
+    },
+    {
+     "raw": "904417 line 2: HbA1c test. Billed: $35.00. Allowed: $13.00. Robert paid: $0.00. Plan paid: $13.00.",
+     "say": "904417 line 2: H b A 1 c test. Billed: 35 dollars. Allowed: 13 dollars. Robert paid: 0 dollars. Plan paid: 13 dollars.",
+     "focus": 1,
+     "file": "clips/8f9b0ec1defe.mp3",
+     "seconds": 13.7
+    },
+    {
+     "raw": "906832: eye exam. Billed: $250.00. Allowed: $140.00. Robert paid: $35.00 (copay). Plan paid: $105.00.",
+     "say": "906832: eye exam. Billed: 250 dollars. Allowed: 140 dollars. Robert paid: 35 dollars (copay). Plan paid: 105 dollars.",
+     "focus": 2,
+     "file": "clips/1dbfd890bbad.mp3",
+     "seconds": 14.3
+    },
+    {
+     "raw": "**Total**. Billed: **$495.00**. Allowed: **$281.00**. Robert paid: **$35.00**. Plan paid: **$246.00**.",
+     "say": "Total. Billed: 495 dollars. Allowed: 281 dollars. Robert paid: 35 dollars. Plan paid: 246 dollars.",
+     "focus": 3,
+     "file": "clips/5b1d039e7a5b.mp3",
+     "seconds": 10.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Who paid what?",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Allowed = Robert paid + Plan paid.",
+     "say": "Allowed = Robert paid and Plan paid.",
+     "focus": -1,
+     "file": "clips/0213870503c6.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "$0 + $128 = $128 ✓.",
+     "say": "0 dollars and 128 dollars = 128 dollars ✓.",
+     "focus": -1,
+     "file": "clips/4167e24180b5.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "$0 + $13 = $13 ✓.",
+     "say": "0 dollars and 13 dollars = 13 dollars ✓.",
+     "focus": -1,
+     "file": "clips/bbebda8273b6.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "$35 + $105 = $140 ✓.",
+     "say": "35 dollars and 105 dollars = 140 dollars ✓.",
+     "focus": -1,
+     "file": "clips/3abf210b337f.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Totals: $35 + $246 = **$281** ✓.",
+     "say": "Totals: 35 dollars and 246 dollars = 281 dollars ✓.",
+     "focus": -1,
+     "file": "clips/00c10ae8fece.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "Under Original Medicare, Robert would have owed the Part B deductible and 20% coinsurance instead.",
+     "say": "Under Original Medicare, Robert would have owed the Part B deductible and 20 percent coinsurance instead.",
+     "focus": -1,
+     "file": "clips/f30dd472b8ac.mp3",
+     "seconds": 7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How an analyst sees it.",
+     "say": "How an analyst sees it.",
+     "focus": -1,
+     "file": "clips/04b8ca4373bc.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Inside Gulf Coast Health Plan, Robert shows up in several tables.",
+     "say": "Inside Gulf Coast Health Plan, Robert shows up in several tables.",
+     "focus": -1,
+     "file": "clips/875accd4f428.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "First, **eligibility**: one row per coverage span, with Medicare-specific fields.",
+     "say": "First, eligibility: one row per coverage span, with Medicare-specific fields.",
+     "focus": -1,
+     "file": "clips/21881b7afa7f.mp3",
+     "seconds": 5.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "MA eligibility table.",
+     "say": "M A eligibility table.",
+     "focus": -1,
+     "file": "clips/7c23b0da4802.mp3",
+     "seconds": 2.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "What the plan does not have.",
+     "say": "What the plan does not have.",
+     "focus": -1,
+     "file": "clips/12053df19507.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Robert's Original Medicare claims from 2022 and 2023 are **not** in this plan's tables: Medicare paid those.",
+     "say": "Robert's Original Medicare claims from 2022 and 2023 are not in this plan's tables: Medicare paid those.",
+     "focus": -1,
+     "file": "clips/88847ce5fa0a.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "`term_dt` of `9999-12-31` means the span is still open.",
+     "say": "term_dt of 9 9 9 9 dash 1 2 dash 3 1 means the span is still open.",
+     "focus": -1,
+     "file": "clips/46304b4f25c2.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "`pbp` is the **plan benefit package** number inside the contract.",
+     "say": "pbp is the plan benefit package number inside the contract.",
+     "focus": -1,
+     "file": "clips/fc921f3ba47d.mp3",
+     "seconds": 4.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Second, the **CMS payments**.",
+     "say": "Second, the C M S payments.",
+     "focus": -1,
+     "file": "clips/2c5c9da88d77.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Each month CMS sends the plan a report of its members and what it is paying for each, often called the **Monthly Membership Report (MMR)**.",
+     "say": "Each month C M S sends the plan a report of its members and what it is paying for each, often called the Monthly Membership Report (M M R).",
+     "focus": -1,
+     "file": "clips/c119f409eecf.mp3",
+     "seconds": 10.075
+    },
+    {
+     "raw": "Using the illustrative figure from lesson 4:",
+     "say": "Using the illustrative figure from lesson 4:",
+     "focus": -1,
+     "file": "clips/b6b2f5e8e920.mp3",
+     "seconds": 3.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "CMS monthly payment rows for Robert (illustrative).",
+     "say": "C M S monthly payment rows for Robert (illustrative).",
+     "focus": -1,
+     "file": "clips/b50071518042.mp3",
+     "seconds": 4.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Third, the **medical claims**, one row per claim line, the same layout commercial plans use (the Medical course shows it for Emily's employer plan):",
+     "say": "Third, the medical claims, one row per claim line, the same layout commercial plans use (the Medical course shows it for Emily's employer plan):",
+     "focus": -1,
+     "file": "clips/b41ffa14e382.mp3",
+     "seconds": 9.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Medical claim table (one row per claim line).",
+     "say": "Medical claim table (one row per claim line).",
+     "focus": -1,
+     "file": "clips/6b2edf12d8a7.mp3",
+     "seconds": 3.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Fourth, the **pharmacy claims** for his Part D medicines.",
+     "say": "Fourth, the pharmacy claims for his Part D medicines.",
+     "focus": -1,
+     "file": "clips/2f6017f5c18c.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Here are his January 2025 fills (drug prices are illustrative):",
+     "say": "Here are his January 2025 fills (drug prices are illustrative):",
+     "focus": -1,
+     "file": "clips/0a9a95ef810d.mp3",
+     "seconds": 5.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Pharmacy claim table, January 2025.",
+     "say": "Pharmacy claim table, January 2025.",
+     "focus": -1,
+     "file": "clips/92af04e17e4c.mp3",
+     "seconds": 3.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Questions analysts answer with this data.",
+     "say": "Questions analysts answer with this data.",
+     "focus": -1,
+     "file": "clips/6ffe64128865.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "How much did we receive from CMS for Robert this year, and how much did we pay in claims? · Did every member with diabetes get an HbA1c test and an eye exam?",
+     "say": "How much did we receive from C M S for Robert this year, and how much did we pay in claims?, Did every member with diabetes get an H b A 1 c test and an eye exam?",
+     "focus": -1,
+     "file": "clips/14d652f4d042.mp3",
+     "seconds": 11.375
+    },
+    {
+     "raw": "(These are quality measures behind **Star ratings**.) · Are all of a member's diagnoses captured, so the risk score is accurate? · How many members are close to the $2,000 Part D cap?",
+     "say": "(These are quality measures behind Star ratings.), Are all of a member's diagnoses captured, so the risk score is accurate?, How many members are close to the 2000 dollars Part D cap?",
+     "focus": -1,
+     "file": "clips/a3e9d4bbcb0b.mp3",
+     "seconds": 11.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "A simple check: money in vs money out for one member.",
+     "say": "A simple check: money in versus money out for one member.",
+     "focus": -1,
+     "file": "clips/32818ff6ea77.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Part C margin equals CMS Part C payments − medical claims paid.",
+     "say": "Part C margin equals C M S Part C payments − medical claims paid.",
+     "focus": 0,
+     "file": "clips/ee3757a63404.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "For example: For January to April 2025: CMS paid 4 times $1,265 equals $5,060 for Part C, and the plan paid $246 for his two doctor claims.",
+     "say": "For example: For January to April 2025: C M S paid 4 times 1265 dollars equals 5060 dollars for Part C, and the plan paid 246 dollars for his two doctor claims.",
+     "focus": 1,
+     "file": "clips/eaccbe6b64db.mp3",
+     "seconds": 14.8
+    },
+    {
+     "raw": "Part D drugs have their own separate CMS payment, so pharmacy claims are compared with that.",
+     "say": "Part D drugs have their own separate C M S payment, so pharmacy claims are compared with that.",
+     "focus": 1,
+     "file": "clips/c94380a4424e.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "One member is never enough to judge; plans look at thousands together.",
+     "say": "One member is never enough to judge; plans look at thousands together.",
+     "focus": 1,
+     "file": "clips/395904c36fb9.mp3",
+     "seconds": 4.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Field → lesson map.",
+     "say": "Field to lesson map.",
+     "focus": -1,
+     "file": "clips/e9cf9eeca18e.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 25,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Where each field in Robert's data was explained.",
+     "say": "Where each field in Robert's data was explained.",
+     "focus": -1,
+     "file": "clips/f437b6d28010.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "`mbi`, `dob`, `esrd_flag`. What it tells you: Who the Medicare person is and why they qualify. Lesson: 1. What is Medicare?",
+     "say": "mbi, dob, esrd_flag. What it tells you: Who the Medicare person is and why they qualify. Lesson: 1. What is Medicare?",
+     "focus": 0,
+     "file": "clips/9aa8f7b96a70.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "`eff_dt`, `term_dt`. What it tells you: Coverage start and end, set by enrollment periods. Lesson: 1. What is Medicare?",
+     "say": "eff_dt, term_dt. What it tells you: Coverage start and end, set by enrollment periods. Lesson: 1. What is Medicare?",
+     "focus": 1,
+     "file": "clips/03fe45b74f5a.mp3",
+     "seconds": 9.625
+    },
+    {
+     "raw": "`line_of_business`, `product`. What it tells you: Which path (Original or Medicare Advantage) and which parts. Lesson: 2. The Four Parts at a Glance.",
+     "say": "line_of_business, product. What it tells you: Which path (Original or Medicare Advantage) and which parts. Lesson: 2. The Four Parts at a Glance.",
+     "focus": 2,
+     "file": "clips/f0bcd88ba403.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "`hospice_flag`, Part A vs Part B claims. What it tells you: Hospital and doctor cover under Original Medicare. Lesson: 3. Original Medicare: Parts A & B.",
+     "say": "hospice_flag, Part A versus Part B claims. What it tells you: Hospital and doctor cover under Original Medicare. Lesson: 3. Original Medicare: Parts A and B.",
+     "focus": 3,
+     "file": "clips/b4bdd38ac046.mp3",
+     "seconds": 11.75
+    },
+    {
+     "raw": "`contract_id`, `pbp`, `member_id`, `part_c_payment`. What it tells you: The MA contract and plan, and the monthly CMS payment. Lesson: 4. Part C: Medicare Advantage.",
+     "say": "contract_id, pbp, member_id, part_c_payment. What it tells you: The M A contract and plan, and the monthly C M S payment. Lesson: 4. Part C: Medicare Advantage.",
+     "focus": 4,
+     "file": "clips/20ed43526ad0.mp3",
+     "seconds": 13.425
+    },
+    {
+     "raw": "`risk_score`. What it tells you: How the payment is adjusted for health. Lesson: 4 (one line) + Risk Adjustment course.",
+     "say": "risk_score. What it tells you: How the payment is adjusted for health. Lesson: 4 (one line) and Risk Adjustment course.",
+     "focus": 5,
+     "file": "clips/828917e0bede.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "`tier`, `days_supply`, `patient_pay`. What it tells you: Part D drug cover and cost sharing. Lesson: 5. Part D: Drug Coverage.",
+     "say": "tier, days_supply, patient_pay. What it tells you: Part D drug cover and cost sharing. Lesson: 5. Part D: Drug Coverage.",
+     "focus": 6,
+     "file": "clips/92cf309b65f5.mp3",
+     "seconds": 9.4
+    },
+    {
+     "raw": "Crossover claims (none for Robert). What it tells you: Medigap paying after Original Medicare. Lesson: 6. Medigap.",
+     "say": "Crossover claims (none for Robert). What it tells you: Medigap paying after Original Medicare. Lesson: 6. Medigap.",
+     "focus": 7,
+     "file": "clips/e63ec129dfad.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "`dual_status`. What it tells you: Whether Medicaid also covers the member that month. Lesson: 7. Dual Eligibles.",
+     "say": "dual_status. What it tells you: Whether Medicaid also covers the member that month. Lesson: 7. Dual Eligibles.",
+     "focus": 8,
+     "file": "clips/8e6339e65ea3.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "`cpt`, `principal_dx`, `billing_npi`, `allowed_amt`. What it tells you: The claim itself. Lesson: Medical course.",
+     "say": "cpt, principal_dx, billing_npi, allowed_amt. What it tells you: The claim itself. Lesson: Medical course.",
+     "focus": 9,
+     "file": "clips/4bab324126de.mp3",
+     "seconds": 8.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 26,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You now understand who gets Medicare, the four parts, Medigap, dual eligibles, and how a Medicare Advantage plan sees its members and claims.",
+     "say": "You now understand who gets Medicare, the four parts, Medigap, dual eligibles, and how a Medicare Advantage plan sees its members and claims.",
+     "focus": -1,
+     "file": "clips/64e74a6fe80a.mp3",
+     "seconds": 9.675
+    },
+    {
+     "raw": "Next, learn about health cover for people with low income in the **Medicaid** course.",
+     "say": "Next, learn about health cover for people with low income in the Medicaid course.",
+     "focus": -1,
+     "file": "clips/ce41a95fdaf2.mp3",
+     "seconds": 5.625
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Robert started on Original Medicare at 65 (May 2022) and moved to a Medicare Advantage plan with Part D from January 2024.",
+     "say": "Robert started on Original Medicare at 65 (May 2022) and moved to a Medicare Advantage plan with Part D from January 2024.",
+     "focus": 0,
+     "file": "clips/3dcaf7e9742d.mp3",
+     "seconds": 10.55
+    },
+    {
+     "raw": "MA claims go from the provider to the MA plan.",
+     "say": "M A claims go from the provider to the M A plan.",
+     "focus": 1,
+     "file": "clips/20fe3a31e302.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "The plan pays, then sends encounter data to CMS.",
+     "say": "The plan pays, then sends encounter data to C M S.",
+     "focus": 1,
+     "file": "clips/efbd2223c205.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "An MA plan's tables add Medicare fields: MBI, contract ID, plan benefit package, dual status and CMS monthly payments with risk scores.",
+     "say": "An M A plan's tables add Medicare fields: M B I, contract I D, plan benefit package, dual status and C M S monthly payments with risk scores.",
+     "focus": 2,
+     "file": "clips/5f979bf1d8c1.mp3",
+     "seconds": 11.2
+    },
+    {
+     "raw": "The usual claim maths still holds: Allowed = Member paid + Plan paid.",
+     "say": "The usual claim maths still holds: Allowed = Member paid and Plan paid.",
+     "focus": 3,
+     "file": "clips/9983deff757b.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

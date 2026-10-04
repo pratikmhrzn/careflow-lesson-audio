@@ -1,0 +1,1065 @@
+{
+ "courseId": "population-health",
+ "lessonId": "population-health-together",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Putting It All Together.",
+     "say": "Lesson 6: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/13c01b6e41c4.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Take a small population, sort it, choose the right help, and measure the result.",
+     "say": "Take a small population, sort it, choose the right help, and measure the result.",
+     "focus": -1,
+     "file": "clips/3e7800cf8626.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Build a member-level population table from several data sources.",
+     "say": "Build a member-level population table from several data sources.",
+     "focus": 0,
+     "file": "clips/709925591573.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "Stratify members into segments and choose an intervention for each.",
+     "say": "Stratify members into segments and choose an intervention for each.",
+     "focus": 1,
+     "file": "clips/f0df9b252d6d.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "Measure cost with PMPM and utilisation per 1,000, and know the traps.",
+     "say": "Measure cost with P M P M and utilisation per 1,000, and know the traps.",
+     "focus": 2,
+     "file": "clips/b352938f1490.mp3",
+     "seconds": 5.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The population.",
+     "say": "The population.",
+     "focus": -1,
+     "file": "clips/70eb6c941448.mp3",
+     "seconds": 1.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The population",
+   "lines": [
+    {
+     "raw": "For this exercise we review **2025** for two small groups side by side.",
+     "say": "For this exercise we review 2025 for two small groups side by side.",
+     "focus": -1,
+     "file": "clips/393b559fcab6.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Six members are on **employer plans** (commercial) from Emily's insurer, including Emily's own plan through Bluebonnet Logistics.",
+     "say": "Six members are on employer plans (commercial) from Emily's insurer, including Emily's own plan through Bluebonnet Logistics.",
+     "focus": -1,
+     "file": "clips/e14dd00c46a5.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "Two members are on **Gulf Coast Advantage (HMO)**, the **Medicare Advantage** plan from a different insurer, **Gulf Coast Health Plan**, which has covered Emily's father Robert since January 2024.",
+     "say": "Two members are on Gulf Coast Advantage (H M O), the Medicare Advantage plan from a different insurer, Gulf Coast Health Plan, which has covered Emily's father Robert since January 2024.",
+     "focus": -1,
+     "file": "clips/7662b0074520.mp3",
+     "seconds": 13.2
+    },
+    {
+     "raw": "In real life each insurer reviews its own members; we put them in one table only to show how different populations behave.",
+     "say": "In real life each insurer reviews its own members; we put them in one table only to show how different populations behave.",
+     "focus": -1,
+     "file": "clips/df07709028eb.mp3",
+     "seconds": 8.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The population",
+   "lines": [
+    {
+     "raw": "A real population has thousands of members.",
+     "say": "A real population has thousands of members.",
+     "focus": -1,
+     "file": "clips/26583176b59f.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "To keep the maths easy, we will look at a sample of **8**: Emily, her husband Daniel and their daughter Lily, Robert, and four other members.",
+     "say": "To keep the maths easy, we will look at a sample of 8: Emily, her husband Daniel and their daughter Lily, Robert, and four other members.",
+     "focus": -1,
+     "file": "clips/a0ec75102f4c.mp3",
+     "seconds": 8.525
+    },
+    {
+     "raw": "Maria, James, Aisha and Thomas are **fictional**, and all member IDs are made up for this course.",
+     "say": "Maria, James, Aisha and Thomas are fictional, and all member I D's are made up for this course.",
+     "focus": -1,
+     "file": "clips/4ca0b7feea0d.mp3",
+     "seconds": 7.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The population",
+   "lines": [
+    {
+     "raw": "In Nepal: The same exercise in Kathmandu.",
+     "say": "In Nepal: The same exercise in Kathmandu.",
+     "focus": -1,
+     "file": "clips/a323c2136e5c.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's startup and its insurer could review last year's claims for all 20 employees: who claimed for what, and how much.",
+     "say": "Ram's startup and its insurer could review last year's claims for all 20 employees: who claimed for what, and how much.",
+     "focus": 0,
+     "file": "clips/a6fb28533a78.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "They might find that most of the money went to one or two people, and that several employees skipped their yearly check-up.",
+     "say": "They might find that most of the money went to one or two people, and that several employees skipped their yearly check-up.",
+     "focus": 1,
+     "file": "clips/4c603cc7afac.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Then they could plan: a health check camp for everyone, and extra support for the few with long-term illness.",
+     "say": "Then they could plan: a health check camp for everyone, and extra support for the few with long-term illness.",
+     "focus": 2,
+     "file": "clips/ae4d55cb760c.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "A fund like SSF could, in principle, do the same with its contributors' claims: find the most common long-term illnesses and the most expensive ones.",
+     "say": "A fund like S S F could, in principle, do the same with its contributors' claims: find the most common long-term illnesses and the most expensive ones.",
+     "focus": 3,
+     "file": "clips/a4bcb9110d69.mp3",
+     "seconds": 10.4
+    },
+    {
+     "raw": "An FCHV does a hand-written version of this for her area every day.",
+     "say": "An F C H V does a hand-written version of this for her area every day.",
+     "focus": 4,
+     "file": "clips/cbfc2d36ada3.mp3",
+     "seconds": 4.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 1: build the member table.",
+     "say": "Step 1: build the member table.",
+     "focus": -1,
+     "file": "clips/e3c463b8b6a4.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Step 1: build the member table",
+   "lines": [
+    {
+     "raw": "We start from **eligibility** (everyone covered, and for how many months), then add conditions from medical and pharmacy claims, lab results, social needs, and the 2025 **allowed** amount (medical plus pharmacy).",
+     "say": "We start from eligibility (everyone covered, and for how many months), then add conditions from medical and pharmacy claims, lab results, social needs, and the 2025 allowed amount (medical plus pharmacy).",
+     "focus": -1,
+     "file": "clips/62343776206e.mp3",
+     "seconds": 14.05
+    },
+    {
+     "raw": "Points use the teaching risk score from lesson 4.",
+     "say": "Points use the teaching risk score from lesson 4.",
+     "focus": -1,
+     "file": "clips/7ee7ea375706.mp3",
+     "seconds": 3.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Step 1: build the member table",
+   "lines": [
+    {
+     "raw": "Population table for 2025 (one row per member).",
+     "say": "Population table for 2025 (one row per member).",
+     "focus": -1,
+     "file": "clips/1b36cb9e78e6.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Step 1: build the member table",
+   "lines": [
+    {
+     "raw": "Where the numbers come from.",
+     "say": "Where the numbers come from.",
+     "focus": -1,
+     "file": "clips/4e979d82c906.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Emily's **$7,970** comes from her 2025 claims, rounded: medical allowed $102 (a doctor visit for strep throat) + $7,800 (a hospital stay to remove her appendix) = $7,902, plus pharmacy fills of $67.70, = **$7,969.70**.",
+     "say": "Emily's 7970 dollars comes from her 2025 claims, rounded: medical allowed 102 dollars (a doctor visit for strep throat) and 7800 dollars (a hospital stay to remove her appendix) = 7902 dollars plus pharmacy fills of 67 dollars 70 cents, = 7969 dollars 70 cents.",
+     "focus": -1,
+     "file": "clips/8855d66cc1a8.mp3",
+     "seconds": 23.4
+    },
+    {
+     "raw": "Ages are at the end of 2025.",
+     "say": "Ages are at the end of 2025.",
+     "focus": -1,
+     "file": "clips/a2c3deb1c542.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Daniel has **6** member months because he joined on 1 July 2025.",
+     "say": "Daniel has 6 member months because he joined on 1 July 2025.",
+     "focus": -1,
+     "file": "clips/064617ae729c.mp3",
+     "seconds": 5.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Step 1: build the member table",
+   "lines": [
+    {
+     "raw": "How the risk points were added up (teaching score from lesson 4).",
+     "say": "How the risk points were added up (teaching score from lesson 4).",
+     "focus": -1,
+     "file": "clips/741fa5d10274.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Emily. Points: High cholesterol +1 (appendix stay was not for a chronic condition). Total: 1.",
+     "say": "Emily. Points: High cholesterol +1 (appendix stay was not for a chronic condition). Total: 1.",
+     "focus": 0,
+     "file": "clips/c7b4705105b4.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "Daniel. Points: Social need (unemployment) +1. Total: 1.",
+     "say": "Daniel. Points: Social need (unemployment) +1. Total: 1.",
+     "focus": 1,
+     "file": "clips/3743dd207abb.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "Maria. Points: Diabetes +1, A1c above 9% +1. Total: 2.",
+     "say": "Maria. Points: Diabetes +1, A1c above 9 percent +1. Total: 2.",
+     "focus": 2,
+     "file": "clips/dcec2ade7869.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "Aisha. Points: Asthma +1, 2 ER visits +1. Total: 2.",
+     "say": "Aisha. Points: Asthma +1, 2 E R visits +1. Total: 2.",
+     "focus": 3,
+     "file": "clips/4a26cd5d0e7e.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Robert. Points: Diabetes +1, high blood pressure +1, age 65+ +1. Total: 3.",
+     "say": "Robert. Points: Diabetes +1, high blood pressure +1, age 65+ +1. Total: 3.",
+     "focus": 4,
+     "file": "clips/9dd3494d5b56.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "Thomas. Points: Heart failure +1, diabetes +1, kidney disease +1, hospital stays +2, age 65+ +1, social needs +1. Total: 7.",
+     "say": "Thomas. Points: Heart failure +1, diabetes +1, kidney disease +1, hospital stays +2, age 65+ +1, social needs +1. Total: 7.",
+     "focus": 5,
+     "file": "clips/5a4a1b47a177.mp3",
+     "seconds": 13.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 2: look at the segments.",
+     "say": "Step 2: look at the segments.",
+     "focus": -1,
+     "file": "clips/2e88bb174896.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Step 2: look at the segments",
+   "lines": [
+    {
+     "raw": "Where the money went (8 members, $91,800 total allowed).",
+     "say": "Where the money went (8 members, 91800 dollars total allowed).",
+     "focus": -1,
+     "file": "clips/662e0f7cfb4d.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "Healthy. Members: 3. Who: Lily, Daniel, James. Allowed 2025: $430. Share of cost: Under 1%.",
+     "say": "Healthy. Members: 3. Who: Lily, Daniel, James. Allowed 2025: 430 dollars. Share of cost: Under 1 percent.",
+     "focus": 0,
+     "file": "clips/d50ab696020b.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "At risk. Members: 1. Who: Emily. Allowed 2025: $7,970. Share of cost: About 9%.",
+     "say": "At risk. Members: 1. Who: Emily. Allowed 2025: 7970 dollars. Share of cost: About 9 percent.",
+     "focus": 1,
+     "file": "clips/c4bdc40657f4.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "Chronic. Members: 3. Who: Maria, Aisha, Robert. Allowed 2025: $23,400. Share of cost: About 25%.",
+     "say": "Chronic. Members: 3. Who: Maria, Aisha, Robert. Allowed 2025: 23400 dollars. Share of cost: About 25 percent.",
+     "focus": 2,
+     "file": "clips/094fb4e2a03e.mp3",
+     "seconds": 11.125
+    },
+    {
+     "raw": "Complex. Members: 1. Who: Thomas. Allowed 2025: $60,000. Share of cost: About 65%.",
+     "say": "Complex. Members: 1. Who: Thomas. Allowed 2025: 60000 dollars. Share of cost: About 65 percent.",
+     "focus": 3,
+     "file": "clips/83670eab9bd0.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "**Total**. Members: **8**. Allowed 2025: **$91,800**. Share of cost: **100%**.",
+     "say": "Total. Members: 8. Allowed 2025: 91800 dollars. Share of cost: 100 percent.",
+     "focus": 4,
+     "file": "clips/eaddb5274351.mp3",
+     "seconds": 8.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Step 2: look at the segments",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Healthy: $250 + $180 + $0 = $430.",
+     "say": "Healthy: 250 dollars and 180 dollars and 0 dollars = 430 dollars.",
+     "focus": -1,
+     "file": "clips/7b800ba58911.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "Chronic: $6,400 + $5,000 + $12,000 = $23,400.",
+     "say": "Chronic: 6400 dollars and 5000 dollars and 12000 dollars = 23400 dollars.",
+     "focus": -1,
+     "file": "clips/7e1a89609f1e.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "Total: $430 + $7,970 + $23,400 + $60,000 = **$91,800** ✓.",
+     "say": "Total: 430 dollars and 7970 dollars and 23400 dollars and 60000 dollars = 91800 dollars ✓.",
+     "focus": -1,
+     "file": "clips/c9c809a9b15d.mp3",
+     "seconds": 11.5
+    },
+    {
+     "raw": "Thomas alone: $60,000 ÷ $91,800 ≈ **65%**.",
+     "say": "Thomas alone: 60000 dollars ÷ 91800 dollars ≈ 65 percent.",
+     "focus": -1,
+     "file": "clips/53c06f72e4e5.mp3",
+     "seconds": 8.35
+    },
+    {
+     "raw": "One member out of eight used about two thirds of the money: the \"few people, most of the cost\" pattern from lesson 3.",
+     "say": "One member out of eight used about two thirds of the money: the \"few people, most of the cost\" pattern from lesson 3.",
+     "focus": -1,
+     "file": "clips/1e8ba820a807.mp3",
+     "seconds": 7.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 3: choose the right help.",
+     "say": "Step 3: choose the right help.",
+     "focus": -1,
+     "file": "clips/42988477de32.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Step 3: choose the right help",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Complex. Member: Thomas. Need found in the data: 2 hospital stays for heart failure; lives alone (`Z60.2`); no transport (`Z59.82`). Intervention: **Care management**: a nurse calls within days of any discharge, checks his medicines and weight; rides to appointments; a community health worker visit.",
+     "say": "Complex. Member: Thomas. Need found in the data: 2 hospital stays for heart failure; lives alone (Z 6 0 . 2); no transport (Z 5 9 . 8 2). Intervention: Care management: a nurse calls within days of any discharge, checks his medicines and weight; rides to appointments; a community health worker visit.",
+     "focus": 0,
+     "file": "clips/70f195f51f3c.mp3",
+     "seconds": 21.725
+    },
+    {
+     "raw": "Chronic. Member: Maria. Need found in the data: A1c 9.2%; no eye exam or kidney test (registry gaps). Intervention: **Diabetes programme**: education, book the eye exam and kidney test, review medicines with her doctor.",
+     "say": "Chronic. Member: Maria. Need found in the data: A1c 9.2 percent; no eye exam or kidney test (registry gaps). Intervention: Diabetes programme: education, book the eye exam and kidney test, review medicines with her doctor.",
+     "focus": 1,
+     "file": "clips/0a09e2d0c3b9.mp3",
+     "seconds": 17.6
+    },
+    {
+     "raw": "Chronic. Member: Robert. Need found in the data: A1c 8.4%; blood pressure 148/92; kidney test missing. Intervention: Diabetes programme; reminder for the kidney test; blood pressure follow-up at his Annual Wellness Visit.",
+     "say": "Chronic. Member: Robert. Need found in the data: A1c 8.4 percent; blood pressure 148/92; kidney test missing. Intervention: Diabetes programme; reminder for the kidney test; blood pressure follow-up at his Annual Wellness Visit.",
+     "focus": 2,
+     "file": "clips/2f817626e32b.mp3",
+     "seconds": 18.8
+    },
+    {
+     "raw": "Chronic. Member: Aisha. Need found in the data: 2 ER visits for asthma. Intervention: **Asthma action plan**; check she refills her daily controller inhaler; review triggers at home.",
+     "say": "Chronic. Member: Aisha. Need found in the data: 2 E R visits for asthma. Intervention: Asthma action plan; check she refills her daily controller inhaler; review triggers at home.",
+     "focus": 3,
+     "file": "clips/eecb288607b5.mp3",
+     "seconds": 13.2
+    },
+    {
+     "raw": "At risk. Member: Emily. Need found in the data: High cholesterol; started atorvastatin in July. Intervention: Check she keeps refilling (offer 90-day mail order); healthy heart coaching. Her surgery needs no follow-up programme.",
+     "say": "At risk. Member: Emily. Need found in the data: High cholesterol; started atorvastatin in July. Intervention: Check she keeps refilling (offer 90-day mail order); healthy heart coaching. Her surgery needs no follow-up programme.",
+     "focus": 4,
+     "file": "clips/081073679dd9.mp3",
+     "seconds": 16.525
+    },
+    {
+     "raw": "Healthy. Member: James. Need found in the data: No claims since 2023. Intervention: **Outreach**: reminder to book a yearly check-up and screenings.",
+     "say": "Healthy. Member: James. Need found in the data: No claims since 2023. Intervention: Outreach: reminder to book a yearly check-up and screenings.",
+     "focus": 5,
+     "file": "clips/14ec013c5b05.mp3",
+     "seconds": 10.825
+    },
+    {
+     "raw": "Healthy. Member: Daniel. Need found in the data: Unemployment recorded (`Z56.0`). Intervention: Share information on low-cost services and support; flu vaccine reminder.",
+     "say": "Healthy. Member: Daniel. Need found in the data: Unemployment recorded (Z 5 6 . 0). Intervention: Share information on low-cost services and support; flu vaccine reminder.",
+     "focus": 6,
+     "file": "clips/44924eaf4f4a.mp3",
+     "seconds": 13.475
+    },
+    {
+     "raw": "Healthy. Member: Lily. Need found in the data: Well-child visit done. Intervention: Keep up the vaccine schedule and yearly well-child visit.",
+     "say": "Healthy. Member: Lily. Need found in the data: Well-child visit done. Intervention: Keep up the vaccine schedule and yearly well-child visit.",
+     "focus": 7,
+     "file": "clips/38676e4f071c.mp3",
+     "seconds": 10.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Step 3: choose the right help",
+   "lines": [
+    {
+     "raw": "Match the effort to the need.",
+     "say": "Match the effort to the need.",
+     "focus": -1,
+     "file": "clips/45b7d6283134.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "A nurse care manager is expensive, so only Thomas gets one.",
+     "say": "A nurse care manager is expensive, so only Thomas gets one.",
+     "focus": -1,
+     "file": "clips/90a491ace3a2.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Maria and Robert get a lower-cost programme.",
+     "say": "Maria and Robert get a lower-cost programme.",
+     "focus": -1,
+     "file": "clips/c4a065cef870.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Healthy members get cheap reminders.",
+     "say": "Healthy members get cheap reminders.",
+     "focus": -1,
+     "file": "clips/03b2f748be24.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "This is the point of segmentation: the **right help for the right person**.",
+     "say": "This is the point of segmentation: the right help for the right person.",
+     "focus": -1,
+     "file": "clips/6fb6a2353f82.mp3",
+     "seconds": 4.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 4: measure.",
+     "say": "Step 4: measure.",
+     "focus": -1,
+     "file": "clips/2290bbc7ac2f.mp3",
+     "seconds": 2.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Step 4: measure",
+   "lines": [
+    {
+     "raw": "PMPM (per member per month).",
+     "say": "P M P M (per member per month).",
+     "focus": -1,
+     "file": "clips/96eb8f0be180.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "PMPM equals Total allowed ÷ Member months.",
+     "say": "P M P M equals Total allowed ÷ Member months.",
+     "focus": 0,
+     "file": "clips/05cf740f04e6.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "For example: Member months: 7 members times 12 plus Daniel 6 equals 90.",
+     "say": "For example: Member months: 7 members times 12 plus Daniel 6 equals 90.",
+     "focus": 1,
+     "file": "clips/9cc50ffb413c.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "PMPM equals $91,800 ÷ 90 equals $1,020.",
+     "say": "P M P M equals 91800 dollars ÷ 90 equals 1020 dollars.",
+     "focus": 1,
+     "file": "clips/02ccccb89038.mp3",
+     "seconds": 8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Step 4: measure",
+   "lines": [
+    {
+     "raw": "Report commercial and Medicare members separately.",
+     "say": "Report commercial and Medicare members separately.",
+     "focus": -1,
+     "file": "clips/78b13ca72689.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Commercial. Members: 6. Member months: 5 × 12 + 6 = 66. Allowed 2025: $7,970 + $250 + $180 + $6,400 + $0 + $5,000 = $19,800. PMPM: $19,800 ÷ 66 = **$300**.",
+     "say": "Commercial. Members: 6. Member months: 5 × 12 and 6 = 66. Allowed 2025: 7970 dollars and 250 dollars and 180 dollars and 6400 dollars and 0 dollars and 5000 dollars = 19800 dollars. P M P M: 19800 dollars ÷ 66 = 300 dollars.",
+     "focus": 0,
+     "file": "clips/3e1212b21ec3.mp3",
+     "seconds": 25.675
+    },
+    {
+     "raw": "Medicare Advantage. Members: 2. Member months: 2 × 12 = 24. Allowed 2025: $12,000 + $60,000 = $72,000. PMPM: $72,000 ÷ 24 = **$3,000**.",
+     "say": "Medicare Advantage. Members: 2. Member months: 2 × 12 = 24. Allowed 2025: 12000 dollars and 60000 dollars = 72000 dollars. P M P M: 72000 dollars ÷ 24 = 3000 dollars.",
+     "focus": 1,
+     "file": "clips/fefeb412a360.mp3",
+     "seconds": 19.925
+    },
+    {
+     "raw": "All (blended). Members: 8. Member months: 90. Allowed 2025: $91,800. PMPM: $91,800 ÷ 90 = **$1,020**.",
+     "say": "All (blended). Members: 8. Member months: 90. Allowed 2025: 91800 dollars. P M P M: 91800 dollars ÷ 90 = 1020 dollars.",
+     "focus": 2,
+     "file": "clips/32958090d789.mp3",
+     "seconds": 15.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Step 4: measure",
+   "lines": [
+    {
+     "raw": "Do not mix different populations.",
+     "say": "Do not mix different populations.",
+     "focus": -1,
+     "file": "clips/eeef9c55016b.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Medicare members are older and sicker, so their PMPM is naturally much higher: **$3,000** vs **$300** here.",
+     "say": "Medicare members are older and sicker, so their P M P M is naturally much higher: 3000 dollars versus 300 dollars here.",
+     "focus": -1,
+     "file": "clips/beb60be9fd59.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "The blended **$1,020** describes nobody.",
+     "say": "The blended 1020 dollars describes nobody.",
+     "focus": -1,
+     "file": "clips/52346b1f336a.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "If next year the mix shifts toward more Medicare members, the blended PMPM rises even if nobody's health changed.",
+     "say": "If next year the mix shifts toward more Medicare members, the blended P M P M rises even if nobody's health changed.",
+     "focus": -1,
+     "file": "clips/45e3ff37a270.mp3",
+     "seconds": 8.2
+    },
+    {
+     "raw": "Always compare like with like.",
+     "say": "Always compare like with like.",
+     "focus": -1,
+     "file": "clips/1db2dbfa90a6.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Step 4: measure",
+   "lines": [
+    {
+     "raw": "Utilisation per 1,000 (also explained in the Eligibility course).",
+     "say": "Utilisation per 1,000 (also explained in the Eligibility course).",
+     "focus": -1,
+     "file": "clips/7ebb54b35787.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "Admissions per 1,000 equals Admissions ÷ Member months times 12,000.",
+     "say": "Admissions per 1,000 equals Admissions ÷ Member months times 12,000.",
+     "focus": 0,
+     "file": "clips/480d0ff3fc44.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "For example: Emily 1 plus Thomas 2 equals 3 admissions.",
+     "say": "For example: Emily 1 plus Thomas 2 equals 3 admissions.",
+     "focus": 1,
+     "file": "clips/d3cd0e0efb42.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "3 ÷ 90 times 12,000 equals 400 admissions per 1,000 members per year.",
+     "say": "3 ÷ 90 times 12,000 equals 400 admissions per 1,000 members per year.",
+     "focus": 1,
+     "file": "clips/a8667b29ed3b.mp3",
+     "seconds": 7.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Step 4: measure",
+   "lines": [
+    {
+     "raw": "Now imagine it is the end of **2026** and the team checks the Medicare Advantage group again.",
+     "say": "Now imagine it is the end of 2026 and the team checks the Medicare Advantage group again.",
+     "focus": -1,
+     "file": "clips/dd261a77a456.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "Suppose (a made-up example) Thomas had **1** hospital stay instead of 2, and the group's PMPM fell from **$3,000** to **$2,500**.",
+     "say": "Suppose (a made-up example) Thomas had 1 hospital stay instead of 2, and the group's P M P M fell from 3000 dollars to 2500 dollars.",
+     "focus": -1,
+     "file": "clips/d1bc2473974e.mp3",
+     "seconds": 11.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Step 4: measure",
+   "lines": [
+    {
+     "raw": "Did the programmes pay for themselves?",
+     "say": "Did the programmes pay for themselves?",
+     "focus": -1,
+     "file": "clips/7c4490049b99.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "(made-up 2026 example, Medicare Advantage group).",
+     "say": "(made-up 2026 example, Medicare Advantage group).",
+     "focus": -1,
+     "file": "clips/63c9901823c0.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Cost saved. Calculation: ($3,000 − $2,500) × 24 member months. Amount: $12,000.",
+     "say": "Cost saved. Calculation: (3000 dollars − 2500 dollars) × 24 member months. Amount: 12000 dollars.",
+     "focus": 0,
+     "file": "clips/3883d22918aa.mp3",
+     "seconds": 10.05
+    },
+    {
+     "raw": "Care management for Thomas. Calculation: $100 PMPM × 12 months. Amount: − $1,200.",
+     "say": "Care management for Thomas. Calculation: 100 dollars P M P M × 12 months. Amount: − 1200 dollars.",
+     "focus": 1,
+     "file": "clips/d197d64122e8.mp3",
+     "seconds": 9.425
+    },
+    {
+     "raw": "Diabetes programme for Robert. Calculation: $25 PMPM × 12 months. Amount: − $300.",
+     "say": "Diabetes programme for Robert. Calculation: 25 dollars P M P M × 12 months. Amount: − 300 dollars.",
+     "focus": 2,
+     "file": "clips/7eab03b1d65b.mp3",
+     "seconds": 10.05
+    },
+    {
+     "raw": "**Net saving**. Calculation: $12,000 − $1,200 − $300. Amount: **$10,500**.",
+     "say": "Net saving. Calculation: 12000 dollars − 1200 dollars − 300 dollars. Amount: 10500 dollars.",
+     "focus": 3,
+     "file": "clips/4d46ef27394e.mp3",
+     "seconds": 10.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Step 4: measure",
+   "lines": [
+    {
+     "raw": "Three traps when measuring.",
+     "say": "Three traps when measuring.",
+     "focus": -1,
+     "file": "clips/736d4d50671e.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "**1.",
+     "say": "1.",
+     "focus": -1,
+     "file": "clips/f727c22d3fcd.mp3",
+     "seconds": 1.25
+    },
+    {
+     "raw": "Small numbers:** with 2 members, one hospital stay changes everything; real reports need thousands of members.",
+     "say": "Small numbers: with 2 members, one hospital stay changes everything; real reports need thousands of members.",
+     "focus": -1,
+     "file": "clips/632db5a493c4.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "**2.",
+     "say": "2.",
+     "focus": -1,
+     "file": "clips/55e92e4c1325.mp3",
+     "seconds": 1.325
+    },
+    {
+     "raw": "Regression to the mean:** people picked because they had a very bad year often have a better next year anyway, programme or not.",
+     "say": "Regression to the mean: people picked because they had a very bad year often have a better next year anyway, programme or not.",
+     "focus": -1,
+     "file": "clips/4316fcbb8380.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "**3.",
+     "say": "3.",
+     "focus": -1,
+     "file": "clips/552595db0da3.mp3",
+     "seconds": 1.375
+    },
+    {
+     "raw": "No comparison group:** compare with similar members who were not in the programme before giving it credit.",
+     "say": "No comparison group: compare with similar members who were not in the programme before giving it credit.",
+     "focus": -1,
+     "file": "clips/26654601bb1a.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "Also measure **quality**, not just money: did gaps close, did A1c improve, did ER visits fall?",
+     "say": "Also measure quality, not just money: did gaps close, did A1c improve, did E R visits fall?",
+     "focus": -1,
+     "file": "clips/e729bec3cd96.mp3",
+     "seconds": 6.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "Step 4: measure",
+   "lines": [
+    {
+     "raw": "Quality view of the same population (end of 2025).",
+     "say": "Quality view of the same population (end of 2025).",
+     "focus": -1,
+     "file": "clips/3eef90d61348.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Members with diabetes and A1c above 9% (lower is better). Calculation: Maria only: 1 of 3 (Robert, Maria, Thomas). Result: 33%.",
+     "say": "Members with diabetes and A1c above 9 percent (lower is better). Calculation: Maria only: 1 of 3 (Robert, Maria, Thomas). Result: 33 percent.",
+     "focus": 0,
+     "file": "clips/66174a066607.mp3",
+     "seconds": 11.55
+    },
+    {
+     "raw": "Diabetes members with an eye exam in 2025. Calculation: Robert and Thomas: 2 of 3. Result: 67%.",
+     "say": "Diabetes members with an eye exam in 2025. Calculation: Robert and Thomas: 2 of 3. Result: 67 percent.",
+     "focus": 1,
+     "file": "clips/2ef30a9e6d41.mp3",
+     "seconds": 9.875
+    },
+    {
+     "raw": "Adults with no claims in 2 years. Calculation: James: 1 of 7 adults. Result: 14%.",
+     "say": "Adults with no claims in 2 years. Calculation: James: 1 of 7 adults. Result: 14 percent.",
+     "focus": 2,
+     "file": "clips/9fc56a8584f4.mp3",
+     "seconds": 7.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Field → lesson map.",
+     "say": "Field to lesson map.",
+     "focus": -1,
+     "file": "clips/e9cf9eeca18e.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 25,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "member_id, plan_type. Question it answers: Who is in the population we are responsible for? Lesson: 1. What is Population Health?",
+     "say": "member_id, plan_type. Question it answers: Who is in the population we are responsible for? Lesson: 1. What is Population Health?",
+     "focus": 0,
+     "file": "clips/11bc9d4120e9.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "member_months. Question it answers: For how long was each person covered? (the denominator). Lesson: 2. The Data Behind It.",
+     "say": "member_months. Question it answers: For how long was each person covered? (the denominator). Lesson: 2. The Data Behind It.",
+     "focus": 1,
+     "file": "clips/7a244476fbd9.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "conditions, ip_stays, er_visits. Question it answers: Who has which condition, and how much care did they use? Lesson: 2. The Data Behind It.",
+     "say": "conditions, ip_stays, er_visits. Question it answers: Who has which condition, and how much care did they use? Lesson: 2. The Data Behind It.",
+     "focus": 2,
+     "file": "clips/72e7f40f94f8.mp3",
+     "seconds": 10.175
+    },
+    {
+     "raw": "segment, open gaps (registry). Question it answers: Which group is each person in, and what care is missing? Lesson: 3. Sorting People Into Groups.",
+     "say": "segment, open gaps (registry). Question it answers: Which group is each person in, and what care is missing? Lesson: 3. Sorting People Into Groups.",
+     "focus": 3,
+     "file": "clips/2a6811141f94.mp3",
+     "seconds": 10.55
+    },
+    {
+     "raw": "risk_points. Question it answers: Who needs help first? Lesson: 4. Risk Stratification.",
+     "say": "risk_points. Question it answers: Who needs help first? Lesson: 4. Risk Stratification.",
+     "focus": 4,
+     "file": "clips/56e87eef28e8.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "social_need (Z-codes), preventive visits. Question it answers: What outside the clinic affects their health, and who missed prevention? Lesson: 5. Social Needs & Prevention.",
+     "say": "social_need (Z-codes), preventive visits. Question it answers: What outside the clinic affects their health, and who missed prevention? Lesson: 5. Social Needs and Prevention.",
+     "focus": 5,
+     "file": "clips/e80cf4a7f848.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "allowed_2025, PMPM, admissions per 1,000. Question it answers: What did the group cost and use, and did it improve? Lesson: 3. Sorting People Into Groups (PMPM) and this lesson.",
+     "say": "allowed_2025, P M P M, admissions per 1,000. Question it answers: What did the group cost and use, and did it improve? Lesson: 3. Sorting People Into Groups (P M P M) and this lesson.",
+     "focus": 6,
+     "file": "clips/86fecdd10f08.mp3",
+     "seconds": 15.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 26,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You can now think like a population health analyst: define the group from eligibility, combine the data, flag conditions, score risk, choose interventions and measure with PMPM and per-1,000 rates.",
+     "say": "You can now think like a population health analyst: define the group from eligibility, combine the data, flag conditions, score risk, choose interventions and measure with P M P M and per-1,000 rates.",
+     "focus": -1,
+     "file": "clips/888b06fa4f24.mp3",
+     "seconds": 13.825
+    },
+    {
+     "raw": "Next, the **Care Management** course follows what a nurse care manager does with complex members like Thomas.",
+     "say": "Next, the Care Management course follows what a nurse care manager does with complex members like Thomas.",
+     "focus": -1,
+     "file": "clips/5cf131e685b0.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "For member months see the Eligibility course, and for the claims underneath see the Medical and Pharmacy courses.",
+     "say": "For member months see the Eligibility course, and for the claims underneath see the Medical and Pharmacy courses.",
+     "focus": -1,
+     "file": "clips/78128225663f.mp3",
+     "seconds": 6.95
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Start from eligibility, add claims, labs and social needs, and build one row per member.",
+     "say": "Start from eligibility, add claims, labs and social needs, and build one row per member.",
+     "focus": 0,
+     "file": "clips/74ebfd90740f.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "Stratify into segments; a few complex members usually drive most of the cost.",
+     "say": "Stratify into segments; a few complex members usually drive most of the cost.",
+     "focus": 1,
+     "file": "clips/b5380e36e136.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "Match the intervention to the segment: care management for complex, programmes for chronic, reminders for healthy.",
+     "say": "Match the intervention to the segment: care management for complex, programmes for chronic, reminders for healthy.",
+     "focus": 2,
+     "file": "clips/54f638eddf95.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "Measure with PMPM and per-1,000 rates, separately for different populations, and watch for small numbers and regression to the mean.",
+     "say": "Measure with P M P M and per-1,000 rates, separately for different populations, and watch for small numbers and regression to the mean.",
+     "focus": 3,
+     "file": "clips/36bc3a18fac8.mp3",
+     "seconds": 9.425
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

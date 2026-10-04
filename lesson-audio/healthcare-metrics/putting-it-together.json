@@ -1,0 +1,743 @@
+{
+ "courseId": "healthcare-metrics",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 9,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 9: Putting It All Together.",
+     "say": "Lesson 9: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/27aa3108bbfc.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Maria builds Lone Star Health's 2025 dashboard and explains why costs went up.",
+     "say": "Maria builds Lone Star Health's 2025 dashboard and explains why costs went up.",
+     "focus": -1,
+     "file": "clips/756bc77dc77b.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read a one-year health plan dashboard from top to bottom.",
+     "say": "Read a one-year health plan dashboard from top to bottom.",
+     "focus": 0,
+     "file": "clips/0a8c7f1f6f1f.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Explain a PMPM trend by splitting it into categories, utilization and unit cost.",
+     "say": "Explain a P M P M trend by splitting it into categories, utilization and unit cost.",
+     "focus": 1,
+     "file": "clips/7c7aec1d8ae8.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Check the dashboard for the data traps from lesson 8.",
+     "say": "Check the dashboard for the data traps from lesson 8.",
+     "focus": 2,
+     "file": "clips/71b4bfb77c96.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Connect every metric to the lesson where you learned it.",
+     "say": "Connect every metric to the lesson where you learned it.",
+     "focus": 3,
+     "file": "clips/4cbdc3cfc6cd.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story.",
+     "say": "The story.",
+     "focus": -1,
+     "file": "clips/5103112bb3ad.mp3",
+     "seconds": 1.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "It is April 2026.",
+     "say": "It is April 2026.",
+     "focus": -1,
+     "file": "clips/b606ea5355ef.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Maria's manager at **Lone Star Health** (a made-up Texas health plan) asks: \"Our 2025 costs went up.",
+     "say": "Maria's manager at Lone Star Health (a made-up Texas health plan) asks: \"Our 2025 costs went up.",
+     "focus": -1,
+     "file": "clips/e3b18b87450b.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "By how much, and why?\" The plan covered about **10,000 members** in large employer groups in both years: **120,000 member months** each year.",
+     "say": "By how much, and why?\" The plan covered about 10,000 members in large employer groups in both years: 120,000 member months each year.",
+     "focus": -1,
+     "file": "clips/ca512c8fbe56.mp3",
+     "seconds": 10.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "In Nepal: The same question in Kathmandu.",
+     "say": "In Nepal: The same question in Kathmandu.",
+     "focus": -1,
+     "file": "clips/9554c41b6fad.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "When Ram's startup renews its group policy, the insurer looks at last year: claims per employee per month, how many hospital stays there were, and how much each cost.",
+     "say": "When Ram's startup renews its group policy, the insurer looks at last year: claims per employee per month, how many hospital stays there were, and how much each cost.",
+     "focus": 0,
+     "file": "clips/52cb419de152.mp3",
+     "seconds": 10.625
+    },
+    {
+     "raw": "If claims rose, it explains why and raises the premium.",
+     "say": "If claims rose, it explains why and raises the premium.",
+     "focus": 0,
+     "file": "clips/80abddbafa2c.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The SSF reviews its yearly medical spending the same way: spending per contributor, number of admissions, cost per admission and the medicines bill.",
+     "say": "The S S F reviews its yearly medical spending the same way: spending per contributor, number of admissions, cost per admission and the medicines bill.",
+     "focus": 1,
+     "file": "clips/b4deb97d33e1.mp3",
+     "seconds": 10.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 1: state the basis.",
+     "say": "Step 1: state the basis.",
+     "focus": -1,
+     "file": "clips/af60d5b87efb.mp3",
+     "seconds": 2.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Step 1: state the basis",
+   "lines": [
+    {
+     "raw": "Dashboard basis.",
+     "say": "Dashboard basis.",
+     "focus": -1,
+     "file": "clips/b4df545ddffd.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "**Incurred** January to December of each year, **paid through March** of the following year (3 months of run-out), **completed with IBNR**.",
+     "say": "Incurred January to December of each year, paid through March of the following year (3 months of run-out), completed with I B N R.",
+     "focus": -1,
+     "file": "clips/07dbd390f65f.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "Dollars are **allowed** unless marked paid, net of reversals, and include capitation payments.",
+     "say": "Dollars are allowed unless marked paid, net of reversals, and include capitation payments.",
+     "focus": -1,
+     "file": "clips/88f2db09ab41.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "120,000 member months each year.",
+     "say": "120,000 member months each year.",
+     "focus": -1,
+     "file": "clips/e946c5415cab.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "All figures illustrative.",
+     "say": "All figures illustrative.",
+     "focus": -1,
+     "file": "clips/c9bca1dce678.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 2: the dashboard.",
+     "say": "Step 2: the dashboard.",
+     "focus": -1,
+     "file": "clips/4c46e453ebc5.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Step 2: the dashboard",
+   "lines": [
+    {
+     "raw": "Lone Star Health dashboard, 2024 vs 2025.",
+     "say": "Lone Star Health dashboard, 2024 versus 2025.",
+     "focus": -1,
+     "file": "clips/9360558b8a7b.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "**Allowed PMPM, total**. 2024: $432.00. 2025: $460.00. Change: +6.5%.",
+     "say": "Allowed P M P M, total. 2024: 432 dollars. 2025: 460 dollars. Change: +6.5 percent.",
+     "focus": 0,
+     "file": "clips/deb76c81a601.mp3",
+     "seconds": 11.95
+    },
+    {
+     "raw": "Inpatient PMPM. 2024: $99.00. 2025: $108.00. Change: +9.1%.",
+     "say": "Inpatient P M P M. 2024: 99 dollars. 2025: 108 dollars. Change: +9.1 percent.",
+     "focus": 1,
+     "file": "clips/8254bfec2ff9.mp3",
+     "seconds": 10.65
+    },
+    {
+     "raw": "Outpatient PMPM. 2024: $95.00. 2025: $95.00. Change: 0%.",
+     "say": "Outpatient P M P M. 2024: 95 dollars. 2025: 95 dollars. Change: 0 percent.",
+     "focus": 2,
+     "file": "clips/db46ebdeb18a.mp3",
+     "seconds": 9.4
+    },
+    {
+     "raw": "Professional PMPM. 2024: $145.00. 2025: $150.00. Change: +3.4%.",
+     "say": "Professional P M P M. 2024: 145 dollars. 2025: 150 dollars. Change: +3.4 percent.",
+     "focus": 3,
+     "file": "clips/a16a10b7761e.mp3",
+     "seconds": 11.35
+    },
+    {
+     "raw": "Pharmacy PMPM. 2024: $80.00. 2025: $90.00. Change: +12.5%.",
+     "say": "Pharmacy P M P M. 2024: 80 dollars. 2025: 90 dollars. Change: +12.5 percent.",
+     "focus": 4,
+     "file": "clips/0b913a227396.mp3",
+     "seconds": 9.85
+    },
+    {
+     "raw": "Other PMPM. 2024: $13.00. 2025: $17.00. Change: +30.8%.",
+     "say": "Other P M P M. 2024: 13 dollars. 2025: 17 dollars. Change: +30.8 percent.",
+     "focus": 5,
+     "file": "clips/3bd331f1b12b.mp3",
+     "seconds": 9.675
+    },
+    {
+     "raw": "Admits per 1,000. 2024: 72. 2025: 72. Change: 0%.",
+     "say": "Admits per 1,000. 2024: 72. 2025: 72. Change: 0 percent.",
+     "focus": 6,
+     "file": "clips/9726a0dee1bb.mp3",
+     "seconds": 8.175
+    },
+    {
+     "raw": "Cost per admit. 2024: $16,500. 2025: $18,000. Change: +9.1%.",
+     "say": "Cost per admit. 2024: 16500 dollars. 2025: 18000 dollars. Change: +9.1 percent.",
+     "focus": 7,
+     "file": "clips/38c602be2e17.mp3",
+     "seconds": 11.15
+    },
+    {
+     "raw": "ALOS. 2024: 4.0 days. 2025: 4.0 days. Change: 0%.",
+     "say": "A L O S. 2024: 4.0 days. 2025: 4.0 days. Change: 0 percent.",
+     "focus": 8,
+     "file": "clips/4fc8f78ab73a.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "ER visits per 1,000. 2024: 192. 2025: 180. Change: −6.3%.",
+     "say": "E R visits per 1,000. 2024: 192. 2025: 180. Change: −6.3 percent.",
+     "focus": 9,
+     "file": "clips/eeae8a581b0b.mp3",
+     "seconds": 10.425
+    },
+    {
+     "raw": "Scripts per 1,000. 2024: 12,000. 2025: 12,000. Change: 0%.",
+     "say": "Scripts per 1,000. 2024: 12,000. 2025: 12,000. Change: 0 percent.",
+     "focus": 10,
+     "file": "clips/1b2de47d31a7.mp3",
+     "seconds": 8.5
+    },
+    {
+     "raw": "Cost per script. 2024: $80. 2025: $90. Change: +12.5%.",
+     "say": "Cost per script. 2024: 80 dollars. 2025: 90 dollars. Change: +12.5 percent.",
+     "focus": 11,
+     "file": "clips/89942db43d48.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "30-day readmission rate. 2024: 9.5%. 2025: 9.0%. Change: −0.5 points.",
+     "say": "30-day readmission rate. 2024: 9.5 percent. 2025: 9.0 percent. Change: −0.5 points.",
+     "focus": 12,
+     "file": "clips/18a32a30d666.mp3",
+     "seconds": 11.75
+    },
+    {
+     "raw": "Avoidable ER rate. 2024: 31%. 2025: 30%. Change: −1 point.",
+     "say": "Avoidable E R rate. 2024: 31 percent. 2025: 30 percent. Change: −1 point.",
+     "focus": 13,
+     "file": "clips/b858ad42051b.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "Generic dispensing rate. 2024: 88%. 2025: 88%. Change: 0 points.",
+     "say": "Generic dispensing rate. 2024: 88 percent. 2025: 88 percent. Change: 0 points.",
+     "focus": 14,
+     "file": "clips/0bd61cab2809.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "Paid PMPM. 2024: $367.20. 2025: $391.00. Change: +6.5%.",
+     "say": "Paid P M P M. 2024: 367 dollars 20 cents. 2025: 391 dollars. Change: +6.5 percent.",
+     "focus": 15,
+     "file": "clips/0c8b183b19c8.mp3",
+     "seconds": 12.525
+    },
+    {
+     "raw": "Premium PMPM. 2024: $440.00. 2025: $470.00. Change: +6.8%.",
+     "say": "Premium P M P M. 2024: 440 dollars. 2025: 470 dollars. Change: +6.8 percent.",
+     "focus": 16,
+     "file": "clips/d8e39a376041.mp3",
+     "seconds": 11.225
+    },
+    {
+     "raw": "ACA-style MLR. 2024: 86.9%. 2025: 86.6%. Change: −0.3 points.",
+     "say": "A C A style M L R. 2024: 86.9 percent. 2025: 86.6 percent. Change: −0.3 points.",
+     "focus": 17,
+     "file": "clips/88af6f1221ac.mp3",
+     "seconds": 12.1
+    },
+    {
+     "raw": "Members with claims over $250,000. 2024: 10. 2025: 11. Change: +1.",
+     "say": "Members with claims over 250000 dollars. 2024: 10. 2025: 11. Change: +1.",
+     "focus": 18,
+     "file": "clips/95e8626991c7.mp3",
+     "seconds": 9.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 3: where did the $28 come from?",
+     "say": "Step 3: where did the 28 dollars come from?",
+     "focus": -1,
+     "file": "clips/12863c806767.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Step 3: where did the $28 come from?",
+   "lines": [
+    {
+     "raw": "Splitting the PMPM change by category.",
+     "say": "Splitting the P M P M change by category.",
+     "focus": -1,
+     "file": "clips/ce54cd381108.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Inpatient. Change in PMPM: +$9.00. Utilization or unit cost?: Unit cost: admits per 1,000 flat (72); cost per admit $16,500 → $18,000.",
+     "say": "Inpatient. Change in P M P M: +9 dollars. Utilization or unit cost?: Unit cost: admits per 1,000 flat (72); cost per admit 16500 dollars to 18000 dollars.",
+     "focus": 0,
+     "file": "clips/d7cd4a1922eb.mp3",
+     "seconds": 15.375
+    },
+    {
+     "raw": "Pharmacy. Change in PMPM: +$10.00. Utilization or unit cost?: Unit cost: scripts flat (12,000 per 1,000); cost per script $80 → $90.",
+     "say": "Pharmacy. Change in P M P M: +10 dollars. Utilization or unit cost?: Unit cost: scripts flat (12,000 per 1,000); cost per script 80 dollars to 90 dollars.",
+     "focus": 1,
+     "file": "clips/8a083ccea1c0.mp3",
+     "seconds": 13.375
+    },
+    {
+     "raw": "Professional. Change in PMPM: +$5.00. Utilization or unit cost?: Both: slightly more visits and small price increases.",
+     "say": "Professional. Change in P M P M: +5 dollars. Utilization or unit cost?: Both: slightly more visits and small price increases.",
+     "focus": 2,
+     "file": "clips/287989b0ee0a.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "Other. Change in PMPM: +$4.00. Utilization or unit cost?: Small category; check for one-off items before explaining.",
+     "say": "Other. Change in P M P M: +4 dollars. Utilization or unit cost?: Small category; check for one-off items before explaining.",
+     "focus": 3,
+     "file": "clips/4846312c6fb4.mp3",
+     "seconds": 9.925
+    },
+    {
+     "raw": "Outpatient. Change in PMPM: $0.00. Utilization or unit cost?: Fewer ER visits, but each cost more.",
+     "say": "Outpatient. Change in P M P M: 0 dollars. Utilization or unit cost?: Fewer E R visits, but each cost more.",
+     "focus": 4,
+     "file": "clips/445f1bd72205.mp3",
+     "seconds": 9.15
+    },
+    {
+     "raw": "**Total**. Change in PMPM: **+$28.00**. Utilization or unit cost?: $432.00 → $460.00 = +6.5%.",
+     "say": "Total. Change in P M P M: +28 dollars. Utilization or unit cost?: 432 dollars to 460 dollars = +6.5 percent.",
+     "focus": 5,
+     "file": "clips/29596e510d4e.mp3",
+     "seconds": 13.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Step 3: where did the $28 come from?",
+   "lines": [
+    {
+     "raw": "Check the inpatient split.",
+     "say": "Check the inpatient split.",
+     "focus": -1,
+     "file": "clips/4ae65fa1de26.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "72 times $18,000 ÷ 12,000 − 72 times $16,500 ÷ 12,000 equals $108.00 − $99.00 equals $9.00.",
+     "say": "72 times 18000 dollars ÷ 12,000 − 72 times 16500 dollars ÷ 12,000 equals 108 dollars − 99 dollars equals 9 dollars.",
+     "focus": 0,
+     "file": "clips/5976d948e8d8.mp3",
+     "seconds": 15.9
+    },
+    {
+     "raw": "For example: Same number of stays, each $1,500 more expensive.",
+     "say": "For example: Same number of stays, each 1500 dollars more expensive.",
+     "focus": 1,
+     "file": "clips/2d85c4e213a3.mp3",
+     "seconds": 5.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 4: check the traps.",
+     "say": "Step 4: check the traps.",
+     "focus": -1,
+     "file": "clips/90a9f26b7d84.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Step 4: check the traps",
+   "lines": [
+    {
+     "raw": "**Run-out**: both years have 3 months of run-out and IBNR, so 2025 is not unfairly low or high compared with 2024.",
+     "say": "Run-out: both years have 3 months of run-out and I B N R, so 2025 is not unfairly low or high compared with 2024.",
+     "focus": 0,
+     "file": "clips/146c8927de99.mp3",
+     "seconds": 9.95
+    },
+    {
+     "raw": "**High-cost claimants**: 10 vs 11 members over $250,000; one extra case does not explain a 6.5% rise across 120,000 member months.",
+     "say": "High-cost claimants: 10 versus 11 members over 250000 dollars; one extra case does not explain a 6.5 percent rise across 120,000 member months.",
+     "focus": 1,
+     "file": "clips/b94bd9eb6318.mp3",
+     "seconds": 13.575
+    },
+    {
+     "raw": "**Membership**: same size both years; Maria also checks the age mix did not shift.",
+     "say": "Membership: same size both years; Maria also checks the age mix did not shift.",
+     "focus": 2,
+     "file": "clips/f8d6d859617b.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "**Benefits**: paid PMPM rose by the same 6.5% as allowed PMPM, so members' cost share did not change much.",
+     "say": "Benefits: paid P M P M rose by the same 6.5 percent as allowed P M P M, so members' cost share did not change much.",
+     "focus": 3,
+     "file": "clips/7fb32c04f70c.mp3",
+     "seconds": 10.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Step 4: check the traps",
+   "lines": [
+    {
+     "raw": "Maria's answer in three sentences.",
+     "say": "Maria's answer in three sentences.",
+     "focus": -1,
+     "file": "clips/506c12f95e03.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Allowed cost rose **6.5%**, from $432 to $460 PMPM.",
+     "say": "Allowed cost rose 6.5 percent, from 432 dollars to 460 dollars P M P M.",
+     "focus": -1,
+     "file": "clips/c4b327ba57e1.mp3",
+     "seconds": 8.5
+    },
+    {
+     "raw": "Members used about the **same amount of care**: admissions, scripts and hospital days were flat, and ER visits and readmissions improved slightly.",
+     "say": "Members used about the same amount of care: admissions, scripts and hospital days were flat, and E R visits and readmissions improved slightly.",
+     "focus": -1,
+     "file": "clips/3bd5d6b32742.mp3",
+     "seconds": 9.65
+    },
+    {
+     "raw": "The rise is almost all **unit cost**: pricier hospital stays and pricier drugs, which points to provider contracts and drug choices, not to members using more care.",
+     "say": "The rise is almost all unit cost: pricier hospital stays and pricier drugs, which points to provider contracts and drug choices, not to members using more care.",
+     "focus": -1,
+     "file": "clips/df989537cc2e.mp3",
+     "seconds": 11.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Step 4: check the traps",
+   "lines": [
+    {
+     "raw": "Finance check.",
+     "say": "Finance check.",
+     "focus": -1,
+     "file": "clips/4e897ec3033f.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Premium rose 6.8%, slightly faster than paid claims (6.5%), so the MLR stayed about the same: 86.6% in 2025.",
+     "say": "Premium rose 6.8 percent, slightly faster than paid claims (6.5 percent), so the M L R stayed about the same: 86.6 percent in 2025.",
+     "focus": -1,
+     "file": "clips/e812fda8e071.mp3",
+     "seconds": 12.45
+    },
+    {
+     "raw": "That is above an 85% large-group minimum, so no rebate is due.",
+     "say": "That is above an 85 percent large-group minimum, so no rebate is due.",
+     "focus": -1,
+     "file": "clips/2cbb9365a9b0.mp3",
+     "seconds": 5.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Metric → lesson map.",
+     "say": "Metric to lesson map.",
+     "focus": -1,
+     "file": "clips/0c280f212169.mp3",
+     "seconds": 2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Metric → lesson map",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Numerator, denominator. Question it answers: What is being counted, and over whom? Lesson: 1. What are Healthcare Metrics?",
+     "say": "Numerator, denominator. Question it answers: What is being counted, and over whom? Lesson: 1. What are Healthcare Metrics?",
+     "focus": 0,
+     "file": "clips/27aadc5611ff.mp3",
+     "seconds": 8.65
+    },
+    {
+     "raw": "PMPM, PMPY, per 1,000, per unit. Question it answers: How do we compare groups of any size and period? Lesson: 2. Rates: Per Member, Per 1,000, Per Visit.",
+     "say": "P M P M, P M P Y, per 1,000, per unit. Question it answers: How do we compare groups of any size and period? Lesson: 2. Rates: Per Member, Per 1,000, Per Visit.",
+     "focus": 1,
+     "file": "clips/b93fdd52bd1b.mp3",
+     "seconds": 13.3
+    },
+    {
+     "raw": "PMPM by category, allowed vs paid, cost per unit. Question it answers: Where does the money go, and how pricey is each service? Lesson: 3. Cost Metrics.",
+     "say": "P M P M by category, allowed versus paid, cost per unit. Question it answers: Where does the money go, and how pricey is each service? Lesson: 3. Cost Metrics.",
+     "focus": 2,
+     "file": "clips/74324eaec89b.mp3",
+     "seconds": 12.15
+    },
+    {
+     "raw": "Admits, days, ALOS, ER visits, scripts per 1,000. Question it answers: How much care do members use? Use or price? Lesson: 4. Utilization Metrics.",
+     "say": "Admits, days, A L O S, E R visits, scripts per 1,000. Question it answers: How much care do members use? Use or price? Lesson: 4. Utilization Metrics.",
+     "focus": 3,
+     "file": "clips/25ef328332d7.mp3",
+     "seconds": 12.225
+    },
+    {
+     "raw": "Readmission, avoidable ER, generic dispensing, O/E. Question it answers: Is the care working and sensible? Lesson: 5. Outcome Rates.",
+     "say": "Readmission, avoidable E R, generic dispensing, O/E. Question it answers: Is the care working and sensible? Lesson: 5. Outcome Rates.",
+     "focus": 4,
+     "file": "clips/dc9bac7ac367.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "Premium PMPM, loss ratio, MLR, rebate. Question it answers: Does the plan spend enough of the premium on care? Lesson: 6. Premiums & Medical Loss Ratio.",
+     "say": "Premium P M P M, loss ratio, M L R, rebate. Question it answers: Does the plan spend enough of the premium on care? Lesson: 6. Premiums and Medical Loss Ratio.",
+     "focus": 5,
+     "file": "clips/0c5632fccd08.mp3",
+     "seconds": 13.125
+    },
+    {
+     "raw": "Incurred vs paid date, lag triangle, IBNR. Question it answers: How complete are recent months? Lesson: 7. Claims Lag & IBNR.",
+     "say": "Incurred versus paid date, lag triangle, I B N R. Question it answers: How complete are recent months? Lesson: 7. Claims Lag and I B N R.",
+     "focus": 6,
+     "file": "clips/254a77026f25.mp3",
+     "seconds": 11.1
+    },
+    {
+     "raw": "Basis, high-cost claimants, small denominators. Question it answers: Can this number be trusted? Lesson: 8. Data Quality & Pitfalls.",
+     "say": "Basis, high-cost claimants, small denominators. Question it answers: Can this number be trusted? Lesson: 8. Data Quality and Pitfalls.",
+     "focus": 7,
+     "file": "clips/04c68f1cd7cd.mp3",
+     "seconds": 9.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Metric → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You can now build and explain a health plan dashboard like an analyst.",
+     "say": "You can now build and explain a health plan dashboard like an analyst.",
+     "focus": -1,
+     "file": "clips/8779a7fc6192.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Next, take the **Groupers & Episodes** course to see how claims are grouped into hospital stay types and episodes of care, the tools analysts use to explain changes in cost per unit.",
+     "say": "Next, take the Groupers and Episodes course to see how claims are grouped into hospital stay types and episodes of care, the tools analysts use to explain changes in cost per unit.",
+     "focus": -1,
+     "file": "clips/5e93d8b98bbe.mp3",
+     "seconds": 11.825
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Always state the dashboard basis: incurred period, run-out, IBNR, allowed or paid.",
+     "say": "Always state the dashboard basis: incurred period, run-out, I B N R, allowed or paid.",
+     "focus": 0,
+     "file": "clips/d3b4dfd8e7a9.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "Explain a PMPM change category by category, then split each into utilization and unit cost.",
+     "say": "Explain a P M P M change category by category, then split each into utilization and unit cost.",
+     "focus": 1,
+     "file": "clips/5113244949e0.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "Check run-out, high-cost claimants, membership and benefits before telling the story.",
+     "say": "Check run-out, high-cost claimants, membership and benefits before telling the story.",
+     "focus": 2,
+     "file": "clips/29f1de2ca4b3.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "A flat utilization with rising PMPM points to prices and mix, not to members using more care.",
+     "say": "A flat utilization with rising P M P M points to prices and mix, not to members using more care.",
+     "focus": 3,
+     "file": "clips/0925c4526e51.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

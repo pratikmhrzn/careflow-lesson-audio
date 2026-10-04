@@ -1,0 +1,722 @@
+{
+ "courseId": "medical",
+ "lessonId": "claim-dates",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: Dates: When.",
+     "say": "Lesson 7: Dates: When.",
+     "focus": -1,
+     "file": "clips/db6e1716445d.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "A claim has many dates, and each one answers a different question.",
+     "say": "A claim has many dates, and each one answers a different question.",
+     "focus": -1,
+     "file": "clips/6b30248997ac.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Tell apart service dates, admission and discharge dates, received date and paid date.",
+     "say": "Tell apart service dates, admission and discharge dates, received date and paid date.",
+     "focus": 0,
+     "file": "clips/54311a27c9bb.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "Pick the right date for a report.",
+     "say": "Pick the right date for a report.",
+     "focus": 1,
+     "file": "clips/e966b49a4492.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Explain claim lag and run-out, and why recent months always look too low.",
+     "say": "Explain claim lag and run-out, and why recent months always look too low.",
+     "focus": 2,
+     "file": "clips/930b0a642ef8.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Many dates, one visit.",
+     "say": "Many dates, one visit.",
+     "focus": -1,
+     "file": "clips/6a610e14d8da.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Many dates, one visit",
+   "lines": [
+    {
+     "raw": "Coverage dates in Nepal.",
+     "say": "Coverage dates in Nepal.",
+     "focus": -1,
+     "file": "clips/3a1291bf0cba.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's private policy has a **start date** and an **expiry date**, usually one year later, when it must be renewed.",
+     "say": "Ram's private policy has a start date and an expiry date, usually one year later, when it must be renewed.",
+     "focus": 0,
+     "file": "clips/c135d6c9214c.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "If the policy is not renewed, a hospital visit after the expiry date is not covered, and the insurer rejects Ram's claim.",
+     "say": "If the policy is not renewed, a hospital visit after the expiry date is not covered, and the insurer rejects Ram's claim.",
+     "focus": 1,
+     "file": "clips/7cf74fc7c11b.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "Ram also has a **deadline**: he must send his bills to the insurer within a set time after treatment, or the claim may be refused.",
+     "say": "Ram also has a deadline: he must send his bills to the insurer within a set time after treatment, or the claim may be refused.",
+     "focus": 2,
+     "file": "clips/cfe0240823e2.mp3",
+     "seconds": 8.375
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita can use SSF medical benefits only if she is an active contributor with contributions paid as required.",
+     "say": "Sita can use S S F medical benefits only if she is an active contributor with contributions paid as required.",
+     "focus": 3,
+     "file": "clips/f010a11dba45.mp3",
+     "seconds": 8.2
+    },
+    {
+     "raw": "If she leaves her job and contributions stop, a hospital visit after that date may not be covered.",
+     "say": "If she leaves her job and contributions stop, a hospital visit after that date may not be covered.",
+     "focus": 4,
+     "file": "clips/e90a2f5b01da.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "This is the same idea as a US plan's **start (effective) date** and **end (termination) date**.",
+     "say": "This is the same idea as a U S plan's start (effective) date and end (termination) date.",
+     "focus": 5,
+     "file": "clips/65bded5eff20.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "The Eligibility course covers this in detail.",
+     "say": "The Eligibility course covers this in detail.",
+     "focus": 5,
+     "file": "clips/9e856dc11dea.mp3",
+     "seconds": 3.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Many dates, one visit",
+   "lines": [
+    {
+     "raw": "The idea in one sentence: **service dates say when care happened; the received and paid dates say when the paperwork and the money moved.**",
+     "say": "The idea in one sentence: service dates say when care happened; the received and paid dates say when the paperwork and the money moved.",
+     "focus": -1,
+     "file": "clips/1055c0a1d60f.mp3",
+     "seconds": 8.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The dates on a claim.",
+     "say": "The dates on a claim.",
+     "focus": -1,
+     "file": "clips/c4cf6b9768e4.mp3",
+     "seconds": 1.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The dates on a claim",
+   "lines": [
+    {
+     "raw": "Service from date.",
+     "say": "Service from date.",
+     "focus": 0,
+     "file": "clips/15228f68ae81.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "The day the service started.",
+     "say": "The day the service started.",
+     "focus": 0,
+     "file": "clips/884f9df9fc65.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "For a simple visit, the day of the visit.",
+     "say": "For a simple visit, the day of the visit.",
+     "focus": 0,
+     "file": "clips/93c5a3363382.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Each line has its own; the header shows the first one.",
+     "say": "Each line has its own; the header shows the first one.",
+     "focus": 0,
+     "file": "clips/89a86f84910d.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Service to date.",
+     "say": "Service to date.",
+     "focus": 1,
+     "file": "clips/f2b7d62a3a91.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "The day the service ended.",
+     "say": "The day the service ended.",
+     "focus": 1,
+     "file": "clips/b33742ed6c3e.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Same as the from date for one-day services.",
+     "say": "Same as the from date for one-day services.",
+     "focus": 1,
+     "file": "clips/a8b1d2c0e333.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "The header shows the last one.",
+     "say": "The header shows the last one.",
+     "focus": 1,
+     "file": "clips/22754123c069.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Admission date.",
+     "say": "Admission date.",
+     "focus": 2,
+     "file": "clips/d50f3ad75cdc.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The day the patient was admitted to the hospital (inpatient institutional claims only).",
+     "say": "The day the patient was admitted to the hospital (inpatient institutional claims only).",
+     "focus": 2,
+     "file": "clips/9876dbc2c750.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Discharge date.",
+     "say": "Discharge date.",
+     "focus": 3,
+     "file": "clips/f58c5c81ce62.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "The day the patient left the hospital.",
+     "say": "The day the patient left the hospital.",
+     "focus": 3,
+     "file": "clips/0392f7f2859a.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Received date.",
+     "say": "Received date.",
+     "focus": 4,
+     "file": "clips/15c8df8bcb32.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The day the insurer received the claim.",
+     "say": "The day the insurer received the claim.",
+     "focus": 4,
+     "file": "clips/899f992c34c4.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Added by the insurer.",
+     "say": "Added by the insurer.",
+     "focus": 4,
+     "file": "clips/1c278183332e.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Paid date.",
+     "say": "Paid date.",
+     "focus": 5,
+     "file": "clips/c6457beeba50.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "The day the insurer finished processing the claim and paid it.",
+     "say": "The day the insurer finished processing the claim and paid it.",
+     "focus": 5,
+     "file": "clips/64fb64cda06c.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "Added by the insurer.",
+     "say": "Added by the insurer.",
+     "focus": 5,
+     "file": "clips/1c278183332e.mp3",
+     "seconds": 1.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The dates on a claim",
+   "lines": [
+    {
+     "raw": "In the US: Emily's dates.",
+     "say": "In the U S: Emily's dates.",
+     "focus": -1,
+     "file": "clips/63b21d427680.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Sore throat visit: service from `2025-03-10`, service to `2025-03-10`.",
+     "say": "Sore throat visit: service from 2 0 2 5 dash 0 3 dash 1 0, service to 2 0 2 5 dash 0 3 dash 1 0.",
+     "focus": 0,
+     "file": "clips/6ba4ac50de3b.mp3",
+     "seconds": 10.65
+    },
+    {
+     "raw": "Appendix surgery: admitted `2025-06-02`, discharged `2025-06-04`.",
+     "say": "Appendix surgery: admitted 2 0 2 5 dash 0 6 dash 0 2, discharged 2 0 2 5 dash 0 6 dash 0 4.",
+     "focus": 1,
+     "file": "clips/7a57a844699c.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "That is a **2-day** inpatient stay.",
+     "say": "That is a 2-day inpatient stay.",
+     "focus": 1,
+     "file": "clips/f097c5a0ce14.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "The insurer received the hospital claim on `2025-06-09` and paid it on `2025-06-30`.",
+     "say": "The insurer received the hospital claim on 2 0 2 5 dash 0 6 dash 0 9 and paid it on 2 0 2 5 dash 0 6 dash 3 0.",
+     "focus": 2,
+     "file": "clips/ad91fec7bfa8.mp3",
+     "seconds": 11.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The dates on a claim",
+   "lines": [
+    {
+     "raw": "Length of stay.",
+     "say": "Length of stay.",
+     "focus": -1,
+     "file": "clips/5b56df2f131b.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "Length of stay equals Discharge date − Admission date.",
+     "say": "Length of stay equals Discharge date − Admission date.",
+     "focus": 0,
+     "file": "clips/3b55327f1cd6.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "For example: 4 June − 2 June equals 2 days.",
+     "say": "For example: 4 June − 2 June equals 2 days.",
+     "focus": 1,
+     "file": "clips/4c38e83f92dc.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "The day of discharge is not counted as a hospital day.",
+     "say": "The day of discharge is not counted as a hospital day.",
+     "focus": 1,
+     "file": "clips/d3c7d40c4bec.mp3",
+     "seconds": 4.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Which date do you use?",
+     "say": "Which date do you use?",
+     "focus": -1,
+     "file": "clips/09d1d65ce0ec.mp3",
+     "seconds": 2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Which date do you use?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Was the member covered? Date to use: Service date. Why: The service date must fall **inside** the coverage period. If Emily's insurance ended on 31 May, the June surgery would not be covered.",
+     "say": "Was the member covered? Date to use: Service date. Why: The service date must fall inside the coverage period. If Emily's insurance ended on 31 May, the June surgery would not be covered.",
+     "focus": 0,
+     "file": "clips/806af58a6ea3.mp3",
+     "seconds": 13.35
+    },
+    {
+     "raw": "What care happened in March? Date to use: Service date. Why: Counts care by when it was given.",
+     "say": "What care happened in March? Date to use: Service date. Why: Counts care by when it was given.",
+     "focus": 1,
+     "file": "clips/8e55e8e33640.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "How much money went out in March? Date to use: Paid date. Why: Counts money by when it left the insurer.",
+     "say": "How much money went out in March? Date to use: Paid date. Why: Counts money by when it left the insurer.",
+     "focus": 2,
+     "file": "clips/b8a9f67d08a9.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "Was the claim sent on time? Date to use: Received date − service date. Why: Insurers set a **timely filing** deadline (often 90 days to 1 year). Late claims can be denied.",
+     "say": "Was the claim sent on time? Date to use: Received date − service date. Why: Insurers set a timely filing deadline (often 90 days to 1 year). Late claims can be denied.",
+     "focus": 3,
+     "file": "clips/c7e5c7899d9f.mp3",
+     "seconds": 12.55
+    },
+    {
+     "raw": "How long was the stay? Date to use: Admission and discharge dates. Why: Length of stay.",
+     "say": "How long was the stay? Date to use: Admission and discharge dates. Why: Length of stay.",
+     "focus": 4,
+     "file": "clips/fa301ea99948.mp3",
+     "seconds": 6.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Which date do you use?",
+   "lines": [
+    {
+     "raw": "Same data, different answers.",
+     "say": "Same data, different answers.",
+     "focus": -1,
+     "file": "clips/2013b706e6c9.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Emily's surgery happened in **June** and was paid in **June**.",
+     "say": "Emily's surgery happened in June and was paid in June.",
+     "focus": -1,
+     "file": "clips/7504efb8024c.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "But a 30 May visit paid on 2 July counts as **May** by service date and **July** by paid date.",
+     "say": "But a 30 May visit paid on 2 July counts as May by service date and July by paid date.",
+     "focus": -1,
+     "file": "clips/7d0cde677eb2.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "A report by service date and a report by paid date will never match exactly, and both are correct.",
+     "say": "A report by service date and a report by paid date will never match exactly, and both are correct.",
+     "focus": -1,
+     "file": "clips/da5199ffa3eb.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "Always say which date you used.",
+     "say": "Always say which date you used.",
+     "focus": -1,
+     "file": "clips/c4e3d6c5e5f3.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Claim lag and run-out.",
+     "say": "Claim lag and run-out.",
+     "focus": -1,
+     "file": "clips/c9d9438a60e2.mp3",
+     "seconds": 2.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Claim lag and run-out",
+   "lines": [
+    {
+     "raw": "Claims do not arrive the moment care happens.",
+     "say": "Claims do not arrive the moment care happens.",
+     "focus": -1,
+     "file": "clips/41eb55ab57da.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "A provider may take days or weeks to send the bill, and the insurer then takes time to pay it.",
+     "say": "A provider may take days or weeks to send the bill, and the insurer then takes time to pay it.",
+     "focus": -1,
+     "file": "clips/36e21ce8552e.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "This delay is called **claim lag**.",
+     "say": "This delay is called claim lag.",
+     "focus": -1,
+     "file": "clips/1331f38ace2b.mp3",
+     "seconds": 2.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Claim lag and run-out",
+   "lines": [
+    {
+     "raw": "Claim lag.",
+     "say": "Claim lag.",
+     "focus": -1,
+     "file": "clips/d71816d87446.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Lag (days) equals Paid date − Service date.",
+     "say": "Lag (days) equals Paid date − Service date.",
+     "focus": 0,
+     "file": "clips/d93b9dcf8f47.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "For example: Emily's hospital claim: 30 June − 2 June equals 28 days.",
+     "say": "For example: Emily's hospital claim: 30 June − 2 June equals 28 days.",
+     "focus": 1,
+     "file": "clips/941ba71452f5.mp3",
+     "seconds": 6.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Claim lag and run-out",
+   "lines": [
+    {
+     "raw": "Because of lag, the most recent months are always **incomplete**.",
+     "say": "Because of lag, the most recent months are always incomplete.",
+     "focus": -1,
+     "file": "clips/97affbcfe53b.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "If you run a report on 1 July, many June visits have not been paid yet, so June looks cheaper than it really was.",
+     "say": "If you run a report on 1 July, many June visits have not been paid yet, so June looks cheaper than it really was.",
+     "focus": -1,
+     "file": "clips/c587d4232075.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "The months of waiting for late claims to arrive are called the **run-out** period.",
+     "say": "The months of waiting for late claims to arrive are called the run-out period.",
+     "focus": -1,
+     "file": "clips/d5ae4a133892.mp3",
+     "seconds": 4.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Claim lag and run-out",
+   "lines": [
+    {
+     "raw": "Example: total paid for March care, measured at different times.",
+     "say": "Example: total paid for March care, measured at different times.",
+     "focus": -1,
+     "file": "clips/f2f357eeaae7.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "1 April. March total seen: $40,000. Share of the final total: 40%.",
+     "say": "1 April. March total seen: 40000 dollars. Share of the final total: 40 percent.",
+     "focus": 0,
+     "file": "clips/ab20d7663b9f.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "1 May. March total seen: $80,000. Share of the final total: 80%.",
+     "say": "1 May. March total seen: 80000 dollars. Share of the final total: 80 percent.",
+     "focus": 1,
+     "file": "clips/0e9e52c5e7ec.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "1 June. March total seen: $95,000. Share of the final total: 95%.",
+     "say": "1 June. March total seen: 95000 dollars. Share of the final total: 95 percent.",
+     "focus": 2,
+     "file": "clips/a49abb70cf08.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "1 September. March total seen: $100,000. Share of the final total: About 100% (final).",
+     "say": "1 September. March total seen: 100000 dollars. Share of the final total: About 100 percent (final).",
+     "focus": 3,
+     "file": "clips/28e7895f444b.mp3",
+     "seconds": 8.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Claim lag and run-out",
+   "lines": [
+    {
+     "raw": "Why this matters for data.",
+     "say": "Why this matters for data.",
+     "focus": -1,
+     "file": "clips/c8f083c01ae7.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Analysts usually wait for a few months of **run-out** (often 3) before trusting a month's numbers, or they label the recent months as \"incomplete\".",
+     "say": "Analysts usually wait for a few months of run-out (often 3) before trusting a month's numbers, or they label the recent months as \"incomplete\".",
+     "focus": -1,
+     "file": "clips/b67db0f29a6d.mp3",
+     "seconds": 9.325
+    },
+    {
+     "raw": "Never compare a fresh month with an old, fully paid month and conclude that costs have dropped.",
+     "say": "Never compare a fresh month with an old, fully paid month and conclude that costs have dropped.",
+     "focus": -1,
+     "file": "clips/7ded876f6123.mp3",
+     "seconds": 6
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Service dates say when care happened; received and paid dates are added by the insurer.",
+     "say": "Service dates say when care happened; received and paid dates are added by the insurer.",
+     "focus": 0,
+     "file": "clips/a09e35fe7730.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "The service date must fall inside the member's coverage period.",
+     "say": "The service date must fall inside the member's coverage period.",
+     "focus": 1,
+     "file": "clips/341623376879.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "Use service date for \"what care happened\", paid date for \"what money went out\".",
+     "say": "Use service date for \"what care happened\", paid date for \"what money went out\".",
+     "focus": 2,
+     "file": "clips/0a8bb389db0e.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "They give different answers.",
+     "say": "They give different answers.",
+     "focus": 2,
+     "file": "clips/ca4e8ce9ec22.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Length of stay = discharge date − admission date.",
+     "say": "Length of stay = discharge date − admission date.",
+     "focus": 3,
+     "file": "clips/f6fda2880de9.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "Claim lag means recent months are incomplete; analysts wait for run-out before trusting them.",
+     "say": "Claim lag means recent months are incomplete; analysts wait for run-out before trusting them.",
+     "focus": 4,
+     "file": "clips/b17a406f1c54.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

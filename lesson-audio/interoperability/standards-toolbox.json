@@ -1,0 +1,813 @@
+{
+ "courseId": "interoperability",
+ "lessonId": "standards-toolbox",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: The Standards Toolbox.",
+     "say": "Lesson 4: The Standards Toolbox.",
+     "focus": -1,
+     "file": "clips/29c279c2e28e.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "X12, NCPDP, HL7 v2 and the code sets that give data its meaning.",
+     "say": "X12, N C P D P, HL7 v2 and the code sets that give data its meaning.",
+     "focus": -1,
+     "file": "clips/5a7ace0f8b64.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Match each main US data standard to who uses it and for what.",
+     "say": "Match each main U S data standard to who uses it and for what.",
+     "focus": 0,
+     "file": "clips/c42102db19a9.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Tell the business data X12 carries from the clinical events HL7 v2 carries.",
+     "say": "Tell the business data X12 carries from the clinical events HL7 v2 carries.",
+     "focus": 1,
+     "file": "clips/19c1aee47655.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Recognise HL7 v2 message types ADT, ORM and ORU.",
+     "say": "Recognise HL7 v2 message types A D T, O R M and O R U.",
+     "focus": 2,
+     "file": "clips/3163bb3fa3d1.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Name the code sets that give shared meaning: ICD-10, CPT, LOINC, SNOMED CT, RxNorm and NDC.",
+     "say": "Name the code sets that give shared meaning: I C D 10, C P T, L O I N C, SNOMED C T, RxNorm and N D C.",
+     "focus": 3,
+     "file": "clips/86e09883edc2.mp3",
+     "seconds": 9.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Different jobs, different tools.",
+     "say": "Different jobs, different tools.",
+     "focus": -1,
+     "file": "clips/07c79c0fa840.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Different jobs, different tools",
+   "lines": [
+    {
+     "raw": "The rules in lessons 2 and 3 say data must be shared.",
+     "say": "The rules in lessons 2 and 3 say data must be shared.",
+     "focus": -1,
+     "file": "clips/8c78f0f5916c.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "**Standards** say how.",
+     "say": "Standards say how.",
+     "focus": -1,
+     "file": "clips/d41b64d971bf.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "There is no single US health data standard.",
+     "say": "There is no single U S health data standard.",
+     "focus": -1,
+     "file": "clips/d44135483ef6.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "Instead there is a **toolbox**: each tool grew up for one kind of job, and each is still used every day.",
+     "say": "Instead there is a toolbox: each tool grew up for one kind of job, and each is still used every day.",
+     "focus": -1,
+     "file": "clips/78e219dba6c7.mp3",
+     "seconds": 6.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Different jobs, different tools",
+   "lines": [
+    {
+     "raw": "Like forms at a government office.",
+     "say": "Like forms at a government office.",
+     "focus": -1,
+     "file": "clips/272a09785921.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "At a Nepali government office there is one form for a citizenship certificate, another for a passport and another for land registration.",
+     "say": "At a Nepali government office there is one form for a citizenship certificate, another for a passport and another for land registration.",
+     "focus": -1,
+     "file": "clips/582279ae386c.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "Each form has fixed boxes in a fixed order.",
+     "say": "Each form has fixed boxes in a fixed order.",
+     "focus": -1,
+     "file": "clips/4111d66a24d5.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Health data standards are the same idea: a fixed \"form\" for each job, but sent between computers.",
+     "say": "Health data standards are the same idea: a fixed \"form\" for each job, but sent between computers.",
+     "focus": -1,
+     "file": "clips/cc965571f4ba.mp3",
+     "seconds": 7.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Different jobs, different tools",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram's and Sita's papers.",
+     "say": "In Nepal: Ram's and Sita's papers.",
+     "focus": -1,
+     "file": "clips/1218b0007a47.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's insurer may ask for its own claim form, plus the hospital's bill, the prescription and the lab report.",
+     "say": "Ram's insurer may ask for its own claim form, plus the hospital's bill, the prescription and the lab report.",
+     "focus": 0,
+     "file": "clips/1eaae45dcc4a.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "Each paper has a different layout, so a person must read and retype them.",
+     "say": "Each paper has a different layout, so a person must read and retype them.",
+     "focus": 0,
+     "file": "clips/5dba05d6afed.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF asks its listed hospitals to send Sita's claim with set details, so every SSF claim has a similar shape.",
+     "say": "S S F asks its listed hospitals to send Sita's claim with set details, so every S S F claim has a similar shape.",
+     "focus": 1,
+     "file": "clips/ab050e49c33f.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "That is the start of a \"standard\", even if parts of it still travel as scanned papers.",
+     "say": "That is the start of a \"standard\", even if parts of it still travel as scanned papers.",
+     "focus": 1,
+     "file": "clips/b802256dbc51.mp3",
+     "seconds": 5.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "X12 EDI: the insurance business.",
+     "say": "X12 E D I: the insurance business.",
+     "focus": -1,
+     "file": "clips/e6bedea95740.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "X12 EDI: the insurance business",
+   "lines": [
+    {
+     "raw": "**X12 EDI** (Electronic Data Interchange) files carry the **business of insurance**: who is enrolled, who is covered, what was billed and what was paid.",
+     "say": "X12 E D I (Electronic Data Interchange) files carry the business of insurance: who is enrolled, who is covered, what was billed and what was paid.",
+     "focus": -1,
+     "file": "clips/5255765ca4f1.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "HIPAA made them mandatory for these jobs.",
+     "say": "HIPAA made them mandatory for these jobs.",
+     "focus": -1,
+     "file": "clips/02ea41c09f50.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Each transaction has a number.",
+     "say": "Each transaction has a number.",
+     "focus": -1,
+     "file": "clips/a7653ca8c030.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "X12 EDI: the insurance business",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`834`. Job: Enrollment. Sent from → to: Employer or exchange → Plan. Plain example: Bluebonnet Logistics adds Emily's husband Daniel to her plan from 1 July 2025.",
+     "say": "8 34. Job: Enrollment. Sent from to to: Employer or exchange to Plan. Plain example: Bluebonnet Logistics adds Emily's husband Daniel to her plan from 1 July 2025.",
+     "focus": 0,
+     "file": "clips/424a35c54159.mp3",
+     "seconds": 14.2
+    },
+    {
+     "raw": "`270` / `271`. Job: Eligibility question and answer. Sent from → to: Provider ↔ Plan. Plain example: \"Is card ID 48291307-01 covered today?\" \"Yes, PPO, $25 office copay.\".",
+     "say": "2 70 or 2 71. Job: Eligibility question and answer. Sent from to to: Provider ↔ Plan. Plain example: \"Is card I D 4 8 2 9 1 3 0 7 dash 0 1 covered today?\" \"Yes, P P O, 25 dollars office copay.\".",
+     "focus": 1,
+     "file": "clips/b524354edd56.mp3",
+     "seconds": 19.45
+    },
+    {
+     "raw": "`276` / `277`. Job: Claim status question and answer. Sent from → to: Provider ↔ Plan. Plain example: \"What happened to our claim?\" \"Paid on 25 March.\".",
+     "say": "2 76 or 2 77. Job: Claim status question and answer. Sent from to to: Provider ↔ Plan. Plain example: \"What happened to our claim?\" \"Paid on 25 March.\".",
+     "focus": 2,
+     "file": "clips/a319e053fb4b.mp3",
+     "seconds": 13.65
+    },
+    {
+     "raw": "`278`. Job: Prior authorisation request and response. Sent from → to: Provider ↔ Plan. Plain example: \"May we do this MRI?\" \"Approved.\".",
+     "say": "2 78. Job: Prior authorisation request and response. Sent from to to: Provider ↔ Plan. Plain example: \"May we do this M R I?\" \"Approved.\".",
+     "focus": 3,
+     "file": "clips/d80bf30d9b18.mp3",
+     "seconds": 12.25
+    },
+    {
+     "raw": "`837`. Job: Claim (837P doctors, 837I hospitals, 837D dental). Sent from → to: Provider → Plan. Plain example: A clinic bills Robert's plan for an office visit.",
+     "say": "8 37. Job: Claim (8 3 7 P doctors, 8 3 7 I hospitals, 8 3 7 D dental). Sent from to to: Provider to Plan. Plain example: A clinic bills Robert's plan for an office visit.",
+     "focus": 4,
+     "file": "clips/c304f3a57eb7.mp3",
+     "seconds": 15.675
+    },
+    {
+     "raw": "`835`. Job: Payment and remittance advice. Sent from → to: Plan → Provider. Plain example: \"We paid $77 on that claim, and here is why\".",
+     "say": "8 35. Job: Payment and remittance advice. Sent from to to: Plan to Provider. Plain example: \"We paid 77 dollars on that claim, and here is why\".",
+     "focus": 5,
+     "file": "clips/9e205a5eed31.mp3",
+     "seconds": 11.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "NCPDP: the pharmacy counter.",
+     "say": "N C P D P: the pharmacy counter.",
+     "focus": -1,
+     "file": "clips/eb255c580015.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "NCPDP: the pharmacy counter",
+   "lines": [
+    {
+     "raw": "Pharmacies need an answer in **seconds** while the patient waits.",
+     "say": "Pharmacies need an answer in seconds while the patient waits.",
+     "focus": -1,
+     "file": "clips/2fb5e853d95f.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "They use **NCPDP** standards instead of X12.",
+     "say": "They use N C P D P standards instead of X12.",
+     "focus": -1,
+     "file": "clips/6f149597262b.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "The **Telecommunication Standard** carries pharmacy claims to the pharmacy benefit manager.",
+     "say": "The Telecommunication Standard carries pharmacy claims to the pharmacy benefit manager.",
+     "focus": -1,
+     "file": "clips/075ecfa93890.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "**NCPDP SCRIPT** carries electronic prescriptions from the doctor's EHR to the pharmacy.",
+     "say": "N C P D P SCRIPT carries electronic prescriptions from the doctor's E H R to the pharmacy.",
+     "focus": -1,
+     "file": "clips/f7c3c3f1d27e.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "The Pharmacy course covers both.",
+     "say": "The Pharmacy course covers both.",
+     "focus": -1,
+     "file": "clips/bc1cf4fa8f3e.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "HL7 v2: events inside hospitals and labs.",
+     "say": "HL7 v2: events inside hospitals and labs.",
+     "focus": -1,
+     "file": "clips/529a9d24cd40.mp3",
+     "seconds": 4.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "HL7 v2: events inside hospitals and labs",
+   "lines": [
+    {
+     "raw": "**HL7 version 2** is the old workhorse of clinical systems, used since the late 1980s and 1990s.",
+     "say": "HL7 version 2 is the old workhorse of clinical systems, used since the late 1980s and 1990s.",
+     "focus": -1,
+     "file": "clips/f8da3112d982.mp3",
+     "seconds": 8.525
+    },
+    {
+     "raw": "Each **message** reports an **event**: a patient arrived, a test was ordered, a result is ready.",
+     "say": "Each message reports an event: a patient arrived, a test was ordered, a result is ready.",
+     "focus": -1,
+     "file": "clips/15aaa03b580b.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "A message is plain text in lines called **segments**, with fields split by the `|` (pipe) character.",
+     "say": "A message is plain text in lines called segments, with fields split by the | (pipe) character.",
+     "focus": -1,
+     "file": "clips/43b6b865c86c.mp3",
+     "seconds": 5.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "HL7 v2: events inside hospitals and labs",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`ADT`. Stands for: Admit, Discharge, Transfer. Event: A patient registers, is admitted, moves ward or goes home. Example: `ADT^A04` registers an ER patient; `ADT^A03` says he went home.",
+     "say": "A D T. Stands for: Admit, Discharge, Transfer. Event: A patient registers, is admitted, moves ward or goes home. Example: A D T ^ A 0 4 registers an E R patient; A D T ^ A 0 3 says he went home.",
+     "focus": 0,
+     "file": "clips/c7ecbcb782b3.mp3",
+     "seconds": 17.025
+    },
+    {
+     "raw": "`ORM`. Stands for: Order message. Event: A doctor orders a test or service. Example: Dr. Nguyen orders an HbA1c test for Robert.",
+     "say": "O R M. Stands for: Order message. Event: A doctor orders a test or service. Example: Doctor Nguyen orders an H b A 1 c test for Robert.",
+     "focus": 1,
+     "file": "clips/f6c87f6536a1.mp3",
+     "seconds": 11.475
+    },
+    {
+     "raw": "`ORU`. Stands for: Observation Result. Event: Results are ready. Example: The lab sends Robert's HbA1c result back to the clinic.",
+     "say": "O R U. Stands for: Observation Result. Event: Results are ready. Example: The lab sends Robert's H b A 1 c result back to the clinic.",
+     "focus": 2,
+     "file": "clips/939906f17a41.mp3",
+     "seconds": 10.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "HL7 v2: events inside hospitals and labs",
+   "lines": [
+    {
+     "raw": "A simplified HL7 v2 ADT^A03 (discharge) message for Robert (fictional IDs).",
+     "say": "A simplified HL7 v2 A D T ^ A 0 3 (discharge) message for Robert (fictional I D's).",
+     "focus": -1,
+     "file": "clips/578f6dc3cf44.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "HL7 v2: events inside hospitals and labs",
+   "lines": [
+    {
+     "raw": "Reading the message type field.",
+     "say": "Reading the message type field.",
+     "focus": -1,
+     "file": "clips/5e51bde2b2f7.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "ADT: **Message type**: an admit, discharge or transfer event.",
+     "say": "A D T: Message type: an admit, discharge or transfer event.",
+     "focus": 0,
+     "file": "clips/a89682000592.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "^: Splits a field into smaller parts.",
+     "say": "^: Splits a field into smaller parts.",
+     "focus": 1,
+     "file": "clips/8bd843efa511.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "A03: **Trigger event**: A03 means **discharge** (the visit ended).",
+     "say": "A03: Trigger event: A03 means discharge (the visit ended).",
+     "focus": 2,
+     "file": "clips/fb4702b9745b.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "A01 is admit, A04 is register an outpatient or ER patient, A08 is update patient details.",
+     "say": "A01 is admit, A04 is register an outpatient or E R patient, A08 is update patient details.",
+     "focus": 2,
+     "file": "clips/e289b5bf6d94.mp3",
+     "seconds": 9.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "HL7 v2: events inside hospitals and labs",
+   "lines": [
+    {
+     "raw": "Same message, slightly different everywhere.",
+     "say": "Same message, slightly different everywhere.",
+     "focus": -1,
+     "file": "clips/4713adbbfa4e.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "HL7 v2 is flexible, so each hospital fills it a little differently.",
+     "say": "HL7 v2 is flexible, so each hospital fills it a little differently.",
+     "focus": -1,
+     "file": "clips/ff404d0833b8.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Analysts often keep a mapping per sender.",
+     "say": "Analysts often keep a mapping per sender.",
+     "focus": -1,
+     "file": "clips/b7c077884c04.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "In this example, `PID` carries the **hospital's own patient number** (`BC448210`), not Robert's insurance ID, and the `PV1` line says patient class `E` (emergency), the visit number, and the arrival and leaving times.",
+     "say": "In this example, P I D carries the hospital's own patient number (B C 4 4 8 2 1 0), not Robert's insurance I D, and the PV1 line says patient class E (emergency), the visit number, and the arrival and leaving times.",
+     "focus": -1,
+     "file": "clips/f4d43378ed2f.mp3",
+     "seconds": 16.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "HL7 v2: events inside hospitals and labs",
+   "lines": [
+    {
+     "raw": "Whole documents: C-CDA.",
+     "say": "Whole documents: C-CDA.",
+     "focus": -1,
+     "file": "clips/8d8023bed36c.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Sometimes a system needs a whole clinical **document**, such as a discharge summary, rather than one event.",
+     "say": "Sometimes a system needs a whole clinical document, such as a discharge summary, rather than one event.",
+     "focus": -1,
+     "file": "clips/a2e37710852e.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "That is the job of **C-CDA** (Consolidated Clinical Document Architecture), which has its own lesson next.",
+     "say": "That is the job of C-CDA (Consolidated Clinical Document Architecture), which has its own lesson next.",
+     "focus": -1,
+     "file": "clips/fc67c425c92a.mp3",
+     "seconds": 7.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who uses which standard.",
+     "say": "Who uses which standard.",
+     "focus": -1,
+     "file": "clips/9ef0534ea792.mp3",
+     "seconds": 1.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Who uses which standard",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "X12 EDI. Main users: Providers, plans, employers, clearinghouses. Typical data: Enrollment, eligibility, claims, payments, prior auth. Format style: Fixed segments with `*` and `~` separators.",
+     "say": "X12 E D I. Main users: Providers, plans, employers, clearinghouses. Typical data: Enrollment, eligibility, claims, payments, prior auth. Format style: Fixed segments with * and ~ separators.",
+     "focus": 0,
+     "file": "clips/4a0cd3925f34.mp3",
+     "seconds": 15.65
+    },
+    {
+     "raw": "NCPDP. Main users: Pharmacies, PBMs, prescribers. Typical data: Pharmacy claims, e-prescriptions. Format style: Fixed fields, real-time.",
+     "say": "N C P D P. Main users: Pharmacies, P B M's, prescribers. Typical data: Pharmacy claims, e-prescriptions. Format style: Fixed fields, real-time.",
+     "focus": 1,
+     "file": "clips/218c7e91563a.mp3",
+     "seconds": 12.2
+    },
+    {
+     "raw": "HL7 v2. Main users: Hospitals, labs, clinics. Typical data: Admissions, orders, results. Format style: Pipe-separated text messages.",
+     "say": "HL7 v2. Main users: Hospitals, labs, clinics. Typical data: Admissions, orders, results. Format style: Pipe-separated text messages.",
+     "focus": 2,
+     "file": "clips/c34b2d1e4018.mp3",
+     "seconds": 11.5
+    },
+    {
+     "raw": "C-CDA. Main users: EHRs, health information exchanges. Typical data: Summaries, discharge documents. Format style: XML documents (lesson 5).",
+     "say": "C-CDA. Main users: E H R's, health information exchanges. Typical data: Summaries, discharge documents. Format style: X M L documents (lesson 5).",
+     "focus": 3,
+     "file": "clips/6dbe188f1866.mp3",
+     "seconds": 12.75
+    },
+    {
+     "raw": "FHIR. Main users: Apps, plans (CMS APIs), EHRs. Typical data: Small \"resources\" over web APIs. Format style: JSON or XML over the web (lesson 6).",
+     "say": "F H I R. Main users: Apps, plans (C M S A P I's), E H R's. Typical data: Small \"resources\" over web A P I's. Format style: J S O N or X M L over the web (lesson 6).",
+     "focus": 4,
+     "file": "clips/d169c4b82085.mp3",
+     "seconds": 15.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Code sets: the shared dictionary.",
+     "say": "Code sets: the shared dictionary.",
+     "focus": -1,
+     "file": "clips/ecb7caee9d44.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Code sets: the shared dictionary",
+   "lines": [
+    {
+     "raw": "A format tells you **where** a value goes.",
+     "say": "A format tells you where a value goes.",
+     "focus": -1,
+     "file": "clips/c0ad5739cbf5.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "A **code set** tells you what it **means**.",
+     "say": "A code set tells you what it means.",
+     "focus": -1,
+     "file": "clips/49cb4751fc6a.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Without code sets, one system writes \"sugar test\", another \"A1C\", another \"glycated haemoglobin\".",
+     "say": "Without code sets, one system writes \"sugar test\", another \"A1C\", another \"glycated haemoglobin\".",
+     "focus": -1,
+     "file": "clips/e6fe31e5de59.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "With a code, they all mean exactly the same thing.",
+     "say": "With a code, they all mean exactly the same thing.",
+     "focus": -1,
+     "file": "clips/06d8538d29d9.mp3",
+     "seconds": 3.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Code sets: the shared dictionary",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**ICD-10-CM**. Used for: Diagnoses. Example: `E11.9` type 2 diabetes without complications. Where you see it: Claims, EHR problem lists.",
+     "say": "I C D 10-CM. Used for: Diagnoses. Example: E 1 1 . 9 type 2 diabetes without complications. Where you see it: Claims, E H R problem lists.",
+     "focus": 0,
+     "file": "clips/e4dc2636c0bd.mp3",
+     "seconds": 12.6
+    },
+    {
+     "raw": "**CPT** / **HCPCS**. Used for: Procedures and services billed. Example: `99214` office visit, `83036` HbA1c test. Where you see it: Claims.",
+     "say": "C P T or H C P C S. Used for: Procedures and services billed. Example: 9 9 2 1 4 office visit, 8 3 0 3 6 H b A 1 c test. Where you see it: Claims.",
+     "focus": 1,
+     "file": "clips/9fec5bbce771.mp3",
+     "seconds": 15
+    },
+    {
+     "raw": "**LOINC**. Used for: Lab tests and clinical measurements. Example: `4548-4` HbA1c. Where you see it: Lab results (HL7 ORU, FHIR Observation).",
+     "say": "L O I N C. Used for: Lab tests and clinical measurements. Example: 4 5 4 8 dash 4 H b A 1 c. Where you see it: Lab results (HL7 O R U, F H I R Observation).",
+     "focus": 2,
+     "file": "clips/89ea8de86711.mp3",
+     "seconds": 15.025
+    },
+    {
+     "raw": "**SNOMED CT**. Used for: Detailed clinical terms. Example: A concept for \"type 2 diabetes mellitus\". Where you see it: EHR problem lists, clinical notes.",
+     "say": "SNOMED C T. Used for: Detailed clinical terms. Example: A concept for \"type 2 diabetes mellitus\". Where you see it: E H R problem lists, clinical notes.",
+     "focus": 3,
+     "file": "clips/8e9c788c3054.mp3",
+     "seconds": 12.2
+    },
+    {
+     "raw": "**RxNorm**. Used for: Medicines in clinical systems. Example: A code for \"metformin 500 mg oral tablet\". Where you see it: EHR medication lists, e-prescriptions, FHIR.",
+     "say": "RxNorm. Used for: Medicines in clinical systems. Example: A code for \"metformin 500 mg oral tablet\". Where you see it: E H R medication lists, e-prescriptions, F H I R.",
+     "focus": 4,
+     "file": "clips/093a49a1d74f.mp3",
+     "seconds": 14.625
+    },
+    {
+     "raw": "**NDC**. Used for: The exact drug package. Example: An 11-digit code for one maker's bottle of metformin. Where you see it: Pharmacy claims.",
+     "say": "N D C. Used for: The exact drug package. Example: An 11-digit code for one maker's bottle of metformin. Where you see it: Pharmacy claims.",
+     "focus": 5,
+     "file": "clips/628df6e887f8.mp3",
+     "seconds": 10.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Code sets: the shared dictionary",
+   "lines": [
+    {
+     "raw": "Claims codes vs clinical codes.",
+     "say": "Claims codes versus clinical codes.",
+     "focus": -1,
+     "file": "clips/c0552fc5f244.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Claims mostly use **ICD-10, CPT/HCPCS and NDC** (made for billing).",
+     "say": "Claims mostly use I C D 10, CPT/HCPCS and N D C (made for billing).",
+     "focus": -1,
+     "file": "clips/7b115b5008b5.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "Clinical systems add **LOINC, SNOMED CT and RxNorm** (made for care).",
+     "say": "Clinical systems add L O I N C, SNOMED C T and RxNorm (made for care).",
+     "focus": -1,
+     "file": "clips/ba1271ec9623.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Joining the two worlds, for example matching an NDC on a pharmacy claim to an RxNorm code in an EHR, is a common analyst task.",
+     "say": "Joining the two worlds, for example matching an N D C on a pharmacy claim to an RxNorm code in an E H R, is a common analyst task.",
+     "focus": -1,
+     "file": "clips/30287ed55749.mp3",
+     "seconds": 9.95
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**X12 EDI** runs the insurance business: 834, 270/271, 276/277, 278, 837, 835.",
+     "say": "X12 E D I runs the insurance business: 8 34, 2 70/2 71, 2 76/2 77, 2 78, 8 37, 8 35.",
+     "focus": 0,
+     "file": "clips/499ab4da9c54.mp3",
+     "seconds": 13.1
+    },
+    {
+     "raw": "**NCPDP** runs the pharmacy counter: claims and e-prescriptions.",
+     "say": "N C P D P runs the pharmacy counter: claims and e-prescriptions.",
+     "focus": 1,
+     "file": "clips/dfcf99e08bfd.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "**HL7 v2** carries clinical events: **ADT** (admit, discharge, transfer), **ORM** (orders), **ORU** (results).",
+     "say": "HL7 v2 carries clinical events: A D T (admit, discharge, transfer), O R M (orders), O R U (results).",
+     "focus": 2,
+     "file": "clips/128cefe85b15.mp3",
+     "seconds": 9.025
+    },
+    {
+     "raw": "**C-CDA** carries whole clinical documents (lesson 5); **FHIR** is the modern web API standard (lesson 6).",
+     "say": "C-CDA carries whole clinical documents (lesson 5); F H I R is the modern web A P I standard (lesson 6).",
+     "focus": 3,
+     "file": "clips/225979ae0880.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "Code sets (ICD-10, CPT, LOINC, SNOMED CT, RxNorm, NDC) give data shared **meaning**.",
+     "say": "Code sets (I C D 10, C P T, L O I N C, SNOMED C T, RxNorm, N D C) give data shared meaning.",
+     "focus": 4,
+     "file": "clips/f57533e4f2fb.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

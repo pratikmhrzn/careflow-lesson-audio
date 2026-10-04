@@ -1,0 +1,841 @@
+{
+ "courseId": "dental",
+ "lessonId": "cdt-codes",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: Procedure: CDT Codes.",
+     "say": "Lesson 4: Procedure: C D T Codes.",
+     "focus": -1,
+     "file": "clips/88800e11b59b.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Doctors use CPT codes.",
+     "say": "Doctors use C P T codes.",
+     "focus": -1,
+     "file": "clips/a80dc5b6dcdf.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Dentists use their own list: the D-codes.",
+     "say": "Dentists use their own list: the D-codes.",
+     "focus": -1,
+     "file": "clips/80398ce561c3.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Recognise a CDT code and know who maintains it.",
+     "say": "Recognise a C D T code and know who maintains it.",
+     "focus": 0,
+     "file": "clips/bf01c70cdc5e.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Name the main CDT categories from the first digit after the D.",
+     "say": "Name the main C D T categories from the first digit after the D.",
+     "focus": 1,
+     "file": "clips/d285951f47a2.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Read common codes for check-ups, cleanings, fillings, root canals, crowns and extractions.",
+     "say": "Read common codes for check-ups, cleanings, fillings, root canals, crowns and extractions.",
+     "focus": 2,
+     "file": "clips/d820a7387073.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "Know how CDT codes link to the 100-80-50 coverage groups.",
+     "say": "Know how C D T codes link to the 100-80-50 coverage groups.",
+     "focus": 3,
+     "file": "clips/9ba14193001d.mp3",
+     "seconds": 5.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A rate list just for teeth.",
+     "say": "A rate list just for teeth.",
+     "focus": -1,
+     "file": "clips/b126597b3251.mp3",
+     "seconds": 2.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "A rate list just for teeth",
+   "lines": [
+    {
+     "raw": "A Nepali dental clinic has its own **rate list** on the wall: \"Check-up – Rs 500\", \"Scaling – Rs 1,500\", \"Filling – Rs 2,000\", \"Root canal – Rs 8,000\".",
+     "say": "A Nepali dental clinic has its own rate list on the wall: \"Check-up – Rs 500\", \"Scaling – Rs 1,500\", \"Filling – Rs 2,000\", \"Root canal – Rs 8,000\".",
+     "focus": -1,
+     "file": "clips/3e1eef01a877.mp3",
+     "seconds": 12.6
+    },
+    {
+     "raw": "In the US, every dental service also has a standard **code**, so every dentist and every dental insurer means exactly the same thing.",
+     "say": "In the U S, every dental service also has a standard code, so every dentist and every dental insurer means exactly the same thing.",
+     "focus": -1,
+     "file": "clips/4d3ddb67c7a4.mp3",
+     "seconds": 9.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "A rate list just for teeth",
+   "lines": [
+    {
+     "raw": "These codes are called **CDT** codes: **Current Dental Terminology**.",
+     "say": "These codes are called C D T codes: Current Dental Terminology.",
+     "focus": -1,
+     "file": "clips/7ba5d05bfe0d.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "They are owned and updated **every year** by the **American Dental Association (ADA)**, and are the official code set for dental claims in the US under HIPAA.",
+     "say": "They are owned and updated every year by the American Dental Association (A D A), and are the official code set for dental claims in the U S under HIPAA.",
+     "focus": -1,
+     "file": "clips/136110e0ce64.mp3",
+     "seconds": 10.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "A rate list just for teeth",
+   "lines": [
+    {
+     "raw": "Same supermarket, different shelf.",
+     "say": "Same supermarket, different shelf.",
+     "focus": -1,
+     "file": "clips/79caaa8131e9.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Procedure codes are like the **barcodes of healthcare services** (the Medical course explains them in detail).",
+     "say": "Procedure codes are like the barcodes of healthcare services (the Medical course explains them in detail).",
+     "focus": -1,
+     "file": "clips/2e997d04040b.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "CDT codes are the barcodes on the **dental shelf**.",
+     "say": "C D T codes are the barcodes on the dental shelf.",
+     "focus": -1,
+     "file": "clips/ac41ca032b36.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Same idea, different list.",
+     "say": "Same idea, different list.",
+     "focus": -1,
+     "file": "clips/6dcd3a77bc16.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What a CDT code looks like.",
+     "say": "What a C D T code looks like.",
+     "focus": -1,
+     "file": "clips/42cbb3468ce9.mp3",
+     "seconds": 2.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "What a CDT code looks like",
+   "lines": [
+    {
+     "raw": "Every CDT code is **5 characters**: the letter **D** followed by **4 digits**.",
+     "say": "Every C D T code is 5 characters: the letter D followed by 4 digits.",
+     "focus": -1,
+     "file": "clips/4e79e97e3aba.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "The **first digit** after the D tells you the broad category of work.",
+     "say": "The first digit after the D tells you the broad category of work.",
+     "focus": -1,
+     "file": "clips/745c80b7fe76.mp3",
+     "seconds": 4.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "What a CDT code looks like",
+   "lines": [
+    {
+     "raw": "A two-surface filling on a back tooth.",
+     "say": "A two-surface filling on a back tooth.",
+     "focus": -1,
+     "file": "clips/c2be0619e188.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "D: **Dental** code (CDT).",
+     "say": "D: Dental code (C D T).",
+     "focus": 0,
+     "file": "clips/76ea00309711.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Every CDT code starts with D.",
+     "say": "Every C D T code starts with D.",
+     "focus": 0,
+     "file": "clips/0822a67395dd.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "2: Category: **restorative** (fixing a damaged tooth, e.g. fillings, crowns).",
+     "say": "2: Category: restorative (fixing a damaged tooth, for example fillings, crowns).",
+     "focus": 1,
+     "file": "clips/0ae44663759d.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "392: The exact service: **resin-based composite** (tooth-coloured) filling, **two surfaces**, **posterior** (back tooth).",
+     "say": "392: The exact service: resin-based composite (tooth-coloured) filling, two surfaces, posterior (back tooth).",
+     "focus": 2,
+     "file": "clips/3b4f44109684.mp3",
+     "seconds": 8.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "What a CDT code looks like",
+   "lines": [
+    {
+     "raw": "D at the front?",
+     "say": "D at the front?",
+     "focus": -1,
+     "file": "clips/c980e1131e7a.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Think teeth.",
+     "say": "Think teeth.",
+     "focus": -1,
+     "file": "clips/44542afa8b77.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "On medical claims, a code **starting** with a letter is usually HCPCS Level II (`J1100`, `E0114`).",
+     "say": "On medical claims, a code starting with a letter is usually H C P C S Level I I (J 1 1 0 0, E 0 1 1 4).",
+     "focus": -1,
+     "file": "clips/5cca5818bbb7.mp3",
+     "seconds": 10.05
+    },
+    {
+     "raw": "CDT codes look similar, but they **always start with D**, and they appear on **dental claims**.",
+     "say": "C D T codes look similar, but they always start with D, and they appear on dental claims.",
+     "focus": -1,
+     "file": "clips/80f68119aecc.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "If you see `D` + 4 digits in a dental claim table, it is CDT.",
+     "say": "If you see D and 4 digits in a dental claim table, it is C D T.",
+     "focus": -1,
+     "file": "clips/02493c9fe763.mp3",
+     "seconds": 5.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The CDT categories.",
+     "say": "The C D T categories.",
+     "focus": -1,
+     "file": "clips/d812fac4ff7c.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The CDT categories",
+   "lines": [
+    {
+     "raw": "The ADA groups CDT codes into categories by number range.",
+     "say": "The A D A groups C D T codes into categories by number range.",
+     "focus": -1,
+     "file": "clips/c53d173b65a2.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "You do not need to memorise them, but knowing the **first digit** helps you read dental data quickly.",
+     "say": "You do not need to memorise them, but knowing the first digit helps you read dental data quickly.",
+     "focus": -1,
+     "file": "clips/af9c048414be.mp3",
+     "seconds": 6.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The CDT categories",
+   "lines": [
+    {
+     "raw": "CDT categories by code range.",
+     "say": "C D T categories by code range.",
+     "focus": -1,
+     "file": "clips/b0374acb6ad3.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "`D0100–D0999`. Category: Diagnostic. In plain words: Exams and X-rays: finding out what is wrong.",
+     "say": "D 0 1 0 0 – D 0 9 9 9. Category: Diagnostic. In plain words: Exams and X-rays: finding out what is wrong.",
+     "focus": 0,
+     "file": "clips/2aa810fba935.mp3",
+     "seconds": 10.9
+    },
+    {
+     "raw": "`D1000–D1999`. Category: Preventive. In plain words: Cleanings, fluoride, sealants: stopping problems early.",
+     "say": "D 1 0 0 0 – D 1 9 9 9. Category: Preventive. In plain words: Cleanings, fluoride, sealants: stopping problems early.",
+     "focus": 1,
+     "file": "clips/2e06f89563db.mp3",
+     "seconds": 10.875
+    },
+    {
+     "raw": "`D2000–D2999`. Category: Restorative. In plain words: Fillings and crowns: fixing a damaged tooth.",
+     "say": "D 2 0 0 0 – D 2 9 9 9. Category: Restorative. In plain words: Fillings and crowns: fixing a damaged tooth.",
+     "focus": 2,
+     "file": "clips/2d94c6e0b391.mp3",
+     "seconds": 10
+    },
+    {
+     "raw": "`D3000–D3999`. Category: Endodontics. In plain words: Root canals: treating the inside (nerve) of a tooth.",
+     "say": "D 3 0 0 0 – D 3 9 9 9. Category: Endodontics. In plain words: Root canals: treating the inside (nerve) of a tooth.",
+     "focus": 3,
+     "file": "clips/c97019d12e3f.mp3",
+     "seconds": 10.5
+    },
+    {
+     "raw": "`D4000–D4999`. Category: Periodontics. In plain words: Gums and bone around the teeth.",
+     "say": "D 4 0 0 0 – D 4 9 9 9. Category: Periodontics. In plain words: Gums and bone around the teeth.",
+     "focus": 4,
+     "file": "clips/50a8a4ec4cb3.mp3",
+     "seconds": 9.425
+    },
+    {
+     "raw": "`D5000–D5899`. Category: Prosthodontics, removable. In plain words: Dentures you can take out.",
+     "say": "D 5 0 0 0 – D 5 8 9 9. Category: Prosthodontics, removable. In plain words: Dentures you can take out.",
+     "focus": 5,
+     "file": "clips/5f6133202bdb.mp3",
+     "seconds": 10
+    },
+    {
+     "raw": "`D5900–D5999`. Category: Maxillofacial prosthetics. In plain words: Special replacements for the face and jaw.",
+     "say": "D 5 9 0 0 – D 5 9 9 9. Category: Maxillofacial prosthetics. In plain words: Special replacements for the face and jaw.",
+     "focus": 6,
+     "file": "clips/1137c78b1ee5.mp3",
+     "seconds": 10.975
+    },
+    {
+     "raw": "`D6000–D6199`. Category: Implant services. In plain words: Artificial tooth roots fixed in the bone.",
+     "say": "D 6 0 0 0 – D 6 1 9 9. Category: Implant services. In plain words: Artificial tooth roots fixed in the bone.",
+     "focus": 7,
+     "file": "clips/4683026e604d.mp3",
+     "seconds": 10.175
+    },
+    {
+     "raw": "`D6200–D6999`. Category: Prosthodontics, fixed. In plain words: Bridges that stay in the mouth.",
+     "say": "D 6 2 0 0 – D 6 9 9 9. Category: Prosthodontics, fixed. In plain words: Bridges that stay in the mouth.",
+     "focus": 8,
+     "file": "clips/c98c13c1fb6d.mp3",
+     "seconds": 9.65
+    },
+    {
+     "raw": "`D7000–D7999`. Category: Oral & maxillofacial surgery. In plain words: Tooth removal and mouth surgery.",
+     "say": "D 7 0 0 0 – D 7 9 9 9. Category: Oral and maxillofacial surgery. In plain words: Tooth removal and mouth surgery.",
+     "focus": 9,
+     "file": "clips/f4e0f27bf297.mp3",
+     "seconds": 11.35
+    },
+    {
+     "raw": "`D8000–D8999`. Category: Orthodontics. In plain words: Braces and aligners: straightening teeth.",
+     "say": "D 8 0 0 0 – D 8 9 9 9. Category: Orthodontics. In plain words: Braces and aligners: straightening teeth.",
+     "focus": 10,
+     "file": "clips/55f7ccd96ba3.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "`D9000–D9999`. Category: Adjunctive general services. In plain words: Extras: emergency pain relief, sedation, night guards.",
+     "say": "D 9 0 0 0 – D 9 9 9 9. Category: Adjunctive general services. In plain words: Extras: emergency pain relief, sedation, night guards.",
+     "focus": 11,
+     "file": "clips/fea5aff327c5.mp3",
+     "seconds": 12.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Codes you will see often.",
+     "say": "Codes you will see often.",
+     "focus": -1,
+     "file": "clips/9346a36f51f6.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Codes you will see often",
+   "lines": [
+    {
+     "raw": "Common CDT codes with a Nepali rate-list equivalent.",
+     "say": "Common C D T codes with a Nepali rate-list equivalent.",
+     "focus": -1,
+     "file": "clips/c25f684fd197.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "`D0120`. Meaning: Periodic oral exam, **existing** patient. Category: Diagnostic. Nepal rate-list equivalent: Routine dental check-up.",
+     "say": "D 0 1 2 0. Meaning: Periodic oral exam, existing patient. Category: Diagnostic. Nepal rate-list equivalent: Routine dental check-up.",
+     "focus": 0,
+     "file": "clips/90d673ca357a.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "`D0150`. Meaning: Comprehensive oral exam, new or existing patient. Category: Diagnostic. Nepal rate-list equivalent: First full check-up at a new clinic.",
+     "say": "D 0 1 5 0. Meaning: Comprehensive oral exam, new or existing patient. Category: Diagnostic. Nepal rate-list equivalent: First full check-up at a new clinic.",
+     "focus": 1,
+     "file": "clips/c3589f3b37c6.mp3",
+     "seconds": 13.25
+    },
+    {
+     "raw": "`D0140`. Meaning: Limited exam, focused on one problem. Category: Diagnostic. Nepal rate-list equivalent: \"My tooth hurts\" visit.",
+     "say": "D 0 1 4 0. Meaning: Limited exam, focused on one problem. Category: Diagnostic. Nepal rate-list equivalent: \"My tooth hurts\" visit.",
+     "focus": 2,
+     "file": "clips/9037c3f1ac8a.mp3",
+     "seconds": 11.6
+    },
+    {
+     "raw": "`D0274`. Meaning: Bitewing X-rays, **four** images. Category: Diagnostic. Nepal rate-list equivalent: Dental X-ray (small films).",
+     "say": "D 0 2 7 4. Meaning: Bitewing X-rays, four images. Category: Diagnostic. Nepal rate-list equivalent: Dental X-ray (small films).",
+     "focus": 3,
+     "file": "clips/c87ccfb606ec.mp3",
+     "seconds": 11.575
+    },
+    {
+     "raw": "`D0272`. Meaning: Bitewing X-rays, **two** images. Category: Diagnostic. Nepal rate-list equivalent: Dental X-ray (small films).",
+     "say": "D 0 2 7 2. Meaning: Bitewing X-rays, two images. Category: Diagnostic. Nepal rate-list equivalent: Dental X-ray (small films).",
+     "focus": 4,
+     "file": "clips/06ed5c9bf3a7.mp3",
+     "seconds": 11.275
+    },
+    {
+     "raw": "`D0330`. Meaning: Panoramic X-ray. Category: Diagnostic. Nepal rate-list equivalent: OPG (whole-mouth X-ray).",
+     "say": "D 0 3 3 0. Meaning: Panoramic X-ray. Category: Diagnostic. Nepal rate-list equivalent: O P G (whole-mouth X-ray).",
+     "focus": 5,
+     "file": "clips/965c5bb3bd3b.mp3",
+     "seconds": 10.75
+    },
+    {
+     "raw": "`D1110`. Meaning: Cleaning (prophylaxis), **adult**. Category: Preventive. Nepal rate-list equivalent: Scaling and polishing.",
+     "say": "D 1 1 1 0. Meaning: Cleaning (prophylaxis), adult. Category: Preventive. Nepal rate-list equivalent: Scaling and polishing.",
+     "focus": 6,
+     "file": "clips/af4e4f87a26d.mp3",
+     "seconds": 10.125
+    },
+    {
+     "raw": "`D1120`. Meaning: Cleaning (prophylaxis), **child**. Category: Preventive. Nepal rate-list equivalent: Child scaling and polishing.",
+     "say": "D 1 1 2 0. Meaning: Cleaning (prophylaxis), child. Category: Preventive. Nepal rate-list equivalent: Child scaling and polishing.",
+     "focus": 7,
+     "file": "clips/641b625f0937.mp3",
+     "seconds": 10.525
+    },
+    {
+     "raw": "`D1206`. Meaning: Fluoride varnish. Category: Preventive. Nepal rate-list equivalent: Fluoride application.",
+     "say": "D 1 2 0 6. Meaning: Fluoride varnish. Category: Preventive. Nepal rate-list equivalent: Fluoride application.",
+     "focus": 8,
+     "file": "clips/3374a1f7e920.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "`D1351`. Meaning: Sealant, per tooth. Category: Preventive. Nepal rate-list equivalent: Pit and fissure sealant.",
+     "say": "D 1 3 5 1. Meaning: Sealant, per tooth. Category: Preventive. Nepal rate-list equivalent: Pit and fissure sealant.",
+     "focus": 9,
+     "file": "clips/4b87369c2e26.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "`D2391`. Meaning: Composite filling, **one** surface, back tooth. Category: Restorative. Nepal rate-list equivalent: Tooth-coloured filling.",
+     "say": "D 2 3 9 1. Meaning: Composite filling, one surface, back tooth. Category: Restorative. Nepal rate-list equivalent: Tooth-coloured filling.",
+     "focus": 10,
+     "file": "clips/035f3f546cab.mp3",
+     "seconds": 10.85
+    },
+    {
+     "raw": "`D2392`. Meaning: Composite filling, **two** surfaces, back tooth. Category: Restorative. Nepal rate-list equivalent: Tooth-coloured filling.",
+     "say": "D 2 3 9 2. Meaning: Composite filling, two surfaces, back tooth. Category: Restorative. Nepal rate-list equivalent: Tooth-coloured filling.",
+     "focus": 11,
+     "file": "clips/dfc2f0fae639.mp3",
+     "seconds": 10.875
+    },
+    {
+     "raw": "`D2740`. Meaning: Crown, porcelain/ceramic. Category: Restorative. Nepal rate-list equivalent: Ceramic cap.",
+     "say": "D 2 7 4 0. Meaning: Crown, porcelain/ceramic. Category: Restorative. Nepal rate-list equivalent: Ceramic cap.",
+     "focus": 12,
+     "file": "clips/499f15709fa4.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "`D3330`. Meaning: Root canal, **molar**. Category: Endodontics. Nepal rate-list equivalent: RCT on a back tooth.",
+     "say": "D 3 3 3 0. Meaning: Root canal, molar. Category: Endodontics. Nepal rate-list equivalent: R C T on a back tooth.",
+     "focus": 13,
+     "file": "clips/29371df13704.mp3",
+     "seconds": 10.175
+    },
+    {
+     "raw": "`D4341`. Meaning: Deep cleaning (scaling and root planing), 4+ teeth in one quadrant. Category: Periodontics. Nepal rate-list equivalent: Deep scaling.",
+     "say": "D 4 3 4 1. Meaning: Deep cleaning (scaling and root planing), 4+ teeth in one quadrant. Category: Periodontics. Nepal rate-list equivalent: Deep scaling.",
+     "focus": 14,
+     "file": "clips/c5ae64da8a51.mp3",
+     "seconds": 12.55
+    },
+    {
+     "raw": "`D7140`. Meaning: Extraction of an erupted tooth. Category: Oral surgery. Nepal rate-list equivalent: Simple tooth removal.",
+     "say": "D 7 1 4 0. Meaning: Extraction of an erupted tooth. Category: Oral surgery. Nepal rate-list equivalent: Simple tooth removal.",
+     "focus": 15,
+     "file": "clips/947cb78287d3.mp3",
+     "seconds": 11.025
+    },
+    {
+     "raw": "`D7240`. Meaning: Removal of a tooth fully stuck in bone (impacted). Category: Oral surgery. Nepal rate-list equivalent: Wisdom tooth surgery.",
+     "say": "D 7 2 4 0. Meaning: Removal of a tooth fully stuck in bone (impacted). Category: Oral surgery. Nepal rate-list equivalent: Wisdom tooth surgery.",
+     "focus": 16,
+     "file": "clips/3b0a644bb87c.mp3",
+     "seconds": 12.2
+    },
+    {
+     "raw": "`D9110`. Meaning: Emergency treatment of dental pain (minor procedure). Category: Adjunctive. Nepal rate-list equivalent: Emergency pain relief.",
+     "say": "D 9 1 1 0. Meaning: Emergency treatment of dental pain (minor procedure). Category: Adjunctive. Nepal rate-list equivalent: Emergency pain relief.",
+     "focus": 17,
+     "file": "clips/b3d91dc6b383.mp3",
+     "seconds": 12.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Codes you will see often",
+   "lines": [
+    {
+     "raw": "One code, many details.",
+     "say": "One code, many details.",
+     "focus": -1,
+     "file": "clips/b0fda5ecc511.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Look at the filling codes: `D2391`, `D2392`, `D2393`, `D2394` are composite fillings on back teeth with **1, 2, 3, and 4 or more** surfaces.",
+     "say": "Look at the filling codes: D 2 3 9 1, D 2 3 9 2, D 2 3 9 3, D 2 3 9 4 are composite fillings on back teeth with 1, 2, 3, and 4 or more surfaces.",
+     "focus": -1,
+     "file": "clips/0b549b767c71.mp3",
+     "seconds": 13.6
+    },
+    {
+     "raw": "The code itself tells you how big the filling is.",
+     "say": "The code itself tells you how big the filling is.",
+     "focus": -1,
+     "file": "clips/6c0ac78588d2.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "That is why the next lesson on **tooth surfaces** matters: the surfaces on the claim must match the code.",
+     "say": "That is why the next lesson on tooth surfaces matters: the surfaces on the claim must match the code.",
+     "focus": -1,
+     "file": "clips/f55acac1b274.mp3",
+     "seconds": 6.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Codes you will see often",
+   "lines": [
+    {
+     "raw": "In Nepal: The same visit, line by line.",
+     "say": "In Nepal: The same visit, line by line.",
+     "focus": -1,
+     "file": "clips/724a04c09c59.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's clinic bill says: **check-up**, **X-ray**, **scaling**.",
+     "say": "Ram's clinic bill says: check-up, X-ray, scaling.",
+     "focus": 0,
+     "file": "clips/6f04168950f1.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "In US codes these would be `D0120` (periodic exam), `D0274` (bitewing X-rays) and `D1110` (adult cleaning).",
+     "say": "In U S codes these would be D 0 1 2 0 (periodic exam), D 0 2 7 4 (bitewing X-rays) and D 1 1 1 0 (adult cleaning).",
+     "focus": 0,
+     "file": "clips/85f9d777a5e2.mp3",
+     "seconds": 12
+    },
+    {
+     "raw": "If his insurer ever covered dental, it would need these items listed separately, just like a US dental claim.",
+     "say": "If his insurer ever covered dental, it would need these items listed separately, just like a U S dental claim.",
+     "focus": 1,
+     "file": "clips/b70b29c29c34.mp3",
+     "seconds": 7.5
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Hospital rate lists in Nepal often have a separate **dental department** section.",
+     "say": "Hospital rate lists in Nepal often have a separate dental department section.",
+     "focus": 2,
+     "file": "clips/dca8d739d591.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "Each item has its own price, which is the same idea as one CDT code per service.",
+     "say": "Each item has its own price, which is the same idea as one C D T code per service.",
+     "focus": 2,
+     "file": "clips/e0f01641a52b.mp3",
+     "seconds": 6.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How codes connect to 100-80-50.",
+     "say": "How codes connect to 100-80-50.",
+     "focus": -1,
+     "file": "clips/15ce89595c05.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "How codes connect to 100-80-50",
+   "lines": [
+    {
+     "raw": "The dental plan has a table that puts **each CDT code** into a coverage group.",
+     "say": "The dental plan has a table that puts each C D T code into a coverage group.",
+     "focus": -1,
+     "file": "clips/bb8c1b208232.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "That is how the insurer knows whether to pay 100%, 80% or 50%.",
+     "say": "That is how the insurer knows whether to pay 100 percent, 80 percent or 50 percent.",
+     "focus": -1,
+     "file": "clips/60e978931ea8.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "The CDT category is a good guide, but the plan decides.",
+     "say": "The C D T category is a good guide, but the plan decides.",
+     "focus": -1,
+     "file": "clips/7c688c3313b2.mp3",
+     "seconds": 4.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "How codes connect to 100-80-50",
+   "lines": [
+    {
+     "raw": "How Emily's plan groups some codes (fictional plan).",
+     "say": "How Emily's plan groups some codes (fictional plan).",
+     "focus": -1,
+     "file": "clips/513e026c7b9d.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "`D0120`. Service: Periodic exam. Plan group: Preventive & diagnostic. Plan pays: 100%.",
+     "say": "D 0 1 2 0. Service: Periodic exam. Plan group: Preventive and diagnostic. Plan pays: 100 percent.",
+     "focus": 0,
+     "file": "clips/75b622749ff7.mp3",
+     "seconds": 9.35
+    },
+    {
+     "raw": "`D1110`. Service: Adult cleaning. Plan group: Preventive & diagnostic. Plan pays: 100%.",
+     "say": "D 1 1 1 0. Service: Adult cleaning. Plan group: Preventive and diagnostic. Plan pays: 100 percent.",
+     "focus": 1,
+     "file": "clips/48147b451a9c.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "`D2392`. Service: Two-surface composite filling. Plan group: Basic. Plan pays: 80% after deductible.",
+     "say": "D 2 3 9 2. Service: Two-surface composite filling. Plan group: Basic. Plan pays: 80 percent after deductible.",
+     "focus": 2,
+     "file": "clips/25074f96d634.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "`D3330`. Service: Molar root canal. Plan group: Basic (in this plan). Plan pays: 80% after deductible.",
+     "say": "D 3 3 3 0. Service: Molar root canal. Plan group: Basic (in this plan). Plan pays: 80 percent after deductible.",
+     "focus": 3,
+     "file": "clips/229f74a4b001.mp3",
+     "seconds": 9.425
+    },
+    {
+     "raw": "`D2740`. Service: Ceramic crown. Plan group: Major. Plan pays: 50% after deductible.",
+     "say": "D 2 7 4 0. Service: Ceramic crown. Plan group: Major. Plan pays: 50 percent after deductible.",
+     "focus": 4,
+     "file": "clips/e60a8dbeca9b.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "`D8080`. Service: Braces for a teenager. Plan group: Not covered by this plan. Plan pays: 0%.",
+     "say": "D 8 0 8 0. Service: Braces for a teenager. Plan group: Not covered by this plan. Plan pays: 0 percent.",
+     "focus": 5,
+     "file": "clips/2cc39b20e8d5.mp3",
+     "seconds": 9.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "How codes connect to 100-80-50",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "On a dental claim the CDT code does most of the talking (lesson 2 explained why the diagnosis is often blank).",
+     "say": "On a dental claim the C D T code does most of the talking (lesson 2 explained why the diagnosis is often blank).",
+     "focus": -1,
+     "file": "clips/e7674203ff81.mp3",
+     "seconds": 8.375
+    },
+    {
+     "raw": "Grouping lines by the first digit after D gives a quick picture of a population: how much is preventive, how much is fillings and crowns, how much is surgery.",
+     "say": "Grouping lines by the first digit after D gives a quick picture of a population: how much is preventive, how much is fillings and crowns, how much is surgery.",
+     "focus": -1,
+     "file": "clips/b30af037ca66.mp3",
+     "seconds": 10.725
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**CDT** (Current Dental Terminology) codes are **D + 4 digits**, maintained yearly by the **American Dental Association (ADA)**.",
+     "say": "C D T (Current Dental Terminology) codes are D and 4 digits, maintained yearly by the American Dental Association (A D A).",
+     "focus": 0,
+     "file": "clips/637c6ec7d914.mp3",
+     "seconds": 9.7
+    },
+    {
+     "raw": "The first digit after D shows the broad category (diagnostic, preventive, restorative, root canals, gums, surgery and so on); look the ranges up rather than memorising them.",
+     "say": "The first digit after D shows the broad category (diagnostic, preventive, restorative, root canals, gums, surgery and so on); look the ranges up rather than memorising them.",
+     "focus": 1,
+     "file": "clips/01f4a69c2e47.mp3",
+     "seconds": 12.325
+    },
+    {
+     "raw": "Some codes carry detail inside them, like the number of filling surfaces (`D2391` to `D2394`).",
+     "say": "Some codes carry detail inside them, like the number of filling surfaces (D 2 3 9 1 to D 2 3 9 4).",
+     "focus": 2,
+     "file": "clips/72a82c367705.mp3",
+     "seconds": 8.475
+    },
+    {
+     "raw": "The plan maps each CDT code to a coverage group (preventive, basic, major or not covered).",
+     "say": "The plan maps each C D T code to a coverage group (preventive, basic, major or not covered).",
+     "focus": 3,
+     "file": "clips/80dcfb722229.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

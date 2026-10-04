@@ -1,0 +1,925 @@
+{
+ "courseId": "medicare",
+ "lessonId": "who-gets-medicare",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What is Medicare?",
+     "say": "Lesson 1: What is Medicare?",
+     "focus": -1,
+     "file": "clips/8ef8ff3f8733.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "The US government's health insurance for older people, and how Robert joined it.",
+     "say": "The U S government's health insurance for older people, and how Robert joined it.",
+     "focus": -1,
+     "file": "clips/22883af7a27b.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain in one sentence what Medicare is.",
+     "say": "Explain in one sentence what Medicare is.",
+     "focus": 0,
+     "file": "clips/fadac23c95df.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "Name the groups of people who qualify for Medicare.",
+     "say": "Name the groups of people who qualify for Medicare.",
+     "focus": 1,
+     "file": "clips/61a5d998f115.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Read a Medicare Beneficiary Identifier (MBI).",
+     "say": "Read a Medicare Beneficiary Identifier (M B I).",
+     "focus": 2,
+     "file": "clips/2003020794ea.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Know the main enrollment periods and when coverage starts.",
+     "say": "Know the main enrollment periods and when coverage starts.",
+     "focus": 3,
+     "file": "clips/b4b1cef00465.mp3",
+     "seconds": 3.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Nepal, Sita gives part of her salary to the **Social Security Fund (SSF)** every month.",
+     "say": "In Nepal, Sita gives part of her salary to the Social Security Fund (S S F) every month.",
+     "focus": -1,
+     "file": "clips/fa208fdaf972.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "She pays in while she is working, and the fund looks after her in return.",
+     "say": "She pays in while she is working, and the fund looks after her in return.",
+     "focus": -1,
+     "file": "clips/9f58709f19fa.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Ram has no SSF.",
+     "say": "Ram has no S S F.",
+     "focus": -1,
+     "file": "clips/8720c5f165e6.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "His health insurance comes from his startup, so it is tied to his job.",
+     "say": "His health insurance comes from his startup, so it is tied to his job.",
+     "focus": -1,
+     "file": "clips/2e74efa95abe.mp3",
+     "seconds": 4.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "The US has a large national scheme built on the same idea of paying in while you work.",
+     "say": "The U S has a large national scheme built on the same idea of paying in while you work.",
+     "focus": -1,
+     "file": "clips/7ab892f7040b.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Almost every US worker pays a small **Medicare tax** from every pay cheque.",
+     "say": "Almost every U S worker pays a small Medicare tax from every pay cheque.",
+     "focus": -1,
+     "file": "clips/f2dbbdb02d15.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "When they turn **65**, they get government health insurance called **Medicare**.",
+     "say": "When they turn 65, they get government health insurance called Medicare.",
+     "focus": -1,
+     "file": "clips/1f17871fddc2.mp3",
+     "seconds": 4.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Simple definition.",
+     "say": "Simple definition.",
+     "focus": -1,
+     "file": "clips/a5c5927139e3.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Medicare is the US federal government's health insurance for people aged 65 and older, and for some younger people with long-term disabilities or serious kidney disease.",
+     "say": "Medicare is the U S federal government's health insurance for people aged 65 and older, and for some younger people with long-term disabilities or serious kidney disease.",
+     "focus": -1,
+     "file": "clips/934e232b7893.mp3",
+     "seconds": 11.875
+    },
+    {
+     "raw": "It is run by **CMS**, the Centers for Medicare & Medicaid Services.",
+     "say": "It is run by C M S, the Centers for Medicare and Medicaid Services.",
+     "focus": -1,
+     "file": "clips/4ad723eb47c3.mp3",
+     "seconds": 5.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram and Sita, thirty years from now.",
+     "say": "In Nepal: Ram and Sita, thirty years from now.",
+     "focus": -1,
+     "file": "clips/d416182bb60d.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's private group insurance comes with his job.",
+     "say": "Ram's private group insurance comes with his job.",
+     "focus": 0,
+     "file": "clips/9d3346a3e3cf.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "When he **retires**, the startup's policy usually stops covering him.",
+     "say": "When he retires, the startup's policy usually stops covering him.",
+     "focus": 0,
+     "file": "clips/aba239ca63ef.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "He would then need to buy his own policy.",
+     "say": "He would then need to buy his own policy.",
+     "focus": 1,
+     "file": "clips/6809da31e9b8.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Older people often find private cover harder to get or more expensive.",
+     "say": "Older people often find private cover harder to get or more expensive.",
+     "focus": 1,
+     "file": "clips/009fe5651935.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's SSF benefits are linked to the **contributions** she made over her working life.",
+     "say": "Sita's S S F benefits are linked to the contributions she made over her working life.",
+     "focus": 2,
+     "file": "clips/c8d0d757d34a.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Medicare works on a similar \"pay in now, benefit later\" idea, but in the US almost everyone who worked is included, and the main benefit is **health insurance in old age**.",
+     "say": "Medicare works on a similar \"pay in now, benefit later\" idea, but in the U S almost everyone who worked is included, and the main benefit is health insurance in old age.",
+     "focus": 3,
+     "file": "clips/6eb3fcd79706.mp3",
+     "seconds": 11.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Medicare is not one single plan.",
+     "say": "Medicare is not one single plan.",
+     "focus": -1,
+     "file": "clips/5f47e294f754.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "It is made of **four parts** (A, B, C and D) for hospital care, doctor care, private Medicare plans and medicines.",
+     "say": "It is made of four parts (A, B, C and D) for hospital care, doctor care, private Medicare plans and medicines.",
+     "focus": -1,
+     "file": "clips/55a9404034e0.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "Lesson 2 compares them side by side; for now, just know that **Original Medicare** means the government-run Parts A and B.",
+     "say": "Lesson 2 compares them side by side; for now, just know that Original Medicare means the government-run Parts A and B.",
+     "focus": -1,
+     "file": "clips/fcb4326c9dd5.mp3",
+     "seconds": 8.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet Robert.",
+     "say": "Meet Robert.",
+     "focus": -1,
+     "file": "clips/3c92a3b5d1a2.mp3",
+     "seconds": 1.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Meet Robert",
+   "lines": [
+    {
+     "raw": "In the US: Robert Carter, Houston, Texas.",
+     "say": "In the U S: Robert Carter, Houston, Texas.",
+     "focus": -1,
+     "file": "clips/4d5e24333a5d.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "**Robert** is Emily's father.",
+     "say": "Robert is Emily's father.",
+     "focus": 0,
+     "file": "clips/c79c014c1809.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "He was born on **2 May 1957** and is a **retired school teacher** in Houston.",
+     "say": "He was born on 2 May 1957 and is a retired school teacher in Houston.",
+     "focus": 0,
+     "file": "clips/70b999199f23.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "He has **type 2 diabetes** and **high blood pressure**, so he sees doctors regularly and takes medicine every day.",
+     "say": "He has type 2 diabetes and high blood pressure, so he sees doctors regularly and takes medicine every day.",
+     "focus": 1,
+     "file": "clips/a6a19b58281f.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "He turned 65 on 2 May 2022 and joined **Original Medicare** (the government plan) that month.",
+     "say": "He turned 65 on 2 May 2022 and joined Original Medicare (the government plan) that month.",
+     "focus": 2,
+     "file": "clips/1d6550fe85ea.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "From **1 January 2024** he switched to a **Medicare Advantage** plan run by a private insurer, which also covers his medicines.",
+     "say": "From 1 January 2024 he switched to a Medicare Advantage plan run by a private insurer, which also covers his medicines.",
+     "focus": 3,
+     "file": "clips/a1fcb7e907e4.mp3",
+     "seconds": 9.025
+    },
+    {
+     "raw": "He is still on it in **2025**.",
+     "say": "He is still on it in 2025.",
+     "focus": 3,
+     "file": "clips/ae0e138606ef.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "You will learn what that means in lesson 4.",
+     "say": "You will learn what that means in lesson 4.",
+     "focus": 3,
+     "file": "clips/eeb07940cdae.mp3",
+     "seconds": 2.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who qualifies for Medicare?",
+     "say": "Who qualifies for Medicare?",
+     "focus": -1,
+     "file": "clips/819b11479ab8.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Who qualifies for Medicare?",
+   "lines": [
+    {
+     "raw": "The main ways people get Medicare (about 68 million people in 2025).",
+     "say": "The main ways people get Medicare (about 68 million people in 2025).",
+     "focus": -1,
+     "file": "clips/f94cce3c8751.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "**Age 65 and older**. Rule: US citizens or long-term legal residents. This is the largest group. Example: Robert, from May 2022.",
+     "say": "Age 65 and older. Rule: U S citizens or long-term legal residents. This is the largest group. Example: Robert, from May 2022.",
+     "focus": 0,
+     "file": "clips/a86d94e97c6c.mp3",
+     "seconds": 10.975
+    },
+    {
+     "raw": "**Under 65 with a disability**. Rule: After receiving Social Security disability payments (**SSDI**) for **24 months**. Example: A 50-year-old builder who cannot work after a back injury.",
+     "say": "Under 65 with a disability. Rule: After receiving Social Security disability payments (S S D I) for 24 months. Example: A 50-year-old builder who cannot work after a back injury.",
+     "focus": 1,
+     "file": "clips/102be2736704.mp3",
+     "seconds": 14.475
+    },
+    {
+     "raw": "**Kidney failure (ESRD)**. Rule: People with **End-Stage Renal Disease** who need regular **dialysis** or a kidney transplant. Any age. Example: A 40-year-old on dialysis three times a week.",
+     "say": "Kidney failure (E S R D). Rule: People with End-Stage Renal Disease who need regular dialysis or a kidney transplant. Any age. Example: A 40-year-old on dialysis three times a week.",
+     "focus": 2,
+     "file": "clips/4da3b2677867.mp3",
+     "seconds": 14.35
+    },
+    {
+     "raw": "**ALS (Lou Gehrig's disease)**. Rule: A disease that slowly weakens the muscles. No 24-month wait: Medicare starts when disability payments start. Example: A 55-year-old diagnosed with ALS.",
+     "say": "A L S (Lou Gehrig's disease). Rule: A disease that slowly weakens the muscles. No 24-month wait: Medicare starts when disability payments start. Example: A 55-year-old diagnosed with A L S.",
+     "focus": 3,
+     "file": "clips/8f0a3c087b25.mp3",
+     "seconds": 15.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Who qualifies for Medicare?",
+   "lines": [
+    {
+     "raw": "Who pays for Medicare?",
+     "say": "Who pays for Medicare?",
+     "focus": -1,
+     "file": "clips/07f4ca190cb4.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Workers and employers each pay **1.45%** of wages as Medicare tax (2.9% in total).",
+     "say": "Workers and employers each pay 1.45 percent of wages as Medicare tax (2.9 percent in total).",
+     "focus": -1,
+     "file": "clips/8ae17b171e5f.mp3",
+     "seconds": 8.225
+    },
+    {
+     "raw": "This mainly funds **hospital** cover (Part A).",
+     "say": "This mainly funds hospital cover (Part A).",
+     "focus": -1,
+     "file": "clips/e5d0ee3e0b13.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Doctor cover (Part B) is paid mostly from general government tax money, plus a monthly **premium** from each person on Medicare.",
+     "say": "Doctor cover (Part B) is paid mostly from general government tax money, plus a monthly premium from each person on Medicare.",
+     "focus": -1,
+     "file": "clips/544c48a7b71d.mp3",
+     "seconds": 8.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Who qualifies for Medicare?",
+   "lines": [
+    {
+     "raw": "Beneficiary.",
+     "say": "Beneficiary.",
+     "focus": 0,
+     "file": "clips/c80c57a036a3.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "A person who has Medicare.",
+     "say": "A person who has Medicare.",
+     "focus": 0,
+     "file": "clips/f8ac75aab9bf.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Insurers call their own customers \"members\"; Medicare calls them **beneficiaries**.",
+     "say": "Insurers call their own customers \"members\"; Medicare calls them beneficiaries.",
+     "focus": 0,
+     "file": "clips/c2231c46c1d2.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "CMS.",
+     "say": "C M S.",
+     "focus": 1,
+     "file": "clips/13a03d3223bd.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "Centers for Medicare & Medicaid Services: the federal agency that runs Medicare and oversees Medicaid.",
+     "say": "Centers for Medicare and Medicaid Services: the federal agency that runs Medicare and oversees Medicaid.",
+     "focus": 1,
+     "file": "clips/149f11d3db61.mp3",
+     "seconds": 7.525
+    },
+    {
+     "raw": "SSDI.",
+     "say": "S S D I.",
+     "focus": 2,
+     "file": "clips/6b223b554b90.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Social Security Disability Insurance: monthly payments for people who worked but can no longer work because of a disability.",
+     "say": "Social Security Disability Insurance: monthly payments for people who worked but can no longer work because of a disability.",
+     "focus": 2,
+     "file": "clips/4bf677a54a7d.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "ESRD.",
+     "say": "E S R D.",
+     "focus": 3,
+     "file": "clips/17bebd8a8810.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "End-Stage Renal Disease: permanent kidney failure that needs dialysis or a transplant.",
+     "say": "End-Stage Renal Disease: permanent kidney failure that needs dialysis or a transplant.",
+     "focus": 3,
+     "file": "clips/c806d14796b8.mp3",
+     "seconds": 6.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The Medicare card and the MBI.",
+     "say": "The Medicare card and the M B I.",
+     "focus": -1,
+     "file": "clips/344589452761.mp3",
+     "seconds": 2.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "The Medicare card and the MBI",
+   "lines": [
+    {
+     "raw": "Every beneficiary gets a red, white and blue **Medicare card**.",
+     "say": "Every beneficiary gets a red, white and blue Medicare card.",
+     "focus": -1,
+     "file": "clips/eb51b09ad8a0.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "The most important thing on it is the **Medicare Beneficiary Identifier (MBI)**: an 11-character ID used on every Medicare claim.",
+     "say": "The most important thing on it is the Medicare Beneficiary Identifier (M B I): an 11-character I D used on every Medicare claim.",
+     "focus": -1,
+     "file": "clips/c94a53018623.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "Since 2018 to 2019, the MBI replaced the old ID that was based on the person's **Social Security number**, to reduce identity theft.",
+     "say": "Since 2018 to 2019, the M B I replaced the old I D that was based on the person's Social Security number, to reduce identity theft.",
+     "focus": -1,
+     "file": "clips/82b067e469f4.mp3",
+     "seconds": 10.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "The Medicare card and the MBI",
+   "lines": [
+    {
+     "raw": "Robert's MBI (fictional).",
+     "say": "Robert's M B I (fictional).",
+     "focus": -1,
+     "file": "clips/0b0c0f0827e5.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "3: Position 1 is always a **number** from 1 to 9.",
+     "say": "3: Position 1 is always a number from 1 to 9.",
+     "focus": 0,
+     "file": "clips/958422138d35.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "TW7: Positions 2 to 4: a letter, then a letter or number, then a number.",
+     "say": "TW7: Positions 2 to 4: a letter, then a letter or number, then a number.",
+     "focus": 1,
+     "file": "clips/424af725a240.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "HC2: Positions 5 to 7: a letter, then a letter or number, then a number.",
+     "say": "HC2: Positions 5 to 7: a letter, then a letter or number, then a number.",
+     "focus": 2,
+     "file": "clips/5e5bcc7b6789.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "AP58: Positions 8 to 11: two letters, then two numbers.",
+     "say": "A P 5 8: Positions 8 to 11: two letters, then two numbers.",
+     "focus": 3,
+     "file": "clips/3ecd7738a09a.mp3",
+     "seconds": 5.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "The Medicare card and the MBI",
+   "lines": [
+    {
+     "raw": "MBI tips for data work.",
+     "say": "M B I tips for data work.",
+     "focus": -1,
+     "file": "clips/1654e05d7ba4.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "The dashes are only printed on the card to make it easier to read.",
+     "say": "The dashes are only printed on the card to make it easier to read.",
+     "focus": -1,
+     "file": "clips/793c61f4c7de.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "In data, the MBI is stored as **11 characters with no dashes**: `3TW7HC2AP58`.",
+     "say": "In data, the M B I is stored as 11 characters with no dashes: 3 T W 7 H C 2 A P 5 8.",
+     "focus": -1,
+     "file": "clips/0c2ff493e861.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "It is random: it does **not** contain the birth date or any meaning.",
+     "say": "It is random: it does not contain the birth date or any meaning.",
+     "focus": -1,
+     "file": "clips/213240f94e0b.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Letters that look like numbers (**S, L, O, I, B, Z**) are never used.",
+     "say": "Letters that look like numbers (S, L, O, I, B, Z) are never used.",
+     "focus": -1,
+     "file": "clips/dbd78aab4a28.mp3",
+     "seconds": 4.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "When can people sign up?",
+     "say": "When can people sign up?",
+     "focus": -1,
+     "file": "clips/aba604aa63eb.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "When can people sign up?",
+   "lines": [
+    {
+     "raw": "Medicare has fixed windows for joining and changing.",
+     "say": "Medicare has fixed windows for joining and changing.",
+     "focus": -1,
+     "file": "clips/6381824951ac.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Missing them can mean waiting, and sometimes paying a **late penalty** for life.",
+     "say": "Missing them can mean waiting, and sometimes paying a late penalty for life.",
+     "focus": -1,
+     "file": "clips/b3e98d4d9628.mp3",
+     "seconds": 4.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "When can people sign up?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Initial Enrollment Period (IEP)**. When: **7 months** around your 65th birthday: the 3 months before your birthday month, the birthday month, and the 3 months after. What you can do: Sign up for Medicare for the first time.",
+     "say": "Initial Enrollment Period (I E P). When: 7 months around your 65th birthday: the 3 months before your birthday month, the birthday month, and the 3 months after. What you can do: Sign up for Medicare for the first time.",
+     "focus": 0,
+     "file": "clips/1ea646496d52.mp3",
+     "seconds": 14.9
+    },
+    {
+     "raw": "**Annual Enrollment Period (AEP)**. When: **15 October to 7 December** every year. Changes start on **1 January**. What you can do: Switch between Original Medicare and Medicare Advantage, change plans, join or change a drug plan.",
+     "say": "Annual Enrollment Period (A E P). When: 15 October to 7 December every year. Changes start on 1 January. What you can do: Switch between Original Medicare and Medicare Advantage, change plans, join or change a drug plan.",
+     "focus": 1,
+     "file": "clips/7b41ade9eb90.mp3",
+     "seconds": 16.275
+    },
+    {
+     "raw": "**Medicare Advantage Open Enrollment**. When: **1 January to 31 March**. What you can do: People already in Medicare Advantage can switch to another one, or go back to Original Medicare, once.",
+     "say": "Medicare Advantage Open Enrollment. When: 1 January to 31 March. What you can do: People already in Medicare Advantage can switch to another one, or go back to Original Medicare, once.",
+     "focus": 2,
+     "file": "clips/a4b34773e1c0.mp3",
+     "seconds": 13.575
+    },
+    {
+     "raw": "**Special Enrollment Period (SEP)**. When: After certain life events. What you can do: Change plans after, for example, moving house or losing job-based insurance.",
+     "say": "Special Enrollment Period (S E P). When: After certain life events. What you can do: Change plans after, for example, moving house or losing job-based insurance.",
+     "focus": 3,
+     "file": "clips/8bdad34427f6.mp3",
+     "seconds": 11.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "When can people sign up?",
+   "lines": [
+    {
+     "raw": "Feb 2022: IEP opens.",
+     "say": "Feb 2022: I E P opens.",
+     "focus": 0,
+     "file": "clips/da038602f82e.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Robert turns 65 in May 2022, so his 7-month window runs from **February to August 2022**.",
+     "say": "Robert turns 65 in May 2022, so his 7-month window runs from February to August 2022.",
+     "focus": 0,
+     "file": "clips/1af884d70bfd.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "Mar 2022: he signs up.",
+     "say": "Mar 2022: he signs up.",
+     "focus": 1,
+     "file": "clips/c85aa3ebf0d7.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "He enrols through Social Security, choosing Parts A and B (Original Medicare).",
+     "say": "He enrols through Social Security, choosing Parts A and B (Original Medicare).",
+     "focus": 1,
+     "file": "clips/fcba5721e457.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "1 May 2022: coverage starts.",
+     "say": "1 May 2022: coverage starts.",
+     "focus": 2,
+     "file": "clips/c50100905142.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Because he signed up before his birthday month, Medicare starts on the **1st of his birthday month**.",
+     "say": "Because he signed up before his birthday month, Medicare starts on the 1st of his birthday month.",
+     "focus": 2,
+     "file": "clips/ae668b723bf0.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Nov 2023: AEP choice.",
+     "say": "Nov 2023: A E P choice.",
+     "focus": 3,
+     "file": "clips/d40c2ae50c24.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "During the Annual Enrollment Period he picks a Medicare Advantage plan with drug cover.",
+     "say": "During the Annual Enrollment Period he picks a Medicare Advantage plan with drug cover.",
+     "focus": 3,
+     "file": "clips/18347c2d9e8b.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "1 Jan 2024: new plan starts.",
+     "say": "1 Jan 2024: new plan starts.",
+     "focus": 4,
+     "file": "clips/77fff342ba4a.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "His Medicare Advantage plan begins.",
+     "say": "His Medicare Advantage plan begins.",
+     "focus": 4,
+     "file": "clips/583df00f5415.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "He keeps it for 2025.",
+     "say": "He keeps it for 2025.",
+     "focus": 4,
+     "file": "clips/ab7fa2516756.mp3",
+     "seconds": 2.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "When can people sign up?",
+   "lines": [
+    {
+     "raw": "Late penalties.",
+     "say": "Late penalties.",
+     "focus": -1,
+     "file": "clips/e9e2ff5b5722.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "If someone does not sign up for Part B when they first can (and they have no job-based insurance), their Part B premium goes up by **10% for each full year** they waited, usually for as long as they have Medicare.",
+     "say": "If someone does not sign up for Part B when they first can (and they have no job-based insurance), their Part B premium goes up by 10 percent for each full year they waited, usually for as long as they have Medicare.",
+     "focus": -1,
+     "file": "clips/e4d5b94f9aeb.mp3",
+     "seconds": 13.55
+    },
+    {
+     "raw": "Part D (drugs) has its own late penalty too.",
+     "say": "Part D (drugs) has its own late penalty too.",
+     "focus": -1,
+     "file": "clips/dcdafd54c776.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "When can people sign up?",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "In data, these windows explain **coverage start dates**.",
+     "say": "In data, these windows explain coverage start dates.",
+     "focus": -1,
+     "file": "clips/88345c74177f.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Most Medicare coverage starts on the **1st of a month**, and most plan changes start on **1 January**.",
+     "say": "Most Medicare coverage starts on the 1st of a month, and most plan changes start on 1 January.",
+     "focus": -1,
+     "file": "clips/3ae473d9a6fb.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "The Eligibility course shows how coverage spans are stored.",
+     "say": "The Eligibility course shows how coverage spans are stored.",
+     "focus": -1,
+     "file": "clips/5cfd547763f4.mp3",
+     "seconds": 3.975
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Medicare is US federal health insurance for people 65+, and some younger people with disabilities, ESRD or ALS.",
+     "say": "Medicare is U S federal health insurance for people 65+, and some younger people with disabilities, E S R D or A L S.",
+     "focus": 0,
+     "file": "clips/7d04bdee0bbe.mp3",
+     "seconds": 9.75
+    },
+    {
+     "raw": "Under 65 with a disability: Medicare usually starts after 24 months of SSDI.",
+     "say": "Under 65 with a disability: Medicare usually starts after 24 months of S S D I.",
+     "focus": 1,
+     "file": "clips/bab9b8419b43.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "ALS has no waiting period.",
+     "say": "A L S has no waiting period.",
+     "focus": 1,
+     "file": "clips/58b8d949e69f.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "The MBI is an 11-character random ID, stored without dashes, used on every Medicare claim.",
+     "say": "The M B I is an 11-character random I D, stored without dashes, used on every Medicare claim.",
+     "focus": 2,
+     "file": "clips/4248dcceaf7c.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "The Initial Enrollment Period is 7 months around the 65th birthday.",
+     "say": "The Initial Enrollment Period is 7 months around the 65th birthday.",
+     "focus": 3,
+     "file": "clips/e5bc5fdf0686.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "The Annual Enrollment Period is 15 October to 7 December.",
+     "say": "The Annual Enrollment Period is 15 October to 7 December.",
+     "focus": 3,
+     "file": "clips/48d182076087.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Robert started on Original Medicare in May 2022 and moved to Medicare Advantage from January 2024.",
+     "say": "Robert started on Original Medicare in May 2022 and moved to Medicare Advantage from January 2024.",
+     "focus": 4,
+     "file": "clips/d20d0b9aa080.mp3",
+     "seconds": 8.35
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

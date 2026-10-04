@@ -1,0 +1,813 @@
+{
+ "courseId": "flow",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: Putting It All Together.",
+     "say": "Lesson 7: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/eddad0e34594.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Emily's whole journey on one page, and the data every step leaves behind.",
+     "say": "Emily's whole journey on one page, and the data every step leaves behind.",
+     "focus": -1,
+     "file": "clips/acbf0f5a8d8e.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Retell the full journey from choosing a plan to paying the bill, in order.",
+     "say": "Retell the full journey from choosing a plan to paying the bill, in order.",
+     "focus": 0,
+     "file": "clips/61e4b75969b3.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Name the document or electronic transaction each step creates.",
+     "say": "Name the document or electronic transaction each step creates.",
+     "focus": 1,
+     "file": "clips/c8421f58e407.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "Read the data rows Emily's strep throat visit leaves in an insurer's database.",
+     "say": "Read the data rows Emily's strep throat visit leaves in an insurer's database.",
+     "focus": 2,
+     "file": "clips/6771a50e7888.mp3",
+     "seconds": 5.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The whole journey, one more time.",
+     "say": "The whole journey, one more time.",
+     "focus": -1,
+     "file": "clips/c94a6af9e7dc.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The whole journey, one more time",
+   "lines": [
+    {
+     "raw": "Choose a plan.",
+     "say": "Choose a plan.",
+     "focus": 0,
+     "file": "clips/8e0e33c99576.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "Emily keeps PPO plan TXPPO1000 at open enrollment.",
+     "say": "Emily keeps P P O plan T X P P O 1 0 0 0 at open enrollment.",
+     "focus": 0,
+     "file": "clips/2e6850e5156f.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "Cover runs all of 2025.",
+     "say": "Cover runs all of 2025.",
+     "focus": 0,
+     "file": "clips/ca39488cd706.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Health event.",
+     "say": "Health event.",
+     "focus": 1,
+     "file": "clips/750912e3c01d.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "10 March 2025: sore throat and fever.",
+     "say": "10 March 2025: sore throat and fever.",
+     "focus": 1,
+     "file": "clips/27e5472c3fcf.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Care level & booking.",
+     "say": "Care level and booking.",
+     "focus": 2,
+     "file": "clips/b2bc97e7980b.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Her in-network PCP, Dr. Patel at Sunrise Family Clinic, same day.",
+     "say": "Her in-network P C P, Doctor Patel at Sunrise Family Clinic, same day.",
+     "focus": 2,
+     "file": "clips/72f7267db764.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Check-in.",
+     "say": "Check-in.",
+     "focus": 3,
+     "file": "clips/0c8b74f65b26.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "270/271 eligibility check: active, $25 copay.",
+     "say": "2 70/2 71 eligibility check: active, 25 dollars copay.",
+     "focus": 3,
+     "file": "clips/90699eecbda3.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "Emily pays the copay.",
+     "say": "Emily pays the copay.",
+     "focus": 3,
+     "file": "clips/f17eaea5ea5c.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Consultation & coding.",
+     "say": "Consultation and coding.",
+     "focus": 4,
+     "file": "clips/f3d8c0329fb2.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Positive strep test.",
+     "say": "Positive strep test.",
+     "focus": 4,
+     "file": "clips/213ac693e1ab.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "Codes: `J02.0`, `99213`, `87880`.",
+     "say": "Codes: J 0 2 . 0, 9 9 2 1 3, 8 7 8 8 0.",
+     "focus": 4,
+     "file": "clips/a429ea259c53.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Amoxicillin prescribed.",
+     "say": "Amoxicillin prescribed.",
+     "focus": 4,
+     "file": "clips/1a6f7bdcf72d.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "Claim & 837P.",
+     "say": "Claim and 8 3 7 P.",
+     "focus": 5,
+     "file": "clips/0925f76d336f.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "CMS-1500 for $150, converted to an 837P file.",
+     "say": "C M S 1500 for 150 dollars converted to an 8 3 7 P file.",
+     "focus": 5,
+     "file": "clips/8c65a1ea2160.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "Clearinghouse.",
+     "say": "Clearinghouse.",
+     "focus": 6,
+     "file": "clips/8172c8e776b3.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "11 March: format, fields, codes and payer ID checked.",
+     "say": "11 March: format, fields, codes and payer I D checked.",
+     "focus": 6,
+     "file": "clips/f6b9e6b5c4a0.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Accepted (277CA).",
+     "say": "Accepted (2 7 7 C A).",
+     "focus": 6,
+     "file": "clips/3cd3b876fa82.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "Payer validation.",
+     "say": "Payer validation.",
+     "focus": 7,
+     "file": "clips/ef51d58bffae.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "All ten checks pass.",
+     "say": "All ten checks pass.",
+     "focus": 7,
+     "file": "clips/564daf634d93.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Claim number 23098908.",
+     "say": "Claim number 23098908.",
+     "focus": 7,
+     "file": "clips/c2d2168f8c97.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Adjudication.",
+     "say": "Adjudication.",
+     "focus": 8,
+     "file": "clips/84afb86fb00e.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "Allowed $102, $48 written off, $25 copay, plan pays $77.",
+     "say": "Allowed 102 dollars 48 dollars written off, 25 dollars copay, plan pays 77 dollars.",
+     "focus": 8,
+     "file": "clips/c03af70563cc.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "EOB, payment, bill.",
+     "say": "E O B, payment, bill.",
+     "focus": 9,
+     "file": "clips/8e2bc43aae9e.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "EOB to Emily, $77 EFT and 835 to the clinic.",
+     "say": "E O B to Emily, 77 dollars E F T and 8 35 to the clinic.",
+     "focus": 9,
+     "file": "clips/13f6d62d61b6.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Balance $0, so no bill.",
+     "say": "Balance 0 dollars so no bill.",
+     "focus": 9,
+     "file": "clips/73bf2b82d18f.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Every step leaves data behind.",
+     "say": "Every step leaves data behind.",
+     "focus": -1,
+     "file": "clips/b42cd65af62d.mp3",
+     "seconds": 2.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Every step leaves data behind",
+   "lines": [
+    {
+     "raw": "This is the key idea for anyone who will work with US healthcare data: **each step of the journey creates a record**.",
+     "say": "This is the key idea for anyone who will work with U S healthcare data: each step of the journey creates a record.",
+     "focus": -1,
+     "file": "clips/c0b9f86250f5.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "An analyst never watches Emily's visit.",
+     "say": "An analyst never watches Emily's visit.",
+     "focus": -1,
+     "file": "clips/4b687000688e.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "They only see the trail of records it leaves.",
+     "say": "They only see the trail of records it leaves.",
+     "focus": -1,
+     "file": "clips/067e6334b049.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Every step leaves data behind",
+   "lines": [
+    {
+     "raw": "Step → who creates it → transaction or document → data produced.",
+     "say": "Step to who creates it to transaction or document to data produced.",
+     "focus": -1,
+     "file": "clips/4405dd7ac9f4.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Choose a plan & enroll. Created by: Employer → insurer. Transaction / document: **834** enrollment file, ID card. Data it produces: Eligibility (enrollment span) rows: member, group, plan, start and end dates.",
+     "say": "Choose a plan and enroll. Created by: Employer to insurer. Transaction or document: 8 34 enrollment file, I D card. Data it produces: Eligibility (enrollment span) rows: member, group, plan, start and end dates.",
+     "focus": 0,
+     "file": "clips/231c8dcb2fd7.mp3",
+     "seconds": 16.6
+    },
+    {
+     "raw": "Check-in. Created by: Clinic ↔ insurer. Transaction / document: **270** inquiry / **271** response. Data it produces: Eligibility check log: was the member active, copay, deductible left.",
+     "say": "Check-in. Created by: Clinic ↔ insurer. Transaction or document: 2 70 inquiry or 2 71 response. Data it produces: Eligibility check log: was the member active, copay, deductible left.",
+     "focus": 1,
+     "file": "clips/474e185dcd52.mp3",
+     "seconds": 16
+    },
+    {
+     "raw": "Consultation. Created by: Doctor. Transaction / document: Clinical note in the **EHR**. Data it produces: Medical record (stays with the provider; not sent as a bill).",
+     "say": "Consultation. Created by: Doctor. Transaction or document: Clinical note in the E H R. Data it produces: Medical record (stays with the provider; not sent as a bill).",
+     "focus": 2,
+     "file": "clips/26035096a4f6.mp3",
+     "seconds": 12.7
+    },
+    {
+     "raw": "Coding & claim. Created by: Clinic / coder. Transaction / document: **CMS-1500** (doctors) or **UB-04** (hospitals). Data it produces: Diagnosis and procedure codes, charges, NPIs.",
+     "say": "Coding and claim. Created by: Clinic or coder. Transaction or document: C M S 1500 (doctors) or U B 04 (hospitals). Data it produces: Diagnosis and procedure codes, charges, N P I's.",
+     "focus": 3,
+     "file": "clips/1a289126be0b.mp3",
+     "seconds": 16.2
+    },
+    {
+     "raw": "EDI conversion. Created by: Clinic software. Transaction / document: **837P** or **837I**. Data it produces: The electronic claim the insurer loads.",
+     "say": "E D I conversion. Created by: Clinic software. Transaction or document: 8 3 7 P or 8 3 7 I. Data it produces: The electronic claim the insurer loads.",
+     "focus": 4,
+     "file": "clips/077c948aa7cc.mp3",
+     "seconds": 13.4
+    },
+    {
+     "raw": "Clearinghouse. Created by: Clearinghouse. Transaction / document: **999** / **277CA** acknowledgements. Data it produces: Accepted or rejected status, with error codes.",
+     "say": "Clearinghouse. Created by: Clearinghouse. Transaction or document: 999 or 2 7 7 C A acknowledgements. Data it produces: Accepted or rejected status, with error codes.",
+     "focus": 5,
+     "file": "clips/ba90d24a2a4c.mp3",
+     "seconds": 14.5
+    },
+    {
+     "raw": "Payer validation & adjudication. Created by: Insurer. Transaction / document: Internal claim system. Data it produces: Medical claim lines: billed, allowed, paid, patient share, CARC codes, status.",
+     "say": "Payer validation and adjudication. Created by: Insurer. Transaction or document: Internal claim system. Data it produces: Medical claim lines: billed, allowed, paid, patient share, C A R C codes, status.",
+     "focus": 6,
+     "file": "clips/7924349702e8.mp3",
+     "seconds": 15.5
+    },
+    {
+     "raw": "Provider payment. Created by: Insurer → clinic. Transaction / document: **EFT** + **835** remittance. Data it produces: Payment and remittance rows: paid date, trace number, adjustments.",
+     "say": "Provider payment. Created by: Insurer to clinic. Transaction or document: E F T and 8 35 remittance. Data it produces: Payment and remittance rows: paid date, trace number, adjustments.",
+     "focus": 7,
+     "file": "clips/c63a81fb9ee3.mp3",
+     "seconds": 14.55
+    },
+    {
+     "raw": "EOB. Created by: Insurer → patient. Transaction / document: Explanation of Benefits. Data it produces: A letter, built from the claim data.",
+     "say": "E O B. Created by: Insurer to patient. Transaction or document: Explanation of Benefits. Data it produces: A letter, built from the claim data.",
+     "focus": 8,
+     "file": "clips/77220f716e01.mp3",
+     "seconds": 11.325
+    },
+    {
+     "raw": "Patient bill. Created by: Provider → patient. Transaction / document: Statement. Data it produces: Provider's accounts receivable (not in insurer data).",
+     "say": "Patient bill. Created by: Provider to patient. Transaction or document: Statement. Data it produces: Provider's accounts receivable (not in insurer data).",
+     "focus": 9,
+     "file": "clips/d33ef8f63f97.mp3",
+     "seconds": 11.5
+    },
+    {
+     "raw": "Pharmacy (outside the simulator). Created by: Pharmacy ↔ PBM. Transaction / document: **NCPDP** pharmacy claim. Data it produces: Pharmacy claim rows: NDC, quantity, days supply, copay, plan paid.",
+     "say": "Pharmacy (outside the simulator). Created by: Pharmacy ↔ P B M. Transaction or document: N C P D P pharmacy claim. Data it produces: Pharmacy claim rows: N D C, quantity, days supply, copay, plan paid.",
+     "focus": 10,
+     "file": "clips/7ace1f133be0.mp3",
+     "seconds": 17.65
+    },
+    {
+     "raw": "Running totals. Created by: Insurer. Transaction / document: Accumulators. Data it produces: Deductible and out-of-pocket used so far this year.",
+     "say": "Running totals. Created by: Insurer. Transaction or document: Accumulators. Data it produces: Deductible and out-of-pocket used so far this year.",
+     "focus": 11,
+     "file": "clips/45cd65ac6ef1.mp3",
+     "seconds": 10.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Emily's strep visit as data.",
+     "say": "Emily's strep visit as data.",
+     "focus": -1,
+     "file": "clips/8159515e9c5e.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Emily's strep visit as data",
+   "lines": [
+    {
+     "raw": "Here is what an insurer's data warehouse might hold after Emily's visit.",
+     "say": "Here is what an insurer's data warehouse might hold after Emily's visit.",
+     "focus": -1,
+     "file": "clips/a841cdd4cecc.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Real column names differ from company to company, but the ideas are the same.",
+     "say": "Real column names differ from company to company, but the ideas are the same.",
+     "focus": -1,
+     "file": "clips/e9a530b8ddbd.mp3",
+     "seconds": 5.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Emily's strep visit as data",
+   "lines": [
+    {
+     "raw": "1.",
+     "say": "1.",
+     "focus": -1,
+     "file": "clips/f727c22d3fcd.mp3",
+     "seconds": 1.25
+    },
+    {
+     "raw": "Eligibility (one row per enrollment span).",
+     "say": "Eligibility (one row per enrollment span).",
+     "focus": -1,
+     "file": "clips/381eec15acd1.mp3",
+     "seconds": 3.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Emily's strep visit as data",
+   "lines": [
+    {
+     "raw": "2.",
+     "say": "2.",
+     "focus": -1,
+     "file": "clips/55e92e4c1325.mp3",
+     "seconds": 1.325
+    },
+    {
+     "raw": "Medical claim lines (one row per claim line).",
+     "say": "Medical claim lines (one row per claim line).",
+     "focus": -1,
+     "file": "clips/8d235e2885a6.mp3",
+     "seconds": 3.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Emily's strep visit as data",
+   "lines": [
+    {
+     "raw": "3.",
+     "say": "3.",
+     "focus": -1,
+     "file": "clips/552595db0da3.mp3",
+     "seconds": 1.375
+    },
+    {
+     "raw": "Remittance adjustments (from the 835: one row per adjustment).",
+     "say": "Remittance adjustments (from the 8 35: one row per adjustment).",
+     "focus": -1,
+     "file": "clips/e62e5560c0f2.mp3",
+     "seconds": 4.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Emily's strep visit as data",
+   "lines": [
+    {
+     "raw": "4.",
+     "say": "4.",
+     "focus": -1,
+     "file": "clips/02e8c87217d7.mp3",
+     "seconds": 1.325
+    },
+    {
+     "raw": "Pharmacy claim (same day, from the PBM).",
+     "say": "Pharmacy claim (same day, from the P B M).",
+     "focus": -1,
+     "file": "clips/7dd5dfbee476.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Emily's strep visit as data",
+   "lines": [
+    {
+     "raw": "5.",
+     "say": "5.",
+     "focus": -1,
+     "file": "clips/7d971eaefcbd.mp3",
+     "seconds": 1.4
+    },
+    {
+     "raw": "Medical accumulators for 2025, after the March visit.",
+     "say": "Medical accumulators for 2025, after the March visit.",
+     "focus": -1,
+     "file": "clips/3a54af01cc30.mp3",
+     "seconds": 4.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Emily's strep visit as data",
+   "lines": [
+    {
+     "raw": "Fictional IDs.",
+     "say": "Fictional I D's.",
+     "focus": -1,
+     "file": "clips/f8fcbdd3fb57.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "The clinic NPI 1356789012, the EFT trace number and all company names are made up for learning.",
+     "say": "The clinic N P I 1356789012, the E F T trace number and all company names are made up for learning.",
+     "focus": -1,
+     "file": "clips/db2ba8b9fcea.mp3",
+     "seconds": 11.525
+    },
+    {
+     "raw": "Dr. Patel's NPI and the pharmacy details match the Pharmacy course.",
+     "say": "Doctor Patel's N P I and the pharmacy details match the Pharmacy course.",
+     "focus": -1,
+     "file": "clips/6e26094e3b44.mp3",
+     "seconds": 5.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Emily's strep visit as data",
+   "lines": [
+    {
+     "raw": "Checks an analyst runs on this data.",
+     "say": "Checks an analyst runs on this data.",
+     "focus": -1,
+     "file": "clips/c437d4a7c2ac.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "allowed equals deductible plus copay plus coinsurance plus paid  ·  billed − allowed equals sum of CO adjustments.",
+     "say": "allowed equals deductible plus copay plus coinsurance plus paid , billed − allowed equals sum of C O adjustments.",
+     "focus": 0,
+     "file": "clips/8413f31cfb40.mp3",
+     "seconds": 8.4
+    },
+    {
+     "raw": "For example: Line 1: $80 equals $0 plus $25 plus $0 plus $55 ✓, and $117 − $80 equals $37 equals CO-45 ✓.",
+     "say": "For example: Line 1: 80 dollars equals 0 dollars plus 25 dollars plus 0 dollars plus 55 dollars ✓, and 117 dollars − 80 dollars equals 37 dollars equals C O 45 ✓.",
+     "focus": 1,
+     "file": "clips/6f52fb8a6962.mp3",
+     "seconds": 15.85
+    },
+    {
+     "raw": "Line 2: $22 equals $0 plus $0 plus $0 plus $22 ✓, and $33 − $22 equals $11 equals CO-45 ✓.",
+     "say": "Line 2: 22 dollars equals 0 dollars plus 0 dollars plus 0 dollars plus 22 dollars ✓, and 33 dollars − 22 dollars equals 11 dollars equals C O 45 ✓.",
+     "focus": 1,
+     "file": "clips/7d381132d200.mp3",
+     "seconds": 14.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Emily's strep visit as data",
+   "lines": [
+    {
+     "raw": "Joining the tables.",
+     "say": "Joining the tables.",
+     "focus": -1,
+     "file": "clips/c5fa4765291e.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Everything links by **member_id** and **dates**.",
+     "say": "Everything links by member_id and dates.",
+     "focus": -1,
+     "file": "clips/ed76409ba092.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Check that the claim date (2025-03-10) falls inside an eligibility span.",
+     "say": "Check that the claim date (2025-03-10) falls inside an eligibility span.",
+     "focus": -1,
+     "file": "clips/5db2e58d4f7f.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "Link the pharmacy claim to the medical claim by member and date to guess **why** the amoxicillin was given (`J02.0`).",
+     "say": "Link the pharmacy claim to the medical claim by member and date to guess why the amoxicillin was given (J 0 2 . 0).",
+     "focus": -1,
+     "file": "clips/2b5cf9dacd06.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "Link remittance rows to claim lines by **claim_id + line_no**.",
+     "say": "Link remittance rows to claim lines by claim_id and line_no.",
+     "focus": -1,
+     "file": "clips/e2fd84bbe448.mp3",
+     "seconds": 4.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The same journey in Nepal.",
+     "say": "The same journey in Nepal.",
+     "focus": -1,
+     "file": "clips/5877a3dc5785.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "The same journey in Nepal",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Getting cover. Ram (private insurance): Startup buys a group policy. Sita (SSF): Enrolled through employer contributions. Emily (US PPO): Chooses a plan at open enrollment; 834 file.",
+     "say": "Getting cover. Ram (private insurance): Startup buys a group policy. Sita (S S F): Enrolled through employer contributions. Emily (U S P P O): Chooses a plan at open enrollment; 8 34 file.",
+     "focus": 0,
+     "file": "clips/17d25534ca61.mp3",
+     "seconds": 15.625
+    },
+    {
+     "raw": "Going for care. Ram (private insurance): Any hospital or clinic. Sita (SSF): SSF-listed hospital. Emily (US PPO): In-network provider.",
+     "say": "Going for care. Ram (private insurance): Any hospital or clinic. Sita (S S F): S S F listed hospital. Emily (U S P P O): In-network provider.",
+     "focus": 1,
+     "file": "clips/6ff4036a746d.mp3",
+     "seconds": 11.625
+    },
+    {
+     "raw": "Checking cover. Ram (private insurance): Not at the hospital. Sita (SSF): Hospital checks SSF membership. Emily (US PPO): 270/271 in seconds.",
+     "say": "Checking cover. Ram (private insurance): Not at the hospital. Sita (S S F): Hospital checks S S F membership. Emily (U S P P O): 2 70/2 71 in seconds.",
+     "focus": 2,
+     "file": "clips/d15d08c4fb26.mp3",
+     "seconds": 13.525
+    },
+    {
+     "raw": "Coding. Ram (private insurance): Usually none. Sita (SSF): Diagnosis and services recorded. Emily (US PPO): ICD-10, CPT, modifiers.",
+     "say": "Coding. Ram (private insurance): Usually none. Sita (S S F): Diagnosis and services recorded. Emily (U S P P O): I C D 10, C P T, modifiers.",
+     "focus": 3,
+     "file": "clips/08c864aca918.mp3",
+     "seconds": 12.875
+    },
+    {
+     "raw": "Sending the claim. Ram (private insurance): Ram submits receipts himself. Sita (SSF): Hospital claims from SSF. Emily (US PPO): 837P through a clearinghouse.",
+     "say": "Sending the claim. Ram (private insurance): Ram submits receipts himself. Sita (S S F): Hospital claims from S S F. Emily (U S P P O): 8 3 7 P through a clearinghouse.",
+     "focus": 4,
+     "file": "clips/a895a5dddef4.mp3",
+     "seconds": 14.075
+    },
+    {
+     "raw": "Deciding the claim. Ram (private insurance): Insurer checks the policy. Sita (SSF): SSF checks approved rates and limits. Emily (US PPO): Ten checks plus fee schedule adjudication.",
+     "say": "Deciding the claim. Ram (private insurance): Insurer checks the policy. Sita (S S F): S S F checks approved rates and limits. Emily (U S P P O): Ten checks plus fee schedule adjudication.",
+     "focus": 5,
+     "file": "clips/3fd05bb73d9f.mp3",
+     "seconds": 14.675
+    },
+    {
+     "raw": "Who gets the money. Ram (private insurance): Ram (reimbursement). Sita (SSF): The hospital (80%). Emily (US PPO): The clinic, by EFT with an 835.",
+     "say": "Who gets the money. Ram (private insurance): Ram (reimbursement). Sita (S S F): The hospital (80 percent). Emily (U S P P O): The clinic, by E F T with an 8 35.",
+     "focus": 6,
+     "file": "clips/62834dcfa89a.mp3",
+     "seconds": 13.175
+    },
+    {
+     "raw": "Patient's paper. Ram (private insurance): Settlement message. Sita (SSF): Hospital receipt for 20%. Emily (US PPO): EOB, and a bill only if money is owed.",
+     "say": "Patient's paper. Ram (private insurance): Settlement message. Sita (S S F): Hospital receipt for 20 percent. Emily (U S P P O): E O B, and a bill only if money is owed.",
+     "focus": 7,
+     "file": "clips/a5e0b414b807.mp3",
+     "seconds": 13.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "The same journey in Nepal",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You have walked through the whole US healthcare flow, from choosing a plan to paying the bill, and you know what data each step leaves behind.",
+     "say": "You have walked through the whole U S healthcare flow, from choosing a plan to paying the bill, and you know what data each step leaves behind.",
+     "focus": -1,
+     "file": "clips/754447d4ec2a.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "Play it yourself in Try It Yourself, then take the last Foundations course, **HIPAA**, to learn how all this patient data must be protected.",
+     "say": "Play it yourself in Try It Yourself, then take the last Foundations course, HIPAA, to learn how all this patient data must be protected.",
+     "focus": -1,
+     "file": "clips/a5ba8b823a85.mp3",
+     "seconds": 8.75
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The flow: plan → health event → care level → booking and check-in → consultation and coding → claim and 837 → clearinghouse → payer checks → adjudication → EOB, payment and bill.",
+     "say": "The flow: plan to health event to care level to booking and check-in to consultation and coding to claim and 8 37 to clearinghouse to payer checks to adjudication to E O B, payment and bill.",
+     "focus": 0,
+     "file": "clips/44b4bd324430.mp3",
+     "seconds": 13.625
+    },
+    {
+     "raw": "Each step creates a record: 834, 270/271, EHR note, 837, 277CA, claim lines, 835, EOB, statement, pharmacy claim.",
+     "say": "Each step creates a record: 8 34, 2 70/2 71, E H R note, 8 37, 2 7 7 C A, claim lines, 8 35, E O B, statement, pharmacy claim.",
+     "focus": 1,
+     "file": "clips/b6afa4adda47.mp3",
+     "seconds": 13.45
+    },
+    {
+     "raw": "Analysts see the journey only through these records, linked by member, claim number and dates.",
+     "say": "Analysts see the journey only through these records, linked by member, claim number and dates.",
+     "focus": 2,
+     "file": "clips/76f5892de5e7.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "Emily's strep visit: billed $150, allowed $102, plan paid $77, Emily paid $25 at the clinic and $5 at the pharmacy.",
+     "say": "Emily's strep visit: billed 150 dollars allowed 102 dollars plan paid 77 dollars Emily paid 25 dollars at the clinic and 5 dollars at the pharmacy.",
+     "focus": 3,
+     "file": "clips/32b16937fc6d.mp3",
+     "seconds": 12.6
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

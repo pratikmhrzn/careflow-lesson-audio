@@ -1,0 +1,596 @@
+{
+ "courseId": "dental",
+ "lessonId": "dental-claim",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: The Dental Claim.",
+     "say": "Lesson 3: The Dental Claim.",
+     "focus": -1,
+     "file": "clips/094c5107c49e.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "One form, one dentist, one visit: how a dental claim is shaped, header and lines.",
+     "say": "One form, one dentist, one visit: how a dental claim is shaped, header and lines.",
+     "focus": -1,
+     "file": "clips/15dea3fea4d3.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read the main fields of an ADA dental claim.",
+     "say": "Read the main fields of an A D A dental claim.",
+     "focus": 0,
+     "file": "clips/4d683242125c.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "Know how dental claims travel electronically (837D).",
+     "say": "Know how dental claims travel electronically (8 3 7 D).",
+     "focus": 1,
+     "file": "clips/a54861f9760b.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "Tell header (claim-level) fields from line fields.",
+     "say": "Tell header (claim-level) fields from line fields.",
+     "focus": 2,
+     "file": "clips/9ac63dbf8cdb.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Tell the billing dentist from the treating dentist.",
+     "say": "Tell the billing dentist from the treating dentist.",
+     "focus": 3,
+     "file": "clips/9510945a55d6.mp3",
+     "seconds": 3.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The dentist's own claim form.",
+     "say": "The dentist's own claim form.",
+     "focus": -1,
+     "file": "clips/d4c5a6a7a935.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The dentist's own claim form",
+   "lines": [
+    {
+     "raw": "Every dental visit that the plan pays for becomes a **claim**: the dentist's bill to the plan.",
+     "say": "Every dental visit that the plan pays for becomes a claim: the dentist's bill to the plan.",
+     "focus": -1,
+     "file": "clips/dd21a301b9f0.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "Dentists use the **ADA Dental Claim Form**, designed by the American Dental Association.",
+     "say": "Dentists use the A D A Dental Claim Form, designed by the American Dental Association.",
+     "focus": -1,
+     "file": "clips/218759fcf132.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "Electronically, the same information travels as an **837D** file (D for dental).",
+     "say": "Electronically, the same information travels as an 8 3 7 D file (D for dental).",
+     "focus": -1,
+     "file": "clips/99ee214facbc.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Lesson 2 showed how this compares with the medical claim forms.",
+     "say": "Lesson 2 showed how this compares with the medical claim forms.",
+     "focus": -1,
+     "file": "clips/36da7c4719cb.mp3",
+     "seconds": 4.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The dentist's own claim form",
+   "lines": [
+    {
+     "raw": "In Nepal: What Ram and Sita would need.",
+     "say": "In Nepal: What Ram and Sita would need.",
+     "focus": -1,
+     "file": "clips/d3063c13c7d1.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "If Ram's policy covered a dental treatment, he would pay the clinic, then send his insurer the **bill**, the **dentist's prescription or notes** and often an **X-ray**, and wait for reimbursement.",
+     "say": "If Ram's policy covered a dental treatment, he would pay the clinic, then send his insurer the bill, the dentist's prescription or notes and often an X-ray, and wait for reimbursement.",
+     "focus": 0,
+     "file": "clips/2333825ad9d9.mp3",
+     "seconds": 11.8
+    },
+    {
+     "raw": "In the US, the **dentist** sends the claim for the patient.",
+     "say": "In the U S, the dentist sends the claim for the patient.",
+     "focus": 1,
+     "file": "clips/2805db79ea0e.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "Emily never fills in a form herself.",
+     "say": "Emily never fills in a form herself.",
+     "focus": 1,
+     "file": "clips/ea00204a203d.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "For services SSF covers, the SSF-listed hospital sends the claim to SSF for Sita.",
+     "say": "For services S S F covers, the S S F listed hospital sends the claim to S S F for Sita.",
+     "focus": 2,
+     "file": "clips/4b92f2747075.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "That is closer to how the US works: the provider bills the payer directly.",
+     "say": "That is closer to how the U S works: the provider bills the payer directly.",
+     "focus": 2,
+     "file": "clips/e55d2aaeac21.mp3",
+     "seconds": 5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Emily's filling, on the form.",
+     "say": "Emily's filling, on the form.",
+     "focus": -1,
+     "file": "clips/967699da33d9.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Emily's filling, on the form",
+   "lines": [
+    {
+     "raw": "In March 2025, Dr. Liu found a cavity in one of Emily's back teeth and placed a tooth-coloured filling.",
+     "say": "In March 2025, Doctor Liu found a cavity in one of Emily's back teeth and placed a tooth-coloured filling.",
+     "focus": -1,
+     "file": "clips/3ac5b5d960e2.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "Here is the claim.",
+     "say": "Here is the claim.",
+     "focus": -1,
+     "file": "clips/2604d7c9e72c.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The procedure code (lesson 4) and the tooth and surfaces (lesson 5) get lessons of their own; for now, notice which parts describe the **whole claim** and which describe **each service**.",
+     "say": "The procedure code (lesson 4) and the tooth and surfaces (lesson 5) get lessons of their own; for now, notice which parts describe the whole claim and which describe each service.",
+     "focus": -1,
+     "file": "clips/496c9b848de3.mp3",
+     "seconds": 11.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Emily's filling, on the form",
+   "lines": [
+    {
+     "raw": "Here is the ADA Dental Claim Form form: Dental claim 880245.",
+     "say": "Here is the A D A Dental Claim Form form: Dental claim 880245.",
+     "focus": -1,
+     "file": "clips/5d7c25da30b6.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "Type of transaction: Statement of actual services.",
+     "say": "Type of transaction: Statement of actual services.",
+     "focus": 0,
+     "file": "clips/6d91b44f0d1b.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "The work is done.",
+     "say": "The work is done.",
+     "focus": 0,
+     "file": "clips/771d5e083da0.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "(The other option is a request for a pre-treatment estimate.).",
+     "say": "(The other option is a request for a pre-treatment estimate.).",
+     "focus": 0,
+     "file": "clips/e73b41990f2c.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Claim number: 880245.",
+     "say": "Claim number: 880245.",
+     "focus": 1,
+     "file": "clips/f5d1de805497.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Dental plan: Lone Star Dental.",
+     "say": "Dental plan: Lone Star Dental.",
+     "focus": 2,
+     "file": "clips/55f7b2a081f5.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Fictional insurer.",
+     "say": "Fictional insurer.",
+     "focus": 2,
+     "file": "clips/14b483e763ae.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "Subscriber: Emily Carter.",
+     "say": "Subscriber: Emily Carter.",
+     "focus": 3,
+     "file": "clips/903a37e6f2d7.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Member ID M1001 · Group G20450.",
+     "say": "Member I D M 1 0 0 1, Group G 2 0 4 5 0.",
+     "focus": 3,
+     "file": "clips/5f0bd49097d0.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "Patient: Emily Carter.",
+     "say": "Patient: Emily Carter.",
+     "focus": 4,
+     "file": "clips/481f9e1c8979.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Relationship to subscriber: Self · Born 1990-08-14.",
+     "say": "Relationship to subscriber: Self, Born 1990-08-14.",
+     "focus": 4,
+     "file": "clips/7b95671e1594.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "Billing dentist: Hill Country Family Dental.",
+     "say": "Billing dentist: Hill Country Family Dental.",
+     "focus": 5,
+     "file": "clips/cb30b0df26e3.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "NPI 1245789031 · the practice that gets paid.",
+     "say": "N P I 1245789031, the practice that gets paid.",
+     "focus": 5,
+     "file": "clips/d66c6c6564ac.mp3",
+     "seconds": 8.175
+    },
+    {
+     "raw": "Treating dentist: Dr. Grace Liu.",
+     "say": "Treating dentist: Doctor Grace Liu.",
+     "focus": 6,
+     "file": "clips/ec39067c16fe.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "NPI 1748392010 · did the work.",
+     "say": "N P I 1748392010, did the work.",
+     "focus": 6,
+     "file": "clips/9df9033e06df.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "Place of treatment: 11.",
+     "say": "Place of treatment: 11.",
+     "focus": 7,
+     "file": "clips/95a4ce439e67.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Office (same place-of-service codes as medical claims).",
+     "say": "Office (same place-of-service codes as medical claims).",
+     "focus": 7,
+     "file": "clips/8dd29cc1c8cd.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "Tooth system: JP.",
+     "say": "Tooth system: J P.",
+     "focus": 8,
+     "file": "clips/4d386a28858f.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Universal numbering (1–32, A–T).",
+     "say": "Universal numbering (1–32, A–T).",
+     "focus": 8,
+     "file": "clips/52d27d1fa9d8.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Diagnosis code: (blank).",
+     "say": "Diagnosis code: (blank).",
+     "focus": 9,
+     "file": "clips/52bd8b7516fd.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Often left empty on dental claims.",
+     "say": "Often left empty on dental claims.",
+     "focus": 9,
+     "file": "clips/18ab47857fe4.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Total fee: $250.00.",
+     "say": "Total fee: 250 dollars.",
+     "focus": 10,
+     "file": "clips/55f9a66c55a1.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Header and lines.",
+     "say": "Header and lines.",
+     "focus": -1,
+     "file": "clips/babbc5e2e917.mp3",
+     "seconds": 1.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Header and lines",
+   "lines": [
+    {
+     "raw": "Like every US claim, a dental claim has two levels.",
+     "say": "Like every U S claim, a dental claim has two levels.",
+     "focus": -1,
+     "file": "clips/f425831e5576.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "The **header** is said once for the whole claim.",
+     "say": "The header is said once for the whole claim.",
+     "focus": -1,
+     "file": "clips/8ac6a2208056.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "The **lines** (the \"record of services provided\") repeat once for each service.",
+     "say": "The lines (the \"record of services provided\") repeat once for each service.",
+     "focus": -1,
+     "file": "clips/cbb60e1bfbad.mp3",
+     "seconds": 5.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Header and lines",
+   "lines": [
+    {
+     "raw": "Claim 880245 split into header and line fields.",
+     "say": "Claim 880245 split into header and line fields.",
+     "focus": -1,
+     "file": "clips/202a05dee3c4.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "**Header**. Fields: Claim number, type of transaction, dental plan, subscriber, patient, relationship. Question answered: Which bill? Which plan? Who was treated?",
+     "say": "Header. Fields: Claim number, type of transaction, dental plan, subscriber, patient, relationship. Question answered: Which bill? Which plan? Who was treated?",
+     "focus": 0,
+     "file": "clips/56d4e7208f74.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "**Header**. Fields: Billing dentist, treating dentist, place of treatment. Question answered: Who did the work, who gets paid, and where?",
+     "say": "Header. Fields: Billing dentist, treating dentist, place of treatment. Question answered: Who did the work, who gets paid, and where?",
+     "focus": 1,
+     "file": "clips/5363e1658130.mp3",
+     "seconds": 8.475
+    },
+    {
+     "raw": "**Header**. Fields: Tooth numbering system, diagnosis codes (often blank), total fee. Question answered: How are teeth labelled? Why? How much in total?",
+     "say": "Header. Fields: Tooth numbering system, diagnosis codes (often blank), total fee. Question answered: How are teeth labelled? Why? How much in total?",
+     "focus": 2,
+     "file": "clips/6cfaf36911e9.mp3",
+     "seconds": 10.4
+    },
+    {
+     "raw": "**Line**. Fields: Procedure date, CDT code, quantity, description, fee. Question answered: What was done, when, and for how much?",
+     "say": "Line. Fields: Procedure date, C D T code, quantity, description, fee. Question answered: What was done, when, and for how much?",
+     "focus": 3,
+     "file": "clips/0d2d8ea7f8c4.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "**Line**. Fields: Area, tooth, surface. Question answered: Where in the mouth?",
+     "say": "Line. Fields: Area, tooth, surface. Question answered: Where in the mouth?",
+     "focus": 4,
+     "file": "clips/74abb7e46e1a.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Header and lines",
+   "lines": [
+    {
+     "raw": "Billing vs treating dentist.",
+     "say": "Billing versus treating dentist.",
+     "focus": -1,
+     "file": "clips/ed0219f4921f.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Just like billing and rendering providers on a medical claim: the **practice** (Hill Country Family Dental) gets paid, and the **dentist** (Dr. Liu) did the work.",
+     "say": "Just like billing and rendering providers on a medical claim: the practice (Hill Country Family Dental) gets paid, and the dentist (Doctor Liu) did the work.",
+     "focus": -1,
+     "file": "clips/9f6e8e603579.mp3",
+     "seconds": 9.925
+    },
+    {
+     "raw": "Both are identified by an **NPI**.",
+     "say": "Both are identified by an N P I.",
+     "focus": -1,
+     "file": "clips/cbaca751803d.mp3",
+     "seconds": 2.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Header and lines",
+   "lines": [
+    {
+     "raw": "Dental claims are usually simple.",
+     "say": "Dental claims are usually simple.",
+     "focus": -1,
+     "file": "clips/6c0c6f7f35d9.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Most dental visits happen in an **office**, are done by **one dentist**, on **one day**.",
+     "say": "Most dental visits happen in an office, are done by one dentist, on one day.",
+     "focus": -1,
+     "file": "clips/5d1bce6fccf0.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "So a dental claim is usually short: a few lines, each with a CDT code, maybe a tooth and surface, and a fee.",
+     "say": "So a dental claim is usually short: a few lines, each with a C D T code, maybe a tooth and surface, and a fee.",
+     "focus": -1,
+     "file": "clips/5bf8245b08fe.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "No admission dates, no revenue codes, no DRGs.",
+     "say": "No admission dates, no revenue codes, no D R G's.",
+     "focus": -1,
+     "file": "clips/c5f25af306ca.mp3",
+     "seconds": 4.075
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Dentists bill on the **ADA Dental Claim Form** (paper) or an **837D** (electronic).",
+     "say": "Dentists bill on the A D A Dental Claim Form (paper) or an 8 3 7 D (electronic).",
+     "focus": 0,
+     "file": "clips/a0c2b36d0924.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "The **header** holds claim-level facts: claim number, plan, subscriber and patient, dentists, place and total fee.",
+     "say": "The header holds claim-level facts: claim number, plan, subscriber and patient, dentists, place and total fee.",
+     "focus": 1,
+     "file": "clips/94696999450e.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "Each **line** holds one service: date, CDT code, tooth / surface or area, quantity and fee.",
+     "say": "Each line holds one service: date, C D T code, tooth or surface or area, quantity and fee.",
+     "focus": 2,
+     "file": "clips/c0d84b6b3800.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "The **billing dentist** (the practice) gets paid; the **treating dentist** did the work.",
+     "say": "The billing dentist (the practice) gets paid; the treating dentist did the work.",
+     "focus": 3,
+     "file": "clips/2378eb5f745f.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Both have an NPI.",
+     "say": "Both have an N P I.",
+     "focus": 3,
+     "file": "clips/bc30ea845d83.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Dental claims are usually short: one office, one dentist, one day, a few lines.",
+     "say": "Dental claims are usually short: one office, one dentist, one day, a few lines.",
+     "focus": 4,
+     "file": "clips/92e92d928752.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

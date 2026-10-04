@@ -1,0 +1,862 @@
+{
+ "courseId": "terminology",
+ "lessonId": "networks-plan-types",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: Networks & Plan Types.",
+     "say": "Lesson 3: Networks and Plan Types.",
+     "focus": -1,
+     "file": "clips/302339cc8fc5.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "In-network, HMO, PPO, EPO, POS, HDHP and the rules about which doctor you can see.",
+     "say": "In-network, H M O, P P O, E P O, P O S, H D H P and the rules about which doctor you can see.",
+     "focus": -1,
+     "file": "clips/da4a70282aea.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a network is and why in-network care costs less.",
+     "say": "Explain what a network is and why in-network care costs less.",
+     "focus": 0,
+     "file": "clips/ec59c35903e9.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "Tell HMO, PPO, EPO, POS and HDHP plans apart.",
+     "say": "Tell H M O, P P O, E P O, P O S and H D H P plans apart.",
+     "focus": 1,
+     "file": "clips/84b2faf44a37.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Understand PCP, referral and prior authorization.",
+     "say": "Understand P C P, referral and prior authorization.",
+     "focus": 2,
+     "file": "clips/f1a96949b359.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Know what an HSA is and how it links to an HDHP.",
+     "say": "Know what an H S A is and how it links to an H D H P.",
+     "focus": 3,
+     "file": "clips/b38c73b72f67.mp3",
+     "seconds": 4.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What is a network?",
+     "say": "What is a network?",
+     "focus": -1,
+     "file": "clips/695e3763a491.mp3",
+     "seconds": 1.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "What is a network?",
+   "lines": [
+    {
+     "raw": "A **network** is the list of doctors, hospitals, labs and pharmacies that have signed a contract with a health plan.",
+     "say": "A network is the list of doctors, hospitals, labs and pharmacies that have signed a contract with a health plan.",
+     "focus": -1,
+     "file": "clips/4dfb5677cac0.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "In the contract, the provider agrees to accept the plan's **allowed amounts** (lower prices).",
+     "say": "In the contract, the provider agrees to accept the plan's allowed amounts (lower prices).",
+     "focus": -1,
+     "file": "clips/7a4d891044c3.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "In return, the plan sends its members to them.",
+     "say": "In return, the plan sends its members to them.",
+     "focus": -1,
+     "file": "clips/f8902f34ce99.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "What is a network?",
+   "lines": [
+    {
+     "raw": "In Nepal: Networks you already know.",
+     "say": "In Nepal: Networks you already know.",
+     "focus": -1,
+     "file": "clips/b3f661665797.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Many private insurers in Nepal have **network (empanelled) hospitals** where members can get **cashless** treatment, and pay-and-claim elsewhere.",
+     "say": "Many private insurers in Nepal have network (empanelled) hospitals where members can get cashless treatment, and pay-and-claim elsewhere.",
+     "focus": 0,
+     "file": "clips/1e1a241e9cbf.mp3",
+     "seconds": 8.85
+    },
+    {
+     "raw": "Rules differ by insurer and policy.",
+     "say": "Rules differ by insurer and policy.",
+     "focus": 0,
+     "file": "clips/59e04b56c03a.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Ram's policy in this course works by **reimbursement**: he pays any hospital first, then claims back.",
+     "say": "Ram's policy in this course works by reimbursement: he pays any hospital first, then claims back.",
+     "focus": 1,
+     "file": "clips/33d26d0af316.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita can use SSF benefits only at **SSF-listed hospitals**.",
+     "say": "Sita can use S S F benefits only at S S F listed hospitals.",
+     "focus": 2,
+     "file": "clips/bb2987c8c3df.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "That list is SSF's **network**.",
+     "say": "That list is SSF's network.",
+     "focus": 2,
+     "file": "clips/a8c41e10d755.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "At a listed hospital, the hospital bills SSF directly.",
+     "say": "At a listed hospital, the hospital bills S S F directly.",
+     "focus": 3,
+     "file": "clips/cfd3cc9d868b.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "That is very close to how US **in-network** care works.",
+     "say": "That is very close to how U S in-network care works.",
+     "focus": 3,
+     "file": "clips/09250a5c4371.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "What is a network?",
+   "lines": [
+    {
+     "raw": "In-network (participating, \"par\").",
+     "say": "In-network (participating, \"par\").",
+     "focus": 0,
+     "file": "clips/97e6e936c974.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "A provider with a **contract** with the plan.",
+     "say": "A provider with a contract with the plan.",
+     "focus": 0,
+     "file": "clips/cb45a1a083ce.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Lower prices, lower cost sharing, no balance billing.",
+     "say": "Lower prices, lower cost sharing, no balance billing.",
+     "focus": 0,
+     "file": "clips/c2cbdfc6948e.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Out-of-network (non-participating, \"non-par\").",
+     "say": "Out-of-network (non-participating, \"non-par\").",
+     "focus": 1,
+     "file": "clips/7078dbd0db4c.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "A provider **without** a contract.",
+     "say": "A provider without a contract.",
+     "focus": 1,
+     "file": "clips/66367511f7e1.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Some plans pay less, some pay nothing (except emergencies), and the provider may balance bill.",
+     "say": "Some plans pay less, some pay nothing (except emergencies), and the provider may balance bill.",
+     "focus": 1,
+     "file": "clips/0e49fe873156.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "PCP (Primary Care Provider / Physician).",
+     "say": "P C P (Primary Care Provider or Physician).",
+     "focus": 2,
+     "file": "clips/3fa1c618fcac.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Your **main doctor** for everyday care, usually a family medicine, internal medicine or children's doctor.",
+     "say": "Your main doctor for everyday care, usually a family medicine, internal medicine or children's doctor.",
+     "focus": 2,
+     "file": "clips/ad7f52c9e752.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Dr. Patel is Emily's PCP.",
+     "say": "Doctor Patel is Emily's P C P.",
+     "focus": 2,
+     "file": "clips/4868b2c5e2ba.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Specialist.",
+     "say": "Specialist.",
+     "focus": 3,
+     "file": "clips/90caeebc947c.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "A doctor focused on one area: heart (cardiologist), skin (dermatologist), surgery and so on.",
+     "say": "A doctor focused on one area: heart (cardiologist), skin (dermatologist), surgery and so on.",
+     "focus": 3,
+     "file": "clips/8af67c00e71f.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Dr. Lee, the surgeon, is a specialist.",
+     "say": "Doctor Lee, the surgeon, is a specialist.",
+     "focus": 3,
+     "file": "clips/bd6901e90d6c.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Referral.",
+     "say": "Referral.",
+     "focus": 4,
+     "file": "clips/03ee3d21c9ca.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "Permission from your **PCP** to see a specialist.",
+     "say": "Permission from your P C P to see a specialist.",
+     "focus": 4,
+     "file": "clips/29b67626d7dc.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Some plan types require it before they pay the specialist.",
+     "say": "Some plan types require it before they pay the specialist.",
+     "focus": 4,
+     "file": "clips/44b2ce6beeec.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Prior authorization (pre-auth, PA).",
+     "say": "Prior authorization (pre-auth, P A).",
+     "focus": 5,
+     "file": "clips/d9fdc290c02b.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Approval from the **plan** before certain expensive services or drugs, such as an MRI or a planned surgery.",
+     "say": "Approval from the plan before certain expensive services or drugs, such as an M R I or a planned surgery.",
+     "focus": 5,
+     "file": "clips/f6e962d804b4.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Without it, the plan may refuse to pay.",
+     "say": "Without it, the plan may refuse to pay.",
+     "focus": 5,
+     "file": "clips/6bd0804cd6d4.mp3",
+     "seconds": 2.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "What is a network?",
+   "lines": [
+    {
+     "raw": "Referral vs prior authorization.",
+     "say": "Referral versus prior authorization.",
+     "focus": -1,
+     "file": "clips/837fc9f96bdf.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "A **referral** is like your family doctor writing \"please see this specialist\" on a slip.",
+     "say": "A referral is like your family doctor writing \"please see this specialist\" on a slip.",
+     "focus": -1,
+     "file": "clips/ff1827667c0b.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "**Prior authorization** is like the insurer's office stamping \"approved\" before the hospital does an expensive test.",
+     "say": "Prior authorization is like the insurer's office stamping \"approved\" before the hospital does an expensive test.",
+     "focus": -1,
+     "file": "clips/f8dfc9629d44.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "One comes from a **doctor**, the other from the **payer**.",
+     "say": "One comes from a doctor, the other from the payer.",
+     "focus": -1,
+     "file": "clips/364f2e68d1ce.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "What is a network?",
+   "lines": [
+    {
+     "raw": "Pre-approval in Nepal.",
+     "say": "Pre-approval in Nepal.",
+     "focus": -1,
+     "file": "clips/89bb7bf6eddf.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "For a planned admission at a network hospital, a private insurer may ask for **pre-authorization** before cashless treatment.",
+     "say": "For a planned admission at a network hospital, a private insurer may ask for pre-authorization before cashless treatment.",
+     "focus": 0,
+     "file": "clips/eff2a3048560.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF-listed hospitals **check eligibility** before treatment.",
+     "say": "S S F listed hospitals check eligibility before treatment.",
+     "focus": 1,
+     "file": "clips/92e2f695e93a.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "For some services they may also need SSF approval.",
+     "say": "For some services they may also need S S F approval.",
+     "focus": 1,
+     "file": "clips/bf375df64e9f.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Check SSF guidelines for the current rules.",
+     "say": "Check S S F guidelines for the current rules.",
+     "focus": 1,
+     "file": "clips/3ce4f89956f3.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The main US plan types.",
+     "say": "The main U S plan types.",
+     "focus": -1,
+     "file": "clips/0580e0974e10.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The main US plan types",
+   "lines": [
+    {
+     "raw": "US plans are grouped by **how strict their network rules are**.",
+     "say": "U S plans are grouped by how strict their network rules are.",
+     "focus": -1,
+     "file": "clips/a8fa07123403.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "Stricter plans usually have lower premiums.",
+     "say": "Stricter plans usually have lower premiums.",
+     "focus": -1,
+     "file": "clips/4c4278c8f4e4.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Freer plans cost more.",
+     "say": "Freer plans cost more.",
+     "focus": -1,
+     "file": "clips/9fb46ce84723.mp3",
+     "seconds": 2.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The main US plan types",
+   "lines": [
+    {
+     "raw": "HMO (Health Maintenance Organization).",
+     "say": "H M O (Health Maintenance Organization).",
+     "focus": 0,
+     "file": "clips/9a21f643fd44.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "You must pick a **PCP** and usually need a **referral** to see a specialist.",
+     "say": "You must pick a P C P and usually need a referral to see a specialist.",
+     "focus": 0,
+     "file": "clips/ec07a3bed132.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "**Only in-network** care is covered, except emergencies.",
+     "say": "Only in-network care is covered, except emergencies.",
+     "focus": 0,
+     "file": "clips/b6c67147bc1a.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Lower premiums.",
+     "say": "Lower premiums.",
+     "focus": 0,
+     "file": "clips/c6c3b41fd823.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "PPO (Preferred Provider Organization).",
+     "say": "P P O (Preferred Provider Organization).",
+     "focus": 1,
+     "file": "clips/bbd5e2de2a9c.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "**No referral** needed.",
+     "say": "No referral needed.",
+     "focus": 1,
+     "file": "clips/315bc6cbbaed.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "In-network is cheaper, but **out-of-network** care is also covered at a higher cost share.",
+     "say": "In-network is cheaper, but out-of-network care is also covered at a higher cost share.",
+     "focus": 1,
+     "file": "clips/14b1690b4674.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "More freedom, higher premiums.",
+     "say": "More freedom, higher premiums.",
+     "focus": 1,
+     "file": "clips/4cf97cf81d53.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "**Emily has a PPO.**",
+     "say": "Emily has a P P O.",
+     "focus": 1,
+     "file": "clips/93cfa2b9f356.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "EPO (Exclusive Provider Organization).",
+     "say": "E P O (Exclusive Provider Organization).",
+     "focus": 2,
+     "file": "clips/8ac97d160c98.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Like an HMO, **only in-network** care is covered (except emergencies), but usually **no referral** needed.",
+     "say": "Like an H M O, only in-network care is covered (except emergencies), but usually no referral needed.",
+     "focus": 2,
+     "file": "clips/be1063c03c2d.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "POS (Point of Service).",
+     "say": "P O S (Point of Service).",
+     "focus": 3,
+     "file": "clips/bb334531eebc.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "A mix: you pick a PCP and need **referrals** like an HMO, but you can go **out-of-network** at a higher cost like a PPO.",
+     "say": "A mix: you pick a P C P and need referrals like an H M O, but you can go out-of-network at a higher cost like a P P O.",
+     "focus": 3,
+     "file": "clips/c4520ebc5ec7.mp3",
+     "seconds": 8.9
+    },
+    {
+     "raw": "HDHP (High Deductible Health Plan).",
+     "say": "H D H P (High Deductible Health Plan).",
+     "focus": 4,
+     "file": "clips/bd2793f4d147.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "A plan with a **high deductible** that meets IRS rules.",
+     "say": "A plan with a high deductible that meets I R S rules.",
+     "focus": 4,
+     "file": "clips/d2f34f1c3954.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "For 2025 the minimum deductible is **$1,650** for one person and **$3,300** for a family.",
+     "say": "For 2025 the minimum deductible is 1650 dollars for one person and 3300 dollars for a family.",
+     "focus": 4,
+     "file": "clips/878202e49a25.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "It can be paired with an **HSA**.",
+     "say": "It can be paired with an H S A.",
+     "focus": 4,
+     "file": "clips/41bd2ab153c8.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "HSA (Health Savings Account).",
+     "say": "H S A (Health Savings Account).",
+     "focus": 5,
+     "file": "clips/e2ebefed037b.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "A personal savings account, allowed **only with an HDHP**, where you put money **tax-free** to pay medical bills.",
+     "say": "A personal savings account, allowed only with an H D H P, where you put money tax-free to pay medical bills.",
+     "focus": 5,
+     "file": "clips/c3213602c4e3.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "The money is yours and **rolls over** every year.",
+     "say": "The money is yours and rolls over every year.",
+     "focus": 5,
+     "file": "clips/a1ac2c172f8c.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The main US plan types",
+   "lines": [
+    {
+     "raw": "Plan types side by side (typical rules; each plan can differ).",
+     "say": "Plan types side by side (typical rules; each plan can differ).",
+     "focus": -1,
+     "file": "clips/f03ef9ee69c8.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "**HMO**. Need a PCP?: Yes. Referral for specialists?: Usually yes. Out-of-network covered?: No (emergencies only). Premium: Lower.",
+     "say": "H M O. Need a P C P?: Yes. Referral for specialists?: Usually yes. Out-of-network covered?: No (emergencies only). Premium: Lower.",
+     "focus": 0,
+     "file": "clips/49e475934a5b.mp3",
+     "seconds": 10.45
+    },
+    {
+     "raw": "**EPO**. Need a PCP?: Usually no. Referral for specialists?: Usually no. Out-of-network covered?: No (emergencies only). Premium: Middle.",
+     "say": "E P O. Need a P C P?: Usually no. Referral for specialists?: Usually no. Out-of-network covered?: No (emergencies only). Premium: Middle.",
+     "focus": 1,
+     "file": "clips/21aabc6be0c3.mp3",
+     "seconds": 10.725
+    },
+    {
+     "raw": "**POS**. Need a PCP?: Yes. Referral for specialists?: Usually yes. Out-of-network covered?: Yes, at higher cost. Premium: Middle.",
+     "say": "P O S. Need a P C P?: Yes. Referral for specialists?: Usually yes. Out-of-network covered?: Yes, at higher cost. Premium: Middle.",
+     "focus": 2,
+     "file": "clips/43bd0f72cc76.mp3",
+     "seconds": 9.925
+    },
+    {
+     "raw": "**PPO**. Need a PCP?: No. Referral for specialists?: No. Out-of-network covered?: Yes, at higher cost. Premium: Higher.",
+     "say": "P P O. Need a P C P?: No. Referral for specialists?: No. Out-of-network covered?: Yes, at higher cost. Premium: Higher.",
+     "focus": 3,
+     "file": "clips/b03fca672295.mp3",
+     "seconds": 9.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The main US plan types",
+   "lines": [
+    {
+     "raw": "HDHP is about the deductible, not the network.",
+     "say": "H D H P is about the deductible, not the network.",
+     "focus": -1,
+     "file": "clips/b2a479ec132d.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "An HDHP can be built on top of an HMO, PPO or EPO network.",
+     "say": "An H D H P can be built on top of an H M O, P P O or E P O network.",
+     "focus": -1,
+     "file": "clips/48732cda93f1.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "So \"HDHP\" answers \"how high is the deductible?\", while HMO and PPO answer \"how do the network rules work?\".",
+     "say": "So \"H D H P\" answers \"how high is the deductible?\", while H M O and P P O answer \"how do the network rules work?\".",
+     "focus": -1,
+     "file": "clips/83d7513b024b.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "Emily's $1,000 deductible is **below** the 2025 HDHP minimum of $1,650, so her PPO is **not** an HDHP and she cannot open an HSA with it.",
+     "say": "Emily's 1000 dollars deductible is below the 2025 H D H P minimum of 1650 dollars so her P P O is not an H D H P and she cannot open an H S A with it.",
+     "focus": -1,
+     "file": "clips/d1d841aa5923.mp3",
+     "seconds": 13.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The main US plan types",
+   "lines": [
+    {
+     "raw": "In the US: Emily's PPO in action.",
+     "say": "In the U S: Emily's P P O in action.",
+     "focus": -1,
+     "file": "clips/bde4238c9250.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Emily saw **Dr. Patel** (her PCP) for strep throat.",
+     "say": "Emily saw Doctor Patel (her P C P) for strep throat.",
+     "focus": 0,
+     "file": "clips/0dea5d838c7e.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "No referral needed.",
+     "say": "No referral needed.",
+     "focus": 0,
+     "file": "clips/315bc6cbbaed.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "With a PPO she could also book a dermatologist directly, without asking Dr. Patel first.",
+     "say": "With a P P O she could also book a dermatologist directly, without asking Doctor Patel first.",
+     "focus": 1,
+     "file": "clips/283d11aadd9d.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "If she chose an **out-of-network** doctor, her plan would still pay something, but she would pay a bigger share and might get a **balance bill**.",
+     "say": "If she chose an out-of-network doctor, her plan would still pay something, but she would pay a bigger share and might get a balance bill.",
+     "focus": 2,
+     "file": "clips/bf5897c57426.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "For a **planned** expensive service, like a non-emergency MRI, her plan may still require **prior authorization**, even on a PPO.",
+     "say": "For a planned expensive service, like a non-emergency M R I, her plan may still require prior authorization, even on a P P O.",
+     "focus": 3,
+     "file": "clips/370e8402c20a.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "Her appendix surgery was an **emergency** at an in-network hospital, so network and prior-approval rules were not a problem.",
+     "say": "Her appendix surgery was an emergency at an in-network hospital, so network and prior-approval rules were not a problem.",
+     "focus": 4,
+     "file": "clips/2ca3ef3db509.mp3",
+     "seconds": 8.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The main US plan types",
+   "lines": [
+    {
+     "raw": "Where you will see these words in data.",
+     "say": "Where you will see these words in data.",
+     "focus": -1,
+     "file": "clips/18e37da524f4.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Plan type / product. Example value: `PPO`, `HMO`, `EPO`, `POS`. Where: Eligibility (enrollment) table.",
+     "say": "Plan type or product. Example value: P P O, H M O, E P O, P O S. Where: Eligibility (enrollment) table.",
+     "focus": 0,
+     "file": "clips/43be0a2576e4.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "Network status / par flag. Example value: `IN`, `OUT` or `Y`, `N`. Where: Medical claim table.",
+     "say": "Network status or par flag. Example value: I N, O U T or Y, N. Where: Medical claim table.",
+     "focus": 1,
+     "file": "clips/795495883c7d.mp3",
+     "seconds": 8.225
+    },
+    {
+     "raw": "PCP ID. Example value: The PCP's NPI. Where: Eligibility table, mostly for HMO members.",
+     "say": "P C P I D. Example value: The PCP's N P I. Where: Eligibility table, mostly for H M O members.",
+     "focus": 2,
+     "file": "clips/5c4c9b715997.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "Authorization number. Example value: An ID from the plan's approval. Where: Claim table and a separate authorization table.",
+     "say": "Authorization number. Example value: An I D from the plan's approval. Where: Claim table and a separate authorization table.",
+     "focus": 3,
+     "file": "clips/212c40778815.mp3",
+     "seconds": 9.05
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A **network** is the providers who signed a contract with the plan.",
+     "say": "A network is the providers who signed a contract with the plan.",
+     "focus": 0,
+     "file": "clips/ce70befdafba.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "In-network = cheaper and no balance billing.",
+     "say": "In-network = cheaper and no balance billing.",
+     "focus": 0,
+     "file": "clips/adaf27e4fd4c.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "**HMO**: PCP + referrals, in-network only.",
+     "say": "H M O: P C P and referrals, in-network only.",
+     "focus": 1,
+     "file": "clips/6823cb32643f.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "**PPO**: freedom, out-of-network covered at higher cost.",
+     "say": "P P O: freedom, out-of-network covered at higher cost.",
+     "focus": 1,
+     "file": "clips/b73bfdfbca33.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "**EPO**: in-network only, often no referrals.",
+     "say": "E P O: in-network only, often no referrals.",
+     "focus": 1,
+     "file": "clips/9cbcdfaa8be9.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "**POS**: a mix.",
+     "say": "P O S: a mix.",
+     "focus": 1,
+     "file": "clips/7b2a604a5782.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "**HDHP** = high deductible (2025 minimum $1,650 single).",
+     "say": "H D H P = high deductible (2025 minimum 1650 dollars single).",
+     "focus": 2,
+     "file": "clips/e89e0ffad40d.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "Only an HDHP allows an **HSA**.",
+     "say": "Only an H D H P allows an H S A.",
+     "focus": 2,
+     "file": "clips/77c9eca3c059.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "A **referral** comes from the PCP.",
+     "say": "A referral comes from the P C P.",
+     "focus": 3,
+     "file": "clips/84720d98c097.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "**Prior authorization** comes from the plan.",
+     "say": "Prior authorization comes from the plan.",
+     "focus": 3,
+     "file": "clips/1d9d5b879042.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

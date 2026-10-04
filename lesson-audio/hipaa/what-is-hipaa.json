@@ -1,0 +1,771 @@
+{
+ "courseId": "hipaa",
+ "lessonId": "what-is-hipaa",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What is HIPAA?",
+     "say": "Lesson 1: What is HIPAA?",
+     "focus": -1,
+     "file": "clips/0e61a72e3a33.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "One US law from 1996 that protects patient information and standardises healthcare data.",
+     "say": "One U S law from 1996 that protects patient information and standardises healthcare data.",
+     "focus": -1,
+     "file": "clips/1ad4c244d536.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Say what HIPAA stands for and when it became law.",
+     "say": "Say what HIPAA stands for and when it became law.",
+     "focus": 0,
+     "file": "clips/23e4c286e0c7.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Name its main rules: Privacy, Security and Breach Notification.",
+     "say": "Name its main rules: Privacy, Security and Breach Notification.",
+     "focus": 1,
+     "file": "clips/56e4172d7eca.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Know that HIPAA also created the standard data formats and code sets.",
+     "say": "Know that HIPAA also created the standard data formats and code sets.",
+     "focus": 2,
+     "file": "clips/10366258fc74.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Compare patient confidentiality in Nepal with HIPAA in the US.",
+     "say": "Compare patient confidentiality in Nepal with HIPAA in the U S.",
+     "focus": 3,
+     "file": "clips/5395b7396664.mp3",
+     "seconds": 4.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Imagine you visit a clinic in Kathmandu for a private health problem.",
+     "say": "Imagine you visit a clinic in Kathmandu for a private health problem.",
+     "focus": -1,
+     "file": "clips/653ccabe3b50.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "A week later, your neighbour says: \"I heard about your test results.\" You would feel upset and betrayed.",
+     "say": "A week later, your neighbour says: \"I heard about your test results.\" You would feel upset and betrayed.",
+     "focus": -1,
+     "file": "clips/773a1d4b0a31.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "Your health information is **yours**.",
+     "say": "Your health information is yours.",
+     "focus": -1,
+     "file": "clips/4ae49c0c86b6.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Only the people treating you, and the people paying for it, should see it.",
+     "say": "Only the people treating you, and the people paying for it, should see it.",
+     "focus": -1,
+     "file": "clips/c9703f581b43.mp3",
+     "seconds": 4.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In the US, this idea is written into law.",
+     "say": "In the U S, this idea is written into law.",
+     "focus": -1,
+     "file": "clips/2b704d7ec4ab.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "The most important law about patient information is called **HIPAA**.",
+     "say": "The most important law about patient information is called HIPAA.",
+     "focus": -1,
+     "file": "clips/22d745a018d6.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "If you work with US healthcare data, even from an office in Nepal, HIPAA will shape almost everything you do.",
+     "say": "If you work with U S healthcare data, even from an office in Nepal, HIPAA will shape almost everything you do.",
+     "focus": -1,
+     "file": "clips/4d7127474e56.mp3",
+     "seconds": 7.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Simple definition.",
+     "say": "Simple definition.",
+     "focus": -1,
+     "file": "clips/a5c5927139e3.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "HIPAA is a US federal law that says who may see, use and share a patient's health information, how that information must be protected, and what must happen when it leaks.",
+     "say": "HIPAA is a U S federal law that says who may see, use and share a patient's health information, how that information must be protected, and what must happen when it leaks.",
+     "focus": -1,
+     "file": "clips/6c52981c27fd.mp3",
+     "seconds": 10.875
+    },
+    {
+     "raw": "It also set the standard formats US insurers and hospitals use to exchange data.",
+     "say": "It also set the standard formats U S insurers and hospitals use to exchange data.",
+     "focus": -1,
+     "file": "clips/f2f48845d35a.mp3",
+     "seconds": 6.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet our people.",
+     "say": "Meet our people.",
+     "focus": -1,
+     "file": "clips/f8aec1fba809.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "This course uses a few made-up people as examples.",
+     "say": "This course uses a few made-up people as examples.",
+     "focus": -1,
+     "file": "clips/dd26bab9b946.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "In Kathmandu, **Ram** works at a tech startup that buys him private health insurance, and **Sita** is an accountant who uses SSF-listed hospitals through the **Social Security Fund (SSF)**.",
+     "say": "In Kathmandu, Ram works at a tech startup that buys him private health insurance, and Sita is an accountant who uses S S F listed hospitals through the Social Security Fund (S S F).",
+     "focus": -1,
+     "file": "clips/6b9acc267f64.mp3",
+     "seconds": 13.05
+    },
+    {
+     "raw": "In Austin, Texas, **Emily Carter** is covered by her employer's health plan (insurer member ID `M1001`), together with her daughter **Lily**.",
+     "say": "In Austin, Texas, Emily Carter is covered by her employer's health plan (insurer member I D M 1 0 0 1), together with her daughter Lily.",
+     "focus": -1,
+     "file": "clips/57f6b1ee05a1.mp3",
+     "seconds": 10.75
+    },
+    {
+     "raw": "In 2025 she saw her family doctor, **Dr. Patel**, for strep throat on 10 March (claim `23098908`), and in June she had her appendix removed at **Lakeside General Hospital**.",
+     "say": "In 2025 she saw her family doctor, Doctor Patel, for strep throat on 10 March (claim 2 3 0 9 8 9 0 8), and in June she had her appendix removed at Lakeside General Hospital.",
+     "focus": -1,
+     "file": "clips/eff640ab1303.mp3",
+     "seconds": 14.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The name.",
+     "say": "The name.",
+     "focus": -1,
+     "file": "clips/af56181f1370.mp3",
+     "seconds": 1.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The name",
+   "lines": [
+    {
+     "raw": "What the letters mean.",
+     "say": "What the letters mean.",
+     "focus": -1,
+     "file": "clips/19ce40a90c37.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "H: Health.",
+     "say": "H: Health.",
+     "focus": 0,
+     "file": "clips/de7488fc2cab.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "I: Insurance.",
+     "say": "I: Insurance.",
+     "focus": 1,
+     "file": "clips/c773832a9e02.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "P: Portability (taking your coverage with you).",
+     "say": "P: Portability (taking your coverage with you).",
+     "focus": 2,
+     "file": "clips/1a217eb226bc.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "A: and.",
+     "say": "A: and.",
+     "focus": 3,
+     "file": "clips/50613732dc9d.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "A: Accountability.",
+     "say": "A: Accountability.",
+     "focus": 4,
+     "file": "clips/6ff22497e70c.mp3",
+     "seconds": 2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The name",
+   "lines": [
+    {
+     "raw": "Common spelling mistake.",
+     "say": "Common spelling mistake.",
+     "focus": -1,
+     "file": "clips/da2ab7a24abf.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "It is **HIPAA** (one P, two A's), not \"HIPPA\".",
+     "say": "It is HIPAA (one P, two A's), not \"H I P P A\".",
+     "focus": -1,
+     "file": "clips/1d7f7bc07be0.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Notice there is no \"Privacy\" in the name.",
+     "say": "Notice there is no \"Privacy\" in the name.",
+     "focus": -1,
+     "file": "clips/17062eaee1ab.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "The privacy rules came later, under one part of the law.",
+     "say": "The privacy rules came later, under one part of the law.",
+     "focus": -1,
+     "file": "clips/569829be8b63.mp3",
+     "seconds": 3.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The name",
+   "lines": [
+    {
+     "raw": "HIPAA became law in **August 1996**.",
+     "say": "HIPAA became law in August 1996.",
+     "focus": -1,
+     "file": "clips/65d049d3ec63.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "Its first goal was **portability**: helping workers keep health coverage when they changed or lost a job.",
+     "say": "Its first goal was portability: helping workers keep health coverage when they changed or lost a job.",
+     "focus": -1,
+     "file": "clips/cc617c64ec70.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "Another part, called **Administrative Simplification**, told the US Department of Health and Human Services (**HHS**) to create national standards for healthcare data.",
+     "say": "Another part, called Administrative Simplification, told the U S Department of Health and Human Services (H H S) to create national standards for healthcare data.",
+     "focus": -1,
+     "file": "clips/00419c6c7d96.mp3",
+     "seconds": 11.4
+    },
+    {
+     "raw": "The famous privacy and security rules grew out of that part.",
+     "say": "The famous privacy and security rules grew out of that part.",
+     "focus": -1,
+     "file": "clips/69238a09cf57.mp3",
+     "seconds": 4.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The main rules under HIPAA.",
+     "say": "The main rules under HIPAA.",
+     "focus": -1,
+     "file": "clips/f0dc3965f0a5.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The main rules under HIPAA",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Privacy Rule**. In one sentence: Who may use or share health information, and what rights patients have. In effect from (roughly): 2003.",
+     "say": "Privacy Rule. In one sentence: Who may use or share health information, and what rights patients have. In effect from (roughly): 2003.",
+     "focus": 0,
+     "file": "clips/38ffd3b1e043.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "**Security Rule**. In one sentence: How **electronic** health information must be protected. In effect from (roughly): 2005.",
+     "say": "Security Rule. In one sentence: How electronic health information must be protected. In effect from (roughly): 2005.",
+     "focus": 1,
+     "file": "clips/b5c7ba6c8175.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "**Breach Notification Rule**. In one sentence: Who must be told, and how fast, when health information leaks. In effect from (roughly): 2009 (added by a later law called HITECH).",
+     "say": "Breach Notification Rule. In one sentence: Who must be told, and how fast, when health information leaks. In effect from (roughly): 2009 (added by a later law called HITECH).",
+     "focus": 2,
+     "file": "clips/13d653d81695.mp3",
+     "seconds": 12.175
+    },
+    {
+     "raw": "**Transactions and Code Sets**. In one sentence: The standard electronic formats and codes for claims, eligibility and payments. In effect from (roughly): Early 2000s.",
+     "say": "Transactions and Code Sets. In one sentence: The standard electronic formats and codes for claims, eligibility and payments. In effect from (roughly): Early 2000s.",
+     "focus": 3,
+     "file": "clips/277324b43a0a.mp3",
+     "seconds": 12.125
+    },
+    {
+     "raw": "**Enforcement Rule**. In one sentence: How violations are investigated and fined. In effect from (roughly): 2006.",
+     "say": "Enforcement Rule. In one sentence: How violations are investigated and fined. In effect from (roughly): 2006.",
+     "focus": 4,
+     "file": "clips/8c21c8ea7749.mp3",
+     "seconds": 8.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The main rules under HIPAA",
+   "lines": [
+    {
+     "raw": "Who enforces it?",
+     "say": "Who enforces it?",
+     "focus": -1,
+     "file": "clips/b49541284d08.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "The **Office for Civil Rights (OCR)**, part of HHS, investigates complaints and breaches and can fine organisations.",
+     "say": "The Office for Civil Rights (O C R), part of H H S, investigates complaints and breaches and can fine organisations.",
+     "focus": -1,
+     "file": "clips/37f8c2b964a8.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "Serious, deliberate misuse can also become a **criminal** case handled by the US Department of Justice.",
+     "say": "Serious, deliberate misuse can also become a criminal case handled by the U S Department of Justice.",
+     "focus": -1,
+     "file": "clips/8eed172eac01.mp3",
+     "seconds": 7.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The part data people forget: standard formats and codes.",
+     "say": "The part data people forget: standard formats and codes.",
+     "focus": -1,
+     "file": "clips/2092808faf65.mp3",
+     "seconds": 4.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "The part data people forget: standard formats and codes",
+   "lines": [
+    {
+     "raw": "Before HIPAA, every insurer had its own claim format.",
+     "say": "Before HIPAA, every insurer had its own claim format.",
+     "focus": -1,
+     "file": "clips/9a1a460c5225.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "HIPAA fixed this by naming **one standard electronic format** for each common exchange (claims, payments, eligibility checks and more), the official **code sets** for diagnoses, services and drugs, and the **NPI** (National Provider Identifier), the ID number every provider puts on a claim.",
+     "say": "HIPAA fixed this by naming one standard electronic format for each common exchange (claims, payments, eligibility checks and more), the official code sets for diagnoses, services and drugs, and the N P I (National Provider Identifier), the I D number every provider puts on a claim.",
+     "focus": -1,
+     "file": "clips/8b2db5918b74.mp3",
+     "seconds": 19.375
+    },
+    {
+     "raw": "This course is about the privacy side; the formats themselves are taught in the Interoperability course.",
+     "say": "This course is about the privacy side; the formats themselves are taught in the Interoperability course.",
+     "focus": -1,
+     "file": "clips/3e3ce3266f12.mp3",
+     "seconds": 6.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "The part data people forget: standard formats and codes",
+   "lines": [
+    {
+     "raw": "Why this matters for data work.",
+     "say": "Why this matters for data work.",
+     "focus": -1,
+     "file": "clips/1b4c86cc8445.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "When someone says \"HIPAA\" at work, they usually mean **privacy**.",
+     "say": "When someone says \"HIPAA\" at work, they usually mean privacy.",
+     "focus": -1,
+     "file": "clips/02787ff62675.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "But every claim file, every diagnosis code and every provider ID you load into a table exists because of the same law.",
+     "say": "But every claim file, every diagnosis code and every provider I D you load into a table exists because of the same law.",
+     "focus": -1,
+     "file": "clips/9e63f97015f4.mp3",
+     "seconds": 8.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "The part data people forget: standard formats and codes",
+   "lines": [
+    {
+     "raw": "Extra-sensitive records.",
+     "say": "Extra-sensitive records.",
+     "focus": -1,
+     "file": "clips/9c61051a64e9.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Records from substance use disorder treatment programs have an even stricter US rule on top of HIPAA, called **42 CFR Part 2**.",
+     "say": "Records from substance use disorder treatment programs have an even stricter U S rule on top of HIPAA, called 42 C F R Part 2.",
+     "focus": -1,
+     "file": "clips/92723c29aff2.mp3",
+     "seconds": 9.875
+    },
+    {
+     "raw": "It is covered in the Behavioral Health course; for now, just know that some data has tighter limits than ordinary PHI.",
+     "say": "It is covered in the Behavioral Health course; for now, just know that some data has tighter limits than ordinary P H I.",
+     "focus": -1,
+     "file": "clips/b8724a32cf9c.mp3",
+     "seconds": 8.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Nepal and the US side by side.",
+     "say": "Nepal and the U S side by side.",
+     "focus": -1,
+     "file": "clips/5173b67d6bd9.mp3",
+     "seconds": 2.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Nepal and the US side by side",
+   "lines": [
+    {
+     "raw": "Patient confidentiality in Nepal.",
+     "say": "Patient confidentiality in Nepal.",
+     "focus": -1,
+     "file": "clips/ac8bf5854b42.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Doctors in Nepal are expected by their professional code of ethics to keep what patients tell them **confidential**.",
+     "say": "Doctors in Nepal are expected by their professional code of ethics to keep what patients tell them confidential.",
+     "focus": 0,
+     "file": "clips/9c448a5f1e2e.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "Nepal's **Constitution (2015)** recognises a right to privacy, and the **Individual Privacy Act, 2075 (2018)** treats health information as personal information that should not be shared without consent, with some exceptions.",
+     "say": "Nepal's Constitution (2015) recognises a right to privacy, and the Individual Privacy Act, 2075 (2018) treats health information as personal information that should not be shared without consent, with some exceptions.",
+     "focus": 1,
+     "file": "clips/9dd671bd5dfc.mp3",
+     "seconds": 16.125
+    },
+    {
+     "raw": "When Ram sends his hospital bills to his private insurer for reimbursement, he hands over his diagnosis.",
+     "say": "When Ram sends his hospital bills to his private insurer for reimbursement, he hands over his diagnosis.",
+     "focus": 2,
+     "file": "clips/907973e172f4.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "He trusts the insurer to keep it private, but there are few detailed rules telling the insurer exactly how.",
+     "say": "He trusts the insurer to keep it private, but there are few detailed rules telling the insurer exactly how.",
+     "focus": 2,
+     "file": "clips/cf6fa0c2b53a.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "When Sita uses an SSF-listed hospital, the hospital shares her diagnosis and bill with SSF so it can pay its 80%.",
+     "say": "When Sita uses an S S F listed hospital, the hospital shares her diagnosis and bill with S S F so it can pay its 80 percent.",
+     "focus": 3,
+     "file": "clips/749ae93f4710.mp3",
+     "seconds": 9.6
+    },
+    {
+     "raw": "That sharing is needed for **payment**.",
+     "say": "That sharing is needed for payment.",
+     "focus": 3,
+     "file": "clips/522330c7e378.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Nepal does not (as of this writing) have one detailed health-data law like HIPAA, with its long list of technical safeguards, breach deadlines and fines.",
+     "say": "Nepal does not (as of this writing) have one detailed health-data law like HIPAA, with its long list of technical safeguards, breach deadlines and fines.",
+     "focus": 4,
+     "file": "clips/69ae30f88a76.mp3",
+     "seconds": 10.2
+    },
+    {
+     "raw": "Rules exist, but they are more general.",
+     "say": "Rules exist, but they are more general.",
+     "focus": 4,
+     "file": "clips/6837f5f9ee69.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Nepal and the US side by side",
+   "lines": [
+    {
+     "raw": "In the US: Emily in Texas.",
+     "say": "In the U S: Emily in Texas.",
+     "focus": -1,
+     "file": "clips/d0b6ff388023.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "When Emily sees Dr. Patel for strep throat, HIPAA decides who may see her diagnosis `J02.0`: Dr. Patel's clinic, her insurer, and the companies they hire to process claims.",
+     "say": "When Emily sees Doctor Patel for strep throat, HIPAA decides who may see her diagnosis J 0 2 . 0: Doctor Patel's clinic, her insurer, and the companies they hire to process claims.",
+     "focus": 0,
+     "file": "clips/66fd7d208628.mp3",
+     "seconds": 13.25
+    },
+    {
+     "raw": "Her employer, Bluebonnet Logistics, may **not** see her diagnosis just because it sponsors the plan.",
+     "say": "Her employer, Bluebonnet Logistics, may not see her diagnosis just because it sponsors the plan.",
+     "focus": 1,
+     "file": "clips/a428aba96561.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "If Emily's claim data leaks, the insurer must tell her in writing, and may face fines.",
+     "say": "If Emily's claim data leaks, the insurer must tell her in writing, and may face fines.",
+     "focus": 2,
+     "file": "clips/37f6af8fad28.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "Her claim travels in a standard electronic format, with standard diagnosis and service codes and Dr. Patel's **NPI**: all HIPAA standards.",
+     "say": "Her claim travels in a standard electronic format, with standard diagnosis and service codes and Doctor Patel's N P I: all HIPAA standards.",
+     "focus": 3,
+     "file": "clips/9ce72039a9d7.mp3",
+     "seconds": 10.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Nepal and the US side by side",
+   "lines": [
+    {
+     "raw": "HIPAA applies to you, even in Kathmandu.",
+     "say": "HIPAA applies to you, even in Kathmandu.",
+     "focus": -1,
+     "file": "clips/44cd96aed3df.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Many Nepali companies process US claims, code medical records or build data pipelines for US clients.",
+     "say": "Many Nepali companies process U S claims, code medical records or build data pipelines for U S clients.",
+     "focus": -1,
+     "file": "clips/125bd5625220.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "HIPAA is a US law, but your US client will make your company sign a contract promising to follow it (you will learn about this **BAA** in the next lesson).",
+     "say": "HIPAA is a U S law, but your U S client will make your company sign a contract promising to follow it (you will learn about this B A A in the next lesson).",
+     "focus": -1,
+     "file": "clips/14fa0ce549d3.mp3",
+     "seconds": 10.05
+    },
+    {
+     "raw": "Breaking it can cost the client, your company and you your job.",
+     "say": "Breaking it can cost the client, your company and you your job.",
+     "focus": -1,
+     "file": "clips/f7087cc3c4c1.mp3",
+     "seconds": 3.925
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "HIPAA = Health Insurance Portability and Accountability Act, a US federal law from 1996.",
+     "say": "HIPAA = Health Insurance Portability and Accountability Act, a U S federal law from 1996.",
+     "focus": 0,
+     "file": "clips/bce06ea0275b.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "Its main rules: Privacy (who may use and share), Security (protecting electronic data), Breach Notification (what to do after a leak).",
+     "say": "Its main rules: Privacy (who may use and share), Security (protecting electronic data), Breach Notification (what to do after a leak).",
+     "focus": 1,
+     "file": "clips/c0948f645666.mp3",
+     "seconds": 9.025
+    },
+    {
+     "raw": "HIPAA also created the standard electronic formats, code sets and the provider ID (NPI) that every claim file uses; the Interoperability course teaches the formats.",
+     "say": "HIPAA also created the standard electronic formats, code sets and the provider I D (N P I) that every claim file uses; the Interoperability course teaches the formats.",
+     "focus": 2,
+     "file": "clips/ace93e6a619e.mp3",
+     "seconds": 12
+    },
+    {
+     "raw": "HHS's Office for Civil Rights enforces it.",
+     "say": "HHS's Office for Civil Rights enforces it.",
+     "focus": 3,
+     "file": "clips/29b50deba6d3.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Offshore teams working on US data must follow HIPAA through their contracts.",
+     "say": "Offshore teams working on U S data must follow HIPAA through their contracts.",
+     "focus": 4,
+     "file": "clips/0eccab4526a1.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

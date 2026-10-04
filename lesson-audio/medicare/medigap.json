@@ -1,0 +1,582 @@
+{
+ "courseId": "medicare",
+ "lessonId": "medigap",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Medigap.",
+     "say": "Lesson 6: Medigap.",
+     "focus": -1,
+     "file": "clips/59489aff0c88.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Top-up policies that pay the costs Original Medicare leaves behind.",
+     "say": "Top-up policies that pay the costs Original Medicare leaves behind.",
+     "focus": -1,
+     "file": "clips/29dca552550d.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a Medigap policy is and who can buy one.",
+     "say": "Explain what a Medigap policy is and who can buy one.",
+     "focus": 0,
+     "file": "clips/5cb156658938.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Know why Medigap and Medicare Advantage do not mix.",
+     "say": "Know why Medigap and Medicare Advantage do not mix.",
+     "focus": 1,
+     "file": "clips/0891a62ef292.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Work out who pays what on a bill with and without Medigap.",
+     "say": "Work out who pays what on a bill with and without Medigap.",
+     "focus": 2,
+     "file": "clips/a0f0501981d2.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Know how Medigap claims reach the Medigap insurer.",
+     "say": "Know how Medigap claims reach the Medigap insurer.",
+     "focus": 3,
+     "file": "clips/4ac634020886.mp3",
+     "seconds": 3.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Think of a top-up recharge.",
+     "say": "Think of a top-up recharge.",
+     "focus": -1,
+     "file": "clips/2efa15fd584e.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Your mobile plan gives you a basic package.",
+     "say": "Your mobile plan gives you a basic package.",
+     "focus": -1,
+     "file": "clips/8745ec16c130.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "When it is not enough, you buy a **top-up** that fills what is missing.",
+     "say": "When it is not enough, you buy a top-up that fills what is missing.",
+     "focus": -1,
+     "file": "clips/e833a7939f97.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Medicare is the basic package; Medigap is the top-up.",
+     "say": "Medicare is the basic package; Medigap is the top-up.",
+     "focus": -1,
+     "file": "clips/072d3bd8acb1.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "The top-up does not work without the basic package underneath it.",
+     "say": "The top-up does not work without the basic package underneath it.",
+     "focus": -1,
+     "file": "clips/2dc72a96487a.mp3",
+     "seconds": 4.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Nepal: Two covers working together.",
+     "say": "In Nepal: Two covers working together.",
+     "focus": -1,
+     "file": "clips/a2153fdf1640.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Some people in Nepal hold more than one policy, for example a group policy from work plus a personal policy, so the second one can help with what the first does not pay.",
+     "say": "Some people in Nepal hold more than one policy, for example a group policy from work plus a personal policy, so the second one can help with what the first does not pay.",
+     "focus": 0,
+     "file": "clips/ba859e8bad31.mp3",
+     "seconds": 10.775
+    },
+    {
+     "raw": "The exact rules depend on each insurer.",
+     "say": "The exact rules depend on each insurer.",
+     "focus": 0,
+     "file": "clips/5cd6b1d888d6.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita pays 20% of her SSF-covered bills herself.",
+     "say": "Sita pays 20 percent of her S S F covered bills herself.",
+     "focus": 1,
+     "file": "clips/8443cbf90a6d.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "A Medigap policy is like an extra cover that would pay that 20% share for her.",
+     "say": "A Medigap policy is like an extra cover that would pay that 20 percent share for her.",
+     "focus": 1,
+     "file": "clips/317e03608d69.mp3",
+     "seconds": 5.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "In lesson 3 you saw that Original Medicare leaves **gaps**: deductibles, 20% coinsurance and no yearly limit.",
+     "say": "In lesson 3 you saw that Original Medicare leaves gaps: deductibles, 20 percent coinsurance and no yearly limit.",
+     "focus": -1,
+     "file": "clips/2e3b15d30549.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "**Medigap** (also called **Medicare Supplement Insurance**) is a private policy that pays some or all of those gaps.",
+     "say": "Medigap (also called Medicare Supplement Insurance) is a private policy that pays some or all of those gaps.",
+     "focus": -1,
+     "file": "clips/9aad9bda00e7.mp3",
+     "seconds": 7.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "In the US: How Medigap works.",
+     "say": "In the U S: How Medigap works.",
+     "focus": -1,
+     "file": "clips/652707a9c479.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Medigap works **only with Original Medicare**.",
+     "say": "Medigap works only with Original Medicare.",
+     "focus": 0,
+     "file": "clips/aaf94b839a55.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Medicare pays its share first, then Medigap pays some or all of what is left.",
+     "say": "Medicare pays its share first, then Medigap pays some or all of what is left.",
+     "focus": 0,
+     "file": "clips/ae0760524793.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Policies are **standardised** and named with letters, such as **Plan G** or **Plan N**.",
+     "say": "Policies are standardised and named with letters, such as Plan G or Plan N.",
+     "focus": 1,
+     "file": "clips/b943a92200d1.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "A Plan G from one insurer covers the same things as a Plan G from another; only the price differs.",
+     "say": "A Plan G from one insurer covers the same things as a Plan G from another; only the price differs.",
+     "focus": 1,
+     "file": "clips/107a1fb22fad.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Plans C and F (which also paid the Part B deductible) cannot be bought by people who became eligible for Medicare on or after **1 January 2020**.",
+     "say": "Plans C and F (which also paid the Part B deductible) cannot be bought by people who became eligible for Medicare on or after 1 January 2020.",
+     "focus": 2,
+     "file": "clips/3a87d743d17e.mp3",
+     "seconds": 10.925
+    },
+    {
+     "raw": "Plan G is a common choice today.",
+     "say": "Plan G is a common choice today.",
+     "focus": 2,
+     "file": "clips/5cce5dfc649d.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "The person pays a separate monthly **premium** to the Medigap insurer, on top of the Part B premium.",
+     "say": "The person pays a separate monthly premium to the Medigap insurer, on top of the Part B premium.",
+     "focus": 3,
+     "file": "clips/0b91d06293e4.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "The best time to buy is the **6-month Medigap open enrollment** that starts when someone is 65 and has Part B.",
+     "say": "The best time to buy is the 6-month Medigap open enrollment that starts when someone is 65 and has Part B.",
+     "focus": 4,
+     "file": "clips/d2b05d53a502.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "During it, insurers cannot refuse them or charge more for health problems.",
+     "say": "During it, insurers cannot refuse them or charge more for health problems.",
+     "focus": 4,
+     "file": "clips/512c60f01d7e.mp3",
+     "seconds": 5.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "Medigap (Medicare Supplement).",
+     "say": "Medigap (Medicare Supplement).",
+     "focus": 0,
+     "file": "clips/0a3f1d83aa37.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "A private policy that pays some of the costs Original Medicare does not, such as coinsurance.",
+     "say": "A private policy that pays some of the costs Original Medicare does not, such as coinsurance.",
+     "focus": 0,
+     "file": "clips/67ad4de2b6ac.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Plan letter.",
+     "say": "Plan letter.",
+     "focus": 1,
+     "file": "clips/b9d769c4cead.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "The standard name of a Medigap policy (for example G or N).",
+     "say": "The standard name of a Medigap policy (for example G or N).",
+     "focus": 1,
+     "file": "clips/d8ff35e24dab.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "Same letter, same benefits, in almost every state.",
+     "say": "Same letter, same benefits, in almost every state.",
+     "focus": 1,
+     "file": "clips/1ddad8613ba6.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Crossover claim.",
+     "say": "Crossover claim.",
+     "focus": 2,
+     "file": "clips/ef446fe63606.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "A claim that Medicare automatically forwards to a second payer, such as a Medigap insurer, after Medicare has paid its share.",
+     "say": "A claim that Medicare automatically forwards to a second payer, such as a Medigap insurer, after Medicare has paid its share.",
+     "focus": 2,
+     "file": "clips/2a87309183dd.mp3",
+     "seconds": 8.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Robert's specialist visit.",
+     "say": "Worked example: Robert's specialist visit.",
+     "focus": -1,
+     "file": "clips/16dcc490122b.mp3",
+     "seconds": 3.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Worked example: Robert's specialist visit",
+   "lines": [
+    {
+     "raw": "In lesson 3, Robert had a **$300** specialist visit as his first Part B service of the year (2025 figures).",
+     "say": "In lesson 3, Robert had a 300 dollars specialist visit as his first Part B service of the year (2025 figures).",
+     "focus": -1,
+     "file": "clips/186d84b026a3.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "He paid the **$257** deductible plus 20% of the remaining $43.",
+     "say": "He paid the 257 dollars deductible plus 20 percent of the remaining 43 dollars.",
+     "focus": -1,
+     "file": "clips/40bd84825278.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Here is the same visit if he had bought **Plan G** in 2022.",
+     "say": "Here is the same visit if he had bought Plan G in 2022.",
+     "focus": -1,
+     "file": "clips/383ad3bd8fe4.mp3",
+     "seconds": 4.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Worked example: Robert's specialist visit",
+   "lines": [
+    {
+     "raw": "Robert's $300 specialist visit, without and with Medigap Plan G.",
+     "say": "Robert's 300 dollars specialist visit, without and with Medigap Plan G.",
+     "focus": -1,
+     "file": "clips/e11fde43cfe5.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Medicare pays. Original Medicare only: $34.40. Original Medicare + Plan G: $34.40.",
+     "say": "Medicare pays. Original Medicare only: 34 dollars 40 cents. Original Medicare and Plan G: 34 dollars 40 cents.",
+     "focus": 0,
+     "file": "clips/fdca583449de.mp3",
+     "seconds": 9.7
+    },
+    {
+     "raw": "Medigap pays. Original Medicare only: $0.00. Original Medicare + Plan G: $8.60 (the 20% coinsurance).",
+     "say": "Medigap pays. Original Medicare only: 0 dollars. Original Medicare and Plan G: 8 dollars 60 cents (the 20 percent coinsurance).",
+     "focus": 1,
+     "file": "clips/593889ac50c9.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "Robert pays. Original Medicare only: $265.60. Original Medicare + Plan G: $257.00 (Plan G does not pay the Part B deductible).",
+     "say": "Robert pays. Original Medicare only: 265 dollars 60 cents. Original Medicare and Plan G: 257 dollars (Plan G does not pay the Part B deductible).",
+     "focus": 2,
+     "file": "clips/a8770db3c4d3.mp3",
+     "seconds": 13.725
+    },
+    {
+     "raw": "**Total**. Original Medicare only: **$300.00**. Original Medicare + Plan G: **$300.00**.",
+     "say": "Total. Original Medicare only: 300 dollars. Original Medicare and Plan G: 300 dollars.",
+     "focus": 3,
+     "file": "clips/352f4c531418.mp3",
+     "seconds": 7.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Worked example: Robert's specialist visit",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "With Plan G: $34.40 + $8.60 + $257.00 = **$300.00** ✓.",
+     "say": "With Plan G: 34 dollars 40 cents and 8 dollars 60 cents and 257 dollars = 300 dollars ✓.",
+     "focus": -1,
+     "file": "clips/22289b1224ff.mp3",
+     "seconds": 9.225
+    },
+    {
+     "raw": "Medicare's share does not change.",
+     "say": "Medicare's share does not change.",
+     "focus": -1,
+     "file": "clips/27d17d40e6c3.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Medigap only takes over part of what the patient would have paid.",
+     "say": "Medigap only takes over part of what the patient would have paid.",
+     "focus": -1,
+     "file": "clips/111a9c4bd695.mp3",
+     "seconds": 4.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Worked example: Robert's specialist visit",
+   "lines": [
+    {
+     "raw": "Medigap and Medicare Advantage do not mix.",
+     "say": "Medigap and Medicare Advantage do not mix.",
+     "focus": -1,
+     "file": "clips/eee190035f55.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "A Medigap policy cannot pay for costs in a Medicare Advantage plan.",
+     "say": "A Medigap policy cannot pay for costs in a Medicare Advantage plan.",
+     "focus": -1,
+     "file": "clips/c8390f6a5aa4.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Robert looked at Plan G in 2022 but decided against it, and later moved to Medicare Advantage.",
+     "say": "Robert looked at Plan G in 2022 but decided against it, and later moved to Medicare Advantage.",
+     "focus": -1,
+     "file": "clips/8c5071b3460e.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "If he ever wants to go back to Original Medicare **with** Medigap, in most states insurers can ask health questions outside his first open enrollment, so he might be charged more or refused.",
+     "say": "If he ever wants to go back to Original Medicare with Medigap, in most states insurers can ask health questions outside his first open enrollment, so he might be charged more or refused.",
+     "focus": -1,
+     "file": "clips/025d0a80e5db.mp3",
+     "seconds": 12.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Worked example: Robert's specialist visit",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "A Medigap insurer never sees the claim first.",
+     "say": "A Medigap insurer never sees the claim first.",
+     "focus": -1,
+     "file": "clips/6b61634ff60c.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Medicare pays its share, then sends the claim on as a **crossover claim**, so the Medigap record already carries Medicare's paid amount and only fills the gap.",
+     "say": "Medicare pays its share, then sends the claim on as a crossover claim, so the Medigap record already carries Medicare's paid amount and only fills the gap.",
+     "focus": -1,
+     "file": "clips/5ab370b181b9.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "An analyst at a Medigap insurer works with **secondary** claims, and a Medicare Advantage plan will never have Medigap data for its members.",
+     "say": "An analyst at a Medigap insurer works with secondary claims, and a Medicare Advantage plan will never have Medigap data for its members.",
+     "focus": -1,
+     "file": "clips/195e2bf59bfb.mp3",
+     "seconds": 8.9
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Medigap (Medicare Supplement) is a private policy that fills gaps in Original Medicare, such as the 20% coinsurance.",
+     "say": "Medigap (Medicare Supplement) is a private policy that fills gaps in Original Medicare, such as the 20 percent coinsurance.",
+     "focus": 0,
+     "file": "clips/c43882dba7f6.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "Policies are standardised by letter, like Plan G: same letter, same benefits; insurers compete on price.",
+     "say": "Policies are standardised by letter, like Plan G: same letter, same benefits; insurers compete on price.",
+     "focus": 1,
+     "file": "clips/55b1df714cb0.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "Medigap works only with Original Medicare, not with Medicare Advantage.",
+     "say": "Medigap works only with Original Medicare, not with Medicare Advantage.",
+     "focus": 2,
+     "file": "clips/c3b5655dd7e8.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Medicare pays first, then the claim crosses over to the Medigap insurer for the rest.",
+     "say": "Medicare pays first, then the claim crosses over to the Medigap insurer for the rest.",
+     "focus": 3,
+     "file": "clips/505100a1b766.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

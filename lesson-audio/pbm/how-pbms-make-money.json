@@ -1,0 +1,981 @@
+{
+ "courseId": "pbm",
+ "lessonId": "how-pbms-make-money",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: How PBMs Make Money.",
+     "say": "Lesson 3: How P B M's Make Money.",
+     "focus": -1,
+     "file": "clips/33be9dc00e7c.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Admin fees, spread pricing and rebate retention, and why the contract type matters.",
+     "say": "Admin fees, spread pricing and rebate retention, and why the contract type matters.",
+     "focus": -1,
+     "file": "clips/bd549d7b1abc.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Name the main ways a PBM earns money.",
+     "say": "Name the main ways a P B M earns money.",
+     "focus": 0,
+     "file": "clips/51783bcab119.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "Calculate spread on a claim and rebate retention on a brand fill.",
+     "say": "Calculate spread on a claim and rebate retention on a brand fill.",
+     "focus": 1,
+     "file": "clips/e1f97e9c3b80.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "Compare a traditional (spread) contract with a pass-through contract.",
+     "say": "Compare a traditional (spread) contract with a pass-through contract.",
+     "focus": 2,
+     "file": "clips/32746ea68c72.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Describe the debate about PBMs and recent reforms, fairly and from both sides.",
+     "say": "Describe the debate about P B M's and recent reforms, fairly and from both sides.",
+     "focus": 3,
+     "file": "clips/41a87b0cb200.mp3",
+     "seconds": 6.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The canteen manager's pay.",
+     "say": "The canteen manager's pay.",
+     "focus": -1,
+     "file": "clips/d921c52a90a2.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The canteen manager's pay",
+   "lines": [
+    {
+     "raw": "Back to the office canteen.",
+     "say": "Back to the office canteen.",
+     "focus": -1,
+     "file": "clips/695ec75ea8a2.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Think of a PBM as a **canteen manager** hired by an office in Kathmandu: the office pays for the food, while the manager runs the counter, sets the menu and deals with suppliers.",
+     "say": "Think of a P B M as a canteen manager hired by an office in Kathmandu: the office pays for the food, while the manager runs the counter, sets the menu and deals with suppliers.",
+     "focus": -1,
+     "file": "clips/a38640bc2676.mp3",
+     "seconds": 12.35
+    },
+    {
+     "raw": "How should the office pay the manager?",
+     "say": "How should the office pay the manager?",
+     "focus": -1,
+     "file": "clips/81c36204f6e3.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Option 1: a **flat fee per meal served**, with every supplier discount handed back to the office.",
+     "say": "Option 1: a flat fee per meal served, with every supplier discount handed back to the office.",
+     "focus": -1,
+     "file": "clips/bc168183fa71.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "Option 2: **no fee**, but the manager charges the office Rs 120 a plate while paying the cook Rs 100, and keeps part of the suppliers' discounts.",
+     "say": "Option 2: no fee, but the manager charges the office Rs 120 a plate while paying the cook Rs 100, and keeps part of the suppliers' discounts.",
+     "focus": -1,
+     "file": "clips/76511fa5785d.mp3",
+     "seconds": 11.4
+    },
+    {
+     "raw": "Both can be fair deals.",
+     "say": "Both can be fair deals.",
+     "focus": -1,
+     "file": "clips/0dbb5114536f.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "But in option 2, the office cannot easily see what the manager earns.",
+     "say": "But in option 2, the office cannot easily see what the manager earns.",
+     "focus": -1,
+     "file": "clips/9c451ec1e9f5.mp3",
+     "seconds": 4.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The canteen manager's pay",
+   "lines": [
+    {
+     "raw": "A US PBM is paid in the same two broad ways.",
+     "say": "A U S P B M is paid in the same two broad ways.",
+     "focus": -1,
+     "file": "clips/51af779dbf0a.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "The first is called a **pass-through** contract.",
+     "say": "The first is called a pass-through contract.",
+     "focus": -1,
+     "file": "clips/77e4afaf2fd6.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "The second is called a **traditional** (or **spread**) contract.",
+     "say": "The second is called a traditional (or spread) contract.",
+     "focus": -1,
+     "file": "clips/02a130462f44.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Many real contracts mix both.",
+     "say": "Many real contracts mix both.",
+     "focus": -1,
+     "file": "clips/b790edf91a7b.mp3",
+     "seconds": 2.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Five ways a PBM earns money.",
+     "say": "Five ways a P B M earns money.",
+     "focus": -1,
+     "file": "clips/1a9bd0af3eb2.mp3",
+     "seconds": 2.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Five ways a PBM earns money",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**1. Admin fees**. How it works: A fixed fee **per claim** (for example $3.00) or **per member per month** for running the benefit. Who pays it: The plan.",
+     "say": "1. Admin fees. How it works: A fixed fee per claim (for example 3 dollars) or per member per month for running the benefit. Who pays it: The plan.",
+     "focus": 0,
+     "file": "clips/3cd7e2bc59ca.mp3",
+     "seconds": 10.125
+    },
+    {
+     "raw": "**2. Spread pricing**. How it works: The PBM charges the plan **more** for a claim than it pays the pharmacy, and keeps the difference. Who pays it: The plan (it is built into the claim price).",
+     "say": "2. Spread pricing. How it works: The P B M charges the plan more for a claim than it pays the pharmacy, and keeps the difference. Who pays it: The plan (it is built into the claim price).",
+     "focus": 1,
+     "file": "clips/d3f3ec6c7324.mp3",
+     "seconds": 12.475
+    },
+    {
+     "raw": "**3. Rebate retention**. How it works: The PBM keeps a **share** of the rebates it collects from drug makers and passes the rest to the plan. Who pays it: The manufacturer pays; the plan receives less.",
+     "say": "3. Rebate retention. How it works: The P B M keeps a share of the rebates it collects from drug makers and passes the rest to the plan. Who pays it: The manufacturer pays; the plan receives less.",
+     "focus": 2,
+     "file": "clips/3b80df7484ed.mp3",
+     "seconds": 13.925
+    },
+    {
+     "raw": "**4. Other manufacturer fees**. How it works: Drug makers may pay PBMs other fees, for example for data or services. Whether these count as \"rebates\" the plan must share depends on how the **contract defines rebates**. Who pays it: The manufacturer.",
+     "say": "4. Other manufacturer fees. How it works: Drug makers may pay P B M's other fees, for example for data or services. Whether these count as \"rebates\" the plan must share depends on how the contract defines rebates. Who pays it: The manufacturer.",
+     "focus": 3,
+     "file": "clips/e5a31eff2684.mp3",
+     "seconds": 17.675
+    },
+    {
+     "raw": "**5. Own pharmacies**. How it works: Profit made by the PBM's own **mail-order** and **specialty** pharmacies, which are paid for the drugs they dispense like any pharmacy. Who pays it: The plan and members, through the claims.",
+     "say": "5. Own pharmacies. How it works: Profit made by the PBM's own mail-order and specialty pharmacies, which are paid for the drugs they dispense like any pharmacy. Who pays it: The plan and members, through the claims.",
+     "focus": 4,
+     "file": "clips/bf3c715c873f.mp3",
+     "seconds": 14.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Spread pricing on one claim.",
+     "say": "Spread pricing on one claim.",
+     "focus": -1,
+     "file": "clips/08a654ee591d.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Spread pricing on one claim",
+   "lines": [
+    {
+     "raw": "Take Emily's atorvastatin fill from 15 July 2025 (lesson 2).",
+     "say": "Take Emily's atorvastatin fill from 15 July 2025 (lesson 2).",
+     "focus": -1,
+     "file": "clips/bd3247e83d6c.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "The pharmacy's contract price is **$9.50** and Emily's copay is **$5.00**.",
+     "say": "The pharmacy's contract price is 9 dollars 50 cents and Emily's copay is 5 dollars.",
+     "focus": -1,
+     "file": "clips/1d5c448af00e.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "Now **imagine** her plan had a traditional contract, under which the PBM bills the plan at its own, higher price list for generics: **$12.50** for this fill.",
+     "say": "Now imagine her plan had a traditional contract, under which the P B M bills the plan at its own, higher price list for generics: 12 dollars 50 cents for this fill.",
+     "focus": -1,
+     "file": "clips/f66d2704baa2.mp3",
+     "seconds": 11.725
+    },
+    {
+     "raw": "(Illustrative: we do not know the terms of Emily's real plan.)",
+     "say": "(Illustrative: we do not know the terms of Emily's real plan.)",
+     "focus": -1,
+     "file": "clips/cfd322516a99.mp3",
+     "seconds": 4.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Spread pricing on one claim",
+   "lines": [
+    {
+     "raw": "One generic claim under a traditional (spread) contract, illustrative.",
+     "say": "One generic claim under a traditional (spread) contract, illustrative.",
+     "focus": -1,
+     "file": "clips/0f75f296c444.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Gross amount due. Pharmacy side: $9.50 (what the pharmacy gets in total). Plan side: $12.50 (what the PBM bills the plan for).",
+     "say": "Gross amount due. Pharmacy side: 9 dollars 50 cents (what the pharmacy gets in total). Plan side: 12 dollars 50 cents (what the P B M bills the plan for).",
+     "focus": 0,
+     "file": "clips/5029fc78b8e7.mp3",
+     "seconds": 11.725
+    },
+    {
+     "raw": "Emily's copay. Pharmacy side: $5.00. Plan side: $5.00.",
+     "say": "Emily's copay. Pharmacy side: 5 dollars. Plan side: 5 dollars.",
+     "focus": 1,
+     "file": "clips/8a1f2fd03331.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Rest of the price. Pharmacy side: PBM pays pharmacy **$4.50**. Plan side: Plan pays PBM **$7.50**.",
+     "say": "Rest of the price. Pharmacy side: P B M pays pharmacy 4 dollars 50 cents. Plan side: Plan pays P B M 7 dollars 50 cents.",
+     "focus": 2,
+     "file": "clips/22c467485f96.mp3",
+     "seconds": 10.55
+    },
+    {
+     "raw": "**Spread kept by the PBM**. Plan side: $7.50 − $4.50 = **$3.00**.",
+     "say": "Spread kept by the P B M. Plan side: 7 dollars 50 cents − 4 dollars 50 cents = 3 dollars.",
+     "focus": 3,
+     "file": "clips/dee26482c861.mp3",
+     "seconds": 8.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Spread pricing on one claim",
+   "lines": [
+    {
+     "raw": "Spread.",
+     "say": "Spread.",
+     "focus": -1,
+     "file": "clips/35dff721d80c.mp3",
+     "seconds": 1.35
+    },
+    {
+     "raw": "Spread equals Amount billed to plan − Amount paid to pharmacy.",
+     "say": "Spread equals Amount billed to plan − Amount paid to pharmacy.",
+     "focus": 0,
+     "file": "clips/e5f54fef4919.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "For example: Atorvastatin: $7.50 − $4.50 equals $3.00.",
+     "say": "For example: Atorvastatin: 7 dollars 50 cents − 4 dollars 50 cents equals 3 dollars.",
+     "focus": 1,
+     "file": "clips/14551c9a2817.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "Same answer using gross prices: $12.50 − $9.50 equals $3.00, because Emily's copay is the same on both sides.",
+     "say": "Same answer using gross prices: 12 dollars 50 cents − 9 dollars 50 cents equals 3 dollars, because Emily's copay is the same on both sides.",
+     "focus": 1,
+     "file": "clips/a9e3bb62816d.mp3",
+     "seconds": 11.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Spread pricing on one claim",
+   "lines": [
+    {
+     "raw": "Spread can be negative too.",
+     "say": "Spread can be negative too.",
+     "focus": -1,
+     "file": "clips/1e77f3bfa4af.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Under a traditional contract the PBM **guarantees** the plan certain prices.",
+     "say": "Under a traditional contract the P B M guarantees the plan certain prices.",
+     "focus": -1,
+     "file": "clips/bb8f96f8cfb5.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "On some claims the PBM may pay the pharmacy **more** than it bills the plan and lose money; on others it earns a spread.",
+     "say": "On some claims the P B M may pay the pharmacy more than it bills the plan and lose money; on others it earns a spread.",
+     "focus": -1,
+     "file": "clips/beebe21aed0b.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "What matters to the plan is the total over a year.",
+     "say": "What matters to the plan is the total over a year.",
+     "focus": -1,
+     "file": "clips/667ef5a69765.mp3",
+     "seconds": 3.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Rebate retention on one claim.",
+     "say": "Rebate retention on one claim.",
+     "focus": -1,
+     "file": "clips/908f06c1d681.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Rebate retention on one claim",
+   "lines": [
+    {
+     "raw": "In lesson 2, Brand X earned a **$150.00** rebate per fill.",
+     "say": "In lesson 2, Brand X earned a 150 dollars rebate per fill.",
+     "focus": -1,
+     "file": "clips/24d8e9bfdf3f.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Under a pass-through contract the plan received all of it.",
+     "say": "Under a pass-through contract the plan received all of it.",
+     "focus": -1,
+     "file": "clips/44f11bd64c97.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Under a traditional contract that passes on **80%** of rebates:",
+     "say": "Under a traditional contract that passes on 80 percent of rebates:",
+     "focus": -1,
+     "file": "clips/d0a61caa8b72.mp3",
+     "seconds": 4.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Rebate retention on one claim",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Rebate collected by the PBM. Amount: $150.00.",
+     "say": "Rebate collected by the P B M. Amount: 150 dollars.",
+     "focus": 0,
+     "file": "clips/164dba5f806f.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "Passed to the plan (80%). Calculation: $150.00 × 0.80. Amount: **$120.00**.",
+     "say": "Passed to the plan (80 percent). Calculation: 150 dollars × 0.80. Amount: 120 dollars.",
+     "focus": 1,
+     "file": "clips/3bb32345aa6c.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "Kept by the PBM (20%). Calculation: $150.00 × 0.20. Amount: **$30.00**.",
+     "say": "Kept by the P B M (20 percent). Calculation: 150 dollars × 0.20. Amount: 30 dollars.",
+     "focus": 2,
+     "file": "clips/54c3ba5e815e.mp3",
+     "seconds": 9.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Rebate retention on one claim",
+   "lines": [
+    {
+     "raw": "Rebate guarantees.",
+     "say": "Rebate guarantees.",
+     "focus": -1,
+     "file": "clips/32f207f05f4a.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Many contracts promise a **minimum rebate per brand claim** (for example $200 per brand fill).",
+     "say": "Many contracts promise a minimum rebate per brand claim (for example 200 dollars per brand fill).",
+     "focus": -1,
+     "file": "clips/7169978eb231.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "If the PBM collects less, it still owes the plan the guaranteed amount.",
+     "say": "If the P B M collects less, it still owes the plan the guaranteed amount.",
+     "focus": -1,
+     "file": "clips/f7708968a732.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "If it collects more, the contract decides who keeps the extra.",
+     "say": "If it collects more, the contract decides who keeps the extra.",
+     "focus": -1,
+     "file": "clips/ec13a70b5be0.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Read the definitions carefully: \"rebate\", \"brand\" and \"claim\" can each be defined in ways that change the money.",
+     "say": "Read the definitions carefully: \"rebate\", \"brand\" and \"claim\" can each be defined in ways that change the money.",
+     "focus": -1,
+     "file": "clips/8ebc7ed90fc8.mp3",
+     "seconds": 7.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The two contract types side by side.",
+     "say": "The two contract types side by side.",
+     "focus": -1,
+     "file": "clips/448724c9712b.mp3",
+     "seconds": 2.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "The two contract types side by side",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Price billed to the plan. Traditional (spread): PBM's own guaranteed prices, may differ from what the pharmacy is paid. Pass-through: Exactly what the pharmacy is paid.",
+     "say": "Price billed to the plan. Traditional (spread): PBM's own guaranteed prices, may differ from what the pharmacy is paid. Pass-through: Exactly what the pharmacy is paid.",
+     "focus": 0,
+     "file": "clips/8c91f622f545.mp3",
+     "seconds": 11.6
+    },
+    {
+     "raw": "Rebates. Traditional (spread): Plan gets a share or a guaranteed amount; PBM may keep the rest. Pass-through: Plan gets **100%** (as defined in the contract).",
+     "say": "Rebates. Traditional (spread): Plan gets a share or a guaranteed amount; P B M may keep the rest. Pass-through: Plan gets 100 percent (as defined in the contract).",
+     "focus": 1,
+     "file": "clips/d6befbd73ecf.mp3",
+     "seconds": 11.85
+    },
+    {
+     "raw": "Admin fee. Traditional (spread): Low or **zero**. Pass-through: Higher, stated openly.",
+     "say": "Admin fee. Traditional (spread): Low or zero. Pass-through: Higher, stated openly.",
+     "focus": 2,
+     "file": "clips/3aed9bf75b5c.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "How the PBM earns. Traditional (spread): Mainly spread and retained rebates. Pass-through: Mainly the admin fee.",
+     "say": "How the P B M earns. Traditional (spread): Mainly spread and retained rebates. Pass-through: Mainly the admin fee.",
+     "focus": 3,
+     "file": "clips/cce4c560848b.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "Plan's budget. Traditional (spread): More predictable (prices are guaranteed). Pass-through: Moves with real pharmacy prices.",
+     "say": "Plan's budget. Traditional (spread): More predictable (prices are guaranteed). Pass-through: Moves with real pharmacy prices.",
+     "focus": 4,
+     "file": "clips/cdae4b0f646a.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "Visibility for the plan. Traditional (spread): Harder to see the PBM's total earnings. Pass-through: Easier to see.",
+     "say": "Visibility for the plan. Traditional (spread): Harder to see the PBM's total earnings. Pass-through: Easier to see.",
+     "focus": 5,
+     "file": "clips/79325e134156.mp3",
+     "seconds": 7.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "The two contract types side by side",
+   "lines": [
+    {
+     "raw": "Two claims (atorvastatin + Brand X) under each contract, illustrative.",
+     "say": "Two claims (atorvastatin and Brand X) under each contract, illustrative.",
+     "focus": -1,
+     "file": "clips/056ab38e198a.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Atorvastatin, plan pays. Traditional: no admin fee, $3.00 spread on the generic, 80% rebates: $7.50. Pass-through: $3.00 admin fee per claim, 100% rebates: $4.50.",
+     "say": "Atorvastatin, plan pays. Traditional: no admin fee, 3 dollars spread on the generic, 80 percent rebates: 7 dollars 50 cents. Pass-through: 3 dollars admin fee per claim, 100 percent rebates: 4 dollars 50 cents.",
+     "focus": 0,
+     "file": "clips/9227d4496aad.mp3",
+     "seconds": 16.35
+    },
+    {
+     "raw": "Brand X, plan pays. Traditional: no admin fee, $3.00 spread on the generic, 80% rebates: $471.00. Pass-through: $3.00 admin fee per claim, 100% rebates: $471.00.",
+     "say": "Brand X, plan pays. Traditional: no admin fee, 3 dollars spread on the generic, 80 percent rebates: 471 dollars. Pass-through: 3 dollars admin fee per claim, 100 percent rebates: 471 dollars.",
+     "focus": 1,
+     "file": "clips/69224f0847b4.mp3",
+     "seconds": 16.75
+    },
+    {
+     "raw": "Admin fees. Traditional: no admin fee, $3.00 spread on the generic, 80% rebates: $0.00. Pass-through: $3.00 admin fee per claim, 100% rebates: 2 × $3.00 = $6.00.",
+     "say": "Admin fees. Traditional: no admin fee, 3 dollars spread on the generic, 80 percent rebates: 0 dollars. Pass-through: 3 dollars admin fee per claim, 100 percent rebates: 2 × 3 dollars = 6 dollars.",
+     "focus": 2,
+     "file": "clips/44177d1ea732.mp3",
+     "seconds": 15.825
+    },
+    {
+     "raw": "Rebate received. Traditional: no admin fee, $3.00 spread on the generic, 80% rebates: − $120.00. Pass-through: $3.00 admin fee per claim, 100% rebates: − $150.00.",
+     "say": "Rebate received. Traditional: no admin fee, 3 dollars spread on the generic, 80 percent rebates: − 120 dollars. Pass-through: 3 dollars admin fee per claim, 100 percent rebates: − 150 dollars.",
+     "focus": 3,
+     "file": "clips/0b6a25157fe2.mp3",
+     "seconds": 16.425
+    },
+    {
+     "raw": "**Plan's net cost**. Traditional: no admin fee, $3.00 spread on the generic, 80% rebates: **$358.50**. Pass-through: $3.00 admin fee per claim, 100% rebates: **$331.50**.",
+     "say": "Plan's net cost. Traditional: no admin fee, 3 dollars spread on the generic, 80 percent rebates: 358 dollars 50 cents. Pass-through: 3 dollars admin fee per claim, 100 percent rebates: 331 dollars 50 cents.",
+     "focus": 4,
+     "file": "clips/12ceb22f3fb5.mp3",
+     "seconds": 17.7
+    },
+    {
+     "raw": "PBM earns. Traditional: no admin fee, $3.00 spread on the generic, 80% rebates: $3.00 spread + $30.00 rebate = **$33.00**. Pass-through: $3.00 admin fee per claim, 100% rebates: **$6.00** in fees.",
+     "say": "P B M earns. Traditional: no admin fee, 3 dollars spread on the generic, 80 percent rebates: 3 dollars spread and 30 dollars rebate = 33 dollars. Pass-through: 3 dollars admin fee per claim, 100 percent rebates: 6 dollars in fees.",
+     "focus": 5,
+     "file": "clips/7d96165de34e.mp3",
+     "seconds": 18.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "The two contract types side by side",
+   "lines": [
+    {
+     "raw": "Do not judge from two claims.",
+     "say": "Do not judge from two claims.",
+     "focus": -1,
+     "file": "clips/eb01883f8f04.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Here pass-through is cheaper, but that depends entirely on the numbers chosen.",
+     "say": "Here pass-through is cheaper, but that depends entirely on the numbers chosen.",
+     "focus": -1,
+     "file": "clips/cb40bde5f66f.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "A traditional contract might offer deeper price guarantees or larger rebate guarantees that win over a full year.",
+     "say": "A traditional contract might offer deeper price guarantees or larger rebate guarantees that win over a full year.",
+     "focus": -1,
+     "file": "clips/46cb8fbcf294.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "A pass-through PBM may still earn money in other ways (its own pharmacies, manufacturer fees).",
+     "say": "A pass-through P B M may still earn money in other ways (its own pharmacies, manufacturer fees).",
+     "focus": -1,
+     "file": "clips/979a0956f23d.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "Plans compare contracts by **re-pricing a full year of their own claims** under each offer, as Emily's employer does in lesson 5.",
+     "say": "Plans compare contracts by re-pricing a full year of their own claims under each offer, as Emily's employer does in lesson 5.",
+     "focus": -1,
+     "file": "clips/ba89a5f7be1a.mp3",
+     "seconds": 8.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The debate about PBMs.",
+     "say": "The debate about P B M's.",
+     "focus": -1,
+     "file": "clips/98a77b840a7a.mp3",
+     "seconds": 2.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "The debate about PBMs",
+   "lines": [
+    {
+     "raw": "PBMs are among the most debated companies in US healthcare.",
+     "say": "P B M's are among the most debated companies in U S healthcare.",
+     "focus": -1,
+     "file": "clips/e1784d26d005.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "It helps to hear both sides.",
+     "say": "It helps to hear both sides.",
+     "focus": -1,
+     "file": "clips/72e69de5201b.mp3",
+     "seconds": 2.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "The debate about PBMs",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Rebates and list prices. What critics say: When PBM earnings are tied to rebates, PBMs may prefer drugs with high list prices and big rebates. Members paying coinsurance pay a share of the high counter price (lesson 2). What PBMs and supporters say: Rebates come from tough negotiation, and most of the money goes back to plans, which lowers premiums.",
+     "say": "Rebates and list prices. What critics say: When P B M earnings are tied to rebates, P B M's may prefer drugs with high list prices and big rebates. Members paying coinsurance pay a share of the high counter price (lesson 2). What P B M's and supporters say: Rebates come from tough negotiation, and most of the money goes back to plans, which lowers premiums.",
+     "focus": 0,
+     "file": "clips/26d210a58681.mp3",
+     "seconds": 24.1
+    },
+    {
+     "raw": "Spread pricing. What critics say: Plans cannot easily see how much the PBM keeps per claim. What PBMs and supporters say: Plans choose spread contracts for predictable, guaranteed prices, and can choose pass-through instead.",
+     "say": "Spread pricing. What critics say: Plans cannot easily see how much the P B M keeps per claim. What P B M's and supporters say: Plans choose spread contracts for predictable, guaranteed prices, and can choose pass-through instead.",
+     "focus": 1,
+     "file": "clips/43ab2e74bae6.mp3",
+     "seconds": 15.975
+    },
+    {
+     "raw": "Owning pharmacies and insurers. What critics say: Large groups that own an insurer, a PBM and pharmacies may steer patients to their own pharmacies. Independent pharmacies say they are paid too little. What PBMs and supporters say: Owning the chain can coordinate care and lower costs, for example through mail order and specialty programs.",
+     "say": "Owning pharmacies and insurers. What critics say: Large groups that own an insurer, a P B M and pharmacies may steer patients to their own pharmacies. Independent pharmacies say they are paid too little. What P B M's and supporters say: Owning the chain can coordinate care and lower costs, for example through mail order and specialty programs.",
+     "focus": 2,
+     "file": "clips/e34dcfba3212.mp3",
+     "seconds": 22.775
+    },
+    {
+     "raw": "Transparency. What critics say: Contracts and data are complex and often confidential. What PBMs and supporters say: Confidential deals help get bigger discounts from drug makers.",
+     "say": "Transparency. What critics say: Contracts and data are complex and often confidential. What P B M's and supporters say: Confidential deals help get bigger discounts from drug makers.",
+     "focus": 3,
+     "file": "clips/977a8b174995.mp3",
+     "seconds": 13.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "The debate about PBMs",
+   "lines": [
+    {
+     "raw": "In the US: Reforms and scrutiny (general picture).",
+     "say": "In the U S: Reforms and scrutiny (general picture).",
+     "focus": -1,
+     "file": "clips/b03ec9a1dfd3.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Several **states** have banned or limited spread pricing in their **Medicaid** programs, and many states have passed laws to regulate PBMs.",
+     "say": "Several states have banned or limited spread pricing in their Medicaid programs, and many states have passed laws to regulate P B M's.",
+     "focus": 0,
+     "file": "clips/555a619f4e34.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "The **Consolidated Appropriations Act, 2021** requires employer and insurer health plans to report their drug spending, including rebates, to the federal government every year.",
+     "say": "The Consolidated Appropriations Act, 2021 requires employer and insurer health plans to report their drug spending, including rebates, to the federal government every year.",
+     "focus": 1,
+     "file": "clips/96e016ebd711.mp3",
+     "seconds": 12.1
+    },
+    {
+     "raw": "The **Federal Trade Commission (FTC)** has studied the largest PBMs and published reports raising concerns.",
+     "say": "The Federal Trade Commission (F T C) has studied the largest P B M's and published reports raising concerns.",
+     "focus": 2,
+     "file": "clips/f4251b9a533d.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "The PBMs dispute many of the findings.",
+     "say": "The P B M's dispute many of the findings.",
+     "focus": 2,
+     "file": "clips/5b80850c63b1.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "**Congress** has debated further changes, such as banning spread pricing in Medicaid, more reporting to employers, and \"delinking\" PBM pay from drug prices.",
+     "say": "Congress has debated further changes, such as banning spread pricing in Medicaid, more reporting to employers, and \"delinking\" P B M pay from drug prices.",
+     "focus": 3,
+     "file": "clips/42a58a4503ad.mp3",
+     "seconds": 11.3
+    },
+    {
+     "raw": "Many employers have moved to **pass-through** or other \"transparent\" PBM contracts.",
+     "say": "Many employers have moved to pass-through or other \"transparent\" P B M contracts.",
+     "focus": 4,
+     "file": "clips/7fdeccb2ef56.mp3",
+     "seconds": 5.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "The debate about PBMs",
+   "lines": [
+    {
+     "raw": "Rules change fast.",
+     "say": "Rules change fast.",
+     "focus": -1,
+     "file": "clips/9eae526f78a6.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "PBM rules are changing quickly at both state and federal level.",
+     "say": "P B M rules are changing quickly at both state and federal level.",
+     "focus": -1,
+     "file": "clips/d63f6991aada.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Treat this list as the general picture, and check current sources before relying on any specific rule.",
+     "say": "Treat this list as the general picture, and check current sources before relying on any specific rule.",
+     "focus": -1,
+     "file": "clips/ecca71694784.mp3",
+     "seconds": 6.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "The debate about PBMs",
+   "lines": [
+    {
+     "raw": "In Nepal: Who is the middle-man working for?",
+     "say": "In Nepal: Who is the middle-man working for?",
+     "focus": -1,
+     "file": "clips/865817983e14.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "When Ram's startup bought group health insurance, it may have used an **agent** or **broker**, who is usually paid a commission by the insurer.",
+     "say": "When Ram's startup bought group health insurance, it may have used an agent or broker, who is usually paid a commission by the insurer.",
+     "focus": 0,
+     "file": "clips/9aee123ce295.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "A fair question for the startup: is the broker working for us, or for whoever pays the commission?",
+     "say": "A fair question for the startup: is the broker working for us, or for whoever pays the commission?",
+     "focus": 1,
+     "file": "clips/e5fd30e1789b.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "US employers ask the same question about their PBM.",
+     "say": "U S employers ask the same question about their P B M.",
+     "focus": 1,
+     "file": "clips/aab72773c4bf.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's contributions go into a **public fund**.",
+     "say": "Sita's contributions go into a public fund.",
+     "focus": 2,
+     "file": "clips/657984061204.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "How that money is spent on hospitals and medicines is a public question.",
+     "say": "How that money is spent on hospitals and medicines is a public question.",
+     "focus": 2,
+     "file": "clips/c8402435670e.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "In the US, the same kind of public question is behind the debate about PBMs in **Medicaid** and **Medicare**, which are paid for with taxpayers' money.",
+     "say": "In the U S, the same kind of public question is behind the debate about P B M's in Medicaid and Medicare, which are paid for with taxpayers' money.",
+     "focus": 3,
+     "file": "clips/d3896b587a43.mp3",
+     "seconds": 10.15
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "PBMs earn from **admin fees**, **spread pricing**, **rebate retention**, other **manufacturer fees** and their **own pharmacies**.",
+     "say": "P B M's earn from admin fees, spread pricing, rebate retention, other manufacturer fees and their own pharmacies.",
+     "focus": 0,
+     "file": "clips/3b5b0ce3227e.mp3",
+     "seconds": 8.85
+    },
+    {
+     "raw": "**Spread** = amount billed to the plan − amount paid to the pharmacy.",
+     "say": "Spread = amount billed to the plan − amount paid to the pharmacy.",
+     "focus": 1,
+     "file": "clips/77a33d31fa32.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "**Traditional** contracts: low or no admin fee, guaranteed prices, PBM earns from spread and retained rebates.",
+     "say": "Traditional contracts: low or no admin fee, guaranteed prices, P B M earns from spread and retained rebates.",
+     "focus": 2,
+     "file": "clips/bd17a3375b4c.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "**Pass-through**: plan pays the pharmacy price and gets all rebates, plus an open admin fee.",
+     "say": "Pass-through: plan pays the pharmacy price and gets all rebates, plus an open admin fee.",
+     "focus": 2,
+     "file": "clips/66398ea9214b.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Which contract is cheaper depends on the numbers: plans re-price a full year of claims to compare.",
+     "say": "Which contract is cheaper depends on the numbers: plans re-price a full year of claims to compare.",
+     "focus": 3,
+     "file": "clips/ac10ad596762.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "PBMs are debated, and rules are changing.",
+     "say": "P B M's are debated, and rules are changing.",
+     "focus": 4,
+     "file": "clips/d75ebc025b07.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Present both sides and check current sources.",
+     "say": "Present both sides and check current sources.",
+     "focus": 4,
+     "file": "clips/a5998bb2ba58.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

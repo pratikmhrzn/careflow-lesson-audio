@@ -1,0 +1,988 @@
+{
+ "courseId": "pbm",
+ "lessonId": "pbm-data",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: PBM Data for a Plan.",
+     "say": "Lesson 4: P B M Data for a Plan.",
+     "focus": -1,
+     "file": "clips/d4d81ab534a1.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Claims, invoice, rebate, network and formulary files, and how to check them against each other.",
+     "say": "Claims, invoice, rebate, network and formulary files, and how to check them against each other.",
+     "focus": -1,
+     "file": "clips/7c5e72e6f83e.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Name the main files a PBM sends to a plan, and the files the plan sends back.",
+     "say": "Name the main files a P B M sends to a plan, and the files the plan sends back.",
+     "focus": 0,
+     "file": "clips/615049d78e09.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Know the extra money fields in a PBM claims file.",
+     "say": "Know the extra money fields in a P B M claims file.",
+     "focus": 1,
+     "file": "clips/bf5810106e33.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Reconcile a PBM invoice against the claims file.",
+     "say": "Reconcile a P B M invoice against the claims file.",
+     "focus": 2,
+     "file": "clips/0e588102d3f4.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Check rebates and price guarantees using the files together.",
+     "say": "Check rebates and price guarantees using the files together.",
+     "focus": 3,
+     "file": "clips/167d2de34478.mp3",
+     "seconds": 4.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Why a plan needs PBM data.",
+     "say": "Why a plan needs P B M data.",
+     "focus": -1,
+     "file": "clips/948e0cddcd57.mp3",
+     "seconds": 2.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Why a plan needs PBM data",
+   "lines": [
+    {
+     "raw": "The PBM pays pharmacies with the plan's money and collects rebates on the plan's behalf.",
+     "say": "The P B M pays pharmacies with the plan's money and collects rebates on the plan's behalf.",
+     "focus": -1,
+     "file": "clips/ea6d01fc10d5.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "The plan cannot watch every counter, so it relies on **files**.",
+     "say": "The plan cannot watch every counter, so it relies on files.",
+     "focus": -1,
+     "file": "clips/035d60119c4e.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "With the right files, an analyst can answer: did we pay the right amount, did we get our rebates, and are the contract promises being kept?",
+     "say": "With the right files, an analyst can answer: did we pay the right amount, did we get our rebates, and are the contract promises being kept?",
+     "focus": -1,
+     "file": "clips/978e5303e269.mp3",
+     "seconds": 8.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Why a plan needs PBM data",
+   "lines": [
+    {
+     "raw": "Checking the paperwork in Nepal.",
+     "say": "Checking the paperwork in Nepal.",
+     "focus": -1,
+     "file": "clips/f9e1e0086b50.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram keeps copies of every bill he sends to his insurer.",
+     "say": "Ram keeps copies of every bill he sends to his insurer.",
+     "focus": 0,
+     "file": "clips/48f1c4a73974.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "When the reimbursement arrives, he checks it against his bills: did they pay for every item, and the right amount?",
+     "say": "When the reimbursement arrives, he checks it against his bills: did they pay for every item, and the right amount?",
+     "focus": 0,
+     "file": "clips/7b062e6a77fb.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "That is reconciliation: comparing two records of the same money.",
+     "say": "That is reconciliation: comparing two records of the same money.",
+     "focus": 1,
+     "file": "clips/324624ea74b6.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "An SSF-listed hospital's accounts team would compare the claims it sent to SSF with the payments it received, and follow up on any missing or short payments.",
+     "say": "An S S F listed hospital's accounts team would compare the claims it sent to S S F with the payments it received, and follow up on any missing or short payments.",
+     "focus": 2,
+     "file": "clips/d0fec2cb284f.mp3",
+     "seconds": 11.075
+    },
+    {
+     "raw": "A US plan does the same with its PBM, but with millions of rows instead of a file of papers.",
+     "say": "A U S plan does the same with its P B M, but with millions of rows instead of a file of papers.",
+     "focus": 3,
+     "file": "clips/ee0106916856.mp3",
+     "seconds": 6.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The files.",
+     "say": "The files.",
+     "focus": -1,
+     "file": "clips/53c71c55b727.mp3",
+     "seconds": 1.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The files",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Eligibility file**. Direction: Plan → PBM. How often (typical): Daily or weekly. What it holds: Who is covered, from when to when. Without it, the PBM rejects claims as \"patient not covered\". Eligibility is covered in the Eligibility course.",
+     "say": "Eligibility file. Direction: Plan to P B M. How often (typical): Daily or weekly. What it holds: Who is covered, from when to when. Without it, the P B M rejects claims as \"patient not covered\". Eligibility is covered in the Eligibility course.",
+     "focus": 0,
+     "file": "clips/c5efe1c65fdf.mp3",
+     "seconds": 17.725
+    },
+    {
+     "raw": "**Accumulator file**. Direction: Both ways. How often (typical): Daily, on many plans. What it holds: Deductible and out-of-pocket amounts used, so medical and pharmacy spending count toward the same limits.",
+     "say": "Accumulator file. Direction: Both ways. How often (typical): Daily, on many plans. What it holds: Deductible and out-of-pocket amounts used, so medical and pharmacy spending count toward the same limits.",
+     "focus": 1,
+     "file": "clips/06b8e1c33960.mp3",
+     "seconds": 13.925
+    },
+    {
+     "raw": "**Claims file**. Direction: PBM → plan. How often (typical): Weekly or monthly. What it holds: Every paid and reversed pharmacy claim, with money fields.",
+     "say": "Claims file. Direction: P B M to plan. How often (typical): Weekly or monthly. What it holds: Every paid and reversed pharmacy claim, with money fields.",
+     "focus": 2,
+     "file": "clips/e7cbd8f8dbc3.mp3",
+     "seconds": 11.375
+    },
+    {
+     "raw": "**Invoice**. Direction: PBM → plan. How often (typical): Often weekly or every two weeks. What it holds: The bill for claims paid in the period, plus fees.",
+     "say": "Invoice. Direction: P B M to plan. How often (typical): Often weekly or every two weeks. What it holds: The bill for claims paid in the period, plus fees.",
+     "focus": 3,
+     "file": "clips/0fa5dbb9e138.mp3",
+     "seconds": 11.325
+    },
+    {
+     "raw": "**Rebate file**. Direction: PBM → plan. How often (typical): Quarterly, months after the quarter. What it holds: Rebates collected by drug and quarter, and the plan's share.",
+     "say": "Rebate file. Direction: P B M to plan. How often (typical): Quarterly, months after the quarter. What it holds: Rebates collected by drug and quarter, and the plan's share.",
+     "focus": 4,
+     "file": "clips/41c50a05791c.mp3",
+     "seconds": 12.1
+    },
+    {
+     "raw": "**Formulary file**. Direction: PBM → plan. How often (typical): When it changes. What it holds: Each drug's tier and rules (prior authorization, step therapy, quantity limits).",
+     "say": "Formulary file. Direction: P B M to plan. How often (typical): When it changes. What it holds: Each drug's tier and rules (prior authorization, step therapy, quantity limits).",
+     "focus": 5,
+     "file": "clips/6ea490191f95.mp3",
+     "seconds": 13.05
+    },
+    {
+     "raw": "**Pharmacy network file**. Direction: PBM → plan. How often (typical): Monthly or when it changes. What it holds: Which pharmacies are in network, their IDs and type.",
+     "say": "Pharmacy network file. Direction: P B M to plan. How often (typical): Monthly or when it changes. What it holds: Which pharmacies are in network, their I D's and type.",
+     "focus": 6,
+     "file": "clips/9457021479a3.mp3",
+     "seconds": 12.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The files",
+   "lines": [
+    {
+     "raw": "Layouts differ.",
+     "say": "Layouts differ.",
+     "focus": -1,
+     "file": "clips/f4c996ca68ae.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Unlike medical claims (X12 837) or counter messages (NCPDP), there is no single required layout for files a PBM sends to a plan.",
+     "say": "Unlike medical claims (X12 8 37) or counter messages (N C P D P), there is no single required layout for files a P B M sends to a plan.",
+     "focus": -1,
+     "file": "clips/5115910f56d8.mp3",
+     "seconds": 11.9
+    },
+    {
+     "raw": "Each PBM has its own column names.",
+     "say": "Each P B M has its own column names.",
+     "focus": -1,
+     "file": "clips/01e1e796cade.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "The ideas below are common; the exact names in your job will differ.",
+     "say": "The ideas below are common; the exact names in your job will differ.",
+     "focus": -1,
+     "file": "clips/2d3ffba59513.mp3",
+     "seconds": 4.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The claims file: two sides of the price.",
+     "say": "The claims file: two sides of the price.",
+     "focus": -1,
+     "file": "clips/2110fc678f47.mp3",
+     "seconds": 2.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The claims file: two sides of the price",
+   "lines": [
+    {
+     "raw": "The claims file has the usual pharmacy claim fields: the **NDC** (the drug's code), fill date, quantity, days supply, patient pay, plan paid and status (these are covered in detail in the Pharmacy course).",
+     "say": "The claims file has the usual pharmacy claim fields: the N D C (the drug's code), fill date, quantity, days supply, patient pay, plan paid and status (these are covered in detail in the Pharmacy course).",
+     "focus": -1,
+     "file": "clips/80f157cfcd5a.mp3",
+     "seconds": 13.625
+    },
+    {
+     "raw": "A PBM claims file for a plan often adds fields showing **both sides** of the price: what the **pharmacy was paid**, and what the **plan was billed**.",
+     "say": "A P B M claims file for a plan often adds fields showing both sides of the price: what the pharmacy was paid, and what the plan was billed.",
+     "focus": -1,
+     "file": "clips/d1f7d5c1228f.mp3",
+     "seconds": 9.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The claims file: two sides of the price",
+   "lines": [
+    {
+     "raw": "Two of Emily's fills, as a pass-through claims file might show them.",
+     "say": "Two of Emily's fills, as a pass-through claims file might show them.",
+     "focus": -1,
+     "file": "clips/598672674323.mp3",
+     "seconds": 4.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The claims file: two sides of the price",
+   "lines": [
+    {
+     "raw": "basis (basis of reimbursement).",
+     "say": "basis (basis of reimbursement).",
+     "focus": 0,
+     "file": "clips/fdc871e997a0.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Which price rule set the ingredient cost: **MAC**, **AWP** discount, or the pharmacy's **U&C** cash price (the \"lesser of\" rule).",
+     "say": "Which price rule set the ingredient cost: M A C, A W P discount, or the pharmacy's U&C cash price (the \"lesser of\" rule).",
+     "focus": 0,
+     "file": "clips/6c0dd93590d8.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "pharm_* fields.",
+     "say": "pharm_* fields.",
+     "focus": 1,
+     "file": "clips/18f3b054ad64.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "What the **pharmacy** was paid: ingredient cost, dispensing fee and gross amount.",
+     "say": "What the pharmacy was paid: ingredient cost, dispensing fee and gross amount.",
+     "focus": 1,
+     "file": "clips/fa195a9e3e49.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "plan_* fields and plan_billed.",
+     "say": "plan_* fields and plan_billed.",
+     "focus": 2,
+     "file": "clips/e5167fca14b5.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "What the PBM **billed the plan**.",
+     "say": "What the P B M billed the plan.",
+     "focus": 2,
+     "file": "clips/7a4b48fd11a4.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "In a pass-through file they match the pharmacy side.",
+     "say": "In a pass-through file they match the pharmacy side.",
+     "focus": 2,
+     "file": "clips/788782e60c3e.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Under a spread contract they differ, and **plan_gross − pharm_gross** is the spread.",
+     "say": "Under a spread contract they differ, and plan_gross − pharm_gross is the spread.",
+     "focus": 2,
+     "file": "clips/a8fa8ee2e0ee.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "admin_fee.",
+     "say": "admin_fee.",
+     "focus": 3,
+     "file": "clips/570c984ed5f6.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "The PBM's fee for the claim, if the contract charges one per claim.",
+     "say": "The PBM's fee for the claim, if the contract charges one per claim.",
+     "focus": 3,
+     "file": "clips/ec0afbe9b7dd.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "mail_ind, specialty_ind.",
+     "say": "mail_ind, specialty_ind.",
+     "focus": 4,
+     "file": "clips/8849a17e046d.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Flags for mail-order and specialty fills, because contracts often set different prices and guarantees for each channel.",
+     "say": "Flags for mail-order and specialty fills, because contracts often set different prices and guarantees for each channel.",
+     "focus": 4,
+     "file": "clips/92e28260a8db.mp3",
+     "seconds": 7.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The claims file: two sides of the price",
+   "lines": [
+    {
+     "raw": "Which \"plan paid\" do you have?",
+     "say": "Which \"plan paid\" do you have?",
+     "focus": -1,
+     "file": "clips/8631ac6f97ef.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "Always check whether an amount is what the **pharmacy was paid** or what the **plan was charged**.",
+     "say": "Always check whether an amount is what the pharmacy was paid or what the plan was charged.",
+     "focus": -1,
+     "file": "clips/9eeb499f993e.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "If Emily's atorvastatin had been billed under the $3.00 spread from lesson 3, this file would show pharm_gross **9.50** but plan_gross **12.50**, and plan_billed **7.50** instead of 4.50.",
+     "say": "If Emily's atorvastatin had been billed under the 3 dollars spread from lesson 3, this file would show pharm_gross 9.50 but plan_gross 12.50, and plan_billed 7.50 instead of 4.50.",
+     "focus": -1,
+     "file": "clips/943f1d615289.mp3",
+     "seconds": 16.65
+    },
+    {
+     "raw": "All the admin fees in these examples are illustrative.",
+     "say": "All the admin fees in these examples are illustrative.",
+     "focus": -1,
+     "file": "clips/3a7198b9fb0e.mp3",
+     "seconds": 3.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Reconciliation 1: invoice vs claims file.",
+     "say": "Reconciliation 1: invoice versus claims file.",
+     "focus": -1,
+     "file": "clips/4e5939ed2905.mp3",
+     "seconds": 3.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Reconciliation 1: invoice vs claims file",
+   "lines": [
+    {
+     "raw": "Every invoice should be backed by claims.",
+     "say": "Every invoice should be backed by claims.",
+     "focus": -1,
+     "file": "clips/8adf23830f40.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "The analyst sums the claims file for the same period and compares.",
+     "say": "The analyst sums the claims file for the same period and compares.",
+     "focus": -1,
+     "file": "clips/36048b46979c.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Here is an illustrative invoice for one plan, for claims processed **15 to 28 September 2025**, with a **$3.00 admin fee per net claim**.",
+     "say": "Here is an illustrative invoice for one plan, for claims processed 15 to 28 September 2025, with a 3 dollars admin fee per net claim.",
+     "focus": -1,
+     "file": "clips/4560bb396d2e.mp3",
+     "seconds": 10.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Reconciliation 1: invoice vs claims file",
+   "lines": [
+    {
+     "raw": "Invoice vs claims file, 15 to 28 September 2025 (illustrative).",
+     "say": "Invoice versus claims file, 15 to 28 September 2025 (illustrative).",
+     "focus": -1,
+     "file": "clips/c2e1d28eceb6.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "Paid claims (B1). Invoice: 420. Claims file: 420. Difference: 0.",
+     "say": "Paid claims (B1). Invoice: 420. Claims file: 420. Difference: 0.",
+     "focus": 0,
+     "file": "clips/ab85d5cdabdd.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "Reversals (B2). Invoice: 8. Claims file: 9. Difference: 1.",
+     "say": "Reversals (B2). Invoice: 8. Claims file: 9. Difference: 1.",
+     "focus": 1,
+     "file": "clips/d1bb59ed9cf4.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Net claims. Invoice: 412. Claims file: 411. Difference: 1.",
+     "say": "Net claims. Invoice: 412. Claims file: 411. Difference: 1.",
+     "focus": 2,
+     "file": "clips/a79d8d967c29.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Drug cost billed to plan. Invoice: $31,860.40. Claims file: $31,847.90. Difference: $12.50.",
+     "say": "Drug cost billed to plan. Invoice: 31860 dollars 40 cents. Claims file: 31847 dollars 90 cents. Difference: 12 dollars 50 cents.",
+     "focus": 3,
+     "file": "clips/15fe836e764b.mp3",
+     "seconds": 14.075
+    },
+    {
+     "raw": "Admin fees (net claims × $3.00). Invoice: $1,236.00. Claims file: $1,233.00. Difference: $3.00.",
+     "say": "Admin fees (net claims × 3 dollars). Invoice: 1236 dollars. Claims file: 1233 dollars. Difference: 3 dollars.",
+     "focus": 4,
+     "file": "clips/5c6392e2ab46.mp3",
+     "seconds": 10.125
+    },
+    {
+     "raw": "**Total**. Invoice: **$33,096.40**. Claims file: **$33,080.90**. Difference: **$15.50**.",
+     "say": "Total. Invoice: 33096 dollars 40 cents. Claims file: 33080 dollars 90 cents. Difference: 15 dollars 50 cents.",
+     "focus": 5,
+     "file": "clips/d596aafc9484.mp3",
+     "seconds": 11.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Reconciliation 1: invoice vs claims file",
+   "lines": [
+    {
+     "raw": "Finding the cause.",
+     "say": "Finding the cause.",
+     "focus": -1,
+     "file": "clips/9f0872411ffb.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The claims file has **one more reversal**.",
+     "say": "The claims file has one more reversal.",
+     "focus": -1,
+     "file": "clips/9d8545b9483f.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "The analyst finds it: a $12.50 claim reversed late on **28 September**, after the invoice was cut off.",
+     "say": "The analyst finds it: a 12 dollars 50 cents claim reversed late on 28 September, after the invoice was cut off.",
+     "focus": -1,
+     "file": "clips/9d9ee785c5c0.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "Check: $31,860.40 − $31,847.90 = $12.50 ✓, and one fewer claim means $3.00 less admin fee ✓.",
+     "say": "Check: 31860 dollars 40 cents − 31847 dollars 90 cents = 12 dollars 50 cents ✓, and one fewer claim means 3 dollars less admin fee ✓.",
+     "focus": -1,
+     "file": "clips/2fadc76b996b.mp3",
+     "seconds": 14.55
+    },
+    {
+     "raw": "This is a **timing difference**: the reversal should appear as a **credit of $15.50** on the next invoice.",
+     "say": "This is a timing difference: the reversal should appear as a credit of 15 dollars 50 cents on the next invoice.",
+     "focus": -1,
+     "file": "clips/587527820e2d.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "The analyst notes it and checks that it does.",
+     "say": "The analyst notes it and checks that it does.",
+     "focus": -1,
+     "file": "clips/dc49db18087d.mp3",
+     "seconds": 3.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Reconciliation 1: invoice vs claims file",
+   "lines": [
+    {
+     "raw": "Use the **same date** the invoice uses (usually the **processed date**, not the fill date).",
+     "say": "Use the same date the invoice uses (usually the processed date, not the fill date).",
+     "focus": 0,
+     "file": "clips/050ad1475beb.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "**Net reversals** first.",
+     "say": "Net reversals first.",
+     "focus": 1,
+     "file": "clips/09309855f728.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "A reversal (B2) row cancels a paid claim, for example medicine that was never picked up, so add each original and its reversal together before counting.",
+     "say": "A reversal (B2) row cancels a paid claim, for example medicine that was never picked up, so add each original and its reversal together before counting.",
+     "focus": 1,
+     "file": "clips/ca1c3e1c4b4b.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "Compare **counts**, then **amounts**, then **fees**.",
+     "say": "Compare counts, then amounts, then fees.",
+     "focus": 2,
+     "file": "clips/f1505ba85ffd.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Explain every difference: timing, a missing claim, a wrong fee, or a real billing error.",
+     "say": "Explain every difference: timing, a missing claim, a wrong fee, or a real billing error.",
+     "focus": 3,
+     "file": "clips/86f4f446cb39.mp3",
+     "seconds": 6.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Reconciliation 2: the rebate file.",
+     "say": "Reconciliation 2: the rebate file.",
+     "focus": -1,
+     "file": "clips/ca4afb577fbe.mp3",
+     "seconds": 3.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Reconciliation 2: the rebate file",
+   "lines": [
+    {
+     "raw": "Rebate file, Q2 2025 (April to June), for one plan (drugs and amounts are made up).",
+     "say": "Rebate file, Q2 2025 (April to June), for one plan (drugs and amounts are made up).",
+     "focus": -1,
+     "file": "clips/7d434608d911.mp3",
+     "seconds": 7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Reconciliation 2: the rebate file",
+   "lines": [
+    {
+     "raw": "The analyst counts the plan's own paid brand claims for the same drugs in Q2 (net of reversals): Brand X **48**, Brand Y **32**, Brand Z **4**.",
+     "say": "The analyst counts the plan's own paid brand claims for the same drugs in Q2 (net of reversals): Brand X 48, Brand Y 32, Brand Z 4.",
+     "focus": -1,
+     "file": "clips/97ee090cf48e.mp3",
+     "seconds": 10.625
+    },
+    {
+     "raw": "The rebate file has only **30** for Brand Y.",
+     "say": "The rebate file has only 30 for Brand Y.",
+     "focus": -1,
+     "file": "clips/77a973ea6752.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "Two claims are missing: 2 × $60.00 = **$120.00** of rebates the plan should ask about.",
+     "say": "Two claims are missing: 2 × 60 dollars = 120 dollars of rebates the plan should ask about.",
+     "focus": -1,
+     "file": "clips/9b36b2b198d0.mp3",
+     "seconds": 7.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Reconciliation 2: the rebate file",
+   "lines": [
+    {
+     "raw": "Rebates arrive late.",
+     "say": "Rebates arrive late.",
+     "focus": -1,
+     "file": "clips/efc453faef50.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "Rebates for a quarter are often paid **several months** after it ends, so a plan's 2025 net cost is not final until well into 2026.",
+     "say": "Rebates for a quarter are often paid several months after it ends, so a plan's 2025 net cost is not final until well into 2026.",
+     "focus": -1,
+     "file": "clips/918bbb759884.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "When you report net drug cost, say which rebates are **received** and which are only **expected**.",
+     "say": "When you report net drug cost, say which rebates are received and which are only expected.",
+     "focus": -1,
+     "file": "clips/63e08791295f.mp3",
+     "seconds": 5.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Reconciliation 3: the yearly price guarantee.",
+     "say": "Reconciliation 3: the yearly price guarantee.",
+     "focus": -1,
+     "file": "clips/083265481148.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Reconciliation 3: the yearly price guarantee",
+   "lines": [
+    {
+     "raw": "Contracts often promise an average discount for a whole year, for example **brand retail drugs at AWP − 18%**.",
+     "say": "Contracts often promise an average discount for a whole year, for example brand retail drugs at A W P − 18 percent.",
+     "focus": -1,
+     "file": "clips/ffc32377d879.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "It is checked across all claims at year end, not claim by claim.",
+     "say": "It is checked across all claims at year end, not claim by claim.",
+     "focus": -1,
+     "file": "clips/2dc8f2c4fe3e.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "The claims file has the AWP and the ingredient cost for each claim, so the analyst can sum them.",
+     "say": "The claims file has the A W P and the ingredient cost for each claim, so the analyst can sum them.",
+     "focus": -1,
+     "file": "clips/054bac75f431.mp3",
+     "seconds": 6.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Reconciliation 3: the yearly price guarantee",
+   "lines": [
+    {
+     "raw": "Brand retail guarantee check for a year (illustrative).",
+     "say": "Brand retail guarantee check for a year (illustrative).",
+     "focus": -1,
+     "file": "clips/438a0fda9743.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Total AWP of brand retail claims. Amount: $1,000,000.00.",
+     "say": "Total A W P of brand retail claims. Amount: 1000000 dollars.",
+     "focus": 0,
+     "file": "clips/4678b60aea6b.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Guaranteed ingredient cost (AWP − 18%). Calculation: $1,000,000.00 × 0.82. Amount: $820,000.00.",
+     "say": "Guaranteed ingredient cost (A W P − 18 percent). Calculation: 1000000 dollars × 0.82. Amount: 820000 dollars.",
+     "focus": 1,
+     "file": "clips/5eedb105977b.mp3",
+     "seconds": 11.95
+    },
+    {
+     "raw": "Actual ingredient cost billed. Amount: $828,000.00.",
+     "say": "Actual ingredient cost billed. Amount: 828000 dollars.",
+     "focus": 2,
+     "file": "clips/ba86f24986bf.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Actual discount achieved. Calculation: ($1,000,000.00 − $828,000.00) ÷ $1,000,000.00. Amount: 17.2%.",
+     "say": "Actual discount achieved. Calculation: (1000000 dollars − 828000 dollars) ÷ 1000000 dollars. Amount: 17.2 percent.",
+     "focus": 3,
+     "file": "clips/a8b5d5ef9c2b.mp3",
+     "seconds": 12.425
+    },
+    {
+     "raw": "**Shortfall the PBM owes the plan**. Calculation: $828,000.00 − $820,000.00. Amount: **$8,000.00**.",
+     "say": "Shortfall the P B M owes the plan. Calculation: 828000 dollars − 820000 dollars. Amount: 8000 dollars.",
+     "focus": 4,
+     "file": "clips/8c2fc232e706.mp3",
+     "seconds": 11.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Other checks using the reference files.",
+     "say": "Other checks using the reference files.",
+     "focus": -1,
+     "file": "clips/3a9c0a79f6a3.mp3",
+     "seconds": 2.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "Other checks using the reference files",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Was the member covered? Join: Claims → eligibility, on fill date. What a problem looks like: A paid claim for someone whose coverage had ended.",
+     "say": "Was the member covered? Join: Claims to eligibility, on fill date. What a problem looks like: A paid claim for someone whose coverage had ended.",
+     "focus": 0,
+     "file": "clips/a5e7e2206ab6.mp3",
+     "seconds": 9.675
+    },
+    {
+     "raw": "Was the tier right? Join: Claims → formulary file, on NDC and fill date. What a problem looks like: A tier 1 drug charged a tier 3 copay.",
+     "say": "Was the tier right? Join: Claims to formulary file, on N D C and fill date. What a problem looks like: A tier 1 drug charged a tier 3 copay.",
+     "focus": 1,
+     "file": "clips/60da0209bdc5.mp3",
+     "seconds": 10.45
+    },
+    {
+     "raw": "Was the pharmacy in network? Join: Claims → network file, on pharmacy NPI or NCPDP ID. What a problem looks like: A claim priced at in-network rates from a pharmacy not in the file.",
+     "say": "Was the pharmacy in network? Join: Claims to network file, on pharmacy N P I or N C P D P I D. What a problem looks like: A claim priced at in-network rates from a pharmacy not in the file.",
+     "focus": 2,
+     "file": "clips/7ad9841efecf.mp3",
+     "seconds": 14.025
+    },
+    {
+     "raw": "Were rules applied? Join: Claims → formulary file rules. What a problem looks like: A drug with a quantity limit paid above the limit.",
+     "say": "Were rules applied? Join: Claims to formulary file rules. What a problem looks like: A drug with a quantity limit paid above the limit.",
+     "focus": 3,
+     "file": "clips/6642844c1ea1.mp3",
+     "seconds": 9.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 25,
+   "section": "Other checks using the reference files",
+   "lines": [
+    {
+     "raw": "Small samples of the two reference files (pharmacies and IDs are fictional).",
+     "say": "Small samples of the two reference files (pharmacies and I D's are fictional).",
+     "focus": -1,
+     "file": "clips/938aa5b152a8.mp3",
+     "seconds": 5.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 26,
+   "section": "Other checks using the reference files",
+   "lines": [
+    {
+     "raw": "Open end dates.",
+     "say": "Open end dates.",
+     "focus": -1,
+     "file": "clips/838253cfdc58.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "An end date of `9999-12-31` is a common way to say \"still active, no end date yet\".",
+     "say": "An end date of 9 9 9 9 dash 1 2 dash 3 1 is a common way to say \"still active, no end date yet\".",
+     "focus": -1,
+     "file": "clips/0d3f7a8133ee.mp3",
+     "seconds": 8.525
+    },
+    {
+     "raw": "You will see it in eligibility, network and provider files too.",
+     "say": "You will see it in eligibility, network and provider files too.",
+     "focus": -1,
+     "file": "clips/c4fbacc5e380.mp3",
+     "seconds": 4.3
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Plan → PBM: **eligibility** (and accumulators).",
+     "say": "Plan to P B M: eligibility (and accumulators).",
+     "focus": 0,
+     "file": "clips/8c26aa62cf4f.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "PBM → plan: **claims**, **invoices**, **rebate**, **formulary** and **network** files.",
+     "say": "P B M to plan: claims, invoices, rebate, formulary and network files.",
+     "focus": 0,
+     "file": "clips/c09fd1a9d28e.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "A PBM claims file can show **two sides** of the price: what the pharmacy was paid and what the plan was billed.",
+     "say": "A P B M claims file can show two sides of the price: what the pharmacy was paid and what the plan was billed.",
+     "focus": 1,
+     "file": "clips/af4a17d3672c.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "The gap is the spread.",
+     "say": "The gap is the spread.",
+     "focus": 1,
+     "file": "clips/400b45f669f9.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Reconcile invoices to claims by **processed date**, after netting reversals: counts, then amounts, then fees.",
+     "say": "Reconcile invoices to claims by processed date, after netting reversals: counts, then amounts, then fees.",
+     "focus": 2,
+     "file": "clips/6a908ba285cf.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "Rebates arrive **months later**: check them against the plan's own brand claims.",
+     "say": "Rebates arrive months later: check them against the plan's own brand claims.",
+     "focus": 3,
+     "file": "clips/3359d247e396.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Price guarantees are checked over a **whole year**, and shortfalls are paid back.",
+     "say": "Price guarantees are checked over a whole year, and shortfalls are paid back.",
+     "focus": 4,
+     "file": "clips/3680b493909d.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1128 @@
+{
+ "courseId": "cms-datatypes",
+ "lessonId": "why-cms-shares-data",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: Why CMS Shares Data, and the File Map.",
+     "say": "Lesson 1: Why C M S Shares Data, and the File Map.",
+     "focus": -1,
+     "file": "clips/bc2d688e6fb1.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "The government pays for Medicare.",
+     "say": "The government pays for Medicare.",
+     "focus": -1,
+     "file": "clips/ea6520ae1d25.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Some organisations need to see its data to do their job, and each file answers a different question.",
+     "say": "Some organisations need to see its data to do their job, and each file answers a different question.",
+     "focus": -1,
+     "file": "clips/9180a6a3a489.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what CMS is and why it sends data files to outside organisations.",
+     "say": "Explain what C M S is and why it sends data files to outside organisations.",
+     "focus": 0,
+     "file": "clips/3ec314e93b15.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Tell an ACO (Accountable Care Organization) from a Medicare Advantage Organization (MAO).",
+     "say": "Tell an A C O (Accountable Care Organization) from a Medicare Advantage Organization (M A O).",
+     "focus": 1,
+     "file": "clips/05d06c434732.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "Know which files each one gets: CCLF for ACOs, MMR, MOR and MAO-004 for MA plans.",
+     "say": "Know which files each one gets: C C L F for A C O's, M M R, M O R and M A O 004 for M A plans.",
+     "focus": 2,
+     "file": "clips/ed7003da056f.mp3",
+     "seconds": 9.625
+    },
+    {
+     "raw": "Use the file map to pick the right CMS file for an analyst question.",
+     "say": "Use the file map to pick the right C M S file for an analyst question.",
+     "focus": 3,
+     "file": "clips/ad9e262fe9f0.mp3",
+     "seconds": 5.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Imagine a big government fund that pays hospital bills for millions of older people.",
+     "say": "Imagine a big government fund that pays hospital bills for millions of older people.",
+     "focus": -1,
+     "file": "clips/b90a7dc1b043.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "The fund holds all the bills.",
+     "say": "The fund holds all the bills.",
+     "focus": -1,
+     "file": "clips/09e8d72f9b8a.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Now imagine a group of doctors who promise the fund: \"Let us look after these patients well, and we will try to keep them healthy and out of hospital.\" To keep that promise, the doctors need to **see the bills**, including bills from hospitals they do not work in.",
+     "say": "Now imagine a group of doctors who promise the fund: \"Let us look after these patients well, and we will try to keep them healthy and out of hospital.\" To keep that promise, the doctors need to see the bills, including bills from hospitals they do not work in.",
+     "focus": -1,
+     "file": "clips/2d4ac74ce31d.mp3",
+     "seconds": 15.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "That is exactly why **CMS**, the US government agency that runs Medicare, sends data files to outside organisations.",
+     "say": "That is exactly why C M S, the U S government agency that runs Medicare, sends data files to outside organisations.",
+     "focus": -1,
+     "file": "clips/07cba66ef07c.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "This course is about those files.",
+     "say": "This course is about those files.",
+     "focus": -1,
+     "file": "clips/a746bb69582d.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "CMS.",
+     "say": "C M S.",
+     "focus": 0,
+     "file": "clips/13a03d3223bd.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "**Centers for Medicare & Medicaid Services**.",
+     "say": "Centers for Medicare and Medicaid Services.",
+     "focus": 0,
+     "file": "clips/1ad992bcbafe.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "The US federal agency that runs Medicare and oversees Medicaid.",
+     "say": "The U S federal agency that runs Medicare and oversees Medicaid.",
+     "focus": 0,
+     "file": "clips/5953dc346854.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "It pays or funds a very large share of US healthcare.",
+     "say": "It pays or funds a very large share of U S healthcare.",
+     "focus": 0,
+     "file": "clips/935669d30fa4.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Medicare.",
+     "say": "Medicare.",
+     "focus": 1,
+     "file": "clips/1c87ac7e3481.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "The federal health programme mainly for people **65 and older** (and some younger people with disabilities or kidney failure).",
+     "say": "The federal health programme mainly for people 65 and older (and some younger people with disabilities or kidney failure).",
+     "focus": 1,
+     "file": "clips/c9ca6064c3f7.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "The Medicare course covers it in depth.",
+     "say": "The Medicare course covers it in depth.",
+     "focus": 1,
+     "file": "clips/98e1cdf8dc30.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "Beneficiary.",
+     "say": "Beneficiary.",
+     "focus": 2,
+     "file": "clips/c80c57a036a3.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Medicare's word for a person covered by Medicare.",
+     "say": "Medicare's word for a person covered by Medicare.",
+     "focus": 2,
+     "file": "clips/10df067ab5ba.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Insurers say \"member\"; Medicare says \"beneficiary\" (often shortened to **bene** in field names).",
+     "say": "Insurers say \"member\"; Medicare says \"beneficiary\" (often shortened to bene in field names).",
+     "focus": 2,
+     "file": "clips/cf272f3f283a.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Original Medicare.",
+     "say": "Original Medicare.",
+     "focus": 3,
+     "file": "clips/143348156ec5.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "The government pays doctors and hospitals directly, claim by claim.",
+     "say": "The government pays doctors and hospitals directly, claim by claim.",
+     "focus": 3,
+     "file": "clips/91247507995a.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Also called **fee-for-service (FFS) Medicare**.",
+     "say": "Also called fee-for-service (F F S) Medicare.",
+     "focus": 3,
+     "file": "clips/1250d579ea79.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "**Part A** = hospital, **Part B** = doctors and outpatient, **Part D** = drugs (from a private drug plan).",
+     "say": "Part A = hospital, Part B = doctors and outpatient, Part D = drugs (from a private drug plan).",
+     "focus": 3,
+     "file": "clips/c7a803433e9e.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Medicare Advantage (MA, Part C).",
+     "say": "Medicare Advantage (M A, Part C).",
+     "focus": 4,
+     "file": "clips/0ad219057ae3.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "A **private insurer** takes over a beneficiary's Medicare cover.",
+     "say": "A private insurer takes over a beneficiary's Medicare cover.",
+     "focus": 4,
+     "file": "clips/edc82dc98826.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "CMS pays the insurer a fixed amount **each month per member**, and the insurer pays the claims.",
+     "say": "C M S pays the insurer a fixed amount each month per member, and the insurer pays the claims.",
+     "focus": 4,
+     "file": "clips/47fdd8f48e7f.mp3",
+     "seconds": 6.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet Robert.",
+     "say": "Meet Robert.",
+     "focus": -1,
+     "file": "clips/3c92a3b5d1a2.mp3",
+     "seconds": 1.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Meet Robert",
+   "lines": [
+    {
+     "raw": "**Robert Carter** is Emily's father.",
+     "say": "Robert Carter is Emily's father.",
+     "focus": -1,
+     "file": "clips/f83694dd9cd1.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "He was born on **2 May 1957**, is a retired school teacher in **Houston, Texas**, and has **Medicare**.",
+     "say": "He was born on 2 May 1957, is a retired school teacher in Houston, Texas, and has Medicare.",
+     "focus": -1,
+     "file": "clips/2fe76922a52f.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "He has **type 2 diabetes** and **high blood pressure**, so he sees his family doctor, **Dr. Nguyen** at **Bayou Family Medicine** (fictional), every few months and takes medicine every day.",
+     "say": "He has type 2 diabetes and high blood pressure, so he sees his family doctor, Doctor Nguyen at Bayou Family Medicine (fictional), every few months and takes medicine every day.",
+     "focus": -1,
+     "file": "clips/1f2d5cc5c794.mp3",
+     "seconds": 11.725
+    },
+    {
+     "raw": "He was on Original Medicare from May 2022 to December 2023, and since **1 January 2024** he has been a member of **Gulf Coast Advantage (HMO)**, a Medicare Advantage plan from Gulf Coast Health Plan (both fictional).",
+     "say": "He was on Original Medicare from May 2022 to December 2023, and since 1 January 2024 he has been a member of Gulf Coast Advantage (H M O), a Medicare Advantage plan from Gulf Coast Health Plan (both fictional).",
+     "focus": -1,
+     "file": "clips/c8418e90c7fe.mp3",
+     "seconds": 16.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Meet Robert",
+   "lines": [
+    {
+     "raw": "Two different scenarios for Robert.",
+     "say": "Two different scenarios for Robert.",
+     "focus": -1,
+     "file": "clips/ab06942605a7.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "A beneficiary is in **either** Original Medicare **or** a Medicare Advantage plan for a given month, never both.",
+     "say": "A beneficiary is in either Original Medicare or a Medicare Advantage plan for a given month, never both.",
+     "focus": -1,
+     "file": "clips/93e2c70bde5d.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "In this course we look at Robert **two ways**: **Scenario A** (a what-if): imagine Robert had **stayed on Original Medicare** in 2025 and his doctor belongs to an ACO, so his claims show up in **CCLF** files (lessons 2 and 3).",
+     "say": "In this course we look at Robert two ways: Scenario A (a what-if): imagine Robert had stayed on Original Medicare in 2025 and his doctor belongs to an A C O, so his claims show up in C C L F files (lessons 2 and 3).",
+     "focus": -1,
+     "file": "clips/28ad8af8b5ce.mp3",
+     "seconds": 15.675
+    },
+    {
+     "raw": "**Scenario B** (his actual situation): Robert is in his Medicare Advantage plan, so he shows up in **MMR** (lesson 4), **MOR and MAO-004** reports (lesson 5).",
+     "say": "Scenario B (his actual situation): Robert is in his Medicare Advantage plan, so he shows up in M M R (lesson 4), M O R and M A O 004 reports (lesson 5).",
+     "focus": -1,
+     "file": "clips/0d0f92067de3.mp3",
+     "seconds": 13.65
+    },
+    {
+     "raw": "Lesson 6 puts the two side by side.",
+     "say": "Lesson 6 puts the two side by side.",
+     "focus": -1,
+     "file": "clips/0abdc474b0ef.mp3",
+     "seconds": 2.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who receives CMS data, and why?",
+     "say": "Who receives C M S data, and why?",
+     "focus": -1,
+     "file": "clips/bdfcbaaa13fe.mp3",
+     "seconds": 2.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Who receives CMS data, and why?",
+   "lines": [
+    {
+     "raw": "Two kinds of organisation are the main readers of the files in this course:",
+     "say": "Two kinds of organisation are the main readers of the files in this course:",
+     "focus": -1,
+     "file": "clips/a46a36c95f17.mp3",
+     "seconds": 4.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Who receives CMS data, and why?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Who are they? ACO in the Medicare Shared Savings Program: A group of **doctors and hospitals** that agree to be accountable for the cost and quality of care for a group of Original Medicare beneficiaries. Medicare Advantage Organization (MAO): A **private insurance company** that runs Medicare Advantage plans.",
+     "say": "Who are they? A C O in the Medicare Shared Savings Program: A group of doctors and hospitals that agree to be accountable for the cost and quality of care for a group of Original Medicare beneficiaries. Medicare Advantage Organization (M A O): A private insurance company that runs Medicare Advantage plans.",
+     "focus": 0,
+     "file": "clips/5eb06de24585.mp3",
+     "seconds": 20.45
+    },
+    {
+     "raw": "Who pays the claims? ACO in the Medicare Shared Savings Program: **CMS** pays every claim, as normal Original Medicare. Medicare Advantage Organization (MAO): The **MAO** pays the claims itself.",
+     "say": "Who pays the claims? A C O in the Medicare Shared Savings Program: C M S pays every claim, as normal Original Medicare. Medicare Advantage Organization (M A O): The M A O pays the claims itself.",
+     "focus": 1,
+     "file": "clips/e377a96277c7.mp3",
+     "seconds": 14.55
+    },
+    {
+     "raw": "How do they earn money? ACO in the Medicare Shared Savings Program: If total spending for their beneficiaries is lower than a CMS benchmark and quality is good, they **share the savings** with CMS. Medicare Advantage Organization (MAO): CMS pays a fixed amount per member per month, **adjusted for how sick each member is** (risk adjustment).",
+     "say": "How do they earn money? A C O in the Medicare Shared Savings Program: If total spending for their beneficiaries is lower than a C M S benchmark and quality is good, they share the savings with C M S. Medicare Advantage Organization (M A O): C M S pays a fixed amount per member per month, adjusted for how sick each member is (risk adjustment).",
+     "focus": 2,
+     "file": "clips/788435d87769.mp3",
+     "seconds": 22.525
+    },
+    {
+     "raw": "What do they lack? ACO in the Medicare Shared Savings Program: They only see their **own** bills, not bills from other hospitals and doctors their patients visit. Medicare Advantage Organization (MAO): They already have the claims. They need to know **what CMS paid them and why**.",
+     "say": "What do they lack? A C O in the Medicare Shared Savings Program: They only see their own bills, not bills from other hospitals and doctors their patients visit. Medicare Advantage Organization (M A O): They already have the claims. They need to know what C M S paid them and why.",
+     "focus": 3,
+     "file": "clips/0d4e31e7427c.mp3",
+     "seconds": 18.2
+    },
+    {
+     "raw": "Main CMS files. ACO in the Medicare Shared Savings Program: **CCLF** (Claim and Claim Line Feed): Medicare claims for their assigned beneficiaries. Medicare Advantage Organization (MAO): **MMR** (payments), **MOR** (risk model output), **MAO-004** (diagnoses accepted for risk adjustment).",
+     "say": "Main C M S files. A C O in the Medicare Shared Savings Program: C C L F (Claim and Claim Line Feed): Medicare claims for their assigned beneficiaries. Medicare Advantage Organization (M A O): M M R (payments), M O R (risk model output), M A O 004 (diagnoses accepted for risk adjustment).",
+     "focus": 4,
+     "file": "clips/f0fd712dbdd9.mp3",
+     "seconds": 23.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Who receives CMS data, and why?",
+   "lines": [
+    {
+     "raw": "The key difference in one line.",
+     "say": "The key difference in one line.",
+     "focus": -1,
+     "file": "clips/a99181105c72.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "An ACO gets **claims** from CMS because CMS is the one paying them.",
+     "say": "An A C O gets claims from C M S because C M S is the one paying them.",
+     "focus": -1,
+     "file": "clips/2a411a2c439f.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "An MA plan gets **payment and risk reports** from CMS because the MA plan is the one paying the claims, and CMS is paying the MA plan.",
+     "say": "An M A plan gets payment and risk reports from C M S because the M A plan is the one paying the claims, and C M S is paying the M A plan.",
+     "focus": -1,
+     "file": "clips/cb0ae4d40c52.mp3",
+     "seconds": 10.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Who receives CMS data, and why?",
+   "lines": [
+    {
+     "raw": "Original Medicare + ACO.",
+     "say": "Original Medicare and A C O.",
+     "focus": 0,
+     "file": "clips/b7190320e87d.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Doctors and hospitals send claims to **CMS** (through Medicare contractors).",
+     "say": "Doctors and hospitals send claims to C M S (through Medicare contractors).",
+     "focus": 0,
+     "file": "clips/e78117853033.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "CMS pays them.",
+     "say": "C M S pays them.",
+     "focus": 0,
+     "file": "clips/1606e0d626d7.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Each month CMS sends the ACO a copy of the claims for its assigned beneficiaries: the **CCLF** files.",
+     "say": "Each month C M S sends the A C O a copy of the claims for its assigned beneficiaries: the C C L F files.",
+     "focus": 0,
+     "file": "clips/5cf6c1be0daa.mp3",
+     "seconds": 8.3
+    },
+    {
+     "raw": "Medicare Advantage.",
+     "say": "Medicare Advantage.",
+     "focus": 1,
+     "file": "clips/015d9c62506d.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Doctors and hospitals send claims to the **MA plan**, which pays them.",
+     "say": "Doctors and hospitals send claims to the M A plan, which pays them.",
+     "focus": 1,
+     "file": "clips/3dded8247d12.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "The plan sends **encounter data** (copies of those claims) to CMS.",
+     "say": "The plan sends encounter data (copies of those claims) to C M S.",
+     "focus": 1,
+     "file": "clips/a1b5793000fa.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "CMS works out a **risk score** for each member and pays the plan monthly.",
+     "say": "C M S works out a risk score for each member and pays the plan monthly.",
+     "focus": 1,
+     "file": "clips/4d6e14663bd4.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "CMS sends back the **MMR**, **MOR** and **MAO-004** reports.",
+     "say": "C M S sends back the M M R, M O R and M A O 004 reports.",
+     "focus": 1,
+     "file": "clips/33bcebfe87be.mp3",
+     "seconds": 6.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The file map: which file answers which question?",
+     "say": "The file map: which file answers which question?",
+     "focus": -1,
+     "file": "clips/a9ac7b8ba511.mp3",
+     "seconds": 3.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "The file map: which file answers which question?",
+   "lines": [
+    {
+     "raw": "Before opening any file, know what each one is **for**.",
+     "say": "Before opening any file, know what each one is for.",
+     "focus": -1,
+     "file": "clips/f46bc9629b4d.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Every CMS file answers one kind of question.",
+     "say": "Every C M S file answers one kind of question.",
+     "focus": -1,
+     "file": "clips/1f34ef22d2b1.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Pick the file from the question, not the other way round.",
+     "say": "Pick the file from the question, not the other way round.",
+     "focus": -1,
+     "file": "clips/5c861bd1b74f.mp3",
+     "seconds": 3.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "The file map: which file answers which question?",
+   "lines": [
+    {
+     "raw": "The four file families in this course.",
+     "say": "The four file families in this course.",
+     "focus": -1,
+     "file": "clips/557f9e1619f0.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Full name. CCLF: Claim and Claim Line Feed. MMR: Monthly Membership Report. MOR: Model Output Report. MAO-004: Medicare Advantage Organization report 004 (encounter diagnoses).",
+     "say": "Full name. C C L F: Claim and Claim Line Feed. M M R: Monthly Membership Report. M O R: Model Output Report. M A O 004: Medicare Advantage Organization report 004 (encounter diagnoses).",
+     "focus": 0,
+     "file": "clips/753c27da3d72.mp3",
+     "seconds": 17.7
+    },
+    {
+     "raw": "Who gets it. CCLF: ACOs. MMR: MA plans. MOR: MA plans. MAO-004: MA plans.",
+     "say": "Who gets it. C C L F: A C O's. M M R: M A plans. M O R: M A plans. M A O 004: M A plans.",
+     "focus": 1,
+     "file": "clips/2dae2f86176f.mp3",
+     "seconds": 10.225
+    },
+    {
+     "raw": "How often. CCLF: Monthly. MMR: Monthly. MOR: Periodically, with risk score runs. MAO-004: Regularly, as encounters are processed.",
+     "say": "How often. C C L F: Monthly. M M R: Monthly. M O R: Periodically, with risk score runs. M A O 004: Regularly, as encounters are processed.",
+     "focus": 2,
+     "file": "clips/0e2939497723.mp3",
+     "seconds": 12.925
+    },
+    {
+     "raw": "One row means. CCLF: A claim, line, diagnosis or person (depends on the file). MMR: A member and payment month (or a correction). MOR: A member's risk model result. MAO-004: A diagnosis on an accepted encounter.",
+     "say": "One row means. C C L F: A claim, line, diagnosis or person (depends on the file). M M R: A member and payment month (or a correction). M O R: A member's risk model result. M A O 004: A diagnosis on an accepted encounter.",
+     "focus": 3,
+     "file": "clips/062d286e958e.mp3",
+     "seconds": 18.8
+    },
+    {
+     "raw": "Money meaning. CCLF: What Medicare paid doctors and hospitals. MMR: What CMS paid the plan. MOR: No money, risk factors only. MAO-004: No money, diagnoses only.",
+     "say": "Money meaning. C C L F: What Medicare paid doctors and hospitals. M M R: What C M S paid the plan. M O R: No money, risk factors only. M A O 004: No money, diagnoses only.",
+     "focus": 4,
+     "file": "clips/369b8e99ab33.mp3",
+     "seconds": 15.8
+    },
+    {
+     "raw": "Taught in. CCLF: Lessons 2 and 3. MMR: Lesson 4. MOR: Lesson 5. MAO-004: Lesson 5.",
+     "say": "Taught in. C C L F: Lessons 2 and 3. M M R: Lesson 4. M O R: Lesson 5. M A O 004: Lesson 5.",
+     "focus": 5,
+     "file": "clips/033e3269619e.mp3",
+     "seconds": 10.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "The file map: which file answers which question?",
+   "lines": [
+    {
+     "raw": "Questions analysts really ask.",
+     "say": "Questions analysts really ask.",
+     "focus": -1,
+     "file": "clips/7bbca2114545.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "How many of our ACO's beneficiaries went to an ER last quarter? File to open: CCLF claim files (hospital outpatient and doctor claims).",
+     "say": "How many of our ACO's beneficiaries went to an E R last quarter? File to open: C C L F claim files (hospital outpatient and doctor claims).",
+     "focus": 0,
+     "file": "clips/9f04432b9d23.mp3",
+     "seconds": 11
+    },
+    {
+     "raw": "What was total Medicare spending per ACO beneficiary in 2025? File to open: All CCLF claim files, latest versions only, after late claims arrive.",
+     "say": "What was total Medicare spending per A C O beneficiary in 2025? File to open: All C C L F claim files, latest versions only, after late claims arrive.",
+     "focus": 1,
+     "file": "clips/91ee7bd8a9af.mp3",
+     "seconds": 12.35
+    },
+    {
+     "raw": "Did CMS pay us for every member we enrolled in March? File to open: MMR.",
+     "say": "Did C M S pay us for every member we enrolled in March? File to open: M M R.",
+     "focus": 2,
+     "file": "clips/827f47434691.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Why is this member's risk score lower than we expected? File to open: MOR first, then MAO-004.",
+     "say": "Why is this member's risk score lower than we expected? File to open: M O R first, then M A O 004.",
+     "focus": 3,
+     "file": "clips/7b0cc0ea316a.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "Did CMS accept the diagnoses we sent from our members' visits? File to open: MAO-004.",
+     "say": "Did C M S accept the diagnoses we sent from our members' visits? File to open: M A O 004.",
+     "focus": 4,
+     "file": "clips/07a123472770.mp3",
+     "seconds": 8.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "The file map: which file answers which question?",
+   "lines": [
+    {
+     "raw": "A risk score in one line.",
+     "say": "A risk score in one line.",
+     "focus": -1,
+     "file": "clips/b0f2b16124d2.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "A **risk score** is a number around 1.0 that says how costly CMS expects a member to be.",
+     "say": "A risk score is a number around 1.0 that says how costly C M S expects a member to be.",
+     "focus": -1,
+     "file": "clips/c2396e9783bf.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "MA plans are paid more for members with higher scores.",
+     "say": "M A plans are paid more for members with higher scores.",
+     "focus": -1,
+     "file": "clips/8b9ab6c57bc2.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "The Risk Adjustment course teaches how scores are built; this course shows where they appear in CMS files.",
+     "say": "The Risk Adjustment course teaches how scores are built; this course shows where they appear in C M S files.",
+     "focus": -1,
+     "file": "clips/171d91eb5d08.mp3",
+     "seconds": 7.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The same idea in Nepal.",
+     "say": "The same idea in Nepal.",
+     "focus": -1,
+     "file": "clips/12133dd62d0d.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "The same idea in Nepal",
+   "lines": [
+    {
+     "raw": "In Nepal: An imagined example, to picture the two models.",
+     "say": "In Nepal: An imagined example, to picture the two models.",
+     "focus": -1,
+     "file": "clips/a2d10545cceb.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Think of Ram's private insurer.",
+     "say": "Think of Ram's private insurer.",
+     "focus": 0,
+     "file": "clips/7b9741de9514.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "It pays hospital bills itself, so it **already has all of Ram's bills**.",
+     "say": "It pays hospital bills itself, so it already has all of Ram's bills.",
+     "focus": 0,
+     "file": "clips/2bbe2e464267.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "If a government fund paid the insurer a fixed amount per person each month, the insurer would mostly want to know: **how much did the fund pay us, and for whom?**",
+     "say": "If a government fund paid the insurer a fixed amount per person each month, the insurer would mostly want to know: how much did the fund pay us, and for whom?",
+     "focus": 0,
+     "file": "clips/81516b74477c.mp3",
+     "seconds": 9.9
+    },
+    {
+     "raw": "That is the Medicare Advantage side.",
+     "say": "That is the Medicare Advantage side.",
+     "focus": 0,
+     "file": "clips/67dd7775b761.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Now think of Sita and the SSF.",
+     "say": "Now think of Sita and the S S F.",
+     "focus": 1,
+     "file": "clips/f1cb1a83f638.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "SSF pays the hospitals and holds all her claims.",
+     "say": "S S F pays the hospitals and holds all her claims.",
+     "focus": 1,
+     "file": "clips/f5c3f7ec17f9.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Imagine a group of clinics agreed to look after SSF contributors and keep costs down.",
+     "say": "Imagine a group of clinics agreed to look after S S F contributors and keep costs down.",
+     "focus": 1,
+     "file": "clips/cabe0f8c93c9.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "They could only do that if SSF **shared copies of the claims** with them.",
+     "say": "They could only do that if S S F shared copies of the claims with them.",
+     "focus": 1,
+     "file": "clips/7625d42485be.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "That is the ACO side.",
+     "say": "That is the A C O side.",
+     "focus": 1,
+     "file": "clips/29e4fba81034.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "(This is only an analogy; SSF does not run such a programme as far as this course describes.).",
+     "say": "(This is only an analogy; S S F does not run such a programme as far as this course describes.).",
+     "focus": 1,
+     "file": "clips/f68a57650436.mp3",
+     "seconds": 6.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "The same idea in Nepal",
+   "lines": [
+    {
+     "raw": "In the US: How it works in the US.",
+     "say": "In the U S: How it works in the U S.",
+     "focus": -1,
+     "file": "clips/68bbced6d8b3.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "The **Medicare Shared Savings Program (MSSP)** started in 2012.",
+     "say": "The Medicare Shared Savings Program (M S S P) started in 2012.",
+     "focus": 0,
+     "file": "clips/758173c151eb.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Hundreds of ACOs take part, covering millions of Original Medicare beneficiaries.",
+     "say": "Hundreds of A C O's take part, covering millions of Original Medicare beneficiaries.",
+     "focus": 0,
+     "file": "clips/80eb6b5fe164.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Beneficiaries in an ACO stay in Original Medicare.",
+     "say": "Beneficiaries in an A C O stay in Original Medicare.",
+     "focus": 1,
+     "file": "clips/8f2f563f4c62.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "They can still see **any doctor** who accepts Medicare.",
+     "say": "They can still see any doctor who accepts Medicare.",
+     "focus": 1,
+     "file": "clips/63151a374fe8.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "They are **assigned** to an ACO, mostly based on where they get their primary care.",
+     "say": "They are assigned to an A C O, mostly based on where they get their primary care.",
+     "focus": 1,
+     "file": "clips/8d312649ff0a.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "About half of all Medicare beneficiaries choose **Medicare Advantage** instead.",
+     "say": "About half of all Medicare beneficiaries choose Medicare Advantage instead.",
+     "focus": 2,
+     "file": "clips/d17dba9996dd.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Those people are not assigned to MSSP ACOs.",
+     "say": "Those people are not assigned to M S S P A C O's.",
+     "focus": 2,
+     "file": "clips/7e9c25cd5caf.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Beneficiaries can ask Medicare **not to share** their claims data with an ACO.",
+     "say": "Beneficiaries can ask Medicare not to share their claims data with an A C O.",
+     "focus": 3,
+     "file": "clips/b2a889d38bd9.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "Their claims are then left out of CCLF.",
+     "say": "Their claims are then left out of C C L F.",
+     "focus": 3,
+     "file": "clips/e4c40fbc7832.mp3",
+     "seconds": 3.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What the files look like.",
+     "say": "What the files look like.",
+     "focus": -1,
+     "file": "clips/ab7622f061d0.mp3",
+     "seconds": 1.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "What the files look like",
+   "lines": [
+    {
+     "raw": "CMS files are not friendly spreadsheets.",
+     "say": "C M S files are not friendly spreadsheets.",
+     "focus": -1,
+     "file": "clips/421ccf59a5f0.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Most are **fixed-width text files**: every field sits at an exact character position on the line, with no commas between fields.",
+     "say": "Most are fixed-width text files: every field sits at an exact character position on the line, with no commas between fields.",
+     "focus": -1,
+     "file": "clips/397bd5585d1b.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "Each file comes with a **layout document** from CMS that says \"characters 1 to 13 are the claim ID, characters 14 to 24 are the MBI\", and so on.",
+     "say": "Each file comes with a layout document from C M S that says \"characters 1 to 13 are the claim I D, characters 14 to 24 are the M B I\", and so on.",
+     "focus": -1,
+     "file": "clips/646c783194a7.mp3",
+     "seconds": 11.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "What the files look like",
+   "lines": [
+    {
+     "raw": "A fixed-width line (simplified).",
+     "say": "A fixed-width line (simplified).",
+     "focus": -1,
+     "file": "clips/4d388d0dd62f.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "1000004512   : Claim ID, padded with spaces to its fixed length.",
+     "say": "1000004512 : Claim I D, padded with spaces to its fixed length.",
+     "focus": 0,
+     "file": "clips/df160c49bab2.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "3TW7HC2AP58: The beneficiary's Medicare ID (MBI).",
+     "say": "3 T W 7 H C 2 A P 5 8: The beneficiary's Medicare I D (M B I).",
+     "focus": 1,
+     "file": "clips/879eb3a6c65f.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "40 : Claim type code (40 = hospital outpatient).",
+     "say": "40 : Claim type code (40 = hospital outpatient).",
+     "focus": 2,
+     "file": "clips/631e8013a3a1.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "20250520: Claim from date (YYYYMMDD).",
+     "say": "20250520: Claim from date (YYYYMMDD).",
+     "focus": 3,
+     "file": "clips/8456be3d90f5.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "20250520: Claim through date (YYYYMMDD).",
+     "say": "20250520: Claim through date (YYYYMMDD).",
+     "focus": 4,
+     "file": "clips/5a6a86aea20f.mp3",
+     "seconds": 5.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "What the files look like",
+   "lines": [
+    {
+     "raw": "The Medicare ID: MBI.",
+     "say": "The Medicare I D: M B I.",
+     "focus": -1,
+     "file": "clips/8daa248cf6ab.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Every beneficiary has an **MBI** (Medicare Beneficiary Identifier): **11 characters** of numbers and capital letters, such as Robert's `3TW7-HC2-AP58` (shown with dashes for reading; files store it without dashes).",
+     "say": "Every beneficiary has an M B I (Medicare Beneficiary Identifier): 11 characters of numbers and capital letters, such as Robert's 3 T W 7 dash H C 2 dash A P 5 8 (shown with dashes for reading; files store it without dashes).",
+     "focus": -1,
+     "file": "clips/88d8499351b7.mp3",
+     "seconds": 17.6
+    },
+    {
+     "raw": "It replaced the old Social-Security-number-based ID (the **HICN**) around 2018 to 2019.",
+     "say": "It replaced the old Social-Security-number-based I D (the H I C N) around 2018 to 2019.",
+     "focus": -1,
+     "file": "clips/e34446ba7f40.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "Robert's MBI in this course is **invented**.",
+     "say": "Robert's M B I in this course is invented.",
+     "focus": -1,
+     "file": "clips/795da8709050.mp3",
+     "seconds": 3.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "What the files look like",
+   "lines": [
+    {
+     "raw": "This is protected health information.",
+     "say": "This is protected health information.",
+     "focus": -1,
+     "file": "clips/33bbf9139b08.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "CMS files contain names, dates of birth, diagnoses and Medicare IDs.",
+     "say": "C M S files contain names, dates of birth, diagnoses and Medicare I D's.",
+     "focus": -1,
+     "file": "clips/33f2e189b7f9.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "Organisations sign **data use agreements** with CMS and must protect the files under HIPAA.",
+     "say": "Organisations sign data use agreements with C M S and must protect the files under HIPAA.",
+     "focus": -1,
+     "file": "clips/74f497a0dbf2.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "All people, IDs and organisations in this course are fictional.",
+     "say": "All people, I D's and organisations in this course are fictional.",
+     "focus": -1,
+     "file": "clips/7ed9e401cfc4.mp3",
+     "seconds": 4.975
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**CMS** runs Medicare and shares data with organisations that are responsible for Medicare beneficiaries.",
+     "say": "C M S runs Medicare and shares data with organisations that are responsible for Medicare beneficiaries.",
+     "focus": 0,
+     "file": "clips/5e5707ba83f9.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "**ACOs** (Original Medicare) get **CCLF**: copies of the claims CMS paid for their assigned beneficiaries.",
+     "say": "A C O's (Original Medicare) get C C L F: copies of the claims C M S paid for their assigned beneficiaries.",
+     "focus": 1,
+     "file": "clips/c99f6f5ce9af.mp3",
+     "seconds": 8.525
+    },
+    {
+     "raw": "**Medicare Advantage Organizations** already pay their own claims.",
+     "say": "Medicare Advantage Organizations already pay their own claims.",
+     "focus": 2,
+     "file": "clips/0fa9839b6109.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "They get **MMR**, **MOR** and **MAO-004**: what CMS paid them, and why.",
+     "say": "They get M M R, M O R and M A O 004: what C M S paid them, and why.",
+     "focus": 2,
+     "file": "clips/4b62bb9e13aa.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "A beneficiary is in Original Medicare **or** Medicare Advantage in a given month, so they appear in one world or the other.",
+     "say": "A beneficiary is in Original Medicare or Medicare Advantage in a given month, so they appear in one world or the other.",
+     "focus": 3,
+     "file": "clips/7edb945ad0e5.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "Use the **file map**: claims and spending → CCLF; payments and membership → MMR; credited conditions → MOR; accepted diagnoses → MAO-004.",
+     "say": "Use the file map: claims and spending to C C L F; payments and membership to M M R; credited conditions to M O R; accepted diagnoses to M A O 004.",
+     "focus": 4,
+     "file": "clips/544406fe72ab.mp3",
+     "seconds": 13.125
+    },
+    {
+     "raw": "Most are **fixed-width text** keyed by the **MBI**.",
+     "say": "Most are fixed-width text keyed by the M B I.",
+     "focus": 4,
+     "file": "clips/0ab614b2f99b.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

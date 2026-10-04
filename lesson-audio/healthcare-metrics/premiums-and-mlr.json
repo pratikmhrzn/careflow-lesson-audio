@@ -1,0 +1,687 @@
+{
+ "courseId": "healthcare-metrics",
+ "lessonId": "premiums-and-mlr",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Premiums & Medical Loss Ratio.",
+     "say": "Lesson 6: Premiums and Medical Loss Ratio.",
+     "focus": -1,
+     "file": "clips/8a6840890066.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Where each premium dollar goes, and the rule that makes insurers spend most of it on care.",
+     "say": "Where each premium dollar goes, and the rule that makes insurers spend most of it on care.",
+     "focus": -1,
+     "file": "clips/6db7ce101e34.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Split a premium PMPM into claims, administration, taxes and margin.",
+     "say": "Split a premium P M P M into claims, administration, taxes and margin.",
+     "focus": 0,
+     "file": "clips/cf7cb892eba7.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Calculate a simple loss ratio and an ACA-style medical loss ratio (MLR).",
+     "say": "Calculate a simple loss ratio and an A C A style medical loss ratio (M L R).",
+     "focus": 1,
+     "file": "clips/5cee761ae160.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "Explain what happens when an insurer's MLR is below the minimum.",
+     "say": "Explain what happens when an insurer's M L R is below the minimum.",
+     "focus": 2,
+     "file": "clips/6e5fab5600e6.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "Tell fully insured from self-funded plans, and why MLR applies to one only.",
+     "say": "Tell fully insured from self-funded plans, and why M L R applies to one only.",
+     "focus": 3,
+     "file": "clips/77858955592a.mp3",
+     "seconds": 5.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with Ram's group policy.",
+     "say": "Start with Ram's group policy.",
+     "focus": -1,
+     "file": "clips/2990ce7cd160.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with Ram's group policy",
+   "lines": [
+    {
+     "raw": "In Nepal: Where does the premium go?",
+     "say": "In Nepal: Where does the premium go?",
+     "focus": -1,
+     "file": "clips/d26b154116a4.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's startup pays a private insurer about **Rs 2,500** per employee per month for group health cover.",
+     "say": "Ram's startup pays a private insurer about Rs 2,500 per employee per month for group health cover.",
+     "focus": 0,
+     "file": "clips/0af6a4cef86b.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "In a typical month the insurer pays out about **Rs 2,000** per employee in claims.",
+     "say": "In a typical month the insurer pays out about Rs 2,000 per employee in claims.",
+     "focus": 1,
+     "file": "clips/180e90e2cddc.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "That is 2,000 ÷ 2,500 = **80%** of the premium.",
+     "say": "That is 2,000 ÷ 2,500 = 80 percent of the premium.",
+     "focus": 1,
+     "file": "clips/557a272fbe51.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "The other Rs 500 pays the insurer's staff, office, agents' commission and taxes, and whatever is left is **profit**.",
+     "say": "The other Rs 500 pays the insurer's staff, office, agents' commission and taxes, and whatever is left is profit.",
+     "focus": 2,
+     "file": "clips/382e47465bfb.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "If claims rise to Rs 2,600, the insurer loses money and will raise the premium at renewal.",
+     "say": "If claims rise to Rs 2,600, the insurer loses money and will raise the premium at renewal.",
+     "focus": 2,
+     "file": "clips/2877527298ac.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The SSF works differently: contributions are a share of salary and there are no shareholders taking a profit.",
+     "say": "The S S F works differently: contributions are a share of salary and there are no shareholders taking a profit.",
+     "focus": 3,
+     "file": "clips/8c12549a2f25.mp3",
+     "seconds": 7.525
+    },
+    {
+     "raw": "But it still has to track how much of the money collected goes on care versus running costs.",
+     "say": "But it still has to track how much of the money collected goes on care versus running costs.",
+     "focus": 3,
+     "file": "clips/99bc515eaa13.mp3",
+     "seconds": 5.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with Ram's group policy",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "The **medical loss ratio (MLR)** is the share of premium an insurer spends on members' **care**; US law sets a minimum so that most of every premium dollar goes to care rather than overhead and profit.",
+     "say": "The medical loss ratio (M L R) is the share of premium an insurer spends on members' care; U S law sets a minimum so that most of every premium dollar goes to care rather than overhead and profit.",
+     "focus": -1,
+     "file": "clips/64b2252ab5b2.mp3",
+     "seconds": 14.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: one premium dollar.",
+     "say": "The U S version: one premium dollar.",
+     "focus": -1,
+     "file": "clips/4c5ac4a7d6c1.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: one premium dollar",
+   "lines": [
+    {
+     "raw": "Premium.",
+     "say": "Premium.",
+     "focus": 0,
+     "file": "clips/993938370df8.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "The monthly price of cover, paid by the employer and employee, by the member alone, or by the government.",
+     "say": "The monthly price of cover, paid by the employer and employee, by the member alone, or by the government.",
+     "focus": 0,
+     "file": "clips/0f194bae28c9.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Usually measured as **premium PMPM**.",
+     "say": "Usually measured as premium P M P M.",
+     "focus": 0,
+     "file": "clips/a68c335774b8.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Claims (medical cost).",
+     "say": "Claims (medical cost).",
+     "focus": 1,
+     "file": "clips/7aff905f66fb.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "What the plan pays for members' care: the paid amounts from medical and pharmacy claims, plus capitation payments.",
+     "say": "What the plan pays for members' care: the paid amounts from medical and pharmacy claims, plus capitation payments.",
+     "focus": 1,
+     "file": "clips/a0ac41af71f3.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "Administrative cost (admin).",
+     "say": "Administrative cost (admin).",
+     "focus": 2,
+     "file": "clips/ac9dd5e6ebeb.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Running the plan: staff, IT systems, claims processing, customer service, sales and broker commissions.",
+     "say": "Running the plan: staff, I T systems, claims processing, customer service, sales and broker commissions.",
+     "focus": 2,
+     "file": "clips/c60da6ac5100.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "Taxes and fees.",
+     "say": "Taxes and fees.",
+     "focus": 3,
+     "file": "clips/85f62220549f.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Federal and state taxes, licensing fees and similar charges.",
+     "say": "Federal and state taxes, licensing fees and similar charges.",
+     "focus": 3,
+     "file": "clips/da0bccd36e79.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "Margin.",
+     "say": "Margin.",
+     "focus": 4,
+     "file": "clips/a25f12d7767f.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "What is left after everything else: profit, or a loss if negative.",
+     "say": "What is left after everything else: profit, or a loss if negative.",
+     "focus": 4,
+     "file": "clips/57e33856468f.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "Loss.",
+     "say": "Loss.",
+     "focus": 5,
+     "file": "clips/1d32076a8e84.mp3",
+     "seconds": 1.375
+    },
+    {
+     "raw": "Insurance word for **money paid out in claims**.",
+     "say": "Insurance word for money paid out in claims.",
+     "focus": 5,
+     "file": "clips/abe203128083.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "A \"loss ratio\" is claims ÷ premium; it has nothing to do with the plan losing money.",
+     "say": "A \"loss ratio\" is claims ÷ premium; it has nothing to do with the plan losing money.",
+     "focus": 5,
+     "file": "clips/4a4532af0012.mp3",
+     "seconds": 6.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The US version: one premium dollar",
+   "lines": [
+    {
+     "raw": "Lone Star Health, large employer groups, 2025, per member per month (illustrative).",
+     "say": "Lone Star Health, large employer groups, 2025, per member per month (illustrative).",
+     "focus": -1,
+     "file": "clips/97d2e800f74f.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "Paid claims. PMPM: $391.00. Share of premium: 83.2%.",
+     "say": "Paid claims. P M P M: 391 dollars. Share of premium: 83.2 percent.",
+     "focus": 0,
+     "file": "clips/6c06e66880ff.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "Quality improvement (e.g. care management nurses). PMPM: $4.00. Share of premium: 0.9%.",
+     "say": "Quality improvement (for example care management nurses). P M P M: 4 dollars. Share of premium: 0.9 percent.",
+     "focus": 1,
+     "file": "clips/17d5e52f8c6c.mp3",
+     "seconds": 9.075
+    },
+    {
+     "raw": "Administration. PMPM: $55.00. Share of premium: 11.7%.",
+     "say": "Administration. P M P M: 55 dollars. Share of premium: 11.7 percent.",
+     "focus": 2,
+     "file": "clips/64047e8d8811.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "Taxes and fees. PMPM: $14.00. Share of premium: 3.0%.",
+     "say": "Taxes and fees. P M P M: 14 dollars. Share of premium: 3.0 percent.",
+     "focus": 3,
+     "file": "clips/a2fe1ca5a7ce.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "Margin (profit). PMPM: $6.00. Share of premium: 1.3%.",
+     "say": "Margin (profit). P M P M: 6 dollars. Share of premium: 1.3 percent.",
+     "focus": 4,
+     "file": "clips/a267c932639d.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "**Premium**. PMPM: **$470.00**. Share of premium: **100%**.",
+     "say": "Premium. P M P M: 470 dollars. Share of premium: 100 percent.",
+     "focus": 5,
+     "file": "clips/ed29e2442dc7.mp3",
+     "seconds": 6.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two ratios: simple and ACA-style.",
+     "say": "Two ratios: simple and A C A style.",
+     "focus": -1,
+     "file": "clips/e9e6c5b61cc5.mp3",
+     "seconds": 3.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Two ratios: simple and ACA-style",
+   "lines": [
+    {
+     "raw": "Simple loss ratio.",
+     "say": "Simple loss ratio.",
+     "focus": -1,
+     "file": "clips/eac478430f54.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Loss ratio equals Paid claims ÷ Premium.",
+     "say": "Loss ratio equals Paid claims ÷ Premium.",
+     "focus": 0,
+     "file": "clips/fe6c5f4b8102.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "For example: $391.00 ÷ $470.00 equals 83.2%.",
+     "say": "For example: 391 dollars ÷ 470 dollars equals 83.2 percent.",
+     "focus": 1,
+     "file": "clips/65b38c3dba3d.mp3",
+     "seconds": 8.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Two ratios: simple and ACA-style",
+   "lines": [
+    {
+     "raw": "ACA medical loss ratio (simplified).",
+     "say": "A C A medical loss ratio (simplified).",
+     "focus": -1,
+     "file": "clips/dc1cd7086336.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "MLR equals (Paid claims plus Quality improvement) ÷ (Premium − Taxes and fees).",
+     "say": "M L R equals (Paid claims plus Quality improvement) ÷ (Premium − Taxes and fees).",
+     "focus": 0,
+     "file": "clips/eb62c6516bc3.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "For example: ($391.00 plus $4.00) ÷ ($470.00 − $14.00) equals $395.00 ÷ $456.00 equals 86.6%.",
+     "say": "For example: (391 dollars plus 4 dollars) ÷ (470 dollars − 14 dollars) equals 395 dollars ÷ 456 dollars equals 86.6 percent.",
+     "focus": 1,
+     "file": "clips/cf5934799f41.mp3",
+     "seconds": 16.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Two ratios: simple and ACA-style",
+   "lines": [
+    {
+     "raw": "Same plan, two answers.",
+     "say": "Same plan, two answers.",
+     "focus": -1,
+     "file": "clips/6aa0f55f226b.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "The simple loss ratio is **83.2%**; the ACA MLR is **86.6%**.",
+     "say": "The simple loss ratio is 83.2 percent; the A C A M L R is 86.6 percent.",
+     "focus": -1,
+     "file": "clips/3bea3c962a43.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "The ACA formula adds quality-improvement spending to the top and takes taxes off the bottom.",
+     "say": "The A C A formula adds quality-improvement spending to the top and takes taxes off the bottom.",
+     "focus": -1,
+     "file": "clips/7c156fe2ed82.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "When someone quotes an MLR, check which formula they used.",
+     "say": "When someone quotes an M L R, check which formula they used.",
+     "focus": -1,
+     "file": "clips/0ad7fcd366ce.mp3",
+     "seconds": 4.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The MLR rule.",
+     "say": "The M L R rule.",
+     "focus": -1,
+     "file": "clips/298f6f449495.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The MLR rule",
+   "lines": [
+    {
+     "raw": "In the US: How the minimum works.",
+     "say": "In the U S: How the minimum works.",
+     "focus": -1,
+     "file": "clips/b56a4a5fe783.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "The **ACA** (Affordable Care Act, the 2010 health law) requires insurers to spend at least **80%** of premium on care and quality in the **individual and small group** markets, and at least **85%** in the **large group** market.",
+     "say": "The A C A (Affordable Care Act, the 2010 health law) requires insurers to spend at least 80 percent of premium on care and quality in the individual and small group markets, and at least 85 percent in the large group market.",
+     "focus": 0,
+     "file": "clips/61474779db4c.mp3",
+     "seconds": 15.2
+    },
+    {
+     "raw": "Medicare Advantage and Medicare drug plans have an 85% minimum too.",
+     "say": "Medicare Advantage and Medicare drug plans have an 85 percent minimum too.",
+     "focus": 1,
+     "file": "clips/cbe9964bc4cf.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "The MLR is calculated by state and market, averaged over **three years**, with some adjustments for small plans.",
+     "say": "The M L R is calculated by state and market, averaged over three years, with some adjustments for small plans.",
+     "focus": 2,
+     "file": "clips/d0b8a0fb595b.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "If an insurer falls short, it must pay a **rebate** to its customers: roughly (minimum − actual MLR) × premium.",
+     "say": "If an insurer falls short, it must pay a rebate to its customers: roughly (minimum − actual M L R) × premium.",
+     "focus": 3,
+     "file": "clips/3ebd25bb99a1.mp3",
+     "seconds": 8.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The MLR rule",
+   "lines": [
+    {
+     "raw": "Rebate (simplified).",
+     "say": "Rebate (simplified).",
+     "focus": -1,
+     "file": "clips/8814d61f0d70.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Rebate equals (Minimum MLR − Actual MLR) times (Premium − Taxes and fees).",
+     "say": "Rebate equals (Minimum M L R − Actual M L R) times (Premium − Taxes and fees).",
+     "focus": 0,
+     "file": "clips/4156edaa72f8.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "For example: A large-group book with $50,000,000 of premium after taxes and an MLR of 82%, against an 85% minimum: (85% − 82%) times $50,000,000 equals 3% times $50,000,000 equals $1,500,000 rebate.",
+     "say": "For example: A large-group book with 50000000 dollars of premium after taxes and an M L R of 82 percent, against an 85 percent minimum: (85 percent − 82 percent) times 50000000 dollars equals 3 percent times 50000000 dollars equals 1500000 dollars rebate.",
+     "focus": 1,
+     "file": "clips/6d35c6a5553e.mp3",
+     "seconds": 21.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Fully insured vs self-funded.",
+     "say": "Fully insured versus self-funded.",
+     "focus": -1,
+     "file": "clips/a87a6f023090.mp3",
+     "seconds": 2.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Fully insured vs self-funded",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Who pays the claims? Fully insured: The insurer, out of the premiums it collects. Self-funded (self-insured): The employer, from its own money.",
+     "say": "Who pays the claims? Fully insured: The insurer, out of the premiums it collects. Self-funded (self-insured): The employer, from its own money.",
+     "focus": 0,
+     "file": "clips/3bfd2846e49e.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "What does the insurer get? Fully insured: A premium PMPM. Self-funded (self-insured): An admin fee, often **per employee per month (PEPM)**, for processing claims and running the network.",
+     "say": "What does the insurer get? Fully insured: A premium P M P M. Self-funded (self-insured): An admin fee, often per employee per month (P E P M), for processing claims and running the network.",
+     "focus": 1,
+     "file": "clips/da608356f874.mp3",
+     "seconds": 13.95
+    },
+    {
+     "raw": "Who keeps savings or bears losses? Fully insured: The insurer. Self-funded (self-insured): The employer.",
+     "say": "Who keeps savings or bears losses? Fully insured: The insurer. Self-funded (self-insured): The employer.",
+     "focus": 2,
+     "file": "clips/2c52b07d948a.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "Does the MLR rule apply? Fully insured: Yes. Self-funded (self-insured): No: there is no premium to measure against.",
+     "say": "Does the M L R rule apply? Fully insured: Yes. Self-funded (self-insured): No: there is no premium to measure against.",
+     "focus": 3,
+     "file": "clips/51681b370a7a.mp3",
+     "seconds": 8.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Fully insured vs self-funded",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "An MLR report needs data from **outside** claims: premiums from the finance system, quality-improvement spend from accounting, taxes from tax filings.",
+     "say": "An M L R report needs data from outside claims: premiums from the finance system, quality-improvement spend from accounting, taxes from tax filings.",
+     "focus": -1,
+     "file": "clips/bd54ab088f43.mp3",
+     "seconds": 10.775
+    },
+    {
+     "raw": "And the claims part uses **incurred** claims for the year, including an estimate for claims not received yet (lesson 7).",
+     "say": "And the claims part uses incurred claims for the year, including an estimate for claims not received yet (lesson 7).",
+     "focus": -1,
+     "file": "clips/d76b24946e2a.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Self-funded groups are usually excluded from MLR reporting, so check the **funding type** before mixing groups in one ratio.",
+     "say": "Self-funded groups are usually excluded from M L R reporting, so check the funding type before mixing groups in one ratio.",
+     "focus": -1,
+     "file": "clips/248051e2412e.mp3",
+     "seconds": 8.725
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A premium pays for claims, quality improvement, administration, taxes and margin.",
+     "say": "A premium pays for claims, quality improvement, administration, taxes and margin.",
+     "focus": 0,
+     "file": "clips/d7a2c406a8fc.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Simple loss ratio = claims ÷ premium; the ACA MLR adds quality spend and removes taxes and fees.",
+     "say": "Simple loss ratio = claims ÷ premium; the A C A M L R adds quality spend and removes taxes and fees.",
+     "focus": 1,
+     "file": "clips/8ed8d7820ac6.mp3",
+     "seconds": 9.375
+    },
+    {
+     "raw": "The ACA sets minimum MLRs by market; insurers below the minimum pay rebates.",
+     "say": "The A C A sets minimum M L R's by market; insurers below the minimum pay rebates.",
+     "focus": 2,
+     "file": "clips/51bab026a6a0.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "Self-funded employers pay their own claims and an admin fee; the MLR rule does not apply to them.",
+     "say": "Self-funded employers pay their own claims and an admin fee; the M L R rule does not apply to them.",
+     "focus": 3,
+     "file": "clips/5ad119a4ce5a.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "MLR uses incurred claims and data from finance, not just the claims system.",
+     "say": "M L R uses incurred claims and data from finance, not just the claims system.",
+     "focus": 4,
+     "file": "clips/e7e22cf567f9.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

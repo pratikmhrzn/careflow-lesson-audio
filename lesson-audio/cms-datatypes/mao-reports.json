@@ -1,0 +1,841 @@
+{
+ "courseId": "cms-datatypes",
+ "lessonId": "mao-reports",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: MA Reports: MOR & MAO-004.",
+     "say": "Lesson 5: M A Reports: M O R and M A O 004.",
+     "focus": -1,
+     "file": "clips/9266a012d5fc.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "How diagnoses reach CMS, and the reports that show which ones counted.",
+     "say": "How diagnoses reach C M S, and the reports that show which ones counted.",
+     "focus": -1,
+     "file": "clips/a067339633f8.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Know what RAPS and encounter data (EDS) are, and which one matters today.",
+     "say": "Know what R A P S and encounter data (E D S) are, and which one matters today.",
+     "focus": 0,
+     "file": "clips/90b718089ac8.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "Read simplified MAO-004 rows and explain why a diagnosis can be \"not allowed\".",
+     "say": "Read simplified M A O 004 rows and explain why a diagnosis can be \"not allowed\".",
+     "focus": 1,
+     "file": "clips/391fe930f2e3.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "Read a simplified MOR row and see which conditions CMS credited.",
+     "say": "Read a simplified M O R row and see which conditions C M S credited.",
+     "focus": 2,
+     "file": "clips/736d3381301a.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Use MMR, MOR and MAO-004 together to explain a risk score.",
+     "say": "Use M M R, M O R and M A O 004 together to explain a risk score.",
+     "focus": 3,
+     "file": "clips/79b359f6aac6.mp3",
+     "seconds": 6.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Think of a monthly allowance that depends on the family.",
+     "say": "Think of a monthly allowance that depends on the family.",
+     "focus": -1,
+     "file": "clips/62646f94630a.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Imagine a fund gives a family doctor a fixed monthly amount for each family she looks after.",
+     "say": "Imagine a fund gives a family doctor a fixed monthly amount for each family she looks after.",
+     "focus": -1,
+     "file": "clips/9d3f3ea5eb53.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "A young healthy couple brings a small amount.",
+     "say": "A young healthy couple brings a small amount.",
+     "focus": -1,
+     "file": "clips/b8b41ecd0ecd.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "A grandmother with diabetes and heart disease brings a bigger amount.",
+     "say": "A grandmother with diabetes and heart disease brings a bigger amount.",
+     "focus": -1,
+     "file": "clips/ee736a44085b.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "To set the amount, the fund looks at the illnesses written in **last year's** records.",
+     "say": "To set the amount, the fund looks at the illnesses written in last year's records.",
+     "focus": -1,
+     "file": "clips/68e225cf68c8.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "The doctor has every reason to record illnesses accurately, and the fund has every reason to check which records it accepts.",
+     "say": "The doctor has every reason to record illnesses accurately, and the fund has every reason to check which records it accepts.",
+     "focus": -1,
+     "file": "clips/50e29e234470.mp3",
+     "seconds": 8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "The same idea in Nepal.",
+     "say": "The same idea in Nepal.",
+     "focus": -1,
+     "file": "clips/12133dd62d0d.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 0,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Picture SSF sending a hospital a list of which illnesses it **accepted** from the hospital's records, and a second list showing which illness groups it used to set each person's amount.",
+     "say": "Picture S S F sending a hospital a list of which illnesses it accepted from the hospital's records, and a second list showing which illness groups it used to set each person's amount.",
+     "focus": 0,
+     "file": "clips/f70601a6019f.mp3",
+     "seconds": 11.325
+    },
+    {
+     "raw": "Those are the MAO-004 and MOR ideas.",
+     "say": "Those are the M A O 004 and M O R ideas.",
+     "focus": 0,
+     "file": "clips/91321119d67a.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "(An analogy only, not a description of SSF's actual rules.).",
+     "say": "(An analogy only, not a description of SSF's actual rules.).",
+     "focus": 0,
+     "file": "clips/1599cc0c9e17.mp3",
+     "seconds": 4.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "The **MAO-004** says which diagnoses CMS accepted from the plan's submissions, and the **MOR** says which condition groups CMS used to build each member's risk score: together they explain the risk score you saw on the MMR in lesson 4.",
+     "say": "The M A O 004 says which diagnoses C M S accepted from the plan's submissions, and the M O R says which condition groups C M S used to build each member's risk score: together they explain the risk score you saw on the M M R in lesson 4.",
+     "focus": -1,
+     "file": "clips/372262138445.mp3",
+     "seconds": 18.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Risk adjustment.",
+     "say": "Risk adjustment.",
+     "focus": 0,
+     "file": "clips/604f57393b16.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Changing the payment according to how sick each member is, so plans are not punished for taking sicker people.",
+     "say": "Changing the payment according to how sick each member is, so plans are not punished for taking sicker people.",
+     "focus": 0,
+     "file": "clips/c9b5f9a2dd51.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "HCC (Hierarchical Condition Category).",
+     "say": "H C C (Hierarchical Condition Category).",
+     "focus": 1,
+     "file": "clips/04679a66578d.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "A group of related diagnosis codes that predict cost, for example a diabetes HCC.",
+     "say": "A group of related diagnosis codes that predict cost, for example a diabetes H C C.",
+     "focus": 1,
+     "file": "clips/e92228841141.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "The CMS-HCC model turns a member's HCCs plus age, sex and other facts into a risk score.",
+     "say": "The C M S HCC model turns a member's H C C's plus age, sex and other facts into a risk score.",
+     "focus": 1,
+     "file": "clips/a0119d00160d.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "Payment year vs dates of service.",
+     "say": "Payment year versus dates of service.",
+     "focus": 2,
+     "file": "clips/6b0f443086a2.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "A risk score for **payment year 2025** is built mainly from diagnoses on services in **2024**.",
+     "say": "A risk score for payment year 2025 is built mainly from diagnoses on services in 2024.",
+     "focus": 2,
+     "file": "clips/7dc95b8ca8cb.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "Last year's diagnoses set this year's payment.",
+     "say": "Last year's diagnoses set this year's payment.",
+     "focus": 2,
+     "file": "clips/75462ebdc779.mp3",
+     "seconds": 3.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "HCC models are taught elsewhere.",
+     "say": "H C C models are taught elsewhere.",
+     "focus": -1,
+     "file": "clips/fed6cae5dd5d.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "How diagnoses group into HCCs and how HCCs build a score is taught in the Risk Adjustment course.",
+     "say": "How diagnoses group into H C C's and how H C C's build a score is taught in the Risk Adjustment course.",
+     "focus": -1,
+     "file": "clips/34467bf95aae.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "Here we read the reports.",
+     "say": "Here we read the reports.",
+     "focus": -1,
+     "file": "clips/123e58860577.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How diagnoses travel to CMS: RAPS and encounter data.",
+     "say": "How diagnoses travel to C M S: R A P S and encounter data.",
+     "focus": -1,
+     "file": "clips/eeff4e52ed79.mp3",
+     "seconds": 5.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "How diagnoses travel to CMS: RAPS and encounter data",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Full name. RAPS: **Risk Adjustment Processing System**. Encounter data (EDS): **Encounter Data System**.",
+     "say": "Full name. R A P S: Risk Adjustment Processing System. Encounter data (E D S): Encounter Data System.",
+     "focus": 0,
+     "file": "clips/139edfcad472.mp3",
+     "seconds": 8.3
+    },
+    {
+     "raw": "What the plan sends. RAPS: Just the **diagnosis codes**, with dates and provider type. Encounter data (EDS): A **full copy of each claim** (an \"encounter\"), in the same 837 format as a claim.",
+     "say": "What the plan sends. R A P S: Just the diagnosis codes, with dates and provider type. Encounter data (E D S): A full copy of each claim (an \"encounter\"), in the same 8 37 format as a claim.",
+     "focus": 1,
+     "file": "clips/5d0ed40804fd.mp3",
+     "seconds": 14.175
+    },
+    {
+     "raw": "Status today. RAPS: The **older** method. CMS phased it out for the main MA risk model. Encounter data (EDS): The **main** source. For recent payment years, CMS-HCC risk scores for MA come from encounter data (plus Original Medicare claims for time spent in FFS).",
+     "say": "Status today. R A P S: The older method. C M S phased it out for the main M A risk model. Encounter data (E D S): The main source. For recent payment years, C M S HCC risk scores for M A come from encounter data (plus Original Medicare claims for time spent in F F S).",
+     "focus": 2,
+     "file": "clips/df15ca7869b7.mp3",
+     "seconds": 20.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "How diagnoses travel to CMS: RAPS and encounter data",
+   "lines": [
+    {
+     "raw": "Step 1: Doctor sees Robert.",
+     "say": "Step 1: Doctor sees Robert.",
+     "focus": 0,
+     "file": "clips/4755f9ecfd7c.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Dr. Nguyen's office sends a claim to Gulf Coast Health Plan.",
+     "say": "Doctor Nguyen's office sends a claim to Gulf Coast Health Plan.",
+     "focus": 0,
+     "file": "clips/60d02e47796f.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "The plan pays it.",
+     "say": "The plan pays it.",
+     "focus": 0,
+     "file": "clips/5fbd289c165f.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Step 2: Plan sends an encounter.",
+     "say": "Step 2: Plan sends an encounter.",
+     "focus": 1,
+     "file": "clips/05d851621e35.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "The plan sends a copy of that claim to CMS's Encounter Data System.",
+     "say": "The plan sends a copy of that claim to CMS's Encounter Data System.",
+     "focus": 1,
+     "file": "clips/d65513a300b4.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Step 3: CMS checks the file and the encounter.",
+     "say": "Step 3: C M S checks the file and the encounter.",
+     "focus": 2,
+     "file": "clips/0b7b21d6e3fd.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "CMS returns acknowledgement reports (such as **MAO-001** and **MAO-002**) saying which encounters were accepted or rejected.",
+     "say": "C M S returns acknowledgement reports (such as M A O 001 and M A O 002) saying which encounters were accepted or rejected.",
+     "focus": 2,
+     "file": "clips/3fe7e614d964.mp3",
+     "seconds": 11.7
+    },
+    {
+     "raw": "Step 4: CMS filters the diagnoses.",
+     "say": "Step 4: C M S filters the diagnoses.",
+     "focus": 3,
+     "file": "clips/704b61127cdf.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "For accepted encounters, CMS decides which diagnoses may be used for risk adjustment, and reports this on the **MAO-004**.",
+     "say": "For accepted encounters, C M S decides which diagnoses may be used for risk adjustment, and reports this on the M A O 004.",
+     "focus": 3,
+     "file": "clips/ce449d546a26.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "Step 5: CMS calculates and pays.",
+     "say": "Step 5: C M S calculates and pays.",
+     "focus": 4,
+     "file": "clips/b70a078f89b7.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "CMS turns the allowed diagnoses into HCCs and risk scores (**MOR**) and pays the plan monthly (**MMR**, lesson 4).",
+     "say": "C M S turns the allowed diagnoses into H C C's and risk scores (M O R) and pays the plan monthly (M M R, lesson 4).",
+     "focus": 4,
+     "file": "clips/59a522407b1a.mp3",
+     "seconds": 10.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "MAO-004: which diagnoses counted?",
+     "say": "M A O 004: which diagnoses counted?",
+     "focus": -1,
+     "file": "clips/6cced01c974e.mp3",
+     "seconds": 4.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "MAO-004: which diagnoses counted?",
+   "lines": [
+    {
+     "raw": "Not every diagnosis can raise a risk score.",
+     "say": "Not every diagnosis can raise a risk score.",
+     "focus": -1,
+     "file": "clips/34a9522fb7aa.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "CMS only uses diagnoses from **acceptable sources**: hospital inpatient stays, hospital outpatient visits and face-to-face visits with acceptable provider types.",
+     "say": "C M S only uses diagnoses from acceptable sources: hospital inpatient stays, hospital outpatient visits and face-to-face visits with acceptable provider types.",
+     "focus": -1,
+     "file": "clips/d7407aca3cbc.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "A diagnosis written only on a **lab test** or a **diagnostic X-ray** claim does not count, because nobody examined the patient there.",
+     "say": "A diagnosis written only on a lab test or a diagnostic X-ray claim does not count, because nobody examined the patient there.",
+     "focus": -1,
+     "file": "clips/a6fd348abfd2.mp3",
+     "seconds": 9.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "MAO-004: which diagnoses counted?",
+   "lines": [
+    {
+     "raw": "Simplified MAO-004 rows for Robert, 2025 dates of service (column names simplified; the real report is fixed-width with more fields).",
+     "say": "Simplified M A O 004 rows for Robert, 2025 dates of service (column names simplified; the real report is fixed-width with more fields).",
+     "focus": -1,
+     "file": "clips/a23a6c5b8be9.mp3",
+     "seconds": 11.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "MAO-004: which diagnoses counted?",
+   "lines": [
+    {
+     "raw": "**Row 3**: the HbA1c lab test also lists diabetes, but a lab is not an acceptable source, so `ra_allowed` = **N**.",
+     "say": "Row 3: the H b A 1 c lab test also lists diabetes, but a lab is not an acceptable source, so ra_allowed = N.",
+     "focus": 0,
+     "file": "clips/53a06ba12681.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "That is fine: the same diagnosis is allowed from the office visit in row 1.",
+     "say": "That is fine: the same diagnosis is allowed from the office visit in row 1.",
+     "focus": 0,
+     "file": "clips/5bb4757d6a31.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "**Allowed is not the same as \"adds money\"**: `I10` (high blood pressure) is allowed, but plain high blood pressure does **not** map to a payment HCC, so it does not raise Robert's score.",
+     "say": "Allowed is not the same as \"adds money\": I10 (high blood pressure) is allowed, but plain high blood pressure does not map to a payment H C C, so it does not raise Robert's score.",
+     "focus": 1,
+     "file": "clips/e502f87ffe36.mp3",
+     "seconds": 11.675
+    },
+    {
+     "raw": "`E119` (type 2 diabetes) does map to a diabetes HCC.",
+     "say": "E 1 1 9 (type 2 diabetes) does map to a diabetes H C C.",
+     "focus": 1,
+     "file": "clips/b6a16e01700a.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "**add_or_delete**: plans can also send **deletes** to remove diagnoses that should not have been submitted, for example after a chart review.",
+     "say": "add_or_delete: plans can also send deletes to remove diagnoses that should not have been submitted, for example after a chart review.",
+     "focus": 2,
+     "file": "clips/f2eecb07e497.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "These 2025 diagnoses feed Robert's **2026** payment, not his 2025 payment.",
+     "say": "These 2025 diagnoses feed Robert's 2026 payment, not his 2025 payment.",
+     "focus": 3,
+     "file": "clips/670795011bae.mp3",
+     "seconds": 7.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "MOR: the Model Output Report.",
+     "say": "M O R: the Model Output Report.",
+     "focus": -1,
+     "file": "clips/6a792c55193a.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "MOR: the Model Output Report",
+   "lines": [
+    {
+     "raw": "The **MOR** shows, member by member, which **HCCs** CMS used to calculate the risk score.",
+     "say": "The M O R shows, member by member, which H C C's C M S used to calculate the risk score.",
+     "focus": -1,
+     "file": "clips/fc3f8d3424b7.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "It lets the plan check: \"Did CMS see Robert's diabetes?\"",
+     "say": "It lets the plan check: \"Did C M S see Robert's diabetes?\"",
+     "focus": -1,
+     "file": "clips/c6f2b9e79ee9.mp3",
+     "seconds": 4.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "MOR: the Model Output Report",
+   "lines": [
+    {
+     "raw": "Simplified MOR for Robert, payment year 2025 (based on 2024 diagnoses; values illustrative).",
+     "say": "Simplified M O R for Robert, payment year 2025 (based on 2024 diagnoses; values illustrative).",
+     "focus": -1,
+     "file": "clips/99e2e04ad51c.mp3",
+     "seconds": 8.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "MOR: the Model Output Report",
+   "lines": [
+    {
+     "raw": "Models change over time.",
+     "say": "Models change over time.",
+     "focus": -1,
+     "file": "clips/a229eb278d51.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "CMS updates its HCC model from time to time.",
+     "say": "C M S updates its H C C model from time to time.",
+     "focus": -1,
+     "file": "clips/4f2e8ff89318.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "For 2024 to 2026 it has been phasing in a newer version, **V28**, in place of **V24**, which changed which diagnoses count and how much.",
+     "say": "For 2024 to 2026 it has been phasing in a newer version, V28, in place of V24, which changed which diagnoses count and how much.",
+     "focus": -1,
+     "file": "clips/04cbe75edf80.mp3",
+     "seconds": 11.45
+    },
+    {
+     "raw": "Always check which model version a report uses before comparing years.",
+     "say": "Always check which model version a report uses before comparing years.",
+     "focus": -1,
+     "file": "clips/ee6859a26203.mp3",
+     "seconds": 4.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: why is a score lower than expected?",
+     "say": "Worked example: why is a score lower than expected?",
+     "focus": -1,
+     "file": "clips/bcbb7b2abead.mp3",
+     "seconds": 3.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example: why is a score lower than expected?",
+   "lines": [
+    {
+     "raw": "Suppose Robert's MMR risk score had dropped to **0.95**.",
+     "say": "Suppose Robert's M M R risk score had dropped to 0.95.",
+     "focus": -1,
+     "file": "clips/8a9dd0cae7c8.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "The analyst works backwards through the reports:",
+     "say": "The analyst works backwards through the reports:",
+     "focus": -1,
+     "file": "clips/e54b04b9a470.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Worked example: why is a score lower than expected?",
+   "lines": [
+    {
+     "raw": "Step 1: MMR.",
+     "say": "Step 1: M M R.",
+     "focus": 0,
+     "file": "clips/918f642b540a.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Shows the lower risk score and lower payment.",
+     "say": "Shows the lower risk score and lower payment.",
+     "focus": 0,
+     "file": "clips/b3e3fc08426f.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "Something changed, but not what.",
+     "say": "Something changed, but not what.",
+     "focus": 0,
+     "file": "clips/edeb9dcfed48.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Step 2: MOR.",
+     "say": "Step 2: M O R.",
+     "focus": 1,
+     "file": "clips/16e9f93f495b.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "Shows the HCCs credited.",
+     "say": "Shows the H C C's credited.",
+     "focus": 1,
+     "file": "clips/993c7b0f4c45.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "If the diabetes HCC is missing, CMS did not count his diabetes this year.",
+     "say": "If the diabetes H C C is missing, C M S did not count his diabetes this year.",
+     "focus": 1,
+     "file": "clips/aebf2ea21f3b.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "Step 3: MAO-004.",
+     "say": "Step 3: M A O 004.",
+     "focus": 2,
+     "file": "clips/b362f0d6c3b4.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Shows whether any **allowed** row for `E119` exists in the prior year.",
+     "say": "Shows whether any allowed row for E 1 1 9 exists in the prior year.",
+     "focus": 2,
+     "file": "clips/43b58174a49c.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "If diabetes only appears on lab claims (`ra_allowed` = N), it could not count.",
+     "say": "If diabetes only appears on lab claims (ra_allowed = N), it could not count.",
+     "focus": 2,
+     "file": "clips/fa3982e1c17e.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "Step 4: Action.",
+     "say": "Step 4: Action.",
+     "focus": 3,
+     "file": "clips/8547e1166156.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "The plan cannot invent a diagnosis.",
+     "say": "The plan cannot invent a diagnosis.",
+     "focus": 3,
+     "file": "clips/6a50cdcd1a47.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "It can make sure Robert has a real, documented visit each year where his doctor assesses his diabetes.",
+     "say": "It can make sure Robert has a real, documented visit each year where his doctor assesses his diabetes.",
+     "focus": 3,
+     "file": "clips/9a7e612c36b5.mp3",
+     "seconds": 7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Worked example: why is a score lower than expected?",
+   "lines": [
+    {
+     "raw": "How analysts use the three MA reports together.",
+     "say": "How analysts use the three M A reports together.",
+     "focus": -1,
+     "file": "clips/468c4ead6076.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "**MMR** = the money and membership truth.",
+     "say": "M M R = the money and membership truth.",
+     "focus": -1,
+     "file": "clips/1fc6a152b936.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "**MOR** = which HCCs were credited per member.",
+     "say": "M O R = which H C C's were credited per member.",
+     "focus": -1,
+     "file": "clips/e2c894897e24.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "**MAO-004** = which submitted diagnoses CMS accepted.",
+     "say": "M A O 004 = which submitted diagnoses C M S accepted.",
+     "focus": -1,
+     "file": "clips/f4450205c0af.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "Together they answer: \"Did we get paid correctly for every member?\"",
+     "say": "Together they answer: \"Did we get paid correctly for every member?\"",
+     "focus": -1,
+     "file": "clips/1916712ed67c.mp3",
+     "seconds": 4.275
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Plans send **encounter data** (EDS) to CMS; **RAPS** is the older diagnosis-only method.",
+     "say": "Plans send encounter data (E D S) to C M S; R A P S is the older diagnosis-only method.",
+     "focus": 0,
+     "file": "clips/856218c98f59.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "**MAO-004** = which submitted diagnoses are allowed for risk adjustment.",
+     "say": "M A O 004 = which submitted diagnoses are allowed for risk adjustment.",
+     "focus": 1,
+     "file": "clips/c3b43f747fcc.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "**MOR** = HCCs used per member.",
+     "say": "M O R = H C C's used per member.",
+     "focus": 1,
+     "file": "clips/991db4690f5b.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Only diagnoses from **acceptable sources** (face-to-face visits, hospital stays) count; lab-only diagnoses do not.",
+     "say": "Only diagnoses from acceptable sources (face-to-face visits, hospital stays) count; lab-only diagnoses do not.",
+     "focus": 2,
+     "file": "clips/7d5bb0990bb3.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "A diagnosis can be allowed but add nothing (no HCC).",
+     "say": "A diagnosis can be allowed but add nothing (no H C C).",
+     "focus": 3,
+     "file": "clips/3de0bce639bb.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Risk scores come from **prior-year** diagnoses.",
+     "say": "Risk scores come from prior-year diagnoses.",
+     "focus": 3,
+     "file": "clips/0b998216b685.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "To explain a risk score, work backwards: MMR → MOR → MAO-004.",
+     "say": "To explain a risk score, work backwards: M M R to M O R to M A O 004.",
+     "focus": 4,
+     "file": "clips/95d028e621dc.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

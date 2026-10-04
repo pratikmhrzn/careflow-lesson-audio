@@ -1,0 +1,890 @@
+{
+ "courseId": "population-health",
+ "lessonId": "sdoh-and-prevention",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Social Needs & Prevention.",
+     "say": "Lesson 5: Social Needs and Prevention.",
+     "focus": -1,
+     "file": "clips/6771411e3957.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Food, transport and money shape health.",
+     "say": "Food, transport and money shape health.",
+     "focus": -1,
+     "file": "clips/0790b4334365.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Screening catches problems early.",
+     "say": "Screening catches problems early.",
+     "focus": -1,
+     "file": "clips/4903a37a007d.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what social determinants of health (SDOH) are, with examples.",
+     "say": "Explain what social determinants of health (S D O H) are, with examples.",
+     "focus": 0,
+     "file": "clips/47d6f2f427ad.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "Read the ICD-10 Z-codes used to record social needs.",
+     "say": "Read the I C D 10 Z-codes used to record social needs.",
+     "focus": 1,
+     "file": "clips/dd1fff4c8b8b.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Name common preventive services and explain why they matter to a population.",
+     "say": "Name common preventive services and explain why they matter to a population.",
+     "focus": 2,
+     "file": "clips/654da1a91f76.mp3",
+     "seconds": 5.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Health is made mostly outside the hospital.",
+     "say": "Health is made mostly outside the hospital.",
+     "focus": -1,
+     "file": "clips/62716b729be8.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Health is made mostly outside the hospital",
+   "lines": [
+    {
+     "raw": "Think about a family in a village where the nearest health post is a three-hour walk, the water source is not safe, and money from a son working abroad arrives only now and then.",
+     "say": "Think about a family in a village where the nearest health post is a three-hour walk, the water source is not safe, and money from a son working abroad arrives only now and then.",
+     "focus": -1,
+     "file": "clips/fe8873814dde.mp3",
+     "seconds": 10.925
+    },
+    {
+     "raw": "Even with the best doctor in the world, this family will find it hard to stay healthy.",
+     "say": "Even with the best doctor in the world, this family will find it hard to stay healthy.",
+     "focus": -1,
+     "file": "clips/34314916b8ea.mp3",
+     "seconds": 5.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Health is made mostly outside the hospital",
+   "lines": [
+    {
+     "raw": "The conditions in which people are born, live, work and grow old are called the **social determinants of health**, or **SDOH**.",
+     "say": "The conditions in which people are born, live, work and grow old are called the social determinants of health, or S D O H.",
+     "focus": -1,
+     "file": "clips/3f637ba6d9a0.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "Researchers often estimate that medical care explains only a minority of a population's health; much of the rest comes from behaviour, environment and social and economic conditions.",
+     "say": "Researchers often estimate that medical care explains only a minority of a population's health; much of the rest comes from behaviour, environment and social and economic conditions.",
+     "focus": -1,
+     "file": "clips/b7a0497f903c.mp3",
+     "seconds": 12.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Health is made mostly outside the hospital",
+   "lines": [
+    {
+     "raw": "Familiar examples from Nepal.",
+     "say": "Familiar examples from Nepal.",
+     "focus": -1,
+     "file": "clips/e5660d519212.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Children in homes without clean water get diarrhoea more often.",
+     "say": "Children in homes without clean water get diarrhoea more often.",
+     "focus": -1,
+     "file": "clips/e5ec0c0bc13e.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "Kathmandu's winter air pollution makes asthma and cough worse.",
+     "say": "Kathmandu's winter air pollution makes asthma and cough worse.",
+     "focus": -1,
+     "file": "clips/2d52a7adcaa7.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "An elderly person living alone in a hill village may skip medicine because nobody can fetch it from the bazaar.",
+     "say": "An elderly person living alone in a hill village may skip medicine because nobody can fetch it from the bazaar.",
+     "focus": -1,
+     "file": "clips/6e7039592c4d.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "None of these problems is solved by a prescription alone.",
+     "say": "None of these problems is solved by a prescription alone.",
+     "focus": -1,
+     "file": "clips/3defdca56293.mp3",
+     "seconds": 3.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Health is made mostly outside the hospital",
+   "lines": [
+    {
+     "raw": "Five areas of SDOH, as grouped by the US government's Healthy People 2030 framework.",
+     "say": "Five areas of S D O H, as grouped by the U S government's Healthy People 2030 framework.",
+     "focus": -1,
+     "file": "clips/0523667f53fb.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "**Economic stability**. Examples of a need: Low income, job loss, debt, not enough food. How it affects health: Skipping medicine or meals to pay rent.",
+     "say": "Economic stability. Examples of a need: Low income, job loss, debt, not enough food. How it affects health: Skipping medicine or meals to pay rent.",
+     "focus": 0,
+     "file": "clips/f36155062f07.mp3",
+     "seconds": 10.775
+    },
+    {
+     "raw": "**Education access and quality**. Examples of a need: Low reading level. How it affects health: Cannot follow written medicine instructions.",
+     "say": "Education access and quality. Examples of a need: Low reading level. How it affects health: Cannot follow written medicine instructions.",
+     "focus": 1,
+     "file": "clips/0281bbcc313e.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "**Health care access and quality**. Examples of a need: No nearby clinic, no insurance, language barriers. How it affects health: Problems found late, when they are harder to treat.",
+     "say": "Health care access and quality. Examples of a need: No nearby clinic, no insurance, language barriers. How it affects health: Problems found late, when they are harder to treat.",
+     "focus": 2,
+     "file": "clips/3be05ee766f7.mp3",
+     "seconds": 11.5
+    },
+    {
+     "raw": "**Neighborhood and built environment**. Examples of a need: No transport, unsafe housing, pollution. How it affects health: Missed appointments; asthma triggered at home.",
+     "say": "Neighborhood and built environment. Examples of a need: No transport, unsafe housing, pollution. How it affects health: Missed appointments; asthma triggered at home.",
+     "focus": 3,
+     "file": "clips/7528c3cf4de0.mp3",
+     "seconds": 11.45
+    },
+    {
+     "raw": "**Social and community context**. Examples of a need: Living alone, isolation, discrimination. How it affects health: Nobody notices when someone gets worse.",
+     "say": "Social and community context. Examples of a need: Living alone, isolation, discrimination. How it affects health: Nobody notices when someone gets worse.",
+     "focus": 4,
+     "file": "clips/334acfa018c4.mp3",
+     "seconds": 11.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Recording social needs: Z-codes.",
+     "say": "Recording social needs: Z-codes.",
+     "focus": -1,
+     "file": "clips/7cdbc43a6f5c.mp3",
+     "seconds": 2.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Recording social needs: Z-codes",
+   "lines": [
+    {
+     "raw": "Diagnoses on claims are recorded as **ICD-10-CM diagnosis codes** (covered in the Medical course), like `E11.9` for type 2 diabetes.",
+     "say": "Diagnoses on claims are recorded as I C D 10-CM diagnosis codes (covered in the Medical course), like E 1 1 . 9 for type 2 diabetes.",
+     "focus": -1,
+     "file": "clips/2b9da3a204bb.mp3",
+     "seconds": 11.15
+    },
+    {
+     "raw": "ICD-10-CM also has codes for social problems.",
+     "say": "I C D 10-CM also has codes for social problems.",
+     "focus": -1,
+     "file": "clips/20f4b92b6768.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "They start with **Z**, and the group from **`Z55` to `Z65`** is used for social and economic circumstances.",
+     "say": "They start with Z, and the group from Z55 to Z65 is used for social and economic circumstances.",
+     "focus": -1,
+     "file": "clips/c18cbf379ee7.mp3",
+     "seconds": 8.2
+    },
+    {
+     "raw": "They are called **Z-codes** or **SDOH Z-codes**.",
+     "say": "They are called Z-codes or S D O H Z-codes.",
+     "focus": -1,
+     "file": "clips/debcdba44544.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Recording social needs: Z-codes",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`Z56.0`. Meaning: Unemployment, unspecified. Example: Daniel lost his job in mid-2025 (in this story his doctor recorded it at an August check-up).",
+     "say": "Z 5 6 . 0. Meaning: Unemployment, unspecified. Example: Daniel lost his job in mid-2025 (in this story his doctor recorded it at an August check-up).",
+     "focus": 0,
+     "file": "clips/790d8d221444.mp3",
+     "seconds": 13
+    },
+    {
+     "raw": "`Z59.41`. Meaning: Food insecurity. Example: A member says they often run out of food before the end of the month.",
+     "say": "Z 5 9 . 4 1. Meaning: Food insecurity. Example: A member says they often run out of food before the end of the month.",
+     "focus": 1,
+     "file": "clips/07b581761df9.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "`Z59.6`. Meaning: Low income. Example: A member cannot afford their medicines.",
+     "say": "Z 5 9 . 6. Meaning: Low income. Example: A member cannot afford their medicines.",
+     "focus": 2,
+     "file": "clips/e6eac084cafb.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "`Z59.82`. Meaning: Transportation insecurity. Example: A member has no car and no bus route to the clinic.",
+     "say": "Z 5 9 . 8 2. Meaning: Transportation insecurity. Example: A member has no car and no bus route to the clinic.",
+     "focus": 3,
+     "file": "clips/909290d0d00e.mp3",
+     "seconds": 9.425
+    },
+    {
+     "raw": "`Z59.00`. Meaning: Homelessness, unspecified. Example: A member has no stable place to live.",
+     "say": "Z 5 9 . 0 0. Meaning: Homelessness, unspecified. Example: A member has no stable place to live.",
+     "focus": 4,
+     "file": "clips/461cfdfa5f00.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "`Z60.2`. Meaning: Problems related to living alone. Example: An elderly member lives alone with nobody to check on them.",
+     "say": "Z 6 0 . 2. Meaning: Problems related to living alone. Example: An elderly member lives alone with nobody to check on them.",
+     "focus": 5,
+     "file": "clips/74ca13b61bdf.mp3",
+     "seconds": 9.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Recording social needs: Z-codes",
+   "lines": [
+    {
+     "raw": "Reading a Z-code.",
+     "say": "Reading a Z-code.",
+     "focus": -1,
+     "file": "clips/1ff75645cb83.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Z: Chapter for factors that affect health status or contact with health services (not a disease itself).",
+     "say": "Z: Chapter for factors that affect health status or contact with health services (not a disease itself).",
+     "focus": 0,
+     "file": "clips/86ce7786467e.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "59: Problems related to housing and economic circumstances.",
+     "say": "59: Problems related to housing and economic circumstances.",
+     "focus": 1,
+     "file": "clips/90293170ab8f.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": ".82: Transportation insecurity, the specific problem.",
+     "say": ".82: Transportation insecurity, the specific problem.",
+     "focus": 2,
+     "file": "clips/10360da4fccb.mp3",
+     "seconds": 4.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Recording social needs: Z-codes",
+   "lines": [
+    {
+     "raw": "Z-codes are under-used.",
+     "say": "Z-codes are under-used.",
+     "focus": -1,
+     "file": "clips/66312c5f8768.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Z-codes appear on only a small share of claims, because doctors are busy and social needs are not always asked about.",
+     "say": "Z-codes appear on only a small share of claims, because doctors are busy and social needs are not always asked about.",
+     "focus": -1,
+     "file": "clips/cf724f7c63f1.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "So **no Z-code does not mean no need**.",
+     "say": "So no Z-code does not mean no need.",
+     "focus": -1,
+     "file": "clips/23c6e5ddb7e7.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Teams also use short **screening questionnaires** (for example, the Accountable Health Communities screening tool from CMS, the Centers for Medicare & Medicaid Services) and outside data, like neighbourhood income, to fill the gap.",
+     "say": "Teams also use short screening questionnaires (for example, the Accountable Health Communities screening tool from C M S, the Centers for Medicare and Medicaid Services) and outside data, like neighbourhood income, to fill the gap.",
+     "focus": -1,
+     "file": "clips/46f2c08103af.mp3",
+     "seconds": 14.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Recording social needs: Z-codes",
+   "lines": [
+    {
+     "raw": "In the US: What a health plan can do about social needs.",
+     "say": "In the U S: What a health plan can do about social needs.",
+     "focus": -1,
+     "file": "clips/2664155ae096.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Connect members to **food banks** and government food help.",
+     "say": "Connect members to food banks and government food help.",
+     "focus": 0,
+     "file": "clips/0cbfefe64b1c.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Arrange **rides** to appointments (some Medicaid and Medicare Advantage plans offer this).",
+     "say": "Arrange rides to appointments (some Medicaid and Medicare Advantage plans offer this).",
+     "focus": 1,
+     "file": "clips/6db2306b5a3d.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "Send **90-day mail-order** prescriptions so members do not need to travel to a pharmacy every month.",
+     "say": "Send 90-day mail-order prescriptions so members do not need to travel to a pharmacy every month.",
+     "focus": 2,
+     "file": "clips/d0b1a3134800.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "Ask a **community health worker** to visit.",
+     "say": "Ask a community health worker to visit.",
+     "focus": 3,
+     "file": "clips/ea8b975f537e.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "This US role is very similar to an FCHV: a trusted local person who helps neighbours reach care.",
+     "say": "This U S role is very similar to an F C H V: a trusted local person who helps neighbours reach care.",
+     "focus": 3,
+     "file": "clips/142fdb7343ee.mp3",
+     "seconds": 7.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Prevention and screening.",
+     "say": "Prevention and screening.",
+     "focus": -1,
+     "file": "clips/9d9f1b7da3bc.mp3",
+     "seconds": 2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Prevention and screening",
+   "lines": [
+    {
+     "raw": "The cheapest illness is the one that never happens, and the second cheapest is the one caught early.",
+     "say": "The cheapest illness is the one that never happens, and the second cheapest is the one caught early.",
+     "focus": -1,
+     "file": "clips/498c74081815.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "**Prevention** includes vaccines, healthy habits and **screening**: testing people who feel fine to find problems early.",
+     "say": "Prevention includes vaccines, healthy habits and screening: testing people who feel fine to find problems early.",
+     "focus": -1,
+     "file": "clips/0a31e22878e7.mp3",
+     "seconds": 7.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Prevention and screening",
+   "lines": [
+    {
+     "raw": "In Nepal: Prevention you may know from Kathmandu.",
+     "say": "In Nepal: Prevention you may know from Kathmandu.",
+     "focus": -1,
+     "file": "clips/102c7d6aa887.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's startup arranges a yearly **health check camp** at the office: blood pressure, blood sugar and cholesterol checks for all staff.",
+     "say": "Ram's startup arranges a yearly health check camp at the office: blood pressure, blood sugar and cholesterol checks for all staff.",
+     "focus": 0,
+     "file": "clips/b8223ad40f86.mp3",
+     "seconds": 8.5
+    },
+    {
+     "raw": "Ram feels fine, but the camp shows slightly high blood pressure.",
+     "say": "Ram feels fine, but the camp shows slightly high blood pressure.",
+     "focus": 1,
+     "file": "clips/2822c508d17a.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "He sees a doctor early, long before any damage.",
+     "say": "He sees a doctor early, long before any damage.",
+     "focus": 1,
+     "file": "clips/d3be46e9fba1.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Some private group policies also include a yearly health check-up; it depends on the policy.",
+     "say": "Some private group policies also include a yearly health check-up; it depends on the policy.",
+     "focus": 2,
+     "file": "clips/aa7c99f3c887.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's company invites an SSF-listed hospital to run a free **screening day** for employees.",
+     "say": "Sita's company invites an S S F listed hospital to run a free screening day for employees.",
+     "focus": 3,
+     "file": "clips/918d40d303e5.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Many hospitals and organisations in Nepal run free **blood pressure and sugar screening camps** in the community.",
+     "say": "Many hospitals and organisations in Nepal run free blood pressure and sugar screening camps in the community.",
+     "focus": 4,
+     "file": "clips/dfed661c9609.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "Whether a specific check-up is covered by SSF depends on its current rules, so always check them.",
+     "say": "Whether a specific check-up is covered by S S F depends on its current rules, so always check them.",
+     "focus": 5,
+     "file": "clips/dbd922796a04.mp3",
+     "seconds": 6.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Prevention and screening",
+   "lines": [
+    {
+     "raw": "Common US preventive services (based on national recommendations; details depend on age, sex and risk).",
+     "say": "Common U S preventive services (based on national recommendations; details depend on age, sex and risk).",
+     "focus": -1,
+     "file": "clips/fc31f8a65972.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "**Well-child visits and childhood vaccines**. Who it is for: Babies and children, on a set schedule. In our story: Lily (6) has a yearly well-child visit.",
+     "say": "Well-child visits and childhood vaccines. Who it is for: Babies and children, on a set schedule. In our story: Lily (6) has a yearly well-child visit.",
+     "focus": 0,
+     "file": "clips/50a546ff70c9.mp3",
+     "seconds": 10.8
+    },
+    {
+     "raw": "**Yearly flu vaccine**. Who it is for: Almost everyone aged 6 months and over. In our story: The whole Carter family.",
+     "say": "Yearly flu vaccine. Who it is for: Almost everyone aged 6 months and over. In our story: The whole Carter family.",
+     "focus": 1,
+     "file": "clips/ce0dd837996d.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "**Blood pressure check**. Who it is for: All adults. In our story: Emily and Daniel at their check-ups.",
+     "say": "Blood pressure check. Who it is for: All adults. In our story: Emily and Daniel at their check-ups.",
+     "focus": 2,
+     "file": "clips/2dec37988c38.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "**Cholesterol and diabetes screening**. Who it is for: Adults in certain age ranges or with risk factors. In our story: Emily's cholesterol was found this way.",
+     "say": "Cholesterol and diabetes screening. Who it is for: Adults in certain age ranges or with risk factors. In our story: Emily's cholesterol was found this way.",
+     "focus": 3,
+     "file": "clips/0a024fe989ff.mp3",
+     "seconds": 11.375
+    },
+    {
+     "raw": "**Colorectal (bowel) cancer screening**. Who it is for: Adults aged 45 to 75. In our story: Robert (68).",
+     "say": "Colorectal (bowel) cancer screening. Who it is for: Adults aged 45 to 75. In our story: Robert (68).",
+     "focus": 4,
+     "file": "clips/653b597fe240.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "**Mammogram** (breast cancer screening). Who it is for: Women aged 40 to 74, every 2 years. In our story: Emily, from age 40.",
+     "say": "Mammogram (breast cancer screening). Who it is for: Women aged 40 to 74, every 2 years. In our story: Emily, from age 40.",
+     "focus": 5,
+     "file": "clips/77fba49eea1a.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "**Annual Wellness Visit**. Who it is for: People with Medicare. In our story: Robert, once a year.",
+     "say": "Annual Wellness Visit. Who it is for: People with Medicare. In our story: Robert, once a year.",
+     "focus": 6,
+     "file": "clips/c453c730c04e.mp3",
+     "seconds": 6.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Prevention and screening",
+   "lines": [
+    {
+     "raw": "Free at the point of care.",
+     "say": "Free at the point of care.",
+     "focus": -1,
+     "file": "clips/cc4fbc96fead.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Under the US Affordable Care Act (ACA), most health plans must cover many recommended preventive services **with no copay or deductible** when the member uses an in-network provider.",
+     "say": "Under the U S Affordable Care Act (A C A), most health plans must cover many recommended preventive services with no copay or deductible when the member uses an in-network provider.",
+     "focus": -1,
+     "file": "clips/49f123c772ab.mp3",
+     "seconds": 12.95
+    },
+    {
+     "raw": "This removes a money barrier, so more people get screened.",
+     "say": "This removes a money barrier, so more people get screened.",
+     "focus": -1,
+     "file": "clips/af97d28ef732.mp3",
+     "seconds": 3.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Prevention and screening",
+   "lines": [
+    {
+     "raw": "Here is the CMS-1500 form: Lily's well-child visit (simplified, fictional details).",
+     "say": "Here is the C M S 1500 form: Lily's well-child visit (simplified, fictional details).",
+     "focus": -1,
+     "file": "clips/b004cf9b23f7.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "Patient: Lily Carter.",
+     "say": "Patient: Lily Carter.",
+     "focus": 0,
+     "file": "clips/89b01c644ccc.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Member ID M1002, born 2019-01-20.",
+     "say": "Member I D M 1 0 0 2, born 2019-01-20.",
+     "focus": 0,
+     "file": "clips/4c970aa0bba3.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Date of service: 18 Feb 2025.",
+     "say": "Date of service: 18 Feb 2025.",
+     "focus": 1,
+     "file": "clips/02a0ee25c5cc.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Diagnosis: Z00.129.",
+     "say": "Diagnosis: Z 0 0 . 1 2 9.",
+     "focus": 2,
+     "file": "clips/b9ff09e6511c.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Routine child health exam, no abnormal findings.",
+     "say": "Routine child health exam, no abnormal findings.",
+     "focus": 2,
+     "file": "clips/4dfd5952811b.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Place of service: 11.",
+     "say": "Place of service: 11.",
+     "focus": 3,
+     "file": "clips/269b87eaa221.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Doctor's office.",
+     "say": "Doctor's office.",
+     "focus": 3,
+     "file": "clips/f83c45b33835.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "Patient pays: $0.",
+     "say": "Patient pays: 0 dollars.",
+     "focus": 4,
+     "file": "clips/f99da62e402a.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Preventive visit: no copay, no deductible.",
+     "say": "Preventive visit: no copay, no deductible.",
+     "focus": 4,
+     "file": "clips/6cebcbaf75a4.mp3",
+     "seconds": 3.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Prevention and screening",
+   "lines": [
+    {
+     "raw": "Prevention shows up in the data.",
+     "say": "Prevention shows up in the data.",
+     "focus": -1,
+     "file": "clips/f054820267f5.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Population health teams track **who has not had** their preventive care.",
+     "say": "Population health teams track who has not had their preventive care.",
+     "focus": -1,
+     "file": "clips/cb9798fe4a5d.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "A member with no claims for two years, like a fictional member James in lesson 6, has missed his yearly check-up and screenings.",
+     "say": "A member with no claims for two years, like a fictional member James in lesson 6, has missed his yearly check-up and screenings.",
+     "focus": -1,
+     "file": "clips/b3f3b9c4e9c0.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "That is a gap in care, just like a missing diabetes eye exam.",
+     "say": "That is a gap in care, just like a missing diabetes eye exam.",
+     "focus": -1,
+     "file": "clips/3f64cbbc5ff3.mp3",
+     "seconds": 4.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Prevention and screening",
+   "lines": [
+    {
+     "raw": "SDOH.",
+     "say": "S D O H.",
+     "focus": 0,
+     "file": "clips/22265b32e757.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "Social determinants of health: the conditions where people live, work and grow up that shape their health.",
+     "say": "Social determinants of health: the conditions where people live, work and grow up that shape their health.",
+     "focus": 0,
+     "file": "clips/382371080fa4.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Z-code.",
+     "say": "Z-code.",
+     "focus": 1,
+     "file": "clips/380d437eee4c.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "An ICD-10-CM code starting with Z.",
+     "say": "An I C D 10-CM code starting with Z.",
+     "focus": 1,
+     "file": "clips/9149f00c03b9.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Codes `Z55` to `Z65` record social and economic needs.",
+     "say": "Codes Z55 to Z65 record social and economic needs.",
+     "focus": 1,
+     "file": "clips/2f7f824280e0.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "Screening.",
+     "say": "Screening.",
+     "focus": 2,
+     "file": "clips/da71bbb84363.mp3",
+     "seconds": 1.45
+    },
+    {
+     "raw": "Testing people who feel well to find a problem early (blood pressure, cholesterol, cancer screening).",
+     "say": "Testing people who feel well to find a problem early (blood pressure, cholesterol, cancer screening).",
+     "focus": 2,
+     "file": "clips/e518b434a877.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Preventive service.",
+     "say": "Preventive service.",
+     "focus": 3,
+     "file": "clips/06a0ba3a51d8.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "Care meant to prevent illness or catch it early: vaccines, screenings, check-ups.",
+     "say": "Care meant to prevent illness or catch it early: vaccines, screenings, check-ups.",
+     "focus": 3,
+     "file": "clips/2fe8ae9ad680.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Community health worker.",
+     "say": "Community health worker.",
+     "focus": 4,
+     "file": "clips/6e11ea7660f6.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "A trusted local person who helps people reach care.",
+     "say": "A trusted local person who helps people reach care.",
+     "focus": 4,
+     "file": "clips/d8f10e318761.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "The closest US role to an FCHV.",
+     "say": "The closest U S role to an F C H V.",
+     "focus": 4,
+     "file": "clips/2ff8097281a1.mp3",
+     "seconds": 3.25
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Social determinants of health (food, money, transport, housing, isolation) shape health a great deal, often more than medical care alone.",
+     "say": "Social determinants of health (food, money, transport, housing, isolation) shape health a great deal, often more than medical care alone.",
+     "focus": 0,
+     "file": "clips/f7fcde7087f4.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "Z-codes `Z55` to `Z65` record social needs on claims, but they are under-used, so screening surveys help.",
+     "say": "Z-codes Z55 to Z65 record social needs on claims, but they are under-used, so screening surveys help.",
+     "focus": 1,
+     "file": "clips/906d48edebbf.mp3",
+     "seconds": 9
+    },
+    {
+     "raw": "Prevention (vaccines, screening, check-ups) catches problems early, when they are cheaper and easier to treat.",
+     "say": "Prevention (vaccines, screening, check-ups) catches problems early, when they are cheaper and easier to treat.",
+     "focus": 2,
+     "file": "clips/8c0fa6f467d2.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Most US plans cover many recommended preventive services with no cost to the member in network.",
+     "say": "Most U S plans cover many recommended preventive services with no cost to the member in network.",
+     "focus": 3,
+     "file": "clips/e929245a876d.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

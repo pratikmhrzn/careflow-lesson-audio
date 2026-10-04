@@ -1,0 +1,855 @@
+{
+ "courseId": "groupers-episodes",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 9,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 9: Putting It All Together.",
+     "say": "Lesson 9: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/27aa3108bbfc.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Robert's knee replacement from first clinic visit to final episode cost, through every grouper.",
+     "say": "Robert's knee replacement from first clinic visit to final episode cost, through every grouper.",
+     "focus": -1,
+     "file": "clips/24729cc3ff41.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Follow one patient's claims through condition, APC, DRG and episode groupers.",
+     "say": "Follow one patient's claims through condition, A P C, D R G and episode groupers.",
+     "focus": 0,
+     "file": "clips/a877d9a125cf.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Walk through a DRG assignment step by step.",
+     "say": "Walk through a D R G assignment step by step.",
+     "focus": 1,
+     "file": "clips/fb2c383535de.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Read an episode summary the way an analyst does.",
+     "say": "Read an episode summary the way an analyst does.",
+     "focus": 2,
+     "file": "clips/7d12573f0747.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Connect every grouper field to the lesson where you learned it.",
+     "say": "Connect every grouper field to the lesson where you learned it.",
+     "focus": 3,
+     "file": "clips/459a4512fe05.mp3",
+     "seconds": 3.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story.",
+     "say": "The story.",
+     "focus": -1,
+     "file": "clips/5103112bb3ad.mp3",
+     "seconds": 1.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "**Robert**, born 1957, is a retired school teacher in Houston, Texas, with type 2 diabetes and high blood pressure.",
+     "say": "Robert, born 1957, is a retired school teacher in Houston, Texas, with type 2 diabetes and high blood pressure.",
+     "focus": 0,
+     "file": "clips/3bd61c5cbf8c.mp3",
+     "seconds": 9
+    },
+    {
+     "raw": "Since January 2024 he has been in **Gulf Coast Advantage**, a made-up Medicare Advantage plan.",
+     "say": "Since January 2024 he has been in Gulf Coast Advantage, a made-up Medicare Advantage plan.",
+     "focus": 0,
+     "file": "clips/87fff32a2b16.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "His right knee is worn out by **osteoarthritis**.",
+     "say": "His right knee is worn out by osteoarthritis.",
+     "focus": 1,
+     "file": "clips/9358acfad64c.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "On **14 May 2025** he has a clinic visit and a steroid injection at the outpatient clinic of the made-up **Harbor Point Hospital**.",
+     "say": "On 14 May 2025 he has a clinic visit and a steroid injection at the outpatient clinic of the made-up Harbor Point Hospital.",
+     "focus": 1,
+     "file": "clips/c312c3d38b35.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "The injection helps only for a while.",
+     "say": "The injection helps only for a while.",
+     "focus": 2,
+     "file": "clips/c2c80b1fd076.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "He sees the surgeon on 12 August, has pre-surgery tests on 20 August, and is admitted on **8 September 2025** for a **total knee replacement**.",
+     "say": "He sees the surgeon on 12 August, has pre-surgery tests on 20 August, and is admitted on 8 September 2025 for a total knee replacement.",
+     "focus": 2,
+     "file": "clips/cc2bf87bb1f8.mp3",
+     "seconds": 10.55
+    },
+    {
+     "raw": "He goes home on **10 September**.",
+     "say": "He goes home on 10 September.",
+     "focus": 2,
+     "file": "clips/ff6b0880c8dc.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Physiotherapy follows, plus one emergency room visit on 5 October for a swollen knee.",
+     "say": "Physiotherapy follows, plus one emergency room visit on 5 October for a swollen knee.",
+     "focus": 3,
+     "file": "clips/2ebff9c3992b.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "By December he is walking well.",
+     "say": "By December he is walking well.",
+     "focus": 3,
+     "file": "clips/e2521e93a170.mp3",
+     "seconds": 2.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "In Nepal: The same journey in Kathmandu.",
+     "say": "In Nepal: The same journey in Kathmandu.",
+     "focus": -1,
+     "file": "clips/9410ec749af6.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "If Ram's father had a knee replacement at a private hospital, he would pay a **package price** for the surgery and stay, then separate bills for check-ups, medicines and physiotherapy, and claim what his policy covers.",
+     "say": "If Ram's father had a knee replacement at a private hospital, he would pay a package price for the surgery and stay, then separate bills for check-ups, medicines and physiotherapy, and claim what his policy covers.",
+     "focus": 0,
+     "file": "clips/164111ea6d0f.mp3",
+     "seconds": 13.375
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "At an SSF-listed hospital, the stay would be claimed against an SSF **package rate**, with the patient paying the SSF cost share.",
+     "say": "At an S S F listed hospital, the stay would be claimed against an S S F package rate, with the patient paying the S S F cost share.",
+     "focus": 1,
+     "file": "clips/d46003759cbe.mp3",
+     "seconds": 9.65
+    },
+    {
+     "raw": "Visits before and after would be separate claims.",
+     "say": "Visits before and after would be separate claims.",
+     "focus": 1,
+     "file": "clips/7f78855d1f16.mp3",
+     "seconds": 3.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 1: what conditions does Robert have?",
+     "say": "Step 1: what conditions does Robert have?",
+     "focus": -1,
+     "file": "clips/192695ea90aa.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "(condition categories).",
+     "say": "(condition categories).",
+     "focus": -1,
+     "file": "clips/18b3bb007e3d.mp3",
+     "seconds": 2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Step 1: what conditions does Robert have? (condition categories)",
+   "lines": [
+    {
+     "raw": "Robert's diagnoses, CCSR categories and chronic flags for 2025.",
+     "say": "Robert's diagnoses, C C S R categories and chronic flags for 2025.",
+     "focus": -1,
+     "file": "clips/0bbdf149705f.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "`E11.9`. Meaning: Type 2 diabetes without complications. CCSR category: `END002`. Chronic flag: Diabetes: **Yes**.",
+     "say": "E 1 1 . 9. Meaning: Type 2 diabetes without complications. C C S R category: E N D 0 0 2. Chronic flag: Diabetes: Yes.",
+     "focus": 0,
+     "file": "clips/8581990c1e1d.mp3",
+     "seconds": 12.025
+    },
+    {
+     "raw": "`I10`. Meaning: High blood pressure. CCSR category: `CIR007`. Chronic flag: Hypertension: **Yes**.",
+     "say": "I10. Meaning: High blood pressure. C C S R category: C I R 0 0 7. Chronic flag: Hypertension: Yes.",
+     "focus": 1,
+     "file": "clips/281f2e356c05.mp3",
+     "seconds": 9.7
+    },
+    {
+     "raw": "`M17.11`. Meaning: Osteoarthritis, right knee. CCSR category: `MUS006`. Chronic flag: Osteoarthritis: **Yes**.",
+     "say": "M 1 7 . 1 1. Meaning: Osteoarthritis, right knee. C C S R category: M U S 0 0 6. Chronic flag: Osteoarthritis: Yes.",
+     "focus": 2,
+     "file": "clips/ec42778189d6.mp3",
+     "seconds": 11.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 2: the May clinic visit (APCs).",
+     "say": "Step 2: the May clinic visit (A P C's).",
+     "focus": -1,
+     "file": "clips/b813b6cb4ef3.mp3",
+     "seconds": 3.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Step 2: the May clinic visit (APCs)",
+   "lines": [
+    {
+     "raw": "Outpatient hospital claim, 14 May 2025 (status indicators illustrative).",
+     "say": "Outpatient hospital claim, 14 May 2025 (status indicators illustrative).",
+     "focus": -1,
+     "file": "clips/7c8a52464da7.mp3",
+     "seconds": 6.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 3: the September stay (DRG assignment).",
+     "say": "Step 3: the September stay (D R G assignment).",
+     "focus": -1,
+     "file": "clips/056da65c916d.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Step 3: the September stay (DRG assignment)",
+   "lines": [
+    {
+     "raw": "Here is the UB-04 form: Harbor Point Hospital inpatient claim (key grouper inputs).",
+     "say": "Here is the U B 04 form: Harbor Point Hospital inpatient claim (key grouper inputs).",
+     "focus": -1,
+     "file": "clips/434273ce77ab.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "Type of bill: 0111.",
+     "say": "Type of bill: 0111.",
+     "focus": 0,
+     "file": "clips/317000349daf.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Inpatient, one bill for the whole stay (not interim).",
+     "say": "Inpatient, one bill for the whole stay (not interim).",
+     "focus": 0,
+     "file": "clips/30e72e78061a.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Admission / discharge: 08 Sep 2025 → 10 Sep 2025.",
+     "say": "Admission or discharge: 08 Sep 2025 to 10 Sep 2025.",
+     "focus": 1,
+     "file": "clips/a23a80aa3025.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "Discharged home.",
+     "say": "Discharged home.",
+     "focus": 1,
+     "file": "clips/26e92d63e55e.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Principal diagnosis: M17.11.",
+     "say": "Principal diagnosis: M 1 7 . 1 1.",
+     "focus": 2,
+     "file": "clips/77329f3ce4eb.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "Primary osteoarthritis, right knee.",
+     "say": "Primary osteoarthritis, right knee.",
+     "focus": 2,
+     "file": "clips/b702d1a38aef.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Secondary diagnoses: E11.9 (POA Y), I10 (POA Y).",
+     "say": "Secondary diagnoses: E 1 1 . 9 (P O A Y), I10 (P O A Y).",
+     "focus": 3,
+     "file": "clips/49b50a789a43.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "Diabetes and high blood pressure, both present on admission.",
+     "say": "Diabetes and high blood pressure, both present on admission.",
+     "focus": 3,
+     "file": "clips/b40ba3b5af6f.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Principal procedure: 0SRC0J9.",
+     "say": "Principal procedure: 0 S R C 0 J 9.",
+     "focus": 4,
+     "file": "clips/8ba3424a5dfe.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "Replacement of the right knee joint with a synthetic part, cemented, open approach.",
+     "say": "Replacement of the right knee joint with a synthetic part, cemented, open approach.",
+     "focus": 4,
+     "file": "clips/83b1cc5c004c.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Patient: Robert, male.",
+     "say": "Patient: Robert, male.",
+     "focus": 5,
+     "file": "clips/5af0f2804bab.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Born 1957.",
+     "say": "Born 1957.",
+     "focus": 5,
+     "file": "clips/676876d940f3.mp3",
+     "seconds": 2.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Step 3: the September stay (DRG assignment)",
+   "lines": [
+    {
+     "raw": "Step 1: Pre-MDC?",
+     "say": "Step 1: Pre-MDC?",
+     "focus": 0,
+     "file": "clips/12317b599f69.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "No transplant or similar procedure.",
+     "say": "No transplant or similar procedure.",
+     "focus": 0,
+     "file": "clips/bba44dfd363d.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Move on.",
+     "say": "Move on.",
+     "focus": 0,
+     "file": "clips/1b3688bf8c70.mp3",
+     "seconds": 1.45
+    },
+    {
+     "raw": "Step 2: MDC.",
+     "say": "Step 2: M D C.",
+     "focus": 1,
+     "file": "clips/08d01bd65720.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "`M17.11` (knee arthritis) → the musculoskeletal system MDC.",
+     "say": "M 1 7 . 1 1 (knee arthritis) to the musculoskeletal system M D C.",
+     "focus": 1,
+     "file": "clips/6aeaa110d616.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Step 3: Surgical or medical?",
+     "say": "Step 3: Surgical or medical?",
+     "focus": 2,
+     "file": "clips/b07a4b6ca74c.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "`0SRC0J9` is an operating room procedure → surgical.",
+     "say": "0 S R C 0 J 9 is an operating room procedure to surgical.",
+     "focus": 2,
+     "file": "clips/26867e44d56a.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Step 4: Base DRG.",
+     "say": "Step 4: Base D R G.",
+     "focus": 3,
+     "file": "clips/921ffadfbedd.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Knee replacement → the \"major hip and knee joint replacement\" family.",
+     "say": "Knee replacement to the \"major hip and knee joint replacement\" family.",
+     "focus": 3,
+     "file": "clips/9adaac2fe3ca.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Step 5: Severity.",
+     "say": "Step 5: Severity.",
+     "focus": 4,
+     "file": "clips/115f293b4a09.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "This family splits only on **MCC**.",
+     "say": "This family splits only on M C C.",
+     "focus": 4,
+     "file": "clips/653c75cfc9de.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "`E11.9` and `I10` are neither CCs nor MCCs.",
+     "say": "E 1 1 . 9 and I10 are neither C C's nor M C C's.",
+     "focus": 4,
+     "file": "clips/2e28bba1d8c8.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Result.",
+     "say": "Result.",
+     "focus": 5,
+     "file": "clips/af1f3e8ac3a3.mp3",
+     "seconds": 1.425
+    },
+    {
+     "raw": "**MS-DRG 470**: Major hip and knee joint replacement without MCC (FY2025 version, because he was discharged before 1 October 2025).",
+     "say": "M S DRG 470: Major hip and knee joint replacement without M C C (F Y 2 0 2 5 version, because he was discharged before 1 October 2025).",
+     "focus": 5,
+     "file": "clips/d1d5b0d851ae.mp3",
+     "seconds": 13.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Step 3: the September stay (DRG assignment)",
+   "lines": [
+    {
+     "raw": "What if a blood clot had formed after surgery?",
+     "say": "What if a blood clot had formed after surgery?",
+     "focus": -1,
+     "file": "clips/eff42616230e.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "Suppose Robert had developed a blood clot in his lung (pulmonary embolism) during the stay, coded with **POA = N**.",
+     "say": "Suppose Robert had developed a blood clot in his lung (pulmonary embolism) during the stay, coded with P O A = N.",
+     "focus": -1,
+     "file": "clips/801709a4d280.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "A pulmonary embolism is normally an MCC, which would move the stay to the higher \"with MCC\" DRG.",
+     "say": "A pulmonary embolism is normally an M C C, which would move the stay to the higher \"with M C C\" D R G.",
+     "focus": -1,
+     "file": "clips/6357bc2d5934.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "But a blood clot after a knee or hip replacement is on Medicare's **hospital-acquired conditions** list, so with POA = N it is ignored: the stay stays in **MS-DRG 470**.",
+     "say": "But a blood clot after a knee or hip replacement is on Medicare's hospital-acquired conditions list, so with P O A = N it is ignored: the stay stays in M S DRG 470.",
+     "focus": -1,
+     "file": "clips/e0bfc6845f61.mp3",
+     "seconds": 13.675
+    },
+    {
+     "raw": "How the DRG is priced is covered in the Fee For Service course.",
+     "say": "How the D R G is priced is covered in the Fee For Service course.",
+     "focus": -1,
+     "file": "clips/aa676a250935.mp3",
+     "seconds": 4.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 4: the episode.",
+     "say": "Step 4: the episode.",
+     "focus": -1,
+     "file": "clips/ba6051b23704.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Step 4: the episode",
+   "lines": [
+    {
+     "raw": "Knee replacement episode: 9 August to 9 December 2025 (allowed amounts illustrative).",
+     "say": "Knee replacement episode: 9 August to 9 December 2025 (allowed amounts illustrative).",
+     "focus": -1,
+     "file": "clips/a1fa99646c32.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "Before. What is in it: Surgeon visit, pre-surgery tests. Allowed: $330.",
+     "say": "Before. What is in it: Surgeon visit, pre-surgery tests. Allowed: 330 dollars.",
+     "focus": 0,
+     "file": "clips/a5e30058c7f0.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "Trigger. What is in it: Hospital stay (MS-DRG 470), surgeon, anaesthesia. Allowed: $16,600.",
+     "say": "Trigger. What is in it: Hospital stay (M S DRG 470), surgeon, anaesthesia. Allowed: 16600 dollars.",
+     "focus": 1,
+     "file": "clips/dd0a38c91c22.mp3",
+     "seconds": 10.275
+    },
+    {
+     "raw": "After. What is in it: Medicines, physiotherapy, $0 follow-up visit, ER visit. Allowed: $3,060.",
+     "say": "After. What is in it: Medicines, physiotherapy, 0 dollars follow-up visit, E R visit. Allowed: 3060 dollars.",
+     "focus": 2,
+     "file": "clips/dfcce9768ace.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "Left out. What is in it: May clinic visit (before the window), diabetes check (not related), December check-up (after the window). Allowed: —.",
+     "say": "Left out. What is in it: May clinic visit (before the window), diabetes check (not related), December check-up (after the window). Allowed: —.",
+     "focus": 3,
+     "file": "clips/188834b15d41.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "**Episode total**. Allowed: **$19,990**.",
+     "say": "Episode total. Allowed: 19990 dollars.",
+     "focus": 4,
+     "file": "clips/9fe0a340746b.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Expected for a patient like Robert. Allowed: $21,000.",
+     "say": "Expected for a patient like Robert. Allowed: 21000 dollars.",
+     "focus": 5,
+     "file": "clips/3fc4dbd16acd.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "**O/E ratio**. Allowed: **0.95**.",
+     "say": "O/E ratio. Allowed: 0.95.",
+     "focus": 6,
+     "file": "clips/b3e0ad295ea0.mp3",
+     "seconds": 4.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 5: quality checks.",
+     "say": "Step 5: quality checks.",
+     "focus": -1,
+     "file": "clips/448b079603a5.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Step 5: quality checks",
+   "lines": [
+    {
+     "raw": "**Version**: discharge 10 September 2025 → FY2025 MS-DRG version for the payment check.",
+     "say": "Version: discharge 10 September 2025 to F Y 2 0 2 5 M S DRG version for the payment check.",
+     "focus": 0,
+     "file": "clips/b3f9c8328a3d.mp3",
+     "seconds": 9.225
+    },
+    {
+     "raw": "**Inputs**: valid codes for the date, POA flags present on all secondary diagnoses, not an interim bill.",
+     "say": "Inputs: valid codes for the date, P O A flags present on all secondary diagnoses, not an interim bill.",
+     "focus": 1,
+     "file": "clips/1376268e9cdd.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "**Eligibility**: Robert was enrolled for the whole window.",
+     "say": "Eligibility: Robert was enrolled for the whole window.",
+     "focus": 2,
+     "file": "clips/8b6a37109c9d.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "**Run-out**: the window ended on 9 December, so the episode is reported only after enough months of claims have arrived (for example, in March 2026).",
+     "say": "Run-out: the window ended on 9 December, so the episode is reported only after enough months of claims have arrived (for example, in March 2026).",
+     "focus": 3,
+     "file": "clips/4c488a068df2.mp3",
+     "seconds": 10.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How an analyst sees it.",
+     "say": "How an analyst sees it.",
+     "focus": -1,
+     "file": "clips/04b8ca4373bc.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Episode summary table (one row per episode).",
+     "say": "Episode summary table (one row per episode).",
+     "focus": -1,
+     "file": "clips/af3f28e21704.mp3",
+     "seconds": 3.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Field → lesson map.",
+     "say": "Field to lesson map.",
+     "focus": -1,
+     "file": "clips/e9cf9eeca18e.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "grouper name, payment vs analytics. Question it answers: What is being grouped, and why? Lesson: 1. What is a Grouper?",
+     "say": "grouper name, payment versus analytics. Question it answers: What is being grouped, and why? Lesson: 1. What is a Grouper?",
+     "focus": 0,
+     "file": "clips/d3403670c046.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "grouper family, unit. Question it answers: Which grouper fits my question? Lesson: 2. Types of Groupers.",
+     "say": "grouper family, unit. Question it answers: Which grouper fits my question? Lesson: 2. Types of Groupers.",
+     "focus": 1,
+     "file": "clips/284373475762.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "principal dx, MDC, CC/MCC, POA, trigger_drg. Question it answers: Which DRG does this stay belong to? Lesson: 3. DRGs for Hospital Stays.",
+     "say": "principal dx, M D C, CC/MCC, P O A, trigger_drg. Question it answers: Which D R G does this stay belong to? Lesson: 3. D R G's for Hospital Stays.",
+     "focus": 2,
+     "file": "clips/972e91acb942.mp3",
+     "seconds": 14.775
+    },
+    {
+     "raw": "hcpcs, status_indicator, APC. Question it answers: How is this outpatient service grouped and paid? Lesson: 4. APCs for Outpatient Care.",
+     "say": "hcpcs, status_indicator, A P C. Question it answers: How is this outpatient service grouped and paid? Lesson: 4. A P C's for Outpatient Care.",
+     "focus": 3,
+     "file": "clips/52a910b977ae.mp3",
+     "seconds": 11.8
+    },
+    {
+     "raw": "ccsr_category, chronic flags. Question it answers: Which conditions does this member have? Lesson: 5. Condition Categories.",
+     "say": "ccsr_category, chronic flags. Question it answers: Which conditions does this member have? Lesson: 5. Condition Categories.",
+     "focus": 4,
+     "file": "clips/8c82fba3832e.mp3",
+     "seconds": 9.6
+    },
+    {
+     "raw": "episode_type, trigger, window_start, window_end, attributed_provider. Question it answers: What is the episode, and who is responsible? Lesson: 6. Episodes of Care.",
+     "say": "episode_type, trigger, window_start, window_end, attributed_provider. Question it answers: What is the episode, and who is responsible? Lesson: 6. Episodes of Care.",
+     "focus": 5,
+     "file": "clips/3c298082928d.mp3",
+     "seconds": 11.925
+    },
+    {
+     "raw": "claims_in_episode, allowed_total, expected_total, oe_ratio. Question it answers: What did the whole treatment cost, compared with expected? Lesson: 7. Building an Episode from Claims.",
+     "say": "claims_in_episode, allowed_total, expected_total, oe_ratio. Question it answers: What did the whole treatment cost, compared with expected? Lesson: 7. Building an Episode from Claims.",
+     "focus": 6,
+     "file": "clips/5a1ad70040e7.mp3",
+     "seconds": 12.95
+    },
+    {
+     "raw": "grouper_version, interim bills, DRG 999, run-out. Question it answers: Can this result be trusted? Lesson: 8. Data Quality.",
+     "say": "grouper_version, interim bills, D R G 999, run-out. Question it answers: Can this result be trusted? Lesson: 8. Data Quality.",
+     "focus": 7,
+     "file": "clips/e5670048a64e.mp3",
+     "seconds": 10.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You can now follow a patient's claims through every main grouper and build an episode of care like an analyst.",
+     "say": "You can now follow a patient's claims through every main grouper and build an episode of care like an analyst.",
+     "focus": -1,
+     "file": "clips/809c83b32820.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "To see how episodes are used to pay providers, take the **Value Based Care** course.",
+     "say": "To see how episodes are used to pay providers, take the Value Based Care course.",
+     "focus": -1,
+     "file": "clips/c353d526cb3a.mp3",
+     "seconds": 5.225
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The same claims can be grouped several ways: conditions, APCs, a DRG and an episode.",
+     "say": "The same claims can be grouped several ways: conditions, A P C's, a D R G and an episode.",
+     "focus": 0,
+     "file": "clips/773df460b765.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "A DRG comes from fixed steps: MDC, surgical or medical, base DRG, then severity, with POA checks.",
+     "say": "A D R G comes from fixed steps: M D C, surgical or medical, base D R G, then severity, with P O A checks.",
+     "focus": 1,
+     "file": "clips/d9f5240e9bc9.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "An episode adds up related care before, during and after the trigger, then compares it with expected.",
+     "say": "An episode adds up related care before, during and after the trigger, then compares it with expected.",
+     "focus": 2,
+     "file": "clips/96b3422b7cdf.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Always record the grouper version, check the inputs and eligibility, and allow run-out.",
+     "say": "Always record the grouper version, check the inputs and eligibility, and allow run-out.",
+     "focus": 3,
+     "file": "clips/79764fd23a39.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

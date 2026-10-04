@@ -1,0 +1,575 @@
+{
+ "courseId": "groupers-episodes",
+ "lessonId": "apcs-for-outpatient-care",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: APCs for Outpatient Care.",
+     "say": "Lesson 4: A P C's for Outpatient Care.",
+     "focus": -1,
+     "file": "clips/ac82f5db7a7e.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "How services at a hospital outpatient department are grouped: separate, packaged or comprehensive.",
+     "say": "How services at a hospital outpatient department are grouped: separate, packaged or comprehensive.",
+     "focus": -1,
+     "file": "clips/88ff115fd7b1.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what an APC is and how it differs from a DRG.",
+     "say": "Explain what an A P C is and how it differs from a D R G.",
+     "focus": 0,
+     "file": "clips/aef4d79f9017.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Read a status indicator: paid separately, packaged or comprehensive.",
+     "say": "Read a status indicator: paid separately, packaged or comprehensive.",
+     "focus": 1,
+     "file": "clips/ad1476b17e31.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Explain packaging and comprehensive APCs.",
+     "say": "Explain packaging and comprehensive A P C's.",
+     "focus": 2,
+     "file": "clips/52d5f23eff6c.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Name other outpatient groupers such as EAPGs.",
+     "say": "Name other outpatient groupers such as E A P G's.",
+     "focus": 3,
+     "file": "clips/9ddd0a861f9f.mp3",
+     "seconds": 4.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with an outpatient visit in Kathmandu.",
+     "say": "Start with an outpatient visit in Kathmandu.",
+     "focus": -1,
+     "file": "clips/9cc5025344f8.mp3",
+     "seconds": 3.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with an outpatient visit in Kathmandu",
+   "lines": [
+    {
+     "raw": "In Nepal: What is charged separately, and what is included?",
+     "say": "In Nepal: What is charged separately, and what is included?",
+     "focus": -1,
+     "file": "clips/ae9c549aa453.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "At a hospital's OPD (outpatient department), Ram pays for an **OPD ticket** to see the doctor, then separately for an **X-ray** and a small **procedure** if he needs one.",
+     "say": "At a hospital's O P D (outpatient department), Ram pays for an O P D ticket to see the doctor, then separately for an X-ray and a small procedure if he needs one.",
+     "focus": 0,
+     "file": "clips/6b52a216543d.mp3",
+     "seconds": 11.55
+    },
+    {
+     "raw": "But the cotton, gloves and the injection used during the procedure are **not** charged separately: they are included in the procedure price.",
+     "say": "But the cotton, gloves and the injection used during the procedure are not charged separately: they are included in the procedure price.",
+     "focus": 1,
+     "file": "clips/e117aba35f03.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "And for a **day-care surgery**, the hospital may charge one **package** that covers everything that day.",
+     "say": "And for a day-care surgery, the hospital may charge one package that covers everything that day.",
+     "focus": 2,
+     "file": "clips/3350964e2389.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF rules similarly set which outpatient items are paid one by one and which are covered by a package.",
+     "say": "S S F rules similarly set which outpatient items are paid one by one and which are covered by a package.",
+     "focus": 3,
+     "file": "clips/87bf13354b31.mp3",
+     "seconds": 7.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with an outpatient visit in Kathmandu",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "An **APC (Ambulatory Payment Classification)** groups each hospital outpatient service with similar services of similar cost, and a **status indicator** on each service says whether it is paid on its own, folded into another service, or swept into one payment for the whole visit.",
+     "say": "An A P C (Ambulatory Payment Classification) groups each hospital outpatient service with similar services of similar cost, and a status indicator on each service says whether it is paid on its own, folded into another service, or swept into one payment for the whole visit.",
+     "focus": -1,
+     "file": "clips/7098203e43dc.mp3",
+     "seconds": 17.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: APCs under OPPS.",
+     "say": "The U S version: A P C's under O P P S.",
+     "focus": -1,
+     "file": "clips/d88d048bb4a9.mp3",
+     "seconds": 3.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: APCs under OPPS",
+   "lines": [
+    {
+     "raw": "In the US: How it works.",
+     "say": "In the U S: How it works.",
+     "focus": -1,
+     "file": "clips/5edf5dc08a18.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "Medicare pays hospital outpatient departments through the **OPPS (Outpatient Prospective Payment System)**, which started in 2000.",
+     "say": "Medicare pays hospital outpatient departments through the O P P S (Outpatient Prospective Payment System), which started in 2000.",
+     "focus": 0,
+     "file": "clips/2bc072aea415.mp3",
+     "seconds": 9.225
+    },
+    {
+     "raw": "Each outpatient service on the claim is coded with a **CPT or HCPCS** code.",
+     "say": "Each outpatient service on the claim is coded with a C P T or H C P C S code.",
+     "focus": 1,
+     "file": "clips/112d7c6e9694.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "Medicare assigns each code to **one APC** and gives it a **status indicator**.",
+     "say": "Medicare assigns each code to one A P C and gives it a status indicator.",
+     "focus": 1,
+     "file": "clips/13289d62582a.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "Unlike a DRG (one group per stay), an outpatient claim can carry **several APCs**, one for each separately paid service.",
+     "say": "Unlike a D R G (one group per stay), an outpatient claim can carry several A P C's, one for each separately paid service.",
+     "focus": 2,
+     "file": "clips/f111fba795aa.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "The APC list, assignments and status indicators are updated every **calendar year** (1 January), with smaller updates each quarter.",
+     "say": "The A P C list, assignments and status indicators are updated every calendar year (1 January), with smaller updates each quarter.",
+     "focus": 3,
+     "file": "clips/48d4ab29c890.mp3",
+     "seconds": 8.9
+    },
+    {
+     "raw": "Doctors' own bills are **not** grouped into APCs; they are paid from a fee schedule (see the Fee For Service course).",
+     "say": "Doctors' own bills are not grouped into A P C's; they are paid from a fee schedule (see the Fee For Service course).",
+     "focus": 4,
+     "file": "clips/30f502112e90.mp3",
+     "seconds": 7.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The US version: APCs under OPPS",
+   "lines": [
+    {
+     "raw": "Common status indicators (a selection).",
+     "say": "Common status indicators (a selection).",
+     "focus": -1,
+     "file": "clips/63139734d1d5.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "`V`. Meaning: Clinic or emergency department visit, paid separately. Example: A hospital clinic visit.",
+     "say": "V. Meaning: Clinic or emergency department visit, paid separately. Example: A hospital clinic visit.",
+     "focus": 0,
+     "file": "clips/fa3bd541caa4.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "`S`. Meaning: Significant procedure, paid separately, no discount when several are done. Example: A radiation therapy treatment.",
+     "say": "S. Meaning: Significant procedure, paid separately, no discount when several are done. Example: A radiation therapy treatment.",
+     "focus": 1,
+     "file": "clips/e118d55c3bbe.mp3",
+     "seconds": 8.95
+    },
+    {
+     "raw": "`T`. Meaning: Significant procedure, paid separately, **multiple-procedure discount** applies. Example: A joint injection or a small surgical procedure.",
+     "say": "T. Meaning: Significant procedure, paid separately, multiple-procedure discount applies. Example: A joint injection or a small surgical procedure.",
+     "focus": 2,
+     "file": "clips/327a756d3286.mp3",
+     "seconds": 10.85
+    },
+    {
+     "raw": "`N`. Meaning: **Packaged**: no separate payment; its cost is included in other services. Example: Supplies, many low-cost drugs.",
+     "say": "N. Meaning: Packaged: no separate payment; its cost is included in other services. Example: Supplies, many low-cost drugs.",
+     "focus": 3,
+     "file": "clips/c17666a7aca0.mp3",
+     "seconds": 9.45
+    },
+    {
+     "raw": "`J1`. Meaning: **Comprehensive APC**: one payment for the main procedure, with nearly everything else on the claim packaged into it. Example: Major outpatient surgery, such as a knee replacement done as an outpatient.",
+     "say": "J1. Meaning: Comprehensive A P C: one payment for the main procedure, with nearly everything else on the claim packaged into it. Example: Major outpatient surgery, such as a knee replacement done as an outpatient.",
+     "focus": 4,
+     "file": "clips/6f328c2e556f.mp3",
+     "seconds": 15.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The US version: APCs under OPPS",
+   "lines": [
+    {
+     "raw": "Packaging.",
+     "say": "Packaging.",
+     "focus": 0,
+     "file": "clips/1cbb570c3311.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "Including the cost of small or supporting services in the payment for the main service, instead of paying them one by one.",
+     "say": "Including the cost of small or supporting services in the payment for the main service, instead of paying them one by one.",
+     "focus": 0,
+     "file": "clips/c344c3fa3e52.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "Comprehensive APC (C-APC).",
+     "say": "Comprehensive A P C (C-APC).",
+     "focus": 1,
+     "file": "clips/6965ea8dced6.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "An APC that covers a whole outpatient claim around one major procedure, similar in spirit to a DRG for an outpatient visit.",
+     "say": "An A P C that covers a whole outpatient claim around one major procedure, similar in spirit to a D R G for an outpatient visit.",
+     "focus": 1,
+     "file": "clips/6ff3e46ede10.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "ASC (ambulatory surgery center).",
+     "say": "A S C (ambulatory surgery center).",
+     "focus": 2,
+     "file": "clips/e7ad64636b86.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "A stand-alone surgery centre, not part of a hospital.",
+     "say": "A stand-alone surgery centre, not part of a hospital.",
+     "focus": 2,
+     "file": "clips/4b0757220d26.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "Medicare pays ASCs with a related system based on the same groups.",
+     "say": "Medicare pays A S C's with a related system based on the same groups.",
+     "focus": 2,
+     "file": "clips/96cd5b896365.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "EAPG (Enhanced Ambulatory Patient Groups).",
+     "say": "E A P G (Enhanced Ambulatory Patient Groups).",
+     "focus": 3,
+     "file": "clips/4854b0d3449f.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "A licensed outpatient grouper used by some Medicaid programmes and insurers.",
+     "say": "A licensed outpatient grouper used by some Medicaid programmes and insurers.",
+     "focus": 3,
+     "file": "clips/bc8cad3f6403.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "It groups services within each visit and applies its own packaging rules.",
+     "say": "It groups services within each visit and applies its own packaging rules.",
+     "focus": 3,
+     "file": "clips/e8b3ed63512d.mp3",
+     "seconds": 4.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Robert's knee clinic visit.",
+     "say": "Worked example: Robert's knee clinic visit.",
+     "focus": -1,
+     "file": "clips/03cff1feade0.mp3",
+     "seconds": 3.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Worked example: Robert's knee clinic visit",
+   "lines": [
+    {
+     "raw": "**Robert** (born 1957, a retired teacher in Houston with type 2 diabetes and high blood pressure) has painful arthritis in his right knee.",
+     "say": "Robert (born 1957, a retired teacher in Houston with type 2 diabetes and high blood pressure) has painful arthritis in his right knee.",
+     "focus": -1,
+     "file": "clips/df589df21978.mp3",
+     "seconds": 10.225
+    },
+    {
+     "raw": "On **14 May 2025** he visits the outpatient orthopaedic clinic of **Harbor Point Hospital** (a made-up hospital).",
+     "say": "On 14 May 2025 he visits the outpatient orthopaedic clinic of Harbor Point Hospital (a made-up hospital).",
+     "focus": -1,
+     "file": "clips/67656e16f4d3.mp3",
+     "seconds": 8.55
+    },
+    {
+     "raw": "The doctor examines him and injects a steroid into the knee.",
+     "say": "The doctor examines him and injects a steroid into the knee.",
+     "focus": -1,
+     "file": "clips/6af58559888f.mp3",
+     "seconds": 4.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Worked example: Robert's knee clinic visit",
+   "lines": [
+    {
+     "raw": "Robert's outpatient hospital claim lines (status indicators illustrative; check the current year's OPPS files).",
+     "say": "Robert's outpatient hospital claim lines (status indicators illustrative; check the current year's O P P S files).",
+     "focus": -1,
+     "file": "clips/cb51bb2739d8.mp3",
+     "seconds": 8.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Worked example: Robert's knee clinic visit",
+   "lines": [
+    {
+     "raw": "Reading the lines.",
+     "say": "Reading the lines.",
+     "focus": -1,
+     "file": "clips/fc9277b6a5e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Two APCs are paid (the visit and the injection).",
+     "say": "Two A P C's are paid (the visit and the injection).",
+     "focus": -1,
+     "file": "clips/cdfcd9a73f27.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "The drug line has **no payment of its own**: its cost is already built into the injection APC.",
+     "say": "The drug line has no payment of its own: its cost is already built into the injection A P C.",
+     "focus": -1,
+     "file": "clips/34af2148f4af.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "If you see $0 paid on line 3, that is **expected**, not an error.",
+     "say": "If you see 0 dollars paid on line 3, that is expected, not an error.",
+     "focus": -1,
+     "file": "clips/5a83db438881.mp3",
+     "seconds": 5.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Worked example: Robert's knee clinic visit",
+   "lines": [
+    {
+     "raw": "What if the knee replacement were done as an outpatient?",
+     "say": "What if the knee replacement were done as an outpatient?",
+     "focus": -1,
+     "file": "clips/9f704da51b6a.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Since 2018, Medicare has allowed total knee replacement (CPT `27447`) as a hospital outpatient procedure.",
+     "say": "Since 2018, Medicare has allowed total knee replacement (C P T 2 7 4 4 7) as a hospital outpatient procedure.",
+     "focus": -1,
+     "file": "clips/397ac1cb486e.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "It then has status indicator `J1`: the surgery, X-rays, drugs, lab tests and supplies on the claim are paid as **one comprehensive APC**, much like a DRG.",
+     "say": "It then has status indicator J1: the surgery, X-rays, drugs, lab tests and supplies on the claim are paid as one comprehensive A P C, much like a D R G.",
+     "focus": -1,
+     "file": "clips/c3004343db39.mp3",
+     "seconds": 11.875
+    },
+    {
+     "raw": "Robert's surgeon chose an inpatient stay because of his diabetes.",
+     "say": "Robert's surgeon chose an inpatient stay because of his diabetes.",
+     "focus": -1,
+     "file": "clips/d78a199bd51c.mp3",
+     "seconds": 4.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Worked example: Robert's knee clinic visit",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Outpatient lines with $0 paid are often **packaged**, not denied.",
+     "say": "Outpatient lines with 0 dollars paid are often packaged, not denied.",
+     "focus": -1,
+     "file": "clips/7907612d46d1.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Read the status indicator before counting them as denials or free care.",
+     "say": "Read the status indicator before counting them as denials or free care.",
+     "focus": -1,
+     "file": "clips/444de6ce3cf0.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "And to compare the cost of an outpatient visit, add up **all lines of the claim**, because the packaged cost sits inside the paid lines.",
+     "say": "And to compare the cost of an outpatient visit, add up all lines of the claim, because the packaged cost sits inside the paid lines.",
+     "focus": -1,
+     "file": "clips/73042145ceab.mp3",
+     "seconds": 8.5
+    },
+    {
+     "raw": "How each APC is priced is taught in the Fee For Service course.",
+     "say": "How each A P C is priced is taught in the Fee For Service course.",
+     "focus": -1,
+     "file": "clips/d6ee592126ad.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "APCs group hospital outpatient services under Medicare's OPPS; one claim can have several APCs.",
+     "say": "A P C's group hospital outpatient services under Medicare's O P P S; one claim can have several A P C's.",
+     "focus": 0,
+     "file": "clips/7ce939bdd181.mp3",
+     "seconds": 9.15
+    },
+    {
+     "raw": "Each service has a status indicator: paid separately, packaged, or comprehensive.",
+     "say": "Each service has a status indicator: paid separately, packaged, or comprehensive.",
+     "focus": 1,
+     "file": "clips/f8f5974c24bf.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "Packaged lines show $0 paid because their cost is included in another line.",
+     "say": "Packaged lines show 0 dollars paid because their cost is included in another line.",
+     "focus": 2,
+     "file": "clips/a6432e2bb92f.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Comprehensive APCs (J1) pay one amount for a whole claim around a major procedure.",
+     "say": "Comprehensive A P C's (J1) pay one amount for a whole claim around a major procedure.",
+     "focus": 3,
+     "file": "clips/3d8afde31fe6.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "APCs update every calendar year; other outpatient groupers such as EAPGs are used by some payers.",
+     "say": "A P C's update every calendar year; other outpatient groupers such as E A P G's are used by some payers.",
+     "focus": 4,
+     "file": "clips/395839ce29c7.mp3",
+     "seconds": 8.55
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

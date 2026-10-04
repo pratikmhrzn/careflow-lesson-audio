@@ -1,0 +1,869 @@
+{
+ "courseId": "medical",
+ "lessonId": "duplicates-and-versions",
+ "lessonNumber": 12,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 12: Duplicates, Adjustments & Versions.",
+     "say": "Lesson 12: Duplicates, Adjustments and Versions.",
+     "focus": -1,
+     "file": "clips/0789eca0e899.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "One visit, many rows: how to keep exactly one true version of each claim.",
+     "say": "One visit, many rows: how to keep exactly one true version of each claim.",
+     "focus": -1,
+     "file": "clips/aac317305eb6.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Tell an exact duplicate from a near duplicate.",
+     "say": "Tell an exact duplicate from a near duplicate.",
+     "focus": 0,
+     "file": "clips/bc0435bef866.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Explain what a claim frequency code tells you (original, replacement, void).",
+     "say": "Explain what a claim frequency code tells you (original, replacement, void).",
+     "focus": 1,
+     "file": "clips/6eab3662992d.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Read reversals, adjustments and offsets in claims data.",
+     "say": "Read reversals, adjustments and offsets in claims data.",
+     "focus": 2,
+     "file": "clips/4c29de73659d.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Pick the final version of a claim and apply simple dedup rules.",
+     "say": "Pick the final version of a claim and apply simple dedup rules.",
+     "focus": 3,
+     "file": "clips/c3869be3b613.mp3",
+     "seconds": 4.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Your bank statement.",
+     "say": "Your bank statement.",
+     "focus": -1,
+     "file": "clips/04cca9df91e9.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "You send Rs 5,000 by mobile banking, the screen freezes, and you press \"send\" again.",
+     "say": "You send Rs 5,000 by mobile banking, the screen freezes, and you press \"send\" again.",
+     "focus": -1,
+     "file": "clips/e46bf18d1b4c.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "Your statement now shows **two** debits of Rs 5,000.",
+     "say": "Your statement now shows two debits of Rs 5,000.",
+     "focus": -1,
+     "file": "clips/e176a28c7f1a.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "A day later the bank notices and adds a **reversal**: +Rs 5,000.",
+     "say": "A day later the bank notices and adds a reversal: +Rs 5,000.",
+     "focus": -1,
+     "file": "clips/d8dc83ac09ca.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Three rows on the statement, but only Rs 5,000 really left your account.",
+     "say": "Three rows on the statement, but only Rs 5,000 really left your account.",
+     "focus": -1,
+     "file": "clips/bec9850a7e78.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "Claims data is full of rows like these.",
+     "say": "Claims data is full of rows like these.",
+     "focus": -1,
+     "file": "clips/97e2621764bc.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Nepal: Sent twice, corrected once.",
+     "say": "In Nepal: Sent twice, corrected once.",
+     "focus": -1,
+     "file": "clips/3f7d8097c37e.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram sends his claim to his insurer.",
+     "say": "Ram sends his claim to his insurer.",
+     "focus": 0,
+     "file": "clips/d4c91205c8b7.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Two weeks pass with no answer, so he sends the **same bills again**.",
+     "say": "Two weeks pass with no answer, so he sends the same bills again.",
+     "focus": 0,
+     "file": "clips/e5961aa3af03.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "The insurer must spot that the second claim is the same visit, or it would pay Ram twice.",
+     "say": "The insurer must spot that the second claim is the same visit, or it would pay Ram twice.",
+     "focus": 1,
+     "file": "clips/44969f793fb3.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The hospital sends Sita's claim to SSF, then notices it entered the wrong test and sends a **corrected claim**.",
+     "say": "The hospital sends Sita's claim to S S F, then notices it entered the wrong test and sends a corrected claim.",
+     "focus": 2,
+     "file": "clips/d8c34bd3eab3.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "SSF must cancel the first claim and pay only the corrected one.",
+     "say": "S S F must cancel the first claim and pay only the corrected one.",
+     "focus": 3,
+     "file": "clips/160d671359f8.mp3",
+     "seconds": 4.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "The idea in one sentence: **one visit can appear as several rows in claims data, and an analyst must count it exactly once, using its final version.**",
+     "say": "The idea in one sentence: one visit can appear as several rows in claims data, and an analyst must count it exactly once, using its final version.",
+     "focus": -1,
+     "file": "clips/218ab8c47da9.mp3",
+     "seconds": 10.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Exact duplicates vs. near duplicates.",
+     "say": "Exact duplicates versus near duplicates.",
+     "focus": -1,
+     "file": "clips/fe71e46ffa6f.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Exact duplicates vs. near duplicates",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "What it looks like. Exact duplicate: Two rows identical in **every** column, including the claim number. Near duplicate: **Different** claim numbers, but same member, provider, service date, procedure code and amount.",
+     "say": "What it looks like. Exact duplicate: Two rows identical in every column, including the claim number. Near duplicate: Different claim numbers, but same member, provider, service date, procedure code and amount.",
+     "focus": 0,
+     "file": "clips/324716abe75e.mp3",
+     "seconds": 13.85
+    },
+    {
+     "raw": "Usual cause. Exact duplicate: A data file was loaded twice, or a join repeated rows. Near duplicate: The provider sent the same bill again, or two providers billed the same service.",
+     "say": "Usual cause. Exact duplicate: A data file was loaded twice, or a join repeated rows. Near duplicate: The provider sent the same bill again, or two providers billed the same service.",
+     "focus": 1,
+     "file": "clips/e641106cd105.mp3",
+     "seconds": 13.425
+    },
+    {
+     "raw": "Is it ever real? Exact duplicate: No. Remove it. Near duplicate: Sometimes. Two X-rays on the same day can both be real (shown with units or a modifier).",
+     "say": "Is it ever real? Exact duplicate: No. Remove it. Near duplicate: Sometimes. Two X-rays on the same day can both be real (shown with units or a modifier).",
+     "focus": 2,
+     "file": "clips/4a982b1ab48a.mp3",
+     "seconds": 11.575
+    },
+    {
+     "raw": "What to do. Exact duplicate: Drop all but one row. Near duplicate: Flag it, check its status and look for a link to the earlier claim before removing.",
+     "say": "What to do. Exact duplicate: Drop all but one row. Near duplicate: Flag it, check its status and look for a link to the earlier claim before removing.",
+     "focus": 3,
+     "file": "clips/04ce96fbb5ea.mp3",
+     "seconds": 10.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Exact duplicates vs. near duplicates",
+   "lines": [
+    {
+     "raw": "Three angles on duplicates.",
+     "say": "Three angles on duplicates.",
+     "focus": -1,
+     "file": "clips/47435a13f2db.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "This lesson covers what duplicates look like **in data** and how to clean them.",
+     "say": "This lesson covers what duplicates look like in data and how to clean them.",
+     "focus": -1,
+     "file": "clips/68f70bd41eeb.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "The insurer's own check that denies a duplicate claim is covered in the Claim Adjudication course.",
+     "say": "The insurer's own check that denies a duplicate claim is covered in the Claim Adjudication course.",
+     "focus": -1,
+     "file": "clips/b047eefaf1b9.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "Deliberately billing the same service twice is **fraud**, covered in the Insurance Fraud course.",
+     "say": "Deliberately billing the same service twice is fraud, covered in the Insurance Fraud course.",
+     "focus": -1,
+     "file": "clips/e598fb83a13e.mp3",
+     "seconds": 5.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Frequency codes: original, replacement or void.",
+     "say": "Frequency codes: original, replacement or void.",
+     "focus": -1,
+     "file": "clips/3f8a7571676d.mp3",
+     "seconds": 3.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Frequency codes: original, replacement or void",
+   "lines": [
+    {
+     "raw": "When a provider fixes a claim, it does not edit the old one.",
+     "say": "When a provider fixes a claim, it does not edit the old one.",
+     "focus": -1,
+     "file": "clips/faaf9937b7c6.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "It sends a **new claim** with a **claim frequency code** that says what this claim is meant to do, plus the **original claim number** it refers to.",
+     "say": "It sends a new claim with a claim frequency code that says what this claim is meant to do, plus the original claim number it refers to.",
+     "focus": -1,
+     "file": "clips/d226e60c8330.mp3",
+     "seconds": 8.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Frequency codes: original, replacement or void",
+   "lines": [
+    {
+     "raw": "The three frequency codes you will meet most (for reference, not to memorise).",
+     "say": "The three frequency codes you will meet most (for reference, not to memorise).",
+     "focus": -1,
+     "file": "clips/fa451f4e8116.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "`1`. Meaning: **Original**: the first bill for this service. What the analyst does: Keep, unless a later version replaces or voids it.",
+     "say": "1. Meaning: Original: the first bill for this service. What the analyst does: Keep, unless a later version replaces or voids it.",
+     "focus": 0,
+     "file": "clips/476d9d0ff397.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "`7`. Meaning: **Replacement**: replaces the whole earlier claim. What the analyst does: Keep this one; drop the earlier version.",
+     "say": "7. Meaning: Replacement: replaces the whole earlier claim. What the analyst does: Keep this one; drop the earlier version.",
+     "focus": 1,
+     "file": "clips/d0143d4a4164.mp3",
+     "seconds": 8.5
+    },
+    {
+     "raw": "`8`. Meaning: **Void / cancel**: the earlier claim should never have been sent. What the analyst does: Drop the earlier claim and this one.",
+     "say": "8. Meaning: Void or cancel: the earlier claim should never have been sent. What the analyst does: Drop the earlier claim and this one.",
+     "focus": 2,
+     "file": "clips/b965139c89c4.mp3",
+     "seconds": 8.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Frequency codes: original, replacement or void",
+   "lines": [
+    {
+     "raw": "Where the frequency code lives.",
+     "say": "Where the frequency code lives.",
+     "focus": -1,
+     "file": "clips/8443c990e86d.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Institutional (UB-04). Field: The **last digit of the Type of Bill** (`0111` original, `0117` replacement, `0118` void).",
+     "say": "Institutional (U B 04). Field: The last digit of the Type of Bill (0 1 1 1 original, 0 1 1 7 replacement, 0 1 1 8 void).",
+     "focus": 0,
+     "file": "clips/6ad720db1eda.mp3",
+     "seconds": 12.075
+    },
+    {
+     "raw": "Professional (CMS-1500). Field: A separate **claim frequency** (resubmission) code, next to the original claim number.",
+     "say": "Professional (C M S 1500). Field: A separate claim frequency (resubmission) code, next to the original claim number.",
+     "focus": 1,
+     "file": "clips/2e9cbd59f39c.mp3",
+     "seconds": 9.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Reversals, adjustments and offsets.",
+     "say": "Reversals, adjustments and offsets.",
+     "focus": -1,
+     "file": "clips/2abce628f405.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Reversals, adjustments and offsets",
+   "lines": [
+    {
+     "raw": "Insurers also fix their own mistakes.",
+     "say": "Insurers also fix their own mistakes.",
+     "focus": -1,
+     "file": "clips/4f3d7e8cad60.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "The original payment is not deleted; new rows are added so the history is kept.",
+     "say": "The original payment is not deleted; new rows are added so the history is kept.",
+     "focus": -1,
+     "file": "clips/d1589edcb5e8.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "That is why you see **negative amounts** in claims data.",
+     "say": "That is why you see negative amounts in claims data.",
+     "focus": -1,
+     "file": "clips/e288b7bb56df.mp3",
+     "seconds": 3.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Reversals, adjustments and offsets",
+   "lines": [
+    {
+     "raw": "Reversal.",
+     "say": "Reversal.",
+     "focus": 0,
+     "file": "clips/2a0b68f873c2.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "A copy of the original claim with **negative** amounts.",
+     "say": "A copy of the original claim with negative amounts.",
+     "focus": 0,
+     "file": "clips/934b3d3ba0b6.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "It cancels the original.",
+     "say": "It cancels the original.",
+     "focus": 0,
+     "file": "clips/d07386ec2156.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Adjustment.",
+     "say": "Adjustment.",
+     "focus": 1,
+     "file": "clips/396b3f6b4ef8.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "A new version with the **corrected** amounts, added after the reversal.",
+     "say": "A new version with the corrected amounts, added after the reversal.",
+     "focus": 1,
+     "file": "clips/ec317e7bf94e.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "Refund.",
+     "say": "Refund.",
+     "focus": 2,
+     "file": "clips/665328f59b73.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "The provider sends back money that was overpaid.",
+     "say": "The provider sends back money that was overpaid.",
+     "focus": 2,
+     "file": "clips/56c78b1b3d9e.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Offset.",
+     "say": "Offset.",
+     "focus": 3,
+     "file": "clips/72f58ec427a3.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "Instead of asking for a refund, the insurer pays less on the provider's **next** claim.",
+     "say": "Instead of asking for a refund, the insurer pays less on the provider's next claim.",
+     "focus": 3,
+     "file": "clips/24b96387e821.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "The money is recovered on a different claim.",
+     "say": "The money is recovered on a different claim.",
+     "focus": 3,
+     "file": "clips/235ca13b9bc7.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Reversals, adjustments and offsets",
+   "lines": [
+    {
+     "raw": "An insurer correction in claims data.",
+     "say": "An insurer correction in claims data.",
+     "focus": -1,
+     "file": "clips/34ca0a6b1e88.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Emily's sore throat claim.",
+     "say": "Worked example: Emily's sore throat claim.",
+     "focus": -1,
+     "file": "clips/2edb4ed7e456.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: Emily's sore throat claim",
+   "lines": [
+    {
+     "raw": "The clinic first billed Emily's visit with the wrong office visit code.",
+     "say": "The clinic first billed Emily's visit with the wrong office visit code.",
+     "focus": -1,
+     "file": "clips/eec9ac1ab592.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "It sent a replacement two weeks later.",
+     "say": "It sent a replacement two weeks later.",
+     "focus": -1,
+     "file": "clips/ad1cdb305b7c.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Meanwhile, a data file was loaded twice.",
+     "say": "Meanwhile, a data file was loaded twice.",
+     "focus": -1,
+     "file": "clips/9132491c706b.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "Here is what an analyst finds:",
+     "say": "Here is what an analyst finds:",
+     "focus": -1,
+     "file": "clips/81cba0440b67.mp3",
+     "seconds": 2.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example: Emily's sore throat claim",
+   "lines": [
+    {
+     "raw": "All rows for Emily's visit on 10 March.",
+     "say": "All rows for Emily's visit on 10 March.",
+     "focus": -1,
+     "file": "clips/f2516b926dd0.mp3",
+     "seconds": 3.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example: Emily's sore throat claim",
+   "lines": [
+    {
+     "raw": "Step 1: Drop exact duplicates.",
+     "say": "Step 1: Drop exact duplicates.",
+     "focus": 0,
+     "file": "clips/201956bc7ac4.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Rows 1 and 2 are identical in every column.",
+     "say": "Rows 1 and 2 are identical in every column.",
+     "focus": 0,
+     "file": "clips/a8b17b7b9ccb.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Keep one: 3 rows remain.",
+     "say": "Keep one: 3 rows remain.",
+     "focus": 0,
+     "file": "clips/0085f5e58cc4.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Step 2: Link the family.",
+     "say": "Step 2: Link the family.",
+     "focus": 1,
+     "file": "clips/3f63c65d73f3.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Row 4 says its original is 23098908, so all rows belong to one claim family.",
+     "say": "Row 4 says its original is 23098908, so all rows belong to one claim family.",
+     "focus": 1,
+     "file": "clips/8df872454f9c.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "3a.",
+     "say": "3a.",
+     "focus": 2,
+     "file": "clips/2f91d5a0ca21.mp3",
+     "seconds": 1.4
+    },
+    {
+     "raw": "Net method.",
+     "say": "Net method.",
+     "focus": 2,
+     "file": "clips/520c71e30123.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Sum every remaining row: 77 − 77 + 90 = **$90**.",
+     "say": "Sum every remaining row: 77 − 77 and 90 = 90 dollars.",
+     "focus": 2,
+     "file": "clips/4e91d92c0dec.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "3b.",
+     "say": "3b.",
+     "focus": 3,
+     "file": "clips/1544bef369d3.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Final-version method.",
+     "say": "Final-version method.",
+     "focus": 3,
+     "file": "clips/3a6c6866258d.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "Keep only the latest live version (row 4, a replacement): **$90**.",
+     "say": "Keep only the latest live version (row 4, a replacement): 90 dollars.",
+     "focus": 3,
+     "file": "clips/50820611cc73.mp3",
+     "seconds": 5.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Worked example: Emily's sore throat claim",
+   "lines": [
+    {
+     "raw": "How it goes wrong.",
+     "say": "How it goes wrong.",
+     "focus": -1,
+     "file": "clips/39ef1b2b78a7.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Summing all 4 rows gives 77 + 77 − 77 + 90 = **$167**, almost double the real $90.",
+     "say": "Summing all 4 rows gives 77 and 77 − 77 and 90 = 167 dollars almost double the real 90 dollars.",
+     "focus": -1,
+     "file": "clips/b64ec3e45663.mp3",
+     "seconds": 10.975
+    },
+    {
+     "raw": "Keeping both the original and the replacement without the reversal also gives $167.",
+     "say": "Keeping both the original and the replacement without the reversal also gives 167 dollars.",
+     "focus": -1,
+     "file": "clips/c3e7e0f88eec.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "Pick **one** method (net or final version) and never mix them.",
+     "say": "Pick one method (net or final version) and never mix them.",
+     "focus": -1,
+     "file": "clips/1f4ff7484740.mp3",
+     "seconds": 4.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Simple dedup rules.",
+     "say": "Simple dedup rules.",
+     "focus": -1,
+     "file": "clips/8eee086a8b6e.mp3",
+     "seconds": 1.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Simple dedup rules",
+   "lines": [
+    {
+     "raw": "**Remove exact duplicates**: rows identical in every column.",
+     "say": "Remove exact duplicates: rows identical in every column.",
+     "focus": 0,
+     "file": "clips/84e6f1e123cb.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "**Group versions into a claim family** using the original claim number.",
+     "say": "Group versions into a claim family using the original claim number.",
+     "focus": 1,
+     "file": "clips/90539ae1621d.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "**Choose one method**: sum every row including negative reversals (net), or keep only the latest version that is not voided (final version).",
+     "say": "Choose one method: sum every row including negative reversals (net), or keep only the latest version that is not voided (final version).",
+     "focus": 2,
+     "file": "clips/b0c8e1c17d08.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "**Drop voided families**: if the last version is a void, the claim counts as zero.",
+     "say": "Drop voided families: if the last version is a void, the claim counts as zero.",
+     "focus": 3,
+     "file": "clips/d5b1db87ebdd.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "**Flag near duplicates** (same member, provider, date, code and amount, different claim numbers) and check their status before removing anything: the insurer may already have denied one as a duplicate.",
+     "say": "Flag near duplicates (same member, provider, date, code and amount, different claim numbers) and check their status before removing anything: the insurer may already have denied one as a duplicate.",
+     "focus": 4,
+     "file": "clips/8d52a5ff3614.mp3",
+     "seconds": 12.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Simple dedup rules",
+   "lines": [
+    {
+     "raw": "Why this matters for data.",
+     "say": "Why this matters for data.",
+     "focus": -1,
+     "file": "clips/c8f083c01ae7.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Duplicates and stale versions **inflate** both cost and visit counts.",
+     "say": "Duplicates and stale versions inflate both cost and visit counts.",
+     "focus": -1,
+     "file": "clips/e0bec4684792.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "A cost report that is 5% too high because of double-counted claims can lead to wrong budgets, wrong premiums and false fraud alerts.",
+     "say": "A cost report that is 5 percent too high because of double-counted claims can lead to wrong budgets, wrong premiums and false fraud alerts.",
+     "focus": -1,
+     "file": "clips/ec21f2f02d8d.mp3",
+     "seconds": 9.6
+    },
+    {
+     "raw": "Cleaning versions is usually the first step in any claims analysis.",
+     "say": "Cleaning versions is usually the first step in any claims analysis.",
+     "focus": -1,
+     "file": "clips/3d27fb3ef23f.mp3",
+     "seconds": 4.775
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Exact duplicates are identical rows: remove them.",
+     "say": "Exact duplicates are identical rows: remove them.",
+     "focus": 0,
+     "file": "clips/76e3542b0ef6.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "Near duplicates have different claim numbers for the same service: flag and check them.",
+     "say": "Near duplicates have different claim numbers for the same service: flag and check them.",
+     "focus": 0,
+     "file": "clips/28cfff3a9a0f.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "A frequency code says whether a claim is an original, a replacement or a void, and points to the original claim number.",
+     "say": "A frequency code says whether a claim is an original, a replacement or a void, and points to the original claim number.",
+     "focus": 1,
+     "file": "clips/d66531171d8e.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "Insurer corrections add a negative reversal row and a corrected adjustment row; offsets recover money on a later claim.",
+     "say": "Insurer corrections add a negative reversal row and a corrected adjustment row; offsets recover money on a later claim.",
+     "focus": 2,
+     "file": "clips/eea7b35e8e0f.mp3",
+     "seconds": 8.55
+    },
+    {
+     "raw": "Use one method: sum all versions (net), or keep only the latest non-voided version.",
+     "say": "Use one method: sum all versions (net), or keep only the latest non-voided version.",
+     "focus": 3,
+     "file": "clips/fe3c6534420a.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Never mix them.",
+     "say": "Never mix them.",
+     "focus": 3,
+     "file": "clips/0f7a96a296cc.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Dedup is usually the first step of any claims analysis, because duplicates inflate cost and counts.",
+     "say": "Dedup is usually the first step of any claims analysis, because duplicates inflate cost and counts.",
+     "focus": 4,
+     "file": "clips/6ac5d1a0d8ba.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

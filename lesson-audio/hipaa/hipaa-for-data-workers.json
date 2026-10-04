@@ -1,0 +1,645 @@
+{
+ "courseId": "hipaa",
+ "lessonId": "hipaa-for-data-workers",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: Putting It All Together.",
+     "say": "Lesson 7: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/eddad0e34594.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Follow one data request for Emily's claims through every HIPAA rule, plus the everyday habits that keep PHI safe.",
+     "say": "Follow one data request for Emily's claims through every HIPAA rule, plus the everyday habits that keep P H I safe.",
+     "focus": -1,
+     "file": "clips/3796c7f23583.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Apply the PHI test, Privacy Rule, Security Rule, breach rules and de-identification to one real-looking request.",
+     "say": "Apply the P H I test, Privacy Rule, Security Rule, breach rules and de-identification to one real-looking request.",
+     "focus": 0,
+     "file": "clips/2a771564e1d2.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "Follow the everyday do's and don'ts of working with PHI.",
+     "say": "Follow the everyday do's and don'ts of working with P H I.",
+     "focus": 1,
+     "file": "clips/0cd934ea1123.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "Know which lesson to revisit for each HIPAA question you meet at work.",
+     "say": "Know which lesson to revisit for each HIPAA question you meet at work.",
+     "focus": 2,
+     "file": "clips/7c7fbd0b5caa.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "One request, every rule.",
+     "say": "One request, every rule.",
+     "focus": -1,
+     "file": "clips/72da5db92c8a.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "A recipe uses many skills you learned one at a time: chopping, frying, seasoning.",
+     "say": "A recipe uses many skills you learned one at a time: chopping, frying, seasoning.",
+     "focus": -1,
+     "file": "clips/c3e747234150.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "This lesson cooks one dish.",
+     "say": "This lesson cooks one dish.",
+     "focus": -1,
+     "file": "clips/912e4029caed.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Nothing here is new; it shows how the pieces fit when a real request lands on your desk.",
+     "say": "Nothing here is new; it shows how the pieces fit when a real request lands on your desk.",
+     "focus": -1,
+     "file": "clips/ede86a2fbdeb.mp3",
+     "seconds": 5.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The request.",
+     "say": "The request.",
+     "focus": -1,
+     "file": "clips/ebac6080f09c.mp3",
+     "seconds": 1.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The request",
+   "lines": [
+    {
+     "raw": "Emily's health plan in Texas has hired Ram's startup in Kathmandu to build a dashboard: **\"How many members had strep throat each month in 2025, and what did it cost?\"** Emily's strep throat claim `23098908` is one of the rows.",
+     "say": "Emily's health plan in Texas has hired Ram's startup in Kathmandu to build a dashboard: \"How many members had strep throat each month in 2025, and what did it cost?\" Emily's strep throat claim 2 3 0 9 8 9 0 8 is one of the rows.",
+     "focus": -1,
+     "file": "clips/10291fbad98a.mp3",
+     "seconds": 16.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The request",
+   "lines": [
+    {
+     "raw": "Step 1: Is it PHI?",
+     "say": "Step 1: Is it P H I?",
+     "focus": 0,
+     "file": "clips/46d1b1022058.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "The claims link member IDs and dates to diagnoses and payments, so yes: it is PHI.",
+     "say": "The claims link member I D's and dates to diagnoses and payments, so yes: it is P H I.",
+     "focus": 0,
+     "file": "clips/ead91b0daa79.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "Step 2: Who must protect it?",
+     "say": "Step 2: Who must protect it?",
+     "focus": 1,
+     "file": "clips/ebc4068d9403.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "The plan is a covered entity.",
+     "say": "The plan is a covered entity.",
+     "focus": 1,
+     "file": "clips/4a9e74713e17.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Ram's startup works on its PHI, so it is a business associate and signs a BAA before any data moves.",
+     "say": "Ram's startup works on its P H I, so it is a business associate and signs a B A A before any data moves.",
+     "focus": 1,
+     "file": "clips/b30520f76ea4.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Step 3: Is the use allowed?",
+     "say": "Step 3: Is the use allowed?",
+     "focus": 2,
+     "file": "clips/ebf02a0fd22f.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Studying members' strep throat costs is health care operations, so no patient authorisation is needed.",
+     "say": "Studying members' strep throat costs is health care operations, so no patient authorisation is needed.",
+     "focus": 2,
+     "file": "clips/d713e48c5af7.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Minimum necessary: the dashboard needs diagnosis, service month and amounts, not names or addresses.",
+     "say": "Minimum necessary: the dashboard needs diagnosis, service month and amounts, not names or addresses.",
+     "focus": 2,
+     "file": "clips/65a236fa1fe8.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "Step 4: How is it protected?",
+     "say": "Step 4: How is it protected?",
+     "focus": 3,
+     "file": "clips/71fd2cb87eba.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Data stays on the plan's secure cloud, reached by VPN with two-step login; every query is in the audit log.",
+     "say": "Data stays on the plan's secure cloud, reached by V P N with two-step login; every query is in the audit log.",
+     "focus": 3,
+     "file": "clips/fdcccce4589c.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "Step 5: Can we avoid PHI altogether?",
+     "say": "Step 5: Can we avoid P H I altogether?",
+     "focus": 4,
+     "file": "clips/655893c04fd1.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Monthly trends need months, so Safe Harbor (year only) is not enough.",
+     "say": "Monthly trends need months, so Safe Harbor (year only) is not enough.",
+     "focus": 4,
+     "file": "clips/ba14ccfcabf7.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "The plan uses Expert Determination, or gives a limited data set under a data use agreement.",
+     "say": "The plan uses Expert Determination, or gives a limited data set under a data use agreement.",
+     "focus": 4,
+     "file": "clips/d70661d8eae1.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "Step 6: If something goes wrong.",
+     "say": "Step 6: If something goes wrong.",
+     "focus": 5,
+     "file": "clips/c5adde8ae0a8.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "If an extract is emailed to the wrong person, Ram reports it the same day; the plan decides on notification within the 60-day limit.",
+     "say": "If an extract is emailed to the wrong person, Ram reports it the same day; the plan decides on notification within the 60-day limit.",
+     "focus": 5,
+     "file": "clips/48983dfbe2b6.mp3",
+     "seconds": 9.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The request",
+   "lines": [
+    {
+     "raw": "How an analyst sees Emily's row at each stage.",
+     "say": "How an analyst sees Emily's row at each stage.",
+     "focus": -1,
+     "file": "clips/0fb147f2405f.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "Inside the plan's claim system. What Ram's team sees for claim 23098908: Name, member ID `M1001`, date of birth, address, service date 2025-03-10, diagnosis `J02.0`, amounts. HIPAA status: Full PHI.",
+     "say": "Inside the plan's claim system. What Ram's team sees for claim 23098908: Name, member I D M 1 0 0 1, date of birth, address, service date 2025-03-10, diagnosis J 0 2 . 0, amounts. HIPAA status: Full P H I.",
+     "focus": 0,
+     "file": "clips/09cde788d79c.mp3",
+     "seconds": 21.575
+    },
+    {
+     "raw": "Limited data set for the project. What Ram's team sees for claim 23098908: Random study ID, service date, ZIP, diagnosis, amounts. HIPAA status: Still PHI, under a data use agreement.",
+     "say": "Limited data set for the project. What Ram's team sees for claim 23098908: Random study I D, service date, Z I P, diagnosis, amounts. HIPAA status: Still P H I, under a data use agreement.",
+     "focus": 1,
+     "file": "clips/527a83a008b3.mp3",
+     "seconds": 17.425
+    },
+    {
+     "raw": "Expert-determined dashboard table. What Ram's team sees for claim 23098908: Study ID, service month 2025-03, 3-digit ZIP, diagnosis, amounts. HIPAA status: Not PHI, if the expert certified it.",
+     "say": "Expert-determined dashboard table. What Ram's team sees for claim 23098908: Study I D, service month 2 0 2 5 dash 0 3, 3-digit Z I P, diagnosis, amounts. HIPAA status: Not P H I, if the expert certified it.",
+     "focus": 2,
+     "file": "clips/7347d4eecada.mp3",
+     "seconds": 19.625
+    },
+    {
+     "raw": "Published dashboard. What Ram's team sees for claim 23098908: \"Strep throat claims in March 2025: 1,240; average allowed $80\". HIPAA status: Not PHI: totals only.",
+     "say": "Published dashboard. What Ram's team sees for claim 23098908: \"Strep throat claims in March 2025: 1,240; average allowed 80 dollars\". HIPAA status: Not P H I: totals only.",
+     "focus": 3,
+     "file": "clips/3ecd2cc8efe9.mp3",
+     "seconds": 17.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Everyday do's and don'ts.",
+     "say": "Everyday do's and don'ts.",
+     "focus": -1,
+     "file": "clips/dd6cc205aa45.mp3",
+     "seconds": 2.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Everyday do's and don'ts",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Keep PHI inside approved, secured systems. Don't: Put PHI in personal email, Slack, WhatsApp or Viber messages.",
+     "say": "Keep P H I inside approved, secured systems. Don't: Put P H I in personal email, Slack, WhatsApp or Viber messages.",
+     "focus": 0,
+     "file": "clips/27b32f4e5aea.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "Refer to records by a ticket or claim key inside the secure system. Don't: Paste screenshots of claim rows into tickets, chats or slide decks.",
+     "say": "Refer to records by a ticket or claim key inside the secure system. Don't: Paste screenshots of claim rows into tickets, chats or slide decks.",
+     "focus": 1,
+     "file": "clips/101c79692389.mp3",
+     "seconds": 10.025
+    },
+    {
+     "raw": "Use **synthetic** (fake) or de-identified data for development and testing. Don't: Copy production claims into a test database or your laptop.",
+     "say": "Use synthetic (fake) or de-identified data for development and testing. Don't: Copy production claims into a test database or your laptop.",
+     "focus": 2,
+     "file": "clips/8e94d252e23f.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "Select only the columns and rows you need (minimum necessary). Don't: Run `SELECT *` and export everything to Excel \"just in case\".",
+     "say": "Select only the columns and rows you need (minimum necessary). Don't: Run SELECT * and export everything to Excel \"just in case\".",
+     "focus": 3,
+     "file": "clips/0922285d9c87.mp3",
+     "seconds": 9.95
+    },
+    {
+     "raw": "Use your own login; lock your screen when you step away. Don't: Share passwords or let a colleague use your account.",
+     "say": "Use your own login; lock your screen when you step away. Don't: Share passwords or let a colleague use your account.",
+     "focus": 4,
+     "file": "clips/7d8f6d1f1698.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "Use only tools your company has approved for PHI (with a BAA in place). Don't: Paste PHI into a public AI chatbot or online formatter.",
+     "say": "Use only tools your company has approved for P H I (with a B A A in place). Don't: Paste P H I into a public A I chatbot or online formatter.",
+     "focus": 5,
+     "file": "clips/474f80fec63c.mp3",
+     "seconds": 10.875
+    },
+    {
+     "raw": "Delete extracts when the task is done, following policy. Don't: Leave old files in Downloads or shared folders.",
+     "say": "Delete extracts when the task is done, following policy. Don't: Leave old files in Downloads or shared folders.",
+     "focus": 6,
+     "file": "clips/00a07801d762.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "Report a mistake **immediately**, even a small one. Don't: Hide a wrong email and hope nobody notices.",
+     "say": "Report a mistake immediately, even a small one. Don't: Hide a wrong email and hope nobody notices.",
+     "focus": 7,
+     "file": "clips/8791190e61b4.mp3",
+     "seconds": 7.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Everyday do's and don'ts",
+   "lines": [
+    {
+     "raw": "In Nepal: A day in a Kathmandu data team.",
+     "say": "In Nepal: A day in a Kathmandu data team.",
+     "focus": -1,
+     "file": "clips/de63aaa0776f.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's startup wins a contract to build dashboards for a US health plan.",
+     "say": "Ram's startup wins a contract to build dashboards for a U S health plan.",
+     "focus": 0,
+     "file": "clips/0e5a83a6a951.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Before any data arrives, the plan makes the startup sign a **BAA**, and Ram completes HIPAA training.",
+     "say": "Before any data arrives, the plan makes the startup sign a B A A, and Ram completes HIPAA training.",
+     "focus": 0,
+     "file": "clips/74465b7cdb60.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "Ram builds and tests the dashboards on **synthetic data**.",
+     "say": "Ram builds and tests the dashboards on synthetic data.",
+     "focus": 1,
+     "file": "clips/83f2df4bd91e.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Real claims stay on the client's secure cloud, which he reaches through a VPN with two-step login.",
+     "say": "Real claims stay on the client's secure cloud, which he reaches through a V P N with two-step login.",
+     "focus": 1,
+     "file": "clips/55f6fab80031.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "When a colleague asks on Slack, \"why is this member's total wrong?\", Ram replies with only the random study ID and asks him to check inside the secure system.",
+     "say": "When a colleague asks on Slack, \"why is this member's total wrong?\", Ram replies with only the random study I D and asks him to check inside the secure system.",
+     "focus": 2,
+     "file": "clips/2285d5e2adc5.mp3",
+     "seconds": 10.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Everyday do's and don'ts",
+   "lines": [
+    {
+     "raw": "In the US: Emily's side of the story.",
+     "say": "In the U S: Emily's side of the story.",
+     "focus": -1,
+     "file": "clips/4a29230ca614.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Emily never sees any of this.",
+     "say": "Emily never sees any of this.",
+     "focus": 0,
+     "file": "clips/0b85ad54be27.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "She just trusts that her strep throat, her appendix surgery and her prescriptions stay private.",
+     "say": "She just trusts that her strep throat, her appendix surgery and her prescriptions stay private.",
+     "focus": 0,
+     "file": "clips/3c26d027ce91.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "Every analyst who touches her rows, in Texas or in Kathmandu, is part of keeping that promise.",
+     "say": "Every analyst who touches her rows, in Texas or in Kathmandu, is part of keeping that promise.",
+     "focus": 1,
+     "file": "clips/ee141d8ef634.mp3",
+     "seconds": 6.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Where each idea lives in this course.",
+     "say": "Where each idea lives in this course.",
+     "focus": -1,
+     "file": "clips/0087e7e5ff59.mp3",
+     "seconds": 2.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Where each idea lives in this course",
+   "lines": [
+    {
+     "raw": "Situation → lesson map.",
+     "say": "Situation to lesson map.",
+     "focus": -1,
+     "file": "clips/8967ab2177a5.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "A client mentions HIPAA in a contract. Question to ask: Which rules apply to us? Lesson: 1 What is HIPAA?",
+     "say": "A client mentions HIPAA in a contract. Question to ask: Which rules apply to us? Lesson: 1 What is HIPAA?",
+     "focus": 0,
+     "file": "clips/842cb222451f.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "You receive a new data file. Question to ask: Does it contain PHI? Are we a business associate with a BAA? Lesson: 2 PHI & Who Must Protect It.",
+     "say": "You receive a new data file. Question to ask: Does it contain P H I? Are we a business associate with a B A A? Lesson: 2 P H I and Who Must Protect It.",
+     "focus": 1,
+     "file": "clips/0799b21c5231.mp3",
+     "seconds": 11.15
+    },
+    {
+     "raw": "Someone asks for data. Question to ask: Is the use allowed? What is the minimum necessary? Lesson: 3 The Privacy Rule.",
+     "say": "Someone asks for data. Question to ask: Is the use allowed? What is the minimum necessary? Lesson: 3 The Privacy Rule.",
+     "focus": 2,
+     "file": "clips/5d0e39c254e7.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "You set up a database or laptop. Question to ask: Which administrative, physical and technical safeguards are in place? Lesson: 4 The Security Rule.",
+     "say": "You set up a database or laptop. Question to ask: Which administrative, physical and technical safeguards are in place? Lesson: 4 The Security Rule.",
+     "focus": 3,
+     "file": "clips/bb80f87f1f9e.mp3",
+     "seconds": 10.6
+    },
+    {
+     "raw": "Data went somewhere it should not. Question to ask: Is it a breach? Who must be told, and by when? Lesson: 5 Breaches & Penalties.",
+     "say": "Data went somewhere it should not. Question to ask: Is it a breach? Who must be told, and by when? Lesson: 5 Breaches and Penalties.",
+     "focus": 4,
+     "file": "clips/3c23efa07dbd.mp3",
+     "seconds": 8.95
+    },
+    {
+     "raw": "You want to share or test with data. Question to ask: Can it be de-identified, or a limited data set? Lesson: 6 De-identification.",
+     "say": "You want to share or test with data. Question to ask: Can it be de-identified, or a limited data set? Lesson: 6 De-identification.",
+     "focus": 5,
+     "file": "clips/bcf748b11422.mp3",
+     "seconds": 9.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Where each idea lives in this course",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You now know what HIPAA is, what counts as PHI, who must protect it, how the Privacy and Security Rules work, what to do after a breach, and how to de-identify data.",
+     "say": "You now know what HIPAA is, what counts as P H I, who must protect it, how the Privacy and Security Rules work, what to do after a breach, and how to de-identify data.",
+     "focus": -1,
+     "file": "clips/aac5146a74e9.mp3",
+     "seconds": 11.4
+    },
+    {
+     "raw": "That completes the Foundations courses.",
+     "say": "That completes the Foundations courses.",
+     "focus": -1,
+     "file": "clips/f83fda3f08da.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Next, start the data courses with **Eligibility**, and spot every identifier in the member rows you meet there.",
+     "say": "Next, start the data courses with Eligibility, and spot every identifier in the member rows you meet there.",
+     "focus": -1,
+     "file": "clips/86690054595d.mp3",
+     "seconds": 6.925
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Every HIPAA question at work follows the same path: Is it PHI?",
+     "say": "Every HIPAA question at work follows the same path: Is it P H I?",
+     "focus": 0,
+     "file": "clips/99c93f8e2892.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Who must protect it?",
+     "say": "Who must protect it?",
+     "focus": 0,
+     "file": "clips/e98543b51d10.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Is the use allowed?",
+     "say": "Is the use allowed?",
+     "focus": 0,
+     "file": "clips/fcc4a7bf682f.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "How is it protected?",
+     "say": "How is it protected?",
+     "focus": 0,
+     "file": "clips/cd662888c9b4.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Can we de-identify?",
+     "say": "Can we de-identify?",
+     "focus": 0,
+     "file": "clips/307cf278228a.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "What if it leaks?",
+     "say": "What if it leaks?",
+     "focus": 0,
+     "file": "clips/08303d2b009c.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Minimum necessary and de-identification work together: share the least detail that still answers the question.",
+     "say": "Minimum necessary and de-identification work together: share the least detail that still answers the question.",
+     "focus": 1,
+     "file": "clips/f7d1abf480e6.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "Keep PHI out of email, chat, screenshots, test systems and unapproved tools.",
+     "say": "Keep P H I out of email, chat, screenshots, test systems and unapproved tools.",
+     "focus": 2,
+     "file": "clips/410d2e4b2e32.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "Use synthetic or de-identified data for development and testing.",
+     "say": "Use synthetic or de-identified data for development and testing.",
+     "focus": 3,
+     "file": "clips/c00bcc807d59.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Report mistakes immediately: the breach clock starts at discovery.",
+     "say": "Report mistakes immediately: the breach clock starts at discovery.",
+     "focus": 4,
+     "file": "clips/6ece50786132.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

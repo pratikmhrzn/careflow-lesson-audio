@@ -1,0 +1,743 @@
+{
+ "courseId": "revenue-cycle",
+ "lessonId": "what-is-revenue-cycle",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What is the Revenue Cycle?",
+     "say": "Lesson 1: What is the Revenue Cycle?",
+     "focus": -1,
+     "file": "clips/e5e7dda28e02.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "The provider's view of getting paid, from the first phone call to the last dollar.",
+     "say": "The provider's view of getting paid, from the first phone call to the last dollar.",
+     "focus": -1,
+     "file": "clips/ed601bf58b08.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain revenue cycle management (RCM) in one sentence.",
+     "say": "Explain revenue cycle management (R C M) in one sentence.",
+     "focus": 0,
+     "file": "clips/255dd92ee593.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Name the three parts of the cycle: front end, mid cycle and back end.",
+     "say": "Name the three parts of the cycle: front end, mid cycle and back end.",
+     "focus": 1,
+     "file": "clips/4fd0251b312c.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Tell the provider's view (RCM) apart from the insurer's view (adjudication).",
+     "say": "Tell the provider's view (R C M) apart from the insurer's view (adjudication).",
+     "focus": 2,
+     "file": "clips/591c879ba6ec.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "Explain what accounts receivable (AR) means.",
+     "say": "Explain what accounts receivable (A R) means.",
+     "focus": 3,
+     "file": "clips/6524814c9367.mp3",
+     "seconds": 3.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet our people.",
+     "say": "Meet our people.",
+     "focus": -1,
+     "file": "clips/f8aec1fba809.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "This course follows three people.",
+     "say": "This course follows three people.",
+     "focus": -1,
+     "file": "clips/47febabdfc42.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "**Ram** works at a tech startup in Kathmandu and has private health insurance: he pays the hospital himself, then claims the money back.",
+     "say": "Ram works at a tech startup in Kathmandu and has private health insurance: he pays the hospital himself, then claims the money back.",
+     "focus": -1,
+     "file": "clips/1babb4e54ee7.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "**Sita** is an accountant in Kathmandu who contributes to the Social Security Fund (SSF): she pays her share at an SSF-listed hospital and SSF pays the hospital the rest.",
+     "say": "Sita is an accountant in Kathmandu who contributes to the Social Security Fund (S S F): she pays her share at an S S F listed hospital and S S F pays the hospital the rest.",
+     "focus": -1,
+     "file": "clips/dff23bfd2813.mp3",
+     "seconds": 13.025
+    },
+    {
+     "raw": "**Emily Carter** is an office worker in Texas, USA, covered by her employer's PPO plan (a Preferred Provider Organization plan) with **Lone Star Health Insurance** (fictional).",
+     "say": "Emily Carter is an office worker in Texas, U S A, covered by her employer's P P O plan (a Preferred Provider Organization plan) with Lone Star Health Insurance (fictional).",
+     "focus": -1,
+     "file": "clips/0eb25baf4ccf.mp3",
+     "seconds": 12.375
+    },
+    {
+     "raw": "On **10 March 2025** she saw **Dr. Patel** at **Sunrise Family Clinic** (fictional) for a sore throat.",
+     "say": "On 10 March 2025 she saw Doctor Patel at Sunrise Family Clinic (fictional) for a sore throat.",
+     "focus": -1,
+     "file": "clips/27d5ce0deb5c.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "This course looks at that visit from the **clinic's** side: how the clinic made sure it got paid.",
+     "say": "This course looks at that visit from the clinic's side: how the clinic made sure it got paid.",
+     "focus": -1,
+     "file": "clips/80c214628a2e.mp3",
+     "seconds": 5.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "In Nepal: A hospital in Kathmandu has to get paid too.",
+     "say": "In Nepal: A hospital in Kathmandu has to get paid too.",
+     "focus": -1,
+     "file": "clips/6a8b25b367b5.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "When Ram visits a private hospital, he usually pays at the **billing counter** before or right after he is seen.",
+     "say": "When Ram visits a private hospital, he usually pays at the billing counter before or right after he is seen.",
+     "focus": 0,
+     "file": "clips/f8a9c3123d8e.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "The hospital has its money the same day.",
+     "say": "The hospital has its money the same day.",
+     "focus": 0,
+     "file": "clips/679aa27a3f5d.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "For the hospital, Ram's visit is simple: register him, record the services, print the bill, take the cash.",
+     "say": "For the hospital, Ram's visit is simple: register him, record the services, print the bill, take the cash.",
+     "focus": 1,
+     "file": "clips/22698ddb0230.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "Ram's insurer is Ram's problem, not the hospital's.",
+     "say": "Ram's insurer is Ram's problem, not the hospital's.",
+     "focus": 1,
+     "file": "clips/038243d87f8b.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "When Sita is treated at an SSF-listed hospital, the hospital collects only her share at the counter.",
+     "say": "When Sita is treated at an S S F listed hospital, the hospital collects only her share at the counter.",
+     "focus": 2,
+     "file": "clips/d5e5ba6e844a.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "The rest must be **claimed from SSF**.",
+     "say": "The rest must be claimed from S S F.",
+     "focus": 2,
+     "file": "clips/a7479f660805.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "So the hospital must check Sita is an SSF contributor, record every service, send a claim, follow up if SSF asks questions, and wait for payment.",
+     "say": "So the hospital must check Sita is an S S F contributor, record every service, send a claim, follow up if S S F asks questions, and wait for payment.",
+     "focus": 3,
+     "file": "clips/587e40de5fe3.mp3",
+     "seconds": 10.95
+    },
+    {
+     "raw": "If the claim has a mistake, the money comes late or not at all.",
+     "say": "If the claim has a mistake, the money comes late or not at all.",
+     "focus": 3,
+     "file": "clips/2b0d01aa6e79.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "That chain of jobs, from registration to money in the bank, is what the US calls the **revenue cycle**.",
+     "say": "That chain of jobs, from registration to money in the bank, is what the U S calls the revenue cycle.",
+     "focus": 4,
+     "file": "clips/2fc646e1de3e.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "(SSF procedures change over time, so treat this as the general idea.).",
+     "say": "(S S F procedures change over time, so treat this as the general idea.).",
+     "focus": 4,
+     "file": "clips/0cd7728245db.mp3",
+     "seconds": 5.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "Simple definition.",
+     "say": "Simple definition.",
+     "focus": -1,
+     "file": "clips/a5c5927139e3.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "**Revenue cycle management (RCM)** is everything a doctor's office or hospital does to get paid for care: from the moment a patient books a visit until every dollar is collected or written off.",
+     "say": "Revenue cycle management (R C M) is everything a doctor's office or hospital does to get paid for care: from the moment a patient books a visit until every dollar is collected or written off.",
+     "focus": -1,
+     "file": "clips/3288395d8958.mp3",
+     "seconds": 13.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "In the US: Why the US revenue cycle is long.",
+     "say": "In the U S: Why the U S revenue cycle is long.",
+     "focus": -1,
+     "file": "clips/a0300bef9ac6.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Most US patients have insurance, so most of the money comes from an **insurer** (the payer), not the patient, and it arrives **weeks later**.",
+     "say": "Most U S patients have insurance, so most of the money comes from an insurer (the payer), not the patient, and it arrives weeks later.",
+     "focus": 0,
+     "file": "clips/6aa2eb065224.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "A clinic may bill dozens of insurers, and each has its own plans, rules and forms.",
+     "say": "A clinic may bill dozens of insurers, and each has its own plans, rules and forms.",
+     "focus": 1,
+     "file": "clips/0d0fbadb39a8.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "The patient pays a **share** (copay, deductible, coinsurance), sometimes at the visit and sometimes after the insurer has decided.",
+     "say": "The patient pays a share (copay, deductible, coinsurance), sometimes at the visit and sometimes after the insurer has decided.",
+     "focus": 2,
+     "file": "clips/9192241924c0.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "Every step can go wrong: a typo at registration, a missing code, a missing approval.",
+     "say": "Every step can go wrong: a typo at registration, a missing code, a missing approval.",
+     "focus": 3,
+     "file": "clips/d2f0730d1d98.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Each mistake delays or loses money.",
+     "say": "Each mistake delays or loses money.",
+     "focus": 3,
+     "file": "clips/2db1ce7c2686.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Providers run this with a **billing office** (in hospitals often called **patient financial services**) or hire an outside **RCM company** to do it for them.",
+     "say": "Providers run this with a billing office (in hospitals often called patient financial services) or hire an outside R C M company to do it for them.",
+     "focus": 4,
+     "file": "clips/c9a09da817dd.mp3",
+     "seconds": 10.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Three parts of the cycle.",
+     "say": "Three parts of the cycle.",
+     "focus": -1,
+     "file": "clips/8b822c5cd645.mp3",
+     "seconds": 2.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Three parts of the cycle",
+   "lines": [
+    {
+     "raw": "Front end: before the visit.",
+     "say": "Front end: before the visit.",
+     "focus": 0,
+     "file": "clips/15f22ca55e42.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Scheduling, registration, checking insurance, getting approvals, estimating and collecting the patient's share.",
+     "say": "Scheduling, registration, checking insurance, getting approvals, estimating and collecting the patient's share.",
+     "focus": 0,
+     "file": "clips/69bd7250325e.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "Lesson 2.",
+     "say": "Lesson 2.",
+     "focus": 0,
+     "file": "clips/d38bc408e0f5.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Mid cycle: during and after the visit.",
+     "say": "Mid cycle: during and after the visit.",
+     "focus": 1,
+     "file": "clips/2636486462f0.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Recording every service (charge capture), the price list, documentation and coding.",
+     "say": "Recording every service (charge capture), the price list, documentation and coding.",
+     "focus": 1,
+     "file": "clips/d7abc977c069.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "Lesson 3.",
+     "say": "Lesson 3.",
+     "focus": 1,
+     "file": "clips/60b30434816e.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Back end: getting the money in.",
+     "say": "Back end: getting the money in.",
+     "focus": 2,
+     "file": "clips/d149d8c3d682.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Building and sending claims, fixing rejections, following up, posting payments (lesson 4), working denials (lesson 5) and collecting from patients (lesson 6).",
+     "say": "Building and sending claims, fixing rejections, following up, posting payments (lesson 4), working denials (lesson 5) and collecting from patients (lesson 6).",
+     "focus": 2,
+     "file": "clips/3419a039f059.mp3",
+     "seconds": 10.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Three parts of the cycle",
+   "lines": [
+    {
+     "raw": "Who does what.",
+     "say": "Who does what.",
+     "focus": -1,
+     "file": "clips/8067250bbd0a.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "**Front end**. Main jobs: Book, register, verify insurance, collect copay. Usually done by: Schedulers, front desk, registration staff. Typical problem: Wrong insurance ID typed in.",
+     "say": "Front end. Main jobs: Book, register, verify insurance, collect copay. Usually done by: Schedulers, front desk, registration staff. Typical problem: Wrong insurance I D typed in.",
+     "focus": 0,
+     "file": "clips/6df22306f989.mp3",
+     "seconds": 13.575
+    },
+    {
+     "raw": "**Mid cycle**. Main jobs: Capture charges, document, code. Usually done by: Doctors, nurses, medical coders. Typical problem: A test was done but never charged.",
+     "say": "Mid cycle. Main jobs: Capture charges, document, code. Usually done by: Doctors, nurses, medical coders. Typical problem: A test was done but never charged.",
+     "focus": 1,
+     "file": "clips/c15428c2b7f1.mp3",
+     "seconds": 12.025
+    },
+    {
+     "raw": "**Back end**. Main jobs: Send claims, follow up, post payments, appeal denials, bill patients. Usually done by: Billing staff, follow-up and denial teams. Typical problem: Claim denied and nobody notices for 90 days.",
+     "say": "Back end. Main jobs: Send claims, follow up, post payments, appeal denials, bill patients. Usually done by: Billing staff, follow-up and denial teams. Typical problem: Claim denied and nobody notices for 90 days.",
+     "focus": 2,
+     "file": "clips/2594ccbd7816.mp3",
+     "seconds": 15.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Key words.",
+     "say": "Key words.",
+     "focus": -1,
+     "file": "clips/5d94652153b6.mp3",
+     "seconds": 1.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Key words",
+   "lines": [
+    {
+     "raw": "Charge.",
+     "say": "Charge.",
+     "focus": 0,
+     "file": "clips/fc6d31e3207d.mp3",
+     "seconds": 1.425
+    },
+    {
+     "raw": "The amount the provider records for a service, from its own price list.",
+     "say": "The amount the provider records for a service, from its own price list.",
+     "focus": 0,
+     "file": "clips/49ad1db3623d.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "It is the starting point, not what the provider will actually be paid.",
+     "say": "It is the starting point, not what the provider will actually be paid.",
+     "focus": 0,
+     "file": "clips/49ef1ce65a41.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Accounts receivable (AR).",
+     "say": "Accounts receivable (A R).",
+     "focus": 1,
+     "file": "clips/29d2d4952be2.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Money the provider is **owed but has not received yet**, from insurers and patients.",
+     "say": "Money the provider is owed but has not received yet, from insurers and patients.",
+     "focus": 1,
+     "file": "clips/888fc69cf38c.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Every charge enters AR and leaves it when it is paid, adjusted or written off.",
+     "say": "Every charge enters A R and leaves it when it is paid, adjusted or written off.",
+     "focus": 1,
+     "file": "clips/4805c47a3e12.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "Guarantor.",
+     "say": "Guarantor.",
+     "focus": 2,
+     "file": "clips/4c13c80e49ef.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "The person responsible for paying the patient's share.",
+     "say": "The person responsible for paying the patient's share.",
+     "focus": 2,
+     "file": "clips/59ce5603d14f.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "For an adult it is usually the patient; for a child, a parent.",
+     "say": "For an adult it is usually the patient; for a child, a parent.",
+     "focus": 2,
+     "file": "clips/e052e66bb01f.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "Write-off (adjustment).",
+     "say": "Write-off (adjustment).",
+     "focus": 3,
+     "file": "clips/b1c07382435c.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Taking an amount off the patient's account without collecting it, for example the insurer's contract discount.",
+     "say": "Taking an amount off the patient's account without collecting it, for example the insurer's contract discount.",
+     "focus": 3,
+     "file": "clips/db04f6d03d0c.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Payer.",
+     "say": "Payer.",
+     "focus": 4,
+     "file": "clips/45bb3e6f2029.mp3",
+     "seconds": 1.275
+    },
+    {
+     "raw": "Whoever pays the claim: an insurer, Medicare, Medicaid or the patient.",
+     "say": "Whoever pays the claim: an insurer, Medicare, Medicaid or the patient.",
+     "focus": 4,
+     "file": "clips/f77ae83d7957.mp3",
+     "seconds": 4.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Key words",
+   "lines": [
+    {
+     "raw": "Two sides of the same claim.",
+     "say": "Two sides of the same claim.",
+     "focus": -1,
+     "file": "clips/39871dbe08a0.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "The **Claim Adjudication** course follows a claim **inside the insurer**: how it is checked and priced.",
+     "say": "The Claim Adjudication course follows a claim inside the insurer: how it is checked and priced.",
+     "focus": -1,
+     "file": "clips/1a4eaab14c52.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "RCM is the **provider's** side: preparing the claim so it passes those checks, and chasing the money when it does not.",
+     "say": "R C M is the provider's side: preparing the claim so it passes those checks, and chasing the money when it does not.",
+     "focus": -1,
+     "file": "clips/c5f36c92eb80.mp3",
+     "seconds": 7.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Emily's visit from the clinic's side.",
+     "say": "Worked example: Emily's visit from the clinic's side.",
+     "focus": -1,
+     "file": "clips/d56bc7dd1120.mp3",
+     "seconds": 3.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: Emily's visit from the clinic's side",
+   "lines": [
+    {
+     "raw": "Sunrise Family Clinic: Emily's strep throat visit.",
+     "say": "Sunrise Family Clinic: Emily's strep throat visit.",
+     "focus": -1,
+     "file": "clips/3e9fb897721c.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "3 Mar 2025. Part: Front end. What the clinic did: Booked the visit, checked her insurance was active. Emily's account balance: $0.",
+     "say": "3 Mar 2025. Part: Front end. What the clinic did: Booked the visit, checked her insurance was active. Emily's account balance: 0 dollars.",
+     "focus": 0,
+     "file": "clips/3af75038bd6e.mp3",
+     "seconds": 10.85
+    },
+    {
+     "raw": "10 Mar 2025. Part: Front end. What the clinic did: Checked her in, collected the **$25 copay**. Emily's account balance: −$25 (credit).",
+     "say": "10 Mar 2025. Part: Front end. What the clinic did: Checked her in, collected the 25 dollars copay. Emily's account balance: −25 dollars (credit).",
+     "focus": 1,
+     "file": "clips/d70bce5bcd8d.mp3",
+     "seconds": 12.3
+    },
+    {
+     "raw": "10 Mar 2025. Part: Mid cycle. What the clinic did: Dr. Patel saw her and did a rapid strep test; two charges recorded, total **$150**. Emily's account balance: $125.",
+     "say": "10 Mar 2025. Part: Mid cycle. What the clinic did: Doctor Patel saw her and did a rapid strep test; two charges recorded, total 150 dollars. Emily's account balance: 125 dollars.",
+     "focus": 2,
+     "file": "clips/859a0231cd10.mp3",
+     "seconds": 15.8
+    },
+    {
+     "raw": "11 Mar 2025. Part: Back end. What the clinic did: Claim sent to Lone Star Health Insurance. Emily's account balance: $125.",
+     "say": "11 Mar 2025. Part: Back end. What the clinic did: Claim sent to Lone Star Health Insurance. Emily's account balance: 125 dollars.",
+     "focus": 3,
+     "file": "clips/eb396933bf2f.mp3",
+     "seconds": 11.5
+    },
+    {
+     "raw": "26 Mar 2025. Part: Back end. What the clinic did: Insurer paid **$77**; the **$48** contract discount written off. Emily's account balance: $0.",
+     "say": "26 Mar 2025. Part: Back end. What the clinic did: Insurer paid 77 dollars; the 48 dollars contract discount written off. Emily's account balance: 0 dollars.",
+     "focus": 4,
+     "file": "clips/9340e1b452f3.mp3",
+     "seconds": 13.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: Emily's visit from the clinic's side",
+   "lines": [
+    {
+     "raw": "From booking to a **$0 balance** took 23 days, and from the visit 16 days.",
+     "say": "From booking to a 0 dollars balance took 23 days, and from the visit 16 days.",
+     "focus": -1,
+     "file": "clips/9b4bee2e9087.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "For those 16 days the $125 sat in the clinic's **accounts receivable**.",
+     "say": "For those 16 days the 125 dollars sat in the clinic's accounts receivable.",
+     "focus": -1,
+     "file": "clips/ae9a1041ac4a.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "A clinic with thousands of visits a month has a lot of money waiting in AR, so speed matters.",
+     "say": "A clinic with thousands of visits a month has a lot of money waiting in A R, so speed matters.",
+     "focus": -1,
+     "file": "clips/0ca6fce61d37.mp3",
+     "seconds": 6.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: Emily's visit from the clinic's side",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Every step of the revenue cycle leaves data: appointments, registrations, insurance checks, charges, claims, acknowledgements, remittances, denials and patient payments.",
+     "say": "Every step of the revenue cycle leaves data: appointments, registrations, insurance checks, charges, claims, acknowledgements, remittances, denials and patient payments.",
+     "focus": -1,
+     "file": "clips/f04852e0da0b.mp3",
+     "seconds": 11.525
+    },
+    {
+     "raw": "Analysts join these to answer two questions: **how fast** does the provider get paid, and **how much** of what it is owed does it actually collect?",
+     "say": "Analysts join these to answer two questions: how fast does the provider get paid, and how much of what it is owed does it actually collect?",
+     "focus": -1,
+     "file": "clips/0cdc5215602b.mp3",
+     "seconds": 8.65
+    },
+    {
+     "raw": "Lesson 7 turns those questions into metrics.",
+     "say": "Lesson 7 turns those questions into metrics.",
+     "focus": -1,
+     "file": "clips/4843399b8e28.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Revenue cycle management (RCM)** = everything a provider does to get paid, from booking to the final dollar.",
+     "say": "Revenue cycle management (R C M) = everything a provider does to get paid, from booking to the final dollar.",
+     "focus": 0,
+     "file": "clips/4a8ea20871a7.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "The cycle has three parts: **front end** (before the visit), **mid cycle** (charges and coding), **back end** (claims, payments, denials, patient bills).",
+     "say": "The cycle has three parts: front end (before the visit), mid cycle (charges and coding), back end (claims, payments, denials, patient bills).",
+     "focus": 1,
+     "file": "clips/1be95c4feb35.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "**Accounts receivable (AR)** is money the provider is owed but has not yet received.",
+     "say": "Accounts receivable (A R) is money the provider is owed but has not yet received.",
+     "focus": 2,
+     "file": "clips/46e185813d55.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "RCM is the provider's view; adjudication is the insurer's view of the same claim.",
+     "say": "R C M is the provider's view; adjudication is the insurer's view of the same claim.",
+     "focus": 3,
+     "file": "clips/689c248bc79f.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,897 @@
+{
+ "courseId": "interoperability",
+ "lessonId": "fhir-and-apis",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: FHIR & APIs.",
+     "say": "Lesson 6: F H I R and A P I's.",
+     "focus": -1,
+     "file": "clips/71a49f792220.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "The modern web standard behind patient apps and the CMS rules.",
+     "say": "The modern web standard behind patient apps and the C M S rules.",
+     "focus": -1,
+     "file": "clips/c6374e515a2c.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what FHIR is and what a \"resource\" is.",
+     "say": "Explain what F H I R is and what a \"resource\" is.",
+     "focus": 0,
+     "file": "clips/c9f43417a604.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "Read a small FHIR Patient and Coverage resource in JSON.",
+     "say": "Read a small F H I R Patient and Coverage resource in J S O N.",
+     "focus": 1,
+     "file": "clips/d548287016fb.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Describe how an app asks for data (REST) and gets permission (SMART on FHIR).",
+     "say": "Describe how an app asks for data (R E S T) and gets permission (S M A R T on F H I R).",
+     "focus": 2,
+     "file": "clips/360a160dc9ac.mp3",
+     "seconds": 7.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What is FHIR?",
+     "say": "What is F H I R?",
+     "focus": -1,
+     "file": "clips/4c035606fec6.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "What is FHIR?",
+   "lines": [
+    {
+     "raw": "**FHIR** (Fast Healthcare Interoperability Resources, said \"fire\") is a standard from **HL7**, the same group behind HL7 v2 and CDA.",
+     "say": "F H I R (Fast Healthcare Interoperability Resources, said \"fire\") is a standard from HL7, the same group behind HL7 v2 and C D A.",
+     "focus": -1,
+     "file": "clips/29944cbd41c8.mp3",
+     "seconds": 11.4
+    },
+    {
+     "raw": "It uses the same technology as ordinary websites and mobile apps, so any developer who has built a web app can learn it quickly.",
+     "say": "It uses the same technology as ordinary websites and mobile apps, so any developer who has built a web app can learn it quickly.",
+     "focus": -1,
+     "file": "clips/a6ac21f181af.mp3",
+     "seconds": 8.475
+    },
+    {
+     "raw": "The CMS API rules in lesson 3 require FHIR, in a version called **R4**.",
+     "say": "The C M S A P I rules in lesson 3 require F H I R, in a version called R4.",
+     "focus": -1,
+     "file": "clips/02300b26eda4.mp3",
+     "seconds": 7.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "What is FHIR?",
+   "lines": [
+    {
+     "raw": "Building blocks.",
+     "say": "Building blocks.",
+     "focus": -1,
+     "file": "clips/aeadad72ebd3.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Think of FHIR like a set of standard **building blocks** (like LEGO).",
+     "say": "Think of F H I R like a set of standard building blocks (like L E G O).",
+     "focus": -1,
+     "file": "clips/b44a3deed2e2.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "Each block is a **resource**: one Patient, one Coverage, one lab result.",
+     "say": "Each block is a resource: one Patient, one Coverage, one lab result.",
+     "focus": -1,
+     "file": "clips/b372127ed787.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Every system uses the same shapes, so blocks from different systems fit together.",
+     "say": "Every system uses the same shapes, so blocks from different systems fit together.",
+     "focus": -1,
+     "file": "clips/eb02ea825ce5.mp3",
+     "seconds": 5.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "What is FHIR?",
+   "lines": [
+    {
+     "raw": "A Nepal comparison.",
+     "say": "A Nepal comparison.",
+     "focus": -1,
+     "file": "clips/33385643ba0a.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Think of the mobile banking and wallet apps many people in Nepal use.",
+     "say": "Think of the mobile banking and wallet apps many people in Nepal use.",
+     "focus": 0,
+     "file": "clips/ea49d039b5b2.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Behind them, apps and banks talk through APIs: the app asks, the bank answers in an agreed format.",
+     "say": "Behind them, apps and banks talk through A P I's: the app asks, the bank answers in an agreed format.",
+     "focus": 0,
+     "file": "clips/0c7118c2438d.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "Imagine Ram's insurer offered the same kind of connection for his claims, so any app he trusts could show them.",
+     "say": "Imagine Ram's insurer offered the same kind of connection for his claims, so any app he trusts could show them.",
+     "focus": 1,
+     "file": "clips/f5851ee7b9c9.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "That is the idea behind FHIR APIs.",
+     "say": "That is the idea behind F H I R A P I's.",
+     "focus": 1,
+     "file": "clips/2083c3eaa7ef.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Imagine Sita's hospital and SSF both described \"a patient\", \"a claim\" and \"a test result\" with the same building blocks.",
+     "say": "Imagine Sita's hospital and S S F both described \"a patient\", \"a claim\" and \"a test result\" with the same building blocks.",
+     "focus": 2,
+     "file": "clips/7d4e84653228.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "A new SSF app could read data from any listed hospital without custom work for each one.",
+     "say": "A new S S F app could read data from any listed hospital without custom work for each one.",
+     "focus": 2,
+     "file": "clips/721b7e77a943.mp3",
+     "seconds": 6.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "What is FHIR?",
+   "lines": [
+    {
+     "raw": "In the US: Where FHIR is used in the US.",
+     "say": "In the U S: Where F H I R is used in the U S.",
+     "focus": -1,
+     "file": "clips/6ab2a4886e18.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Health plans' **Patient Access**, **Provider Directory** and newer APIs required by CMS.",
+     "say": "Health plans' Patient Access, Provider Directory and newer A P I's required by C M S.",
+     "focus": 0,
+     "file": "clips/18b7e2df6108.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "CMS's own **Blue Button 2.0** for Original Medicare claims.",
+     "say": "CMS's own Blue Button 2.0 for Original Medicare claims.",
+     "focus": 1,
+     "file": "clips/a4b329ae2516.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Certified EHRs must offer a standard FHIR API, so patients' apps can read their records.",
+     "say": "Certified E H R's must offer a standard F H I R A P I, so patients' apps can read their records.",
+     "focus": 2,
+     "file": "clips/f47210af8354.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "Some newer data feeds between plans, providers and data companies.",
+     "say": "Some newer data feeds between plans, providers and data companies.",
+     "focus": 3,
+     "file": "clips/2d02af448564.mp3",
+     "seconds": 4.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Common resources.",
+     "say": "Common resources.",
+     "focus": -1,
+     "file": "clips/3f07a4a930ad.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Common resources",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`Patient`. What one record means: One person: name, birth date, sex, address, IDs. Older equivalent: Member table row; HL7 v2 PID segment.",
+     "say": "Patient. What one record means: One person: name, birth date, sex, address, I D's. Older equivalent: Member table row; HL7 v2 P I D segment.",
+     "focus": 0,
+     "file": "clips/347fc6e2c330.mp3",
+     "seconds": 12.075
+    },
+    {
+     "raw": "`Coverage`. What one record means: One insurance coverage: plan, member ID, dates. Older equivalent: Eligibility row; X12 834 / 271.",
+     "say": "Coverage. What one record means: One insurance coverage: plan, member I D, dates. Older equivalent: Eligibility row; X12 8 34 or 2 71.",
+     "focus": 1,
+     "file": "clips/ae06b10b43fc.mp3",
+     "seconds": 12.05
+    },
+    {
+     "raw": "`Encounter`. What one record means: One visit or stay. Older equivalent: HL7 v2 ADT / PV1 segment.",
+     "say": "Encounter. What one record means: One visit or stay. Older equivalent: HL7 v2 A D T or PV1 segment.",
+     "focus": 2,
+     "file": "clips/b4da5aeb97a9.mp3",
+     "seconds": 9.675
+    },
+    {
+     "raw": "`Observation`. What one record means: One measurement or result, such as HbA1c. Older equivalent: HL7 v2 OBX segment.",
+     "say": "Observation. What one record means: One measurement or result, such as H b A 1 c. Older equivalent: HL7 v2 O B X segment.",
+     "focus": 3,
+     "file": "clips/69db7240a0b8.mp3",
+     "seconds": 10.85
+    },
+    {
+     "raw": "`MedicationRequest`. What one record means: One prescription. Older equivalent: NCPDP SCRIPT e-prescription.",
+     "say": "MedicationRequest. What one record means: One prescription. Older equivalent: N C P D P SCRIPT e-prescription.",
+     "focus": 4,
+     "file": "clips/b565ca542f39.mp3",
+     "seconds": 9.075
+    },
+    {
+     "raw": "`ExplanationOfBenefit`. What one record means: One processed claim with amounts billed, allowed and paid. Older equivalent: Claims tables; X12 837 + 835.",
+     "say": "ExplanationOfBenefit. What one record means: One processed claim with amounts billed, allowed and paid. Older equivalent: Claims tables; X12 8 37 and 8 35.",
+     "focus": 5,
+     "file": "clips/662504c6a5a2.mp3",
+     "seconds": 12.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A real-looking example: Emily.",
+     "say": "A real-looking example: Emily.",
+     "focus": -1,
+     "file": "clips/6ec54f1b5d59.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "A real-looking example: Emily",
+   "lines": [
+    {
+     "raw": "**Emily Carter** is an office worker in Texas, born 14 August 1990.",
+     "say": "Emily Carter is an office worker in Texas, born 14 August 1990.",
+     "focus": -1,
+     "file": "clips/16833c59a256.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "She has a PPO plan through her employer, Bluebonnet Logistics (group `G20450`, plan `TXPPO1000`), and has been covered since 1 January 2022.",
+     "say": "She has a P P O plan through her employer, Bluebonnet Logistics (group G 2 0 4 5 0, plan T X P P O 1 0 0 0), and has been covered since 1 January 2022.",
+     "focus": -1,
+     "file": "clips/c8b846ea55ff.mp3",
+     "seconds": 14.4
+    },
+    {
+     "raw": "Her **insurance card** shows ID `48291307-01`; inside her insurer's systems she is member **M1001**.",
+     "say": "Her insurance card shows I D 4 8 2 9 1 3 0 7 dash 0 1; inside her insurer's systems she is member M 1 0 0 1.",
+     "focus": -1,
+     "file": "clips/c1c6774f0666.mp3",
+     "seconds": 11.6
+    },
+    {
+     "raw": "Here is how a system might describe her in FHIR.",
+     "say": "Here is how a system might describe her in F H I R.",
+     "focus": -1,
+     "file": "clips/73e18d64875c.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "All data is **fictional**, and the web addresses use `example.org`, which is reserved for examples.",
+     "say": "All data is fictional, and the web addresses use example.org, which is reserved for examples.",
+     "focus": -1,
+     "file": "clips/4c98cd150123.mp3",
+     "seconds": 6.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "A real-looking example: Emily",
+   "lines": [
+    {
+     "raw": "Emily as a FHIR Patient resource (JSON, fictional data).",
+     "say": "Emily as a F H I R Patient resource (J S O N, fictional data).",
+     "focus": -1,
+     "file": "clips/4118031b00ff.mp3",
+     "seconds": 5.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "A real-looking example: Emily",
+   "lines": [
+    {
+     "raw": "Emily's insurance as a FHIR Coverage resource (JSON, fictional data).",
+     "say": "Emily's insurance as a F H I R Coverage resource (J S O N, fictional data).",
+     "focus": -1,
+     "file": "clips/e5198118fd05.mp3",
+     "seconds": 6.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "A real-looking example: Emily",
+   "lines": [
+    {
+     "raw": "Reading the JSON.",
+     "say": "Reading the J S O N.",
+     "focus": -1,
+     "file": "clips/74877cd80433.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "`{ ... }`. Meaning: One object (one resource). Inside are **\"name\": value** pairs.",
+     "say": "{ ... }. Meaning: One object (one resource). Inside are \"name\": value pairs.",
+     "focus": 0,
+     "file": "clips/77900b660f7b.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "`[ ... ]`. Meaning: A list. A person can have several names, IDs or addresses.",
+     "say": "[ ... ]. Meaning: A list. A person can have several names, I D's or addresses.",
+     "focus": 1,
+     "file": "clips/5a6fe1db9acf.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "`\"resourceType\"`. Meaning: Which building block this is: Patient, Coverage, and so on.",
+     "say": "\"resourceType\". Meaning: Which building block this is: Patient, Coverage, and so on.",
+     "focus": 2,
+     "file": "clips/5fc289620dd0.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "`\"subscriberId\"`. Meaning: The ID on the insurance card, `48291307-01`.",
+     "say": "\"subscriberId\". Meaning: The I D on the insurance card, 4 8 2 9 1 3 0 7 dash 0 1.",
+     "focus": 3,
+     "file": "clips/92033f9e4674.mp3",
+     "seconds": 8.65
+    },
+    {
+     "raw": "`\"beneficiary\": { \"reference\": \"Patient/M1001\" }`. Meaning: A **link** to the Patient resource. Resources point to each other this way.",
+     "say": "\" b e n e f i c i a r y \" : { \" r e f e r e n c e \" : \" P a t i e n t or M 1 0 0 1 \" }. Meaning: A link to the Patient resource. Resources point to each other this way.",
+     "focus": 4,
+     "file": "clips/348da4353246.mp3",
+     "seconds": 14.95
+    },
+    {
+     "raw": "`\"period\": { \"start\": ... }`. Meaning: Coverage start date. No end date means the coverage is still open.",
+     "say": "\"period\": { \"start\": ... }. Meaning: Coverage start date. No end date means the coverage is still open.",
+     "focus": 5,
+     "file": "clips/704550d37a07.mp3",
+     "seconds": 6.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "A real-looking example: Emily",
+   "lines": [
+    {
+     "raw": "Emily's plan and the CMS rules.",
+     "say": "Emily's plan and the C M S rules.",
+     "focus": -1,
+     "file": "clips/d5221ab2e893.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Emily's employer plan is generally not covered by the CMS API rules (lesson 3).",
+     "say": "Emily's employer plan is generally not covered by the C M S A P I rules (lesson 3).",
+     "focus": -1,
+     "file": "clips/78b571d4e337.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "We use her here simply because her data is a clear example.",
+     "say": "We use her here simply because her data is a clear example.",
+     "focus": -1,
+     "file": "clips/c24f22b59dbe.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Many insurers and EHRs use FHIR for all members anyway.",
+     "say": "Many insurers and E H R's use F H I R for all members anyway.",
+     "focus": -1,
+     "file": "clips/ddaed69181c0.mp3",
+     "seconds": 5.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "REST: how an app asks.",
+     "say": "R E S T: how an app asks.",
+     "focus": -1,
+     "file": "clips/fefad6db9fe8.mp3",
+     "seconds": 2.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "REST: how an app asks",
+   "lines": [
+    {
+     "raw": "FHIR APIs use **REST**, the same style as most of the web.",
+     "say": "F H I R A P I's use R E S T, the same style as most of the web.",
+     "focus": -1,
+     "file": "clips/7d2a4a81ff50.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Each resource has an address (a URL).",
+     "say": "Each resource has an address (a U R L).",
+     "focus": -1,
+     "file": "clips/6356cd6cae3a.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "An app sends a request such as **GET** (\"give me\") to that address, and the server answers with JSON.",
+     "say": "An app sends a request such as G E T (\"give me\") to that address, and the server answers with J S O N.",
+     "focus": -1,
+     "file": "clips/0eb5ecda802c.mp3",
+     "seconds": 7.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "REST: how an app asks",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`GET [base]/Patient/M1001`. Meaning: Give me the Patient resource with id M1001.",
+     "say": "G E T [ b a s e ] or P a t i e n t or M 1 0 0 1. Meaning: Give me the Patient resource with id M 1 0 0 1.",
+     "focus": 0,
+     "file": "clips/b08720452c08.mp3",
+     "seconds": 11.45
+    },
+    {
+     "raw": "`GET [base]/Coverage?beneficiary=Patient/M1001`. Meaning: Search: give me all Coverage resources for that patient.",
+     "say": "G E T [ b a s e ] or C o v e r a g e ? b e n e f i c i a r y = P a t i e n t or M 1 0 0 1. Meaning: Search: give me all Coverage resources for that patient.",
+     "focus": 1,
+     "file": "clips/fa9ac1797621.mp3",
+     "seconds": 15.825
+    },
+    {
+     "raw": "`GET [base]/ExplanationOfBenefit?patient=M1001`. Meaning: Give me all processed claims for that patient.",
+     "say": "G E T [ b a s e ] or E x p l a n a t i o n O f B e n e f i t ? p a t i e n t = M 1 0 0 1. Meaning: Give me all processed claims for that patient.",
+     "focus": 2,
+     "file": "clips/7dc2a1639f4b.mp3",
+     "seconds": 14.8
+    },
+    {
+     "raw": "`GET [base]/Observation?patient=M1001&code=4548-4`. Meaning: Give me that patient's HbA1c results (LOINC 4548-4).",
+     "say": "G E T [ b a s e ] or O b s e r v a t i o n ? p a t i e n t = M 1 0 0 1 and c o d e = 4 5 4 8 dash 4. Meaning: Give me that patient's H b A 1 c results (L O I N C 4 5 4 8 dash 4).",
+     "focus": 3,
+     "file": "clips/bea5f51154e1.mp3",
+     "seconds": 18.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "REST: how an app asks",
+   "lines": [
+    {
+     "raw": "[base] is the server address.",
+     "say": "[base] is the server address.",
+     "focus": -1,
+     "file": "clips/0eae9dac6b62.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "`[base]` stands for the FHIR server's web address, for example `https://api.example.org/fhir`.",
+     "say": "[base] stands for the F H I R server's web address, for example https://api.example.org/fhir.",
+     "focus": -1,
+     "file": "clips/f5e35839a59d.mp3",
+     "seconds": 9.025
+    },
+    {
+     "raw": "Every plan or EHR has its own.",
+     "say": "Every plan or E H R has its own.",
+     "focus": -1,
+     "file": "clips/339165ec293c.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "SMART on FHIR: asking permission.",
+     "say": "S M A R T on F H I R: asking permission.",
+     "focus": -1,
+     "file": "clips/c672c2ee5210.mp3",
+     "seconds": 3.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "SMART on FHIR: asking permission",
+   "lines": [
+    {
+     "raw": "A server cannot hand health data to any app that asks.",
+     "say": "A server cannot hand health data to any app that asks.",
+     "focus": -1,
+     "file": "clips/79757a7251ed.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "**SMART on FHIR** is the standard way for an app to get permission.",
+     "say": "S M A R T on F H I R is the standard way for an app to get permission.",
+     "focus": -1,
+     "file": "clips/5710987106bb.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "It is built on **OAuth 2.0**, the same method behind \"Sign in with Google\" buttons.",
+     "say": "It is built on OAuth 2.0, the same method behind \"Sign in with Google\" buttons.",
+     "focus": -1,
+     "file": "clips/6cf93c57d654.mp3",
+     "seconds": 6.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "SMART on FHIR: asking permission",
+   "lines": [
+    {
+     "raw": "Step 1: Open the app.",
+     "say": "Step 1: Open the app.",
+     "focus": 0,
+     "file": "clips/21023008991d.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "The member opens a health app and chooses their health plan from a list.",
+     "say": "The member opens a health app and chooses their health plan from a list.",
+     "focus": 0,
+     "file": "clips/75be49391c82.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Step 2: Sign in at the plan.",
+     "say": "Step 2: Sign in at the plan.",
+     "focus": 1,
+     "file": "clips/7d0a3a3c2a7d.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "The app sends them to the **plan's own** login page.",
+     "say": "The app sends them to the plan's own login page.",
+     "focus": 1,
+     "file": "clips/967edd78591b.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "The app never sees the password.",
+     "say": "The app never sees the password.",
+     "focus": 1,
+     "file": "clips/f17825ed4d1b.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Step 3: Approve access.",
+     "say": "Step 3: Approve access.",
+     "focus": 2,
+     "file": "clips/227bca6c8434.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "The plan shows what the app wants, such as \"read your claims\", and the member clicks Allow.",
+     "say": "The plan shows what the app wants, such as \"read your claims\", and the member clicks Allow.",
+     "focus": 2,
+     "file": "clips/c3d8d5a79edc.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Step 4: Token.",
+     "say": "Step 4: Token.",
+     "focus": 3,
+     "file": "clips/1d45c3d0c7e0.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "The plan gives the app an **access token**: a temporary digital key that works only for what was approved.",
+     "say": "The plan gives the app an access token: a temporary digital key that works only for what was approved.",
+     "focus": 3,
+     "file": "clips/152be3d0028b.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "Step 5: Get data.",
+     "say": "Step 5: Get data.",
+     "focus": 4,
+     "file": "clips/5aa28e03fcd5.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "The app calls the FHIR API with the token, for example GET ExplanationOfBenefit, and shows the claims.",
+     "say": "The app calls the F H I R A P I with the token, for example G E T ExplanationOfBenefit, and shows the claims.",
+     "focus": 4,
+     "file": "clips/b8e8e32a72da.mp3",
+     "seconds": 8.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Profiles: US Core and CARIN Blue Button.",
+     "say": "Profiles: U S Core and C A R I N Blue Button.",
+     "focus": -1,
+     "file": "clips/798bf3588876.mp3",
+     "seconds": 3.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Profiles: US Core and CARIN Blue Button",
+   "lines": [
+    {
+     "raw": "Profile / Implementation Guide (IG).",
+     "say": "Profile or Implementation Guide (I G).",
+     "focus": 0,
+     "file": "clips/f4bbdafa0e62.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "Base FHIR is very flexible.",
+     "say": "Base F H I R is very flexible.",
+     "focus": 0,
+     "file": "clips/c74d18be8462.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "A profile adds rules for one use, such as \"in the US, Patient must have these fields\".",
+     "say": "A profile adds rules for one use, such as \"in the U S, Patient must have these fields\".",
+     "focus": 0,
+     "file": "clips/54501a3f1997.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "An Implementation Guide is a published set of profiles.",
+     "say": "An Implementation Guide is a published set of profiles.",
+     "focus": 0,
+     "file": "clips/afe9b475206c.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "US Core.",
+     "say": "U S Core.",
+     "focus": 1,
+     "file": "clips/ff40e612b44d.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "The main US Implementation Guide.",
+     "say": "The main U S Implementation Guide.",
+     "focus": 1,
+     "file": "clips/b88fc3078b70.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "It defines how to represent the **USCDI** data (lesson 2) in FHIR.",
+     "say": "It defines how to represent the U S C D I data (lesson 2) in F H I R.",
+     "focus": 1,
+     "file": "clips/7a5191b96018.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "Certified EHR APIs follow it.",
+     "say": "Certified E H R A P I's follow it.",
+     "focus": 1,
+     "file": "clips/975b84ed8a46.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "CARIN Blue Button.",
+     "say": "C A R I N Blue Button.",
+     "focus": 2,
+     "file": "clips/3af10ce54134.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "An Implementation Guide for sharing **claims** with consumers as **ExplanationOfBenefit** resources.",
+     "say": "An Implementation Guide for sharing claims with consumers as ExplanationOfBenefit resources.",
+     "focus": 2,
+     "file": "clips/b8ecc7fdcdaa.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "Plans commonly use it for the Patient Access API.",
+     "say": "Plans commonly use it for the Patient Access A P I.",
+     "focus": 2,
+     "file": "clips/c67cb1f75dd1.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Da Vinci.",
+     "say": "Da Vinci.",
+     "focus": 3,
+     "file": "clips/85648432b915.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "An industry project that publishes Implementation Guides for payer and provider exchange, including the prior authorisation APIs from the 2024 CMS rule.",
+     "say": "An industry project that publishes Implementation Guides for payer and provider exchange, including the prior authorisation A P I's from the 2024 C M S rule.",
+     "focus": 3,
+     "file": "clips/d3c603a79d83.mp3",
+     "seconds": 11.75
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**FHIR** is HL7's web-based standard; data comes in **resources** such as Patient, Coverage, Encounter, Observation, MedicationRequest and ExplanationOfBenefit.",
+     "say": "F H I R is H L 7 ' s web-based standard; data comes in resources such as Patient, Coverage, Encounter, Observation, MedicationRequest and ExplanationOfBenefit.",
+     "focus": 0,
+     "file": "clips/707076cfb771.mp3",
+     "seconds": 13.075
+    },
+    {
+     "raw": "Resources are usually sent as **JSON** and link to each other with references like `Patient/M1001`.",
+     "say": "Resources are usually sent as J S O N and link to each other with references like P a t i e n t or M 1 0 0 1.",
+     "focus": 1,
+     "file": "clips/3d723bd20237.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "Apps request data with **REST** calls such as `GET [base]/Patient/M1001`.",
+     "say": "Apps request data with R E S T calls such as G E T [ b a s e ] or P a t i e n t or M 1 0 0 1.",
+     "focus": 2,
+     "file": "clips/c3aa00ff4d67.mp3",
+     "seconds": 9.55
+    },
+    {
+     "raw": "**SMART on FHIR** (built on OAuth 2.0) lets members approve an app without sharing their password.",
+     "say": "S M A R T on F H I R (built on OAuth 2.0) lets members approve an app without sharing their password.",
+     "focus": 3,
+     "file": "clips/8a33792b4bc4.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "**US Core** and **CARIN Blue Button** are profiles that make FHIR consistent across US systems.",
+     "say": "U S Core and C A R I N Blue Button are profiles that make F H I R consistent across U S systems.",
+     "focus": 4,
+     "file": "clips/72cab292a12c.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,708 @@
+{
+ "courseId": "healthcare-metrics",
+ "lessonId": "rates-per-member",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: Rates: Per Member, Per 1,000, Per Visit.",
+     "say": "Lesson 2: Rates: Per Member, Per 1,000, Per Visit.",
+     "focus": -1,
+     "file": "clips/041532ccf1dc.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "The three standard denominators every health plan report uses.",
+     "say": "The three standard denominators every health plan report uses.",
+     "focus": -1,
+     "file": "clips/1f429220ea85.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Calculate PMPM (per member per month) and PMPY (per member per year).",
+     "say": "Calculate P M P M (per member per month) and P M P Y (per member per year).",
+     "focus": 0,
+     "file": "clips/d4f7b82919e6.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Calculate an annualized rate per 1,000 members.",
+     "say": "Calculate an annualized rate per 1,000 members.",
+     "focus": 1,
+     "file": "clips/e99a70757118.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Calculate a per-unit rate such as cost per visit.",
+     "say": "Calculate a per-unit rate such as cost per visit.",
+     "focus": 2,
+     "file": "clips/d6c38cfbca01.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Choose the right kind of rate for an analyst's question.",
+     "say": "Choose the right kind of rate for an analyst's question.",
+     "focus": 3,
+     "file": "clips/302094c460cd.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with a tea shop.",
+     "say": "Start with a tea shop.",
+     "focus": -1,
+     "file": "clips/873d7de9fdb8.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with a tea shop",
+   "lines": [
+    {
+     "raw": "In Nepal: Three ways a tea shop owner in Thamel counts her business.",
+     "say": "In Nepal: Three ways a tea shop owner in Thamel counts her business.",
+     "focus": -1,
+     "file": "clips/630901b38a90.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "**Per customer per month**: regulars spend about Rs 1,500 a month each.",
+     "say": "Per customer per month: regulars spend about Rs 1,500 a month each.",
+     "focus": 0,
+     "file": "clips/a0f989bcaa93.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Useful for planning: 40 regulars ≈ Rs 60,000 a month.",
+     "say": "Useful for planning: 40 regulars ≈ Rs 60,000 a month.",
+     "focus": 0,
+     "file": "clips/d70e71bccd38.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "**Per 1,000 customers**: out of every 1,000 customers, 150 order momo with their tea.",
+     "say": "Per 1,000 customers: out of every 1,000 customers, 150 order momo with their tea.",
+     "focus": 1,
+     "file": "clips/f4b547d17e7d.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Useful for knowing how often something happens.",
+     "say": "Useful for knowing how often something happens.",
+     "focus": 1,
+     "file": "clips/c1d18fe92613.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "**Per cup**: a cup of milk tea sells for Rs 40.",
+     "say": "Per cup: a cup of milk tea sells for Rs 40.",
+     "focus": 2,
+     "file": "clips/0330fd074707.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Useful for comparing prices with the shop next door.",
+     "say": "Useful for comparing prices with the shop next door.",
+     "focus": 2,
+     "file": "clips/52dea15049a8.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The SSF could report its medical spending the same three ways: per contributor per month, hospital admissions per 1,000 contributors, and average cost per admission.",
+     "say": "The S S F could report its medical spending the same three ways: per contributor per month, hospital admissions per 1,000 contributors, and average cost per admission.",
+     "focus": 3,
+     "file": "clips/b3861b17c8b2.mp3",
+     "seconds": 11.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with a tea shop",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Health plans express almost every number **per member per month** (for money), **per 1,000 members per year** (for how often things happen) or **per unit** (for the price of one thing), so that groups of any size and any length of time can be compared.",
+     "say": "Health plans express almost every number per member per month (for money), per 1,000 members per year (for how often things happen) or per unit (for the price of one thing), so that groups of any size and any length of time can be compared.",
+     "focus": -1,
+     "file": "clips/a7abece1b00f.mp3",
+     "seconds": 14.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The denominator: member months.",
+     "say": "The denominator: member months.",
+     "focus": -1,
+     "file": "clips/a9f1e4120bd6.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The denominator: member months",
+   "lines": [
+    {
+     "raw": "Members join and leave all year, so plans count **member months**: one person covered for one month.",
+     "say": "Members join and leave all year, so plans count member months: one person covered for one month.",
+     "focus": -1,
+     "file": "clips/68d89b5a1a3a.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "10,000 people covered all year = 10,000 × 12 = **120,000 member months**.",
+     "say": "10,000 people covered all year = 10,000 × 12 = 120,000 member months.",
+     "focus": -1,
+     "file": "clips/73f580300790.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "How to count them from enrollment records (mid-month joins, open-ended spans) is taught in the Eligibility course; here we use the totals.",
+     "say": "How to count them from enrollment records (mid-month joins, open-ended spans) is taught in the Eligibility course; here we use the totals.",
+     "focus": -1,
+     "file": "clips/4bc43d80fae8.mp3",
+     "seconds": 8.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The denominator: member months",
+   "lines": [
+    {
+     "raw": "Counting member months.",
+     "say": "Counting member months.",
+     "focus": -1,
+     "file": "clips/6c5c1e4e0446.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Member months are counted from eligibility spans, and the counting rules (1st of month, any day, 15th) are owned by the Eligibility course.",
+     "say": "Member months are counted from eligibility spans, and the counting rules (1st of month, any day, 15th) are owned by the Eligibility course.",
+     "focus": -1,
+     "file": "clips/fdcb0bb65cc7.mp3",
+     "seconds": 9.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: three kinds of rate.",
+     "say": "The U S version: three kinds of rate.",
+     "focus": -1,
+     "file": "clips/b6e687071c1e.mp3",
+     "seconds": 2.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The US version: three kinds of rate",
+   "lines": [
+    {
+     "raw": "The three standard rates.",
+     "say": "The three standard rates.",
+     "focus": -1,
+     "file": "clips/6f605410e351.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "**PMPM** (per member per month). Formula: Dollars ÷ member months. Used for: Money: cost, premium. Typical question: \"How much do we spend on each member each month?\".",
+     "say": "P M P M (per member per month). Formula: Dollars ÷ member months. Used for: Money: cost, premium. Typical question: \"How much do we spend on each member each month?\".",
+     "focus": 0,
+     "file": "clips/779669de5243.mp3",
+     "seconds": 12.525
+    },
+    {
+     "raw": "**PMPY** (per member per year). Formula: PMPM × 12. Used for: Money, when people think in years. Typical question: \"What does a member cost us in a year?\".",
+     "say": "P M P Y (per member per year). Formula: P M P M × 12. Used for: Money, when people think in years. Typical question: \"What does a member cost us in a year?\".",
+     "focus": 1,
+     "file": "clips/ba79f8cc3b5d.mp3",
+     "seconds": 11.725
+    },
+    {
+     "raw": "**Per 1,000** (per 1,000 members per year). Formula: Events ÷ member months × 12,000. Used for: How often things happen: admissions, visits. Typical question: \"How many hospital stays do we see for every 1,000 members?\".",
+     "say": "Per 1,000 (per 1,000 members per year). Formula: Events ÷ member months × 12,000. Used for: How often things happen: admissions, visits. Typical question: \"How many hospital stays do we see for every 1,000 members?\".",
+     "focus": 2,
+     "file": "clips/0489605114c2.mp3",
+     "seconds": 17.25
+    },
+    {
+     "raw": "**Per unit** (per visit, per admission, per script). Formula: Dollars ÷ number of units. Used for: Price of one thing. Typical question: \"What does one hospital stay cost us on average?\".",
+     "say": "Per unit (per visit, per admission, per script). Formula: Dollars ÷ number of units. Used for: Price of one thing. Typical question: \"What does one hospital stay cost us on average?\".",
+     "focus": 3,
+     "file": "clips/483459a00b1d.mp3",
+     "seconds": 13.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The US version: three kinds of rate",
+   "lines": [
+    {
+     "raw": "PMPM.",
+     "say": "P M P M.",
+     "focus": -1,
+     "file": "clips/e6892e948713.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "PMPM equals Total dollars ÷ Member months.",
+     "say": "P M P M equals Total dollars ÷ Member months.",
+     "focus": 0,
+     "file": "clips/5569e2446633.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "For example: Lone Star Health paid $46,920,000 in claims over 120,000 member months: $46,920,000 ÷ 120,000 equals $391.00 PMPM.",
+     "say": "For example: Lone Star Health paid 46920000 dollars in claims over 120,000 member months: 46920000 dollars ÷ 120,000 equals 391 dollars P M P M.",
+     "focus": 1,
+     "file": "clips/a2294f6d705b.mp3",
+     "seconds": 18.525
+    },
+    {
+     "raw": "PMPY equals $391.00 times 12 equals $4,692.",
+     "say": "P M P Y equals 391 dollars times 12 equals 4692 dollars.",
+     "focus": 1,
+     "file": "clips/950b3c57f5f8.mp3",
+     "seconds": 7.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The US version: three kinds of rate",
+   "lines": [
+    {
+     "raw": "Rate per 1,000 members per year.",
+     "say": "Rate per 1,000 members per year.",
+     "focus": -1,
+     "file": "clips/0e90586ae89b.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "Rate per 1,000 equals Events ÷ Member months times 12,000.",
+     "say": "Rate per 1,000 equals Events ÷ Member months times 12,000.",
+     "focus": 0,
+     "file": "clips/56266ad21a5b.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "For example: 720 hospital admissions over 120,000 member months: 720 ÷ 120,000 times 12,000 equals 72 admissions per 1,000 members per year.",
+     "say": "For example: 720 hospital admissions over 120,000 member months: 720 ÷ 120,000 times 12,000 equals 72 admissions per 1,000 members per year.",
+     "focus": 1,
+     "file": "clips/541a61c2f763.mp3",
+     "seconds": 15.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The US version: three kinds of rate",
+   "lines": [
+    {
+     "raw": "Why 12,000?",
+     "say": "Why 12,000?",
+     "focus": -1,
+     "file": "clips/02d8fc731538.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Dividing member months by 12 gives **average members**.",
+     "say": "Dividing member months by 12 gives average members.",
+     "focus": -1,
+     "file": "clips/21109408fc4d.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Multiplying by 1,000 gives \"per 1,000 members\".",
+     "say": "Multiplying by 1,000 gives \"per 1,000 members\".",
+     "focus": -1,
+     "file": "clips/28664c6f2d08.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Both at once: × 12 × 1,000 = **× 12,000**.",
+     "say": "Both at once: × 12 × 1,000 = × 12,000.",
+     "focus": -1,
+     "file": "clips/9d2a4bb9fe54.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "This also **annualizes** the rate: it always means \"per 1,000 members **per year**\", even if you only have 3 months of data.",
+     "say": "This also annualizes the rate: it always means \"per 1,000 members per year\", even if you only have 3 months of data.",
+     "focus": -1,
+     "file": "clips/0986151b1d20.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The US version: three kinds of rate",
+   "lines": [
+    {
+     "raw": "Per unit.",
+     "say": "Per unit.",
+     "focus": -1,
+     "file": "clips/4ff64f95bd7a.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "Cost per unit equals Total dollars for that service ÷ Number of units.",
+     "say": "Cost per unit equals Total dollars for that service ÷ Number of units.",
+     "focus": 0,
+     "file": "clips/65318b196cd2.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "For example: $12,960,000 spent on 720 hospital admissions: $12,960,000 ÷ 720 equals $18,000 per admission.",
+     "say": "For example: 12960000 dollars spent on 720 hospital admissions: 12960000 dollars ÷ 720 equals 18000 dollars per admission.",
+     "focus": 1,
+     "file": "clips/060d1dae1831.mp3",
+     "seconds": 15.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The US version: three kinds of rate",
+   "lines": [
+    {
+     "raw": "Annualize.",
+     "say": "Annualize.",
+     "focus": 0,
+     "file": "clips/7f9ba380f6ae.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Turn a rate from a part of a year into a full-year rate, so a quarter can be compared with a whole year.",
+     "say": "Turn a rate from a part of a year into a full-year rate, so a quarter can be compared with a whole year.",
+     "focus": 0,
+     "file": "clips/5c4926a90542.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Unit.",
+     "say": "Unit.",
+     "focus": 1,
+     "file": "clips/05f3ad3ad2d1.mp3",
+     "seconds": 1.375
+    },
+    {
+     "raw": "One countable piece of care: an admission, a hospital day, a visit, a prescription fill (a \"script\").",
+     "say": "One countable piece of care: an admission, a hospital day, a visit, a prescription fill (a \"script\").",
+     "focus": 1,
+     "file": "clips/63893ea03e88.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Allowed amount.",
+     "say": "Allowed amount.",
+     "focus": 2,
+     "file": "clips/7462da1a09f9.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The price the plan agreed to pay for a service, before the member's share is taken off.",
+     "say": "The price the plan agreed to pay for a service, before the member's share is taken off.",
+     "focus": 2,
+     "file": "clips/1278164350a1.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "**Allowed PMPM** includes what members paid.",
+     "say": "Allowed P M P M includes what members paid.",
+     "focus": 2,
+     "file": "clips/a45971e49ee3.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Paid amount.",
+     "say": "Paid amount.",
+     "focus": 3,
+     "file": "clips/5c9a1b515525.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "What the plan actually paid after the member's deductible, copay and coinsurance.",
+     "say": "What the plan actually paid after the member's deductible, copay and coinsurance.",
+     "focus": 3,
+     "file": "clips/daf24722d71c.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "**Paid PMPM** is the plan's own cost.",
+     "say": "Paid P M P M is the plan's own cost.",
+     "focus": 3,
+     "file": "clips/d09b899df929.mp3",
+     "seconds": 3.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: comparing a quarter with a year.",
+     "say": "Worked example: comparing a quarter with a year.",
+     "focus": -1,
+     "file": "clips/e4eb19866711.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: comparing a quarter with a year",
+   "lines": [
+    {
+     "raw": "Maria has full-year 2024 data and only January to March (Q1) 2025.",
+     "say": "Maria has full-year 2024 data and only January to March (Q1) 2025.",
+     "focus": -1,
+     "file": "clips/3d553bc8d280.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "Lone Star Health had 10,000 members throughout.",
+     "say": "Lone Star Health had 10,000 members throughout.",
+     "focus": -1,
+     "file": "clips/6b3dda918249.mp3",
+     "seconds": 3.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: comparing a quarter with a year",
+   "lines": [
+    {
+     "raw": "Lone Star Health hospital admissions (illustrative).",
+     "say": "Lone Star Health hospital admissions (illustrative).",
+     "focus": -1,
+     "file": "clips/028e65e46145.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Member months. 2024 (full year): 120,000. Q1 2025: 30,000.",
+     "say": "Member months. 2024 (full year): 120,000. Q1 2025: 30,000.",
+     "focus": 0,
+     "file": "clips/9940f6a46fee.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "Admissions. 2024 (full year): 720. Q1 2025: 195.",
+     "say": "Admissions. 2024 (full year): 720. Q1 2025: 195.",
+     "focus": 1,
+     "file": "clips/9912a5eb5186.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "Raw count comparison. 2024 (full year): 720. Q1 2025: 195 (looks much lower).",
+     "say": "Raw count comparison. 2024 (full year): 720. Q1 2025: 195 (looks much lower).",
+     "focus": 2,
+     "file": "clips/79e1df1626bf.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "**Admissions per 1,000 per year**. 2024 (full year): 720 ÷ 120,000 × 12,000 = **72**. Q1 2025: 195 ÷ 30,000 × 12,000 = **78**.",
+     "say": "Admissions per 1,000 per year. 2024 (full year): 720 ÷ 120,000 × 12,000 = 72. Q1 2025: 195 ÷ 30,000 × 12,000 = 78.",
+     "focus": 3,
+     "file": "clips/58754a2a9117.mp3",
+     "seconds": 18.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: comparing a quarter with a year",
+   "lines": [
+    {
+     "raw": "The annualized rate tells the truth.",
+     "say": "The annualized rate tells the truth.",
+     "focus": -1,
+     "file": "clips/5673fcaf60fb.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "195 looks far below 720, but it covers a quarter of the time.",
+     "say": "195 looks far below 720, but it covers a quarter of the time.",
+     "focus": -1,
+     "file": "clips/2384c04a1427.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "Annualized, Q1 2025 is running at **78 per 1,000**, about **8% higher** than 2024.",
+     "say": "Annualized, Q1 2025 is running at 78 per 1,000, about 8 percent higher than 2024.",
+     "focus": -1,
+     "file": "clips/38424f28cedc.mp3",
+     "seconds": 8.8
+    },
+    {
+     "raw": "(Winter months often have more admissions from flu and pneumonia, so Maria would also compare Q1 with last year's Q1.)",
+     "say": "(Winter months often have more admissions from flu and pneumonia, so Maria would also compare Q1 with last year's Q1.)",
+     "focus": -1,
+     "file": "clips/cc610925b3d3.mp3",
+     "seconds": 8.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example: comparing a quarter with a year",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Always label rates fully: **paid or allowed**, **which members** (medical only? with pharmacy cover?) and **which period**.",
+     "say": "Always label rates fully: paid or allowed, which members (medical only? with pharmacy cover?) and which period.",
+     "focus": -1,
+     "file": "clips/bac94b84b7df.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "\"PMPM $391\" with no label can be read three ways.",
+     "say": "\"P M P M 391 dollars\" with no label can be read three ways.",
+     "focus": -1,
+     "file": "clips/2eea32aec136.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "And keep the numerator and denominator on the **same members**: if only 8,000 of the 10,000 members have pharmacy cover through the plan, pharmacy PMPM must be divided by those 8,000 members' months.",
+     "say": "And keep the numerator and denominator on the same members: if only 8,000 of the 10,000 members have pharmacy cover through the plan, pharmacy P M P M must be divided by those 8,000 members' months.",
+     "focus": -1,
+     "file": "clips/a7ac0d30ad3d.mp3",
+     "seconds": 14.675
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "PMPM = dollars ÷ member months; PMPY = PMPM × 12.",
+     "say": "P M P M = dollars ÷ member months; P M P Y = P M P M × 12.",
+     "focus": 0,
+     "file": "clips/c3d4f181a386.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "Per 1,000 = events ÷ member months × 12,000, which also annualizes the rate.",
+     "say": "Per 1,000 = events ÷ member months × 12,000, which also annualizes the rate.",
+     "focus": 1,
+     "file": "clips/7504b15ba9d0.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Per unit = dollars ÷ units, the average price of one admission, visit or script.",
+     "say": "Per unit = dollars ÷ units, the average price of one admission, visit or script.",
+     "focus": 2,
+     "file": "clips/23bc7e8b0074.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Say whether a dollar rate is allowed (includes member share) or paid (plan only).",
+     "say": "Say whether a dollar rate is allowed (includes member share) or paid (plan only).",
+     "focus": 3,
+     "file": "clips/318c60b34f6c.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Numerator and denominator must cover the same members and the same period.",
+     "say": "Numerator and denominator must cover the same members and the same period.",
+     "focus": 4,
+     "file": "clips/f6920aee0fe0.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

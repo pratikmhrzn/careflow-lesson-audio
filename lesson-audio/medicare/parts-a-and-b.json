@@ -1,0 +1,806 @@
+{
+ "courseId": "medicare",
+ "lessonId": "parts-a-and-b",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: Original Medicare: Parts A & B.",
+     "say": "Lesson 3: Original Medicare: Parts A and B.",
+     "focus": -1,
+     "file": "clips/d241c2d83737.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Hospital cover, doctor cover, and what each one costs.",
+     "say": "Hospital cover, doctor cover, and what each one costs.",
+     "focus": -1,
+     "file": "clips/772724765e5f.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Know what Part A (hospital) and Part B (doctor and outpatient) cover.",
+     "say": "Know what Part A (hospital) and Part B (doctor and outpatient) cover.",
+     "focus": 0,
+     "file": "clips/d13fa51d2390.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Know the main 2025 premiums and deductibles.",
+     "say": "Know the main 2025 premiums and deductibles.",
+     "focus": 1,
+     "file": "clips/c178422dbfe6.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Work out who pays what on a simple Original Medicare bill.",
+     "say": "Work out who pays what on a simple Original Medicare bill.",
+     "focus": 2,
+     "file": "clips/2e8b094a8395.mp3",
+     "seconds": 4.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Original Medicare in one sentence.",
+     "say": "Original Medicare in one sentence.",
+     "focus": -1,
+     "file": "clips/63a4247c5915.mp3",
+     "seconds": 2.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Original Medicare in one sentence",
+   "lines": [
+    {
+     "raw": "**Original Medicare** is the government-run path: **Part A** pays hospitals and **Part B** pays doctors and outpatient care, each with its own premium, deductible and cost sharing.",
+     "say": "Original Medicare is the government-run path: Part A pays hospitals and Part B pays doctors and outpatient care, each with its own premium, deductible and cost sharing.",
+     "focus": -1,
+     "file": "clips/14c7c21a2067.mp3",
+     "seconds": 11.575
+    },
+    {
+     "raw": "Robert had Original Medicare from **May 2022 to December 2023**.",
+     "say": "Robert had Original Medicare from May 2022 to December 2023.",
+     "focus": -1,
+     "file": "clips/07ef14b14890.mp3",
+     "seconds": 5.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Part A: hospital insurance.",
+     "say": "Part A: hospital insurance.",
+     "focus": -1,
+     "file": "clips/7b343967976e.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Part A: hospital insurance",
+   "lines": [
+    {
+     "raw": "In Nepal: Hospital cover in Kathmandu.",
+     "say": "In Nepal: Hospital cover in Kathmandu.",
+     "focus": -1,
+     "file": "clips/f4f0598f994f.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Many private health policies in Nepal treat **admission (IPD)** differently from **OPD** visits, often with separate limits.",
+     "say": "Many private health policies in Nepal treat admission (I P D) differently from O P D visits, often with separate limits.",
+     "focus": 0,
+     "file": "clips/3aec1ced3d24.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "If Ram is admitted, he pays the hospital at discharge and claims the covered amount back.",
+     "say": "If Ram is admitted, he pays the hospital at discharge and claims the covered amount back.",
+     "focus": 1,
+     "file": "clips/ef785ca9d1d0.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "If Sita is admitted to an SSF-listed hospital, she pays her **20%** share and the hospital claims the rest from SSF.",
+     "say": "If Sita is admitted to an S S F listed hospital, she pays her 20 percent share and the hospital claims the rest from S S F.",
+     "focus": 2,
+     "file": "clips/0e7fac4260fe.mp3",
+     "seconds": 9.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Part A: hospital insurance",
+   "lines": [
+    {
+     "raw": "In the US: Part A in the US.",
+     "say": "In the U S: Part A in the U S.",
+     "focus": -1,
+     "file": "clips/025d654789df.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Part A pays for the **hospital's** part of an inpatient stay: the room, nursing, meals, medicines given in hospital and the operating room.",
+     "say": "Part A pays for the hospital's part of an inpatient stay: the room, nursing, meals, medicines given in hospital and the operating room.",
+     "focus": 0,
+     "file": "clips/e2440cd4b62e.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "Most people pay **no monthly premium** for Part A, because they (or a spouse) paid Medicare tax for at least **10 years** (40 quarters).",
+     "say": "Most people pay no monthly premium for Part A, because they (or a spouse) paid Medicare tax for at least 10 years (40 quarters).",
+     "focus": 1,
+     "file": "clips/16014b48a764.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "Robert paid Medicare tax as a teacher, so his Part A is premium-free.",
+     "say": "Robert paid Medicare tax as a teacher, so his Part A is premium-free.",
+     "focus": 1,
+     "file": "clips/89d6d845b09a.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "The doctors who treat you in hospital send separate bills.",
+     "say": "The doctors who treat you in hospital send separate bills.",
+     "focus": 2,
+     "file": "clips/1a40e0ceb8d1.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Those are paid by **Part B**, not Part A.",
+     "say": "Those are paid by Part B, not Part A.",
+     "focus": 2,
+     "file": "clips/ae87965f2a83.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Part A: hospital insurance",
+   "lines": [
+    {
+     "raw": "Part A costs for a hospital stay in 2025 (per benefit period).",
+     "say": "Part A costs for a hospital stay in 2025 (per benefit period).",
+     "focus": -1,
+     "file": "clips/a9d8f5a83ef3.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Days 1 to 60. What the patient pays: **$1,676** deductible in total, then nothing more for these days.",
+     "say": "Days 1 to 60. What the patient pays: 1676 dollars deductible in total, then nothing more for these days.",
+     "focus": 0,
+     "file": "clips/052c661a3511.mp3",
+     "seconds": 8.475
+    },
+    {
+     "raw": "Days 61 to 90. What the patient pays: **$419 per day**.",
+     "say": "Days 61 to 90. What the patient pays: 419 dollars per day.",
+     "focus": 1,
+     "file": "clips/fccdf7913b0e.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "Day 91 and beyond. What the patient pays: **$838 per day**, using \"lifetime reserve days\" (60 days for the whole life).",
+     "say": "Day 91 and beyond. What the patient pays: 838 dollars per day, using \"lifetime reserve days\" (60 days for the whole life).",
+     "focus": 2,
+     "file": "clips/8e33f1921d37.mp3",
+     "seconds": 10
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Part A: hospital insurance",
+   "lines": [
+    {
+     "raw": "Benefit period.",
+     "say": "Benefit period.",
+     "focus": 0,
+     "file": "clips/45a4162d3ce3.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Starts the day you are admitted to hospital.",
+     "say": "Starts the day you are admitted to hospital.",
+     "focus": 0,
+     "file": "clips/faba1b6852ed.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Ends when you have been out of hospital (and out of a skilled nursing facility) for **60 days in a row**.",
+     "say": "Ends when you have been out of hospital (and out of a skilled nursing facility) for 60 days in a row.",
+     "focus": 0,
+     "file": "clips/b569339ad653.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "A new benefit period means a new Part A deductible.",
+     "say": "A new benefit period means a new Part A deductible.",
+     "focus": 0,
+     "file": "clips/34e3e06737e0.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Skilled nursing facility (SNF).",
+     "say": "Skilled nursing facility (S N F).",
+     "focus": 1,
+     "file": "clips/38888a6cfda8.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "A place for nursing care and rehab after a hospital stay.",
+     "say": "A place for nursing care and rehab after a hospital stay.",
+     "focus": 1,
+     "file": "clips/153bba5d5740.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "Part A covers it only after a qualifying hospital stay of at least 3 days, for up to 100 days.",
+     "say": "Part A covers it only after a qualifying hospital stay of at least 3 days, for up to 100 days.",
+     "focus": 1,
+     "file": "clips/87f2b369ae3b.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Hospice.",
+     "say": "Hospice.",
+     "focus": 2,
+     "file": "clips/e9fee956fb49.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "Comfort care for people who are expected to live 6 months or less.",
+     "say": "Comfort care for people who are expected to live 6 months or less.",
+     "focus": 2,
+     "file": "clips/9d4178380d1e.mp3",
+     "seconds": 4.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Part A: hospital insurance",
+   "lines": [
+    {
+     "raw": "Not per year, per benefit period.",
+     "say": "Not per year, per benefit period.",
+     "focus": -1,
+     "file": "clips/37876c358f29.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Most insurance deductibles reset every **1 January**.",
+     "say": "Most insurance deductibles reset every 1 January.",
+     "focus": -1,
+     "file": "clips/7ec3aec60388.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "Part A is different: the deductible applies to each **benefit period**.",
+     "say": "Part A is different: the deductible applies to each benefit period.",
+     "focus": -1,
+     "file": "clips/c595b890f60f.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "Someone admitted twice in one year, with more than 60 days at home in between, can pay the $1,676 deductible **twice**.",
+     "say": "Someone admitted twice in one year, with more than 60 days at home in between, can pay the 1676 dollars deductible twice.",
+     "focus": -1,
+     "file": "clips/0c2d2c6855c1.mp3",
+     "seconds": 8.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Part B: doctors and outpatient care.",
+     "say": "Part B: doctors and outpatient care.",
+     "focus": -1,
+     "file": "clips/79dee9e1cd13.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Part B: doctors and outpatient care",
+   "lines": [
+    {
+     "raw": "In the US: Part B in the US.",
+     "say": "In the U S: Part B in the U S.",
+     "focus": -1,
+     "file": "clips/2e41b2c8643f.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "Part B pays for **doctor visits**, outpatient hospital care (like an emergency room visit without admission), **lab tests**, X-rays, ambulance rides, wheelchairs and other equipment, and some drugs given in a clinic, like injections.",
+     "say": "Part B pays for doctor visits, outpatient hospital care (like an emergency room visit without admission), lab tests, X-rays, ambulance rides, wheelchairs and other equipment, and some drugs given in a clinic, like injections.",
+     "focus": 0,
+     "file": "clips/4a10f5c8868f.mp3",
+     "seconds": 15.05
+    },
+    {
+     "raw": "Many **preventive services** are free, such as the yearly **wellness visit**, flu shots and some cancer screenings.",
+     "say": "Many preventive services are free, such as the yearly wellness visit, flu shots and some cancer screenings.",
+     "focus": 1,
+     "file": "clips/f027a8435c25.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "Everyone pays a monthly **premium**: the standard amount is **$185 per month in 2025**.",
+     "say": "Everyone pays a monthly premium: the standard amount is 185 dollars per month in 2025.",
+     "focus": 2,
+     "file": "clips/6d385a34b1dd.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "People with high incomes pay more.",
+     "say": "People with high incomes pay more.",
+     "focus": 2,
+     "file": "clips/4f896e7b9127.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Many people have it taken straight out of their Social Security payment.",
+     "say": "Many people have it taken straight out of their Social Security payment.",
+     "focus": 2,
+     "file": "clips/350b4d0bca43.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "There is a yearly **deductible** of **$257 in 2025**.",
+     "say": "There is a yearly deductible of 257 dollars in 2025.",
+     "focus": 3,
+     "file": "clips/1d9764b5c1fa.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "After that, the patient usually pays **20% coinsurance** of the Medicare-approved amount.",
+     "say": "After that, the patient usually pays 20 percent coinsurance of the Medicare-approved amount.",
+     "focus": 3,
+     "file": "clips/691e0ce1a195.mp3",
+     "seconds": 6.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Part B: doctors and outpatient care",
+   "lines": [
+    {
+     "raw": "Original Medicare costs at a glance, 2025.",
+     "say": "Original Medicare costs at a glance, 2025.",
+     "focus": -1,
+     "file": "clips/c66c7d4e2b85.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Monthly premium. Part A: $0 for most people. Part B: $185 (standard).",
+     "say": "Monthly premium. Part A: 0 dollars for most people. Part B: 185 dollars (standard).",
+     "focus": 0,
+     "file": "clips/fe957c1cd956.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "Deductible. Part A: $1,676 per benefit period. Part B: $257 per year.",
+     "say": "Deductible. Part A: 1676 dollars per benefit period. Part B: 257 dollars per year.",
+     "focus": 1,
+     "file": "clips/788b9ae232a9.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "After the deductible. Part A: Daily amounts after day 60. Part B: Usually 20% coinsurance.",
+     "say": "After the deductible. Part A: Daily amounts after day 60. Part B: Usually 20 percent coinsurance.",
+     "focus": 2,
+     "file": "clips/4725fa8622ca.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "Yearly out-of-pocket maximum. Part A: None. Part B: None.",
+     "say": "Yearly out-of-pocket maximum. Part A: None. Part B: None.",
+     "focus": 3,
+     "file": "clips/f63eb7a79a74.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Part B: doctors and outpatient care",
+   "lines": [
+    {
+     "raw": "No out-of-pocket limit.",
+     "say": "No out-of-pocket limit.",
+     "focus": -1,
+     "file": "clips/75f7ec3b5978.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Robert's daughter Emily has an employer plan that stops charging her after she has paid **$5,000** in a year.",
+     "say": "Robert's daughter Emily has an employer plan that stops charging her after she has paid 5000 dollars in a year.",
+     "focus": -1,
+     "file": "clips/ff0070e5c1d1.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "Original Medicare has **no such limit**.",
+     "say": "Original Medicare has no such limit.",
+     "focus": -1,
+     "file": "clips/66b0ee260723.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "The 20% coinsurance keeps going, however big the bills get.",
+     "say": "The 20 percent coinsurance keeps going, however big the bills get.",
+     "focus": -1,
+     "file": "clips/1e75cd0deac2.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "That is why many people add a **Medigap** policy (lesson 6) or choose **Medicare Advantage** (lesson 4), which does have a yearly limit.",
+     "say": "That is why many people add a Medigap policy (lesson 6) or choose Medicare Advantage (lesson 4), which does have a yearly limit.",
+     "focus": -1,
+     "file": "clips/fb31c52fef27.mp3",
+     "seconds": 8.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: a Part B bill.",
+     "say": "Worked example: a Part B bill.",
+     "focus": -1,
+     "file": "clips/4f55fe1ae93a.mp3",
+     "seconds": 2.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: a Part B bill",
+   "lines": [
+    {
+     "raw": "Imagine Robert had stayed on Original Medicare in 2025.",
+     "say": "Imagine Robert had stayed on Original Medicare in 2025.",
+     "focus": -1,
+     "file": "clips/e2f42e75475d.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "In February he sees a heart specialist.",
+     "say": "In February he sees a heart specialist.",
+     "focus": -1,
+     "file": "clips/cd2cb4821068.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "It is his **first** Part B service of the year, so none of the $257 deductible is paid yet.",
+     "say": "It is his first Part B service of the year, so none of the 257 dollars deductible is paid yet.",
+     "focus": -1,
+     "file": "clips/590af920a20b.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "The **Medicare-approved amount** for the visit and tests is **$300**.",
+     "say": "The Medicare-approved amount for the visit and tests is 300 dollars.",
+     "focus": -1,
+     "file": "clips/5299ab337440.mp3",
+     "seconds": 4.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: a Part B bill",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "1. Deductible. Calculation: First $257 of the approved amount. Robert pays: $257.00. Medicare pays: $0.00.",
+     "say": "1. Deductible. Calculation: First 257 dollars of the approved amount. Robert pays: 257 dollars. Medicare pays: 0 dollars.",
+     "focus": 0,
+     "file": "clips/aa47a81fb92c.mp3",
+     "seconds": 12.225
+    },
+    {
+     "raw": "2. Coinsurance. Calculation: 20% of the remaining $43 ($300 − $257). Robert pays: $8.60. Medicare pays: $34.40.",
+     "say": "2. Coinsurance. Calculation: 20 percent of the remaining 43 dollars (300 dollars − 257 dollars). Robert pays: 8 dollars 60 cents. Medicare pays: 34 dollars 40 cents.",
+     "focus": 1,
+     "file": "clips/2fc59cd74dc5.mp3",
+     "seconds": 15.775
+    },
+    {
+     "raw": "**Total**. Robert pays: **$265.60**. Medicare pays: **$34.40**.",
+     "say": "Total. Robert pays: 265 dollars 60 cents. Medicare pays: 34 dollars 40 cents.",
+     "focus": 2,
+     "file": "clips/ce36e91d576b.mp3",
+     "seconds": 8.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: a Part B bill",
+   "lines": [
+    {
+     "raw": "Original Medicare Part B, first visit of the year.",
+     "say": "Original Medicare Part B, first visit of the year.",
+     "focus": -1,
+     "file": "clips/729bb6992685.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "patient pays equals deductible plus 20% times (approved − deductible).",
+     "say": "patient pays equals deductible plus 20 percent times (approved − deductible).",
+     "focus": 0,
+     "file": "clips/043ee8e85dd5.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "For example: $257 plus 20% times $43 equals $257 plus $8.60 equals $265.60.",
+     "say": "For example: 257 dollars plus 20 percent times 43 dollars equals 257 dollars plus 8 dollars 60 cents equals 265 dollars 60 cents.",
+     "focus": 1,
+     "file": "clips/3005e1d4fb2d.mp3",
+     "seconds": 13.975
+    },
+    {
+     "raw": "Medicare pays $300 − $265.60 equals $34.40.",
+     "say": "Medicare pays 300 dollars − 265 dollars 60 cents equals 34 dollars 40 cents.",
+     "focus": 1,
+     "file": "clips/d4256c7b7684.mp3",
+     "seconds": 8.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: a Part B bill",
+   "lines": [
+    {
+     "raw": "Same idea as Emily's plan.",
+     "say": "Same idea as Emily's plan.",
+     "focus": -1,
+     "file": "clips/3f205df2f84b.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Deductible first, then coinsurance on the rest: the same money logic commercial plans like Emily's use (the Medical course explains it in detail).",
+     "say": "Deductible first, then coinsurance on the rest: the same money logic commercial plans like Emily's use (the Medical course explains it in detail).",
+     "focus": -1,
+     "file": "clips/3a9aa747bfb9.mp3",
+     "seconds": 10.4
+    },
+    {
+     "raw": "Only the amounts are different, and Original Medicare uses the term **approved amount** for what a commercial plan calls the **allowed amount**.",
+     "say": "Only the amounts are different, and Original Medicare uses the term approved amount for what a commercial plan calls the allowed amount.",
+     "focus": -1,
+     "file": "clips/35b4d5f87f6b.mp3",
+     "seconds": 8.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example: a Part B bill",
+   "lines": [
+    {
+     "raw": "Medicare-approved amount.",
+     "say": "Medicare-approved amount.",
+     "focus": 0,
+     "file": "clips/022f5af6552d.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "The price Medicare sets for a service, from its fee schedules.",
+     "say": "The price Medicare sets for a service, from its fee schedules.",
+     "focus": 0,
+     "file": "clips/7b50ccc00eec.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "The same idea as the \"allowed amount\" in commercial insurance.",
+     "say": "The same idea as the \"allowed amount\" in commercial insurance.",
+     "focus": 0,
+     "file": "clips/2717dbcd22d8.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "MAC.",
+     "say": "M A C.",
+     "focus": 1,
+     "file": "clips/8f8efa9cb9fd.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "Medicare Administrative Contractor: a private company hired by CMS to process and pay Original Medicare claims for a region.",
+     "say": "Medicare Administrative Contractor: a private company hired by C M S to process and pay Original Medicare claims for a region.",
+     "focus": 1,
+     "file": "clips/f76fbde3fceb.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "Assignment.",
+     "say": "Assignment.",
+     "focus": 2,
+     "file": "clips/69fef5133f95.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "A doctor who \"accepts assignment\" agrees to take the Medicare-approved amount as full payment.",
+     "say": "A doctor who \"accepts assignment\" agrees to take the Medicare-approved amount as full payment.",
+     "focus": 2,
+     "file": "clips/ed06f21f5615.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "Most doctors do.",
+     "say": "Most doctors do.",
+     "focus": 2,
+     "file": "clips/7ae4db03fc1b.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example: a Part B bill",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Original Medicare data splits along the same line as the cover.",
+     "say": "Original Medicare data splits along the same line as the cover.",
+     "focus": -1,
+     "file": "clips/25cca310fd81.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "**Part A** hospital bills arrive as **institutional** claims and **Part B** doctor bills as **professional** claims, both processed by a MAC.",
+     "say": "Part A hospital bills arrive as institutional claims and Part B doctor bills as professional claims, both processed by a M A C.",
+     "focus": -1,
+     "file": "clips/ab10fe373c45.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "The approved amount sits where commercial data has the allowed amount, and deductibles follow **benefit periods** for Part A but the **calendar year** for Part B, so do not assume one deductible per person per year.",
+     "say": "The approved amount sits where commercial data has the allowed amount, and deductibles follow benefit periods for Part A but the calendar year for Part B, so do not assume one deductible per person per year.",
+     "focus": -1,
+     "file": "clips/1fc336f33f8e.mp3",
+     "seconds": 12.925
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Original Medicare = Parts A and B, paid by the government through contractors called MACs.",
+     "say": "Original Medicare = Parts A and B, paid by the government through contractors called M A C's.",
+     "focus": 0,
+     "file": "clips/7d623e85bb96.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "Part A pays the hospital; the doctors who treat you in hospital are paid by Part B.",
+     "say": "Part A pays the hospital; the doctors who treat you in hospital are paid by Part B.",
+     "focus": 1,
+     "file": "clips/69cbb88fd7b4.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "The Part A deductible applies per benefit period, not per calendar year.",
+     "say": "The Part A deductible applies per benefit period, not per calendar year.",
+     "focus": 2,
+     "file": "clips/fc32238f66d7.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "In 2025: Part A deductible $1,676 per benefit period; Part B premium $185 a month and deductible $257 a year, then usually 20%.",
+     "say": "In 2025: Part A deductible 1676 dollars per benefit period; Part B premium 185 dollars a month and deductible 257 dollars a year, then usually 20 percent.",
+     "focus": 3,
+     "file": "clips/fb4717969223.mp3",
+     "seconds": 14.65
+    },
+    {
+     "raw": "Original Medicare has no yearly out-of-pocket maximum.",
+     "say": "Original Medicare has no yearly out-of-pocket maximum.",
+     "focus": 4,
+     "file": "clips/7f2d658e5e8e.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

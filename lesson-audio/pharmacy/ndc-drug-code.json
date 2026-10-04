@@ -1,0 +1,911 @@
+{
+ "courseId": "pharmacy",
+ "lessonId": "ndc-drug-code",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: The Drug: NDC.",
+     "say": "Lesson 4: The Drug: N D C.",
+     "focus": -1,
+     "file": "clips/443cc609b560.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Every box and bottle of medicine in the US has its own 10-digit code.",
+     "say": "Every box and bottle of medicine in the U S has its own 10-digit code.",
+     "focus": -1,
+     "file": "clips/b86a754c2534.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read the three parts of an NDC: labeler, product and package.",
+     "say": "Read the three parts of an N D C: labeler, product and package.",
+     "focus": 0,
+     "file": "clips/20c9e7a72c03.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Convert a 10-digit NDC into the 11-digit format used in data.",
+     "say": "Convert a 10-digit N D C into the 11-digit format used in data.",
+     "focus": 1,
+     "file": "clips/733d19df307f.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "Know why NDCs must be stored as text.",
+     "say": "Know why N D C's must be stored as text.",
+     "focus": 2,
+     "file": "clips/326255ded836.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Tell brand name, generic name, strength and dosage form apart.",
+     "say": "Tell brand name, generic name, strength and dosage form apart.",
+     "focus": 3,
+     "file": "clips/cb9065a677b4.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A barcode for every medicine pack.",
+     "say": "A barcode for every medicine pack.",
+     "focus": -1,
+     "file": "clips/9c34bae6623c.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "A barcode for every medicine pack",
+   "lines": [
+    {
+     "raw": "On medical claims, CPT procedure codes act as the \"barcodes\" of services (the Medical course covers them).",
+     "say": "On medical claims, C P T procedure codes act as the \"barcodes\" of services (the Medical course covers them).",
+     "focus": -1,
+     "file": "clips/8749eb0a946d.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "For medicines, the barcode is the **NDC (National Drug Code)**.",
+     "say": "For medicines, the barcode is the N D C (National Drug Code).",
+     "focus": -1,
+     "file": "clips/a93edb782640.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "It is printed on every US medicine box and bottle, and it is the **most important field** on a pharmacy claim: it says exactly **which drug** was dispensed.",
+     "say": "It is printed on every U S medicine box and bottle, and it is the most important field on a pharmacy claim: it says exactly which drug was dispensed.",
+     "focus": -1,
+     "file": "clips/0951dd0496ee.mp3",
+     "seconds": 10.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "A barcode for every medicine pack",
+   "lines": [
+    {
+     "raw": "Think of a Wai Wai noodle packet.",
+     "say": "Think of a Wai Wai noodle packet.",
+     "focus": -1,
+     "file": "clips/27a28706d9fe.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "One packet, a box of 30 packets and a different flavour all have **different barcodes**, even though they are made by the same company.",
+     "say": "One packet, a box of 30 packets and a different flavour all have different barcodes, even though they are made by the same company.",
+     "focus": -1,
+     "file": "clips/fee005603b4f.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "NDCs work the same way: the **company**, the **product** (drug, strength and form) and the **pack size** each change the code.",
+     "say": "N D C's work the same way: the company, the product (drug, strength and form) and the pack size each change the code.",
+     "focus": -1,
+     "file": "clips/7507a84203e8.mp3",
+     "seconds": 8.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Three parts.",
+     "say": "Three parts.",
+     "focus": -1,
+     "file": "clips/8f7eacec8db1.mp3",
+     "seconds": 1.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Three parts",
+   "lines": [
+    {
+     "raw": "A 10-digit NDC (illustrative).",
+     "say": "A 10-digit N D C (illustrative).",
+     "focus": -1,
+     "file": "clips/fed35975ccdf.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "12345: **Labeler**: the company that makes, repackages or distributes the drug.",
+     "say": "12345: Labeler: the company that makes, repackages or distributes the drug.",
+     "focus": 0,
+     "file": "clips/028057ef0fef.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "The **FDA** assigns this code.",
+     "say": "The F D A assigns this code.",
+     "focus": 0,
+     "file": "clips/469413fc95c8.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "101: **Product**: the drug, its **strength** and **dosage form**.",
+     "say": "101: Product: the drug, its strength and dosage form.",
+     "focus": 1,
+     "file": "clips/09392293f1b5.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "Here: amoxicillin **500 mg capsules**.",
+     "say": "Here: amoxicillin 500 mg capsules.",
+     "focus": 1,
+     "file": "clips/d34c511a0250.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "The company chooses this code.",
+     "say": "The company chooses this code.",
+     "focus": 1,
+     "file": "clips/86c914f22c91.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "05: **Package**: the pack size and type.",
+     "say": "05: Package: the pack size and type.",
+     "focus": 2,
+     "file": "clips/4cdfe63c2fbf.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Here: a bottle of 500 capsules.",
+     "say": "Here: a bottle of 500 capsules.",
+     "focus": 2,
+     "file": "clips/1497f4088b70.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "The company chooses this code too.",
+     "say": "The company chooses this code too.",
+     "focus": 2,
+     "file": "clips/e7795f0c4e48.mp3",
+     "seconds": 2.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Three parts",
+   "lines": [
+    {
+     "raw": "Example NDCs in this course are made up.",
+     "say": "Example N D C's in this course are made up.",
+     "focus": -1,
+     "file": "clips/da45b4514b38.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "To keep things simple, the NDCs used for Emily's medicines are **illustrative**, not real products.",
+     "say": "To keep things simple, the N D C's used for Emily's medicines are illustrative, not real products.",
+     "focus": -1,
+     "file": "clips/a6dfea8c3e73.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "To look up a real NDC, use the free **FDA NDC Directory**.",
+     "say": "To look up a real N D C, use the free F D A N D C Directory.",
+     "focus": -1,
+     "file": "clips/101d38ca2bb1.mp3",
+     "seconds": 5.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Three parts",
+   "lines": [
+    {
+     "raw": "Same medicine, many NDCs.",
+     "say": "Same medicine, many N D C's.",
+     "focus": -1,
+     "file": "clips/9f622f2794e5.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Amoxicillin 500 mg is made by many companies, so it has many **labeler** codes.",
+     "say": "Amoxicillin 500 mg is made by many companies, so it has many labeler codes.",
+     "focus": -1,
+     "file": "clips/fbb600ce85d7.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "Each company sells several **pack sizes** (30, 100, 500 capsules), so each has several **package** codes.",
+     "say": "Each company sells several pack sizes (30, 100, 500 capsules), so each has several package codes.",
+     "focus": -1,
+     "file": "clips/79ac502590e5.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "One drug can easily have **dozens of NDCs**.",
+     "say": "One drug can easily have dozens of N D C's.",
+     "focus": -1,
+     "file": "clips/a1fdbb75e18b.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "The pharmacy reports the NDC of the bottle it **actually took the capsules from**.",
+     "say": "The pharmacy reports the N D C of the bottle it actually took the capsules from.",
+     "focus": -1,
+     "file": "clips/4c3ac93741b1.mp3",
+     "seconds": 5.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Three 10-digit shapes.",
+     "say": "Three 10-digit shapes.",
+     "focus": -1,
+     "file": "clips/4950c48d421e.mp3",
+     "seconds": 2.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Three 10-digit shapes",
+   "lines": [
+    {
+     "raw": "The FDA gives out NDCs as **10 digits** in three parts, but the parts can have different lengths.",
+     "say": "The F D A gives out N D C's as 10 digits in three parts, but the parts can have different lengths.",
+     "focus": -1,
+     "file": "clips/6e8e8ba7eb73.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "There are three shapes:",
+     "say": "There are three shapes:",
+     "focus": -1,
+     "file": "clips/52529901e49a.mp3",
+     "seconds": 1.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Three 10-digit shapes",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**4-4-2**. Labeler: 4 digits. Product: 4 digits. Package: 2 digits. Example: `2345-6789-01`.",
+     "say": "4-4-2. Labeler: 4 digits. Product: 4 digits. Package: 2 digits. Example: 2 3 4 5 dash 6 7 8 9 dash 0 1.",
+     "focus": 0,
+     "file": "clips/54b03c48d1b0.mp3",
+     "seconds": 11.75
+    },
+    {
+     "raw": "**5-3-2**. Labeler: 5 digits. Product: 3 digits. Package: 2 digits. Example: `12345-101-05`.",
+     "say": "5-3-2. Labeler: 5 digits. Product: 3 digits. Package: 2 digits. Example: 1 2 3 4 5 dash 1 0 1 dash 0 5.",
+     "focus": 1,
+     "file": "clips/e75e1c893a85.mp3",
+     "seconds": 12.1
+    },
+    {
+     "raw": "**5-4-1**. Labeler: 5 digits. Product: 4 digits. Package: 1 digit. Example: `34567-0220-9`.",
+     "say": "5-4-1. Labeler: 5 digits. Product: 4 digits. Package: 1 digit. Example: 3 4 5 6 7 dash 0 2 2 0 dash 9.",
+     "focus": 2,
+     "file": "clips/ad7b562e4ffe.mp3",
+     "seconds": 12.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Three 10-digit shapes",
+   "lines": [
+    {
+     "raw": "This is a problem for computers: without the dashes, `2345678901` and `1234510105` look the same length but are split differently.",
+     "say": "This is a problem for computers: without the dashes, 2 3 4 5 6 7 8 9 0 1 and 1 2 3 4 5 1 0 1 0 5 look the same length but are split differently.",
+     "focus": -1,
+     "file": "clips/c45ecfe060b5.mp3",
+     "seconds": 13.3
+    },
+    {
+     "raw": "So claims and data files use **one fixed shape**: **11 digits, 5-4-2**.",
+     "say": "So claims and data files use one fixed shape: 11 digits, 5-4-2.",
+     "focus": -1,
+     "file": "clips/0523f628f6e3.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "To get there, you add **one leading zero** to the part that is **too short**.",
+     "say": "To get there, you add one leading zero to the part that is too short.",
+     "focus": -1,
+     "file": "clips/42accb873165.mp3",
+     "seconds": 4.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Three 10-digit shapes",
+   "lines": [
+    {
+     "raw": "Converting 10 digits to 11 digits (5-4-2).",
+     "say": "Converting 10 digits to 11 digits (5-4-2).",
+     "focus": -1,
+     "file": "clips/0dad4820e448.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "4-4-2. 10-digit NDC: `2345-6789-01`. Where the zero goes: Front of the **labeler**. 11-digit (5-4-2): `02345-6789-01`. Stored in data: `02345678901`.",
+     "say": "4-4-2. 10-digit N D C: 2 3 4 5 dash 6 7 8 9 dash 0 1. Where the zero goes: Front of the labeler. 11-digit (5-4-2): 0 2 3 4 5 dash 6 7 8 9 dash 0 1. Stored in data: 0 2 3 4 5 6 7 8 9 0 1.",
+     "focus": 0,
+     "file": "clips/073d23b8cb57.mp3",
+     "seconds": 21.725
+    },
+    {
+     "raw": "5-3-2. 10-digit NDC: `12345-101-05`. Where the zero goes: Front of the **product**. 11-digit (5-4-2): `12345-0101-05`. Stored in data: `12345010105`.",
+     "say": "5-3-2. 10-digit N D C: 1 2 3 4 5 dash 1 0 1 dash 0 5. Where the zero goes: Front of the product. 11-digit (5-4-2): 1 2 3 4 5 dash 0 1 0 1 dash 0 5. Stored in data: 1 2 3 4 5 0 1 0 1 0 5.",
+     "focus": 1,
+     "file": "clips/598d5c2b55e4.mp3",
+     "seconds": 22.1
+    },
+    {
+     "raw": "5-4-1. 10-digit NDC: `34567-0220-9`. Where the zero goes: Front of the **package**. 11-digit (5-4-2): `34567-0220-09`. Stored in data: `34567022009`.",
+     "say": "5-4-1. 10-digit N D C: 3 4 5 6 7 dash 0 2 2 0 dash 9. Where the zero goes: Front of the package. 11-digit (5-4-2): 3 4 5 6 7 dash 0 2 2 0 dash 0 9. Stored in data: 3 4 5 6 7 0 2 2 0 0 9.",
+     "focus": 2,
+     "file": "clips/776dc916422c.mp3",
+     "seconds": 22.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Three 10-digit shapes",
+   "lines": [
+    {
+     "raw": "The same amoxicillin NDC in 11-digit form.",
+     "say": "The same amoxicillin N D C in 11-digit form.",
+     "focus": -1,
+     "file": "clips/88fd0ed49c3d.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "12345: Labeler: **5 digits** (already 5, no change).",
+     "say": "12345: Labeler: 5 digits (already 5, no change).",
+     "focus": 0,
+     "file": "clips/df1dd55e324a.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "0101: Product: was `101`, a **zero added in front** to make 4 digits.",
+     "say": "0101: Product: was 101, a zero added in front to make 4 digits.",
+     "focus": 1,
+     "file": "clips/93e96788e318.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "05: Package: **2 digits** (already 2, no change).",
+     "say": "05: Package: 2 digits (already 2, no change).",
+     "focus": 2,
+     "file": "clips/2da1dc002e42.mp3",
+     "seconds": 4.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Three 10-digit shapes",
+   "lines": [
+    {
+     "raw": "You need the dashes to convert.",
+     "say": "You need the dashes to convert.",
+     "focus": -1,
+     "file": "clips/84b87181721a.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "You can only convert safely if you know **where the dashes were**.",
+     "say": "You can only convert safely if you know where the dashes were.",
+     "focus": -1,
+     "file": "clips/f5199240eb39.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "A plain 10-digit number without dashes cannot be converted reliably, because you cannot tell which part is short.",
+     "say": "A plain 10-digit number without dashes cannot be converted reliably, because you cannot tell which part is short.",
+     "focus": -1,
+     "file": "clips/0c8a7ed9cc0f.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "That is why data teams convert once, at the start, and then **always store the 11-digit form without dashes**.",
+     "say": "That is why data teams convert once, at the start, and then always store the 11-digit form without dashes.",
+     "focus": -1,
+     "file": "clips/d143bd930537.mp3",
+     "seconds": 7.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Store NDCs as text, never as numbers.",
+     "say": "Store N D C's as text, never as numbers.",
+     "focus": -1,
+     "file": "clips/c96f5b3c61ed.mp3",
+     "seconds": 3.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Store NDCs as text, never as numbers",
+   "lines": [
+    {
+     "raw": "Look at `02345678901`.",
+     "say": "Look at 0 2 3 4 5 6 7 8 9 0 1.",
+     "focus": -1,
+     "file": "clips/fa08d2b04aa2.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "If you save it as a **number**, a spreadsheet or database quietly drops the leading zero and you get `2345678901`: only 10 digits, and now it matches **nothing**.",
+     "say": "If you save it as a number, a spreadsheet or database quietly drops the leading zero and you get 2 3 4 5 6 7 8 9 0 1: only 10 digits, and now it matches nothing.",
+     "focus": -1,
+     "file": "clips/7abfb974ea82.mp3",
+     "seconds": 12.8
+    },
+    {
+     "raw": "Joins to drug reference tables fail and the drug disappears from your report.",
+     "say": "Joins to drug reference tables fail and the drug disappears from your report.",
+     "focus": -1,
+     "file": "clips/4c9b66d311e2.mp3",
+     "seconds": 5.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Store NDCs as text, never as numbers",
+   "lines": [
+    {
+     "raw": "Store NDC in a **text** column (for example `VARCHAR(11)` or `CHAR(11)`).",
+     "say": "Store N D C in a text column (for example V A R C H A R ( 1 1 ) or C H A R ( 1 1 )).",
+     "focus": 0,
+     "file": "clips/5a890d083423.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "Always **11 digits**, **no dashes**, **leading zeros kept**.",
+     "say": "Always 11 digits, no dashes, leading zeros kept.",
+     "focus": 1,
+     "file": "clips/2064b07a12fd.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "When opening a file in Excel, import the NDC column as **Text**, or the zeros vanish.",
+     "say": "When opening a file in Excel, import the N D C column as Text, or the zeros vanish.",
+     "focus": 2,
+     "file": "clips/a14fd69d0bd6.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "If you find a 10-digit or 9-digit NDC in data, it has probably lost its zeros.",
+     "say": "If you find a 10-digit or 9-digit N D C in data, it has probably lost its zeros.",
+     "focus": 3,
+     "file": "clips/f3962d05c948.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "Pad it back with zeros on the left to 11 digits, and check it against a reference list.",
+     "say": "Pad it back with zeros on the left to 11 digits, and check it against a reference list.",
+     "focus": 3,
+     "file": "clips/548b6f72dd73.mp3",
+     "seconds": 5.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Store NDCs as text, never as numbers",
+   "lines": [
+    {
+     "raw": "Same lesson as ZIP codes.",
+     "say": "Same lesson as Z I P codes.",
+     "focus": -1,
+     "file": "clips/a375ee675e9b.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "The same thing happens to other codes with leading zeros, like revenue codes (`0250`) and US ZIP codes (`02134`).",
+     "say": "The same thing happens to other codes with leading zeros, like revenue codes (0 2 5 0) and U S Z I P codes (0 2 1 3 4).",
+     "focus": -1,
+     "file": "clips/fb2a159df98e.mp3",
+     "seconds": 10.725
+    },
+    {
+     "raw": "Codes are **labels**, not amounts.",
+     "say": "Codes are labels, not amounts.",
+     "focus": -1,
+     "file": "clips/167245c670e4.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "You never add them up, so store them as text.",
+     "say": "You never add them up, so store them as text.",
+     "focus": -1,
+     "file": "clips/aa319c5d7b65.mp3",
+     "seconds": 2.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Drug names: brand, generic, strength and form.",
+     "say": "Drug names: brand, generic, strength and form.",
+     "focus": -1,
+     "file": "clips/21f2e24a3f7f.mp3",
+     "seconds": 3.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Drug names: brand, generic, strength and form",
+   "lines": [
+    {
+     "raw": "Generic name.",
+     "say": "Generic name.",
+     "focus": 0,
+     "file": "clips/da921c58cdc0.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "The name of the **active ingredient**, like `atorvastatin`.",
+     "say": "The name of the active ingredient, like atorvastatin.",
+     "focus": 0,
+     "file": "clips/3d12083d453a.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "In Nepal this is often called the medicine's \"**salt**\" name.",
+     "say": "In Nepal this is often called the medicine's \"salt\" name.",
+     "focus": 0,
+     "file": "clips/e8908da26b13.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Brand name.",
+     "say": "Brand name.",
+     "focus": 1,
+     "file": "clips/1b512e80120f.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "The name the company gives its product, like **Lipitor** for atorvastatin.",
+     "say": "The name the company gives its product, like Lipitor for atorvastatin.",
+     "focus": 1,
+     "file": "clips/174f0acaad69.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "A brand is written with a capital letter.",
+     "say": "A brand is written with a capital letter.",
+     "focus": 1,
+     "file": "clips/6c888ba8ea28.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Strength.",
+     "say": "Strength.",
+     "focus": 2,
+     "file": "clips/9153b08ada21.mp3",
+     "seconds": 1.4
+    },
+    {
+     "raw": "How much active ingredient is in one unit: **500 mg** per capsule, **20 mg** per tablet.",
+     "say": "How much active ingredient is in one unit: 500 mg per capsule, 20 mg per tablet.",
+     "focus": 2,
+     "file": "clips/75b02ff53e3b.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "Dosage form.",
+     "say": "Dosage form.",
+     "focus": 3,
+     "file": "clips/e37aebf5b205.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The shape the medicine comes in: tablet, capsule, liquid (suspension), cream, inhaler, injection.",
+     "say": "The shape the medicine comes in: tablet, capsule, liquid (suspension), cream, inhaler, injection.",
+     "focus": 3,
+     "file": "clips/745d589d099e.mp3",
+     "seconds": 6.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Drug names: brand, generic, strength and form",
+   "lines": [
+    {
+     "raw": "In Nepal: Brand and salt names at a Kathmandu medical shop.",
+     "say": "In Nepal: Brand and salt names at a Kathmandu medical shop.",
+     "focus": -1,
+     "file": "clips/784889446b45.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's prescription says a **brand name**.",
+     "say": "Ram's prescription says a brand name.",
+     "focus": 0,
+     "file": "clips/878770820d4a.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "The shop does not have it, so the shopkeeper offers a **different company's brand** with the **same salt** and strength.",
+     "say": "The shop does not have it, so the shopkeeper offers a different company's brand with the same salt and strength.",
+     "focus": 0,
+     "file": "clips/140f8bd68ddd.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Two different boxes, same medicine inside.",
+     "say": "Two different boxes, same medicine inside.",
+     "focus": 1,
+     "file": "clips/c4618db1e806.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "In the US, those two boxes would have **two different NDCs** (different labelers), but the **same generic name**.",
+     "say": "In the U S, those two boxes would have two different N D C's (different labelers), but the same generic name.",
+     "focus": 1,
+     "file": "clips/6e3ff920156a.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's hospital pharmacy might stock only **one company's** version of her antibiotic.",
+     "say": "Sita's hospital pharmacy might stock only one company's version of her antibiotic.",
+     "focus": 2,
+     "file": "clips/8ce7b65077ae.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "SSF records the medicine name and quantity in the hospital bill.",
+     "say": "S S F records the medicine name and quantity in the hospital bill.",
+     "focus": 3,
+     "file": "clips/b56cfce430e5.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "A US claim goes further and records the exact **pack** through the NDC.",
+     "say": "A U S claim goes further and records the exact pack through the N D C.",
+     "focus": 3,
+     "file": "clips/3dce8ff261dd.mp3",
+     "seconds": 4.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Grouping thousands of NDCs.",
+     "say": "Grouping thousands of N D C's.",
+     "focus": -1,
+     "file": "clips/b02299617e10.mp3",
+     "seconds": 2.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Grouping thousands of NDCs",
+   "lines": [
+    {
+     "raw": "There are **hundreds of thousands** of NDCs.",
+     "say": "There are hundreds of thousands of N D C's.",
+     "focus": -1,
+     "file": "clips/a759ef7b5867.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Analysts rarely ask \"how many fills of NDC `34567022009`?\" They ask \"how many fills of **atorvastatin**?\" or \"how much did we spend on **cholesterol medicines**?\" To answer, they join the NDC to a **drug reference table** that groups NDCs:",
+     "say": "Analysts rarely ask \"how many fills of N D C 3 4 5 6 7 0 2 2 0 0 9?\" They ask \"how many fills of atorvastatin?\" or \"how much did we spend on cholesterol medicines?\" To answer, they join the N D C to a drug reference table that groups N D C's:",
+     "focus": -1,
+     "file": "clips/2cf575f80947.mp3",
+     "seconds": 20.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "Grouping thousands of NDCs",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**RxNorm** (RXCUI). What it is: A free drug vocabulary from the US **National Library of Medicine**. Links NDCs to ingredient, strength and form. Use it to answer: All fills of atorvastatin 20 mg tablets, from any company.",
+     "say": "RxNorm (R X C U I). What it is: A free drug vocabulary from the U S National Library of Medicine. Links N D C's to ingredient, strength and form. Use it to answer: All fills of atorvastatin 20 mg tablets, from any company.",
+     "focus": 0,
+     "file": "clips/992c4d12dcd4.mp3",
+     "seconds": 18.425
+    },
+    {
+     "raw": "**GPI** (Generic Product Identifier). What it is: A **14-character** code from a commercial drug database. Read left to right, it goes from broad group to exact drug, form and strength. Use it to answer: All cholesterol medicines, then all statins, then atorvastatin.",
+     "say": "G P I (Generic Product Identifier). What it is: A 14-character code from a commercial drug database. Read left to right, it goes from broad group to exact drug, form and strength. Use it to answer: All cholesterol medicines, then all statins, then atorvastatin.",
+     "focus": 1,
+     "file": "clips/6a2e23445410.mp3",
+     "seconds": 19.075
+    },
+    {
+     "raw": "**Therapeutic class**. What it is: A category by what the drug treats or how it works. Use it to answer: Antibiotics, statins, pain relievers.",
+     "say": "Therapeutic class. What it is: A category by what the drug treats or how it works. Use it to answer: Antibiotics, statins, pain relievers.",
+     "focus": 2,
+     "file": "clips/47fafc21d78a.mp3",
+     "seconds": 10.1
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**NDC** = National Drug Code: **labeler - product - package**.",
+     "say": "N D C = National Drug Code: labeler - product - package.",
+     "focus": 0,
+     "file": "clips/abd2461f2651.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "10-digit NDCs come in **4-4-2**, **5-3-2** or **5-4-1**.",
+     "say": "10-digit N D C's come in 4-4-2, 5-3-2 or 5-4-1.",
+     "focus": 1,
+     "file": "clips/4c56db8b1316.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "Add one zero to the short part to get **11 digits (5-4-2)**.",
+     "say": "Add one zero to the short part to get 11 digits (5-4-2).",
+     "focus": 1,
+     "file": "clips/7f422decba20.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Store NDCs as **text**, 11 digits, no dashes, leading zeros kept.",
+     "say": "Store N D C's as text, 11 digits, no dashes, leading zeros kept.",
+     "focus": 2,
+     "file": "clips/d7e4691c5c73.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Same generic drug from different companies or pack sizes = different NDCs.",
+     "say": "Same generic drug from different companies or pack sizes = different N D C's.",
+     "focus": 3,
+     "file": "clips/00093b8faea3.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "Use RxNorm, GPI or therapeutic class to group them.",
+     "say": "Use RxNorm, G P I or therapeutic class to group them.",
+     "focus": 3,
+     "file": "clips/a698c701956e.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

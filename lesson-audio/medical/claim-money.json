@@ -1,0 +1,1149 @@
+{
+ "courseId": "medical",
+ "lessonId": "claim-money",
+ "lessonNumber": 10,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 10: Amounts: How Much.",
+     "say": "Lesson 10: Amounts: How Much.",
+     "focus": -1,
+     "file": "clips/c8a582617f10.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "The most important numbers on a claim, and how they connect.",
+     "say": "The most important numbers on a claim, and how they connect.",
+     "focus": -1,
+     "file": "clips/da5fe1e3df4c.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain billed amount, allowed amount and paid amount.",
+     "say": "Explain billed amount, allowed amount and paid amount.",
+     "focus": 0,
+     "file": "clips/165de104c2d1.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Understand deductible, copay, coinsurance and out-of-pocket maximum.",
+     "say": "Understand deductible, copay, coinsurance and out-of-pocket maximum.",
+     "focus": 1,
+     "file": "clips/40233b1aea81.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Calculate who pays what on a simple claim.",
+     "say": "Calculate who pays what on a simple claim.",
+     "focus": 2,
+     "file": "clips/ff27a27219ff.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "Know what the DRG and APC package fields on hospital claims mean.",
+     "say": "Know what the D R G and A P C package fields on hospital claims mean.",
+     "focus": 3,
+     "file": "clips/51c7d40d61b2.mp3",
+     "seconds": 5.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Three amounts, three different meanings.",
+     "say": "Three amounts, three different meanings.",
+     "focus": -1,
+     "file": "clips/90c30d858946.mp3",
+     "seconds": 2.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Three amounts, three different meanings",
+   "lines": [
+    {
+     "raw": "Billed amount (charge).",
+     "say": "Billed amount (charge).",
+     "focus": 0,
+     "file": "clips/399aba45ab3b.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "The **price the provider asks** for.",
+     "say": "The price the provider asks for.",
+     "focus": 0,
+     "file": "clips/7daee67d9a7c.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Like the price on the hospital's rate list.",
+     "say": "Like the price on the hospital's rate list.",
+     "focus": 0,
+     "file": "clips/1f2f67153ec8.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Different hospitals charge different amounts for the same service.",
+     "say": "Different hospitals charge different amounts for the same service.",
+     "focus": 0,
+     "file": "clips/f7d54d442b3e.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Allowed amount.",
+     "say": "Allowed amount.",
+     "focus": 1,
+     "file": "clips/7462da1a09f9.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The **maximum the insurer accepts** for that service, based on its contract with the provider.",
+     "say": "The maximum the insurer accepts for that service, based on its contract with the provider.",
+     "focus": 1,
+     "file": "clips/f477d2304dcb.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "In-network providers agree to accept this price.",
+     "say": "In-network providers agree to accept this price.",
+     "focus": 1,
+     "file": "clips/16139099bd86.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Paid amount.",
+     "say": "Paid amount.",
+     "focus": 2,
+     "file": "clips/5c9a1b515525.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "What the **insurance company actually pays** the provider after the patient's share is taken out.",
+     "say": "What the insurance company actually pays the provider after the patient's share is taken out.",
+     "focus": 2,
+     "file": "clips/223d51e21ab9.mp3",
+     "seconds": 5.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Three amounts, three different meanings",
+   "lines": [
+    {
+     "raw": "Think of a member discount card.",
+     "say": "Think of a member discount card.",
+     "focus": -1,
+     "file": "clips/1b556e3d27b8.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "A shop's price tag says Rs 1,000 (**billed**).",
+     "say": "A shop's price tag says Rs 1,000 (billed).",
+     "focus": -1,
+     "file": "clips/d4feef9ad011.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Because you have a member card, the shop agrees to Rs 800 (**allowed**).",
+     "say": "Because you have a member card, the shop agrees to Rs 800 (allowed).",
+     "focus": -1,
+     "file": "clips/c2f41d703fda.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Your company reimburses Rs 600 of that (**paid**), and you pay the remaining Rs 200 (**patient share**).",
+     "say": "Your company reimburses Rs 600 of that (paid), and you pay the remaining Rs 200 (patient share).",
+     "focus": -1,
+     "file": "clips/242ccae8e1a9.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "The Rs 200 discount just disappears; nobody pays it.",
+     "say": "The Rs 200 discount just disappears; nobody pays it.",
+     "focus": -1,
+     "file": "clips/e9a6fef155fb.mp3",
+     "seconds": 4.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Three amounts, three different meanings",
+   "lines": [
+    {
+     "raw": "Discount (also called \"PPO savings\" or contractual adjustment).",
+     "say": "Discount (also called \"P P O savings\" or contractual adjustment).",
+     "focus": -1,
+     "file": "clips/efcf579ec0e2.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Discount equals Billed − Allowed.",
+     "say": "Discount equals Billed − Allowed.",
+     "focus": 0,
+     "file": "clips/679462402589.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "For example: Billed $150 − Allowed $102 equals $48 discount.",
+     "say": "For example: Billed 150 dollars − Allowed 102 dollars equals 48 dollars discount.",
+     "focus": 1,
+     "file": "clips/5e881af0fb25.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "The doctor cannot charge Emily this $48.",
+     "say": "The doctor cannot charge Emily this 48 dollars.",
+     "focus": 1,
+     "file": "clips/5ad2674fd650.mp3",
+     "seconds": 3.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The patient's share.",
+     "say": "The patient's share.",
+     "focus": -1,
+     "file": "clips/5621a7e5b3c3.mp3",
+     "seconds": 1.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The patient's share",
+   "lines": [
+    {
+     "raw": "Out of the **allowed amount**, part is paid by the patient and the rest by the insurer.",
+     "say": "Out of the allowed amount, part is paid by the patient and the rest by the insurer.",
+     "focus": -1,
+     "file": "clips/0e964237ce69.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "The patient's part comes from three rules in their plan:",
+     "say": "The patient's part comes from three rules in their plan:",
+     "focus": -1,
+     "file": "clips/a10d7303a842.mp3",
+     "seconds": 3.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The patient's share",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Deductible**. What it means: An amount the patient must pay **each year** before insurance starts sharing costs. Example: $1,000 per year. The first $1,000 of allowed costs are on Emily.",
+     "say": "Deductible. What it means: An amount the patient must pay each year before insurance starts sharing costs. Example: 1000 dollars per year. The first 1000 dollars of allowed costs are on Emily.",
+     "focus": 0,
+     "file": "clips/9307f084d500.mp3",
+     "seconds": 13.625
+    },
+    {
+     "raw": "**Copay**. What it means: A **fixed amount** paid for certain services. Example: $25 for every doctor visit.",
+     "say": "Copay. What it means: A fixed amount paid for certain services. Example: 25 dollars for every doctor visit.",
+     "focus": 1,
+     "file": "clips/a87308ad0082.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "**Coinsurance**. What it means: A **percentage** split after the deductible. Example: 80/20 plan: insurer pays 80%, Emily pays 20%. Just like Sita's 20% share in SSF!",
+     "say": "Coinsurance. What it means: A percentage split after the deductible. Example: 80/20 plan: insurer pays 80 percent, Emily pays 20 percent. Just like Sita's 20 percent share in S S F!",
+     "focus": 2,
+     "file": "clips/76ab1feff3a5.mp3",
+     "seconds": 14.8
+    },
+    {
+     "raw": "**Out-of-pocket maximum**. What it means: The **most** a patient pays in a year. After this, insurance pays 100%. Example: $5,000 per year.",
+     "say": "Out-of-pocket maximum. What it means: The most a patient pays in a year. After this, insurance pays 100 percent. Example: 5000 dollars per year.",
+     "focus": 3,
+     "file": "clips/8921669ac4af.mp3",
+     "seconds": 11.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The patient's share",
+   "lines": [
+    {
+     "raw": "The key relationship.",
+     "say": "The key relationship.",
+     "focus": -1,
+     "file": "clips/bfe3da2cc971.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Allowed equals Paid plus Deductible plus Copay plus Coinsurance.",
+     "say": "Allowed equals Paid plus Deductible plus Copay plus Coinsurance.",
+     "focus": 0,
+     "file": "clips/473d331cea46.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "For example: So: Paid equals Allowed − (Deductible plus Copay plus Coinsurance).",
+     "say": "For example: So: Paid equals Allowed − (Deductible plus Copay plus Coinsurance).",
+     "focus": 1,
+     "file": "clips/17e4eabdc0a6.mp3",
+     "seconds": 6.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The patient's share",
+   "lines": [
+    {
+     "raw": "Premium is not on the claim.",
+     "say": "Premium is not on the claim.",
+     "focus": -1,
+     "file": "clips/572b719c9522.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "The **premium** is the monthly fee to keep insurance active, like Sita's monthly SSF contribution.",
+     "say": "The premium is the monthly fee to keep insurance active, like Sita's monthly S S F contribution.",
+     "focus": -1,
+     "file": "clips/26e2f315bbee.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "It is paid whether you get sick or not, so it never appears on a claim.",
+     "say": "It is paid whether you get sick or not, so it never appears on a claim.",
+     "focus": -1,
+     "file": "clips/65a83091a3ed.mp3",
+     "seconds": 4.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example 1: Emily's sore throat visit.",
+     "say": "Worked example 1: Emily's sore throat visit.",
+     "focus": -1,
+     "file": "clips/889bb5327726.mp3",
+     "seconds": 3.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Worked example 1: Emily's sore throat visit",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Billed by doctor. Amount: $150.00.",
+     "say": "Billed by doctor. Amount: 150 dollars.",
+     "focus": 0,
+     "file": "clips/2bc9e8781c26.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Allowed by insurer. Amount: $102.00.",
+     "say": "Allowed by insurer. Amount: 102 dollars.",
+     "focus": 1,
+     "file": "clips/00e8ad52207a.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Discount (150 − 102). Amount: $48.00 (written off).",
+     "say": "Discount (150 − 102). Amount: 48 dollars (written off).",
+     "focus": 2,
+     "file": "clips/e63677fb870d.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Emily's copay. Amount: $25.00.",
+     "say": "Emily's copay. Amount: 25 dollars.",
+     "focus": 3,
+     "file": "clips/73c762f1ba4b.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Insurance pays (102 − 25). Amount: **$77.00**.",
+     "say": "Insurance pays (102 − 25). Amount: 77 dollars.",
+     "focus": 4,
+     "file": "clips/ddd8e17cb0a0.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Emily pays in total. Amount: **$25.00**.",
+     "say": "Emily pays in total. Amount: 25 dollars.",
+     "focus": 5,
+     "file": "clips/34ebd9d59831.mp3",
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example 2: Emily's appendix surgery (hospital claim).",
+     "say": "Worked example 2: Emily's appendix surgery (hospital claim).",
+     "focus": -1,
+     "file": "clips/775c2580407d.mp3",
+     "seconds": 4.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Worked example 2: Emily's appendix surgery (hospital claim)",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Billed by hospital. Amount: $10,000.",
+     "say": "Billed by hospital. Amount: 10000 dollars.",
+     "focus": 0,
+     "file": "clips/b71c3f6f3bea.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "Allowed by insurer. Amount: $6,000.",
+     "say": "Allowed by insurer. Amount: 6000 dollars.",
+     "focus": 1,
+     "file": "clips/cdb149df27ae.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Deductible (Emily has $1,000 left this year). Amount: $1,000 → Emily.",
+     "say": "Deductible (Emily has 1000 dollars left this year). Amount: 1000 dollars to Emily.",
+     "focus": 2,
+     "file": "clips/f469677a1631.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "Remaining after deductible. Amount: $5,000.",
+     "say": "Remaining after deductible. Amount: 5000 dollars.",
+     "focus": 3,
+     "file": "clips/eef40775a025.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Coinsurance 20% of $5,000. Amount: $1,000 → Emily.",
+     "say": "Coinsurance 20 percent of 5000 dollars. Amount: 1000 dollars to Emily.",
+     "focus": 4,
+     "file": "clips/941418494d48.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "Insurance pays 80% of $5,000. Amount: **$4,000**.",
+     "say": "Insurance pays 80 percent of 5000 dollars. Amount: 4000 dollars.",
+     "focus": 5,
+     "file": "clips/57183c254a7a.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Emily pays in total. Amount: **$2,000**.",
+     "say": "Emily pays in total. Amount: 2000 dollars.",
+     "focus": 6,
+     "file": "clips/ceed183f0171.mp3",
+     "seconds": 3.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example 2: Emily's appendix surgery (hospital claim)",
+   "lines": [
+    {
+     "raw": "The same idea in Nepal.",
+     "say": "The same idea in Nepal.",
+     "focus": -1,
+     "file": "clips/12133dd62d0d.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's bill is Rs 2,000 (**billed**).",
+     "say": "Ram's bill is Rs 2,000 (billed).",
+     "focus": 0,
+     "file": "clips/2db80ff28373.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "He pays all of it at the counter first.",
+     "say": "He pays all of it at the counter first.",
+     "focus": 0,
+     "file": "clips/5ab41a31a61a.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "He claims it from his insurer.",
+     "say": "He claims it from his insurer.",
+     "focus": 1,
+     "file": "clips/4651a4316efa.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "His policy does not cover the Rs 200 registration/file charge, so the insurer **allows Rs 1,800**.",
+     "say": "His policy does not cover the Rs 200 registration/file charge, so the insurer allows Rs 1,800.",
+     "focus": 1,
+     "file": "clips/735e1f0044d1.mp3",
+     "seconds": 9.625
+    },
+    {
+     "raw": "The insurer **reimburses Rs 1,800** to Ram (the **paid** amount).",
+     "say": "The insurer reimburses Rs 1,800 to Ram (the paid amount).",
+     "focus": 2,
+     "file": "clips/1eccbb069a6c.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Ram's own cost is **Rs 200**, the part that was **not covered**.",
+     "say": "Ram's own cost is Rs 200, the part that was not covered.",
+     "focus": 2,
+     "file": "clips/e81816909058.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Key difference from the US and SSF: the money goes back to **Ram**, not to the hospital.",
+     "say": "Key difference from the U S and S S F: the money goes back to Ram, not to the hospital.",
+     "focus": 3,
+     "file": "clips/924b34b7f9d2.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 4,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's visit costs Rs 2,000.",
+     "say": "Sita's visit costs Rs 2,000.",
+     "focus": 4,
+     "file": "clips/c098ce251657.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "SSF checks each item against its **approved rates**.",
+     "say": "S S F checks each item against its approved rates.",
+     "focus": 4,
+     "file": "clips/ac8d139fe769.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "All items are within SSF rates, so the **allowed** amount is Rs 2,000.",
+     "say": "All items are within S S F rates, so the allowed amount is Rs 2,000.",
+     "focus": 4,
+     "file": "clips/118fb02aa605.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "(If the hospital charged more than SSF's rate, SSF would only count its own rate.).",
+     "say": "(If the hospital charged more than SSF's rate, S S F would only count its own rate.).",
+     "focus": 4,
+     "file": "clips/7446b22df07e.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "Sita pays **20% = Rs 400**.",
+     "say": "Sita pays 20 percent = Rs 400.",
+     "focus": 5,
+     "file": "clips/6464728f4c0b.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "That is her **cost sharing**, the same idea as US **coinsurance**.",
+     "say": "That is her cost sharing, the same idea as U S coinsurance.",
+     "focus": 5,
+     "file": "clips/da4edbc0a556.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "SSF pays **80% = Rs 1,600** to the hospital, as long as Sita is within her **yearly medical limit**.",
+     "say": "S S F pays 80 percent = Rs 1,600 to the hospital, as long as Sita is within her yearly medical limit.",
+     "focus": 6,
+     "file": "clips/fdf0bbcd9bf3.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "Items SSF does not cover, or costs above the limit, are also Sita's to pay.",
+     "say": "Items S S F does not cover, or costs above the limit, are also Sita's to pay.",
+     "focus": 6,
+     "file": "clips/8f810ba8a30e.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "The yearly limit works like the reverse of a US out-of-pocket maximum: in the US the **patient's** spending has a cap; in SSF the **fund's** spending on you has a cap.",
+     "say": "The yearly limit works like the reverse of a U S out-of-pocket maximum: in the U S the patient's spending has a cap; in S S F the fund's spending on you has a cap.",
+     "focus": 7,
+     "file": "clips/8cdfb8d9f9f6.mp3",
+     "seconds": 11.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example 2: Emily's appendix surgery (hospital claim)",
+   "lines": [
+    {
+     "raw": "About SSF numbers.",
+     "say": "About S S F numbers.",
+     "focus": -1,
+     "file": "clips/e03a5fee5dcc.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "SSF rules, rates and yearly limits are updated from time to time, and every private insurance policy has its own terms.",
+     "say": "S S F rules, rates and yearly limits are updated from time to time, and every private insurance policy has its own terms.",
+     "focus": -1,
+     "file": "clips/c50a2393d2b4.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "The Nepali rupee amounts in this course are simplified examples for learning.",
+     "say": "The Nepali rupee amounts in this course are simplified examples for learning.",
+     "focus": -1,
+     "file": "clips/f1af70e39f9d.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Always check the latest SSF guidelines or the policy document for real figures.",
+     "say": "Always check the latest S S F guidelines or the policy document for real figures.",
+     "focus": -1,
+     "file": "clips/7a98deca7fd5.mp3",
+     "seconds": 5.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Try it yourself.",
+     "say": "Try it yourself.",
+     "focus": -1,
+     "file": "clips/23cd2ae663a4.mp3",
+     "seconds": 1.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Try it yourself",
+   "lines": [
+    {
+     "raw": "Change the numbers below and watch how the money splits between the patient and the insurer.",
+     "say": "Change the numbers below and watch how the money splits between the patient and the insurer.",
+     "focus": -1,
+     "file": "clips/4f2ada62a980.mp3",
+     "seconds": 5.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Other money fields you will see.",
+     "say": "Other money fields you will see.",
+     "focus": -1,
+     "file": "clips/5d68e0d4ed46.mp3",
+     "seconds": 2.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Other money fields you will see",
+   "lines": [
+    {
+     "raw": "Not allowed / non-covered (denied).",
+     "say": "Not allowed or non-covered (denied).",
+     "focus": 0,
+     "file": "clips/6f1ad203ca0e.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Charges the insurer refuses to pay at all, so the allowed amount for that line is **$0**.",
+     "say": "Charges the insurer refuses to pay at all, so the allowed amount for that line is 0 dollars.",
+     "focus": 0,
+     "file": "clips/ad1d87376873.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "These lines are also called **denied**.",
+     "say": "These lines are also called denied.",
+     "focus": 0,
+     "file": "clips/4863f0a6a825.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Who pays depends on the reason (see the table below).",
+     "say": "Who pays depends on the reason (see the table below).",
+     "focus": 0,
+     "file": "clips/8abc04cd6be0.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Patient responsibility.",
+     "say": "Patient responsibility.",
+     "focus": 1,
+     "file": "clips/a8de912a8ed3.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Total the patient owes: deductible + copay + coinsurance + any denied amounts the patient is responsible for.",
+     "say": "Total the patient owes: deductible and copay and coinsurance and any denied amounts the patient is responsible for.",
+     "focus": 1,
+     "file": "clips/ee4c8c5bc325.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "COB (Coordination of Benefits).",
+     "say": "C O B (Coordination of Benefits).",
+     "focus": 2,
+     "file": "clips/23034c004d71.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "When a person has **two** insurances (e.g. their own job and their spouse's), rules decide which pays first.",
+     "say": "When a person has two insurances (for example their own job and their spouse's), rules decide which pays first.",
+     "focus": 2,
+     "file": "clips/91fdddb20ebc.mp3",
+     "seconds": 7.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Other money fields you will see",
+   "lines": [
+    {
+     "raw": "Why a service is not allowed (denied), and who pays.",
+     "say": "Why a service is not allowed (denied), and who pays.",
+     "focus": -1,
+     "file": "clips/0af0ab015783.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "**Plan does not cover it**. Example: Cosmetic surgery, like a nose job for looks only. Who pays?: **Patient**: the plan never covered it.",
+     "say": "Plan does not cover it. Example: Cosmetic surgery, like a nose job for looks only. Who pays?: Patient: the plan never covered it.",
+     "focus": 0,
+     "file": "clips/0209526eac70.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "**Patient not covered** on that date. Example: Visit after the insurance ended. Who pays?: **Patient**: there was no active plan.",
+     "say": "Patient not covered on that date. Example: Visit after the insurance ended. Who pays?: Patient: there was no active plan.",
+     "focus": 1,
+     "file": "clips/eb03b0257082.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "**Provider not allowed to do that service**. Example: A physiotherapist bills for surgery, or a provider bills for something outside their licence. Who pays?: **Provider**: usually cannot bill the patient.",
+     "say": "Provider not allowed to do that service. Example: A physiotherapist bills for surgery, or a provider bills for something outside their licence. Who pays?: Provider: usually cannot bill the patient.",
+     "focus": 2,
+     "file": "clips/9b7ef7b688d9.mp3",
+     "seconds": 13.525
+    },
+    {
+     "raw": "**Provider sanctioned by the government**. Example: A doctor banned (excluded) from Medicare for fraud still sends claims. Who pays?: **Provider**: the insurer cannot pay them.",
+     "say": "Provider sanctioned by the government. Example: A doctor banned (excluded) from Medicare for fraud still sends claims. Who pays?: Provider: the insurer cannot pay them.",
+     "focus": 3,
+     "file": "clips/2e2b0ee2dd30.mp3",
+     "seconds": 11.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Other money fields you will see",
+   "lines": [
+    {
+     "raw": "The same idea in Nepal.",
+     "say": "The same idea in Nepal.",
+     "focus": -1,
+     "file": "clips/12133dd62d0d.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's private insurer will not reimburse items his policy excludes, like cosmetic treatment.",
+     "say": "Ram's private insurer will not reimburse items his policy excludes, like cosmetic treatment.",
+     "focus": 0,
+     "file": "clips/d76aa0c236d3.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "**Ram** bears that cost.",
+     "say": "Ram bears that cost.",
+     "focus": 0,
+     "file": "clips/076ebdf06617.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF will not pay a hospital for a doctor whose **NMC registration** has been suspended, or for a hospital whose SSF listing has been cancelled.",
+     "say": "S S F will not pay a hospital for a doctor whose N M C registration has been suspended, or for a hospital whose S S F listing has been cancelled.",
+     "focus": 1,
+     "file": "clips/7d8f34df23ff.mp3",
+     "seconds": 11.325
+    },
+    {
+     "raw": "That is the hospital's problem, not Sita's.",
+     "say": "That is the hospital's problem, not Sita's.",
+     "focus": 1,
+     "file": "clips/00f5ae9ede42.mp3",
+     "seconds": 3.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Package prices on hospital claims: DRG and APC.",
+     "say": "Package prices on hospital claims: D R G and A P C.",
+     "focus": -1,
+     "file": "clips/f9f0fb759945.mp3",
+     "seconds": 4.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "Package prices on hospital claims: DRG and APC",
+   "lines": [
+    {
+     "raw": "Paying a hospital for every single tablet and bandage gets complicated.",
+     "say": "Paying a hospital for every single tablet and bandage gets complicated.",
+     "focus": -1,
+     "file": "clips/277d1315043f.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "So many insurers, including Medicare, pay hospitals a **package price** instead.",
+     "say": "So many insurers, including Medicare, pay hospitals a package price instead.",
+     "focus": -1,
+     "file": "clips/c4cb8360fa62.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Two package fields appear on hospital claims:",
+     "say": "Two package fields appear on hospital claims:",
+     "focus": -1,
+     "file": "clips/3bf945abff11.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "Package prices on hospital claims: DRG and APC",
+   "lines": [
+    {
+     "raw": "DRG (Diagnosis Related Group).",
+     "say": "D R G (Diagnosis Related Group).",
+     "focus": 0,
+     "file": "clips/603c33239639.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "A **3-digit group** for a whole **inpatient** stay.",
+     "say": "A 3-digit group for a whole inpatient stay.",
+     "focus": 0,
+     "file": "clips/bf564e562fb3.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Similar stays (for example, \"appendix removal without complications\") share one DRG and one fixed payment, however many days or tablets were used.",
+     "say": "Similar stays (for example, \"appendix removal without complications\") share one D R G and one fixed payment, however many days or tablets were used.",
+     "focus": 0,
+     "file": "clips/61588a9a1f10.mp3",
+     "seconds": 10.475
+    },
+    {
+     "raw": "Software called a **grouper** picks the DRG from the diagnoses, procedures, age and discharge details.",
+     "say": "Software called a grouper picks the D R G from the diagnoses, procedures, age and discharge details.",
+     "focus": 0,
+     "file": "clips/ebb543248e16.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "APC (Ambulatory Payment Classification).",
+     "say": "A P C (Ambulatory Payment Classification).",
+     "focus": 1,
+     "file": "clips/d3e18be75947.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Medicare's package groups for **outpatient** hospital services, such as an ER visit or a day surgery.",
+     "say": "Medicare's package groups for outpatient hospital services, such as an E R visit or a day surgery.",
+     "focus": 1,
+     "file": "clips/654d21d1fdd3.mp3",
+     "seconds": 7.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 25,
+   "section": "Package prices on hospital claims: DRG and APC",
+   "lines": [
+    {
+     "raw": "In Nepal: You already know DRGs: they are packages!",
+     "say": "In Nepal: You already know D R G's: they are packages!",
+     "focus": -1,
+     "file": "clips/04438617b06c.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Many Nepali private hospitals advertise **packages**: \"Normal delivery package Rs 35,000\", \"Cataract surgery package\", \"Appendectomy package\".",
+     "say": "Many Nepali private hospitals advertise packages: \"Normal delivery package Rs 35,000\", \"Cataract surgery package\", \"Appendectomy package\".",
+     "focus": 0,
+     "file": "clips/09a4963aeca3.mp3",
+     "seconds": 11.15
+    },
+    {
+     "raw": "Whether you stay a little longer or use a few more medicines, the price is mostly fixed.",
+     "say": "Whether you stay a little longer or use a few more medicines, the price is mostly fixed.",
+     "focus": 1,
+     "file": "clips/24deae4dc42a.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "That is exactly the idea behind a DRG.",
+     "say": "That is exactly the idea behind a D R G.",
+     "focus": 1,
+     "file": "clips/6b3bac421566.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF and Nepal's government health insurance also pay many surgeries and admissions as **fixed package rates** instead of item by item.",
+     "say": "S S F and Nepal's government health insurance also pay many surgeries and admissions as fixed package rates instead of item by item.",
+     "focus": 2,
+     "file": "clips/1aa9a053887e.mp3",
+     "seconds": 9.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 26,
+   "section": "Package prices on hospital claims: DRG and APC",
+   "lines": [
+    {
+     "raw": "Why this matters for data.",
+     "say": "Why this matters for data.",
+     "focus": -1,
+     "file": "clips/c8f083c01ae7.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "When a stay is paid by DRG, the line amounts no longer add up to the payment: the insurer pays the **package**, not each line.",
+     "say": "When a stay is paid by D R G, the line amounts no longer add up to the payment: the insurer pays the package, not each line.",
+     "focus": -1,
+     "file": "clips/af1e84fefc3f.mp3",
+     "seconds": 8.8
+    },
+    {
+     "raw": "Always total payments **by claim**, not by line.",
+     "say": "Always total payments by claim, not by line.",
+     "focus": -1,
+     "file": "clips/f4c06d9a2f5a.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "How DRG and APC prices are calculated is covered in the Fee For Service course.",
+     "say": "How D R G and A P C prices are calculated is covered in the Fee For Service course.",
+     "focus": -1,
+     "file": "clips/79d808c146ba.mp3",
+     "seconds": 6.325
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Billed** = provider's price.",
+     "say": "Billed = provider's price.",
+     "focus": 0,
+     "file": "clips/0add6920b30c.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "**Allowed** = insurer's accepted price.",
+     "say": "Allowed = insurer's accepted price.",
+     "focus": 0,
+     "file": "clips/64b001b5aa2b.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "**Paid** = what insurer pays.",
+     "say": "Paid = what insurer pays.",
+     "focus": 0,
+     "file": "clips/d7b90254452b.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Discount = Billed − Allowed.",
+     "say": "Discount = Billed − Allowed.",
+     "focus": 1,
+     "file": "clips/2d1bb8535cf5.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "In-network providers cannot charge the patient this difference.",
+     "say": "In-network providers cannot charge the patient this difference.",
+     "focus": 1,
+     "file": "clips/bb3f9454b360.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Patient share = Deductible + Copay + Coinsurance (+ anything not covered).",
+     "say": "Patient share = Deductible and Copay and Coinsurance (+ anything not covered).",
+     "focus": 2,
+     "file": "clips/30920f37f773.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "Allowed = Paid + Patient share.",
+     "say": "Allowed = Paid and Patient share.",
+     "focus": 3,
+     "file": "clips/3033702e839f.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Hospital stays may be paid as a package: **DRG** for inpatient, **APC** for Medicare outpatient.",
+     "say": "Hospital stays may be paid as a package: D R G for inpatient, A P C for Medicare outpatient.",
+     "focus": 4,
+     "file": "clips/9cdb0461d841.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "Total these payments by claim.",
+     "say": "Total these payments by claim.",
+     "focus": 4,
+     "file": "clips/bd8eb3820c73.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

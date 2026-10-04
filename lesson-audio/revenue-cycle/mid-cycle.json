@@ -1,0 +1,890 @@
+{
+ "courseId": "revenue-cycle",
+ "lessonId": "mid-cycle",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: Mid Cycle: Charges, Documentation and Coding.",
+     "say": "Lesson 3: Mid Cycle: Charges, Documentation and Coding.",
+     "focus": -1,
+     "file": "clips/2599f0a24de3.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Turning what the doctor did into charges and codes a claim can carry.",
+     "say": "Turning what the doctor did into charges and codes a claim can carry.",
+     "focus": -1,
+     "file": "clips/0ae10d7d988d.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain charge capture and why missed charges are lost money.",
+     "say": "Explain charge capture and why missed charges are lost money.",
+     "focus": 0,
+     "file": "clips/cf332498ac24.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Describe what a chargemaster line holds and how the provider uses it.",
+     "say": "Describe what a chargemaster line holds and how the provider uses it.",
+     "focus": 1,
+     "file": "clips/cf1d8590be0d.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Explain how documentation and coding turn a visit into claim codes.",
+     "say": "Explain how documentation and coding turn a visit into claim codes.",
+     "focus": 2,
+     "file": "clips/103ff6ae1892.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "Use charge reconciliation and charge lag to spot problems.",
+     "say": "Use charge reconciliation and charge lag to spot problems.",
+     "focus": 3,
+     "file": "clips/cace9c0ee571.mp3",
+     "seconds": 4.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "In Nepal: The bill at discharge.",
+     "say": "In Nepal: The bill at discharge.",
+     "focus": -1,
+     "file": "clips/8cd7e1bb41d1.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "When Ram stays two nights in a Kathmandu hospital, the nurses note every injection, test and medicine.",
+     "say": "When Ram stays two nights in a Kathmandu hospital, the nurses note every injection, test and medicine.",
+     "focus": 0,
+     "file": "clips/f983a5e0fa25.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "At discharge, the billing counter adds them up from the hospital's **rate list**.",
+     "say": "At discharge, the billing counter adds them up from the hospital's rate list.",
+     "focus": 0,
+     "file": "clips/048b4a57b902.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "If a nurse forgets to note an X-ray, it never reaches the bill, and the hospital simply loses that money.",
+     "say": "If a nurse forgets to note an X-ray, it never reaches the bill, and the hospital simply loses that money.",
+     "focus": 1,
+     "file": "clips/0b2f4c243867.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "For Sita's SSF claim, the hospital must also show **what was done and why**: the diagnosis, the treatment and the doctor's notes.",
+     "say": "For Sita's S S F claim, the hospital must also show what was done and why: the diagnosis, the treatment and the doctor's notes.",
+     "focus": 2,
+     "file": "clips/2290f8fe7ee0.mp3",
+     "seconds": 9
+    },
+    {
+     "raw": "If the notes do not support a service, SSF may refuse to pay for it.",
+     "say": "If the notes do not support a service, S S F may refuse to pay for it.",
+     "focus": 3,
+     "file": "clips/c57e80935e44.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "So the hospital needs both a complete **list of services** and good **records**.",
+     "say": "So the hospital needs both a complete list of services and good records.",
+     "focus": 3,
+     "file": "clips/a3869163555b.mp3",
+     "seconds": 4.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "Mid cycle.",
+     "say": "Mid cycle.",
+     "focus": -1,
+     "file": "clips/2722838d7942.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "The **mid cycle** turns the care given into **charges** (what was done, at the provider's price) and **codes** (what was done and why, in standard language), backed by the doctor's **documentation**.",
+     "say": "The mid cycle turns the care given into charges (what was done, at the provider's price) and codes (what was done and why, in standard language), backed by the doctor's documentation.",
+     "focus": -1,
+     "file": "clips/0c56dd5fc81e.mp3",
+     "seconds": 11.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "In the US: The mid cycle in the US.",
+     "say": "In the U S: The mid cycle in the U S.",
+     "focus": -1,
+     "file": "clips/ceec11bf6ba7.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "**Charge capture**: every billable service is recorded, usually by the doctor or nurse clicking it in the electronic health record (EHR).",
+     "say": "Charge capture: every billable service is recorded, usually by the doctor or nurse clicking it in the electronic health record (E H R).",
+     "focus": 0,
+     "file": "clips/3affa6a08dfc.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "Each service is priced from the provider's **chargemaster**, its master price list.",
+     "say": "Each service is priced from the provider's chargemaster, its master price list.",
+     "focus": 1,
+     "file": "clips/f5256ed606ec.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "The doctor writes a **clinical note**.",
+     "say": "The doctor writes a clinical note.",
+     "focus": 2,
+     "file": "clips/88507c7e346b.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "**Medical coders** (or the doctor, in many small clinics) turn the note into diagnosis and procedure codes.",
+     "say": "Medical coders (or the doctor, in many small clinics) turn the note into diagnosis and procedure codes.",
+     "focus": 2,
+     "file": "clips/66c4319f2c0e.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "Large hospitals have **clinical documentation integrity (CDI)** specialists who check notes are complete and specific enough to support the codes.",
+     "say": "Large hospitals have clinical documentation integrity (C D I) specialists who check notes are complete and specific enough to support the codes.",
+     "focus": 3,
+     "file": "clips/2487fa53fcd4.mp3",
+     "seconds": 9.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Charge capture.",
+     "say": "Charge capture.",
+     "focus": -1,
+     "file": "clips/3ec8640de9da.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Charge capture",
+   "lines": [
+    {
+     "raw": "Step 1: Care given.",
+     "say": "Step 1: Care given.",
+     "focus": 0,
+     "file": "clips/14cb7210294b.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Dr. Patel examines Emily and a nurse runs a rapid strep test.",
+     "say": "Doctor Patel examines Emily and a nurse runs a rapid strep test.",
+     "focus": 0,
+     "file": "clips/400dbf1506da.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Step 2: Service recorded.",
+     "say": "Step 2: Service recorded.",
+     "focus": 1,
+     "file": "clips/8d49a4c49555.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Each service is selected in the EHR, creating a **charge** with the date, provider and patient account.",
+     "say": "Each service is selected in the E H R, creating a charge with the date, provider and patient account.",
+     "focus": 1,
+     "file": "clips/a5510d562dfe.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Step 3: Priced.",
+     "say": "Step 3: Priced.",
+     "focus": 2,
+     "file": "clips/ee6fc4ae60ba.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "The charge picks up its price from the chargemaster.",
+     "say": "The charge picks up its price from the chargemaster.",
+     "focus": 2,
+     "file": "clips/a797f8984b19.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Step 4: Coded.",
+     "say": "Step 4: Coded.",
+     "focus": 3,
+     "file": "clips/880af4f80908.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Diagnosis and procedure codes are attached, from the note.",
+     "say": "Diagnosis and procedure codes are attached, from the note.",
+     "focus": 3,
+     "file": "clips/4b35e89cab0b.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Step 5: Reconciled.",
+     "say": "Step 5: Reconciled.",
+     "focus": 4,
+     "file": "clips/bcdba91daebb.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Billing staff check every visit has its expected charges before the claim is built.",
+     "say": "Billing staff check every visit has its expected charges before the claim is built.",
+     "focus": 4,
+     "file": "clips/080c8cea1a7b.mp3",
+     "seconds": 5.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The chargemaster.",
+     "say": "The chargemaster.",
+     "focus": -1,
+     "file": "clips/b46be071ad07.mp3",
+     "seconds": 1.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The chargemaster",
+   "lines": [
+    {
+     "raw": "The **chargemaster** (also called the **charge description master**, or **CDM**) is the provider's list of every item it can bill, with a price.",
+     "say": "The chargemaster (also called the charge description master, or C D M) is the provider's list of every item it can bill, with a price.",
+     "focus": -1,
+     "file": "clips/8d43f727c59a.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "How those list prices compare with what insurers actually pay is taught in the **Fee For Service** course.",
+     "say": "How those list prices compare with what insurers actually pay is taught in the Fee For Service course.",
+     "focus": -1,
+     "file": "clips/199309585b77.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "For RCM, the chargemaster matters as a **tool**: each line carries the codes that end up on the claim, so one wrong line causes errors on every claim that uses it.",
+     "say": "For R C M, the chargemaster matters as a tool: each line carries the codes that end up on the claim, so one wrong line causes errors on every claim that uses it.",
+     "focus": -1,
+     "file": "clips/b2151e31c8f0.mp3",
+     "seconds": 11.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The chargemaster",
+   "lines": [
+    {
+     "raw": "Sunrise Family Clinic: two chargemaster lines (fictional).",
+     "say": "Sunrise Family Clinic: two chargemaster lines (fictional).",
+     "focus": -1,
+     "file": "clips/9a65cdff4c11.mp3",
+     "seconds": 4.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The chargemaster",
+   "lines": [
+    {
+     "raw": "Charge code.",
+     "say": "Charge code.",
+     "focus": 0,
+     "file": "clips/7b81db09f05c.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The provider's own internal number for the item.",
+     "say": "The provider's own internal number for the item.",
+     "focus": 0,
+     "file": "clips/b532feab3bea.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "CPT / HCPCS code.",
+     "say": "C P T or H C P C S code.",
+     "focus": 1,
+     "file": "clips/6b6f7d76c50b.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "The standard procedure code sent on the claim.",
+     "say": "The standard procedure code sent on the claim.",
+     "focus": 1,
+     "file": "clips/78acc1e31a59.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "CPT (Current Procedural Terminology) codes describe services; HCPCS (Healthcare Common Procedure Coding System) adds supplies, drugs and some services.",
+     "say": "C P T (Current Procedural Terminology) codes describe services; H C P C S (Healthcare Common Procedure Coding System) adds supplies, drugs and some services.",
+     "focus": 1,
+     "file": "clips/6138cd6c1bd1.mp3",
+     "seconds": 12.3
+    },
+    {
+     "raw": "Revenue code.",
+     "say": "Revenue code.",
+     "focus": 2,
+     "file": "clips/edfbf038dc35.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "A four-digit code used on **hospital** claims to group charges by department (room, pharmacy, lab).",
+     "say": "A four-digit code used on hospital claims to group charges by department (room, pharmacy, lab).",
+     "focus": 2,
+     "file": "clips/ef51da487bb7.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "A doctor's office claim does not use it, so the column is blank here.",
+     "say": "A doctor's office claim does not use it, so the column is blank here.",
+     "focus": 2,
+     "file": "clips/0e450755adbc.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Price.",
+     "say": "Price.",
+     "focus": 3,
+     "file": "clips/cfd8317a5745.mp3",
+     "seconds": 1.4
+    },
+    {
+     "raw": "The provider's list price, which becomes the **billed** amount.",
+     "say": "The provider's list price, which becomes the billed amount.",
+     "focus": 3,
+     "file": "clips/1a6d2760bc33.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Insurers almost always pay less under their contracts.",
+     "say": "Insurers almost always pay less under their contracts.",
+     "focus": 3,
+     "file": "clips/30e9f1f70001.mp3",
+     "seconds": 3.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The chargemaster",
+   "lines": [
+    {
+     "raw": "Prices are taught in Fee For Service.",
+     "say": "Prices are taught in Fee For Service.",
+     "focus": -1,
+     "file": "clips/524cf9743968.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Chargemaster prices versus fee schedules, RVUs and DRGs are covered in the Fee For Service course.",
+     "say": "Chargemaster prices versus fee schedules, R V U's and D R G's are covered in the Fee For Service course.",
+     "focus": -1,
+     "file": "clips/52abe8ec4e09.mp3",
+     "seconds": 7.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Documentation and coding.",
+     "say": "Documentation and coding.",
+     "focus": -1,
+     "file": "clips/03171a26df09.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Documentation and coding",
+   "lines": [
+    {
+     "raw": "A claim must say **why** care was given (diagnosis codes, from ICD-10-CM, the International Classification of Diseases, 10th revision, Clinical Modification) and **what** was done (procedure codes, CPT or HCPCS).",
+     "say": "A claim must say why care was given (diagnosis codes, from I C D 10-CM, the International Classification of Diseases, 10th revision, Clinical Modification) and what was done (procedure codes, C P T or H C P C S).",
+     "focus": -1,
+     "file": "clips/40a0bf5c8d1d.mp3",
+     "seconds": 16.425
+    },
+    {
+     "raw": "Coders can only code what the note supports.",
+     "say": "Coders can only code what the note supports.",
+     "focus": -1,
+     "file": "clips/0b0e6dd1527a.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "If the note is vague, the codes are vague, and the insurer may pay less or deny.",
+     "say": "If the note is vague, the codes are vague, and the insurer may pay less or deny.",
+     "focus": -1,
+     "file": "clips/40f82a4e5e59.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "The **Medical** course teaches how these codes are built and read.",
+     "say": "The Medical course teaches how these codes are built and read.",
+     "focus": -1,
+     "file": "clips/03fa169bace9.mp3",
+     "seconds": 4.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Documentation and coding",
+   "lines": [
+    {
+     "raw": "Medical owns the codes.",
+     "say": "Medical owns the codes.",
+     "focus": -1,
+     "file": "clips/98c21a1901b3.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "ICD-10 diagnosis codes, CPT and HCPCS procedure codes and modifiers are taught in the Medical course.",
+     "say": "I C D 10 diagnosis codes, C P T and H C P C S procedure codes and modifiers are taught in the Medical course.",
+     "focus": -1,
+     "file": "clips/b320b31fd436.mp3",
+     "seconds": 9.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Documentation and coding",
+   "lines": [
+    {
+     "raw": "Common mid-cycle problems.",
+     "say": "Common mid-cycle problems.",
+     "focus": -1,
+     "file": "clips/34e657e5e8df.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "**Missed charge**. Example: A test was done but never clicked in the EHR. Effect: Lost revenue; nobody ever bills it.",
+     "say": "Missed charge. Example: A test was done but never clicked in the E H R. Effect: Lost revenue; nobody ever bills it.",
+     "focus": 0,
+     "file": "clips/2a85abbb1410.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "**Wrong charge**. Example: Charged twice, or charged for a test that was cancelled. Effect: Overbilling; may lead to refunds or audits.",
+     "say": "Wrong charge. Example: Charged twice, or charged for a test that was cancelled. Effect: Overbilling; may lead to refunds or audits.",
+     "focus": 1,
+     "file": "clips/3409f37a657d.mp3",
+     "seconds": 9.425
+    },
+    {
+     "raw": "**Out-of-date chargemaster line**. Example: A code was deleted this year but the line still uses it. Effect: Every claim with that line is rejected.",
+     "say": "Out-of-date chargemaster line. Example: A code was deleted this year but the line still uses it. Effect: Every claim with that line is rejected.",
+     "focus": 2,
+     "file": "clips/0e889049d9df.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "**Weak documentation**. Example: The note does not say how complex the visit was. Effect: The visit level cannot be supported; may be paid lower or denied.",
+     "say": "Weak documentation. Example: The note does not say how complex the visit was. Effect: The visit level cannot be supported; may be paid lower or denied.",
+     "focus": 3,
+     "file": "clips/c5642409d8f6.mp3",
+     "seconds": 10.825
+    },
+    {
+     "raw": "**Coding backlog**. Example: Charts wait days for a coder. Effect: Claims leave late; cash arrives late.",
+     "say": "Coding backlog. Example: Charts wait days for a coder. Effect: Claims leave late; cash arrives late.",
+     "focus": 4,
+     "file": "clips/48e94123955c.mp3",
+     "seconds": 7.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Charge reconciliation and charge lag.",
+     "say": "Charge reconciliation and charge lag.",
+     "focus": -1,
+     "file": "clips/518a59e76b56.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Charge reconciliation and charge lag",
+   "lines": [
+    {
+     "raw": "Charge reconciliation.",
+     "say": "Charge reconciliation.",
+     "focus": 0,
+     "file": "clips/d5e8e0f54d95.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "A daily check that every completed visit or procedure has the charges it should have.",
+     "say": "A daily check that every completed visit or procedure has the charges it should have.",
+     "focus": 0,
+     "file": "clips/44e3b99a0133.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Example: every visit with a strep test result has a strep test charge.",
+     "say": "Example: every visit with a strep test result has a strep test charge.",
+     "focus": 0,
+     "file": "clips/737c1b86fd74.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Charge lag.",
+     "say": "Charge lag.",
+     "focus": 1,
+     "file": "clips/d199996000d7.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The number of days from the **service date** to the date the charge is entered.",
+     "say": "The number of days from the service date to the date the charge is entered.",
+     "focus": 1,
+     "file": "clips/3bc26565e843.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "A long lag means claims, and so cash, are delayed.",
+     "say": "A long lag means claims, and so cash, are delayed.",
+     "focus": 1,
+     "file": "clips/fe1b5323f233.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Charge reconciliation and charge lag",
+   "lines": [
+    {
+     "raw": "Charge lag for one charge.",
+     "say": "Charge lag for one charge.",
+     "focus": -1,
+     "file": "clips/0abcdd0a33e3.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "Charge lag (days) equals Charge entry date − Service date.",
+     "say": "Charge lag (days) equals Charge entry date − Service date.",
+     "focus": 0,
+     "file": "clips/ba372633fd59.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "For example: Emily's two charges were entered on 10 March for a 10 March visit: lag equals 0 days.",
+     "say": "For example: Emily's two charges were entered on 10 March for a 10 March visit: lag equals 0 days.",
+     "focus": 1,
+     "file": "clips/4d150baf6864.mp3",
+     "seconds": 7.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Emily's charges.",
+     "say": "Worked example: Emily's charges.",
+     "focus": -1,
+     "file": "clips/2fd1bd5c75e9.mp3",
+     "seconds": 2.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Worked example: Emily's charges",
+   "lines": [
+    {
+     "raw": "Here is the Charge entry form: Sunrise Family Clinic: charges for account SFC-0457.",
+     "say": "Here is the Charge entry form: Sunrise Family Clinic: charges for account S F C 0457.",
+     "focus": -1,
+     "file": "clips/b966380e3993.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "Patient: Emily Carter.",
+     "say": "Patient: Emily Carter.",
+     "focus": 0,
+     "file": "clips/481f9e1c8979.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Service date: 10 Mar 2025.",
+     "say": "Service date: 10 Mar 2025.",
+     "focus": 1,
+     "file": "clips/4c9df59ad25e.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Rendering provider: Dr. Patel.",
+     "say": "Rendering provider: Doctor Patel.",
+     "focus": 2,
+     "file": "clips/58b7201eb1cf.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "NPI 1043827165.",
+     "say": "N P I 1043827165.",
+     "focus": 2,
+     "file": "clips/1eaa866e2c34.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "Diagnosis: J02.0.",
+     "say": "Diagnosis: J 0 2 . 0.",
+     "focus": 3,
+     "file": "clips/34fd0c81e8ba.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Streptococcal pharyngitis (strep throat), supported by the positive test in the note.",
+     "say": "Streptococcal pharyngitis (strep throat), supported by the positive test in the note.",
+     "focus": 3,
+     "file": "clips/4b84367186f1.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "Charges entered: 10 Mar 2025.",
+     "say": "Charges entered: 10 Mar 2025.",
+     "focus": 4,
+     "file": "clips/b3dad67c3ad2.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Charge lag 0 days.",
+     "say": "Charge lag 0 days.",
+     "focus": 4,
+     "file": "clips/56f22e225a6d.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Coded by: Dr. Patel, checked by coder.",
+     "say": "Coded by: Doctor Patel, checked by coder.",
+     "focus": 5,
+     "file": "clips/acda2d1009dc.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Small clinics often let the doctor pick codes.",
+     "say": "Small clinics often let the doctor pick codes.",
+     "focus": 5,
+     "file": "clips/36c627365f20.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Total charges: $150.00.",
+     "say": "Total charges: 150 dollars.",
+     "focus": 6,
+     "file": "clips/bc819cb14351.mp3",
+     "seconds": 3.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Worked example: Emily's charges",
+   "lines": [
+    {
+     "raw": "The reconciliation report that night shows one visit with a strep test **result** and one strep test **charge**: they match.",
+     "say": "The reconciliation report that night shows one visit with a strep test result and one strep test charge: they match.",
+     "focus": -1,
+     "file": "clips/8376c5778c7b.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Emily's account is ready for the back end.",
+     "say": "Emily's account is ready for the back end.",
+     "focus": -1,
+     "file": "clips/156388b073b2.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Worked example: Emily's charges",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Charge data is the start of every revenue number.",
+     "say": "Charge data is the start of every revenue number.",
+     "focus": -1,
+     "file": "clips/be44e14f6f2f.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Analysts compare **services done** (orders, results, procedures in the EHR) with **charges entered** to find missed revenue, track **charge lag** and coding backlogs, and watch for chargemaster lines whose codes are causing rejections.",
+     "say": "Analysts compare services done (orders, results, procedures in the E H R) with charges entered to find missed revenue, track charge lag and coding backlogs, and watch for chargemaster lines whose codes are causing rejections.",
+     "focus": -1,
+     "file": "clips/63e8db23cb6e.mp3",
+     "seconds": 14.95
+    },
+    {
+     "raw": "Because charges use list prices, never treat total charges as money the provider expects to receive.",
+     "say": "Because charges use list prices, never treat total charges as money the provider expects to receive.",
+     "focus": -1,
+     "file": "clips/087ae47ab233.mp3",
+     "seconds": 7.075
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The mid cycle turns care into **charges** (at chargemaster prices) and **codes** (ICD-10-CM, CPT/HCPCS), backed by documentation.",
+     "say": "The mid cycle turns care into charges (at chargemaster prices) and codes (I C D 10-CM, CPT/HCPCS), backed by documentation.",
+     "focus": 0,
+     "file": "clips/89b9c1368b28.mp3",
+     "seconds": 11.175
+    },
+    {
+     "raw": "The **chargemaster** is the provider's master price list; each line carries the codes that flow onto claims.",
+     "say": "The chargemaster is the provider's master price list; each line carries the codes that flow onto claims.",
+     "focus": 1,
+     "file": "clips/3baabe3c36e9.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Codes are only as good as the doctor's note; vague notes lead to lower payment or denials.",
+     "say": "Codes are only as good as the doctor's note; vague notes lead to lower payment or denials.",
+     "focus": 2,
+     "file": "clips/f075637f513c.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "**Charge reconciliation** finds missed charges; **charge lag** measures how quickly charges are entered.",
+     "say": "Charge reconciliation finds missed charges; charge lag measures how quickly charges are entered.",
+     "focus": 3,
+     "file": "clips/627a00628b21.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

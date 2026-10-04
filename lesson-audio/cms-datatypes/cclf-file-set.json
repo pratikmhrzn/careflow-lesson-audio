@@ -1,0 +1,1002 @@
+{
+ "courseId": "cms-datatypes",
+ "lessonId": "cclf-file-set",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: CCLF: The File Set.",
+     "say": "Lesson 2: C C L F: The File Set.",
+     "focus": -1,
+     "file": "clips/bc06f1515331.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "A monthly box of files, one file per kind of claim, all linked by the same IDs.",
+     "say": "A monthly box of files, one file per kind of claim, all linked by the same I D's.",
+     "focus": -1,
+     "file": "clips/20f924fa836b.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what CCLF is, who gets it and how often.",
+     "say": "Explain what C C L F is, who gets it and how often.",
+     "focus": 0,
+     "file": "clips/713c49e79c64.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "Name the main CCLF files and what one row in each means.",
+     "say": "Name the main C C L F files and what one row in each means.",
+     "focus": 1,
+     "file": "clips/d51fb1d051e9.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Recognise the key fields: CUR_CLM_UNIQ_ID, BENE_MBI_ID, CLM_TYPE_CD.",
+     "say": "Recognise the key fields: CUR_CLM_UNIQ_ID, BENE_MBI_ID, CLM_TYPE_CD.",
+     "focus": 2,
+     "file": "clips/914997936850.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "Find one of Robert's claims across several CCLF files.",
+     "say": "Find one of Robert's claims across several C C L F files.",
+     "focus": 3,
+     "file": "clips/3efe2c16dfba.mp3",
+     "seconds": 4.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Scenario A (what-if): Robert in Original Medicare, with an ACO.",
+     "say": "Scenario A (what-if): Robert in Original Medicare, with an A C O.",
+     "focus": -1,
+     "file": "clips/ed2f3c71eb8b.mp3",
+     "seconds": 4.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Scenario A (what-if): Robert in Original Medicare, with an ACO",
+   "lines": [
+    {
+     "raw": "In this lesson and the next, imagine Robert had **stayed on Original Medicare** in 2025, with a separate **Part D** drug plan, instead of joining his Medicare Advantage plan.",
+     "say": "In this lesson and the next, imagine Robert had stayed on Original Medicare in 2025, with a separate Part D drug plan, instead of joining his Medicare Advantage plan.",
+     "focus": -1,
+     "file": "clips/6426b31da05a.mp3",
+     "seconds": 11.75
+    },
+    {
+     "raw": "His family doctor, **Dr. Nguyen** at Bayou Family Medicine, belongs to **Houston Care Partners ACO** (a fictional ACO in the Medicare Shared Savings Program).",
+     "say": "His family doctor, Doctor Nguyen at Bayou Family Medicine, belongs to Houston Care Partners A C O (a fictional A C O in the Medicare Shared Savings Program).",
+     "focus": -1,
+     "file": "clips/68bbf61d71a4.mp3",
+     "seconds": 10.95
+    },
+    {
+     "raw": "Because Robert gets most of his primary care there, he is **assigned** to that ACO.",
+     "say": "Because Robert gets most of his primary care there, he is assigned to that A C O.",
+     "focus": -1,
+     "file": "clips/f15e668c3698.mp3",
+     "seconds": 5.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Scenario A (what-if): Robert in Original Medicare, with an ACO",
+   "lines": [
+    {
+     "raw": "In this scenario Robert does not have to do anything.",
+     "say": "In this scenario Robert does not have to do anything.",
+     "focus": -1,
+     "file": "clips/f286f53c0697.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "He still has a normal Medicare card and can still see any doctor.",
+     "say": "He still has a normal Medicare card and can still see any doctor.",
+     "focus": -1,
+     "file": "clips/c7c546594620.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "But now, every month, copies of his Medicare claims travel from CMS to the ACO.",
+     "say": "But now, every month, copies of his Medicare claims travel from C M S to the A C O.",
+     "focus": -1,
+     "file": "clips/e3409f57dd17.mp3",
+     "seconds": 6.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What is CCLF?",
+     "say": "What is C C L F?",
+     "focus": -1,
+     "file": "clips/47b21558cced.mp3",
+     "seconds": 1.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "What is CCLF?",
+   "lines": [
+    {
+     "raw": "CCLF.",
+     "say": "C C L F.",
+     "focus": 0,
+     "file": "clips/59ffe5136bdd.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Claim and Claim Line Feed**.",
+     "say": "Claim and Claim Line Feed.",
+     "focus": 0,
+     "file": "clips/c9ae792b8570.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "A set of files CMS sends **monthly** to participating ACOs (and some other CMS programmes), with Medicare claims and beneficiary details for their assigned or aligned beneficiaries.",
+     "say": "A set of files C M S sends monthly to participating A C O's (and some other C M S programmes), with Medicare claims and beneficiary details for their assigned or aligned beneficiaries.",
+     "focus": 0,
+     "file": "clips/f43091d6a359.mp3",
+     "seconds": 13.625
+    },
+    {
+     "raw": "Feed.",
+     "say": "Feed.",
+     "focus": 1,
+     "file": "clips/93ee5a580755.mp3",
+     "seconds": 1.4
+    },
+    {
+     "raw": "Data that arrives again and again on a schedule, like a newspaper delivered every morning.",
+     "say": "Data that arrives again and again on a schedule, like a newspaper delivered every morning.",
+     "focus": 1,
+     "file": "clips/243342cef4c8.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "Claim header vs claim line.",
+     "say": "Claim header versus claim line.",
+     "focus": 2,
+     "file": "clips/b1b239fc84fc.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "The **header** holds facts about the whole claim (dates, patient, provider, principal diagnosis); each **line** is one item (one revenue center or one service).",
+     "say": "The header holds facts about the whole claim (dates, patient, provider, principal diagnosis); each line is one item (one revenue center or one service).",
+     "focus": 2,
+     "file": "clips/84bb40440bdc.mp3",
+     "seconds": 10.375
+    },
+    {
+     "raw": "The Medical course covers this in more detail.",
+     "say": "The Medical course covers this in more detail.",
+     "focus": 2,
+     "file": "clips/df5e8ca3af52.mp3",
+     "seconds": 3.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "What is CCLF?",
+   "lines": [
+    {
+     "raw": "Think of a monthly ledger book from the cooperative.",
+     "say": "Think of a monthly ledger book from the cooperative.",
+     "focus": -1,
+     "file": "clips/940d155827b4.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Imagine your local cooperative (sahakari) posts you a bundle every month: one sheet listing each loan, a second sheet with the line items of each loan, a third sheet with member details, and a cover note saying how many rows are on each sheet.",
+     "say": "Imagine your local cooperative (sahakari) posts you a bundle every month: one sheet listing each loan, a second sheet with the line items of each loan, a third sheet with member details, and a cover note saying how many rows are on each sheet.",
+     "focus": -1,
+     "file": "clips/b25b0fadc6d8.mp3",
+     "seconds": 15.65
+    },
+    {
+     "raw": "CCLF is that bundle.",
+     "say": "C C L F is that bundle.",
+     "focus": -1,
+     "file": "clips/5a9cb6064f80.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Each sheet is a separate **file**, and you match them using the **loan number**, which in CCLF is the claim ID.",
+     "say": "Each sheet is a separate file, and you match them using the loan number, which in C C L F is the claim I D.",
+     "focus": -1,
+     "file": "clips/59d1d57ab205.mp3",
+     "seconds": 7.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The CCLF file set.",
+     "say": "The C C L F file set.",
+     "focus": -1,
+     "file": "clips/6181118c2005.mp3",
+     "seconds": 2.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The CCLF file set",
+   "lines": [
+    {
+     "raw": "CMS splits the claims by kind.",
+     "say": "C M S splits the claims by kind.",
+     "focus": -1,
+     "file": "clips/707f0b25248c.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "The **\"Part A\"** files hold **institutional** claims (bills from hospitals, nursing facilities, home health and hospice, sent on the UB-04 / 837I format).",
+     "say": "The \"Part A\" files hold institutional claims (bills from hospitals, nursing facilities, home health and hospice, sent on the U B 04 or 8 3 7 I format).",
+     "focus": -1,
+     "file": "clips/d4612f7019da.mp3",
+     "seconds": 11.875
+    },
+    {
+     "raw": "The **\"Part B\"** files hold **professional** claims (doctors) and **DME** (equipment and supplies).",
+     "say": "The \"Part B\" files hold professional claims (doctors) and D M E (equipment and supplies).",
+     "focus": -1,
+     "file": "clips/c724f77c9e46.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "Part D holds prescription drug events.",
+     "say": "Part D holds prescription drug events.",
+     "focus": -1,
+     "file": "clips/a84bc69c7865.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The CCLF file set",
+   "lines": [
+    {
+     "raw": "Main CCLF files (names as in CMS's CCLF documentation).",
+     "say": "Main C C L F files (names as in CMS's C C L F documentation).",
+     "focus": -1,
+     "file": "clips/f665717cfc6c.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "**CCLF1**. Name: Part A Claims Header. One row means: One institutional claim (header). Examples of key fields: `CUR_CLM_UNIQ_ID`, `BENE_MBI_ID`, `CLM_TYPE_CD`, `CLM_FROM_DT`, `CLM_THRU_DT`, `PRNCPL_DGNS_CD`, `CLM_PMT_AMT`.",
+     "say": "C C L F 1. Name: Part A Claims Header. One row means: One institutional claim (header). Examples of key fields: CUR_CLM_UNIQ_ID, BENE_MBI_ID, CLM_TYPE_CD, CLM_FROM_DT, CLM_THRU_DT, PRNCPL_DGNS_CD, CLM_PMT_AMT.",
+     "focus": 0,
+     "file": "clips/7855f33b3a99.mp3",
+     "seconds": 22.2
+    },
+    {
+     "raw": "**CCLF2**. Name: Part A Claims Revenue Center Detail. One row means: One revenue center line on an institutional claim. Examples of key fields: `CUR_CLM_UNIQ_ID`, `CLM_LINE_NUM`, `CLM_LINE_PROD_REV_CTR_CD`, `CLM_LINE_HCPCS_CD`.",
+     "say": "C C L F 2. Name: Part A Claims Revenue Center Detail. One row means: One revenue center line on an institutional claim. Examples of key fields: CUR_CLM_UNIQ_ID, CLM_LINE_NUM, CLM_LINE_PROD_REV_CTR_CD, CLM_LINE_HCPCS_CD.",
+     "focus": 1,
+     "file": "clips/002f7d92c829.mp3",
+     "seconds": 20.625
+    },
+    {
+     "raw": "**CCLF3**. Name: Part A Procedure Code. One row means: One ICD-10-PCS procedure on an institutional claim. Examples of key fields: `CUR_CLM_UNIQ_ID`, procedure code, procedure date.",
+     "say": "C C L F 3. Name: Part A Procedure Code. One row means: One I C D 10-PCS procedure on an institutional claim. Examples of key fields: CUR_CLM_UNIQ_ID, procedure code, procedure date.",
+     "focus": 2,
+     "file": "clips/3261f14ce4ec.mp3",
+     "seconds": 16.05
+    },
+    {
+     "raw": "**CCLF4**. Name: Part A Diagnosis Code. One row means: One ICD-10-CM diagnosis on an institutional claim. Examples of key fields: `CUR_CLM_UNIQ_ID`, `CLM_DGNS_CD`, `CLM_VAL_SQNC_NUM` (its order).",
+     "say": "C C L F 4. Name: Part A Diagnosis Code. One row means: One I C D 10-CM diagnosis on an institutional claim. Examples of key fields: CUR_CLM_UNIQ_ID, CLM_DGNS_CD, CLM_VAL_SQNC_NUM (its order).",
+     "focus": 3,
+     "file": "clips/2ce8df6f6c46.mp3",
+     "seconds": 18.9
+    },
+    {
+     "raw": "**CCLF5**. Name: Part B Physicians. One row means: One line on a professional (doctor) claim. Examples of key fields: `CUR_CLM_UNIQ_ID`, `CLM_LINE_NUM`, `CLM_LINE_HCPCS_CD`, `RNDRG_PRVDR_NPI_NUM`, diagnosis codes.",
+     "say": "C C L F 5. Name: Part B Physicians. One row means: One line on a professional (doctor) claim. Examples of key fields: CUR_CLM_UNIQ_ID, CLM_LINE_NUM, CLM_LINE_HCPCS_CD, RNDRG_PRVDR_NPI_NUM, diagnosis codes.",
+     "focus": 4,
+     "file": "clips/da7ecca62f25.mp3",
+     "seconds": 20.975
+    },
+    {
+     "raw": "**CCLF6**. Name: Part B DME. One row means: One line on a durable medical equipment claim. Examples of key fields: `CUR_CLM_UNIQ_ID`, `CLM_LINE_HCPCS_CD`, supplier NPI.",
+     "say": "C C L F 6. Name: Part B D M E. One row means: One line on a durable medical equipment claim. Examples of key fields: CUR_CLM_UNIQ_ID, CLM_LINE_HCPCS_CD, supplier N P I.",
+     "focus": 5,
+     "file": "clips/5a41e867eabb.mp3",
+     "seconds": 16.95
+    },
+    {
+     "raw": "**CCLF7**. Name: Part D. One row means: One prescription fill (Part D event). Examples of key fields: `CUR_CLM_UNIQ_ID`, `CLM_LINE_NDC_CD`, fill date, days supply.",
+     "say": "C C L F 7. Name: Part D. One row means: One prescription fill (Part D event). Examples of key fields: CUR_CLM_UNIQ_ID, CLM_LINE_NDC_CD, fill date, days supply.",
+     "focus": 6,
+     "file": "clips/f29e14a2290e.mp3",
+     "seconds": 15.4
+    },
+    {
+     "raw": "**CCLF8**. Name: Beneficiary Demographics. One row means: One beneficiary. Examples of key fields: `BENE_MBI_ID`, `BENE_DOB`, `BENE_SEX_CD`, `BENE_DEATH_DT`, `BENE_MDCR_STUS_CD`.",
+     "say": "C C L F 8. Name: Beneficiary Demographics. One row means: One beneficiary. Examples of key fields: BENE_MBI_ID, BENE_DOB, BENE_SEX_CD, BENE_DEATH_DT, BENE_MDCR_STUS_CD.",
+     "focus": 7,
+     "file": "clips/0b38996591a0.mp3",
+     "seconds": 16.1
+    },
+    {
+     "raw": "**CCLF9**. Name: Beneficiary XREF (cross-reference). One row means: One link from an old MBI to a new MBI. Examples of key fields: `CRNT_NUM` (current MBI), `PRVS_NUM` (previous MBI) and the dates the old one was valid.",
+     "say": "C C L F 9. Name: Beneficiary X R E F (cross-reference). One row means: One link from an old M B I to a new M B I. Examples of key fields: CRNT_NUM (current M B I), PRVS_NUM (previous M B I) and the dates the old one was valid.",
+     "focus": 8,
+     "file": "clips/01fcd56b9d45.mp3",
+     "seconds": 20.15
+    },
+    {
+     "raw": "**CCLF0**. Name: Summary statistics. One row means: One row per file in the delivery. Examples of key fields: File name and **record count**, used to check the load.",
+     "say": "C C L F 0. Name: Summary statistics. One row means: One row per file in the delivery. Examples of key fields: File name and record count, used to check the load.",
+     "focus": 9,
+     "file": "clips/da59109f46a9.mp3",
+     "seconds": 13.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The CCLF file set",
+   "lines": [
+    {
+     "raw": "Smaller files you may also see.",
+     "say": "Smaller files you may also see.",
+     "focus": -1,
+     "file": "clips/8d8fcc478ab7.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "CMS also sends **CCLFA** and **CCLFB**, which carry extra codes for Part A and Part B claims linked to special programmes and demonstrations.",
+     "say": "C M S also sends C C L F A and C C L F B, which carry extra codes for Part A and Part B claims linked to special programmes and demonstrations.",
+     "focus": -1,
+     "file": "clips/78de038d6a9b.mp3",
+     "seconds": 12.05
+    },
+    {
+     "raw": "Many beginners can skip them at first.",
+     "say": "Many beginners can skip them at first.",
+     "focus": -1,
+     "file": "clips/4427d72c3bf1.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "CMS updates the CCLF layout from time to time, so always work from the **current CCLF Information Packet** for exact field names and positions.",
+     "say": "C M S updates the C C L F layout from time to time, so always work from the current C C L F Information Packet for exact field names and positions.",
+     "focus": -1,
+     "file": "clips/48b7c976ed04.mp3",
+     "seconds": 11.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The CCLF file set",
+   "lines": [
+    {
+     "raw": "The two IDs that hold everything together.",
+     "say": "The two I D's that hold everything together.",
+     "focus": -1,
+     "file": "clips/093bf419a18e.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "`CUR_CLM_UNIQ_ID` (**current claim unique identifier**) links a claim's header to its lines, diagnoses and procedures across CCLF1, 2, 3 and 4.",
+     "say": "CUR_CLM_UNIQ_ID (current claim unique identifier) links a claim's header to its lines, diagnoses and procedures across C C L F 1, 2, 3 and 4.",
+     "focus": -1,
+     "file": "clips/568f7ed4cd5f.mp3",
+     "seconds": 12.025
+    },
+    {
+     "raw": "`BENE_MBI_ID` links every claim to the person in CCLF8.",
+     "say": "BENE_MBI_ID links every claim to the person in C C L F 8.",
+     "focus": -1,
+     "file": "clips/7e42ff96237d.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Learn these two first.",
+     "say": "Learn these two first.",
+     "focus": -1,
+     "file": "clips/b5c1152d02dc.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Claim type: CLM_TYPE_CD.",
+     "say": "Claim type: CLM_TYPE_CD.",
+     "focus": -1,
+     "file": "clips/8cb82fee233a.mp3",
+     "seconds": 2.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Claim type: CLM_TYPE_CD",
+   "lines": [
+    {
+     "raw": "Each claim carries a two-digit **claim type code** saying what kind of bill it is.",
+     "say": "Each claim carries a two-digit claim type code saying what kind of bill it is.",
+     "focus": -1,
+     "file": "clips/1b23a5050fdf.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "These come from Medicare's own claim system and are used across many CMS files.",
+     "say": "These come from Medicare's own claim system and are used across many C M S files.",
+     "focus": -1,
+     "file": "clips/8d817509f84e.mp3",
+     "seconds": 5.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Claim type: CLM_TYPE_CD",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`10`. Meaning: Home health agency. CCLF file: CCLF1 to 4 (Part A).",
+     "say": "10. Meaning: Home health agency. C C L F file: C C L F 1 to 4 (Part A).",
+     "focus": 0,
+     "file": "clips/fac91169396d.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "`20`, `30`. Meaning: Skilled nursing facility (30 = \"swing bed\" in a hospital). CCLF file: CCLF1 to 4 (Part A).",
+     "say": "20, 30. Meaning: Skilled nursing facility (30 = \"swing bed\" in a hospital). C C L F file: C C L F 1 to 4 (Part A).",
+     "focus": 1,
+     "file": "clips/7261e0c687b5.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "`40`. Meaning: Hospital **outpatient**. CCLF file: CCLF1 to 4 (Part A files, even though Medicare Part B pays it).",
+     "say": "40. Meaning: Hospital outpatient. C C L F file: C C L F 1 to 4 (Part A files, even though Medicare Part B pays it).",
+     "focus": 2,
+     "file": "clips/ed432cc84044.mp3",
+     "seconds": 10.425
+    },
+    {
+     "raw": "`50`. Meaning: Hospice. CCLF file: CCLF1 to 4 (Part A).",
+     "say": "50. Meaning: Hospice. C C L F file: C C L F 1 to 4 (Part A).",
+     "focus": 3,
+     "file": "clips/b4cc2a75e7b8.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "`60`. Meaning: Hospital **inpatient**. CCLF file: CCLF1 to 4 (Part A).",
+     "say": "60. Meaning: Hospital inpatient. C C L F file: C C L F 1 to 4 (Part A).",
+     "focus": 4,
+     "file": "clips/db6ee8dfbf90.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "`71`, `72`. Meaning: Doctor and other professional claims. CCLF file: CCLF5 (Part B Physicians).",
+     "say": "71, 72. Meaning: Doctor and other professional claims. C C L F file: C C L F 5 (Part B Physicians).",
+     "focus": 5,
+     "file": "clips/e5797a9df1ad.mp3",
+     "seconds": 10.075
+    },
+    {
+     "raw": "`81`, `82`. Meaning: Durable medical equipment. CCLF file: CCLF6 (Part B DME).",
+     "say": "81, 82. Meaning: Durable medical equipment. C C L F file: C C L F 6 (Part B D M E).",
+     "focus": 6,
+     "file": "clips/6c47adc3fe9b.mp3",
+     "seconds": 8.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Claim type: CLM_TYPE_CD",
+   "lines": [
+    {
+     "raw": "A common trap: \"Part A\" files are really \"institutional\" files.",
+     "say": "A common trap: \"Part A\" files are really \"institutional\" files.",
+     "focus": -1,
+     "file": "clips/8528b5894117.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Medicare **Part B** pays for hospital **outpatient** visits, but those bills come from a hospital on an institutional claim, so they land in **CCLF1 to 4**, not in CCLF5.",
+     "say": "Medicare Part B pays for hospital outpatient visits, but those bills come from a hospital on an institutional claim, so they land in C C L F 1 to 4, not in C C L F 5.",
+     "focus": -1,
+     "file": "clips/2c1eb7c03ea0.mp3",
+     "seconds": 13.3
+    },
+    {
+     "raw": "If you sum CCLF1 and call it \"Part A spending\", you will wrongly include outpatient spending.",
+     "say": "If you sum C C L F 1 and call it \"Part A spending\", you will wrongly include outpatient spending.",
+     "focus": -1,
+     "file": "clips/4756a37a224b.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "Split by `CLM_TYPE_CD` instead.",
+     "say": "Split by CLM_TYPE_CD instead.",
+     "focus": -1,
+     "file": "clips/b399df6e9566.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Robert's ER visit across three files.",
+     "say": "Robert's E R visit across three files.",
+     "focus": -1,
+     "file": "clips/7923d95ecf16.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Robert's ER visit across three files",
+   "lines": [
+    {
+     "raw": "On **20 May 2025** Robert felt dizzy and went to the emergency room at **Bayou City Medical Center** (fictional).",
+     "say": "On 20 May 2025 Robert felt dizzy and went to the emergency room at Bayou City Medical Center (fictional).",
+     "focus": -1,
+     "file": "clips/b590ad3f8ca7.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "He was checked, had blood tests and an ECG, and went home the same day.",
+     "say": "He was checked, had blood tests and an E C G, and went home the same day.",
+     "focus": -1,
+     "file": "clips/89648aa66f71.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "The hospital's bill is an **outpatient institutional** claim, so it appears in CCLF1 (header), CCLF2 (lines) and CCLF4 (diagnoses).",
+     "say": "The hospital's bill is an outpatient institutional claim, so it appears in C C L F 1 (header), C C L F 2 (lines) and C C L F 4 (diagnoses).",
+     "focus": -1,
+     "file": "clips/8f1ff7d09422.mp3",
+     "seconds": 11.6
+    },
+    {
+     "raw": "Dr. Nguyen's ACO now sees a visit that happened outside its own clinics.",
+     "say": "Doctor Nguyen's A C O now sees a visit that happened outside its own clinics.",
+     "focus": -1,
+     "file": "clips/426529671357.mp3",
+     "seconds": 5.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Robert's ER visit across three files",
+   "lines": [
+    {
+     "raw": "CCLF1: Part A claim header (one row).",
+     "say": "C C L F 1: Part A claim header (one row).",
+     "focus": -1,
+     "file": "clips/777b9948a8ab.mp3",
+     "seconds": 3.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Robert's ER visit across three files",
+   "lines": [
+    {
+     "raw": "CCLF2: Part A revenue center lines (three rows, same claim ID).",
+     "say": "C C L F 2: Part A revenue center lines (three rows, same claim I D).",
+     "focus": -1,
+     "file": "clips/ab0dd36c1c52.mp3",
+     "seconds": 5.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Robert's ER visit across three files",
+   "lines": [
+    {
+     "raw": "CCLF4: Part A diagnoses (three rows, same claim ID).",
+     "say": "C C L F 4: Part A diagnoses (three rows, same claim I D).",
+     "focus": -1,
+     "file": "clips/7d2a4d897366.mp3",
+     "seconds": 5.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Robert's ER visit across three files",
+   "lines": [
+    {
+     "raw": "Reading Robert's ER claim.",
+     "say": "Reading Robert's E R claim.",
+     "focus": -1,
+     "file": "clips/91aac81381ec.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Claim type. Value: 40. Meaning: Hospital outpatient (an institutional claim; the Medical course covers claim types).",
+     "say": "Claim type. Value: 40. Meaning: Hospital outpatient (an institutional claim; the Medical course covers claim types).",
+     "focus": 0,
+     "file": "clips/f594a4ca1fb5.mp3",
+     "seconds": 8.8
+    },
+    {
+     "raw": "Bill facility + classification. Value: 1 + 3. Meaning: Hospital + outpatient, the first two digits of bill type `013x`.",
+     "say": "Bill facility and classification. Value: 1 and 3. Meaning: Hospital and outpatient, the first two digits of bill type 0 1 3 x.",
+     "focus": 1,
+     "file": "clips/b2f8c663b843.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "Revenue codes. Value: 0450, 0300, 0730. Meaning: Emergency room, laboratory, ECG.",
+     "say": "Revenue codes. Value: 0450, 0300, 0730. Meaning: Emergency room, laboratory, E C G.",
+     "focus": 2,
+     "file": "clips/affdc39ef62b.mp3",
+     "seconds": 11.375
+    },
+    {
+     "raw": "HCPCS. Value: 99284, 80053, 93005. Meaning: ER visit level, a metabolic blood panel, an ECG tracing.",
+     "say": "H C P C S. Value: 99284, 80053, 93005. Meaning: E R visit level, a metabolic blood panel, an E C G tracing.",
+     "focus": 3,
+     "file": "clips/45ffcda6da0c.mp3",
+     "seconds": 14.425
+    },
+    {
+     "raw": "Diagnoses. Value: R42, I10, E119. Meaning: Dizziness, high blood pressure, type 2 diabetes (CMS files usually store ICD-10 codes **without the dot**).",
+     "say": "Diagnoses. Value: R42, I10, E 1 1 9. Meaning: Dizziness, high blood pressure, type 2 diabetes (C M S files usually store I C D 10 codes without the dot).",
+     "focus": 4,
+     "file": "clips/f11e002e9e49.mp3",
+     "seconds": 13.75
+    },
+    {
+     "raw": "Money. Value: $450.00 + $98.20 + $64.20 = $612.40. Meaning: The lines add up to the header payment `CLM_PMT_AMT`.",
+     "say": "Money. Value: 450 dollars and 98 dollars 20 cents and 64 dollars 20 cents = 612 dollars 40 cents. Meaning: The lines add up to the header payment CLM_PMT_AMT.",
+     "focus": 5,
+     "file": "clips/5078de6cbe3c.mp3",
+     "seconds": 15.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Robert in CCLF8 and CCLF9.",
+     "say": "Robert in C C L F 8 and C C L F 9.",
+     "focus": -1,
+     "file": "clips/1a4f457961b3.mp3",
+     "seconds": 4.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Robert in CCLF8 and CCLF9",
+   "lines": [
+    {
+     "raw": "CCLF8: beneficiary demographics (one row per person).",
+     "say": "C C L F 8: beneficiary demographics (one row per person).",
+     "focus": -1,
+     "file": "clips/055497bf8512.mp3",
+     "seconds": 4.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "Robert in CCLF8 and CCLF9",
+   "lines": [
+    {
+     "raw": "`BENE_SEX_CD` 1 means male.",
+     "say": "BENE_SEX_CD 1 means male.",
+     "focus": -1,
+     "file": "clips/19ba44328b25.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "`BENE_MDCR_STUS_CD` 10 means Robert qualifies for Medicare by **age**, without kidney failure (ESRD).",
+     "say": "BENE_MDCR_STUS_CD 10 means Robert qualifies for Medicare by age, without kidney failure (E S R D).",
+     "focus": -1,
+     "file": "clips/8a0b3c739081.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "`BENE_ORGNL_ENTLMT_RSN_CD` 0 means he first got Medicare because of **old age**, not disability.",
+     "say": "BENE_ORGNL_ENTLMT_RSN_CD 0 means he first got Medicare because of old age, not disability.",
+     "focus": -1,
+     "file": "clips/08c11d928cef.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "An empty death date means he is alive.",
+     "say": "An empty death date means he is alive.",
+     "focus": -1,
+     "file": "clips/01387ff4f2ed.mp3",
+     "seconds": 2.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "Robert in CCLF8 and CCLF9",
+   "lines": [
+    {
+     "raw": "CCLF9: MBI cross-reference (in this scenario, imagine Robert was issued a new MBI in March 2024).",
+     "say": "C C L F 9: M B I cross-reference (in this scenario, imagine Robert was issued a new M B I in March 2024).",
+     "focus": -1,
+     "file": "clips/ba5e5e16b550.mp3",
+     "seconds": 9.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 25,
+   "section": "Robert in CCLF8 and CCLF9",
+   "lines": [
+    {
+     "raw": "Why CCLF9 matters.",
+     "say": "Why C C L F 9 matters.",
+     "focus": -1,
+     "file": "clips/fc4f4c62608b.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "A beneficiary can be given a **new MBI**, for example if the old one was exposed in a scam.",
+     "say": "A beneficiary can be given a new M B I, for example if the old one was exposed in a scam.",
+     "focus": -1,
+     "file": "clips/5de70793f4cf.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Older claims may still carry the **old** MBI.",
+     "say": "Older claims may still carry the old M B I.",
+     "focus": -1,
+     "file": "clips/4edbb0760929.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Before you count anything per person, use CCLF9 to replace every old MBI with the current one.",
+     "say": "Before you count anything per person, use C C L F 9 to replace every old M B I with the current one.",
+     "focus": -1,
+     "file": "clips/ad977924b1fd.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Otherwise Robert would look like **two people**.",
+     "say": "Otherwise Robert would look like two people.",
+     "focus": -1,
+     "file": "clips/875735dd2e0d.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 26,
+   "section": "Robert in CCLF8 and CCLF9",
+   "lines": [
+    {
+     "raw": "The same problem in Nepal.",
+     "say": "The same problem in Nepal.",
+     "focus": -1,
+     "file": "clips/8c255c2c4dbb.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "If Ram renews his citizenship card or changes his phone number, an insurer's old records may still carry the old number.",
+     "say": "If Ram renews his citizenship card or changes his phone number, an insurer's old records may still carry the old number.",
+     "focus": 0,
+     "file": "clips/326469b7fd67.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "Someone has to link old and new so his history stays together.",
+     "say": "Someone has to link old and new so his history stays together.",
+     "focus": 0,
+     "file": "clips/8297eb8dedb8.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "If a contributor's details are corrected in SSF records, any report built on the old details must be updated too.",
+     "say": "If a contributor's details are corrected in S S F records, any report built on the old details must be updated too.",
+     "focus": 1,
+     "file": "clips/4da3fae97cc8.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "CCLF9 is CMS's ready-made \"old number to new number\" list.",
+     "say": "C C L F 9 is CMS's ready-made \"old number to new number\" list.",
+     "focus": 1,
+     "file": "clips/0867d22c34bd.mp3",
+     "seconds": 5.325
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**CCLF** = Claim and Claim Line Feed: monthly Medicare claims and beneficiary files that CMS sends to ACOs.",
+     "say": "C C L F = Claim and Claim Line Feed: monthly Medicare claims and beneficiary files that C M S sends to A C O's.",
+     "focus": 0,
+     "file": "clips/1cf00c03aaf0.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "CCLF1 to 4 = **institutional** claims (header, revenue lines, procedures, diagnoses).",
+     "say": "C C L F 1 to 4 = institutional claims (header, revenue lines, procedures, diagnoses).",
+     "focus": 1,
+     "file": "clips/1bc22a27ba76.mp3",
+     "seconds": 7.525
+    },
+    {
+     "raw": "CCLF5 = doctors.",
+     "say": "C C L F 5 = doctors.",
+     "focus": 1,
+     "file": "clips/1714472bfed2.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "CCLF6 = DME.",
+     "say": "C C L F 6 = D M E.",
+     "focus": 1,
+     "file": "clips/9df282e5b823.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "CCLF7 = Part D.",
+     "say": "C C L F 7 = Part D.",
+     "focus": 1,
+     "file": "clips/1d6acc0041d7.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "CCLF8 = demographics.",
+     "say": "C C L F 8 = demographics.",
+     "focus": 1,
+     "file": "clips/afb26ce7c25e.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "CCLF9 = MBI cross-reference.",
+     "say": "C C L F 9 = M B I cross-reference.",
+     "focus": 1,
+     "file": "clips/94a4cf2656d7.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "CCLF0 = record counts.",
+     "say": "C C L F 0 = record counts.",
+     "focus": 1,
+     "file": "clips/0fdea6be3e45.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "`CUR_CLM_UNIQ_ID` links a claim across files; `BENE_MBI_ID` links claims to the person.",
+     "say": "CUR_CLM_UNIQ_ID links a claim across files; BENE_MBI_ID links claims to the person.",
+     "focus": 2,
+     "file": "clips/e2ecf7e0b4f8.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "Hospital **outpatient** claims (type 40) sit in the \"Part A\" files even though Part B pays them.",
+     "say": "Hospital outpatient claims (type 40) sit in the \"Part A\" files even though Part B pays them.",
+     "focus": 3,
+     "file": "clips/35564d4e2cab.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "Use CCLF9 to map old MBIs to the current one before counting people.",
+     "say": "Use C C L F 9 to map old M B I's to the current one before counting people.",
+     "focus": 4,
+     "file": "clips/62656561d4bd.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

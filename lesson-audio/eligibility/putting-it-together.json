@@ -1,0 +1,911 @@
+{
+ "courseId": "eligibility",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 9,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 9: Putting It All Together.",
+     "say": "Lesson 9: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/27aa3108bbfc.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Emily's family through 2025: their spans, member months, claims and PMPM.",
+     "say": "Emily's family through 2025: their spans, member months, claims and P M P M.",
+     "focus": -1,
+     "file": "clips/e9be3394cd42.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read a complete family enrollment record and turn it into an analyst table.",
+     "say": "Read a complete family enrollment record and turn it into an analyst table.",
+     "focus": 0,
+     "file": "clips/02b1803704ba.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Count member months and check claims against coverage spans.",
+     "say": "Count member months and check claims against coverage spans.",
+     "focus": 1,
+     "file": "clips/12d07de36d98.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Calculate PMPM for a real set of claims.",
+     "say": "Calculate P M P M for a real set of claims.",
+     "focus": 2,
+     "file": "clips/fae884767ce6.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Connect every eligibility field to the lesson where you learned it.",
+     "say": "Connect every eligibility field to the lesson where you learned it.",
+     "focus": 3,
+     "file": "clips/5601d525a207.mp3",
+     "seconds": 4.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story so far.",
+     "say": "The story so far.",
+     "focus": -1,
+     "file": "clips/651ce26e9160.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The story so far",
+   "lines": [
+    {
+     "raw": "**Emily** has been on her employer's PPO plan since **1 January 2022**.",
+     "say": "Emily has been on her employer's P P O plan since 1 January 2022.",
+     "focus": 0,
+     "file": "clips/795cd4b2933d.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "She is the subscriber.",
+     "say": "She is the subscriber.",
+     "focus": 0,
+     "file": "clips/76552733a2b1.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "**Lily** (born 20 January 2019) has been on Emily's plan since 2022.",
+     "say": "Lily (born 20 January 2019) has been on Emily's plan since 2022.",
+     "focus": 1,
+     "file": "clips/43b596e520f9.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "Until 30 June 2025 she was **also** on Daniel's plan, which paid first (birthday rule).",
+     "say": "Until 30 June 2025 she was also on Daniel's plan, which paid first (birthday rule).",
+     "focus": 1,
+     "file": "clips/d45d671863be.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "**Daniel** lost his job in June 2025.",
+     "say": "Daniel lost his job in June 2025.",
+     "focus": 2,
+     "file": "clips/f1a62aaf20bb.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "His old plan ended on **30 June**, and Emily added him to her plan from **1 July 2025** (a qualifying life event).",
+     "say": "His old plan ended on 30 June, and Emily added him to her plan from 1 July 2025 (a qualifying life event).",
+     "focus": 2,
+     "file": "clips/f2d287eb65f8.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "In March, Emily saw her doctor for a **sore throat** (10 March 2025).",
+     "say": "In March, Emily saw her doctor for a sore throat (10 March 2025).",
+     "focus": 3,
+     "file": "clips/dad1aabb6a1f.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "In June, she had her **appendix removed** and stayed in hospital from 2 to 4 June 2025.",
+     "say": "In June, she had her appendix removed and stayed in hospital from 2 to 4 June 2025.",
+     "focus": 3,
+     "file": "clips/0d791c1d7fd1.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "The Medical course follows these claims in detail.",
+     "say": "The Medical course follows these claims in detail.",
+     "focus": 3,
+     "file": "clips/b641e37e20bd.mp3",
+     "seconds": 3.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The enrollment record.",
+     "say": "The enrollment record.",
+     "focus": -1,
+     "file": "clips/760153ae0aea.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The enrollment record",
+   "lines": [
+    {
+     "raw": "Here is the 834 / Member record form: Emily's family on Emily's plan (as of 31 Dec 2025).",
+     "say": "Here is the 8 34 or Member record form: Emily's family on Emily's plan (as of 31 Dec 2025).",
+     "focus": -1,
+     "file": "clips/6d488f45f4bd.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "Subscriber: Emily Carter.",
+     "say": "Subscriber: Emily Carter.",
+     "focus": 0,
+     "file": "clips/903a37e6f2d7.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Member ID M1001 · card 48291307.",
+     "say": "Member I D M 1 0 0 1, card 48291307.",
+     "focus": 0,
+     "file": "clips/c9ba968ccc19.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "Employer / group: G20450.",
+     "say": "Employer or group: G 2 0 4 5 0.",
+     "focus": 1,
+     "file": "clips/ea8e96fa32af.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "Bluebonnet Logistics, Austin TX.",
+     "say": "Bluebonnet Logistics, Austin T X.",
+     "focus": 1,
+     "file": "clips/d459bd477b48.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Plan: TXPPO1000.",
+     "say": "Plan: T X P P O 1 0 0 0.",
+     "focus": 2,
+     "file": "clips/a6ba0cff02fa.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "PPO · $1,000 deductible · 20% coinsurance.",
+     "say": "P P O, 1000 dollars deductible, 20 percent coinsurance.",
+     "focus": 2,
+     "file": "clips/b11c5733aaad.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Line of business: Commercial.",
+     "say": "Line of business: Commercial.",
+     "focus": 3,
+     "file": "clips/0578ee470d08.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Employer group, fully insured.",
+     "say": "Employer group, fully insured.",
+     "focus": 3,
+     "file": "clips/0eb66b74f61b.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Coverage level: FAM (family).",
+     "say": "Coverage level: F A M (family).",
+     "focus": 4,
+     "file": "clips/c12a324d3e28.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Was employee + child until 30 Jun 2025.",
+     "say": "Was employee and child until 30 Jun 2025.",
+     "focus": 4,
+     "file": "clips/1c8ba0f554dc.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Members covered: 3.",
+     "say": "Members covered: 3.",
+     "focus": 5,
+     "file": "clips/335ebb565bb4.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "Emily, Lily, Daniel.",
+     "say": "Emily, Lily, Daniel.",
+     "focus": 5,
+     "file": "clips/5f542ac81ed6.mp3",
+     "seconds": 2.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The enrollment record",
+   "lines": [
+    {
+     "raw": "The same family records in Nepal.",
+     "say": "The same family records in Nepal.",
+     "focus": -1,
+     "file": "clips/b2138a706bf7.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's insurer keeps a similar list for the startup's group policy: each insured person, their relationship to the employee (if family is covered), and the dates they were added or removed.",
+     "say": "Ram's insurer keeps a similar list for the startup's group policy: each insured person, their relationship to the employee (if family is covered), and the dates they were added or removed.",
+     "focus": 0,
+     "file": "clips/35e3f6f302a8.mp3",
+     "seconds": 12.225
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF keeps Sita's contributor record: her SSF ID, her employer, and the months her contributions were deposited.",
+     "say": "S S F keeps Sita's contributor record: her S S F I D, her employer, and the months her contributions were deposited.",
+     "focus": 1,
+     "file": "clips/14ea64f082f2.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "That record is what an SSF-listed hospital checks on admission.",
+     "say": "That record is what an S S F listed hospital checks on admission.",
+     "focus": 1,
+     "file": "clips/760c01e9f155.mp3",
+     "seconds": 4.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How an analyst sees it.",
+     "say": "How an analyst sees it.",
+     "focus": -1,
+     "file": "clips/04b8ca4373bc.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "In a database, eligibility is usually one table with **one row per member per span**.",
+     "say": "In a database, eligibility is usually one table with one row per member per span.",
+     "focus": -1,
+     "file": "clips/4a1f66a5a7a1.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Emily's family becomes **4 rows**: Lily has two because her COB order changed.",
+     "say": "Emily's family becomes 4 rows: Lily has two because her C O B order changed.",
+     "focus": -1,
+     "file": "clips/13d0b30f8390.mp3",
+     "seconds": 5.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Eligibility table (one row per member per span).",
+     "say": "Eligibility table (one row per member per span).",
+     "focus": -1,
+     "file": "clips/aa25f79867bd.mp3",
+     "seconds": 3.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "One ID across tables.",
+     "say": "One I D across tables.",
+     "focus": -1,
+     "file": "clips/48f430da59ae.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Emily is **M1001** here and on every one of her medical and pharmacy claims.",
+     "say": "Emily is M 1 0 0 1 here and on every one of her medical and pharmacy claims.",
+     "focus": -1,
+     "file": "clips/eee9ee9a8709.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "That shared `member_id` is the key that links the two tables.",
+     "say": "That shared member_id is the key that links the two tables.",
+     "focus": -1,
+     "file": "clips/dbabcfa5bc47.mp3",
+     "seconds": 4.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 1: count member months for 2025.",
+     "say": "Step 1: count member months for 2025.",
+     "focus": -1,
+     "file": "clips/63563167e310.mp3",
+     "seconds": 3.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Step 1: count member months for 2025",
+   "lines": [
+    {
+     "raw": "First cut every span to **2025-01-01 to 2025-12-31**.",
+     "say": "First cut every span to 2025-01-01 to 2025-12-31.",
+     "focus": -1,
+     "file": "clips/b2dd6bb8cd69.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "All spans start on the 1st and end on a month end, so every counting rule from lesson 7 gives the same answer.",
+     "say": "All spans start on the 1st and end on a month end, so every counting rule from lesson 7 gives the same answer.",
+     "focus": -1,
+     "file": "clips/648f298562af.mp3",
+     "seconds": 7.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Step 1: count member months for 2025",
+   "lines": [
+    {
+     "raw": "Member months in 2025 (1 = covered that month).",
+     "say": "Member months in 2025 (1 = covered that month).",
+     "focus": -1,
+     "file": "clips/608b68a9c8cb.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Step 1: count member months for 2025",
+   "lines": [
+    {
+     "raw": "Lily counts for 12, not 6 + 6.",
+     "say": "Lily counts for 12, not 6 and 6.",
+     "focus": -1,
+     "file": "clips/8a2ff941a5d9.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "Lily's two spans are contiguous, so together they give **12** months: 6 from the first span and 6 from the second.",
+     "say": "Lily's two spans are contiguous, so together they give 12 months: 6 from the first span and 6 from the second.",
+     "focus": -1,
+     "file": "clips/ae6733b777b1.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "Never count a person twice in the same month.",
+     "say": "Never count a person twice in the same month.",
+     "focus": -1,
+     "file": "clips/34c288ebaf9f.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "If spans ever overlap by mistake, an analyst must fix that before counting (lesson 8).",
+     "say": "If spans ever overlap by mistake, an analyst must fix that before counting (lesson 8).",
+     "focus": -1,
+     "file": "clips/9b762a39b7e5.mp3",
+     "seconds": 6.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 2: check every claim against eligibility.",
+     "say": "Step 2: check every claim against eligibility.",
+     "focus": -1,
+     "file": "clips/68dac1e4de8c.mp3",
+     "seconds": 3.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Step 2: check every claim against eligibility",
+   "lines": [
+    {
+     "raw": "A claim belongs to Emily's plan only if, for that member, the **service date falls between eff_dt and term_dt** of one of their spans.",
+     "say": "A claim belongs to Emily's plan only if, for that member, the service date falls between eff_dt and term_dt of one of their spans.",
+     "focus": -1,
+     "file": "clips/23e75a3d0cf3.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "Here are all the family's 2025 claims sent to Emily's plan.",
+     "say": "Here are all the family's 2025 claims sent to Emily's plan.",
+     "focus": -1,
+     "file": "clips/ef5a6722e6b8.mp3",
+     "seconds": 4.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Step 2: check every claim against eligibility",
+   "lines": [
+    {
+     "raw": "The eligibility join.",
+     "say": "The eligibility join.",
+     "focus": -1,
+     "file": "clips/5dbc4f6264f5.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "claim.member_id equals elig.member_id AND claim.from_dt BETWEEN elig.eff_dt AND elig.term_dt.",
+     "say": "claim.member_id equals elig.member_id A N D claim.from_dt BETWEEN elig.eff_dt A N D elig.term_dt.",
+     "focus": 0,
+     "file": "clips/b1cd2d78f37a.mp3",
+     "seconds": 9.625
+    },
+    {
+     "raw": "For example: Emily's hospital claim 778201: from_dt 2025-06-02 is between 2022-01-01 and 9999-12-31 ✓.",
+     "say": "For example: Emily's hospital claim 778201: from_dt 2025-06-02 is between 2022-01-01 and 9999-12-31 ✓.",
+     "focus": 1,
+     "file": "clips/0a742c04dd2e.mp3",
+     "seconds": 16.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Step 2: check every claim against eligibility",
+   "lines": [
+    {
+     "raw": "Family claims sent to Emily's plan in 2025, matched to spans.",
+     "say": "Family claims sent to Emily's plan in 2025, matched to spans.",
+     "focus": -1,
+     "file": "clips/e2e661a17165.mp3",
+     "seconds": 5.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Step 2: check every claim against eligibility",
+   "lines": [
+    {
+     "raw": "Claim 640390: the eligibility denial.",
+     "say": "Claim 640390: the eligibility denial.",
+     "focus": -1,
+     "file": "clips/90860f9889c2.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "In May, a clinic billed Daniel's visit to **Emily's** plan by mistake.",
+     "say": "In May, a clinic billed Daniel's visit to Emily's plan by mistake.",
+     "focus": -1,
+     "file": "clips/094090da599e.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Daniel had no span on Emily's plan until **1 July**, so the join finds **no match** and the claim is denied as **not eligible**.",
+     "say": "Daniel had no span on Emily's plan until 1 July, so the join finds no match and the claim is denied as not eligible.",
+     "focus": -1,
+     "file": "clips/d90e51b6bceb.mp3",
+     "seconds": 8.55
+    },
+    {
+     "raw": "The clinic must bill Daniel's plan at the time (his old employer's HMO), which was still active on 20 May.",
+     "say": "The clinic must bill Daniel's plan at the time (his old employer's H M O), which was still active on 20 May.",
+     "focus": -1,
+     "file": "clips/c9a5a55f62e4.mp3",
+     "seconds": 7.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Step 2: check every claim against eligibility",
+   "lines": [
+    {
+     "raw": "Check the appendix stay.",
+     "say": "Check the appendix stay.",
+     "focus": -1,
+     "file": "clips/ef7a187ec1e4.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "The appendix stay created three claims (hospital, surgeon and anaesthesiologist) with **$7,800 allowed** in total.",
+     "say": "The appendix stay created three claims (hospital, surgeon and anaesthesiologist) with 7800 dollars allowed in total.",
+     "focus": -1,
+     "file": "clips/18e645c1b100.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "Emily's plan paid $4,000 + $960 + $480 = **$5,440**, and Emily paid **$2,360**.",
+     "say": "Emily's plan paid 4000 dollars and 960 dollars and 480 dollars = 5440 dollars and Emily paid 2360 dollars.",
+     "focus": -1,
+     "file": "clips/f990bb33955e.mp3",
+     "seconds": 11.825
+    },
+    {
+     "raw": "All three service dates (2 to 4 June) fall inside her span, so all three are valid.",
+     "say": "All three service dates (2 to 4 June) fall inside her span, so all three are valid.",
+     "focus": -1,
+     "file": "clips/ec3129f9a40c.mp3",
+     "seconds": 5.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 3: calculate PMPM.",
+     "say": "Step 3: calculate P M P M.",
+     "focus": -1,
+     "file": "clips/dc492487ad47.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Step 3: calculate PMPM",
+   "lines": [
+    {
+     "raw": "Paid PMPM for Emily's family, 2025.",
+     "say": "Paid P M P M for Emily's family, 2025.",
+     "focus": -1,
+     "file": "clips/d42a860d90db.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "PMPM equals $5,700 ÷ 30 member months equals $190.00.",
+     "say": "P M P M equals 5700 dollars ÷ 30 member months equals 190 dollars.",
+     "focus": 0,
+     "file": "clips/773ba8f629aa.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "For example: Total paid: $77 plus $20 plus $0 plus $4,000 plus $960 plus $480 plus $86 plus $77 equals $5,700.",
+     "say": "For example: Total paid: 77 dollars plus 20 dollars plus 0 dollars plus 4000 dollars plus 960 dollars plus 480 dollars plus 86 dollars plus 77 dollars equals 5700 dollars.",
+     "focus": 1,
+     "file": "clips/785e6e4aaa59.mp3",
+     "seconds": 17.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Step 3: calculate PMPM",
+   "lines": [
+    {
+     "raw": "PMPM by member.",
+     "say": "P M P M by member.",
+     "focus": -1,
+     "file": "clips/d6f2e3e87e42.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Emily (M1001). Member months: 12. Paid by Emily's plan: $77 + $4,000 + $960 + $480 = $5,517. Paid PMPM: $5,517 ÷ 12 = **$459.75**.",
+     "say": "Emily (M 1 0 0 1). Member months: 12. Paid by Emily's plan: 77 dollars and 4000 dollars and 960 dollars and 480 dollars = 5517 dollars. Paid P M P M: 5517 dollars ÷ 12 = 459 dollars 75 cents.",
+     "focus": 0,
+     "file": "clips/752ddccc614f.mp3",
+     "seconds": 23.05
+    },
+    {
+     "raw": "Lily (M1002). Member months: 12. Paid by Emily's plan: $20 + $77 = $97. Paid PMPM: $97 ÷ 12 = **$8.08**.",
+     "say": "Lily (M 1 0 0 2). Member months: 12. Paid by Emily's plan: 20 dollars and 77 dollars = 97 dollars. Paid P M P M: 97 dollars ÷ 12 = 8 dollars 8 cents.",
+     "focus": 1,
+     "file": "clips/9432b1bb8309.mp3",
+     "seconds": 17.05
+    },
+    {
+     "raw": "Daniel (M1003). Member months: 6. Paid by Emily's plan: $86. Paid PMPM: $86 ÷ 6 = **$14.33**.",
+     "say": "Daniel (M 1 0 0 3). Member months: 6. Paid by Emily's plan: 86 dollars. Paid P M P M: 86 dollars ÷ 6 = 14 dollars 33 cents.",
+     "focus": 2,
+     "file": "clips/0e121a0a4fc5.mp3",
+     "seconds": 14.525
+    },
+    {
+     "raw": "**Family**. Member months: **30**. Paid by Emily's plan: **$5,700**. Paid PMPM: $5,700 ÷ 30 = **$190.00**.",
+     "say": "Family. Member months: 30. Paid by Emily's plan: 5700 dollars. Paid P M P M: 5700 dollars ÷ 30 = 190 dollars.",
+     "focus": 3,
+     "file": "clips/f78f743aaccc.mp3",
+     "seconds": 12.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Step 3: calculate PMPM",
+   "lines": [
+    {
+     "raw": "What the numbers say.",
+     "say": "What the numbers say.",
+     "focus": -1,
+     "file": "clips/15971d42b03f.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "One surgery makes up almost all the cost: $5,440 of $5,700.",
+     "say": "One surgery makes up almost all the cost: 5440 dollars of 5700 dollars.",
+     "focus": -1,
+     "file": "clips/cd830b6d1aa1.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "That is normal: in any health plan, a **small number of members** account for **most of the spending**.",
+     "say": "That is normal: in any health plan, a small number of members account for most of the spending.",
+     "focus": -1,
+     "file": "clips/6158e49e5c7d.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "It is also why one family's PMPM jumps around, and insurers only trust PMPM across thousands of members.",
+     "say": "It is also why one family's P M P M jumps around, and insurers only trust P M P M across thousands of members.",
+     "focus": -1,
+     "file": "clips/70f69d7ed95d.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "Note too that Lily's first half of the year looks very cheap because Emily's plan was **secondary**.",
+     "say": "Note too that Lily's first half of the year looks very cheap because Emily's plan was secondary.",
+     "focus": -1,
+     "file": "clips/58c77201ff07.mp3",
+     "seconds": 6.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Field → lesson map.",
+     "say": "Field to lesson map.",
+     "focus": -1,
+     "file": "clips/e9cf9eeca18e.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "member_id, first_name, dob, gender. Question it answers: Who is this person? Lesson: 1. What is Eligibility Data?",
+     "say": "member_id, first_name, dob, gender. Question it answers: Who is this person? Lesson: 1. What is Eligibility Data?",
+     "focus": 0,
+     "file": "clips/53eac862272b.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "group_id, plan_id, line_of_business, product. Question it answers: Which cover? Lesson: 2. Where Coverage Comes From.",
+     "say": "group_id, plan_id, line_of_business, product. Question it answers: Which cover? Lesson: 2. Where Coverage Comes From.",
+     "focus": 1,
+     "file": "clips/32414ebc8522.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "subscriber_id, relationship_cd. Question it answers: Whose policy? How related? Lesson: 3. Subscriber, Member & Dependents.",
+     "say": "subscriber_id, relationship_cd. Question it answers: Whose policy? How related? Lesson: 3. Subscriber, Member and Dependents.",
+     "focus": 2,
+     "file": "clips/918d09f80a93.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "eff_dt, term_dt. Question it answers: From when to when? Lesson: 4. Coverage Dates & Enrollment Spans.",
+     "say": "eff_dt, term_dt. Question it answers: From when to when? Lesson: 4. Coverage Dates and Enrollment Spans.",
+     "focus": 3,
+     "file": "clips/c6be208fe997.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "maintenance type, 270 / 271. Question it answers: How did the data arrive? Is the member active? Lesson: 5. How Eligibility Data Moves.",
+     "say": "maintenance type, 2 70 or 2 71. Question it answers: How did the data arrive? Is the member active? Lesson: 5. How Eligibility Data Moves.",
+     "focus": 4,
+     "file": "clips/a0dc64e140ee.mp3",
+     "seconds": 11.3
+    },
+    {
+     "raw": "cob_order, other insurance. Question it answers: Which plan pays first? Lesson: 6. Coordination of Benefits.",
+     "say": "cob_order, other insurance. Question it answers: Which plan pays first? Lesson: 6. Coordination of Benefits.",
+     "focus": 5,
+     "file": "clips/5c6e3b2cfe63.mp3",
+     "seconds": 8.5
+    },
+    {
+     "raw": "member months, PMPM. Question it answers: How many members? What cost per member? Lesson: 7. Member Months & PMPM.",
+     "say": "member months, P M P M. Question it answers: How many members? What cost per member? Lesson: 7. Member Months and P M P M.",
+     "focus": 6,
+     "file": "clips/89ba772cecf2.mp3",
+     "seconds": 9.675
+    },
+    {
+     "raw": "overlapping spans, retro terms, ID crosswalk. Question it answers: Can I trust these rows before counting? Lesson: 8. Data Quality.",
+     "say": "overlapping spans, retro terms, I D crosswalk. Question it answers: Can I trust these rows before counting? Lesson: 8. Data Quality.",
+     "focus": 7,
+     "file": "clips/6f6fb182e4f3.mp3",
+     "seconds": 10.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 25,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You can now read eligibility data like an analyst: who is covered, by what, when, and how to join it to claims.",
+     "say": "You can now read eligibility data like an analyst: who is covered, by what, when, and how to join it to claims.",
+     "focus": -1,
+     "file": "clips/8de784e67434.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "Next, take the **Medical** course to read Emily's claims line by line, or open **Try It Yourself** to follow a claim from the patient's side.",
+     "say": "Next, take the Medical course to read Emily's claims line by line, or open Try It Yourself to follow a claim from the patient's side.",
+     "focus": -1,
+     "file": "clips/eda962297c6a.mp3",
+     "seconds": 8.8
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Eligibility is stored as one row per member per span; `member_id` links it to claims.",
+     "say": "Eligibility is stored as one row per member per span; member_id links it to claims.",
+     "focus": 0,
+     "file": "clips/3851bf9f0111.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Cut spans to the reporting period, then count member months without double counting.",
+     "say": "Cut spans to the reporting period, then count member months without double counting.",
+     "focus": 1,
+     "file": "clips/5d0b00b60097.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "A claim is valid only if its service date falls between `eff_dt` and `term_dt` of a span for that member.",
+     "say": "A claim is valid only if its service date falls between eff_dt and term_dt of a span for that member.",
+     "focus": 2,
+     "file": "clips/1e10559f20d5.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "PMPM = total paid (or allowed) ÷ member months.",
+     "say": "P M P M = total paid (or allowed) ÷ member months.",
+     "focus": 3,
+     "file": "clips/0f1a7005141a.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "Check COB before comparing members.",
+     "say": "Check C O B before comparing members.",
+     "focus": 3,
+     "file": "clips/89f64d712fbe.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

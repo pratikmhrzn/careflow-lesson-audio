@@ -1,0 +1,925 @@
+{
+ "courseId": "eligibility",
+ "lessonId": "coordination-of-benefits",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Coordination of Benefits.",
+     "say": "Lesson 6: Coordination of Benefits.",
+     "focus": -1,
+     "file": "clips/2568a790bcb2.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "When one person has two insurances, which pays first?",
+     "say": "When one person has two insurances, which pays first?",
+     "focus": -1,
+     "file": "clips/5fc3e3f6633c.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain primary and secondary insurance.",
+     "say": "Explain primary and secondary insurance.",
+     "focus": 0,
+     "file": "clips/05667048793f.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Use the birthday rule to decide which parent's plan pays first for a child.",
+     "say": "Use the birthday rule to decide which parent's plan pays first for a child.",
+     "focus": 1,
+     "file": "clips/0cce1b34a80b.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Know the basics of employer plans vs Medicare, and Medicaid as payer of last resort.",
+     "say": "Know the basics of employer plans versus Medicare, and Medicaid as payer of last resort.",
+     "focus": 2,
+     "file": "clips/9ff571d7fbc0.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "Recognise COB fields in eligibility data.",
+     "say": "Recognise C O B fields in eligibility data.",
+     "focus": 3,
+     "file": "clips/5c36f7db215c.mp3",
+     "seconds": 4.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two insurances, one bill.",
+     "say": "Two insurances, one bill.",
+     "focus": -1,
+     "file": "clips/7caa7b49369d.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Two insurances, one bill",
+   "lines": [
+    {
+     "raw": "Some people are covered by **two plans** at once.",
+     "say": "Some people are covered by two plans at once.",
+     "focus": -1,
+     "file": "clips/ee9a1a28e3de.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "For example, a child can be on **both** parents' employer plans.",
+     "say": "For example, a child can be on both parents' employer plans.",
+     "focus": -1,
+     "file": "clips/f7931ec25156.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "When that child sees a doctor, both plans cannot pay the full bill, or the doctor would be paid twice.",
+     "say": "When that child sees a doctor, both plans cannot pay the full bill, or the doctor would be paid twice.",
+     "focus": -1,
+     "file": "clips/d8dedc4c9322.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "**Coordination of benefits (COB)** is the set of rules that decides **which plan pays first** and how much the second one adds.",
+     "say": "Coordination of benefits (C O B) is the set of rules that decides which plan pays first and how much the second one adds.",
+     "focus": -1,
+     "file": "clips/e14d80dd0b98.mp3",
+     "seconds": 8.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Two insurances, one bill",
+   "lines": [
+    {
+     "raw": "Primary plan.",
+     "say": "Primary plan.",
+     "focus": 0,
+     "file": "clips/a333410327f4.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Pays **first**, as if it were the only insurance.",
+     "say": "Pays first, as if it were the only insurance.",
+     "focus": 0,
+     "file": "clips/4bf10bc085a2.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Secondary plan.",
+     "say": "Secondary plan.",
+     "focus": 1,
+     "file": "clips/c48d6d9f7041.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Pays **after** the primary, looking at what is left.",
+     "say": "Pays after the primary, looking at what is left.",
+     "focus": 1,
+     "file": "clips/51cb03a4588b.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "It may pay some, all or none of what remains.",
+     "say": "It may pay some, all or none of what remains.",
+     "focus": 1,
+     "file": "clips/a1f2564970ff.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Tertiary plan.",
+     "say": "Tertiary plan.",
+     "focus": 2,
+     "file": "clips/815520833050.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Rare: a third plan that pays after the secondary.",
+     "say": "Rare: a third plan that pays after the secondary.",
+     "focus": 2,
+     "file": "clips/3b719340a6a0.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "COB order.",
+     "say": "C O B order.",
+     "focus": 3,
+     "file": "clips/3d584b98cbb4.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A field in the data saying whether this plan is primary (1), secondary (2) or tertiary (3) for this member on these dates.",
+     "say": "A field in the data saying whether this plan is primary (1), secondary (2) or tertiary (3) for this member on these dates.",
+     "focus": 3,
+     "file": "clips/e4cb603afedb.mp3",
+     "seconds": 8.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Two insurances, one bill",
+   "lines": [
+    {
+     "raw": "Think of two friends sharing a restaurant bill.",
+     "say": "Think of two friends sharing a restaurant bill.",
+     "focus": -1,
+     "file": "clips/167229642fca.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "The bill is Rs 1,500.",
+     "say": "The bill is Rs 1,500.",
+     "focus": -1,
+     "file": "clips/11d421e70792.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "The first friend (primary) pays what she agreed to pay, Rs 1,200.",
+     "say": "The first friend (primary) pays what she agreed to pay, Rs 1,200.",
+     "focus": -1,
+     "file": "clips/d5ddcba2395c.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "The second friend (secondary) looks at what is **left**, Rs 300, and covers it.",
+     "say": "The second friend (secondary) looks at what is left, Rs 300, and covers it.",
+     "focus": -1,
+     "file": "clips/2b2058699474.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Together they never pay more than **Rs 1,500**: the restaurant does not get a tip from each of them by accident.",
+     "say": "Together they never pay more than Rs 1,500: the restaurant does not get a tip from each of them by accident.",
+     "focus": -1,
+     "file": "clips/91915ac5a8b5.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who pays first?",
+     "say": "Who pays first?",
+     "focus": -1,
+     "file": "clips/61c6c31fce14.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "The main rules.",
+     "say": "The main rules.",
+     "focus": -1,
+     "file": "clips/e8e0568fad77.mp3",
+     "seconds": 1.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Who pays first? The main rules",
+   "lines": [
+    {
+     "raw": "Common COB order rules (simplified).",
+     "say": "Common C O B order rules (simplified).",
+     "focus": -1,
+     "file": "clips/dc13b0a0380c.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "A person with their **own** job plan who is also a dependent on a spouse's plan. Primary plan: Their **own** plan (as employee). Secondary plan: The spouse's plan (as dependent).",
+     "say": "A person with their own job plan who is also a dependent on a spouse's plan. Primary plan: Their own plan (as employee). Secondary plan: The spouse's plan (as dependent).",
+     "focus": 0,
+     "file": "clips/9c3355acacb5.mp3",
+     "seconds": 11.725
+    },
+    {
+     "raw": "A child on **both parents'** plans (parents married or living together). Primary plan: The plan of the parent whose **birthday comes first in the calendar year** (the **birthday rule**). Secondary plan: The other parent's plan.",
+     "say": "A child on both parents' plans (parents married or living together). Primary plan: The plan of the parent whose birthday comes first in the calendar year (the birthday rule). Secondary plan: The other parent's plan.",
+     "focus": 1,
+     "file": "clips/8a10e4f6483e.mp3",
+     "seconds": 13.5
+    },
+    {
+     "raw": "A child of **divorced or separated** parents. Primary plan: Usually whatever a **court order** says; otherwise the plan of the parent with **custody**. Secondary plan: The other parent's plan.",
+     "say": "A child of divorced or separated parents. Primary plan: Usually whatever a court order says; otherwise the plan of the parent with custody. Secondary plan: The other parent's plan.",
+     "focus": 2,
+     "file": "clips/03095daa10db.mp3",
+     "seconds": 12.425
+    },
+    {
+     "raw": "An **active employee** plan vs a **retiree** or **COBRA** plan. Primary plan: The active employee plan. Secondary plan: The retiree or COBRA plan.",
+     "say": "An active employee plan versus a retiree or COBRA plan. Primary plan: The active employee plan. Secondary plan: The retiree or COBRA plan.",
+     "focus": 3,
+     "file": "clips/bf5517997158.mp3",
+     "seconds": 11.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Who pays first? The main rules",
+   "lines": [
+    {
+     "raw": "The birthday rule uses month and day only.",
+     "say": "The birthday rule uses month and day only.",
+     "focus": -1,
+     "file": "clips/ed9573bd6d5a.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "The **year** of birth does not matter.",
+     "say": "The year of birth does not matter.",
+     "focus": -1,
+     "file": "clips/7e20a0b3f7c7.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Only the month and day are compared.",
+     "say": "Only the month and day are compared.",
+     "focus": -1,
+     "file": "clips/d6d227a10c5b.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "An older parent is not automatically primary.",
+     "say": "An older parent is not automatically primary.",
+     "focus": -1,
+     "file": "clips/92994a8d1654.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "If both parents share the same birthday, the plan that has covered a parent **longer** pays first.",
+     "say": "If both parents share the same birthday, the plan that has covered a parent longer pays first.",
+     "focus": -1,
+     "file": "clips/fae5370bdd22.mp3",
+     "seconds": 5.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Working it out for Lily.",
+     "say": "Working it out for Lily.",
+     "focus": -1,
+     "file": "clips/c3a1b6961ef0.mp3",
+     "seconds": 2.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Working it out for Lily",
+   "lines": [
+    {
+     "raw": "From January to June 2025, Lily was on **both** her parents' plans: Emily's PPO and Daniel's employer HMO (at his old job).",
+     "say": "From January to June 2025, Lily was on both her parents' plans: Emily's P P O and Daniel's employer H M O (at his old job).",
+     "focus": -1,
+     "file": "clips/51e828a0437d.mp3",
+     "seconds": 10.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Working it out for Lily",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Daniel. Date of birth: 22 March 1988. Month and day: 22 March. Comes first in the year?: ✅ Yes.",
+     "say": "Daniel. Date of birth: 22 March 1988. Month and day: 22 March. Comes first in the year?: ✅ Yes.",
+     "focus": 0,
+     "file": "clips/d1e92802c1fe.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "Emily. Date of birth: 14 August 1990. Month and day: 14 August. Comes first in the year?: No.",
+     "say": "Emily. Date of birth: 14 August 1990. Month and day: 14 August. Comes first in the year?: No.",
+     "focus": 1,
+     "file": "clips/d8ac85ef2940.mp3",
+     "seconds": 8.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Working it out for Lily",
+   "lines": [
+    {
+     "raw": "In the US: Lily's COB order in 2025.",
+     "say": "In the U S: Lily's C O B order in 2025.",
+     "focus": -1,
+     "file": "clips/a345e191429e.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "**1 January to 30 June 2025**: Daniel's birthday (22 March) comes before Emily's (14 August), so **Daniel's plan is primary** and Emily's plan is **secondary** for Lily.",
+     "say": "1 January to 30 June 2025: Daniel's birthday (22 March) comes before Emily's (14 August), so Daniel's plan is primary and Emily's plan is secondary for Lily.",
+     "focus": 0,
+     "file": "clips/b3338e149268.mp3",
+     "seconds": 12.675
+    },
+    {
+     "raw": "Daniel is two years older, but that is not the reason.",
+     "say": "Daniel is two years older, but that is not the reason.",
+     "focus": 1,
+     "file": "clips/ab6a176c9ece.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "If Daniel had been born on 22 March **1995**, his plan would still be primary.",
+     "say": "If Daniel had been born on 22 March 1995, his plan would still be primary.",
+     "focus": 1,
+     "file": "clips/dc137b94ca99.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "**From 1 July 2025**: Daniel's old plan ended on 30 June, so Emily's plan is Lily's **only** insurance, and therefore **primary**.",
+     "say": "From 1 July 2025: Daniel's old plan ended on 30 June, so Emily's plan is Lily's only insurance, and therefore primary.",
+     "focus": 2,
+     "file": "clips/9693924fc17b.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "This is exactly why Lily has two spans on Emily's plan (lesson 4): same cover, different COB order.",
+     "say": "This is exactly why Lily has two spans on Emily's plan (lesson 4): same cover, different C O B order.",
+     "focus": 3,
+     "file": "clips/0e16611814e1.mp3",
+     "seconds": 7.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How the secondary plan pays.",
+     "say": "How the secondary plan pays.",
+     "focus": -1,
+     "file": "clips/eb4406835d64.mp3",
+     "seconds": 2.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "How the secondary plan pays",
+   "lines": [
+    {
+     "raw": "On **14 April 2025**, Lily sees her paediatrician for an ear infection.",
+     "say": "On 14 April 2025, Lily sees her paediatrician for an ear infection.",
+     "focus": -1,
+     "file": "clips/31fbfabeb484.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "The doctor is in both plans' networks.",
+     "say": "The doctor is in both plans' networks.",
+     "focus": -1,
+     "file": "clips/118170332a5f.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "The claim goes to **Daniel's plan first**, then to **Emily's plan** with the primary's result attached.",
+     "say": "The claim goes to Daniel's plan first, then to Emily's plan with the primary's result attached.",
+     "focus": -1,
+     "file": "clips/29dec1e6ddcd.mp3",
+     "seconds": 6.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "How the secondary plan pays",
+   "lines": [
+    {
+     "raw": "Lily's ear infection visit, 14 April 2025.",
+     "say": "Lily's ear infection visit, 14 April 2025.",
+     "focus": -1,
+     "file": "clips/7d756e4562d6.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "Allowed by Daniel's plan (primary). Amount: $150.00.",
+     "say": "Allowed by Daniel's plan (primary). Amount: 150 dollars.",
+     "focus": 0,
+     "file": "clips/d5d85c07b4b6.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Daniel's plan copay for a doctor visit. Amount: $20.00.",
+     "say": "Daniel's plan copay for a doctor visit. Amount: 20 dollars.",
+     "focus": 1,
+     "file": "clips/49f10187c852.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Daniel's plan pays (150 − 20). Amount: **$130.00**.",
+     "say": "Daniel's plan pays (150 − 20). Amount: 130 dollars.",
+     "focus": 2,
+     "file": "clips/3df4a7ad2f6c.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Left over after the primary. Amount: $20.00.",
+     "say": "Left over after the primary. Amount: 20 dollars.",
+     "focus": 3,
+     "file": "clips/bc7f14be6042.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "What Emily's plan would pay if it were primary ($140 allowed − $25 copay). Amount: $115.00.",
+     "say": "What Emily's plan would pay if it were primary (140 dollars allowed − 25 dollars copay). Amount: 115 dollars.",
+     "focus": 4,
+     "file": "clips/88f22e4d43e5.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "Emily's plan pays as secondary: the smaller of $20 and $115. Amount: **$20.00**.",
+     "say": "Emily's plan pays as secondary: the smaller of 20 dollars and 115 dollars. Amount: 20 dollars.",
+     "focus": 5,
+     "file": "clips/a1999f19067e.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "Family pays. Amount: **$0.00**.",
+     "say": "Family pays. Amount: 0 dollars.",
+     "focus": 6,
+     "file": "clips/bb44e3dff61f.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "How the secondary plan pays",
+   "lines": [
+    {
+     "raw": "The golden rule of COB.",
+     "say": "The golden rule of C O B.",
+     "focus": -1,
+     "file": "clips/9b20a2e9bb23.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Primary paid plus Secondary paid plus Patient paid ≤ Allowed amount.",
+     "say": "Primary paid plus Secondary paid plus Patient paid ≤ Allowed amount.",
+     "focus": 0,
+     "file": "clips/0a4cad146d1b.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "For example: Lily: $130 plus $20 plus $0 equals $150, exactly the allowed amount.",
+     "say": "For example: Lily: 130 dollars plus 20 dollars plus 0 dollars equals 150 dollars exactly the allowed amount.",
+     "focus": 1,
+     "file": "clips/c9c883730fec.mp3",
+     "seconds": 9.95
+    },
+    {
+     "raw": "Nobody is paid twice.",
+     "say": "Nobody is paid twice.",
+     "focus": 1,
+     "file": "clips/d55c8ef4009f.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "How the secondary plan pays",
+   "lines": [
+    {
+     "raw": "Plans use different methods.",
+     "say": "Plans use different methods.",
+     "focus": -1,
+     "file": "clips/77672e0b47dc.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "The method above (the secondary pays what is left, up to what it would have paid as primary) is the most traditional one.",
+     "say": "The method above (the secondary pays what is left, up to what it would have paid as primary) is the most traditional one.",
+     "focus": -1,
+     "file": "clips/8f083a5fa724.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "Some plans use stricter methods, where the secondary pays less or nothing if the primary already paid at least as much as it would have.",
+     "say": "Some plans use stricter methods, where the secondary pays less or nothing if the primary already paid at least as much as it would have.",
+     "focus": -1,
+     "file": "clips/b5f86778d742.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "The ordering rules are the same; only the secondary's maths differs.",
+     "say": "The ordering rules are the same; only the secondary's maths differs.",
+     "focus": -1,
+     "file": "clips/11b3c80a920c.mp3",
+     "seconds": 4.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Employer plans, Medicare and Medicaid.",
+     "say": "Employer plans, Medicare and Medicaid.",
+     "focus": -1,
+     "file": "clips/de2fb7604961.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Employer plans, Medicare and Medicaid",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Aged 65+, still working, employer has **20 or more** employees. Primary: Employer plan. Secondary: Medicare.",
+     "say": "Aged 65+, still working, employer has 20 or more employees. Primary: Employer plan. Secondary: Medicare.",
+     "focus": 0,
+     "file": "clips/577dd15767f1.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "Aged 65+, still working, employer has **fewer than 20** employees. Primary: Medicare. Secondary: Employer plan.",
+     "say": "Aged 65+, still working, employer has fewer than 20 employees. Primary: Medicare. Secondary: Employer plan.",
+     "focus": 1,
+     "file": "clips/1fde0bc59143.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "Aged 65+ and **retired**, with a retiree plan from the old employer. Primary: Medicare. Secondary: Retiree plan.",
+     "say": "Aged 65+ and retired, with a retiree plan from the old employer. Primary: Medicare. Secondary: Retiree plan.",
+     "focus": 2,
+     "file": "clips/c9aea0fd8664.mp3",
+     "seconds": 9.225
+    },
+    {
+     "raw": "On **Medicare and Medicaid** (dual eligible). Primary: Medicare. Secondary: Medicaid.",
+     "say": "On Medicare and Medicaid (dual eligible). Primary: Medicare. Secondary: Medicaid.",
+     "focus": 3,
+     "file": "clips/e64dc6969235.mp3",
+     "seconds": 6.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Employer plans, Medicare and Medicaid",
+   "lines": [
+    {
+     "raw": "Medicaid pays last.",
+     "say": "Medicaid pays last.",
+     "focus": -1,
+     "file": "clips/07fe0df39a69.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Medicaid is called the **payer of last resort**: if a person has any other cover, that cover pays first, and Medicaid pays only what is left.",
+     "say": "Medicaid is called the payer of last resort: if a person has any other cover, that cover pays first, and Medicaid pays only what is left.",
+     "focus": -1,
+     "file": "clips/58036b85581d.mp3",
+     "seconds": 9.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Employer plans, Medicare and Medicaid",
+   "lines": [
+    {
+     "raw": "Dual eligibles.",
+     "say": "Dual eligibles.",
+     "focus": -1,
+     "file": "clips/187f5ad9b33d.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "People on both Medicare and Medicaid have their own programmes and data flags.",
+     "say": "People on both Medicare and Medicaid have their own programmes and data flags.",
+     "focus": -1,
+     "file": "clips/5263edcbfa84.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "This course only needs the payment order above; the Medicare course covers dual eligibles in depth.",
+     "say": "This course only needs the payment order above; the Medicare course covers dual eligibles in depth.",
+     "focus": -1,
+     "file": "clips/932f6e9c1704.mp3",
+     "seconds": 6.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "",
+   "lines": [
+    {
+     "raw": "COB in eligibility data.",
+     "say": "C O B in eligibility data.",
+     "focus": -1,
+     "file": "clips/091c7a7d9b39.mp3",
+     "seconds": 2.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "COB in eligibility data",
+   "lines": [
+    {
+     "raw": "Insurers learn about other cover from the **834** (it has a COB section), from yearly **\"other insurance\" questionnaires** sent to members, and from data matching with other payers.",
+     "say": "Insurers learn about other cover from the 8 34 (it has a C O B section), from yearly \"other insurance\" questionnaires sent to members, and from data matching with other payers.",
+     "focus": -1,
+     "file": "clips/a565837d5525.mp3",
+     "seconds": 12.125
+    },
+    {
+     "raw": "They store it either on the eligibility span or in a separate **other-insurance** table.",
+     "say": "They store it either on the eligibility span or in a separate other-insurance table.",
+     "focus": -1,
+     "file": "clips/0155f6d4d173.mp3",
+     "seconds": 5.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "COB in eligibility data",
+   "lines": [
+    {
+     "raw": "Lily's spans on Emily's plan, with COB fields.",
+     "say": "Lily's spans on Emily's plan, with C O B fields.",
+     "focus": -1,
+     "file": "clips/178562fc830f.mp3",
+     "seconds": 3.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "COB in eligibility data",
+   "lines": [
+    {
+     "raw": "Why COB matters for analysts.",
+     "say": "Why C O B matters for analysts.",
+     "focus": -1,
+     "file": "clips/3d1246bd61eb.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "When a plan is **secondary**, it pays very little: just $20 for Lily's $150 visit.",
+     "say": "When a plan is secondary, it pays very little: just 20 dollars for Lily's 150 dollars visit.",
+     "focus": -1,
+     "file": "clips/75e9fc4f7df5.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "If you add up costs per member without checking `cob_order`, members with other insurance will look extremely cheap.",
+     "say": "If you add up costs per member without checking cob_order, members with other insurance will look extremely cheap.",
+     "focus": -1,
+     "file": "clips/97032d57cf9b.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "Many analyses flag or separate secondary-coverage months.",
+     "say": "Many analyses flag or separate secondary-coverage months.",
+     "focus": -1,
+     "file": "clips/f1ee5143521e.mp3",
+     "seconds": 4.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "COB in eligibility data",
+   "lines": [
+    {
+     "raw": "Two covers in Nepal.",
+     "say": "Two covers in Nepal.",
+     "focus": -1,
+     "file": "clips/b6629992b87f.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Suppose Ram has his startup's group policy **and** a personal policy he bought himself.",
+     "say": "Suppose Ram has his startup's group policy and a personal policy he bought himself.",
+     "focus": 0,
+     "file": "clips/d822da68fc63.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Under the basic insurance principle of **indemnity**, he cannot get back **more than he actually spent**.",
+     "say": "Under the basic insurance principle of indemnity, he cannot get back more than he actually spent.",
+     "focus": 1,
+     "file": "clips/a605c1ae03f0.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "If the first insurer reimburses part of the bill, he may claim the rest from the second, usually with copies of the bills and the first insurer's settlement letter.",
+     "say": "If the first insurer reimburses part of the bill, he may claim the rest from the second, usually with copies of the bills and the first insurer's settlement letter.",
+     "focus": 1,
+     "file": "clips/08b5d5cdc6cc.mp3",
+     "seconds": 10.075
+    },
+    {
+     "raw": "The exact rules depend on each policy's terms.",
+     "say": "The exact rules depend on each policy's terms.",
+     "focus": 2,
+     "file": "clips/86ae33923eb0.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "If Sita also had private insurance, whether and how she can use both for one hospital bill depends on SSF's rules and her policy's terms.",
+     "say": "If Sita also had private insurance, whether and how she can use both for one hospital bill depends on SSF's rules and her policy's terms.",
+     "focus": 3,
+     "file": "clips/e48db73db045.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "The idea would still be the same: the total paid should never exceed the bill.",
+     "say": "The idea would still be the same: the total paid should never exceed the bill.",
+     "focus": 3,
+     "file": "clips/df7a862e567a.mp3",
+     "seconds": 5.025
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "COB decides which plan pays first (primary) and second (secondary).",
+     "say": "C O B decides which plan pays first (primary) and second (secondary).",
+     "focus": 0,
+     "file": "clips/3066ea41aa14.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Own job plan before spouse's plan; for children of married parents, the **birthday rule** (month and day only).",
+     "say": "Own job plan before spouse's plan; for children of married parents, the birthday rule (month and day only).",
+     "focus": 1,
+     "file": "clips/394011c6939c.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "Secondary pays what is left, never pushing the total above the allowed amount.",
+     "say": "Secondary pays what is left, never pushing the total above the allowed amount.",
+     "focus": 2,
+     "file": "clips/80675d794fad.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Employer (20+ employees) before Medicare for active workers; Medicaid pays last.",
+     "say": "Employer (20+ employees) before Medicare for active workers; Medicaid pays last.",
+     "focus": 3,
+     "file": "clips/d1c1c1c28a4a.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "Check `cob_order` before comparing costs per member.",
+     "say": "Check cob_order before comparing costs per member.",
+     "focus": 4,
+     "file": "clips/7f75019aeaec.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

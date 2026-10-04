@@ -1,0 +1,862 @@
+{
+ "courseId": "eligibility",
+ "lessonId": "subscriber-member-dependents",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: Subscriber, Member & Dependents.",
+     "say": "Lesson 3: Subscriber, Member and Dependents.",
+     "focus": -1,
+     "file": "clips/a02dacb42f9d.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "One policy can cover a whole family.",
+     "say": "One policy can cover a whole family.",
+     "focus": -1,
+     "file": "clips/be3b1ea6e634.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "The data must say who is who.",
+     "say": "The data must say who is who.",
+     "focus": -1,
+     "file": "clips/089e1fe979e0.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Tell the subscriber apart from dependents.",
+     "say": "Tell the subscriber apart from dependents.",
+     "focus": 0,
+     "file": "clips/b5173f16e786.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Read relationship codes: 18 (self), 01 (spouse), 19 (child).",
+     "say": "Read relationship codes: 18 (self), 01 (spouse), 19 (child).",
+     "focus": 1,
+     "file": "clips/9bc2428516af.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Understand subscriber ID, member ID and ID suffixes.",
+     "say": "Understand subscriber I D, member I D and I D suffixes.",
+     "focus": 2,
+     "file": "clips/e0873057fab3.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Know the US rule that children can stay on a parent's plan until age 26.",
+     "say": "Know the U S rule that children can stay on a parent's plan until age 26.",
+     "focus": 3,
+     "file": "clips/207b5ee76462.mp3",
+     "seconds": 5.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet Emily's family.",
+     "say": "Meet Emily's family.",
+     "focus": -1,
+     "file": "clips/f50383e4a50b.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Meet Emily's family",
+   "lines": [
+    {
+     "raw": "Emily is not alone.",
+     "say": "Emily is not alone.",
+     "focus": -1,
+     "file": "clips/5ba8a17de23f.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "She lives in Austin, Texas with her husband **Daniel** and their daughter **Lily**, who is 6.",
+     "say": "She lives in Austin, Texas with her husband Daniel and their daughter Lily, who is 6.",
+     "focus": -1,
+     "file": "clips/232a16537efb.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "By the end of 2025, all three are covered by **Emily's employer plan**.",
+     "say": "By the end of 2025, all three are covered by Emily's employer plan.",
+     "focus": -1,
+     "file": "clips/bfd01f170fad.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "Emily got the insurance through her job, and she added her family to it.",
+     "say": "Emily got the insurance through her job, and she added her family to it.",
+     "focus": -1,
+     "file": "clips/3ff287a47f16.mp3",
+     "seconds": 4.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Meet Emily's family",
+   "lines": [
+    {
+     "raw": "Subscriber (policyholder).",
+     "say": "Subscriber (policyholder).",
+     "focus": 0,
+     "file": "clips/8fb897a3d3a0.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "The person whose job or contract the insurance comes from.",
+     "say": "The person whose job or contract the insurance comes from.",
+     "focus": 0,
+     "file": "clips/32c15570fc9b.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Here, **Emily**.",
+     "say": "Here, Emily.",
+     "focus": 0,
+     "file": "clips/29f439943b7a.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "Also called the **employee**, **primary member** or **policyholder**.",
+     "say": "Also called the employee, primary member or policyholder.",
+     "focus": 0,
+     "file": "clips/76243a4d90ae.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "Dependent.",
+     "say": "Dependent.",
+     "focus": 1,
+     "file": "clips/fc544d6f343c.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "A family member covered **because of** the subscriber, usually a spouse or child.",
+     "say": "A family member covered because of the subscriber, usually a spouse or child.",
+     "focus": 1,
+     "file": "clips/20b4d1f9275a.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Here, **Daniel** and **Lily**.",
+     "say": "Here, Daniel and Lily.",
+     "focus": 1,
+     "file": "clips/1b2839038545.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Member.",
+     "say": "Member.",
+     "focus": 2,
+     "file": "clips/8bbaccc90249.mp3",
+     "seconds": 1.375
+    },
+    {
+     "raw": "**Anyone** covered by the plan: the subscriber **and** every dependent.",
+     "say": "Anyone covered by the plan: the subscriber and every dependent.",
+     "focus": 2,
+     "file": "clips/fe2f76809799.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "Emily, Daniel and Lily are all members.",
+     "say": "Emily, Daniel and Lily are all members.",
+     "focus": 2,
+     "file": "clips/68f566586f58.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Patient.",
+     "say": "Patient.",
+     "focus": 3,
+     "file": "clips/e70e2d63dc6e.mp3",
+     "seconds": 1.45
+    },
+    {
+     "raw": "The member who actually received the care on a claim.",
+     "say": "The member who actually received the care on a claim.",
+     "focus": 3,
+     "file": "clips/b1fef462593d.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "If Lily sees a doctor, Lily is the patient, but Emily is still the subscriber.",
+     "say": "If Lily sees a doctor, Lily is the patient, but Emily is still the subscriber.",
+     "focus": 3,
+     "file": "clips/68505e0efc04.mp3",
+     "seconds": 5.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Meet Emily's family",
+   "lines": [
+    {
+     "raw": "Every subscriber is a member, but not every member is a subscriber.",
+     "say": "Every subscriber is a member, but not every member is a subscriber.",
+     "focus": -1,
+     "file": "clips/6eff36dfa8ca.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Emily is both a subscriber and a member.",
+     "say": "Emily is both a subscriber and a member.",
+     "focus": -1,
+     "file": "clips/52f084cf6ce0.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "Daniel and Lily are members but not subscribers.",
+     "say": "Daniel and Lily are members but not subscribers.",
+     "focus": -1,
+     "file": "clips/eb2178a1ff12.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "If Emily loses her job, the whole family loses this cover, because their cover hangs on hers.",
+     "say": "If Emily loses her job, the whole family loses this cover, because their cover hangs on hers.",
+     "focus": -1,
+     "file": "clips/f6ba3b8c0252.mp3",
+     "seconds": 6.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Relationship codes.",
+     "say": "Relationship codes.",
+     "focus": -1,
+     "file": "clips/e494f39bbaf2.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Relationship codes",
+   "lines": [
+    {
+     "raw": "The insurer must know how each person is related to the subscriber.",
+     "say": "The insurer must know how each person is related to the subscriber.",
+     "focus": -1,
+     "file": "clips/9770fe408c01.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "In the standard US enrollment file (the **834**, lesson 5), this is a 2-digit **relationship code**.",
+     "say": "In the standard U S enrollment file (the 8 34, lesson 5), this is a 2-digit relationship code.",
+     "focus": -1,
+     "file": "clips/beaaf875718c.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "The three you will see most often are:",
+     "say": "The three you will see most often are:",
+     "focus": -1,
+     "file": "clips/4d7340eb331a.mp3",
+     "seconds": 2.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Relationship codes",
+   "lines": [
+    {
+     "raw": "Common relationship codes in the 834 file.",
+     "say": "Common relationship codes in the 8 34 file.",
+     "focus": -1,
+     "file": "clips/0e0f549372f2.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "`18`. Meaning: **Self**: this person is the subscriber. Emily's family: Emily.",
+     "say": "18. Meaning: Self: this person is the subscriber. Emily's family: Emily.",
+     "focus": 0,
+     "file": "clips/37a8a549bc0b.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "`01`. Meaning: **Spouse**. Emily's family: Daniel.",
+     "say": "01. Meaning: Spouse. Emily's family: Daniel.",
+     "focus": 1,
+     "file": "clips/1636942583a2.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "`19`. Meaning: **Child**. Emily's family: Lily.",
+     "say": "19. Meaning: Child. Emily's family: Lily.",
+     "focus": 2,
+     "file": "clips/7a6dbe618a23.mp3",
+     "seconds": 3.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Relationship codes",
+   "lines": [
+    {
+     "raw": "Same idea, different spellings.",
+     "say": "Same idea, different spellings.",
+     "focus": -1,
+     "file": "clips/840a9943c987.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Many insurers translate these codes inside their own systems.",
+     "say": "Many insurers translate these codes inside their own systems.",
+     "focus": -1,
+     "file": "clips/2b4aee35451f.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "You may see `E` / `S` / `C` (employee, spouse, child), `SUB` / `DEP`, or words like \"Self\".",
+     "say": "You may see E or S or C (employee, spouse, child), S U B or D E P, or words like \"Self\".",
+     "focus": -1,
+     "file": "clips/aa11ed56f55d.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "The meaning is the same.",
+     "say": "The meaning is the same.",
+     "focus": -1,
+     "file": "clips/47bb90d88db1.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "When you get a new data file, always ask for the **code list** (data dictionary).",
+     "say": "When you get a new data file, always ask for the code list (data dictionary).",
+     "focus": -1,
+     "file": "clips/f7943c43c465.mp3",
+     "seconds": 4.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Subscriber ID, member ID and suffixes.",
+     "say": "Subscriber I D, member I D and suffixes.",
+     "focus": -1,
+     "file": "clips/1e72c3c5b049.mp3",
+     "seconds": 3.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Subscriber ID, member ID and suffixes",
+   "lines": [
+    {
+     "raw": "Each person needs an ID, and the data must also show which family they belong to.",
+     "say": "Each person needs an I D, and the data must also show which family they belong to.",
+     "focus": -1,
+     "file": "clips/6d84da803658.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "Insurers do this in a few common ways:",
+     "say": "Insurers do this in a few common ways:",
+     "focus": -1,
+     "file": "clips/23999f957103.mp3",
+     "seconds": 2.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Subscriber ID, member ID and suffixes",
+   "lines": [
+    {
+     "raw": "Subscriber ID.",
+     "say": "Subscriber I D.",
+     "focus": 0,
+     "file": "clips/a6a06ee32131.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "One ID for the **whole policy**.",
+     "say": "One I D for the whole policy.",
+     "focus": 0,
+     "file": "clips/568588b3657d.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Every family member carries the subscriber's ID.",
+     "say": "Every family member carries the subscriber's I D.",
+     "focus": 0,
+     "file": "clips/b693f07e3670.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "It tells you \"these people belong together\".",
+     "say": "It tells you \"these people belong together\".",
+     "focus": 0,
+     "file": "clips/c7d2956dd161.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Member ID.",
+     "say": "Member I D.",
+     "focus": 1,
+     "file": "clips/75b98446b4a5.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "A **unique ID for each person**.",
+     "say": "A unique I D for each person.",
+     "focus": 1,
+     "file": "clips/fcb48511ac2a.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Emily is **M1001**, Lily is **M1002**, Daniel is **M1003**.",
+     "say": "Emily is M 1 0 0 1, Lily is M 1 0 0 2, Daniel is M 1 0 0 3.",
+     "focus": 1,
+     "file": "clips/1b1ddce65475.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "Claims use this ID, so you know exactly who was treated.",
+     "say": "Claims use this I D, so you know exactly who was treated.",
+     "focus": 1,
+     "file": "clips/945d6faa77a6.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Member suffix.",
+     "say": "Member suffix.",
+     "focus": 2,
+     "file": "clips/86147da90308.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Some insurers print one ID number for the family on the card plus a 2-digit **suffix** for each person: `48291307-01` (Emily), `-02` (Lily), `-03` (Daniel).",
+     "say": "Some insurers print one I D number for the family on the card plus a 2-digit suffix for each person: 4 8 2 9 1 3 0 7 dash 0 1 (Emily), -02 (Lily), -03 (Daniel).",
+     "focus": 2,
+     "file": "clips/72e48d0054da.mp3",
+     "seconds": 15.225
+    },
+    {
+     "raw": "Card ID vs internal member ID.",
+     "say": "Card I D versus internal member I D.",
+     "focus": 3,
+     "file": "clips/e06c1a79764f.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "Providers send claims with the ID on the **card**.",
+     "say": "Providers send claims with the I D on the card.",
+     "focus": 3,
+     "file": "clips/972ccd344d0a.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "The insurer links it to its own internal **member_id**, which is what you see in analytics tables (like M1001 for Emily).",
+     "say": "The insurer links it to its own internal member_id, which is what you see in analytics tables (like M 1 0 0 1 for Emily).",
+     "focus": 3,
+     "file": "clips/93455a06d060.mp3",
+     "seconds": 9.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Subscriber ID, member ID and suffixes",
+   "lines": [
+    {
+     "raw": "Emily's family as data rows.",
+     "say": "Emily's family as data rows.",
+     "focus": -1,
+     "file": "clips/33bd7a93cd78.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Subscriber ID, member ID and suffixes",
+   "lines": [
+    {
+     "raw": "Spot the subscriber.",
+     "say": "Spot the subscriber.",
+     "focus": -1,
+     "file": "clips/bf20804cf8b1.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "The subscriber is the row where `member_id` = `subscriber_id`, and `relationship_cd` = `18`.",
+     "say": "The subscriber is the row where member_id = subscriber_id, and relationship_cd = 18.",
+     "focus": -1,
+     "file": "clips/00e789c082e1.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "To count **families** (policies), count unique `subscriber_id`.",
+     "say": "To count families (policies), count unique subscriber_id.",
+     "focus": -1,
+     "file": "clips/641790898fe7.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "To count **people**, count unique `member_id`.",
+     "say": "To count people, count unique member_id.",
+     "focus": -1,
+     "file": "clips/740d52367570.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "Here: 1 family, 3 people.",
+     "say": "Here: 1 family, 3 people.",
+     "focus": -1,
+     "file": "clips/656a0d49496b.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Subscriber ID, member ID and suffixes",
+   "lines": [
+    {
+     "raw": "Suffix numbering varies.",
+     "say": "Suffix numbering varies.",
+     "focus": -1,
+     "file": "clips/9d97d7a7cb74.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "In this example, suffixes follow the order people joined: Lily was added before Daniel, so she is `-02`.",
+     "say": "In this example, suffixes follow the order people joined: Lily was added before Daniel, so she is -02.",
+     "focus": -1,
+     "file": "clips/3454d6357544.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "Other insurers reserve `-01` for the subscriber and `-02` for the spouse, or use `-00` for the subscriber.",
+     "say": "Other insurers reserve -01 for the subscriber and -02 for the spouse, or use -00 for the subscriber.",
+     "focus": -1,
+     "file": "clips/58d1e41d08d8.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "Never assume: check the data dictionary.",
+     "say": "Never assume: check the data dictionary.",
+     "focus": -1,
+     "file": "clips/33bb562997e2.mp3",
+     "seconds": 3.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Subscriber ID, member ID and suffixes",
+   "lines": [
+    {
+     "raw": "Family cover in Nepal.",
+     "say": "Family cover in Nepal.",
+     "focus": -1,
+     "file": "clips/bcb6417a062c.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Many private health policies in Nepal can be bought as a **family floater**: one policy covers Ram and, for example, his wife and children.",
+     "say": "Many private health policies in Nepal can be bought as a family floater: one policy covers Ram and, for example, his wife and children.",
+     "focus": 0,
+     "file": "clips/fb291c39478a.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "Ram is the **proposer / policyholder** (the subscriber).",
+     "say": "Ram is the proposer or policyholder (the subscriber).",
+     "focus": 1,
+     "file": "clips/fb23c7423547.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "His family members are the **insured persons** (dependents).",
+     "say": "His family members are the insured persons (dependents).",
+     "focus": 1,
+     "file": "clips/4bb46e412548.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "In a floater, the family usually **shares one total limit**.",
+     "say": "In a floater, the family usually shares one total limit.",
+     "focus": 2,
+     "file": "clips/6db2e9feeceb.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "If Ram's wife uses most of it, less is left for everyone else.",
+     "say": "If Ram's wife uses most of it, less is left for everyone else.",
+     "focus": 2,
+     "file": "clips/bb64e485f7ab.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "In the US, deductibles and limits are tracked per person **and** per family.",
+     "say": "In the U S, deductibles and limits are tracked per person and per family.",
+     "focus": 2,
+     "file": "clips/653b63a2dcc4.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Whether Ram's startup group policy covers his family depends on what the startup chose to buy.",
+     "say": "Whether Ram's startup group policy covers his family depends on what the startup chose to buy.",
+     "focus": 3,
+     "file": "clips/ef4c9088cdef.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 4,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's SSF cover comes from **her own contributions**, so she is the subscriber of her SSF record.",
+     "say": "Sita's S S F cover comes from her own contributions, so she is the subscriber of her S S F record.",
+     "focus": 4,
+     "file": "clips/ae2bcd4def16.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "Whether and how SSF covers a contributor's family members depends on SSF's rules for each scheme, and these have changed over time.",
+     "say": "Whether and how S S F covers a contributor's family members depends on SSF's rules for each scheme, and these have changed over time.",
+     "focus": 5,
+     "file": "clips/6397b23fa1f1.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "Check SSF's latest guidelines rather than assuming.",
+     "say": "Check SSF's latest guidelines rather than assuming.",
+     "focus": 5,
+     "file": "clips/b875910cc8b0.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Nepal's government **Health Insurance Board** scheme takes a family approach: a household enrolls together, and each person in it is a member.",
+     "say": "Nepal's government Health Insurance Board scheme takes a family approach: a household enrolls together, and each person in it is a member.",
+     "focus": 6,
+     "file": "clips/143857c79e71.mp3",
+     "seconds": 8.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Children can stay until age 26.",
+     "say": "Children can stay until age 26.",
+     "focus": -1,
+     "file": "clips/7da9f0aceb69.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Children can stay until age 26",
+   "lines": [
+    {
+     "raw": "Under the US **Affordable Care Act (ACA)**, if a plan covers children, it must let them stay on a parent's plan **until they turn 26**.",
+     "say": "Under the U S Affordable Care Act (A C A), if a plan covers children, it must let them stay on a parent's plan until they turn 26.",
+     "focus": -1,
+     "file": "clips/aeeb4cd1e7d7.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "This is true even if the child is married, not living at home, not a student, or not financially dependent on the parent.",
+     "say": "This is true even if the child is married, not living at home, not a student, or not financially dependent on the parent.",
+     "focus": -1,
+     "file": "clips/a21ddb94342a.mp3",
+     "seconds": 8.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Children can stay until age 26",
+   "lines": [
+    {
+     "raw": "In the US: What this means for Lily.",
+     "say": "In the U S: What this means for Lily.",
+     "focus": -1,
+     "file": "clips/93c335970539.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Lily was born on **20 January 2019**, so she turns 26 on **20 January 2045**.",
+     "say": "Lily was born on 20 January 2019, so she turns 26 on 20 January 2045.",
+     "focus": 0,
+     "file": "clips/90ac99ef58ba.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "Until then, she can stay on Emily's plan (as long as Emily is covered and keeps her on it).",
+     "say": "Until then, she can stay on Emily's plan (as long as Emily is covered and keeps her on it).",
+     "focus": 1,
+     "file": "clips/d0ad75fd8a08.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "When she turns 26, her cover as a dependent ends.",
+     "say": "When she turns 26, her cover as a dependent ends.",
+     "focus": 2,
+     "file": "clips/8910160f7a12.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Many plans end it on the **last day of that month**, but the exact rule is set by each plan.",
+     "say": "Many plans end it on the last day of that month, but the exact rule is set by each plan.",
+     "focus": 2,
+     "file": "clips/0da35a0b5ec1.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "Then she needs her own cover: from a job, the Marketplace, or another source (lesson 2).",
+     "say": "Then she needs her own cover: from a job, the Marketplace, or another source (lesson 2).",
+     "focus": 3,
+     "file": "clips/fbbd4cba978e.mp3",
+     "seconds": 5.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Children can stay until age 26",
+   "lines": [
+    {
+     "raw": "A quick data check analysts run.",
+     "say": "A quick data check analysts run.",
+     "focus": -1,
+     "file": "clips/8cbb8e3a7eda.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Find members with `relationship_cd = 19` (child) whose age is 26 or more.",
+     "say": "Find members with r e l a t i o n s h i p _ c d = 1 9 (child) whose age is 26 or more.",
+     "focus": -1,
+     "file": "clips/1a95118d4fde.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "If any are still showing as covered, that may be an error, or a special case such as a disabled adult child, whom many plans allow to stay longer.",
+     "say": "If any are still showing as covered, that may be an error, or a special case such as a disabled adult child, whom many plans allow to stay longer.",
+     "focus": -1,
+     "file": "clips/6aa495f339f5.mp3",
+     "seconds": 9.175
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The **subscriber** is the person the cover comes from; **dependents** are covered through them; all are **members**.",
+     "say": "The subscriber is the person the cover comes from; dependents are covered through them; all are members.",
+     "focus": 0,
+     "file": "clips/c6f31b2f0e58.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "Relationship codes: `18` self, `01` spouse, `19` child.",
+     "say": "Relationship codes: 18 self, 01 spouse, 19 child.",
+     "focus": 1,
+     "file": "clips/8f54615cff69.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "Count unique `subscriber_id` for families, unique `member_id` for people.",
+     "say": "Count unique subscriber_id for families, unique member_id for people.",
+     "focus": 2,
+     "file": "clips/8e5b70fa520d.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Under the ACA, children can stay on a parent's plan until age 26.",
+     "say": "Under the A C A, children can stay on a parent's plan until age 26.",
+     "focus": 3,
+     "file": "clips/391d76fe51ad.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

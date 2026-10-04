@@ -1,0 +1,764 @@
+{
+ "courseId": "eligibility",
+ "lessonId": "data-quality",
+ "lessonNumber": 8,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 8: Data Quality.",
+     "say": "Lesson 8: Data Quality.",
+     "focus": -1,
+     "file": "clips/71e58e998e32.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Overlapping spans, retro terms and people with two IDs: what to fix before you count anyone.",
+     "say": "Overlapping spans, retro terms and people with two I D's: what to fix before you count anyone.",
+     "focus": -1,
+     "file": "clips/32e81d1237b6.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Spot and fix overlapping spans before counting member months.",
+     "say": "Spot and fix overlapping spans before counting member months.",
+     "focus": 0,
+     "file": "clips/4ee12fc848ae.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "Explain why last month's numbers change after a retro termination.",
+     "say": "Explain why last month's numbers change after a retro termination.",
+     "focus": 1,
+     "file": "clips/8662cc52b372.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "Find one person with two member IDs and link them with a crosswalk.",
+     "say": "Find one person with two member I D's and link them with a crosswalk.",
+     "focus": 2,
+     "file": "clips/60a4826927f7.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Run a short checklist of eligibility data checks.",
+     "say": "Run a short checklist of eligibility data checks.",
+     "focus": 3,
+     "file": "clips/a6af0c16a2d7.mp3",
+     "seconds": 3.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Nepal: Two cards for one patient.",
+     "say": "In Nepal: Two cards for one patient.",
+     "focus": -1,
+     "file": "clips/abaf1e672cc9.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "At a busy hospital in Kathmandu, Ram registers on his first visit as \"Ram Shrestha\".",
+     "say": "At a busy hospital in Kathmandu, Ram registers on his first visit as \"Ram Shrestha\".",
+     "focus": 0,
+     "file": "clips/4a7cd2f90802.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "A year later the desk cannot find him and opens a **new card** as \"Ram Shresta\".",
+     "say": "A year later the desk cannot find him and opens a new card as \"Ram Shresta\".",
+     "focus": 0,
+     "file": "clips/a5ae0fe679bd.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Now the hospital has **two patient numbers** for one man, and his old reports sit under the first one.",
+     "say": "Now the hospital has two patient numbers for one man, and his old reports sit under the first one.",
+     "focus": 0,
+     "file": "clips/00d856f72679.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "If the hospital counts \"patients seen this year\", Ram is counted twice.",
+     "say": "If the hospital counts \"patients seen this year\", Ram is counted twice.",
+     "focus": 1,
+     "file": "clips/18500f504283.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "If Sita changes jobs and her new employer registers her with a slightly different date of birth, SSF may show a **gap** or even a second record until someone matches them.",
+     "say": "If Sita changes jobs and her new employer registers her with a slightly different date of birth, S S F may show a gap or even a second record until someone matches them.",
+     "focus": 2,
+     "file": "clips/8f41d240b12a.mp3",
+     "seconds": 11.475
+    },
+    {
+     "raw": "Until the records are linked, her contribution history looks shorter than it really is.",
+     "say": "Until the records are linked, her contribution history looks shorter than it really is.",
+     "focus": 3,
+     "file": "clips/49309ae52df9.mp3",
+     "seconds": 5.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Eligibility data looks like a simple list of people and dates, but **real files contain overlaps, late changes and duplicate people**, and each of these silently changes your member counts, your PMPM and which claims look valid.",
+     "say": "Eligibility data looks like a simple list of people and dates, but real files contain overlaps, late changes and duplicate people, and each of these silently changes your member counts, your P M P M and which claims look valid.",
+     "focus": -1,
+     "file": "clips/b54bd73b4a42.mp3",
+     "seconds": 15.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Gotcha 1: overlapping spans.",
+     "say": "Gotcha 1: overlapping spans.",
+     "focus": -1,
+     "file": "clips/0c22e565926c.mp3",
+     "seconds": 2.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Gotcha 1: overlapping spans",
+   "lines": [
+    {
+     "raw": "Lesson 4 showed that spans for one member should be **contiguous** (no gap) or separated by a gap.",
+     "say": "Lesson 4 showed that spans for one member should be contiguous (no gap) or separated by a gap.",
+     "focus": -1,
+     "file": "clips/04df2f4f479a.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "Sometimes they **overlap**: two rows cover the same day.",
+     "say": "Sometimes they overlap: two rows cover the same day.",
+     "focus": -1,
+     "file": "clips/7ea36f190589.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "This usually happens when a new span is loaded but the old one is never closed, for example when a change file is lost.",
+     "say": "This usually happens when a new span is loaded but the old one is never closed, for example when a change file is lost.",
+     "focus": -1,
+     "file": "clips/f5e276ca2acc.mp3",
+     "seconds": 7.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Gotcha 1: overlapping spans",
+   "lines": [
+    {
+     "raw": "Lily in a raw extract: the old span was never closed.",
+     "say": "Lily in a raw extract: the old span was never closed.",
+     "focus": -1,
+     "file": "clips/c0ff52542408.mp3",
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Gotcha 1: overlapping spans",
+   "lines": [
+    {
+     "raw": "How to spot an overlap.",
+     "say": "How to spot an overlap.",
+     "focus": -1,
+     "file": "clips/3bab96ab77aa.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "Sort one member's spans by eff_dt.",
+     "say": "Sort one member's spans by eff_dt.",
+     "focus": 0,
+     "file": "clips/cc916f1c68e7.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Overlap if: next eff_dt ≤ previous term_dt.",
+     "say": "Overlap if: next eff_dt ≤ previous term_dt.",
+     "focus": 0,
+     "file": "clips/676f15404949.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "For example: Lily: next eff_dt 2025-07-01 ≤ previous term_dt 9999-12-31, so the rows overlap from 1 July 2025.",
+     "say": "For example: Lily: next eff_dt 2025-07-01 ≤ previous term_dt 9999-12-31, so the rows overlap from 1 July 2025.",
+     "focus": 1,
+     "file": "clips/622f29d086cf.mp3",
+     "seconds": 16.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Gotcha 1: overlapping spans",
+   "lines": [
+    {
+     "raw": "**Counted naively**, Lily gets 12 member months from the first row and 6 from the second: **18** in a 12-month year.",
+     "say": "Counted naively, Lily gets 12 member months from the first row and 6 from the second: 18 in a 12-month year.",
+     "focus": 0,
+     "file": "clips/a38ae9edbc0d.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "A claim on 3 November matches **both** rows, so a join to eligibility returns the claim **twice** and doubles its cost.",
+     "say": "A claim on 3 November matches both rows, so a join to eligibility returns the claim twice and doubles its cost.",
+     "focus": 1,
+     "file": "clips/a5969ea4473e.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "The two rows also disagree on `cob_order`, so you cannot tell which plan paid first.",
+     "say": "The two rows also disagree on cob_order, so you cannot tell which plan paid first.",
+     "focus": 2,
+     "file": "clips/7e8cdbac7cfe.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "**The fix:** decide which row wins (usually the most recently loaded one) and close the older span the day before: here, set its `term_dt` to **2025-06-30**.",
+     "say": "The fix: decide which row wins (usually the most recently loaded one) and close the older span the day before: here, set its term_dt to 2025-06-30.",
+     "focus": 3,
+     "file": "clips/1115b829453b.mp3",
+     "seconds": 12.725
+    },
+    {
+     "raw": "Now Lily has 6 + 6 = **12** months.",
+     "say": "Now Lily has 6 and 6 = 12 months.",
+     "focus": 3,
+     "file": "clips/3b53224d36b7.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Gotcha 1: overlapping spans",
+   "lines": [
+    {
+     "raw": "Counting people per month is the safest test.",
+     "say": "Counting people per month is the safest test.",
+     "focus": -1,
+     "file": "clips/9217cf36f209.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "For each member and month, count how many spans are active.",
+     "say": "For each member and month, count how many spans are active.",
+     "focus": -1,
+     "file": "clips/53bf060fcf4f.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "Any number above **1** is an overlap (or a duplicate row).",
+     "say": "Any number above 1 is an overlap (or a duplicate row).",
+     "focus": -1,
+     "file": "clips/e8d5f696aa92.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "This one check catches most eligibility problems before they reach a report.",
+     "say": "This one check catches most eligibility problems before they reach a report.",
+     "focus": -1,
+     "file": "clips/eba8018aa6f8.mp3",
+     "seconds": 5.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Gotcha 2: retro terms move last month's numbers.",
+     "say": "Gotcha 2: retro terms move last month's numbers.",
+     "focus": -1,
+     "file": "clips/f6d1735504bd.mp3",
+     "seconds": 3.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Gotcha 2: retro terms move last month's numbers",
+   "lines": [
+    {
+     "raw": "Lesson 4 explained **retroactive terminations**: cover ended earlier than the insurer first knew.",
+     "say": "Lesson 4 explained retroactive terminations: cover ended earlier than the insurer first knew.",
+     "focus": -1,
+     "file": "clips/f13bb6e65685.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "For an analyst, the problem is that the **same report gives different answers** depending on when you run it.",
+     "say": "For an analyst, the problem is that the same report gives different answers depending on when you run it.",
+     "focus": -1,
+     "file": "clips/70fe2588fcac.mp3",
+     "seconds": 6.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Gotcha 2: retro terms move last month's numbers",
+   "lines": [
+    {
+     "raw": "One member, April 2025, counted on two different days.",
+     "say": "One member, April 2025, counted on two different days.",
+     "focus": -1,
+     "file": "clips/11acb9753caa.mp3",
+     "seconds": 4.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Gotcha 2: retro terms move last month's numbers",
+   "lines": [
+    {
+     "raw": "In May, M2088 looked covered in April, and a $310 claim was paid.",
+     "say": "In May, M 2 0 8 8 looked covered in April, and a 310 dollars claim was paid.",
+     "focus": 0,
+     "file": "clips/9044b2e19e07.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "In June, the employer reported that M2088 left on 31 March.",
+     "say": "In June, the employer reported that M 2 0 8 8 left on 31 March.",
+     "focus": 1,
+     "file": "clips/5400abf49569.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "The insurer moved `term_dt` back and **reversed** the April claim.",
+     "say": "The insurer moved term_dt back and reversed the April claim.",
+     "focus": 1,
+     "file": "clips/714cbfa2a1bf.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "In July, April has one fewer member month and $310 less cost.",
+     "say": "In July, April has one fewer member month and 310 dollars less cost.",
+     "focus": 2,
+     "file": "clips/80757262a55f.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "Neither report was \"wrong\": they were taken on different days.",
+     "say": "Neither report was \"wrong\": they were taken on different days.",
+     "focus": 2,
+     "file": "clips/1e1abc4805e5.mp3",
+     "seconds": 3.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Gotcha 2: retro terms move last month's numbers",
+   "lines": [
+    {
+     "raw": "Always record the \"as of\" date.",
+     "say": "Always record the \"as of\" date.",
+     "focus": -1,
+     "file": "clips/8e66ac49798e.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Write down when you pulled the eligibility data, and leave a few months of **run-out** before treating a month as final.",
+     "say": "Write down when you pulled the eligibility data, and leave a few months of run-out before treating a month as final.",
+     "focus": -1,
+     "file": "clips/3f0deb9ba782.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "When two reports disagree, check their run dates before checking anything else.",
+     "say": "When two reports disagree, check their run dates before checking anything else.",
+     "focus": -1,
+     "file": "clips/3d590a35aba2.mp3",
+     "seconds": 4.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Gotcha 3: one person, two member IDs.",
+     "say": "Gotcha 3: one person, two member I D's.",
+     "focus": -1,
+     "file": "clips/08d60bdcc3b6.mp3",
+     "seconds": 3.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Gotcha 3: one person, two member IDs",
+   "lines": [
+    {
+     "raw": "A member ID should belong to exactly one person, and one person should have one ID.",
+     "say": "A member I D should belong to exactly one person, and one person should have one I D.",
+     "focus": -1,
+     "file": "clips/588d12253805.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "In practice a person can end up with **two IDs**: a typo in an enrollment file creates a second record, a member leaves and rejoins and gets a new ID, the insurer moves to a new system, or a newborn is first enrolled as \"Baby Girl Carter\" and re-enrolled under her real name.",
+     "say": "In practice a person can end up with two I D's: a typo in an enrollment file creates a second record, a member leaves and rejoins and gets a new I D, the insurer moves to a new system, or a newborn is first enrolled as \"Baby Girl Carter\" and re-enrolled under her real name.",
+     "focus": -1,
+     "file": "clips/0a098268f3d2.mp3",
+     "seconds": 19.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Gotcha 3: one person, two member IDs",
+   "lines": [
+    {
+     "raw": "Daniel loaded twice: the first 834 misspelt his name.",
+     "say": "Daniel loaded twice: the first 8 34 misspelt his name.",
+     "focus": -1,
+     "file": "clips/8241e5170fed.mp3",
+     "seconds": 4.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Gotcha 3: one person, two member IDs",
+   "lines": [
+    {
+     "raw": "In the US: How an analyst finds and fixes it.",
+     "say": "In the U S: How an analyst finds and fixes it.",
+     "focus": -1,
+     "file": "clips/6d2fdb3817cb.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "**Find:** look for rows with the same `subscriber_id`, the same `dob` and the same relationship, but different `member_id`.",
+     "say": "Find: look for rows with the same subscriber_id, the same dob and the same relationship, but different member_id.",
+     "focus": 0,
+     "file": "clips/fffcb2157965.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Similar names (Danial / Daniel) are a strong hint.",
+     "say": "Similar names (Danial or Daniel) are a strong hint.",
+     "focus": 0,
+     "file": "clips/572971a9ea4d.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "**Confirm:** check with the enrollment team.",
+     "say": "Confirm: check with the enrollment team.",
+     "focus": 1,
+     "file": "clips/03a7ff008949.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Twins share a subscriber and a date of birth too, so never merge on those fields alone.",
+     "say": "Twins share a subscriber and a date of birth too, so never merge on those fields alone.",
+     "focus": 1,
+     "file": "clips/a1cc276f5981.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "**Link:** keep a **crosswalk** table (`old_member_id` → `current_member_id`), here M1007 → M1003, and map every eligibility row and claim through it before counting.",
+     "say": "Link: keep a crosswalk table (old_member_id to current_member_id), here M 1 0 0 7 to M 1 0 0 3, and map every eligibility row and claim through it before counting.",
+     "focus": 2,
+     "file": "clips/3d8e4c7d9b53.mp3",
+     "seconds": 13.725
+    },
+    {
+     "raw": "**Result:** the family has 3 people, not 4, and Daniel's July claims all sit under one ID.",
+     "say": "Result: the family has 3 people, not 4, and Daniel's July claims all sit under one I D.",
+     "focus": 3,
+     "file": "clips/91321ec3d182.mp3",
+     "seconds": 6.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Gotcha 3: one person, two member IDs",
+   "lines": [
+    {
+     "raw": "IDs also change on purpose.",
+     "say": "I D's also change on purpose.",
+     "focus": -1,
+     "file": "clips/2ebad895ffb8.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Insurers sometimes re-issue IDs (a new card number after a data breach, or a new system).",
+     "say": "Insurers sometimes re-issue I D's (a new card number after a data breach, or a new system).",
+     "focus": -1,
+     "file": "clips/021aa8cb3495.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "Medicare can also issue a person a new Medicare number.",
+     "say": "Medicare can also issue a person a new Medicare number.",
+     "focus": -1,
+     "file": "clips/3267c0639b21.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "A good crosswalk keeps every old ID, so a person's history stays in one piece.",
+     "say": "A good crosswalk keeps every old I D, so a person's history stays in one piece.",
+     "focus": -1,
+     "file": "clips/7692723ff892.mp3",
+     "seconds": 5.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "",
+   "lines": [
+    {
+     "raw": "More checks worth running.",
+     "say": "More checks worth running.",
+     "focus": -1,
+     "file": "clips/8897a208b9d8.mp3",
+     "seconds": 2.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "More checks worth running",
+   "lines": [
+    {
+     "raw": "Eligibility data-quality checklist.",
+     "say": "Eligibility data-quality checklist.",
+     "focus": -1,
+     "file": "clips/dc22ca333dbd.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Overlapping spans. How to spot it: More than one active span for a member on the same day. What to do: Pick the winning row and close the other.",
+     "say": "Overlapping spans. How to spot it: More than one active span for a member on the same day. What to do: Pick the winning row and close the other.",
+     "focus": 0,
+     "file": "clips/bc0fd86624a6.mp3",
+     "seconds": 9.45
+    },
+    {
+     "raw": "Duplicate rows. How to spot it: Identical member, dates and plan loaded twice. What to do: Keep one row.",
+     "say": "Duplicate rows. How to spot it: Identical member, dates and plan loaded twice. What to do: Keep one row.",
+     "focus": 1,
+     "file": "clips/bc50998f536a.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "Cancelled-before-start spans. How to spot it: `term_dt` earlier than `eff_dt` (cover cancelled before it began). What to do: Exclude: the span covers zero days.",
+     "say": "Cancelled-before-start spans. How to spot it: term_dt earlier than eff_dt (cover cancelled before it began). What to do: Exclude: the span covers zero days.",
+     "focus": 2,
+     "file": "clips/6e33f625071c.mp3",
+     "seconds": 12.15
+    },
+    {
+     "raw": "Mixed \"no end date\" values. How to spot it: `NULL`, `9999-12-31` and `2099-12-31` in the same column. What to do: Turn them all into one value before clipping to a period.",
+     "say": "Mixed \"no end date\" values. How to spot it: N U L L, 9 9 9 9 dash 1 2 dash 3 1 and 2 0 9 9 dash 1 2 dash 3 1 in the same column. What to do: Turn them all into one value before clipping to a period.",
+     "focus": 3,
+     "file": "clips/243b34e122fb.mp3",
+     "seconds": 16.6
+    },
+    {
+     "raw": "Retro terms. How to spot it: Member months or paid amounts for a past month change between runs. What to do: Record the run date; allow run-out.",
+     "say": "Retro terms. How to spot it: Member months or paid amounts for a past month change between runs. What to do: Record the run date; allow run-out.",
+     "focus": 4,
+     "file": "clips/d7c52706eebe.mp3",
+     "seconds": 10
+    },
+    {
+     "raw": "Two IDs for one person. How to spot it: Same subscriber, date of birth and relationship under different member IDs. What to do: Confirm, then link with a crosswalk.",
+     "say": "Two I D's for one person. How to spot it: Same subscriber, date of birth and relationship under different member I D's. What to do: Confirm, then link with a crosswalk.",
+     "focus": 5,
+     "file": "clips/68bf25109c65.mp3",
+     "seconds": 12.525
+    },
+    {
+     "raw": "Dependent past the age limit. How to spot it: Child relationship code, age 26 or more, span still open (lesson 3). What to do: Flag for review; may be a valid special case.",
+     "say": "Dependent past the age limit. How to spot it: Child relationship code, age 26 or more, span still open (lesson 3). What to do: Flag for review; may be a valid special case.",
+     "focus": 6,
+     "file": "clips/7fafcb389c68.mp3",
+     "seconds": 13.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "More checks worth running",
+   "lines": [
+    {
+     "raw": "Why this matters for data.",
+     "say": "Why this matters for data.",
+     "focus": -1,
+     "file": "clips/c8f083c01ae7.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Member months are the bottom half of every PMPM (lesson 7).",
+     "say": "Member months are the bottom half of every P M P M (lesson 7).",
+     "focus": -1,
+     "file": "clips/ef5d3ad173bb.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "An overlap makes the denominator too big; a duplicate person splits one member's costs in two; a retro term moves both numbers after the fact.",
+     "say": "An overlap makes the denominator too big; a duplicate person splits one member's costs in two; a retro term moves both numbers after the fact.",
+     "focus": -1,
+     "file": "clips/093bf1ae5125.mp3",
+     "seconds": 9.975
+    },
+    {
+     "raw": "Clean eligibility first, and every report built on it becomes more trustworthy.",
+     "say": "Clean eligibility first, and every report built on it becomes more trustworthy.",
+     "focus": -1,
+     "file": "clips/5dc6234232f0.mp3",
+     "seconds": 5.375
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Overlapping spans** double-count member months and duplicate claims in joins; close the older span.",
+     "say": "Overlapping spans double-count member months and duplicate claims in joins; close the older span.",
+     "focus": 0,
+     "file": "clips/c1f3ac73ee78.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "**Retro terms** change past months after the fact: record the \"as of\" date and allow run-out.",
+     "say": "Retro terms change past months after the fact: record the \"as of\" date and allow run-out.",
+     "focus": 1,
+     "file": "clips/2398bf6bdda0.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "One person can have **two member IDs**; find them by subscriber, date of birth and relationship, confirm, then link with a **crosswalk**.",
+     "say": "One person can have two member I D's; find them by subscriber, date of birth and relationship, confirm, then link with a crosswalk.",
+     "focus": 2,
+     "file": "clips/b24f8dde4b7c.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "Check for duplicate rows, cancelled-before-start spans and mixed \"no end date\" values before counting.",
+     "say": "Check for duplicate rows, cancelled-before-start spans and mixed \"no end date\" values before counting.",
+     "focus": 3,
+     "file": "clips/db8b1de1a8fb.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "Count active spans per member per month: anything above 1 needs fixing.",
+     "say": "Count active spans per member per month: anything above 1 needs fixing.",
+     "focus": 4,
+     "file": "clips/c3a3bc60376a.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

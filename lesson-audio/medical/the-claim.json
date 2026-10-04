@@ -1,0 +1,589 @@
+{
+ "courseId": "medical",
+ "lessonId": "the-claim",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: Claim Header.",
+     "say": "Lesson 3: Claim Header.",
+     "focus": -1,
+     "file": "clips/03f1c376ed2a.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "The top of the bill: everything that is true for the whole claim.",
+     "say": "The top of the bill: everything that is true for the whole claim.",
+     "focus": -1,
+     "file": "clips/ec3beb6e5c5a.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what the claim header is.",
+     "say": "Explain what the claim header is.",
+     "focus": 0,
+     "file": "clips/5e41408947a2.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Name the main header fields and what each one tells you.",
+     "say": "Name the main header fields and what each one tells you.",
+     "focus": 1,
+     "file": "clips/0307ed83bea4.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Know why the claim number is the most important field for data work.",
+     "say": "Know why the claim number is the most important field for data work.",
+     "focus": 2,
+     "file": "clips/fb842aa20a4d.mp3",
+     "seconds": 4.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The top of the bill.",
+     "say": "The top of the bill.",
+     "focus": -1,
+     "file": "clips/73a2bf31b4ab.mp3",
+     "seconds": 1.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The top of the bill",
+   "lines": [
+    {
+     "raw": "Think of a restaurant bill.",
+     "say": "Think of a restaurant bill.",
+     "focus": -1,
+     "file": "clips/a87c3bd211d3.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "The restaurant name, table number and date are printed **once at the top**.",
+     "say": "The restaurant name, table number and date are printed once at the top.",
+     "focus": -1,
+     "file": "clips/835454dfb008.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Below that, each dish has its own line with a price.",
+     "say": "Below that, each dish has its own line with a price.",
+     "focus": -1,
+     "file": "clips/8de46f915aa5.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "It would be tedious to repeat \"Thamel Momo House, Table 5, 10 March\" next to every plate of momo.",
+     "say": "It would be tedious to repeat \"Thamel Momo House, Table 5, 10 March\" next to every plate of momo.",
+     "focus": -1,
+     "file": "clips/04c2b927b8b7.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "A claim works the same way: details that are true for the whole visit are written **once**, at the top.",
+     "say": "A claim works the same way: details that are true for the whole visit are written once, at the top.",
+     "focus": -1,
+     "file": "clips/95d223161eb0.mp3",
+     "seconds": 6.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The top of the bill",
+   "lines": [
+    {
+     "raw": "The idea in one sentence: **the claim header holds the facts that are the same for every service on the bill**: whose bill it is, who sends it, who should pay it, and the totals.",
+     "say": "The idea in one sentence: the claim header holds the facts that are the same for every service on the bill: whose bill it is, who sends it, who should pay it, and the totals.",
+     "focus": -1,
+     "file": "clips/73cb2f8cdbc1.mp3",
+     "seconds": 10.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The top of the bill",
+   "lines": [
+    {
+     "raw": "In Nepal: The top of Ram's and Sita's bills.",
+     "say": "In Nepal: The top of Ram's and Sita's bills.",
+     "focus": -1,
+     "file": "clips/713ef9611527.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "The top of Ram's hospital receipt shows the **hospital's name and PAN number**, **Bill No.",
+     "say": "The top of Ram's hospital receipt shows the hospital's name and P A N number, Bill No.",
+     "focus": 0,
+     "file": "clips/81a34927b045.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "4587**, the **date**, Ram's **name and patient number**, and at the bottom, the **total Rs 2,000**.",
+     "say": "4587, the date, Ram's name and patient number, and at the bottom, the total Rs 2,000.",
+     "focus": 0,
+     "file": "clips/9b374d0daf89.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "When Ram fills in his insurer's **claim form**, he adds his **policy number**, so the insurer knows which policy to pay from.",
+     "say": "When Ram fills in his insurer's claim form, he adds his policy number, so the insurer knows which policy to pay from.",
+     "focus": 1,
+     "file": "clips/10060e529d50.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's claim to SSF carries one number at the top: **Claim No.",
+     "say": "Sita's claim to S S F carries one number at the top: Claim No.",
+     "focus": 2,
+     "file": "clips/bb91125a4cf0.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "SSF-22871**.",
+     "say": "S S F 22871.",
+     "focus": 2,
+     "file": "clips/a02b91325458.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "It names the **hospital**, Sita's **SSF ID**, the **diagnosis** and the **total** of Rs 2,000.",
+     "say": "It names the hospital, Sita's S S F I D, the diagnosis and the total of Rs 2,000.",
+     "focus": 3,
+     "file": "clips/2f149998dbb7.mp3",
+     "seconds": 7.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The main header fields.",
+     "say": "The main header fields.",
+     "focus": -1,
+     "file": "clips/b8a9db3e6f22.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The main header fields",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Claim number** (claim ID). What it tells you: One unique ID for the whole bill, like the bill number on a receipt. Emily's sore throat claim: `23098908`.",
+     "say": "Claim number (claim I D). What it tells you: One unique I D for the whole bill, like the bill number on a receipt. Emily's sore throat claim: 2 3 0 9 8 9 0 8.",
+     "focus": 0,
+     "file": "clips/c43478c8246f.mp3",
+     "seconds": 12.025
+    },
+    {
+     "raw": "**Claim type**. What it tells you: Professional (doctor) or institutional (facility). Emily's sore throat claim: Professional.",
+     "say": "Claim type. What it tells you: Professional (doctor) or institutional (facility). Emily's sore throat claim: Professional.",
+     "focus": 1,
+     "file": "clips/f81d21b4cb19.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "**Member ID** and patient details. What it tells you: Who received the care: the member's insurance ID, name, date of birth. Emily's sore throat claim: `M1001`, Emily Carter, born 1990.",
+     "say": "Member I D and patient details. What it tells you: Who received the care: the member's insurance I D, name, date of birth. Emily's sore throat claim: M 1 0 0 1, Emily Carter, born 1990.",
+     "focus": 2,
+     "file": "clips/d77bf9937212.mp3",
+     "seconds": 14.375
+    },
+    {
+     "raw": "**Payer** and plan. What it tells you: Which insurance company and which plan should pay. Emily's sore throat claim: BlueRiver Health, employer plan.",
+     "say": "Payer and plan. What it tells you: Which insurance company and which plan should pay. Emily's sore throat claim: BlueRiver Health, employer plan.",
+     "focus": 3,
+     "file": "clips/6a7c69c4199f.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "**Billing provider**. What it tells you: Who sends the bill and receives the money (lesson 8). Emily's sore throat claim: Sunrise Family Clinic.",
+     "say": "Billing provider. What it tells you: Who sends the bill and receives the money (lesson 8). Emily's sore throat claim: Sunrise Family Clinic.",
+     "focus": 4,
+     "file": "clips/98df7b6a8863.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "**Type of Bill** (institutional only). What it tells you: What kind of facility bill this is (lesson 9). Emily's sore throat claim: Empty: this is a doctor claim.",
+     "say": "Type of Bill (institutional only). What it tells you: What kind of facility bill this is (lesson 9). Emily's sore throat claim: Empty: this is a doctor claim.",
+     "focus": 5,
+     "file": "clips/974fd91eeb37.mp3",
+     "seconds": 10.7
+    },
+    {
+     "raw": "**Claim dates**. What it tells you: First and last date of service on the claim; admission and discharge dates for hospital stays (lesson 7). Emily's sore throat claim: 10 Mar 2025 to 10 Mar 2025.",
+     "say": "Claim dates. What it tells you: First and last date of service on the claim; admission and discharge dates for hospital stays (lesson 7). Emily's sore throat claim: 10 Mar 2025 to 10 Mar 2025.",
+     "focus": 6,
+     "file": "clips/9667ef435e86.mp3",
+     "seconds": 15.05
+    },
+    {
+     "raw": "**Diagnosis codes**. What it tells you: The health problems that explain the visit (lesson 5). Emily's sore throat claim: Strep throat.",
+     "say": "Diagnosis codes. What it tells you: The health problems that explain the visit (lesson 5). Emily's sore throat claim: Strep throat.",
+     "focus": 7,
+     "file": "clips/ef5b37ddcf29.mp3",
+     "seconds": 9.075
+    },
+    {
+     "raw": "**Total charge**. What it tells you: The sum of all the line charges. Emily's sore throat claim: $150.00.",
+     "say": "Total charge. What it tells you: The sum of all the line charges. Emily's sore throat claim: 150 dollars.",
+     "focus": 8,
+     "file": "clips/c7a4ae39658a.mp3",
+     "seconds": 8.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The main header fields",
+   "lines": [
+    {
+     "raw": "Here is the CMS-1500 form: Emily's claim header.",
+     "say": "Here is the C M S 1500 form: Emily's claim header.",
+     "focus": -1,
+     "file": "clips/e76e5ea68ae3.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Claim number: 23098908.",
+     "say": "Claim number: 23098908.",
+     "focus": 0,
+     "file": "clips/74a84d3df585.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "Claim type: Professional.",
+     "say": "Claim type: Professional.",
+     "focus": 1,
+     "file": "clips/0cc34113cf50.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Doctor bill.",
+     "say": "Doctor bill.",
+     "focus": 1,
+     "file": "clips/d86420d463a7.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Patient: Emily Carter.",
+     "say": "Patient: Emily Carter.",
+     "focus": 2,
+     "file": "clips/481f9e1c8979.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Member ID M1001.",
+     "say": "Member I D M 1 0 0 1.",
+     "focus": 2,
+     "file": "clips/3e12072f2c54.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Payer: BlueRiver Health.",
+     "say": "Payer: BlueRiver Health.",
+     "focus": 3,
+     "file": "clips/2785a474b1f5.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "Employer plan.",
+     "say": "Employer plan.",
+     "focus": 3,
+     "file": "clips/9584ed41300e.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Billing provider: Sunrise Family Clinic.",
+     "say": "Billing provider: Sunrise Family Clinic.",
+     "focus": 4,
+     "file": "clips/f52290e8d28d.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Gets paid.",
+     "say": "Gets paid.",
+     "focus": 4,
+     "file": "clips/dbebbdc36231.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "Dates of service: 10 Mar 2025.",
+     "say": "Dates of service: 10 Mar 2025.",
+     "focus": 5,
+     "file": "clips/69702fbbb8da.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "From and to are the same day.",
+     "say": "From and to are the same day.",
+     "focus": 5,
+     "file": "clips/6ab750370e75.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Diagnosis: J02.0.",
+     "say": "Diagnosis: J 0 2 . 0.",
+     "focus": 6,
+     "file": "clips/34fd0c81e8ba.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Strep throat.",
+     "say": "Strep throat.",
+     "focus": 6,
+     "file": "clips/0ef458850b1a.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "Total charge: $150.00.",
+     "say": "Total charge: 150 dollars.",
+     "focus": 7,
+     "file": "clips/40034dcb2572.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The main header fields",
+   "lines": [
+    {
+     "raw": "Fields the insurer adds later.",
+     "say": "Fields the insurer adds later.",
+     "focus": -1,
+     "file": "clips/e412487ec404.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Some header fields are not on the bill the provider sends.",
+     "say": "Some header fields are not on the bill the provider sends.",
+     "focus": -1,
+     "file": "clips/48cfb770bed6.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "The insurer adds them after it processes the claim: the **received date**, the **paid date**, the **claim status** and the **total paid**.",
+     "say": "The insurer adds them after it processes the claim: the received date, the paid date, the claim status and the total paid.",
+     "focus": -1,
+     "file": "clips/a580241fc866.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "You will meet these in lessons 7, 10 and 11.",
+     "say": "You will meet these in lessons 7, 10 and 11.",
+     "focus": -1,
+     "file": "clips/b2a77fd77590.mp3",
+     "seconds": 3.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The claim number ties everything together.",
+     "say": "The claim number ties everything together.",
+     "focus": -1,
+     "file": "clips/26cab5380c28.mp3",
+     "seconds": 2.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The claim number ties everything together",
+   "lines": [
+    {
+     "raw": "The claim number appears on the header and is copied onto every line, every payment and every correction.",
+     "say": "The claim number appears on the header and is copied onto every line, every payment and every correction.",
+     "focus": -1,
+     "file": "clips/cd1d3f1d4f66.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "It is how you find all the pieces of one bill.",
+     "say": "It is how you find all the pieces of one bill.",
+     "focus": -1,
+     "file": "clips/5131321d4bd9.mp3",
+     "seconds": 3.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The claim number ties everything together",
+   "lines": [
+    {
+     "raw": "Same thing, different names.",
+     "say": "Same thing, different names.",
+     "focus": -1,
+     "file": "clips/e1a7fde4d973.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "In data files the claim number may be called `ClaimID`, `ClaimNumber`, `ClaimNo`, `CLM_ID` or `ICN` (Internal Control Number).",
+     "say": "In data files the claim number may be called ClaimID, ClaimNumber, ClaimNo, CLM_ID or I C N (Internal Control Number).",
+     "focus": -1,
+     "file": "clips/84a9f47d85a2.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "The member ID may be `MemberID`, `SubscriberID` or `PatientID`.",
+     "say": "The member I D may be MemberID, SubscriberID or PatientID.",
+     "focus": -1,
+     "file": "clips/b28409151ddf.mp3",
+     "seconds": 5.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The claim number ties everything together",
+   "lines": [
+    {
+     "raw": "Why this matters for data.",
+     "say": "Why this matters for data.",
+     "focus": -1,
+     "file": "clips/c8f083c01ae7.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Some data teams keep a **claim header table** with exactly **one row per claim**.",
+     "say": "Some data teams keep a claim header table with exactly one row per claim.",
+     "focus": -1,
+     "file": "clips/4db4bec4fb89.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "In that table, counting rows counts bills.",
+     "say": "In that table, counting rows counts bills.",
+     "focus": -1,
+     "file": "clips/50c1f9fd7e0e.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "Header fields are also where you filter claims by member, payer, billing provider or claim type before you look at the details.",
+     "say": "Header fields are also where you filter claims by member, payer, billing provider or claim type before you look at the details.",
+     "focus": -1,
+     "file": "clips/2b6f79b88fad.mp3",
+     "seconds": 7.95
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The claim header holds facts that are true for the whole bill.",
+     "say": "The claim header holds facts that are true for the whole bill.",
+     "focus": 0,
+     "file": "clips/d75eda056f68.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Main header fields: claim number, claim type, member, payer, billing provider, Type of Bill (facility only), claim dates, diagnoses and total charge.",
+     "say": "Main header fields: claim number, claim type, member, payer, billing provider, Type of Bill (facility only), claim dates, diagnoses and total charge.",
+     "focus": 1,
+     "file": "clips/973fce3fd123.mp3",
+     "seconds": 10.175
+    },
+    {
+     "raw": "The claim number is the unique ID that ties the header, lines, payments and corrections together.",
+     "say": "The claim number is the unique I D that ties the header, lines, payments and corrections together.",
+     "focus": 2,
+     "file": "clips/c79686ee3aaa.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "The insurer adds some header fields later: received date, paid date, status and total paid.",
+     "say": "The insurer adds some header fields later: received date, paid date, status and total paid.",
+     "focus": 3,
+     "file": "clips/46c75d80bccb.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "In a header table, one row = one claim.",
+     "say": "In a header table, one row = one claim.",
+     "focus": 4,
+     "file": "clips/35b952a80877.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

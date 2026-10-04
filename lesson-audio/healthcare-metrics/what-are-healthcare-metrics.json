@@ -1,0 +1,659 @@
+{
+ "courseId": "healthcare-metrics",
+ "lessonId": "what-are-healthcare-metrics",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What are Healthcare Metrics?",
+     "say": "Lesson 1: What are Healthcare Metrics?",
+     "focus": -1,
+     "file": "clips/6bbdc8c3c256.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Why health plans measure everything, and the one idea behind every metric: a numerator over a denominator.",
+     "say": "Why health plans measure everything, and the one idea behind every metric: a numerator over a denominator.",
+     "focus": -1,
+     "file": "clips/ec8ca093b0b7.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain in one sentence what a healthcare metric is.",
+     "say": "Explain in one sentence what a healthcare metric is.",
+     "focus": 0,
+     "file": "clips/04825fb4e9ac.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Split any metric into a numerator and a denominator.",
+     "say": "Split any metric into a numerator and a denominator.",
+     "focus": 1,
+     "file": "clips/4630ee001035.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Name the four families of metrics: cost, utilization, outcomes and finance.",
+     "say": "Name the four families of metrics: cost, utilization, outcomes and finance.",
+     "focus": 2,
+     "file": "clips/ad5023a26f6c.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "Explain why a raw total is rarely enough to compare two groups.",
+     "say": "Explain why a raw total is rarely enough to compare two groups.",
+     "focus": 3,
+     "file": "clips/75e4c48cb73b.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with two schools in Kathmandu.",
+     "say": "Start with two schools in Kathmandu.",
+     "focus": -1,
+     "file": "clips/f89480961dc5.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with two schools in Kathmandu",
+   "lines": [
+    {
+     "raw": "In Nepal: Which school did better?",
+     "say": "In Nepal: Which school did better?",
+     "focus": -1,
+     "file": "clips/356de3285c38.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "School A says: \"**180** of our students passed the SEE (Secondary Education Examination) this year.\" School B says: \"Only **90** of ours passed.\".",
+     "say": "School A says: \"180 of our students passed the S E E (Secondary Education Examination) this year.\" School B says: \"Only 90 of ours passed.\".",
+     "focus": 0,
+     "file": "clips/c3958c090348.mp3",
+     "seconds": 10.3
+    },
+    {
+     "raw": "School A sounds better.",
+     "say": "School A sounds better.",
+     "focus": 1,
+     "file": "clips/7ccb3f25e527.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "But School A had **300** students sit the exam and School B had **100**.",
+     "say": "But School A had 300 students sit the exam and School B had 100.",
+     "focus": 1,
+     "file": "clips/2d1ba1cf1354.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "School A's pass rate is 180 ÷ 300 = **60%**.",
+     "say": "School A's pass rate is 180 ÷ 300 = 60 percent.",
+     "focus": 2,
+     "file": "clips/c044a2bf6e07.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "School B's is 90 ÷ 100 = **90%**.",
+     "say": "School B's is 90 ÷ 100 = 90 percent.",
+     "focus": 2,
+     "file": "clips/e41eeaeb29a0.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "Once you divide by the number of students, School B is clearly ahead.",
+     "say": "Once you divide by the number of students, School B is clearly ahead.",
+     "focus": 2,
+     "file": "clips/09a5aa9dfafd.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The Social Security Fund (SSF) faces the same problem.",
+     "say": "The Social Security Fund (S S F) faces the same problem.",
+     "focus": 3,
+     "file": "clips/d383d652e499.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "\"We paid Rs 50 crore in medical claims this year\" means little on its own.",
+     "say": "\"We paid Rs 50 crore in medical claims this year\" means little on its own.",
+     "focus": 3,
+     "file": "clips/1ced79d06908.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "Divided by the number of contributors, and by the months they were covered, it becomes a fair figure that can be compared from year to year.",
+     "say": "Divided by the number of contributors, and by the months they were covered, it becomes a fair figure that can be compared from year to year.",
+     "focus": 4,
+     "file": "clips/4596882c5a80.mp3",
+     "seconds": 8.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with two schools in Kathmandu",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "A **healthcare metric** is a number that turns raw data into something you can **compare**: almost always a **count or an amount** (the numerator) divided by **how many people, for how long** (the denominator).",
+     "say": "A healthcare metric is a number that turns raw data into something you can compare: almost always a count or an amount (the numerator) divided by how many people, for how long (the denominator).",
+     "focus": -1,
+     "file": "clips/b385ccc41725.mp3",
+     "seconds": 12.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: health plans run on metrics.",
+     "say": "The U S version: health plans run on metrics.",
+     "focus": -1,
+     "file": "clips/e4edb1e1b169.mp3",
+     "seconds": 3.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: health plans run on metrics",
+   "lines": [
+    {
+     "raw": "In the US: Who uses healthcare metrics, and for what.",
+     "say": "In the U S: Who uses healthcare metrics, and for what.",
+     "focus": -1,
+     "file": "clips/ed075e7e1c24.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "**Health plans (insurers)** use them to set next year's premiums, spot rising costs, and check whether care programmes work.",
+     "say": "Health plans (insurers) use them to set next year's premiums, spot rising costs, and check whether care programmes work.",
+     "focus": 0,
+     "file": "clips/ea2ae3336e66.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "**Employers** who buy cover for their staff use them to compare plans and decide on benefits.",
+     "say": "Employers who buy cover for their staff use them to compare plans and decide on benefits.",
+     "focus": 1,
+     "file": "clips/6e0353ffbed2.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "**Providers** (doctors and hospitals) under contracts that share savings use them to see where money is going.",
+     "say": "Providers (doctors and hospitals) under contracts that share savings use them to see where money is going.",
+     "focus": 2,
+     "file": "clips/d46afda5228c.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "**Government** programmes such as **Medicare** (federal cover for people 65 and over) and **Medicaid** (cover for people with low income) use them to set payments and to check value.",
+     "say": "Government programmes such as Medicare (federal cover for people 65 and over) and Medicaid (cover for people with low income) use them to set payments and to check value.",
+     "focus": 3,
+     "file": "clips/cb088f96569e.mp3",
+     "seconds": 11.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The US version: health plans run on metrics",
+   "lines": [
+    {
+     "raw": "Every metric.",
+     "say": "Every metric.",
+     "focus": -1,
+     "file": "clips/542cb38340ef.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Metric equals Numerator ÷ Denominator.",
+     "say": "Metric equals Numerator ÷ Denominator.",
+     "focus": 0,
+     "file": "clips/da65370d4b39.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "For example: Numerator: what you are counting (dollars, hospital stays, prescriptions).",
+     "say": "For example: Numerator: what you are counting (dollars, hospital stays, prescriptions).",
+     "focus": 1,
+     "file": "clips/a989cbe89796.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "Denominator: the group it is measured against (members and months, visits, admissions).",
+     "say": "Denominator: the group it is measured against (members and months, visits, admissions).",
+     "focus": 1,
+     "file": "clips/07151b4c8994.mp3",
+     "seconds": 5.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The US version: health plans run on metrics",
+   "lines": [
+    {
+     "raw": "The four families of metrics in this course.",
+     "say": "The four families of metrics in this course.",
+     "focus": -1,
+     "file": "clips/056e191ed4c5.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "**Cost**. The question it answers: How much are we spending? Example: Cost per member per month, cost per hospital stay. Lesson: 3.",
+     "say": "Cost. The question it answers: How much are we spending? Example: Cost per member per month, cost per hospital stay. Lesson: 3.",
+     "focus": 0,
+     "file": "clips/33291ba81cf9.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "**Utilization**. The question it answers: How much care are members using? Example: Hospital admissions per 1,000 members. Lesson: 4.",
+     "say": "Utilization. The question it answers: How much care are members using? Example: Hospital admissions per 1,000 members. Lesson: 4.",
+     "focus": 1,
+     "file": "clips/6b05e5a5d0f1.mp3",
+     "seconds": 10.025
+    },
+    {
+     "raw": "**Outcomes**. The question it answers: Is the care working? Example: Share of hospital patients readmitted within 30 days. Lesson: 5.",
+     "say": "Outcomes. The question it answers: Is the care working? Example: Share of hospital patients readmitted within 30 days. Lesson: 5.",
+     "focus": 2,
+     "file": "clips/19dd171776f2.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "**Finance**. The question it answers: Does the plan make or lose money? Example: Medical loss ratio: claims ÷ premiums. Lesson: 6.",
+     "say": "Finance. The question it answers: Does the plan make or lose money? Example: Medical loss ratio: claims ÷ premiums. Lesson: 6.",
+     "focus": 3,
+     "file": "clips/2a5083c867a1.mp3",
+     "seconds": 10.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The US version: health plans run on metrics",
+   "lines": [
+    {
+     "raw": "Member.",
+     "say": "Member.",
+     "focus": 0,
+     "file": "clips/8bbaccc90249.mp3",
+     "seconds": 1.375
+    },
+    {
+     "raw": "A person covered by a health plan.",
+     "say": "A person covered by a health plan.",
+     "focus": 0,
+     "file": "clips/6e3d3b56ce99.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Plans measure most things \"per member\".",
+     "say": "Plans measure most things \"per member\".",
+     "focus": 0,
+     "file": "clips/a1ac6059734c.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "Numerator.",
+     "say": "Numerator.",
+     "focus": 1,
+     "file": "clips/5f08461a1772.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "The top of the fraction: the thing being counted or summed.",
+     "say": "The top of the fraction: the thing being counted or summed.",
+     "focus": 1,
+     "file": "clips/141077f983da.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Denominator.",
+     "say": "Denominator.",
+     "focus": 2,
+     "file": "clips/9714fdb09d65.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "The bottom of the fraction: the group the count is spread over.",
+     "say": "The bottom of the fraction: the group the count is spread over.",
+     "focus": 2,
+     "file": "clips/9e84aa11e2e1.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Choosing it carefully is most of the work.",
+     "say": "Choosing it carefully is most of the work.",
+     "focus": 2,
+     "file": "clips/424078444033.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Claim.",
+     "say": "Claim.",
+     "focus": 3,
+     "file": "clips/7f263c375fb5.mp3",
+     "seconds": 1.4
+    },
+    {
+     "raw": "The bill a doctor, hospital or pharmacy sends to the plan.",
+     "say": "The bill a doctor, hospital or pharmacy sends to the plan.",
+     "focus": 3,
+     "file": "clips/76445e2daabf.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "Claims are the main source of cost and utilization numerators.",
+     "say": "Claims are the main source of cost and utilization numerators.",
+     "focus": 3,
+     "file": "clips/396d9c16da87.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "Eligibility (enrollment) data.",
+     "say": "Eligibility (enrollment) data.",
+     "focus": 4,
+     "file": "clips/b395b66e66d4.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "The record of who was covered and when.",
+     "say": "The record of who was covered and when.",
+     "focus": 4,
+     "file": "clips/0b69f54b8b2f.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "It is the main source of denominators.",
+     "say": "It is the main source of denominators.",
+     "focus": 4,
+     "file": "clips/b2d73d8a8211.mp3",
+     "seconds": 2.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: two employer groups.",
+     "say": "Worked example: two employer groups.",
+     "focus": -1,
+     "file": "clips/1bd13036af36.mp3",
+     "seconds": 2.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Worked example: two employer groups",
+   "lines": [
+    {
+     "raw": "Meet **Maria**, a data analyst at **Lone Star Health**, a made-up health plan in Texas.",
+     "say": "Meet Maria, a data analyst at Lone Star Health, a made-up health plan in Texas.",
+     "focus": -1,
+     "file": "clips/53eca7f43c76.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "Her manager asks: \"Which of our two employer groups is more expensive?\"",
+     "say": "Her manager asks: \"Which of our two employer groups is more expensive?\"",
+     "focus": -1,
+     "file": "clips/abe199476427.mp3",
+     "seconds": 4.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Worked example: two employer groups",
+   "lines": [
+    {
+     "raw": "Lone Star Health, two employer groups, 2025 (illustrative).",
+     "say": "Lone Star Health, two employer groups, 2025 (illustrative).",
+     "focus": -1,
+     "file": "clips/5e31af5ce91b.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Total claims cost in 2025. Group A (a school district): $4,800,000. Group B (a tech company): $2,400,000.",
+     "say": "Total claims cost in 2025. Group A (a school district): 4800000 dollars. Group B (a tech company): 2400000 dollars.",
+     "focus": 0,
+     "file": "clips/3811a11a4962.mp3",
+     "seconds": 11.75
+    },
+    {
+     "raw": "Members covered all year. Group A (a school district): 1,000. Group B (a tech company): 400.",
+     "say": "Members covered all year. Group A (a school district): 1,000. Group B (a tech company): 400.",
+     "focus": 1,
+     "file": "clips/5991aabd129b.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "**Cost per member per year**. Group A (a school district): $4,800,000 ÷ 1,000 = **$4,800**. Group B (a tech company): $2,400,000 ÷ 400 = **$6,000**.",
+     "say": "Cost per member per year. Group A (a school district): 4800000 dollars ÷ 1,000 = 4800 dollars. Group B (a tech company): 2400000 dollars ÷ 400 = 6000 dollars.",
+     "focus": 2,
+     "file": "clips/6727858d368c.mp3",
+     "seconds": 17.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Worked example: two employer groups",
+   "lines": [
+    {
+     "raw": "Same data, opposite answer.",
+     "say": "Same data, opposite answer.",
+     "focus": -1,
+     "file": "clips/4495fb3796f4.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Looking at totals, Group A costs **twice** as much.",
+     "say": "Looking at totals, Group A costs twice as much.",
+     "focus": -1,
+     "file": "clips/d68bed89fc31.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Per member, Group B is **25% more expensive** ($6,000 vs $4,800).",
+     "say": "Per member, Group B is 25 percent more expensive (6000 dollars versus 4800 dollars).",
+     "focus": -1,
+     "file": "clips/f4fa3206c428.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "The total only told Maria which group is **bigger**.",
+     "say": "The total only told Maria which group is bigger.",
+     "focus": -1,
+     "file": "clips/a7563fbff23d.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "The metric tells her which group is **costlier per person**.",
+     "say": "The metric tells her which group is costlier per person.",
+     "focus": -1,
+     "file": "clips/de7fb181ee39.mp3",
+     "seconds": 3.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Worked example: two employer groups",
+   "lines": [
+    {
+     "raw": "Where the numbers come from.",
+     "say": "Where the numbers come from.",
+     "focus": -1,
+     "file": "clips/4e979d82c906.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Numerators come from **claims** (medical and pharmacy).",
+     "say": "Numerators come from claims (medical and pharmacy).",
+     "focus": -1,
+     "file": "clips/526b1ce1a92f.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "Denominators come from **eligibility** data.",
+     "say": "Denominators come from eligibility data.",
+     "focus": -1,
+     "file": "clips/45e4336c4252.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "Counting the covered time correctly, in \"member months\", is taught in the Eligibility course; this course uses those counts to analyse cost and use.",
+     "say": "Counting the covered time correctly, in \"member months\", is taught in the Eligibility course; this course uses those counts to analyse cost and use.",
+     "focus": -1,
+     "file": "clips/dc06f7a24cca.mp3",
+     "seconds": 9.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: two employer groups",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Most mistakes in healthcare reporting are **denominator mistakes**: dividing by the wrong group, by members at year end instead of time covered, or by a group that does not match the numerator (for example pharmacy costs divided by members who have no pharmacy cover).",
+     "say": "Most mistakes in healthcare reporting are denominator mistakes: dividing by the wrong group, by members at year end instead of time covered, or by a group that does not match the numerator (for example pharmacy costs divided by members who have no pharmacy cover).",
+     "focus": -1,
+     "file": "clips/cdb2960f30c9.mp3",
+     "seconds": 17.075
+    },
+    {
+     "raw": "Before you trust a metric, ask: **what exactly is on the top, and what exactly is on the bottom?**",
+     "say": "Before you trust a metric, ask: what exactly is on the top, and what exactly is on the bottom?",
+     "focus": -1,
+     "file": "clips/36c1c315bb96.mp3",
+     "seconds": 6.25
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A healthcare metric turns raw counts or dollars into something comparable.",
+     "say": "A healthcare metric turns raw counts or dollars into something comparable.",
+     "focus": 0,
+     "file": "clips/35fdd987dea2.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Every metric is a numerator divided by a denominator; the denominator choice matters most.",
+     "say": "Every metric is a numerator divided by a denominator; the denominator choice matters most.",
+     "focus": 1,
+     "file": "clips/266295a5c7cc.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "Four families: cost, utilization, outcomes and finance.",
+     "say": "Four families: cost, utilization, outcomes and finance.",
+     "focus": 2,
+     "file": "clips/6f65cdc803df.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "Numerators usually come from claims; denominators from eligibility data.",
+     "say": "Numerators usually come from claims; denominators from eligibility data.",
+     "focus": 3,
+     "file": "clips/04335673aa5d.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Totals tell you which group is bigger; metrics tell you which is costlier or busier per person.",
+     "say": "Totals tell you which group is bigger; metrics tell you which is costlier or busier per person.",
+     "focus": 4,
+     "file": "clips/f16f6fe45a2d.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

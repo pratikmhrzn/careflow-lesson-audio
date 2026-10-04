@@ -1,0 +1,512 @@
+{
+ "courseId": "hipaa",
+ "lessonId": "security-and-breaches",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: The Security Rule.",
+     "say": "Lesson 4: The Security Rule.",
+     "focus": -1,
+     "file": "clips/a411e69869c6.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "How electronic PHI must be protected: the three goals and the three kinds of safeguards.",
+     "say": "How electronic P H I must be protected: the three goals and the three kinds of safeguards.",
+     "focus": -1,
+     "file": "clips/9cb8f1b6e412.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain how the Security Rule differs from the Privacy Rule.",
+     "say": "Explain how the Security Rule differs from the Privacy Rule.",
+     "focus": 0,
+     "file": "clips/084f7fb9e7ef.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Describe the three goals: confidentiality, integrity and availability.",
+     "say": "Describe the three goals: confidentiality, integrity and availability.",
+     "focus": 1,
+     "file": "clips/5c3f9aec1879.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Name the three kinds of safeguards: administrative, physical and technical.",
+     "say": "Name the three kinds of safeguards: administrative, physical and technical.",
+     "focus": 2,
+     "file": "clips/e5041010809e.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "Spot which safeguard a data team is using in an everyday situation.",
+     "say": "Spot which safeguard a data team is using in an everyday situation.",
+     "focus": 3,
+     "file": "clips/8265b283fcd2.mp3",
+     "seconds": 4.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Protecting the data itself.",
+     "say": "Protecting the data itself.",
+     "focus": -1,
+     "file": "clips/a2ad7175fc8e.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Protecting the data itself",
+   "lines": [
+    {
+     "raw": "The Privacy Rule says **who** may use PHI.",
+     "say": "The Privacy Rule says who may use P H I.",
+     "focus": -1,
+     "file": "clips/b9f94e4349e0.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "The **Security Rule** says **how** electronic PHI (ePHI) must be protected so that only those people can reach it.",
+     "say": "The Security Rule says how electronic P H I (ePHI) must be protected so that only those people can reach it.",
+     "focus": -1,
+     "file": "clips/8a6ed5e80ad0.mp3",
+     "seconds": 7.825
+    },
+    {
+     "raw": "It aims at three goals.",
+     "say": "It aims at three goals.",
+     "focus": -1,
+     "file": "clips/4c2d971d92e0.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Protecting the data itself",
+   "lines": [
+    {
+     "raw": "Confidentiality.",
+     "say": "Confidentiality.",
+     "focus": 0,
+     "file": "clips/47d51b741a56.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Only authorised people can see the data.",
+     "say": "Only authorised people can see the data.",
+     "focus": 0,
+     "file": "clips/608df5a0e6ea.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Integrity.",
+     "say": "Integrity.",
+     "focus": 1,
+     "file": "clips/7fe9ba358472.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "The data is not changed or destroyed improperly.",
+     "say": "The data is not changed or destroyed improperly.",
+     "focus": 1,
+     "file": "clips/8461e21451ae.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Emily's paid amount stays $77 unless someone with the right to change it does so.",
+     "say": "Emily's paid amount stays 77 dollars unless someone with the right to change it does so.",
+     "focus": 1,
+     "file": "clips/21b9a106b3f4.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "Availability.",
+     "say": "Availability.",
+     "focus": 2,
+     "file": "clips/f754756c87ae.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Authorised people can get the data when they need it, for example after a server crash.",
+     "say": "Authorised people can get the data when they need it, for example after a server crash.",
+     "focus": 2,
+     "file": "clips/e193a6119431.mp3",
+     "seconds": 5.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Protecting the data itself",
+   "lines": [
+    {
+     "raw": "Guarding a bank in New Road.",
+     "say": "Guarding a bank in New Road.",
+     "focus": -1,
+     "file": "clips/109d404a7c60.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "A bank has **rules** (who may open the vault, staff training, background checks), **physical** protection (locked doors, guards, CCTV), and **technical** protection (PIN codes, transaction logs, alarms).",
+     "say": "A bank has rules (who may open the vault, staff training, background checks), physical protection (locked doors, guards, C C T V), and technical protection (P I N codes, transaction logs, alarms).",
+     "focus": -1,
+     "file": "clips/6f56e21bb3db.mp3",
+     "seconds": 13.45
+    },
+    {
+     "raw": "The Security Rule asks for the same three layers around health data.",
+     "say": "The Security Rule asks for the same three layers around health data.",
+     "focus": -1,
+     "file": "clips/78a38c9c0315.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The three kinds of safeguards.",
+     "say": "The three kinds of safeguards.",
+     "focus": -1,
+     "file": "clips/6283228de4c2.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The three kinds of safeguards",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Administrative**. What it means: Policies, people and processes. Examples: Regular **risk analysis**, a named security officer, staff training, sanctions for staff who break rules, giving and removing access, backup and disaster plans, BAAs with vendors.",
+     "say": "Administrative. What it means: Policies, people and processes. Examples: Regular risk analysis, a named security officer, staff training, sanctions for staff who break rules, giving and removing access, backup and disaster plans, B A A's with vendors.",
+     "focus": 0,
+     "file": "clips/6f3a7ddd379c.mp3",
+     "seconds": 17.625
+    },
+    {
+     "raw": "**Physical**. What it means: Protecting buildings, computers and media. Examples: Locked server rooms and offices, visitor logs, screen privacy, rules for laptops and USB drives, securely wiping old hard disks.",
+     "say": "Physical. What it means: Protecting buildings, computers and media. Examples: Locked server rooms and offices, visitor logs, screen privacy, rules for laptops and U S B drives, securely wiping old hard disks.",
+     "focus": 1,
+     "file": "clips/3bfefddeebd8.mp3",
+     "seconds": 15.075
+    },
+    {
+     "raw": "**Technical**. What it means: Protection built into the systems. Examples: Unique user IDs, automatic logoff, **audit logs** of who viewed what, encryption, multi-factor login, secure transmission (HTTPS, SFTP, VPN).",
+     "say": "Technical. What it means: Protection built into the systems. Examples: Unique user I D's, automatic logoff, audit logs of who viewed what, encryption, multi-factor login, secure transmission (H T T P S, S F T P, V P N).",
+     "focus": 2,
+     "file": "clips/6204c99189a9.mp3",
+     "seconds": 17
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The three kinds of safeguards",
+   "lines": [
+    {
+     "raw": "Flexible, but not optional.",
+     "say": "Flexible, but not optional.",
+     "focus": -1,
+     "file": "clips/21de64296dfe.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "The Security Rule is written to fit a tiny clinic and a giant insurer.",
+     "say": "The Security Rule is written to fit a tiny clinic and a giant insurer.",
+     "focus": -1,
+     "file": "clips/92c51678a7cd.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Some items are **required**.",
+     "say": "Some items are required.",
+     "focus": -1,
+     "file": "clips/2ccc0f266b54.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Others, including encryption, have been labelled **addressable**: you must do them, or document why an equally good alternative is reasonable.",
+     "say": "Others, including encryption, have been labelled addressable: you must do them, or document why an equally good alternative is reasonable.",
+     "focus": -1,
+     "file": "clips/1d11b316c085.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "HHS proposed changes in early 2025 that would make more safeguards, including encryption, mandatory, so check the current rule.",
+     "say": "H H S proposed changes in early 2025 that would make more safeguards, including encryption, mandatory, so check the current rule.",
+     "focus": -1,
+     "file": "clips/fc404f0c281b.mp3",
+     "seconds": 9.925
+    },
+    {
+     "raw": "In practice, US clients expect encryption everywhere.",
+     "say": "In practice, U S clients expect encryption everywhere.",
+     "focus": -1,
+     "file": "clips/698c2cc7058d.mp3",
+     "seconds": 4.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The three kinds of safeguards",
+   "lines": [
+    {
+     "raw": "In Nepal: Security in a Kathmandu office.",
+     "say": "In Nepal: Security in a Kathmandu office.",
+     "focus": -1,
+     "file": "clips/97095fd97d47.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's startup handles customer data.",
+     "say": "Ram's startup handles customer data.",
+     "focus": 0,
+     "file": "clips/0c21058d4f9c.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Its laptops have passwords, its office has a guard and its cloud accounts use two-step login.",
+     "say": "Its laptops have passwords, its office has a guard and its cloud accounts use two-step login.",
+     "focus": 0,
+     "file": "clips/17b7a746d959.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "These are the same three layers, even without a law naming them.",
+     "say": "These are the same three layers, even without a law naming them.",
+     "focus": 0,
+     "file": "clips/da02ad750bfb.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's hospital keeps paper files in a records room and uses software to submit claims to SSF.",
+     "say": "Sita's hospital keeps paper files in a records room and uses software to submit claims to S S F.",
+     "focus": 1,
+     "file": "clips/bbd94e3a0a86.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "Who holds the room key and who has a login are both security questions.",
+     "say": "Who holds the room key and who has a login are both security questions.",
+     "focus": 1,
+     "file": "clips/6892ec43bb5b.mp3",
+     "seconds": 4.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The three kinds of safeguards",
+   "lines": [
+    {
+     "raw": "In the US: Worked example: the safeguards around Emily's claims.",
+     "say": "In the U S: Worked example: the safeguards around Emily's claims.",
+     "focus": -1,
+     "file": "clips/4e809f23058a.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "**Administrative:** Emily's plan runs a yearly risk analysis, trains every analyst, and removes an analyst's access on their last day.",
+     "say": "Administrative: Emily's plan runs a yearly risk analysis, trains every analyst, and removes an analyst's access on their last day.",
+     "focus": 0,
+     "file": "clips/11c78f63058e.mp3",
+     "seconds": 9.4
+    },
+    {
+     "raw": "Before a Kathmandu vendor touches her claims, a BAA is signed.",
+     "say": "Before a Kathmandu vendor touches her claims, a B A A is signed.",
+     "focus": 0,
+     "file": "clips/c924e54e014e.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "**Physical:** the plan's servers sit in a locked data centre with a visitor log.",
+     "say": "Physical: the plan's servers sit in a locked data centre with a visitor log.",
+     "focus": 1,
+     "file": "clips/553d11937bcd.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Analyst laptops are encrypted and old hard disks are wiped before disposal.",
+     "say": "Analyst laptops are encrypted and old hard disks are wiped before disposal.",
+     "focus": 1,
+     "file": "clips/ed63a561c5c2.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "**Technical:** each analyst logs in with their own ID and a second factor.",
+     "say": "Technical: each analyst logs in with their own I D and a second factor.",
+     "focus": 2,
+     "file": "clips/a0ce49179f91.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "Files travel over SFTP (a secure file transfer method).",
+     "say": "Files travel over S F T P (a secure file transfer method).",
+     "focus": 2,
+     "file": "clips/5ecf13592e67.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "An **audit log** records that analyst `a.sharma` opened claim `23098908` on 2 April 2025.",
+     "say": "An audit log records that analyst a.sharma opened claim 2 3 0 9 8 9 0 8 on 2 April 2025.",
+     "focus": 2,
+     "file": "clips/86456375380f.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "No single layer is enough.",
+     "say": "No single layer is enough.",
+     "focus": 3,
+     "file": "clips/c385ada30f33.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "A strong password does not help if the laptop is left unlocked in a café.",
+     "say": "A strong password does not help if the laptop is left unlocked in a café.",
+     "focus": 3,
+     "file": "clips/f3f799c967f4.mp3",
+     "seconds": 5.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The three kinds of safeguards",
+   "lines": [
+    {
+     "raw": "Why it matters for data work.",
+     "say": "Why it matters for data work.",
+     "focus": -1,
+     "file": "clips/3d85d1677532.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Most technical safeguards land on data teams: who gets which table, which columns are masked, where extracts are stored, and whether logs show who queried what.",
+     "say": "Most technical safeguards land on data teams: who gets which table, which columns are masked, where extracts are stored, and whether logs show who queried what.",
+     "focus": -1,
+     "file": "clips/4f4c97b7e3e9.mp3",
+     "seconds": 10.325
+    },
+    {
+     "raw": "When a client asks \"how do you protect our data?\", they are asking about these three layers.",
+     "say": "When a client asks \"how do you protect our data?\", they are asking about these three layers.",
+     "focus": -1,
+     "file": "clips/da5501126def.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "What happens when a safeguard fails, a **breach**, is the next lesson.",
+     "say": "What happens when a safeguard fails, a breach, is the next lesson.",
+     "focus": -1,
+     "file": "clips/bb9c2522ee11.mp3",
+     "seconds": 4.4
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The Privacy Rule says who may use PHI; the Security Rule says how electronic PHI (ePHI) must be protected.",
+     "say": "The Privacy Rule says who may use P H I; the Security Rule says how electronic P H I (ePHI) must be protected.",
+     "focus": 0,
+     "file": "clips/3761d15cfdda.mp3",
+     "seconds": 8.5
+    },
+    {
+     "raw": "Its three goals are confidentiality (only the right people see it), integrity (it is not wrongly changed) and availability (it is there when needed).",
+     "say": "Its three goals are confidentiality (only the right people see it), integrity (it is not wrongly changed) and availability (it is there when needed).",
+     "focus": 1,
+     "file": "clips/58f5e333291a.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "Administrative safeguards are policies and people; physical safeguards protect buildings and devices; technical safeguards are built into the systems.",
+     "say": "Administrative safeguards are policies and people; physical safeguards protect buildings and devices; technical safeguards are built into the systems.",
+     "focus": 2,
+     "file": "clips/77406de734c6.mp3",
+     "seconds": 10.025
+    },
+    {
+     "raw": "Some safeguards are required and others \"addressable\", but in practice US clients expect encryption, unique logins and audit logs everywhere.",
+     "say": "Some safeguards are required and others \"addressable\", but in practice U S clients expect encryption, unique logins and audit logs everywhere.",
+     "focus": 3,
+     "file": "clips/99289102b460.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

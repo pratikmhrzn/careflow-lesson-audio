@@ -1,0 +1,806 @@
+{
+ "courseId": "population-health",
+ "lessonId": "risk-stratification",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: Risk Stratification.",
+     "say": "Lesson 4: Risk Stratification.",
+     "focus": -1,
+     "file": "clips/0e89ec85f2d8.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Give every member a risk score, sort the list, and help the people at the top first.",
+     "say": "Give every member a risk score, sort the list, and help the people at the top first.",
+     "focus": -1,
+     "file": "clips/64ed6c7ff76f.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what risk stratification is and why a condition list alone is not enough.",
+     "say": "Explain what risk stratification is and why a condition list alone is not enough.",
+     "focus": 0,
+     "file": "clips/5847f28e8620.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Tell a statistical risk model apart from a simple point score.",
+     "say": "Tell a statistical risk model apart from a simple point score.",
+     "focus": 1,
+     "file": "clips/1a8bd3b1a2e7.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Work through a simple risk score and turn it into a segment.",
+     "say": "Work through a simple risk score and turn it into a segment.",
+     "focus": 2,
+     "file": "clips/2c8974dafc38.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Explain why the \"rising risk\" group matters as much as the top of the list.",
+     "say": "Explain why the \"rising risk\" group matters as much as the top of the list.",
+     "focus": 3,
+     "file": "clips/039de9d70b4a.mp3",
+     "seconds": 5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who needs help first?",
+     "say": "Who needs help first?",
+     "focus": -1,
+     "file": "clips/a2a30b2cfa82.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Who needs help first?",
+   "lines": [
+    {
+     "raw": "In Nepal: Deciding who goes first in Kathmandu.",
+     "say": "In Nepal: Deciding who goes first in Kathmandu.",
+     "focus": -1,
+     "file": "clips/1ce354cdc41d.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "At a busy hospital emergency room in Kathmandu, the nurse at the door does not treat patients in the order they arrive.",
+     "say": "At a busy hospital emergency room in Kathmandu, the nurse at the door does not treat patients in the order they arrive.",
+     "focus": 0,
+     "file": "clips/4191f1ca7bfb.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "A man with chest pain goes before a child with a small cut.",
+     "say": "A man with chest pain goes before a child with a small cut.",
+     "focus": 0,
+     "file": "clips/1cfdf0f6e932.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "Ram has seen this when he brought his father in: the nurse asked a few quick questions, looked at a few signs, and decided who could wait.",
+     "say": "Ram has seen this when he brought his father in: the nurse asked a few quick questions, looked at a few signs, and decided who could wait.",
+     "focus": 1,
+     "file": "clips/b9853ba35e55.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "An FCHV with a long list of households does the same thing in her head: the pregnant mother near her due date and the old man living alone get a visit this week; a healthy young family can wait for the next campaign.",
+     "say": "An F C H V with a long list of households does the same thing in her head: the pregnant mother near her due date and the old man living alone get a visit this week; a healthy young family can wait for the next campaign.",
+     "focus": 2,
+     "file": "clips/c772855d2725.mp3",
+     "seconds": 14
+    },
+    {
+     "raw": "Sita's SSF cover pays for care at listed hospitals, but deciding who in a family needs attention first is still a judgement made by people.",
+     "say": "Sita's S S F cover pays for care at listed hospitals, but deciding who in a family needs attention first is still a judgement made by people.",
+     "focus": 3,
+     "file": "clips/4767c2036c64.mp3",
+     "seconds": 9.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Who needs help first?",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "**Risk stratification** gives each member a **risk score** that predicts how much care they are likely to need (usually over the **next 12 months**), then sorts the whole list from highest to lowest, so help goes to the people who need it most.",
+     "say": "Risk stratification gives each member a risk score that predicts how much care they are likely to need (usually over the next 12 months), then sorts the whole list from highest to lowest, so help goes to the people who need it most.",
+     "focus": -1,
+     "file": "clips/1c3a63292aee.mp3",
+     "seconds": 13.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Who needs help first?",
+   "lines": [
+    {
+     "raw": "The previous lessons showed how to find who has which condition, and the four segments people fall into.",
+     "say": "The previous lessons showed how to find who has which condition, and the four segments people fall into.",
+     "focus": -1,
+     "file": "clips/f485c06f733c.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "But a condition list is not enough.",
+     "say": "But a condition list is not enough.",
+     "focus": -1,
+     "file": "clips/986b6070d1de.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Two people with diabetes can be very different: one is well controlled and never in hospital, the other was admitted twice this year.",
+     "say": "Two people with diabetes can be very different: one is well controlled and never in hospital, the other was admitted twice this year.",
+     "focus": -1,
+     "file": "clips/092a63bc9422.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "A risk score tells them apart, and it decides which segment each person goes into.",
+     "say": "A risk score tells them apart, and it decides which segment each person goes into.",
+     "focus": -1,
+     "file": "clips/0ae7080f44db.mp3",
+     "seconds": 5.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two kinds of risk score.",
+     "say": "Two kinds of risk score.",
+     "focus": -1,
+     "file": "clips/1543b1eb4e75.mp3",
+     "seconds": 1.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Two kinds of risk score",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "How it is built. Statistical risk model: Learned from millions of past members: which mix of age, sex, conditions, past costs and hospital stays came before high cost. Simple point score: A person (often a clinician) picks warning signs and gives each a number of points.",
+     "say": "How it is built. Statistical risk model: Learned from millions of past members: which mix of age, sex, conditions, past costs and hospital stays came before high cost. Simple point score: A person (often a clinician) picks warning signs and gives each a number of points.",
+     "focus": 0,
+     "file": "clips/c460eeb4c2c8.mp3",
+     "seconds": 17.85
+    },
+    {
+     "raw": "Typical output. Statistical risk model: A number scaled so the **average member scores about 1.0**. A score of 2.5 means about two and a half times the average expected cost. Simple point score: A count of points, for example 0 to 10.",
+     "say": "Typical output. Statistical risk model: A number scaled so the average member scores about 1.0. A score of 2.5 means about two and a half times the average expected cost. Simple point score: A count of points, for example 0 to 10.",
+     "focus": 1,
+     "file": "clips/8cbdae05bc48.mp3",
+     "seconds": 17.575
+    },
+    {
+     "raw": "Who uses it. Statistical risk model: Health plans, large provider groups, analytics vendors. Simple point score: Clinics, care teams, small programmes.",
+     "say": "Who uses it. Statistical risk model: Health plans, large provider groups, analytics vendors. Simple point score: Clinics, care teams, small programmes.",
+     "focus": 2,
+     "file": "clips/d54a29ee8279.mp3",
+     "seconds": 10.525
+    },
+    {
+     "raw": "Strength. Statistical risk model: More accurate across a large population. Simple point score: Easy to explain to a nurse or a member.",
+     "say": "Strength. Statistical risk model: More accurate across a large population. Simple point score: Easy to explain to a nurse or a member.",
+     "focus": 3,
+     "file": "clips/3320d0441cb4.mp3",
+     "seconds": 9.65
+    },
+    {
+     "raw": "Weakness. Statistical risk model: Hard to explain why one person scored high. Simple point score: Less accurate; points are a judgement call.",
+     "say": "Weakness. Statistical risk model: Hard to explain why one person scored high. Simple point score: Less accurate; points are a judgement call.",
+     "focus": 4,
+     "file": "clips/a7622d2c1c02.mp3",
+     "seconds": 10.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Two kinds of risk score",
+   "lines": [
+    {
+     "raw": "Risk adjustment is a different job.",
+     "say": "Risk adjustment is a different job.",
+     "focus": -1,
+     "file": "clips/70ff4e18f18d.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Medicare and other programmes also use risk scores to **set how much a plan is paid** for each member.",
+     "say": "Medicare and other programmes also use risk scores to set how much a plan is paid for each member.",
+     "focus": -1,
+     "file": "clips/d2811ded3008.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "That is called **risk adjustment**, and it has its own rules and course.",
+     "say": "That is called risk adjustment, and it has its own rules and course.",
+     "focus": -1,
+     "file": "clips/6c781e7ee0f0.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "Here we use risk scores for a different purpose: deciding **who to help first**.",
+     "say": "Here we use risk scores for a different purpose: deciding who to help first.",
+     "focus": -1,
+     "file": "clips/0b23ece390bf.mp3",
+     "seconds": 4.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Two kinds of risk score",
+   "lines": [
+    {
+     "raw": "Prospective score.",
+     "say": "Prospective score.",
+     "focus": 0,
+     "file": "clips/dae549f2ab69.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "Uses this year's data to predict **next** year's need.",
+     "say": "Uses this year's data to predict next year's need.",
+     "focus": 0,
+     "file": "clips/cb4e19d7ac8e.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "This is what population health teams usually want: who will need help soon?",
+     "say": "This is what population health teams usually want: who will need help soon?",
+     "focus": 0,
+     "file": "clips/2c5bb21fa5e5.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "Concurrent score.",
+     "say": "Concurrent score.",
+     "focus": 1,
+     "file": "clips/f343e9548fba.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Uses this year's data to explain **this** year's cost.",
+     "say": "Uses this year's data to explain this year's cost.",
+     "focus": 1,
+     "file": "clips/0147800178eb.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Useful for fair comparisons, not for finding who to call next.",
+     "say": "Useful for fair comparisons, not for finding who to call next.",
+     "focus": 1,
+     "file": "clips/44c24823bffd.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Impactability.",
+     "say": "Impactability.",
+     "focus": 2,
+     "file": "clips/3fd891bc08be.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "How likely it is that help will actually change the outcome.",
+     "say": "How likely it is that help will actually change the outcome.",
+     "focus": 2,
+     "file": "clips/c7d344b61c45.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "A very high score is not always the best person to call if nothing can be changed for them.",
+     "say": "A very high score is not always the best person to call if nothing can be changed for them.",
+     "focus": 2,
+     "file": "clips/c6dcd40b685f.mp3",
+     "seconds": 6.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A simple teaching score.",
+     "say": "A simple teaching score.",
+     "focus": -1,
+     "file": "clips/8850fe49fb40.mp3",
+     "seconds": 2.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "A simple teaching score",
+   "lines": [
+    {
+     "raw": "Real models are statistical, but a point score shows the idea clearly.",
+     "say": "Real models are statistical, but a point score shows the idea clearly.",
+     "focus": -1,
+     "file": "clips/d6f2350002a8.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "This course uses the score below.",
+     "say": "This course uses the score below.",
+     "focus": -1,
+     "file": "clips/db529c6b3667.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "It is **made up for teaching** and is not a real industry model.",
+     "say": "It is made up for teaching and is not a real industry model.",
+     "focus": -1,
+     "file": "clips/b90a95b9e7bc.mp3",
+     "seconds": 4.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "A simple teaching score",
+   "lines": [
+    {
+     "raw": "A simple teaching risk score (not a real industry model).",
+     "say": "A simple teaching risk score (not a real industry model).",
+     "focus": -1,
+     "file": "clips/d33de77b6500.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Each chronic condition (diabetes, high blood pressure, heart failure, asthma, kidney disease, ...). Points: +1 each.",
+     "say": "Each chronic condition (diabetes, high blood pressure, heart failure, asthma, kidney disease, ...). Points: +1 each.",
+     "focus": 0,
+     "file": "clips/b976442c05ca.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "Each risk factor (high cholesterol, obesity, smoking, ...). Points: +1 each.",
+     "say": "Each risk factor (high cholesterol, obesity, smoking, ...). Points: +1 each.",
+     "focus": 1,
+     "file": "clips/f984eaf07903.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "Any hospital stay for a chronic condition in the last 12 months. Points: +2.",
+     "say": "Any hospital stay for a chronic condition in the last 12 months. Points: +2.",
+     "focus": 2,
+     "file": "clips/5501490ceb33.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "2 or more ER visits in the last 12 months. Points: +1.",
+     "say": "2 or more E R visits in the last 12 months. Points: +1.",
+     "focus": 3,
+     "file": "clips/093951aa96dd.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Poor control (for example, A1c above 9%). Points: +1.",
+     "say": "Poor control (for example, A1c above 9 percent). Points: +1.",
+     "focus": 4,
+     "file": "clips/288bc05a805a.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Age 65 or over. Points: +1.",
+     "say": "Age 65 or over. Points: +1.",
+     "focus": 5,
+     "file": "clips/1d9d23487a09.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "A social need recorded, such as unemployment or no transport (lesson 5 shows how these are coded). Points: +1.",
+     "say": "A social need recorded, such as unemployment or no transport (lesson 5 shows how these are coded). Points: +1.",
+     "focus": 6,
+     "file": "clips/78187c5926a6.mp3",
+     "seconds": 8.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "A simple teaching score",
+   "lines": [
+    {
+     "raw": "Turning points into a segment (teaching rule).",
+     "say": "Turning points into a segment (teaching rule).",
+     "focus": -1,
+     "file": "clips/9dc0c12fc7bd.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "5plus points equals Complex; otherwise any chronic condition equals Chronic; otherwise any risk factor equals At risk; otherwise Healthy.",
+     "say": "5plus points equals Complex; otherwise any chronic condition equals Chronic; otherwise any risk factor equals At risk; otherwise Healthy.",
+     "focus": 0,
+     "file": "clips/5bcb5a9db3e2.mp3",
+     "seconds": 9.9
+    },
+    {
+     "raw": "For example: A member with heart failure (plus1), a hospital stay for it (plus2), aged 70 (plus1) and living alone (plus1) scores 5, so Complex.",
+     "say": "For example: A member with heart failure (plus1), a hospital stay for it (plus2), aged 70 (plus1) and living alone (plus1) scores 5, so Complex.",
+     "focus": 1,
+     "file": "clips/68580ee4623a.mp3",
+     "seconds": 10.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: scoring three members.",
+     "say": "Worked example: scoring three members.",
+     "focus": -1,
+     "file": "clips/97848df6d448.mp3",
+     "seconds": 2.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: scoring three members",
+   "lines": [
+    {
+     "raw": "Scoring Daniel, Emily and Robert for 2025.",
+     "say": "Scoring Daniel, Emily and Robert for 2025.",
+     "focus": -1,
+     "file": "clips/685df8aee488.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Daniel (37). Points: No conditions or risk factors. Social need: unemployment recorded at his August visit +1. Score: **1**. Segment: Healthy, with a social need flag.",
+     "say": "Daniel (37). Points: No conditions or risk factors. Social need: unemployment recorded at his August visit +1. Score: 1. Segment: Healthy, with a social need flag.",
+     "focus": 0,
+     "file": "clips/c81eab8ffe96.mp3",
+     "seconds": 13.525
+    },
+    {
+     "raw": "Emily (35). Points: High cholesterol (a risk factor) +1. The appendix stay was not for a chronic condition, so +0. Score: **1**. Segment: At risk.",
+     "say": "Emily (35). Points: High cholesterol (a risk factor) +1. The appendix stay was not for a chronic condition, so +0. Score: 1. Segment: At risk.",
+     "focus": 1,
+     "file": "clips/824e3191cd37.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "Robert (68). Points: Diabetes +1, high blood pressure +1, age 65 or over +1. Score: **3**. Segment: Chronic.",
+     "say": "Robert (68). Points: Diabetes +1, high blood pressure +1, age 65 or over +1. Score: 3. Segment: Chronic.",
+     "focus": 2,
+     "file": "clips/0eb0f118e3c8.mp3",
+     "seconds": 10.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: scoring three members",
+   "lines": [
+    {
+     "raw": "Daniel and Emily have the **same score** but land in **different segments**.",
+     "say": "Daniel and Emily have the same score but land in different segments.",
+     "focus": -1,
+     "file": "clips/b496da56b32e.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "The score says how much help someone may need; the segment rule also looks at **what kind** of need it is.",
+     "say": "The score says how much help someone may need; the segment rule also looks at what kind of need it is.",
+     "focus": -1,
+     "file": "clips/4d12050ba6c1.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Sorting the full list by score puts Robert above both of them on the outreach list.",
+     "say": "Sorting the full list by score puts Robert above both of them on the outreach list.",
+     "focus": -1,
+     "file": "clips/a4f289b03dc4.mp3",
+     "seconds": 5.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: scoring three members",
+   "lines": [
+    {
+     "raw": "Watch the \"rising risk\" group.",
+     "say": "Watch the \"rising risk\" group.",
+     "focus": -1,
+     "file": "clips/16b53925cf83.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "The complex group is expensive, but many of those people are already very sick.",
+     "say": "The complex group is expensive, but many of those people are already very sick.",
+     "focus": -1,
+     "file": "clips/74152cc83f0a.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "The **rising risk** group (people like Emily, or a member whose A1c is slowly climbing) is where prevention can stop someone from becoming complex.",
+     "say": "The rising risk group (people like Emily, or a member whose A1c is slowly climbing) is where prevention can stop someone from becoming complex.",
+     "focus": -1,
+     "file": "clips/acb7e6698fe1.mp3",
+     "seconds": 9.625
+    },
+    {
+     "raw": "Good programmes look at both ends of the list.",
+     "say": "Good programmes look at both ends of the list.",
+     "focus": -1,
+     "file": "clips/8fd7099a3346.mp3",
+     "seconds": 2.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: scoring three members",
+   "lines": [
+    {
+     "raw": "In the US: What the team does with the sorted list.",
+     "say": "In the U S: What the team does with the sorted list.",
+     "focus": -1,
+     "file": "clips/0f50113521f7.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "The **top of the list** (often the top 1 to 5%) is offered **care management**: a named nurse or social worker.",
+     "say": "The top of the list (often the top 1 to 5 percent) is offered care management: a named nurse or social worker.",
+     "focus": 0,
+     "file": "clips/e8a63e4b9203.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "That work is covered in the Care Management course.",
+     "say": "That work is covered in the Care Management course.",
+     "focus": 0,
+     "file": "clips/f946a259bc73.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "The **chronic** group gets **disease programmes**: education, reminders and help closing gaps in care.",
+     "say": "The chronic group gets disease programmes: education, reminders and help closing gaps in care.",
+     "focus": 1,
+     "file": "clips/b552f8db785a.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "The **rising risk** group gets **prevention**: coaching, medicine refill checks, screening reminders.",
+     "say": "The rising risk group gets prevention: coaching, medicine refill checks, screening reminders.",
+     "focus": 2,
+     "file": "clips/c74b33e52566.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "Everyone is re-scored regularly, often every month, so the list keeps up with new claims and labs.",
+     "say": "Everyone is re-scored regularly, often every month, so the list keeps up with new claims and labs.",
+     "focus": 3,
+     "file": "clips/974344fbc739.mp3",
+     "seconds": 6.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example: scoring three members",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Save the score with its **model name, version and run date** (for example `risk_model = teach_v1`, `score_dt = 2025-12-31`).",
+     "say": "Save the score with its model name, version and run date (for example r i s k _ m o d e l = t e a c h _ v 1, s c o r e _ d t = 2 0 2 5 dash 1 2 dash 3 1).",
+     "focus": -1,
+     "file": "clips/93a1e77742ab.mp3",
+     "seconds": 14.875
+    },
+    {
+     "raw": "Scores from different models or versions cannot be compared, and a score is only as fresh as the claims behind it: a member admitted last week may not show up until the claim arrives.",
+     "say": "Scores from different models or versions cannot be compared, and a score is only as fresh as the claims behind it: a member admitted last week may not show up until the claim arrives.",
+     "focus": -1,
+     "file": "clips/bc059285169c.mp3",
+     "seconds": 11.825
+    },
+    {
+     "raw": "When a manager asks \"why was this person not called?\", the stored inputs are the only way to answer.",
+     "say": "When a manager asks \"why was this person not called?\", the stored inputs are the only way to answer.",
+     "focus": -1,
+     "file": "clips/b71ec60a2153.mp3",
+     "seconds": 6.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example: scoring three members",
+   "lines": [
+    {
+     "raw": "Risk score.",
+     "say": "Risk score.",
+     "focus": 0,
+     "file": "clips/07c4a36ba278.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "A number that predicts how much care a person is likely to need.",
+     "say": "A number that predicts how much care a person is likely to need.",
+     "focus": 0,
+     "file": "clips/f4d0eb62d921.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Higher means more.",
+     "say": "Higher means more.",
+     "focus": 0,
+     "file": "clips/8bee684c07d9.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Risk stratification.",
+     "say": "Risk stratification.",
+     "focus": 1,
+     "file": "clips/42371debf16c.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Scoring every member and sorting the list so the highest-need people get help first.",
+     "say": "Scoring every member and sorting the list so the highest-need people get help first.",
+     "focus": 1,
+     "file": "clips/fc10edb14278.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Rising risk.",
+     "say": "Rising risk.",
+     "focus": 2,
+     "file": "clips/9c214c3a60af.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Members who are not very sick yet but show warning signs that are getting worse.",
+     "say": "Members who are not very sick yet but show warning signs that are getting worse.",
+     "focus": 2,
+     "file": "clips/2d5400b556fa.mp3",
+     "seconds": 5.15
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Risk stratification scores every member and sorts the list, so help goes where it is needed most.",
+     "say": "Risk stratification scores every member and sorts the list, so help goes where it is needed most.",
+     "focus": 0,
+     "file": "clips/e528fa2a98ab.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Statistical models are more accurate; simple point scores are easier to explain.",
+     "say": "Statistical models are more accurate; simple point scores are easier to explain.",
+     "focus": 1,
+     "file": "clips/57e3dcd48ff4.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Many models are scaled so the average member scores about 1.0; 2.0 means about twice the expected cost.",
+     "say": "Many models are scaled so the average member scores about 1.0; 2.0 means about twice the expected cost.",
+     "focus": 2,
+     "file": "clips/a71cebc01ffd.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "The score decides the segment and the type of help: care management at the top, prevention for rising risk.",
+     "say": "The score decides the segment and the type of help: care management at the top, prevention for rising risk.",
+     "focus": 3,
+     "file": "clips/ee9881d6e7e4.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "Store the model, version and date with every score so results can be compared and explained.",
+     "say": "Store the model, version and date with every score so results can be compared and explained.",
+     "focus": 4,
+     "file": "clips/62c5ada30179.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

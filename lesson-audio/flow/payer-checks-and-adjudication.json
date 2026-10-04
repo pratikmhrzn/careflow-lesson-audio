@@ -1,0 +1,995 @@
+{
+ "courseId": "flow",
+ "lessonId": "payer-checks-and-adjudication",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: At the Insurer: Checks & Adjudication.",
+     "say": "Lesson 5: At the Insurer: Checks and Adjudication.",
+     "focus": -1,
+     "file": "clips/886fa6ed32e7.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Ten questions the insurer asks, then the maths of who pays what.",
+     "say": "Ten questions the insurer asks, then the maths of who pays what.",
+     "focus": -1,
+     "file": "clips/925b1982e2a7.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "List the ten payer validation checks shown in Try It Yourself.",
+     "say": "List the ten payer validation checks shown in Try It Yourself.",
+     "focus": 0,
+     "file": "clips/2a3204151a0c.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Read common denial reason codes (CARC) such as 27, 96, 197 and 29.",
+     "say": "Read common denial reason codes (C A R C) such as 27, 96, 197 and 29.",
+     "focus": 1,
+     "file": "clips/cc4316c8700d.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "Work out the allowed amount, contractual write-off, patient share and plan payment for a claim.",
+     "say": "Work out the allowed amount, contractual write-off, patient share and plan payment for a claim.",
+     "focus": 2,
+     "file": "clips/9c9bcc55f723.mp3",
+     "seconds": 5.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The claim arrives at the insurer.",
+     "say": "The claim arrives at the insurer.",
+     "focus": -1,
+     "file": "clips/f059183dbf1e.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The claim arrives at the insurer",
+   "lines": [
+    {
+     "raw": "Emily's claim has passed the clearinghouse.",
+     "say": "Emily's claim has passed the clearinghouse.",
+     "focus": -1,
+     "file": "clips/7909a50e0d5e.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "The insurer (the **payer**) gives it claim number **23098908** and starts its own, much deeper checks.",
+     "say": "The insurer (the payer) gives it claim number 23098908 and starts its own, much deeper checks.",
+     "focus": -1,
+     "file": "clips/265f4d9be049.mp3",
+     "seconds": 8.55
+    },
+    {
+     "raw": "In the simulator this is the **payer validation** screen, followed by **claim adjudication**.",
+     "say": "In the simulator this is the payer validation screen, followed by claim adjudication.",
+     "focus": -1,
+     "file": "clips/21cc6b5c2e64.mp3",
+     "seconds": 5.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The claim arrives at the insurer",
+   "lines": [
+    {
+     "raw": "The clearinghouse checked the form.",
+     "say": "The clearinghouse checked the form.",
+     "focus": -1,
+     "file": "clips/4e4fe9c932b7.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "The insurer checks the facts.",
+     "say": "The insurer checks the facts.",
+     "focus": -1,
+     "file": "clips/c25a2a01beeb.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Back at the passport office: the first counter checked your form was complete.",
+     "say": "Back at the passport office: the first counter checked your form was complete.",
+     "focus": -1,
+     "file": "clips/1e4d0b364e52.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Inside, an officer checks whether **you** qualify: is your citizenship real, is your old passport cancelled, did you apply in time?",
+     "say": "Inside, an officer checks whether you qualify: is your citizenship real, is your old passport cancelled, did you apply in time?",
+     "focus": -1,
+     "file": "clips/4bd37162f1d7.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "The insurer's checks are that inside officer.",
+     "say": "The insurer's checks are that inside officer.",
+     "focus": -1,
+     "file": "clips/ceaa2b67bc23.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Payer validation: ten checks.",
+     "say": "Payer validation: ten checks.",
+     "focus": -1,
+     "file": "clips/2bc6944a5921.mp3",
+     "seconds": 2.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Payer validation: ten checks",
+   "lines": [
+    {
+     "raw": "The ten checks in Try It Yourself, with the reason code used when one fails.",
+     "say": "The ten checks in Try It Yourself, with the reason code used when one fails.",
+     "focus": -1,
+     "file": "clips/b3d9a9469a6c.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "1. Check: **EDI format**. Question: Does the file meet this insurer's stricter rules? If it fails: Rejected, e.g. CARC 16 (claim lacks information).",
+     "say": "1. Check: E D I format. Question: Does the file meet this insurer's stricter rules? If it fails: Rejected, for example C A R C 16 (claim lacks information).",
+     "focus": 0,
+     "file": "clips/c0b56210a4d4.mp3",
+     "seconds": 12.2
+    },
+    {
+     "raw": "2. Check: **Required fields**. Question: Is every field this insurer needs filled? If it fails: Rejected, e.g. CARC 16 (missing referring provider).",
+     "say": "2. Check: Required fields. Question: Is every field this insurer needs filled? If it fails: Rejected, for example C A R C 16 (missing referring provider).",
+     "focus": 1,
+     "file": "clips/7c0c1b31ab34.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "3. Check: **Member eligibility**. Question: Was the patient covered **on the date of service**? If it fails: Denied: CARC 27 (expenses after coverage ended).",
+     "say": "3. Check: Member eligibility. Question: Was the patient covered on the date of service? If it fails: Denied: C A R C 27 (expenses after coverage ended).",
+     "focus": 2,
+     "file": "clips/d1c3013bd1e5.mp3",
+     "seconds": 11.95
+    },
+    {
+     "raw": "4. Check: **Coverage benefits**. Question: Does the plan cover this service? If it fails: Denied: CARC 96 (non-covered charge).",
+     "say": "4. Check: Coverage benefits. Question: Does the plan cover this service? If it fails: Denied: C A R C 96 (non-covered charge).",
+     "focus": 3,
+     "file": "clips/805a0b748a07.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "5. Check: **Provider network**. Question: Is the provider in-network? If it fails: PPO: paid at out-of-network rates. HMO: denied unless an emergency.",
+     "say": "5. Check: Provider network. Question: Is the provider in-network? If it fails: P P O: paid at out-of-network rates. H M O: denied unless an emergency.",
+     "focus": 4,
+     "file": "clips/290dfd2fb625.mp3",
+     "seconds": 11.825
+    },
+    {
+     "raw": "6. Check: **Service code validity**. Question: Do the diagnosis and procedure make sense together? If it fails: Denied: CARC 11 (diagnosis inconsistent with procedure).",
+     "say": "6. Check: Service code validity. Question: Do the diagnosis and procedure make sense together? If it fails: Denied: C A R C 11 (diagnosis inconsistent with procedure).",
+     "focus": 5,
+     "file": "clips/8d670c00ad23.mp3",
+     "seconds": 13.2
+    },
+    {
+     "raw": "7. Check: **Prior authorization**. Question: Did the plan approve this in advance, if needed? If it fails: Denied: CARC 197 (authorization absent).",
+     "say": "7. Check: Prior authorization. Question: Did the plan approve this in advance, if needed? If it fails: Denied: C A R C 197 (authorization absent).",
+     "focus": 6,
+     "file": "clips/4fbe4af35071.mp3",
+     "seconds": 12.3
+    },
+    {
+     "raw": "8. Check: **Duplicate claim**. Question: Was the same claim already processed? If it fails: Rejected: CARC 18 (exact duplicate).",
+     "say": "8. Check: Duplicate claim. Question: Was the same claim already processed? If it fails: Rejected: C A R C 18 (exact duplicate).",
+     "focus": 7,
+     "file": "clips/4e42fc249075.mp3",
+     "seconds": 10.1
+    },
+    {
+     "raw": "9. Check: **Timely filing**. Question: Was the claim sent before the deadline? If it fails: Denied: CARC 29 (time limit expired).",
+     "say": "9. Check: Timely filing. Question: Was the claim sent before the deadline? If it fails: Denied: C A R C 29 (time limit expired).",
+     "focus": 8,
+     "file": "clips/1fded249741a.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "10. Check: **Medical necessity**. Question: Do the diagnosis and notes justify the service? If it fails: Denied: CARC 50 (not medically necessary).",
+     "say": "10. Check: Medical necessity. Question: Do the diagnosis and notes justify the service? If it fails: Denied: C A R C 50 (not medically necessary).",
+     "focus": 9,
+     "file": "clips/ce920068dc14.mp3",
+     "seconds": 11.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Payer validation: ten checks",
+   "lines": [
+    {
+     "raw": "CARC (Claim Adjustment Reason Code).",
+     "say": "C A R C (Claim Adjustment Reason Code).",
+     "focus": 0,
+     "file": "clips/24d283963f35.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "A standard code that explains **why** an amount was not paid or was adjusted.",
+     "say": "A standard code that explains why an amount was not paid or was adjusted.",
+     "focus": 0,
+     "file": "clips/a6dc36ad697d.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Every US insurer uses the same list.",
+     "say": "Every U S insurer uses the same list.",
+     "focus": 0,
+     "file": "clips/6a7a2562b318.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "RARC (Remittance Advice Remark Code).",
+     "say": "R A R C (Remittance Advice Remark Code).",
+     "focus": 1,
+     "file": "clips/686bf6049f89.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "An extra note that adds detail to a CARC, for example `N290` (missing or invalid rendering/referring provider information).",
+     "say": "An extra note that adds detail to a C A R C, for example N 2 9 0 (missing or invalid rendering/referring provider information).",
+     "focus": 1,
+     "file": "clips/82c19619c352.mp3",
+     "seconds": 10.425
+    },
+    {
+     "raw": "Prior authorization.",
+     "say": "Prior authorization.",
+     "focus": 2,
+     "file": "clips/6bf2e99af8a1.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Approval from the insurer **before** certain expensive services, such as a knee replacement.",
+     "say": "Approval from the insurer before certain expensive services, such as a knee replacement.",
+     "focus": 2,
+     "file": "clips/c36fd423e459.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "A routine office visit does not need it.",
+     "say": "A routine office visit does not need it.",
+     "focus": 2,
+     "file": "clips/302226a28743.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Timely filing limit.",
+     "say": "Timely filing limit.",
+     "focus": 3,
+     "file": "clips/5b5dfdb7ae1e.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "The deadline to send a claim.",
+     "say": "The deadline to send a claim.",
+     "focus": 3,
+     "file": "clips/b09ed68f31c4.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "It varies by insurer and contract: Medicare allows **one year** from the date of service; commercial plans are often shorter, such as 90 or 180 days.",
+     "say": "It varies by insurer and contract: Medicare allows one year from the date of service; commercial plans are often shorter, such as 90 or 180 days.",
+     "focus": 3,
+     "file": "clips/b3d86f4bd0a4.mp3",
+     "seconds": 11.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Payer validation: ten checks",
+   "lines": [
+    {
+     "raw": "Who pays when a check fails?",
+     "say": "Who pays when a check fails?",
+     "focus": -1,
+     "file": "clips/ed72429e567f.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "It depends on the reason.",
+     "say": "It depends on the reason.",
+     "focus": -1,
+     "file": "clips/6d3e59d1edae.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "No cover on that date (CARC 27) or a service the plan never covers (CARC 96): usually the **patient**.",
+     "say": "No cover on that date (C A R C 27) or a service the plan never covers (C A R C 96): usually the patient.",
+     "focus": -1,
+     "file": "clips/f43eb5bd014e.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "Missing prior authorization or a late claim: usually the **provider** absorbs it and **cannot bill the patient**, because it was the provider's job.",
+     "say": "Missing prior authorization or a late claim: usually the provider absorbs it and cannot bill the patient, because it was the provider's job.",
+     "focus": -1,
+     "file": "clips/27540e4e6ed4.mp3",
+     "seconds": 9.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Payer validation: ten checks",
+   "lines": [
+    {
+     "raw": "In the US: Emily's claim passes all ten.",
+     "say": "In the U S: Emily's claim passes all ten.",
+     "focus": -1,
+     "file": "clips/2994a04bc136.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Format and fields: complete.",
+     "say": "Format and fields: complete.",
+     "focus": 0,
+     "file": "clips/2d4dd8165eab.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "**Eligibility**: active on 10 March 2025.",
+     "say": "Eligibility: active on 10 March 2025.",
+     "focus": 0,
+     "file": "clips/b962aaeeacba.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "**Benefits**: office visits and lab tests are covered.",
+     "say": "Benefits: office visits and lab tests are covered.",
+     "focus": 0,
+     "file": "clips/86eb5a222d51.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "**Network**: Sunrise Family Clinic and Dr. Patel are in-network.",
+     "say": "Network: Sunrise Family Clinic and Doctor Patel are in-network.",
+     "focus": 1,
+     "file": "clips/ca4877df714d.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "**Codes**: `J02.0` supports both `99213` and `87880`.",
+     "say": "Codes: J 0 2 . 0 supports both 9 9 2 1 3 and 8 7 8 8 0.",
+     "focus": 1,
+     "file": "clips/5a8621af83cb.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "**Prior auth**: not needed.",
+     "say": "Prior auth: not needed.",
+     "focus": 2,
+     "file": "clips/cf4946e573d0.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "**Duplicate**: none found.",
+     "say": "Duplicate: none found.",
+     "focus": 2,
+     "file": "clips/1b0951569133.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "**Timely**: sent the next day.",
+     "say": "Timely: sent the next day.",
+     "focus": 2,
+     "file": "clips/51cb065b4ad1.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "**Medical necessity**: a positive strep test supports the visit.",
+     "say": "Medical necessity: a positive strep test supports the visit.",
+     "focus": 2,
+     "file": "clips/7c51be232647.mp3",
+     "seconds": 4.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Adjudication: the money maths.",
+     "say": "Adjudication: the money maths.",
+     "focus": -1,
+     "file": "clips/d08fd31341f4.mp3",
+     "seconds": 2.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Adjudication: the money maths",
+   "lines": [
+    {
+     "raw": "**Adjudication** means the insurer decides the final amounts.",
+     "say": "Adjudication means the insurer decides the final amounts.",
+     "focus": -1,
+     "file": "clips/97aaa6de3ab5.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "First it looks up its **fee schedule**: the price list it agreed with each in-network provider.",
+     "say": "First it looks up its fee schedule: the price list it agreed with each in-network provider.",
+     "focus": -1,
+     "file": "clips/d70fd6c9a785.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "That price is the **allowed amount**.",
+     "say": "That price is the allowed amount.",
+     "focus": -1,
+     "file": "clips/9770c1889d70.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Adjudication: the money maths",
+   "lines": [
+    {
+     "raw": "Fee schedule.",
+     "say": "Fee schedule.",
+     "focus": 0,
+     "file": "clips/632d39dfbc4c.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "The contracted price for each code.",
+     "say": "The contracted price for each code.",
+     "focus": 0,
+     "file": "clips/0a4245898282.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Sunrise Family Clinic agreed to accept $80 for a `99213` and $22 for an `87880` from Emily's insurer.",
+     "say": "Sunrise Family Clinic agreed to accept 80 dollars for a 9 9 2 1 3 and 22 dollars for an 8 7 8 8 0 from Emily's insurer.",
+     "focus": 0,
+     "file": "clips/2fbb62fc746b.mp3",
+     "seconds": 10.725
+    },
+    {
+     "raw": "Contractual adjustment (CO-45).",
+     "say": "Contractual adjustment (C O 45).",
+     "focus": 1,
+     "file": "clips/7803bb3f4042.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Billed minus allowed.",
+     "say": "Billed minus allowed.",
+     "focus": 1,
+     "file": "clips/8cb49dba5327.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "The provider **writes it off**.",
+     "say": "The provider writes it off.",
+     "focus": 1,
+     "file": "clips/d3516c304c9b.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "`CO` means Contractual Obligation: the patient never pays it.",
+     "say": "C O means Contractual Obligation: the patient never pays it.",
+     "focus": 1,
+     "file": "clips/c8a642d2a79b.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Deductible (PR-1).",
+     "say": "Deductible (P R 1).",
+     "focus": 2,
+     "file": "clips/507fe30be843.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "The part of the allowed amount the patient pays toward the yearly deductible.",
+     "say": "The part of the allowed amount the patient pays toward the yearly deductible.",
+     "focus": 2,
+     "file": "clips/15fd46d3202c.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "`PR` means Patient Responsibility.",
+     "say": "P R means Patient Responsibility.",
+     "focus": 2,
+     "file": "clips/9a6539c040d1.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Coinsurance (PR-2).",
+     "say": "Coinsurance (P R 2).",
+     "focus": 3,
+     "file": "clips/06c76b5aadcb.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "The patient's percentage after the deductible.",
+     "say": "The patient's percentage after the deductible.",
+     "focus": 3,
+     "file": "clips/1eae98badc7d.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Copay (PR-3).",
+     "say": "Copay (P R 3).",
+     "focus": 4,
+     "file": "clips/15714ca4bd31.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "The fixed amount for the visit, applied to the main visit line.",
+     "say": "The fixed amount for the visit, applied to the main visit line.",
+     "focus": 4,
+     "file": "clips/fda732c2a79e.mp3",
+     "seconds": 4.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Adjudication: the money maths",
+   "lines": [
+    {
+     "raw": "The adjudication formula.",
+     "say": "The adjudication formula.",
+     "focus": -1,
+     "file": "clips/140a0d1c08e0.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Plan paid equals Allowed − (Deductible plus Copay plus Coinsurance).",
+     "say": "Plan paid equals Allowed − (Deductible plus Copay plus Coinsurance).",
+     "focus": 0,
+     "file": "clips/84d12f804199.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "For example: And Billed equals Allowed plus Contractual adjustment.",
+     "say": "For example: And Billed equals Allowed plus Contractual adjustment.",
+     "focus": 1,
+     "file": "clips/1115f055c05c.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Nobody pays the contractual adjustment.",
+     "say": "Nobody pays the contractual adjustment.",
+     "focus": 1,
+     "file": "clips/10be5e234d1a.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Adjudication: the money maths",
+   "lines": [
+    {
+     "raw": "Adjudication of claim 23098908 (office visits under Emily's plan need only the copay; the deductible does not apply).",
+     "say": "Adjudication of claim 23098908 (office visits under Emily's plan need only the copay; the deductible does not apply).",
+     "focus": -1,
+     "file": "clips/619680e360b3.mp3",
+     "seconds": 11.35
+    },
+    {
+     "raw": "1. CPT: `99213`. Billed: $117.00. Allowed: $80.00. CO-45 write-off: $37.00. Copay (PR-3): $25.00. Deductible (PR-1): $0.00. Coinsurance (PR-2): $0.00. Plan paid: $55.00.",
+     "say": "1. C P T: 9 9 2 1 3. Billed: 117 dollars. Allowed: 80 dollars. C O 45 write-off: 37 dollars. Copay (P R 3): 25 dollars. Deductible (P R 1): 0 dollars. Coinsurance (P R 2): 0 dollars. Plan paid: 55 dollars.",
+     "focus": 0,
+     "file": "clips/5cdf2f3f8bc2.mp3",
+     "seconds": 21.825
+    },
+    {
+     "raw": "2. CPT: `87880`. Billed: $33.00. Allowed: $22.00. CO-45 write-off: $11.00. Copay (PR-3): $0.00. Deductible (PR-1): $0.00. Coinsurance (PR-2): $0.00. Plan paid: $22.00.",
+     "say": "2. C P T: 8 7 8 8 0. Billed: 33 dollars. Allowed: 22 dollars. C O 45 write-off: 11 dollars. Copay (P R 3): 0 dollars. Deductible (P R 1): 0 dollars. Coinsurance (P R 2): 0 dollars. Plan paid: 22 dollars.",
+     "focus": 1,
+     "file": "clips/8076cbdaa31c.mp3",
+     "seconds": 21.025
+    },
+    {
+     "raw": "**Total**. Billed: **$150.00**. Allowed: **$102.00**. CO-45 write-off: **$48.00**. Copay (PR-3): **$25.00**. Deductible (PR-1): **$0.00**. Coinsurance (PR-2): **$0.00**. Plan paid: **$77.00**.",
+     "say": "Total. Billed: 150 dollars. Allowed: 102 dollars. C O 45 write-off: 48 dollars. Copay (P R 3): 25 dollars. Deductible (P R 1): 0 dollars. Coinsurance (P R 2): 0 dollars. Plan paid: 77 dollars.",
+     "focus": 2,
+     "file": "clips/6aeabd8021c2.mp3",
+     "seconds": 19.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Adjudication: the money maths",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Line 1: $80 − $25 = $55.",
+     "say": "Line 1: 80 dollars − 25 dollars = 55 dollars.",
+     "focus": -1,
+     "file": "clips/8569422f57c3.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Line 2: $22 − $0 = $22.",
+     "say": "Line 2: 22 dollars − 0 dollars = 22 dollars.",
+     "focus": -1,
+     "file": "clips/a32cf260e64d.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Plan paid $55 + $22 = **$77**.",
+     "say": "Plan paid 55 dollars and 22 dollars = 77 dollars.",
+     "focus": -1,
+     "file": "clips/d8aa8ed32435.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Emily's share is the **$25** copay.",
+     "say": "Emily's share is the 25 dollars copay.",
+     "focus": -1,
+     "file": "clips/739ce6819ee4.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "$77 + $25 = $102 allowed ✓.",
+     "say": "77 dollars and 25 dollars = 102 dollars allowed ✓.",
+     "focus": -1,
+     "file": "clips/6bd342277407.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Billed $150 − allowed $102 = **$48** written off ✓.",
+     "say": "Billed 150 dollars − allowed 102 dollars = 48 dollars written off ✓.",
+     "focus": -1,
+     "file": "clips/c83e47128c21.mp3",
+     "seconds": 6.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Same rules, bigger claim: when the deductible bites.",
+     "say": "Same rules, bigger claim: when the deductible bites.",
+     "focus": -1,
+     "file": "clips/880a318d3dbe.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Same rules, bigger claim: when the deductible bites",
+   "lines": [
+    {
+     "raw": "Emily's March visit was cheap because her plan needs only a copay for office visits.",
+     "say": "Emily's March visit was cheap because her plan needs only a copay for office visits.",
+     "focus": -1,
+     "file": "clips/d687d9e8a9ab.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "In June she had appendicitis: she stayed at **Lakeside General Hospital** from 2 to 4 June and had her appendix removed.",
+     "say": "In June she had appendicitis: she stayed at Lakeside General Hospital from 2 to 4 June and had her appendix removed.",
+     "focus": -1,
+     "file": "clips/de3a60a20f87.mp3",
+     "seconds": 8.375
+    },
+    {
+     "raw": "The hospital, the surgeon's group (Lakeside Surgical Group) and the anaesthesia doctor each sent their own claim.",
+     "say": "The hospital, the surgeon's group (Lakeside Surgical Group) and the anaesthesia doctor each sent their own claim.",
+     "focus": -1,
+     "file": "clips/f53bd2d20750.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Here the **deductible** and **coinsurance** apply.",
+     "say": "Here the deductible and coinsurance apply.",
+     "focus": -1,
+     "file": "clips/a3874098f658.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "The Medical Data course covers these claims in detail.",
+     "say": "The Medical Data course covers these claims in detail.",
+     "focus": -1,
+     "file": "clips/81cc727619c9.mp3",
+     "seconds": 3.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Same rules, bigger claim: when the deductible bites",
+   "lines": [
+    {
+     "raw": "Emily's appendix surgery, June 2025 (in-network, deductible not yet used).",
+     "say": "Emily's appendix surgery, June 2025 (in-network, deductible not yet used).",
+     "focus": -1,
+     "file": "clips/08d929e2deda.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "778201 · Hospital. Billed: $10,000. Allowed: $6,000. CO-45: $4,000. Deductible (PR-1): $1,000. Coinsurance 20% (PR-2): $1,000. Plan paid: $4,000.",
+     "say": "778201, Hospital. Billed: 10000 dollars. Allowed: 6000 dollars. C O 45: 4000 dollars. Deductible (P R 1): 1000 dollars. Coinsurance 20 percent (P R 2): 1000 dollars. Plan paid: 4000 dollars.",
+     "focus": 0,
+     "file": "clips/4d0e4fcbeca5.mp3",
+     "seconds": 20.525
+    },
+    {
+     "raw": "551200 · Surgeon. Billed: $2,500. Allowed: $1,200. CO-45: $1,300. Deductible (PR-1): $0 (already met). Coinsurance 20% (PR-2): $240. Plan paid: $960.",
+     "say": "551200, Surgeon. Billed: 2500 dollars. Allowed: 1200 dollars. C O 45: 1300 dollars. Deductible (P R 1): 0 dollars (already met). Coinsurance 20 percent (P R 2): 240 dollars. Plan paid: 960 dollars.",
+     "focus": 1,
+     "file": "clips/3c25959a5ec2.mp3",
+     "seconds": 21.35
+    },
+    {
+     "raw": "551870 · Anaesthesia. Billed: $1,200. Allowed: $600. CO-45: $600. Deductible (PR-1): $0. Coinsurance 20% (PR-2): $120. Plan paid: $480.",
+     "say": "551870, Anaesthesia. Billed: 1200 dollars. Allowed: 600 dollars. C O 45: 600 dollars. Deductible (P R 1): 0 dollars. Coinsurance 20 percent (P R 2): 120 dollars. Plan paid: 480 dollars.",
+     "focus": 2,
+     "file": "clips/282b369a2564.mp3",
+     "seconds": 20.625
+    },
+    {
+     "raw": "**Total**. Billed: **$13,700**. Allowed: **$7,800**. CO-45: **$5,900**. Deductible (PR-1): **$1,000**. Coinsurance 20% (PR-2): **$1,360**. Plan paid: **$5,440**.",
+     "say": "Total. Billed: 13700 dollars. Allowed: 7800 dollars. C O 45: 5900 dollars. Deductible (P R 1): 1000 dollars. Coinsurance 20 percent (P R 2): 1360 dollars. Plan paid: 5440 dollars.",
+     "focus": 3,
+     "file": "clips/00d3da4f8e3a.mp3",
+     "seconds": 19.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Same rules, bigger claim: when the deductible bites",
+   "lines": [
+    {
+     "raw": "The insurer also updates Emily's **accumulators**: the running totals of deductible and out-of-pocket spending for the year.",
+     "say": "The insurer also updates Emily's accumulators: the running totals of deductible and out-of-pocket spending for the year.",
+     "focus": -1,
+     "file": "clips/03679d116435.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "After March: $0 of $1,000 deductible used, $25 toward the $5,000 out-of-pocket maximum.",
+     "say": "After March: 0 dollars of 1000 dollars deductible used, 25 dollars toward the 5000 dollars out-of-pocket maximum.",
+     "focus": -1,
+     "file": "clips/546931c0c0a2.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "After June: deductible fully met, and $25 + $2,360 = **$2,385** toward the maximum.",
+     "say": "After June: deductible fully met, and 25 dollars and 2360 dollars = 2385 dollars toward the maximum.",
+     "focus": -1,
+     "file": "clips/cbb8a2e20566.mp3",
+     "seconds": 9.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Same rules, bigger claim: when the deductible bites",
+   "lines": [
+    {
+     "raw": "Adjudication in Nepal.",
+     "say": "Adjudication in Nepal.",
+     "focus": -1,
+     "file": "clips/7a850212f32d.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's insurer reads his receipts against his **policy**: covered items, exclusions and his yearly limit.",
+     "say": "Ram's insurer reads his receipts against his policy: covered items, exclusions and his yearly limit.",
+     "focus": 0,
+     "file": "clips/4be7b77d99dd.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "It might allow Rs 1,800 of a Rs 2,000 bill and reimburse that to **Ram**.",
+     "say": "It might allow Rs 1,800 of a Rs 2,000 bill and reimburse that to Ram.",
+     "focus": 0,
+     "file": "clips/a610ee141dbb.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "There is no contracted price list with the hospital, so there is no \"write-off\".",
+     "say": "There is no contracted price list with the hospital, so there is no \"write-off\".",
+     "focus": 1,
+     "file": "clips/606d2ac7f661.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Whatever the insurer does not allow, Ram pays.",
+     "say": "Whatever the insurer does not allow, Ram pays.",
+     "focus": 1,
+     "file": "clips/4015a7ba6d0d.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF checks each item against its **approved rates**, which is close to a US **fee schedule**.",
+     "say": "S S F checks each item against its approved rates, which is close to a U S fee schedule.",
+     "focus": 2,
+     "file": "clips/b8c42a052595.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Sita pays 20%, SSF pays 80% to the hospital, within her yearly limit.",
+     "say": "Sita pays 20 percent, S S F pays 80 percent to the hospital, within her yearly limit.",
+     "focus": 2,
+     "file": "clips/9131335a3151.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "If the hospital charged more than the SSF rate, SSF counts only its own rate.",
+     "say": "If the hospital charged more than the S S F rate, S S F counts only its own rate.",
+     "focus": 3,
+     "file": "clips/0b56baf6f827.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "Whether the hospital may ask Sita for the difference depends on SSF rules.",
+     "say": "Whether the hospital may ask Sita for the difference depends on S S F rules.",
+     "focus": 3,
+     "file": "clips/450883055ab1.mp3",
+     "seconds": 5.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Same rules, bigger claim: when the deductible bites",
+   "lines": [
+    {
+     "raw": "Try both screens.",
+     "say": "Try both screens.",
+     "focus": -1,
+     "file": "clips/e4c82eb6f33e.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "In Try It Yourself, payer validation can fail at any of the ten checks, and the adjudication screen shows the fee schedule lookup and every CO and PR amount line by line.",
+     "say": "In Try It Yourself, payer validation can fail at any of the ten checks, and the adjudication screen shows the fee schedule lookup and every C O and P R amount line by line.",
+     "focus": -1,
+     "file": "clips/3b4a7f5cac5c.mp3",
+     "seconds": 11.725
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The insurer runs ten checks: format, fields, eligibility, benefits, network, code validity, prior auth, duplicate, timely filing, medical necessity.",
+     "say": "The insurer runs ten checks: format, fields, eligibility, benefits, network, code validity, prior auth, duplicate, timely filing, medical necessity.",
+     "focus": 0,
+     "file": "clips/23c62c30cfc5.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "CARC codes explain every adjustment; CO = provider writes it off, PR = patient owes it.",
+     "say": "C A R C codes explain every adjustment; C O = provider writes it off, P R = patient owes it.",
+     "focus": 1,
+     "file": "clips/3b16c7752306.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "Allowed comes from the fee schedule.",
+     "say": "Allowed comes from the fee schedule.",
+     "focus": 2,
+     "file": "clips/1deac114d2ec.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Plan paid = Allowed − (Deductible + Copay + Coinsurance).",
+     "say": "Plan paid = Allowed − (Deductible and Copay and Coinsurance).",
+     "focus": 2,
+     "file": "clips/ce7fda31892a.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "Emily's strep claim: billed $150, allowed $102, $48 written off, $25 copay, plan paid $77.",
+     "say": "Emily's strep claim: billed 150 dollars allowed 102 dollars 48 dollars written off, 25 dollars copay, plan paid 77 dollars.",
+     "focus": 3,
+     "file": "clips/7a57a848730f.mp3",
+     "seconds": 11.1
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

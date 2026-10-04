@@ -1,0 +1,960 @@
+{
+ "courseId": "dental",
+ "lessonId": "teeth-and-surfaces",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Teeth, Surfaces & Areas.",
+     "say": "Lesson 5: Teeth, Surfaces and Areas.",
+     "focus": -1,
+     "file": "clips/a9aed5feb1ae.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "A dental claim says not just what was done, but on which tooth and which side of it.",
+     "say": "A dental claim says not just what was done, but on which tooth and which side of it.",
+     "focus": -1,
+     "file": "clips/5425151386d2.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read Universal tooth numbers 1–32 for adult teeth and A–T for baby teeth.",
+     "say": "Read Universal tooth numbers 1–32 for adult teeth and A–T for baby teeth.",
+     "focus": 0,
+     "file": "clips/1894f2875e32.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "Know the five tooth surface letters: M, O, D, B/F, L (and I).",
+     "say": "Know the five tooth surface letters: M, O, D, B/F, L (and I).",
+     "focus": 1,
+     "file": "clips/184c0455e9fd.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Understand quadrants and area-of-mouth codes.",
+     "say": "Understand quadrants and area-of-mouth codes.",
+     "focus": 2,
+     "file": "clips/6e8bc1e71c1d.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Check that the surfaces on a claim line match its CDT code.",
+     "say": "Check that the surfaces on a claim line match its C D T code.",
+     "focus": 3,
+     "file": "clips/d2e643205b8e.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Every tooth has a number.",
+     "say": "Every tooth has a number.",
+     "focus": -1,
+     "file": "clips/e95dfdef5dc5.mp3",
+     "seconds": 2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Every tooth has a number",
+   "lines": [
+    {
+     "raw": "On a medical claim, a modifier like `RT` tells you which **side** of the body.",
+     "say": "On a medical claim, a modifier like R T tells you which side of the body.",
+     "focus": -1,
+     "file": "clips/74839fcffe9e.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Teeth need much more detail: an adult has **32 teeth**, and a filling on one is not the same as a filling on another.",
+     "say": "Teeth need much more detail: an adult has 32 teeth, and a filling on one is not the same as a filling on another.",
+     "focus": -1,
+     "file": "clips/0f5336e20604.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "So each tooth gets its own **number**.",
+     "say": "So each tooth gets its own number.",
+     "focus": -1,
+     "file": "clips/80fc3d511227.mp3",
+     "seconds": 2.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Every tooth has a number",
+   "lines": [
+    {
+     "raw": "The US uses the **Universal Numbering System**.",
+     "say": "The U S uses the Universal Numbering System.",
+     "focus": -1,
+     "file": "clips/cba1925f59f5.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Imagine standing in front of the patient and looking into their mouth.",
+     "say": "Imagine standing in front of the patient and looking into their mouth.",
+     "focus": -1,
+     "file": "clips/efc65f8b3e48.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Counting starts at the patient's **upper right back tooth** (number **1**), goes along the top to the **upper left back tooth** (**16**), drops down to the **lower left back tooth** (**17**), and comes back along the bottom to the **lower right back tooth** (**32**).",
+     "say": "Counting starts at the patient's upper right back tooth (number 1), goes along the top to the upper left back tooth (16), drops down to the lower left back tooth (17), and comes back along the bottom to the lower right back tooth (32).",
+     "focus": -1,
+     "file": "clips/80fd1feaeb36.mp3",
+     "seconds": 14.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Every tooth has a number",
+   "lines": [
+    {
+     "raw": "Universal numbers for adult (permanent) teeth.",
+     "say": "Universal numbers for adult (permanent) teeth.",
+     "focus": -1,
+     "file": "clips/ab8b1a1ede87.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Upper right. Numbers: 1–8. From back to front (or front to back): 1 wisdom tooth, 2–3 molars, 4–5 premolars, 6 canine, 7–8 incisors.",
+     "say": "Upper right. Numbers: 1–8. From back to front (or front to back): 1 wisdom tooth, 2–3 molars, 4–5 premolars, 6 canine, 7–8 incisors.",
+     "focus": 0,
+     "file": "clips/924837dd24f9.mp3",
+     "seconds": 11
+    },
+    {
+     "raw": "Upper left. Numbers: 9–16. From back to front (or front to back): 9–10 incisors, 11 canine, 12–13 premolars, 14–15 molars, 16 wisdom tooth.",
+     "say": "Upper left. Numbers: 9–16. From back to front (or front to back): 9–10 incisors, 11 canine, 12–13 premolars, 14–15 molars, 16 wisdom tooth.",
+     "focus": 1,
+     "file": "clips/1cedf250fde3.mp3",
+     "seconds": 12.85
+    },
+    {
+     "raw": "Lower left. Numbers: 17–24. From back to front (or front to back): 17 wisdom tooth, 18–19 molars, 20–21 premolars, 22 canine, 23–24 incisors.",
+     "say": "Lower left. Numbers: 17–24. From back to front (or front to back): 17 wisdom tooth, 18–19 molars, 20–21 premolars, 22 canine, 23–24 incisors.",
+     "focus": 2,
+     "file": "clips/a5b5194fb937.mp3",
+     "seconds": 14.575
+    },
+    {
+     "raw": "Lower right. Numbers: 25–32. From back to front (or front to back): 25–26 incisors, 27 canine, 28–29 premolars, 30–31 molars, 32 wisdom tooth.",
+     "say": "Lower right. Numbers: 25–32. From back to front (or front to back): 25–26 incisors, 27 canine, 28–29 premolars, 30–31 molars, 32 wisdom tooth.",
+     "focus": 3,
+     "file": "clips/a8103d03a01d.mp3",
+     "seconds": 14.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Every tooth has a number",
+   "lines": [
+    {
+     "raw": "Numbers worth remembering.",
+     "say": "Numbers worth remembering.",
+     "focus": -1,
+     "file": "clips/00736fc30003.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "The four **wisdom teeth** are `1`, `16`, `17` and `32` (the four corners).",
+     "say": "The four wisdom teeth are 1, 16, 17 and 32 (the four corners).",
+     "focus": -1,
+     "file": "clips/a1e552d8f530.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "The two **front teeth** on top are `8` and `9`.",
+     "say": "The two front teeth on top are 8 and 9.",
+     "focus": -1,
+     "file": "clips/0e4a08344072.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "The **first molars**, the big chewing teeth that often need fillings, are `3`, `14`, `19` and `30`.",
+     "say": "The first molars, the big chewing teeth that often need fillings, are 3, 14, 19 and 30.",
+     "focus": -1,
+     "file": "clips/ca087ae234b0.mp3",
+     "seconds": 6.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Every tooth has a number",
+   "lines": [
+    {
+     "raw": "Children have **20 baby (primary) teeth**.",
+     "say": "Children have 20 baby (primary) teeth.",
+     "focus": -1,
+     "file": "clips/2c86db26d654.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "They use **letters A to T** in the same order: **A** is the upper right back baby tooth, **J** the upper left, **K** the lower left, and **T** the lower right.",
+     "say": "They use letters A to T in the same order: A is the upper right back baby tooth, J the upper left, K the lower left, and T the lower right.",
+     "focus": -1,
+     "file": "clips/25f3c8f62a50.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "A letter on a claim tells you straight away the tooth is a baby tooth.",
+     "say": "A letter on a claim tells you straight away the tooth is a baby tooth.",
+     "focus": -1,
+     "file": "clips/fc2825a71fec.mp3",
+     "seconds": 4.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Every tooth has a number",
+   "lines": [
+    {
+     "raw": "Universal letters for baby (primary) teeth.",
+     "say": "Universal letters for baby (primary) teeth.",
+     "focus": -1,
+     "file": "clips/fc1f45839b23.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Upper right. Letters: A–E.",
+     "say": "Upper right. Letters: A–E.",
+     "focus": 0,
+     "file": "clips/1bca5aeb32d9.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Upper left. Letters: F–J.",
+     "say": "Upper left. Letters: F–J.",
+     "focus": 1,
+     "file": "clips/c0dd539d6e3a.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Lower left. Letters: K–O.",
+     "say": "Lower left. Letters: K–O.",
+     "focus": 2,
+     "file": "clips/b5a3ff3b21dc.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Lower right. Letters: P–T.",
+     "say": "Lower right. Letters: P–T.",
+     "focus": 3,
+     "file": "clips/6f4dfed3ee21.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Every tooth has a number",
+   "lines": [
+    {
+     "raw": "Tooth numbers in Nepal.",
+     "say": "Tooth numbers in Nepal.",
+     "focus": -1,
+     "file": "clips/e31237301c66.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Many dentists outside the US, including in Nepal, commonly use the **FDI two-digit system**.",
+     "say": "Many dentists outside the U S, including in Nepal, commonly use the F D I two-digit system.",
+     "focus": 0,
+     "file": "clips/73f509212d9a.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "The first digit is the quarter of the mouth (1 upper right, 2 upper left, 3 lower left, 4 lower right) and the second is the tooth, counting from the front (1) to the back (8).",
+     "say": "The first digit is the quarter of the mouth (1 upper right, 2 upper left, 3 lower left, 4 lower right) and the second is the tooth, counting from the front (1) to the back (8).",
+     "focus": 0,
+     "file": "clips/9ab4ebaf5bb4.mp3",
+     "seconds": 10.925
+    },
+    {
+     "raw": "So the lower right first molar is **46** in FDI, but **30** in the US Universal system.",
+     "say": "So the lower right first molar is 46 in F D I, but 30 in the U S Universal system.",
+     "focus": 1,
+     "file": "clips/d5ab04e79bcc.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Same tooth, different label.",
+     "say": "Same tooth, different label.",
+     "focus": 1,
+     "file": "clips/ed3de0149ba7.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "If you work with US dental data from Nepal, watch out: a tooth number like `14` means the **upper left first molar** in the Universal system, but an **upper right first premolar** in FDI.",
+     "say": "If you work with U S dental data from Nepal, watch out: a tooth number like 14 means the upper left first molar in the Universal system, but an upper right first premolar in F D I.",
+     "focus": 2,
+     "file": "clips/58e738dcc0e4.mp3",
+     "seconds": 12.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Every tooth has a number",
+   "lines": [
+    {
+     "raw": "The same teeth in both systems.",
+     "say": "The same teeth in both systems.",
+     "focus": -1,
+     "file": "clips/9986aeadc451.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Upper right first molar. US Universal: `3`. FDI (common internationally): `16`.",
+     "say": "Upper right first molar. U S Universal: 3. F D I (common internationally): 16.",
+     "focus": 0,
+     "file": "clips/3c84374868ad.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Upper left first molar. US Universal: `14`. FDI (common internationally): `26`.",
+     "say": "Upper left first molar. U S Universal: 14. F D I (common internationally): 26.",
+     "focus": 1,
+     "file": "clips/efa38003c2e7.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "Lower left first molar. US Universal: `19`. FDI (common internationally): `36`.",
+     "say": "Lower left first molar. U S Universal: 19. F D I (common internationally): 36.",
+     "focus": 2,
+     "file": "clips/d0fdab3a71b2.mp3",
+     "seconds": 7.5
+    },
+    {
+     "raw": "Lower right first molar. US Universal: `30`. FDI (common internationally): `46`.",
+     "say": "Lower right first molar. U S Universal: 30. F D I (common internationally): 46.",
+     "focus": 3,
+     "file": "clips/f1f9a84a7679.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "Lower right first baby molar. US Universal: `S`. FDI (common internationally): `84`.",
+     "say": "Lower right first baby molar. U S Universal: S. F D I (common internationally): 84.",
+     "focus": 4,
+     "file": "clips/63c8f77561e2.mp3",
+     "seconds": 7.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Every tooth has surfaces.",
+     "say": "Every tooth has surfaces.",
+     "focus": -1,
+     "file": "clips/00c488150a96.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Every tooth has surfaces",
+   "lines": [
+    {
+     "raw": "A tooth is like a small box with several **sides**.",
+     "say": "A tooth is like a small box with several sides.",
+     "focus": -1,
+     "file": "clips/fc93f8378690.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "A cavity may affect only one side, or several.",
+     "say": "A cavity may affect only one side, or several.",
+     "focus": -1,
+     "file": "clips/caf1f76e5061.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "Fillings are coded by **how many surfaces** they cover, so the claim lists the surfaces using **single letters**.",
+     "say": "Fillings are coded by how many surfaces they cover, so the claim lists the surfaces using single letters.",
+     "focus": -1,
+     "file": "clips/59e6b69a210d.mp3",
+     "seconds": 6.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Every tooth has surfaces",
+   "lines": [
+    {
+     "raw": "M · Mesial.",
+     "say": "M, Mesial.",
+     "focus": 0,
+     "file": "clips/4a414a71f7d0.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "The side facing **towards the front middle** of the mouth.",
+     "say": "The side facing towards the front middle of the mouth.",
+     "focus": 0,
+     "file": "clips/df824a330d02.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "D · Distal.",
+     "say": "D, Distal.",
+     "focus": 1,
+     "file": "clips/62c7b5bfacbf.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The side facing **away from the middle**, towards the back.",
+     "say": "The side facing away from the middle, towards the back.",
+     "focus": 1,
+     "file": "clips/056a0d9c35c9.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "O · Occlusal.",
+     "say": "O, Occlusal.",
+     "focus": 2,
+     "file": "clips/6053b125ed6a.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "The flat **chewing top** of a back tooth.",
+     "say": "The flat chewing top of a back tooth.",
+     "focus": 2,
+     "file": "clips/2c9260cfddd3.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "I · Incisal.",
+     "say": "I, Incisal.",
+     "focus": 3,
+     "file": "clips/b10a8338b3d4.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "The **biting edge** of a front tooth (front teeth have an edge, not a flat top).",
+     "say": "The biting edge of a front tooth (front teeth have an edge, not a flat top).",
+     "focus": 3,
+     "file": "clips/91ef6ea0084f.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "B · Buccal / F · Facial.",
+     "say": "B, Buccal or F, Facial.",
+     "focus": 4,
+     "file": "clips/99b121dabfcf.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "The side facing the **cheek** (back teeth, B) or the **lips** (front teeth, F).",
+     "say": "The side facing the cheek (back teeth, B) or the lips (front teeth, F).",
+     "focus": 4,
+     "file": "clips/247a017185ae.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "L · Lingual.",
+     "say": "L, Lingual.",
+     "focus": 5,
+     "file": "clips/aa2aaaacea65.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "The side facing the **tongue**.",
+     "say": "The side facing the tongue.",
+     "focus": 5,
+     "file": "clips/c9aa50134c05.mp3",
+     "seconds": 2.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Every tooth has surfaces",
+   "lines": [
+    {
+     "raw": "Think of a matchbox on a table.",
+     "say": "Think of a matchbox on a table.",
+     "focus": -1,
+     "file": "clips/5ebe5239b766.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Put a matchbox on the table: the **top** is where you chew (O).",
+     "say": "Put a matchbox on the table: the top is where you chew (O).",
+     "focus": -1,
+     "file": "clips/5f0d0a97b148.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "The two **ends** face towards the front and back of the mouth (M and D).",
+     "say": "The two ends face towards the front and back of the mouth (M and D).",
+     "focus": -1,
+     "file": "clips/65ca8b5837aa.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "The two long **sides** face the cheek (B) and the tongue (L).",
+     "say": "The two long sides face the cheek (B) and the tongue (L).",
+     "focus": -1,
+     "file": "clips/6d7277fe0e5c.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "A filling that covers the top and one end is a **two-surface** filling, like **MO**.",
+     "say": "A filling that covers the top and one end is a two-surface filling, like M O.",
+     "focus": -1,
+     "file": "clips/5cf8e45bbec7.mp3",
+     "seconds": 5.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Every tooth has surfaces",
+   "lines": [
+    {
+     "raw": "Surfaces are written together.",
+     "say": "Surfaces are written together.",
+     "focus": -1,
+     "file": "clips/14e68cf43547.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Surfaces are written as one string of letters: `MO` (mesial + occlusal), `DO`, `MOD` (three surfaces).",
+     "say": "Surfaces are written as one string of letters: M O (mesial and occlusal), D O, M O D (three surfaces).",
+     "focus": -1,
+     "file": "clips/ae91fc5ce38b.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "Count the letters to know how many surfaces were filled.",
+     "say": "Count the letters to know how many surfaces were filled.",
+     "focus": -1,
+     "file": "clips/e691bd58f79f.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Putting it on a claim line.",
+     "say": "Putting it on a claim line.",
+     "focus": -1,
+     "file": "clips/a30464ae7804.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Putting it on a claim line",
+   "lines": [
+    {
+     "raw": "Back to Emily's filling on claim 880245 (lesson 3).",
+     "say": "Back to Emily's filling on claim 880245 (lesson 3).",
+     "focus": -1,
+     "file": "clips/c3c7e9d9feea.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "The cavity was in her **lower right first molar**, on the front side and the chewing top.",
+     "say": "The cavity was in her lower right first molar, on the front side and the chewing top.",
+     "focus": -1,
+     "file": "clips/a15da461580a.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "The claim line reads:",
+     "say": "The claim line reads:",
+     "focus": -1,
+     "file": "clips/0cb234f95080.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Putting it on a claim line",
+   "lines": [
+    {
+     "raw": "Emily's filling on one claim line.",
+     "say": "Emily's filling on one claim line.",
+     "focus": -1,
+     "file": "clips/3cd924be655f.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "D2392: CDT: composite filling, **two surfaces**, back tooth.",
+     "say": "D 2 3 9 2: C D T: composite filling, two surfaces, back tooth.",
+     "focus": 0,
+     "file": "clips/95a6e07b5a26.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "30: Tooth number: **lower right first molar** (Universal system).",
+     "say": "30: Tooth number: lower right first molar (Universal system).",
+     "focus": 1,
+     "file": "clips/12d2776b9a62.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "M: Surface 1: **mesial**, the side facing the front.",
+     "say": "M: Surface 1: mesial, the side facing the front.",
+     "focus": 2,
+     "file": "clips/b50f697aaabd.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "O: Surface 2: **occlusal**, the chewing top.",
+     "say": "O: Surface 2: occlusal, the chewing top.",
+     "focus": 3,
+     "file": "clips/0889c84745d4.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Putting it on a claim line",
+   "lines": [
+    {
+     "raw": "A quick data-quality check.",
+     "say": "A quick data-quality check.",
+     "focus": -1,
+     "file": "clips/22a9314ac4f1.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Count the surface letters and compare with the code.",
+     "say": "Count the surface letters and compare with the code.",
+     "focus": -1,
+     "file": "clips/d4d345f6cf96.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "`MO` = 2 letters, and `D2392` = two surfaces. ✓ If a line said `D2392` with surfaces `MOD` (3 letters), something is wrong: it should be `D2393`.",
+     "say": "M O = 2 letters, and D 2 3 9 2 = two surfaces. ✓ If a line said D 2 3 9 2 with surfaces M O D (3 letters), something is wrong: it should be D 2 3 9 3.",
+     "focus": -1,
+     "file": "clips/55eb8f7ff4de.mp3",
+     "seconds": 14.275
+    },
+    {
+     "raw": "Insurers run checks like this automatically, and so can analysts.",
+     "say": "Insurers run checks like this automatically, and so can analysts.",
+     "focus": -1,
+     "file": "clips/81cac6e84990.mp3",
+     "seconds": 4.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Quadrants and areas of the mouth.",
+     "say": "Quadrants and areas of the mouth.",
+     "focus": -1,
+     "file": "clips/3998cf3f66f1.mp3",
+     "seconds": 2.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Quadrants and areas of the mouth",
+   "lines": [
+    {
+     "raw": "Some services are not done on one tooth but on a **whole section** of the mouth.",
+     "say": "Some services are not done on one tooth but on a whole section of the mouth.",
+     "focus": -1,
+     "file": "clips/4fe12bcaf5c6.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "A **quadrant** is one quarter: upper right, upper left, lower left, lower right.",
+     "say": "A quadrant is one quarter: upper right, upper left, lower left, lower right.",
+     "focus": -1,
+     "file": "clips/4f1e845a394a.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "A deep cleaning (`D4341`) is billed **per quadrant**, and a full denture per **arch** (upper or lower jaw).",
+     "say": "A deep cleaning (D 4 3 4 1) is billed per quadrant, and a full denture per arch (upper or lower jaw).",
+     "focus": -1,
+     "file": "clips/cd268b36a731.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "For these, the claim uses an **area of the oral cavity** code instead of a tooth number.",
+     "say": "For these, the claim uses an area of the oral cavity code instead of a tooth number.",
+     "focus": -1,
+     "file": "clips/9f191bf7adda.mp3",
+     "seconds": 5.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Quadrants and areas of the mouth",
+   "lines": [
+    {
+     "raw": "Area of the oral cavity codes.",
+     "say": "Area of the oral cavity codes.",
+     "focus": -1,
+     "file": "clips/19dee4b0a177.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "`00`. Area: Whole mouth. Teeth (Universal): All.",
+     "say": "00. Area: Whole mouth. Teeth (Universal): All.",
+     "focus": 0,
+     "file": "clips/d8fd5d7f82d0.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "`01`. Area: Upper arch (maxillary). Teeth (Universal): 1–16.",
+     "say": "01. Area: Upper arch (maxillary). Teeth (Universal): 1–16.",
+     "focus": 1,
+     "file": "clips/8a3b6111f522.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "`02`. Area: Lower arch (mandibular). Teeth (Universal): 17–32.",
+     "say": "02. Area: Lower arch (mandibular). Teeth (Universal): 17–32.",
+     "focus": 2,
+     "file": "clips/a6a72a2f5903.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "`10`. Area: Upper right quadrant. Teeth (Universal): 1–8.",
+     "say": "10. Area: Upper right quadrant. Teeth (Universal): 1–8.",
+     "focus": 3,
+     "file": "clips/9cf0f766ec14.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "`20`. Area: Upper left quadrant. Teeth (Universal): 9–16.",
+     "say": "20. Area: Upper left quadrant. Teeth (Universal): 9–16.",
+     "focus": 4,
+     "file": "clips/6ca594b04e9c.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "`30`. Area: Lower left quadrant. Teeth (Universal): 17–24.",
+     "say": "30. Area: Lower left quadrant. Teeth (Universal): 17–24.",
+     "focus": 5,
+     "file": "clips/09e326689dec.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "`40`. Area: Lower right quadrant. Teeth (Universal): 25–32.",
+     "say": "40. Area: Lower right quadrant. Teeth (Universal): 25–32.",
+     "focus": 6,
+     "file": "clips/658c58e0e144.mp3",
+     "seconds": 5.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Quadrants and areas of the mouth",
+   "lines": [
+    {
+     "raw": "Do not mix up 30 and 30.",
+     "say": "Do not mix up 30 and 30.",
+     "focus": -1,
+     "file": "clips/31be37818f6e.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Area code `30` means the **lower left quadrant**.",
+     "say": "Area code 30 means the lower left quadrant.",
+     "focus": -1,
+     "file": "clips/af99583bcf91.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Tooth number `30` means the **lower right first molar**.",
+     "say": "Tooth number 30 means the lower right first molar.",
+     "focus": -1,
+     "file": "clips/4feb55060ea5.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "In data they are usually in **different columns** (`area` vs `tooth_num`), so always check which column you are reading.",
+     "say": "In data they are usually in different columns (area versus tooth_num), so always check which column you are reading.",
+     "focus": -1,
+     "file": "clips/22f0c256897c.mp3",
+     "seconds": 7.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Quadrants and areas of the mouth",
+   "lines": [
+    {
+     "raw": "Which location field is filled depends on the service.",
+     "say": "Which location field is filled depends on the service.",
+     "focus": -1,
+     "file": "clips/e510c40f5079.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Check-up exam. CDT: `D0120`. Tooth: empty. Surface: empty. Area: empty (whole visit).",
+     "say": "Check-up exam. C D T: D 0 1 2 0. Tooth: empty. Surface: empty. Area: empty (whole visit).",
+     "focus": 0,
+     "file": "clips/7f3e100f3c5e.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "Filling. CDT: `D2392`. Tooth: `30`. Surface: `MO`. Area: empty.",
+     "say": "Filling. C D T: D 2 3 9 2. Tooth: 30. Surface: M O. Area: empty.",
+     "focus": 1,
+     "file": "clips/b0d24dff703d.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Root canal. CDT: `D3330`. Tooth: `19`. Surface: empty. Area: empty.",
+     "say": "Root canal. C D T: D 3 3 3 0. Tooth: 19. Surface: empty. Area: empty.",
+     "focus": 2,
+     "file": "clips/0250ef25ac10.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "Deep cleaning. CDT: `D4341`. Tooth: empty. Surface: empty. Area: `40` (lower right).",
+     "say": "Deep cleaning. C D T: D 4 3 4 1. Tooth: empty. Surface: empty. Area: 40 (lower right).",
+     "focus": 3,
+     "file": "clips/a99cd824424b.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "Sealant on a child's molar. CDT: `D1351`. Tooth: `19`. Surface: empty (or `O`). Area: empty.",
+     "say": "Sealant on a child's molar. C D T: D 1 3 5 1. Tooth: 19. Surface: empty (or O). Area: empty.",
+     "focus": 4,
+     "file": "clips/abcbde08202d.mp3",
+     "seconds": 9.45
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "US claims use the **Universal Numbering System**: adult teeth **1–32**, baby teeth **A–T**, starting at the upper right back tooth.",
+     "say": "U S claims use the Universal Numbering System: adult teeth 1–32, baby teeth A–T, starting at the upper right back tooth.",
+     "focus": 0,
+     "file": "clips/1e51c03b56be.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "Surfaces are single letters: **M** (front-facing), **D** (back-facing), **O** or **I** (top or edge), **B/F** (cheek or lip), **L** (tongue).",
+     "say": "Surfaces are single letters: M (front-facing), D (back-facing), O or I (top or edge), B/F (cheek or lip), L (tongue).",
+     "focus": 1,
+     "file": "clips/3b37dba6ce48.mp3",
+     "seconds": 9
+    },
+    {
+     "raw": "The number of surface letters should match the filling code (e.g. `D2392` = 2 surfaces = `MO`).",
+     "say": "The number of surface letters should match the filling code (for example D 2 3 9 2 = 2 surfaces = M O).",
+     "focus": 2,
+     "file": "clips/da13c428f705.mp3",
+     "seconds": 8.35
+    },
+    {
+     "raw": "Services on a section of the mouth use **area codes**: 00 whole mouth, 01/02 arches, 10/20/30/40 quadrants.",
+     "say": "Services on a section of the mouth use area codes: 00 whole mouth, 01/02 arches, 10/20/30/40 quadrants.",
+     "focus": 3,
+     "file": "clips/a3ad9016cb9b.mp3",
+     "seconds": 11.6
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,708 @@
+{
+ "courseId": "pharmacy",
+ "lessonId": "reversals-and-duplicates",
+ "lessonNumber": 10,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 10: Reversals & Duplicates.",
+     "say": "Lesson 10: Reversals and Duplicates.",
+     "focus": -1,
+     "file": "clips/8047d497825e.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Cancelled fills, corrected claims and repeated rows: how to find the fills that really happened.",
+     "say": "Cancelled fills, corrected claims and repeated rows: how to find the fills that really happened.",
+     "focus": -1,
+     "file": "clips/235a3a04fa25.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain why a paid claim gets reversed and how a reversal looks in data.",
+     "say": "Explain why a paid claim gets reversed and how a reversal looks in data.",
+     "focus": 0,
+     "file": "clips/8191b2e604a3.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Net out reversals correctly when counting fills, days supply and money.",
+     "say": "Net out reversals correctly when counting fills, days supply and money.",
+     "focus": 1,
+     "file": "clips/2d86d1ef27dc.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "Pick the final version of a claim after a rebill.",
+     "say": "Pick the final version of a claim after a rebill.",
+     "focus": 2,
+     "file": "clips/6fd20fada77d.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "Tell duplicate rows (a data problem) from repeat fills (real events).",
+     "say": "Tell duplicate rows (a data problem) from repeat fills (real events).",
+     "focus": 3,
+     "file": "clips/5b063a331c0e.mp3",
+     "seconds": 5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Returning medicine in Nepal.",
+     "say": "Returning medicine in Nepal.",
+     "focus": -1,
+     "file": "clips/8f442de8f81d.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram buys a strip of medicine, then the doctor changes his prescription.",
+     "say": "Ram buys a strip of medicine, then the doctor changes his prescription.",
+     "focus": 0,
+     "file": "clips/dddf6d3e5a21.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "He takes the **unopened** strip back to the medical shop and gets a refund.",
+     "say": "He takes the unopened strip back to the medical shop and gets a refund.",
+     "focus": 0,
+     "file": "clips/09a3b1699040.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "He must **not** then send that bill to his insurer: he no longer paid for it.",
+     "say": "He must not then send that bill to his insurer: he no longer paid for it.",
+     "focus": 1,
+     "file": "clips/f64335a50332.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "The insurer would have to remove it from his claim.",
+     "say": "The insurer would have to remove it from his claim.",
+     "focus": 1,
+     "file": "clips/99f4946a743a.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "If Sita's hospital pharmacy added a medicine to her bill but she did not take it, the hospital must **remove it** before sending the claim to SSF.",
+     "say": "If Sita's hospital pharmacy added a medicine to her bill but she did not take it, the hospital must remove it before sending the claim to S S F.",
+     "focus": 2,
+     "file": "clips/2b8620927b84.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "Otherwise SSF would pay 80% for medicine nobody received, and Sita would pay 20% for nothing.",
+     "say": "Otherwise S S F would pay 80 percent for medicine nobody received, and Sita would pay 20 percent for nothing.",
+     "focus": 3,
+     "file": "clips/bd70c8f404aa.mp3",
+     "seconds": 7.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "**In one sentence: pharmacy data keeps every request, including cancellations and corrections, so an analyst must net them out to find the fills that really reached the patient.**",
+     "say": "In one sentence: pharmacy data keeps every request, including cancellations and corrections, so an analyst must net them out to find the fills that really reached the patient.",
+     "focus": -1,
+     "file": "clips/815fa28e5f7a.mp3",
+     "seconds": 11.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Reversals: when the medicine is never picked up.",
+     "say": "Reversals: when the medicine is never picked up.",
+     "focus": -1,
+     "file": "clips/18f913b59780.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Reversals: when the medicine is never picked up",
+   "lines": [
+    {
+     "raw": "Pharmacies often fill a prescription **before** the patient arrives, so it is ready on the shelf.",
+     "say": "Pharmacies often fill a prescription before the patient arrives, so it is ready on the shelf.",
+     "focus": -1,
+     "file": "clips/b9372b948ba9.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "The claim is sent and **paid** at that moment.",
+     "say": "The claim is sent and paid at that moment.",
+     "focus": -1,
+     "file": "clips/e44cef49f829.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "But if the patient **never comes**, the pharmacy puts the medicine back on the shelf (**return to stock**) and sends a **B2 reversal** to cancel the claim.",
+     "say": "But if the patient never comes, the pharmacy puts the medicine back on the shelf (return to stock) and sends a B2 reversal to cancel the claim.",
+     "focus": -1,
+     "file": "clips/fee05be9e9c3.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "Plans usually require this within a set number of days, often 10 to 14.",
+     "say": "Plans usually require this within a set number of days, often 10 to 14.",
+     "focus": -1,
+     "file": "clips/e982e0a7f5ae.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Pharmacies also reverse claims sent with a mistake, such as the wrong quantity.",
+     "say": "Pharmacies also reverse claims sent with a mistake, such as the wrong quantity.",
+     "focus": -1,
+     "file": "clips/37721a3ede1a.mp3",
+     "seconds": 5.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Reversals: when the medicine is never picked up",
+   "lines": [
+    {
+     "raw": "In the US: Emily's September refill.",
+     "say": "In the U S: Emily's September refill.",
+     "focus": -1,
+     "file": "clips/21123fa023fa.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "On **15 September 2025**, Emily's auto-refill of atorvastatin is filled and **paid** (plan $4.50, Emily $5.00).",
+     "say": "On 15 September 2025, Emily's auto-refill of atorvastatin is filled and paid (plan 4 dollars 50 cents, Emily 5 dollars).",
+     "focus": 0,
+     "file": "clips/60d6191d6300.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "Emily is travelling and does not pick it up.",
+     "say": "Emily is travelling and does not pick it up.",
+     "focus": 1,
+     "file": "clips/1bc6ef12d845.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "On **25 September**, the pharmacy returns it to stock and sends a **B2 reversal**.",
+     "say": "On 25 September, the pharmacy returns it to stock and sends a B2 reversal.",
+     "focus": 1,
+     "file": "clips/752efae676f8.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "She comes back and the pharmacy fills it again on **29 September**: a brand new paid claim.",
+     "say": "She comes back and the pharmacy fills it again on 29 September: a brand new paid claim.",
+     "focus": 2,
+     "file": "clips/b414e8994627.mp3",
+     "seconds": 6.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Reversals in data.",
+     "say": "Reversals in data.",
+     "focus": -1,
+     "file": "clips/5762d7d99a91.mp3",
+     "seconds": 2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Reversals in data",
+   "lines": [
+    {
+     "raw": "The reversal does not delete the original claim.",
+     "say": "The reversal does not delete the original claim.",
+     "focus": -1,
+     "file": "clips/b7d2f3c1e5ab.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Most data files keep **both rows**: the original, and a reversal row with **negative** quantity and amounts.",
+     "say": "Most data files keep both rows: the original, and a reversal row with negative quantity and amounts.",
+     "focus": -1,
+     "file": "clips/17095186ebc8.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "The reversal is matched to its original using the fill key from lesson 5: **pharmacy, Rx number, fill number and fill date**.",
+     "say": "The reversal is matched to its original using the fill key from lesson 5: pharmacy, Rx number, fill number and fill date.",
+     "focus": -1,
+     "file": "clips/8bc22563ec57.mp3",
+     "seconds": 8.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Reversals in data",
+   "lines": [
+    {
+     "raw": "Emily's September fills as data rows.",
+     "say": "Emily's September fills as data rows.",
+     "focus": -1,
+     "file": "clips/30a972915b7c.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Reversals in data",
+   "lines": [
+    {
+     "raw": "Why is the fill number 2 twice?",
+     "say": "Why is the fill number 2 twice?",
+     "focus": -1,
+     "file": "clips/693a41a471c3.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "The reversed fill was never given to Emily, so her refill was **not used up**.",
+     "say": "The reversed fill was never given to Emily, so her refill was not used up.",
+     "focus": -1,
+     "file": "clips/9bdf32784541.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "When the pharmacy fills it again on 29 September, it is still her **second refill**, fill number 2, but with a **new claim number** and a **new fill date**.",
+     "say": "When the pharmacy fills it again on 29 September, it is still her second refill, fill number 2, but with a new claim number and a new fill date.",
+     "focus": -1,
+     "file": "clips/70b2686ecba0.mp3",
+     "seconds": 9.15
+    },
+    {
+     "raw": "Notice the reversal keeps the **original fill date** but has a later **processed date**.",
+     "say": "Notice the reversal keeps the original fill date but has a later processed date.",
+     "focus": -1,
+     "file": "clips/516c94b69fbe.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Here `X` marks the reversal row; your data source may use a different letter or a separate reversal flag.",
+     "say": "Here X marks the reversal row; your data source may use a different letter or a separate reversal flag.",
+     "focus": -1,
+     "file": "clips/d259b5a56812.mp3",
+     "seconds": 7.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Reversals in data",
+   "lines": [
+    {
+     "raw": "Netting it out: group the original and its reversal, then add them up.",
+     "say": "Netting it out: group the original and its reversal, then add them up.",
+     "focus": -1,
+     "file": "clips/3557d9cb82f6.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Rx 6003390, fill 2, 15 Sep. Rows: B1 + B2. Net qty: 30 − 30 = **0**. Net plan paid: $4.50 − $4.50 = **$0.00**. Count as a fill?: **No**: never picked up.",
+     "say": "Rx 6003390, fill 2, 15 Sep. Rows: B1 and B2. Net qty: 30 − 30 = 0. Net plan paid: 4 dollars 50 cents − 4 dollars 50 cents = 0 dollars. Count as a fill?: No: never picked up.",
+     "focus": 0,
+     "file": "clips/93a7eb67cf90.mp3",
+     "seconds": 19.225
+    },
+    {
+     "raw": "Rx 6003390, fill 2, 29 Sep. Rows: B1 only. Net qty: **30**. Net plan paid: **$4.50**. Count as a fill?: **Yes**.",
+     "say": "Rx 6003390, fill 2, 29 Sep. Rows: B1 only. Net qty: 30. Net plan paid: 4 dollars 50 cents. Count as a fill?: Yes.",
+     "focus": 1,
+     "file": "clips/6ccfcb9c840e.mp3",
+     "seconds": 13.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Reversals in data",
+   "lines": [
+    {
+     "raw": "The classic beginner mistake.",
+     "say": "The classic beginner mistake.",
+     "focus": -1,
+     "file": "clips/f05de2e54ee5.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "If you count rows with status `P` and forget the reversals, Emily seems to have **two** September fills and **$9.00** of plan spend instead of one fill and **$4.50**.",
+     "say": "If you count rows with status P and forget the reversals, Emily seems to have two September fills and 9 dollars of plan spend instead of one fill and 4 dollars 50 cents.",
+     "focus": -1,
+     "file": "clips/8886e25b7dd1.mp3",
+     "seconds": 11.9
+    },
+    {
+     "raw": "Worse, any measure of medicine at home would think she had tablets from 15 September when she did not.",
+     "say": "Worse, any measure of medicine at home would think she had tablets from 15 September when she did not.",
+     "focus": -1,
+     "file": "clips/1561df89f8e5.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "**Always net reversals before counting fills, days supply or money.**",
+     "say": "Always net reversals before counting fills, days supply or money.",
+     "focus": -1,
+     "file": "clips/37d2a3db9bfc.mp3",
+     "seconds": 4.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Reversals in data",
+   "lines": [
+    {
+     "raw": "Group rows by **pharmacy ID + Rx number + fill number + fill date**.",
+     "say": "Group rows by pharmacy I D and Rx number and fill number and fill date.",
+     "focus": 0,
+     "file": "clips/181a419ccb66.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Add up quantity, days supply and all amounts within each group.",
+     "say": "Add up quantity, days supply and all amounts within each group.",
+     "focus": 1,
+     "file": "clips/3b57646e6b14.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Keep only groups with a **net quantity above 0**.",
+     "say": "Keep only groups with a net quantity above 0.",
+     "focus": 2,
+     "file": "clips/12ab0322222d.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Those are real fills that reached the patient.",
+     "say": "Those are real fills that reached the patient.",
+     "focus": 2,
+     "file": "clips/7c432beb3a6d.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Some sources do not send negative rows.",
+     "say": "Some sources do not send negative rows.",
+     "focus": 3,
+     "file": "clips/c8707d82afbe.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Instead they mark the original as reversed (for example a `reversal_flag` or status `X`).",
+     "say": "Instead they mark the original as reversed (for example a reversal_flag or status X).",
+     "focus": 3,
+     "file": "clips/549d25b35a03.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "In that case, simply **drop** reversed claims.",
+     "say": "In that case, simply drop reversed claims.",
+     "focus": 3,
+     "file": "clips/3d7a97d64090.mp3",
+     "seconds": 3.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Rebills: finding the final version.",
+     "say": "Rebills: finding the final version.",
+     "focus": -1,
+     "file": "clips/47c164ad0e51.mp3",
+     "seconds": 2.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Rebills: finding the final version",
+   "lines": [
+    {
+     "raw": "A **B3 rebill** cancels a paid claim and sends a corrected one in a single step, for example when the pharmacy typed the wrong quantity.",
+     "say": "A B3 rebill cancels a paid claim and sends a corrected one in a single step, for example when the pharmacy typed the wrong quantity.",
+     "focus": -1,
+     "file": "clips/277d848bc8e2.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "In data this usually shows up as a reversal of the old claim plus a new paid claim for the **same fill**.",
+     "say": "In data this usually shows up as a reversal of the old claim plus a new paid claim for the same fill.",
+     "focus": -1,
+     "file": "clips/1627f369a8a7.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Netting by the fill key leaves only the corrected version.",
+     "say": "Netting by the fill key leaves only the corrected version.",
+     "focus": -1,
+     "file": "clips/f011dee3b949.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "If your source sends versions instead of negative rows, keep the **latest processed** version of each fill.",
+     "say": "If your source sends versions instead of negative rows, keep the latest processed version of each fill.",
+     "focus": -1,
+     "file": "clips/f4481b870364.mp3",
+     "seconds": 6.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Rebills: finding the final version",
+   "lines": [
+    {
+     "raw": "A rebill for a quantity typo (illustrative).",
+     "say": "A rebill for a quantity typo (illustrative).",
+     "focus": -1,
+     "file": "clips/1b3703f7434e.mp3",
+     "seconds": 3.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Duplicates: same row twice, or a real second fill?",
+     "say": "Duplicates: same row twice, or a real second fill?",
+     "focus": -1,
+     "file": "clips/e442b54617c4.mp3",
+     "seconds": 3.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Duplicates: same row twice, or a real second fill?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Two **identical** rows: same claim number, same transaction code, same amounts. What it usually is: A **data load problem**: the same file loaded twice, or two feeds overlapping. What to do: Keep one row per claim number + transaction code.",
+     "say": "Two identical rows: same claim number, same transaction code, same amounts. What it usually is: A data load problem: the same file loaded twice, or two feeds overlapping. What to do: Keep one row per claim number and transaction code.",
+     "focus": 0,
+     "file": "clips/da81a0aaf6f0.mp3",
+     "seconds": 16.425
+    },
+    {
+     "raw": "A claim with status **Duplicate** (`D`). What it usually is: The pharmacy sent the same request twice; the PBM returned the earlier answer. What to do: Do not count it; the original paid claim is already in the data.",
+     "say": "A claim with status Duplicate (D). What it usually is: The pharmacy sent the same request twice; the P B M returned the earlier answer. What to do: Do not count it; the original paid claim is already in the data.",
+     "focus": 1,
+     "file": "clips/3cc777874c28.mp3",
+     "seconds": 14.775
+    },
+    {
+     "raw": "Two **different** claim numbers for the same drug, a few days apart, possibly at two pharmacies. What it usually is: Usually **real fills**: an early refill, a lost-medicine override, or two prescribers. What to do: Count both as fills, but when measuring days covered, do not count the overlapping days twice.",
+     "say": "Two different claim numbers for the same drug, a few days apart, possibly at two pharmacies. What it usually is: Usually real fills: an early refill, a lost-medicine override, or two prescribers. What to do: Count both as fills, but when measuring days covered, do not count the overlapping days twice.",
+     "focus": 2,
+     "file": "clips/8c84af90ab05.mp3",
+     "seconds": 19.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Duplicates: same row twice, or a real second fill?",
+   "lines": [
+    {
+     "raw": "Same idea in medical data.",
+     "say": "Same idea in medical data.",
+     "focus": -1,
+     "file": "clips/f9f37ffb79e1.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Medical claims have their own duplicates, adjustments and replacement versions, handled with claim frequency codes.",
+     "say": "Medical claims have their own duplicates, adjustments and replacement versions, handled with claim frequency codes.",
+     "focus": -1,
+     "file": "clips/acb81689589f.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "The Medical course covers them for medical data.",
+     "say": "The Medical course covers them for medical data.",
+     "focus": -1,
+     "file": "clips/bd3b1ac2798e.mp3",
+     "seconds": 3.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Duplicates: same row twice, or a real second fill?",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Every count in pharmacy data (fills, spend, days supply, adherence) depends on getting this step right.",
+     "say": "Every count in pharmacy data (fills, spend, days supply, adherence) depends on getting this step right.",
+     "focus": -1,
+     "file": "clips/b596c1e9595f.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Do it **once**, early, and build a clean \"final fills\" table that every report uses, so two analysts never get two different answers.",
+     "say": "Do it once, early, and build a clean \"final fills\" table that every report uses, so two analysts never get two different answers.",
+     "focus": -1,
+     "file": "clips/ebf335f71706.mp3",
+     "seconds": 8.9
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Paid claims are **reversed** when the patient never picks up the medicine, or when the claim was sent with a mistake.",
+     "say": "Paid claims are reversed when the patient never picks up the medicine, or when the claim was sent with a mistake.",
+     "focus": 0,
+     "file": "clips/3da564a8808c.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Reversals arrive as negative rows or a reversal flag.",
+     "say": "Reversals arrive as negative rows or a reversal flag.",
+     "focus": 1,
+     "file": "clips/74b50832ca01.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "**Net them out** by the fill key before counting fills, days supply or money.",
+     "say": "Net them out by the fill key before counting fills, days supply or money.",
+     "focus": 1,
+     "file": "clips/a2483be8f260.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "A **rebill** replaces a claim; keep only the corrected, latest version of each fill.",
+     "say": "A rebill replaces a claim; keep only the corrected, latest version of each fill.",
+     "focus": 2,
+     "file": "clips/aea70e874b94.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Identical rows are a data problem to remove; two different claims for the same drug are usually real fills.",
+     "say": "Identical rows are a data problem to remove; two different claims for the same drug are usually real fills.",
+     "focus": 3,
+     "file": "clips/80c07f853e5f.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Build one clean \"final fills\" table and use it everywhere.",
+     "say": "Build one clean \"final fills\" table and use it everywhere.",
+     "focus": 4,
+     "file": "clips/a86c82835844.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

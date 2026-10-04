@@ -1,0 +1,631 @@
+{
+ "courseId": "hipaa",
+ "lessonId": "breaches-and-penalties",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Breaches & Penalties.",
+     "say": "Lesson 5: Breaches and Penalties.",
+     "focus": -1,
+     "file": "clips/f5de56f69081.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "What counts as a breach, who must be told and how fast, and what it can cost.",
+     "say": "What counts as a breach, who must be told and how fast, and what it can cost.",
+     "focus": -1,
+     "file": "clips/ef2cf95c2e32.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a breach is and why encrypted data is treated differently.",
+     "say": "Explain what a breach is and why encrypted data is treated differently.",
+     "focus": 0,
+     "file": "clips/597df7a0f95c.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "Follow the breach notification steps: the person, HHS and sometimes the media.",
+     "say": "Follow the breach notification steps: the person, H H S and sometimes the media.",
+     "focus": 1,
+     "file": "clips/ceecdd06507e.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "Work out a notification deadline from a discovery date.",
+     "say": "Work out a notification deadline from a discovery date.",
+     "focus": 2,
+     "file": "clips/fd9919b91695.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "Describe, roughly, how HIPAA penalties grow with the level of fault.",
+     "say": "Describe, roughly, how HIPAA penalties grow with the level of fault.",
+     "focus": 3,
+     "file": "clips/c0ae85b942ca.mp3",
+     "seconds": 4.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A lost cheque book in Kathmandu.",
+     "say": "A lost cheque book in Kathmandu.",
+     "focus": -1,
+     "file": "clips/ee840648161a.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "If you lose your cheque book, you do not wait and hope.",
+     "say": "If you lose your cheque book, you do not wait and hope.",
+     "focus": -1,
+     "file": "clips/fd8aff975741.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "You call the bank at once, the bank blocks the cheques, and if many customers were affected the bank may have to tell the regulator.",
+     "say": "You call the bank at once, the bank blocks the cheques, and if many customers were affected the bank may have to tell the regulator.",
+     "focus": -1,
+     "file": "clips/b78c3b4d629c.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "Health data works the same way: when it leaks, there is a clock, a list of people to tell, and a price for getting it wrong.",
+     "say": "Health data works the same way: when it leaks, there is a clock, a list of people to tell, and a price for getting it wrong.",
+     "focus": -1,
+     "file": "clips/86ca4d80d6c4.mp3",
+     "seconds": 7.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "In one sentence: a **breach** is when PHI ends up somewhere the Privacy Rule does not allow, and the Breach Notification Rule says who must be told, and by when.",
+     "say": "In one sentence: a breach is when P H I ends up somewhere the Privacy Rule does not allow, and the Breach Notification Rule says who must be told, and by when.",
+     "focus": -1,
+     "file": "clips/f6c5a65e164a.mp3",
+     "seconds": 10.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What is a breach?",
+     "say": "What is a breach?",
+     "focus": -1,
+     "file": "clips/55dc67407d1d.mp3",
+     "seconds": 1.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "What is a breach?",
+   "lines": [
+    {
+     "raw": "A **breach** is using or sharing **unsecured** PHI in a way the Privacy Rule does not allow, which puts the information at risk.",
+     "say": "A breach is using or sharing unsecured P H I in a way the Privacy Rule does not allow, which puts the information at risk.",
+     "focus": -1,
+     "file": "clips/aa47d2ea7a24.mp3",
+     "seconds": 8.85
+    },
+    {
+     "raw": "By default, any such event is **presumed to be a breach**, unless a documented risk assessment shows a **low probability** that the PHI was compromised.",
+     "say": "By default, any such event is presumed to be a breach, unless a documented risk assessment shows a low probability that the P H I was compromised.",
+     "focus": -1,
+     "file": "clips/b8c8b822d879.mp3",
+     "seconds": 10.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "What is a breach?",
+   "lines": [
+    {
+     "raw": "A laptop with an unencrypted claims extract is stolen from a car.",
+     "say": "A laptop with an unencrypted claims extract is stolen from a car.",
+     "focus": 0,
+     "file": "clips/fa69349fd705.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "An analyst emails a spreadsheet of member data to the wrong person.",
+     "say": "An analyst emails a spreadsheet of member data to the wrong person.",
+     "focus": 1,
+     "file": "clips/0d3377117db9.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "A database is left open on the internet.",
+     "say": "A database is left open on the internet.",
+     "focus": 2,
+     "file": "clips/382ad8f401d7.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "A staff member looks up a famous patient's records out of curiosity.",
+     "say": "A staff member looks up a famous patient's records out of curiosity.",
+     "focus": 3,
+     "file": "clips/ea400a134a33.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "A hacker encrypts a hospital's systems in a ransomware attack.",
+     "say": "A hacker encrypts a hospital's systems in a ransomware attack.",
+     "focus": 4,
+     "file": "clips/b85447b09583.mp3",
+     "seconds": 4.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "What is a breach?",
+   "lines": [
+    {
+     "raw": "Why encryption is your friend.",
+     "say": "Why encryption is your friend.",
+     "focus": -1,
+     "file": "clips/66cba9b3c94c.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "PHI that is properly **encrypted** (following HHS guidance) is \"secured\".",
+     "say": "P H I that is properly encrypted (following H H S guidance) is \"secured\".",
+     "focus": -1,
+     "file": "clips/b47e0cf08dc2.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "If an encrypted laptop is stolen and the key was not taken, it is generally **not** a reportable breach.",
+     "say": "If an encrypted laptop is stolen and the key was not taken, it is generally not a reportable breach.",
+     "focus": -1,
+     "file": "clips/f8e80f8ee095.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "That is a big reason encryption is expected everywhere.",
+     "say": "That is a big reason encryption is expected everywhere.",
+     "focus": -1,
+     "file": "clips/dfdb5cd88460.mp3",
+     "seconds": 4.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Breach notification: who must be told, and when.",
+     "say": "Breach notification: who must be told, and when.",
+     "focus": -1,
+     "file": "clips/8cec69786642.mp3",
+     "seconds": 3.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Breach notification: who must be told, and when",
+   "lines": [
+    {
+     "raw": "Discover.",
+     "say": "Discover.",
+     "focus": 0,
+     "file": "clips/44f8f0367ed2.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "The breach is found.",
+     "say": "The breach is found.",
+     "focus": 0,
+     "file": "clips/033699085cfe.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "The clock starts on the day it is discovered (or should have been, with reasonable care).",
+     "say": "The clock starts on the day it is discovered (or should have been, with reasonable care).",
+     "focus": 0,
+     "file": "clips/cca09bf87451.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "Business associate tells the covered entity.",
+     "say": "Business associate tells the covered entity.",
+     "focus": 1,
+     "file": "clips/b4e25c5218b9.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "If a vendor caused it, the vendor must tell the covered entity without unreasonable delay, and no later than 60 days.",
+     "say": "If a vendor caused it, the vendor must tell the covered entity without unreasonable delay, and no later than 60 days.",
+     "focus": 1,
+     "file": "clips/6a4303f68962.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "Tell each person.",
+     "say": "Tell each person.",
+     "focus": 2,
+     "file": "clips/04a49f09d519.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "The covered entity notifies each affected person in writing, **without unreasonable delay and no later than 60 calendar days** after discovery.",
+     "say": "The covered entity notifies each affected person in writing, without unreasonable delay and no later than 60 calendar days after discovery.",
+     "focus": 2,
+     "file": "clips/c1dcc0eca692.mp3",
+     "seconds": 10.05
+    },
+    {
+     "raw": "Tell HHS (and maybe the media).",
+     "say": "Tell H H S (and maybe the media).",
+     "focus": 3,
+     "file": "clips/1c02a4e51314.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "How depends on the size of the breach (table below).",
+     "say": "How depends on the size of the breach (table below).",
+     "focus": 3,
+     "file": "clips/9fdb848113ec.mp3",
+     "seconds": 3.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Breach notification: who must be told, and when",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Fewer than 500** people. Notify individuals: Within 60 days. Notify HHS: In a yearly log, within 60 days after the end of the calendar year. Notify media: Not required.",
+     "say": "Fewer than 500 people. Notify individuals: Within 60 days. Notify H H S: In a yearly log, within 60 days after the end of the calendar year. Notify media: Not required.",
+     "focus": 0,
+     "file": "clips/0c0d4d2b64bd.mp3",
+     "seconds": 13.975
+    },
+    {
+     "raw": "**500 or more** people. Notify individuals: Within 60 days. Notify HHS: At the same time as individuals (within 60 days). Notify media: Yes, if **more than 500** residents of one state are affected.",
+     "say": "500 or more people. Notify individuals: Within 60 days. Notify H H S: At the same time as individuals (within 60 days). Notify media: Yes, if more than 500 residents of one state are affected.",
+     "focus": 1,
+     "file": "clips/ae08a333317d.mp3",
+     "seconds": 15.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Breach notification: who must be told, and when",
+   "lines": [
+    {
+     "raw": "The public list.",
+     "say": "The public list.",
+     "focus": -1,
+     "file": "clips/b0424fc2a111.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "HHS publishes every breach affecting **500 or more** people on a public website, with the organisation's name.",
+     "say": "H H S publishes every breach affecting 500 or more people on a public website, with the organisation's name.",
+     "focus": -1,
+     "file": "clips/0dcba2fe74a3.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "People in the industry sometimes call it the \"wall of shame\".",
+     "say": "People in the industry sometimes call it the \"wall of shame\".",
+     "focus": -1,
+     "file": "clips/5d6d0f796c9b.mp3",
+     "seconds": 3.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Breach notification: who must be told, and when",
+   "lines": [
+    {
+     "raw": "In the US: Worked example: a wrong email.",
+     "say": "In the U S: Worked example: a wrong email.",
+     "focus": -1,
+     "file": "clips/dd732b1f2d9d.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "On **5 May 2025**, an analyst at a (fictional) claims vendor emails a file of **1,200** of Emily's plan members, including Emily, to the wrong outside address, and notices the mistake the same day.",
+     "say": "On 5 May 2025, an analyst at a (fictional) claims vendor emails a file of 1,200 of Emily's plan members, including Emily, to the wrong outside address, and notices the mistake the same day.",
+     "focus": 0,
+     "file": "clips/65466ebb930b.mp3",
+     "seconds": 14.575
+    },
+    {
+     "raw": "The file is not encrypted.",
+     "say": "The file is not encrypted.",
+     "focus": 0,
+     "file": "clips/419455d3a12e.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "All 1,200 live in Texas.",
+     "say": "All 1,200 live in Texas.",
+     "focus": 0,
+     "file": "clips/93ae8d56e08f.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "The vendor is a **business associate**.",
+     "say": "The vendor is a business associate.",
+     "focus": 1,
+     "file": "clips/9efcf793d15d.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "It tells the plan, which leads the response.",
+     "say": "It tells the plan, which leads the response.",
+     "focus": 1,
+     "file": "clips/4cc55302f53e.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "1,200 is **500 or more**, so the plan must notify all 1,200 people, HHS and prominent Texas media, all within **60 days**: by **4 July 2025** at the latest.",
+     "say": "1,200 is 500 or more, so the plan must notify all 1,200 people, H H S and prominent Texas media, all within 60 days: by 4 July 2025 at the latest.",
+     "focus": 2,
+     "file": "clips/47bf67f9d776.mp3",
+     "seconds": 14.5
+    },
+    {
+     "raw": "Emily receives a letter explaining what was exposed, what the plan is doing, and what she can do to protect herself.",
+     "say": "Emily receives a letter explaining what was exposed, what the plan is doing, and what she can do to protect herself.",
+     "focus": 3,
+     "file": "clips/9d2805b16b9b.mp3",
+     "seconds": 7.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Penalties (approximate).",
+     "say": "Penalties (approximate).",
+     "focus": -1,
+     "file": "clips/694d8e93708e.mp3",
+     "seconds": 2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Penalties (approximate)",
+   "lines": [
+    {
+     "raw": "Civil fines have **four tiers**, based on how much the organisation was at fault.",
+     "say": "Civil fines have four tiers, based on how much the organisation was at fault.",
+     "focus": -1,
+     "file": "clips/c7aca80065a7.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "The dollar amounts are adjusted for inflation every year, so treat these as rough guides.",
+     "say": "The dollar amounts are adjusted for inflation every year, so treat these as rough guides.",
+     "focus": -1,
+     "file": "clips/fed752189ce4.mp3",
+     "seconds": 5.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Penalties (approximate)",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "1. Level of fault: Did not know, and could not reasonably have known. Rough size of fine: Lowest: from about a hundred dollars per violation.",
+     "say": "1. Level of fault: Did not know, and could not reasonably have known. Rough size of fine: Lowest: from about a hundred dollars per violation.",
+     "focus": 0,
+     "file": "clips/4fddb9aa8490.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "2. Level of fault: Reasonable cause, not wilful neglect. Rough size of fine: Higher: from about a thousand dollars per violation.",
+     "say": "2. Level of fault: Reasonable cause, not wilful neglect. Rough size of fine: Higher: from about a thousand dollars per violation.",
+     "focus": 1,
+     "file": "clips/e177de05f0ce.mp3",
+     "seconds": 9.45
+    },
+    {
+     "raw": "3. Level of fault: Wilful neglect, fixed within 30 days. Rough size of fine: Higher again: from about ten thousand dollars per violation.",
+     "say": "3. Level of fault: Wilful neglect, fixed within 30 days. Rough size of fine: Higher again: from about ten thousand dollars per violation.",
+     "focus": 2,
+     "file": "clips/8251c8054b7a.mp3",
+     "seconds": 10.225
+    },
+    {
+     "raw": "4. Level of fault: Wilful neglect, not fixed. Rough size of fine: Highest: from about fifty thousand dollars per violation.",
+     "say": "4. Level of fault: Wilful neglect, not fixed. Rough size of fine: Highest: from about fifty thousand dollars per violation.",
+     "focus": 3,
+     "file": "clips/2fe9d48cba07.mp3",
+     "seconds": 9.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Penalties (approximate)",
+   "lines": [
+    {
+     "raw": "It adds up, and it can be criminal.",
+     "say": "It adds up, and it can be criminal.",
+     "focus": -1,
+     "file": "clips/0af65bf49c21.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Yearly caps for the same type of violation can reach roughly **$2 million**.",
+     "say": "Yearly caps for the same type of violation can reach roughly 2 million dollars.",
+     "focus": -1,
+     "file": "clips/6dfed0ef56d6.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "On top of that, knowingly obtaining or sharing PHI in violation of HIPAA is a **federal crime**: up to about $50,000 and 1 year in prison, rising to $250,000 and **10 years** if done to sell it or cause harm.",
+     "say": "On top of that, knowingly obtaining or sharing P H I in violation of HIPAA is a federal crime: up to about 50000 dollars and 1 year in prison, rising to 250000 dollars and 10 years if done to sell it or cause harm.",
+     "focus": -1,
+     "file": "clips/5ac8b933f36a.mp3",
+     "seconds": 16.725
+    },
+    {
+     "raw": "Individual employees can be fired and prosecuted, not just companies.",
+     "say": "Individual employees can be fired and prosecuted, not just companies.",
+     "focus": -1,
+     "file": "clips/26d2149db501.mp3",
+     "seconds": 4.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Penalties (approximate)",
+   "lines": [
+    {
+     "raw": "Why it matters for data work.",
+     "say": "Why it matters for data work.",
+     "focus": -1,
+     "file": "clips/3d85d1677532.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Most breaches are not hackers.",
+     "say": "Most breaches are not hackers.",
+     "focus": -1,
+     "file": "clips/d4c5761cd21c.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "They are everyday mistakes: a file sent to the wrong address, a test database with real data, an extract left in a shared folder.",
+     "say": "They are everyday mistakes: a file sent to the wrong address, a test database with real data, an extract left in a shared folder.",
+     "focus": -1,
+     "file": "clips/99b47675e4e1.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "The 60-day clock starts at **discovery**, so reporting your own mistake the same day gives your company the most time to respond.",
+     "say": "The 60-day clock starts at discovery, so reporting your own mistake the same day gives your company the most time to respond.",
+     "focus": -1,
+     "file": "clips/8ad1483ce22f.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A breach is a use or disclosure of unsecured PHI that the Privacy Rule does not allow; it is presumed reportable unless a risk assessment shows a low probability of compromise.",
+     "say": "A breach is a use or disclosure of unsecured P H I that the Privacy Rule does not allow; it is presumed reportable unless a risk assessment shows a low probability of compromise.",
+     "focus": 0,
+     "file": "clips/1986c529c65a.mp3",
+     "seconds": 12.8
+    },
+    {
+     "raw": "Properly encrypted data is \"secured\", so losing it is generally not a reportable breach.",
+     "say": "Properly encrypted data is \"secured\", so losing it is generally not a reportable breach.",
+     "focus": 1,
+     "file": "clips/1cfa2b5df6b2.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "Affected people must be told without unreasonable delay and no later than 60 days after discovery; business associates must tell the covered entity.",
+     "say": "Affected people must be told without unreasonable delay and no later than 60 days after discovery; business associates must tell the covered entity.",
+     "focus": 2,
+     "file": "clips/54fe4d3550fb.mp3",
+     "seconds": 10.375
+    },
+    {
+     "raw": "Larger breaches (500 or more people) go to HHS straight away and may need media notice; smaller ones go in a yearly log.",
+     "say": "Larger breaches (500 or more people) go to H H S straight away and may need media notice; smaller ones go in a yearly log.",
+     "focus": 3,
+     "file": "clips/092caef83815.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "Civil fines rise in four tiers with the level of fault, and deliberate misuse can be a crime for individuals too.",
+     "say": "Civil fines rise in four tiers with the level of fault, and deliberate misuse can be a crime for individuals too.",
+     "focus": 4,
+     "file": "clips/206d610d56c5.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

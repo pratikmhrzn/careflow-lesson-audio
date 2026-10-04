@@ -1,0 +1,694 @@
+{
+ "courseId": "lab",
+ "lessonId": "lab-claim",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: The Lab Claim.",
+     "say": "Lesson 3: The Lab Claim.",
+     "focus": -1,
+     "file": "clips/c601a32154ff.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "The money road: CPT codes for tests, and a claim that looks just like a medical claim.",
+     "say": "The money road: C P T codes for tests, and a claim that looks just like a medical claim.",
+     "focus": -1,
+     "file": "clips/2a2d8d399d64.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read a lab claim and its CPT codes.",
+     "say": "Read a lab claim and its C P T codes.",
+     "focus": 0,
+     "file": "clips/7c658eb12c01.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Explain why a panel is one claim line but many results.",
+     "say": "Explain why a panel is one claim line but many results.",
+     "focus": 1,
+     "file": "clips/b77271e6bf63.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "Know which claim form each kind of lab uses.",
+     "say": "Know which claim form each kind of lab uses.",
+     "focus": 2,
+     "file": "clips/c40b8582dc22.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "See what a lab claim can and cannot tell an analyst.",
+     "say": "See what a lab claim can and cannot tell an analyst.",
+     "focus": 3,
+     "file": "clips/fa4e63c0d27e.mp3",
+     "seconds": 3.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with the bill from the counter.",
+     "say": "Start with the bill from the counter.",
+     "focus": -1,
+     "file": "clips/e3799a6f9440.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with the bill from the counter",
+   "lines": [
+    {
+     "raw": "In Nepal: Lab bills in Kathmandu.",
+     "say": "In Nepal: Lab bills in Kathmandu.",
+     "focus": -1,
+     "file": "clips/ed564e664da9.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's check-up bill lists each item with a price: \"Lipid Profile Rs 1,200\", \"HbA1c Rs 900\", \"Sample collection Rs 100\".",
+     "say": "Ram's check-up bill lists each item with a price: \"Lipid Profile Rs 1,200\", \"H b A 1 c Rs 900\", \"Sample collection Rs 100\".",
+     "focus": 0,
+     "file": "clips/343d5cd7987b.mp3",
+     "seconds": 12.075
+    },
+    {
+     "raw": "Notice that \"Lipid Profile\" is **one line** on the bill, even though the report shows four or five numbers.",
+     "say": "Notice that \"Lipid Profile\" is one line on the bill, even though the report shows four or five numbers.",
+     "focus": 1,
+     "file": "clips/c96c7262f466.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's SSF-listed hospital puts her tests on its claim to SSF, one line per billed item, and she pays her **20%** share.",
+     "say": "Sita's S S F listed hospital puts her tests on its claim to S S F, one line per billed item, and she pays her 20 percent share.",
+     "focus": 2,
+     "file": "clips/0bb257e1aec4.mp3",
+     "seconds": 9.6
+    },
+    {
+     "raw": "SSF sees what was billed and how much, not what her numbers were.",
+     "say": "S S F sees what was billed and how much, not what her numbers were.",
+     "focus": 3,
+     "file": "clips/cd7a714e80f0.mp3",
+     "seconds": 4.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with the bill from the counter",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "A **lab claim** is the lab's bill to the payer: one line per billed service, each with a **CPT** (Current Procedural Terminology) code, a date, a diagnosis and a price, and **no result values**.",
+     "say": "A lab claim is the lab's bill to the payer: one line per billed service, each with a C P T (Current Procedural Terminology) code, a date, a diagnosis and a price, and no result values.",
+     "focus": -1,
+     "file": "clips/4e7837497e10.mp3",
+     "seconds": 13.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A lab claim is a medical claim.",
+     "say": "A lab claim is a medical claim.",
+     "focus": -1,
+     "file": "clips/e90b9cfda486.mp3",
+     "seconds": 2.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "A lab claim is a medical claim",
+   "lines": [
+    {
+     "raw": "There is no special \"lab claim form\".",
+     "say": "There is no special \"lab claim form\".",
+     "focus": -1,
+     "file": "clips/4cb8108ed3ad.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Labs use the same claim forms as doctors and hospitals.",
+     "say": "Labs use the same claim forms as doctors and hospitals.",
+     "focus": -1,
+     "file": "clips/f7cfd2a7911d.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Which one depends on **who runs the lab**.",
+     "say": "Which one depends on who runs the lab.",
+     "focus": -1,
+     "file": "clips/9f04ffe5b2a6.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "The Medical course explains these forms and fields in full; here we only look at what is special about labs.",
+     "say": "The Medical course explains these forms and fields in full; here we only look at what is special about labs.",
+     "focus": -1,
+     "file": "clips/ca26daedbd9d.mp3",
+     "seconds": 6.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "A lab claim is a medical claim",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Independent lab**. Claim it sends: Professional claim (paper **CMS-1500**, electronic **837P**), place of service `81` (independent laboratory). Example: Bayou Clinical Lab, a chain with collection centres across Houston.",
+     "say": "Independent lab. Claim it sends: Professional claim (paper C M S 1500, electronic 8 3 7 P), place of service 81 (independent laboratory). Example: Bayou Clinical Lab, a chain with collection centres across Houston.",
+     "focus": 0,
+     "file": "clips/5921871ef878.mp3",
+     "seconds": 17.275
+    },
+    {
+     "raw": "**Hospital lab**. Claim it sends: Institutional claim (paper **UB-04**, electronic **837I**) from the hospital. Example: Blood drawn during an emergency room visit.",
+     "say": "Hospital lab. Claim it sends: Institutional claim (paper U B 04, electronic 8 3 7 I) from the hospital. Example: Blood drawn during an emergency room visit.",
+     "focus": 1,
+     "file": "clips/398d0437aed9.mp3",
+     "seconds": 12.875
+    },
+    {
+     "raw": "**Doctor's office lab**. Claim it sends: On the doctor's own professional claim, next to the visit. Example: A quick urine test done in the clinic.",
+     "say": "Doctor's office lab. Claim it sends: On the doctor's own professional claim, next to the visit. Example: A quick urine test done in the clinic.",
+     "focus": 2,
+     "file": "clips/58cd6895867b.mp3",
+     "seconds": 9.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "A lab claim is a medical claim",
+   "lines": [
+    {
+     "raw": "Here is the CMS-1500 form: Lab claim for Robert (amounts illustrative).",
+     "say": "Here is the C M S 1500 form: Lab claim for Robert (amounts illustrative).",
+     "focus": -1,
+     "file": "clips/9221247b6fd7.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Claim number: 640118.",
+     "say": "Claim number: 640118.",
+     "focus": 0,
+     "file": "clips/e1951a4ee7c2.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Claim type: Professional.",
+     "say": "Claim type: Professional.",
+     "focus": 1,
+     "file": "clips/0cc34113cf50.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Independent lab bill.",
+     "say": "Independent lab bill.",
+     "focus": 1,
+     "file": "clips/6a122e242eb8.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "Patient: Robert Carter.",
+     "say": "Patient: Robert Carter.",
+     "focus": 2,
+     "file": "clips/f4c5c1c2c56c.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Plan member ID GC5001.",
+     "say": "Plan member I D G C 5 0 0 1.",
+     "focus": 2,
+     "file": "clips/0ed15f96a119.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Payer: Gulf Coast Health Plan.",
+     "say": "Payer: Gulf Coast Health Plan.",
+     "focus": 3,
+     "file": "clips/b9ca6ceb67dc.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Fictional; runs Robert's Medicare Advantage plan, Gulf Coast Advantage (HMO).",
+     "say": "Fictional; runs Robert's Medicare Advantage plan, Gulf Coast Advantage (H M O).",
+     "focus": 3,
+     "file": "clips/a1441d8a6a5c.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "Billing provider: Bayou Clinical Lab.",
+     "say": "Billing provider: Bayou Clinical Lab.",
+     "focus": 4,
+     "file": "clips/1a0ad7d20785.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "NPI 1679534820 (fictional).",
+     "say": "N P I 1679534820 (fictional).",
+     "focus": 4,
+     "file": "clips/cdf9a6f4c5fc.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "Referring provider: Dr. Nguyen.",
+     "say": "Referring provider: Doctor Nguyen.",
+     "focus": 5,
+     "file": "clips/2e0316320f7e.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "NPI 1982736450 (fictional), ordered the tests.",
+     "say": "N P I 1982736450 (fictional), ordered the tests.",
+     "focus": 5,
+     "file": "clips/eff5439afcd9.mp3",
+     "seconds": 8.65
+    },
+    {
+     "raw": "Diagnoses: E11.9, E78.5.",
+     "say": "Diagnoses: E 1 1 . 9, E 7 8 . 5.",
+     "focus": 6,
+     "file": "clips/66ab04231c9c.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "Type 2 diabetes · high cholesterol.",
+     "say": "Type 2 diabetes, high cholesterol.",
+     "focus": 6,
+     "file": "clips/94d83847550f.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Total charges: $125.00.",
+     "say": "Total charges: 125 dollars.",
+     "focus": 7,
+     "file": "clips/a321c7ffb584.mp3",
+     "seconds": 3.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Reading the claim, field by field.",
+     "say": "Reading the claim, field by field.",
+     "focus": -1,
+     "file": "clips/ffcc369f7c49.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Reading the claim, field by field",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Billing provider**. What it tells you: Who ran the tests and wants to be paid. **NPI** (National Provider Identifier) is the 10-digit ID every US provider has. Robert's claim: Bayou Clinical Lab.",
+     "say": "Billing provider. What it tells you: Who ran the tests and wants to be paid. N P I (National Provider Identifier) is the 10-digit I D every U S provider has. Robert's claim: Bayou Clinical Lab.",
+     "focus": 0,
+     "file": "clips/ec1733647df8.mp3",
+     "seconds": 14.45
+    },
+    {
+     "raw": "**Referring (ordering) provider**. What it tells you: The doctor who asked for the tests. Labs usually cannot bill without one. Robert's claim: Dr. Nguyen.",
+     "say": "Referring (ordering) provider. What it tells you: The doctor who asked for the tests. Labs usually cannot bill without one. Robert's claim: Doctor Nguyen.",
+     "focus": 1,
+     "file": "clips/98fb1d56a021.mp3",
+     "seconds": 9.975
+    },
+    {
+     "raw": "**Service date**. What it tells you: Normally the day the **sample was collected**, not the day the result came out. Robert's claim: 10 Feb 2025.",
+     "say": "Service date. What it tells you: Normally the day the sample was collected, not the day the result came out. Robert's claim: 10 Feb 2025.",
+     "focus": 2,
+     "file": "clips/5b0925f9ac98.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "**CPT code**. What it tells you: Which test or service was billed. Robert's claim: `83036` HbA1c, `80061` lipid panel...",
+     "say": "C P T code. What it tells you: Which test or service was billed. Robert's claim: 8 3 0 3 6 H b A 1 c, 8 0 0 6 1 lipid panel...",
+     "focus": 3,
+     "file": "clips/636172cf24d9.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "**Diagnosis (ICD-10-CM)**. What it tells you: Why the test was needed, using the US diagnosis code list. Robert's claim: `E11.9` type 2 diabetes.",
+     "say": "Diagnosis (I C D 10-CM). What it tells you: Why the test was needed, using the U S diagnosis code list. Robert's claim: E 1 1 . 9 type 2 diabetes.",
+     "focus": 4,
+     "file": "clips/97b55af8a7d5.mp3",
+     "seconds": 12.425
+    },
+    {
+     "raw": "**Billed amount**. What it tells you: The lab's price before the plan applies its rates. Robert's claim: $125 in total.",
+     "say": "Billed amount. What it tells you: The lab's price before the plan applies its rates. Robert's claim: 125 dollars in total.",
+     "focus": 5,
+     "file": "clips/764b197100fc.mp3",
+     "seconds": 9.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "CPT codes for lab tests.",
+     "say": "C P T codes for lab tests.",
+     "focus": -1,
+     "file": "clips/7565e72b7ab6.mp3",
+     "seconds": 2.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "CPT codes for lab tests",
+   "lines": [
+    {
+     "raw": "Lab tests sit in their own section of CPT, the **Pathology and Laboratory** codes, which are five-digit numbers starting with **8**.",
+     "say": "Lab tests sit in their own section of C P T, the Pathology and Laboratory codes, which are five-digit numbers starting with 8.",
+     "focus": -1,
+     "file": "clips/b33037eacb64.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "Taking the blood is a separate service with its own code.",
+     "say": "Taking the blood is a separate service with its own code.",
+     "focus": -1,
+     "file": "clips/0e744a17d149.mp3",
+     "seconds": 3.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "CPT codes for lab tests",
+   "lines": [
+    {
+     "raw": "The kinds of CPT lines on a lab claim.",
+     "say": "The kinds of C P T lines on a lab claim.",
+     "focus": -1,
+     "file": "clips/988fd1dbb9d7.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "**Single test**. What it bills: One measured thing. Robert's example: `83036` HbA1c.",
+     "say": "Single test. What it bills: One measured thing. Robert's example: 8 3 0 3 6 H b A 1 c.",
+     "focus": 0,
+     "file": "clips/e4cb9b010c12.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "**Panel**. What it bills: A fixed group of tests run together, billed as **one** line. Robert's example: `80061` lipid panel; `80053` comprehensive metabolic panel (14 tests).",
+     "say": "Panel. What it bills: A fixed group of tests run together, billed as one line. Robert's example: 8 0 0 6 1 lipid panel; 8 0 0 5 3 comprehensive metabolic panel (14 tests).",
+     "focus": 1,
+     "file": "clips/a4a36132c9e3.mp3",
+     "seconds": 15.25
+    },
+    {
+     "raw": "**Collection**. What it bills: Drawing the blood, not a test at all. Robert's example: `36415` blood draw.",
+     "say": "Collection. What it bills: Drawing the blood, not a test at all. Robert's example: 3 6 4 1 5 blood draw.",
+     "focus": 2,
+     "file": "clips/ce8d3791441f.mp3",
+     "seconds": 7.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "CPT codes for lab tests",
+   "lines": [
+    {
+     "raw": "One claim line, many results.",
+     "say": "One claim line, many results.",
+     "focus": -1,
+     "file": "clips/9917e28091c5.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "The lipid panel is **one** claim line but produces **four or more** results.",
+     "say": "The lipid panel is one claim line but produces four or more results.",
+     "focus": -1,
+     "file": "clips/d4a9e6ff3f6b.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "So you cannot count \"how many tests were measured\" from claim lines, and you cannot read a value from any of them.",
+     "say": "So you cannot count \"how many tests were measured\" from claim lines, and you cannot read a value from any of them.",
+     "focus": -1,
+     "file": "clips/7a9a0e798ea2.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Lesson 6 shows how to connect each claim line to the results it produced.",
+     "say": "Lesson 6 shows how to connect each claim line to the results it produced.",
+     "focus": -1,
+     "file": "clips/59b6d835f469.mp3",
+     "seconds": 5.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "CPT codes for lab tests",
+   "lines": [
+    {
+     "raw": "What does Robert pay?",
+     "say": "What does Robert pay?",
+     "focus": -1,
+     "file": "clips/507f69a64075.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Under Original Medicare, covered clinical lab tests usually cost the patient **$0**.",
+     "say": "Under Original Medicare, covered clinical lab tests usually cost the patient 0 dollars.",
+     "focus": -1,
+     "file": "clips/57713951b1c2.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "Medicare Advantage plans set their own cost sharing, and many also charge **$0** for in-network lab tests.",
+     "say": "Medicare Advantage plans set their own cost sharing, and many also charge 0 dollars for in-network lab tests.",
+     "focus": -1,
+     "file": "clips/31ded900d5ee.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "In our example, Robert's plan charges him nothing.",
+     "say": "In our example, Robert's plan charges him nothing.",
+     "focus": -1,
+     "file": "clips/65a86215842f.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Check: $10 + $30 + $40 + $45 = **$125** billed.",
+     "say": "Check: 10 dollars and 30 dollars and 40 dollars and 45 dollars = 125 dollars billed.",
+     "focus": -1,
+     "file": "clips/8199ff28cd7f.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "How Medicare sets lab prices (a fee schedule) is covered in the Fee For Service course.",
+     "say": "How Medicare sets lab prices (a fee schedule) is covered in the Fee For Service course.",
+     "focus": -1,
+     "file": "clips/4e8113a33308.mp3",
+     "seconds": 5.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "CPT codes for lab tests",
+   "lines": [
+    {
+     "raw": "Labs need a licence number too.",
+     "say": "Labs need a licence number too.",
+     "focus": -1,
+     "file": "clips/61035e3b858f.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Every US lab that tests human samples needs a **CLIA** certificate (Clinical Laboratory Improvement Amendments, the federal lab quality law).",
+     "say": "Every U S lab that tests human samples needs a C L I A certificate (Clinical Laboratory Improvement Amendments, the federal lab quality law).",
+     "focus": -1,
+     "file": "clips/e39032d6d54c.mp3",
+     "seconds": 9.7
+    },
+    {
+     "raw": "Medicare claims for lab tests carry the lab's CLIA number, so payers can check the lab is allowed to run that kind of test.",
+     "say": "Medicare claims for lab tests carry the lab's C L I A number, so payers can check the lab is allowed to run that kind of test.",
+     "focus": -1,
+     "file": "clips/37e442dff323.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "CPT codes for lab tests",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Lab claims are **complete** (labs always bill) but **thin**: they prove a test was done, on which date, for which diagnosis, and at what price.",
+     "say": "Lab claims are complete (labs always bill) but thin: they prove a test was done, on which date, for which diagnosis, and at what price.",
+     "focus": -1,
+     "file": "clips/3e7deb8cea1a.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "Use them to count **who was tested and when**, and to find gaps (a member with diabetes and no HbA1c claim this year).",
+     "say": "Use them to count who was tested and when, and to find gaps (a member with diabetes and no H b A 1 c claim this year).",
+     "focus": -1,
+     "file": "clips/eff96dcb811c.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "For **what the test found**, you need the result road.",
+     "say": "For what the test found, you need the result road.",
+     "focus": -1,
+     "file": "clips/ff7ce29cc683.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A lab claim is an ordinary medical claim: professional (CMS-1500 / 837P) for independent labs, institutional (UB-04 / 837I) for hospital labs.",
+     "say": "A lab claim is an ordinary medical claim: professional (C M S 1500 or 8 3 7 P) for independent labs, institutional (U B 04 or 8 3 7 I) for hospital labs.",
+     "focus": 0,
+     "file": "clips/8fc84148ae76.mp3",
+     "seconds": 14.55
+    },
+    {
+     "raw": "Each line has a CPT code, the collection date, a diagnosis and a price, but never a result value.",
+     "say": "Each line has a C P T code, the collection date, a diagnosis and a price, but never a result value.",
+     "focus": 1,
+     "file": "clips/22ffe2ea1bfb.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "A panel is one claim line that produces several results; the blood draw is its own line.",
+     "say": "A panel is one claim line that produces several results; the blood draw is its own line.",
+     "focus": 2,
+     "file": "clips/22cdb122574f.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "The ordering doctor appears as the referring provider; the lab is the billing provider.",
+     "say": "The ordering doctor appears as the referring provider; the lab is the billing provider.",
+     "focus": 3,
+     "file": "clips/59c2dbf909ce.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Claims answer \"who was tested, when, and for what reason\", not \"what did it show\".",
+     "say": "Claims answer \"who was tested, when, and for what reason\", not \"what did it show\".",
+     "focus": 4,
+     "file": "clips/a7f8609ced11.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

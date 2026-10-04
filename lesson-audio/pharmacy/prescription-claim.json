@@ -1,0 +1,876 @@
+{
+ "courseId": "pharmacy",
+ "lessonId": "prescription-claim",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: The Claim Record.",
+     "say": "Lesson 3: The Claim Record.",
+     "focus": -1,
+     "file": "clips/2d15b032d37d.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "How a prescription becomes one claim record, and the field groups you will find on it.",
+     "say": "How a prescription becomes one claim record, and the field groups you will find on it.",
+     "focus": -1,
+     "file": "clips/2dde63cc1b79.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "See how the instructions on a prescription become claim fields.",
+     "say": "See how the instructions on a prescription become claim fields.",
+     "focus": 0,
+     "file": "clips/5698b5c7831c.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "Name the main field groups on a pharmacy claim and which lesson covers each.",
+     "say": "Name the main field groups on a pharmacy claim and which lesson covers each.",
+     "focus": 1,
+     "file": "clips/5c3f48dfeb7a.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Understand why one pharmacy claim usually equals one drug, one fill.",
+     "say": "Understand why one pharmacy claim usually equals one drug, one fill.",
+     "focus": 2,
+     "file": "clips/86d67ee84353.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Know what the claim number and Rx number each identify.",
+     "say": "Know what the claim number and Rx number each identify.",
+     "focus": 3,
+     "file": "clips/37b5aa87a539.mp3",
+     "seconds": 4.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with the bill you already know.",
+     "say": "Start with the bill you already know.",
+     "focus": -1,
+     "file": "clips/bd1cb6391fbd.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with the bill you already know",
+   "lines": [
+    {
+     "raw": "A Nepali pharmacy bill.",
+     "say": "A Nepali pharmacy bill.",
+     "focus": -1,
+     "file": "clips/eb2d0c40ac8d.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's medical shop bill shows a **bill number**, the **date**, the **medicine name**, the **quantity** (\"Amoxicillin 500 mg × 30\") and the **price**.",
+     "say": "Ram's medical shop bill shows a bill number, the date, the medicine name, the quantity (\"Amoxicillin 500 mg × 30\") and the price.",
+     "focus": 0,
+     "file": "clips/a7f7809e8f9f.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "It does **not** show how many days the medicine lasts or whether it is a refill.",
+     "say": "It does not show how many days the medicine lasts or whether it is a refill.",
+     "focus": 1,
+     "file": "clips/a448a49beac8.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Ram's insurer reads that from the **prescription** he attaches.",
+     "say": "Ram's insurer reads that from the prescription he attaches.",
+     "focus": 1,
+     "file": "clips/0826edf0fb75.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's hospital pharmacy enters the medicine and quantity into the hospital system, and it becomes one item on the hospital's claim to SSF.",
+     "say": "Sita's hospital pharmacy enters the medicine and quantity into the hospital system, and it becomes one item on the hospital's claim to S S F.",
+     "focus": 2,
+     "file": "clips/9f58136d450e.mp3",
+     "seconds": 9.65
+    },
+    {
+     "raw": "Her medicine is mixed in with her consultation and tests on the same bill.",
+     "say": "Her medicine is mixed in with her consultation and tests on the same bill.",
+     "focus": 3,
+     "file": "clips/a1428038b8b9.mp3",
+     "seconds": 4.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with the bill you already know",
+   "lines": [
+    {
+     "raw": "A US pharmacy claim is the same bill, made **stricter**: every detail has its own fixed field, so a computer can check and pay it in seconds.",
+     "say": "A U S pharmacy claim is the same bill, made stricter: every detail has its own fixed field, so a computer can check and pay it in seconds.",
+     "focus": -1,
+     "file": "clips/2e9eb370ae24.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "**In one sentence: a pharmacy claim record turns one filled prescription into one row of fields that a PBM can read.**",
+     "say": "In one sentence: a pharmacy claim record turns one filled prescription into one row of fields that a P B M can read.",
+     "focus": -1,
+     "file": "clips/d591d98ef77d.mp3",
+     "seconds": 8.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "From prescription paper to claim.",
+     "say": "From prescription paper to claim.",
+     "focus": -1,
+     "file": "clips/2898b6156bb6.mp3",
+     "seconds": 2.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "From prescription paper to claim",
+   "lines": [
+    {
+     "raw": "A prescription has a few simple instructions: **which drug**, **how much** to give, **how to take it**, and **how many refills** are allowed.",
+     "say": "A prescription has a few simple instructions: which drug, how much to give, how to take it, and how many refills are allowed.",
+     "focus": -1,
+     "file": "clips/8c2647eef67d.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "The pharmacy turns these into claim fields.",
+     "say": "The pharmacy turns these into claim fields.",
+     "focus": -1,
+     "file": "clips/1d10f9a5ccde.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Here is Emily's amoxicillin from 10 March 2025.",
+     "say": "Here is Emily's amoxicillin from 10 March 2025.",
+     "focus": -1,
+     "file": "clips/86404fbff31c.mp3",
+     "seconds": 4.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "From prescription paper to claim",
+   "lines": [
+    {
+     "raw": "In the US: Dr. Patel's prescription for Emily.",
+     "say": "In the U S: Doctor Patel's prescription for Emily.",
+     "focus": -1,
+     "file": "clips/abd409c2fc83.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "**Amoxicillin 500 mg capsules**.",
+     "say": "Amoxicillin 500 mg capsules.",
+     "focus": 0,
+     "file": "clips/4c2f0f2a54f0.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Take **1 capsule 3 times a day** for **10 days**.",
+     "say": "Take 1 capsule 3 times a day for 10 days.",
+     "focus": 1,
+     "file": "clips/be3407a25408.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Quantity: **30** capsules.",
+     "say": "Quantity: 30 capsules.",
+     "focus": 2,
+     "file": "clips/7abff699db69.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Refills: **0** (an antibiotic course is taken once, not repeated).",
+     "say": "Refills: 0 (an antibiotic course is taken once, not repeated).",
+     "focus": 3,
+     "file": "clips/7fec4aeb5516.mp3",
+     "seconds": 5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "From prescription paper to claim",
+   "lines": [
+    {
+     "raw": "Here is the NCPDP form: Pharmacy claim: Emily's amoxicillin.",
+     "say": "Here is the N C P D P form: Pharmacy claim: Emily's amoxicillin.",
+     "focus": -1,
+     "file": "clips/1fa9de972515.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Claim number: 840112301.",
+     "say": "Claim number: 840112301.",
+     "focus": 0,
+     "file": "clips/264412a09b05.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Assigned by the PBM.",
+     "say": "Assigned by the P B M.",
+     "focus": 0,
+     "file": "clips/f52395a3d77a.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Transaction: B1.",
+     "say": "Transaction: B1.",
+     "focus": 1,
+     "file": "clips/0b30c6fc7553.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Billing (a new claim), lesson 9.",
+     "say": "Billing (a new claim), lesson 9.",
+     "focus": 1,
+     "file": "clips/b3fbcd51258e.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Patient: Emily Carter.",
+     "say": "Patient: Emily Carter.",
+     "focus": 2,
+     "file": "clips/481f9e1c8979.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Member ID M1001.",
+     "say": "Member I D M 1 0 0 1.",
+     "focus": 2,
+     "file": "clips/3e12072f2c54.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Rx number: 6001234.",
+     "say": "Rx number: 6001234.",
+     "focus": 3,
+     "file": "clips/5e55dfa9c064.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "The pharmacy's own number for this prescription.",
+     "say": "The pharmacy's own number for this prescription.",
+     "focus": 3,
+     "file": "clips/11a1b30eddec.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "Fill date: 10 Mar 2025.",
+     "say": "Fill date: 10 Mar 2025.",
+     "focus": 4,
+     "file": "clips/629e39b5d44c.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "The day it was filled (lesson 5).",
+     "say": "The day it was filled (lesson 5).",
+     "focus": 4,
+     "file": "clips/7dc4a8e76811.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Fill number: 0.",
+     "say": "Fill number: 0.",
+     "focus": 5,
+     "file": "clips/813f6ae28676.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "First fill (lesson 5).",
+     "say": "First fill (lesson 5).",
+     "focus": 5,
+     "file": "clips/bed960546c2f.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "Refills authorized: 0.",
+     "say": "Refills authorized: 0.",
+     "focus": 6,
+     "file": "clips/fbc1ffec7374.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Dr. Patel allowed no refills (lesson 5).",
+     "say": "Doctor Patel allowed no refills (lesson 5).",
+     "focus": 6,
+     "file": "clips/754912c20e62.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "NDC: 12345010105.",
+     "say": "N D C: 12345010105.",
+     "focus": 7,
+     "file": "clips/06356e9ed750.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "The drug code (lesson 4).",
+     "say": "The drug code (lesson 4).",
+     "focus": 7,
+     "file": "clips/318a29c8d5f6.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Compound code: 1.",
+     "say": "Compound code: 1.",
+     "focus": 8,
+     "file": "clips/7a5dbd0d422f.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "A ready-made product, not mixed by hand.",
+     "say": "A ready-made product, not mixed by hand.",
+     "focus": 8,
+     "file": "clips/b504bebb2515.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Quantity dispensed: 30.",
+     "say": "Quantity dispensed: 30.",
+     "focus": 9,
+     "file": "clips/35a80eaa8307.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "30 capsules (lesson 5).",
+     "say": "30 capsules (lesson 5).",
+     "focus": 9,
+     "file": "clips/0f51150f5d23.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "Days supply: 10.",
+     "say": "Days supply: 10.",
+     "focus": 10,
+     "file": "clips/4d6200fad15f.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "How many days it should last (lesson 5).",
+     "say": "How many days it should last (lesson 5).",
+     "focus": 10,
+     "file": "clips/f8ebd259fea2.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "DAW code: 0.",
+     "say": "D A W code: 0.",
+     "focus": 11,
+     "file": "clips/e03b99d02b15.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Brand or generic choice (lesson 7).",
+     "say": "Brand or generic choice (lesson 7).",
+     "focus": 11,
+     "file": "clips/a56927734b51.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Prescriber: Dr. Patel.",
+     "say": "Prescriber: Doctor Patel.",
+     "focus": 12,
+     "file": "clips/85dc92c689f6.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "NPI 1043827165 (lesson 6).",
+     "say": "N P I 1043827165 (lesson 6).",
+     "focus": 12,
+     "file": "clips/e14135abc900.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Pharmacy: Main Street Pharmacy.",
+     "say": "Pharmacy: Main Street Pharmacy.",
+     "focus": 13,
+     "file": "clips/19a391394112.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "NPI 1928374655 · NCPDP ID 4512345 (lesson 6).",
+     "say": "N P I 1928374655, N C P D P I D 4512345 (lesson 6).",
+     "focus": 13,
+     "file": "clips/3ad6549013ec.mp3",
+     "seconds": 13.925
+    },
+    {
+     "raw": "Gross amount due: $11.30.",
+     "say": "Gross amount due: 11 dollars 30 cents.",
+     "focus": 14,
+     "file": "clips/bd0798ab95f9.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Total price of this fill (lesson 8).",
+     "say": "Total price of this fill (lesson 8).",
+     "focus": 14,
+     "file": "clips/56ed3cfd818b.mp3",
+     "seconds": 2.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The field groups.",
+     "say": "The field groups.",
+     "focus": -1,
+     "file": "clips/7f2867a60ae7.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The field groups",
+   "lines": [
+    {
+     "raw": "Do not try to learn every field at once.",
+     "say": "Do not try to learn every field at once.",
+     "focus": -1,
+     "file": "clips/531decdccede.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Group them by the question they answer.",
+     "say": "Group them by the question they answer.",
+     "focus": -1,
+     "file": "clips/2587f42d705a.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "Each group has its own lesson in this course:",
+     "say": "Each group has its own lesson in this course:",
+     "focus": -1,
+     "file": "clips/be8dc44dc57a.mp3",
+     "seconds": 2.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The field groups",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Identity**. Question it answers: Which claim? Which member? Which prescription? Main fields: Claim number, member ID, Rx number. Lesson: This lesson.",
+     "say": "Identity. Question it answers: Which claim? Which member? Which prescription? Main fields: Claim number, member I D, Rx number. Lesson: This lesson.",
+     "focus": 0,
+     "file": "clips/fa67921de1e8.mp3",
+     "seconds": 10.7
+    },
+    {
+     "raw": "**Drug**. Question it answers: Which drug, exactly? Main fields: NDC. Lesson: 4.",
+     "say": "Drug. Question it answers: Which drug, exactly? Main fields: N D C. Lesson: 4.",
+     "focus": 1,
+     "file": "clips/46b9e91b0e78.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "**Quantity and dates**. Question it answers: How much, for how long, when, which refill? Main fields: Quantity, days supply, fill date, fill number. Lesson: 5.",
+     "say": "Quantity and dates. Question it answers: How much, for how long, when, which refill? Main fields: Quantity, days supply, fill date, fill number. Lesson: 5.",
+     "focus": 2,
+     "file": "clips/f9464c1658f2.mp3",
+     "seconds": 11
+    },
+    {
+     "raw": "**Prescriber and pharmacy**. Question it answers: Who wrote it? Who filled it? Main fields: Prescriber NPI, pharmacy NPI and NCPDP ID. Lesson: 6.",
+     "say": "Prescriber and pharmacy. Question it answers: Who wrote it? Who filled it? Main fields: Prescriber N P I, pharmacy N P I and N C P D P I D. Lesson: 6.",
+     "focus": 3,
+     "file": "clips/427b71704d69.mp3",
+     "seconds": 12.2
+    },
+    {
+     "raw": "**Product choice**. Question it answers: Brand or generic? Which price level? Main fields: DAW code, formulary tier. Lesson: 7.",
+     "say": "Product choice. Question it answers: Brand or generic? Which price level? Main fields: D A W code, formulary tier. Lesson: 7.",
+     "focus": 4,
+     "file": "clips/853cac4294ea.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "**Money**. Question it answers: How much, and who paid? Main fields: Ingredient cost, fee, patient pay, plan paid. Lesson: 8.",
+     "say": "Money. Question it answers: How much, and who paid? Main fields: Ingredient cost, fee, patient pay, plan paid. Lesson: 8.",
+     "focus": 5,
+     "file": "clips/cdc243c499ef.mp3",
+     "seconds": 9.075
+    },
+    {
+     "raw": "**Status**. Question it answers: Paid, rejected or cancelled? Main fields: Transaction code, claim status, reject codes. Lesson: 9 and 10.",
+     "say": "Status. Question it answers: Paid, rejected or cancelled? Main fields: Transaction code, claim status, reject codes. Lesson: 9 and 10.",
+     "focus": 6,
+     "file": "clips/d2eb67f8e0b5.mp3",
+     "seconds": 10.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The two IDs in this lesson.",
+     "say": "The two I D's in this lesson.",
+     "focus": -1,
+     "file": "clips/2ca154a8c5a7.mp3",
+     "seconds": 2.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The two IDs in this lesson",
+   "lines": [
+    {
+     "raw": "Claim number.",
+     "say": "Claim number.",
+     "focus": 0,
+     "file": "clips/d2c663e80650.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Given by the **PBM** to each claim it receives.",
+     "say": "Given by the P B M to each claim it receives.",
+     "focus": 0,
+     "file": "clips/836749113d61.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "It identifies **one claim transaction**.",
+     "say": "It identifies one claim transaction.",
+     "focus": 0,
+     "file": "clips/048cece1040c.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Rx number (prescription number).",
+     "say": "Rx number (prescription number).",
+     "focus": 1,
+     "file": "clips/2bcce0173569.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Given by the **pharmacy** to the prescription.",
+     "say": "Given by the pharmacy to the prescription.",
+     "focus": 1,
+     "file": "clips/f2d20c199025.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "It stays the **same for every refill**, like a file number.",
+     "say": "It stays the same for every refill, like a file number.",
+     "focus": 1,
+     "file": "clips/ce6f16014ab1.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Two different pharmacies can use the same Rx number for different patients, so it is only unique **within one pharmacy**.",
+     "say": "Two different pharmacies can use the same Rx number for different patients, so it is only unique within one pharmacy.",
+     "focus": 1,
+     "file": "clips/39fa4f9614d2.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "Compound code.",
+     "say": "Compound code.",
+     "focus": 2,
+     "file": "clips/141426873bfc.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "Says whether the drug is a normal **ready-made** product or a **compound**: a medicine the pharmacist mixes by hand from several ingredients.",
+     "say": "Says whether the drug is a normal ready-made product or a compound: a medicine the pharmacist mixes by hand from several ingredients.",
+     "focus": 2,
+     "file": "clips/83a5ea180693.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "Compounds are rare, but they are the one kind of pharmacy claim that lists several ingredients.",
+     "say": "Compounds are rare, but they are the one kind of pharmacy claim that lists several ingredients.",
+     "focus": 2,
+     "file": "clips/456242259603.mp3",
+     "seconds": 6.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "One claim, usually one drug.",
+     "say": "One claim, usually one drug.",
+     "focus": -1,
+     "file": "clips/f52a787cbea6.mp3",
+     "seconds": 2.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "One claim, usually one drug",
+   "lines": [
+    {
+     "raw": "A medical claim has a **header** (who, when, why) and **many lines** (one per service).",
+     "say": "A medical claim has a header (who, when, why) and many lines (one per service).",
+     "focus": -1,
+     "file": "clips/ea1331338211.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "A pharmacy claim is much flatter: it usually covers **one drug, one fill**, so header and line are effectively one row.",
+     "say": "A pharmacy claim is much flatter: it usually covers one drug, one fill, so header and line are effectively one row.",
+     "focus": -1,
+     "file": "clips/ac46daf34b3d.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "If Emily picks up three medicines at once, the pharmacy sends **three separate claims**, and each gets its own answer.",
+     "say": "If Emily picks up three medicines at once, the pharmacy sends three separate claims, and each gets its own answer.",
+     "focus": -1,
+     "file": "clips/d6b0602b3650.mp3",
+     "seconds": 7.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "One claim, usually one drug",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "One claim covers. Medical claim: A whole visit or stay. Pharmacy claim: **One drug, one fill**.",
+     "say": "One claim covers. Medical claim: A whole visit or stay. Pharmacy claim: One drug, one fill.",
+     "focus": 0,
+     "file": "clips/2debc50a91bd.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Lines. Medical claim: Many lines (one per service). Pharmacy claim: Usually just one.",
+     "say": "Lines. Medical claim: Many lines (one per service). Pharmacy claim: Usually just one.",
+     "focus": 1,
+     "file": "clips/94e15b8c8fe7.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Diagnosis on the claim? Medical claim: Yes, always. Pharmacy claim: Usually not.",
+     "say": "Diagnosis on the claim? Medical claim: Yes, always. Pharmacy claim: Usually not.",
+     "focus": 2,
+     "file": "clips/745e63744454.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "To count visits or fills. Medical claim: Count unique claim numbers. Pharmacy claim: Count claims, after removing cancelled ones (lesson 10).",
+     "say": "To count visits or fills. Medical claim: Count unique claim numbers. Pharmacy claim: Count claims, after removing cancelled ones (lesson 10).",
+     "focus": 3,
+     "file": "clips/787d6b67d0cf.mp3",
+     "seconds": 10.075
+    },
+    {
+     "raw": "Key code. Medical claim: CPT / HCPCS + ICD-10. Pharmacy claim: NDC.",
+     "say": "Key code. Medical claim: C P T or H C P C S and I C D 10. Pharmacy claim: N D C.",
+     "focus": 4,
+     "file": "clips/ab4007d2669e.mp3",
+     "seconds": 8.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "One claim, usually one drug",
+   "lines": [
+    {
+     "raw": "In the US: Emily's 2025 claims at a glance.",
+     "say": "In the U S: Emily's 2025 claims at a glance.",
+     "focus": -1,
+     "file": "clips/abcd77fc2bc9.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "**10 March**: amoxicillin, prescribed by Dr. Patel for strep throat: **one claim**.",
+     "say": "10 March: amoxicillin, prescribed by Doctor Patel for strep throat: one claim.",
+     "focus": 0,
+     "file": "clips/7198e5658e09.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "**4 June**: ibuprofen after her appendix surgery, prescribed by her surgeon Dr. Lee: **one claim**.",
+     "say": "4 June: ibuprofen after her appendix surgery, prescribed by her surgeon Doctor Lee: one claim.",
+     "focus": 1,
+     "file": "clips/8fc3b74edafd.mp3",
+     "seconds": 7.35
+    },
+    {
+     "raw": "**15 July onwards**: atorvastatin for high cholesterol, refilled every month: **one claim per fill**, all with the **same Rx number**.",
+     "say": "15 July onwards: atorvastatin for high cholesterol, refilled every month: one claim per fill, all with the same Rx number.",
+     "focus": 2,
+     "file": "clips/72048f4fb973.mp3",
+     "seconds": 9.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "One claim, usually one drug",
+   "lines": [
+    {
+     "raw": "Why this matters for data.",
+     "say": "Why this matters for data.",
+     "focus": -1,
+     "file": "clips/c8f083c01ae7.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Because one row is one fill of one drug, pharmacy data is the easiest claim data to count.",
+     "say": "Because one row is one fill of one drug, pharmacy data is the easiest claim data to count.",
+     "focus": -1,
+     "file": "clips/a78a5826dfe5.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "But the **Rx number alone** does not identify a prescription across the whole data set: always pair it with the **pharmacy's ID**.",
+     "say": "But the Rx number alone does not identify a prescription across the whole data set: always pair it with the pharmacy's I D.",
+     "focus": -1,
+     "file": "clips/8ae467d585c9.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "Lesson 5 adds the fields that pick out one specific fill.",
+     "say": "Lesson 5 adds the fields that pick out one specific fill.",
+     "focus": -1,
+     "file": "clips/a7aef6b842e8.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A pharmacy claim record turns one filled prescription into one row of fields.",
+     "say": "A pharmacy claim record turns one filled prescription into one row of fields.",
+     "focus": 0,
+     "file": "clips/8b8ed6d5151d.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Fields fall into groups: identity, drug, quantity and dates, prescriber and pharmacy, product choice, money and status.",
+     "say": "Fields fall into groups: identity, drug, quantity and dates, prescriber and pharmacy, product choice, money and status.",
+     "focus": 1,
+     "file": "clips/480dba6e8127.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "A pharmacy claim usually covers **one drug, one fill**, unlike multi-line medical claims.",
+     "say": "A pharmacy claim usually covers one drug, one fill, unlike multi-line medical claims.",
+     "focus": 2,
+     "file": "clips/8e78cd025e9a.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "The **claim number** identifies one claim; the **Rx number** identifies a prescription within one pharmacy and stays the same across refills.",
+     "say": "The claim number identifies one claim; the Rx number identifies a prescription within one pharmacy and stays the same across refills.",
+     "focus": 3,
+     "file": "clips/7128fe4b0adb.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

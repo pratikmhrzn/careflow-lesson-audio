@@ -1,0 +1,855 @@
+{
+ "courseId": "eligibility",
+ "lessonId": "coverage-dates",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: Coverage Dates & Enrollment Spans.",
+     "say": "Lesson 4: Coverage Dates and Enrollment Spans.",
+     "focus": -1,
+     "file": "clips/452fc43c4e5e.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Cover has a start and an end.",
+     "say": "Cover has a start and an end.",
+     "focus": -1,
+     "file": "clips/c15429819cb6.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Each period becomes one row.",
+     "say": "Each period becomes one row.",
+     "focus": -1,
+     "file": "clips/76604eaee9cb.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read effective and termination dates, including open-ended ones.",
+     "say": "Read effective and termination dates, including open-ended ones.",
+     "focus": 0,
+     "file": "clips/3076824a8f5e.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "Understand why one member can have several spans (rows).",
+     "say": "Understand why one member can have several spans (rows).",
+     "focus": 1,
+     "file": "clips/0f0cebe0bd42.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Know when people can join: open enrollment and qualifying life events.",
+     "say": "Know when people can join: open enrollment and qualifying life events.",
+     "focus": 2,
+     "file": "clips/e171e87968fc.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "Recognise gaps, COBRA and retroactive terminations.",
+     "say": "Recognise gaps, COBRA and retroactive terminations.",
+     "focus": 3,
+     "file": "clips/27c2228f7987.mp3",
+     "seconds": 4.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two dates for every period of cover.",
+     "say": "Two dates for every period of cover.",
+     "focus": -1,
+     "file": "clips/09a1ba48f8bb.mp3",
+     "seconds": 2.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Two dates for every period of cover",
+   "lines": [
+    {
+     "raw": "Effective date (eff_dt, start date).",
+     "say": "Effective date (eff_dt, start date).",
+     "focus": 0,
+     "file": "clips/82ea78f421ec.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "The **first day** the person is covered.",
+     "say": "The first day the person is covered.",
+     "focus": 0,
+     "file": "clips/c7cda9e8a213.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Termination date (term_dt, end date).",
+     "say": "Termination date (term_dt, end date).",
+     "focus": 1,
+     "file": "clips/25e5fc8f3263.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "The **last day** the person is covered.",
+     "say": "The last day the person is covered.",
+     "focus": 1,
+     "file": "clips/42b748918734.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "In most eligibility data this day is **included**: covered up to and including that date.",
+     "say": "In most eligibility data this day is included: covered up to and including that date.",
+     "focus": 1,
+     "file": "clips/ec4da9d37e9e.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "Enrollment span (coverage span, segment).",
+     "say": "Enrollment span (coverage span, segment).",
+     "focus": 2,
+     "file": "clips/2ac53d197037.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "One continuous period of cover, from one effective date to one termination date.",
+     "say": "One continuous period of cover, from one effective date to one termination date.",
+     "focus": 2,
+     "file": "clips/5f9fd04f1ee8.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "In data, **one span = one row**.",
+     "say": "In data, one span = one row.",
+     "focus": 2,
+     "file": "clips/92132060cd37.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Open-ended span.",
+     "say": "Open-ended span.",
+     "focus": 3,
+     "file": "clips/e92582f022ad.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Cover that has **no end date yet**.",
+     "say": "Cover that has no end date yet.",
+     "focus": 3,
+     "file": "clips/e05131f5cd81.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "The term date is stored as `9999-12-31` (sometimes `2099-12-31`) or left as `NULL`.",
+     "say": "The term date is stored as 9 9 9 9 dash 1 2 dash 3 1 (sometimes 2 0 9 9 dash 1 2 dash 3 1) or left as N U L L.",
+     "focus": 3,
+     "file": "clips/93d9c652a166.mp3",
+     "seconds": 10.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Two dates for every period of cover",
+   "lines": [
+    {
+     "raw": "Check how the end date works.",
+     "say": "Check how the end date works.",
+     "focus": -1,
+     "file": "clips/5506c656beea.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "A few systems store the **day after** cover ends (the first day **not** covered).",
+     "say": "A few systems store the day after cover ends (the first day not covered).",
+     "focus": -1,
+     "file": "clips/89bbba9d2067.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "A span of \"2025-07-01 to 2025-07-01\" would then mean zero days.",
+     "say": "A span of \"2025-07-01 to 2025-07-01\" would then mean zero days.",
+     "focus": -1,
+     "file": "clips/d75dfe9b17fd.mp3",
+     "seconds": 9.4
+    },
+    {
+     "raw": "Always confirm with the data dictionary whether `term_dt` is inclusive.",
+     "say": "Always confirm with the data dictionary whether term_dt is inclusive.",
+     "focus": -1,
+     "file": "clips/d03e145174dd.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Daniel joins the plan.",
+     "say": "Daniel joins the plan.",
+     "focus": -1,
+     "file": "clips/6925b6291ff9.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Daniel joins the plan",
+   "lines": [
+    {
+     "raw": "Until mid-2025, Daniel had his **own employer plan** at another company, which also covered Lily.",
+     "say": "Until mid-2025, Daniel had his own employer plan at another company, which also covered Lily.",
+     "focus": -1,
+     "file": "clips/89531a1d756a.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "His job ended on **13 June 2025**.",
+     "say": "His job ended on 13 June 2025.",
+     "focus": -1,
+     "file": "clips/7decc3eac3e4.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "His old plan, like many employer plans, kept him covered until the **end of that month**, 30 June.",
+     "say": "His old plan, like many employer plans, kept him covered until the end of that month, 30 June.",
+     "focus": -1,
+     "file": "clips/8401b50b16f8.mp3",
+     "seconds": 6.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Daniel joins the plan",
+   "lines": [
+    {
+     "raw": "In the US: What happened next.",
+     "say": "In the U S: What happened next.",
+     "focus": -1,
+     "file": "clips/b1c465f53f56.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Losing his job, and with it his cover, is a **qualifying life event (QLE)**.",
+     "say": "Losing his job, and with it his cover, is a qualifying life event (Q L E).",
+     "focus": 0,
+     "file": "clips/082c15c8619a.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "It let Emily add Daniel to her plan **outside** the normal yearly window.",
+     "say": "It let Emily add Daniel to her plan outside the normal yearly window.",
+     "focus": 0,
+     "file": "clips/01ebf1008f1f.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "Emily asked her employer within **30 days**.",
+     "say": "Emily asked her employer within 30 days.",
+     "focus": 1,
+     "file": "clips/e1572a45acae.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Daniel's cover on her plan started on **1 July 2025**, with no gap.",
+     "say": "Daniel's cover on her plan started on 1 July 2025, with no gap.",
+     "focus": 1,
+     "file": "clips/3e66d4a791e8.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Daniel could instead have kept his old plan through **COBRA** (see below), but adding him to Emily's plan was much cheaper.",
+     "say": "Daniel could instead have kept his old plan through COBRA (see below), but adding him to Emily's plan was much cheaper.",
+     "focus": 2,
+     "file": "clips/767f7ded1cd7.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "Lily was already on Emily's plan since 2022, so she simply kept her cover.",
+     "say": "Lily was already on Emily's plan since 2022, so she simply kept her cover.",
+     "focus": 3,
+     "file": "clips/29334f83625d.mp3",
+     "seconds": 5.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Daniel joins the plan",
+   "lines": [
+    {
+     "raw": "Emily's family on Emily's plan: one row per span.",
+     "say": "Emily's family on Emily's plan: one row per span.",
+     "focus": -1,
+     "file": "clips/150c844e2448.mp3",
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Daniel joins the plan",
+   "lines": [
+    {
+     "raw": "Why does Lily have two rows?",
+     "say": "Why does Lily have two rows?",
+     "focus": -1,
+     "file": "clips/1cf2f1daf520.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Lily was covered without a break, but **something about her cover changed** on 1 July: Daniel's plan stopped covering her, so Emily's plan now pays first (lesson 6).",
+     "say": "Lily was covered without a break, but something about her cover changed on 1 July: Daniel's plan stopped covering her, so Emily's plan now pays first (lesson 6).",
+     "focus": -1,
+     "file": "clips/15c1b067dca0.mp3",
+     "seconds": 10.75
+    },
+    {
+     "raw": "Insurers start a **new span** whenever a key detail changes: plan, group, product, address region or other insurance.",
+     "say": "Insurers start a new span whenever a key detail changes: plan, group, product, address region or other insurance.",
+     "focus": -1,
+     "file": "clips/bfbd9ef30502.mp3",
+     "seconds": 8.2
+    },
+    {
+     "raw": "The two spans are **contiguous**: the second starts the day after the first ends.",
+     "say": "The two spans are contiguous: the second starts the day after the first ends.",
+     "focus": -1,
+     "file": "clips/2d045ae1031a.mp3",
+     "seconds": 5.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Gaps.",
+     "say": "Gaps.",
+     "focus": -1,
+     "file": "clips/9449d5d3c57e.mp3",
+     "seconds": 1.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Gaps",
+   "lines": [
+    {
+     "raw": "A **gap** is a period between two spans when the person is **not covered**.",
+     "say": "A gap is a period between two spans when the person is not covered.",
+     "focus": -1,
+     "file": "clips/bbe5c36a1e07.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "Claims for dates inside a gap are denied as \"not eligible\".",
+     "say": "Claims for dates inside a gap are denied as \"not eligible\".",
+     "focus": -1,
+     "file": "clips/aa72ca89815c.mp3",
+     "seconds": 4.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Gaps",
+   "lines": [
+    {
+     "raw": "A member with a gap in April 2025.",
+     "say": "A member with a gap in April 2025.",
+     "focus": -1,
+     "file": "clips/b6155b0bf9aa.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Gaps",
+   "lines": [
+    {
+     "raw": "Contiguous or gap?",
+     "say": "Contiguous or gap?",
+     "focus": -1,
+     "file": "clips/cafce6346223.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Compare each span's `eff_dt` with the previous span's `term_dt`.",
+     "say": "Compare each span's eff_dt with the previous span's term_dt.",
+     "focus": -1,
+     "file": "clips/db4355e93cce.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "If `eff_dt` = previous `term_dt` + 1 day, the spans are **contiguous** (no gap).",
+     "say": "If eff_dt = previous term_dt and 1 day, the spans are contiguous (no gap).",
+     "focus": -1,
+     "file": "clips/7836d4dbe350.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "Here, 31 March + 1 day = 1 April, but the next span starts 1 May, so **1 to 30 April** is a gap.",
+     "say": "Here, 31 March and 1 day = 1 April, but the next span starts 1 May, so 1 to 30 April is a gap.",
+     "focus": -1,
+     "file": "clips/1c2af858cf17.mp3",
+     "seconds": 8.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "When can people join or leave?",
+     "say": "When can people join or leave?",
+     "focus": -1,
+     "file": "clips/5137d521d73b.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "When can people join or leave?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Open enrollment**. What it is: A yearly window to join, leave or switch plans. Changes usually start on the first day of the new plan year. Example: Emily's employer holds it each November for cover starting 1 January. The ACA Marketplace runs roughly November to mid-January in most states. Medicare's runs 15 October to 7 December.",
+     "say": "Open enrollment. What it is: A yearly window to join, leave or switch plans. Changes usually start on the first day of the new plan year. Example: Emily's employer holds it each November for cover starting 1 January. The A C A Marketplace runs roughly November to mid-January in most states. Medicare's runs 15 October to 7 December.",
+     "focus": 0,
+     "file": "clips/46b61bb20075.mp3",
+     "seconds": 23.2
+    },
+    {
+     "raw": "**Special enrollment** (after a QLE). What it is: A short window, usually **30 days** for employer plans and **60 days** for the Marketplace, after a life event. Example: Daniel losing his job and his cover.",
+     "say": "Special enrollment (after a Q L E). What it is: A short window, usually 30 days for employer plans and 60 days for the Marketplace, after a life event. Example: Daniel losing his job and his cover.",
+     "focus": 1,
+     "file": "clips/604e347733b5.mp3",
+     "seconds": 14.375
+    },
+    {
+     "raw": "**New hire**. What it is: A new employee can join when they start, sometimes after a short waiting period. Example: Emily joining her company, cover from 1 Jan 2022.",
+     "say": "New hire. What it is: A new employee can join when they start, sometimes after a short waiting period. Example: Emily joining her company, cover from 1 Jan 2022.",
+     "focus": 2,
+     "file": "clips/723e2faff483.mp3",
+     "seconds": 12.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "When can people join or leave?",
+   "lines": [
+    {
+     "raw": "Common qualifying life events (QLEs).",
+     "say": "Common qualifying life events (Q L E's).",
+     "focus": -1,
+     "file": "clips/4b6d9ff1a3d4.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "**Marriage**. Typical change: Add the new spouse (and their children).",
+     "say": "Marriage. Typical change: Add the new spouse (and their children).",
+     "focus": 0,
+     "file": "clips/5e9726c5c516.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "**Birth or adoption**. Typical change: Add the baby; cover can start from the **date of birth** or adoption.",
+     "say": "Birth or adoption. Typical change: Add the baby; cover can start from the date of birth or adoption.",
+     "focus": 1,
+     "file": "clips/9a5f42b7a9be.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "**Loss of other cover**. Typical change: Add a family member who lost their own job-based cover, like Daniel.",
+     "say": "Loss of other cover. Typical change: Add a family member who lost their own job-based cover, like Daniel.",
+     "focus": 2,
+     "file": "clips/172e50a9f61c.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "**Divorce**. Typical change: Remove the former spouse.",
+     "say": "Divorce. Typical change: Remove the former spouse.",
+     "focus": 3,
+     "file": "clips/6674ea609645.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "**Child turns 26**. Typical change: Child's dependent cover ends.",
+     "say": "Child turns 26. Typical change: Child's dependent cover ends.",
+     "focus": 4,
+     "file": "clips/b0ff5028fd2f.mp3",
+     "seconds": 5.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "When can people join or leave?",
+   "lines": [
+    {
+     "raw": "Start and end dates in Nepal.",
+     "say": "Start and end dates in Nepal.",
+     "focus": -1,
+     "file": "clips/b75f5c9156a4.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's group policy has a **policy period**, usually one year.",
+     "say": "Ram's group policy has a policy period, usually one year.",
+     "focus": 0,
+     "file": "clips/3d4d36cfca55.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "When Ram joined the startup, HR added him to the policy; when he leaves, HR removes him.",
+     "say": "When Ram joined the startup, H R added him to the policy; when he leaves, H R removes him.",
+     "focus": 0,
+     "file": "clips/7c790778c702.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "Some policies also have a **waiting period**: certain illnesses are not covered in the first months.",
+     "say": "Some policies also have a waiting period: certain illnesses are not covered in the first months.",
+     "focus": 1,
+     "file": "clips/f5a21c2138e3.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "That is like a span that exists but does not cover everything yet.",
+     "say": "That is like a span that exists but does not cover everything yet.",
+     "focus": 1,
+     "file": "clips/1bc81aa3d7f0.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's SSF cover depends on her contributions being deposited.",
+     "say": "Sita's S S F cover depends on her contributions being deposited.",
+     "focus": 2,
+     "file": "clips/2fc0a43b63e1.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "If she changes jobs and her new employer is slow to register her, her contribution record may show a **gap**, just like a gap between two US spans.",
+     "say": "If she changes jobs and her new employer is slow to register her, her contribution record may show a gap, just like a gap between two U S spans.",
+     "focus": 2,
+     "file": "clips/a313deb93588.mp3",
+     "seconds": 9.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "COBRA: keeping cover after leaving a job.",
+     "say": "COBRA: keeping cover after leaving a job.",
+     "focus": -1,
+     "file": "clips/f77979fb79e5.mp3",
+     "seconds": 3.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "COBRA: keeping cover after leaving a job",
+   "lines": [
+    {
+     "raw": "**COBRA** is a US law that lets people who leave a job (and their families) **keep the same employer plan for a while**, usually up to **18 months**.",
+     "say": "COBRA is a U S law that lets people who leave a job (and their families) keep the same employer plan for a while, usually up to 18 months.",
+     "focus": -1,
+     "file": "clips/059f8a75d2e9.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "It applies to employers with **20 or more employees**.",
+     "say": "It applies to employers with 20 or more employees.",
+     "focus": -1,
+     "file": "clips/41e5b71f5fec.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "The catch: the person pays the **full premium**, both their share and the employer's, plus up to 2% for admin.",
+     "say": "The catch: the person pays the full premium, both their share and the employer's, plus up to 2 percent for admin.",
+     "focus": -1,
+     "file": "clips/8ebdcbf4b449.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "That is why Daniel chose Emily's plan instead.",
+     "say": "That is why Daniel chose Emily's plan instead.",
+     "focus": -1,
+     "file": "clips/6bb01f7f2067.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "COBRA: keeping cover after leaving a job",
+   "lines": [
+    {
+     "raw": "COBRA in the data.",
+     "say": "COBRA in the data.",
+     "focus": -1,
+     "file": "clips/a279eabaf946.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "A COBRA member keeps a span on the old employer's plan, often flagged as COBRA or with a special coverage code.",
+     "say": "A COBRA member keeps a span on the old employer's plan, often flagged as COBRA or with a special coverage code.",
+     "focus": -1,
+     "file": "clips/cd3414c13a5d.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "A person has **up to 60 days** to choose COBRA, and if they do, cover is backdated to the day the old cover ended.",
+     "say": "A person has up to 60 days to choose COBRA, and if they do, cover is backdated to the day the old cover ended.",
+     "focus": -1,
+     "file": "clips/c36a62358da7.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "So a span can appear **after** the dates it covers.",
+     "say": "So a span can appear after the dates it covers.",
+     "focus": -1,
+     "file": "clips/31cf8dc60c48.mp3",
+     "seconds": 3.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Retroactive changes.",
+     "say": "Retroactive changes.",
+     "focus": -1,
+     "file": "clips/6478ea083571.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Retroactive changes",
+   "lines": [
+    {
+     "raw": "Eligibility is often updated **late**.",
+     "say": "Eligibility is often updated late.",
+     "focus": -1,
+     "file": "clips/4c18b67d3698.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "An employer may tell the insurer on 20 May that an employee left on 31 March.",
+     "say": "An employer may tell the insurer on 20 May that an employee left on 31 March.",
+     "focus": -1,
+     "file": "clips/9e7e4ca3e1ce.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "The insurer then sets a **retroactive termination** (\"retro term\"): the term date is moved back to 31 March.",
+     "say": "The insurer then sets a retroactive termination (\"retro term\"): the term date is moved back to 31 March.",
+     "focus": -1,
+     "file": "clips/1fbee974766b.mp3",
+     "seconds": 7.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Retroactive changes",
+   "lines": [
+    {
+     "raw": "Claims already paid for April and May for that person may now be **outside** their cover.",
+     "say": "Claims already paid for April and May for that person may now be outside their cover.",
+     "focus": 0,
+     "file": "clips/973f689b033f.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "The insurer may reverse them and recover the money (the Medical course explains claim reversals).",
+     "say": "The insurer may reverse them and recover the money (the Medical course explains claim reversals).",
+     "focus": 0,
+     "file": "clips/3debfe759633.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "Retro changes can also go the other way: a **retro add**, like a baby born on 10 January whose parents report the birth on 25 January: cover is backdated to the birth date.",
+     "say": "Retro changes can also go the other way: a retro add, like a baby born on 10 January whose parents report the birth on 25 January: cover is backdated to the birth date.",
+     "focus": 1,
+     "file": "clips/5e957ab083dd.mp3",
+     "seconds": 12.4
+    },
+    {
+     "raw": "US rules (the ACA) **limit** when cover can be cancelled backwards, so insurers follow strict policies for retro terms.",
+     "say": "U S rules (the A C A) limit when cover can be cancelled backwards, so insurers follow strict policies for retro terms.",
+     "focus": 2,
+     "file": "clips/1b6f7572df26.mp3",
+     "seconds": 8.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Retroactive changes",
+   "lines": [
+    {
+     "raw": "Lesson for analysts.",
+     "say": "Lesson for analysts.",
+     "focus": -1,
+     "file": "clips/9eb90a5218c3.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Eligibility data changes **after the fact**.",
+     "say": "Eligibility data changes after the fact.",
+     "focus": -1,
+     "file": "clips/be912c6c695b.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "A report run in April may count a member who is later retro-termed.",
+     "say": "A report run in April may count a member who is later retro-termed.",
+     "focus": -1,
+     "file": "clips/cc5ba495f992.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Always note **when** you pulled the data, and expect last month's numbers to shift a little.",
+     "say": "Always note when you pulled the data, and expect last month's numbers to shift a little.",
+     "focus": -1,
+     "file": "clips/750c28591eee.mp3",
+     "seconds": 5.325
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Effective date = first covered day; termination date = last covered day (usually inclusive).",
+     "say": "Effective date = first covered day; termination date = last covered day (usually inclusive).",
+     "focus": 0,
+     "file": "clips/776cc7ccb4d6.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "Open-ended cover uses `9999-12-31` or `NULL` as the term date.",
+     "say": "Open-ended cover uses 9 9 9 9 dash 1 2 dash 3 1 or N U L L as the term date.",
+     "focus": 1,
+     "file": "clips/5602e1ba0a9a.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "One member can have many spans; a new span starts when a key detail changes.",
+     "say": "One member can have many spans; a new span starts when a key detail changes.",
+     "focus": 2,
+     "file": "clips/20bcffbe6318.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "People join at open enrollment, as new hires, or after a qualifying life event.",
+     "say": "People join at open enrollment, as new hires, or after a qualifying life event.",
+     "focus": 3,
+     "file": "clips/02b7ba4ae942.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "Gaps, COBRA and retro terms mean eligibility must always be checked on the exact date.",
+     "say": "Gaps, COBRA and retro terms mean eligibility must always be checked on the exact date.",
+     "focus": 4,
+     "file": "clips/9295039abfa8.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

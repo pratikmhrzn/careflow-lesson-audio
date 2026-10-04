@@ -1,0 +1,820 @@
+{
+ "courseId": "groupers-episodes",
+ "lessonId": "drgs-for-hospital-stays",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: DRGs for Hospital Stays.",
+     "say": "Lesson 3: D R G's for Hospital Stays.",
+     "focus": -1,
+     "file": "clips/6bb82aca0add.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "How a grouper walks through a hospital claim, step by step, to assign one DRG.",
+     "say": "How a grouper walks through a hospital claim, step by step, to assign one D R G.",
+     "focus": -1,
+     "file": "clips/8ad2479a06b7.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "List the steps an MS-DRG grouper follows to assign a DRG.",
+     "say": "List the steps an M S DRG grouper follows to assign a D R G.",
+     "focus": 0,
+     "file": "clips/31609c976db0.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Explain principal diagnosis, MDC, surgical vs medical, CC and MCC.",
+     "say": "Explain principal diagnosis, M D C, surgical versus medical, C C and M C C.",
+     "focus": 1,
+     "file": "clips/85f9f7239925.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Explain how the present on admission (POA) flag changes a DRG.",
+     "say": "Explain how the present on admission (P O A) flag changes a D R G.",
+     "focus": 2,
+     "file": "clips/5359264d3519.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Tell MS-DRG from APR-DRG severity levels.",
+     "say": "Tell M S DRG from A P R DRG severity levels.",
+     "focus": 3,
+     "file": "clips/6be089aaecb1.mp3",
+     "seconds": 4.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with a hospital package list.",
+     "say": "Start with a hospital package list.",
+     "focus": -1,
+     "file": "clips/4082580f9fc8.mp3",
+     "seconds": 2.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with a hospital package list",
+   "lines": [
+    {
+     "raw": "In Nepal: Choosing the right package.",
+     "say": "In Nepal: Choosing the right package.",
+     "focus": -1,
+     "file": "clips/167551c43f15.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "A private hospital in Kathmandu has a package list: \"normal delivery\", \"caesarean delivery\", \"caesarean delivery with complications\".",
+     "say": "A private hospital in Kathmandu has a package list: \"normal delivery\", \"caesarean delivery\", \"caesarean delivery with complications\".",
+     "focus": 0,
+     "file": "clips/008e30ca9a8a.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "The billing clerk does not guess.",
+     "say": "The billing clerk does not guess.",
+     "focus": 1,
+     "file": "clips/35ae00420200.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "She asks a fixed set of questions: What was the main reason for the stay?",
+     "say": "She asks a fixed set of questions: What was the main reason for the stay?",
+     "focus": 1,
+     "file": "clips/ae569c4b42ba.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Was there an operation?",
+     "say": "Was there an operation?",
+     "focus": 1,
+     "file": "clips/9298cc5158b0.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "Were there complications?",
+     "say": "Were there complications?",
+     "focus": 1,
+     "file": "clips/49931dfd7851.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "Each answer narrows the list until exactly one package is left.",
+     "say": "Each answer narrows the list until exactly one package is left.",
+     "focus": 2,
+     "file": "clips/3168c7f4a855.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "When an SSF-listed hospital claims a package rate for Sita's stay, the SSF checks that the diagnosis and procedure on the claim really match that package.",
+     "say": "When an S S F listed hospital claims a package rate for Sita's stay, the S S F checks that the diagnosis and procedure on the claim really match that package.",
+     "focus": 3,
+     "file": "clips/78475f183d17.mp3",
+     "seconds": 11.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with a hospital package list",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "A DRG grouper answers the same fixed questions for every hospital stay (which body system, was there an operation, how complicated was it) and the answers lead to exactly **one DRG**.",
+     "say": "A D R G grouper answers the same fixed questions for every hospital stay (which body system, was there an operation, how complicated was it) and the answers lead to exactly one D R G.",
+     "focus": -1,
+     "file": "clips/855bd705f9ca.mp3",
+     "seconds": 13.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: what the grouper reads.",
+     "say": "The U S version: what the grouper reads.",
+     "focus": -1,
+     "file": "clips/284b52a47c77.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: what the grouper reads",
+   "lines": [
+    {
+     "raw": "DRG (Diagnosis Related Group).",
+     "say": "D R G (Diagnosis Related Group).",
+     "focus": 0,
+     "file": "clips/603c33239639.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "A group of hospital stays that are clinically similar and use similar amounts of hospital resources.",
+     "say": "A group of hospital stays that are clinically similar and use similar amounts of hospital resources.",
+     "focus": 0,
+     "file": "clips/74857f062243.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "Medicare's version is the **MS-DRG** (Medicare Severity DRG).",
+     "say": "Medicare's version is the M S DRG (Medicare Severity D R G).",
+     "focus": 0,
+     "file": "clips/fc8964c13d73.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Principal diagnosis.",
+     "say": "Principal diagnosis.",
+     "focus": 1,
+     "file": "clips/9bf1cc18ae70.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "The condition found, after study, to be the main reason the patient was admitted.",
+     "say": "The condition found, after study, to be the main reason the patient was admitted.",
+     "focus": 1,
+     "file": "clips/c65400448d59.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "It drives most of the grouping.",
+     "say": "It drives most of the grouping.",
+     "focus": 1,
+     "file": "clips/f40924819d65.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "Secondary diagnoses.",
+     "say": "Secondary diagnoses.",
+     "focus": 2,
+     "file": "clips/51d9f07fe4f0.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Other conditions present during the stay.",
+     "say": "Other conditions present during the stay.",
+     "focus": 2,
+     "file": "clips/871983a3ab10.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Some count as complications or comorbidities (below).",
+     "say": "Some count as complications or comorbidities (below).",
+     "focus": 2,
+     "file": "clips/da9ebb3df1ad.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "MDC (Major Diagnostic Category).",
+     "say": "M D C (Major Diagnostic Category).",
+     "focus": 3,
+     "file": "clips/8714cff462fe.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "A broad body-system group, for example the digestive system or the musculoskeletal system.",
+     "say": "A broad body-system group, for example the digestive system or the musculoskeletal system.",
+     "focus": 3,
+     "file": "clips/fcf18c0804ae.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "MS-DRG has 25 of them.",
+     "say": "M S DRG has 25 of them.",
+     "focus": 3,
+     "file": "clips/bd3689d55127.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "OR procedure.",
+     "say": "O R procedure.",
+     "focus": 4,
+     "file": "clips/aac5277a60c8.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "An ICD-10-PCS procedure the grouper treats as an operating room procedure.",
+     "say": "An I C D 10-PCS procedure the grouper treats as an operating room procedure.",
+     "focus": 4,
+     "file": "clips/0c93fed0ddd4.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "It makes the stay **surgical**; otherwise it is **medical**.",
+     "say": "It makes the stay surgical; otherwise it is medical.",
+     "focus": 4,
+     "file": "clips/e62982ce6c65.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "CC (complication or comorbidity).",
+     "say": "C C (complication or comorbidity).",
+     "focus": 5,
+     "file": "clips/60613347561e.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "A secondary diagnosis that usually makes a stay need more care, such as acute kidney failure.",
+     "say": "A secondary diagnosis that usually makes a stay need more care, such as acute kidney failure.",
+     "focus": 5,
+     "file": "clips/754a8c371670.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "MCC (major complication or comorbidity).",
+     "say": "M C C (major complication or comorbidity).",
+     "focus": 6,
+     "file": "clips/79297c2928e6.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "A secondary diagnosis that makes a stay need a lot more care, such as sepsis or acute respiratory failure.",
+     "say": "A secondary diagnosis that makes a stay need a lot more care, such as sepsis or acute respiratory failure.",
+     "focus": 6,
+     "file": "clips/1519cf9562fa.mp3",
+     "seconds": 7.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The steps, in order.",
+     "say": "The steps, in order.",
+     "focus": -1,
+     "file": "clips/36015ba7628d.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The steps, in order",
+   "lines": [
+    {
+     "raw": "Step 1: Check for very costly procedures (pre-MDC).",
+     "say": "Step 1: Check for very costly procedures (pre-MDC).",
+     "focus": 0,
+     "file": "clips/8106b849d273.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "A few procedures, such as organ transplants or long breathing-machine support with a tracheostomy, are grouped first, whatever the diagnosis.",
+     "say": "A few procedures, such as organ transplants or long breathing-machine support with a tracheostomy, are grouped first, whatever the diagnosis.",
+     "focus": 0,
+     "file": "clips/60418d4f54cc.mp3",
+     "seconds": 9.425
+    },
+    {
+     "raw": "Step 2: Pick the MDC from the principal diagnosis.",
+     "say": "Step 2: Pick the M D C from the principal diagnosis.",
+     "focus": 1,
+     "file": "clips/85d4a841992c.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "Appendicitis goes to the digestive system MDC; knee arthritis to the musculoskeletal MDC.",
+     "say": "Appendicitis goes to the digestive system M D C; knee arthritis to the musculoskeletal M D C.",
+     "focus": 1,
+     "file": "clips/d10bea8dc395.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Step 3: Surgical or medical?",
+     "say": "Step 3: Surgical or medical?",
+     "focus": 2,
+     "file": "clips/b07a4b6ca74c.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "If there is an OR procedure, the stay goes to the surgical side of the MDC; if not, the medical side.",
+     "say": "If there is an O R procedure, the stay goes to the surgical side of the M D C; if not, the medical side.",
+     "focus": 2,
+     "file": "clips/3bb2a5138cfe.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "Step 4: Pick the base DRG.",
+     "say": "Step 4: Pick the base D R G.",
+     "focus": 3,
+     "file": "clips/3461ed4c1688.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "On the surgical side, the main operation decides the family (for example \"appendectomy\").",
+     "say": "On the surgical side, the main operation decides the family (for example \"appendectomy\").",
+     "focus": 3,
+     "file": "clips/07f6cec22fd4.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "On the medical side, the principal diagnosis decides it (for example \"pneumonia\").",
+     "say": "On the medical side, the principal diagnosis decides it (for example \"pneumonia\").",
+     "focus": 3,
+     "file": "clips/cd3b006481de.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "Step 5: Split by severity.",
+     "say": "Step 5: Split by severity.",
+     "focus": 4,
+     "file": "clips/8ddad8d70997.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Secondary diagnoses are checked against the CC and MCC lists.",
+     "say": "Secondary diagnoses are checked against the C C and M C C lists.",
+     "focus": 4,
+     "file": "clips/3173cb03185a.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "A stay goes to the \"with MCC\", \"with CC\" or \"without CC/MCC\" DRG in its family.",
+     "say": "A stay goes to the \"with M C C\", \"with C C\" or \"without CC/MCC\" D R G in its family.",
+     "focus": 4,
+     "file": "clips/a4861de6d38d.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "A CC closely related to the principal diagnosis is excluded, so the same problem is not counted twice.",
+     "say": "A C C closely related to the principal diagnosis is excluded, so the same problem is not counted twice.",
+     "focus": 4,
+     "file": "clips/d6cf7f01ba25.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "Step 6: A few extra checks.",
+     "say": "Step 6: A few extra checks.",
+     "focus": 5,
+     "file": "clips/7cf10e0f07d9.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Some DRGs also use discharge status (for example, heart attack patients who died vs went home), and newborn DRGs use birth weight.",
+     "say": "Some D R G's also use discharge status (for example, heart attack patients who died versus went home), and newborn D R G's use birth weight.",
+     "focus": 5,
+     "file": "clips/7e40de008630.mp3",
+     "seconds": 10.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The steps, in order",
+   "lines": [
+    {
+     "raw": "What the DRG is worth is a separate step.",
+     "say": "What the D R G is worth is a separate step.",
+     "focus": -1,
+     "file": "clips/88a048cd8aa5.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Each MS-DRG has a **relative weight** and an expected length of stay.",
+     "say": "Each M S DRG has a relative weight and an expected length of stay.",
+     "focus": -1,
+     "file": "clips/03af5ea8a47b.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Turning the weight into a payment (base rate × weight, plus adjustments) is taught in the Fee For Service course.",
+     "say": "Turning the weight into a payment (base rate × weight, plus adjustments) is taught in the Fee For Service course.",
+     "focus": -1,
+     "file": "clips/50c69ac5aa62.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "The DRG field on the hospital claim is described in the Medical course.",
+     "say": "The D R G field on the hospital claim is described in the Medical course.",
+     "focus": -1,
+     "file": "clips/5c9f838ad336.mp3",
+     "seconds": 5.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Present on admission (POA).",
+     "say": "Present on admission (P O A).",
+     "focus": -1,
+     "file": "clips/60c0d8c8920e.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Present on admission (POA)",
+   "lines": [
+    {
+     "raw": "Every diagnosis on an inpatient claim carries a **POA (present on admission) indicator**: was the condition already there when the patient was admitted, or did it start in hospital?",
+     "say": "Every diagnosis on an inpatient claim carries a P O A (present on admission) indicator: was the condition already there when the patient was admitted, or did it start in hospital?",
+     "focus": -1,
+     "file": "clips/9679f3729ba9.mp3",
+     "seconds": 11.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Present on admission (POA)",
+   "lines": [
+    {
+     "raw": "POA indicator values.",
+     "say": "P O A indicator values.",
+     "focus": -1,
+     "file": "clips/e36a3162afb2.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "`Y`. Meaning: Yes, present when admitted.",
+     "say": "Y. Meaning: Yes, present when admitted.",
+     "focus": 0,
+     "file": "clips/ef2ef06646e3.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "`N`. Meaning: No, it started during the stay.",
+     "say": "N. Meaning: No, it started during the stay.",
+     "focus": 1,
+     "file": "clips/e80426f7561c.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "`U`. Meaning: Unknown: the records do not say.",
+     "say": "U. Meaning: Unknown: the records do not say.",
+     "focus": 2,
+     "file": "clips/33b7335edf91.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "`W`. Meaning: The doctor cannot tell clinically.",
+     "say": "W. Meaning: The doctor cannot tell clinically.",
+     "focus": 3,
+     "file": "clips/d51478a64c12.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "`1` or blank. Meaning: Exempt: the code does not need a POA flag.",
+     "say": "1 or blank. Meaning: Exempt: the code does not need a P O A flag.",
+     "focus": 4,
+     "file": "clips/a39c380c8dcd.mp3",
+     "seconds": 5.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Present on admission (POA)",
+   "lines": [
+    {
+     "raw": "Hospital-acquired conditions do not raise the DRG.",
+     "say": "Hospital-acquired conditions do not raise the D R G.",
+     "focus": -1,
+     "file": "clips/6918e7ef566c.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "Medicare keeps a list of **HACs (hospital-acquired conditions)**, such as a urinary infection from a catheter, a serious bedsore, or a blood clot after a knee or hip replacement.",
+     "say": "Medicare keeps a list of H A C's (hospital-acquired conditions), such as a urinary infection from a catheter, a serious bedsore, or a blood clot after a knee or hip replacement.",
+     "focus": -1,
+     "file": "clips/09fb23ce0420.mp3",
+     "seconds": 12.825
+    },
+    {
+     "raw": "If an HAC is flagged `N` (or `U`), the grouper **ignores** it as a CC or MCC.",
+     "say": "If an H A C is flagged N (or U), the grouper ignores it as a C C or M C C.",
+     "focus": -1,
+     "file": "clips/9dbf7ef66b9d.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "A hospital should not be paid more because of a preventable problem that it caused.",
+     "say": "A hospital should not be paid more because of a preventable problem that it caused.",
+     "focus": -1,
+     "file": "clips/f1edf4662ee6.mp3",
+     "seconds": 5.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Emily's appendix stay three ways.",
+     "say": "Worked example: Emily's appendix stay three ways.",
+     "focus": -1,
+     "file": "clips/e6394fb12b23.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: Emily's appendix stay three ways",
+   "lines": [
+    {
+     "raw": "Emily (34, an office worker in Texas) was admitted on 2 June 2025 with acute appendicitis (`K35.80`), had keyhole removal of her appendix (`0DTJ4ZZ`), and went home on 4 June.",
+     "say": "Emily (34, an office worker in Texas) was admitted on 2 June 2025 with acute appendicitis (K 3 5 . 8 0), had keyhole removal of her appendix (0 D T J 4 Z Z), and went home on 4 June.",
+     "focus": -1,
+     "file": "clips/5241afd595d2.mp3",
+     "seconds": 16.5
+    },
+    {
+     "raw": "Here is how the grouper handles her real stay and two \"what if\" versions.",
+     "say": "Here is how the grouper handles her real stay and two \"what if\" versions.",
+     "focus": -1,
+     "file": "clips/994238ce8ee6.mp3",
+     "seconds": 4.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: Emily's appendix stay three ways",
+   "lines": [
+    {
+     "raw": "Grouping Emily's stay (MS-DRG; what-ifs are illustrative).",
+     "say": "Grouping Emily's stay (M S DRG; what-ifs are illustrative).",
+     "focus": -1,
+     "file": "clips/4b9bdffca8b9.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Principal diagnosis. Real stay: `K35.80` acute appendicitis. What if: kidney injury already present: Same. What if: catheter infection started in hospital: Same.",
+     "say": "Principal diagnosis. Real stay: K 3 5 . 8 0 acute appendicitis. What if: kidney injury already present: Same. What if: catheter infection started in hospital: Same.",
+     "focus": 0,
+     "file": "clips/21492e9e0f4b.mp3",
+     "seconds": 13.875
+    },
+    {
+     "raw": "MDC. Real stay: Digestive system. What if: kidney injury already present: Same. What if: catheter infection started in hospital: Same.",
+     "say": "M D C. Real stay: Digestive system. What if: kidney injury already present: Same. What if: catheter infection started in hospital: Same.",
+     "focus": 1,
+     "file": "clips/d720f0cd751f.mp3",
+     "seconds": 10.65
+    },
+    {
+     "raw": "OR procedure? Real stay: Yes: `0DTJ4ZZ` → surgical. What if: kidney injury already present: Same. What if: catheter infection started in hospital: Same.",
+     "say": "O R procedure? Real stay: Yes: 0 D T J 4 Z Z to surgical. What if: kidney injury already present: Same. What if: catheter infection started in hospital: Same.",
+     "focus": 2,
+     "file": "clips/2a0c46b80e2f.mp3",
+     "seconds": 13.3
+    },
+    {
+     "raw": "Base DRG. Real stay: Appendectomy, principal diagnosis not complicated. What if: kidney injury already present: Same. What if: catheter infection started in hospital: Same.",
+     "say": "Base D R G. Real stay: Appendectomy, principal diagnosis not complicated. What if: kidney injury already present: Same. What if: catheter infection started in hospital: Same.",
+     "focus": 3,
+     "file": "clips/abba30266724.mp3",
+     "seconds": 13.575
+    },
+    {
+     "raw": "Secondary diagnoses. Real stay: None. What if: kidney injury already present: `N17.9` acute kidney failure, POA `Y` → a **CC**. What if: catheter infection started in hospital: Catheter-associated urinary infection, POA `N` → an HAC, **ignored**.",
+     "say": "Secondary diagnoses. Real stay: None. What if: kidney injury already present: N 1 7 . 9 acute kidney failure, P O A Y to a C C. What if: catheter infection started in hospital: Catheter-associated urinary infection, P O A N to an H A C, ignored.",
+     "focus": 4,
+     "file": "clips/0e3249d94a8e.mp3",
+     "seconds": 20.125
+    },
+    {
+     "raw": "Result. Real stay: **MS-DRG 343**: Appendectomy without complicated principal diagnosis without CC/MCC. What if: kidney injury already present: **MS-DRG 342**: … with CC. What if: catheter infection started in hospital: **MS-DRG 343**: no change.",
+     "say": "Result. Real stay: M S DRG 343: Appendectomy without complicated principal diagnosis without CC/MCC. What if: kidney injury already present: M S DRG 342: … with C C. What if: catheter infection started in hospital: M S DRG 343: no change.",
+     "focus": 5,
+     "file": "clips/5384cc1e88f9.mp3",
+     "seconds": 23.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "APR-DRG: two extra scales.",
+     "say": "A P R DRG: two extra scales.",
+     "focus": -1,
+     "file": "clips/853d61ffe1e4.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "APR-DRG: two extra scales",
+   "lines": [
+    {
+     "raw": "APR-DRG (All Patient Refined DRG) groups each stay into a **base APR-DRG**, then adds two scales from 1 (minor) to 4 (extreme): **SOI (severity of illness)** and **ROM (risk of mortality, the chance of dying)**.",
+     "say": "A P R DRG (All Patient Refined D R G) groups each stay into a base A P R DRG, then adds two scales from 1 (minor) to 4 (extreme): S O I (severity of illness) and R O M (risk of mortality, the chance of dying).",
+     "focus": -1,
+     "file": "clips/b4db1db6dfc7.mp3",
+     "seconds": 16.95
+    },
+    {
+     "raw": "It looks at how all the patient's conditions combine, not just the single worst one.",
+     "say": "It looks at how all the patient's conditions combine, not just the single worst one.",
+     "focus": -1,
+     "file": "clips/89fba3252327.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "That is why many Medicaid programmes and researchers prefer it for children, pregnancy and very sick patients.",
+     "say": "That is why many Medicaid programmes and researchers prefer it for children, pregnancy and very sick patients.",
+     "focus": -1,
+     "file": "clips/242e264c6b6c.mp3",
+     "seconds": 7.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "APR-DRG: two extra scales",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "A DRG is only as good as the coding: a missing secondary diagnosis or a wrong POA flag changes the group, and so the payment and every comparison built on it.",
+     "say": "A D R G is only as good as the coding: a missing secondary diagnosis or a wrong P O A flag changes the group, and so the payment and every comparison built on it.",
+     "focus": -1,
+     "file": "clips/3ed6203b7532.mp3",
+     "seconds": 11.675
+    },
+    {
+     "raw": "When you compare hospitals by DRG, remember that a hospital whose coders record every condition will have more \"with CC/MCC\" stays than one that codes less fully, even with the same patients.",
+     "say": "When you compare hospitals by D R G, remember that a hospital whose coders record every condition will have more \"with CC/MCC\" stays than one that codes less fully, even with the same patients.",
+     "focus": -1,
+     "file": "clips/e0e66d4b0877.mp3",
+     "seconds": 13.9
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "An MS-DRG is assigned by fixed steps: pre-MDC check, MDC from the principal diagnosis, surgical vs medical, base DRG, then severity.",
+     "say": "An M S DRG is assigned by fixed steps: pre-MDC check, M D C from the principal diagnosis, surgical versus medical, base D R G, then severity.",
+     "focus": 0,
+     "file": "clips/33b0f1ca02ac.mp3",
+     "seconds": 12.4
+    },
+    {
+     "raw": "Secondary diagnoses on the CC or MCC lists move a stay to a higher-severity DRG.",
+     "say": "Secondary diagnoses on the C C or M C C lists move a stay to a higher-severity D R G.",
+     "focus": 1,
+     "file": "clips/10abbaeea095.mp3",
+     "seconds": 7.35
+    },
+    {
+     "raw": "POA flags matter: hospital-acquired conditions that start in hospital do not raise the DRG.",
+     "say": "P O A flags matter: hospital-acquired conditions that start in hospital do not raise the D R G.",
+     "focus": 2,
+     "file": "clips/5c61132c90c0.mp3",
+     "seconds": 7.35
+    },
+    {
+     "raw": "APR-DRG adds severity of illness and risk of mortality levels from 1 to 4.",
+     "say": "A P R DRG adds severity of illness and risk of mortality levels from 1 to 4.",
+     "focus": 3,
+     "file": "clips/c653ded50248.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "Pricing a DRG is a separate step (Fee For Service course).",
+     "say": "Pricing a D R G is a separate step (Fee For Service course).",
+     "focus": 4,
+     "file": "clips/fdb0145eb415.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

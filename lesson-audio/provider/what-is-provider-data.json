@@ -1,0 +1,848 @@
+{
+ "courseId": "provider",
+ "lessonId": "what-is-provider-data",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What is Provider Data?",
+     "say": "Lesson 1: What is Provider Data?",
+     "focus": -1,
+     "file": "clips/3ad7382de7e7.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Every claim says \"who gave the care\".",
+     "say": "Every claim says \"who gave the care\".",
+     "focus": -1,
+     "file": "clips/15f15b279283.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Provider data is the list that explains who that is.",
+     "say": "Provider data is the list that explains who that is.",
+     "focus": -1,
+     "file": "clips/cdf65002a411.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain in one sentence what \"provider data\" means.",
+     "say": "Explain in one sentence what \"provider data\" means.",
+     "focus": 0,
+     "file": "clips/3bb5edd5a1d4.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Tell provider data (a master list) apart from claims (events).",
+     "say": "Tell provider data (a master list) apart from claims (events).",
+     "focus": 1,
+     "file": "clips/8d1fa9af18bd.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Know the main sources of US provider data: NPPES, credentialing, contracts and the directory.",
+     "say": "Know the main sources of U S provider data: N P P E S, credentialing, contracts and the directory.",
+     "focus": 2,
+     "file": "clips/964e0f6518d7.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "See why one clean provider list matters to an analyst.",
+     "say": "See why one clean provider list matters to an analyst.",
+     "focus": 3,
+     "file": "clips/71909cddb92d.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Think about your phone's **contact list**.",
+     "say": "Think about your phone's contact list.",
+     "focus": -1,
+     "file": "clips/e56305848f0b.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Each contact has a name, a number, maybe an address and a note like \"plumber\" or \"dentist\".",
+     "say": "Each contact has a name, a number, maybe an address and a note like \"plumber\" or \"dentist\".",
+     "focus": -1,
+     "file": "clips/3df1d510ceae.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "When a call comes in, your phone shows a **name**, not just a number, because it looks the number up in the list.",
+     "say": "When a call comes in, your phone shows a name, not just a number, because it looks the number up in the list.",
+     "focus": -1,
+     "file": "clips/b1baf9da01ec.mp3",
+     "seconds": 6.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Insurance data works the same way.",
+     "say": "Insurance data works the same way.",
+     "focus": -1,
+     "file": "clips/27ba70a2a345.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "A claim only carries a provider's **ID number**, for example `1234567893`.",
+     "say": "A claim only carries a provider's I D number, for example 1 2 3 4 5 6 7 8 9 3.",
+     "focus": -1,
+     "file": "clips/abb1bb70f052.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "To know that this number means \"Lakeside General Hospital, a general acute care hospital in Texas, in Emily's network\", the insurer looks it up in its **provider data**.",
+     "say": "To know that this number means \"Lakeside General Hospital, a general acute care hospital in Texas, in Emily's network\", the insurer looks it up in its provider data.",
+     "focus": -1,
+     "file": "clips/7da7086249c0.mp3",
+     "seconds": 11.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Simple definition.",
+     "say": "Simple definition.",
+     "focus": -1,
+     "file": "clips/a5c5927139e3.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Provider data is the record of **every doctor, hospital, clinic, lab and pharmacy** the insurer deals with: **who they are**, **what kind of care they give**, **where they are**, **which IDs they use**, and **whether they have a contract** with the insurer.",
+     "say": "Provider data is the record of every doctor, hospital, clinic, lab and pharmacy the insurer deals with: who they are, what kind of care they give, where they are, which I D's they use, and whether they have a contract with the insurer.",
+     "focus": -1,
+     "file": "clips/6977c38f630a.mp3",
+     "seconds": 15.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Where this fits.",
+     "say": "Where this fits.",
+     "focus": -1,
+     "file": "clips/172053dde833.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "A provider can be a **person** or an **organization**, and claims name providers in roles: **rendering** (did the work), **billing** (gets paid), **referring**, **ordering** and **attending**.",
+     "say": "A provider can be a person or an organization, and claims name providers in roles: rendering (did the work), billing (gets paid), referring, ordering and attending.",
+     "focus": -1,
+     "file": "clips/c51771c97cd6.mp3",
+     "seconds": 10.825
+    },
+    {
+     "raw": "The **Medical** course explains these roles on the claim.",
+     "say": "The Medical course explains these roles on the claim.",
+     "focus": -1,
+     "file": "clips/2c83dac089c2.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "This course goes one level deeper: the provider list itself.",
+     "say": "This course goes one level deeper: the provider list itself.",
+     "focus": -1,
+     "file": "clips/6b08b2858195.mp3",
+     "seconds": 4.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet our people.",
+     "say": "Meet our people.",
+     "focus": -1,
+     "file": "clips/f8aec1fba809.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "This course follows three people.",
+     "say": "This course follows three people.",
+     "focus": -1,
+     "file": "clips/47febabdfc42.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "**Ram** works at a tech startup in Kathmandu and has private group health insurance: he pays the hospital first, then claims the money back.",
+     "say": "Ram works at a tech startup in Kathmandu and has private group health insurance: he pays the hospital first, then claims the money back.",
+     "focus": -1,
+     "file": "clips/63e00b5fb2f9.mp3",
+     "seconds": 8.95
+    },
+    {
+     "raw": "**Sita** is an accountant in Kathmandu who contributes to the Social Security Fund (SSF) and uses SSF-listed hospitals.",
+     "say": "Sita is an accountant in Kathmandu who contributes to the Social Security Fund (S S F) and uses S S F listed hospitals.",
+     "focus": -1,
+     "file": "clips/4370dfe7dd64.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "**Emily** is an office worker in Austin, Texas (member ID M1001) on her employer's PPO plan.",
+     "say": "Emily is an office worker in Austin, Texas (member I D M 1 0 0 1) on her employer's P P O plan.",
+     "focus": -1,
+     "file": "clips/3c25ab060c04.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "In 2025 she saw her family doctor, **Dr. Patel**, for strep throat, and had her appendix removed at **Lakeside General Hospital**.",
+     "say": "In 2025 she saw her family doctor, Doctor Patel, for strep throat, and had her appendix removed at Lakeside General Hospital.",
+     "focus": -1,
+     "file": "clips/2647be4dd4d4.mp3",
+     "seconds": 9.45
+    },
+    {
+     "raw": "Later in the course we also meet Emily's father, **Robert**.",
+     "say": "Later in the course we also meet Emily's father, Robert.",
+     "focus": -1,
+     "file": "clips/18757a57b8eb.mp3",
+     "seconds": 3.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Provider data in Nepal.",
+     "say": "Provider data in Nepal.",
+     "focus": -1,
+     "file": "clips/f1b1c74a8b95.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Provider data in Nepal",
+   "lines": [
+    {
+     "raw": "In Nepal: How Ram and Sita know who treated them.",
+     "say": "In Nepal: How Ram and Sita know who treated them.",
+     "focus": -1,
+     "file": "clips/1e6d7bfc3f00.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Every doctor in Nepal must be registered with the **Nepal Medical Council (NMC)** and gets an **NMC registration number**.",
+     "say": "Every doctor in Nepal must be registered with the Nepal Medical Council (N M C) and gets an N M C registration number.",
+     "focus": 0,
+     "file": "clips/3c6c0fe7ac8c.mp3",
+     "seconds": 8.85
+    },
+    {
+     "raw": "You often see it on the doctor's nameboard, prescription pad or stamp.",
+     "say": "You often see it on the doctor's nameboard, prescription pad or stamp.",
+     "focus": 0,
+     "file": "clips/ceab164d2369.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Nurses, pharmacists and other health workers register with their own councils, such as the **Nepal Nursing Council** and the **Nepal Pharmacy Council**.",
+     "say": "Nurses, pharmacists and other health workers register with their own councils, such as the Nepal Nursing Council and the Nepal Pharmacy Council.",
+     "focus": 1,
+     "file": "clips/5c6b976946a3.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "Ram's private insurer may keep a list of hospitals where it has an arrangement, and checks the hospital name, **PAN** and the doctor's NMC number on the receipts he sends.",
+     "say": "Ram's private insurer may keep a list of hospitals where it has an arrangement, and checks the hospital name, P A N and the doctor's N M C number on the receipts he sends.",
+     "focus": 2,
+     "file": "clips/e1a915c6690e.mp3",
+     "seconds": 11.225
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF publishes a list of **listed (empanelled) hospitals** where members like Sita can be treated.",
+     "say": "S S F publishes a list of listed (empanelled) hospitals where members like Sita can be treated.",
+     "focus": 3,
+     "file": "clips/5716469a7f04.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "That list is SSF's **provider data**: hospital name, location and what services it offers.",
+     "say": "That list is SSF's provider data: hospital name, location and what services it offers.",
+     "focus": 4,
+     "file": "clips/6abe367fbb8b.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "When the hospital sends Sita's claim, SSF can match it to an entry on its list.",
+     "say": "When the hospital sends Sita's claim, S S F can match it to an entry on its list.",
+     "focus": 5,
+     "file": "clips/e54be620b156.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "A hospital that is not on the list is not paid directly.",
+     "say": "A hospital that is not on the list is not paid directly.",
+     "focus": 5,
+     "file": "clips/0a288a9cb8b9.mp3",
+     "seconds": 3.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Provider data in Nepal",
+   "lines": [
+    {
+     "raw": "In the US: Provider data for Emily's insurer in Texas.",
+     "say": "In the U S: Provider data for Emily's insurer in Texas.",
+     "focus": -1,
+     "file": "clips/e050d5de2ec5.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "Emily's insurer keeps a **provider master file**: one central list of every provider it knows about.",
+     "say": "Emily's insurer keeps a provider master file: one central list of every provider it knows about.",
+     "focus": 0,
+     "file": "clips/809bfd188a9a.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Each entry holds the provider's **NPI** (national ID), **name**, **type**, **specialty**, **addresses**, **tax ID**, **licence** and **network status**.",
+     "say": "Each entry holds the provider's N P I (national I D), name, type, specialty, addresses, tax I D, licence and network status.",
+     "focus": 1,
+     "file": "clips/2e45f903999b.mp3",
+     "seconds": 10.05
+    },
+    {
+     "raw": "When claim **23098908** arrives with Dr. Patel's NPI, the insurer looks her up: is she real, is she a family doctor, is she **in-network** for Emily's plan?",
+     "say": "When claim 23098908 arrives with Doctor Patel's N P I, the insurer looks her up: is she real, is she a family doctor, is she in-network for Emily's plan?",
+     "focus": 2,
+     "file": "clips/b1aa3a078be1.mp3",
+     "seconds": 13.475
+    },
+    {
+     "raw": "Members see a friendly version of this list as the **provider directory**: the \"Find a Doctor\" search on the insurer's website.",
+     "say": "Members see a friendly version of this list as the provider directory: the \"Find a Doctor\" search on the insurer's website.",
+     "focus": 3,
+     "file": "clips/b92927fbb20a.mp3",
+     "seconds": 7.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Master data vs. event data.",
+     "say": "Master data versus event data.",
+     "focus": -1,
+     "file": "clips/a6739f3746c5.mp3",
+     "seconds": 2.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Master data vs. event data",
+   "lines": [
+    {
+     "raw": "Analysts split healthcare data into two kinds.",
+     "say": "Analysts split healthcare data into two kinds.",
+     "focus": -1,
+     "file": "clips/b78e74ffd781.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "**Events** happen again and again: a visit, a prescription, a payment.",
+     "say": "Events happen again and again: a visit, a prescription, a payment.",
+     "focus": -1,
+     "file": "clips/5944c5b210c0.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "**Master data** (also called **reference data** or a **dimension**) describes the people and things involved, and changes slowly.",
+     "say": "Master data (also called reference data or a dimension) describes the people and things involved, and changes slowly.",
+     "focus": -1,
+     "file": "clips/39f2830c9fbc.mp3",
+     "seconds": 8.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Master data vs. event data",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Examples. Event data: Medical claims, pharmacy claims, payments. Master data: Member list (eligibility), **provider list**, code lists.",
+     "say": "Examples. Event data: Medical claims, pharmacy claims, payments. Master data: Member list (eligibility), provider list, code lists.",
+     "focus": 0,
+     "file": "clips/14c7b9a3c23c.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "How it grows. Event data: New rows every day. Master data: Changes slowly: a new doctor joins, an address changes.",
+     "say": "How it grows. Event data: New rows every day. Master data: Changes slowly: a new doctor joins, an address changes.",
+     "focus": 1,
+     "file": "clips/4ee20bd47cd9.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "Question it answers. Event data: \"What happened?\". Master data: \"Who or what is this?\".",
+     "say": "Question it answers. Event data: \"What happened?\". Master data: \"Who or what is this?\".",
+     "focus": 2,
+     "file": "clips/44009122d4e9.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Emily example. Event data: Claim 23098908 on 10 Mar 2025. Master data: Dr. Patel: family medicine, Sunrise Family Clinic, in-network.",
+     "say": "Emily example. Event data: Claim 23098908 on 10 Mar 2025. Master data: Doctor Patel: family medicine, Sunrise Family Clinic, in-network.",
+     "focus": 3,
+     "file": "clips/ddb6d49fabdf.mp3",
+     "seconds": 14.475
+    },
+    {
+     "raw": "Nepal example. Event data: Ram's hospital bill. Master data: The NMC register of doctors.",
+     "say": "Nepal example. Event data: Ram's hospital bill. Master data: The N M C register of doctors.",
+     "focus": 4,
+     "file": "clips/2470345dc63a.mp3",
+     "seconds": 7.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Master data vs. event data",
+   "lines": [
+    {
+     "raw": "Why analysts care.",
+     "say": "Why analysts care.",
+     "focus": -1,
+     "file": "clips/8750cb2eed2b.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Claims tell you **how much** was spent.",
+     "say": "Claims tell you how much was spent.",
+     "focus": -1,
+     "file": "clips/8f850c747b0d.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Provider data tells you **with whom**.",
+     "say": "Provider data tells you with whom.",
+     "focus": -1,
+     "file": "clips/de706f7a3b15.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Without it you cannot answer questions like \"Which hospitals cost the most?\", \"How much do we spend on cardiologists?\" or \"Are members using in-network doctors?\".",
+     "say": "Without it you cannot answer questions like \"Which hospitals cost the most?\", \"How much do we spend on cardiologists?\" or \"Are members using in-network doctors?\".",
+     "focus": -1,
+     "file": "clips/a71132d9413d.mp3",
+     "seconds": 10.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Where US provider data comes from.",
+     "say": "Where U S provider data comes from.",
+     "focus": -1,
+     "file": "clips/be573b57fb25.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Where US provider data comes from",
+   "lines": [
+    {
+     "raw": "There is no single perfect source.",
+     "say": "There is no single perfect source.",
+     "focus": -1,
+     "file": "clips/7d9b8cad12f0.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "An insurer builds its provider master file by combining several:",
+     "say": "An insurer builds its provider master file by combining several:",
+     "focus": -1,
+     "file": "clips/20352ae860e4.mp3",
+     "seconds": 4.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Where US provider data comes from",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**NPPES** (the national NPI registry, run for CMS). What it gives: NPI, name, provider type, taxonomy (specialty), practice address. Public and free to search. Nepal comparison: The NMC register of doctors.",
+     "say": "N P P E S (the national N P I registry, run for C M S). What it gives: N P I, name, provider type, taxonomy (specialty), practice address. Public and free to search. Nepal comparison: The N M C register of doctors.",
+     "focus": 0,
+     "file": "clips/3d9a8827b1be.mp3",
+     "seconds": 17.375
+    },
+    {
+     "raw": "**Credentialing** records. What it gives: Checked licences, education, board certification, history of problems. Nepal comparison: Checking a doctor's NMC certificate and degrees before hiring.",
+     "say": "Credentialing records. What it gives: Checked licences, education, board certification, history of problems. Nepal comparison: Checking a doctor's N M C certificate and degrees before hiring.",
+     "focus": 1,
+     "file": "clips/63d87155fa8f.mp3",
+     "seconds": 13.875
+    },
+    {
+     "raw": "**Contracts** with the insurer. What it gives: Network status, start and end dates, agreed prices. Nepal comparison: SSF's agreement with a listed hospital.",
+     "say": "Contracts with the insurer. What it gives: Network status, start and end dates, agreed prices. Nepal comparison: SSF's agreement with a listed hospital.",
+     "focus": 2,
+     "file": "clips/7b14ace81efb.mp3",
+     "seconds": 11
+    },
+    {
+     "raw": "**Claims** themselves. What it gives: Which NPIs actually bill, and from which addresses. Nepal comparison: Receipts Ram sends in.",
+     "say": "Claims themselves. What it gives: Which N P I's actually bill, and from which addresses. Nepal comparison: Receipts Ram sends in.",
+     "focus": 3,
+     "file": "clips/fd328dba9945.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "**Provider updates**. What it gives: New phone, new address, accepting new patients or not. Nepal comparison: A clinic putting up a \"we have moved\" sign.",
+     "say": "Provider updates. What it gives: New phone, new address, accepting new patients or not. Nepal comparison: A clinic putting up a \"we have moved\" sign.",
+     "focus": 4,
+     "file": "clips/ff38da842556.mp3",
+     "seconds": 10.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Where US provider data comes from",
+   "lines": [
+    {
+     "raw": "Step 1: Doctor gets an NPI.",
+     "say": "Step 1: Doctor gets an N P I.",
+     "focus": 0,
+     "file": "clips/38d295ba09d2.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Dr. Patel applies through NPPES once in her career and receives her 10-digit NPI.",
+     "say": "Doctor Patel applies through N P P E S once in her career and receives her 10-digit N P I.",
+     "focus": 0,
+     "file": "clips/4ea8af1f4785.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "Step 2: Insurer checks her.",
+     "say": "Step 2: Insurer checks her.",
+     "focus": 1,
+     "file": "clips/ea42793adf9b.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Emily's insurer **credentials** her: licence, training, history.",
+     "say": "Emily's insurer credentials her: licence, training, history.",
+     "focus": 1,
+     "file": "clips/1382c13a4a98.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Step 3: Contract signed.",
+     "say": "Step 3: Contract signed.",
+     "focus": 2,
+     "file": "clips/0043d867731c.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Sunrise Family Clinic signs a contract, so Dr. Patel becomes **in-network**.",
+     "say": "Sunrise Family Clinic signs a contract, so Doctor Patel becomes in-network.",
+     "focus": 2,
+     "file": "clips/2727aa2814d4.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Step 4: Added to the master file.",
+     "say": "Step 4: Added to the master file.",
+     "focus": 3,
+     "file": "clips/da38e0e2030e.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "The insurer creates her provider record and shows her in the directory.",
+     "say": "The insurer creates her provider record and shows her in the directory.",
+     "focus": 3,
+     "file": "clips/06f480261c1e.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Step 5: Claims match.",
+     "say": "Step 5: Claims match.",
+     "focus": 4,
+     "file": "clips/e02b93f048a8.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Every claim with her NPI is linked to that record and paid at the contracted price.",
+     "say": "Every claim with her N P I is linked to that record and paid at the contracted price.",
+     "focus": 4,
+     "file": "clips/b7172ed1f557.mp3",
+     "seconds": 5.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Where US provider data comes from",
+   "lines": [
+    {
+     "raw": "Provider data goes out of date quickly.",
+     "say": "Provider data goes out of date quickly.",
+     "focus": -1,
+     "file": "clips/fb5b366a2ab0.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Doctors move clinics, retire, stop taking new patients or leave a network.",
+     "say": "Doctors move clinics, retire, stop taking new patients or leave a network.",
+     "focus": -1,
+     "file": "clips/f7ba3f5dca0f.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "A directory that lists doctors who cannot actually be booked is sometimes called a **\"ghost network\"**.",
+     "say": "A directory that lists doctors who cannot actually be booked is sometimes called a \"ghost network\".",
+     "focus": -1,
+     "file": "clips/a006b10bdc85.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "US rules now require plans to verify directory details regularly, so keeping provider data fresh is a real, ongoing job.",
+     "say": "U S rules now require plans to verify directory details regularly, so keeping provider data fresh is a real, ongoing job.",
+     "focus": -1,
+     "file": "clips/45be6be332ba.mp3",
+     "seconds": 9.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Where US provider data comes from",
+   "lines": [
+    {
+     "raw": "Provider.",
+     "say": "Provider.",
+     "focus": 0,
+     "file": "clips/1c1ae4af0bc9.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "Any person or organization that gives healthcare: doctor, nurse, hospital, clinic, lab, pharmacy.",
+     "say": "Any person or organization that gives healthcare: doctor, nurse, hospital, clinic, lab, pharmacy.",
+     "focus": 0,
+     "file": "clips/bd3585b8308c.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Provider master file.",
+     "say": "Provider master file.",
+     "focus": 1,
+     "file": "clips/2472ed4c5286.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "The insurer's central list of providers, one clean record each.",
+     "say": "The insurer's central list of providers, one clean record each.",
+     "focus": 1,
+     "file": "clips/c4e918aefe69.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Also called the provider **dimension** in a data warehouse.",
+     "say": "Also called the provider dimension in a data warehouse.",
+     "focus": 1,
+     "file": "clips/ef005780cdc0.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Provider directory.",
+     "say": "Provider directory.",
+     "focus": 2,
+     "file": "clips/3311fc08909c.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "The member-facing version of the list: \"Find a Doctor\" on the insurer's website or app.",
+     "say": "The member-facing version of the list: \"Find a Doctor\" on the insurer's website or app.",
+     "focus": 2,
+     "file": "clips/66c5c1ffcb6f.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "NPPES.",
+     "say": "N P P E S.",
+     "focus": 3,
+     "file": "clips/1df638de76dd.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "National Plan and Provider Enumeration System: the US system that gives out NPIs and publishes the public **NPI Registry**.",
+     "say": "National Plan and Provider Enumeration System: the U S system that gives out N P I's and publishes the public N P I Registry.",
+     "focus": 3,
+     "file": "clips/33ae358db9c4.mp3",
+     "seconds": 9.85
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Provider data is the list of who gives care: name, type, specialty, address, IDs and network status.",
+     "say": "Provider data is the list of who gives care: name, type, specialty, address, I D's and network status.",
+     "focus": 0,
+     "file": "clips/1748a13d4753.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "Claims are events; the provider list is master (reference) data that explains the IDs on each claim.",
+     "say": "Claims are events; the provider list is master (reference) data that explains the I D's on each claim.",
+     "focus": 1,
+     "file": "clips/6e39547a5876.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "In Nepal, think of the NMC register of doctors and SSF's list of listed hospitals.",
+     "say": "In Nepal, think of the N M C register of doctors and SSF's list of listed hospitals.",
+     "focus": 2,
+     "file": "clips/c2e14d3605c7.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "US insurers build their provider master file from NPPES, credentialing, contracts, claims and provider updates.",
+     "say": "U S insurers build their provider master file from N P P E S, credentialing, contracts, claims and provider updates.",
+     "focus": 3,
+     "file": "clips/bccbf73c6816.mp3",
+     "seconds": 9.025
+    },
+    {
+     "raw": "Provider data changes often and must be kept up to date.",
+     "say": "Provider data changes often and must be kept up to date.",
+     "focus": 4,
+     "file": "clips/2b7c51985beb.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

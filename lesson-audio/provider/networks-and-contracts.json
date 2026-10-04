@@ -1,0 +1,743 @@
+{
+ "courseId": "provider",
+ "lessonId": "networks-and-contracts",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Networks, Credentialing & Contracts.",
+     "say": "Lesson 5: Networks, Credentialing and Contracts.",
+     "focus": -1,
+     "file": "clips/5b7713352d1b.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "How a doctor gets into a network, what the contract says, and why it changes what Emily pays.",
+     "say": "How a doctor gets into a network, what the contract says, and why it changes what Emily pays.",
+     "focus": -1,
+     "file": "clips/6419b2b3d3a5.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a provider network is and why insurers build one.",
+     "say": "Explain what a provider network is and why insurers build one.",
+     "focus": 0,
+     "file": "clips/07f6ff6cd5b5.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "Describe credentialing: checking a provider before letting them in.",
+     "say": "Describe credentialing: checking a provider before letting them in.",
+     "focus": 1,
+     "file": "clips/e22065d70eba.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "Understand contracts and the main ways they set prices, such as fee schedules.",
+     "say": "Understand contracts and the main ways they set prices, such as fee schedules.",
+     "focus": 2,
+     "file": "clips/40bb98a98e19.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "Know the difference in-network vs. out-of-network makes, including balance billing.",
+     "say": "Know the difference in-network versus out-of-network makes, including balance billing.",
+     "focus": 3,
+     "file": "clips/0114304bac89.mp3",
+     "seconds": 5.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What is a network?",
+     "say": "What is a network?",
+     "focus": -1,
+     "file": "clips/695e3763a491.mp3",
+     "seconds": 1.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "What is a network?",
+   "lines": [
+    {
+     "raw": "A **network** is the set of providers who have signed a **contract** with an insurer for a particular plan.",
+     "say": "A network is the set of providers who have signed a contract with an insurer for a particular plan.",
+     "focus": -1,
+     "file": "clips/6a0e0ebdadca.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "In return for agreed (usually lower) prices, the insurer sends its members to them and makes it cheaper for members to use them.",
+     "say": "In return for agreed (usually lower) prices, the insurer sends its members to them and makes it cheaper for members to use them.",
+     "focus": -1,
+     "file": "clips/52d5e597276a.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "What is a network?",
+   "lines": [
+    {
+     "raw": "Like a company's partner restaurants.",
+     "say": "Like a company's partner restaurants.",
+     "focus": -1,
+     "file": "clips/7b46b52be458.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Ram's startup agrees with a few restaurants near the office: staff get 20% off if they show their ID card.",
+     "say": "Ram's startup agrees with a few restaurants near the office: staff get 20 percent off if they show their I D card.",
+     "focus": -1,
+     "file": "clips/f67019d08f42.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "The restaurants accept a lower price because they get more customers.",
+     "say": "The restaurants accept a lower price because they get more customers.",
+     "focus": -1,
+     "file": "clips/d7b3cae9b31b.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Those restaurants are the startup's **network**.",
+     "say": "Those restaurants are the startup's network.",
+     "focus": -1,
+     "file": "clips/2e70841338d3.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Eating elsewhere is allowed, but there is no discount.",
+     "say": "Eating elsewhere is allowed, but there is no discount.",
+     "focus": -1,
+     "file": "clips/7c7f28aa8083.mp3",
+     "seconds": 3.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "What is a network?",
+   "lines": [
+    {
+     "raw": "Networks in Nepal.",
+     "say": "Networks in Nepal.",
+     "focus": -1,
+     "file": "clips/36262b013f36.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's policy works by **reimbursement**: he pays any hospital, then claims.",
+     "say": "Ram's policy works by reimbursement: he pays any hospital, then claims.",
+     "focus": 0,
+     "file": "clips/7a5ee91ebfcd.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "So for him, almost every licensed hospital is usable.",
+     "say": "So for him, almost every licensed hospital is usable.",
+     "focus": 0,
+     "file": "clips/54919c0a30aa.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Some private policies in Nepal also offer **cashless** treatment at certain partner hospitals.",
+     "say": "Some private policies in Nepal also offer cashless treatment at certain partner hospitals.",
+     "focus": 1,
+     "file": "clips/b9591b730662.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "That partner list is a network.",
+     "say": "That partner list is a network.",
+     "focus": 1,
+     "file": "clips/27fafbadaf1f.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Ram's policy does not include it, so he always pays first.",
+     "say": "Ram's policy does not include it, so he always pays first.",
+     "focus": 1,
+     "file": "clips/65ddf4eb715e.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF's **listed hospitals** are its network.",
+     "say": "SSF's listed hospitals are its network.",
+     "focus": 2,
+     "file": "clips/2a8b8a41a0d6.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "SSF has an agreement with each one.",
+     "say": "S S F has an agreement with each one.",
+     "focus": 2,
+     "file": "clips/7af7ce5d6959.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "At a listed hospital, Sita pays only her **20%** share and SSF pays the hospital its **80%** directly.",
+     "say": "At a listed hospital, Sita pays only her 20 percent share and S S F pays the hospital its 80 percent directly.",
+     "focus": 3,
+     "file": "clips/b3e4f1b597f3.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "At an unlisted hospital, SSF will normally not pay the hospital.",
+     "say": "At an unlisted hospital, S S F will normally not pay the hospital.",
+     "focus": 4,
+     "file": "clips/2dd494b510ba.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "That is the Nepali version of **out-of-network**.",
+     "say": "That is the Nepali version of out-of-network.",
+     "focus": 4,
+     "file": "clips/3a71417a2582.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 1: credentialing.",
+     "say": "Step 1: credentialing.",
+     "focus": -1,
+     "file": "clips/c0ae277f5d0d.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Step 1: credentialing",
+   "lines": [
+    {
+     "raw": "Before an insurer lets a provider into its network, it checks that the provider is **qualified and safe**.",
+     "say": "Before an insurer lets a provider into its network, it checks that the provider is qualified and safe.",
+     "focus": -1,
+     "file": "clips/bbfcdb469a2a.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "This check is called **credentialing**.",
+     "say": "This check is called credentialing.",
+     "focus": -1,
+     "file": "clips/974d68b576c3.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "It is repeated every few years (often every **3 years**), called **re-credentialing**.",
+     "say": "It is repeated every few years (often every 3 years), called re-credentialing.",
+     "focus": -1,
+     "file": "clips/56acad8c1e72.mp3",
+     "seconds": 5.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Step 1: credentialing",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**State licence**. Why: Is she allowed to practise in Texas, and is the licence active? Nepal comparison: Is the NMC registration valid?",
+     "say": "State licence. Why: Is she allowed to practise in Texas, and is the licence active? Nepal comparison: Is the N M C registration valid?",
+     "focus": 0,
+     "file": "clips/6d79c529a7d1.mp3",
+     "seconds": 10.325
+    },
+    {
+     "raw": "**Education and training**. Why: Did she finish medical school and specialty training? Nepal comparison: MBBS and MD/MS certificates.",
+     "say": "Education and training. Why: Did she finish medical school and specialty training? Nepal comparison: M B B S and MD/MS certificates.",
+     "focus": 1,
+     "file": "clips/f3685600ee99.mp3",
+     "seconds": 10.975
+    },
+    {
+     "raw": "**Board certification**. Why: Did she pass her specialty exam? Nepal comparison: Specialist registration with NMC.",
+     "say": "Board certification. Why: Did she pass her specialty exam? Nepal comparison: Specialist registration with N M C.",
+     "focus": 2,
+     "file": "clips/4fc4e2245c42.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "**DEA registration**. Why: Can she legally prescribe controlled drugs? Nepal comparison: Permission for strong medicines.",
+     "say": "D E A registration. Why: Can she legally prescribe controlled drugs? Nepal comparison: Permission for strong medicines.",
+     "focus": 3,
+     "file": "clips/b733c6718082.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "**Malpractice history**. Why: Has she been sued for harming patients? Nepal comparison: Complaints to NMC.",
+     "say": "Malpractice history. Why: Has she been sued for harming patients? Nepal comparison: Complaints to N M C.",
+     "focus": 4,
+     "file": "clips/e675c3b2285a.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "**Sanctions and exclusions**. Why: Is she banned from government programs like Medicare? Nepal comparison: A doctor whose registration was suspended.",
+     "say": "Sanctions and exclusions. Why: Is she banned from government programs like Medicare? Nepal comparison: A doctor whose registration was suspended.",
+     "focus": 5,
+     "file": "clips/e06dff3b246d.mp3",
+     "seconds": 10.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Step 1: credentialing",
+   "lines": [
+    {
+     "raw": "Doctors fill the forms once (almost).",
+     "say": "Doctors fill the forms once (almost).",
+     "focus": -1,
+     "file": "clips/fb1f9da32276.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Many US insurers collect credentialing details through a shared online service called **CAQH ProView**, so a doctor does not fill the same forms for every insurer.",
+     "say": "Many U S insurers collect credentialing details through a shared online service called C A Q H ProView, so a doctor does not fill the same forms for every insurer.",
+     "focus": -1,
+     "file": "clips/5a1527c426cf.mp3",
+     "seconds": 11.675
+    },
+    {
+     "raw": "For facilities like hospitals, insurers check things like state licence and accreditation instead.",
+     "say": "For facilities like hospitals, insurers check things like state licence and accreditation instead.",
+     "focus": -1,
+     "file": "clips/2a3a98e40537.mp3",
+     "seconds": 6.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Step 1: credentialing",
+   "lines": [
+    {
+     "raw": "Who signs the contract?",
+     "say": "Who signs the contract?",
+     "focus": -1,
+     "file": "clips/3bbb96019a65.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Most doctors do not sign alone: their **group** signs, usually at the **TIN** level (lesson 4).",
+     "say": "Most doctors do not sign alone: their group signs, usually at the T I N level (lesson 4).",
+     "focus": -1,
+     "file": "clips/95ba176dd8aa.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "One contract then covers every doctor in the group.",
+     "say": "One contract then covers every doctor in the group.",
+     "focus": -1,
+     "file": "clips/0329db5f1bb0.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 2: the contract and fee schedule.",
+     "say": "Step 2: the contract and fee schedule.",
+     "focus": -1,
+     "file": "clips/99df334e189f.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Step 2: the contract and fee schedule",
+   "lines": [
+    {
+     "raw": "The contract says **how much** the insurer will pay for each service.",
+     "say": "The contract says how much the insurer will pay for each service.",
+     "focus": -1,
+     "file": "clips/9dd71a5742d5.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "That agreed price is the **allowed amount** (the Medical course explains it in detail).",
+     "say": "That agreed price is the allowed amount (the Medical course explains it in detail).",
+     "focus": -1,
+     "file": "clips/7d40d89b4181.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "The list of prices is called a **fee schedule**.",
+     "say": "The list of prices is called a fee schedule.",
+     "focus": -1,
+     "file": "clips/fe72a9110cc5.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Step 2: the contract and fee schedule",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Fee schedule**. How the price is set: A fixed price per CPT code, often set as a percentage of Medicare's price. Emily example: Dr. Patel's office visit and strep test: billed $150, allowed $102.",
+     "say": "Fee schedule. How the price is set: A fixed price per C P T code, often set as a percentage of Medicare's price. Emily example: Doctor Patel's office visit and strep test: billed 150 dollars allowed 102 dollars.",
+     "focus": 0,
+     "file": "clips/12ed581c3f88.mp3",
+     "seconds": 16.45
+    },
+    {
+     "raw": "**Percent of charges**. How the price is set: The insurer pays an agreed share of what the hospital bills. Emily example: Lakeside General: 60% of $10,000 = $6,000 allowed.",
+     "say": "Percent of charges. How the price is set: The insurer pays an agreed share of what the hospital bills. Emily example: Lakeside General: 60 percent of 10000 dollars = 6000 dollars allowed.",
+     "focus": 1,
+     "file": "clips/54ed51532c63.mp3",
+     "seconds": 14.025
+    },
+    {
+     "raw": "**DRG / case rate**. How the price is set: One package price for a whole hospital stay. Emily example: An alternative way to pay the same stay (covered in the Fee For Service course).",
+     "say": "D R G or case rate. How the price is set: One package price for a whole hospital stay. Emily example: An alternative way to pay the same stay (covered in the Fee For Service course).",
+     "focus": 2,
+     "file": "clips/d38c28f41a2c.mp3",
+     "seconds": 13.05
+    },
+    {
+     "raw": "**Per diem**. How the price is set: A fixed price per day in hospital. Emily example: Not used for Emily.",
+     "say": "Per diem. How the price is set: A fixed price per day in hospital. Emily example: Not used for Emily.",
+     "focus": 3,
+     "file": "clips/9c3636d8051b.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "**Capitation**. How the price is set: A fixed amount per member per month, whether or not the member visits. Emily example: Lesson 6, for PCPs in some plans.",
+     "say": "Capitation. How the price is set: A fixed amount per member per month, whether or not the member visits. Emily example: Lesson 6, for P C P's in some plans.",
+     "focus": 4,
+     "file": "clips/7efa44a0ac48.mp3",
+     "seconds": 11.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Step 2: the contract and fee schedule",
+   "lines": [
+    {
+     "raw": "In the US: What a network record looks like in data.",
+     "say": "In the U S: What a network record looks like in data.",
+     "focus": -1,
+     "file": "clips/0612df95b9e0.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Network status is stored per **provider**, per **network or plan**, with **start and end dates**.",
+     "say": "Network status is stored per provider, per network or plan, with start and end dates.",
+     "focus": 0,
+     "file": "clips/d9bb5b3ebd36.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "A provider can be **in-network** for one plan and **out-of-network** for another plan of the same insurer.",
+     "say": "A provider can be in-network for one plan and out-of-network for another plan of the same insurer.",
+     "focus": 1,
+     "file": "clips/7f7c42a5e13c.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "Status can change: if the clinic's contract ends on 31 December, claims from 1 January are out-of-network.",
+     "say": "Status can change: if the clinic's contract ends on 31 December, claims from 1 January are out-of-network.",
+     "focus": 2,
+     "file": "clips/8f4df5c670c3.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "So always check the network status **on the date of service**, not today's status.",
+     "say": "So always check the network status on the date of service, not today's status.",
+     "focus": 3,
+     "file": "clips/caeb6e896249.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Step 2: the contract and fee schedule",
+   "lines": [
+    {
+     "raw": "Network participation for Emily's plan TXPPO1000 (example data).",
+     "say": "Network participation for Emily's plan T X P P O 1 0 0 0 (example data).",
+     "focus": -1,
+     "file": "clips/47329b5f7418.mp3",
+     "seconds": 7.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Step 2: the contract and fee schedule",
+   "lines": [
+    {
+     "raw": "Reading the table.",
+     "say": "Reading the table.",
+     "focus": -1,
+     "file": "clips/d40748e48e4f.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "`par_status` means **participating** (in-network) or not.",
+     "say": "par_status means participating (in-network) or not.",
+     "focus": -1,
+     "file": "clips/c17fee733659.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "`9999-12-31` is the usual way to say \"no end date yet\", the same convention used for coverage dates in eligibility data (see the Eligibility course).",
+     "say": "9 9 9 9 dash 1 2 dash 3 1 is the usual way to say \"no end date yet\", the same convention used for coverage dates in eligibility data (see the Eligibility course).",
+     "focus": -1,
+     "file": "clips/b248ee3ad241.mp3",
+     "seconds": 13.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "In-network vs. out-of-network for Emily.",
+     "say": "In-network versus out-of-network for Emily.",
+     "focus": -1,
+     "file": "clips/920d14bf5a67.mp3",
+     "seconds": 3.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "In-network vs. out-of-network for Emily",
+   "lines": [
+    {
+     "raw": "Emily has a **PPO**, so she **can** see out-of-network providers, but she pays more.",
+     "say": "Emily has a P P O, so she can see out-of-network providers, but she pays more.",
+     "focus": -1,
+     "file": "clips/08f38987b3a2.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "The biggest danger is **balance billing**: an out-of-network provider has no contract, so they are not forced to accept the insurer's allowed amount.",
+     "say": "The biggest danger is balance billing: an out-of-network provider has no contract, so they are not forced to accept the insurer's allowed amount.",
+     "focus": -1,
+     "file": "clips/71c8b344e228.mp3",
+     "seconds": 9.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "In-network vs. out-of-network for Emily",
+   "lines": [
+    {
+     "raw": "Imagine a $200 visit where the insurer allows $120 (simple example).",
+     "say": "Imagine a 200 dollars visit where the insurer allows 120 dollars (simple example).",
+     "focus": -1,
+     "file": "clips/f962777d13bd.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "Billed. In-network doctor: $200. Out-of-network doctor: $200.",
+     "say": "Billed. In-network doctor: 200 dollars. Out-of-network doctor: 200 dollars.",
+     "focus": 0,
+     "file": "clips/46251b3d4b00.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Allowed by insurer. In-network doctor: $120. Out-of-network doctor: $120.",
+     "say": "Allowed by insurer. In-network doctor: 120 dollars. Out-of-network doctor: 120 dollars.",
+     "focus": 1,
+     "file": "clips/9c92b2f53d0b.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "The $80 difference. In-network doctor: Doctor **writes it off**: the contract forbids billing Emily. Out-of-network doctor: Doctor **may bill Emily** for it (balance billing).",
+     "say": "The 80 dollars difference. In-network doctor: Doctor writes it off: the contract forbids billing Emily. Out-of-network doctor: Doctor may bill Emily for it (balance billing).",
+     "focus": 2,
+     "file": "clips/4a5afedc9d39.mp3",
+     "seconds": 11.325
+    },
+    {
+     "raw": "Emily's cost share. In-network doctor: Her normal in-network share. Out-of-network doctor: Usually a higher out-of-network share, **plus** the $80.",
+     "say": "Emily's cost share. In-network doctor: Her normal in-network share. Out-of-network doctor: Usually a higher out-of-network share, plus the 80 dollars.",
+     "focus": 3,
+     "file": "clips/18c824dba713.mp3",
+     "seconds": 10.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "In-network vs. out-of-network for Emily",
+   "lines": [
+    {
+     "raw": "The No Surprises Act.",
+     "say": "The No Surprises Act.",
+     "focus": -1,
+     "file": "clips/54ecf415f8fd.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Since 2022, a US law called the **No Surprises Act** protects patients from most surprise balance bills in **emergencies**, and from out-of-network doctors (such as an anaesthesiologist) who treat them at an **in-network hospital** without their choice.",
+     "say": "Since 2022, a U S law called the No Surprises Act protects patients from most surprise balance bills in emergencies, and from out-of-network doctors (such as an anaesthesiologist) who treat them at an in-network hospital without their choice.",
+     "focus": -1,
+     "file": "clips/c48f696253ca.mp3",
+     "seconds": 16.35
+    },
+    {
+     "raw": "If Dr. Gomez had been out-of-network, Emily would still have paid only her in-network share for his work.",
+     "say": "If Doctor Gomez had been out-of-network, Emily would still have paid only her in-network share for his work.",
+     "focus": -1,
+     "file": "clips/17572a365698.mp3",
+     "seconds": 6.625
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A network is the set of providers with a contract for a plan, like SSF's listed hospitals.",
+     "say": "A network is the set of providers with a contract for a plan, like SSF's listed hospitals.",
+     "focus": 0,
+     "file": "clips/f80eb016dd9a.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "Credentialing checks licence, training, certification, DEA, malpractice and sanctions, and is repeated every few years.",
+     "say": "Credentialing checks licence, training, certification, D E A, malpractice and sanctions, and is repeated every few years.",
+     "focus": 1,
+     "file": "clips/30a7609d5f33.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "Doctors usually contract through their group, at the TIN level.",
+     "say": "Doctors usually contract through their group, at the T I N level.",
+     "focus": 2,
+     "file": "clips/451241756a7b.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "The contract's fee schedule sets the allowed amount.",
+     "say": "The contract's fee schedule sets the allowed amount.",
+     "focus": 3,
+     "file": "clips/649d74130e85.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Methods include fee schedule, percent of charges, DRG, per diem and capitation.",
+     "say": "Methods include fee schedule, percent of charges, D R G, per diem and capitation.",
+     "focus": 3,
+     "file": "clips/92d31f22b62d.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "Network status has start and end dates; check it on the date of service.",
+     "say": "Network status has start and end dates; check it on the date of service.",
+     "focus": 4,
+     "file": "clips/5a581d4875f6.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Out-of-network can mean balance billing.",
+     "say": "Out-of-network can mean balance billing.",
+     "focus": 4,
+     "file": "clips/694675d82f40.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

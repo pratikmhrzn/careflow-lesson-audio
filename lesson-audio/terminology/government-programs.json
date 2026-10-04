@@ -1,0 +1,785 @@
+{
+ "courseId": "terminology",
+ "lessonId": "government-programs",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Government & Program Words.",
+     "say": "Lesson 5: Government and Program Words.",
+     "focus": -1,
+     "file": "clips/47d4fcfb9c32.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Medicare, Medicaid, CHIP, the ACA and CMS: the public side of US healthcare.",
+     "say": "Medicare, Medicaid, CHIP, the A C A and C M S: the public side of U S healthcare.",
+     "focus": -1,
+     "file": "clips/e9aab9dc6c02.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Tell Medicare, Medicaid and CHIP apart.",
+     "say": "Tell Medicare, Medicaid and CHIP apart.",
+     "focus": 0,
+     "file": "clips/9ab244755e00.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Name the four parts of Medicare and explain Medicare Advantage.",
+     "say": "Name the four parts of Medicare and explain Medicare Advantage.",
+     "focus": 1,
+     "file": "clips/c0bc90d11641.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Explain what the ACA and the marketplace are.",
+     "say": "Explain what the A C A and the marketplace are.",
+     "focus": 2,
+     "file": "clips/31ed963c1a4f.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Know what CMS does, and where the privacy words (HIPAA, PHI) are taught.",
+     "say": "Know what C M S does, and where the privacy words (HIPAA, P H I) are taught.",
+     "focus": 3,
+     "file": "clips/02ad60a1ccf9.mp3",
+     "seconds": 5.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Where do Americans get coverage?",
+     "say": "Where do Americans get coverage?",
+     "focus": -1,
+     "file": "clips/37daac37013e.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Where do Americans get coverage?",
+   "lines": [
+    {
+     "raw": "Emily gets her coverage from her **employer**, like most working-age Americans.",
+     "say": "Emily gets her coverage from her employer, like most working-age Americans.",
+     "focus": -1,
+     "file": "clips/4e1341db8fff.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "But the government also runs huge health programs, for older people, for people with low income, and for children.",
+     "say": "But the government also runs huge health programs, for older people, for people with low income, and for children.",
+     "focus": -1,
+     "file": "clips/f6c00447a993.mp3",
+     "seconds": 7.525
+    },
+    {
+     "raw": "These words come up all the time, even if you only work with commercial (employer) data.",
+     "say": "These words come up all the time, even if you only work with commercial (employer) data.",
+     "focus": -1,
+     "file": "clips/805b56b0121d.mp3",
+     "seconds": 5.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Where do Americans get coverage?",
+   "lines": [
+    {
+     "raw": "The main sources of US coverage.",
+     "say": "The main sources of U S coverage.",
+     "focus": -1,
+     "file": "clips/4c3e705bd7f3.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "**Commercial (employer)**. Who it covers: Workers and their families. Who pays: Employer and worker share the premium. Our example: Emily, Daniel and Lily.",
+     "say": "Commercial (employer). Who it covers: Workers and their families. Who pays: Employer and worker share the premium. Our example: Emily, Daniel and Lily.",
+     "focus": 0,
+     "file": "clips/07ddc7e03a5a.mp3",
+     "seconds": 10.45
+    },
+    {
+     "raw": "**Individual / marketplace**. Who it covers: People who buy their own plan. Who pays: The person, often with a government subsidy. Our example: Daniel could have used this after losing his job.",
+     "say": "Individual or marketplace. Who it covers: People who buy their own plan. Who pays: The person, often with a government subsidy. Our example: Daniel could have used this after losing his job.",
+     "focus": 1,
+     "file": "clips/ed685e9de91e.mp3",
+     "seconds": 13.25
+    },
+    {
+     "raw": "**Medicare**. Who it covers: People **65 and older**, and some younger people with disabilities or kidney failure. Who pays: Federal government, plus member premiums. Our example: Robert, Emily's father.",
+     "say": "Medicare. Who it covers: People 65 and older, and some younger people with disabilities or kidney failure. Who pays: Federal government, plus member premiums. Our example: Robert, Emily's father.",
+     "focus": 2,
+     "file": "clips/3f739e9b0865.mp3",
+     "seconds": 13.775
+    },
+    {
+     "raw": "**Medicaid**. Who it covers: People with **low income** (rules vary by state). Who pays: Federal and state governments together. Our example: None of our characters.",
+     "say": "Medicaid. Who it covers: People with low income (rules vary by state). Who pays: Federal and state governments together. Our example: None of our characters.",
+     "focus": 3,
+     "file": "clips/74152868631e.mp3",
+     "seconds": 10.75
+    },
+    {
+     "raw": "**CHIP**. Who it covers: **Children** in families that earn too much for Medicaid but cannot afford private cover. Who pays: Federal and state governments. Our example: None of our characters.",
+     "say": "CHIP. Who it covers: Children in families that earn too much for Medicaid but cannot afford private cover. Who pays: Federal and state governments. Our example: None of our characters.",
+     "focus": 4,
+     "file": "clips/a17856f8c186.mp3",
+     "seconds": 12.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Where do Americans get coverage?",
+   "lines": [
+    {
+     "raw": "An easy way to remember.",
+     "say": "An easy way to remember.",
+     "focus": -1,
+     "file": "clips/abab34c5bc04.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Medi**care** is for the elderly, people we **care** for.",
+     "say": "Medicare is for the elderly, people we care for.",
+     "focus": -1,
+     "file": "clips/367746e558db.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Medic**aid** is **aid** for people with low income.",
+     "say": "Medicaid is aid for people with low income.",
+     "focus": -1,
+     "file": "clips/bb53754e89fb.mp3",
+     "seconds": 3.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet Robert: our Medicare member.",
+     "say": "Meet Robert: our Medicare member.",
+     "focus": -1,
+     "file": "clips/745ee60b4247.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Meet Robert: our Medicare member",
+   "lines": [
+    {
+     "raw": "In the US: Robert Carter, Houston, Texas.",
+     "say": "In the U S: Robert Carter, Houston, Texas.",
+     "focus": -1,
+     "file": "clips/4d5e24333a5d.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "**Robert** is Emily's father, born **2 May 1957**, a retired school teacher in Houston.",
+     "say": "Robert is Emily's father, born 2 May 1957, a retired school teacher in Houston.",
+     "focus": 0,
+     "file": "clips/c88bd65383e7.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "He turned 65 in May 2022 and joined **Medicare**.",
+     "say": "He turned 65 in May 2022 and joined Medicare.",
+     "focus": 1,
+     "file": "clips/eca44546e773.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "He has **type 2 diabetes** and **high blood pressure**.",
+     "say": "He has type 2 diabetes and high blood pressure.",
+     "focus": 1,
+     "file": "clips/6a421481bc15.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "From May 2022 to the end of 2023, Robert had **Original Medicare** (Parts A and B) plus a separate **Part D** drug plan from a private company.",
+     "say": "From May 2022 to the end of 2023, Robert had Original Medicare (Parts A and B) plus a separate Part D drug plan from a private company.",
+     "focus": 2,
+     "file": "clips/3e444db8e7f2.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "Since **1 January 2024** he has a **Medicare Advantage** plan with drug coverage: **Gulf Coast Advantage (HMO)** from **Gulf Coast Health Plan** (made up), member ID `GC5001`.",
+     "say": "Since 1 January 2024 he has a Medicare Advantage plan with drug coverage: Gulf Coast Advantage (H M O) from Gulf Coast Health Plan (made up), member I D G C 5 0 0 1.",
+     "focus": 3,
+     "file": "clips/b694ce4ae12f.mp3",
+     "seconds": 14.2
+    },
+    {
+     "raw": "His primary care doctor is **Dr. Nguyen** at Bayou Family Medicine (made up).",
+     "say": "His primary care doctor is Doctor Nguyen at Bayou Family Medicine (made up).",
+     "focus": 3,
+     "file": "clips/cc1dfd1390ca.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "His claims go to his Medicare Advantage plan, not to Emily's employer plan.",
+     "say": "His claims go to his Medicare Advantage plan, not to Emily's employer plan.",
+     "focus": 4,
+     "file": "clips/f37ba5fdd065.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "He still pays the monthly Part B premium.",
+     "say": "He still pays the monthly Part B premium.",
+     "focus": 4,
+     "file": "clips/441a09477d29.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Meet Robert: our Medicare member",
+   "lines": [
+    {
+     "raw": "Part A (Hospital insurance).",
+     "say": "Part A (Hospital insurance).",
+     "focus": 0,
+     "file": "clips/0a4615ec9281.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Inpatient hospital stays, skilled nursing facility care, hospice and some home health.",
+     "say": "Inpatient hospital stays, skilled nursing facility care, hospice and some home health.",
+     "focus": 0,
+     "file": "clips/1de97fc0e7eb.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "Most people pay **no premium** for Part A because they paid Medicare taxes while working.",
+     "say": "Most people pay no premium for Part A because they paid Medicare taxes while working.",
+     "focus": 0,
+     "file": "clips/1bfeda3705ff.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Part B (Medical insurance).",
+     "say": "Part B (Medical insurance).",
+     "focus": 1,
+     "file": "clips/08c0609a9de8.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Doctor visits, outpatient care, lab tests, preventive care and medical equipment.",
+     "say": "Doctor visits, outpatient care, lab tests, preventive care and medical equipment.",
+     "focus": 1,
+     "file": "clips/af6b937b4c20.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Has a **monthly premium** (the standard amount in 2025 is $185.00).",
+     "say": "Has a monthly premium (the standard amount in 2025 is 185 dollars).",
+     "focus": 1,
+     "file": "clips/c8cd2c3796f8.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "Part C (Medicare Advantage, MA).",
+     "say": "Part C (Medicare Advantage, M A).",
+     "focus": 2,
+     "file": "clips/39d6442903b6.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "A **private health plan approved by Medicare** that replaces Parts A and B (and usually includes D).",
+     "say": "A private health plan approved by Medicare that replaces Parts A and B (and usually includes D).",
+     "focus": 2,
+     "file": "clips/55ba4491be73.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Medicare pays the plan a fixed monthly amount per member.",
+     "say": "Medicare pays the plan a fixed monthly amount per member.",
+     "focus": 2,
+     "file": "clips/ef7cc3973b60.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Roughly **half** of people with Medicare now choose MA.",
+     "say": "Roughly half of people with Medicare now choose M A.",
+     "focus": 2,
+     "file": "clips/edb678abbdc4.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Part D (Prescription drugs).",
+     "say": "Part D (Prescription drugs).",
+     "focus": 3,
+     "file": "clips/5f01b7e6ea68.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Drug coverage sold by **private companies** approved by Medicare, either as a standalone plan (Robert's choice in 2022 and 2023) or inside a Medicare Advantage plan (Robert's choice since 2024).",
+     "say": "Drug coverage sold by private companies approved by Medicare, either as a standalone plan (Robert's choice in 2022 and 2023) or inside a Medicare Advantage plan (Robert's choice since 2024).",
+     "focus": 3,
+     "file": "clips/66651e994e19.mp3",
+     "seconds": 15.05
+    },
+    {
+     "raw": "Original Medicare (Fee-for-Service Medicare).",
+     "say": "Original Medicare (Fee-for-Service Medicare).",
+     "focus": 4,
+     "file": "clips/5e1c9ae0eb21.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "Parts A and B run **directly by the government**.",
+     "say": "Parts A and B run directly by the government.",
+     "focus": 4,
+     "file": "clips/1e7520f67857.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "While Robert had it (2022 to 2023), he could see almost any doctor in the US who accepts Medicare.",
+     "say": "While Robert had it (2022 to 2023), he could see almost any doctor in the U S who accepts Medicare.",
+     "focus": 4,
+     "file": "clips/e751fea06fdf.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "Medigap (Medicare Supplement).",
+     "say": "Medigap (Medicare Supplement).",
+     "focus": 5,
+     "file": "clips/0a3f1d83aa37.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Extra private insurance that helps pay the costs Original Medicare leaves to the member, such as coinsurance.",
+     "say": "Extra private insurance that helps pay the costs Original Medicare leaves to the member, such as coinsurance.",
+     "focus": 5,
+     "file": "clips/4f30378afeca.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Dual eligible (\"duals\").",
+     "say": "Dual eligible (\"duals\").",
+     "focus": 6,
+     "file": "clips/726acebe8c2f.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "A person who has **both Medicare and Medicaid**, usually older people with low income.",
+     "say": "A person who has both Medicare and Medicaid, usually older people with low income.",
+     "focus": 6,
+     "file": "clips/1c292e0bb1f3.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "Beneficiary.",
+     "say": "Beneficiary.",
+     "focus": 7,
+     "file": "clips/c80c57a036a3.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "The usual word for a person covered by Medicare or Medicaid, the same as a member in a commercial plan.",
+     "say": "The usual word for a person covered by Medicare or Medicaid, the same as a member in a commercial plan.",
+     "focus": 7,
+     "file": "clips/c56979d647b6.mp3",
+     "seconds": 7.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Meet Robert: our Medicare member",
+   "lines": [
+    {
+     "raw": "Original Medicare vs Medicare Advantage.",
+     "say": "Original Medicare versus Medicare Advantage.",
+     "focus": -1,
+     "file": "clips/387f4d6c6a49.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Think of a government canteen and a private caterer.",
+     "say": "Think of a government canteen and a private caterer.",
+     "focus": -1,
+     "file": "clips/eb4dc37bb961.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "With **Original Medicare**, Robert eats at the government canteen and the government pays for each plate he eats (fee for service).",
+     "say": "With Original Medicare, Robert eats at the government canteen and the government pays for each plate he eats (fee for service).",
+     "focus": -1,
+     "file": "clips/d3fb02f12956.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "With **Medicare Advantage**, the government gives a private caterer a fixed amount each month to feed Robert, and the caterer decides the menu, often adding extras like dental or vision.",
+     "say": "With Medicare Advantage, the government gives a private caterer a fixed amount each month to feed Robert, and the caterer decides the menu, often adding extras like dental or vision.",
+     "focus": -1,
+     "file": "clips/f86fdf4224b8.mp3",
+     "seconds": 11.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Meet Robert: our Medicare member",
+   "lines": [
+    {
+     "raw": "Nepal also has a government health insurance program, run by the **Health Insurance Board**, where families pay a yearly contribution for cover at listed health facilities.",
+     "say": "Nepal also has a government health insurance program, run by the Health Insurance Board, where families pay a yearly contribution for cover at listed health facilities.",
+     "focus": -1,
+     "file": "clips/3e3b3da98747.mp3",
+     "seconds": 10.85
+    },
+    {
+     "raw": "Like Medicaid, it is a **public** program, and the government supports some groups, such as people with very low income.",
+     "say": "Like Medicaid, it is a public program, and the government supports some groups, such as people with very low income.",
+     "focus": -1,
+     "file": "clips/4c2bec4f9736.mp3",
+     "seconds": 7.5
+    },
+    {
+     "raw": "Sita's SSF is different: it is linked to her **job** and her contributions, which makes it closer in spirit to US **employer** coverage plus a government-style fund.",
+     "say": "Sita's S S F is different: it is linked to her job and her contributions, which makes it closer in spirit to U S employer coverage plus a government-style fund.",
+     "focus": -1,
+     "file": "clips/6d7919e604b1.mp3",
+     "seconds": 11.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Meet Robert: our Medicare member",
+   "lines": [
+    {
+     "raw": "About Nepal programs.",
+     "say": "About Nepal programs.",
+     "focus": -1,
+     "file": "clips/0bf266f2b557.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Health Insurance Board and SSF rules, contributions and limits change over time.",
+     "say": "Health Insurance Board and S S F rules, contributions and limits change over time.",
+     "focus": -1,
+     "file": "clips/9ad4a79a9e49.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "This lesson only compares the broad ideas.",
+     "say": "This lesson only compares the broad ideas.",
+     "focus": -1,
+     "file": "clips/41c058e0f56c.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Check official sources for current details.",
+     "say": "Check official sources for current details.",
+     "focus": -1,
+     "file": "clips/fbc917dd25ca.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The law and the agency.",
+     "say": "The law and the agency.",
+     "focus": -1,
+     "file": "clips/3abe5c5788b6.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The law and the agency",
+   "lines": [
+    {
+     "raw": "ACA (Affordable Care Act, \"Obamacare\").",
+     "say": "A C A (Affordable Care Act, \"Obamacare\").",
+     "focus": 0,
+     "file": "clips/96d346fcfdd0.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "A major US law passed in **2010**.",
+     "say": "A major U S law passed in 2010.",
+     "focus": 0,
+     "file": "clips/2cadb1d0feec.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "It created the **marketplaces**, stopped insurers refusing people for **pre-existing conditions**, let children stay on a parent's plan **until age 26**, and let states **expand Medicaid**.",
+     "say": "It created the marketplaces, stopped insurers refusing people for pre-existing conditions, let children stay on a parent's plan until age 26, and let states expand Medicaid.",
+     "focus": 0,
+     "file": "clips/9b73c4f7163e.mp3",
+     "seconds": 12.35
+    },
+    {
+     "raw": "Marketplace (exchange).",
+     "say": "Marketplace (exchange).",
+     "focus": 1,
+     "file": "clips/5a648969271b.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "A government-run website where people **buy their own plan**, often with **subsidies** (tax credits) based on income.",
+     "say": "A government-run website where people buy their own plan, often with subsidies (tax credits) based on income.",
+     "focus": 1,
+     "file": "clips/3cf15af7a842.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "The federal one is HealthCare.gov; some states run their own.",
+     "say": "The federal one is HealthCare.gov; some states run their own.",
+     "focus": 1,
+     "file": "clips/34e5b3e15439.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Metal tiers.",
+     "say": "Metal tiers.",
+     "focus": 2,
+     "file": "clips/340c0cb6c876.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Marketplace plans are labelled **Bronze, Silver, Gold, Platinum**.",
+     "say": "Marketplace plans are labelled Bronze, Silver, Gold, Platinum.",
+     "focus": 2,
+     "file": "clips/e3b6726777ca.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "Bronze has the lowest premium but the highest cost sharing; Platinum is the reverse.",
+     "say": "Bronze has the lowest premium but the highest cost sharing; Platinum is the reverse.",
+     "focus": 2,
+     "file": "clips/aabeff0f4000.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "CMS (Centers for Medicare & Medicaid Services).",
+     "say": "C M S (Centers for Medicare and Medicaid Services).",
+     "focus": 3,
+     "file": "clips/dc4c35d2dd0b.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "The **federal agency** that runs Medicare, oversees Medicaid and CHIP with the states, and runs the federal marketplace.",
+     "say": "The federal agency that runs Medicare, oversees Medicaid and CHIP with the states, and runs the federal marketplace.",
+     "focus": 3,
+     "file": "clips/16a590ecf283.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "It sets many of the rules and code standards the whole industry follows.",
+     "say": "It sets many of the rules and code standards the whole industry follows.",
+     "focus": 3,
+     "file": "clips/168a8daa87ff.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "COBRA.",
+     "say": "COBRA.",
+     "focus": 4,
+     "file": "clips/e39df9d5f248.mp3",
+     "seconds": 1.4
+    },
+    {
+     "raw": "A law that lets people **keep their employer plan for a while** after losing their job, usually by paying the full premium themselves.",
+     "say": "A law that lets people keep their employer plan for a while after losing their job, usually by paying the full premium themselves.",
+     "focus": 4,
+     "file": "clips/d0f5e175d0eb.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "Daniel could have used COBRA, but joining Emily's plan was cheaper.",
+     "say": "Daniel could have used COBRA, but joining Emily's plan was cheaper.",
+     "focus": 4,
+     "file": "clips/ac17dfbf45e9.mp3",
+     "seconds": 4.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The law and the agency",
+   "lines": [
+    {
+     "raw": "Why Lily is on Emily's plan, not on CHIP.",
+     "say": "Why Lily is on Emily's plan, not on CHIP.",
+     "focus": -1,
+     "file": "clips/7e894b9f614e.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "CHIP is for children whose families cannot afford private coverage.",
+     "say": "CHIP is for children whose families cannot afford private coverage.",
+     "focus": -1,
+     "file": "clips/8c7231b161fc.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Lily is already covered as a **dependent** on Emily's employer plan, and under the ACA she can stay on it until she turns **26**.",
+     "say": "Lily is already covered as a dependent on Emily's employer plan, and under the A C A she can stay on it until she turns 26.",
+     "focus": -1,
+     "file": "clips/74bc71cdee58.mp3",
+     "seconds": 8.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Privacy words: HIPAA and PHI.",
+     "say": "Privacy words: HIPAA and P H I.",
+     "focus": -1,
+     "file": "clips/b5c18edadcb0.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Privacy words: HIPAA and PHI",
+   "lines": [
+    {
+     "raw": "One law every data worker meets.",
+     "say": "One law every data worker meets.",
+     "focus": -1,
+     "file": "clips/2acd5dd1a7bf.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "**HIPAA** is the US law that protects **PHI** (Protected Health Information: health data that can identify a person, such as Emily's name and member ID `M1001` next to her diagnosis).",
+     "say": "HIPAA is the U S law that protects P H I (Protected Health Information: health data that can identify a person, such as Emily's name and member I D M 1 0 0 1 next to her diagnosis).",
+     "focus": -1,
+     "file": "clips/05614ede0777.mp3",
+     "seconds": 14.65
+    },
+    {
+     "raw": "The words around it, such as covered entity, business associate, minimum necessary and de-identified data, are taught in the HIPAA course.",
+     "say": "The words around it, such as covered entity, business associate, minimum necessary and de-identified data, are taught in the HIPAA course.",
+     "focus": -1,
+     "file": "clips/22f9e83a3075.mp3",
+     "seconds": 9
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Medicare** = 65+ (and some disabled people).",
+     "say": "Medicare = 65+ (and some disabled people).",
+     "focus": 0,
+     "file": "clips/5d9d49f54b6d.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "**Medicaid** = low income, run with states.",
+     "say": "Medicaid = low income, run with states.",
+     "focus": 0,
+     "file": "clips/cbd806b83189.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "**CHIP** = children.",
+     "say": "CHIP = children.",
+     "focus": 0,
+     "file": "clips/8f4ca665d6d7.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Medicare parts: **A** hospital, **B** medical, **C** Medicare Advantage (private plans), **D** drugs.",
+     "say": "Medicare parts: A hospital, B medical, C Medicare Advantage (private plans), D drugs.",
+     "focus": 1,
+     "file": "clips/8de33a1abce2.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "The **ACA** (2010) created the **marketplaces** and many consumer protections.",
+     "say": "The A C A (2010) created the marketplaces and many consumer protections.",
+     "focus": 2,
+     "file": "clips/38eddc413fac.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "**CMS** is the federal agency that runs Medicare and oversees Medicaid.",
+     "say": "C M S is the federal agency that runs Medicare and oversees Medicaid.",
+     "focus": 3,
+     "file": "clips/e37b69b0731e.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "**HIPAA** protects **PHI**, health data that can identify a person; the HIPAA course teaches the details.",
+     "say": "HIPAA protects P H I, health data that can identify a person; the HIPAA course teaches the details.",
+     "focus": 4,
+     "file": "clips/4cd9287cef19.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

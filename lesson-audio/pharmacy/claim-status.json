@@ -1,0 +1,554 @@
+{
+ "courseId": "pharmacy",
+ "lessonId": "claim-status",
+ "lessonNumber": 9,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 9: Claim Status: Paid & Rejected.",
+     "say": "Lesson 9: Claim Status: Paid and Rejected.",
+     "focus": -1,
+     "file": "clips/7597e838195d.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "What the pharmacy asks for, what the PBM answers at the counter, and why claims get rejected.",
+     "say": "What the pharmacy asks for, what the P B M answers at the counter, and why claims get rejected.",
+     "focus": -1,
+     "file": "clips/ce02ab4262ac.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Know what the transaction code on a pharmacy claim says.",
+     "say": "Know what the transaction code on a pharmacy claim says.",
+     "focus": 0,
+     "file": "clips/ed9ff10ba120.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "Tell paid, rejected and duplicate answers apart.",
+     "say": "Tell paid, rejected and duplicate answers apart.",
+     "focus": 1,
+     "file": "clips/9017f8d52302.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Use reject codes to find out why claims are turned away.",
+     "say": "Use reject codes to find out why claims are turned away.",
+     "focus": 2,
+     "file": "clips/479eb28a9ada.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Work out when a refill is allowed from the fill date and days supply.",
+     "say": "Work out when a refill is allowed from the fill date and days supply.",
+     "focus": 3,
+     "file": "clips/05a099004ea5.mp3",
+     "seconds": 4.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The cashier's answer.",
+     "say": "The cashier's answer.",
+     "focus": -1,
+     "file": "clips/db90bbf5e5b0.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "At a busy shop in Kathmandu, the cashier either rings up your purchase or says \"sorry, I can't sell you this\" and tells you why.",
+     "say": "At a busy shop in Kathmandu, the cashier either rings up your purchase or says \"sorry, I can't sell you this\" and tells you why.",
+     "focus": -1,
+     "file": "clips/515917910284.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "Later you might bring something back and get a refund.",
+     "say": "Later you might bring something back and get a refund.",
+     "focus": -1,
+     "file": "clips/d6d042b1f0f6.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "A pharmacy claim has the same moments: **asked**, **answered** and sometimes **cancelled**.",
+     "say": "A pharmacy claim has the same moments: asked, answered and sometimes cancelled.",
+     "focus": -1,
+     "file": "clips/877e722f4ec5.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "This lesson covers the first two; lesson 10 covers cancellations.",
+     "say": "This lesson covers the first two; lesson 10 covers cancellations.",
+     "focus": -1,
+     "file": "clips/7d14e2e769b7.mp3",
+     "seconds": 4.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Three kinds of messages.",
+     "say": "Three kinds of messages.",
+     "focus": -1,
+     "file": "clips/a41d7463b03b.mp3",
+     "seconds": 2.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Three kinds of messages",
+   "lines": [
+    {
+     "raw": "Every message a pharmacy sends to the PBM has a **transaction code** saying what it wants.",
+     "say": "Every message a pharmacy sends to the P B M has a transaction code saying what it wants.",
+     "focus": -1,
+     "file": "clips/324db5047b56.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "Three codes matter most:",
+     "say": "Three codes matter most:",
+     "focus": -1,
+     "file": "clips/3bcb6b2e4f11.mp3",
+     "seconds": 2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Three kinds of messages",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`B1`. Name: **Billing**. What it means: \"Please pay for this fill.\" A new claim. Nepal comparison: Handing the bill to the cashier.",
+     "say": "B1. Name: Billing. What it means: \"Please pay for this fill.\" A new claim. Nepal comparison: Handing the bill to the cashier.",
+     "focus": 0,
+     "file": "clips/fa91d7a753ee.mp3",
+     "seconds": 8.65
+    },
+    {
+     "raw": "`B2`. Name: **Reversal**. What it means: \"Cancel that claim I sent.\" Undoes a paid claim (lesson 10). Nepal comparison: Cancelling the bill and refunding the money.",
+     "say": "B2. Name: Reversal. What it means: \"Cancel that claim I sent.\" Undoes a paid claim (lesson 10). Nepal comparison: Cancelling the bill and refunding the money.",
+     "focus": 1,
+     "file": "clips/6eb1a47bc5d2.mp3",
+     "seconds": 11.55
+    },
+    {
+     "raw": "`B3`. Name: **Rebill**. What it means: \"Cancel it and send it again with corrections\" in one step. Nepal comparison: Cancelling a wrong bill and printing a corrected one.",
+     "say": "B3. Name: Rebill. What it means: \"Cancel it and send it again with corrections\" in one step. Nepal comparison: Cancelling a wrong bill and printing a corrected one.",
+     "focus": 2,
+     "file": "clips/c30c6bca4d10.mp3",
+     "seconds": 11.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Three kinds of messages",
+   "lines": [
+    {
+     "raw": "Other transaction codes.",
+     "say": "Other transaction codes.",
+     "focus": -1,
+     "file": "clips/7db33aaf7ce1.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "There are a few more, such as `E1` (an **eligibility check**: \"is this person covered?\"), but B1, B2 and B3 are the ones you will see in claims data.",
+     "say": "There are a few more, such as E1 (an eligibility check: \"is this person covered?\"), but B1, B2 and B3 are the ones you will see in claims data.",
+     "focus": -1,
+     "file": "clips/94b3c0a0e113.mp3",
+     "seconds": 10.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The answer: paid or rejected.",
+     "say": "The answer: paid or rejected.",
+     "focus": -1,
+     "file": "clips/f15e15063044.mp3",
+     "seconds": 2.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The answer: paid or rejected",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Paid** (`P`). Meaning: The PBM accepted the claim. The response says the patient pay and plan paid amounts. Example: Emily's amoxicillin: paid, Emily owes $5.00.",
+     "say": "Paid (P). Meaning: The P B M accepted the claim. The response says the patient pay and plan paid amounts. Example: Emily's amoxicillin: paid, Emily owes 5 dollars.",
+     "focus": 0,
+     "file": "clips/293fe99b36f6.mp3",
+     "seconds": 12.75
+    },
+    {
+     "raw": "**Rejected** (`R`). Meaning: The PBM refused it, with one or more **reject codes**. Nothing is paid. Example: Refill requested too early.",
+     "say": "Rejected (R). Meaning: The P B M refused it, with one or more reject codes. Nothing is paid. Example: Refill requested too early.",
+     "focus": 1,
+     "file": "clips/9c1ad682daed.mp3",
+     "seconds": 10.025
+    },
+    {
+     "raw": "**Duplicate** (`D`). Meaning: The same claim was already paid. The PBM sends back the earlier answer. Example: Pharmacy system sent the claim twice by accident.",
+     "say": "Duplicate (D). Meaning: The same claim was already paid. The P B M sends back the earlier answer. Example: Pharmacy system sent the claim twice by accident.",
+     "focus": 2,
+     "file": "clips/c6fd2921f865.mp3",
+     "seconds": 11.6
+    },
+    {
+     "raw": "**Reversed**. Meaning: A paid claim was later cancelled by a `B2` (lesson 10). Example: Emily never picked up the medicine.",
+     "say": "Reversed. Meaning: A paid claim was later cancelled by a B2 (lesson 10). Example: Emily never picked up the medicine.",
+     "focus": 3,
+     "file": "clips/cd0def05d533.mp3",
+     "seconds": 8.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The answer: paid or rejected",
+   "lines": [
+    {
+     "raw": "Rejected is not the same as denied.",
+     "say": "Rejected is not the same as denied.",
+     "focus": -1,
+     "file": "clips/1904dd71019d.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "A rejected pharmacy claim is answered **at the counter, in seconds**, and the pharmacist can often **fix it straight away**: correct the quantity, call the doctor, or try again on a later date.",
+     "say": "A rejected pharmacy claim is answered at the counter, in seconds, and the pharmacist can often fix it straight away: correct the quantity, call the doctor, or try again on a later date.",
+     "focus": -1,
+     "file": "clips/02960d24b0e5.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "Unlike a denied medical claim, there is no long wait.",
+     "say": "Unlike a denied medical claim, there is no long wait.",
+     "focus": -1,
+     "file": "clips/315c1ce7af96.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Many claim files sent to plans hold only **paid and reversed** claims; rejects stay in the PBM's transaction logs.",
+     "say": "Many claim files sent to plans hold only paid and reversed claims; rejects stay in the PBM's transaction logs.",
+     "focus": -1,
+     "file": "clips/829e8ea8aeee.mp3",
+     "seconds": 8.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Common reject codes.",
+     "say": "Common reject codes.",
+     "focus": -1,
+     "file": "clips/01f7a2608c93.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Common reject codes",
+   "lines": [
+    {
+     "raw": "NCPDP reject codes you will meet often.",
+     "say": "N C P D P reject codes you will meet often.",
+     "focus": -1,
+     "file": "clips/5b3258cd19d0.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "`65`. Meaning: Patient is not covered. What usually happens next: Check the card details, or the coverage has ended.",
+     "say": "65. Meaning: Patient is not covered. What usually happens next: Check the card details, or the coverage has ended.",
+     "focus": 0,
+     "file": "clips/bda2e3fff27d.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "`70`. Meaning: Product/service not covered. What usually happens next: Drug not on the formulary: switch to a covered drug or request an exception.",
+     "say": "70. Meaning: Product/service not covered. What usually happens next: Drug not on the formulary: switch to a covered drug or request an exception.",
+     "focus": 1,
+     "file": "clips/65c3c11cf619.mp3",
+     "seconds": 10.875
+    },
+    {
+     "raw": "`75`. Meaning: Prior authorization required. What usually happens next: The doctor asks the plan for approval (lesson 7).",
+     "say": "75. Meaning: Prior authorization required. What usually happens next: The doctor asks the plan for approval (lesson 7).",
+     "focus": 2,
+     "file": "clips/501fbc600502.mp3",
+     "seconds": 9.575
+    },
+    {
+     "raw": "`76`. Meaning: Plan limitations exceeded. What usually happens next: Over a **quantity limit**: dispense less, or the doctor asks for an override.",
+     "say": "76. Meaning: Plan limitations exceeded. What usually happens next: Over a quantity limit: dispense less, or the doctor asks for an override.",
+     "focus": 3,
+     "file": "clips/3d88a02d2076.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "`79`. Meaning: Refill too soon. What usually happens next: Wait until enough of the last fill has been used.",
+     "say": "79. Meaning: Refill too soon. What usually happens next: Wait until enough of the last fill has been used.",
+     "focus": 4,
+     "file": "clips/ac10467660a7.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "`88`. Meaning: DUR reject error. What usually happens next: A safety alert (for example a dangerous drug combination) that the pharmacist must review.",
+     "say": "88. Meaning: D U R reject error. What usually happens next: A safety alert (for example a dangerous drug combination) that the pharmacist must review.",
+     "focus": 5,
+     "file": "clips/1f14bcf405be.mp3",
+     "seconds": 11.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Common reject codes",
+   "lines": [
+    {
+     "raw": "In the US: Emily tries to refill too early.",
+     "say": "In the U S: Emily tries to refill too early.",
+     "focus": -1,
+     "file": "clips/c08c092d8fc2.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Emily fills **30 days** of atorvastatin on **15 July 2025**.",
+     "say": "Emily fills 30 days of atorvastatin on 15 July 2025.",
+     "focus": 0,
+     "file": "clips/2390c9ff9e0b.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "On **30 July**, worried about a trip, she asks for a refill.",
+     "say": "On 30 July, worried about a trip, she asks for a refill.",
+     "focus": 0,
+     "file": "clips/d36eda788839.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Only **15 of 30 days** (50%) have passed.",
+     "say": "Only 15 of 30 days (50 percent) have passed.",
+     "focus": 1,
+     "file": "clips/a5642cf22465.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Her plan allows a refill once about **80%** of the days supply is used.",
+     "say": "Her plan allows a refill once about 80 percent of the days supply is used.",
+     "focus": 1,
+     "file": "clips/1eb845424b46.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "The claim is **rejected with code 79** (refill too soon).",
+     "say": "The claim is rejected with code 79 (refill too soon).",
+     "focus": 2,
+     "file": "clips/960e1061421d.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "80% of 30 days = 24 days, so the earliest refill is **8 August** (15 July + 24 days).",
+     "say": "80 percent of 30 days = 24 days, so the earliest refill is 8 August (15 July and 24 days).",
+     "focus": 2,
+     "file": "clips/c05f35d6d8ba.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "Emily waits and refills on **14 August**.",
+     "say": "Emily waits and refills on 14 August.",
+     "focus": 3,
+     "file": "clips/dbd22f8ae90b.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "That claim is paid.",
+     "say": "That claim is paid.",
+     "focus": 3,
+     "file": "clips/25d7f5c60743.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Common reject codes",
+   "lines": [
+    {
+     "raw": "Refill rules vary.",
+     "say": "Refill rules vary.",
+     "focus": -1,
+     "file": "clips/ea309f7c9237.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "The \"how early can I refill\" percentage is set by each plan, and it is often somewhere around 75% to 80% of the days supply.",
+     "say": "The \"how early can I refill\" percentage is set by each plan, and it is often somewhere around 75 percent to 80 percent of the days supply.",
+     "focus": -1,
+     "file": "clips/10672748cc29.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "Plans can also allow overrides for travel (\"vacation supply\") or lost medicine.",
+     "say": "Plans can also allow overrides for travel (\"vacation supply\") or lost medicine.",
+     "focus": -1,
+     "file": "clips/bfe3183d1a8b.mp3",
+     "seconds": 5.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Common reject codes",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Claim status decides **which rows count**.",
+     "say": "Claim status decides which rows count.",
+     "focus": -1,
+     "file": "clips/126485ca1f39.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Only **paid** claims are fills that reached the patient (after removing cancelled ones, lesson 10).",
+     "say": "Only paid claims are fills that reached the patient (after removing cancelled ones, lesson 10).",
+     "focus": -1,
+     "file": "clips/e377fa7efef1.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "**Reject codes** answer different questions: how often members hit **prior authorization** or **formulary** barriers, and how often they try to refill **too early**.",
+     "say": "Reject codes answer different questions: how often members hit prior authorization or formulary barriers, and how often they try to refill too early.",
+     "focus": -1,
+     "file": "clips/01ecb2a8c1a0.mp3",
+     "seconds": 10.225
+    },
+    {
+     "raw": "Ask whether your data source includes rejects at all before you study them.",
+     "say": "Ask whether your data source includes rejects at all before you study them.",
+     "focus": -1,
+     "file": "clips/f153ef87f2e7.mp3",
+     "seconds": 5
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The transaction code says what the pharmacy asks for: **B1** billing, **B2** reversal, **B3** rebill.",
+     "say": "The transaction code says what the pharmacy asks for: B1 billing, B2 reversal, B3 rebill.",
+     "focus": 0,
+     "file": "clips/238e76a2a9be.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "The PBM answers **paid** or **rejected** in seconds; a duplicate request gets the earlier answer back.",
+     "say": "The P B M answers paid or rejected in seconds; a duplicate request gets the earlier answer back.",
+     "focus": 1,
+     "file": "clips/edb6d59a5949.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "A reject is often fixed at the counter straight away, so it is not a final outcome like a denied medical claim.",
+     "say": "A reject is often fixed at the counter straight away, so it is not a final outcome like a denied medical claim.",
+     "focus": 2,
+     "file": "clips/2e9c4829a061.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "Reject codes show why claims are turned away: not covered, prior authorization, plan limits, refill too soon, safety alerts.",
+     "say": "Reject codes show why claims are turned away: not covered, prior authorization, plan limits, refill too soon, safety alerts.",
+     "focus": 3,
+     "file": "clips/ba48bce3e493.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "Many plan claim files hold only paid and reversed claims; rejects stay in the PBM's logs.",
+     "say": "Many plan claim files hold only paid and reversed claims; rejects stay in the PBM's logs.",
+     "focus": 4,
+     "file": "clips/0c90257618c6.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

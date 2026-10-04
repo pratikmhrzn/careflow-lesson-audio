@@ -1,0 +1,869 @@
+{
+ "courseId": "eligibility",
+ "lessonId": "where-coverage-comes-from",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: Where Coverage Comes From.",
+     "say": "Lesson 2: Where Coverage Comes From.",
+     "focus": -1,
+     "file": "clips/2e62f0b6918a.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Job, government or self-bought: every member belongs to a line of business, a group and a plan.",
+     "say": "Job, government or self-bought: every member belongs to a line of business, a group and a plan.",
+     "focus": -1,
+     "file": "clips/838c9a24b615.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Name the main lines of business: commercial, individual (ACA), Medicare and Medicaid.",
+     "say": "Name the main lines of business: commercial, individual (A C A), Medicare and Medicaid.",
+     "focus": 0,
+     "file": "clips/d493025ccb37.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "Tell fully insured from self-funded (ASO) employer plans.",
+     "say": "Tell fully insured from self-funded (A S O) employer plans.",
+     "focus": 1,
+     "file": "clips/1c9dbccf94ee.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "Understand group number, plan and benefit package.",
+     "say": "Understand group number, plan and benefit package.",
+     "focus": 2,
+     "file": "clips/ef8af1d15727.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Compare HMO, PPO, EPO, POS and HDHP products.",
+     "say": "Compare H M O, P P O, E P O, P O S and H D H P products.",
+     "focus": 3,
+     "file": "clips/83907b210bc2.mp3",
+     "seconds": 5.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Four main sources of cover.",
+     "say": "Four main sources of cover.",
+     "focus": -1,
+     "file": "clips/4c970c257086.mp3",
+     "seconds": 2.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Four main sources of cover",
+   "lines": [
+    {
+     "raw": "In Nepal, Ram gets cover through his job (a private group policy) and Sita through SSF (a government fund).",
+     "say": "In Nepal, Ram gets cover through his job (a private group policy) and Sita through S S F (a government fund).",
+     "focus": -1,
+     "file": "clips/b6c690964189.mp3",
+     "seconds": 7.5
+    },
+    {
+     "raw": "In the US there are also several sources.",
+     "say": "In the U S there are also several sources.",
+     "focus": -1,
+     "file": "clips/3bccd2253e97.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Insurers call each one a **line of business** (often shortened to **LOB**).",
+     "say": "Insurers call each one a line of business (often shortened to L O B).",
+     "focus": -1,
+     "file": "clips/69443a21f198.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "It is one of the most important columns in eligibility data, because the rules, the payments and even the reports are different for each.",
+     "say": "It is one of the most important columns in eligibility data, because the rules, the payments and even the reports are different for each.",
+     "focus": -1,
+     "file": "clips/029e01c539d2.mp3",
+     "seconds": 8.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Four main sources of cover",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Commercial: employer group**. Who it is for: Employees and their families. Who pays the premium: Employer and employee share it. Nepal comparison: Ram's startup group policy.",
+     "say": "Commercial: employer group. Who it is for: Employees and their families. Who pays the premium: Employer and employee share it. Nepal comparison: Ram's startup group policy.",
+     "focus": 0,
+     "file": "clips/2a9c8119415b.mp3",
+     "seconds": 12.3
+    },
+    {
+     "raw": "**Commercial: individual (ACA Marketplace)**. Who it is for: People who buy their own cover, e.g. self-employed. Who pays the premium: The person, often with a government subsidy. Nepal comparison: Buying your own health policy from an insurer.",
+     "say": "Commercial: individual (A C A Marketplace). Who it is for: People who buy their own cover, for example self-employed. Who pays the premium: The person, often with a government subsidy. Nepal comparison: Buying your own health policy from an insurer.",
+     "focus": 1,
+     "file": "clips/d2e35e1d303e.mp3",
+     "seconds": 16.775
+    },
+    {
+     "raw": "**Medicare**. Who it is for: People **65 and older**, and some younger people with disabilities or kidney failure. Who pays the premium: Federal government, with payroll taxes and member premiums. Nepal comparison: A national scheme you earned through years of contributions, a bit like SSF.",
+     "say": "Medicare. Who it is for: People 65 and older, and some younger people with disabilities or kidney failure. Who pays the premium: Federal government, with payroll taxes and member premiums. Nepal comparison: A national scheme you earned through years of contributions, a bit like S S F.",
+     "focus": 2,
+     "file": "clips/7c3db63db70f.mp3",
+     "seconds": 19.35
+    },
+    {
+     "raw": "**Medicaid** (and **CHIP** for children). Who it is for: People with **low income**. Who pays the premium: Federal and state governments together; each state runs its own. Nepal comparison: Government-funded cover for the poor.",
+     "say": "Medicaid (and CHIP for children). Who it is for: People with low income. Who pays the premium: Federal and state governments together; each state runs its own. Nepal comparison: Government-funded cover for the poor.",
+     "focus": 3,
+     "file": "clips/0cf8af848fe0.mp3",
+     "seconds": 14.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Four main sources of cover",
+   "lines": [
+    {
+     "raw": "Roughly half of Americans are on employer plans.",
+     "say": "Roughly half of Americans are on employer plans.",
+     "focus": -1,
+     "file": "clips/32ab69f1d111.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "Employer cover is the single biggest source in the US.",
+     "say": "Employer cover is the single biggest source in the U S.",
+     "focus": -1,
+     "file": "clips/43f391d226cc.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "That is why Emily's situation is so common, and why most training examples, including this course, start there.",
+     "say": "That is why Emily's situation is so common, and why most training examples, including this course, start there.",
+     "focus": -1,
+     "file": "clips/8a5bf117cdbe.mp3",
+     "seconds": 7.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Medicare Advantage and Medicaid managed care.",
+     "say": "Medicare Advantage and Medicaid managed care.",
+     "focus": -1,
+     "file": "clips/198636d2ab95.mp3",
+     "seconds": 3.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Medicare Advantage and Medicaid managed care",
+   "lines": [
+    {
+     "raw": "Medicare and Medicaid are government programmes, but **private insurers** often run them:",
+     "say": "Medicare and Medicaid are government programmes, but private insurers often run them:",
+     "focus": -1,
+     "file": "clips/3bf3bbbeb008.mp3",
+     "seconds": 5.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Medicare Advantage and Medicaid managed care",
+   "lines": [
+    {
+     "raw": "Original Medicare.",
+     "say": "Original Medicare.",
+     "focus": 0,
+     "file": "clips/143348156ec5.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "The government pays claims directly.",
+     "say": "The government pays claims directly.",
+     "focus": 0,
+     "file": "clips/bc3fb7330962.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "**Part A** covers hospital stays, **Part B** covers doctors and outpatient care.",
+     "say": "Part A covers hospital stays, Part B covers doctors and outpatient care.",
+     "focus": 0,
+     "file": "clips/2199dba73350.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "**Part D** (drugs) is bought separately from private plans.",
+     "say": "Part D (drugs) is bought separately from private plans.",
+     "focus": 0,
+     "file": "clips/d574fb618f3a.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Medicare Advantage (Part C).",
+     "say": "Medicare Advantage (Part C).",
+     "focus": 1,
+     "file": "clips/b16a56445996.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "A **private insurer** receives a fixed monthly amount from Medicare for each member and handles all their care.",
+     "say": "A private insurer receives a fixed monthly amount from Medicare for each member and handles all their care.",
+     "focus": 1,
+     "file": "clips/aaf86d119269.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "About half of people on Medicare choose this.",
+     "say": "About half of people on Medicare choose this.",
+     "focus": 1,
+     "file": "clips/764d08a7bc0f.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Medicaid managed care.",
+     "say": "Medicaid managed care.",
+     "focus": 2,
+     "file": "clips/aaf8b4a33f4c.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Most states pay private health plans (often called **MCOs**, managed care organisations) a monthly amount per member to run Medicaid cover.",
+     "say": "Most states pay private health plans (often called M C O's, managed care organisations) a monthly amount per member to run Medicaid cover.",
+     "focus": 2,
+     "file": "clips/14550372c8da.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "Dual eligible.",
+     "say": "Dual eligible.",
+     "focus": 3,
+     "file": "clips/b4f1aa7434c0.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A person on **both** Medicare and Medicaid, usually older and low-income.",
+     "say": "A person on both Medicare and Medicaid, usually older and low-income.",
+     "focus": 3,
+     "file": "clips/609b8e15eb4f.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "Lesson 6 shows which one pays first; the Medicare course covers dual eligibles in depth.",
+     "say": "Lesson 6 shows which one pays first; the Medicare course covers dual eligibles in depth.",
+     "focus": 3,
+     "file": "clips/c294d8a4249d.mp3",
+     "seconds": 6.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Fully insured vs self-funded employer plans.",
+     "say": "Fully insured versus self-funded employer plans.",
+     "focus": -1,
+     "file": "clips/3802fdc3a7b9.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Fully insured vs self-funded employer plans",
+   "lines": [
+    {
+     "raw": "Employer plans come in two kinds.",
+     "say": "Employer plans come in two kinds.",
+     "focus": -1,
+     "file": "clips/eb82fe58b245.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "The member's card may look the same, but **whose money pays the claims** is different.",
+     "say": "The member's card may look the same, but whose money pays the claims is different.",
+     "focus": -1,
+     "file": "clips/3b4fc9df617a.mp3",
+     "seconds": 4.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Fully insured vs self-funded employer plans",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Who carries the risk? Fully insured: The **insurer**. The employer pays a fixed premium; if claims are high, the insurer loses. Self-funded (ASO): The **employer**. Claims are paid from the employer's own money.",
+     "say": "Who carries the risk? Fully insured: The insurer. The employer pays a fixed premium; if claims are high, the insurer loses. Self-funded (A S O): The employer. Claims are paid from the employer's own money.",
+     "focus": 0,
+     "file": "clips/1c31551934df.mp3",
+     "seconds": 14.225
+    },
+    {
+     "raw": "What does the insurer do? Fully insured: Everything: pays claims and takes the risk. Self-funded (ASO): Only **administration**: network, claims processing, ID cards. **ASO** = Administrative Services Only.",
+     "say": "What does the insurer do? Fully insured: Everything: pays claims and takes the risk. Self-funded (A S O): Only administration: network, claims processing, I D cards. A S O = Administrative Services Only.",
+     "focus": 1,
+     "file": "clips/866217723e46.mp3",
+     "seconds": 15.35
+    },
+    {
+     "raw": "Who uses it? Fully insured: Many small and mid-size employers. Self-funded (ASO): Most large employers.",
+     "say": "Who uses it? Fully insured: Many small and mid-size employers. Self-funded (A S O): Most large employers.",
+     "focus": 2,
+     "file": "clips/c2bd54bb5721.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "Main rules. Fully insured: State insurance laws and federal rules. Self-funded (ASO): Mainly federal law (ERISA); many state insurance rules do not apply.",
+     "say": "Main rules. Fully insured: State insurance laws and federal rules. Self-funded (A S O): Mainly federal law (E R I S A); many state insurance rules do not apply.",
+     "focus": 3,
+     "file": "clips/3f7a188ea2d8.mp3",
+     "seconds": 12.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Fully insured vs self-funded employer plans",
+   "lines": [
+    {
+     "raw": "Think of a staff canteen.",
+     "say": "Think of a staff canteen.",
+     "focus": -1,
+     "file": "clips/29e486f3f0ea.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "**Fully insured** is like a company paying a caterer a fixed price per employee per month: if people eat more, the caterer bears it.",
+     "say": "Fully insured is like a company paying a caterer a fixed price per employee per month: if people eat more, the caterer bears it.",
+     "focus": -1,
+     "file": "clips/3892b4f0bdff.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "**Self-funded** is like the company buying the food itself and hiring a manager just to run the kitchen: the company bears every cost, and the manager (the ASO insurer) only runs it.",
+     "say": "Self-funded is like the company buying the food itself and hiring a manager just to run the kitchen: the company bears every cost, and the manager (the A S O insurer) only runs it.",
+     "focus": -1,
+     "file": "clips/41ab75681793.mp3",
+     "seconds": 12.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Group number, plan and benefit package.",
+     "say": "Group number, plan and benefit package.",
+     "focus": -1,
+     "file": "clips/eb6394c4ec6e.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Group number, plan and benefit package",
+   "lines": [
+    {
+     "raw": "Group number (group ID).",
+     "say": "Group number (group I D).",
+     "focus": 0,
+     "file": "clips/d72f7e68c689.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Identifies the **employer** (or other group).",
+     "say": "Identifies the employer (or other group).",
+     "focus": 0,
+     "file": "clips/dbee305d3e2f.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Everyone at Emily's company shares group **G20450**.",
+     "say": "Everyone at Emily's company shares group G 2 0 4 5 0.",
+     "focus": 0,
+     "file": "clips/953794d24e6a.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "It is printed on the ID card.",
+     "say": "It is printed on the I D card.",
+     "focus": 0,
+     "file": "clips/af45198e48e0.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Plan (plan ID).",
+     "say": "Plan (plan I D).",
+     "focus": 1,
+     "file": "clips/135e8b13a708.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "The specific option the member chose.",
+     "say": "The specific option the member chose.",
+     "focus": 1,
+     "file": "clips/9d31f4c7ff3c.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "One employer may offer two or three.",
+     "say": "One employer may offer two or three.",
+     "focus": 1,
+     "file": "clips/67dd3c278b2f.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Emily chose plan **TXPPO1000**.",
+     "say": "Emily chose plan T X P P O 1 0 0 0.",
+     "focus": 1,
+     "file": "clips/d4e1f5b65836.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Benefit package.",
+     "say": "Benefit package.",
+     "focus": 2,
+     "file": "clips/199b95ace6cb.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "The rules inside the plan: deductible, copays, coinsurance, out-of-pocket maximum, what is covered.",
+     "say": "The rules inside the plan: deductible, copays, coinsurance, out-of-pocket maximum, what is covered.",
+     "focus": 2,
+     "file": "clips/0402df447792.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "Emily's: **$1,000** deductible, **$25** office visit copay, **20%** coinsurance, **$5,000** out-of-pocket maximum.",
+     "say": "Emily's: 1000 dollars deductible, 25 dollars office visit copay, 20 percent coinsurance, 5000 dollars out-of-pocket maximum.",
+     "focus": 2,
+     "file": "clips/7ce39689ee4e.mp3",
+     "seconds": 10.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Group number, plan and benefit package",
+   "lines": [
+    {
+     "raw": "In the US: Emily's cover, labelled.",
+     "say": "In the U S: Emily's cover, labelled.",
+     "focus": -1,
+     "file": "clips/646548a70528.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Line of business: **Commercial**, employer group.",
+     "say": "Line of business: Commercial, employer group.",
+     "focus": 0,
+     "file": "clips/042244832afd.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Funding: **fully insured**.",
+     "say": "Funding: fully insured.",
+     "focus": 1,
+     "file": "clips/a2fb5b544dde.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Her employer, Bluebonnet Logistics, pays premiums to the insurer, and the insurer pays the claims.",
+     "say": "Her employer, Bluebonnet Logistics, pays premiums to the insurer, and the insurer pays the claims.",
+     "focus": 1,
+     "file": "clips/65464c96e687.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "Group: **G20450** (Bluebonnet Logistics).",
+     "say": "Group: G 2 0 4 5 0 (Bluebonnet Logistics).",
+     "focus": 2,
+     "file": "clips/73e7047368cd.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Plan: **TXPPO1000**.",
+     "say": "Plan: T X P P O 1 0 0 0.",
+     "focus": 2,
+     "file": "clips/a6ba0cff02fa.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Product: **PPO**.",
+     "say": "Product: P P O.",
+     "focus": 2,
+     "file": "clips/5ddd20b14eef.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Her employer offers two options: this PPO and an HDHP.",
+     "say": "Her employer offers two options: this P P O and an H D H P.",
+     "focus": 3,
+     "file": "clips/5f8ebbd14fee.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Emily picked the PPO.",
+     "say": "Emily picked the P P O.",
+     "focus": 3,
+     "file": "clips/78a36c790908.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Product types: how the network works.",
+     "say": "Product types: how the network works.",
+     "focus": -1,
+     "file": "clips/6e7990053895.mp3",
+     "seconds": 2.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Product types: how the network works",
+   "lines": [
+    {
+     "raw": "The **product** says how members may use doctors and hospitals: must they stay in the **network** (providers with a contract), do they need a family doctor's **referral** to see a specialist, and is anything paid **out of network**?",
+     "say": "The product says how members may use doctors and hospitals: must they stay in the network (providers with a contract), do they need a family doctor's referral to see a specialist, and is anything paid out of network?",
+     "focus": -1,
+     "file": "clips/dbcd8acc5177.mp3",
+     "seconds": 12.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Product types: how the network works",
+   "lines": [
+    {
+     "raw": "Common US product types.",
+     "say": "Common U S product types.",
+     "focus": -1,
+     "file": "clips/ea3847cc08cd.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "**HMO**. Full name: Health Maintenance Organization. Out-of-network covered?: No (except emergencies). Referral to see a specialist?: Usually yes, from your primary care doctor (PCP). In short: Cheapest, most rules.",
+     "say": "H M O. Full name: Health Maintenance Organization. Out-of-network covered?: No (except emergencies). Referral to see a specialist?: Usually yes, from your primary care doctor (P C P). In short: Cheapest, most rules.",
+     "focus": 0,
+     "file": "clips/a995af8edbba.mp3",
+     "seconds": 15.5
+    },
+    {
+     "raw": "**PPO**. Full name: Preferred Provider Organization. Out-of-network covered?: Yes, but you pay more. Referral to see a specialist?: No. In short: Most freedom, higher premium.",
+     "say": "P P O. Full name: Preferred Provider Organization. Out-of-network covered?: Yes, but you pay more. Referral to see a specialist?: No. In short: Most freedom, higher premium.",
+     "focus": 1,
+     "file": "clips/3c75ba6caa46.mp3",
+     "seconds": 12.475
+    },
+    {
+     "raw": "**EPO**. Full name: Exclusive Provider Organization. Out-of-network covered?: No (except emergencies). Referral to see a specialist?: Usually no. In short: Network only, but no referrals.",
+     "say": "E P O. Full name: Exclusive Provider Organization. Out-of-network covered?: No (except emergencies). Referral to see a specialist?: Usually no. In short: Network only, but no referrals.",
+     "focus": 2,
+     "file": "clips/a099777b415e.mp3",
+     "seconds": 14
+    },
+    {
+     "raw": "**POS**. Full name: Point of Service. Out-of-network covered?: Yes, but you pay more. Referral to see a specialist?: Usually yes. In short: A mix of HMO and PPO.",
+     "say": "P O S. Full name: Point of Service. Out-of-network covered?: Yes, but you pay more. Referral to see a specialist?: Usually yes. In short: A mix of H M O and P P O.",
+     "focus": 3,
+     "file": "clips/775d0d78eb6b.mp3",
+     "seconds": 12.75
+    },
+    {
+     "raw": "**HDHP**. Full name: High Deductible Health Plan. Out-of-network covered?: Depends on the network type underneath. Referral to see a specialist?: Depends. In short: Low premium, high deductible; can pair with an **HSA**.",
+     "say": "H D H P. Full name: High Deductible Health Plan. Out-of-network covered?: Depends on the network type underneath. Referral to see a specialist?: Depends. In short: Low premium, high deductible; can pair with an H S A.",
+     "focus": 4,
+     "file": "clips/2219ea606da2.mp3",
+     "seconds": 15.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Product types: how the network works",
+   "lines": [
+    {
+     "raw": "HDHP.",
+     "say": "H D H P.",
+     "focus": 0,
+     "file": "clips/eda26b8a744e.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "A plan with a high deductible.",
+     "say": "A plan with a high deductible.",
+     "focus": 0,
+     "file": "clips/576e73b58000.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "For 2025, the IRS minimum for an HSA-qualified HDHP is **$1,650** for one person and **$3,300** for a family.",
+     "say": "For 2025, the I R S minimum for an H S A qualified H D H P is 1650 dollars for one person and 3300 dollars for a family.",
+     "focus": 0,
+     "file": "clips/37aeadbc8a81.mp3",
+     "seconds": 11.8
+    },
+    {
+     "raw": "HSA (Health Savings Account).",
+     "say": "H S A (Health Savings Account).",
+     "focus": 1,
+     "file": "clips/e2ebefed037b.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "A personal savings account, allowed only with a qualified HDHP.",
+     "say": "A personal savings account, allowed only with a qualified H D H P.",
+     "focus": 1,
+     "file": "clips/0b4567caed77.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Money put in is tax-free, and can be spent on medical bills.",
+     "say": "Money put in is tax-free, and can be spent on medical bills.",
+     "focus": 1,
+     "file": "clips/9ecbdcd59d61.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "It belongs to the member, even after they change job.",
+     "say": "It belongs to the member, even after they change job.",
+     "focus": 1,
+     "file": "clips/8224057f0764.mp3",
+     "seconds": 3.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Product types: how the network works",
+   "lines": [
+    {
+     "raw": "Choosing a package in Nepal.",
+     "say": "Choosing a package in Nepal.",
+     "focus": -1,
+     "file": "clips/61a41ef3890a.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's startup chose one insurer and one **policy package** for all staff.",
+     "say": "Ram's startup chose one insurer and one policy package for all staff.",
+     "focus": 0,
+     "file": "clips/02821cbdde99.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "That is like a **group** and a **plan** in the US.",
+     "say": "That is like a group and a plan in the U S.",
+     "focus": 0,
+     "file": "clips/780941d52a47.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "Some private policies have a list of **network hospitals** where cashless treatment is possible, and reimbursement elsewhere.",
+     "say": "Some private policies have a list of network hospitals where cashless treatment is possible, and reimbursement elsewhere.",
+     "focus": 1,
+     "file": "clips/7c7ae20d5261.mp3",
+     "seconds": 7.825
+    },
+    {
+     "raw": "That is close to the PPO idea: in network is easier, out of network still works.",
+     "say": "That is close to the P P O idea: in network is easier, out of network still works.",
+     "focus": 1,
+     "file": "clips/ab531bdc9fe6.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita can only use **SSF-listed hospitals** for SSF to pay.",
+     "say": "Sita can only use S S F listed hospitals for S S F to pay.",
+     "focus": 2,
+     "file": "clips/156f3b057217.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "That is close to an **HMO / EPO** idea: stay in the network, or SSF does not pay.",
+     "say": "That is close to an H M O or E P O idea: stay in the network, or S S F does not pay.",
+     "focus": 2,
+     "file": "clips/64646ed33de2.mp3",
+     "seconds": 7.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Product types: how the network works",
+   "lines": [
+    {
+     "raw": "Why the product matters in data.",
+     "say": "Why the product matters in data.",
+     "focus": -1,
+     "file": "clips/1aa009ad0400.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Many reports are split by `line_of_business` and `product`, because costs and rules differ a lot.",
+     "say": "Many reports are split by line_of_business and product, because costs and rules differ a lot.",
+     "focus": -1,
+     "file": "clips/999d7a547349.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Comparing a Medicare Advantage member to a commercial PPO member without splitting is like comparing a grandparent's medical bills with a young office worker's.",
+     "say": "Comparing a Medicare Advantage member to a commercial P P O member without splitting is like comparing a grandparent's medical bills with a young office worker's.",
+     "focus": -1,
+     "file": "clips/bdc1551d2ccc.mp3",
+     "seconds": 10.35
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Line of business: commercial (employer or individual), Medicare (incl.",
+     "say": "Line of business: commercial (employer or individual), Medicare (incl.",
+     "focus": 0,
+     "file": "clips/3ac53d83a6d4.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Medicare Advantage), Medicaid.",
+     "say": "Medicare Advantage), Medicaid.",
+     "focus": 0,
+     "file": "clips/126d5a4f79d2.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Fully insured: the insurer bears the risk.",
+     "say": "Fully insured: the insurer bears the risk.",
+     "focus": 1,
+     "file": "clips/6e8e59ab0203.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Self-funded (ASO): the employer bears it, the insurer administers.",
+     "say": "Self-funded (A S O): the employer bears it, the insurer administers.",
+     "focus": 1,
+     "file": "clips/8a9382ed7c3f.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Group = employer; plan = option chosen; benefit package = deductible, copay, coinsurance and limits.",
+     "say": "Group = employer; plan = option chosen; benefit package = deductible, copay, coinsurance and limits.",
+     "focus": 2,
+     "file": "clips/86907c131e75.mp3",
+     "seconds": 8.55
+    },
+    {
+     "raw": "Products: HMO, PPO, EPO, POS and HDHP (which can pair with an HSA).",
+     "say": "Products: H M O, P P O, E P O, P O S and H D H P (which can pair with an H S A).",
+     "focus": 3,
+     "file": "clips/7f944b80cb01.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

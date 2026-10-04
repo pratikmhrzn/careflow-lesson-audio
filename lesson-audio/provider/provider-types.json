@@ -1,0 +1,778 @@
+{
+ "courseId": "provider",
+ "lessonId": "provider-types",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: Types of Providers.",
+     "say": "Lesson 2: Types of Providers.",
+     "focus": -1,
+     "file": "clips/fd7b84f027d9.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "People and organizations, facilities of many kinds, and dozens of specialties.",
+     "say": "People and organizations, facilities of many kinds, and dozens of specialties.",
+     "focus": -1,
+     "file": "clips/dea42f843c09.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Tell individual providers (Type 1 NPI) from organization providers (Type 2 NPI).",
+     "say": "Tell individual providers (Type 1 N P I) from organization providers (Type 2 N P I).",
+     "focus": 0,
+     "file": "clips/cb8b4bd4059b.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Name the common kinds of US facilities and what they do.",
+     "say": "Name the common kinds of U S facilities and what they do.",
+     "focus": 1,
+     "file": "clips/6989e6ec54fa.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Understand specialties, and the difference between primary care and specialists.",
+     "say": "Understand specialties, and the difference between primary care and specialists.",
+     "focus": 2,
+     "file": "clips/777a6b435e35.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Place each of Emily's providers in the right category.",
+     "say": "Place each of Emily's providers in the right category.",
+     "focus": 3,
+     "file": "clips/63fb9836364b.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two big families: people and organizations.",
+     "say": "Two big families: people and organizations.",
+     "focus": -1,
+     "file": "clips/ff6d7d974fff.mp3",
+     "seconds": 3.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Two big families: people and organizations",
+   "lines": [
+    {
+     "raw": "The first split is simple: a provider is either a **person** or an **organization**.",
+     "say": "The first split is simple: a provider is either a person or an organization.",
+     "focus": -1,
+     "file": "clips/48a2f6a77ca0.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "In US data this split is so important that the NPI itself records it as **Type 1** or **Type 2**.",
+     "say": "In U S data this split is so important that the N P I itself records it as Type 1 or Type 2.",
+     "focus": -1,
+     "file": "clips/f3d28485c426.mp3",
+     "seconds": 7.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Two big families: people and organizations",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Who gets it. Type 1 NPI: individual: A person who gives care: doctor, nurse practitioner, dentist, therapist, pharmacist. Type 2 NPI: organization: A business that gives care: hospital, clinic, doctors' group, lab, pharmacy, nursing home.",
+     "say": "Who gets it. Type 1 N P I: individual: A person who gives care: doctor, nurse practitioner, dentist, therapist, pharmacist. Type 2 N P I: organization: A business that gives care: hospital, clinic, doctors' group, lab, pharmacy, nursing home.",
+     "focus": 0,
+     "file": "clips/b6be1cec7011.mp3",
+     "seconds": 18.025
+    },
+    {
+     "raw": "How many. Type 1 NPI: individual: **One per person, for life.** It stays the same if she moves state or changes job. Type 2 NPI: organization: One or more. A big hospital may have separate NPIs for different parts (subparts).",
+     "say": "How many. Type 1 N P I: individual: One per person, for life. It stays the same if she moves state or changes job. Type 2 N P I: organization: One or more. A big hospital may have separate N P I's for different parts (subparts).",
+     "focus": 1,
+     "file": "clips/af3609e6d083.mp3",
+     "seconds": 17.375
+    },
+    {
+     "raw": "Emily examples. Type 1 NPI: individual: Dr. Patel, Dr. Lee, Dr. Gomez. Type 2 NPI: organization: Sunrise Family Clinic, Lakeside General Hospital, Lakeside Surgical Group, Main Street Pharmacy.",
+     "say": "Emily examples. Type 1 N P I: individual: Doctor Patel, Doctor Lee, Doctor Gomez. Type 2 N P I: organization: Sunrise Family Clinic, Lakeside General Hospital, Lakeside Surgical Group, Main Street Pharmacy.",
+     "focus": 2,
+     "file": "clips/4ace2b5fcf30.mp3",
+     "seconds": 16.175
+    },
+    {
+     "raw": "Usual claim role. Type 1 NPI: individual: **Rendering** (did the work). Type 2 NPI: organization: **Billing** (gets paid).",
+     "say": "Usual claim role. Type 1 N P I: individual: Rendering (did the work). Type 2 N P I: organization: Billing (gets paid).",
+     "focus": 3,
+     "file": "clips/e9d8425cbf41.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "Nepal comparison. Type 1 NPI: individual: A doctor's **NMC number**. Type 2 NPI: organization: A hospital's **registration** and **PAN**.",
+     "say": "Nepal comparison. Type 1 N P I: individual: A doctor's N M C number. Type 2 N P I: organization: A hospital's registration and P A N.",
+     "focus": 4,
+     "file": "clips/09df6c569948.mp3",
+     "seconds": 12.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Two big families: people and organizations",
+   "lines": [
+    {
+     "raw": "A doctor working alone.",
+     "say": "A doctor working alone.",
+     "focus": -1,
+     "file": "clips/8ee0cb194b6a.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "A doctor who runs a one-person practice, not set up as a company, can bill with her own **Type 1** NPI.",
+     "say": "A doctor who runs a one-person practice, not set up as a company, can bill with her own Type 1 N P I.",
+     "focus": -1,
+     "file": "clips/38e91f56922b.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "If she sets up a company for her practice, the company gets its own **Type 2** NPI.",
+     "say": "If she sets up a company for her practice, the company gets its own Type 2 N P I.",
+     "focus": -1,
+     "file": "clips/63b640d6aacd.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "So in data, a Type 1 NPI can sometimes appear as the **billing** provider too.",
+     "say": "So in data, a Type 1 N P I can sometimes appear as the billing provider too.",
+     "focus": -1,
+     "file": "clips/943866814f8f.mp3",
+     "seconds": 5.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Kinds of individual providers.",
+     "say": "Kinds of individual providers.",
+     "focus": -1,
+     "file": "clips/7b7fc637000c.mp3",
+     "seconds": 2.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Kinds of individual providers",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Physician (MD or DO)**. What they do: Fully trained doctor. MD and DO doctors have the same rights to treat and prescribe. Nepal comparison: MBBS doctor, registered with NMC.",
+     "say": "Physician (M D or D O). What they do: Fully trained doctor. M D and D O doctors have the same rights to treat and prescribe. Nepal comparison: M B B S doctor, registered with N M C.",
+     "focus": 0,
+     "file": "clips/2e144496477e.mp3",
+     "seconds": 14.85
+    },
+    {
+     "raw": "**Nurse practitioner (NP)**. What they do: Advanced nurse who can examine, diagnose and prescribe (rules differ by state). Nepal comparison: No exact match; closest is a senior staff nurse with extra training.",
+     "say": "Nurse practitioner (N P). What they do: Advanced nurse who can examine, diagnose and prescribe (rules differ by state). Nepal comparison: No exact match; closest is a senior staff nurse with extra training.",
+     "focus": 1,
+     "file": "clips/ab2a1a5f89ab.mp3",
+     "seconds": 14.725
+    },
+    {
+     "raw": "**Physician assistant (PA)**. What they do: Works with doctors, examines and treats patients. Nepal comparison: Somewhat like a health assistant (HA) in a health post.",
+     "say": "Physician assistant (P A). What they do: Works with doctors, examines and treats patients. Nepal comparison: Somewhat like a health assistant (H A) in a health post.",
+     "focus": 2,
+     "file": "clips/f855fc166494.mp3",
+     "seconds": 11.35
+    },
+    {
+     "raw": "**Dentist, optometrist, therapist**. What they do: Teeth, eyes, physiotherapy, mental health and more. Nepal comparison: Dental surgeon, eye clinic staff, physiotherapist.",
+     "say": "Dentist, optometrist, therapist. What they do: Teeth, eyes, physiotherapy, mental health and more. Nepal comparison: Dental surgeon, eye clinic staff, physiotherapist.",
+     "focus": 3,
+     "file": "clips/0a6e85fc198e.mp3",
+     "seconds": 12.35
+    },
+    {
+     "raw": "**Pharmacist**. What they do: Dispenses medicines. Nepal comparison: Pharmacist registered with the Nepal Pharmacy Council.",
+     "say": "Pharmacist. What they do: Dispenses medicines. Nepal comparison: Pharmacist registered with the Nepal Pharmacy Council.",
+     "focus": 4,
+     "file": "clips/295f2287c38f.mp3",
+     "seconds": 8.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Kinds of organizations (facilities).",
+     "say": "Kinds of organizations (facilities).",
+     "focus": -1,
+     "file": "clips/2a3cfb868bc3.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Kinds of organizations (facilities)",
+   "lines": [
+    {
+     "raw": "A **facility** is a place where care happens.",
+     "say": "A facility is a place where care happens.",
+     "focus": -1,
+     "file": "clips/166e2b8deb43.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Facilities usually send **institutional** claims (UB-04), while doctors' groups send **professional** claims (CMS-1500).",
+     "say": "Facilities usually send institutional claims (U B 04), while doctors' groups send professional claims (C M S 1500).",
+     "focus": -1,
+     "file": "clips/f22148a9859d.mp3",
+     "seconds": 9.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Kinds of organizations (facilities)",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Acute care hospital**. What happens there: Emergency care, surgery, overnight stays. Nepal comparison: A big private hospital or a government hospital in Kathmandu.",
+     "say": "Acute care hospital. What happens there: Emergency care, surgery, overnight stays. Nepal comparison: A big private hospital or a government hospital in Kathmandu.",
+     "focus": 0,
+     "file": "clips/759a95c96045.mp3",
+     "seconds": 12.075
+    },
+    {
+     "raw": "**Critical access hospital**. What happens there: A small rural hospital with a few beds, given special Medicare rules. Nepal comparison: A district hospital far from the city.",
+     "say": "Critical access hospital. What happens there: A small rural hospital with a few beds, given special Medicare rules. Nepal comparison: A district hospital far from the city.",
+     "focus": 1,
+     "file": "clips/8667c95fe3e3.mp3",
+     "seconds": 12.275
+    },
+    {
+     "raw": "**Ambulatory surgery center (ASC)**. What happens there: Same-day surgery, patient goes home the same day. Nepal comparison: A day-care surgery unit.",
+     "say": "Ambulatory surgery center (A S C). What happens there: Same-day surgery, patient goes home the same day. Nepal comparison: A day-care surgery unit.",
+     "focus": 2,
+     "file": "clips/6b23ae7410f5.mp3",
+     "seconds": 10.75
+    },
+    {
+     "raw": "**Clinic / physician office**. What happens there: Check-ups, small illnesses, follow-ups. Nepal comparison: A polyclinic or a doctor's private chamber.",
+     "say": "Clinic or physician office. What happens there: Check-ups, small illnesses, follow-ups. Nepal comparison: A polyclinic or a doctor's private chamber.",
+     "focus": 3,
+     "file": "clips/95b4dff3e73b.mp3",
+     "seconds": 10.575
+    },
+    {
+     "raw": "**Urgent care center**. What happens there: Walk-in care for problems that cannot wait but are not emergencies. Nepal comparison: An evening OPD that takes walk-ins.",
+     "say": "Urgent care center. What happens there: Walk-in care for problems that cannot wait but are not emergencies. Nepal comparison: An evening O P D that takes walk-ins.",
+     "focus": 4,
+     "file": "clips/0c147ccc2ac2.mp3",
+     "seconds": 11.625
+    },
+    {
+     "raw": "**Skilled nursing facility (SNF)**. What happens there: Nursing and rehab after a hospital stay. Nepal comparison: Rare in Nepal; family usually cares at home.",
+     "say": "Skilled nursing facility (S N F). What happens there: Nursing and rehab after a hospital stay. Nepal comparison: Rare in Nepal; family usually cares at home.",
+     "focus": 5,
+     "file": "clips/aecbf16cbc35.mp3",
+     "seconds": 11.7
+    },
+    {
+     "raw": "**Home health agency, hospice**. What happens there: Care at home; comfort care at the end of life. Nepal comparison: Home-care nursing services in cities.",
+     "say": "Home health agency, hospice. What happens there: Care at home; comfort care at the end of life. Nepal comparison: Home-care nursing services in cities.",
+     "focus": 6,
+     "file": "clips/d4b3dbdbbba3.mp3",
+     "seconds": 10.5
+    },
+    {
+     "raw": "**Laboratory, imaging center**. What happens there: Blood tests, X-rays, MRI scans. Nepal comparison: A pathology lab or diagnostic centre.",
+     "say": "Laboratory, imaging center. What happens there: Blood tests, X-rays, M R I scans. Nepal comparison: A pathology lab or diagnostic centre.",
+     "focus": 7,
+     "file": "clips/3fd7e4f62543.mp3",
+     "seconds": 11.375
+    },
+    {
+     "raw": "**Pharmacy**. What happens there: Dispenses medicines (see the Pharmacy course). Nepal comparison: A pharmacy registered with the Department of Drug Administration.",
+     "say": "Pharmacy. What happens there: Dispenses medicines (see the Pharmacy course). Nepal comparison: A pharmacy registered with the Department of Drug Administration.",
+     "focus": 8,
+     "file": "clips/660c836f861d.mp3",
+     "seconds": 10.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Kinds of organizations (facilities)",
+   "lines": [
+    {
+     "raw": "In Nepal: Provider types Ram and Sita meet.",
+     "say": "In Nepal: Provider types Ram and Sita meet.",
+     "focus": -1,
+     "file": "clips/b60cc9a17471.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram sees **Dr. Shrestha** (an individual) at a **private hospital** (an organization).",
+     "say": "Ram sees Doctor Shrestha (an individual) at a private hospital (an organization).",
+     "focus": 0,
+     "file": "clips/a5e1c8302c55.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "Both appear on his receipt.",
+     "say": "Both appear on his receipt.",
+     "focus": 0,
+     "file": "clips/8b312f804726.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "If Ram needs a blood test, he may go to a separate **pathology lab**: a third provider, with its own bill.",
+     "say": "If Ram needs a blood test, he may go to a separate pathology lab: a third provider, with its own bill.",
+     "focus": 1,
+     "file": "clips/cb49378cb344.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "His private insurer cares about both: is the doctor registered with NMC, and is the hospital a genuine, licensed hospital?",
+     "say": "His private insurer cares about both: is the doctor registered with N M C, and is the hospital a genuine, licensed hospital?",
+     "focus": 2,
+     "file": "clips/000c72b4c0e4.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF lists **hospitals** (organizations), not individual doctors.",
+     "say": "S S F lists hospitals (organizations), not individual doctors.",
+     "focus": 3,
+     "file": "clips/87bdc931013f.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "The hospital is responsible for its doctors.",
+     "say": "The hospital is responsible for its doctors.",
+     "focus": 3,
+     "file": "clips/f83a813bcf63.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Sita can choose among SSF-listed hospitals; the treating doctor is recorded on her visit.",
+     "say": "Sita can choose among S S F listed hospitals; the treating doctor is recorded on her visit.",
+     "focus": 4,
+     "file": "clips/230dfecfe2bb.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "This is similar to a US network contract signed with a **group** or **hospital**, which then covers all its doctors.",
+     "say": "This is similar to a U S network contract signed with a group or hospital, which then covers all its doctors.",
+     "focus": 5,
+     "file": "clips/96f3ee08d928.mp3",
+     "seconds": 7.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Specialties.",
+     "say": "Specialties.",
+     "focus": -1,
+     "file": "clips/5875b5bac8af.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Specialties",
+   "lines": [
+    {
+     "raw": "Individual providers also have a **specialty**: the area of medicine they trained in.",
+     "say": "Individual providers also have a specialty: the area of medicine they trained in.",
+     "focus": -1,
+     "file": "clips/3ca8a60c483b.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "US doctors usually train for 3 to 7 years after medical school in their specialty, and many pass an exam to become **board certified**.",
+     "say": "U S doctors usually train for 3 to 7 years after medical school in their specialty, and many pass an exam to become board certified.",
+     "focus": -1,
+     "file": "clips/b1cff4750ce3.mp3",
+     "seconds": 9.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Specialties",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Primary care**. Specialty examples: Family medicine, internal medicine, pediatrics (children), sometimes OB/GYN. Emily's providers: Dr. Patel, family medicine.",
+     "say": "Primary care. Specialty examples: Family medicine, internal medicine, pediatrics (children), sometimes OB/GYN. Emily's providers: Doctor Patel, family medicine.",
+     "focus": 0,
+     "file": "clips/7b41edd57821.mp3",
+     "seconds": 13.025
+    },
+    {
+     "raw": "**Surgical**. Specialty examples: General surgery, orthopedics (bones), cardiothoracic surgery. Emily's providers: Dr. Lee, general surgeon.",
+     "say": "Surgical. Specialty examples: General surgery, orthopedics (bones), cardiothoracic surgery. Emily's providers: Doctor Lee, general surgeon.",
+     "focus": 1,
+     "file": "clips/81e5a6cba0db.mp3",
+     "seconds": 10.725
+    },
+    {
+     "raw": "**Medical specialists**. Specialty examples: Cardiology (heart), endocrinology (diabetes, hormones), oncology (cancer). Emily's providers: None yet.",
+     "say": "Medical specialists. Specialty examples: Cardiology (heart), endocrinology (diabetes, hormones), oncology (cancer). Emily's providers: None yet.",
+     "focus": 2,
+     "file": "clips/53104b77e902.mp3",
+     "seconds": 11.05
+    },
+    {
+     "raw": "**Hospital-based**. Specialty examples: Anesthesiology, emergency medicine, radiology, pathology. Emily's providers: Dr. Gomez, anaesthesiologist.",
+     "say": "Hospital-based. Specialty examples: Anesthesiology, emergency medicine, radiology, pathology. Emily's providers: Doctor Gomez, anaesthesiologist.",
+     "focus": 3,
+     "file": "clips/c638e4752403.mp3",
+     "seconds": 11.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Specialties",
+   "lines": [
+    {
+     "raw": "In the US: Why specialty matters in US data.",
+     "say": "In the U S: Why specialty matters in U S data.",
+     "focus": -1,
+     "file": "clips/82f65f7faf7b.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "**Benefits**: many plans charge a lower copay for a **primary care** visit than for a **specialist** visit.",
+     "say": "Benefits: many plans charge a lower copay for a primary care visit than for a specialist visit.",
+     "focus": 0,
+     "file": "clips/e48bf0fc41ba.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "**Payment**: insurers often pay different rates for the same service by specialty.",
+     "say": "Payment: insurers often pay different rates for the same service by specialty.",
+     "focus": 1,
+     "file": "clips/4af8dd3f02f4.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "**Analysis**: \"How much do we spend on cardiology?\" needs a correct specialty on every provider.",
+     "say": "Analysis: \"How much do we spend on cardiology?\" needs a correct specialty on every provider.",
+     "focus": 2,
+     "file": "clips/f3b709902704.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "**Attribution**: only primary care providers are usually counted when deciding who is a member's main doctor (lesson 6).",
+     "say": "Attribution: only primary care providers are usually counted when deciding who is a member's main doctor (lesson 6).",
+     "focus": 3,
+     "file": "clips/d7d4266ff2e2.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Specialties",
+   "lines": [
+    {
+     "raw": "Specialty is like a shop's category.",
+     "say": "Specialty is like a shop's category.",
+     "focus": -1,
+     "file": "clips/94cb5268e325.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "On New Road, a shop might be a jeweller, a shoe shop or a mobile shop.",
+     "say": "On New Road, a shop might be a jeweller, a shoe shop or a mobile shop.",
+     "focus": -1,
+     "file": "clips/3c36b38e2145.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "The **shop** is the provider; the **category** is its specialty.",
+     "say": "The shop is the provider; the category is its specialty.",
+     "focus": -1,
+     "file": "clips/e2aa955ffccb.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Knowing the category lets you compare like with like: you would not compare a jeweller's prices with a shoe shop's.",
+     "say": "Knowing the category lets you compare like with like: you would not compare a jeweller's prices with a shoe shop's.",
+     "focus": -1,
+     "file": "clips/b4557b0aff63.mp3",
+     "seconds": 6.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Emily's providers, sorted.",
+     "say": "Emily's providers, sorted.",
+     "focus": -1,
+     "file": "clips/2426d3369bd6.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Emily's providers, sorted",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Dr. Patel. Person or organization: Person (Type 1). Kind: Physician. Specialty: Family medicine (primary care).",
+     "say": "Doctor Patel. Person or organization: Person (Type 1). Kind: Physician. Specialty: Family medicine (primary care).",
+     "focus": 0,
+     "file": "clips/f3bc51e01713.mp3",
+     "seconds": 9.225
+    },
+    {
+     "raw": "Sunrise Family Clinic. Person or organization: Organization (Type 2). Kind: Clinic / physician office. Specialty: Primary care clinic.",
+     "say": "Sunrise Family Clinic. Person or organization: Organization (Type 2). Kind: Clinic or physician office. Specialty: Primary care clinic.",
+     "focus": 1,
+     "file": "clips/1e71e2784137.mp3",
+     "seconds": 10.75
+    },
+    {
+     "raw": "Dr. Lee. Person or organization: Person (Type 1). Kind: Physician. Specialty: General surgery.",
+     "say": "Doctor Lee. Person or organization: Person (Type 1). Kind: Physician. Specialty: General surgery.",
+     "focus": 2,
+     "file": "clips/bd22e7739f54.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "Lakeside Surgical Group. Person or organization: Organization (Type 2). Kind: Doctors' group practice. Specialty: Surgery group.",
+     "say": "Lakeside Surgical Group. Person or organization: Organization (Type 2). Kind: Doctors' group practice. Specialty: Surgery group.",
+     "focus": 3,
+     "file": "clips/ac657b49e0ad.mp3",
+     "seconds": 10
+    },
+    {
+     "raw": "Lakeside General Hospital. Person or organization: Organization (Type 2). Kind: Acute care hospital. Specialty: General acute care hospital.",
+     "say": "Lakeside General Hospital. Person or organization: Organization (Type 2). Kind: Acute care hospital. Specialty: General acute care hospital.",
+     "focus": 4,
+     "file": "clips/f870b4df33f6.mp3",
+     "seconds": 11.3
+    },
+    {
+     "raw": "Dr. Gomez. Person or organization: Person (Type 1). Kind: Physician. Specialty: Anesthesiology.",
+     "say": "Doctor Gomez. Person or organization: Person (Type 1). Kind: Physician. Specialty: Anesthesiology.",
+     "focus": 5,
+     "file": "clips/2cdaf8b4bffa.mp3",
+     "seconds": 8.525
+    },
+    {
+     "raw": "Main Street Pharmacy. Person or organization: Organization (Type 2). Kind: Pharmacy. Specialty: Community / retail pharmacy.",
+     "say": "Main Street Pharmacy. Person or organization: Organization (Type 2). Kind: Pharmacy. Specialty: Community or retail pharmacy.",
+     "focus": 6,
+     "file": "clips/bfcb0a123d6a.mp3",
+     "seconds": 10.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Emily's providers, sorted",
+   "lines": [
+    {
+     "raw": "Data trap: counting \"providers\".",
+     "say": "Data trap: counting \"providers\".",
+     "focus": -1,
+     "file": "clips/49881c83d344.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "If someone asks \"How many providers treated Emily for her appendix surgery?\", the honest answer depends on what you count.",
+     "say": "If someone asks \"How many providers treated Emily for her appendix surgery?\", the honest answer depends on what you count.",
+     "focus": -1,
+     "file": "clips/136a419fd20b.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "**Three people** (Dr. Lee, Dr. Gomez and hospital staff) or **three billing organizations** (hospital, surgical group, anaesthesia group).",
+     "say": "Three people (Doctor Lee, Doctor Gomez and hospital staff) or three billing organizations (hospital, surgical group, anaesthesia group).",
+     "focus": -1,
+     "file": "clips/ef4ff7523f4c.mp3",
+     "seconds": 8.9
+    },
+    {
+     "raw": "Always ask: Type 1, Type 2, or both?",
+     "say": "Always ask: Type 1, Type 2, or both?",
+     "focus": -1,
+     "file": "clips/c26c729a033f.mp3",
+     "seconds": 3.375
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Type 1 NPI = an individual person, one for life.",
+     "say": "Type 1 N P I = an individual person, one for life.",
+     "focus": 0,
+     "file": "clips/a42358a103cc.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Type 2 NPI = an organization, which may have several.",
+     "say": "Type 2 N P I = an organization, which may have several.",
+     "focus": 0,
+     "file": "clips/c95a98e835cb.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "Facilities include hospitals, surgery centers, clinics, nursing facilities, labs and pharmacies.",
+     "say": "Facilities include hospitals, surgery centers, clinics, nursing facilities, labs and pharmacies.",
+     "focus": 1,
+     "file": "clips/5ca3d2743ea4.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "Specialty is the area a provider trained in.",
+     "say": "Specialty is the area a provider trained in.",
+     "focus": 2,
+     "file": "clips/791e4d5bd7ee.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Primary care = family medicine, internal medicine, pediatrics.",
+     "say": "Primary care = family medicine, internal medicine, pediatrics.",
+     "focus": 2,
+     "file": "clips/ba3ca5c6fdb4.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "Specialty affects copays, payment rates, analysis and PCP attribution.",
+     "say": "Specialty affects copays, payment rates, analysis and P C P attribution.",
+     "focus": 3,
+     "file": "clips/8b4fdb48fbc9.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "When counting providers, decide first whether you mean people, organizations, or both.",
+     "say": "When counting providers, decide first whether you mean people, organizations, or both.",
+     "focus": 4,
+     "file": "clips/5c5e18686275.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

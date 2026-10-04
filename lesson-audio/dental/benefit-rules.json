@@ -1,0 +1,694 @@
+{
+ "courseId": "dental",
+ "lessonId": "benefit-rules",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Benefit Rules & Amounts.",
+     "say": "Lesson 6: Benefit Rules and Amounts.",
+     "focus": -1,
+     "file": "clips/965dd4520cc5.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "How often the plan pays, how much it pays on each line, and the running total it keeps all year.",
+     "say": "How often the plan pays, how much it pays on each line, and the running total it keeps all year.",
+     "focus": -1,
+     "file": "clips/5e03302ea6d2.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Understand frequency limits such as two cleanings a year.",
+     "say": "Understand frequency limits such as two cleanings a year.",
+     "focus": 0,
+     "file": "clips/4d96b1807549.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Work out the money on a dental line: billed, allowed, deductible, coinsurance and paid.",
+     "say": "Work out the money on a dental line: billed, allowed, deductible, coinsurance and paid.",
+     "focus": 1,
+     "file": "clips/f8a6aab0034f.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "Apply the annual maximum to a line, using a running total.",
+     "say": "Apply the annual maximum to a line, using a running total.",
+     "focus": 2,
+     "file": "clips/4b818066a3b6.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "Explain what a pre-treatment estimate is, and why it is not a promise.",
+     "say": "Explain what a pre-treatment estimate is, and why it is not a promise.",
+     "focus": 3,
+     "file": "clips/065f9b2f8e02.mp3",
+     "seconds": 4.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Think of a monthly ration card.",
+     "say": "Think of a monthly ration card.",
+     "focus": -1,
+     "file": "clips/d97253481d33.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "A ration card may allow 2 cylinders of gas per month.",
+     "say": "A ration card may allow 2 cylinders of gas per month.",
+     "focus": -1,
+     "file": "clips/67184b42d0aa.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "If you ask for a third, you are turned away, even though you are a valid card holder.",
+     "say": "If you ask for a third, you are turned away, even though you are a valid card holder.",
+     "focus": -1,
+     "file": "clips/f8bb15e23cb2.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "Frequency limits work the same way: Emily is covered, but the plan only pays for a set number of each service.",
+     "say": "Frequency limits work the same way: Emily is covered, but the plan only pays for a set number of each service.",
+     "focus": -1,
+     "file": "clips/66d8522b951a.mp3",
+     "seconds": 7.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The idea in one sentence: a dental plan decides each line's payment by checking **how often** the service has been used, splitting the **allowed** fee between member and plan, and making sure the plan never pays past the **annual maximum**.",
+     "say": "The idea in one sentence: a dental plan decides each line's payment by checking how often the service has been used, splitting the allowed fee between member and plan, and making sure the plan never pays past the annual maximum.",
+     "focus": -1,
+     "file": "clips/78a7d078cfe9.mp3",
+     "seconds": 15.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Frequency limits: how often the plan pays.",
+     "say": "Frequency limits: how often the plan pays.",
+     "focus": -1,
+     "file": "clips/8f4632a66b77.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Frequency limits: how often the plan pays",
+   "lines": [
+    {
+     "raw": "Dental plans do not just say **what** they cover, but also **how often**.",
+     "say": "Dental plans do not just say what they cover, but also how often.",
+     "focus": -1,
+     "file": "clips/03df2e03bbbf.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "These rules are called **frequency limitations**.",
+     "say": "These rules are called frequency limitations.",
+     "focus": -1,
+     "file": "clips/f4ab321d3e7d.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "If a service goes over the limit, the plan pays **nothing** for that line, even if everything else is correct.",
+     "say": "If a service goes over the limit, the plan pays nothing for that line, even if everything else is correct.",
+     "focus": -1,
+     "file": "clips/253dc95dd82a.mp3",
+     "seconds": 6.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Frequency limits: how often the plan pays",
+   "lines": [
+    {
+     "raw": "Typical frequency limits (they vary by plan).",
+     "say": "Typical frequency limits (they vary by plan).",
+     "focus": -1,
+     "file": "clips/97ca87d66e79.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Routine exam. Example CDT: `D0120`. Typical limit: 2 per year (or once every 6 months).",
+     "say": "Routine exam. Example C D T: D 0 1 2 0. Typical limit: 2 per year (or once every 6 months).",
+     "focus": 0,
+     "file": "clips/fe7496815ca0.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "Cleaning. Example CDT: `D1110`, `D1120`. Typical limit: 2 per year (or once every 6 months).",
+     "say": "Cleaning. Example C D T: D 1 1 1 0, D 1 1 2 0. Typical limit: 2 per year (or once every 6 months).",
+     "focus": 1,
+     "file": "clips/5555cb1d944d.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "Bitewing X-rays. Example CDT: `D0272`, `D0274`. Typical limit: 1 set per year.",
+     "say": "Bitewing X-rays. Example C D T: D 0 2 7 2, D 0 2 7 4. Typical limit: 1 set per year.",
+     "focus": 2,
+     "file": "clips/653dd3b2906a.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "Full-mouth or panoramic X-rays. Example CDT: `D0210`, `D0330`. Typical limit: 1 every 3 to 5 years.",
+     "say": "Full-mouth or panoramic X-rays. Example C D T: D 0 2 1 0, D 0 3 3 0. Typical limit: 1 every 3 to 5 years.",
+     "focus": 3,
+     "file": "clips/c87fd2579ba3.mp3",
+     "seconds": 11.775
+    },
+    {
+     "raw": "Fluoride for children. Example CDT: `D1206`. Typical limit: Up to 2 per year, up to a set age.",
+     "say": "Fluoride for children. Example C D T: D 1 2 0 6. Typical limit: Up to 2 per year, up to a set age.",
+     "focus": 4,
+     "file": "clips/4af3a20deeec.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "Sealants. Example CDT: `D1351`. Typical limit: Permanent molars, children only, once per tooth for a few years.",
+     "say": "Sealants. Example C D T: D 1 3 5 1. Typical limit: Permanent molars, children only, once per tooth for a few years.",
+     "focus": 5,
+     "file": "clips/470579be5f1f.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "Crown on the same tooth. Example CDT: `D2740`. Typical limit: 1 every 5 years or so.",
+     "say": "Crown on the same tooth. Example C D T: D 2 7 4 0. Typical limit: 1 every 5 years or so.",
+     "focus": 6,
+     "file": "clips/22a975255196.mp3",
+     "seconds": 9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Frequency limits: how often the plan pays",
+   "lines": [
+    {
+     "raw": "\"Per year\" or \"every 6 months\"?",
+     "say": "\"Per year\" or \"every 6 months\"?",
+     "focus": -1,
+     "file": "clips/1c9ab359cf28.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "The wording matters.",
+     "say": "The wording matters.",
+     "focus": -1,
+     "file": "clips/4b5b119d66d1.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "\"Two per **calendar year**\" lets you have cleanings in January and February.",
+     "say": "\"Two per calendar year\" lets you have cleanings in January and February.",
+     "focus": -1,
+     "file": "clips/47b5d8e1a372.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "\"Once every **6 months**\" means the second cleaning must be at least 6 months after the first.",
+     "say": "\"Once every 6 months\" means the second cleaning must be at least 6 months after the first.",
+     "focus": -1,
+     "file": "clips/d0097771ea92.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "When you analyse denied claims, check which rule the plan uses.",
+     "say": "When you analyse denied claims, check which rule the plan uses.",
+     "focus": -1,
+     "file": "clips/746efe0833f5.mp3",
+     "seconds": 4.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Following the money on one line.",
+     "say": "Following the money on one line.",
+     "focus": -1,
+     "file": "clips/9af04874f331.mp3",
+     "seconds": 2.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Following the money on one line",
+   "lines": [
+    {
+     "raw": "Each line carries a chain of amounts: **billed** (the dentist's full price), **allowed** (the in-network fee), then the patient's share and the plan's payment.",
+     "say": "Each line carries a chain of amounts: billed (the dentist's full price), allowed (the in-network fee), then the patient's share and the plan's payment.",
+     "focus": -1,
+     "file": "clips/7c405fef417f.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "Emily's filling on claim 880245 (lesson 3) is a **basic** service: 80% after the $50 deductible.",
+     "say": "Emily's filling on claim 880245 (lesson 3) is a basic service: 80 percent after the 50 dollars deductible.",
+     "focus": -1,
+     "file": "clips/36d6f21305fe.mp3",
+     "seconds": 10.225
+    },
+    {
+     "raw": "This is her **first** non-preventive service of 2025, so the deductible applies.",
+     "say": "This is her first non-preventive service of 2025, so the deductible applies.",
+     "focus": -1,
+     "file": "clips/5ad93d4d30ff.mp3",
+     "seconds": 5.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Following the money on one line",
+   "lines": [
+    {
+     "raw": "Claim 880245, line 1: Emily's filling.",
+     "say": "Claim 880245, line 1: Emily's filling.",
+     "focus": -1,
+     "file": "clips/18b5eec3b716.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Billed. Amount: $250. How: Dr. Liu's full price.",
+     "say": "Billed. Amount: 250 dollars. How: Doctor Liu's full price.",
+     "focus": 0,
+     "file": "clips/8560c7315be1.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "Allowed. Amount: $180. How: In-network fee agreed with Lone Star Dental.",
+     "say": "Allowed. Amount: 180 dollars. How: In-network fee agreed with Lone Star Dental.",
+     "focus": 1,
+     "file": "clips/8a36bec099a9.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Deductible. Amount: $50. How: Emily's whole yearly deductible.",
+     "say": "Deductible. Amount: 50 dollars. How: Emily's whole yearly deductible.",
+     "focus": 2,
+     "file": "clips/507b43872bd1.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Left after deductible. Amount: $130. How: $180 − $50.",
+     "say": "Left after deductible. Amount: 130 dollars. How: 180 dollars − 50 dollars.",
+     "focus": 3,
+     "file": "clips/65004b7ad8fc.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "Coinsurance (20%). Amount: $26. How: 20% × $130.",
+     "say": "Coinsurance (20 percent). Amount: 26 dollars. How: 20 percent × 130 dollars.",
+     "focus": 4,
+     "file": "clips/eb7cc07145fd.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "**Plan pays**. Amount: **$104**. How: 80% × $130.",
+     "say": "Plan pays. Amount: 104 dollars. How: 80 percent × 130 dollars.",
+     "focus": 5,
+     "file": "clips/ef17d30e68f2.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "**Emily pays**. Amount: **$76**. How: $50 + $26.",
+     "say": "Emily pays. Amount: 76 dollars. How: 50 dollars and 26 dollars.",
+     "focus": 6,
+     "file": "clips/297e21d7c5d1.mp3",
+     "seconds": 6.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Following the money on one line",
+   "lines": [
+    {
+     "raw": "Every dental line must balance.",
+     "say": "Every dental line must balance.",
+     "focus": -1,
+     "file": "clips/53a5fdecb921.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "allowed equals deductible plus coinsurance plus not covered plus plan paid.",
+     "say": "allowed equals deductible plus coinsurance plus not covered plus plan paid.",
+     "focus": 0,
+     "file": "clips/991169170526.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "For example: Emily's filling: $180 equals $50 plus $26 plus $0 plus $104. ✓ The $70 between billed ($250) and allowed ($180) is the in-network discount: nobody pays it.",
+     "say": "For example: Emily's filling: 180 dollars equals 50 dollars plus 26 dollars plus 0 dollars plus 104 dollars. ✓ The 70 dollars between billed (250 dollars) and allowed (180 dollars) is the in-network discount: nobody pays it.",
+     "focus": 1,
+     "file": "clips/0157b2862cb3.mp3",
+     "seconds": 18.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The annual maximum, line by line.",
+     "say": "The annual maximum, line by line.",
+     "focus": -1,
+     "file": "clips/dc075e94363c.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The annual maximum, line by line",
+   "lines": [
+    {
+     "raw": "The plan keeps a **running total** of what it has paid for each person this year.",
+     "say": "The plan keeps a running total of what it has paid for each person this year.",
+     "focus": -1,
+     "file": "clips/ce722c8a6879.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "Before paying a line, it checks how much of the **$1,500** annual maximum is left.",
+     "say": "Before paying a line, it checks how much of the 1500 dollars annual maximum is left.",
+     "focus": -1,
+     "file": "clips/781c9fed8fd2.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "If the normal plan share is bigger than what is left, the plan pays **only what is left**, and the patient pays the rest.",
+     "say": "If the normal plan share is bigger than what is left, the plan pays only what is left, and the patient pays the rest.",
+     "focus": -1,
+     "file": "clips/8f15f645fa2d.mp3",
+     "seconds": 7.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The annual maximum, line by line",
+   "lines": [
+    {
+     "raw": "How much the plan really pays.",
+     "say": "How much the plan really pays.",
+     "focus": -1,
+     "file": "clips/86cc35601000.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "plan paid equals the smaller of (normal plan share) and (annual maximum − paid so far this year).",
+     "say": "plan paid equals the smaller of (normal plan share) and (annual maximum − paid so far this year).",
+     "focus": 0,
+     "file": "clips/d663b6c7c612.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "For example: After her February check-up ($190 paid) and this filling ($104 paid), the plan has paid $294 for Emily in 2025.",
+     "say": "For example: After her February check-up (190 dollars paid) and this filling (104 dollars paid), the plan has paid 294 dollars for Emily in 2025.",
+     "focus": 1,
+     "file": "clips/99b6481c9fa9.mp3",
+     "seconds": 12.575
+    },
+    {
+     "raw": "Remaining: $1,500 − $294 equals **$1,206**.",
+     "say": "Remaining: 1500 dollars − 294 dollars equals 1206 dollars.",
+     "focus": 1,
+     "file": "clips/7416b01a06c9.mp3",
+     "seconds": 6.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "The annual maximum, line by line",
+   "lines": [
+    {
+     "raw": "Emily's annual maximum so far in 2025.",
+     "say": "Emily's annual maximum so far in 2025.",
+     "focus": -1,
+     "file": "clips/a8ba0a010a6c.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "18 Feb 2025. Service: Check-up: exam, cleaning, X-rays. Plan paid: $190. Paid so far: $190. Remaining of $1,500: $1,310.",
+     "say": "18 Feb 2025. Service: Check-up: exam, cleaning, X-rays. Plan paid: 190 dollars. Paid so far: 190 dollars. Remaining of 1500 dollars: 1310 dollars.",
+     "focus": 0,
+     "file": "clips/191712e8d82c.mp3",
+     "seconds": 15.575
+    },
+    {
+     "raw": "12 Mar 2025. Service: Filling, tooth 30. Plan paid: $104. Paid so far: $294. Remaining of $1,500: $1,206.",
+     "say": "12 Mar 2025. Service: Filling, tooth 30. Plan paid: 104 dollars. Paid so far: 294 dollars. Remaining of 1500 dollars: 1206 dollars.",
+     "focus": 1,
+     "file": "clips/b53929706ecb.mp3",
+     "seconds": 13.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "The annual maximum, line by line",
+   "lines": [
+    {
+     "raw": "Does preventive care count toward the maximum?",
+     "say": "Does preventive care count toward the maximum?",
+     "focus": -1,
+     "file": "clips/ad26d5f8e155.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "In Emily's plan, **yes**: check-ups use up part of the $1,500.",
+     "say": "In Emily's plan, yes: check-ups use up part of the 1500 dollars.",
+     "focus": -1,
+     "file": "clips/b24f9767226b.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Some plans do **not** count preventive care toward the maximum, which leaves more for fillings and crowns.",
+     "say": "Some plans do not count preventive care toward the maximum, which leaves more for fillings and crowns.",
+     "focus": -1,
+     "file": "clips/401a9e788841.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "This is a plan rule to check, not a law.",
+     "say": "This is a plan rule to check, not a law.",
+     "focus": -1,
+     "file": "clips/b061cfc71811.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Asking before doing: the pre-treatment estimate.",
+     "say": "Asking before doing: the pre-treatment estimate.",
+     "focus": -1,
+     "file": "clips/ea60feef20ef.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Asking before doing: the pre-treatment estimate",
+   "lines": [
+    {
+     "raw": "For expensive work like crowns, the dentist can send the same ADA form with \"**request for pre-treatment estimate**\" ticked, before doing the work.",
+     "say": "For expensive work like crowns, the dentist can send the same A D A form with \"request for pre-treatment estimate\" ticked, before doing the work.",
+     "focus": -1,
+     "file": "clips/a86d307a30e1.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "The plan replies with what it **expects** to pay.",
+     "say": "The plan replies with what it expects to pay.",
+     "focus": -1,
+     "file": "clips/fd071ddabaa4.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Many dentists do this so the patient is not surprised.",
+     "say": "Many dentists do this so the patient is not surprised.",
+     "focus": -1,
+     "file": "clips/a91f6c06c44a.mp3",
+     "seconds": 3.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Asking before doing: the pre-treatment estimate",
+   "lines": [
+    {
+     "raw": "In the US: Emily's crown estimate.",
+     "say": "In the U S: Emily's crown estimate.",
+     "focus": -1,
+     "file": "clips/ae5d27a48e13.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "In September, Dr. Liu says tooth **19** needs a root canal and then a crown.",
+     "say": "In September, Doctor Liu says tooth 19 needs a root canal and then a crown.",
+     "focus": 0,
+     "file": "clips/26c93c3a9140.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "She sends a pre-treatment estimate for the crown (`D2740`).",
+     "say": "She sends a pre-treatment estimate for the crown (D 2 7 4 0).",
+     "focus": 0,
+     "file": "clips/b1924195e5cb.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Lone Star Dental replies: allowed **$1,000**, major service at **50%**, so the plan expects to pay **$500**, \"**subject to the remaining annual maximum at the time the claim is processed**\".",
+     "say": "Lone Star Dental replies: allowed 1000 dollars major service at 50 percent, so the plan expects to pay 500 dollars \"subject to the remaining annual maximum at the time the claim is processed\".",
+     "focus": 1,
+     "file": "clips/aa074643e37c.mp3",
+     "seconds": 13.925
+    },
+    {
+     "raw": "That last sentence matters a lot.",
+     "say": "That last sentence matters a lot.",
+     "focus": 2,
+     "file": "clips/e9f2e10f2ac9.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "You will see why in lesson 7.",
+     "say": "You will see why in lesson 7.",
+     "focus": 2,
+     "file": "clips/c94a61fd94b7.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Asking before doing: the pre-treatment estimate",
+   "lines": [
+    {
+     "raw": "Two dental plans?",
+     "say": "Two dental plans?",
+     "focus": -1,
+     "file": "clips/23282ebd15c0.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "If Emily were also covered by a second dental plan, for example through her husband Daniel's job, the two plans would share the bill using **coordination of benefits**, just like medical plans.",
+     "say": "If Emily were also covered by a second dental plan, for example through her husband Daniel's job, the two plans would share the bill using coordination of benefits, just like medical plans.",
+     "focus": -1,
+     "file": "clips/4fa1faaa6c33.mp3",
+     "seconds": 12.5
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Frequency limits** (like 2 cleanings per year) mean the plan pays nothing for an extra service, even for a covered member.",
+     "say": "Frequency limits (like 2 cleanings per year) mean the plan pays nothing for an extra service, even for a covered member.",
+     "focus": 0,
+     "file": "clips/85972e85f68b.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "Line money: **allowed = deductible + coinsurance + not covered + plan paid**; billed minus allowed is the in-network discount.",
+     "say": "Line money: allowed = deductible and coinsurance and not covered and plan paid; billed minus allowed is the in-network discount.",
+     "focus": 1,
+     "file": "clips/3b894851626f.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "The plan keeps a **running total** per person and never pays past the **annual maximum**.",
+     "say": "The plan keeps a running total per person and never pays past the annual maximum.",
+     "focus": 2,
+     "file": "clips/19102219b654.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "A **pre-treatment estimate** says what the plan expects to pay, subject to the maximum left when the real claim arrives.",
+     "say": "A pre-treatment estimate says what the plan expects to pay, subject to the maximum left when the real claim arrives.",
+     "focus": 3,
+     "file": "clips/eadb31b480a7.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

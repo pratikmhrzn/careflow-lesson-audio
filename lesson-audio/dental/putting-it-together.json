@@ -1,0 +1,1051 @@
+{
+ "courseId": "dental",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: Putting It All Together.",
+     "say": "Lesson 7: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/eddad0e34594.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "A full year of dental claims for Emily and Lily, and the day the annual maximum ran out.",
+     "say": "A full year of dental claims for Emily and Lily, and the day the annual maximum ran out.",
+     "focus": -1,
+     "file": "clips/713a3fe8c8cd.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read a year of dental claims for a family as a data table.",
+     "say": "Read a year of dental claims for a family as a data table.",
+     "focus": 0,
+     "file": "clips/ef46e2391188.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "Track the annual maximum across claims, one person at a time.",
+     "say": "Track the annual maximum across claims, one person at a time.",
+     "focus": 1,
+     "file": "clips/983c447613e6.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "Spot a frequency-limit denial and an annual-maximum cut in the data.",
+     "say": "Spot a frequency-limit denial and an annual-maximum cut in the data.",
+     "focus": 2,
+     "file": "clips/9fe1c14d5a3e.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "Sum dental claims the way an analyst does.",
+     "say": "Sum dental claims the way an analyst does.",
+     "focus": 3,
+     "file": "clips/d562966fe165.mp3",
+     "seconds": 3.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story.",
+     "say": "The story.",
+     "focus": -1,
+     "file": "clips/5103112bb3ad.mp3",
+     "seconds": 1.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "Emily and her daughter **Lily** (age 6) are both on Emily's **DPPO** dental plan with **Lone Star Dental** (fictional).",
+     "say": "Emily and her daughter Lily (age 6) are both on Emily's D P P O dental plan with Lone Star Dental (fictional).",
+     "focus": -1,
+     "file": "clips/bd1116e29b53.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "They both see **Dr. Grace Liu** at **Hill Country Family Dental** in Austin, who is in-network.",
+     "say": "They both see Doctor Grace Liu at Hill Country Family Dental in Austin, who is in-network.",
+     "focus": -1,
+     "file": "clips/31b6a6502ba6.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "Here is their dental year in 2025.",
+     "say": "Here is their dental year in 2025.",
+     "focus": -1,
+     "file": "clips/7847467fca58.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "Emily's plan rules (lessons 1 and 6).",
+     "say": "Emily's plan rules (lessons 1 and 6).",
+     "focus": -1,
+     "file": "clips/c3d68871efa5.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Coverage. Value: Preventive & diagnostic 100% · Basic 80% · Major 50%.",
+     "say": "Coverage. Value: Preventive and diagnostic 100 percent, Basic 80 percent, Major 50 percent.",
+     "focus": 0,
+     "file": "clips/be91ba1274c7.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "Deductible. Value: $50 **per person** per year, not applied to preventive & diagnostic.",
+     "say": "Deductible. Value: 50 dollars per person per year, not applied to preventive and diagnostic.",
+     "focus": 1,
+     "file": "clips/54da84870e26.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Annual maximum. Value: $1,500 **per person** per calendar year (preventive counts toward it).",
+     "say": "Annual maximum. Value: 1500 dollars per person per calendar year (preventive counts toward it).",
+     "focus": 2,
+     "file": "clips/050a1a58d175.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "Frequency. Value: 2 exams, 2 cleanings and 2 fluoride treatments per year · 1 set of bitewing X-rays per year.",
+     "say": "Frequency. Value: 2 exams, 2 cleanings and 2 fluoride treatments per year, 1 set of bitewing X-rays per year.",
+     "focus": 3,
+     "file": "clips/9d59fbd29c35.mp3",
+     "seconds": 8.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "Feb: check-ups.",
+     "say": "Feb: check-ups.",
+     "focus": 0,
+     "file": "clips/6e996db199bf.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Emily (18 Feb) and Lily (25 Feb) have exams, cleanings and bitewing X-rays.",
+     "say": "Emily (18 Feb) and Lily (25 Feb) have exams, cleanings and bitewing X-rays.",
+     "focus": 0,
+     "file": "clips/949be5c61db4.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "Lily also gets fluoride.",
+     "say": "Lily also gets fluoride.",
+     "focus": 0,
+     "file": "clips/fc605b10086a.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Mar: Emily's filling.",
+     "say": "Mar: Emily's filling.",
+     "focus": 1,
+     "file": "clips/8b6cc1853cf3.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "Two-surface filling on tooth 30 (`D2392`, surfaces MO).",
+     "say": "Two-surface filling on tooth 30 (D 2 3 9 2, surfaces M O).",
+     "focus": 1,
+     "file": "clips/467dddcd3c8e.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "Aug: second check-ups.",
+     "say": "Aug: second check-ups.",
+     "focus": 2,
+     "file": "clips/e59c03c67b17.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Emily (19 Aug) and Lily (26 Aug).",
+     "say": "Emily (19 Aug) and Lily (26 Aug).",
+     "focus": 2,
+     "file": "clips/02c6e8de83c4.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Lily gets sealants on her new adult molars, 19 and 30.",
+     "say": "Lily gets sealants on her new adult molars, 19 and 30.",
+     "focus": 2,
+     "file": "clips/5b1153a030ef.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "The office also takes bitewings for Lily again.",
+     "say": "The office also takes bitewings for Lily again.",
+     "focus": 2,
+     "file": "clips/d8a0f977993c.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Sep: Emily's root canal.",
+     "say": "Sep: Emily's root canal.",
+     "focus": 3,
+     "file": "clips/4ce7421c35cd.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "Root canal on tooth 19 (`D3330`).",
+     "say": "Root canal on tooth 19 (D 3 3 3 0).",
+     "focus": 3,
+     "file": "clips/14dfb4ae3141.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "A pre-treatment estimate for the crown is sent.",
+     "say": "A pre-treatment estimate for the crown is sent.",
+     "focus": 3,
+     "file": "clips/384cf4dae288.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Oct: crown and Lily's filling.",
+     "say": "Oct: crown and Lily's filling.",
+     "focus": 4,
+     "file": "clips/4a108ffde765.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "Emily gets a ceramic crown on tooth 19 (`D2740`).",
+     "say": "Emily gets a ceramic crown on tooth 19 (D 2 7 4 0).",
+     "focus": 4,
+     "file": "clips/d22bb2fb8217.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "Lily gets a one-surface filling on baby tooth S (`D2391`).",
+     "say": "Lily gets a one-surface filling on baby tooth S (D 2 3 9 1).",
+     "focus": 4,
+     "file": "clips/1779ef3d5eee.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "In Nepal: The same year in Kathmandu.",
+     "say": "In Nepal: The same year in Kathmandu.",
+     "focus": -1,
+     "file": "clips/2709940f36f4.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "If Ram and his family had the same treatments at a private dental clinic, they would most likely **pay every visit themselves**, since many private policies do not cover routine dental care.",
+     "say": "If Ram and his family had the same treatments at a private dental clinic, they would most likely pay every visit themselves, since many private policies do not cover routine dental care.",
+     "focus": 0,
+     "file": "clips/270e1d0fcc60.mp3",
+     "seconds": 11.325
+    },
+    {
+     "raw": "There would be no annual maximum to track, because there would be no dental insurer paying.",
+     "say": "There would be no annual maximum to track, because there would be no dental insurer paying.",
+     "focus": 1,
+     "file": "clips/5712258f1036.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "The family's dental spending would simply be the sum of the clinic bills.",
+     "say": "The family's dental spending would simply be the sum of the clinic bills.",
+     "focus": 1,
+     "file": "clips/71252ce69778.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "For Sita, it would depend on which dental services SSF and her listed hospital cover.",
+     "say": "For Sita, it would depend on which dental services S S F and her listed hospital cover.",
+     "focus": 2,
+     "file": "clips/52497f17f22a.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "Anything not covered she pays herself, like most people at private dental clinics in Nepal.",
+     "say": "Anything not covered she pays herself, like most people at private dental clinics in Nepal.",
+     "focus": 2,
+     "file": "clips/ac8284af9ce3.mp3",
+     "seconds": 5.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The claim table.",
+     "say": "The claim table.",
+     "focus": -1,
+     "file": "clips/48b8102ec428.mp3",
+     "seconds": 1.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The claim table",
+   "lines": [
+    {
+     "raw": "In a database, dental claims are usually stored at the **line level**: one row per CDT code.",
+     "say": "In a database, dental claims are usually stored at the line level: one row per C D T code.",
+     "focus": -1,
+     "file": "clips/0ac9706c6d4c.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "There are **8 claims** in total, which become **19 rows**.",
+     "say": "There are 8 claims in total, which become 19 rows.",
+     "focus": -1,
+     "file": "clips/a35cb2f922a8.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Empty fields show as **NULL**.",
+     "say": "Empty fields show as N U L L.",
+     "focus": -1,
+     "file": "clips/adb31ea61340.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The claim table",
+   "lines": [
+    {
+     "raw": "Dental claim lines, 2025 (one row per line).",
+     "say": "Dental claim lines, 2025 (one row per line).",
+     "focus": -1,
+     "file": "clips/648aa3b1154a.mp3",
+     "seconds": 4.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The claim table",
+   "lines": [
+    {
+     "raw": "Every row must balance.",
+     "say": "Every row must balance.",
+     "focus": -1,
+     "file": "clips/c8a17567901d.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "allowed_amt equals deductible_amt plus coinsurance_amt plus not_covered_amt plus paid_amt.",
+     "say": "allowed_amt equals deductible_amt plus coinsurance_amt plus not_covered_amt plus paid_amt.",
+     "focus": 0,
+     "file": "clips/47d7043538cc.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "For example: patient_resp equals deductible_amt plus coinsurance_amt plus not_covered_amt.",
+     "say": "For example: patient_resp equals deductible_amt plus coinsurance_amt plus not_covered_amt.",
+     "focus": 1,
+     "file": "clips/5194c1ce6adf.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "Check the crown row: $1,000 equals $0 plus $500 plus $144 plus $356. ✓ Emily pays $500 plus $144 equals $644.",
+     "say": "Check the crown row: 1000 dollars equals 0 dollars plus 500 dollars plus 144 dollars plus 356 dollars. ✓ Emily pays 500 dollars plus 144 dollars equals 644 dollars.",
+     "focus": 1,
+     "file": "clips/87d021a5ce55.mp3",
+     "seconds": 17.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The claim table",
+   "lines": [
+    {
+     "raw": "Why no area column?",
+     "say": "Why no area column?",
+     "focus": -1,
+     "file": "clips/45877e7be2ab.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "None of these services was done on a whole quadrant or arch, so an `area` column would be NULL on every row.",
+     "say": "None of these services was done on a whole quadrant or arch, so an area column would be N U L L on every row.",
+     "focus": -1,
+     "file": "clips/98d96c9cb8ed.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "In real data you will usually see it next to `tooth_num` and `surface`, filled for services like deep cleanings (`D4341`).",
+     "say": "In real data you will usually see it next to tooth_num and surface, filled for services like deep cleanings (D 4 3 4 1).",
+     "focus": -1,
+     "file": "clips/54e6f3f14e8a.mp3",
+     "seconds": 8.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Emily's annual maximum, step by step.",
+     "say": "Emily's annual maximum, step by step.",
+     "focus": -1,
+     "file": "clips/a99d5ed38a09.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Emily's annual maximum, step by step",
+   "lines": [
+    {
+     "raw": "The annual maximum is tracked **per person**, so filter to **M1001** and sort by date.",
+     "say": "The annual maximum is tracked per person, so filter to M 1 0 0 1 and sort by date.",
+     "focus": -1,
+     "file": "clips/d4b1c65b0d21.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "Add up `paid_amt` as you go.",
+     "say": "Add up paid_amt as you go.",
+     "focus": -1,
+     "file": "clips/d8eb735031df.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Emily's annual maximum, step by step",
+   "lines": [
+    {
+     "raw": "Emily (M1001): running total of plan payments in 2025.",
+     "say": "Emily (M 1 0 0 1): running total of plan payments in 2025.",
+     "focus": -1,
+     "file": "clips/ba63aff037bd.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "880101. Date: 18 Feb. Service: Check-up + bitewings. Normal plan share: $190. Plan paid: $190. Paid so far: $190. Remaining of $1,500: $1,310.",
+     "say": "880101. Date: 18 Feb. Service: Check-up and bitewings. Normal plan share: 190 dollars. Plan paid: 190 dollars. Paid so far: 190 dollars. Remaining of 1500 dollars: 1310 dollars.",
+     "focus": 0,
+     "file": "clips/f1f68631ca47.mp3",
+     "seconds": 19.2
+    },
+    {
+     "raw": "880245. Date: 12 Mar. Service: Filling, tooth 30. Normal plan share: $104. Plan paid: $104. Paid so far: $294. Remaining of $1,500: $1,206.",
+     "say": "880245. Date: 12 Mar. Service: Filling, tooth 30. Normal plan share: 104 dollars. Plan paid: 104 dollars. Paid so far: 294 dollars. Remaining of 1500 dollars: 1206 dollars.",
+     "focus": 1,
+     "file": "clips/c3cda5a07e17.mp3",
+     "seconds": 19.325
+    },
+    {
+     "raw": "881392. Date: 19 Aug. Service: Check-up. Normal plan share: $130. Plan paid: $130. Paid so far: $424. Remaining of $1,500: $1,076.",
+     "say": "881392. Date: 19 Aug. Service: Check-up. Normal plan share: 130 dollars. Plan paid: 130 dollars. Paid so far: 424 dollars. Remaining of 1500 dollars: 1076 dollars.",
+     "focus": 2,
+     "file": "clips/e80baaccfc91.mp3",
+     "seconds": 19.575
+    },
+    {
+     "raw": "881530. Date: 08 Sep. Service: Root canal, tooth 19. Normal plan share: $720. Plan paid: $720. Paid so far: $1,144. Remaining of $1,500: $356.",
+     "say": "881530. Date: 08 Sep. Service: Root canal, tooth 19. Normal plan share: 720 dollars. Plan paid: 720 dollars. Paid so far: 1144 dollars. Remaining of 1500 dollars: 356 dollars.",
+     "focus": 3,
+     "file": "clips/8aa8fe435027.mp3",
+     "seconds": 21.1
+    },
+    {
+     "raw": "881990. Date: 06 Oct. Service: Crown, tooth 19. Normal plan share: $500. Plan paid: **$356**. Paid so far: **$1,500**. Remaining of $1,500: **$0**.",
+     "say": "881990. Date: 06 Oct. Service: Crown, tooth 19. Normal plan share: 500 dollars. Plan paid: 356 dollars. Paid so far: 1500 dollars. Remaining of 1500 dollars: 0 dollars.",
+     "focus": 4,
+     "file": "clips/c90991941f88.mp3",
+     "seconds": 19.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Emily's annual maximum, step by step",
+   "lines": [
+    {
+     "raw": "The estimate said $500.",
+     "say": "The estimate said 500 dollars.",
+     "focus": -1,
+     "file": "clips/b141421f886e.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "The plan paid $356.",
+     "say": "The plan paid 356 dollars.",
+     "focus": -1,
+     "file": "clips/6bb61413884f.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "In September, the pre-treatment estimate said the plan expected to pay **$500** for the crown, \"subject to the remaining annual maximum\".",
+     "say": "In September, the pre-treatment estimate said the plan expected to pay 500 dollars for the crown, \"subject to the remaining annual maximum\".",
+     "focus": -1,
+     "file": "clips/5f04adb07015.mp3",
+     "seconds": 9.4
+    },
+    {
+     "raw": "Then the root canal claim used **$720**, leaving only **$356**.",
+     "say": "Then the root canal claim used 720 dollars leaving only 356 dollars.",
+     "focus": -1,
+     "file": "clips/9fd2cdafb287.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "So the plan paid $356, and the extra **$144** moved to Emily.",
+     "say": "So the plan paid 356 dollars and the extra 144 dollars moved to Emily.",
+     "focus": -1,
+     "file": "clips/194a8a8eff03.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Her crown cost her **$644** instead of $500.",
+     "say": "Her crown cost her 644 dollars instead of 500 dollars.",
+     "focus": -1,
+     "file": "clips/d536cfff1c50.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "From now until 31 December, Emily pays **100%** of any dental work herself.",
+     "say": "From now until 31 December, Emily pays 100 percent of any dental work herself.",
+     "focus": -1,
+     "file": "clips/2ed73760ebaf.mp3",
+     "seconds": 6.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Emily's annual maximum, step by step",
+   "lines": [
+    {
+     "raw": "How Emily could have planned better.",
+     "say": "How Emily could have planned better.",
+     "focus": -1,
+     "file": "clips/c9213f326dbe.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Because the annual maximum resets on **1 January**, some patients ask to split big work across two plan years: for example, the root canal in 2025 and the crown in early 2026.",
+     "say": "Because the annual maximum resets on 1 January, some patients ask to split big work across two plan years: for example, the root canal in 2025 and the crown in early 2026.",
+     "focus": -1,
+     "file": "clips/9a2f0df40393.mp3",
+     "seconds": 13.325
+    },
+    {
+     "raw": "Whether that is safe for the tooth is a decision for the dentist, not the insurer.",
+     "say": "Whether that is safe for the tooth is a decision for the dentist, not the insurer.",
+     "focus": -1,
+     "file": "clips/d7a60f4eea76.mp3",
+     "seconds": 5.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lily's year.",
+     "say": "Lily's year.",
+     "focus": -1,
+     "file": "clips/60c8bb13f130.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Lily's year",
+   "lines": [
+    {
+     "raw": "Lily (M1002): running total of plan payments in 2025.",
+     "say": "Lily (M 1 0 0 2): running total of plan payments in 2025.",
+     "focus": -1,
+     "file": "clips/c8d33a3b1442.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "880150. Date: 25 Feb. Service: Exam, cleaning, fluoride, bitewings. Plan paid: $175. Paid so far: $175. Remaining of $1,500: $1,325.",
+     "say": "880150. Date: 25 Feb. Service: Exam, cleaning, fluoride, bitewings. Plan paid: 175 dollars. Paid so far: 175 dollars. Remaining of 1500 dollars: 1325 dollars.",
+     "focus": 0,
+     "file": "clips/9503442e0354.mp3",
+     "seconds": 18.925
+    },
+    {
+     "raw": "881410. Date: 26 Aug. Service: Exam, cleaning, fluoride, 2 sealants (bitewings denied). Plan paid: $215. Paid so far: $390. Remaining of $1,500: $1,110.",
+     "say": "881410. Date: 26 Aug. Service: Exam, cleaning, fluoride, 2 sealants (bitewings denied). Plan paid: 215 dollars. Paid so far: 390 dollars. Remaining of 1500 dollars: 1110 dollars.",
+     "focus": 1,
+     "file": "clips/daea2f2325c9.mp3",
+     "seconds": 18.85
+    },
+    {
+     "raw": "881720. Date: 10 Oct. Service: Filling on baby tooth S. Plan paid: $64. Paid so far: $454. Remaining of $1,500: $1,046.",
+     "say": "881720. Date: 10 Oct. Service: Filling on baby tooth S. Plan paid: 64 dollars. Paid so far: 454 dollars. Remaining of 1500 dollars: 1046 dollars.",
+     "focus": 2,
+     "file": "clips/b058f163876f.mp3",
+     "seconds": 17.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Lily's year",
+   "lines": [
+    {
+     "raw": "**Line 4 of claim 881410** was denied: Lily already had bitewing X-rays in February, and the plan pays for **one set per year**.",
+     "say": "Line 4 of claim 881410 was denied: Lily already had bitewing X-rays in February, and the plan pays for one set per year.",
+     "focus": 0,
+     "file": "clips/ee02debf16d1.mp3",
+     "seconds": 11.225
+    },
+    {
+     "raw": "The plan paid $0, and the $40 in-network fee went to `not_covered_amt`.",
+     "say": "The plan paid 0 dollars and the 40 dollars in-network fee went to not_covered_amt.",
+     "focus": 0,
+     "file": "clips/aa0a48b5aa6a.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "Under many in-network contracts the dentist may then charge the family for it, which is why offices usually check limits first.",
+     "say": "Under many in-network contracts the dentist may then charge the family for it, which is why offices usually check limits first.",
+     "focus": 0,
+     "file": "clips/aecb1949fe23.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "Lily's filling used **her own** $50 deductible.",
+     "say": "Lily's filling used her own 50 dollars deductible.",
+     "focus": 1,
+     "file": "clips/c448ba6ef859.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Emily's deductible payment in March does not count for Lily, because this plan's deductible is **per person**.",
+     "say": "Emily's deductible payment in March does not count for Lily, because this plan's deductible is per person.",
+     "focus": 1,
+     "file": "clips/0889cb6733c0.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "Sealants on teeth **19** and **30**: at age 6, Lily's first **adult** molars are coming in, so they have **numbers**.",
+     "say": "Sealants on teeth 19 and 30: at age 6, Lily's first adult molars are coming in, so they have numbers.",
+     "focus": 2,
+     "file": "clips/7acc722f3649.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "Her filling was on a **baby** tooth, so it has a **letter** (S).",
+     "say": "Her filling was on a baby tooth, so it has a letter (S).",
+     "focus": 2,
+     "file": "clips/6b98facab209.mp3",
+     "seconds": 3.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Claim totals.",
+     "say": "Claim totals.",
+     "focus": -1,
+     "file": "clips/1489740d02bc.mp3",
+     "seconds": 1.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Claim totals",
+   "lines": [
+    {
+     "raw": "Sum the lines by claim_id.",
+     "say": "Sum the lines by claim_id.",
+     "focus": -1,
+     "file": "clips/49364c0ff94f.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Emily. Claim: 880101. Billed: $275. Allowed: $190. Plan paid: $190. Patient paid: $0.",
+     "say": "Emily. Claim: 880101. Billed: 275 dollars. Allowed: 190 dollars. Plan paid: 190 dollars. Patient paid: 0 dollars.",
+     "focus": 0,
+     "file": "clips/02bd1eb9fb86.mp3",
+     "seconds": 13.825
+    },
+    {
+     "raw": "Emily. Claim: 880245. Billed: $250. Allowed: $180. Plan paid: $104. Patient paid: $76.",
+     "say": "Emily. Claim: 880245. Billed: 250 dollars. Allowed: 180 dollars. Plan paid: 104 dollars. Patient paid: 76 dollars.",
+     "focus": 1,
+     "file": "clips/5ae7a40593dc.mp3",
+     "seconds": 14.225
+    },
+    {
+     "raw": "Emily. Claim: 881392. Billed: $185. Allowed: $130. Plan paid: $130. Patient paid: $0.",
+     "say": "Emily. Claim: 881392. Billed: 185 dollars. Allowed: 130 dollars. Plan paid: 130 dollars. Patient paid: 0 dollars.",
+     "focus": 2,
+     "file": "clips/785b372f86a7.mp3",
+     "seconds": 14.25
+    },
+    {
+     "raw": "Emily. Claim: 881530. Billed: $1,200. Allowed: $900. Plan paid: $720. Patient paid: $180.",
+     "say": "Emily. Claim: 881530. Billed: 1200 dollars. Allowed: 900 dollars. Plan paid: 720 dollars. Patient paid: 180 dollars.",
+     "focus": 3,
+     "file": "clips/a1d20780155f.mp3",
+     "seconds": 14.1
+    },
+    {
+     "raw": "Emily. Claim: 881990. Billed: $1,300. Allowed: $1,000. Plan paid: $356. Patient paid: $644.",
+     "say": "Emily. Claim: 881990. Billed: 1300 dollars. Allowed: 1000 dollars. Plan paid: 356 dollars. Patient paid: 644 dollars.",
+     "focus": 4,
+     "file": "clips/ab42e624f57b.mp3",
+     "seconds": 14.875
+    },
+    {
+     "raw": "**Emily total**. Claim: 5 claims. Billed: **$3,210**. Allowed: **$2,400**. Plan paid: **$1,500**. Patient paid: **$900**.",
+     "say": "Emily total. Claim: 5 claims. Billed: 3210 dollars. Allowed: 2400 dollars. Plan paid: 1500 dollars. Patient paid: 900 dollars.",
+     "focus": 5,
+     "file": "clips/a4c48f9f56e0.mp3",
+     "seconds": 12.325
+    },
+    {
+     "raw": "Lily. Claim: 880150. Billed: $245. Allowed: $175. Plan paid: $175. Patient paid: $0.",
+     "say": "Lily. Claim: 880150. Billed: 245 dollars. Allowed: 175 dollars. Plan paid: 175 dollars. Patient paid: 0 dollars.",
+     "focus": 6,
+     "file": "clips/d70fd0c1db77.mp3",
+     "seconds": 14.8
+    },
+    {
+     "raw": "Lily. Claim: 881410. Billed: $355. Allowed: $255. Plan paid: $215. Patient paid: $40.",
+     "say": "Lily. Claim: 881410. Billed: 355 dollars. Allowed: 255 dollars. Plan paid: 215 dollars. Patient paid: 40 dollars.",
+     "focus": 7,
+     "file": "clips/5fcb7a23b3d5.mp3",
+     "seconds": 14.775
+    },
+    {
+     "raw": "Lily. Claim: 881720. Billed: $180. Allowed: $130. Plan paid: $64. Patient paid: $66.",
+     "say": "Lily. Claim: 881720. Billed: 180 dollars. Allowed: 130 dollars. Plan paid: 64 dollars. Patient paid: 66 dollars.",
+     "focus": 8,
+     "file": "clips/c52cb6a611e4.mp3",
+     "seconds": 13.925
+    },
+    {
+     "raw": "**Lily total**. Claim: 3 claims. Billed: **$780**. Allowed: **$560**. Plan paid: **$454**. Patient paid: **$106**.",
+     "say": "Lily total. Claim: 3 claims. Billed: 780 dollars. Allowed: 560 dollars. Plan paid: 454 dollars. Patient paid: 106 dollars.",
+     "focus": 9,
+     "file": "clips/1cfe852e4369.mp3",
+     "seconds": 13.525
+    },
+    {
+     "raw": "**Family total**. Claim: 8 claims. Billed: **$3,990**. Allowed: **$2,960**. Plan paid: **$1,954**. Patient paid: **$1,006**.",
+     "say": "Family total. Claim: 8 claims. Billed: 3990 dollars. Allowed: 2960 dollars. Plan paid: 1954 dollars. Patient paid: 1006 dollars.",
+     "focus": 10,
+     "file": "clips/5402a39aac25.mp3",
+     "seconds": 13.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Claim totals",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "For every claim: **Allowed = Plan paid + Patient paid**.",
+     "say": "For every claim: Allowed = Plan paid and Patient paid.",
+     "focus": -1,
+     "file": "clips/2a9683e4c940.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "Emily: $1,500 + $900 = $2,400 ✓.",
+     "say": "Emily: 1500 dollars and 900 dollars = 2400 dollars ✓.",
+     "focus": -1,
+     "file": "clips/b17c48e80e55.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "Lily: $454 + $106 = $560 ✓.",
+     "say": "Lily: 454 dollars and 106 dollars = 560 dollars ✓.",
+     "focus": -1,
+     "file": "clips/1a1b5fa12ac3.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "Family: $1,954 + $1,006 = $2,960 ✓.",
+     "say": "Family: 1954 dollars and 1006 dollars = 2960 dollars ✓.",
+     "focus": -1,
+     "file": "clips/8c33107068dc.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "The in-network discount overall: $3,990 − $2,960 = **$1,030** that nobody pays.",
+     "say": "The in-network discount overall: 3990 dollars − 2960 dollars = 1030 dollars that nobody pays.",
+     "focus": -1,
+     "file": "clips/30407cdae29c.mp3",
+     "seconds": 9.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Claim totals",
+   "lines": [
+    {
+     "raw": "Questions analysts answer with dental data.",
+     "say": "Questions analysts answer with dental data.",
+     "focus": -1,
+     "file": "clips/3e17651882ed.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "How many members reached their annual maximum this year?",
+     "say": "How many members reached their annual maximum this year?",
+     "focus": -1,
+     "file": "clips/3ffd2b820e6d.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "(sum `paid_amt` per member and plan year) · What share of members had both cleanings?",
+     "say": "(sum paid_amt per member and plan year), What share of members had both cleanings?",
+     "focus": -1,
+     "file": "clips/747d7afa67e1.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "(count `D1110`/`D1120` per member) · How often are lines denied for frequency limits? · How many children got sealants on their first molars (teeth 3, 14, 19, 30)? · Which teeth get the most fillings?",
+     "say": "(count D 1 1 1 0/D 1 1 2 0 per member), How often are lines denied for frequency limits?, How many children got sealants on their first molars (teeth 3, 14, 19, 30)?, Which teeth get the most fillings?",
+     "focus": -1,
+     "file": "clips/f91f3463103d.mp3",
+     "seconds": 15.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Field → lesson map.",
+     "say": "Field to lesson map.",
+     "focus": -1,
+     "file": "clips/e9cf9eeca18e.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "benefit_group, deductible_amt. Question it answers: Which coverage group? How much does the plan pay? Lesson: 1. Dental Coverage.",
+     "say": "benefit_group, deductible_amt. Question it answers: Which coverage group? How much does the plan pay? Lesson: 1. Dental Coverage.",
+     "focus": 0,
+     "file": "clips/bd9fdb0a6a9c.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "(the whole table). Question it answers: Why is this a separate dental table, with no diagnosis column? Lesson: 2. Dental vs Medical.",
+     "say": "(the whole table). Question it answers: Why is this a separate dental table, with no diagnosis column? Lesson: 2. Dental versus Medical.",
+     "focus": 1,
+     "file": "clips/409c92f355c7.mp3",
+     "seconds": 10
+    },
+    {
+     "raw": "claim_id, line_no, service_dt, billed_amt. Question it answers: Which bill, which item, when, what price? Lesson: 3. The Dental Claim.",
+     "say": "claim_id, line_no, service_dt, billed_amt. Question it answers: Which bill, which item, when, what price? Lesson: 3. The Dental Claim.",
+     "focus": 2,
+     "file": "clips/65e91b542695.mp3",
+     "seconds": 10.2
+    },
+    {
+     "raw": "cdt_code. Question it answers: What was done? Lesson: 4. Procedure: CDT Codes.",
+     "say": "cdt_code. Question it answers: What was done? Lesson: 4. Procedure: C D T Codes.",
+     "focus": 3,
+     "file": "clips/661e006af249.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "tooth_num, surface (and area). Question it answers: Which tooth, which side? Lesson: 5. Teeth, Surfaces & Areas.",
+     "say": "tooth_num, surface (and area). Question it answers: Which tooth, which side? Lesson: 5. Teeth, Surfaces and Areas.",
+     "focus": 4,
+     "file": "clips/70d32378083b.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "allowed_amt, coinsurance_amt, paid_amt, not_covered_amt, reason. Question it answers: How was the line paid? Frequency limits and the annual maximum. Lesson: 6. Benefit Rules & Amounts.",
+     "say": "allowed_amt, coinsurance_amt, paid_amt, not_covered_amt, reason. Question it answers: How was the line paid? Frequency limits and the annual maximum. Lesson: 6. Benefit Rules and Amounts.",
+     "focus": 5,
+     "file": "clips/e6c1a6c2c5c5.mp3",
+     "seconds": 13.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You can now read a US dental claim: the CDT code, the tooth and surface, the 100-80-50 coverage and the annual maximum.",
+     "say": "You can now read a U S dental claim: the C D T code, the tooth and surface, the 100-80-50 coverage and the annual maximum.",
+     "focus": -1,
+     "file": "clips/fca3063bfb72.mp3",
+     "seconds": 10.025
+    },
+    {
+     "raw": "Next, the Vision course shows how eye exams, glasses and contact lenses are covered and claimed.",
+     "say": "Next, the Vision course shows how eye exams, glasses and contact lenses are covered and claimed.",
+     "focus": -1,
+     "file": "clips/0fabf97ac043.mp3",
+     "seconds": 6.6
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Dental claims are stored one row per line, with **cdt_code**, **tooth_num** and **surface** columns.",
+     "say": "Dental claims are stored one row per line, with cdt_code, tooth_num and surface columns.",
+     "focus": 0,
+     "file": "clips/daa13c8ea9a4.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "The **annual maximum** is tracked **per person per plan year**: sum `paid_amt` in date order to see when it runs out.",
+     "say": "The annual maximum is tracked per person per plan year: sum paid_amt in date order to see when it runs out.",
+     "focus": 1,
+     "file": "clips/da037c3547f3.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "A pre-treatment estimate is not a promise: later claims can use up the maximum first.",
+     "say": "A pre-treatment estimate is not a promise: later claims can use up the maximum first.",
+     "focus": 2,
+     "file": "clips/6607b9e3217c.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Frequency-limit denials show up as **$0 paid** with the amount in `not_covered_amt`.",
+     "say": "Frequency-limit denials show up as 0 dollars paid with the amount in not_covered_amt.",
+     "focus": 3,
+     "file": "clips/236b51afbeff.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

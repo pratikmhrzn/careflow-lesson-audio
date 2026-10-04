@@ -1,0 +1,554 @@
+{
+ "courseId": "groupers-episodes",
+ "lessonId": "what-is-a-grouper",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What is a Grouper?",
+     "say": "Lesson 1: What is a Grouper?",
+     "focus": -1,
+     "file": "clips/f2fe2a119694.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Why tens of thousands of medical codes are sorted into a few hundred groups, and who uses them.",
+     "say": "Why tens of thousands of medical codes are sorted into a few hundred groups, and who uses them.",
+     "focus": -1,
+     "file": "clips/d12183a837f0.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain in one sentence what a grouper does.",
+     "say": "Explain in one sentence what a grouper does.",
+     "focus": 0,
+     "file": "clips/7e8e59d4673a.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "Explain why codes must be grouped before they can be paid or analysed.",
+     "say": "Explain why codes must be grouped before they can be paid or analysed.",
+     "focus": 1,
+     "file": "clips/e33ecf9e9527.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "Tell payment groupers from analytics groupers.",
+     "say": "Tell payment groupers from analytics groupers.",
+     "focus": 2,
+     "file": "clips/ce7523db37d7.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Name the inputs a grouper reads and the output it gives.",
+     "say": "Name the inputs a grouper reads and the output it gives.",
+     "focus": 3,
+     "file": "clips/a2ecc18e9388.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with the post office.",
+     "say": "Start with the post office.",
+     "focus": -1,
+     "file": "clips/c39045b1d85d.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with the post office",
+   "lines": [
+    {
+     "raw": "In Nepal: Sorting letters at the central post office.",
+     "say": "In Nepal: Sorting letters at the central post office.",
+     "focus": -1,
+     "file": "clips/024bdb1de854.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Every day, Nepal's central post office in Kathmandu receives thousands of letters with thousands of different addresses.",
+     "say": "Every day, Nepal's central post office in Kathmandu receives thousands of letters with thousands of different addresses.",
+     "focus": 0,
+     "file": "clips/e2b75bcd585d.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "Nobody plans a delivery route for each address.",
+     "say": "Nobody plans a delivery route for each address.",
+     "focus": 1,
+     "file": "clips/d95d18820ca5.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Clerks first sort the letters by **district** (Nepal has 77), then by town.",
+     "say": "Clerks first sort the letters by district (Nepal has 77), then by town.",
+     "focus": 1,
+     "file": "clips/ad9fea5721bb.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "A few dozen piles are easy to manage; thousands of single letters are not.",
+     "say": "A few dozen piles are easy to manage; thousands of single letters are not.",
+     "focus": 1,
+     "file": "clips/a5ebe0fca955.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "The sorting **rules** are written down, so every clerk puts the same letter in the same pile.",
+     "say": "The sorting rules are written down, so every clerk puts the same letter in the same pile.",
+     "focus": 2,
+     "file": "clips/6adf9958c7f4.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The SSF and Nepal's health insurance programme do something similar with hospital care: instead of pricing every possible operation separately, they group them into **package rates** (for example, one package for a normal delivery and another for a caesarean).",
+     "say": "The S S F and Nepal's health insurance programme do something similar with hospital care: instead of pricing every possible operation separately, they group them into package rates (for example, one package for a normal delivery and another for a caesarean).",
+     "focus": 3,
+     "file": "clips/db01a7a1133c.mp3",
+     "seconds": 16.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with the post office",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "A **grouper** is software that reads the codes on a claim (diagnoses, procedures and a few patient details) and, following a fixed rulebook, puts the stay, visit or member into **one of a few hundred meaningful groups** that can be paid or compared.",
+     "say": "A grouper is software that reads the codes on a claim (diagnoses, procedures and a few patient details) and, following a fixed rulebook, puts the stay, visit or member into one of a few hundred meaningful groups that can be paid or compared.",
+     "focus": -1,
+     "file": "clips/967f29fabaf3.mp3",
+     "seconds": 15.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: too many codes to use one by one.",
+     "say": "The U S version: too many codes to use one by one.",
+     "focus": -1,
+     "file": "clips/7e276ae1bedd.mp3",
+     "seconds": 3.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: too many codes to use one by one",
+   "lines": [
+    {
+     "raw": "In the US: Why the US needs groupers.",
+     "say": "In the U S: Why the U S needs groupers.",
+     "focus": -1,
+     "file": "clips/64fbc3495284.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "US claims use **ICD-10-CM** (International Classification of Diseases, 10th revision, Clinical Modification) for diagnoses: over **70,000** codes.",
+     "say": "U S claims use I C D 10-CM (International Classification of Diseases, 10th revision, Clinical Modification) for diagnoses: over 70,000 codes.",
+     "focus": 0,
+     "file": "clips/13de36b07965.mp3",
+     "seconds": 12
+    },
+    {
+     "raw": "Hospital stays use **ICD-10-PCS** (Procedure Coding System) for procedures: over **75,000** codes.",
+     "say": "Hospital stays use I C D 10-PCS (Procedure Coding System) for procedures: over 75,000 codes.",
+     "focus": 1,
+     "file": "clips/3e6e72e3aab4.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "Doctors and outpatient services use **CPT** (Current Procedural Terminology) and **HCPCS** (Healthcare Common Procedure Coding System) codes: over 10,000 more.",
+     "say": "Doctors and outpatient services use C P T (Current Procedural Terminology) and H C P C S (Healthcare Common Procedure Coding System) codes: over 10,000 more.",
+     "focus": 1,
+     "file": "clips/236539099e32.mp3",
+     "seconds": 12.425
+    },
+    {
+     "raw": "A payer cannot set a separate price for every possible combination, and an analyst cannot compare hospitals stay by stay.",
+     "say": "A payer cannot set a separate price for every possible combination, and an analyst cannot compare hospitals stay by stay.",
+     "focus": 2,
+     "file": "clips/77e7d47e746f.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "Groups make both possible.",
+     "say": "Groups make both possible.",
+     "focus": 2,
+     "file": "clips/253f0e07e9fd.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "The Medical course explains what each of these codes means on a claim.",
+     "say": "The Medical course explains what each of these codes means on a claim.",
+     "focus": 3,
+     "file": "clips/1c5e8bc292ce.mp3",
+     "seconds": 4.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The US version: too many codes to use one by one",
+   "lines": [
+    {
+     "raw": "Two jobs for groupers.",
+     "say": "Two jobs for groupers.",
+     "focus": -1,
+     "file": "clips/7ae5342d8210.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Purpose. Payment groupers: Decide **how much** a provider is paid. Analytics groupers: Help analysts **understand** and compare care.",
+     "say": "Purpose. Payment groupers: Decide how much a provider is paid. Analytics groupers: Help analysts understand and compare care.",
+     "focus": 0,
+     "file": "clips/a54aaf5f423d.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "Examples. Payment groupers: DRGs for hospital stays, APCs for hospital outpatient care (lessons 3 and 4). Analytics groupers: Condition categories, chronic condition flags, episodes of care (lessons 5 to 7).",
+     "say": "Examples. Payment groupers: D R G's for hospital stays, A P C's for hospital outpatient care (lessons 3 and 4). Analytics groupers: Condition categories, chronic condition flags, episodes of care (lessons 5 to 7).",
+     "focus": 1,
+     "file": "clips/417f1aac2e8e.mp3",
+     "seconds": 16.7
+    },
+    {
+     "raw": "Who chooses which grouper and version. Payment groupers: The payer's rules or contract. Analytics groupers: The analyst or the analytics team.",
+     "say": "Who chooses which grouper and version. Payment groupers: The payer's rules or contract. Analytics groupers: The analyst or the analytics team.",
+     "focus": 2,
+     "file": "clips/747ff0bd93fa.mp3",
+     "seconds": 9.625
+    },
+    {
+     "raw": "What happens if it is wrong. Payment groupers: The provider is paid the wrong amount. Analytics groupers: A report is misleading.",
+     "say": "What happens if it is wrong. Payment groupers: The provider is paid the wrong amount. Analytics groupers: A report is misleading.",
+     "focus": 3,
+     "file": "clips/64972e34ff4c.mp3",
+     "seconds": 8.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The US version: too many codes to use one by one",
+   "lines": [
+    {
+     "raw": "Grouper.",
+     "say": "Grouper.",
+     "focus": 0,
+     "file": "clips/3dbce0d09bc4.mp3",
+     "seconds": 1.425
+    },
+    {
+     "raw": "Software or a published rulebook that assigns claims to groups.",
+     "say": "Software or a published rulebook that assigns claims to groups.",
+     "focus": 0,
+     "file": "clips/2d1404d7ea50.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "The groups and the rules are updated regularly, so each grouper has **versions**.",
+     "say": "The groups and the rules are updated regularly, so each grouper has versions.",
+     "focus": 0,
+     "file": "clips/379a4a6fc534.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Grouper input.",
+     "say": "Grouper input.",
+     "focus": 1,
+     "file": "clips/ecd84091a5eb.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The claim fields it reads: principal and secondary diagnoses, procedures, age, sex, discharge status, and sometimes dates.",
+     "say": "The claim fields it reads: principal and secondary diagnoses, procedures, age, sex, discharge status, and sometimes dates.",
+     "focus": 1,
+     "file": "clips/0a3080adb880.mp3",
+     "seconds": 8.55
+    },
+    {
+     "raw": "Grouper output.",
+     "say": "Grouper output.",
+     "focus": 2,
+     "file": "clips/4d92a0a3f27f.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A group code and name (for example a DRG number), plus extra details such as severity level.",
+     "say": "A group code and name (for example a D R G number), plus extra details such as severity level.",
+     "focus": 2,
+     "file": "clips/de979552dec3.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "Payer.",
+     "say": "Payer.",
+     "focus": 3,
+     "file": "clips/45bb3e6f2029.mp3",
+     "seconds": 1.275
+    },
+    {
+     "raw": "Whoever pays the claim: an insurer, Medicare, Medicaid or a self-funded employer.",
+     "say": "Whoever pays the claim: an insurer, Medicare, Medicaid or a self-funded employer.",
+     "focus": 3,
+     "file": "clips/e65ddd362b62.mp3",
+     "seconds": 5.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Emily's hospital stay.",
+     "say": "Worked example: Emily's hospital stay.",
+     "focus": -1,
+     "file": "clips/32ea50b9833e.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Worked example: Emily's hospital stay",
+   "lines": [
+    {
+     "raw": "**Emily**, an office worker in Texas, went to the emergency room on **2 June 2025** with sharp pain in her lower right belly.",
+     "say": "Emily, an office worker in Texas, went to the emergency room on 2 June 2025 with sharp pain in her lower right belly.",
+     "focus": -1,
+     "file": "clips/1ac2c2823094.mp3",
+     "seconds": 9
+    },
+    {
+     "raw": "She had **acute appendicitis**, had keyhole surgery to remove her appendix the same day, and went home on **4 June**.",
+     "say": "She had acute appendicitis, had keyhole surgery to remove her appendix the same day, and went home on 4 June.",
+     "focus": -1,
+     "file": "clips/170eea3347e2.mp3",
+     "seconds": 7.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Worked example: Emily's hospital stay",
+   "lines": [
+    {
+     "raw": "Many codes go in.",
+     "say": "Many codes go in.",
+     "focus": 0,
+     "file": "clips/724eda897028.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Diagnosis `K35.80` (acute appendicitis), procedure `0DTJ4ZZ` (keyhole removal of the appendix), age 34, female, discharged home.",
+     "say": "Diagnosis K 3 5 . 8 0 (acute appendicitis), procedure 0 D T J 4 Z Z (keyhole removal of the appendix), age 34, female, discharged home.",
+     "focus": 0,
+     "file": "clips/47169e85ae8d.mp3",
+     "seconds": 13.025
+    },
+    {
+     "raw": "The grouper applies its rules.",
+     "say": "The grouper applies its rules.",
+     "focus": 1,
+     "file": "clips/ceaebe92591a.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "It finds the body system, checks whether surgery was done, and looks for complications.",
+     "say": "It finds the body system, checks whether surgery was done, and looks for complications.",
+     "focus": 1,
+     "file": "clips/32a13bb14f2b.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Lesson 3 walks through each step.",
+     "say": "Lesson 3 walks through each step.",
+     "focus": 1,
+     "file": "clips/1acd4fd8cf9d.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "One group comes out.",
+     "say": "One group comes out.",
+     "focus": 2,
+     "file": "clips/1dece529f823.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "A single DRG (Diagnosis Related Group) for \"appendix removal without complications\", the same group as thousands of similar stays across the country.",
+     "say": "A single D R G (Diagnosis Related Group) for \"appendix removal without complications\", the same group as thousands of similar stays across the country.",
+     "focus": 2,
+     "file": "clips/1618984fee38.mp3",
+     "seconds": 11.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Worked example: Emily's hospital stay",
+   "lines": [
+    {
+     "raw": "What the group makes possible.",
+     "say": "What the group makes possible.",
+     "focus": -1,
+     "file": "clips/5e78e73b8940.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Now a payer can set one price for that group, and an analyst can ask: \"Across all our appendix-removal stays without complications, which hospitals cost the most?",
+     "say": "Now a payer can set one price for that group, and an analyst can ask: \"Across all our appendix-removal stays without complications, which hospitals cost the most?",
+     "focus": -1,
+     "file": "clips/c8a5e9c4ffa0.mp3",
+     "seconds": 10.975
+    },
+    {
+     "raw": "Which keep patients the longest?\" Comparing Emily's stay with a heart transplant would be meaningless; comparing it with its own group is fair.",
+     "say": "Which keep patients the longest?\" Comparing Emily's stay with a heart transplant would be meaningless; comparing it with its own group is fair.",
+     "focus": -1,
+     "file": "clips/f4f50cf00c2f.mp3",
+     "seconds": 8.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Worked example: Emily's hospital stay",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Group codes are some of the most useful fields in claims data, because they turn messy code lists into categories you can count, compare and price.",
+     "say": "Group codes are some of the most useful fields in claims data, because they turn messy code lists into categories you can count, compare and price.",
+     "focus": -1,
+     "file": "clips/74977b6c4cd7.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "But a group is only as good as the codes fed into it: missing or wrong diagnoses give the wrong group.",
+     "say": "But a group is only as good as the codes fed into it: missing or wrong diagnoses give the wrong group.",
+     "focus": -1,
+     "file": "clips/46a3148f1034.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "The Medical course shows where these codes sit on a claim.",
+     "say": "The Medical course shows where these codes sit on a claim.",
+     "focus": -1,
+     "file": "clips/ee745332b6cf.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A grouper reads codes on a claim and assigns one of a manageable number of groups, following a fixed rulebook.",
+     "say": "A grouper reads codes on a claim and assigns one of a manageable number of groups, following a fixed rulebook.",
+     "focus": 0,
+     "file": "clips/d73860e1b16a.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Grouping is needed because there are tens of thousands of diagnosis and procedure codes.",
+     "say": "Grouping is needed because there are tens of thousands of diagnosis and procedure codes.",
+     "focus": 1,
+     "file": "clips/0c29a9ef4a2a.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Payment groupers decide what providers are paid; analytics groupers help analysts compare care.",
+     "say": "Payment groupers decide what providers are paid; analytics groupers help analysts compare care.",
+     "focus": 2,
+     "file": "clips/584e3ff97080.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "Groupers have versions, and the output depends entirely on the codes that go in.",
+     "say": "Groupers have versions, and the output depends entirely on the codes that go in.",
+     "focus": 3,
+     "file": "clips/7ae5efab3e5b.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

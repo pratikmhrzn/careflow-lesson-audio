@@ -1,0 +1,631 @@
+{
+ "courseId": "healthcare-metrics",
+ "lessonId": "utilization-metrics",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: Utilization Metrics.",
+     "say": "Lesson 4: Utilization Metrics.",
+     "focus": -1,
+     "file": "clips/06bfdba333fc.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "How much care members use, and how use and unit cost together drive PMPM.",
+     "say": "How much care members use, and how use and unit cost together drive P M P M.",
+     "focus": -1,
+     "file": "clips/a97046e01105.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Calculate admissions, days, ER visits and scripts per 1,000.",
+     "say": "Calculate admissions, days, E R visits and scripts per 1,000.",
+     "focus": 0,
+     "file": "clips/3ca9323fc021.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Calculate average length of stay.",
+     "say": "Calculate average length of stay.",
+     "focus": 1,
+     "file": "clips/f66be372acab.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Split a PMPM into utilization × cost per unit.",
+     "say": "Split a P M P M into utilization × cost per unit.",
+     "focus": 2,
+     "file": "clips/2d4a21ae1c9d.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Explain whether a PMPM change came from more care or pricier care.",
+     "say": "Explain whether a P M P M change came from more care or pricier care.",
+     "focus": 3,
+     "file": "clips/181b4bfead37.mp3",
+     "seconds": 5.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with Ram's tea habit.",
+     "say": "Start with Ram's tea habit.",
+     "focus": -1,
+     "file": "clips/96b44fa47efb.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with Ram's tea habit",
+   "lines": [
+    {
+     "raw": "In Nepal: Why did Ram's tea bill go up?",
+     "say": "In Nepal: Why did Ram's tea bill go up?",
+     "focus": -1,
+     "file": "clips/01efae5694a7.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Last year Ram drank **60 cups** of tea a month at the office canteen, at **Rs 30** a cup: Rs 1,800 a month.",
+     "say": "Last year Ram drank 60 cups of tea a month at the office canteen, at Rs 30 a cup: Rs 1,800 a month.",
+     "focus": 0,
+     "file": "clips/398800af9f8d.mp3",
+     "seconds": 8.85
+    },
+    {
+     "raw": "This year his bill is **Rs 2,400**.",
+     "say": "This year his bill is Rs 2,400.",
+     "focus": 1,
+     "file": "clips/8bde69d429e5.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Did he drink more, or did tea get pricier?",
+     "say": "Did he drink more, or did tea get pricier?",
+     "focus": 1,
+     "file": "clips/8625469ddd65.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "He checks: still **60 cups**, but now **Rs 40** a cup.",
+     "say": "He checks: still 60 cups, but now Rs 40 a cup.",
+     "focus": 2,
+     "file": "clips/6d33873b28cd.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "60 × Rs 40 = Rs 2,400.",
+     "say": "60 × Rs 40 = Rs 2,400.",
+     "focus": 2,
+     "file": "clips/3f9af560fa16.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "The **amount** he uses is the same; the **price** went up.",
+     "say": "The amount he uses is the same; the price went up.",
+     "focus": 2,
+     "file": "clips/cc24d1c1852e.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "If SSF medical spending rises, the first question is the same: are more contributors being admitted to hospital (use), or is each admission costing more (price)?",
+     "say": "If S S F medical spending rises, the first question is the same: are more contributors being admitted to hospital (use), or is each admission costing more (price)?",
+     "focus": 3,
+     "file": "clips/0e864d2ebff0.mp3",
+     "seconds": 11.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with Ram's tea habit",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "**Utilization** metrics count **how much care** members use, and every cost PMPM is simply **how much care** × **price per unit**, so you can always tell whether costs rose because of more care or pricier care.",
+     "say": "Utilization metrics count how much care members use, and every cost P M P M is simply how much care × price per unit, so you can always tell whether costs rose because of more care or pricier care.",
+     "focus": -1,
+     "file": "clips/c89b66abf320.mp3",
+     "seconds": 14.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: the core utilization metrics.",
+     "say": "The U S version: the core utilization metrics.",
+     "focus": -1,
+     "file": "clips/aec824683dfd.mp3",
+     "seconds": 3.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: the core utilization metrics",
+   "lines": [
+    {
+     "raw": "Lone Star Health, utilization in 2025 (120,000 member months, illustrative).",
+     "say": "Lone Star Health, utilization in 2025 (120,000 member months, illustrative).",
+     "focus": -1,
+     "file": "clips/6e6d639a0301.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "**Admissions per 1,000**. Formula: Admissions ÷ member months × 12,000. Count: 720 admissions. Result: **72**.",
+     "say": "Admissions per 1,000. Formula: Admissions ÷ member months × 12,000. Count: 720 admissions. Result: 72.",
+     "focus": 0,
+     "file": "clips/055f2d6755be.mp3",
+     "seconds": 11.5
+    },
+    {
+     "raw": "**Days per 1,000**. Formula: Hospital days ÷ member months × 12,000. Count: 2,880 days. Result: **288**.",
+     "say": "Days per 1,000. Formula: Hospital days ÷ member months × 12,000. Count: 2,880 days. Result: 288.",
+     "focus": 1,
+     "file": "clips/2d131464496e.mp3",
+     "seconds": 11.575
+    },
+    {
+     "raw": "**ALOS** (average length of stay). Formula: Hospital days ÷ admissions. Count: 2,880 ÷ 720. Result: **4.0 days**.",
+     "say": "A L O S (average length of stay). Formula: Hospital days ÷ admissions. Count: 2,880 ÷ 720. Result: 4.0 days.",
+     "focus": 2,
+     "file": "clips/51056d47d977.mp3",
+     "seconds": 13.525
+    },
+    {
+     "raw": "**ER visits per 1,000**. Formula: Emergency room visits ÷ member months × 12,000. Count: 1,800 visits. Result: **180**.",
+     "say": "E R visits per 1,000. Formula: Emergency room visits ÷ member months × 12,000. Count: 1,800 visits. Result: 180.",
+     "focus": 3,
+     "file": "clips/1a8eadd32022.mp3",
+     "seconds": 12.725
+    },
+    {
+     "raw": "**Office visits per 1,000**. Formula: Office visits ÷ member months × 12,000. Count: 24,000 visits. Result: **2,400**.",
+     "say": "Office visits per 1,000. Formula: Office visits ÷ member months × 12,000. Count: 24,000 visits. Result: 2,400.",
+     "focus": 4,
+     "file": "clips/7b4dccd20edd.mp3",
+     "seconds": 12.125
+    },
+    {
+     "raw": "**Scripts per 1,000**. Formula: Prescriptions filled ÷ member months × 12,000. Count: 120,000 scripts. Result: **12,000** (12 per member per year).",
+     "say": "Scripts per 1,000. Formula: Prescriptions filled ÷ member months × 12,000. Count: 120,000 scripts. Result: 12,000 (12 per member per year).",
+     "focus": 5,
+     "file": "clips/c4d32cb15837.mp3",
+     "seconds": 13.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The US version: the core utilization metrics",
+   "lines": [
+    {
+     "raw": "Admission (admit).",
+     "say": "Admission (admit).",
+     "focus": 0,
+     "file": "clips/61ab554631f7.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "One inpatient hospital stay, from the day a patient is admitted to the day they are discharged (sent home).",
+     "say": "One inpatient hospital stay, from the day a patient is admitted to the day they are discharged (sent home).",
+     "focus": 0,
+     "file": "clips/d8a65b13bb59.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "Hospital day.",
+     "say": "Hospital day.",
+     "focus": 1,
+     "file": "clips/06d92548c298.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "One night in hospital.",
+     "say": "One night in hospital.",
+     "focus": 1,
+     "file": "clips/7d61bfb79d2c.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "A stay from 2 June to 4 June is 2 days: the day of discharge is not counted.",
+     "say": "A stay from 2 June to 4 June is 2 days: the day of discharge is not counted.",
+     "focus": 1,
+     "file": "clips/da3563f4d9f8.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "ALOS (average length of stay).",
+     "say": "A L O S (average length of stay).",
+     "focus": 2,
+     "file": "clips/d7048816655a.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Days ÷ admissions.",
+     "say": "Days ÷ admissions.",
+     "focus": 2,
+     "file": "clips/f36e31b6ea56.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "Also equal to days per 1,000 ÷ admits per 1,000 (288 ÷ 72 = 4.0).",
+     "say": "Also equal to days per 1,000 ÷ admits per 1,000 (288 ÷ 72 = 4.0).",
+     "focus": 2,
+     "file": "clips/ba6be3b5e45d.mp3",
+     "seconds": 10.2
+    },
+    {
+     "raw": "Script.",
+     "say": "Script.",
+     "focus": 3,
+     "file": "clips/030ed8b32dfa.mp3",
+     "seconds": 1.4
+    },
+    {
+     "raw": "Short for prescription: one fill of a medicine at a pharmacy.",
+     "say": "Short for prescription: one fill of a medicine at a pharmacy.",
+     "focus": 3,
+     "file": "clips/daad7e2b0953.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "Some plans count a 90-day fill as 3 scripts (\"30-day equivalents\") so long and short fills compare fairly.",
+     "say": "Some plans count a 90-day fill as 3 scripts (\"30-day equivalents\") so long and short fills compare fairly.",
+     "focus": 3,
+     "file": "clips/f7cf92979d9e.mp3",
+     "seconds": 7.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The key formula: PMPM = use × price.",
+     "say": "The key formula: P M P M = use × price.",
+     "focus": -1,
+     "file": "clips/5ad38c7fcd15.mp3",
+     "seconds": 4.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The key formula: PMPM = use × price",
+   "lines": [
+    {
+     "raw": "Splitting a PMPM.",
+     "say": "Splitting a P M P M.",
+     "focus": -1,
+     "file": "clips/e4ecb2fb22e4.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "PMPM equals Utilization per 1,000 times Cost per unit ÷ 12,000.",
+     "say": "P M P M equals Utilization per 1,000 times Cost per unit ÷ 12,000.",
+     "focus": 0,
+     "file": "clips/29cfe63b6e2c.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "For example: Inpatient: 72 admits per 1,000 times $18,000 per admit ÷ 12,000 equals $108.00 PMPM.",
+     "say": "For example: Inpatient: 72 admits per 1,000 times 18000 dollars per admit ÷ 12,000 equals 108 dollars P M P M.",
+     "focus": 1,
+     "file": "clips/58a66d9fc1f5.mp3",
+     "seconds": 12.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The key formula: PMPM = use × price",
+   "lines": [
+    {
+     "raw": "The same split for three categories, 2025.",
+     "say": "The same split for three categories, 2025.",
+     "focus": -1,
+     "file": "clips/90264069a818.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "Inpatient. Utilization per 1,000: 72 admits. Cost per unit: $18,000. PMPM: 72 × $18,000 ÷ 12,000 = **$108.00**.",
+     "say": "Inpatient. Utilization per 1,000: 72 admits. Cost per unit: 18000 dollars. P M P M: 72 × 18000 dollars ÷ 12,000 = 108 dollars.",
+     "focus": 0,
+     "file": "clips/a9d8a941b2c0.mp3",
+     "seconds": 15.7
+    },
+    {
+     "raw": "ER (facility). Utilization per 1,000: 180 visits. Cost per unit: $2,000. PMPM: 180 × $2,000 ÷ 12,000 = **$30.00**.",
+     "say": "E R (facility). Utilization per 1,000: 180 visits. Cost per unit: 2000 dollars. P M P M: 180 × 2000 dollars ÷ 12,000 = 30 dollars.",
+     "focus": 1,
+     "file": "clips/b46af544736d.mp3",
+     "seconds": 15.425
+    },
+    {
+     "raw": "Pharmacy. Utilization per 1,000: 12,000 scripts. Cost per unit: $90. PMPM: 12,000 × $90 ÷ 12,000 = **$90.00**.",
+     "say": "Pharmacy. Utilization per 1,000: 12,000 scripts. Cost per unit: 90 dollars. P M P M: 12,000 × 90 dollars ÷ 12,000 = 90 dollars.",
+     "focus": 2,
+     "file": "clips/1c739c66f39e.mp3",
+     "seconds": 13.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: why did inpatient PMPM rise?",
+     "say": "Worked example: why did inpatient P M P M rise?",
+     "focus": -1,
+     "file": "clips/ed71246198f3.mp3",
+     "seconds": 3.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Worked example: why did inpatient PMPM rise?",
+   "lines": [
+    {
+     "raw": "Lone Star Health inpatient, 2024 vs 2025 (illustrative).",
+     "say": "Lone Star Health inpatient, 2024 versus 2025 (illustrative).",
+     "focus": -1,
+     "file": "clips/3b63a27e5695.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Admits per 1,000. 2024: 72. 2025: 72. Change: 0%.",
+     "say": "Admits per 1,000. 2024: 72. 2025: 72. Change: 0 percent.",
+     "focus": 0,
+     "file": "clips/9726a0dee1bb.mp3",
+     "seconds": 8.175
+    },
+    {
+     "raw": "Cost per admit. 2024: $16,500. 2025: $18,000. Change: +9.1%.",
+     "say": "Cost per admit. 2024: 16500 dollars. 2025: 18000 dollars. Change: +9.1 percent.",
+     "focus": 1,
+     "file": "clips/38c602be2e17.mp3",
+     "seconds": 11.15
+    },
+    {
+     "raw": "**Inpatient PMPM**. 2024: 72 × $16,500 ÷ 12,000 = **$99.00**. 2025: **$108.00**. Change: **+9.1%**.",
+     "say": "Inpatient P M P M. 2024: 72 × 16500 dollars ÷ 12,000 = 99 dollars. 2025: 108 dollars. Change: +9.1 percent.",
+     "focus": 2,
+     "file": "clips/3b4e031bd21b.mp3",
+     "seconds": 16.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Worked example: why did inpatient PMPM rise?",
+   "lines": [
+    {
+     "raw": "Maria's explanation.",
+     "say": "Maria's explanation.",
+     "focus": -1,
+     "file": "clips/25bb719578ec.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Members were admitted **just as often** (72 per 1,000 both years).",
+     "say": "Members were admitted just as often (72 per 1,000 both years).",
+     "focus": -1,
+     "file": "clips/0e02bc7ab5e6.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "The whole $9.00 rise came from **cost per admit**.",
+     "say": "The whole 9 dollars rise came from cost per admit.",
+     "focus": -1,
+     "file": "clips/d10a21787ddf.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Next step: is that because hospital contract prices rose, or because the mix shifted to more complex stays?",
+     "say": "Next step: is that because hospital contract prices rose, or because the mix shifted to more complex stays?",
+     "focus": -1,
+     "file": "clips/62009200d4ec.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "Grouping stays by type (the Groupers & Episodes course) helps answer that.",
+     "say": "Grouping stays by type (the Groupers and Episodes course) helps answer that.",
+     "focus": -1,
+     "file": "clips/1a98688b6165.mp3",
+     "seconds": 5.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Worked example: why did inpatient PMPM rise?",
+   "lines": [
+    {
+     "raw": "In the US: How plans act on the answer.",
+     "say": "In the U S: How plans act on the answer.",
+     "focus": -1,
+     "file": "clips/2258adfcf658.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "**Utilization is up** → look at care management, prior authorization or ways to keep members out of hospital (for example better primary care).",
+     "say": "Utilization is up to look at care management, prior authorization or ways to keep members out of hospital (for example better primary care).",
+     "focus": 0,
+     "file": "clips/0fc8068073c7.mp3",
+     "seconds": 9.575
+    },
+    {
+     "raw": "**Unit cost is up** → look at provider contracts, where members get care (a cheaper hospital or setting), or drug choices.",
+     "say": "Unit cost is up to look at provider contracts, where members get care (a cheaper hospital or setting), or drug choices.",
+     "focus": 1,
+     "file": "clips/8c3beb014990.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "Both often move together; the split tells you which lever matters more.",
+     "say": "Both often move together; the split tells you which lever matters more.",
+     "focus": 2,
+     "file": "clips/2e6454ccdb3d.mp3",
+     "seconds": 4.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: why did inpatient PMPM rise?",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Counting units is harder than summing dollars.",
+     "say": "Counting units is harder than summing dollars.",
+     "focus": -1,
+     "file": "clips/f9e1caa1b5a0.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "One hospital stay can arrive as **several claims** (interim bills, a transfer between hospitals, an adjustment), so analysts must **combine claims into one admission** before counting.",
+     "say": "One hospital stay can arrive as several claims (interim bills, a transfer between hospitals, an adjustment), so analysts must combine claims into one admission before counting.",
+     "focus": -1,
+     "file": "clips/91024f164153.mp3",
+     "seconds": 12.025
+    },
+    {
+     "raw": "An ER visit that leads to admission is usually counted as part of the admission, not as an ER visit.",
+     "say": "An E R visit that leads to admission is usually counted as part of the admission, not as an E R visit.",
+     "focus": -1,
+     "file": "clips/e7e1562299e5.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "Write the counting rules down, or admits per 1,000 will not match between reports.",
+     "say": "Write the counting rules down, or admits per 1,000 will not match between reports.",
+     "focus": -1,
+     "file": "clips/248d087858f0.mp3",
+     "seconds": 5.85
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Utilization metrics count care per 1,000 members per year: admits, days, ER visits, office visits, scripts.",
+     "say": "Utilization metrics count care per 1,000 members per year: admits, days, E R visits, office visits, scripts.",
+     "focus": 0,
+     "file": "clips/ca6b7bf5fb4b.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "ALOS = days ÷ admits.",
+     "say": "A L O S = days ÷ admits.",
+     "focus": 1,
+     "file": "clips/0c104ca839ba.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "PMPM = utilization per 1,000 × cost per unit ÷ 12,000.",
+     "say": "P M P M = utilization per 1,000 × cost per unit ÷ 12,000.",
+     "focus": 2,
+     "file": "clips/9de7bb315958.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "If PMPM rises with flat utilization, the cause is unit cost (price or mix), and vice versa.",
+     "say": "If P M P M rises with flat utilization, the cause is unit cost (price or mix), and vice versa.",
+     "focus": 3,
+     "file": "clips/8e4f55726cd5.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "Units must be counted carefully: combine claims into stays, and decide how ER-to-admission is counted.",
+     "say": "Units must be counted carefully: combine claims into stays, and decide how E R to-admission is counted.",
+     "focus": 4,
+     "file": "clips/3bcb005116c7.mp3",
+     "seconds": 7.35
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

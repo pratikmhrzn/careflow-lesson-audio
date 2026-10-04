@@ -1,0 +1,701 @@
+{
+ "courseId": "interoperability",
+ "lessonId": "cms-rules",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: CMS Interoperability Rules.",
+     "say": "Lesson 3: C M S Interoperability Rules.",
+     "focus": -1,
+     "file": "clips/c5a8acf9ae2d.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "How CMS made health plans open their data to members, doctors and other plans.",
+     "say": "How C M S made health plans open their data to members, doctors and other plans.",
+     "focus": -1,
+     "file": "clips/7522d7a0bf8b.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Describe the 2020 Interoperability and Patient Access rule and its three main parts.",
+     "say": "Describe the 2020 Interoperability and Patient Access rule and its three main parts.",
+     "focus": 0,
+     "file": "clips/8e1541c246ff.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Describe the 2024 Interoperability and Prior Authorization rule and its rough timeline.",
+     "say": "Describe the 2024 Interoperability and Prior Authorization rule and its rough timeline.",
+     "focus": 1,
+     "file": "clips/2a692263cb39.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "Know which plans must follow these rules, and which usually do not.",
+     "say": "Know which plans must follow these rules, and which usually do not.",
+     "focus": 2,
+     "file": "clips/a7911866ffb2.mp3",
+     "seconds": 4.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The government as a big customer.",
+     "say": "The government as a big customer.",
+     "focus": -1,
+     "file": "clips/975c0e2a96ed.mp3",
+     "seconds": 2.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The government as a big customer",
+   "lines": [
+    {
+     "raw": "Lesson 2 covered laws that apply to doctors, hospitals and software makers.",
+     "say": "Lesson 2 covered laws that apply to doctors, hospitals and software makers.",
+     "focus": -1,
+     "file": "clips/5527736a29b7.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "This lesson is about **health plans**.",
+     "say": "This lesson is about health plans.",
+     "focus": -1,
+     "file": "clips/0b6ab2e00513.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "CMS pays private companies to run Medicare Advantage plans and works with states on Medicaid.",
+     "say": "C M S pays private companies to run Medicare Advantage plans and works with states on Medicaid.",
+     "focus": -1,
+     "file": "clips/4263dbe08b42.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "Because it pays them, it can tell them: \"if you want this business, you must share data in these standard ways\".",
+     "say": "Because it pays them, it can tell them: \"if you want this business, you must share data in these standard ways\".",
+     "focus": -1,
+     "file": "clips/8cef0360070c.mp3",
+     "seconds": 6.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The government as a big customer",
+   "lines": [
+    {
+     "raw": "Imagine a rule like this in Nepal.",
+     "say": "Imagine a rule like this in Nepal.",
+     "focus": -1,
+     "file": "clips/d284e309f17f.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Today, if Ram wants a list of every claim his insurer has paid for him, he would usually have to ask and wait for a letter or a visit to the office.",
+     "say": "Today, if Ram wants a list of every claim his insurer has paid for him, he would usually have to ask and wait for a letter or a visit to the office.",
+     "focus": 0,
+     "file": "clips/e53474870119.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "Imagine a rule that every insurer must offer a secure online link where Ram's chosen app can download his claims, in one standard format.",
+     "say": "Imagine a rule that every insurer must offer a secure online link where Ram's chosen app can download his claims, in one standard format.",
+     "focus": 1,
+     "file": "clips/a4407a314573.mp3",
+     "seconds": 9.4
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Imagine SSF, as a payer, required that all its data on Sita's claims be available to Sita through a standard connection, and that her records follow her if she changes scheme.",
+     "say": "Imagine S S F, as a payer, required that all its data on Sita's claims be available to Sita through a standard connection, and that her records follow her if she changes scheme.",
+     "focus": 2,
+     "file": "clips/2088c57cecc7.mp3",
+     "seconds": 12.025
+    },
+    {
+     "raw": "This is a made-up scenario for Nepal.",
+     "say": "This is a made-up scenario for Nepal.",
+     "focus": 3,
+     "file": "clips/bb67a9dcc7c9.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "It is roughly what CMS did in the US for the plans it pays.",
+     "say": "It is roughly what C M S did in the U S for the plans it pays.",
+     "focus": 3,
+     "file": "clips/47fef74b2637.mp3",
+     "seconds": 4.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The government as a big customer",
+   "lines": [
+    {
+     "raw": "In the US: What CMS actually did.",
+     "say": "In the U S: What C M S actually did.",
+     "focus": -1,
+     "file": "clips/2b13373e097c.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "**2020**: the **Interoperability and Patient Access** final rule.",
+     "say": "2020: the Interoperability and Patient Access final rule.",
+     "focus": 0,
+     "file": "clips/4be8e011d5fa.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Plans must let members get their data through apps.",
+     "say": "Plans must let members get their data through apps.",
+     "focus": 0,
+     "file": "clips/2a2ee01a0fec.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "**2024**: the **Interoperability and Prior Authorization** final rule.",
+     "say": "2024: the Interoperability and Prior Authorization final rule.",
+     "focus": 1,
+     "file": "clips/c58d232deb65.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "More APIs, plus faster and more transparent prior authorisation.",
+     "say": "More A P I's, plus faster and more transparent prior authorisation.",
+     "focus": 1,
+     "file": "clips/ac54608fe9b4.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "Both rules require the modern **FHIR** standard (lesson 6) for the APIs.",
+     "say": "Both rules require the modern F H I R standard (lesson 6) for the A P I's.",
+     "focus": 2,
+     "file": "clips/dd9902176409.mp3",
+     "seconds": 5.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The 2020 rule: Interoperability and Patient Access.",
+     "say": "The 2020 rule: Interoperability and Patient Access.",
+     "focus": -1,
+     "file": "clips/c3e5e633eaeb.mp3",
+     "seconds": 4.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The 2020 rule: Interoperability and Patient Access",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Patient Access API**. What the plan must do: Let a member connect an app of their choice and download their **claims**, **encounter** data, and some **clinical** data (such as lab results the plan holds). Requirements started being enforced in **2021**. Who benefits: Members like Robert.",
+     "say": "Patient Access A P I. What the plan must do: Let a member connect an app of their choice and download their claims, encounter data, and some clinical data (such as lab results the plan holds). Requirements started being enforced in 2021. Who benefits: Members like Robert.",
+     "focus": 0,
+     "file": "clips/19a725ba9bfa.mp3",
+     "seconds": 18.5
+    },
+    {
+     "raw": "**Provider Directory API**. What the plan must do: Publish the plan's list of in-network doctors, hospitals and pharmacies through a public API, so apps can help people find in-network care. Who benefits: Anyone looking for a doctor.",
+     "say": "Provider Directory A P I. What the plan must do: Publish the plan's list of in-network doctors, hospitals and pharmacies through a public A P I, so apps can help people find in-network care. Who benefits: Anyone looking for a doctor.",
+     "focus": 1,
+     "file": "clips/8e996044fa18.mp3",
+     "seconds": 16.175
+    },
+    {
+     "raw": "**Payer-to-payer exchange**. What the plan must do: When a member switches plans and asks, the old plan sends certain data to the new plan, so history is not lost. Who benefits: Members who change plans, and their new plan.",
+     "say": "Payer-to-payer exchange. What the plan must do: When a member switches plans and asks, the old plan sends certain data to the new plan, so history is not lost. Who benefits: Members who change plans, and their new plan.",
+     "focus": 2,
+     "file": "clips/bddb7171cadc.mp3",
+     "seconds": 14.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The 2020 rule: Interoperability and Patient Access",
+   "lines": [
+    {
+     "raw": "Hospitals got a rule too.",
+     "say": "Hospitals got a rule too.",
+     "focus": -1,
+     "file": "clips/6e62a9aa2ba3.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "The same 2020 rule told hospitals that take Medicare to send **electronic notifications** when a patient is admitted, discharged or transferred, to the patient's other doctors who ask for them.",
+     "say": "The same 2020 rule told hospitals that take Medicare to send electronic notifications when a patient is admitted, discharged or transferred, to the patient's other doctors who ask for them.",
+     "focus": -1,
+     "file": "clips/e860cbe44b34.mp3",
+     "seconds": 13.2
+    },
+    {
+     "raw": "You will see these **ADT** messages in lesson 4 and in Robert's story in lessons 7 and 8.",
+     "say": "You will see these A D T messages in lesson 4 and in Robert's story in lessons 7 and 8.",
+     "focus": -1,
+     "file": "clips/8a40a99f2ee3.mp3",
+     "seconds": 6.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The 2024 rule: Interoperability and Prior Authorization.",
+     "say": "The 2024 rule: Interoperability and Prior Authorization.",
+     "focus": -1,
+     "file": "clips/2eb251a9e55b.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The 2024 rule: Interoperability and Prior Authorization",
+   "lines": [
+    {
+     "raw": "**Prior authorisation** means a plan must approve some services **before** they happen.",
+     "say": "Prior authorisation means a plan must approve some services before they happen.",
+     "focus": -1,
+     "file": "clips/ae16e4f596e5.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "It is often slow, done by fax and phone.",
+     "say": "It is often slow, done by fax and phone.",
+     "focus": -1,
+     "file": "clips/a8376d895bd6.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "The 2024 rule attacks that, and adds more APIs.",
+     "say": "The 2024 rule attacks that, and adds more A P I's.",
+     "focus": -1,
+     "file": "clips/c964e19d6561.mp3",
+     "seconds": 4.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The 2024 rule: Interoperability and Prior Authorization",
+   "lines": [
+    {
+     "raw": "Main parts of the 2024 rule (dates are approximate, starting around January of the year shown).",
+     "say": "Main parts of the 2024 rule (dates are approximate, starting around January of the year shown).",
+     "focus": -1,
+     "file": "clips/ff4ed4fe765e.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "Faster decisions. What it requires: For most affected plans: decisions within **72 hours** for urgent requests and **7 calendar days** for standard ones, with a specific reason for any denial. Roughly from: 2026.",
+     "say": "Faster decisions. What it requires: For most affected plans: decisions within 72 hours for urgent requests and 7 calendar days for standard ones, with a specific reason for any denial. Roughly from: 2026.",
+     "focus": 0,
+     "file": "clips/0252260e6b07.mp3",
+     "seconds": 15.525
+    },
+    {
+     "raw": "Public reporting. What it requires: Plans publish prior authorisation statistics, such as how many requests they approve and deny. Roughly from: 2026.",
+     "say": "Public reporting. What it requires: Plans publish prior authorisation statistics, such as how many requests they approve and deny. Roughly from: 2026.",
+     "focus": 1,
+     "file": "clips/45a3fbe5a0d3.mp3",
+     "seconds": 11.475
+    },
+    {
+     "raw": "**Prior Authorization API**. What it requires: Doctors' systems can ask whether approval is needed, see what documents are required, and send the request electronically. Roughly from: 2027.",
+     "say": "Prior Authorization A P I. What it requires: Doctors' systems can ask whether approval is needed, see what documents are required, and send the request electronically. Roughly from: 2027.",
+     "focus": 2,
+     "file": "clips/82db1a6a65c5.mp3",
+     "seconds": 13.825
+    },
+    {
+     "raw": "**Provider Access API**. What it requires: In-network doctors can get data about their patients who are plan members. Roughly from: 2027.",
+     "say": "Provider Access A P I. What it requires: In-network doctors can get data about their patients who are plan members. Roughly from: 2027.",
+     "focus": 3,
+     "file": "clips/03af55dd5305.mp3",
+     "seconds": 10.5
+    },
+    {
+     "raw": "**Payer-to-Payer API**. What it requires: A standard API replaces the older payer-to-payer idea, so data follows members who switch plans (if they agree). Roughly from: 2027.",
+     "say": "Payer-to-Payer A P I. What it requires: A standard A P I replaces the older payer-to-payer idea, so data follows members who switch plans (if they agree). Roughly from: 2027.",
+     "focus": 4,
+     "file": "clips/a0bfcf6402f5.mp3",
+     "seconds": 13.375
+    },
+    {
+     "raw": "Patient Access API, expanded. What it requires: Members can also see their prior authorisation requests and decisions. Roughly from: 2027.",
+     "say": "Patient Access A P I, expanded. What it requires: Members can also see their prior authorisation requests and decisions. Roughly from: 2027.",
+     "focus": 5,
+     "file": "clips/ec0d2c4eb4c8.mp3",
+     "seconds": 11.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The 2024 rule: Interoperability and Prior Authorization",
+   "lines": [
+    {
+     "raw": "Prescription drugs are handled differently.",
+     "say": "Prescription drugs are handled differently.",
+     "focus": -1,
+     "file": "clips/ea8ef1bfbdcc.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "The 2024 prior authorisation parts focus on medical items and services.",
+     "say": "The 2024 prior authorisation parts focus on medical items and services.",
+     "focus": -1,
+     "file": "clips/269e72bf9eaf.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "Prior authorisation for **drugs** follows separate rules and standards (pharmacy uses NCPDP standards; see the Pharmacy course).",
+     "say": "Prior authorisation for drugs follows separate rules and standards (pharmacy uses N C P D P standards; see the Pharmacy course).",
+     "focus": -1,
+     "file": "clips/8b7ef22e9b4a.mp3",
+     "seconds": 9.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The 2024 rule: Interoperability and Prior Authorization",
+   "lines": [
+    {
+     "raw": "Prior authorisation itself.",
+     "say": "Prior authorisation itself.",
+     "focus": -1,
+     "file": "clips/1231eea44ed2.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "This lesson covers only the data-sharing side of the 2024 rule.",
+     "say": "This lesson covers only the data-sharing side of the 2024 rule.",
+     "focus": -1,
+     "file": "clips/977b871a4d4c.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "How prior authorisation works, from the request to matching approvals to claims, is taught in the Prior Authorization & UM course.",
+     "say": "How prior authorisation works, from the request to matching approvals to claims, is taught in the Prior Authorization and U M course.",
+     "focus": -1,
+     "file": "clips/e2bf6a830812.mp3",
+     "seconds": 8.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Blue Button 2.0: CMS's own API.",
+     "say": "Blue Button 2.0: CMS's own A P I.",
+     "focus": -1,
+     "file": "clips/ed1e81869e16.mp3",
+     "seconds": 3.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Blue Button 2.0: CMS's own API",
+   "lines": [
+    {
+     "raw": "For **Original Medicare**, the government itself is the payer.",
+     "say": "For Original Medicare, the government itself is the payer.",
+     "focus": -1,
+     "file": "clips/ee71d7c2793f.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "So CMS runs its own API called **Blue Button 2.0**.",
+     "say": "So C M S runs its own A P I called Blue Button 2.0.",
+     "focus": -1,
+     "file": "clips/cc977331a952.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "A person on Original Medicare can sign in and allow an app to download their Medicare **Part A, Part B and Part D** claims in FHIR format.",
+     "say": "A person on Original Medicare can sign in and allow an app to download their Medicare Part A, Part B and Part D claims in F H I R format.",
+     "focus": -1,
+     "file": "clips/f3a02dadd79b.mp3",
+     "seconds": 10.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Blue Button 2.0: CMS's own API",
+   "lines": [
+    {
+     "raw": "In the US: Robert's two routes to his own data.",
+     "say": "In the U S: Robert's two routes to his own data.",
+     "focus": -1,
+     "file": "clips/32d7a8c8dbdb.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "**May 2022 to December 2023**: Robert was on **Original Medicare** (Parts A and B) plus a separate Part D drug plan.",
+     "say": "May 2022 to December 2023: Robert was on Original Medicare (Parts A and B) plus a separate Part D drug plan.",
+     "focus": 0,
+     "file": "clips/76c1bec8e694.mp3",
+     "seconds": 9.35
+    },
+    {
+     "raw": "His Medicare claims were available through **Blue Button 2.0**.",
+     "say": "His Medicare claims were available through Blue Button 2.0.",
+     "focus": 0,
+     "file": "clips/ec65c2a214b7.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "**From 1 January 2024**: Robert joined a Medicare Advantage plan with drug coverage, **Gulf Coast Advantage (HMO)**, run by **Gulf Coast Health Plan** (fictional).",
+     "say": "From 1 January 2024: Robert joined a Medicare Advantage plan with drug coverage, Gulf Coast Advantage (H M O), run by Gulf Coast Health Plan (fictional).",
+     "focus": 1,
+     "file": "clips/98d20cee5030.mp3",
+     "seconds": 11.775
+    },
+    {
+     "raw": "His plan member ID is **GC5001**.",
+     "say": "His plan member I D is G C 5 0 0 1.",
+     "focus": 1,
+     "file": "clips/04462991daa6.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "Now his claims come from his **plan's Patient Access API**, because the plan, not Original Medicare, pays them.",
+     "say": "Now his claims come from his plan's Patient Access A P I, because the plan, not Original Medicare, pays them.",
+     "focus": 2,
+     "file": "clips/baef23f0cfee.mp3",
+     "seconds": 7.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who must follow these rules?",
+     "say": "Who must follow these rules?",
+     "focus": -1,
+     "file": "clips/6f955d9174e9.mp3",
+     "seconds": 2.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Who must follow these rules?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Medicare Advantage plans. Covered by the CMS API rules?: **Yes**. Example: Robert's Gulf Coast Advantage (HMO).",
+     "say": "Medicare Advantage plans. Covered by the C M S A P I rules?: Yes. Example: Robert's Gulf Coast Advantage (H M O).",
+     "focus": 0,
+     "file": "clips/27b865702282.mp3",
+     "seconds": 9.35
+    },
+    {
+     "raw": "Medicaid and CHIP (state programs and their managed care plans). Covered by the CMS API rules?: **Yes**. Example: A low-income family's Medicaid plan.",
+     "say": "Medicaid and CHIP (state programs and their managed care plans). Covered by the C M S A P I rules?: Yes. Example: A low-income family's Medicaid plan.",
+     "focus": 1,
+     "file": "clips/4044d5efee15.mp3",
+     "seconds": 11.45
+    },
+    {
+     "raw": "Plans sold on the federal ACA Marketplace (HealthCare.gov). Covered by the CMS API rules?: **Yes**, for most parts. Example: A self-employed person's Marketplace plan.",
+     "say": "Plans sold on the federal A C A Marketplace (HealthCare.gov). Covered by the C M S A P I rules?: Yes, for most parts. Example: A self-employed person's Marketplace plan.",
+     "focus": 2,
+     "file": "clips/7a17a9dc9aef.mp3",
+     "seconds": 12.9
+    },
+    {
+     "raw": "Original Medicare. Covered by the CMS API rules?: Run by CMS itself, which offers **Blue Button 2.0**. Example: Robert in 2022 to 2023.",
+     "say": "Original Medicare. Covered by the C M S A P I rules?: Run by C M S itself, which offers Blue Button 2.0. Example: Robert in 2022 to 2023.",
+     "focus": 3,
+     "file": "clips/faa3765cc0bd.mp3",
+     "seconds": 13.1
+    },
+    {
+     "raw": "Most employer plans. Covered by the CMS API rules?: **Generally no**, these rules do not directly apply. Example: Emily's employer PPO in Texas.",
+     "say": "Most employer plans. Covered by the C M S A P I rules?: Generally no, these rules do not directly apply. Example: Emily's employer P P O in Texas.",
+     "focus": 4,
+     "file": "clips/208204754f35.mp3",
+     "seconds": 11.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Who must follow these rules?",
+   "lines": [
+    {
+     "raw": "Why not Emily's plan?",
+     "say": "Why not Emily's plan?",
+     "focus": -1,
+     "file": "clips/d9199727230a.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "**Emily Carter**, Robert's daughter, gets insurance through her employer, Bluebonnet Logistics.",
+     "say": "Emily Carter, Robert's daughter, gets insurance through her employer, Bluebonnet Logistics.",
+     "focus": -1,
+     "file": "clips/f50bf229033f.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "Employer plans are mostly regulated by other laws and agencies, not by CMS's payment rules, so these API rules generally do not reach them.",
+     "say": "Employer plans are mostly regulated by other laws and agencies, not by CMS's payment rules, so these A P I rules generally do not reach them.",
+     "focus": -1,
+     "file": "clips/99b6c41924d6.mp3",
+     "seconds": 10.175
+    },
+    {
+     "raw": "Many large insurers still offer the same APIs to all members, because they built them anyway.",
+     "say": "Many large insurers still offer the same A P I's to all members, because they built them anyway.",
+     "focus": -1,
+     "file": "clips/181dae0801b6.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "Do not assume; check each plan.",
+     "say": "Do not assume; check each plan.",
+     "focus": -1,
+     "file": "clips/9fbdca857e13.mp3",
+     "seconds": 2.525
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "CMS uses its role as payer to require data sharing from the plans it pays.",
+     "say": "C M S uses its role as payer to require data sharing from the plans it pays.",
+     "focus": 0,
+     "file": "clips/86b37e1ba684.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "**2020 rule**: Patient Access API, Provider Directory API, payer-to-payer exchange (plus ADT notifications from hospitals).",
+     "say": "2020 rule: Patient Access A P I, Provider Directory A P I, payer-to-payer exchange (plus A D T notifications from hospitals).",
+     "focus": 1,
+     "file": "clips/71a47744a3e2.mp3",
+     "seconds": 10.175
+    },
+    {
+     "raw": "**2024 rule**: faster prior authorisation decisions from around 2026, and new FHIR APIs (Prior Authorization, Provider Access, Payer-to-Payer) from around 2027.",
+     "say": "2024 rule: faster prior authorisation decisions from around 2026, and new F H I R A P I's (Prior Authorization, Provider Access, Payer-to-Payer) from around 2027.",
+     "focus": 2,
+     "file": "clips/43392ad9bae3.mp3",
+     "seconds": 14.075
+    },
+    {
+     "raw": "**Blue Button 2.0** gives Original Medicare members their claims through an API.",
+     "say": "Blue Button 2.0 gives Original Medicare members their claims through an A P I.",
+     "focus": 3,
+     "file": "clips/3519fa3bf6b2.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "Applies to Medicare Advantage, Medicaid, CHIP and federal Marketplace plans; generally **not** to employer plans.",
+     "say": "Applies to Medicare Advantage, Medicaid, CHIP and federal Marketplace plans; generally not to employer plans.",
+     "focus": 4,
+     "file": "clips/4980b950308e.mp3",
+     "seconds": 7.825
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

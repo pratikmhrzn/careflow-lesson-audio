@@ -1,0 +1,785 @@
+{
+ "courseId": "pharmacy",
+ "lessonId": "brand-generic-formulary",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: Brand, Generic & Formulary.",
+     "say": "Lesson 7: Brand, Generic and Formulary.",
+     "focus": -1,
+     "file": "clips/b04b58ae0159.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Which version of a drug is given, and which drugs the plan agrees to cover.",
+     "say": "Which version of a drug is given, and which drugs the plan agrees to cover.",
+     "focus": -1,
+     "file": "clips/768ca65b5cf3.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain the difference between a brand drug and a generic drug.",
+     "say": "Explain the difference between a brand drug and a generic drug.",
+     "focus": 0,
+     "file": "clips/2038fd2b644d.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Read the DAW (Dispense As Written) code.",
+     "say": "Read the D A W (Dispense As Written) code.",
+     "focus": 1,
+     "file": "clips/96c5ba141c36.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Understand what a formulary and drug tiers are.",
+     "say": "Understand what a formulary and drug tiers are.",
+     "focus": 2,
+     "file": "clips/c31e6239f885.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Know the three main utilisation management rules: prior authorization, step therapy and quantity limits.",
+     "say": "Know the three main utilisation management rules: prior authorization, step therapy and quantity limits.",
+     "focus": 3,
+     "file": "clips/5beb42aebe9f.mp3",
+     "seconds": 7.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Brand and generic.",
+     "say": "Brand and generic.",
+     "focus": -1,
+     "file": "clips/db52d6216d8f.mp3",
+     "seconds": 1.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Brand and generic",
+   "lines": [
+    {
+     "raw": "Lesson 4 showed that every drug has a **generic name** (the active ingredient) and may have a **brand name**.",
+     "say": "Lesson 4 showed that every drug has a generic name (the active ingredient) and may have a brand name.",
+     "focus": -1,
+     "file": "clips/662783a0b4de.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "This lesson is about the choice between them, and the plan's rules about which drugs it pays for.",
+     "say": "This lesson is about the choice between them, and the plan's rules about which drugs it pays for.",
+     "focus": -1,
+     "file": "clips/629a4e474885.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "When a company invents a new drug, it gets a **patent** and is the only one allowed to sell it for some years.",
+     "say": "When a company invents a new drug, it gets a patent and is the only one allowed to sell it for some years.",
+     "focus": -1,
+     "file": "clips/7ec10f429054.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "That first version is the **brand** drug.",
+     "say": "That first version is the brand drug.",
+     "focus": -1,
+     "file": "clips/55b96dcb8dc7.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "After the patent ends, other companies can make copies called **generics**, which are usually **much cheaper**.",
+     "say": "After the patent ends, other companies can make copies called generics, which are usually much cheaper.",
+     "focus": -1,
+     "file": "clips/24cbc72793cc.mp3",
+     "seconds": 6.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Brand and generic",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Example. Brand: **Lipitor**. Generic: **atorvastatin**.",
+     "say": "Example. Brand: Lipitor. Generic: atorvastatin.",
+     "focus": 0,
+     "file": "clips/7fe5b5529e55.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Active ingredient. Brand: Atorvastatin. Generic: Atorvastatin (the same).",
+     "say": "Active ingredient. Brand: Atorvastatin. Generic: Atorvastatin (the same).",
+     "focus": 1,
+     "file": "clips/2c83a4821d90.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "Strength and form. Brand: 20 mg tablet. Generic: 20 mg tablet (the same).",
+     "say": "Strength and form. Brand: 20 mg tablet. Generic: 20 mg tablet (the same).",
+     "focus": 2,
+     "file": "clips/47910fcbb948.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "Approved by. Brand: FDA. Generic: FDA, which checks it works the same way in the body.",
+     "say": "Approved by. Brand: F D A. Generic: F D A, which checks it works the same way in the body.",
+     "focus": 3,
+     "file": "clips/119173740022.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Looks the same? Brand: Its own colour and shape. Generic: May look different (colour, shape, company name).",
+     "say": "Looks the same? Brand: Its own colour and shape. Generic: May look different (colour, shape, company name).",
+     "focus": 4,
+     "file": "clips/f43607d6c967.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Price. Brand: Higher. Generic: Usually much lower.",
+     "say": "Price. Brand: Higher. Generic: Usually much lower.",
+     "focus": 5,
+     "file": "clips/e3d283531fdf.mp3",
+     "seconds": 3.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Brand and generic",
+   "lines": [
+    {
+     "raw": "Most US prescriptions are generics.",
+     "say": "Most U S prescriptions are generics.",
+     "focus": -1,
+     "file": "clips/3e6e07aaf6c9.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "About **9 out of 10** prescriptions filled in the US are for generic drugs.",
+     "say": "About 9 out of 10 prescriptions filled in the U S are for generic drugs.",
+     "focus": -1,
+     "file": "clips/0e1c6ac87df8.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "Generics make up a much smaller share of the **money**, because brand drugs cost so much more.",
+     "say": "Generics make up a much smaller share of the money, because brand drugs cost so much more.",
+     "focus": -1,
+     "file": "clips/5a63bee8c485.mp3",
+     "seconds": 5.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Brand and generic",
+   "lines": [
+    {
+     "raw": "In Nepal: The cheaper company's version.",
+     "say": "In Nepal: The cheaper company's version.",
+     "focus": -1,
+     "file": "clips/26e28fa9b0f4.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's prescription says a well-known brand of paracetamol.",
+     "say": "Ram's prescription says a well-known brand of paracetamol.",
+     "focus": 0,
+     "file": "clips/34d08d5c3fa5.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "The medical shop dai says: \"Same **salt**, other company, half the price.",
+     "say": "The medical shop dai says: \"Same salt, other company, half the price.",
+     "focus": 0,
+     "file": "clips/526cc7a1cddb.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Want this one?\".",
+     "say": "Want this one?\".",
+     "focus": 0,
+     "file": "clips/7345bc332886.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "Ram agrees.",
+     "say": "Ram agrees.",
+     "focus": 1,
+     "file": "clips/96643d3d7470.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "That is **generic substitution**: same active ingredient and strength, different company, lower price.",
+     "say": "That is generic substitution: same active ingredient and strength, different company, lower price.",
+     "focus": 1,
+     "file": "clips/16a189ff590f.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "If Ram insists on the exact brand written by the doctor, he pays more.",
+     "say": "If Ram insists on the exact brand written by the doctor, he pays more.",
+     "focus": 2,
+     "file": "clips/ab987a13a474.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "His insurer may only reimburse up to a reasonable price.",
+     "say": "His insurer may only reimburse up to a reasonable price.",
+     "focus": 2,
+     "file": "clips/8fd7b023cdbb.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's SSF-listed hospital pharmacy usually gives whichever company's version it stocks.",
+     "say": "Sita's S S F listed hospital pharmacy usually gives whichever company's version it stocks.",
+     "focus": 3,
+     "file": "clips/c799b804b225.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Sita rarely gets to choose.",
+     "say": "Sita rarely gets to choose.",
+     "focus": 3,
+     "file": "clips/f5a42d18238d.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF pays according to its approved rates, so cheaper equivalent medicines help both SSF and Sita, who pays 20% of the cost.",
+     "say": "S S F pays according to its approved rates, so cheaper equivalent medicines help both S S F and Sita, who pays 20 percent of the cost.",
+     "focus": 4,
+     "file": "clips/71108bad3e36.mp3",
+     "seconds": 9.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Brand and generic",
+   "lines": [
+    {
+     "raw": "In the US, most states allow (and some require) the pharmacist to **swap a brand for an approved generic** unless the doctor or patient says otherwise.",
+     "say": "In the U S, most states allow (and some require) the pharmacist to swap a brand for an approved generic unless the doctor or patient says otherwise.",
+     "focus": -1,
+     "file": "clips/d0a463f16459.mp3",
+     "seconds": 9.7
+    },
+    {
+     "raw": "The claim records what happened in the **DAW code**.",
+     "say": "The claim records what happened in the D A W code.",
+     "focus": -1,
+     "file": "clips/1c7c937eddfb.mp3",
+     "seconds": 3.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "DAW: Dispense As Written.",
+     "say": "D A W: Dispense As Written.",
+     "focus": -1,
+     "file": "clips/a46037df6887.mp3",
+     "seconds": 2.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "DAW: Dispense As Written",
+   "lines": [
+    {
+     "raw": "The most common DAW codes (also called the product selection code).",
+     "say": "The most common D A W codes (also called the product selection code).",
+     "focus": -1,
+     "file": "clips/f005f12c56d0.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "`0`. Meaning: No product selection indicated. Simple example: Normal case: generic dispensed, or a brand that has no generic yet.",
+     "say": "0. Meaning: No product selection indicated. Simple example: Normal case: generic dispensed, or a brand that has no generic yet.",
+     "focus": 0,
+     "file": "clips/5e8b077c6e40.mp3",
+     "seconds": 9.95
+    },
+    {
+     "raw": "`1`. Meaning: Substitution **not allowed by prescriber**. Simple example: Doctor writes \"brand medically necessary\": must give Lipitor.",
+     "say": "1. Meaning: Substitution not allowed by prescriber. Simple example: Doctor writes \"brand medically necessary\": must give Lipitor.",
+     "focus": 1,
+     "file": "clips/803bd053e204.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "`2`. Meaning: Substitution allowed, **patient requested** the brand. Simple example: Doctor is fine with generic, but Emily asks for Lipitor.",
+     "say": "2. Meaning: Substitution allowed, patient requested the brand. Simple example: Doctor is fine with generic, but Emily asks for Lipitor.",
+     "focus": 2,
+     "file": "clips/ed37c11e290b.mp3",
+     "seconds": 9.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "DAW: Dispense As Written",
+   "lines": [
+    {
+     "raw": "Why DAW 2 costs the patient more.",
+     "say": "Why D A W 2 costs the patient more.",
+     "focus": -1,
+     "file": "clips/dec551fe6185.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "With **DAW 2**, the patient chose the expensive brand when a cheaper generic was fine.",
+     "say": "With D A W 2, the patient chose the expensive brand when a cheaper generic was fine.",
+     "focus": -1,
+     "file": "clips/12cf2b3877a0.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "Many plans then make the patient pay their copay **plus the price difference** between the brand and the generic.",
+     "say": "Many plans then make the patient pay their copay plus the price difference between the brand and the generic.",
+     "focus": -1,
+     "file": "clips/ff203f67c803.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "With **DAW 1**, the doctor decided, so plans usually do not charge that difference (though some ask for prior authorization).",
+     "say": "With D A W 1, the doctor decided, so plans usually do not charge that difference (though some ask for prior authorization).",
+     "focus": -1,
+     "file": "clips/5b84623fafb5.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "Codes **3 to 9** also exist, for cases such as the generic being out of stock or not available in the market.",
+     "say": "Codes 3 to 9 also exist, for cases such as the generic being out of stock or not available in the market.",
+     "focus": -1,
+     "file": "clips/68ce604db6a6.mp3",
+     "seconds": 7.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The formulary: the plan's drug list.",
+     "say": "The formulary: the plan's drug list.",
+     "focus": -1,
+     "file": "clips/302970880829.mp3",
+     "seconds": 2.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The formulary: the plan's drug list",
+   "lines": [
+    {
+     "raw": "A **formulary** is the list of drugs a plan covers.",
+     "say": "A formulary is the list of drugs a plan covers.",
+     "focus": -1,
+     "file": "clips/693423e27299.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "The PBM builds it, deciding which drugs are covered and how much the patient pays.",
+     "say": "The P B M builds it, deciding which drugs are covered and how much the patient pays.",
+     "focus": -1,
+     "file": "clips/6b55cd28d68b.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "Drugs on the list are placed in **tiers**: the lower the tier, the less the patient pays.",
+     "say": "Drugs on the list are placed in tiers: the lower the tier, the less the patient pays.",
+     "focus": -1,
+     "file": "clips/19454c72f4ac.mp3",
+     "seconds": 5.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The formulary: the plan's drug list",
+   "lines": [
+    {
+     "raw": "Emily's plan (a typical example; every plan is different).",
+     "say": "Emily's plan (a typical example; every plan is different).",
+     "focus": -1,
+     "file": "clips/356ab6344e1f.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "**Tier 1**. What goes here: Preferred generics. Emily pays (30-day retail fill): **$5** copay. Example: Amoxicillin, ibuprofen 800 mg, atorvastatin.",
+     "say": "Tier 1. What goes here: Preferred generics. Emily pays (30-day retail fill): 5 dollars copay. Example: Amoxicillin, ibuprofen 800 mg, atorvastatin.",
+     "focus": 0,
+     "file": "clips/58feef46a5d8.mp3",
+     "seconds": 12.875
+    },
+    {
+     "raw": "**Tier 2**. What goes here: Preferred brands. Emily pays (30-day retail fill): **$40** copay. Example: A brand drug with no generic, chosen by the PBM.",
+     "say": "Tier 2. What goes here: Preferred brands. Emily pays (30-day retail fill): 40 dollars copay. Example: A brand drug with no generic, chosen by the P B M.",
+     "focus": 1,
+     "file": "clips/758fae43e56f.mp3",
+     "seconds": 12.025
+    },
+    {
+     "raw": "**Tier 3**. What goes here: Non-preferred drugs. Emily pays (30-day retail fill): **$75** copay. Example: A brand with a cheaper alternative on tier 1 or 2.",
+     "say": "Tier 3. What goes here: Non-preferred drugs. Emily pays (30-day retail fill): 75 dollars copay. Example: A brand with a cheaper alternative on tier 1 or 2.",
+     "focus": 2,
+     "file": "clips/2f039c2dddb1.mp3",
+     "seconds": 12.6
+    },
+    {
+     "raw": "**Tier 4**. What goes here: Specialty drugs. Emily pays (30-day retail fill): **25%** coinsurance, max $250 per fill. Example: Expensive drugs for cancer, multiple sclerosis or rheumatoid arthritis.",
+     "say": "Tier 4. What goes here: Specialty drugs. Emily pays (30-day retail fill): 25 percent coinsurance, max 250 dollars per fill. Example: Expensive drugs for cancer, multiple sclerosis or rheumatoid arthritis.",
+     "focus": 3,
+     "file": "clips/18cb759059d7.mp3",
+     "seconds": 16.925
+    },
+    {
+     "raw": "Not covered. What goes here: Non-formulary or excluded. Emily pays (30-day retail fill): Full price, unless an exception is approved. Example: Drugs the plan chose not to cover.",
+     "say": "Not covered. What goes here: Non-formulary or excluded. Emily pays (30-day retail fill): Full price, unless an exception is approved. Example: Drugs the plan chose not to cover.",
+     "focus": 4,
+     "file": "clips/43414012a4a1.mp3",
+     "seconds": 13.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The formulary: the plan's drug list",
+   "lines": [
+    {
+     "raw": "90-day fills by mail.",
+     "say": "90-day fills by mail.",
+     "focus": -1,
+     "file": "clips/1a47c06bfded.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "For medicines taken every day, like atorvastatin, many plans offer a **90-day supply** from a **mail-order** pharmacy for less than three times the 30-day copay.",
+     "say": "For medicines taken every day, like atorvastatin, many plans offer a 90-day supply from a mail-order pharmacy for less than three times the 30-day copay.",
+     "focus": -1,
+     "file": "clips/3e4dc179bd6d.mp3",
+     "seconds": 11.1
+    },
+    {
+     "raw": "On Emily's plan, a 90-day tier 1 fill by mail costs **$10** instead of 3 × $5 = $15.",
+     "say": "On Emily's plan, a 90-day tier 1 fill by mail costs 10 dollars instead of 3 × 5 dollars = 15 dollars.",
+     "focus": -1,
+     "file": "clips/4e5f849b8732.mp3",
+     "seconds": 9.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "The formulary: the plan's drug list",
+   "lines": [
+    {
+     "raw": "Think of a canteen menu with prices.",
+     "say": "Think of a canteen menu with prices.",
+     "focus": -1,
+     "file": "clips/ea191b2a77cc.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Back to the office canteen.",
+     "say": "Back to the office canteen.",
+     "focus": -1,
+     "file": "clips/695ec75ea8a2.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "**Dal bhat** is subsidised and cheap (tier 1).",
+     "say": "Dal bhat is subsidised and cheap (tier 1).",
+     "focus": -1,
+     "file": "clips/db2038604feb.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "**Momo** costs a bit more (tier 2).",
+     "say": "Momo costs a bit more (tier 2).",
+     "focus": -1,
+     "file": "clips/4653391e396d.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "A **pizza** brought in from outside costs a lot (tier 3).",
+     "say": "A pizza brought in from outside costs a lot (tier 3).",
+     "focus": -1,
+     "file": "clips/7fae06b4cee3.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "And some items are **not on the menu** at all.",
+     "say": "And some items are not on the menu at all.",
+     "focus": -1,
+     "file": "clips/9ac66154a883.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "The canteen manager (PBM) decides the menu to keep the office's (plan's) costs down.",
+     "say": "The canteen manager (P B M) decides the menu to keep the office's (plan's) costs down.",
+     "focus": -1,
+     "file": "clips/9b20a8b9edda.mp3",
+     "seconds": 6.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Utilisation management: rules before paying.",
+     "say": "Utilisation management: rules before paying.",
+     "focus": -1,
+     "file": "clips/369e896f5a20.mp3",
+     "seconds": 3.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Utilisation management: rules before paying",
+   "lines": [
+    {
+     "raw": "Even if a drug is on the formulary, the plan can add rules.",
+     "say": "Even if a drug is on the formulary, the plan can add rules.",
+     "focus": -1,
+     "file": "clips/26ecee2c0fa7.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "These are called **utilisation management (UM)**.",
+     "say": "These are called utilisation management (U M).",
+     "focus": -1,
+     "file": "clips/a671e1754ec3.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "If a rule is not met, the claim is **rejected at the counter** (lesson 9).",
+     "say": "If a rule is not met, the claim is rejected at the counter (lesson 9).",
+     "focus": -1,
+     "file": "clips/329d55600300.mp3",
+     "seconds": 4.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Utilisation management: rules before paying",
+   "lines": [
+    {
+     "raw": "Prior authorization (PA).",
+     "say": "Prior authorization (P A).",
+     "focus": 0,
+     "file": "clips/d3b9a08a88db.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The doctor must get the plan's **approval before** the drug is covered, usually by explaining why the patient needs it.",
+     "say": "The doctor must get the plan's approval before the drug is covered, usually by explaining why the patient needs it.",
+     "focus": 0,
+     "file": "clips/638eb226c278.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Common for expensive or specialty drugs.",
+     "say": "Common for expensive or specialty drugs.",
+     "focus": 0,
+     "file": "clips/055abdacc13e.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "Step therapy.",
+     "say": "Step therapy.",
+     "focus": 1,
+     "file": "clips/fd65d3ec7ce7.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "The patient must **try a cheaper drug first** (step 1).",
+     "say": "The patient must try a cheaper drug first (step 1).",
+     "focus": 1,
+     "file": "clips/0fd8a4aa4256.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "Only if it does not work does the plan cover the more expensive drug (step 2).",
+     "say": "Only if it does not work does the plan cover the more expensive drug (step 2).",
+     "focus": 1,
+     "file": "clips/c248a83fb510.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Quantity limit.",
+     "say": "Quantity limit.",
+     "focus": 2,
+     "file": "clips/1865522eb5f1.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "A **maximum amount** per fill or per period.",
+     "say": "A maximum amount per fill or per period.",
+     "focus": 2,
+     "file": "clips/6d5815e09ec8.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "For example, no more than 30 tablets per 30 days.",
+     "say": "For example, no more than 30 tablets per 30 days.",
+     "focus": 2,
+     "file": "clips/f8f4b2833a2d.mp3",
+     "seconds": 3.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Utilisation management: rules before paying",
+   "lines": [
+    {
+     "raw": "In the US: Emily and the formulary.",
+     "say": "In the U S: Emily and the formulary.",
+     "focus": -1,
+     "file": "clips/e7c47c9dfce9.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Emily's amoxicillin, ibuprofen and atorvastatin are all **tier 1 generics** with no special rules, so each claim pays straight away.",
+     "say": "Emily's amoxicillin, ibuprofen and atorvastatin are all tier 1 generics with no special rules, so each claim pays straight away.",
+     "focus": 0,
+     "file": "clips/760b193fec84.mp3",
+     "seconds": 9.375
+    },
+    {
+     "raw": "If Dr. Patel had prescribed brand **Lipitor** with **DAW 1**, the claim might be rejected for **prior authorization**: the plan wants to know why the generic will not do.",
+     "say": "If Doctor Patel had prescribed brand Lipitor with D A W 1, the claim might be rejected for prior authorization: the plan wants to know why the generic will not do.",
+     "focus": 1,
+     "file": "clips/df4cf0ed51b4.mp3",
+     "seconds": 10.9
+    },
+    {
+     "raw": "If Emily herself asked for Lipitor (**DAW 2**), the plan would pay, but she would pay more.",
+     "say": "If Emily herself asked for Lipitor (D A W 2), the plan would pay, but she would pay more.",
+     "focus": 2,
+     "file": "clips/8fe04173daef.mp3",
+     "seconds": 6.15
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Generic** = same active ingredient, strength and form as the brand, FDA-approved, usually much cheaper.",
+     "say": "Generic = same active ingredient, strength and form as the brand, F D A approved, usually much cheaper.",
+     "focus": 0,
+     "file": "clips/3f7141d49b55.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "**DAW 0** = normal, **DAW 1** = doctor says brand only, **DAW 2** = patient chose the brand.",
+     "say": "D A W 0 = normal, D A W 1 = doctor says brand only, D A W 2 = patient chose the brand.",
+     "focus": 1,
+     "file": "clips/8ef7367ee062.mp3",
+     "seconds": 9.375
+    },
+    {
+     "raw": "The **formulary** is the plan's list of covered drugs, sorted into **tiers** with different copays.",
+     "say": "The formulary is the plan's list of covered drugs, sorted into tiers with different copays.",
+     "focus": 2,
+     "file": "clips/0a6dab784691.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "UM rules (**prior authorization**, **step therapy**, **quantity limits**) can stop a claim at the counter.",
+     "say": "U M rules (prior authorization, step therapy, quantity limits) can stop a claim at the counter.",
+     "focus": 3,
+     "file": "clips/244f547029e9.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

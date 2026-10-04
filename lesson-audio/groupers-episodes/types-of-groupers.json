@@ -1,0 +1,589 @@
+{
+ "courseId": "groupers-episodes",
+ "lessonId": "types-of-groupers",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: Types of Groupers.",
+     "say": "Lesson 2: Types of Groupers.",
+     "focus": -1,
+     "file": "clips/3442b1c6a87e.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "DRG, APC, HCC, condition and episode groupers side by side: what each one groups, and why.",
+     "say": "D R G, A P C, H C C, condition and episode groupers side by side: what each one groups, and why.",
+     "focus": -1,
+     "file": "clips/ca6a8451af48.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Name the main grouper families and what each one groups.",
+     "say": "Name the main grouper families and what each one groups.",
+     "focus": 0,
+     "file": "clips/46118be3209a.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Tell which \"unit\" each grouper works on: a stay, a visit, a member or an episode.",
+     "say": "Tell which \"unit\" each grouper works on: a stay, a visit, a member or an episode.",
+     "focus": 1,
+     "file": "clips/6ceddce39914.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "Choose the right grouper for an analyst's question.",
+     "say": "Choose the right grouper for an analyst's question.",
+     "focus": 2,
+     "file": "clips/ed0f214e8acd.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with a school.",
+     "say": "Start with a school.",
+     "focus": -1,
+     "file": "clips/e6339965717a.mp3",
+     "seconds": 1.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with a school",
+   "lines": [
+    {
+     "raw": "In Nepal: One school, many ways to group the same students.",
+     "say": "In Nepal: One school, many ways to group the same students.",
+     "focus": -1,
+     "file": "clips/f3c02f641baa.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "A school in Lalitpur groups the same 600 students in different ways for different jobs.",
+     "say": "A school in Lalitpur groups the same 600 students in different ways for different jobs.",
+     "focus": 0,
+     "file": "clips/366b40149992.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "By **class** (Grade 1 to 10) to decide what to teach.",
+     "say": "By class (Grade 1 to 10) to decide what to teach.",
+     "focus": 1,
+     "file": "clips/48b7620529e8.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "By **house** (red, blue, green, yellow) for sports day.",
+     "say": "By house (red, blue, green, yellow) for sports day.",
+     "focus": 1,
+     "file": "clips/2ec09983df29.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "By **bus route** to plan transport.",
+     "say": "By bus route to plan transport.",
+     "focus": 1,
+     "file": "clips/06291f3ee019.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "By **fee category** to send the right bills.",
+     "say": "By fee category to send the right bills.",
+     "focus": 1,
+     "file": "clips/4e760c0474db.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "No grouping is \"the right one\".",
+     "say": "No grouping is \"the right one\".",
+     "focus": 2,
+     "file": "clips/0fea2c5c867d.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Each answers a different question, and one student belongs to one group in each.",
+     "say": "Each answers a different question, and one student belongs to one group in each.",
+     "focus": 2,
+     "file": "clips/a736edc7ac01.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The SSF could group the same claims by package rate (to pay hospitals), by illness (to see what contributors suffer from) or by contributor (to see who uses the most care).",
+     "say": "The S S F could group the same claims by package rate (to pay hospitals), by illness (to see what contributors suffer from) or by contributor (to see who uses the most care).",
+     "focus": 3,
+     "file": "clips/589f550251fe.mp3",
+     "seconds": 11.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with a school",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Each grouper family groups a different **unit** (a hospital stay, an outpatient visit, a member or a whole episode of care) for a different question, so the same claims can carry several group codes at once.",
+     "say": "Each grouper family groups a different unit (a hospital stay, an outpatient visit, a member or a whole episode of care) for a different question, so the same claims can carry several group codes at once.",
+     "focus": -1,
+     "file": "clips/afe7d0daf605.mp3",
+     "seconds": 12.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The US version: the main grouper families.",
+     "say": "The U S version: the main grouper families.",
+     "focus": -1,
+     "file": "clips/a54a0eb395dd.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The US version: the main grouper families",
+   "lines": [
+    {
+     "raw": "The grouper families in one table.",
+     "say": "The grouper families in one table.",
+     "focus": -1,
+     "file": "clips/5680fb1a4945.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "**DRG** (Diagnosis Related Group). What it groups (the unit): One inpatient hospital stay. Main use: Paying hospitals per stay; comparing stays. Common examples: MS-DRG (Medicare), APR-DRG (many Medicaid programmes). Where to learn it: Lesson 3.",
+     "say": "D R G (Diagnosis Related Group). What it groups (the unit): One inpatient hospital stay. Main use: Paying hospitals per stay; comparing stays. Common examples: M S DRG (Medicare), A P R DRG (many Medicaid programmes). Where to learn it: Lesson 3.",
+     "focus": 0,
+     "file": "clips/0ca3d3b3ea4e.mp3",
+     "seconds": 18.925
+    },
+    {
+     "raw": "**APC** (Ambulatory Payment Classification). What it groups (the unit): Services in one hospital outpatient visit. Main use: Paying hospital outpatient departments. Common examples: Medicare OPPS APCs; EAPGs used by some Medicaid and commercial payers. Where to learn it: Lesson 4.",
+     "say": "A P C (Ambulatory Payment Classification). What it groups (the unit): Services in one hospital outpatient visit. Main use: Paying hospital outpatient departments. Common examples: Medicare O P P S A P C's; E A P G's used by some Medicaid and commercial payers. Where to learn it: Lesson 4.",
+     "focus": 1,
+     "file": "clips/c0a91d3337dc.mp3",
+     "seconds": 21.6
+    },
+    {
+     "raw": "**HCC** (Hierarchical Condition Category). What it groups (the unit): One member's diagnoses over a year. Main use: Risk adjustment: predicting next year's cost. Common examples: CMS-HCC (Medicare Advantage), HHS-HCC (ACA plans). Where to learn it: Risk Adjustment course.",
+     "say": "H C C (Hierarchical Condition Category). What it groups (the unit): One member's diagnoses over a year. Main use: Risk adjustment: predicting next year's cost. Common examples: C M S HCC (Medicare Advantage), H H S HCC (A C A plans). Where to learn it: Risk Adjustment course.",
+     "focus": 2,
+     "file": "clips/9612e0d76e42.mp3",
+     "seconds": 20.825
+    },
+    {
+     "raw": "**Condition categories**. What it groups (the unit): Diagnosis codes (and the claims or members that have them). Main use: Counting illnesses; finding members with a chronic condition. Common examples: CCSR, chronic condition flags, comorbidity indexes. Where to learn it: Lesson 5.",
+     "say": "Condition categories. What it groups (the unit): Diagnosis codes (and the claims or members that have them). Main use: Counting illnesses; finding members with a chronic condition. Common examples: C C S R, chronic condition flags, comorbidity indexes. Where to learn it: Lesson 5.",
+     "focus": 3,
+     "file": "clips/a05c03200f31.mp3",
+     "seconds": 19.575
+    },
+    {
+     "raw": "**Episode groupers**. What it groups (the unit): All the care for one condition or procedure over a time window. Main use: Comparing total cost of a treatment; bundled payments. Common examples: Medicare episode definitions, commercial episode groupers. Where to learn it: Lessons 6 and 7.",
+     "say": "Episode groupers. What it groups (the unit): All the care for one condition or procedure over a time window. Main use: Comparing total cost of a treatment; bundled payments. Common examples: Medicare episode definitions, commercial episode groupers. Where to learn it: Lessons 6 and 7.",
+     "focus": 4,
+     "file": "clips/09694189f361.mp3",
+     "seconds": 19.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The US version: the main grouper families",
+   "lines": [
+    {
+     "raw": "MS-DRG.",
+     "say": "M S DRG.",
+     "focus": 0,
+     "file": "clips/c4a914f6a713.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Medicare Severity DRG, the DRG system Medicare uses to pay hospital stays.",
+     "say": "Medicare Severity D R G, the D R G system Medicare uses to pay hospital stays.",
+     "focus": 0,
+     "file": "clips/92da488be074.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "Published free by CMS (the Centers for Medicare & Medicaid Services).",
+     "say": "Published free by C M S (the Centers for Medicare and Medicaid Services).",
+     "focus": 0,
+     "file": "clips/acd1b9b3194b.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "APR-DRG.",
+     "say": "A P R DRG.",
+     "focus": 1,
+     "file": "clips/f30760e29fa4.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "All Patient Refined DRG, a licensed system that adds detailed severity and mortality levels; used by many state Medicaid programmes and some insurers.",
+     "say": "All Patient Refined D R G, a licensed system that adds detailed severity and mortality levels; used by many state Medicaid programmes and some insurers.",
+     "focus": 1,
+     "file": "clips/bff833d076d5.mp3",
+     "seconds": 11.8
+    },
+    {
+     "raw": "OPPS.",
+     "say": "O P P S.",
+     "focus": 2,
+     "file": "clips/a1ab62534171.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "Outpatient Prospective Payment System: how Medicare pays hospital outpatient departments, using APCs.",
+     "say": "Outpatient Prospective Payment System: how Medicare pays hospital outpatient departments, using A P C's.",
+     "focus": 2,
+     "file": "clips/dee0651f8109.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "EAPG.",
+     "say": "E A P G.",
+     "focus": 3,
+     "file": "clips/a885e22233b0.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "Enhanced Ambulatory Patient Groups, a licensed outpatient grouper used by some Medicaid programmes and insurers.",
+     "say": "Enhanced Ambulatory Patient Groups, a licensed outpatient grouper used by some Medicaid programmes and insurers.",
+     "focus": 3,
+     "file": "clips/215aa4022231.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "CCSR.",
+     "say": "C C S R.",
+     "focus": 4,
+     "file": "clips/e191529f9f08.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Clinical Classifications Software Refined, free software from the US government's AHRQ (Agency for Healthcare Research and Quality) that sorts diagnosis codes into clinical categories.",
+     "say": "Clinical Classifications Software Refined, free software from the U S government's A H R Q (Agency for Healthcare Research and Quality) that sorts diagnosis codes into clinical categories.",
+     "focus": 4,
+     "file": "clips/675f46aa3828.mp3",
+     "seconds": 13.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The US version: the main grouper families",
+   "lines": [
+    {
+     "raw": "HCCs have their own course.",
+     "say": "H C C's have their own course.",
+     "focus": -1,
+     "file": "clips/7d47b6432268.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "HCCs group a member's diagnoses for the year so that payments can be adjusted for how sick the member is.",
+     "say": "H C C's group a member's diagnoses for the year so that payments can be adjusted for how sick the member is.",
+     "focus": -1,
+     "file": "clips/39b48b8b2cdf.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "How HCCs and risk scores work is taught in the Risk Adjustment course; this course only places them on the map.",
+     "say": "How H C C's and risk scores work is taught in the Risk Adjustment course; this course only places them on the map.",
+     "focus": -1,
+     "file": "clips/7eff81362799.mp3",
+     "seconds": 8.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The US version: the main grouper families",
+   "lines": [
+    {
+     "raw": "Other payment groupers you may meet in Medicare data.",
+     "say": "Other payment groupers you may meet in Medicare data.",
+     "focus": -1,
+     "file": "clips/e9ff4bdd3bae.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Skilled nursing facility (SNF). Grouper: PDPM (Patient Driven Payment Model). What it groups: Each SNF stay, by the patient's needs, for daily payment.",
+     "say": "Skilled nursing facility (S N F). Grouper: P D P M (Patient Driven Payment Model). What it groups: Each S N F stay, by the patient's needs, for daily payment.",
+     "focus": 0,
+     "file": "clips/7c0dc1297517.mp3",
+     "seconds": 11.625
+    },
+    {
+     "raw": "Home health. Grouper: PDGM (Patient-Driven Groupings Model). What it groups: 30-day periods of home health care.",
+     "say": "Home health. Grouper: P D G M (Patient-Driven Groupings Model). What it groups: 30-day periods of home health care.",
+     "focus": 1,
+     "file": "clips/0c8a6cc3e51a.mp3",
+     "seconds": 8.475
+    },
+    {
+     "raw": "Inpatient rehabilitation. Grouper: CMGs (Case-Mix Groups). What it groups: Each rehab stay, by condition and how well the patient can function.",
+     "say": "Inpatient rehabilitation. Grouper: C M G's (Case-Mix Groups). What it groups: Each rehab stay, by condition and how well the patient can function.",
+     "focus": 2,
+     "file": "clips/8ca30994934f.mp3",
+     "seconds": 10.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: one patient, many groups.",
+     "say": "Worked example: one patient, many groups.",
+     "focus": -1,
+     "file": "clips/68fafd638443.mp3",
+     "seconds": 3.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Worked example: one patient, many groups",
+   "lines": [
+    {
+     "raw": "Meet **Robert**, a retired school teacher in Houston, Texas, born in 1957, with type 2 diabetes and high blood pressure.",
+     "say": "Meet Robert, a retired school teacher in Houston, Texas, born in 1957, with type 2 diabetes and high blood pressure.",
+     "focus": -1,
+     "file": "clips/7d179a4851d4.mp3",
+     "seconds": 9.375
+    },
+    {
+     "raw": "He is in **Gulf Coast Advantage**, a made-up Medicare Advantage plan (a private plan that provides Medicare cover).",
+     "say": "He is in Gulf Coast Advantage, a made-up Medicare Advantage plan (a private plan that provides Medicare cover).",
+     "focus": -1,
+     "file": "clips/a09e2081534d.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "In September 2025 he has a **knee replacement** of his right knee, worn out by arthritis.",
+     "say": "In September 2025 he has a knee replacement of his right knee, worn out by arthritis.",
+     "focus": -1,
+     "file": "clips/65f5f2b90883.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "The same claims carry several group codes:",
+     "say": "The same claims carry several group codes:",
+     "focus": -1,
+     "file": "clips/317002710694.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Worked example: one patient, many groups",
+   "lines": [
+    {
+     "raw": "Robert's 2025 claims through different groupers (illustrative).",
+     "say": "Robert's 2025 claims through different groupers (illustrative).",
+     "focus": -1,
+     "file": "clips/f288f82e00a9.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "DRG. Unit: His knee replacement hospital stay. Result for Robert: A \"major knee joint replacement\" DRG. Question it answers: How is the hospital paid for the stay?",
+     "say": "D R G. Unit: His knee replacement hospital stay. Result for Robert: A \"major knee joint replacement\" D R G. Question it answers: How is the hospital paid for the stay?",
+     "focus": 0,
+     "file": "clips/39678c55a104.mp3",
+     "seconds": 12.65
+    },
+    {
+     "raw": "APC. Unit: His clinic visit and knee injection at the hospital's outpatient clinic in May. Result for Robert: A clinic visit APC and a procedure APC. Question it answers: How is the outpatient department paid?",
+     "say": "A P C. Unit: His clinic visit and knee injection at the hospital's outpatient clinic in May. Result for Robert: A clinic visit A P C and a procedure A P C. Question it answers: How is the outpatient department paid?",
+     "focus": 1,
+     "file": "clips/ffda62656853.mp3",
+     "seconds": 15.375
+    },
+    {
+     "raw": "HCC. Unit: Robert, for the year. Result for Robert: A diabetes HCC. Question it answers: How sick is he, for risk adjustment?",
+     "say": "H C C. Unit: Robert, for the year. Result for Robert: A diabetes H C C. Question it answers: How sick is he, for risk adjustment?",
+     "focus": 2,
+     "file": "clips/92f3c3909a14.mp3",
+     "seconds": 10.525
+    },
+    {
+     "raw": "Condition categories. Unit: Each diagnosis code. Result for Robert: Diabetes, high blood pressure, osteoarthritis. Question it answers: Which conditions does he have?",
+     "say": "Condition categories. Unit: Each diagnosis code. Result for Robert: Diabetes, high blood pressure, osteoarthritis. Question it answers: Which conditions does he have?",
+     "focus": 3,
+     "file": "clips/a118cca17bc7.mp3",
+     "seconds": 12.5
+    },
+    {
+     "raw": "Episode. Unit: All his knee replacement care, before and after surgery. Result for Robert: A knee replacement episode. Question it answers: What did the whole treatment cost?",
+     "say": "Episode. Unit: All his knee replacement care, before and after surgery. Result for Robert: A knee replacement episode. Question it answers: What did the whole treatment cost?",
+     "focus": 4,
+     "file": "clips/0a4ead300432.mp3",
+     "seconds": 11.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Worked example: one patient, many groups",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Pick the grouper by the **question** and the **unit**.",
+     "say": "Pick the grouper by the question and the unit.",
+     "focus": -1,
+     "file": "clips/66c5e057d4aa.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "\"Why are hospital stays getting pricier?\" needs DRGs.",
+     "say": "\"Why are hospital stays getting pricier?\" needs D R G's.",
+     "focus": -1,
+     "file": "clips/916e1d37417f.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "\"How many members have diabetes?\" needs condition flags.",
+     "say": "\"How many members have diabetes?\" needs condition flags.",
+     "focus": -1,
+     "file": "clips/e343c1b7c12b.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "\"Which surgeon gives the best value for knee replacements?\" needs episodes.",
+     "say": "\"Which surgeon gives the best value for knee replacements?\" needs episodes.",
+     "focus": -1,
+     "file": "clips/b68a608b48fa.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "Using a stay-level grouper for a member-level question (or the other way round) is one of the most common analysis mistakes.",
+     "say": "Using a stay-level grouper for a member-level question (or the other way round) is one of the most common analysis mistakes.",
+     "focus": -1,
+     "file": "clips/37ec4624c5e2.mp3",
+     "seconds": 7.975
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Grouper families differ by the unit they group: stay (DRG), outpatient visit (APC), member-year (HCC), diagnosis (condition categories) or episode.",
+     "say": "Grouper families differ by the unit they group: stay (D R G), outpatient visit (A P C), member-year (H C C), diagnosis (condition categories) or episode.",
+     "focus": 0,
+     "file": "clips/bdb3968f0c63.mp3",
+     "seconds": 11.45
+    },
+    {
+     "raw": "DRGs and APCs are mainly payment groupers; condition categories and episodes are mainly for analytics.",
+     "say": "D R G's and A P C's are mainly payment groupers; condition categories and episodes are mainly for analytics.",
+     "focus": 1,
+     "file": "clips/021f13597e86.mp3",
+     "seconds": 8.85
+    },
+    {
+     "raw": "HCCs are for risk adjustment and are taught in the Risk Adjustment course.",
+     "say": "H C C's are for risk adjustment and are taught in the Risk Adjustment course.",
+     "focus": 2,
+     "file": "clips/c4d84d0d3349.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "One claim can carry several group codes at once.",
+     "say": "One claim can carry several group codes at once.",
+     "focus": 3,
+     "file": "clips/d6d8d1994e66.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Choose the grouper by the question and the unit you need.",
+     "say": "Choose the grouper by the question and the unit you need.",
+     "focus": 4,
+     "file": "clips/fc599e52280e.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

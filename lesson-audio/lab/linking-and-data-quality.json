@@ -1,0 +1,771 @@
+{
+ "courseId": "lab",
+ "lessonId": "linking-and-data-quality",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Linking & Data Quality.",
+     "say": "Lesson 6: Linking and Data Quality.",
+     "focus": -1,
+     "file": "clips/77078b813282.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Join claims to results, and avoid the traps that make lab numbers lie.",
+     "say": "Join claims to results, and avoid the traps that make lab numbers lie.",
+     "focus": -1,
+     "file": "clips/1dfc1d447cb4.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Link lab claim lines to the results they produced.",
+     "say": "Link lab claim lines to the results they produced.",
+     "focus": 0,
+     "file": "clips/44bd31ebf3d7.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Use CPT Category II codes when no results feed exists.",
+     "say": "Use C P T Category I I codes when no results feed exists.",
+     "focus": 1,
+     "file": "clips/9ac3c8275da8.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Avoid the mg/dL vs mmol/L units trap.",
+     "say": "Avoid the mg/dL versus mmol/L units trap.",
+     "focus": 2,
+     "file": "clips/babda0900f6a.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "Handle corrected results, missing units, text values and unmapped codes.",
+     "say": "Handle corrected results, missing units, text values and unmapped codes.",
+     "focus": 3,
+     "file": "clips/7ed043c9d23d.mp3",
+     "seconds": 5.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with a messy folder.",
+     "say": "Start with a messy folder.",
+     "focus": -1,
+     "file": "clips/85c34dd8380e.mp3",
+     "seconds": 2.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with a messy folder",
+   "lines": [
+    {
+     "raw": "In Nepal: Matching bills to reports in Kathmandu.",
+     "say": "In Nepal: Matching bills to reports in Kathmandu.",
+     "focus": -1,
+     "file": "clips/cbb6bf7a3a92.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram keeps his bills and lab reports in one plastic folder.",
+     "say": "Ram keeps his bills and lab reports in one plastic folder.",
+     "focus": 0,
+     "file": "clips/9203d6d050c8.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "To match them, he looks at the **date** and the **hospital name**: the bill from 3 Baisakh goes with the report from 3 Baisakh.",
+     "say": "To match them, he looks at the date and the hospital name: the bill from 3 Baisakh goes with the report from 3 Baisakh.",
+     "focus": 0,
+     "file": "clips/9c4e4eabeea4.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "One year, a lab abroad reported his sugar as **5.4** while his Kathmandu lab said **97**.",
+     "say": "One year, a lab abroad reported his sugar as 5.4 while his Kathmandu lab said 97.",
+     "focus": 1,
+     "file": "clips/a137edfca58d.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "He panicked, until his doctor explained they were the **same result in different units**.",
+     "say": "He panicked, until his doctor explained they were the same result in different units.",
+     "focus": 1,
+     "file": "clips/961d39803d07.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's hospital once re-issued a report because a value had been typed wrongly.",
+     "say": "Sita's hospital once re-issued a report because a value had been typed wrongly.",
+     "focus": 2,
+     "file": "clips/dd6aec0238a5.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "She now has **two reports** for the same test, and only the newer one is right.",
+     "say": "She now has two reports for the same test, and only the newer one is right.",
+     "focus": 2,
+     "file": "clips/a7c5efaafc97.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "An SSF reviewer comparing claims with reports would need to know which report to trust.",
+     "say": "An S S F reviewer comparing claims with reports would need to know which report to trust.",
+     "focus": 3,
+     "file": "clips/3e4ad132d1b0.mp3",
+     "seconds": 6.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with a messy folder",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Claims and results describe the same tests with different codes, so you **join them on member and date** and a **CPT-to-LOINC map**, and you **clean the results first**: one unit per test, only the latest version, no guessing at missing pieces.",
+     "say": "Claims and results describe the same tests with different codes, so you join them on member and date and a C P T to-LOINC map, and you clean the results first: one unit per test, only the latest version, no guessing at missing pieces.",
+     "focus": -1,
+     "file": "clips/f57d90573151.mp3",
+     "seconds": 15.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Linking claims to results.",
+     "say": "Linking claims to results.",
+     "focus": -1,
+     "file": "clips/1175152130d9.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Linking claims to results",
+   "lines": [
+    {
+     "raw": "There is no shared ID between a claim (lesson 3) and a result (lesson 5).",
+     "say": "There is no shared I D between a claim (lesson 3) and a result (lesson 5).",
+     "focus": -1,
+     "file": "clips/e8e830a543ec.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "To link them, match three things:",
+     "say": "To link them, match three things:",
+     "focus": -1,
+     "file": "clips/dc7d43113875.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Linking claims to results",
+   "lines": [
+    {
+     "raw": "**Member**: the same person (the plan member ID, after matching the lab's patient ID to it).",
+     "say": "Member: the same person (the plan member I D, after matching the lab's patient I D to it).",
+     "focus": 0,
+     "file": "clips/832916da6e3e.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "**Date**: the claim's service date = the result's **collection date**.",
+     "say": "Date: the claim's service date = the result's collection date.",
+     "focus": 1,
+     "file": "clips/d25948bff97b.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "**Test**: a **CPT-to-LOINC map** that says which results each billed code produces.",
+     "say": "Test: a C P T to-LOINC map that says which results each billed code produces.",
+     "focus": 2,
+     "file": "clips/63d8a9f26cda.mp3",
+     "seconds": 5.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Linking claims to results",
+   "lines": [
+    {
+     "raw": "A small CPT-to-LOINC map.",
+     "say": "A small C P T to-LOINC map.",
+     "focus": -1,
+     "file": "clips/c137012264a5.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "`83036`. Billed as: HbA1c test. Results it produces (LOINC): `4548-4` HbA1c.",
+     "say": "8 3 0 3 6. Billed as: H b A 1 c test. Results it produces (L O I N C): 4 5 4 8 dash 4 H b A 1 c.",
+     "focus": 0,
+     "file": "clips/b8498fee4335.mp3",
+     "seconds": 11.1
+    },
+    {
+     "raw": "`80053`. Billed as: Comprehensive metabolic panel (14 tests). Results it produces (LOINC): `2345-7` glucose, plus kidney, liver and salt tests.",
+     "say": "8 0 0 5 3. Billed as: Comprehensive metabolic panel (14 tests). Results it produces (L O I N C): 2 3 4 5 dash 7 glucose, plus kidney, liver and salt tests.",
+     "focus": 1,
+     "file": "clips/de456835be4f.mp3",
+     "seconds": 14.825
+    },
+    {
+     "raw": "`80061`. Billed as: Lipid panel. Results it produces (LOINC): `2093-3` total cholesterol, `2085-9` HDL, `2571-8` triglycerides (LDL `13457-7` is often reported too).",
+     "say": "8 0 0 6 1. Billed as: Lipid panel. Results it produces (L O I N C): 2 0 9 3 dash 3 total cholesterol, 2 0 8 5 dash 9 H D L, 2 5 7 1 dash 8 triglycerides (L D L 1 3 4 5 7 dash 7 is often reported too).",
+     "focus": 2,
+     "file": "clips/d828d0576275.mp3",
+     "seconds": 21.725
+    },
+    {
+     "raw": "`36415`. Billed as: Blood draw. Results it produces (LOINC): None: drawing blood is a service, not a test.",
+     "say": "3 6 4 1 5. Billed as: Blood draw. Results it produces (L O I N C): None: drawing blood is a service, not a test.",
+     "focus": 3,
+     "file": "clips/77a48fa479ec.mp3",
+     "seconds": 9.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Linking claims to results",
+   "lines": [
+    {
+     "raw": "Joins can multiply rows.",
+     "say": "Joins can multiply rows.",
+     "focus": -1,
+     "file": "clips/bc91283648f8.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "The lipid panel line matches **four** results, so after the join it appears four times.",
+     "say": "The lipid panel line matches four results, so after the join it appears four times.",
+     "focus": -1,
+     "file": "clips/7cf66012cff6.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "If you add up `billed_amt` from the joined table, its $45 is counted four times.",
+     "say": "If you add up billed_amt from the joined table, its 45 dollars is counted four times.",
+     "focus": -1,
+     "file": "clips/9a2821621827.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "Rule: **sum money from the claim table, count results from the result table**, and use the joined table only to connect them.",
+     "say": "Rule: sum money from the claim table, count results from the result table, and use the joined table only to connect them.",
+     "focus": -1,
+     "file": "clips/65dd5e085a35.mp3",
+     "seconds": 8.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A shortcut: result codes on claims.",
+     "say": "A shortcut: result codes on claims.",
+     "focus": -1,
+     "file": "clips/aa85bbf5294d.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "A shortcut: result codes on claims",
+   "lines": [
+    {
+     "raw": "What if a health plan has no results feed at all?",
+     "say": "What if a health plan has no results feed at all?",
+     "focus": -1,
+     "file": "clips/0363ce3021e0.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Doctors can add **CPT Category II** codes to their own claims.",
+     "say": "Doctors can add C P T Category I I codes to their own claims.",
+     "focus": -1,
+     "file": "clips/7432fe4de7d9.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "These codes end in **F**, usually carry a **$0** (or token) charge, and report a result **range** for quality measurement, not a bill for a service.",
+     "say": "These codes end in F, usually carry a 0 dollars (or token) charge, and report a result range for quality measurement, not a bill for a service.",
+     "focus": -1,
+     "file": "clips/b1b13b78d491.mp3",
+     "seconds": 10.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "A shortcut: result codes on claims",
+   "lines": [
+    {
+     "raw": "CPT II codes for the most recent HbA1c result.",
+     "say": "C P T I I codes for the most recent H b A 1 c result.",
+     "focus": -1,
+     "file": "clips/cf76592d669c.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "`3044F`. Meaning: Most recent HbA1c **below 7.0%**.",
+     "say": "3 0 4 4 F. Meaning: Most recent H b A 1 c below 7.0 percent.",
+     "focus": 0,
+     "file": "clips/266fdacc0e2e.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "`3051F`. Meaning: Most recent HbA1c **7.0% to below 8.0%**.",
+     "say": "3 0 5 1 F. Meaning: Most recent H b A 1 c 7.0 percent to below 8.0 percent.",
+     "focus": 1,
+     "file": "clips/f75db3bdf18f.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "`3052F`. Meaning: Most recent HbA1c **8.0% to 9.0%**.",
+     "say": "3 0 5 2 F. Meaning: Most recent H b A 1 c 8.0 percent to 9.0 percent.",
+     "focus": 2,
+     "file": "clips/08127d4339e1.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "`3046F`. Meaning: Most recent HbA1c **above 9.0%**.",
+     "say": "3 0 4 6 F. Meaning: Most recent H b A 1 c above 9.0 percent.",
+     "focus": 3,
+     "file": "clips/4df69f4df71b.mp3",
+     "seconds": 7.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "A shortcut: result codes on claims",
+   "lines": [
+    {
+     "raw": "A CPT II code gives a **range**, not the exact value, and only if the doctor remembers to add it.",
+     "say": "A C P T I I code gives a range, not the exact value, and only if the doctor remembers to add it.",
+     "focus": -1,
+     "file": "clips/4e13b0d5191c.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "It is a useful backup, not a replacement for real results.",
+     "say": "It is a useful backup, not a replacement for real results.",
+     "focus": -1,
+     "file": "clips/7c0d449f62a8.mp3",
+     "seconds": 4.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The units trap: mg/dL vs mmol/L.",
+     "say": "The units trap: mg/dL versus mmol/L.",
+     "focus": -1,
+     "file": "clips/8c32bf39a07d.mp3",
+     "seconds": 4.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "The units trap: mg/dL vs mmol/L",
+   "lines": [
+    {
+     "raw": "The same blood sugar can be written in two units.",
+     "say": "The same blood sugar can be written in two units.",
+     "focus": -1,
+     "file": "clips/0085b5108207.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "The US, and most labs in Nepal, report glucose in **mg/dL** (milligrams per decilitre).",
+     "say": "The U S, and most labs in Nepal, report glucose in mg/dL (milligrams per decilitre).",
+     "focus": -1,
+     "file": "clips/d928710b54e2.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "The UK, Australia and many other countries use **mmol/L** (millimoles per litre).",
+     "say": "The U K, Australia and many other countries use mmol/L (millimoles per litre).",
+     "focus": -1,
+     "file": "clips/5c9b63695579.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "The numbers look completely different.",
+     "say": "The numbers look completely different.",
+     "focus": -1,
+     "file": "clips/924deaec4855.mp3",
+     "seconds": 2.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "The units trap: mg/dL vs mmol/L",
+   "lines": [
+    {
+     "raw": "Glucose: mg/dL to mmol/L.",
+     "say": "Glucose: mg/dL to mmol/L.",
+     "focus": -1,
+     "file": "clips/09a6656c9d15.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "mmol/L equals mg/dL ÷ 18.",
+     "say": "mmol/L equals mg/dL ÷ 18.",
+     "focus": 0,
+     "file": "clips/2a4b3392f4cf.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "For example: Robert's fasting glucose 182 mg/dL ÷ 18 equals about 10.1 mmol/L.",
+     "say": "For example: Robert's fasting glucose 182 mg/dL ÷ 18 equals about 10.1 mmol/L.",
+     "focus": 1,
+     "file": "clips/64fd140e7f53.mp3",
+     "seconds": 10.7
+    },
+    {
+     "raw": "A glucose of 126 mg/dL is 7.0 mmol/L.",
+     "say": "A glucose of 126 mg/dL is 7.0 mmol/L.",
+     "focus": 1,
+     "file": "clips/132f0ca6ebdf.mp3",
+     "seconds": 6.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "The units trap: mg/dL vs mmol/L",
+   "lines": [
+    {
+     "raw": "Same result, different units (factors are approximate).",
+     "say": "Same result, different units (factors are approximate).",
+     "focus": -1,
+     "file": "clips/8d15ac59418e.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Glucose. US units: 126 mg/dL. Other units: 7.0 mmol/L. Conversion: Divide by about 18.",
+     "say": "Glucose. U S units: 126 mg/dL. Other units: 7.0 mmol/L. Conversion: Divide by about 18.",
+     "focus": 0,
+     "file": "clips/9cc458d2bf3c.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "Total cholesterol. US units: 200 mg/dL. Other units: about 5.2 mmol/L. Conversion: Divide by about 38.7.",
+     "say": "Total cholesterol. U S units: 200 mg/dL. Other units: about 5.2 mmol/L. Conversion: Divide by about 38.7.",
+     "focus": 1,
+     "file": "clips/bd146ba34dc7.mp3",
+     "seconds": 12.925
+    },
+    {
+     "raw": "HbA1c. US units: 7.0 %. Other units: about 53 mmol/mol. Conversion: Different scale (IFCC), not a simple divide.",
+     "say": "H b A 1 c. U S units: 7.0 percent. Other units: about 53 mmol/mol. Conversion: Different scale (I F C C), not a simple divide.",
+     "focus": 2,
+     "file": "clips/d9d69ac9a0f3.mp3",
+     "seconds": 12.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "The units trap: mg/dL vs mmol/L",
+   "lines": [
+    {
+     "raw": "Never mix units in one column.",
+     "say": "Never mix units in one column.",
+     "focus": -1,
+     "file": "clips/c6a71fac6c49.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "If one lab sends glucose as **7.0** (mmol/L) and another as **126** (mg/dL), and both land in the same `result_value` column, an average is nonsense and the 7.0 patient looks dangerously low.",
+     "say": "If one lab sends glucose as 7.0 (mmol/L) and another as 126 (mg/dL), and both land in the same result_value column, an average is nonsense and the 7.0 patient looks dangerously low.",
+     "focus": -1,
+     "file": "clips/6f1298cea875.mp3",
+     "seconds": 17.45
+    },
+    {
+     "raw": "Always check `result_units`, and convert to one unit **before** you analyse.",
+     "say": "Always check result_units, and convert to one unit before you analyse.",
+     "focus": -1,
+     "file": "clips/332a9cfdda66.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "A different unit type can even mean a different LOINC code (lesson 4).",
+     "say": "A different unit type can even mean a different L O I N C code (lesson 4).",
+     "focus": -1,
+     "file": "clips/166388e76f0b.mp3",
+     "seconds": 5.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Other traps analysts check for.",
+     "say": "Other traps analysts check for.",
+     "focus": -1,
+     "file": "clips/e4535bc2d421.mp3",
+     "seconds": 2.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Other traps analysts check for",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Corrected results**. What it looks like: The same test, same collection date, sent twice: status `F`, then later `C`. What to do: Keep the latest version only, or the test is counted twice.",
+     "say": "Corrected results. What it looks like: The same test, same collection date, sent twice: status F, then later C. What to do: Keep the latest version only, or the test is counted twice.",
+     "focus": 0,
+     "file": "clips/c84ea21d4674.mp3",
+     "seconds": 12.675
+    },
+    {
+     "raw": "**Preliminary results**. What it looks like: Status `P`; the final value may change. What to do: Wait for `F` (or `C`) before using the value.",
+     "say": "Preliminary results. What it looks like: Status P; the final value may change. What to do: Wait for F (or C) before using the value.",
+     "focus": 1,
+     "file": "clips/ac43dc3ad9c9.mp3",
+     "seconds": 9.625
+    },
+    {
+     "raw": "**Missing units**. What it looks like: `result_value` = 5.5, `result_units` empty. What to do: Do not guess. Flag it, or infer only with a clear rule (e.g. glucose under 30 is almost certainly mmol/L) and record that you did.",
+     "say": "Missing units. What it looks like: result_value = 5.5, result_units empty. What to do: Do not guess. Flag it, or infer only with a clear rule (for example glucose under 30 is almost certainly mmol/L) and record that you did.",
+     "focus": 2,
+     "file": "clips/7de97ed9f5ce.mp3",
+     "seconds": 17.5
+    },
+    {
+     "raw": "**Text in a number column**. What it looks like: `<5`, `>1000`, `see note`, `hemolyzed`. What to do: Keep the text; convert only clear cases like `<5` with a documented rule.",
+     "say": "Text in a number column. What it looks like: <5, > 1 0 0 0, see note, hemolyzed. What to do: Keep the text; convert only clear cases like <5 with a documented rule.",
+     "focus": 3,
+     "file": "clips/5ee64973a765.mp3",
+     "seconds": 12.7
+    },
+    {
+     "raw": "**Local codes only**. What it looks like: A lab sends its own code `GLU-F` with no LOINC. What to do: Map local codes to LOINC, or the results are missed by LOINC filters.",
+     "say": "Local codes only. What it looks like: A lab sends its own code G L U F with no L O I N C. What to do: Map local codes to L O I N C, or the results are missed by L O I N C filters.",
+     "focus": 4,
+     "file": "clips/1e033bcf930e.mp3",
+     "seconds": 15.275
+    },
+    {
+     "raw": "**Patchy coverage**. What it looks like: Results feeds from the big labs only; nothing from small office labs. What to do: Never read \"no result\" as \"not tested\": check claims too.",
+     "say": "Patchy coverage. What it looks like: Results feeds from the big labs only; nothing from small office labs. What to do: Never read \"no result\" as \"not tested\": check claims too.",
+     "focus": 5,
+     "file": "clips/cd802bb5deb6.mp3",
+     "seconds": 12.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Other traps analysts check for",
+   "lines": [
+    {
+     "raw": "In the US: Robert's data, checked.",
+     "say": "In the U S: Robert's data, checked.",
+     "focus": -1,
+     "file": "clips/28ad7dd9695b.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Claim `640118` and order `ORD5521` share member `GC5001` and date 10 Feb 2025, so the four claim lines link to six results.",
+     "say": "Claim 6 4 0 1 1 8 and order O R D 5 5 2 1 share member G C 5 0 0 1 and date 10 Feb 2025, so the four claim lines link to six results.",
+     "focus": 0,
+     "file": "clips/9bfb3f643034.mp3",
+     "seconds": 13.8
+    },
+    {
+     "raw": "All results are status `F` and in US units (%, mg/dL), so no conversion is needed.",
+     "say": "All results are status F and in U S units (%, mg/dL), so no conversion is needed.",
+     "focus": 1,
+     "file": "clips/a473311a1e35.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "His doctor also adds a CPT II code at each diabetes visit, so even without the feed, the plan would know his HbA1c **range**.",
+     "say": "His doctor also adds a C P T I I code at each diabetes visit, so even without the feed, the plan would know his H b A 1 c range.",
+     "focus": 2,
+     "file": "clips/54ea349534ef.mp3",
+     "seconds": 9.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Other traps analysts check for",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Quality measures, care programs and risk models all read `result_value`.",
+     "say": "Quality measures, care programs and risk models all read result_value.",
+     "focus": -1,
+     "file": "clips/11461d2e65a9.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "One unconverted unit, one duplicate corrected result or one bad join can move a member from \"controlled\" to \"poorly controlled\".",
+     "say": "One unconverted unit, one duplicate corrected result or one bad join can move a member from \"controlled\" to \"poorly controlled\".",
+     "focus": -1,
+     "file": "clips/9743d790c632.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "Clean the results table **before** you count anything.",
+     "say": "Clean the results table before you count anything.",
+     "focus": -1,
+     "file": "clips/6b446ef86265.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Link claims to results on member + date (service date = collection date) + a CPT-to-LOINC map.",
+     "say": "Link claims to results on member and date (service date = collection date) and a C P T to-LOINC map.",
+     "focus": 0,
+     "file": "clips/952ca7dc9af8.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "Sum money from the claim table and count results from the result table; joins multiply rows.",
+     "say": "Sum money from the claim table and count results from the result table; joins multiply rows.",
+     "focus": 1,
+     "file": "clips/aa1504e65573.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "CPT II codes (ending in F) carry a result range on a claim when there is no results feed.",
+     "say": "C P T I I codes (ending in F) carry a result range on a claim when there is no results feed.",
+     "focus": 2,
+     "file": "clips/d49cc435aff4.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "Convert every result to one unit per test before analysing; never mix mg/dL and mmol/L in one column.",
+     "say": "Convert every result to one unit per test before analysing; never mix mg/dL and mmol/L in one column.",
+     "focus": 3,
+     "file": "clips/c98c951af5d1.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "Keep only the latest version of a corrected result, and never guess missing units silently.",
+     "say": "Keep only the latest version of a corrected result, and never guess missing units silently.",
+     "focus": 4,
+     "file": "clips/e6d1e1dca7db.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

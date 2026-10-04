@@ -1,0 +1,925 @@
+{
+ "courseId": "lab",
+ "lessonId": "what-is-lab-data",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What is Lab Data?",
+     "say": "Lesson 1: What is Lab Data?",
+     "focus": -1,
+     "file": "clips/ba604335d483.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "A claim says a test was done.",
+     "say": "A claim says a test was done.",
+     "focus": -1,
+     "file": "clips/740f3596db44.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "A result says what the test found.",
+     "say": "A result says what the test found.",
+     "focus": -1,
+     "file": "clips/135cdeef7b98.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain in one sentence what \"lab data\" means.",
+     "say": "Explain in one sentence what \"lab data\" means.",
+     "focus": 0,
+     "file": "clips/ed19f6972c22.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Tell a lab claim apart from a lab result.",
+     "say": "Tell a lab claim apart from a lab result.",
+     "focus": 1,
+     "file": "clips/4cc265f7a983.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Know who orders, performs and pays for a lab test.",
+     "say": "Know who orders, performs and pays for a lab test.",
+     "focus": 2,
+     "file": "clips/7dd0010f810d.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Understand why insurers want the actual numbers, not just the bill.",
+     "say": "Understand why insurers want the actual numbers, not just the bill.",
+     "focus": 3,
+     "file": "clips/65fc94ae860a.mp3",
+     "seconds": 4.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Kathmandu, a blood test usually goes like this.",
+     "say": "In Kathmandu, a blood test usually goes like this.",
+     "focus": -1,
+     "file": "clips/4bef5451b2b5.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "The doctor writes the tests on a slip.",
+     "say": "The doctor writes the tests on a slip.",
+     "focus": -1,
+     "file": "clips/65c640cacd6c.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "You pay at the counter, give your blood sample in the morning, and the staff tell you to **collect the report** in the evening or the next day.",
+     "say": "You pay at the counter, give your blood sample in the morning, and the staff tell you to collect the report in the evening or the next day.",
+     "focus": -1,
+     "file": "clips/fb9c59913df6.mp3",
+     "seconds": 8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Notice that you leave with **two different papers**.",
+     "say": "Notice that you leave with two different papers.",
+     "focus": -1,
+     "file": "clips/31c3c6b111df.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "The **bill** (receipt) says which tests you paid for and how much.",
+     "say": "The bill (receipt) says which tests you paid for and how much.",
+     "focus": -1,
+     "file": "clips/4e450886710c.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "The **lab report** says what the tests **found**: your sugar level, your cholesterol, with the normal range printed next to each number.",
+     "say": "The lab report says what the tests found: your sugar level, your cholesterol, with the normal range printed next to each number.",
+     "focus": -1,
+     "file": "clips/efe86f79acd8.mp3",
+     "seconds": 8.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Simple definition.",
+     "say": "Simple definition.",
+     "focus": -1,
+     "file": "clips/a5c5927139e3.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Lab data is the record of medical tests done on samples from your body (blood, urine and so on): which test was done, when, by whom, and what the result was.",
+     "say": "Lab data is the record of medical tests done on samples from your body (blood, urine and so on): which test was done, when, by whom, and what the result was.",
+     "focus": -1,
+     "file": "clips/aa7afa2d62c6.mp3",
+     "seconds": 10.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two kinds of lab data.",
+     "say": "Two kinds of lab data.",
+     "focus": -1,
+     "file": "clips/b184e43f0f1c.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Two kinds of lab data",
+   "lines": [
+    {
+     "raw": "The bill and the report have twins in US data.",
+     "say": "The bill and the report have twins in U S data.",
+     "focus": -1,
+     "file": "clips/f4a4cb5acd65.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "The bill becomes a **lab claim**.",
+     "say": "The bill becomes a lab claim.",
+     "focus": -1,
+     "file": "clips/ac0991243220.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "The report becomes a **lab result**.",
+     "say": "The report becomes a lab result.",
+     "focus": -1,
+     "file": "clips/b6a4b3e9b91a.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "They travel on different roads and land in different tables.",
+     "say": "They travel on different roads and land in different tables.",
+     "focus": -1,
+     "file": "clips/f1b32476b2f0.mp3",
+     "seconds": 4.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Two kinds of lab data",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Nepal twin. Lab claim: The bill / receipt from the counter. Lab result: The lab report you collect the next day.",
+     "say": "Nepal twin. Lab claim: The bill or receipt from the counter. Lab result: The lab report you collect the next day.",
+     "focus": 0,
+     "file": "clips/aaee4ff03624.mp3",
+     "seconds": 8.225
+    },
+    {
+     "raw": "Answers. Lab claim: **Was** a test done, and how much did it cost? Lab result: **What did the test find?**.",
+     "say": "Answers. Lab claim: Was a test done, and how much did it cost? Lab result: What did the test find?.",
+     "focus": 1,
+     "file": "clips/5e4524db2fe6.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "Main code. Lab claim: CPT procedure code, e.g. `83036` (HbA1c test). Lab result: LOINC test code, e.g. `4548-4` (HbA1c).",
+     "say": "Main code. Lab claim: C P T procedure code, for example 8 3 0 3 6 (H b A 1 c test). Lab result: L O I N C test code, for example 4 5 4 8 dash 4 (H b A 1 c).",
+     "focus": 2,
+     "file": "clips/92855f5b82ae.mp3",
+     "seconds": 16.025
+    },
+    {
+     "raw": "Has the actual number? Lab claim: **No**. Lab result: **Yes**, e.g. 9.4 %.",
+     "say": "Has the actual number? Lab claim: No. Lab result: Yes, for example 9.4 percent.",
+     "focus": 3,
+     "file": "clips/81f77d43490f.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Sent by. Lab claim: The lab, to the insurer, to get paid. Lab result: The lab, to the doctor (and sometimes to the insurer).",
+     "say": "Sent by. Lab claim: The lab, to the insurer, to get paid. Lab result: The lab, to the doctor (and sometimes to the insurer).",
+     "focus": 4,
+     "file": "clips/391cf485db02.mp3",
+     "seconds": 8.85
+    },
+    {
+     "raw": "Where it is covered. Lab claim: Lesson 3 (the Medical course covers claims in general). Lab result: Lessons 4 to 6.",
+     "say": "Where it is covered. Lab claim: Lesson 3 (the Medical course covers claims in general). Lab result: Lessons 4 to 6.",
+     "focus": 5,
+     "file": "clips/e7d157688d02.mp3",
+     "seconds": 8.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Two kinds of lab data",
+   "lines": [
+    {
+     "raw": "The big idea.",
+     "say": "The big idea.",
+     "focus": -1,
+     "file": "clips/7d7554d3f69f.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "A claim can tell you that Robert **had** his blood sugar tested.",
+     "say": "A claim can tell you that Robert had his blood sugar tested.",
+     "focus": -1,
+     "file": "clips/e3cfd686d19a.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Only the result can tell you whether his sugar is **under control**.",
+     "say": "Only the result can tell you whether his sugar is under control.",
+     "focus": -1,
+     "file": "clips/c90b927ebbc6.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "For many questions about health, you need the result.",
+     "say": "For many questions about health, you need the result.",
+     "focus": -1,
+     "file": "clips/5aa6cb40192c.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Two kinds of lab data",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram and Sita get blood tests in Kathmandu.",
+     "say": "In Nepal: Ram and Sita get blood tests in Kathmandu.",
+     "focus": -1,
+     "file": "clips/f50c28fb3f72.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "**Ram** takes a yearly health check-up package at a private hospital.",
+     "say": "Ram takes a yearly health check-up package at a private hospital.",
+     "focus": 0,
+     "file": "clips/9cfb3da3a583.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "He pays the whole bill at the counter.",
+     "say": "He pays the whole bill at the counter.",
+     "focus": 0,
+     "file": "clips/7e01eddb3f0c.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "The next day he collects his report: blood sugar, cholesterol, kidney tests and more.",
+     "say": "The next day he collects his report: blood sugar, cholesterol, kidney tests and more.",
+     "focus": 1,
+     "file": "clips/8ee14af7efaa.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "To claim the money back, he sends the **bill** (and often a copy of the report) to his insurer.",
+     "say": "To claim the money back, he sends the bill (and often a copy of the report) to his insurer.",
+     "focus": 2,
+     "file": "clips/b8c1b67bae85.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "The insurer mainly cares about the bill.",
+     "say": "The insurer mainly cares about the bill.",
+     "focus": 2,
+     "file": "clips/a0512b587ae0.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "The numbers stay on paper in Ram's file.",
+     "say": "The numbers stay on paper in Ram's file.",
+     "focus": 2,
+     "file": "clips/9f8128136d9e.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "**Sita** has her blood tested at an SSF-listed hospital as part of her treatment.",
+     "say": "Sita has her blood tested at an S S F listed hospital as part of her treatment.",
+     "focus": 3,
+     "file": "clips/b612802a5fe4.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "She pays her **20%** share.",
+     "say": "She pays her 20 percent share.",
+     "focus": 3,
+     "file": "clips/9112d3a3f5e3.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "The hospital includes the test in its **claim to SSF** for the other 80%.",
+     "say": "The hospital includes the test in its claim to S S F for the other 80 percent.",
+     "focus": 4,
+     "file": "clips/34729c0d2106.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "Sita gets her report from the hospital.",
+     "say": "Sita gets her report from the hospital.",
+     "focus": 5,
+     "file": "clips/5ce86c50623b.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "The claim tells SSF a test was done; the report, which shows the result, mostly stays with Sita and her doctor.",
+     "say": "The claim tells S S F a test was done; the report, which shows the result, mostly stays with Sita and her doctor.",
+     "focus": 5,
+     "file": "clips/7eb57d0d12dc.mp3",
+     "seconds": 7.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Two kinds of lab data",
+   "lines": [
+    {
+     "raw": "In the US: Robert gets a blood test in Houston, USA.",
+     "say": "In the U S: Robert gets a blood test in Houston, U S A.",
+     "focus": -1,
+     "file": "clips/a49d33bc9d7b.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "**Robert Carter** is Emily's father, a retired teacher born in 1957.",
+     "say": "Robert Carter is Emily's father, a retired teacher born in 1957.",
+     "focus": 0,
+     "file": "clips/7130327a4cce.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "He has **type 2 diabetes** and **high blood pressure**.",
+     "say": "He has type 2 diabetes and high blood pressure.",
+     "focus": 0,
+     "file": "clips/6a421481bc15.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "He has **Medicare** (the US government programme for people 65 and older) through **Gulf Coast Advantage (HMO)**, a fictional **Medicare Advantage** plan from **Gulf Coast Health Plan**: a private insurer that runs his Medicare benefits.",
+     "say": "He has Medicare (the U S government programme for people 65 and older) through Gulf Coast Advantage (H M O), a fictional Medicare Advantage plan from Gulf Coast Health Plan: a private insurer that runs his Medicare benefits.",
+     "focus": 0,
+     "file": "clips/b6c616c162c6.mp3",
+     "seconds": 15.6
+    },
+    {
+     "raw": "His primary care doctor, **Dr. Nguyen** at **Bayou Family Medicine** (fictional), orders blood tests to check his diabetes and cholesterol.",
+     "say": "His primary care doctor, Doctor Nguyen at Bayou Family Medicine (fictional), orders blood tests to check his diabetes and cholesterol.",
+     "focus": 1,
+     "file": "clips/240cb70832a5.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "A nurse draws his blood on **10 February 2025**.",
+     "say": "A nurse draws his blood on 10 February 2025.",
+     "focus": 2,
+     "file": "clips/b3e549fb5294.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "It goes to **Bayou Clinical Lab** (a fictional independent lab).",
+     "say": "It goes to Bayou Clinical Lab (a fictional independent lab).",
+     "focus": 2,
+     "file": "clips/ac6e7878570e.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "The lab sends a **claim** to his plan to get paid, and sends the **results** electronically to Dr. Nguyen's computer system.",
+     "say": "The lab sends a claim to his plan to get paid, and sends the results electronically to Doctor Nguyen's computer system.",
+     "focus": 3,
+     "file": "clips/14028615df3d.mp3",
+     "seconds": 7.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who is involved?",
+     "say": "Who is involved?",
+     "focus": -1,
+     "file": "clips/0818adc0294f.mp3",
+     "seconds": 1.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Who is involved?",
+   "lines": [
+    {
+     "raw": "The roles in one lab test.",
+     "say": "The roles in one lab test.",
+     "focus": -1,
+     "file": "clips/40aef796e676.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "**Patient**. Who: The person tested. Robert's example: Robert Carter.",
+     "say": "Patient. Who: The person tested. Robert's example: Robert Carter.",
+     "focus": 0,
+     "file": "clips/694111bc51ed.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "**Ordering provider**. Who: The doctor who asks for the test. Robert's example: Dr. Nguyen, his primary care doctor.",
+     "say": "Ordering provider. Who: The doctor who asks for the test. Robert's example: Doctor Nguyen, his primary care doctor.",
+     "focus": 1,
+     "file": "clips/55e8cd0cf41c.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "**Performing lab**. Who: The lab that runs the test on the sample. Robert's example: Bayou Clinical Lab.",
+     "say": "Performing lab. Who: The lab that runs the test on the sample. Robert's example: Bayou Clinical Lab.",
+     "focus": 2,
+     "file": "clips/ed8bebda60b7.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "**Payer**. Who: Who pays the lab's bill. Robert's example: Gulf Coast Health Plan (runs his Medicare Advantage plan, Gulf Coast Advantage).",
+     "say": "Payer. Who: Who pays the lab's bill. Robert's example: Gulf Coast Health Plan (runs his Medicare Advantage plan, Gulf Coast Advantage).",
+     "focus": 3,
+     "file": "clips/cd7c55e4dd8f.mp3",
+     "seconds": 9.45
+    },
+    {
+     "raw": "**Receiver of results**. Who: Who gets the numbers. Robert's example: Dr. Nguyen (and Robert, through the clinic's patient portal).",
+     "say": "Receiver of results. Who: Who gets the numbers. Robert's example: Doctor Nguyen (and Robert, through the clinic's patient portal).",
+     "focus": 4,
+     "file": "clips/42937efee7e0.mp3",
+     "seconds": 8.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Who is involved?",
+   "lines": [
+    {
+     "raw": "Tests are done in different places: a big **independent lab** (with collection centres all over the city, much like the chain labs in Kathmandu), a **hospital lab**, or a small lab inside the **doctor's office**.",
+     "say": "Tests are done in different places: a big independent lab (with collection centres all over the city, much like the chain labs in Kathmandu), a hospital lab, or a small lab inside the doctor's office.",
+     "focus": -1,
+     "file": "clips/7119bebadee9.mp3",
+     "seconds": 13.725
+    },
+    {
+     "raw": "The place affects who sends the claim, but the result looks much the same.",
+     "say": "The place affects who sends the claim, but the result looks much the same.",
+     "focus": -1,
+     "file": "clips/128a771c6aad.mp3",
+     "seconds": 4.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Where do insurers get lab results?",
+     "say": "Where do insurers get lab results?",
+     "focus": -1,
+     "file": "clips/71752dc962dd.mp3",
+     "seconds": 2.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Where do insurers get lab results?",
+   "lines": [
+    {
+     "raw": "An insurer **always** gets the claim, because the lab wants to be paid.",
+     "say": "An insurer always gets the claim, because the lab wants to be paid.",
+     "focus": -1,
+     "file": "clips/af425505d911.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Getting the **result** is harder.",
+     "say": "Getting the result is harder.",
+     "focus": -1,
+     "file": "clips/f1240a0e9aed.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "It needs an extra data feed.",
+     "say": "It needs an extra data feed.",
+     "focus": -1,
+     "file": "clips/924cde467c69.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Where do insurers get lab results?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Lab claims**. What it gives: Which test, which date, which lab, how much. No result. Nepal comparison: The receipt.",
+     "say": "Lab claims. What it gives: Which test, which date, which lab, how much. No result. Nepal comparison: The receipt.",
+     "focus": 0,
+     "file": "clips/2155e291f083.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "**Lab result feeds**. What it gives: Electronic results sent by large labs to the insurer under an agreement. Nepal comparison: The lab emailing your report to your insurer.",
+     "say": "Lab result feeds. What it gives: Electronic results sent by large labs to the insurer under an agreement. Nepal comparison: The lab emailing your report to your insurer.",
+     "focus": 1,
+     "file": "clips/1c05383d6568.mp3",
+     "seconds": 12.4
+    },
+    {
+     "raw": "**Doctor's records (EHR)**. What it gives: Results stored in the doctor's electronic health record. Nepal comparison: The report in your hospital file.",
+     "say": "Doctor's records (E H R). What it gives: Results stored in the doctor's electronic health record. Nepal comparison: The report in your hospital file.",
+     "focus": 2,
+     "file": "clips/0d4be770b230.mp3",
+     "seconds": 10.525
+    },
+    {
+     "raw": "**Result codes on claims**. What it gives: A few special codes that say a result range, e.g. \"HbA1c above 9%\" (lesson 6). Nepal comparison: The doctor writing \"sugar high\" on the bill.",
+     "say": "Result codes on claims. What it gives: A few special codes that say a result range, for example \"H b A 1 c above 9 percent\" (lesson 6). Nepal comparison: The doctor writing \"sugar high\" on the bill.",
+     "focus": 3,
+     "file": "clips/64ef87c809a5.mp3",
+     "seconds": 14.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Where do insurers get lab results?",
+   "lines": [
+    {
+     "raw": "Why do insurers care about results?",
+     "say": "Why do insurers care about results?",
+     "focus": -1,
+     "file": "clips/d1f0655ab4a3.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "To measure **quality of care** (is a diabetic patient's sugar under control?), to find members who need **extra help** (care management), and to understand how sick their members are.",
+     "say": "To measure quality of care (is a diabetic patient's sugar under control?), to find members who need extra help (care management), and to understand how sick their members are.",
+     "focus": -1,
+     "file": "clips/daa1158740bd.mp3",
+     "seconds": 10.825
+    },
+    {
+     "raw": "Quality scores, such as the **HEDIS** measures (a national set of health plan quality measures) you will meet in lesson 7, often need the actual number.",
+     "say": "Quality scores, such as the HEDIS measures (a national set of health plan quality measures) you will meet in lesson 7, often need the actual number.",
+     "focus": -1,
+     "file": "clips/0f59f68ba336.mp3",
+     "seconds": 9.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Words to know.",
+     "say": "Words to know.",
+     "focus": -1,
+     "file": "clips/63ca77fc3777.mp3",
+     "seconds": 1.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Words to know",
+   "lines": [
+    {
+     "raw": "Specimen.",
+     "say": "Specimen.",
+     "focus": 0,
+     "file": "clips/fb03cf486a21.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "The sample taken from the body: blood, urine, saliva, a swab.",
+     "say": "The sample taken from the body: blood, urine, saliva, a swab.",
+     "focus": 0,
+     "file": "clips/df60289777c3.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "Lab test.",
+     "say": "Lab test.",
+     "focus": 1,
+     "file": "clips/4dd053580155.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "A measurement done on a specimen, such as blood sugar or cholesterol.",
+     "say": "A measurement done on a specimen, such as blood sugar or cholesterol.",
+     "focus": 1,
+     "file": "clips/13250ef90372.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Panel.",
+     "say": "Panel.",
+     "focus": 2,
+     "file": "clips/8482fcb527bc.mp3",
+     "seconds": 1.35
+    },
+    {
+     "raw": "A group of tests ordered together, like a \"lipid profile\" in Nepal (several cholesterol numbers from one blood sample).",
+     "say": "A group of tests ordered together, like a \"lipid profile\" in Nepal (several cholesterol numbers from one blood sample).",
+     "focus": 2,
+     "file": "clips/597578046086.mp3",
+     "seconds": 7.825
+    },
+    {
+     "raw": "Lab claim.",
+     "say": "Lab claim.",
+     "focus": 3,
+     "file": "clips/e102f252ebae.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "The bill a lab sends to the insurer.",
+     "say": "The bill a lab sends to the insurer.",
+     "focus": 3,
+     "file": "clips/2adb381e0929.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Says the test was done, not what it found.",
+     "say": "Says the test was done, not what it found.",
+     "focus": 3,
+     "file": "clips/082c707d5872.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Lab result.",
+     "say": "Lab result.",
+     "focus": 4,
+     "file": "clips/77ef46fed0c7.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "What the test found: a number or a word, with units and a normal range.",
+     "say": "What the test found: a number or a word, with units and a normal range.",
+     "focus": 4,
+     "file": "clips/0ff292a71851.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Observation.",
+     "say": "Observation.",
+     "focus": 5,
+     "file": "clips/ba44e1a7a5e4.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "The technical word for one measured fact about a patient.",
+     "say": "The technical word for one measured fact about a patient.",
+     "focus": 5,
+     "file": "clips/6050476a34e6.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "One lab result is one observation.",
+     "say": "One lab result is one observation.",
+     "focus": 5,
+     "file": "clips/a1b0894cc6d7.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "CPT.",
+     "say": "C P T.",
+     "focus": 6,
+     "file": "clips/bca797788e91.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "**Current Procedural Terminology**.",
+     "say": "Current Procedural Terminology.",
+     "focus": 6,
+     "file": "clips/d46371b54a94.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "The US codes for services billed on a claim, such as \"HbA1c test\".",
+     "say": "The U S codes for services billed on a claim, such as \"H b A 1 c test\".",
+     "focus": 6,
+     "file": "clips/a49501f44dcd.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Lesson 3.",
+     "say": "Lesson 3.",
+     "focus": 6,
+     "file": "clips/60b30434816e.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "LOINC.",
+     "say": "L O I N C.",
+     "focus": 7,
+     "file": "clips/004c94e175c6.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "**Logical Observation Identifiers Names and Codes**.",
+     "say": "Logical Observation Identifiers Names and Codes.",
+     "focus": 7,
+     "file": "clips/30ac9aecb504.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "The universal codes that name what a test measured, used on results.",
+     "say": "The universal codes that name what a test measured, used on results.",
+     "focus": 7,
+     "file": "clips/d5be9decd847.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Lesson 4.",
+     "say": "Lesson 4.",
+     "focus": 7,
+     "file": "clips/d857fdab2854.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "HbA1c.",
+     "say": "H b A 1 c.",
+     "focus": 8,
+     "file": "clips/6c88977a4368.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "A blood test showing the average blood sugar over roughly the last 2 to 3 months.",
+     "say": "A blood test showing the average blood sugar over roughly the last 2 to 3 months.",
+     "focus": 8,
+     "file": "clips/eb7c026d647c.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "The key test for diabetes.",
+     "say": "The key test for diabetes.",
+     "focus": 8,
+     "file": "clips/6e72b36af6d3.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Lab data = records of tests done on body samples, and what those tests found.",
+     "say": "Lab data = records of tests done on body samples, and what those tests found.",
+     "focus": 0,
+     "file": "clips/3bdb1cb9558f.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "A **lab claim** says a test was done (CPT code, cost).",
+     "say": "A lab claim says a test was done (C P T code, cost).",
+     "focus": 1,
+     "file": "clips/d6bc77537dc5.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "A **lab result** says what it found (LOINC code, value).",
+     "say": "A lab result says what it found (L O I N C code, value).",
+     "focus": 1,
+     "file": "clips/b9fea6c5848f.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Insurers always get claims, but results need an extra data feed.",
+     "say": "Insurers always get claims, but results need an extra data feed.",
+     "focus": 2,
+     "file": "clips/c97ff7799f9c.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Results matter for quality measures and for finding members who need help.",
+     "say": "Results matter for quality measures and for finding members who need help.",
+     "focus": 3,
+     "file": "clips/c00f9d614ade.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "In this course, Robert Carter has a Medicare Advantage plan (Gulf Coast Advantage, fictional) and type 2 diabetes.",
+     "say": "In this course, Robert Carter has a Medicare Advantage plan (Gulf Coast Advantage, fictional) and type 2 diabetes.",
+     "focus": 4,
+     "file": "clips/de14dfd0bee2.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

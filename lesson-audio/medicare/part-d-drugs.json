@@ -1,0 +1,715 @@
+{
+ "courseId": "medicare",
+ "lessonId": "part-d-drugs",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Part D: Drug Coverage.",
+     "say": "Lesson 5: Part D: Drug Coverage.",
+     "focus": -1,
+     "file": "clips/c0286f4403e7.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "How people on Medicare pay for their medicines, and the new $2,000 cap.",
+     "say": "How people on Medicare pay for their medicines, and the new 2000 dollars cap.",
+     "focus": -1,
+     "file": "clips/63efeb2875e9.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain the two ways to get Part D: a standalone plan or an MA-PD.",
+     "say": "Explain the two ways to get Part D: a standalone plan or an M A PD.",
+     "focus": 0,
+     "file": "clips/6c7f4e831ec4.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "Read a Part D formulary with tiers.",
+     "say": "Read a Part D formulary with tiers.",
+     "focus": 1,
+     "file": "clips/39f2d3b703c9.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Walk through the 2025 Part D phases, including the $2,000 out-of-pocket cap.",
+     "say": "Walk through the 2025 Part D phases, including the 2000 dollars out-of-pocket cap.",
+     "focus": 2,
+     "file": "clips/102cce3cf818.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "See Robert's diabetes and blood pressure medicines on his plan.",
+     "say": "See Robert's diabetes and blood pressure medicines on his plan.",
+     "focus": 3,
+     "file": "clips/ba4d4b5ea56b.mp3",
+     "seconds": 4.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Medicines need their own cover.",
+     "say": "Medicines need their own cover.",
+     "focus": -1,
+     "file": "clips/bcaf6977ecad.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Medicines need their own cover",
+   "lines": [
+    {
+     "raw": "Parts A and B mostly do **not** pay for medicines you pick up at a pharmacy.",
+     "say": "Parts A and B mostly do not pay for medicines you pick up at a pharmacy.",
+     "focus": -1,
+     "file": "clips/1725e2207342.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "That is the job of **Part D**.",
+     "say": "That is the job of Part D.",
+     "focus": -1,
+     "file": "clips/2fb9ad1d25d9.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Like Medicare Advantage, Part D is run by **private plans** that CMS approves and partly pays for.",
+     "say": "Like Medicare Advantage, Part D is run by private plans that C M S approves and partly pays for.",
+     "focus": -1,
+     "file": "clips/48b219ef186e.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "More than 50 million people have it.",
+     "say": "More than 50 million people have it.",
+     "focus": -1,
+     "file": "clips/729a318d799d.mp3",
+     "seconds": 2.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Medicines need their own cover",
+   "lines": [
+    {
+     "raw": "In Nepal: Medicines in Kathmandu.",
+     "say": "In Nepal: Medicines in Kathmandu.",
+     "focus": -1,
+     "file": "clips/e220cb899c60.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram buys his medicines at a medical shop and keeps the bill.",
+     "say": "Ram buys his medicines at a medical shop and keeps the bill.",
+     "focus": 0,
+     "file": "clips/c40d99aa2a82.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "If his policy covers OPD medicines, he claims the money back, often up to a yearly limit.",
+     "say": "If his policy covers O P D medicines, he claims the money back, often up to a yearly limit.",
+     "focus": 0,
+     "file": "clips/ebf9e6126404.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "For Sita, medicines given or prescribed as part of SSF-covered treatment can be part of the hospital's SSF claim, with her cost share applied.",
+     "say": "For Sita, medicines given or prescribed as part of S S F covered treatment can be part of the hospital's S S F claim, with her cost share applied.",
+     "focus": 1,
+     "file": "clips/b9bb69f9757f.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "The details depend on SSF's rules.",
+     "say": "The details depend on SSF's rules.",
+     "focus": 1,
+     "file": "clips/e22ddd09ac7b.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Medicines need their own cover",
+   "lines": [
+    {
+     "raw": "Two ways to get Part D.",
+     "say": "Two ways to get Part D.",
+     "focus": -1,
+     "file": "clips/e04ee6c822ca.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "**PDP** (Prescription Drug Plan). What it is: A standalone drug-only plan. Used with: Original Medicare. Robert: 2022 to 2023.",
+     "say": "P D P (Prescription Drug Plan). What it is: A standalone drug-only plan. Used with: Original Medicare. Robert: 2022 to 2023.",
+     "focus": 0,
+     "file": "clips/8fdd0be8cf03.mp3",
+     "seconds": 11.575
+    },
+    {
+     "raw": "**MA-PD** (Medicare Advantage Prescription Drug plan). What it is: Drug cover built into an MA plan. Used with: Medicare Advantage. Robert: From 2024, including 2025.",
+     "say": "M A PD (Medicare Advantage Prescription Drug plan). What it is: Drug cover built into an M A plan. Used with: Medicare Advantage. Robert: From 2024, including 2025.",
+     "focus": 1,
+     "file": "clips/dff6a7cbc039.mp3",
+     "seconds": 13.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Medicines need their own cover",
+   "lines": [
+    {
+     "raw": "Same machinery as Emily's drug plan.",
+     "say": "Same machinery as Emily's drug plan.",
+     "focus": -1,
+     "file": "clips/fa4742b6b904.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "Part D plans use **PBMs**, **formularies**, **tiers** and **NDC** drug codes, just like Emily's employer drug plan.",
+     "say": "Part D plans use P B M's, formularies, tiers and N D C drug codes, just like Emily's employer drug plan.",
+     "focus": -1,
+     "file": "clips/5837955fdb9f.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "The Pharmacy course explains how a claim like this is processed at the pharmacy counter.",
+     "say": "The Pharmacy course explains how a claim like this is processed at the pharmacy counter.",
+     "focus": -1,
+     "file": "clips/1c38f4615699.mp3",
+     "seconds": 5.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Formularies and tiers.",
+     "say": "Formularies and tiers.",
+     "focus": -1,
+     "file": "clips/b571c2c270a2.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Formularies and tiers",
+   "lines": [
+    {
+     "raw": "Each Part D plan has a **formulary**: its list of covered drugs, sorted into **tiers**.",
+     "say": "Each Part D plan has a formulary: its list of covered drugs, sorted into tiers.",
+     "focus": -1,
+     "file": "clips/0b517b4643a9.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "CMS checks every formulary.",
+     "say": "C M S checks every formulary.",
+     "focus": -1,
+     "file": "clips/3a9d5211ff30.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Plans must cover a range of drugs in each kind of treatment, and must cover \"all or substantially all\" drugs in six **protected classes**, such as cancer, HIV and mental illness medicines.",
+     "say": "Plans must cover a range of drugs in each kind of treatment, and must cover \"all or substantially all\" drugs in six protected classes, such as cancer, H I V and mental illness medicines.",
+     "focus": -1,
+     "file": "clips/6d4ec3587cdd.mp3",
+     "seconds": 13.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Formularies and tiers",
+   "lines": [
+    {
+     "raw": "Robert's 2025 medicines on Gulf Coast Advantage (HMO) (copays are fictional).",
+     "say": "Robert's 2025 medicines on Gulf Coast Advantage (H M O) (copays are fictional).",
+     "focus": -1,
+     "file": "clips/72ba14f70c19.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "Metformin 500 mg. Used for: Type 2 diabetes. Tier: Tier 1: preferred generic. Robert pays per 30-day fill: $0.",
+     "say": "Metformin 500 mg. Used for: Type 2 diabetes. Tier: Tier 1: preferred generic. Robert pays per 30-day fill: 0 dollars.",
+     "focus": 0,
+     "file": "clips/1a9844acba2f.mp3",
+     "seconds": 10.8
+    },
+    {
+     "raw": "Lisinopril 10 mg. Used for: High blood pressure. Tier: Tier 1: preferred generic. Robert pays per 30-day fill: $0.",
+     "say": "Lisinopril 10 mg. Used for: High blood pressure. Tier: Tier 1: preferred generic. Robert pays per 30-day fill: 0 dollars.",
+     "focus": 1,
+     "file": "clips/0fe050cd24c7.mp3",
+     "seconds": 10.2
+    },
+    {
+     "raw": "Empagliflozin 10 mg (brand). Used for: Type 2 diabetes, add-on. Tier: Tier 3: preferred brand. Robert pays per 30-day fill: $47.",
+     "say": "Empagliflozin 10 mg (brand). Used for: Type 2 diabetes, add-on. Tier: Tier 3: preferred brand. Robert pays per 30-day fill: 47 dollars.",
+     "focus": 2,
+     "file": "clips/aaa08f988c0d.mp3",
+     "seconds": 11.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Formularies and tiers",
+   "lines": [
+    {
+     "raw": "Robert's plan has **no drug deductible**.",
+     "say": "Robert's plan has no drug deductible.",
+     "focus": -1,
+     "file": "clips/c9d7d1de72dd.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "For the whole of 2025 his medicines cost him 12 × $47 = **$564**, all from the brand drug.",
+     "say": "For the whole of 2025 his medicines cost him 12 × 47 dollars = 564 dollars all from the brand drug.",
+     "focus": -1,
+     "file": "clips/e0d9db1ad141.mp3",
+     "seconds": 10.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Formularies and tiers",
+   "lines": [
+    {
+     "raw": "Insulin.",
+     "say": "Insulin.",
+     "focus": -1,
+     "file": "clips/9a7aa5cde1a8.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "Since 2023, people on Medicare pay **no more than $35** for a month's supply of each covered insulin.",
+     "say": "Since 2023, people on Medicare pay no more than 35 dollars for a month's supply of each covered insulin.",
+     "focus": -1,
+     "file": "clips/924cea0dc6ec.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "Robert does not use insulin today, but many people with diabetes do.",
+     "say": "Robert does not use insulin today, but many people with diabetes do.",
+     "focus": -1,
+     "file": "clips/99c6294008b2.mp3",
+     "seconds": 4.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The 2025 changes: a $2,000 cap.",
+     "say": "The 2025 changes: a 2000 dollars cap.",
+     "focus": -1,
+     "file": "clips/f009439462c2.mp3",
+     "seconds": 4.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The 2025 changes: a $2,000 cap",
+   "lines": [
+    {
+     "raw": "Part D used to have a \"**coverage gap**\" (often called the **donut hole**) and no firm limit on what people paid.",
+     "say": "Part D used to have a \"coverage gap\" (often called the donut hole) and no firm limit on what people paid.",
+     "focus": -1,
+     "file": "clips/c3cf99922546.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "A law passed in 2022 changed this.",
+     "say": "A law passed in 2022 changed this.",
+     "focus": -1,
+     "file": "clips/6b77bd12a203.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "From **2025**, Part D has a simple shape with a hard cap: once a person has paid **$2,000** out of pocket for covered drugs in the year, they pay **$0** for the rest of the year.",
+     "say": "From 2025, Part D has a simple shape with a hard cap: once a person has paid 2000 dollars out of pocket for covered drugs in the year, they pay 0 dollars for the rest of the year.",
+     "focus": -1,
+     "file": "clips/fbe1a5bb15b3.mp3",
+     "seconds": 12.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The 2025 changes: a $2,000 cap",
+   "lines": [
+    {
+     "raw": "The standard Part D design in 2025 (plans can offer lower costs, as Robert's does).",
+     "say": "The standard Part D design in 2025 (plans can offer lower costs, as Robert's does).",
+     "focus": -1,
+     "file": "clips/f7a38bc8bf54.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "1. Deductible. What the person pays: The full drug price, up to **$590**. Ends when: $590 has been paid (many plans have a lower or no deductible).",
+     "say": "1. Deductible. What the person pays: The full drug price, up to 590 dollars. Ends when: 590 dollars has been paid (many plans have a lower or no deductible).",
+     "focus": 0,
+     "file": "clips/1551e5195965.mp3",
+     "seconds": 12.825
+    },
+    {
+     "raw": "2. Initial coverage. What the person pays: About **25%** of the drug price. Ends when: Their out-of-pocket total reaches **$2,000**.",
+     "say": "2. Initial coverage. What the person pays: About 25 percent of the drug price. Ends when: Their out-of-pocket total reaches 2000 dollars.",
+     "focus": 1,
+     "file": "clips/fcbe5e13f3b5.mp3",
+     "seconds": 10.4
+    },
+    {
+     "raw": "3. Catastrophic. What the person pays: **$0**. Ends when: The end of the year.",
+     "say": "3. Catastrophic. What the person pays: 0 dollars. Ends when: The end of the year.",
+     "focus": 2,
+     "file": "clips/62623e102f22.mp3",
+     "seconds": 6.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: an expensive drug.",
+     "say": "Worked example: an expensive drug.",
+     "focus": -1,
+     "file": "clips/c6b8530f6206.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: an expensive drug",
+   "lines": [
+    {
+     "raw": "Imagine a person on a standard Part D plan who needs a drug costing **$1,500 a month**, starting in January 2025.",
+     "say": "Imagine a person on a standard Part D plan who needs a drug costing 1500 dollars a month, starting in January 2025.",
+     "focus": -1,
+     "file": "clips/c263707ab198.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "Watch the cap work.",
+     "say": "Watch the cap work.",
+     "focus": -1,
+     "file": "clips/c30cdd78cd8c.mp3",
+     "seconds": 1.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: an expensive drug",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "January. Calculation: $590 deductible + 25% of the remaining $910. Pays this month: $817.50. Paid so far: $817.50.",
+     "say": "January. Calculation: 590 dollars deductible and 25 percent of the remaining 910 dollars. Pays this month: 817 dollars 50 cents. Paid so far: 817 dollars 50 cents.",
+     "focus": 0,
+     "file": "clips/ac28e91e7769.mp3",
+     "seconds": 16.525
+    },
+    {
+     "raw": "February. Calculation: 25% of $1,500. Pays this month: $375.00. Paid so far: $1,192.50.",
+     "say": "February. Calculation: 25 percent of 1500 dollars. Pays this month: 375 dollars. Paid so far: 1192 dollars 50 cents.",
+     "focus": 1,
+     "file": "clips/3a0ac44a4e2b.mp3",
+     "seconds": 12.125
+    },
+    {
+     "raw": "March. Calculation: 25% of $1,500. Pays this month: $375.00. Paid so far: $1,567.50.",
+     "say": "March. Calculation: 25 percent of 1500 dollars. Pays this month: 375 dollars. Paid so far: 1567 dollars 50 cents.",
+     "focus": 2,
+     "file": "clips/7302b45c6558.mp3",
+     "seconds": 12.2
+    },
+    {
+     "raw": "April. Calculation: Only $432.50 left before the cap. Pays this month: $432.50. Paid so far: $2,000.00.",
+     "say": "April. Calculation: Only 432 dollars 50 cents left before the cap. Pays this month: 432 dollars 50 cents. Paid so far: 2000 dollars.",
+     "focus": 3,
+     "file": "clips/93c77c647969.mp3",
+     "seconds": 12.85
+    },
+    {
+     "raw": "May to December. Calculation: Cap reached. Pays this month: $0.00. Paid so far: $2,000.00.",
+     "say": "May to December. Calculation: Cap reached. Pays this month: 0 dollars. Paid so far: 2000 dollars.",
+     "focus": 4,
+     "file": "clips/52cbe90141b6.mp3",
+     "seconds": 8.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: an expensive drug",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "$590 + 25% × $910 = $590 + $227.50 = $817.50.",
+     "say": "590 dollars and 25 percent × 910 dollars = 590 dollars and 227 dollars 50 cents = 817 dollars 50 cents.",
+     "focus": -1,
+     "file": "clips/5125b3688a53.mp3",
+     "seconds": 13.775
+    },
+    {
+     "raw": "Then $817.50 + $375 + $375 + $432.50 = **$2,000** exactly.",
+     "say": "Then 817 dollars 50 cents and 375 dollars and 375 dollars and 432 dollars 50 cents = 2000 dollars exactly.",
+     "focus": -1,
+     "file": "clips/d811fcbee034.mp3",
+     "seconds": 13.275
+    },
+    {
+     "raw": "Before 2025, this person could have paid thousands more.",
+     "say": "Before 2025, this person could have paid thousands more.",
+     "focus": -1,
+     "file": "clips/f4cc3f68c6bf.mp3",
+     "seconds": 4.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example: an expensive drug",
+   "lines": [
+    {
+     "raw": "Out-of-pocket cap.",
+     "say": "Out-of-pocket cap.",
+     "focus": 0,
+     "file": "clips/ceb1aa14665a.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "From 2025, $2,000 a year for covered Part D drugs.",
+     "say": "From 2025, 2000 dollars a year for covered Part D drugs.",
+     "focus": 0,
+     "file": "clips/40ec16423619.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "After that the person pays nothing more that year.",
+     "say": "After that the person pays nothing more that year.",
+     "focus": 0,
+     "file": "clips/e1688a9af18b.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Medicare Prescription Payment Plan.",
+     "say": "Medicare Prescription Payment Plan.",
+     "focus": 1,
+     "file": "clips/bf81c42f9b8e.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "A 2025 option to spread drug costs into monthly bills across the year, instead of paying a lot in the first months.",
+     "say": "A 2025 option to spread drug costs into monthly bills across the year, instead of paying a lot in the first months.",
+     "focus": 1,
+     "file": "clips/1eec68ce53f9.mp3",
+     "seconds": 8.225
+    },
+    {
+     "raw": "PDE (Prescription Drug Event).",
+     "say": "P D E (Prescription Drug Event).",
+     "focus": 2,
+     "file": "clips/56a452cf3126.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "A record the plan sends to CMS for every Part D fill.",
+     "say": "A record the plan sends to C M S for every Part D fill.",
+     "focus": 2,
+     "file": "clips/1fc1009936dd.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "It is how CMS sees Part D claims.",
+     "say": "It is how C M S sees Part D claims.",
+     "focus": 2,
+     "file": "clips/3b620e355fad.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Extra Help.",
+     "say": "Extra Help.",
+     "focus": 3,
+     "file": "clips/f54b2c04536c.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "A programme that lowers Part D premiums and copays for people with low income and savings.",
+     "say": "A programme that lowers Part D premiums and copays for people with low income and savings.",
+     "focus": 3,
+     "file": "clips/ecdcf6bd664f.mp3",
+     "seconds": 6.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example: an expensive drug",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Part D fills look like any pharmacy claim (NDC drug code, days supply, cost split), but every fill also becomes a **PDE** record for CMS.",
+     "say": "Part D fills look like any pharmacy claim (N D C drug code, days supply, cost split), but every fill also becomes a P D E record for C M S.",
+     "focus": -1,
+     "file": "clips/544c25797cda.mp3",
+     "seconds": 11.025
+    },
+    {
+     "raw": "Because the yearly cap depends on what the member has paid **so far**, the same drug can cost a member different amounts in different months.",
+     "say": "Because the yearly cap depends on what the member has paid so far, the same drug can cost a member different amounts in different months.",
+     "focus": -1,
+     "file": "clips/e1f52661a09e.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "Always read Part D cost sharing in date order, per member, per year.",
+     "say": "Always read Part D cost sharing in date order, per member, per year.",
+     "focus": -1,
+     "file": "clips/42fbc879a9a7.mp3",
+     "seconds": 4.65
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Part D covers pharmacy medicines through private plans: a standalone PDP (with Original Medicare) or an MA-PD.",
+     "say": "Part D covers pharmacy medicines through private plans: a standalone P D P (with Original Medicare) or an M A PD.",
+     "focus": 0,
+     "file": "clips/03fbe5c368ae.mp3",
+     "seconds": 8.675
+    },
+    {
+     "raw": "Part D plans use formularies, tiers and PBMs, like commercial drug plans.",
+     "say": "Part D plans use formularies, tiers and P B M's, like commercial drug plans.",
+     "focus": 1,
+     "file": "clips/28190a388060.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "From 2025, out-of-pocket costs for covered Part D drugs are capped at $2,000 a year, and the old coverage gap is gone.",
+     "say": "From 2025, out-of-pocket costs for covered Part D drugs are capped at 2000 dollars a year, and the old coverage gap is gone.",
+     "focus": 2,
+     "file": "clips/a44758c293c8.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "Covered insulin costs no more than $35 a month on Medicare.",
+     "say": "Covered insulin costs no more than 35 dollars a month on Medicare.",
+     "focus": 3,
+     "file": "clips/499bc07da8ff.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Plans report every Part D fill to CMS as a PDE record.",
+     "say": "Plans report every Part D fill to C M S as a P D E record.",
+     "focus": 4,
+     "file": "clips/8843733f6d11.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

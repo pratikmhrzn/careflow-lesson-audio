@@ -1,0 +1,708 @@
+{
+ "courseId": "basics",
+ "lessonId": "providers",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: Providers: Who Gives the Care.",
+     "say": "Lesson 3: Providers: Who Gives the Care.",
+     "focus": -1,
+     "file": "clips/be0efabb2ad1.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Doctors, hospitals, clinics, labs and pharmacies, and why \"in network\" matters.",
+     "say": "Doctors, hospitals, clinics, labs and pharmacies, and why \"in network\" matters.",
+     "focus": -1,
+     "file": "clips/a192c20fd56a.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Name the main kinds of US providers.",
+     "say": "Name the main kinds of U S providers.",
+     "focus": 0,
+     "file": "clips/1b2523cd3151.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Tell primary care from specialist care.",
+     "say": "Tell primary care from specialist care.",
+     "focus": 1,
+     "file": "clips/af95e503077a.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Know the difference between a doctor's office, urgent care and the emergency room.",
+     "say": "Know the difference between a doctor's office, urgent care and the emergency room.",
+     "focus": 2,
+     "file": "clips/acbf71042c65.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "Explain what \"in network\" means and why it saves money.",
+     "say": "Explain what \"in network\" means and why it saves money.",
+     "focus": 3,
+     "file": "clips/32287de8ca80.mp3",
+     "seconds": 4.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What is a provider?",
+     "say": "What is a provider?",
+     "focus": -1,
+     "file": "clips/7ed8241ddf31.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "What is a provider?",
+   "lines": [
+    {
+     "raw": "A **provider** is any person or organisation that **gives** healthcare.",
+     "say": "A provider is any person or organisation that gives healthcare.",
+     "focus": -1,
+     "file": "clips/f7b80428997f.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "Doctors, nurses, hospitals, clinics, labs and pharmacies are all providers.",
+     "say": "Doctors, nurses, hospitals, clinics, labs and pharmacies are all providers.",
+     "focus": -1,
+     "file": "clips/16c5ac05d423.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "Providers do the work, then send a bill (a **claim**) to get paid.",
+     "say": "Providers do the work, then send a bill (a claim) to get paid.",
+     "focus": -1,
+     "file": "clips/058e435b51aa.mp3",
+     "seconds": 4.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "What is a provider?",
+   "lines": [
+    {
+     "raw": "Common kinds of providers.",
+     "say": "Common kinds of providers.",
+     "focus": -1,
+     "file": "clips/b1b739c6f08e.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "**Primary care doctor (PCP)**. What they do: First doctor for everyday problems and check-ups. Nepal example: The general physician you see in OPD. US example in our story: Dr. Patel, Emily's family doctor.",
+     "say": "Primary care doctor (P C P). What they do: First doctor for everyday problems and check-ups. Nepal example: The general physician you see in O P D. U S example in our story: Doctor Patel, Emily's family doctor.",
+     "focus": 0,
+     "file": "clips/5a23061941d2.mp3",
+     "seconds": 15.65
+    },
+    {
+     "raw": "**Specialist**. What they do: Expert in one area: heart, skin, surgery and so on. Nepal example: A cardiologist at Shahid Gangalal or a surgeon at a big hospital. US example in our story: Dr. Lee, surgeon at Lakeside Surgical Group.",
+     "say": "Specialist. What they do: Expert in one area: heart, skin, surgery and so on. Nepal example: A cardiologist at Shahid Gangalal or a surgeon at a big hospital. U S example in our story: Doctor Lee, surgeon at Lakeside Surgical Group.",
+     "focus": 1,
+     "file": "clips/05a3957d5fd2.mp3",
+     "seconds": 17.4
+    },
+    {
+     "raw": "**Hospital**. What they do: Stays overnight, surgery, emergency care. Nepal example: Bir Hospital, Teaching Hospital, private hospitals. US example in our story: Lakeside General Hospital.",
+     "say": "Hospital. What they do: Stays overnight, surgery, emergency care. Nepal example: Bir Hospital, Teaching Hospital, private hospitals. U S example in our story: Lakeside General Hospital.",
+     "focus": 2,
+     "file": "clips/8804b05205af.mp3",
+     "seconds": 13.575
+    },
+    {
+     "raw": "**Clinic / outpatient centre**. What they do: Visits and small procedures, no overnight stay. Nepal example: A polyclinic in your neighbourhood. US example in our story: Sunrise Family Clinic, where Dr. Patel works.",
+     "say": "Clinic or outpatient centre. What they do: Visits and small procedures, no overnight stay. Nepal example: A polyclinic in your neighbourhood. U S example in our story: Sunrise Family Clinic, where Doctor Patel works.",
+     "focus": 3,
+     "file": "clips/5920f83e6215.mp3",
+     "seconds": 14.925
+    },
+    {
+     "raw": "**Laboratory**. What they do: Blood tests, swabs, other tests. Nepal example: A diagnostic centre where you collect reports next day. US example in our story: A lab that tests a blood sample.",
+     "say": "Laboratory. What they do: Blood tests, swabs, other tests. Nepal example: A diagnostic centre where you collect reports next day. U S example in our story: A lab that tests a blood sample.",
+     "focus": 4,
+     "file": "clips/9543f47810ac.mp3",
+     "seconds": 14.15
+    },
+    {
+     "raw": "**Pharmacy**. What they do: Gives out prescribed medicines. Nepal example: A medical shop / pharmacy. US example in our story: Main Street Pharmacy.",
+     "say": "Pharmacy. What they do: Gives out prescribed medicines. Nepal example: A medical shop or pharmacy. U S example in our story: Main Street Pharmacy.",
+     "focus": 5,
+     "file": "clips/f0283ce21903.mp3",
+     "seconds": 10.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "What is a provider?",
+   "lines": [
+    {
+     "raw": "All names in our story are made up.",
+     "say": "All names in our story are made up.",
+     "focus": -1,
+     "file": "clips/30d5015a91e1.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Dr. Patel, Dr. Lee, Dr. Gomez, Sunrise Family Clinic, Lakeside General Hospital and Main Street Pharmacy are **fictional**, used only for learning.",
+     "say": "Doctor Patel, Doctor Lee, Doctor Gomez, Sunrise Family Clinic, Lakeside General Hospital and Main Street Pharmacy are fictional, used only for learning.",
+     "focus": -1,
+     "file": "clips/ecd1b2bd22aa.mp3",
+     "seconds": 10.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Primary care vs specialist.",
+     "say": "Primary care versus specialist.",
+     "focus": -1,
+     "file": "clips/3892459cffc7.mp3",
+     "seconds": 2.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Primary care vs specialist",
+   "lines": [
+    {
+     "raw": "In the US, most people have a **primary care physician (PCP)**: a family doctor, internal medicine doctor or paediatrician who knows their history.",
+     "say": "In the U S, most people have a primary care physician (P C P): a family doctor, internal medicine doctor or paediatrician who knows their history.",
+     "focus": -1,
+     "file": "clips/fee67398ec9c.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "The PCP handles everyday problems and sends the patient to a **specialist** when needed.",
+     "say": "The P C P handles everyday problems and sends the patient to a specialist when needed.",
+     "focus": -1,
+     "file": "clips/b9250213290a.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "This sending is called a **referral**.",
+     "say": "This sending is called a referral.",
+     "focus": -1,
+     "file": "clips/b797718860ec.mp3",
+     "seconds": 2.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Primary care vs specialist",
+   "lines": [
+    {
+     "raw": "In Nepal: Going straight to the specialist.",
+     "say": "In Nepal: Going straight to the specialist.",
+     "focus": -1,
+     "file": "clips/a81a4a17f4aa.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "In Nepal, Ram can usually walk into a big hospital and book a ticket to see a specialist directly.",
+     "say": "In Nepal, Ram can usually walk into a big hospital and book a ticket to see a specialist directly.",
+     "focus": 0,
+     "file": "clips/29a239593b18.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Nobody asks for a referral letter.",
+     "say": "Nobody asks for a referral letter.",
+     "focus": 0,
+     "file": "clips/131adf160279.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "For Sita, the hospital must be **SSF-listed**, or SSF will not pay.",
+     "say": "For Sita, the hospital must be S S F listed, or S S F will not pay.",
+     "focus": 1,
+     "file": "clips/4fe57dbd36dc.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Where she goes is limited by the scheme, not just by her choice.",
+     "say": "Where she goes is limited by the scheme, not just by her choice.",
+     "focus": 1,
+     "file": "clips/78163b25cbac.mp3",
+     "seconds": 4.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Primary care vs specialist",
+   "lines": [
+    {
+     "raw": "In the US: Emily's providers in 2025.",
+     "say": "In the U S: Emily's providers in 2025.",
+     "focus": -1,
+     "file": "clips/e9f24c4f7f4b.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "**10 March**: sore throat.",
+     "say": "10 March: sore throat.",
+     "focus": 0,
+     "file": "clips/bfe3182ccb31.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Emily sees her PCP, **Dr. Patel**, at **Sunrise Family Clinic**.",
+     "say": "Emily sees her P C P, Doctor Patel, at Sunrise Family Clinic.",
+     "focus": 0,
+     "file": "clips/e4532821c157.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Diagnosis: strep throat.",
+     "say": "Diagnosis: strep throat.",
+     "focus": 0,
+     "file": "clips/d2f2f4e1ff42.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "The same day, she collects **amoxicillin** at **Main Street Pharmacy**.",
+     "say": "The same day, she collects amoxicillin at Main Street Pharmacy.",
+     "focus": 1,
+     "file": "clips/86f4446848aa.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "**2 to 4 June**: appendicitis.",
+     "say": "2 to 4 June: appendicitis.",
+     "focus": 2,
+     "file": "clips/25f55b3392eb.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "She is admitted to **Lakeside General Hospital**.",
+     "say": "She is admitted to Lakeside General Hospital.",
+     "focus": 2,
+     "file": "clips/d9d130fa533f.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "**Dr. Lee** (surgeon) removes her appendix, and **Dr. Gomez** gives the anaesthesia.",
+     "say": "Doctor Lee (surgeon) removes her appendix, and Doctor Gomez gives the anaesthesia.",
+     "focus": 2,
+     "file": "clips/e587acced3cd.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "One hospital stay, three providers, and each sends its **own claim**: one from the hospital, one from the surgeon, one from the anaesthesia doctor.",
+     "say": "One hospital stay, three providers, and each sends its own claim: one from the hospital, one from the surgeon, one from the anaesthesia doctor.",
+     "focus": 3,
+     "file": "clips/e867decb720e.mp3",
+     "seconds": 9.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Where to go when you are sick.",
+     "say": "Where to go when you are sick.",
+     "focus": -1,
+     "file": "clips/e8272262f0b0.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Where to go when you are sick",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Doctor's office** (PCP). Use it for: Check-ups, fever, ongoing conditions. Rough cost to the plan: Lowest.",
+     "say": "Doctor's office (P C P). Use it for: Check-ups, fever, ongoing conditions. Rough cost to the plan: Lowest.",
+     "focus": 0,
+     "file": "clips/24385371ff73.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "**Urgent care centre**. Use it for: Needs care today, but not life-threatening: a sprain, a cut. Rough cost to the plan: Medium.",
+     "say": "Urgent care centre. Use it for: Needs care today, but not life-threatening: a sprain, a cut. Rough cost to the plan: Medium.",
+     "focus": 1,
+     "file": "clips/6d483627db70.mp3",
+     "seconds": 9
+    },
+    {
+     "raw": "**Emergency room (ER)**. Use it for: Serious and sudden: chest pain, a bad accident, appendicitis. Rough cost to the plan: Highest.",
+     "say": "Emergency room (E R). Use it for: Serious and sudden: chest pain, a bad accident, appendicitis. Rough cost to the plan: Highest.",
+     "focus": 2,
+     "file": "clips/e5dc6d96347f.mp3",
+     "seconds": 9.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "In network and out of network.",
+     "say": "In network and out of network.",
+     "focus": -1,
+     "file": "clips/9814b943c912.mp3",
+     "seconds": 2.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "In network and out of network",
+   "lines": [
+    {
+     "raw": "Insurance companies sign **contracts** with providers.",
+     "say": "Insurance companies sign contracts with providers.",
+     "focus": -1,
+     "file": "clips/53f5945d5dba.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "In the contract, the provider agrees to accept a set price (the **allowed amount**) for each service.",
+     "say": "In the contract, the provider agrees to accept a set price (the allowed amount) for each service.",
+     "focus": -1,
+     "file": "clips/7ac1275c5c30.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Providers with a contract are **in network**.",
+     "say": "Providers with a contract are in network.",
+     "focus": -1,
+     "file": "clips/9e50444f3ed7.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Providers without one are **out of network**.",
+     "say": "Providers without one are out of network.",
+     "focus": -1,
+     "file": "clips/301daf1b9f44.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "In network and out of network",
+   "lines": [
+    {
+     "raw": "Like a hotel with a corporate rate.",
+     "say": "Like a hotel with a corporate rate.",
+     "focus": -1,
+     "file": "clips/f6347ac78438.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "A company in Kathmandu agrees a special room rate with certain hotels for its staff.",
+     "say": "A company in Kathmandu agrees a special room rate with certain hotels for its staff.",
+     "focus": -1,
+     "file": "clips/0d27df5543e9.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "Staff who stay at those hotels pay the lower agreed rate.",
+     "say": "Staff who stay at those hotels pay the lower agreed rate.",
+     "focus": -1,
+     "file": "clips/81e823e2c008.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Staff who stay elsewhere pay the full price, and the company may refund only part of it.",
+     "say": "Staff who stay elsewhere pay the full price, and the company may refund only part of it.",
+     "focus": -1,
+     "file": "clips/666f83e5cc20.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "Insurance networks work the same way.",
+     "say": "Insurance networks work the same way.",
+     "focus": -1,
+     "file": "clips/a231e789b260.mp3",
+     "seconds": 2.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "In network and out of network",
+   "lines": [
+    {
+     "raw": "Why network matters for Emily.",
+     "say": "Why network matters for Emily.",
+     "focus": -1,
+     "file": "clips/125ee55f244d.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Price. In network: Contracted **allowed amount** (lower). Out of network: Often the full **billed** price.",
+     "say": "Price. In network: Contracted allowed amount (lower). Out of network: Often the full billed price.",
+     "focus": 0,
+     "file": "clips/51d8513ec2ec.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "Emily's share. In network: Her normal copay or coinsurance. Out of network: Usually more, and some plans pay nothing.",
+     "say": "Emily's share. In network: Her normal copay or coinsurance. Out of network: Usually more, and some plans pay nothing.",
+     "focus": 1,
+     "file": "clips/0eb9b12a6d32.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "Who sends the claim? In network: The provider, directly to the insurer. Out of network: Usually the provider, but sometimes Emily pays and claims it back herself, like Ram.",
+     "say": "Who sends the claim? In network: The provider, directly to the insurer. Out of network: Usually the provider, but sometimes Emily pays and claims it back herself, like Ram.",
+     "focus": 2,
+     "file": "clips/860813a4ddaf.mp3",
+     "seconds": 11.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "In network and out of network",
+   "lines": [
+    {
+     "raw": "See the discount in action.",
+     "say": "See the discount in action.",
+     "focus": -1,
+     "file": "clips/d9dc515ffe71.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Dr. Patel **billed $150** for Emily's visit, but because she is in network, the insurer's **allowed amount** is only **$102**.",
+     "say": "Doctor Patel billed 150 dollars for Emily's visit, but because she is in network, the insurer's allowed amount is only 102 dollars.",
+     "focus": -1,
+     "file": "clips/4b38bc994a6e.mp3",
+     "seconds": 10.025
+    },
+    {
+     "raw": "The $48 difference ($150 - $102) is a contract discount: nobody pays it.",
+     "say": "The 48 dollars difference (150 dollars - 102 dollars) is a contract discount: nobody pays it.",
+     "focus": -1,
+     "file": "clips/8227d89cfbb5.mp3",
+     "seconds": 7.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "In network and out of network",
+   "lines": [
+    {
+     "raw": "Network.",
+     "say": "Network.",
+     "focus": 0,
+     "file": "clips/8f057723ae3c.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "The list of providers that have a contract with a plan.",
+     "say": "The list of providers that have a contract with a plan.",
+     "focus": 0,
+     "file": "clips/2c4832f60071.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Billed amount.",
+     "say": "Billed amount.",
+     "focus": 1,
+     "file": "clips/2b1e5a440e81.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "The provider's full list price for a service.",
+     "say": "The provider's full list price for a service.",
+     "focus": 1,
+     "file": "clips/83477f0fb2ad.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Allowed amount.",
+     "say": "Allowed amount.",
+     "focus": 2,
+     "file": "clips/7462da1a09f9.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The price the plan and an in-network provider agreed.",
+     "say": "The price the plan and an in-network provider agreed.",
+     "focus": 2,
+     "file": "clips/700e2ea7dff2.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Plan share + member share = allowed amount.",
+     "say": "Plan share and member share = allowed amount.",
+     "focus": 2,
+     "file": "clips/dc1f2f7e199f.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "NPI.",
+     "say": "N P I.",
+     "focus": 3,
+     "file": "clips/4741f1d32de4.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "National Provider Identifier: a 10-digit ID every US provider uses on claims.",
+     "say": "National Provider Identifier: a 10-digit I D every U S provider uses on claims.",
+     "focus": 3,
+     "file": "clips/63cdc285e10f.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "Lakeside General Hospital's (made-up) NPI is `1234567893`.",
+     "say": "Lakeside General Hospital's (made-up) N P I is 1 2 3 4 5 6 7 8 9 3.",
+     "focus": 3,
+     "file": "clips/6276ac466b9b.mp3",
+     "seconds": 6.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "In network and out of network",
+   "lines": [
+    {
+     "raw": "Want to go deeper?",
+     "say": "Want to go deeper?",
+     "focus": -1,
+     "file": "clips/5f97636bdef1.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Billing and rendering providers, NPIs and places of service are covered in the Medical course.",
+     "say": "Billing and rendering providers, N P I's and places of service are covered in the Medical course.",
+     "focus": -1,
+     "file": "clips/a4e27e2014d8.mp3",
+     "seconds": 6.475
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Providers give care: doctors, hospitals, clinics, labs and pharmacies.",
+     "say": "Providers give care: doctors, hospitals, clinics, labs and pharmacies.",
+     "focus": 0,
+     "file": "clips/6860e0850ec6.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "A PCP handles everyday care and refers patients to specialists.",
+     "say": "A P C P handles everyday care and refers patients to specialists.",
+     "focus": 1,
+     "file": "clips/f2597b839acd.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "One hospital stay usually means several claims: hospital, surgeon, anaesthesia.",
+     "say": "One hospital stay usually means several claims: hospital, surgeon, anaesthesia.",
+     "focus": 2,
+     "file": "clips/cefd558e798c.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "In-network providers accept a contracted allowed amount; out of network usually costs the member more.",
+     "say": "In-network providers accept a contracted allowed amount; out of network usually costs the member more.",
+     "focus": 3,
+     "file": "clips/e648b855eb15.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Every US provider has a 10-digit NPI.",
+     "say": "Every U S provider has a 10-digit N P I.",
+     "focus": 4,
+     "file": "clips/9b57c6f12df9.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.6
+    }
+   ]
+  }
+ ]
+}

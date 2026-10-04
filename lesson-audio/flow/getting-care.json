@@ -1,0 +1,883 @@
+{
+ "courseId": "flow",
+ "lessonId": "getting-care",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: Getting Sick & Getting Care.",
+     "say": "Lesson 2: Getting Sick and Getting Care.",
+     "focus": -1,
+     "file": "clips/ae05b8f4c879.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "A health event, the right place to go, an appointment and a check-in.",
+     "say": "A health event, the right place to go, an appointment and a check-in.",
+     "focus": -1,
+     "file": "clips/cbf47f16a05b.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Choose the right level of care: primary care, specialist, urgent care or emergency room.",
+     "say": "Choose the right level of care: primary care, specialist, urgent care or emergency room.",
+     "focus": 0,
+     "file": "clips/bc152abfbf60.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "Explain why staying in-network matters, and how HMO and PPO rules differ.",
+     "say": "Explain why staying in-network matters, and how H M O and P P O rules differ.",
+     "focus": 1,
+     "file": "clips/586966d2028b.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "Describe what happens at check-in, including the 270/271 eligibility check.",
+     "say": "Describe what happens at check-in, including the 2 70/2 71 eligibility check.",
+     "focus": 2,
+     "file": "clips/db3ddd400f89.mp3",
+     "seconds": 6.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The health event.",
+     "say": "The health event.",
+     "focus": -1,
+     "file": "clips/ce02dfc67d1c.mp3",
+     "seconds": 1.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The health event",
+   "lines": [
+    {
+     "raw": "In the simulator, the next screen gives the patient a **health event**: flu-like symptoms, a twisted ankle, or chronic knee pain.",
+     "say": "In the simulator, the next screen gives the patient a health event: flu-like symptoms, a twisted ankle, or chronic knee pain.",
+     "focus": -1,
+     "file": "clips/e2cabdb882fc.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "Each one points to a different kind of care.",
+     "say": "Each one points to a different kind of care.",
+     "focus": -1,
+     "file": "clips/facd7d0e5a80.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "For Emily, the health event is a sore throat.",
+     "say": "For Emily, the health event is a sore throat.",
+     "focus": -1,
+     "file": "clips/35a2919b4d5e.mp3",
+     "seconds": 3.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The health event",
+   "lines": [
+    {
+     "raw": "In the US: Emily's health event: 10 March 2025.",
+     "say": "In the U S: Emily's health event: 10 March 2025.",
+     "focus": -1,
+     "file": "clips/ede7cd5d6ac3.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Emily wakes up with a **painful sore throat**, a **fever** and swollen glands in her neck.",
+     "say": "Emily wakes up with a painful sore throat, a fever and swollen glands in her neck.",
+     "focus": 0,
+     "file": "clips/895fe0b9f139.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "It is not life-threatening, but she wants to see a doctor today.",
+     "say": "It is not life-threatening, but she wants to see a doctor today.",
+     "focus": 1,
+     "file": "clips/295d03e0864d.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Before going anywhere, she has already paid nothing toward her **$1,000 deductible** this year.",
+     "say": "Before going anywhere, she has already paid nothing toward her 1000 dollars deductible this year.",
+     "focus": 2,
+     "file": "clips/29b1a31e8318.mp3",
+     "seconds": 6.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Choosing the level of care.",
+     "say": "Choosing the level of care.",
+     "focus": -1,
+     "file": "clips/390917db58ca.mp3",
+     "seconds": 2.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Choosing the level of care",
+   "lines": [
+    {
+     "raw": "The **care level** screen in the simulator offers four places to go.",
+     "say": "The care level screen in the simulator offers four places to go.",
+     "focus": -1,
+     "file": "clips/d2a12be12b44.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "The right choice depends on how serious the problem is, and on the plan's rules.",
+     "say": "The right choice depends on how serious the problem is, and on the plan's rules.",
+     "focus": -1,
+     "file": "clips/706e2b4821d9.mp3",
+     "seconds": 5.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Choosing the level of care",
+   "lines": [
+    {
+     "raw": "The four care levels in Try It Yourself.",
+     "say": "The four care levels in Try It Yourself.",
+     "focus": -1,
+     "file": "clips/63242186d56c.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "**Primary care physician (PCP)**. Best for: Routine care and minor illness, like flu or a sore throat. Typical wait: 1 to 3 days (sometimes same day). Cost to the patient: Lowest copay.",
+     "say": "Primary care physician (P C P). Best for: Routine care and minor illness, like flu or a sore throat. Typical wait: 1 to 3 days (sometimes same day). Cost to the patient: Lowest copay.",
+     "focus": 0,
+     "file": "clips/ad126ce8499c.mp3",
+     "seconds": 13.525
+    },
+    {
+     "raw": "**Specialist**. Best for: A specific problem, like long-term knee pain (orthopaedics). Typical wait: 1 to 2 weeks. Cost to the patient: Higher copay; HMO needs a referral first.",
+     "say": "Specialist. Best for: A specific problem, like long-term knee pain (orthopaedics). Typical wait: 1 to 2 weeks. Cost to the patient: Higher copay; H M O needs a referral first.",
+     "focus": 1,
+     "file": "clips/e11277f7788c.mp3",
+     "seconds": 12.825
+    },
+    {
+     "raw": "**Urgent care**. Best for: Needs attention today but not life-threatening, like a sprained ankle. Typical wait: Same day, evenings and weekends. Cost to the patient: Higher than a PCP visit.",
+     "say": "Urgent care. Best for: Needs attention today but not life-threatening, like a sprained ankle. Typical wait: Same day, evenings and weekends. Cost to the patient: Higher than a P C P visit.",
+     "focus": 2,
+     "file": "clips/5c67b43df55c.mp3",
+     "seconds": 13.325
+    },
+    {
+     "raw": "**Emergency room (ER)**. Best for: Life-threatening emergencies only. Typical wait: Immediate, by triage (most serious first). Cost to the patient: Most expensive by far.",
+     "say": "Emergency room (E R). Best for: Life-threatening emergencies only. Typical wait: Immediate, by triage (most serious first). Cost to the patient: Most expensive by far.",
+     "focus": 3,
+     "file": "clips/b8f269d952df.mp3",
+     "seconds": 12.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Choosing the level of care",
+   "lines": [
+    {
+     "raw": "HMO vs PPO at this step.",
+     "say": "H M O versus P P O at this step.",
+     "focus": -1,
+     "file": "clips/2eb5827a9502.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "With the **HMO**, the patient should start with the **PCP** for non-emergency problems, and needs a **referral** to see a specialist.",
+     "say": "With the H M O, the patient should start with the P C P for non-emergency problems, and needs a referral to see a specialist.",
+     "focus": -1,
+     "file": "clips/2d7d8c560c70.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "With the **PPO**, the patient can choose any level directly.",
+     "say": "With the P P O, the patient can choose any level directly.",
+     "focus": -1,
+     "file": "clips/f4218b191aad.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Both plans cover the **ER** in a real emergency, even out of network.",
+     "say": "Both plans cover the E R in a real emergency, even out of network.",
+     "focus": -1,
+     "file": "clips/3cd052921a33.mp3",
+     "seconds": 5.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Choosing the level of care",
+   "lines": [
+    {
+     "raw": "In Nepal: Where would Ram and Sita go?",
+     "say": "In Nepal: Where would Ram and Sita go?",
+     "focus": -1,
+     "file": "clips/2b3e3b44b1bd.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram would probably buy an **OPD ticket** at a private hospital or clinic near his office, see a doctor, and pay at the counter.",
+     "say": "Ram would probably buy an O P D ticket at a private hospital or clinic near his office, see a doctor, and pay at the counter.",
+     "focus": 0,
+     "file": "clips/92d54ebd0cd8.mp3",
+     "seconds": 8.5
+    },
+    {
+     "raw": "He can go almost anywhere.",
+     "say": "He can go almost anywhere.",
+     "focus": 1,
+     "file": "clips/039f828ab700.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "He keeps the receipt and prescription to claim the money back from his insurer later.",
+     "say": "He keeps the receipt and prescription to claim the money back from his insurer later.",
+     "focus": 1,
+     "file": "clips/51bcb48f3b30.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita would go to an **SSF-listed hospital**.",
+     "say": "Sita would go to an S S F listed hospital.",
+     "focus": 2,
+     "file": "clips/382e85e54008.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "Going elsewhere would usually mean SSF does not pay, just like going out of network on a US HMO.",
+     "say": "Going elsewhere would usually mean S S F does not pay, just like going out of network on a U S H M O.",
+     "focus": 2,
+     "file": "clips/2ca9653fd845.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "For an emergency, both would go straight to the **emergency department**, just like the US ER.",
+     "say": "For an emergency, both would go straight to the emergency department, just like the U S E R.",
+     "focus": 3,
+     "file": "clips/353f53c5994b.mp3",
+     "seconds": 6.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Choosing the level of care",
+   "lines": [
+    {
+     "raw": "In the US: Emily's choice.",
+     "say": "In the U S: Emily's choice.",
+     "focus": -1,
+     "file": "clips/3370f1cfe312.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Emily calls her **PCP**, **Dr. Patel**, a family doctor at **Sunrise Family Clinic**.",
+     "say": "Emily calls her P C P, Doctor Patel, a family doctor at Sunrise Family Clinic.",
+     "focus": 0,
+     "file": "clips/093421a3bdec.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "Dr. Patel is **in-network**, and Emily has seen her before, so she is an **established patient**.",
+     "say": "Doctor Patel is in-network, and Emily has seen her before, so she is an established patient.",
+     "focus": 0,
+     "file": "clips/7e75937f10f0.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "She does not need the ER: a sore throat with fever is not an emergency.",
+     "say": "She does not need the E R: a sore throat with fever is not an emergency.",
+     "focus": 1,
+     "file": "clips/6a5a2ce7234e.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Urgent care would also work, but her PCP has a slot today and the copay is lower.",
+     "say": "Urgent care would also work, but her P C P has a slot today and the copay is lower.",
+     "focus": 1,
+     "file": "clips/5c74010a7450.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Because she has a PPO, she could have gone to an ENT specialist directly.",
+     "say": "Because she has a P P O, she could have gone to an E N T specialist directly.",
+     "focus": 2,
+     "file": "clips/97d0b7f0af79.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "She does not need to.",
+     "say": "She does not need to.",
+     "focus": 2,
+     "file": "clips/82468b760ddb.mp3",
+     "seconds": 1.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Why in-network matters.",
+     "say": "Why in-network matters.",
+     "focus": -1,
+     "file": "clips/f9459b7d370a.mp3",
+     "seconds": 2.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Why in-network matters",
+   "lines": [
+    {
+     "raw": "In-network provider.",
+     "say": "In-network provider.",
+     "focus": 0,
+     "file": "clips/a58e11346209.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "A doctor or hospital with a **contract** with the insurer.",
+     "say": "A doctor or hospital with a contract with the insurer.",
+     "focus": 0,
+     "file": "clips/6e9a1a4c4cba.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "They accept the insurer's agreed price (the **allowed amount**) and cannot charge the patient the difference.",
+     "say": "They accept the insurer's agreed price (the allowed amount) and cannot charge the patient the difference.",
+     "focus": 0,
+     "file": "clips/5060e960838d.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "Out-of-network provider.",
+     "say": "Out-of-network provider.",
+     "focus": 1,
+     "file": "clips/abcfed664b55.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "No contract.",
+     "say": "No contract.",
+     "focus": 1,
+     "file": "clips/6a45d0a012a5.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "A PPO pays less and the patient pays more; an HMO usually pays nothing except for emergencies.",
+     "say": "A P P O pays less and the patient pays more; an H M O usually pays nothing except for emergencies.",
+     "focus": 1,
+     "file": "clips/2985c0fa04c5.mp3",
+     "seconds": 7.825
+    },
+    {
+     "raw": "The provider may also bill the patient for the difference (**balance billing**), within legal limits.",
+     "say": "The provider may also bill the patient for the difference (balance billing), within legal limits.",
+     "focus": 1,
+     "file": "clips/907b1fa4de8a.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Provider directory.",
+     "say": "Provider directory.",
+     "focus": 2,
+     "file": "clips/3311fc08909c.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "The insurer's searchable list of in-network providers.",
+     "say": "The insurer's searchable list of in-network providers.",
+     "focus": 2,
+     "file": "clips/4d2b0e2bf28f.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Emily checks it, or the insurer's app, before booking.",
+     "say": "Emily checks it, or the insurer's app, before booking.",
+     "focus": 2,
+     "file": "clips/b34b66611032.mp3",
+     "seconds": 3.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Booking the appointment.",
+     "say": "Booking the appointment.",
+     "focus": -1,
+     "file": "clips/233d2226adfd.mp3",
+     "seconds": 1.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Booking the appointment",
+   "lines": [
+    {
+     "raw": "In the simulator you pick a **date and time** for the visit (or go straight in for the ER).",
+     "say": "In the simulator you pick a date and time for the visit (or go straight in for the E R).",
+     "focus": -1,
+     "file": "clips/3d4ec7a6f1df.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "The front desk records the patient's name, date of birth and **insurance details** from the ID card.",
+     "say": "The front desk records the patient's name, date of birth and insurance details from the I D card.",
+     "focus": -1,
+     "file": "clips/091fa9d4099b.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "Emily books **10 March 2025** with Dr. Patel.",
+     "say": "Emily books 10 March 2025 with Doctor Patel.",
+     "focus": -1,
+     "file": "clips/661a44b0178b.mp3",
+     "seconds": 4.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Check-in: is this person really covered?",
+     "say": "Check-in: is this person really covered?",
+     "focus": -1,
+     "file": "clips/99877271d648.mp3",
+     "seconds": 2.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Check-in: is this person really covered?",
+   "lines": [
+    {
+     "raw": "When Emily arrives, the front desk does not just look at her card.",
+     "say": "When Emily arrives, the front desk does not just look at her card.",
+     "focus": -1,
+     "file": "clips/1b31440c6d5a.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "A card shows who was covered when it was **printed**.",
+     "say": "A card shows who was covered when it was printed.",
+     "focus": -1,
+     "file": "clips/3b94ba644f67.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "So the clinic's software asks the insurer directly.",
+     "say": "So the clinic's software asks the insurer directly.",
+     "focus": -1,
+     "file": "clips/be13276bf04c.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "This is the **check-in** screen in the simulator.",
+     "say": "This is the check-in screen in the simulator.",
+     "focus": -1,
+     "file": "clips/523b48d8eda2.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Check-in: is this person really covered?",
+   "lines": [
+    {
+     "raw": "Step 1: 270 sent.",
+     "say": "Step 1: 2 70 sent.",
+     "focus": 0,
+     "file": "clips/ea81e86b5c20.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "The clinic sends an electronic **eligibility inquiry (270)**: member ID, name, date of birth, date of service.",
+     "say": "The clinic sends an electronic eligibility inquiry (2 70): member I D, name, date of birth, date of service.",
+     "focus": 0,
+     "file": "clips/974375fb00d4.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Step 2: 271 returned.",
+     "say": "Step 2: 2 71 returned.",
+     "focus": 1,
+     "file": "clips/2f4c181908de.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Within seconds the insurer answers with a **271**: coverage active, plan TXPPO1000, office visit copay $25.",
+     "say": "Within seconds the insurer answers with a 2 71: coverage active, plan T X P P O 1 0 0 0, office visit copay 25 dollars.",
+     "focus": 1,
+     "file": "clips/908013ed9007.mp3",
+     "seconds": 11.6
+    },
+    {
+     "raw": "Step 3: Benefits checked.",
+     "say": "Step 3: Benefits checked.",
+     "focus": 2,
+     "file": "clips/d7cdc971dd69.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "The response also shows the deductible left ($1,000) and the out-of-pocket maximum left ($5,000), and flags any prior authorization needed.",
+     "say": "The response also shows the deductible left (1000 dollars) and the out-of-pocket maximum left (5000 dollars), and flags any prior authorization needed.",
+     "focus": 2,
+     "file": "clips/dfd1488d4050.mp3",
+     "seconds": 10.925
+    },
+    {
+     "raw": "Step 4: Copay collected.",
+     "say": "Step 4: Copay collected.",
+     "focus": 3,
+     "file": "clips/4c8607e727dc.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Emily pays her **$25 copay** at the desk.",
+     "say": "Emily pays her 25 dollars copay at the desk.",
+     "focus": 3,
+     "file": "clips/c44cf9a09590.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Some clinics collect it after the claim instead.",
+     "say": "Some clinics collect it after the claim instead.",
+     "focus": 3,
+     "file": "clips/fda719856b49.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Check-in: is this person really covered?",
+   "lines": [
+    {
+     "raw": "Here is the 271 response form: What the clinic sees for Emily (simplified).",
+     "say": "Here is the 2 71 response form: What the clinic sees for Emily (simplified).",
+     "focus": -1,
+     "file": "clips/e325ebc82095.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "Member: Emily Carter.",
+     "say": "Member: Emily Carter.",
+     "focus": 0,
+     "file": "clips/79ffaf90671c.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "ID 48291307-01 (from her card) · born 14 Aug 1990.",
+     "say": "I D 4 8 2 9 1 3 0 7 dash 0 1 (from her card), born 14 Aug 1990.",
+     "focus": 0,
+     "file": "clips/23072cce9a86.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "Coverage: Active.",
+     "say": "Coverage: Active.",
+     "focus": 1,
+     "file": "clips/3f5a7809ba88.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "On 10 Mar 2025, the date of service.",
+     "say": "On 10 Mar 2025, the date of service.",
+     "focus": 1,
+     "file": "clips/fcf4ff8782ea.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Group / plan: G20450 / TXPPO1000.",
+     "say": "Group or plan: G 2 0 4 5 0 or T X P P O 1 0 0 0.",
+     "focus": 2,
+     "file": "clips/e7299fc73f48.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "Bluebonnet Logistics, PPO.",
+     "say": "Bluebonnet Logistics, P P O.",
+     "focus": 2,
+     "file": "clips/c797444817ff.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Office visit copay: $25.",
+     "say": "Office visit copay: 25 dollars.",
+     "focus": 3,
+     "file": "clips/6fc766bc45c6.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Deductible remaining: $1,000 of $1,000.",
+     "say": "Deductible remaining: 1000 dollars of 1000 dollars.",
+     "focus": 4,
+     "file": "clips/8d90533b4099.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Out-of-pocket max remaining: $5,000 of $5,000.",
+     "say": "Out-of-pocket max remaining: 5000 dollars of 5000 dollars.",
+     "focus": 5,
+     "file": "clips/21f94f2836f0.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Network status: Dr. Patel: in-network.",
+     "say": "Network status: Doctor Patel: in-network.",
+     "focus": 6,
+     "file": "clips/2a053500745f.mp3",
+     "seconds": 3.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Check-in: is this person really covered?",
+   "lines": [
+    {
+     "raw": "What can go wrong at check-in (the simulator can show each of these).",
+     "say": "What can go wrong at check-in (the simulator can show each of these).",
+     "focus": -1,
+     "file": "clips/39a3b0aca50f.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Coverage terminated. What it means: The plan ended before today. What happens next: Patient gives other insurance, or pays the self-pay rate (maybe with a payment plan).",
+     "say": "Coverage terminated. What it means: The plan ended before today. What happens next: Patient gives other insurance, or pays the self-pay rate (maybe with a payment plan).",
+     "focus": 0,
+     "file": "clips/5cc82cc1325a.mp3",
+     "seconds": 11.6
+    },
+    {
+     "raw": "Member ID not found. What it means: Typo or wrong card. What happens next: Front desk re-enters the details or calls the insurer.",
+     "say": "Member I D not found. What it means: Typo or wrong card. What happens next: Front desk re-enters the details or calls the insurer.",
+     "focus": 1,
+     "file": "clips/5e3a4afe2bde.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "Service not covered. What it means: The plan does not cover what is planned today. What happens next: Patient is told before care: pay themselves, choose a covered option, or cancel.",
+     "say": "Service not covered. What it means: The plan does not cover what is planned today. What happens next: Patient is told before care: pay themselves, choose a covered option, or cancel.",
+     "focus": 2,
+     "file": "clips/df27dc8e449a.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "Deductible or copay not returned. What it means: The insurer's system did not answer fully. What happens next: Care goes ahead; the exact patient share is settled after the claim, from the EOB.",
+     "say": "Deductible or copay not returned. What it means: The insurer's system did not answer fully. What happens next: Care goes ahead; the exact patient share is settled after the claim, from the E O B.",
+     "focus": 3,
+     "file": "clips/f388d941fad5.mp3",
+     "seconds": 13.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Check-in: is this person really covered?",
+   "lines": [
+    {
+     "raw": "Check-in in Nepal.",
+     "say": "Check-in in Nepal.",
+     "focus": -1,
+     "file": "clips/b324100ecb93.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's hospital does not check his insurance at all.",
+     "say": "Ram's hospital does not check his insurance at all.",
+     "focus": 0,
+     "file": "clips/eb44e88c068e.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "To the hospital he is a cash patient.",
+     "say": "To the hospital he is a cash patient.",
+     "focus": 0,
+     "file": "clips/88583e5d4f4d.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "His insurer checks his cover weeks later, when he sends in his claim.",
+     "say": "His insurer checks his cover weeks later, when he sends in his claim.",
+     "focus": 0,
+     "file": "clips/eef63c10f8ac.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's SSF-listed hospital **checks her SSF membership** before treating her, using her SSF details.",
+     "say": "Sita's S S F listed hospital checks her S S F membership before treating her, using her S S F details.",
+     "focus": 1,
+     "file": "clips/38d44e82ae2e.mp3",
+     "seconds": 8.3
+    },
+    {
+     "raw": "This is the same idea as a 270/271 check, but the US version is a standard electronic message that every insurer understands.",
+     "say": "This is the same idea as a 2 70/2 71 check, but the U S version is a standard electronic message that every insurer understands.",
+     "focus": 1,
+     "file": "clips/076aca06b042.mp3",
+     "seconds": 10.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Check-in: is this person really covered?",
+   "lines": [
+    {
+     "raw": "Learn more.",
+     "say": "Learn more.",
+     "focus": -1,
+     "file": "clips/3ffe4b2aac3b.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "The Eligibility Data course explains enrollment files (834), coverage dates and the 270/271 check in detail.",
+     "say": "The Eligibility Data course explains enrollment files (8 34), coverage dates and the 2 70/2 71 check in detail.",
+     "focus": -1,
+     "file": "clips/2a13562b3c00.mp3",
+     "seconds": 9.7
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Pick the care level that fits the problem: PCP for routine illness, urgent care for same-day non-emergencies, ER only for emergencies.",
+     "say": "Pick the care level that fits the problem: P C P for routine illness, urgent care for same-day non-emergencies, E R only for emergencies.",
+     "focus": 0,
+     "file": "clips/42f3a5c9c4c2.mp3",
+     "seconds": 10.3
+    },
+    {
+     "raw": "HMO patients start with their PCP and need referrals; PPO patients can choose directly.",
+     "say": "H M O patients start with their P C P and need referrals; P P O patients can choose directly.",
+     "focus": 1,
+     "file": "clips/8e5a6f046776.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "In-network providers accept the insurer's price, so the patient pays less.",
+     "say": "In-network providers accept the insurer's price, so the patient pays less.",
+     "focus": 2,
+     "file": "clips/25de6dd6c1bc.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "At check-in the provider sends a 270 and gets a 271 back: is the patient covered today, and what will they owe?",
+     "say": "At check-in the provider sends a 2 70 and gets a 2 71 back: is the patient covered today, and what will they owe?",
+     "focus": 3,
+     "file": "clips/682c8cbc379d.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

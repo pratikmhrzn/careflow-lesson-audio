@@ -1,0 +1,827 @@
+{
+ "courseId": "basics",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Putting It All Together.",
+     "say": "Lesson 6: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/13c01b6e41c4.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Follow the money and the information between all the players, and see what data each one creates.",
+     "say": "Follow the money and the information between all the players, and see what data each one creates.",
+     "focus": -1,
+     "file": "clips/df9cb5aa0af1.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Trace how money flows between member, employer, payer, provider and government.",
+     "say": "Trace how money flows between member, employer, payer, provider and government.",
+     "focus": 0,
+     "file": "clips/090fec94232a.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "Trace how information (cards, claims, payments) flows between them.",
+     "say": "Trace how information (cards, claims, payments) flows between them.",
+     "focus": 1,
+     "file": "clips/36ab9ca8423c.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Work through one real-looking day of Emily's care, with numbers.",
+     "say": "Work through one real-looking day of Emily's care, with numbers.",
+     "focus": 2,
+     "file": "clips/ae9f09ac4105.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "Know which data type each player creates, and which course explains it.",
+     "say": "Know which data type each player creates, and which course explains it.",
+     "focus": 3,
+     "file": "clips/6d171ac72f32.mp3",
+     "seconds": 4.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two flows: money and information.",
+     "say": "Two flows: money and information.",
+     "focus": -1,
+     "file": "clips/1a7b372f0fff.mp3",
+     "seconds": 2.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Two flows: money and information",
+   "lines": [
+    {
+     "raw": "Every part of US healthcare moves two things: **money** (premiums, payments, copays) and **information** (who is covered, what was done, what was paid).",
+     "say": "Every part of U S healthcare moves two things: money (premiums, payments, copays) and information (who is covered, what was done, what was paid).",
+     "focus": -1,
+     "file": "clips/d2df8f8a2645.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "Once you can follow both, the whole system starts to make sense.",
+     "say": "Once you can follow both, the whole system starts to make sense.",
+     "focus": -1,
+     "file": "clips/c97069e5737c.mp3",
+     "seconds": 4.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Before anyone gets sick.",
+     "say": "Before anyone gets sick.",
+     "focus": -1,
+     "file": "clips/b4dbce62af4d.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Before anyone gets sick",
+   "lines": [
+    {
+     "raw": "Step 1: Emily joins the plan.",
+     "say": "Step 1: Emily joins the plan.",
+     "focus": 0,
+     "file": "clips/6efa9a74e928.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Emily starts work at Bluebonnet Logistics and chooses plan **TXPPO1000**.",
+     "say": "Emily starts work at Bluebonnet Logistics and chooses plan T X P P O 1 0 0 0.",
+     "focus": 0,
+     "file": "clips/93ff1748d227.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "She later adds Lily and, from 1 July 2025, Daniel.",
+     "say": "She later adds Lily and, from 1 July 2025, Daniel.",
+     "focus": 0,
+     "file": "clips/0bac1093ed3c.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "Step 2: Employer tells the insurer.",
+     "say": "Step 2: Employer tells the insurer.",
+     "focus": 1,
+     "file": "clips/0833d62117f7.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Bluebonnet Logistics sends the insurer a list of who is covered, from which date.",
+     "say": "Bluebonnet Logistics sends the insurer a list of who is covered, from which date.",
+     "focus": 1,
+     "file": "clips/a26b85836529.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "This creates **eligibility data** (often sent as an **834** enrollment file).",
+     "say": "This creates eligibility data (often sent as an 8 34 enrollment file).",
+     "focus": 1,
+     "file": "clips/f7dc65e46f5b.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "Step 3: Premiums are paid.",
+     "say": "Step 3: Premiums are paid.",
+     "focus": 2,
+     "file": "clips/3820f321ccd0.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Every month the employer pays the premium to the insurer.",
+     "say": "Every month the employer pays the premium to the insurer.",
+     "focus": 2,
+     "file": "clips/97e5776adf82.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Emily's share is taken from her paycheck.",
+     "say": "Emily's share is taken from her paycheck.",
+     "focus": 2,
+     "file": "clips/a62e303d97fb.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Step 4: Emily gets a card.",
+     "say": "Step 4: Emily gets a card.",
+     "focus": 3,
+     "file": "clips/ce39200b46fc.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "The insurer sends Emily an ID card with her ID number **48291307-01** and group number **G20450**.",
+     "say": "The insurer sends Emily an I D card with her I D number 4 8 2 9 1 3 0 7 dash 0 1 and group number G 2 0 4 5 0.",
+     "focus": 3,
+     "file": "clips/8aa30245576a.mp3",
+     "seconds": 11.875
+    },
+    {
+     "raw": "Inside the insurer's systems she is member **M1001**.",
+     "say": "Inside the insurer's systems she is member M 1 0 0 1.",
+     "focus": 3,
+     "file": "clips/32a9d532f99f.mp3",
+     "seconds": 4.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "When Emily gets sick.",
+     "say": "When Emily gets sick.",
+     "focus": -1,
+     "file": "clips/c00c96ee1e38.mp3",
+     "seconds": 1.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "When Emily gets sick",
+   "lines": [
+    {
+     "raw": "Step 1: Visit.",
+     "say": "Step 1: Visit.",
+     "focus": 0,
+     "file": "clips/85e6ac863986.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "On **10 March 2025** Emily shows her card at Sunrise Family Clinic.",
+     "say": "On 10 March 2025 Emily shows her card at Sunrise Family Clinic.",
+     "focus": 0,
+     "file": "clips/c6a5333b643f.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Dr. Patel diagnoses strep throat.",
+     "say": "Doctor Patel diagnoses strep throat.",
+     "focus": 0,
+     "file": "clips/ca6fd81d152f.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Step 2: Claim sent.",
+     "say": "Step 2: Claim sent.",
+     "focus": 1,
+     "file": "clips/d85a654a3cec.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "The clinic sends a **medical claim** (`23098908`) to the insurer, usually through a **clearinghouse**, a company that checks and forwards claims.",
+     "say": "The clinic sends a medical claim (2 3 0 9 8 9 0 8) to the insurer, usually through a clearinghouse, a company that checks and forwards claims.",
+     "focus": 1,
+     "file": "clips/3c96a0b08168.mp3",
+     "seconds": 10.5
+    },
+    {
+     "raw": "It uses the HIPAA standard format **837**.",
+     "say": "It uses the HIPAA standard format 8 37.",
+     "focus": 1,
+     "file": "clips/b010c2365fe8.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Step 3: Prescription filled.",
+     "say": "Step 3: Prescription filled.",
+     "focus": 2,
+     "file": "clips/02fb6549424f.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Emily collects amoxicillin at Main Street Pharmacy.",
+     "say": "Emily collects amoxicillin at Main Street Pharmacy.",
+     "focus": 2,
+     "file": "clips/a9dcfdb25576.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "The pharmacy sends a **pharmacy claim** to the **PBM**, which answers in seconds.",
+     "say": "The pharmacy sends a pharmacy claim to the P B M, which answers in seconds.",
+     "focus": 2,
+     "file": "clips/a6d6b1f1fc0a.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Step 4: Claim processed.",
+     "say": "Step 4: Claim processed.",
+     "focus": 3,
+     "file": "clips/68907fbda8ec.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "The insurer checks eligibility, applies the in-network price and Emily's benefits.",
+     "say": "The insurer checks eligibility, applies the in-network price and Emily's benefits.",
+     "focus": 3,
+     "file": "clips/6b037236778f.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "This is **adjudication**.",
+     "say": "This is adjudication.",
+     "focus": 3,
+     "file": "clips/e58d337b637b.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Step 5: Provider paid.",
+     "say": "Step 5: Provider paid.",
+     "focus": 4,
+     "file": "clips/5dfe46bf305b.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "The insurer pays the clinic and sends a remittance (format **835**) that explains each payment.",
+     "say": "The insurer pays the clinic and sends a remittance (format 8 35) that explains each payment.",
+     "focus": 4,
+     "file": "clips/b82785b2732c.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "Step 6: Member told.",
+     "say": "Step 6: Member told.",
+     "focus": 5,
+     "file": "clips/2339d9d86380.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Emily gets an **Explanation of Benefits (EOB)** showing what was billed, what the plan paid and what she owes.",
+     "say": "Emily gets an Explanation of Benefits (E O B) showing what was billed, what the plan paid and what she owes.",
+     "focus": 5,
+     "file": "clips/8e7894306a68.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "It is not a bill.",
+     "say": "It is not a bill.",
+     "focus": 5,
+     "file": "clips/54587a830e5c.mp3",
+     "seconds": 1.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "When Emily gets sick",
+   "lines": [
+    {
+     "raw": "The same story in Nepal.",
+     "say": "The same story in Nepal.",
+     "focus": -1,
+     "file": "clips/3220300a4934.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Ram pays the hospital and the medical shop himself, collects the bills, and sends them to his insurer.",
+     "say": "Ram pays the hospital and the medical shop himself, collects the bills, and sends them to his insurer.",
+     "focus": 0,
+     "file": "clips/1a24858d65de.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "**Ram** creates the claim, weeks later, on paper or in an app.",
+     "say": "Ram creates the claim, weeks later, on paper or in an app.",
+     "focus": 0,
+     "file": "clips/649c385465b3.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita pays 20% at the SSF-listed hospital.",
+     "say": "Sita pays 20 percent at the S S F listed hospital.",
+     "focus": 1,
+     "file": "clips/172287e5ab28.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "The **hospital** sends the claim to SSF for the other 80%.",
+     "say": "The hospital sends the claim to S S F for the other 80 percent.",
+     "focus": 1,
+     "file": "clips/a97bba1c9c8d.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "This is the closest to the US flow.",
+     "say": "This is the closest to the U S flow.",
+     "focus": 1,
+     "file": "clips/119a62605346.mp3",
+     "seconds": 2.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Emily's strep throat day.",
+     "say": "Worked example: Emily's strep throat day.",
+     "focus": -1,
+     "file": "clips/a8dc1e6d79d2.mp3",
+     "seconds": 3.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Worked example: Emily's strep throat day",
+   "lines": [
+    {
+     "raw": "10 March 2025: one visit and one prescription (made-up but realistic numbers).",
+     "say": "10 March 2025: one visit and one prescription (made-up but realistic numbers).",
+     "focus": -1,
+     "file": "clips/546f8b311e37.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Medical `23098908`. Provider: Dr. Patel, Sunrise Family Clinic. Sent to: Insurer. Total price: $102.00 allowed (billed $150.00). Emily paid: $25.00 copay. Plan paid: $77.00.",
+     "say": "Medical 2 3 0 9 8 9 0 8. Provider: Doctor Patel, Sunrise Family Clinic. Sent to: Insurer. Total price: 102 dollars allowed (billed 150 dollars). Emily paid: 25 dollars copay. Plan paid: 77 dollars.",
+     "focus": 0,
+     "file": "clips/f16d418b2c94.mp3",
+     "seconds": 19.05
+    },
+    {
+     "raw": "Pharmacy: amoxicillin. Provider: Main Street Pharmacy. Sent to: PBM. Total price: $11.30. Emily paid: $5.00. Plan paid: $6.30.",
+     "say": "Pharmacy: amoxicillin. Provider: Main Street Pharmacy. Sent to: P B M. Total price: 11 dollars 30 cents. Emily paid: 5 dollars. Plan paid: 6 dollars 30 cents.",
+     "focus": 1,
+     "file": "clips/fce8c17784a8.mp3",
+     "seconds": 13.75
+    },
+    {
+     "raw": "**Total for the day**. Total price: **$113.30**. Emily paid: **$30.00**. Plan paid: **$83.30**.",
+     "say": "Total for the day. Total price: 113 dollars 30 cents. Emily paid: 30 dollars. Plan paid: 83 dollars 30 cents.",
+     "focus": 2,
+     "file": "clips/d724bddd6f24.mp3",
+     "seconds": 10.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Worked example: Emily's strep throat day",
+   "lines": [
+    {
+     "raw": "The check that always works.",
+     "say": "The check that always works.",
+     "focus": -1,
+     "file": "clips/600d48e29dd8.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Total price (allowed) equals Emily paid plus Plan paid.",
+     "say": "Total price (allowed) equals Emily paid plus Plan paid.",
+     "focus": 0,
+     "file": "clips/d055a1eb114c.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "For example: $113.30 equals $30.00 plus $83.30.",
+     "say": "For example: 113 dollars 30 cents equals 30 dollars plus 83 dollars 30 cents.",
+     "focus": 1,
+     "file": "clips/e73e1cf74767.mp3",
+     "seconds": 7.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Worked example: Emily's strep throat day",
+   "lines": [
+    {
+     "raw": "Where did the other $48 go?",
+     "say": "Where did the other 48 dollars go?",
+     "focus": -1,
+     "file": "clips/921d9b9d252f.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Dr. Patel billed $150, but the in-network allowed amount was $102.",
+     "say": "Doctor Patel billed 150 dollars but the in-network allowed amount was 102 dollars.",
+     "focus": -1,
+     "file": "clips/f47e948a1130.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "The $48 difference is a **contract discount**.",
+     "say": "The 48 dollars difference is a contract discount.",
+     "focus": -1,
+     "file": "clips/427243a082c9.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Neither Emily nor the plan pays it.",
+     "say": "Neither Emily nor the plan pays it.",
+     "focus": -1,
+     "file": "clips/abaefd82072e.mp3",
+     "seconds": 2.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who pays whom.",
+     "say": "Who pays whom.",
+     "focus": -1,
+     "file": "clips/a4986d1a50b4.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Who pays whom",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Employer + Emily. To: Insurer. What for: Monthly **premium**.",
+     "say": "Employer and Emily. To: Insurer. What for: Monthly premium.",
+     "focus": 0,
+     "file": "clips/070d8d28cd8e.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Emily. To: Clinic and pharmacy. What for: Her **share**: copay, coinsurance, deductible.",
+     "say": "Emily. To: Clinic and pharmacy. What for: Her share: copay, coinsurance, deductible.",
+     "focus": 1,
+     "file": "clips/49061773ba74.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Insurer. To: Clinic, hospital. What for: The **plan share** of each medical claim.",
+     "say": "Insurer. To: Clinic, hospital. What for: The plan share of each medical claim.",
+     "focus": 2,
+     "file": "clips/c1cc3f6b3561.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Plan (through the PBM). To: Pharmacy. What for: The plan share of each pharmacy claim.",
+     "say": "Plan (through the P B M). To: Pharmacy. What for: The plan share of each pharmacy claim.",
+     "focus": 3,
+     "file": "clips/cf22a9bc4efa.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "Taxpayers and Robert. To: Medicare (CMS). What for: Payroll taxes, other taxes and Medicare premiums.",
+     "say": "Taxpayers and Robert. To: Medicare (C M S). What for: Payroll taxes, other taxes and Medicare premiums.",
+     "focus": 4,
+     "file": "clips/93daef876571.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "Medicare (CMS). To: Robert's Medicare Advantage plan. What for: A fixed monthly amount to cover Robert.",
+     "say": "Medicare (C M S). To: Robert's Medicare Advantage plan. What for: A fixed monthly amount to cover Robert.",
+     "focus": 5,
+     "file": "clips/cb60301a6240.mp3",
+     "seconds": 8.225
+    },
+    {
+     "raw": "Robert's Medicare Advantage plan. To: Robert's doctors and hospitals. What for: The plan share of Robert's claims.",
+     "say": "Robert's Medicare Advantage plan. To: Robert's doctors and hospitals. What for: The plan share of Robert's claims.",
+     "focus": 6,
+     "file": "clips/0cde6a6dfbde.mp3",
+     "seconds": 8.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What data does each player create?",
+     "say": "What data does each player create?",
+     "focus": -1,
+     "file": "clips/66d6cbb3fcf8.mp3",
+     "seconds": 2.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "What data does each player create?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Employer / insurer. Data they create: Who is covered, by which plan, from when to when. Data type: **Eligibility**. Course: Eligibility.",
+     "say": "Employer or insurer. Data they create: Who is covered, by which plan, from when to when. Data type: Eligibility. Course: Eligibility.",
+     "focus": 0,
+     "file": "clips/0c2b77549f9b.mp3",
+     "seconds": 10.2
+    },
+    {
+     "raw": "Doctors, clinics, hospitals. Data they create: Bills for visits, tests, surgery, with diagnosis and procedure codes. Data type: **Medical claims**. Course: Medical.",
+     "say": "Doctors, clinics, hospitals. Data they create: Bills for visits, tests, surgery, with diagnosis and procedure codes. Data type: Medical claims. Course: Medical.",
+     "focus": 1,
+     "file": "clips/de68ac057c28.mp3",
+     "seconds": 12.075
+    },
+    {
+     "raw": "Pharmacies and PBMs. Data they create: Bills for each prescription filled. Data type: **Pharmacy claims**. Course: Pharmacy.",
+     "say": "Pharmacies and P B M's. Data they create: Bills for each prescription filled. Data type: Pharmacy claims. Course: Pharmacy.",
+     "focus": 2,
+     "file": "clips/bbeba08db0ac.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "Insurer. Data they create: Payments to providers, EOBs to members. Data type: Remittance and payment data. Course: Medical (Amounts: How Much).",
+     "say": "Insurer. Data they create: Payments to providers, E O B's to members. Data type: Remittance and payment data. Course: Medical (Amounts: How Much).",
+     "focus": 3,
+     "file": "clips/d825b6a6c7ce.mp3",
+     "seconds": 11.175
+    },
+    {
+     "raw": "Government (CMS). Data they create: Provider IDs (NPI), Medicare rules, public data. Data type: Reference data. Course: Later courses.",
+     "say": "Government (C M S). Data they create: Provider I D's (N P I), Medicare rules, public data. Data type: Reference data. Course: Later courses.",
+     "focus": 4,
+     "file": "clips/f78d15759aad.mp3",
+     "seconds": 11.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "What data does each player create?",
+   "lines": [
+    {
+     "raw": "Start with eligibility.",
+     "say": "Start with eligibility.",
+     "focus": -1,
+     "file": "clips/611c97205f33.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Every claim is checked against eligibility first: was Emily covered on 10 March 2025?",
+     "say": "Every claim is checked against eligibility first: was Emily covered on 10 March 2025?",
+     "focus": -1,
+     "file": "clips/43439d08a07b.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "Learn subscribers, dependents, coverage dates and member months.",
+     "say": "Learn subscribers, dependents, coverage dates and member months.",
+     "focus": -1,
+     "file": "clips/6bf5c60e2a34.mp3",
+     "seconds": 4.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "What data does each player create?",
+   "lines": [
+    {
+     "raw": "Then read a medical claim.",
+     "say": "Then read a medical claim.",
+     "focus": -1,
+     "file": "clips/a1ba0ff4c3ba.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Learn to read claim `23098908` and Emily's appendix surgery claims line by line: diagnosis codes, procedure codes and the money.",
+     "say": "Learn to read claim 2 3 0 9 8 9 0 8 and Emily's appendix surgery claims line by line: diagnosis codes, procedure codes and the money.",
+     "focus": -1,
+     "file": "clips/0ee91d655186.mp3",
+     "seconds": 11.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "What data does each player create?",
+   "lines": [
+    {
+     "raw": "And a pharmacy claim.",
+     "say": "And a pharmacy claim.",
+     "focus": -1,
+     "file": "clips/a78f8f1d7e58.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Follow Emily's amoxicillin, ibuprofen and atorvastatin through the pharmacy and PBM.",
+     "say": "Follow Emily's amoxicillin, ibuprofen and atorvastatin through the pharmacy and P B M.",
+     "focus": -1,
+     "file": "clips/283036d9cf7c.mp3",
+     "seconds": 6.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "What data does each player create?",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "You now know the players in US healthcare and how money and information move between them.",
+     "say": "You now know the players in U S healthcare and how money and information move between them.",
+     "focus": -1,
+     "file": "clips/75e44ae95886.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "Next, learn the everyday words of US healthcare in the **US Healthcare Terminologies** course.",
+     "say": "Next, learn the everyday words of U S healthcare in the U S Healthcare Terminologies course.",
+     "focus": -1,
+     "file": "clips/e94e67067840.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "You can also try the simulator to see a claim from the patient's side.",
+     "say": "You can also try the simulator to see a claim from the patient's side.",
+     "focus": -1,
+     "file": "clips/807c74354f26.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Two flows: money (premiums, payments, member share) and information (eligibility, claims, remittances).",
+     "say": "Two flows: money (premiums, payments, member share) and information (eligibility, claims, remittances).",
+     "focus": 0,
+     "file": "clips/d6ee8607bdcd.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Employer tells insurer who is covered (eligibility) and pays premiums.",
+     "say": "Employer tells insurer who is covered (eligibility) and pays premiums.",
+     "focus": 1,
+     "file": "clips/7d2c509294cc.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "Providers send medical claims to the insurer; pharmacies send pharmacy claims to the PBM.",
+     "say": "Providers send medical claims to the insurer; pharmacies send pharmacy claims to the P B M.",
+     "focus": 2,
+     "file": "clips/7d88860d1b76.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "Allowed amount = member paid + plan paid.",
+     "say": "Allowed amount = member paid and plan paid.",
+     "focus": 3,
+     "file": "clips/94b6e6dfcb22.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Billed minus allowed is a discount nobody pays.",
+     "say": "Billed minus allowed is a discount nobody pays.",
+     "focus": 3,
+     "file": "clips/f4d4da8f2967.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Each player creates a data type: eligibility, medical claims, pharmacy claims, payments.",
+     "say": "Each player creates a data type: eligibility, medical claims, pharmacy claims, payments.",
+     "focus": 4,
+     "file": "clips/cd1205081ad1.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.6
+    }
+   ]
+  }
+ ]
+}

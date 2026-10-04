@@ -1,0 +1,687 @@
+{
+ "courseId": "medicare",
+ "lessonId": "dual-eligibles",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: Dual Eligibles.",
+     "say": "Lesson 7: Dual Eligibles.",
+     "focus": -1,
+     "file": "clips/c5f912a5439e.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "People who have both Medicare and Medicaid, and how the two programmes share each bill.",
+     "say": "People who have both Medicare and Medicaid, and how the two programmes share each bill.",
+     "focus": -1,
+     "file": "clips/4036391826f9.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a dual eligible is and why there are so many.",
+     "say": "Explain what a dual eligible is and why there are so many.",
+     "focus": 0,
+     "file": "clips/bbf1de57b4c5.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Tell a full dual from a partial dual.",
+     "say": "Tell a full dual from a partial dual.",
+     "focus": 1,
+     "file": "clips/c663073c562a.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Know which programme pays first, and what Medicaid pays after Medicare.",
+     "say": "Know which programme pays first, and what Medicaid pays after Medicare.",
+     "focus": 2,
+     "file": "clips/9f7a67013646.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "Know how dual status appears in data, and why it changes month by month.",
+     "say": "Know how dual status appears in data, and why it changes month by month.",
+     "focus": 3,
+     "file": "clips/2d01a8e2c488.mp3",
+     "seconds": 5.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Nepal: Two kinds of help at once.",
+     "say": "In Nepal: Two kinds of help at once.",
+     "focus": -1,
+     "file": "clips/e87b054d47d1.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Imagine an older person in Kathmandu who has health cover from years of work, but now lives on a very small income.",
+     "say": "Imagine an older person in Kathmandu who has health cover from years of work, but now lives on a very small income.",
+     "focus": 0,
+     "file": "clips/be09b3137a7c.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "Even with cover, her share of each bill can be more than she can afford.",
+     "say": "Even with cover, her share of each bill can be more than she can afford.",
+     "focus": 1,
+     "file": "clips/5176e7b2dcc7.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "If she also qualified for a scheme where the government pays for very poor households, the two could work together: the first cover pays its share, and the government help pays what is left.",
+     "say": "If she also qualified for a scheme where the government pays for very poor households, the two could work together: the first cover pays its share, and the government help pays what is left.",
+     "focus": 2,
+     "file": "clips/220ce2490b20.mp3",
+     "seconds": 11.275
+    },
+    {
+     "raw": "In the US, this is what happens when someone has both **Medicare** and **Medicaid**.",
+     "say": "In the U S, this is what happens when someone has both Medicare and Medicaid.",
+     "focus": 3,
+     "file": "clips/d49da99f2225.mp3",
+     "seconds": 5.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "A **dual eligible** (or **dual**) is a person who has **Medicare** because of age or disability and **Medicaid** because of low income and savings.",
+     "say": "A dual eligible (or dual) is a person who has Medicare because of age or disability and Medicaid because of low income and savings.",
+     "focus": -1,
+     "file": "clips/f292956f4f0b.mp3",
+     "seconds": 9.675
+    },
+    {
+     "raw": "**Medicaid** is health cover for people with low income, run by each state with federal money (the Medicaid course explains it).",
+     "say": "Medicaid is health cover for people with low income, run by each state with federal money (the Medicaid course explains it).",
+     "focus": -1,
+     "file": "clips/a075dcb039d5.mp3",
+     "seconds": 8.225
+    },
+    {
+     "raw": "There are more than **12 million** duals, and many have complex health needs.",
+     "say": "There are more than 12 million duals, and many have complex health needs.",
+     "focus": -1,
+     "file": "clips/004dc964058f.mp3",
+     "seconds": 4.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "New to Medicaid?",
+     "say": "New to Medicaid?",
+     "focus": -1,
+     "file": "clips/9b453d7867e0.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "This lesson only needs one fact about Medicaid: it is state-run cover for people with low income, and it always pays **last**.",
+     "say": "This lesson only needs one fact about Medicaid: it is state-run cover for people with low income, and it always pays last.",
+     "focus": -1,
+     "file": "clips/1436b7856e54.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "The Medicaid course covers who qualifies and how states run it.",
+     "say": "The Medicaid course covers who qualifies and how states run it.",
+     "focus": -1,
+     "file": "clips/ca2c0004c5d3.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Full duals and partial duals.",
+     "say": "Full duals and partial duals.",
+     "focus": -1,
+     "file": "clips/54e58d23c8b1.mp3",
+     "seconds": 2.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Full duals and partial duals",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Full dual**. What Medicaid covers: Full Medicaid benefits (including **long-term care** such as a nursing home), plus help with Medicare premiums and cost sharing. Example: An older person in a nursing home who has used up her savings.",
+     "say": "Full dual. What Medicaid covers: Full Medicaid benefits (including long-term care such as a nursing home), plus help with Medicare premiums and cost sharing. Example: An older person in a nursing home who has used up her savings.",
+     "focus": 0,
+     "file": "clips/d6ffb0bb4510.mp3",
+     "seconds": 15.4
+    },
+    {
+     "raw": "**Partial dual**. What Medicaid covers: Only help with Medicare **premiums** and/or **cost sharing**, through the **Medicare Savings Programs**. No other Medicaid benefits. Example: A retiree with a small pension who gets her Part B premium paid.",
+     "say": "Partial dual. What Medicaid covers: Only help with Medicare premiums and/or cost sharing, through the Medicare Savings Programs. No other Medicaid benefits. Example: A retiree with a small pension who gets her Part B premium paid.",
+     "focus": 1,
+     "file": "clips/2930001a87c0.mp3",
+     "seconds": 16.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Full duals and partial duals",
+   "lines": [
+    {
+     "raw": "Medicare Savings Programs (MSPs).",
+     "say": "Medicare Savings Programs (M S P's).",
+     "focus": 0,
+     "file": "clips/c94dcafb0d2a.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "State Medicaid programmes that pay Medicare costs for people with low income.",
+     "say": "State Medicaid programmes that pay Medicare costs for people with low income.",
+     "focus": 0,
+     "file": "clips/ebe651bfed01.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "The main ones are **QMB**, **SLMB** and **QI**.",
+     "say": "The main ones are Q M B, S L M B and Q I.",
+     "focus": 0,
+     "file": "clips/c235f21ab847.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "QMB.",
+     "say": "Q M B.",
+     "focus": 1,
+     "file": "clips/ce4c3838e89a.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "Qualified Medicare Beneficiary: Medicaid pays the person's Part A and B premiums, deductibles and coinsurance.",
+     "say": "Qualified Medicare Beneficiary: Medicaid pays the person's Part A and B premiums, deductibles and coinsurance.",
+     "focus": 1,
+     "file": "clips/67f8420116b0.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "Providers may **not** bill a QMB member for Medicare cost sharing.",
+     "say": "Providers may not bill a Q M B member for Medicare cost sharing.",
+     "focus": 1,
+     "file": "clips/264be35647f3.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "SLMB and QI.",
+     "say": "S L M B and Q I.",
+     "focus": 2,
+     "file": "clips/80bded9be9cc.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Specified Low-Income Medicare Beneficiary and Qualifying Individual: Medicaid pays only the **Part B premium**.",
+     "say": "Specified Low-Income Medicare Beneficiary and Qualifying Individual: Medicaid pays only the Part B premium.",
+     "focus": 2,
+     "file": "clips/2ca41ea91d63.mp3",
+     "seconds": 7.825
+    },
+    {
+     "raw": "Payer of last resort.",
+     "say": "Payer of last resort.",
+     "focus": 3,
+     "file": "clips/4488161d7dfc.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "Pays only after all other insurance has paid.",
+     "say": "Pays only after all other insurance has paid.",
+     "focus": 3,
+     "file": "clips/5bfa4a3c6cc3.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Medicaid always takes this place.",
+     "say": "Medicaid always takes this place.",
+     "focus": 3,
+     "file": "clips/b970e5719c63.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "D-SNP.",
+     "say": "D-SNP.",
+     "focus": 4,
+     "file": "clips/31b3b922e84a.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Dual Eligible Special Needs Plan: a Medicare Advantage plan designed for duals, which coordinates with the state's Medicaid.",
+     "say": "Dual Eligible Special Needs Plan: a Medicare Advantage plan designed for duals, which coordinates with the state's Medicaid.",
+     "focus": 4,
+     "file": "clips/a18c67a15b35.mp3",
+     "seconds": 8.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who pays first?",
+     "say": "Who pays first?",
+     "focus": -1,
+     "file": "clips/61c6c31fce14.mp3",
+     "seconds": 1.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Who pays first?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "1st (primary). Programme: **Medicare**. What it pays: Its normal share, exactly as for anyone else on Medicare.",
+     "say": "1st (primary). Programme: Medicare. What it pays: Its normal share, exactly as for anyone else on Medicare.",
+     "focus": 0,
+     "file": "clips/55a478cab703.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "2nd (secondary). Programme: **Medicaid**. What it pays: Some or all of what is left (deductible, coinsurance), plus services Medicare does not cover, such as long-term nursing home care.",
+     "say": "2nd (secondary). Programme: Medicaid. What it pays: Some or all of what is left (deductible, coinsurance), plus services Medicare does not cover, such as long-term nursing home care.",
+     "focus": 1,
+     "file": "clips/bc672406b8c0.mp3",
+     "seconds": 12.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Who pays first?",
+   "lines": [
+    {
+     "raw": "Medicaid may not pay the whole remainder.",
+     "say": "Medicaid may not pay the whole remainder.",
+     "focus": -1,
+     "file": "clips/8d339bc2a52b.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Many states pay Medicare cost sharing only up to what **Medicaid** would have paid for the same service.",
+     "say": "Many states pay Medicare cost sharing only up to what Medicaid would have paid for the same service.",
+     "focus": -1,
+     "file": "clips/41189740ec75.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "If the state's rate is lower, Medicaid may pay less than the full coinsurance, or nothing.",
+     "say": "If the state's rate is lower, Medicaid may pay less than the full coinsurance, or nothing.",
+     "focus": -1,
+     "file": "clips/68d00a208bf8.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "For a QMB member, the provider still cannot bill the member for the difference.",
+     "say": "For a Q M B member, the provider still cannot bill the member for the difference.",
+     "focus": -1,
+     "file": "clips/11e2a4862b89.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Gloria's doctor visit.",
+     "say": "Worked example: Gloria's doctor visit.",
+     "focus": -1,
+     "file": "clips/a3e1484923c1.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Worked example: Gloria's doctor visit",
+   "lines": [
+    {
+     "raw": "In the US: Gloria, Houston, Texas (fictional).",
+     "say": "In the U S: Gloria, Houston, Texas (fictional).",
+     "focus": -1,
+     "file": "clips/331ebcb840ab.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Gloria is **72**, a widow who lives on a small Social Security payment and has very little savings.",
+     "say": "Gloria is 72, a widow who lives on a small Social Security payment and has very little savings.",
+     "focus": 0,
+     "file": "clips/e44a042fc8aa.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "She has **Original Medicare** because of her age and **Texas Medicaid** as a full dual because of her low income.",
+     "say": "She has Original Medicare because of her age and Texas Medicaid as a full dual because of her low income.",
+     "focus": 1,
+     "file": "clips/7f10119474cd.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "Medicaid pays her **Part B premium**, and Extra Help lowers her Part D drug costs.",
+     "say": "Medicaid pays her Part B premium, and Extra Help lowers her Part D drug costs.",
+     "focus": 2,
+     "file": "clips/ac1fcab32a0c.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "In June 2025 she sees a heart specialist.",
+     "say": "In June 2025 she sees a heart specialist.",
+     "focus": 3,
+     "file": "clips/f32da03151f9.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Her Part B deductible is already met for the year.",
+     "say": "Her Part B deductible is already met for the year.",
+     "focus": 3,
+     "file": "clips/96f675055aa3.mp3",
+     "seconds": 3.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: Gloria's doctor visit",
+   "lines": [
+    {
+     "raw": "One visit, two payers (amounts are illustrative).",
+     "say": "One visit, two payers (amounts are illustrative).",
+     "focus": -1,
+     "file": "clips/867d6cfdb0fb.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Medicare-approved amount. Amount: $150.00.",
+     "say": "Medicare-approved amount. Amount: 150 dollars.",
+     "focus": 0,
+     "file": "clips/f9c7909be70b.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "1. Medicare pays 80%. Who: Medicare (primary). Amount: $120.00.",
+     "say": "1. Medicare pays 80 percent. Who: Medicare (primary). Amount: 120 dollars.",
+     "focus": 1,
+     "file": "clips/01e5e7653a87.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "2. Claim crosses over to Medicaid. Who: Texas Medicaid (secondary). Amount: Coinsurance left: $30.00.",
+     "say": "2. Claim crosses over to Medicaid. Who: Texas Medicaid (secondary). Amount: Coinsurance left: 30 dollars.",
+     "focus": 2,
+     "file": "clips/24a6b2e6ef00.mp3",
+     "seconds": 8.2
+    },
+    {
+     "raw": "3. Medicaid pays the coinsurance. Who: Texas Medicaid. Amount: $30.00.",
+     "say": "3. Medicaid pays the coinsurance. Who: Texas Medicaid. Amount: 30 dollars.",
+     "focus": 3,
+     "file": "clips/21797cc1326b.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "Gloria pays. Amount: **$0.00**.",
+     "say": "Gloria pays. Amount: 0 dollars.",
+     "focus": 4,
+     "file": "clips/91617386078c.mp3",
+     "seconds": 3.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: Gloria's doctor visit",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "$120.00 (Medicare) + $30.00 (Medicaid) + $0.00 (Gloria) = **$150.00** ✓.",
+     "say": "120 dollars (Medicare) and 30 dollars (Medicaid) and 0 dollars (Gloria) = 150 dollars ✓.",
+     "focus": -1,
+     "file": "clips/4736ac5aacf2.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "Two payers, one visit: the claim is processed twice, once by each programme.",
+     "say": "Two payers, one visit: the claim is processed twice, once by each programme.",
+     "focus": -1,
+     "file": "clips/d73bb1e64797.mp3",
+     "seconds": 5.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: Gloria's doctor visit",
+   "lines": [
+    {
+     "raw": "And Robert?",
+     "say": "And Robert?",
+     "focus": -1,
+     "file": "clips/837d34365c90.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "Robert's teacher's pension and savings are well above Texas Medicaid limits, so he is **Medicare only**, not dual.",
+     "say": "Robert's teacher's pension and savings are well above Texas Medicaid limits, so he is Medicare only, not dual.",
+     "focus": -1,
+     "file": "clips/dd6a177f1f06.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "His plan records him as \"Non-dual\".",
+     "say": "His plan records him as \"Non-dual\".",
+     "focus": -1,
+     "file": "clips/38fd70020d14.mp3",
+     "seconds": 2.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: Gloria's doctor visit",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Medicare and Medicaid files often carry a **dual status** for each member and **month**, because people move in and out of Medicaid as their income and savings change.",
+     "say": "Medicare and Medicaid files often carry a dual status for each member and month, because people move in and out of Medicaid as their income and savings change.",
+     "focus": -1,
+     "file": "clips/9990d91c2e04.mp3",
+     "seconds": 10.9
+    },
+    {
+     "raw": "A dual's care shows up in **both** programmes' data: link the person with the Medicare **MBI** and the state Medicaid ID, and do not add Medicare and Medicaid paid amounts for the same claim as if they were two services.",
+     "say": "A dual's care shows up in both programmes' data: link the person with the Medicare M B I and the state Medicaid I D, and do not add Medicare and Medicaid paid amounts for the same claim as if they were two services.",
+     "focus": -1,
+     "file": "clips/47c4f560b1ca.mp3",
+     "seconds": 14.575
+    },
+    {
+     "raw": "Duals usually cost more, so they are often reported separately.",
+     "say": "Duals usually cost more, so they are often reported separately.",
+     "focus": -1,
+     "file": "clips/ec11160ee1f0.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "The Eligibility course covers coordination of benefits in general.",
+     "say": "The Eligibility course covers coordination of benefits in general.",
+     "focus": -1,
+     "file": "clips/f78a881131b5.mp3",
+     "seconds": 4.725
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Dual eligibles have both Medicare (age or disability) and Medicaid (low income and savings).",
+     "say": "Dual eligibles have both Medicare (age or disability) and Medicaid (low income and savings).",
+     "focus": 0,
+     "file": "clips/c25147ce6a38.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Full duals get full Medicaid benefits; partial duals only get help with Medicare costs through the Medicare Savings Programs.",
+     "say": "Full duals get full Medicaid benefits; partial duals only get help with Medicare costs through the Medicare Savings Programs.",
+     "focus": 1,
+     "file": "clips/a0b851791f9b.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "Medicare pays first.",
+     "say": "Medicare pays first.",
+     "focus": 2,
+     "file": "clips/e82c278c5662.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Medicaid is the payer of last resort and pays some or all of what is left.",
+     "say": "Medicaid is the payer of last resort and pays some or all of what is left.",
+     "focus": 2,
+     "file": "clips/dc8f3cec78b0.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "Dual status is stored by month and can change; a dual's claim appears in both programmes' data.",
+     "say": "Dual status is stored by month and can change; a dual's claim appears in both programmes' data.",
+     "focus": 3,
+     "file": "clips/cd9eb99b3a7a.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

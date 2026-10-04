@@ -1,0 +1,736 @@
+{
+ "courseId": "interoperability",
+ "lessonId": "health-information-networks",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: Health Information Networks.",
+     "say": "Lesson 7: Health Information Networks.",
+     "focus": -1,
+     "file": "clips/b216d2b65ac6.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "HIEs, national networks and TEFCA: one connection instead of hundreds.",
+     "say": "H I E's, national networks and T E F C A: one connection instead of hundreds.",
+     "focus": -1,
+     "file": "clips/09cdef56ece3.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a health information exchange (HIE) does, and its three common ways of sharing.",
+     "say": "Explain what a health information exchange (H I E) does, and its three common ways of sharing.",
+     "focus": 0,
+     "file": "clips/ff71cbd2bb81.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "Describe national networks, TEFCA and QHINs in simple words.",
+     "say": "Describe national networks, T E F C A and Q H I N's in simple words.",
+     "focus": 1,
+     "file": "clips/3d641c9fce63.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "Explain why patient matching is hard in the US, and what it means for data.",
+     "say": "Explain why patient matching is hard in the U S, and what it means for data.",
+     "focus": 2,
+     "file": "clips/9cc33c91545f.mp3",
+     "seconds": 5.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "Like a bus park.",
+     "say": "Like a bus park.",
+     "focus": -1,
+     "file": "clips/edc855f81223.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "Instead of every village running its own bus to every other village, buses meet at a central bus park, and passengers change there.",
+     "say": "Instead of every village running its own bus to every other village, buses meet at a central bus park, and passengers change there.",
+     "focus": -1,
+     "file": "clips/e165c727af43.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "A health network is the bus park for health data: each hospital, clinic or lab connects **once**, and the network connects it to everyone else.",
+     "say": "A health network is the bus park for health data: each hospital, clinic or lab connects once, and the network connects it to everyone else.",
+     "focus": -1,
+     "file": "clips/f01a368efa6e.mp3",
+     "seconds": 9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram and Sita have no network yet.",
+     "say": "In Nepal: Ram and Sita have no network yet.",
+     "focus": -1,
+     "file": "clips/99a260f3c6d5.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "If Ram goes to a different private hospital, that hospital has no way to look up his earlier records.",
+     "say": "If Ram goes to a different private hospital, that hospital has no way to look up his earlier records.",
+     "focus": 0,
+     "file": "clips/f26ac3f30b0a.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "He must bring the papers himself.",
+     "say": "He must bring the papers himself.",
+     "focus": 0,
+     "file": "clips/02518a3e512f.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF receives Sita's claims from many listed hospitals, so SSF sees part of her history.",
+     "say": "S S F receives Sita's claims from many listed hospitals, so S S F sees part of her history.",
+     "focus": 1,
+     "file": "clips/e70052602e43.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "But one hospital generally cannot pull her clinical notes from another hospital.",
+     "say": "But one hospital generally cannot pull her clinical notes from another hospital.",
+     "focus": 1,
+     "file": "clips/59be61a73d35.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Nepal also has no single national patient ID used across all hospitals, which makes matching hard, just as in the US.",
+     "say": "Nepal also has no single national patient I D used across all hospitals, which makes matching hard, just as in the U S.",
+     "focus": 1,
+     "file": "clips/dbdfcf55ad18.mp3",
+     "seconds": 8.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Without networks, every clinic would need a separate link to every hospital, lab and plan: thousands of links.",
+     "say": "Without networks, every clinic would need a separate link to every hospital, lab and plan: thousands of links.",
+     "focus": -1,
+     "file": "clips/ee93befe16e6.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "Networks replace them with **one connection each**, plus shared rules about who may ask for what.",
+     "say": "Networks replace them with one connection each, plus shared rules about who may ask for what.",
+     "focus": -1,
+     "file": "clips/be2b39c26509.mp3",
+     "seconds": 6.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Health information exchanges (HIEs).",
+     "say": "Health information exchanges (H I E's).",
+     "focus": -1,
+     "file": "clips/86d30322ea44.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Health information exchanges (HIEs)",
+   "lines": [
+    {
+     "raw": "An **HIE** (health information exchange) is an organisation, often regional or state-wide, that moves clinical data between local hospitals, clinics, labs and, increasingly, health plans.",
+     "say": "An H I E (health information exchange) is an organisation, often regional or state-wide, that moves clinical data between local hospitals, clinics, labs and, increasingly, health plans.",
+     "focus": -1,
+     "file": "clips/6b111026bf3d.mp3",
+     "seconds": 13.2
+    },
+    {
+     "raw": "HIEs share data in three common ways.",
+     "say": "H I E's share data in three common ways.",
+     "focus": -1,
+     "file": "clips/75b2f9ddc9e4.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Health information exchanges (HIEs)",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Directed (push)**. How it works: One provider sends data to a known receiver through the HIE. Robert example: Dr. Nguyen's clinic sends a referral note to an eye doctor.",
+     "say": "Directed (push). How it works: One provider sends data to a known receiver through the H I E. Robert example: Doctor Nguyen's clinic sends a referral note to an eye doctor.",
+     "focus": 0,
+     "file": "clips/b30a2fb030f9.mp3",
+     "seconds": 12.1
+    },
+    {
+     "raw": "**Query (pull)**. How it works: A provider searches the HIE for a patient's records from other places. Robert example: An ER doctor looks up Robert's medicines and recent results.",
+     "say": "Query (pull). How it works: A provider searches the H I E for a patient's records from other places. Robert example: An E R doctor looks up Robert's medicines and recent results.",
+     "focus": 1,
+     "file": "clips/0eb946bc3dab.mp3",
+     "seconds": 12.775
+    },
+    {
+     "raw": "**Event notifications**. How it works: The HIE watches ADT (admit, discharge, transfer) messages and alerts subscribers when their patient is seen. Robert example: Dr. Nguyen's clinic is told the same day that Robert visited an ER.",
+     "say": "Event notifications. How it works: The H I E watches A D T (admit, discharge, transfer) messages and alerts subscribers when their patient is seen. Robert example: Doctor Nguyen's clinic is told the same day that Robert visited an E R.",
+     "focus": 2,
+     "file": "clips/0ce299865dc5.mp3",
+     "seconds": 16.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Health information exchanges (HIEs)",
+   "lines": [
+    {
+     "raw": "What travels through an HIE is the data from earlier lessons: HL7 v2 ADT messages and lab results, **C-CDA** documents such as CCDs and discharge summaries, and increasingly FHIR.",
+     "say": "What travels through an H I E is the data from earlier lessons: HL7 v2 A D T messages and lab results, C-CDA documents such as C C D's and discharge summaries, and increasingly F H I R.",
+     "focus": -1,
+     "file": "clips/d62b91c6a3ca.mp3",
+     "seconds": 16.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "National networks and TEFCA.",
+     "say": "National networks and T E F C A.",
+     "focus": -1,
+     "file": "clips/09b0c396a480.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "National networks and TEFCA",
+   "lines": [
+    {
+     "raw": "Regional HIEs are good for local care.",
+     "say": "Regional H I E's are good for local care.",
+     "focus": -1,
+     "file": "clips/02143bc43413.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "But Americans travel and move, so **national networks** grew up to connect EHRs across states.",
+     "say": "But Americans travel and move, so national networks grew up to connect E H R's across states.",
+     "focus": -1,
+     "file": "clips/a493230e0478.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Examples include **eHealth Exchange**, **Carequality** and **CommonWell**.",
+     "say": "Examples include eHealth Exchange, Carequality and CommonWell.",
+     "focus": -1,
+     "file": "clips/fa6c0ae2f22a.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "Each had its own agreement, so connecting the networks to each other was the next problem.",
+     "say": "Each had its own agreement, so connecting the networks to each other was the next problem.",
+     "focus": -1,
+     "file": "clips/0eaa02eabbda.mp3",
+     "seconds": 5.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "National networks and TEFCA",
+   "lines": [
+    {
+     "raw": "TEFCA.",
+     "say": "T E F C A.",
+     "focus": 0,
+     "file": "clips/4e0a64e9c985.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "The **Trusted Exchange Framework and Common Agreement**: a national set of rules, called for by the 21st Century Cures Act (lesson 2), so that different networks can connect to each other under **one agreement**.",
+     "say": "The Trusted Exchange Framework and Common Agreement: a national set of rules, called for by the 21st Century Cures Act (lesson 2), so that different networks can connect to each other under one agreement.",
+     "focus": 0,
+     "file": "clips/6f894ae5d924.mp3",
+     "seconds": 12.575
+    },
+    {
+     "raw": "Joining is **voluntary**.",
+     "say": "Joining is voluntary.",
+     "focus": 0,
+     "file": "clips/09f2fd800227.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "QHIN.",
+     "say": "Q H I N.",
+     "focus": 1,
+     "file": "clips/56974b6de9c4.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "A **Qualified Health Information Network**: a network approved to exchange data under TEFCA.",
+     "say": "A Qualified Health Information Network: a network approved to exchange data under T E F C A.",
+     "focus": 1,
+     "file": "clips/0dfb490d4781.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "The first QHINs were designated in late 2023.",
+     "say": "The first Q H I N's were designated in late 2023.",
+     "focus": 1,
+     "file": "clips/b944927d9fa4.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Providers and plans join through a QHIN, or through a member of one.",
+     "say": "Providers and plans join through a Q H I N, or through a member of one.",
+     "focus": 1,
+     "file": "clips/063ae85c188c.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "Exchange purposes.",
+     "say": "Exchange purposes.",
+     "focus": 2,
+     "file": "clips/874952823cf8.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "TEFCA lists the reasons data may be requested, such as **treatment**, **payment**, **health care operations**, **public health**, **government benefits** and **individual access** (a patient getting their own data).",
+     "say": "T E F C A lists the reasons data may be requested, such as treatment, payment, health care operations, public health, government benefits and individual access (a patient getting their own data).",
+     "focus": 2,
+     "file": "clips/261f0724abd8.mp3",
+     "seconds": 13.25
+    },
+    {
+     "raw": "Not every purpose required an answer from the start; they are being phased in.",
+     "say": "Not every purpose required an answer from the start; they are being phased in.",
+     "focus": 2,
+     "file": "clips/531b62fad7f6.mp3",
+     "seconds": 5.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "National networks and TEFCA",
+   "lines": [
+    {
+     "raw": "Clinic.",
+     "say": "Clinic.",
+     "focus": 0,
+     "file": "clips/32c9affcfd0d.mp3",
+     "seconds": 1.35
+    },
+    {
+     "raw": "Joins a network that is, or belongs to, a QHIN.",
+     "say": "Joins a network that is, or belongs to, a Q H I N.",
+     "focus": 0,
+     "file": "clips/d30fb10e6661.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "Its QHIN.",
+     "say": "Its Q H I N.",
+     "focus": 1,
+     "file": "clips/c8e2048d790f.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "Passes the request to the other QHINs under the Common Agreement.",
+     "say": "Passes the request to the other Q H I N's under the Common Agreement.",
+     "focus": 1,
+     "file": "clips/915464672452.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Other QHINs.",
+     "say": "Other Q H I N's.",
+     "focus": 2,
+     "file": "clips/ddac06347973.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Find participants that may hold the patient's records.",
+     "say": "Find participants that may hold the patient's records.",
+     "focus": 2,
+     "file": "clips/6e380a19c562.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Answer.",
+     "say": "Answer.",
+     "focus": 3,
+     "file": "clips/9ee84c07fed5.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "Documents (often C-CDA) come back through the same path.",
+     "say": "Documents (often C-CDA) come back through the same path.",
+     "focus": 3,
+     "file": "clips/a218e1315281.mp3",
+     "seconds": 4.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Patient matching: the hard part.",
+     "say": "Patient matching: the hard part.",
+     "focus": -1,
+     "file": "clips/fdb2c894ae69.mp3",
+     "seconds": 2.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Patient matching: the hard part",
+   "lines": [
+    {
+     "raw": "The US has **no single national patient ID** used by every system.",
+     "say": "The U S has no single national patient I D used by every system.",
+     "focus": -1,
+     "file": "clips/d0a7570975f5.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "Networks match people using name, date of birth, sex, address, phone and each organisation's own IDs.",
+     "say": "Networks match people using name, date of birth, sex, address, phone and each organisation's own I D's.",
+     "focus": -1,
+     "file": "clips/2795ae19e12c.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "Small differences cause **missed matches** (records not found) or, worse, **wrong matches** (someone else's records).",
+     "say": "Small differences cause missed matches (records not found) or, worse, wrong matches (someone else's records).",
+     "focus": -1,
+     "file": "clips/51638b210480.mp3",
+     "seconds": 7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Patient matching: the hard part",
+   "lines": [
+    {
+     "raw": "How Robert appears in different systems (fictional).",
+     "say": "How Robert appears in different systems (fictional).",
+     "focus": -1,
+     "file": "clips/d1754606eead.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Bayou Family Medicine EHR. Name: Robert Carter. Birth date: 1957-05-02. ID: Clinic ID BFM20391.",
+     "say": "Bayou Family Medicine E H R. Name: Robert Carter. Birth date: 1957-05-02. I D: Clinic I D B F M 2 0 3 9 1.",
+     "focus": 0,
+     "file": "clips/916e095b0819.mp3",
+     "seconds": 12.85
+    },
+    {
+     "raw": "Bayou City Medical Center. Name: Carter, Robert J. Birth date: 1957-05-02. ID: Hospital record BC448210.",
+     "say": "Bayou City Medical Center. Name: Carter, Robert J. Birth date: 1957-05-02. I D: Hospital record B C 4 4 8 2 1 0.",
+     "focus": 1,
+     "file": "clips/6bf5cadcf146.mp3",
+     "seconds": 13
+    },
+    {
+     "raw": "Gulf Coast Health Plan. Name: ROBERT CARTER. Birth date: 1957-05-02. ID: Member GC5001.",
+     "say": "Gulf Coast Health Plan. Name: ROBERT CARTER. Birth date: 1957-05-02. I D: Member G C 5 0 0 1.",
+     "focus": 2,
+     "file": "clips/59b47405b794.mp3",
+     "seconds": 11.65
+    },
+    {
+     "raw": "Medicare (CMS). Name: Robert Carter. Birth date: 1957-05-02. ID: MBI 3TW7HC2AP58.",
+     "say": "Medicare (C M S). Name: Robert Carter. Birth date: 1957-05-02. I D: M B I 3 T W 7 H C 2 A P 5 8.",
+     "focus": 3,
+     "file": "clips/70833da66c1d.mp3",
+     "seconds": 13.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Robert falls ill on holiday.",
+     "say": "Worked example: Robert falls ill on holiday.",
+     "focus": -1,
+     "file": "clips/d1408ca603b1.mp3",
+     "seconds": 3.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: Robert falls ill on holiday",
+   "lines": [
+    {
+     "raw": "In the US: Robert visits Emily's cousin in Denver, October 2025.",
+     "say": "In the U S: Robert visits Emily's cousin in Denver, October 2025.",
+     "focus": -1,
+     "file": "clips/656482f5d030.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "Robert feels unwell and visits an urgent care clinic in **Denver, Colorado**.",
+     "say": "Robert feels unwell and visits an urgent care clinic in Denver, Colorado.",
+     "focus": 0,
+     "file": "clips/e120806dc3e2.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "The clinic has never seen him.",
+     "say": "The clinic has never seen him.",
+     "focus": 0,
+     "file": "clips/bf83e9185043.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "The clinic's EHR belongs to a network that takes part in **TEFCA**.",
+     "say": "The clinic's E H R belongs to a network that takes part in T E F C A.",
+     "focus": 1,
+     "file": "clips/12ab51391fa8.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "It sends a **treatment** query with Robert's name, birth date, sex and address.",
+     "say": "It sends a treatment query with Robert's name, birth date, sex and address.",
+     "focus": 1,
+     "file": "clips/98f393261977.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "The query travels from the clinic's QHIN to the other QHINs.",
+     "say": "The query travels from the clinic's Q H I N to the other Q H I N's.",
+     "focus": 2,
+     "file": "clips/c8950e48df51.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "**Gulf Region HIE** (fictional), which Bayou Family Medicine uses, takes part through a QHIN.",
+     "say": "Gulf Region H I E (fictional), which Bayou Family Medicine uses, takes part through a Q H I N.",
+     "focus": 2,
+     "file": "clips/6047f6e571b8.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "The networks match Robert on his details and return Dr. Nguyen's latest **CCD**.",
+     "say": "The networks match Robert on his details and return Doctor Nguyen's latest C C D.",
+     "focus": 3,
+     "file": "clips/61f061714f9e.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "In minutes, the Denver doctor sees his diabetes, his medicines (metformin, lisinopril) and his HbA1c of 9.4%.",
+     "say": "In minutes, the Denver doctor sees his diabetes, his medicines (metformin, lisinopril) and his H b A 1 c of 9.4 percent.",
+     "focus": 3,
+     "file": "clips/e3f7a0b9c428.mp3",
+     "seconds": 9.625
+    },
+    {
+     "raw": "If Robert had moved house and the address did not match, the query might have found **nothing**.",
+     "say": "If Robert had moved house and the address did not match, the query might have found nothing.",
+     "focus": 4,
+     "file": "clips/dfe3035f39fa.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "That is patient matching in real life.",
+     "say": "That is patient matching in real life.",
+     "focus": 4,
+     "file": "clips/af9ebf70e8b6.mp3",
+     "seconds": 2.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example: Robert falls ill on holiday",
+   "lines": [
+    {
+     "raw": "Why networks matter for data.",
+     "say": "Why networks matter for data.",
+     "focus": -1,
+     "file": "clips/ecf971fce22e.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "For a health plan, an HIE is often the **fastest** clinical data source: ADT alerts arrive the same day and C-CDAs arrive within days, while claims take weeks.",
+     "say": "For a health plan, an H I E is often the fastest clinical data source: A D T alerts arrive the same day and C-CDAs arrive within days, while claims take weeks.",
+     "focus": -1,
+     "file": "clips/c71290049129.mp3",
+     "seconds": 11.725
+    },
+    {
+     "raw": "But every record from a network is only as good as its match.",
+     "say": "But every record from a network is only as good as its match.",
+     "focus": -1,
+     "file": "clips/7d9cd3b26919.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Analysts track match rates and check suspicious links, such as a \"member\" with two different birth dates.",
+     "say": "Analysts track match rates and check suspicious links, such as a \"member\" with two different birth dates.",
+     "focus": -1,
+     "file": "clips/4bdb239584a5.mp3",
+     "seconds": 6.375
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**HIEs** move clinical data between local providers by push, query and event notifications (ADT alerts).",
+     "say": "H I E's move clinical data between local providers by push, query and event notifications (A D T alerts).",
+     "focus": 0,
+     "file": "clips/000131187738.mp3",
+     "seconds": 8.225
+    },
+    {
+     "raw": "**National networks** connect EHRs across states; **TEFCA** lets networks connect to each other under one voluntary agreement.",
+     "say": "National networks connect E H R's across states; T E F C A lets networks connect to each other under one voluntary agreement.",
+     "focus": 1,
+     "file": "clips/1527c3f3339b.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "**QHINs** are the networks approved to exchange data under TEFCA, for set purposes such as treatment and individual access.",
+     "say": "Q H I N's are the networks approved to exchange data under T E F C A, for set purposes such as treatment and individual access.",
+     "focus": 2,
+     "file": "clips/bdd8ac8c64e0.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "The US has no single patient ID, so networks **match** on name, birth date and other details; mistakes cause missing or mixed-up records.",
+     "say": "The U S has no single patient I D, so networks match on name, birth date and other details; mistakes cause missing or mixed-up records.",
+     "focus": 3,
+     "file": "clips/61629df422fe.mp3",
+     "seconds": 9.675
+    },
+    {
+     "raw": "For plans, network feeds are fast clinical data, but only as reliable as the patient match.",
+     "say": "For plans, network feeds are fast clinical data, but only as reliable as the patient match.",
+     "focus": 4,
+     "file": "clips/7a5523471403.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

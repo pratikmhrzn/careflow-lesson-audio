@@ -1,0 +1,575 @@
+{
+ "courseId": "provider",
+ "lessonId": "provider-data-quality",
+ "lessonNumber": 7,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 7: Data Quality.",
+     "say": "Lesson 7: Data Quality.",
+     "focus": -1,
+     "file": "clips/cc00e7585bf1.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Duplicate providers, invalid NPIs, stale addresses and missing specialties: what goes wrong and how to fix it.",
+     "say": "Duplicate providers, invalid N P I's, stale addresses and missing specialties: what goes wrong and how to fix it.",
+     "focus": -1,
+     "file": "clips/6cd033d5d5c5.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Recognise the most common provider data problems.",
+     "say": "Recognise the most common provider data problems.",
+     "focus": 0,
+     "file": "clips/2048e5a52a26.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Match providers on IDs, not names.",
+     "say": "Match providers on I D's, not names.",
+     "focus": 1,
+     "file": "clips/fff24975f272.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Tell a real duplicate from a normal many-to-one relationship (many NPIs per TIN).",
+     "say": "Tell a real duplicate from a normal many-to-one relationship (many N P I's per T I N).",
+     "focus": 2,
+     "file": "clips/00693def2499.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "Keep history when details change, instead of overwriting them.",
+     "say": "Keep history when details change, instead of overwriting them.",
+     "focus": 3,
+     "file": "clips/10c831c0b6d5.mp3",
+     "seconds": 4.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "A messy phone contact list.",
+     "say": "A messy phone contact list.",
+     "focus": -1,
+     "file": "clips/3a4f5ae853c8.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Your phone has \"Ram Dai\", \"Ram Office\" and \"Ram (new)\", all with the same number.",
+     "say": "Your phone has \"Ram Dai\", \"Ram Office\" and \"Ram (new)\", all with the same number.",
+     "focus": -1,
+     "file": "clips/71e6d6dfb765.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "One person, three contacts.",
+     "say": "One person, three contacts.",
+     "focus": -1,
+     "file": "clips/29879abf7b0b.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Another contact still shows a friend's old number from before she changed SIM.",
+     "say": "Another contact still shows a friend's old number from before she changed S I M.",
+     "focus": -1,
+     "file": "clips/5ec5713f11b1.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Provider data has exactly these problems, at the scale of hundreds of thousands of providers.",
+     "say": "Provider data has exactly these problems, at the scale of hundreds of thousands of providers.",
+     "focus": -1,
+     "file": "clips/b1289de55e15.mp3",
+     "seconds": 6.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "**In one sentence: provider data arrives from several sources that rarely agree, so it must be matched on IDs, checked, and kept with history before anyone can trust a report built on it.**",
+     "say": "In one sentence: provider data arrives from several sources that rarely agree, so it must be matched on I D's, checked, and kept with history before anyone can trust a report built on it.",
+     "focus": -1,
+     "file": "clips/b6643e6292cb.mp3",
+     "seconds": 12.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Nepal: The same problem in Kathmandu.",
+     "say": "In Nepal: The same problem in Kathmandu.",
+     "focus": -1,
+     "file": "clips/8bb9597dcb8e.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's insurer receives receipts from \"XYZ Hospital\", \"XYZ Hosp.",
+     "say": "Ram's insurer receives receipts from \"X Y Z Hospital\", \"X Y Z Hosp.",
+     "focus": 0,
+     "file": "clips/b90a2cf79d6f.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Pvt.",
+     "say": "Pvt.",
+     "focus": 0,
+     "file": "clips/64492cd83ea1.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Ltd.\" and \"X.Y.Z.",
+     "say": "Ltd.\" and \"X.Y.Z.",
+     "focus": 0,
+     "file": "clips/233b2c32e41c.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Hospital\".",
+     "say": "Hospital\".",
+     "focus": 0,
+     "file": "clips/b82b231de656.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "To report \"how much did we pay each hospital?\", it must count them as **one** hospital, best matched by **PAN**, not by name.",
+     "say": "To report \"how much did we pay each hospital?\", it must count them as one hospital, best matched by P A N, not by name.",
+     "focus": 0,
+     "file": "clips/05c3964147c9.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF needs one record per listed hospital, with the date it was listed and, if it left the list, the date it left.",
+     "say": "S S F needs one record per listed hospital, with the date it was listed and, if it left the list, the date it left.",
+     "focus": 1,
+     "file": "clips/dd9866dd3a3a.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "A claim is checked against the hospital's status **on the treatment date**.",
+     "say": "A claim is checked against the hospital's status on the treatment date.",
+     "focus": 1,
+     "file": "clips/bc9178165934.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Three sources, one hospital.",
+     "say": "Three sources, one hospital.",
+     "focus": -1,
+     "file": "clips/0b97991020d3.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Three sources, one hospital",
+   "lines": [
+    {
+     "raw": "Here is what three feeds sent for Lakeside General Hospital:",
+     "say": "Here is what three feeds sent for Lakeside General Hospital:",
+     "focus": -1,
+     "file": "clips/54660513b276.mp3",
+     "seconds": 4.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Three sources, one hospital",
+   "lines": [
+    {
+     "raw": "Raw rows before cleaning.",
+     "say": "Raw rows before cleaning.",
+     "focus": -1,
+     "file": "clips/ef9d09a7f16f.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Three sources, one hospital",
+   "lines": [
+    {
+     "raw": "Rows 1 and 2 are the **same provider** (same NPI) with different spelling: a **duplicate**.",
+     "say": "Rows 1 and 2 are the same provider (same N P I) with different spelling: a duplicate.",
+     "focus": 0,
+     "file": "clips/7fa4931332e4.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Row 3 has an NPI that **fails the Luhn check** (lesson 3): the correct check digit is 3.",
+     "say": "Row 3 has an N P I that fails the Luhn check (lesson 3): the correct check digit is 3.",
+     "focus": 1,
+     "file": "clips/90c3113d9158.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "It is a typo, not a new hospital.",
+     "say": "It is a typo, not a new hospital.",
+     "focus": 1,
+     "file": "clips/c782a52b8869.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Rows 2 and 3 have **no taxonomy**, so they cannot say what kind of provider this is.",
+     "say": "Rows 2 and 3 have no taxonomy, so they cannot say what kind of provider this is.",
+     "focus": 2,
+     "file": "clips/f493666dac0a.mp3",
+     "seconds": 5.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The common problems.",
+     "say": "The common problems.",
+     "focus": -1,
+     "file": "clips/c147aecfb4c4.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The common problems",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Duplicate providers**. Example: Same NPI from NPPES and contracting, with different spelling. Fix: Keep **one row per NPI** (per version). Match on NPI, never on name.",
+     "say": "Duplicate providers. Example: Same N P I from N P P E S and contracting, with different spelling. Fix: Keep one row per N P I (per version). Match on N P I, never on name.",
+     "focus": 0,
+     "file": "clips/d13fb8e05112.mp3",
+     "seconds": 14
+    },
+    {
+     "raw": "**Invalid NPI**. Example: `1234567890` fails the Luhn check. Fix: Validate every NPI; send failures back for correction instead of creating a new provider.",
+     "say": "Invalid N P I. Example: 1 2 3 4 5 6 7 8 9 0 fails the Luhn check. Fix: Validate every N P I; send failures back for correction instead of creating a new provider.",
+     "focus": 1,
+     "file": "clips/6d4cb805589d.mp3",
+     "seconds": 14.55
+    },
+    {
+     "raw": "**Many NPIs per TIN**. Example: Sunrise Family Clinic and Dr. Patel share TIN 74-5550101. Fix: This is **normal**, not a duplicate (lesson 4). Never merge providers just because they share a TIN.",
+     "say": "Many N P I's per T I N. Example: Sunrise Family Clinic and Doctor Patel share T I N 74-5550101. Fix: This is normal, not a duplicate (lesson 4). Never merge providers just because they share a T I N.",
+     "focus": 2,
+     "file": "clips/b5dcc0412aca.mp3",
+     "seconds": 19.4
+    },
+    {
+     "raw": "**One NPI, several TINs**. Example: A doctor works for two groups. Fix: Also normal: keep one provider and two affiliations.",
+     "say": "One N P I, several T I N's. Example: A doctor works for two groups. Fix: Also normal: keep one provider and two affiliations.",
+     "focus": 3,
+     "file": "clips/9562ba7a2e0d.mp3",
+     "seconds": 10.725
+    },
+    {
+     "raw": "**Stale addresses**. Example: Sunrise Family Clinic moved on 1 Sep 2025, but one feed still shows the old address. Fix: Choose a trusted source for addresses and verify them regularly. Keep the old address with an end date.",
+     "say": "Stale addresses. Example: Sunrise Family Clinic moved on 1 Sep 2025, but one feed still shows the old address. Fix: Choose a trusted source for addresses and verify them regularly. Keep the old address with an end date.",
+     "focus": 4,
+     "file": "clips/02d93db81522.mp3",
+     "seconds": 16
+    },
+    {
+     "raw": "**Missing taxonomy**. Example: The contracting feed has no taxonomy for the hospital. Fix: Fill it from NPPES; flag providers still missing a specialty.",
+     "say": "Missing taxonomy. Example: The contracting feed has no taxonomy for the hospital. Fix: Fill it from N P P E S; flag providers still missing a specialty.",
+     "focus": 5,
+     "file": "clips/ad241b3a0dfe.mp3",
+     "seconds": 11.7
+    },
+    {
+     "raw": "**Several taxonomies**. Example: A doctor lists Family Medicine and Sports Medicine. Fix: Use the one flagged **primary** for specialty reports.",
+     "say": "Several taxonomies. Example: A doctor lists Family Medicine and Sports Medicine. Fix: Use the one flagged primary for specialty reports.",
+     "focus": 6,
+     "file": "clips/031fceeba081.mp3",
+     "seconds": 10.05
+    },
+    {
+     "raw": "**Moves between groups**. Example: Dr. Lee leaves Lakeside Surgical Group for another group. Fix: NPI stays the same, but TIN and group change: end the old affiliation and add a new one.",
+     "say": "Moves between groups. Example: Doctor Lee leaves Lakeside Surgical Group for another group. Fix: N P I stays the same, but T I N and group change: end the old affiliation and add a new one.",
+     "focus": 7,
+     "file": "clips/20a22d2d0b0d.mp3",
+     "seconds": 13.775
+    },
+    {
+     "raw": "**Deactivated NPI**. Example: A retired doctor's NPI is deactivated in NPPES. Fix: Flag claims with service dates after deactivation for review.",
+     "say": "Deactivated N P I. Example: A retired doctor's N P I is deactivated in N P P E S. Fix: Flag claims with service dates after deactivation for review.",
+     "focus": 8,
+     "file": "clips/a997f302ddda.mp3",
+     "seconds": 13.125
+    },
+    {
+     "raw": "**Missing rendering NPI**. Example: Hospital claim lines with no rendering doctor. Fix: Often normal on hospital claims; keep the lines, do not drop them.",
+     "say": "Missing rendering N P I. Example: Hospital claim lines with no rendering doctor. Fix: Often normal on hospital claims; keep the lines, do not drop them.",
+     "focus": 9,
+     "file": "clips/76b4b14ba807.mp3",
+     "seconds": 11.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Keep history, do not overwrite.",
+     "say": "Keep history, do not overwrite.",
+     "focus": -1,
+     "file": "clips/63745da1e101.mp3",
+     "seconds": 2.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Keep history, do not overwrite",
+   "lines": [
+    {
+     "raw": "When Sunrise Family Clinic moved, the easy fix is to **overwrite** the old address.",
+     "say": "When Sunrise Family Clinic moved, the easy fix is to overwrite the old address.",
+     "focus": -1,
+     "file": "clips/9b3134e24c4a.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "But then Emily's March 2025 visit would show an address the clinic did not have yet.",
+     "say": "But then Emily's March 2025 visit would show an address the clinic did not have yet.",
+     "focus": -1,
+     "file": "clips/7cb68b285946.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "The better fix is to **close** the old record with an end date (31 Aug 2025) and **add** a new record from 1 Sep 2025.",
+     "say": "The better fix is to close the old record with an end date (31 Aug 2025) and add a new record from 1 Sep 2025.",
+     "focus": -1,
+     "file": "clips/46e9d64f82f5.mp3",
+     "seconds": 9.55
+    },
+    {
+     "raw": "Network status (lesson 5) and affiliations (lesson 4) already work this way.",
+     "say": "Network status (lesson 5) and affiliations (lesson 4) already work this way.",
+     "focus": -1,
+     "file": "clips/3f76f919c701.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Lesson 8 shows the full table.",
+     "say": "Lesson 8 shows the full table.",
+     "focus": -1,
+     "file": "clips/e81b3d08f604.mp3",
+     "seconds": 2.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Keep history, do not overwrite",
+   "lines": [
+    {
+     "raw": "What bad provider data breaks.",
+     "say": "What bad provider data breaks.",
+     "focus": -1,
+     "file": "clips/5a1d09f3164f.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "A missing or wrong **taxonomy** puts spend under the wrong specialty and breaks **PCP attribution** (lesson 6): if Dr. Lee were stored as Family Medicine, Emily's surgery would count as a primary care visit.",
+     "say": "A missing or wrong taxonomy puts spend under the wrong specialty and breaks P C P attribution (lesson 6): if Doctor Lee were stored as Family Medicine, Emily's surgery would count as a primary care visit.",
+     "focus": -1,
+     "file": "clips/9d2698146985.mp3",
+     "seconds": 14.275
+    },
+    {
+     "raw": "A **duplicate** provider splits one hospital's spend in two.",
+     "say": "A duplicate provider splits one hospital's spend in two.",
+     "focus": -1,
+     "file": "clips/1f75ba27258c.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "An **invalid NPI** leaves claims with no provider at all.",
+     "say": "An invalid N P I leaves claims with no provider at all.",
+     "focus": -1,
+     "file": "clips/b1974ebb536e.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "A **stale address** sends members to doctors who are not there: the \"ghost network\" problem from lesson 1.",
+     "say": "A stale address sends members to doctors who are not there: the \"ghost network\" problem from lesson 1.",
+     "focus": -1,
+     "file": "clips/d1cb76fd76bc.mp3",
+     "seconds": 6.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Keep history, do not overwrite",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Provider data is shared by every report that touches claims.",
+     "say": "Provider data is shared by every report that touches claims.",
+     "focus": -1,
+     "file": "clips/eba4ca3ad1c9.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Clean it **once**, in the provider master file, with clear rules: match on NPI, validate with Luhn, pick a trusted source for each field, and keep history with dates.",
+     "say": "Clean it once, in the provider master file, with clear rules: match on N P I, validate with Luhn, pick a trusted source for each field, and keep history with dates.",
+     "focus": -1,
+     "file": "clips/5c0ad989a51f.mp3",
+     "seconds": 10.55
+    },
+    {
+     "raw": "Then every analyst gets the same answer.",
+     "say": "Then every analyst gets the same answer.",
+     "focus": -1,
+     "file": "clips/0729573ffe32.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Provider feeds disagree: expect duplicates, typos, stale addresses and missing taxonomy.",
+     "say": "Provider feeds disagree: expect duplicates, typos, stale addresses and missing taxonomy.",
+     "focus": 0,
+     "file": "clips/7a39d65f837a.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "Match providers on **NPI**, never on name; validate NPIs with the Luhn check.",
+     "say": "Match providers on N P I, never on name; validate N P I's with the Luhn check.",
+     "focus": 1,
+     "file": "clips/93807902ef52.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Many NPIs per TIN, and one NPI with several TINs, are **normal** relationships, not duplicates.",
+     "say": "Many N P I's per T I N, and one N P I with several T I N's, are normal relationships, not duplicates.",
+     "focus": 2,
+     "file": "clips/1c56675b796a.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "When details change, **close the old record and add a new one** instead of overwriting.",
+     "say": "When details change, close the old record and add a new one instead of overwriting.",
+     "focus": 3,
+     "file": "clips/851efacc8cff.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "Bad provider data breaks specialty reports, attribution and network directories.",
+     "say": "Bad provider data breaks specialty reports, attribution and network directories.",
+     "focus": 4,
+     "file": "clips/8380c63cb185.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

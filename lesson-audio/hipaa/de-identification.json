@@ -1,0 +1,638 @@
+{
+ "courseId": "hipaa",
+ "lessonId": "de-identification",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: De-identification.",
+     "say": "Lesson 6: De-identification.",
+     "focus": -1,
+     "file": "clips/2b1b57c2f052.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Turn PHI into data that is safe to share: Safe Harbor, Expert Determination and the limited data set.",
+     "say": "Turn P H I into data that is safe to share: Safe Harbor, Expert Determination and the limited data set.",
+     "focus": -1,
+     "file": "clips/e161e5a49cf8.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain why de-identified data is no longer PHI.",
+     "say": "Explain why de-identified data is no longer P H I.",
+     "focus": 0,
+     "file": "clips/a2037da84e26.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "Compare the two methods: Safe Harbor and Expert Determination.",
+     "say": "Compare the two methods: Safe Harbor and Expert Determination.",
+     "focus": 1,
+     "file": "clips/ab60dee28312.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Know what a limited data set is and when it needs a data use agreement.",
+     "say": "Know what a limited data set is and when it needs a data use agreement.",
+     "focus": 2,
+     "file": "clips/d4313c9d82d8.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "De-identify a real-looking claim row step by step.",
+     "say": "De-identify a real-looking claim row step by step.",
+     "focus": 3,
+     "file": "clips/d1c29331ce14.mp3",
+     "seconds": 3.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Why de-identify?",
+     "say": "Why de-identify?",
+     "focus": -1,
+     "file": "clips/423f9abc322d.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Why de-identify?",
+   "lines": [
+    {
+     "raw": "Analysts, researchers and software testers often need claims data, but not the **people** behind it.",
+     "say": "Analysts, researchers and software testers often need claims data, but not the people behind it.",
+     "focus": -1,
+     "file": "clips/5d981476d91b.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "If data is properly **de-identified**, it is **no longer PHI**, and HIPAA's rules no longer apply to it.",
+     "say": "If data is properly de-identified, it is no longer P H I, and HIPAA's rules no longer apply to it.",
+     "focus": -1,
+     "file": "clips/f4762c7d23ae.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "That makes it much easier and safer to share, study and build with.",
+     "say": "That makes it much easier and safer to share, study and build with.",
+     "focus": -1,
+     "file": "clips/a465ed826382.mp3",
+     "seconds": 4.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Why de-identify?",
+   "lines": [
+    {
+     "raw": "A survey report in Nepal.",
+     "say": "A survey report in Nepal.",
+     "focus": -1,
+     "file": "clips/34209e005eea.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "A national health survey might report \"fever was most common among children under 5 in Province X\".",
+     "say": "A national health survey might report \"fever was most common among children under 5 in Province X\".",
+     "focus": -1,
+     "file": "clips/8a29375156dd.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "It never lists which families were visited.",
+     "say": "It never lists which families were visited.",
+     "focus": -1,
+     "file": "clips/007c824fb90f.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "The useful **pattern** is kept; the **people** are hidden.",
+     "say": "The useful pattern is kept; the people are hidden.",
+     "focus": -1,
+     "file": "clips/923bacfdc9a6.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "De-identification does the same with claims.",
+     "say": "De-identification does the same with claims.",
+     "focus": -1,
+     "file": "clips/2fbfa67b7305.mp3",
+     "seconds": 3.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two ways to de-identify.",
+     "say": "Two ways to de-identify.",
+     "focus": -1,
+     "file": "clips/e5b68d759c3b.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Two ways to de-identify",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**How**. Safe Harbor: Remove all **18 identifiers** (from the PHI lesson) for the person, relatives, employer and household. Expert Determination: A qualified expert (usually a statistician) studies the data and decides the risk of identifying anyone is **very small**.",
+     "say": "How. Safe Harbor: Remove all 18 identifiers (from the P H I lesson) for the person, relatives, employer and household. Expert Determination: A qualified expert (usually a statistician) studies the data and decides the risk of identifying anyone is very small.",
+     "focus": 0,
+     "file": "clips/e63302c3a514.mp3",
+     "seconds": 18.95
+    },
+    {
+     "raw": "**Extra condition**. Safe Harbor: You must have no actual knowledge that what remains could identify someone. Expert Determination: The expert must document the methods and results.",
+     "say": "Extra condition. Safe Harbor: You must have no actual knowledge that what remains could identify someone. Expert Determination: The expert must document the methods and results.",
+     "focus": 1,
+     "file": "clips/717e0b4bc13b.mp3",
+     "seconds": 12
+    },
+    {
+     "raw": "**Dates and ZIPs**. Safe Harbor: Year only; ZIP cut to 3 digits (or `000` for small areas). Expert Determination: Can often keep more detail, e.g. months, or dates shifted by a random number of days.",
+     "say": "Dates and Z I P's. Safe Harbor: Year only; Z I P cut to 3 digits (or 000 for small areas). Expert Determination: Can often keep more detail, for example months, or dates shifted by a random number of days.",
+     "focus": 2,
+     "file": "clips/8581c16e5c1e.mp3",
+     "seconds": 17.075
+    },
+    {
+     "raw": "**Good for**. Safe Harbor: Simple, checklist-style, easy to verify. Expert Determination: Analysis that needs more detail, such as trends by month.",
+     "say": "Good for. Safe Harbor: Simple, checklist-style, easy to verify. Expert Determination: Analysis that needs more detail, such as trends by month.",
+     "focus": 3,
+     "file": "clips/f176d55f257c.mp3",
+     "seconds": 10.5
+    },
+    {
+     "raw": "**Cost**. Safe Harbor: Low. Expert Determination: Higher: you pay an expert and repeat when data or use changes.",
+     "say": "Cost. Safe Harbor: Low. Expert Determination: Higher: you pay an expert and repeat when data or use changes.",
+     "focus": 4,
+     "file": "clips/32590c03c2c0.mp3",
+     "seconds": 8.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Two ways to de-identify",
+   "lines": [
+    {
+     "raw": "The ZIP and age details.",
+     "say": "The Z I P and age details.",
+     "focus": -1,
+     "file": "clips/4a9d82a9d59a.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Under Safe Harbor, the first 3 digits of a ZIP code may stay only if all ZIPs starting with those digits together have **more than 20,000 people**; otherwise use `000`.",
+     "say": "Under Safe Harbor, the first 3 digits of a Z I P code may stay only if all Z I P's starting with those digits together have more than 20,000 people; otherwise use 000.",
+     "focus": -1,
+     "file": "clips/f09d227b6d36.mp3",
+     "seconds": 14.2
+    },
+    {
+     "raw": "Ages over 89 become a single group, **90 or older**.",
+     "say": "Ages over 89 become a single group, 90 or older.",
+     "focus": -1,
+     "file": "clips/74fad5b0721a.mp3",
+     "seconds": 4.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The middle option: a limited data set.",
+     "say": "The middle option: a limited data set.",
+     "focus": -1,
+     "file": "clips/1a13cd5693bf.mp3",
+     "seconds": 2.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The middle option: a limited data set",
+   "lines": [
+    {
+     "raw": "Sometimes analysts need full dates or 5-digit ZIPs, for example to study hospital readmissions within 30 days.",
+     "say": "Sometimes analysts need full dates or 5-digit Z I P's, for example to study hospital readmissions within 30 days.",
+     "focus": -1,
+     "file": "clips/a7355bf7e7d4.mp3",
+     "seconds": 9.225
+    },
+    {
+     "raw": "A **limited data set** removes the direct identifiers (names, street addresses, phone and email, SSN, member and account numbers, photos and similar) but may keep **dates**, **city, state and ZIP**, and **ages**.",
+     "say": "A limited data set removes the direct identifiers (names, street addresses, phone and email, S S N, member and account numbers, photos and similar) but may keep dates, city, state and Z I P, and ages.",
+     "focus": -1,
+     "file": "clips/d5c2a0fe2047.mp3",
+     "seconds": 14.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The middle option: a limited data set",
+   "lines": [
+    {
+     "raw": "Limited data set (LDS).",
+     "say": "Limited data set (L D S).",
+     "focus": 0,
+     "file": "clips/575f3babffba.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Still PHI, but with direct identifiers removed.",
+     "say": "Still P H I, but with direct identifiers removed.",
+     "focus": 0,
+     "file": "clips/25d8f8319845.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Allowed only for **research, public health or health care operations**.",
+     "say": "Allowed only for research, public health or health care operations.",
+     "focus": 0,
+     "file": "clips/08d98a0169d4.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Data use agreement (DUA).",
+     "say": "Data use agreement (D U A).",
+     "focus": 1,
+     "file": "clips/e5c59a3bb493.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "A contract the receiver must sign before getting a limited data set.",
+     "say": "A contract the receiver must sign before getting a limited data set.",
+     "focus": 1,
+     "file": "clips/08454c0958f7.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "It promises not to re-identify anyone or contact them, and to protect the data.",
+     "say": "It promises not to re-identify anyone or contact them, and to protect the data.",
+     "focus": 1,
+     "file": "clips/4d59bbb75acb.mp3",
+     "seconds": 5.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: de-identifying Emily's claim row.",
+     "say": "Worked example: de-identifying Emily's claim row.",
+     "focus": -1,
+     "file": "clips/d887a3372a93.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Worked example: de-identifying Emily's claim row",
+   "lines": [
+    {
+     "raw": "Here is line 1 of Emily's strep throat claim **23098908** (the office visit), joined to her member details.",
+     "say": "Here is line 1 of Emily's strep throat claim 23098908 (the office visit), joined to her member details.",
+     "focus": -1,
+     "file": "clips/1631d6b82121.mp3",
+     "seconds": 9.35
+    },
+    {
+     "raw": "The street address and phone number are **made up** for this example.",
+     "say": "The street address and phone number are made up for this example.",
+     "focus": -1,
+     "file": "clips/4259771a6bd9.mp3",
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Worked example: de-identifying Emily's claim row",
+   "lines": [
+    {
+     "raw": "Original row: full PHI.",
+     "say": "Original row: full P H I.",
+     "focus": -1,
+     "file": "clips/c537d75fa631.mp3",
+     "seconds": 2.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Worked example: de-identifying Emily's claim row",
+   "lines": [
+    {
+     "raw": "Safe Harbor: what happens to each field.",
+     "say": "Safe Harbor: what happens to each field.",
+     "focus": -1,
+     "file": "clips/b1729e1772d4.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "`first_name`, `last_name`. Identifier?: Yes (#1 names). Action: Remove. Result: Gone.",
+     "say": "first_name, last_name. Identifier?: Yes (#1 names). Action: Remove. Result: Gone.",
+     "focus": 0,
+     "file": "clips/9aacb30c6a82.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "`street`, `city`. Identifier?: Yes (#2 geography). Action: Remove. Result: Gone.",
+     "say": "street, city. Identifier?: Yes (#2 geography). Action: Remove. Result: Gone.",
+     "focus": 1,
+     "file": "clips/965b0a1146ab.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "`zip`. Identifier?: Yes (#2). Action: Keep first 3 digits (the 787 area has far more than 20,000 people). Result: `787`.",
+     "say": "zip. Identifier?: Yes (#2). Action: Keep first 3 digits (the 787 area has far more than 20,000 people). Result: 787.",
+     "focus": 2,
+     "file": "clips/7db7f898f065.mp3",
+     "seconds": 12.425
+    },
+    {
+     "raw": "`state`. Identifier?: No. Action: Keep. Result: `TX`.",
+     "say": "state. Identifier?: No. Action: Keep. Result: T X.",
+     "focus": 3,
+     "file": "clips/397ccbec8d3d.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "`dob`. Identifier?: Yes (#3 dates). Action: Keep year only; add age at service. Result: `1990`, age `34`.",
+     "say": "dob. Identifier?: Yes (#3 dates). Action: Keep year only; add age at service. Result: 1 9 9 0, age 34.",
+     "focus": 4,
+     "file": "clips/f54b0c760bb3.mp3",
+     "seconds": 9.85
+    },
+    {
+     "raw": "`from_dt`. Identifier?: Yes (#3 dates). Action: Keep year only. Result: `2025`.",
+     "say": "from_dt. Identifier?: Yes (#3 dates). Action: Keep year only. Result: 2 0 2 5.",
+     "focus": 5,
+     "file": "clips/681e6c06f353.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "`phone`. Identifier?: Yes (#4). Action: Remove. Result: Gone.",
+     "say": "phone. Identifier?: Yes (#4). Action: Remove. Result: Gone.",
+     "focus": 6,
+     "file": "clips/4c685fa8b018.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "`member_id`. Identifier?: Yes (#9 health plan number). Action: Replace with a **random** study ID. Result: `P-58213`.",
+     "say": "member_id. Identifier?: Yes (#9 health plan number). Action: Replace with a random study I D. Result: P dash 5 8 2 1 3.",
+     "focus": 7,
+     "file": "clips/78b3c5749549.mp3",
+     "seconds": 10.875
+    },
+    {
+     "raw": "`claim_id`. Identifier?: Yes (#18 unique code). Action: Replace with a random ID. Result: `C-90417`.",
+     "say": "claim_id. Identifier?: Yes (#18 unique code). Action: Replace with a random I D. Result: C dash 9 0 4 1 7.",
+     "focus": 8,
+     "file": "clips/3ace8577b8a9.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "`gender`, `cpt`, `principal_dx`, amounts. Identifier?: No. Action: Keep. Result: Unchanged.",
+     "say": "gender, cpt, principal_dx, amounts. Identifier?: No. Action: Keep. Result: Unchanged.",
+     "focus": 9,
+     "file": "clips/84a967a89529.mp3",
+     "seconds": 7.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: de-identifying Emily's claim row",
+   "lines": [
+    {
+     "raw": "Safe Harbor result: de-identified, no longer PHI.",
+     "say": "Safe Harbor result: de-identified, no longer P H I.",
+     "focus": -1,
+     "file": "clips/63534189e657.mp3",
+     "seconds": 4.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: de-identifying Emily's claim row",
+   "lines": [
+    {
+     "raw": "Check the details.",
+     "say": "Check the details.",
+     "focus": -1,
+     "file": "clips/7cc7e22a1c9e.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "Age: Emily was born on 14 Aug 1990, and on 10 Mar 2025 she had not yet had her birthday that year, so she was **34**, not 35.",
+     "say": "Age: Emily was born on 14 Aug 1990, and on 10 Mar 2025 she had not yet had her birthday that year, so she was 34, not 35.",
+     "focus": -1,
+     "file": "clips/adc690f62b0a.mp3",
+     "seconds": 11.3
+    },
+    {
+     "raw": "Money is untouched and still balances: allowed $80 = copay $25 + paid $55.",
+     "say": "Money is untouched and still balances: allowed 80 dollars = copay 25 dollars and paid 55 dollars.",
+     "focus": -1,
+     "file": "clips/c2c88d5d2c5e.mp3",
+     "seconds": 8.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: de-identifying Emily's claim row",
+   "lines": [
+    {
+     "raw": "Limited data set version: still PHI, needs a data use agreement.",
+     "say": "Limited data set version: still P H I, needs a data use agreement.",
+     "focus": -1,
+     "file": "clips/e3f5fed49e67.mp3",
+     "seconds": 5.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: de-identifying Emily's claim row",
+   "lines": [
+    {
+     "raw": "Why not just hash the member ID?",
+     "say": "Why not just hash the member I D?",
+     "focus": -1,
+     "file": "clips/c27b97befa5b.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "It is tempting to turn `M1001` into a scrambled code with a hash function.",
+     "say": "It is tempting to turn M 1 0 0 1 into a scrambled code with a hash function.",
+     "focus": -1,
+     "file": "clips/65e8c8600eaf.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "But member IDs follow a pattern, so anyone can hash every possible ID and match them back.",
+     "say": "But member I D's follow a pattern, so anyone can hash every possible I D and match them back.",
+     "focus": -1,
+     "file": "clips/ff9fcf3f46b8.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "Under Safe Harbor, a replacement code must **not be derived** from the person's information.",
+     "say": "Under Safe Harbor, a replacement code must not be derived from the person's information.",
+     "focus": -1,
+     "file": "clips/6d52e7a89078.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Use a **random** ID and keep the lookup table (random ID to real ID) locked away, never shared with the data.",
+     "say": "Use a random I D and keep the lookup table (random I D to real I D) locked away, never shared with the data.",
+     "focus": -1,
+     "file": "clips/9aac1a2a13e1.mp3",
+     "seconds": 7.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example: de-identifying Emily's claim row",
+   "lines": [
+    {
+     "raw": "Why it matters for data work.",
+     "say": "Why it matters for data work.",
+     "focus": -1,
+     "file": "clips/3d85d1677532.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Before you share a dataset, ask: **who needs it, and how much detail?**",
+     "say": "Before you share a dataset, ask: who needs it, and how much detail?",
+     "focus": -1,
+     "file": "clips/d01b3afa8e09.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "A Safe Harbor file can go to a wider audience; a limited data set needs a data use agreement; full PHI needs a reason under the Privacy Rule.",
+     "say": "A Safe Harbor file can go to a wider audience; a limited data set needs a data use agreement; full P H I needs a reason under the Privacy Rule.",
+     "focus": -1,
+     "file": "clips/1143dc02b269.mp3",
+     "seconds": 10.45
+    },
+    {
+     "raw": "Picking the lightest option that still answers the question is minimum necessary in action.",
+     "say": "Picking the lightest option that still answers the question is minimum necessary in action.",
+     "focus": -1,
+     "file": "clips/761baf676f6d.mp3",
+     "seconds": 6.05
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Properly de-identified data is not PHI, so HIPAA's rules no longer apply to it.",
+     "say": "Properly de-identified data is not P H I, so HIPAA's rules no longer apply to it.",
+     "focus": 0,
+     "file": "clips/39f8a000677f.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "Safe Harbor removes all 18 identifiers (keeping only the year of dates and, where allowed, the first 3 ZIP digits); Expert Determination has an expert certify that the risk is very small.",
+     "say": "Safe Harbor removes all 18 identifiers (keeping only the year of dates and, where allowed, the first 3 Z I P digits); Expert Determination has an expert certify that the risk is very small.",
+     "focus": 1,
+     "file": "clips/46f3f3e66716.mp3",
+     "seconds": 13.9
+    },
+    {
+     "raw": "A limited data set keeps dates and city, state and ZIP; it is still PHI, allowed only for research, public health or operations, under a data use agreement.",
+     "say": "A limited data set keeps dates and city, state and Z I P; it is still P H I, allowed only for research, public health or operations, under a data use agreement.",
+     "focus": 2,
+     "file": "clips/7f83894a062a.mp3",
+     "seconds": 12.1
+    },
+    {
+     "raw": "Replace IDs with random codes, not hashes of real IDs, and lock the lookup table away.",
+     "say": "Replace I D's with random codes, not hashes of real I D's, and lock the lookup table away.",
+     "focus": 3,
+     "file": "clips/0fb3751d0b5c.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

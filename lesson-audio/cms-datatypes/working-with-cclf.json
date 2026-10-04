@@ -1,0 +1,995 @@
+{
+ "courseId": "cms-datatypes",
+ "lessonId": "working-with-cclf",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: Working with CCLF.",
+     "say": "Lesson 3: Working with C C L F.",
+     "focus": -1,
+     "file": "clips/122ca6335694.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Claims get corrected, arrive late and live in many files.",
+     "say": "Claims get corrected, arrive late and live in many files.",
+     "focus": -1,
+     "file": "clips/335ea90c4e00.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "Here is how analysts tame them.",
+     "say": "Here is how analysts tame them.",
+     "focus": -1,
+     "file": "clips/e53b1b1ad994.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Handle claim versions: originals, cancels and adjustments, keeping only the latest.",
+     "say": "Handle claim versions: originals, cancels and adjustments, keeping only the latest.",
+     "focus": 0,
+     "file": "clips/bd8f35663555.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Join headers to lines without double counting.",
+     "say": "Join headers to lines without double counting.",
+     "focus": 1,
+     "file": "clips/22c695294564.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "Split spending into Part A, Part B and Part D correctly.",
+     "say": "Split spending into Part A, Part B and Part D correctly.",
+     "focus": 2,
+     "file": "clips/53f78b70cb46.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Explain claims run-out and why recent months look too cheap.",
+     "say": "Explain claims run-out and why recent months look too cheap.",
+     "focus": 3,
+     "file": "clips/8a8f73b70557.mp3",
+     "seconds": 4.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Problem 1: the same claim, many versions.",
+     "say": "Problem 1: the same claim, many versions.",
+     "focus": -1,
+     "file": "clips/6ce5134da15a.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Problem 1: the same claim, many versions",
+   "lines": [
+    {
+     "raw": "Hospitals make mistakes and fix them.",
+     "say": "Hospitals make mistakes and fix them.",
+     "focus": -1,
+     "file": "clips/0ff7ab06a421.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "When a Medicare claim is corrected, the old version is not simply edited in place.",
+     "say": "When a Medicare claim is corrected, the old version is not simply edited in place.",
+     "focus": -1,
+     "file": "clips/948bf4d8a79d.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "Instead, CMS's files show a **cancel** of the old version and a **new version** of the claim, often with a **new** `CUR_CLM_UNIQ_ID`.",
+     "say": "Instead, CMS's files show a cancel of the old version and a new version of the claim, often with a new CUR_CLM_UNIQ_ID.",
+     "focus": -1,
+     "file": "clips/b9adddddfc06.mp3",
+     "seconds": 9.675
+    },
+    {
+     "raw": "If you add up every row, you count the same visit two or three times.",
+     "say": "If you add up every row, you count the same visit two or three times.",
+     "focus": -1,
+     "file": "clips/07031317d4f9.mp3",
+     "seconds": 4.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Problem 1: the same claim, many versions",
+   "lines": [
+    {
+     "raw": "Original (CLM_ADJSMT_TYPE_CD = 0).",
+     "say": "Original (CLM_ADJSMT_TYPE_CD = 0).",
+     "focus": 0,
+     "file": "clips/0f83ec89a5ad.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "The first version of a claim.",
+     "say": "The first version of a claim.",
+     "focus": 0,
+     "file": "clips/d045dd8683d3.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Cancel (CLM_ADJSMT_TYPE_CD = 1).",
+     "say": "Cancel (CLM_ADJSMT_TYPE_CD = 1).",
+     "focus": 1,
+     "file": "clips/362cf9613a54.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "A record saying \"this earlier version no longer counts\".",
+     "say": "A record saying \"this earlier version no longer counts\".",
+     "focus": 1,
+     "file": "clips/b0fe497a8484.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Adjustment (CLM_ADJSMT_TYPE_CD = 2).",
+     "say": "Adjustment (CLM_ADJSMT_TYPE_CD = 2).",
+     "focus": 2,
+     "file": "clips/ac6bf31ebb6c.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "A corrected, replacement version of the claim.",
+     "say": "A corrected, replacement version of the claim.",
+     "focus": 2,
+     "file": "clips/384f9bb2d7c7.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "CLM_EFCTV_DT.",
+     "say": "CLM_EFCTV_DT.",
+     "focus": 3,
+     "file": "clips/302eec5bf361.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "The **effective date** of a version: roughly when Medicare processed it.",
+     "say": "The effective date of a version: roughly when Medicare processed it.",
+     "focus": 3,
+     "file": "clips/3cd1e2da00e7.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Later date = newer version.",
+     "say": "Later date = newer version.",
+     "focus": 3,
+     "file": "clips/41492e190976.mp3",
+     "seconds": 2.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Problem 1: the same claim, many versions",
+   "lines": [
+    {
+     "raw": "Like a corrected bill at the hospital counter.",
+     "say": "Like a corrected bill at the hospital counter.",
+     "focus": -1,
+     "file": "clips/d20c70c492c6.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "The cashier prints your bill, then notices the ECG was charged twice.",
+     "say": "The cashier prints your bill, then notices the E C G was charged twice.",
+     "focus": -1,
+     "file": "clips/64c01d49a7f1.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "She stamps the first bill **CANCELLED** and prints a new one.",
+     "say": "She stamps the first bill CANCELLED and prints a new one.",
+     "focus": -1,
+     "file": "clips/dcec222bec62.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "If you put both bills in your reimbursement claim, your insurer would pay twice.",
+     "say": "If you put both bills in your reimbursement claim, your insurer would pay twice.",
+     "focus": -1,
+     "file": "clips/d589e7c52b4c.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "The cancelled bill is still in your folder, but only the **newest valid bill** counts.",
+     "say": "The cancelled bill is still in your folder, but only the newest valid bill counts.",
+     "focus": -1,
+     "file": "clips/4c46136a5ce0.mp3",
+     "seconds": 5.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Robert's ER claim is corrected.",
+     "say": "Robert's E R claim is corrected.",
+     "focus": -1,
+     "file": "clips/bace930030fa.mp3",
+     "seconds": 2.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Robert's ER claim is corrected",
+   "lines": [
+    {
+     "raw": "In July 2025, Bayou City Medical Center corrected the ECG line on Robert's 20 May ER claim.",
+     "say": "In July 2025, Bayou City Medical Center corrected the E C G line on Robert's 20 May E R claim.",
+     "focus": -1,
+     "file": "clips/c3b0cd98993d.mp3",
+     "seconds": 8.4
+    },
+    {
+     "raw": "Over two CCLF deliveries, the ACO receives three header rows for **one visit**:",
+     "say": "Over two C C L F deliveries, the A C O receives three header rows for one visit:",
+     "focus": -1,
+     "file": "clips/77bbb9a3eb7d.mp3",
+     "seconds": 6.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Robert's ER claim is corrected",
+   "lines": [
+    {
+     "raw": "CCLF1 rows for Robert's 20 May ER visit, after the correction.",
+     "say": "C C L F 1 rows for Robert's 20 May E R visit, after the correction.",
+     "focus": -1,
+     "file": "clips/00678c814890.mp3",
+     "seconds": 5.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Robert's ER claim is corrected",
+   "lines": [
+    {
+     "raw": "Step 1: Group the versions.",
+     "say": "Step 1: Group the versions.",
+     "focus": 0,
+     "file": "clips/89ab23a5b6fc.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Rows with the same beneficiary, facility (`PRVDR_OSCAR_NUM`, the hospital's Medicare number, fictional here), claim type and from/through dates are versions of **one** claim.",
+     "say": "Rows with the same beneficiary, facility (PRVDR_OSCAR_NUM, the hospital's Medicare number, fictional here), claim type and from/through dates are versions of one claim.",
+     "focus": 0,
+     "file": "clips/a241bf187ff2.mp3",
+     "seconds": 12.125
+    },
+    {
+     "raw": "Step 2: Sort by effective date.",
+     "say": "Step 2: Sort by effective date.",
+     "focus": 1,
+     "file": "clips/99d991de83ee.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Order each group by `CLM_EFCTV_DT`, newest last.",
+     "say": "Order each group by CLM_EFCTV_DT, newest last.",
+     "focus": 1,
+     "file": "clips/7744a36abd3d.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "Use `CUR_CLM_UNIQ_ID` to break ties.",
+     "say": "Use CUR_CLM_UNIQ_ID to break ties.",
+     "focus": 1,
+     "file": "clips/628657a71f26.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Step 3: Keep the latest, drop cancels.",
+     "say": "Step 3: Keep the latest, drop cancels.",
+     "focus": 2,
+     "file": "clips/994e5c070a11.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Keep the newest version.",
+     "say": "Keep the newest version.",
+     "focus": 2,
+     "file": "clips/aeed5301f7ee.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "If the newest action is a **cancel**, the claim no longer counts at all.",
+     "say": "If the newest action is a cancel, the claim no longer counts at all.",
+     "focus": 2,
+     "file": "clips/36625cf98011.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Step 4: Bring its lines along.",
+     "say": "Step 4: Bring its lines along.",
+     "focus": 3,
+     "file": "clips/8d024e98b760.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Take the CCLF2, CCLF3 and CCLF4 rows that share the **kept** `CUR_CLM_UNIQ_ID` only.",
+     "say": "Take the C C L F 2, C C L F 3 and C C L F 4 rows that share the kept CUR_CLM_UNIQ_ID only.",
+     "focus": 3,
+     "file": "clips/7c07dfe44508.mp3",
+     "seconds": 9.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Robert's ER claim is corrected",
+   "lines": [
+    {
+     "raw": "Why it matters.",
+     "say": "Why it matters.",
+     "focus": -1,
+     "file": "clips/bd5c58a13fed.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "Wrong: 612.40 plus 612.40 plus 580.00 equals $1,804.80     Right: latest version only equals $580.00.",
+     "say": "Wrong: 612.40 plus 612.40 plus 580.00 equals 1804 dollars 80 cents Right: latest version only equals 580 dollars.",
+     "focus": 0,
+     "file": "clips/87c254c9b3e4.mp3",
+     "seconds": 15.15
+    },
+    {
+     "raw": "For example: Summing every row triples the cost of one ER visit.",
+     "say": "For example: Summing every row triples the cost of one E R visit.",
+     "focus": 1,
+     "file": "clips/b9509ca3dbc6.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "The corrected claim (1000006831) pays $450.00 plus $98.20 plus $31.80 equals $580.00.",
+     "say": "The corrected claim (1000006831) pays 450 dollars plus 98 dollars 20 cents plus 31 dollars 80 cents equals 580 dollars.",
+     "focus": 1,
+     "file": "clips/a2cd8249624b.mp3",
+     "seconds": 13.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Robert's ER claim is corrected",
+   "lines": [
+    {
+     "raw": "Follow CMS's recipe.",
+     "say": "Follow CMS's recipe.",
+     "focus": -1,
+     "file": "clips/fbce8a94891c.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "CMS's **CCLF Information Packet** describes the exact \"natural key\" fields and steps for finding the latest version of Part A, Part B and Part D claims.",
+     "say": "CMS's C C L F Information Packet describes the exact \"natural key\" fields and steps for finding the latest version of Part A, Part B and Part D claims.",
+     "focus": -1,
+     "file": "clips/2bad66ce2180.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "The steps above are the basic idea.",
+     "say": "The steps above are the basic idea.",
+     "focus": -1,
+     "file": "clips/a5ee3d617913.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Use the packet's rules in real work, because they differ a little by file.",
+     "say": "Use the packet's rules in real work, because they differ a little by file.",
+     "focus": -1,
+     "file": "clips/62b55694b84e.mp3",
+     "seconds": 4.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Robert's ER claim is corrected",
+   "lines": [
+    {
+     "raw": "Adjustments and reversals in general.",
+     "say": "Adjustments and reversals in general.",
+     "focus": -1,
+     "file": "clips/7cd5bc2a48ab.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "The general idea of claim adjustments, reversals and duplicates is taught in the Medical course.",
+     "say": "The general idea of claim adjustments, reversals and duplicates is taught in the Medical course.",
+     "focus": -1,
+     "file": "clips/d02d136ffc5d.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "This lesson only shows how it looks in CCLF.",
+     "say": "This lesson only shows how it looks in C C L F.",
+     "focus": -1,
+     "file": "clips/d698a37ca1fc.mp3",
+     "seconds": 3.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Problem 2: joining headers to lines.",
+     "say": "Problem 2: joining headers to lines.",
+     "focus": -1,
+     "file": "clips/46a7a587b107.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Problem 2: joining headers to lines",
+   "lines": [
+    {
+     "raw": "CCLF1 has one row per claim, CCLF2 has one row per line, and CCLF4 has one row per diagnosis.",
+     "say": "C C L F 1 has one row per claim, C C L F 2 has one row per line, and C C L F 4 has one row per diagnosis.",
+     "focus": -1,
+     "file": "clips/bcc1a23e75f9.mp3",
+     "seconds": 10.275
+    },
+    {
+     "raw": "Joining them is easy with `CUR_CLM_UNIQ_ID`, but joining the **wrong pair** multiplies rows.",
+     "say": "Joining them is easy with CUR_CLM_UNIQ_ID, but joining the wrong pair multiplies rows.",
+     "focus": -1,
+     "file": "clips/4baeb8a64b00.mp3",
+     "seconds": 7.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Problem 2: joining headers to lines",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "CCLF1 alone. Rows for Robert's corrected claim: 1 (the header). Safe to sum money?: Yes: sum `CLM_PMT_AMT`.",
+     "say": "C C L F 1 alone. Rows for Robert's corrected claim: 1 (the header). Safe to sum money?: Yes: sum CLM_PMT_AMT.",
+     "focus": 0,
+     "file": "clips/f1b4b694b9ae.mp3",
+     "seconds": 10.125
+    },
+    {
+     "raw": "CCLF1 + CCLF2. Rows for Robert's corrected claim: 3 (one per line). Safe to sum money?: Yes, if you sum the **line** amount, not the header amount.",
+     "say": "C C L F 1 and C C L F 2. Rows for Robert's corrected claim: 3 (one per line). Safe to sum money?: Yes, if you sum the line amount, not the header amount.",
+     "focus": 1,
+     "file": "clips/ed3e5baac721.mp3",
+     "seconds": 12.25
+    },
+    {
+     "raw": "CCLF2 + CCLF4. Rows for Robert's corrected claim: 3 lines × 3 diagnoses = **9**. Safe to sum money?: **No**: every line is repeated 3 times, so money triples.",
+     "say": "C C L F 2 and C C L F 4. Rows for Robert's corrected claim: 3 lines × 3 diagnoses = 9. Safe to sum money?: No: every line is repeated 3 times, so money triples.",
+     "focus": 2,
+     "file": "clips/f8558d9fa3b9.mp3",
+     "seconds": 15.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Problem 2: joining headers to lines",
+   "lines": [
+    {
+     "raw": "The fan-out trap.",
+     "say": "The fan-out trap.",
+     "focus": -1,
+     "file": "clips/d67d4d92a2be.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Never join two \"many\" tables (lines and diagnoses) and then sum.",
+     "say": "Never join two \"many\" tables (lines and diagnoses) and then sum.",
+     "focus": -1,
+     "file": "clips/8c446cf876dd.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Instead, answer money questions from header or line tables, and diagnosis questions (\"does Robert have diabetes?\") from CCLF4 on its own, then combine the answers at the claim or person level.",
+     "say": "Instead, answer money questions from header or line tables, and diagnosis questions (\"does Robert have diabetes?\") from C C L F 4 on its own, then combine the answers at the claim or person level.",
+     "focus": -1,
+     "file": "clips/bf673090cf74.mp3",
+     "seconds": 14.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Problem 3: Part A, Part B or Part D?",
+     "say": "Problem 3: Part A, Part B or Part D?",
+     "focus": -1,
+     "file": "clips/d278e4c5328b.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Problem 3: Part A, Part B or Part D?",
+   "lines": [
+    {
+     "raw": "Robert's 2025 Medicare spending in Scenario A, split the right way (latest versions only).",
+     "say": "Robert's 2025 Medicare spending in Scenario A, split the right way (latest versions only).",
+     "focus": -1,
+     "file": "clips/1bc1472912e0.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "ER visit, hospital facility bill (20 May). File: CCLF1/2. CLM_TYPE_CD: 40. Medicare paid: $580.00. Which Medicare part pays: Part B (hospital outpatient).",
+     "say": "E R visit, hospital facility bill (20 May). File: C C L F 1 / 2. CLM_TYPE_CD: 40. Medicare paid: 580 dollars. Which Medicare part pays: Part B (hospital outpatient).",
+     "focus": 0,
+     "file": "clips/836a9abf762c.mp3",
+     "seconds": 15.875
+    },
+    {
+     "raw": "ER doctor (20 May). File: CCLF5. CLM_TYPE_CD: 71. Medicare paid: $96.00. Which Medicare part pays: Part B.",
+     "say": "E R doctor (20 May). File: C C L F 5. CLM_TYPE_CD: 71. Medicare paid: 96 dollars. Which Medicare part pays: Part B.",
+     "focus": 1,
+     "file": "clips/28eb0ff472b2.mp3",
+     "seconds": 12.4
+    },
+    {
+     "raw": "Dr. Nguyen office visit (8 Apr). File: CCLF5. CLM_TYPE_CD: 71. Medicare paid: $104.00. Which Medicare part pays: Part B.",
+     "say": "Doctor Nguyen office visit (8 Apr). File: C C L F 5. CLM_TYPE_CD: 71. Medicare paid: 104 dollars. Which Medicare part pays: Part B.",
+     "focus": 2,
+     "file": "clips/fd1294f9a1f0.mp3",
+     "seconds": 13.5
+    },
+    {
+     "raw": "HbA1c blood test at a lab (8 Apr). File: CCLF5. CLM_TYPE_CD: 71. Medicare paid: $13.00. Which Medicare part pays: Part B.",
+     "say": "H b A 1 c blood test at a lab (8 Apr). File: C C L F 5. CLM_TYPE_CD: 71. Medicare paid: 13 dollars. Which Medicare part pays: Part B.",
+     "focus": 3,
+     "file": "clips/b2f7ab73d56b.mp3",
+     "seconds": 13.45
+    },
+    {
+     "raw": "Glucose test strips (15 Apr). File: CCLF6. CLM_TYPE_CD: 82. Medicare paid: $24.00. Which Medicare part pays: Part B (DME).",
+     "say": "Glucose test strips (15 Apr). File: C C L F 6. CLM_TYPE_CD: 82. Medicare paid: 24 dollars. Which Medicare part pays: Part B (D M E).",
+     "focus": 4,
+     "file": "clips/c1467f1a9fde.mp3",
+     "seconds": 13.425
+    },
+    {
+     "raw": "Metformin and lisinopril fills. File: CCLF7. CLM_TYPE_CD: n/a. Medicare paid: Paid by his Part D plan. Which Medicare part pays: Part D.",
+     "say": "Metformin and lisinopril fills. File: C C L F 7. CLM_TYPE_CD: n/a. Medicare paid: Paid by his Part D plan. Which Medicare part pays: Part D.",
+     "focus": 5,
+     "file": "clips/dadbc6677f73.mp3",
+     "seconds": 13.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Problem 3: Part A, Part B or Part D?",
+   "lines": [
+    {
+     "raw": "All Robert's medical spending so far is **Part B**, even the hospital ER bill.",
+     "say": "All Robert's medical spending so far is Part B, even the hospital E R bill.",
+     "focus": -1,
+     "file": "clips/9c15301c9dee.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "He has had no inpatient stay (type 60), so his **Part A** spending is $0.",
+     "say": "He has had no inpatient stay (type 60), so his Part A spending is 0 dollars.",
+     "focus": -1,
+     "file": "clips/d507bdebe9b6.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "His Part B total is $580.00 + $96.00 + $104.00 + $13.00 + $24.00 = **$817.00**.",
+     "say": "His Part B total is 580 dollars and 96 dollars and 104 dollars and 13 dollars and 24 dollars = 817 dollars.",
+     "focus": -1,
+     "file": "clips/2af85c6ac804.mp3",
+     "seconds": 11.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Problem 3: Part A, Part B or Part D?",
+   "lines": [
+    {
+     "raw": "Robert's office visit: how Original Medicare splits the money.",
+     "say": "Robert's office visit: how Original Medicare splits the money.",
+     "focus": -1,
+     "file": "clips/8d177a470d0e.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Medicare paid equals Allowed − Deductible − 20% coinsurance.",
+     "say": "Medicare paid equals Allowed − Deductible − 20 percent coinsurance.",
+     "focus": 0,
+     "file": "clips/0c9b09e3facc.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "For example: Robert met his Part B deductible ($257 in 2025) earlier in the year.",
+     "say": "For example: Robert met his Part B deductible (257 dollars in 2025) earlier in the year.",
+     "focus": 1,
+     "file": "clips/8ceaed50107a.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "Allowed $130.00 − $0 − $26.00 (20%) equals $104.00.",
+     "say": "Allowed 130 dollars − 0 dollars − 26 dollars (20 percent) equals 104 dollars.",
+     "focus": 1,
+     "file": "clips/9e302dce7070.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "(Real payments also include small cuts such as sequestration; we leave those out.).",
+     "say": "(Real payments also include small cuts such as sequestration; we leave those out.).",
+     "focus": 1,
+     "file": "clips/e455315a2854.mp3",
+     "seconds": 5.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Problem 4: claims arrive late (run-out).",
+     "say": "Problem 4: claims arrive late (run-out).",
+     "focus": -1,
+     "file": "clips/0dd5aad8a67a.mp3",
+     "seconds": 3.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Problem 4: claims arrive late (run-out)",
+   "lines": [
+    {
+     "raw": "A claim reaches CCLF only after a provider bills it and Medicare processes it.",
+     "say": "A claim reaches C C L F only after a provider bills it and Medicare processes it.",
+     "focus": -1,
+     "file": "clips/d147f1d165ce.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "That can take weeks or months.",
+     "say": "That can take weeks or months.",
+     "focus": -1,
+     "file": "clips/4827da929d3a.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Each monthly delivery mostly brings claims **processed** since the last one, so ACOs **stack** deliveries to build a full history.",
+     "say": "Each monthly delivery mostly brings claims processed since the last one, so A C O's stack deliveries to build a full history.",
+     "focus": -1,
+     "file": "clips/a43dfd20af0b.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Problem 4: claims arrive late (run-out)",
+   "lines": [
+    {
+     "raw": "When Robert's claims for 20 May 2025 reached the ACO (illustrative).",
+     "say": "When Robert's claims for 20 May 2025 reached the A C O (illustrative).",
+     "focus": -1,
+     "file": "clips/7e9d0a1ff738.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "ER visit. Date: 20 May 2025. In CCLF delivery: not yet.",
+     "say": "E R visit. Date: 20 May 2025. In C C L F delivery: not yet.",
+     "focus": 0,
+     "file": "clips/752dc7e9937c.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Original claim processed. Date: 28 May 2025. In CCLF delivery: June 2025 delivery.",
+     "say": "Original claim processed. Date: 28 May 2025. In C C L F delivery: June 2025 delivery.",
+     "focus": 1,
+     "file": "clips/3ebe7311b5b1.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "Cancel + corrected claim processed. Date: 9 Jul 2025. In CCLF delivery: August 2025 delivery.",
+     "say": "Cancel and corrected claim processed. Date: 9 Jul 2025. In C C L F delivery: August 2025 delivery.",
+     "focus": 2,
+     "file": "clips/4a943c6bca0d.mp3",
+     "seconds": 10.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Problem 4: claims arrive late (run-out)",
+   "lines": [
+    {
+     "raw": "Run-out.",
+     "say": "Run-out.",
+     "focus": 0,
+     "file": "clips/48921aef6f6e.mp3",
+     "seconds": 1.45
+    },
+    {
+     "raw": "The extra time you wait after a period ends so that late claims can arrive.",
+     "say": "The extra time you wait after a period ends so that late claims can arrive.",
+     "focus": 0,
+     "file": "clips/b10c4f01382c.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "MSSP uses about **3 months** of run-out after a performance year before settling the numbers.",
+     "say": "M S S P uses about 3 months of run-out after a performance year before settling the numbers.",
+     "focus": 0,
+     "file": "clips/6d7e6dc1e126.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "Incurred vs paid.",
+     "say": "Incurred versus paid.",
+     "focus": 1,
+     "file": "clips/37ac66ed2d4b.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "**Incurred** = when the service happened (`CLM_FROM_DT`).",
+     "say": "Incurred = when the service happened (CLM_FROM_DT).",
+     "focus": 1,
+     "file": "clips/5b163b97fab4.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "**Paid / processed** = when Medicare handled it.",
+     "say": "Paid or processed = when Medicare handled it.",
+     "focus": 1,
+     "file": "clips/d0292589e6f9.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Reports by incurred month look too low for recent months, because not all claims have arrived.",
+     "say": "Reports by incurred month look too low for recent months, because not all claims have arrived.",
+     "focus": 1,
+     "file": "clips/ce33ad32c863.mp3",
+     "seconds": 6.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "Problem 4: claims arrive late (run-out)",
+   "lines": [
+    {
+     "raw": "The same idea in Nepal.",
+     "say": "The same idea in Nepal.",
+     "focus": -1,
+     "file": "clips/12133dd62d0d.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram might send his bills to his insurer weeks after his treatment.",
+     "say": "Ram might send his bills to his insurer weeks after his treatment.",
+     "focus": 0,
+     "file": "clips/74b7a423f0ab.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "If his insurer counted \"March costs\" on 1 April, Ram's March visit would be missing.",
+     "say": "If his insurer counted \"March costs\" on 1 April, Ram's March visit would be missing.",
+     "focus": 0,
+     "file": "clips/eeb7e891465b.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "A hospital may send its claim to SSF some time after Sita is discharged.",
+     "say": "A hospital may send its claim to S S F some time after Sita is discharged.",
+     "focus": 1,
+     "file": "clips/7d5059082b37.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Any March report made in early April would be incomplete until those claims arrive.",
+     "say": "Any March report made in early April would be incomplete until those claims arrive.",
+     "focus": 1,
+     "file": "clips/c4b147a70284.mp3",
+     "seconds": 5.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "Problem 4: claims arrive late (run-out)",
+   "lines": [
+    {
+     "raw": "Data that is deliberately missing.",
+     "say": "Data that is deliberately missing.",
+     "focus": -1,
+     "file": "clips/6a099464cdc5.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Beneficiaries who **opted out** of data sharing have no claims in CCLF.",
+     "say": "Beneficiaries who opted out of data sharing have no claims in C C L F.",
+     "focus": -1,
+     "file": "clips/55f78337e3c0.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "Claims for **substance use disorder** treatment are also generally held back under strict privacy rules.",
+     "say": "Claims for substance use disorder treatment are also generally held back under strict privacy rules.",
+     "focus": -1,
+     "file": "clips/265f47ac3869.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "So CCLF can understate a person's care.",
+     "say": "So C C L F can understate a person's care.",
+     "focus": -1,
+     "file": "clips/0f8f5eaefdca.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Never assume \"no claim\" means \"no care\".",
+     "say": "Never assume \"no claim\" means \"no care\".",
+     "focus": -1,
+     "file": "clips/72d979726565.mp3",
+     "seconds": 2.95
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A corrected claim arrives as a **cancel** plus a **new version**.",
+     "say": "A corrected claim arrives as a cancel plus a new version.",
+     "focus": 0,
+     "file": "clips/e1d95ade189d.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "Keep only the latest version (by `CLM_EFCTV_DT`) and drop cancelled claims.",
+     "say": "Keep only the latest version (by CLM_EFCTV_DT) and drop cancelled claims.",
+     "focus": 0,
+     "file": "clips/b19b5da30e72.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "Join CCLF1 to CCLF2/3/4 on `CUR_CLM_UNIQ_ID` of the **kept** version.",
+     "say": "Join C C L F 1 to C C L F 2 / 3 / 4 on CUR_CLM_UNIQ_ID of the kept version.",
+     "focus": 1,
+     "file": "clips/2c97eceaef35.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "Do not join lines to diagnoses and then sum money.",
+     "say": "Do not join lines to diagnoses and then sum money.",
+     "focus": 1,
+     "file": "clips/e53bdfd33c12.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Use `CLM_TYPE_CD` to split spending: hospital outpatient (40) is Part B, even though it sits in the \"Part A\" files.",
+     "say": "Use CLM_TYPE_CD to split spending: hospital outpatient (40) is Part B, even though it sits in the \"Part A\" files.",
+     "focus": 2,
+     "file": "clips/fbdbed850e24.mp3",
+     "seconds": 8.875
+    },
+    {
+     "raw": "Claims arrive late.",
+     "say": "Claims arrive late.",
+     "focus": 3,
+     "file": "clips/736a2c7e357b.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Allow **run-out** before trusting recent months.",
+     "say": "Allow run-out before trusting recent months.",
+     "focus": 3,
+     "file": "clips/0fdabf52f580.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

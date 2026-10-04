@@ -1,0 +1,1359 @@
+{
+ "courseId": "medical",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 13,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 13: Putting It All Together.",
+     "say": "Lesson 13: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/3ee9cc1ed31f.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Follow Emily's appendix surgery through every claim it created.",
+     "say": "Follow Emily's appendix surgery through every claim it created.",
+     "focus": -1,
+     "file": "clips/7a3a5883e27c.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read a complete set of claims for one hospital stay.",
+     "say": "Read a complete set of claims for one hospital stay.",
+     "focus": 0,
+     "file": "clips/4b1205883399.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Connect every field to the lesson where you learned it.",
+     "say": "Connect every field to the lesson where you learned it.",
+     "focus": 1,
+     "file": "clips/ee95a33fe28c.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "See medical claims the way a data analyst sees them.",
+     "say": "See medical claims the way a data analyst sees them.",
+     "focus": 2,
+     "file": "clips/c98230448095.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story.",
+     "say": "The story.",
+     "focus": -1,
+     "file": "clips/5103112bb3ad.mp3",
+     "seconds": 1.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "On **2 June 2025**, Emily goes to the emergency room with sharp pain in her lower right belly.",
+     "say": "On 2 June 2025, Emily goes to the emergency room with sharp pain in her lower right belly.",
+     "focus": -1,
+     "file": "clips/bb52f4efdd6e.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "The doctors find **acute appendicitis**.",
+     "say": "The doctors find acute appendicitis.",
+     "focus": -1,
+     "file": "clips/3736676f5e76.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "She is admitted, has **keyhole surgery** the same day, and goes home on **4 June**.",
+     "say": "She is admitted, has keyhole surgery the same day, and goes home on 4 June.",
+     "focus": -1,
+     "file": "clips/e63697839ef2.mp3",
+     "seconds": 5.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "Before this, Emily had already paid nothing toward her **$1,000 deductible** this year.",
+     "say": "Before this, Emily had already paid nothing toward her 1000 dollars deductible this year.",
+     "focus": -1,
+     "file": "clips/a8ab0c6987e4.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "Her plan has **20% coinsurance**.",
+     "say": "Her plan has 20 percent coinsurance.",
+     "focus": -1,
+     "file": "clips/150046916653.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Everyone involved is **in-network**.",
+     "say": "Everyone involved is in-network.",
+     "focus": -1,
+     "file": "clips/3760cd05f0e4.mp3",
+     "seconds": 2.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram's and Sita's versions in Kathmandu.",
+     "say": "In Nepal: Ram's and Sita's versions in Kathmandu.",
+     "focus": -1,
+     "file": "clips/ecf4d9a6f580.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "If Ram had the same surgery at a private hospital, he would pay the **package price** (or itemised final bill) at discharge from his own pocket.",
+     "say": "If Ram had the same surgery at a private hospital, he would pay the package price (or itemised final bill) at discharge from his own pocket.",
+     "focus": 0,
+     "file": "clips/13059f052245.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "He then sends the bills and discharge summary to his insurer, who reimburses him the covered amount, up to his policy limit.",
+     "say": "He then sends the bills and discharge summary to his insurer, who reimburses him the covered amount, up to his policy limit.",
+     "focus": 1,
+     "file": "clips/71f8039c6b7f.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita is admitted to an SSF-listed hospital.",
+     "say": "Sita is admitted to an S S F listed hospital.",
+     "focus": 2,
+     "file": "clips/b1a1146c8a75.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "The hospital confirms her SSF eligibility on admission.",
+     "say": "The hospital confirms her S S F eligibility on admission.",
+     "focus": 2,
+     "file": "clips/2877909b3cb7.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "After discharge, the hospital sends **one claim** to SSF with the diagnosis, surgery details, bill and discharge summary.",
+     "say": "After discharge, the hospital sends one claim to S S F with the diagnosis, surgery details, bill and discharge summary.",
+     "focus": 3,
+     "file": "clips/65538829e48a.mp3",
+     "seconds": 9
+    },
+    {
+     "raw": "SSF reviews it against its package rates and Sita's yearly limit, then pays the hospital its **80%**.",
+     "say": "S S F reviews it against its package rates and Sita's yearly limit, then pays the hospital its 80 percent.",
+     "focus": 4,
+     "file": "clips/5ce0b577431d.mp3",
+     "seconds": 7.825
+    },
+    {
+     "raw": "Sita pays her **20%** share, plus anything not covered.",
+     "say": "Sita pays her 20 percent share, plus anything not covered.",
+     "focus": 4,
+     "file": "clips/a6753fc23d00.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Compare that with Emily's deductible and 20% coinsurance below.",
+     "say": "Compare that with Emily's deductible and 20 percent coinsurance below.",
+     "focus": 4,
+     "file": "clips/6fbee115a2ac.mp3",
+     "seconds": 4.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Claim A: the hospital (institutional, UB-04 / 837I).",
+     "say": "Claim A: the hospital (institutional, U B 04 or 8 3 7 I).",
+     "focus": -1,
+     "file": "clips/83378563c7e8.mp3",
+     "seconds": 5.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Claim A: the hospital (institutional, UB-04 / 837I)",
+   "lines": [
+    {
+     "raw": "Here is the UB-04 form: Claim header.",
+     "say": "Here is the U B 04 form: Claim header.",
+     "focus": -1,
+     "file": "clips/9cee412c3a54.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Claim number: 778201.",
+     "say": "Claim number: 778201.",
+     "focus": 0,
+     "file": "clips/ecf3677e1d5a.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Claim type: Institutional.",
+     "say": "Claim type: Institutional.",
+     "focus": 1,
+     "file": "clips/d193692b4478.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Hospital bill.",
+     "say": "Hospital bill.",
+     "focus": 1,
+     "file": "clips/5f406eac4774.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "Type of Bill: 0111.",
+     "say": "Type of Bill: 0111.",
+     "focus": 2,
+     "file": "clips/f8d439bbd01e.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Hospital · Inpatient · One bill for the whole stay.",
+     "say": "Hospital, Inpatient, One bill for the whole stay.",
+     "focus": 2,
+     "file": "clips/798011aa222d.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Patient: Emily Carter.",
+     "say": "Patient: Emily Carter.",
+     "focus": 3,
+     "file": "clips/481f9e1c8979.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Member ID M1001.",
+     "say": "Member I D M 1 0 0 1.",
+     "focus": 3,
+     "file": "clips/3e12072f2c54.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Billing provider: Lakeside General Hospital.",
+     "say": "Billing provider: Lakeside General Hospital.",
+     "focus": 4,
+     "file": "clips/8c7aa436e25b.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "NPI 1234567893.",
+     "say": "N P I 1234567893.",
+     "focus": 4,
+     "file": "clips/ab8cce4fc7f3.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "Admission date: 02 Jun 2025.",
+     "say": "Admission date: 02 Jun 2025.",
+     "focus": 5,
+     "file": "clips/bc005672070a.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Discharge date: 04 Jun 2025.",
+     "say": "Discharge date: 04 Jun 2025.",
+     "focus": 6,
+     "file": "clips/6983e32a9717.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "2 days in hospital.",
+     "say": "2 days in hospital.",
+     "focus": 6,
+     "file": "clips/b6a6c28391ea.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "Admitting diagnosis: R10.31.",
+     "say": "Admitting diagnosis: R 1 0 . 3 1.",
+     "focus": 7,
+     "file": "clips/fdb7f12066bd.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "Pain in the lower right belly.",
+     "say": "Pain in the lower right belly.",
+     "focus": 7,
+     "file": "clips/4dd2b9433c37.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Principal diagnosis: K35.80.",
+     "say": "Principal diagnosis: K 3 5 . 8 0.",
+     "focus": 8,
+     "file": "clips/d03080241776.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "Acute appendicitis.",
+     "say": "Acute appendicitis.",
+     "focus": 8,
+     "file": "clips/b2ba52279c64.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Principal procedure: 0DTJ4ZZ.",
+     "say": "Principal procedure: 0 D T J 4 Z Z.",
+     "focus": 9,
+     "file": "clips/b7a5694bd0cc.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Keyhole removal of the appendix.",
+     "say": "Keyhole removal of the appendix.",
+     "focus": 9,
+     "file": "clips/a1cdf69c7715.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Payment method: Fee for service.",
+     "say": "Payment method: Fee for service.",
+     "focus": 10,
+     "file": "clips/61ad860671d1.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Each line is paid at its contracted rate.",
+     "say": "Each line is paid at its contracted rate.",
+     "focus": 10,
+     "file": "clips/58028ad99ab0.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Total charges: $10,000.00.",
+     "say": "Total charges: 10000 dollars.",
+     "focus": 11,
+     "file": "clips/684167d65540.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Claim A: the hospital (institutional, UB-04 / 837I)",
+   "lines": [
+    {
+     "raw": "Reading the lines.",
+     "say": "Reading the lines.",
+     "focus": -1,
+     "file": "clips/fc9277b6a5e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Units** count how much was used: 2 days of room, 4 lab tests.",
+     "say": "Units count how much was used: 2 days of room, 4 lab tests.",
+     "focus": -1,
+     "file": "clips/2140c2209a4c.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "The room covers **2 nights** (2 and 3 June), so its dates end on 3 June even though Emily went home on 4 June.",
+     "say": "The room covers 2 nights (2 and 3 June), so its dates end on 3 June even though Emily went home on 4 June.",
+     "focus": -1,
+     "file": "clips/1a2f28e07e18.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "Where a doctor did the work, the line names them as the **rendering provider**; otherwise the hospital's own staff did it.",
+     "say": "Where a doctor did the work, the line names them as the rendering provider; otherwise the hospital's own staff did it.",
+     "focus": -1,
+     "file": "clips/cec106e4f47d.mp3",
+     "seconds": 7.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Claim A: the hospital (institutional, UB-04 / 837I)",
+   "lines": [
+    {
+     "raw": "The insurer pays this stay **fee for service**: each line is priced on its own.",
+     "say": "The insurer pays this stay fee for service: each line is priced on its own.",
+     "focus": -1,
+     "file": "clips/c6ad9ea091d3.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Its contract with Lakeside General Hospital allows **60%** of each charge, so the $10,000 billed becomes **$6,000 allowed**.",
+     "say": "Its contract with Lakeside General Hospital allows 60 percent of each charge, so the 10000 dollars billed becomes 6000 dollars allowed.",
+     "focus": -1,
+     "file": "clips/72a95aaa3a88.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "(Some insurers would instead pay the whole stay as one DRG package; see lesson 10.)",
+     "say": "(Some insurers would instead pay the whole stay as one D R G package; see lesson 10.)",
+     "focus": -1,
+     "file": "clips/aad98f465331.mp3",
+     "seconds": 5.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Claims B & C: the doctors (professional, CMS-1500 / 837P).",
+     "say": "Claims B and C: the doctors (professional, C M S 1500 or 8 3 7 P).",
+     "focus": -1,
+     "file": "clips/84cb872b0811.mp3",
+     "seconds": 6.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Claims B & C: the doctors (professional, CMS-1500 / 837P)",
+   "lines": [
+    {
+     "raw": "Each doctor's practice sends **its own claim**.",
+     "say": "Each doctor's practice sends its own claim.",
+     "focus": -1,
+     "file": "clips/2b514c0d7f48.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Look at the **billing provider**: it is the doctor's group, not the hospital, even though the surgery happened in the hospital.",
+     "say": "Look at the billing provider: it is the doctor's group, not the hospital, even though the surgery happened in the hospital.",
+     "focus": -1,
+     "file": "clips/72f270751b6a.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "The doctor who did the work is the **rendering provider** on the line.",
+     "say": "The doctor who did the work is the rendering provider on the line.",
+     "focus": -1,
+     "file": "clips/6f171a19f05b.mp3",
+     "seconds": 4.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Claims B & C: the doctors (professional, CMS-1500 / 837P)",
+   "lines": [
+    {
+     "raw": "Why are B and C two separate claims?",
+     "say": "Why are B and C two separate claims?",
+     "focus": -1,
+     "file": "clips/ca0d6f057105.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Because their **billing providers are different**: Lakeside Surgical Group bills for Dr. Lee, and Valley Anesthesia Associates bills for Dr. Gomez.",
+     "say": "Because their billing providers are different: Lakeside Surgical Group bills for Doctor Lee, and Valley Anesthesia Associates bills for Doctor Gomez.",
+     "focus": -1,
+     "file": "clips/4e6e17f36bcd.mp3",
+     "seconds": 9.65
+    },
+    {
+     "raw": "**One claim can only have one billing provider**, because the money goes to one place.",
+     "say": "One claim can only have one billing provider, because the money goes to one place.",
+     "focus": -1,
+     "file": "clips/d613f89c54db.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "If both doctors worked for the **same group**, that group would send **one claim with two lines** (line 1: surgery by Dr. Lee, line 2: anaesthesia by Dr. Gomez).",
+     "say": "If both doctors worked for the same group, that group would send one claim with two lines (line 1: surgery by Doctor Lee, line 2: anaesthesia by Doctor Gomez).",
+     "focus": -1,
+     "file": "clips/ba18e19e619b.mp3",
+     "seconds": 10.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Claims B & C: the doctors (professional, CMS-1500 / 837P)",
+   "lines": [
+    {
+     "raw": "Here is the CMS-1500 form: Claim B: the surgeon.",
+     "say": "Here is the C M S 1500 form: Claim B: the surgeon.",
+     "focus": -1,
+     "file": "clips/91d539b33900.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Claim number: 551200.",
+     "say": "Claim number: 551200.",
+     "focus": 0,
+     "file": "clips/1f84962efd8f.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "Claim type: Professional.",
+     "say": "Claim type: Professional.",
+     "focus": 1,
+     "file": "clips/0cc34113cf50.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Doctor bill.",
+     "say": "Doctor bill.",
+     "focus": 1,
+     "file": "clips/d86420d463a7.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Principal diagnosis: K35.80.",
+     "say": "Principal diagnosis: K 3 5 . 8 0.",
+     "focus": 2,
+     "file": "clips/d03080241776.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "Acute appendicitis.",
+     "say": "Acute appendicitis.",
+     "focus": 2,
+     "file": "clips/b2ba52279c64.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Patient: Emily Carter.",
+     "say": "Patient: Emily Carter.",
+     "focus": 3,
+     "file": "clips/481f9e1c8979.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Member ID M1001.",
+     "say": "Member I D M 1 0 0 1.",
+     "focus": 3,
+     "file": "clips/3e12072f2c54.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Billing provider: Lakeside Surgical Group.",
+     "say": "Billing provider: Lakeside Surgical Group.",
+     "focus": 4,
+     "file": "clips/b2e692b0e97a.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "NPI 1457382913 · the practice that gets paid.",
+     "say": "N P I 1457382913, the practice that gets paid.",
+     "focus": 4,
+     "file": "clips/9da9054f3894.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "Total charges: $2,500.00.",
+     "say": "Total charges: 2500 dollars.",
+     "focus": 5,
+     "file": "clips/0a6b14f173a2.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Claims B & C: the doctors (professional, CMS-1500 / 837P)",
+   "lines": [
+    {
+     "raw": "Here is the CMS-1500 form: Claim C: the anaesthesiologist.",
+     "say": "Here is the C M S 1500 form: Claim C: the anaesthesiologist.",
+     "focus": -1,
+     "file": "clips/72cdca880014.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Claim number: 551870.",
+     "say": "Claim number: 551870.",
+     "focus": 0,
+     "file": "clips/a62ff8b1544d.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Claim type: Professional.",
+     "say": "Claim type: Professional.",
+     "focus": 1,
+     "file": "clips/0cc34113cf50.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Doctor bill.",
+     "say": "Doctor bill.",
+     "focus": 1,
+     "file": "clips/d86420d463a7.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Principal diagnosis: K35.80.",
+     "say": "Principal diagnosis: K 3 5 . 8 0.",
+     "focus": 2,
+     "file": "clips/d03080241776.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "Acute appendicitis.",
+     "say": "Acute appendicitis.",
+     "focus": 2,
+     "file": "clips/b2ba52279c64.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Patient: Emily Carter.",
+     "say": "Patient: Emily Carter.",
+     "focus": 3,
+     "file": "clips/481f9e1c8979.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Member ID M1001.",
+     "say": "Member I D M 1 0 0 1.",
+     "focus": 3,
+     "file": "clips/3e12072f2c54.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Billing provider: Valley Anesthesia Associates.",
+     "say": "Billing provider: Valley Anesthesia Associates.",
+     "focus": 4,
+     "file": "clips/cfbb67c64070.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "NPI 1366721045 · the practice that gets paid.",
+     "say": "N P I 1366721045, the practice that gets paid.",
+     "focus": 4,
+     "file": "clips/c10def693067.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "Total charges: $1,200.00.",
+     "say": "Total charges: 1200 dollars.",
+     "focus": 5,
+     "file": "clips/3f4596549581.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Claims B & C: the doctors (professional, CMS-1500 / 837P)",
+   "lines": [
+    {
+     "raw": "Three claims because there are three different billing providers.",
+     "say": "Three claims because there are three different billing providers.",
+     "focus": -1,
+     "file": "clips/38c71d8587f5.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "A: 778201. Form: UB-04. Billing provider (gets paid): Lakeside General Hospital. Rendering provider (did the work): Hospital staff, Dr. Lee, Dr. Gomez (by line).",
+     "say": "A: 778201. Form: U B 04. Billing provider (gets paid): Lakeside General Hospital. Rendering provider (did the work): Hospital staff, Doctor Lee, Doctor Gomez (by line).",
+     "focus": 0,
+     "file": "clips/6e37965f03f1.mp3",
+     "seconds": 15.125
+    },
+    {
+     "raw": "B: 551200. Form: CMS-1500. Billing provider (gets paid): Lakeside Surgical Group. Rendering provider (did the work): Dr. Lee.",
+     "say": "B: 551200. Form: C M S 1500. Billing provider (gets paid): Lakeside Surgical Group. Rendering provider (did the work): Doctor Lee.",
+     "focus": 1,
+     "file": "clips/763ee822fa4c.mp3",
+     "seconds": 12.375
+    },
+    {
+     "raw": "C: 551870. Form: CMS-1500. Billing provider (gets paid): Valley Anesthesia Associates. Rendering provider (did the work): Dr. Gomez.",
+     "say": "C: 551870. Form: C M S 1500. Billing provider (gets paid): Valley Anesthesia Associates. Rendering provider (did the work): Doctor Gomez.",
+     "focus": 2,
+     "file": "clips/e26fd4df3fab.mp3",
+     "seconds": 13.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who paid what?",
+     "say": "Who paid what?",
+     "focus": -1,
+     "file": "clips/d05e2c0b91db.mp3",
+     "seconds": 1.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Who paid what?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "A: Hospital. Billed: $10,000. Allowed: $6,000. Deductible: $1,000. Coinsurance (20%): $1,000. Insurer paid: $4,000. Emily paid: $2,000.",
+     "say": "A: Hospital. Billed: 10000 dollars. Allowed: 6000 dollars. Deductible: 1000 dollars. Coinsurance (20 percent): 1000 dollars. Insurer paid: 4000 dollars. Emily paid: 2000 dollars.",
+     "focus": 0,
+     "file": "clips/5e105d00ef6f.mp3",
+     "seconds": 15.9
+    },
+    {
+     "raw": "B: Surgeon. Billed: $2,500. Allowed: $1,200. Deductible: $0 (already met). Coinsurance (20%): $240. Insurer paid: $960. Emily paid: $240.",
+     "say": "B: Surgeon. Billed: 2500 dollars. Allowed: 1200 dollars. Deductible: 0 dollars (already met). Coinsurance (20 percent): 240 dollars. Insurer paid: 960 dollars. Emily paid: 240 dollars.",
+     "focus": 1,
+     "file": "clips/8411c5199d11.mp3",
+     "seconds": 17.95
+    },
+    {
+     "raw": "C: Anaesthesia. Billed: $1,200. Allowed: $600. Deductible: $0. Coinsurance (20%): $120. Insurer paid: $480. Emily paid: $120.",
+     "say": "C: Anaesthesia. Billed: 1200 dollars. Allowed: 600 dollars. Deductible: 0 dollars. Coinsurance (20 percent): 120 dollars. Insurer paid: 480 dollars. Emily paid: 120 dollars.",
+     "focus": 2,
+     "file": "clips/d877120ee7d4.mp3",
+     "seconds": 17.025
+    },
+    {
+     "raw": "**Total**. Billed: **$13,700**. Allowed: **$7,800**. Deductible: **$1,000**. Coinsurance (20%): **$1,360**. Insurer paid: **$5,440**. Emily paid: **$2,360**.",
+     "say": "Total. Billed: 13700 dollars. Allowed: 7800 dollars. Deductible: 1000 dollars. Coinsurance (20 percent): 1360 dollars. Insurer paid: 5440 dollars. Emily paid: 2360 dollars.",
+     "focus": 3,
+     "file": "clips/87d0162eb35d.mp3",
+     "seconds": 17.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Who paid what?",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "For every claim: **Allowed = Insurer paid + Emily paid**.",
+     "say": "For every claim: Allowed = Insurer paid and Emily paid.",
+     "focus": -1,
+     "file": "clips/e0fe445bb8bb.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Hospital: $4,000 + $2,000 = $6,000 ✓.",
+     "say": "Hospital: 4000 dollars and 2000 dollars = 6000 dollars ✓.",
+     "focus": -1,
+     "file": "clips/f454fd654255.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Surgeon: $960 + $240 = $1,200 ✓.",
+     "say": "Surgeon: 960 dollars and 240 dollars = 1200 dollars ✓.",
+     "focus": -1,
+     "file": "clips/1c482170b3b0.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "Discount overall: $13,700 − $7,800 = **$5,900** that nobody pays.",
+     "say": "Discount overall: 13700 dollars − 7800 dollars = 5900 dollars that nobody pays.",
+     "focus": -1,
+     "file": "clips/0b3013ef5c95.mp3",
+     "seconds": 9.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How an analyst sees it.",
+     "say": "How an analyst sees it.",
+     "focus": -1,
+     "file": "clips/04b8ca4373bc.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "In a database, all medical claims usually go into **one unified claim table**, stored at the **line level**: one row per claim line.",
+     "say": "In a database, all medical claims usually go into one unified claim table, stored at the line level: one row per claim line.",
+     "focus": -1,
+     "file": "clips/86b9f50eb28a.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "A `claim_type` column says whether the row came from a hospital (**Institutional**) or a doctor (**Professional**) claim.",
+     "say": "A claim_type column says whether the row came from a hospital (Institutional) or a doctor (Professional) claim.",
+     "focus": -1,
+     "file": "clips/1c7c3e00bfc1.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "Fields that do not apply to that type are left empty: **NULL**.",
+     "say": "Fields that do not apply to that type are left empty: N U L L.",
+     "focus": -1,
+     "file": "clips/2bd01f542f18.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Emily's stay becomes **8 rows**.",
+     "say": "Emily's stay becomes 8 rows.",
+     "focus": -1,
+     "file": "clips/a979bddfd4d3.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Unified medical claim table (one row per claim line).",
+     "say": "Unified medical claim table (one row per claim line).",
+     "focus": -1,
+     "file": "clips/bd858e342444.mp3",
+     "seconds": 4.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Which fields are filled for which claim type.",
+     "say": "Which fields are filled for which claim type.",
+     "focus": -1,
+     "file": "clips/a6259615f27a.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "`bill_type`. Institutional rows: ✅ e.g. 0111. Professional rows: NULL.",
+     "say": "bill_type. Institutional rows: ✅ for example 0111. Professional rows: N U L L.",
+     "focus": 0,
+     "file": "clips/afc5e8ab7d1f.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "`pos`. Institutional rows: NULL. Professional rows: ✅ e.g. 21.",
+     "say": "pos. Institutional rows: N U L L. Professional rows: ✅ for example 21.",
+     "focus": 1,
+     "file": "clips/17b4a8cc7bbb.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "`admit_dt`, `discharge_dt`, `admit_dx`. Institutional rows: ✅ for inpatient stays. Professional rows: NULL.",
+     "say": "admit_dt, discharge_dt, admit_dx. Institutional rows: ✅ for inpatient stays. Professional rows: N U L L.",
+     "focus": 2,
+     "file": "clips/b67f7d5115f2.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "`rev_cd`. Institutional rows: ✅ department. Professional rows: NULL.",
+     "say": "rev_cd. Institutional rows: ✅ department. Professional rows: N U L L.",
+     "focus": 3,
+     "file": "clips/0c5b433646a1.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "`cpt`. Institutional rows: Only on some outpatient lines. Professional rows: ✅ on every line.",
+     "say": "cpt. Institutional rows: Only on some outpatient lines. Professional rows: ✅ on every line.",
+     "focus": 4,
+     "file": "clips/3e4b4c23108b.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "`rendering_npi`. Institutional rows: Optional (often NULL). Professional rows: ✅ on every line.",
+     "say": "rendering_npi. Institutional rows: Optional (often N U L L). Professional rows: ✅ on every line.",
+     "focus": 5,
+     "file": "clips/2125cb91fd21.mp3",
+     "seconds": 9.4
+    },
+    {
+     "raw": "`member_id`, `claim_id`, dates, `principal_dx`, `billing_npi`, amounts. Institutional rows: ✅. Professional rows: ✅.",
+     "say": "member_id, claim_id, dates, principal_dx, billing_npi, amounts. Institutional rows: ✅. Professional rows: ✅.",
+     "focus": 6,
+     "file": "clips/4bfa74700b8a.mp3",
+     "seconds": 11.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Line-level math: every row must balance.",
+     "say": "Line-level math: every row must balance.",
+     "focus": -1,
+     "file": "clips/e9ae9be33795.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "allowed equals deductible plus copay plus coinsurance plus paid.",
+     "say": "allowed equals deductible plus copay plus coinsurance plus paid.",
+     "focus": 0,
+     "file": "clips/597ba4e958d9.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "For example: patient_resp equals deductible plus copay plus coinsurance.",
+     "say": "For example: patient_resp equals deductible plus copay plus coinsurance.",
+     "focus": 1,
+     "file": "clips/780993fb8a35.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Check line 1: $1,800 equals $1,000 plus $0 plus $160 plus $640.",
+     "say": "Check line 1: 1800 dollars equals 1000 dollars plus 0 dollars plus 160 dollars plus 640 dollars.",
+     "focus": 1,
+     "file": "clips/f83e41c51bec.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "(Emily's plan has no copay for hospital stays, so copay is $0 here; for a doctor visit it might be $25.).",
+     "say": "(Emily's plan has no copay for hospital stays, so copay is 0 dollars here; for a doctor visit it might be 25 dollars.).",
+     "focus": 1,
+     "file": "clips/dc540cdc6498.mp3",
+     "seconds": 9.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "How the hospital lines were worked out.",
+     "say": "How the hospital lines were worked out.",
+     "focus": -1,
+     "file": "clips/95b9e2fa5e1a.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Line 1 uses up the whole $1,000 deductible; 20% coinsurance applies to the rest (line 1: 20% of $800 = $160).",
+     "say": "Line 1 uses up the whole 1000 dollars deductible; 20 percent coinsurance applies to the rest (line 1: 20 percent of 800 dollars = 160 dollars).",
+     "focus": -1,
+     "file": "clips/0e3ab8b144db.mp3",
+     "seconds": 12.375
+    },
+    {
+     "raw": "1 · Room. Billed: $3,000. Allowed: $1,800. Deductible: **$1,000**. Copay: $0. Coinsurance: $160. Insurer pays: $640. Emily pays: $1,160.",
+     "say": "1, Room. Billed: 3000 dollars. Allowed: 1800 dollars. Deductible: 1000 dollars. Copay: 0 dollars. Coinsurance: 160 dollars. Insurer pays: 640 dollars. Emily pays: 1160 dollars.",
+     "focus": 0,
+     "file": "clips/599d5a3cf2a4.mp3",
+     "seconds": 17.975
+    },
+    {
+     "raw": "2 · Pharmacy. Billed: $800. Allowed: $480. Deductible: $0. Copay: $0. Coinsurance: $96. Insurer pays: $384. Emily pays: $96.",
+     "say": "2, Pharmacy. Billed: 800 dollars. Allowed: 480 dollars. Deductible: 0 dollars. Copay: 0 dollars. Coinsurance: 96 dollars. Insurer pays: 384 dollars. Emily pays: 96 dollars.",
+     "focus": 1,
+     "file": "clips/97f75a01c252.mp3",
+     "seconds": 17.25
+    },
+    {
+     "raw": "3 · Lab. Billed: $600. Allowed: $360. Deductible: $0. Copay: $0. Coinsurance: $72. Insurer pays: $288. Emily pays: $72.",
+     "say": "3, Lab. Billed: 600 dollars. Allowed: 360 dollars. Deductible: 0 dollars. Copay: 0 dollars. Coinsurance: 72 dollars. Insurer pays: 288 dollars. Emily pays: 72 dollars.",
+     "focus": 2,
+     "file": "clips/83b2cf28c4b2.mp3",
+     "seconds": 16.975
+    },
+    {
+     "raw": "4 · Operating room. Billed: $4,000. Allowed: $2,400. Deductible: $0. Copay: $0. Coinsurance: $480. Insurer pays: $1,920. Emily pays: $480.",
+     "say": "4, Operating room. Billed: 4000 dollars. Allowed: 2400 dollars. Deductible: 0 dollars. Copay: 0 dollars. Coinsurance: 480 dollars. Insurer pays: 1920 dollars. Emily pays: 480 dollars.",
+     "focus": 3,
+     "file": "clips/07f67da23def.mp3",
+     "seconds": 18.25
+    },
+    {
+     "raw": "5 · Anaesthesia. Billed: $1,000. Allowed: $600. Deductible: $0. Copay: $0. Coinsurance: $120. Insurer pays: $480. Emily pays: $120.",
+     "say": "5, Anaesthesia. Billed: 1000 dollars. Allowed: 600 dollars. Deductible: 0 dollars. Copay: 0 dollars. Coinsurance: 120 dollars. Insurer pays: 480 dollars. Emily pays: 120 dollars.",
+     "focus": 4,
+     "file": "clips/e221955e7341.mp3",
+     "seconds": 18.05
+    },
+    {
+     "raw": "6 · Recovery. Billed: $600. Allowed: $360. Deductible: $0. Copay: $0. Coinsurance: $72. Insurer pays: $288. Emily pays: $72.",
+     "say": "6, Recovery. Billed: 600 dollars. Allowed: 360 dollars. Deductible: 0 dollars. Copay: 0 dollars. Coinsurance: 72 dollars. Insurer pays: 288 dollars. Emily pays: 72 dollars.",
+     "focus": 5,
+     "file": "clips/5d3d022153fb.mp3",
+     "seconds": 17.525
+    },
+    {
+     "raw": "**Total**. Billed: **$10,000**. Allowed: **$6,000**. Deductible: **$1,000**. Copay: **$0**. Coinsurance: **$1,000**. Insurer pays: **$4,000**. Emily pays: **$2,000**.",
+     "say": "Total. Billed: 10000 dollars. Allowed: 6000 dollars. Deductible: 1000 dollars. Copay: 0 dollars. Coinsurance: 1000 dollars. Insurer pays: 4000 dollars. Emily pays: 2000 dollars.",
+     "focus": 6,
+     "file": "clips/0b7141416fd3.mp3",
+     "seconds": 16.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Two things to notice.",
+     "say": "Two things to notice.",
+     "focus": -1,
+     "file": "clips/22c348920557.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "The **deductible** is used up on the **first line** that has money left, so it only appears once.",
+     "say": "The deductible is used up on the first line that has money left, so it only appears once.",
+     "focus": -1,
+     "file": "clips/8aef1b032bd5.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "And header fields (bill_type, admit and discharge dates, diagnoses, billing_npi) **repeat on every row**: the database copies the header onto each line.",
+     "say": "And header fields (bill_type, admit and discharge dates, diagnoses, billing_npi) repeat on every row: the database copies the header onto each line.",
+     "focus": -1,
+     "file": "clips/3effa7c04823.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "To get the claim total, **sum the lines by claim_id**.",
+     "say": "To get the claim total, sum the lines by claim_id.",
+     "focus": -1,
+     "file": "clips/96642a8a9e28.mp3",
+     "seconds": 3.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Putting the stay back together.",
+     "say": "Putting the stay back together.",
+     "focus": -1,
+     "file": "clips/47b9a9281ec7.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Because everything is in one table, an analyst filters by **member_id** and the **dates of the stay**, then sums by claim: $6,000 (hospital) + $1,200 (surgeon) + $600 (anaesthesia) = **$7,800 allowed**, of which Emily paid **$2,360**.",
+     "say": "Because everything is in one table, an analyst filters by member_id and the dates of the stay, then sums by claim: 6000 dollars (hospital) and 1200 dollars (surgeon) and 600 dollars (anaesthesia) = 7800 dollars allowed, of which Emily paid 2360 dollars.",
+     "focus": -1,
+     "file": "clips/7529b23f1cf1.mp3",
+     "seconds": 19.55
+    },
+    {
+     "raw": "Filter on `claim_type` to look at only hospital or only doctor claims.",
+     "say": "Filter on claim_type to look at only hospital or only doctor claims.",
+     "focus": -1,
+     "file": "clips/6a443ec5a78f.mp3",
+     "seconds": 5.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 25,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Questions analysts answer with this data.",
+     "say": "Questions analysts answer with this data.",
+     "focus": -1,
+     "file": "clips/6ffe64128865.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "How many appendix surgeries did our members have this year?",
+     "say": "How many appendix surgeries did our members have this year?",
+     "focus": -1,
+     "file": "clips/b37bf58b10bb.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "(count unique inpatient claims with K35.x) · What is the average cost per stay?",
+     "say": "(count unique inpatient claims with K 3 5 . x), What is the average cost per stay?",
+     "focus": -1,
+     "file": "clips/fa450e4e44a4.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "(sum allowed across hospital + doctor claims) · Which hospitals are the most expensive for the same DRG? · Are any claims duplicated, or replaced by a later version (lesson 12)?",
+     "say": "(sum allowed across hospital and doctor claims), Which hospitals are the most expensive for the same D R G?, Are any claims duplicated, or replaced by a later version (lesson 12)?",
+     "focus": -1,
+     "file": "clips/1c6da1e50679.mp3",
+     "seconds": 11.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 26,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Field → lesson map.",
+     "say": "Field to lesson map.",
+     "focus": -1,
+     "file": "clips/e9cf9eeca18e.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 27,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "claim_type. Question it answers: Doctor or hospital bill? Lesson: 2. Medical Claim Types.",
+     "say": "claim_type. Question it answers: Doctor or hospital bill? Lesson: 2. Medical Claim Types.",
+     "focus": 0,
+     "file": "clips/4b978b08c916.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "member_id, claim_id, billing_npi, principal_dx (header fields). Question it answers: Whose bill? Which bill? Who gets paid? Lesson: 3. Claim Header.",
+     "say": "member_id, claim_id, billing_npi, principal_dx (header fields). Question it answers: Whose bill? Which bill? Who gets paid? Lesson: 3. Claim Header.",
+     "focus": 1,
+     "file": "clips/09065899198b.mp3",
+     "seconds": 11.3
+    },
+    {
+     "raw": "line_no, units, billed_amt per line. Question it answers: Which item on the bill? Lesson: 4. Claim Lines.",
+     "say": "line_no, units, billed_amt per line. Question it answers: Which item on the bill? Lesson: 4. Claim Lines.",
+     "focus": 2,
+     "file": "clips/2d412d4eeb68.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "admit_dx, principal_dx (ICD-10-CM), POA. Question it answers: Why? Lesson: 5. Diagnosis.",
+     "say": "admit_dx, principal_dx (I C D 10-CM), P O A. Question it answers: Why? Lesson: 5. Diagnosis.",
+     "focus": 3,
+     "file": "clips/518ed352a011.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "cpt (CPT/HCPCS), modifiers, units, ICD-10-PCS. Question it answers: What was done? Lesson: 6. Procedure.",
+     "say": "cpt (CPT/HCPCS), modifiers, units, I C D 10-PCS. Question it answers: What was done? Lesson: 6. Procedure.",
+     "focus": 4,
+     "file": "clips/839067081375.mp3",
+     "seconds": 11.55
+    },
+    {
+     "raw": "from_dt, to_dt, admit_dt, discharge_dt, paid date. Question it answers: When? Lesson: 7. Dates.",
+     "say": "from_dt, to_dt, admit_dt, discharge_dt, paid date. Question it answers: When? Lesson: 7. Dates.",
+     "focus": 5,
+     "file": "clips/67d534ebc1ca.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "billing_npi, rendering_npi. Question it answers: Who gave the care? Who gets paid? Lesson: 8. Provider.",
+     "say": "billing_npi, rendering_npi. Question it answers: Who gave the care? Who gets paid? Lesson: 8. Provider.",
+     "focus": 6,
+     "file": "clips/2f07f66d9932.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "pos, bill_type, rev_cd. Question it answers: Where, and which department? Lesson: 9. Care Setting.",
+     "say": "pos, bill_type, rev_cd. Question it answers: Where, and which department? Lesson: 9. Care Setting.",
+     "focus": 7,
+     "file": "clips/2e725b816618.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "billed_amt, allowed_amt, deductible_amt, coinsurance_amt, paid_amt, patient_resp, DRG. Question it answers: How much? Lesson: 10. Amounts.",
+     "say": "billed_amt, allowed_amt, deductible_amt, coinsurance_amt, paid_amt, patient_resp, D R G. Question it answers: How much? Lesson: 10. Amounts.",
+     "focus": 8,
+     "file": "clips/af32911d70f5.mp3",
+     "seconds": 10.775
+    },
+    {
+     "raw": "status, denial reason. Question it answers: How did it end? Lesson: 11. Claim Status.",
+     "say": "status, denial reason. Question it answers: How did it end? Lesson: 11. Claim Status.",
+     "focus": 9,
+     "file": "clips/66b99272b17c.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "frequency code, original claim number, reversals. Question it answers: Which version is final? Lesson: 12. Duplicates, Adjustments & Versions.",
+     "say": "frequency code, original claim number, reversals. Question it answers: Which version is final? Lesson: 12. Duplicates, Adjustments and Versions.",
+     "focus": 10,
+     "file": "clips/44e49fa49c3b.mp3",
+     "seconds": 10.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 28,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You can now read a US medical claim from top to bottom.",
+     "say": "You can now read a U S medical claim from top to bottom.",
+     "focus": -1,
+     "file": "clips/21ef5caa23aa.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Next, take the **Pharmacy** course to follow Emily's prescriptions through pharmacy claims, or go to **Try It Yourself** to experience a claim from the patient's side.",
+     "say": "Next, take the Pharmacy course to follow Emily's prescriptions through pharmacy claims, or go to Try It Yourself to experience a claim from the patient's side.",
+     "focus": -1,
+     "file": "clips/c2aa211125eb.mp3",
+     "seconds": 10
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "One hospital stay = one facility claim + several professional claims.",
+     "say": "One hospital stay = one facility claim and several professional claims.",
+     "focus": 0,
+     "file": "clips/eb2a802abb34.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Hospital claims can be paid line by line (fee for service) or as one package (DRG).",
+     "say": "Hospital claims can be paid line by line (fee for service) or as one package (D R G).",
+     "focus": 1,
+     "file": "clips/32d4b8e3c0b5.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Either way, sum by claim_id.",
+     "say": "Either way, sum by claim_id.",
+     "focus": 1,
+     "file": "clips/59519f0df1fe.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "For every claim: Allowed = Insurer paid + Patient paid.",
+     "say": "For every claim: Allowed = Insurer paid and Patient paid.",
+     "focus": 2,
+     "file": "clips/c739776f3181.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "In data, each row is a claim line.",
+     "say": "In data, each row is a claim line.",
+     "focus": 3,
+     "file": "clips/fa65a6122bcd.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Analysts join claims by member and dates to see a full episode.",
+     "say": "Analysts join claims by member and dates to see a full episode.",
+     "focus": 3,
+     "file": "clips/9b847ba0ef8e.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

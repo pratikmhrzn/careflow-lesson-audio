@@ -1,0 +1,736 @@
+{
+ "courseId": "pharmacy",
+ "lessonId": "quantity-days-supply-dates",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Quantity, Days Supply & Dates.",
+     "say": "Lesson 5: Quantity, Days Supply and Dates.",
+     "focus": -1,
+     "file": "clips/2877e0e7ee04.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "How much was given, how long it should last, when it was filled, and which refill it was.",
+     "say": "How much was given, how long it should last, when it was filled, and which refill it was.",
+     "focus": -1,
+     "file": "clips/a419006027b7.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read quantity dispensed and days supply, and calculate days supply from the directions.",
+     "say": "Read quantity dispensed and days supply, and calculate days supply from the directions.",
+     "focus": 0,
+     "file": "clips/793ee3fc1898.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Work out the dates a fill covers.",
+     "say": "Work out the dates a fill covers.",
+     "focus": 1,
+     "file": "clips/9202ba2f492f.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "Tell the fill date from the date written and the processed date.",
+     "say": "Tell the fill date from the date written and the processed date.",
+     "focus": 2,
+     "file": "clips/0b4a67d8fbb3.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Use fill number and refills authorized to tell a new prescription from a refill.",
+     "say": "Use fill number and refills authorized to tell a new prescription from a refill.",
+     "focus": 3,
+     "file": "clips/5f3ed6318759.mp3",
+     "seconds": 5.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Nepal: A month of blood pressure tablets.",
+     "say": "In Nepal: A month of blood pressure tablets.",
+     "focus": -1,
+     "file": "clips/763eee777176.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's uncle takes one blood pressure tablet every morning.",
+     "say": "Ram's uncle takes one blood pressure tablet every morning.",
+     "focus": 0,
+     "file": "clips/9a469f264cad.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "He buys a strip of **30 tablets** at the medical shop on the 1st of the month.",
+     "say": "He buys a strip of 30 tablets at the medical shop on the 1st of the month.",
+     "focus": 0,
+     "file": "clips/1361bb187903.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Without writing anything down, the family knows the strip will **last 30 days** and that he needs to go back around the **30th**.",
+     "say": "Without writing anything down, the family knows the strip will last 30 days and that he needs to go back around the 30th.",
+     "focus": 1,
+     "file": "clips/f53f074780f2.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "If Sita took a daily medicine, her hospital pharmacy would record the medicine and the quantity on the bill.",
+     "say": "If Sita took a daily medicine, her hospital pharmacy would record the medicine and the quantity on the bill.",
+     "focus": 2,
+     "file": "clips/cccaec5a81a0.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "Nobody records how many days it should last, so SSF cannot easily tell whether she came back on time.",
+     "say": "Nobody records how many days it should last, so S S F cannot easily tell whether she came back on time.",
+     "focus": 3,
+     "file": "clips/c072de028315.mp3",
+     "seconds": 6.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "A US pharmacy claim writes that family knowledge down.",
+     "say": "A U S pharmacy claim writes that family knowledge down.",
+     "focus": -1,
+     "file": "clips/4c0a22fe451c.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "**In one sentence: these fields say how much medicine left the pharmacy, how many days it should last, when it left, and whether it was a new prescription or a refill.**",
+     "say": "In one sentence: these fields say how much medicine left the pharmacy, how many days it should last, when it left, and whether it was a new prescription or a refill.",
+     "focus": -1,
+     "file": "clips/993c29d18e40.mp3",
+     "seconds": 10.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The fields.",
+     "say": "The fields.",
+     "focus": -1,
+     "file": "clips/55dea3405145.mp3",
+     "seconds": 1.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The fields",
+   "lines": [
+    {
+     "raw": "Quantity dispensed.",
+     "say": "Quantity dispensed.",
+     "focus": 0,
+     "file": "clips/c697b3829504.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "How much was given out: **capsules**, **tablets**, **mL** of liquid, **grams** of cream.",
+     "say": "How much was given out: capsules, tablets, mL of liquid, grams of cream.",
+     "focus": 0,
+     "file": "clips/d46bcb98b791.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "The unit depends on the drug.",
+     "say": "The unit depends on the drug.",
+     "focus": 0,
+     "file": "clips/72387eb80a90.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Days supply.",
+     "say": "Days supply.",
+     "focus": 1,
+     "file": "clips/09f5222fb728.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "How many days the quantity should last if taken as directed.",
+     "say": "How many days the quantity should last if taken as directed.",
+     "focus": 1,
+     "file": "clips/aeae4aa8a699.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "The pharmacist works it out from the directions.",
+     "say": "The pharmacist works it out from the directions.",
+     "focus": 1,
+     "file": "clips/37a5832b8fff.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Fill date (date of service).",
+     "say": "Fill date (date of service).",
+     "focus": 2,
+     "file": "clips/c3299544e84c.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "The day the pharmacy **filled** the prescription.",
+     "say": "The day the pharmacy filled the prescription.",
+     "focus": 2,
+     "file": "clips/0ebd6225c5c7.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "This is the main date for analysis.",
+     "say": "This is the main date for analysis.",
+     "focus": 2,
+     "file": "clips/aeb8adf6ffbd.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Date written.",
+     "say": "Date written.",
+     "focus": 3,
+     "file": "clips/0c3dd20afba3.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "The day the doctor **wrote** the prescription.",
+     "say": "The day the doctor wrote the prescription.",
+     "focus": 3,
+     "file": "clips/ecd5e9a4fb47.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "It can be weeks before the fill date.",
+     "say": "It can be weeks before the fill date.",
+     "focus": 3,
+     "file": "clips/3f5f5f0be10b.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "Processed date.",
+     "say": "Processed date.",
+     "focus": 4,
+     "file": "clips/6daaf58c624c.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "The day the PBM **processed** this transaction.",
+     "say": "The day the P B M processed this transaction.",
+     "focus": 4,
+     "file": "clips/5d26fefda9e1.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Usually the same as the fill date, but a later cancellation has a later processed date (lesson 10).",
+     "say": "Usually the same as the fill date, but a later cancellation has a later processed date (lesson 10).",
+     "focus": 4,
+     "file": "clips/1b07f836934f.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "Fill number.",
+     "say": "Fill number.",
+     "focus": 5,
+     "file": "clips/97c58205aa8d.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "**0** for the first (new) fill, **1** for the first refill, **2** for the second refill, and so on.",
+     "say": "0 for the first (new) fill, 1 for the first refill, 2 for the second refill, and so on.",
+     "focus": 5,
+     "file": "clips/6fef3e197f30.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Refills authorized.",
+     "say": "Refills authorized.",
+     "focus": 6,
+     "file": "clips/140c706d1d52.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "How many refills the doctor allowed.",
+     "say": "How many refills the doctor allowed.",
+     "focus": 6,
+     "file": "clips/024c51421af8.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "\"30 tablets, 5 refills\" means 6 fills in total (fill numbers 0 to 5).",
+     "say": "\"30 tablets, 5 refills\" means 6 fills in total (fill numbers 0 to 5).",
+     "focus": 6,
+     "file": "clips/fe30a7ba3ee1.mp3",
+     "seconds": 6.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Days supply: simple maths.",
+     "say": "Days supply: simple maths.",
+     "focus": -1,
+     "file": "clips/b01267e8646d.mp3",
+     "seconds": 2.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Days supply: simple maths",
+   "lines": [
+    {
+     "raw": "Days supply.",
+     "say": "Days supply.",
+     "focus": -1,
+     "file": "clips/09f5222fb728.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Days supply equals Quantity ÷ Units taken per day.",
+     "say": "Days supply equals Quantity ÷ Units taken per day.",
+     "focus": 0,
+     "file": "clips/7065d876359d.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "For example: Emily's amoxicillin: 1 capsule times 3 times a day equals 3 capsules per day.",
+     "say": "For example: Emily's amoxicillin: 1 capsule times 3 times a day equals 3 capsules per day.",
+     "focus": 1,
+     "file": "clips/f156e759a09a.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "30 capsules ÷ 3 per day equals 10 days.",
+     "say": "30 capsules ÷ 3 per day equals 10 days.",
+     "focus": 1,
+     "file": "clips/d826b18697b4.mp3",
+     "seconds": 4.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Days supply: simple maths",
+   "lines": [
+    {
+     "raw": "More days supply examples.",
+     "say": "More days supply examples.",
+     "focus": -1,
+     "file": "clips/86262e3b4033.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Atorvastatin 20 mg, 1 tablet once a day. Per day: 1 tablet. Quantity: 30 tablets. Days supply: 30 ÷ 1 = **30**.",
+     "say": "Atorvastatin 20 mg, 1 tablet once a day. Per day: 1 tablet. Quantity: 30 tablets. Days supply: 30 ÷ 1 = 30.",
+     "focus": 0,
+     "file": "clips/50a833e8bddd.mp3",
+     "seconds": 11.2
+    },
+    {
+     "raw": "Atorvastatin 20 mg, 1 tablet once a day (mail order). Per day: 1 tablet. Quantity: 90 tablets. Days supply: 90 ÷ 1 = **90**.",
+     "say": "Atorvastatin 20 mg, 1 tablet once a day (mail order). Per day: 1 tablet. Quantity: 90 tablets. Days supply: 90 ÷ 1 = 90.",
+     "focus": 1,
+     "file": "clips/2eb1df5a3bd4.mp3",
+     "seconds": 12.45
+    },
+    {
+     "raw": "Ibuprofen 800 mg, 1 tablet 3 times a day. Per day: 3 tablets. Quantity: 30 tablets. Days supply: 30 ÷ 3 = **10**.",
+     "say": "Ibuprofen 800 mg, 1 tablet 3 times a day. Per day: 3 tablets. Quantity: 30 tablets. Days supply: 30 ÷ 3 = 10.",
+     "focus": 2,
+     "file": "clips/05e5263ee0cd.mp3",
+     "seconds": 11.95
+    },
+    {
+     "raw": "Amoxicillin liquid, 5 mL 3 times a day. Per day: 15 mL. Quantity: 150 mL. Days supply: 150 ÷ 15 = **10**.",
+     "say": "Amoxicillin liquid, 5 mL 3 times a day. Per day: 15 mL. Quantity: 150 mL. Days supply: 150 ÷ 15 = 10.",
+     "focus": 3,
+     "file": "clips/9ca0bd79bab0.mp3",
+     "seconds": 12.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Days supply: simple maths",
+   "lines": [
+    {
+     "raw": "Days supply is an estimate.",
+     "say": "Days supply is an estimate.",
+     "focus": -1,
+     "file": "clips/a49b70dded32.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "For tablets, the maths is easy.",
+     "say": "For tablets, the maths is easy.",
+     "focus": -1,
+     "file": "clips/c6eb0e349649.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "For **inhalers**, **creams**, **eye drops** and **insulin**, the pharmacist must estimate, and mistakes are common.",
+     "say": "For inhalers, creams, eye drops and insulin, the pharmacist must estimate, and mistakes are common.",
+     "focus": -1,
+     "file": "clips/fced537b7aad.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "Check for odd values such as a days supply of 0, or 1 day for a whole inhaler.",
+     "say": "Check for odd values such as a days supply of 0, or 1 day for a whole inhaler.",
+     "focus": -1,
+     "file": "clips/37ef3aaf10e6.mp3",
+     "seconds": 5.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The dates a fill covers.",
+     "say": "The dates a fill covers.",
+     "focus": -1,
+     "file": "clips/277e9761ac6f.mp3",
+     "seconds": 2.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The dates a fill covers",
+   "lines": [
+    {
+     "raw": "Last day covered.",
+     "say": "Last day covered.",
+     "focus": -1,
+     "file": "clips/ed69eb5f5229.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "Last day covered equals Fill date plus Days supply − 1.",
+     "say": "Last day covered equals Fill date plus Days supply − 1.",
+     "focus": 0,
+     "file": "clips/5f4f6cd963ab.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "For example: Emily's first atorvastatin fill: 15 July plus 30 − 1 equals 13 August.",
+     "say": "For example: Emily's first atorvastatin fill: 15 July plus 30 − 1 equals 13 August.",
+     "focus": 1,
+     "file": "clips/d54f67f18b43.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "She has tablets at home from 15 July to 13 August, and her next fill is due around 14 August.",
+     "say": "She has tablets at home from 15 July to 13 August, and her next fill is due around 14 August.",
+     "focus": 1,
+     "file": "clips/d8dbe01e8244.mp3",
+     "seconds": 7.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The dates a fill covers",
+   "lines": [
+    {
+     "raw": "This small calculation is the basis of two big uses: the PBM uses it to decide **when a refill is allowed** (lesson 9), and analysts use it to measure whether patients **take their medicine regularly** (lesson 11).",
+     "say": "This small calculation is the basis of two big uses: the P B M uses it to decide when a refill is allowed (lesson 9), and analysts use it to measure whether patients take their medicine regularly (lesson 11).",
+     "focus": -1,
+     "file": "clips/ee315400d997.mp3",
+     "seconds": 14.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "New prescription or refill?",
+     "say": "New prescription or refill?",
+     "focus": -1,
+     "file": "clips/5f799f25b621.mp3",
+     "seconds": 2.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "New prescription or refill?",
+   "lines": [
+    {
+     "raw": "Emily's atorvastatin prescription: 30 tablets, 5 refills, Rx 6003390 at Main Street Pharmacy.",
+     "say": "Emily's atorvastatin prescription: 30 tablets, 5 refills, Rx 6003390 at Main Street Pharmacy.",
+     "focus": -1,
+     "file": "clips/8d7f8ad840a6.mp3",
+     "seconds": 9.75
+    },
+    {
+     "raw": "15 Jul 2025. Fill number: 0. What it is: New prescription (first fill). Covers: 15 Jul – 13 Aug.",
+     "say": "15 Jul 2025. Fill number: 0. What it is: New prescription (first fill). Covers: 15 Jul – 13 Aug.",
+     "focus": 0,
+     "file": "clips/ed5eed6fd228.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "14 Aug 2025. Fill number: 1. What it is: First refill. Covers: 14 Aug – 12 Sep.",
+     "say": "14 Aug 2025. Fill number: 1. What it is: First refill. Covers: 14 Aug – 12 Sep.",
+     "focus": 1,
+     "file": "clips/4f574bbab356.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "29 Sep 2025. Fill number: 2. What it is: Second refill. Covers: 29 Sep – 28 Oct.",
+     "say": "29 Sep 2025. Fill number: 2. What it is: Second refill. Covers: 29 Sep – 28 Oct.",
+     "focus": 2,
+     "file": "clips/065ec802be15.mp3",
+     "seconds": 8.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "New prescription or refill?",
+   "lines": [
+    {
+     "raw": "A new Rx number starts again at 0.",
+     "say": "A new Rx number starts again at 0.",
+     "focus": -1,
+     "file": "clips/55c6c4cee604.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "In late October Emily moved her atorvastatin to a **mail-order pharmacy** with a **new prescription**.",
+     "say": "In late October Emily moved her atorvastatin to a mail-order pharmacy with a new prescription.",
+     "focus": -1,
+     "file": "clips/e79f240c5c04.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "That new prescription has a **new Rx number**, so its first fill is **fill number 0** again, even though she has been taking the drug since July.",
+     "say": "That new prescription has a new Rx number, so its first fill is fill number 0 again, even though she has been taking the drug since July.",
+     "focus": -1,
+     "file": "clips/3b84e0666ed5.mp3",
+     "seconds": 9.025
+    },
+    {
+     "raw": "To follow a patient on a drug over time, group by **drug**, not by Rx number.",
+     "say": "To follow a patient on a drug over time, group by drug, not by Rx number.",
+     "focus": -1,
+     "file": "clips/e15d0b573232.mp3",
+     "seconds": 5.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "New prescription or refill?",
+   "lines": [
+    {
+     "raw": "How to identify one fill in data.",
+     "say": "How to identify one fill in data.",
+     "focus": -1,
+     "file": "clips/189d2967bcac.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "To find the **same prescription across refills**, use **pharmacy ID + Rx number** (lesson 3).",
+     "say": "To find the same prescription across refills, use pharmacy I D and Rx number (lesson 3).",
+     "focus": -1,
+     "file": "clips/f898adc19ee8.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "To find **one specific fill**, add the **fill number** and **fill date**.",
+     "say": "To find one specific fill, add the fill number and fill date.",
+     "focus": -1,
+     "file": "clips/8a8f3193875b.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "You will use this key in lesson 10 to match a cancelled fill to its original.",
+     "say": "You will use this key in lesson 10 to match a cancelled fill to its original.",
+     "focus": -1,
+     "file": "clips/1ce20bd5b7e3.mp3",
+     "seconds": 5.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "New prescription or refill?",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Quantity and days supply turn a list of fills into a **timeline of medicine at home**.",
+     "say": "Quantity and days supply turn a list of fills into a timeline of medicine at home.",
+     "focus": -1,
+     "file": "clips/76a2d7eb7f00.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "With them you can count **30-day equivalents** (a 90-day fill counts as three), spot **gaps** between fills, and find fills that came **too early**.",
+     "say": "With them you can count 30-day equivalents (a 90-day fill counts as three), spot gaps between fills, and find fills that came too early.",
+     "focus": -1,
+     "file": "clips/37ae924f8795.mp3",
+     "seconds": 9.55
+    },
+    {
+     "raw": "Always use the **fill date**, not the date written or processed date, for \"when did the patient get it?\".",
+     "say": "Always use the fill date, not the date written or processed date, for \"when did the patient get it?\".",
+     "focus": -1,
+     "file": "clips/111986806813.mp3",
+     "seconds": 6.125
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Days supply = quantity ÷ units per day.**",
+     "say": "Days supply = quantity ÷ units per day.",
+     "focus": 0,
+     "file": "clips/03584724d568.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "It is an estimate, especially for inhalers, creams and insulin.",
+     "say": "It is an estimate, especially for inhalers, creams and insulin.",
+     "focus": 0,
+     "file": "clips/e7343fac4b19.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "A fill covers the **fill date through fill date + days supply − 1**.",
+     "say": "A fill covers the fill date through fill date and days supply − 1.",
+     "focus": 1,
+     "file": "clips/70da55e625ef.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "Use the **fill date** for analysis; the date written and processed date answer different questions.",
+     "say": "Use the fill date for analysis; the date written and processed date answer different questions.",
+     "focus": 2,
+     "file": "clips/44db6c3c0766.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "Fill number **0** = a new prescription; refills count up 1, 2, 3...",
+     "say": "Fill number 0 = a new prescription; refills count up 1, 2, 3...",
+     "focus": 3,
+     "file": "clips/29818a88c588.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "A new Rx number starts again at 0.",
+     "say": "A new Rx number starts again at 0.",
+     "focus": 3,
+     "file": "clips/55c6c4cee604.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Pharmacy ID + Rx number + fill number + fill date identifies one specific fill.",
+     "say": "Pharmacy I D and Rx number and fill number and fill date identifies one specific fill.",
+     "focus": 4,
+     "file": "clips/9685be04767c.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

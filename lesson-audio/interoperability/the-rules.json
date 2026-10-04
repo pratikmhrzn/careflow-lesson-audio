@@ -1,0 +1,792 @@
+{
+ "courseId": "interoperability",
+ "lessonId": "the-rules",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: The Laws Behind Data Sharing.",
+     "say": "Lesson 2: The Laws Behind Data Sharing.",
+     "focus": -1,
+     "file": "clips/3f3fd474321b.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "From HIPAA to the Cures Act: how US law moved health data off paper.",
+     "say": "From HIPAA to the Cures Act: how U S law moved health data off paper.",
+     "focus": -1,
+     "file": "clips/21e81843f2a8.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Put the main US interoperability laws on a simple timeline.",
+     "say": "Put the main U S interoperability laws on a simple timeline.",
+     "focus": 0,
+     "file": "clips/523a6d4104ac.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "Explain what \"information blocking\" means.",
+     "say": "Explain what \"information blocking\" means.",
+     "focus": 1,
+     "file": "clips/406bc5b9af53.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Know what ONC, certified health IT and USCDI are.",
+     "say": "Know what O N C, certified health I T and U S C D I are.",
+     "focus": 2,
+     "file": "clips/ca87156612f0.mp3",
+     "seconds": 4.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Rules first, technology second.",
+     "say": "Rules first, technology second.",
+     "focus": -1,
+     "file": "clips/798e089d77c7.mp3",
+     "seconds": 2.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Rules first, technology second",
+   "lines": [
+    {
+     "raw": "Software companies alone did not make US health data move.",
+     "say": "Software companies alone did not make U S health data move.",
+     "focus": -1,
+     "file": "clips/2036e54a14e8.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Each big step came after a **law** or a **rule** told hospitals, doctors, software makers or health plans what they must do.",
+     "say": "Each big step came after a law or a rule told hospitals, doctors, software makers or health plans what they must do.",
+     "focus": -1,
+     "file": "clips/485325ce1cbd.mp3",
+     "seconds": 8.3
+    },
+    {
+     "raw": "Then the industry picked or built **standards** to do it.",
+     "say": "Then the industry picked or built standards to do it.",
+     "focus": -1,
+     "file": "clips/d052090cafe9.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Rules first, technology second",
+   "lines": [
+    {
+     "raw": "Who sets the rules in Nepal?",
+     "say": "Who sets the rules in Nepal?",
+     "focus": -1,
+     "file": "clips/35344fe021ee.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's private insurer decides which papers it wants for a reimbursement claim: original bills, prescription, reports.",
+     "say": "Ram's private insurer decides which papers it wants for a reimbursement claim: original bills, prescription, reports.",
+     "focus": 0,
+     "file": "clips/a4f452de8b37.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "Each insurer may ask in its own way.",
+     "say": "Each insurer may ask in its own way.",
+     "focus": 0,
+     "file": "clips/494cf82d90ef.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "There is no single national rule that forces Ram's hospital to send his records to his insurer or to another hospital in a fixed electronic format.",
+     "say": "There is no single national rule that forces Ram's hospital to send his records to his insurer or to another hospital in a fixed electronic format.",
+     "focus": 1,
+     "file": "clips/e45dca4972a1.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF sets requirements for its listed hospitals, such as what a claim to SSF must include, so hospitals follow one process for SSF.",
+     "say": "S S F sets requirements for its listed hospitals, such as what a claim to S S F must include, so hospitals follow one process for S S F.",
+     "focus": 2,
+     "file": "clips/039f33a1041b.mp3",
+     "seconds": 10.45
+    },
+    {
+     "raw": "Nepal's Ministry of Health and Population has published plans for digital health, but the exact national standards and timelines are still developing.",
+     "say": "Nepal's Ministry of Health and Population has published plans for digital health, but the exact national standards and timelines are still developing.",
+     "focus": 3,
+     "file": "clips/f47264e1830f.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "In practice, sharing still depends a lot on paper.",
+     "say": "In practice, sharing still depends a lot on paper.",
+     "focus": 3,
+     "file": "clips/d287e70b5a05.mp3",
+     "seconds": 3.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Rules first, technology second",
+   "lines": [
+    {
+     "raw": "In the US: The US approach.",
+     "say": "In the U S: The U S approach.",
+     "focus": -1,
+     "file": "clips/8564a9cfc25a.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Congress passes a **law** (an Act) that sets the goal.",
+     "say": "Congress passes a law (an Act) that sets the goal.",
+     "focus": 0,
+     "file": "clips/fb684a2060a9.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "A federal agency writes detailed **rules** (called regulations or \"final rules\") that say exactly who must do what, and by when.",
+     "say": "A federal agency writes detailed rules (called regulations or \"final rules\") that say exactly who must do what, and by when.",
+     "focus": 1,
+     "file": "clips/64156237c7e5.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "The rules point to **standards** (formats and code sets) that everyone must use.",
+     "say": "The rules point to standards (formats and code sets) that everyone must use.",
+     "focus": 2,
+     "file": "clips/9c1fca2cb9bf.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Those who break the rules can face penalties or lose payments.",
+     "say": "Those who break the rules can face penalties or lose payments.",
+     "focus": 3,
+     "file": "clips/d27d30d4bcde.mp3",
+     "seconds": 4.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The timeline.",
+     "say": "The timeline.",
+     "focus": -1,
+     "file": "clips/b0de3122f204.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The timeline",
+   "lines": [
+    {
+     "raw": "Key US laws and steps for health data sharing (simplified).",
+     "say": "Key U S laws and steps for health data sharing (simplified).",
+     "focus": -1,
+     "file": "clips/942381491dbc.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "**1996**. Law or step: HIPAA. What it did for data sharing: Told the government to adopt national standards for electronic insurance transactions (claims, payments, eligibility checks) and code sets. Also led to the privacy and security rules.",
+     "say": "1996. Law or step: HIPAA. What it did for data sharing: Told the government to adopt national standards for electronic insurance transactions (claims, payments, eligibility checks) and code sets. Also led to the privacy and security rules.",
+     "focus": 0,
+     "file": "clips/7d28af79760e.mp3",
+     "seconds": 17.4
+    },
+    {
+     "raw": "Early 2000s. Law or step: HIPAA transaction standards take effect. What it did for data sharing: Payers and providers had to exchange claims and related data in the standard **X12** and **NCPDP** formats.",
+     "say": "Early 2000s. Law or step: HIPAA transaction standards take effect. What it did for data sharing: Payers and providers had to exchange claims and related data in the standard X12 and N C P D P formats.",
+     "focus": 1,
+     "file": "clips/53da9951dab9.mp3",
+     "seconds": 15.625
+    },
+    {
+     "raw": "**2004**. Law or step: ONC created. What it did for data sharing: The Office of the National Coordinator for Health IT was set up to lead national health IT efforts.",
+     "say": "2004. Law or step: O N C created. What it did for data sharing: The Office of the National Coordinator for Health I T was set up to lead national health I T efforts.",
+     "focus": 2,
+     "file": "clips/a8c265b6705c.mp3",
+     "seconds": 13.2
+    },
+    {
+     "raw": "**2009**. Law or step: HITECH Act. What it did for data sharing: Paid hospitals and doctors incentives to adopt and meaningfully use **certified EHRs**. EHR use grew from a minority of hospitals to nearly all of them.",
+     "say": "2009. Law or step: HITECH Act. What it did for data sharing: Paid hospitals and doctors incentives to adopt and meaningfully use certified E H R's. E H R use grew from a minority of hospitals to nearly all of them.",
+     "focus": 3,
+     "file": "clips/3aa103248716.mp3",
+     "seconds": 17.175
+    },
+    {
+     "raw": "**2016**. Law or step: 21st Century Cures Act. What it did for data sharing: Banned **information blocking**, called for API access to health data \"without special effort\", and asked for a national framework to connect networks (lesson 7).",
+     "say": "2016. Law or step: 21st Century Cures Act. What it did for data sharing: Banned information blocking, called for A P I access to health data \"without special effort\", and asked for a national framework to connect networks (lesson 7).",
+     "focus": 4,
+     "file": "clips/61de215a21da.mp3",
+     "seconds": 16.7
+    },
+    {
+     "raw": "**2020**. Law or step: Cures Act rules from ONC and CMS. What it did for data sharing: ONC wrote the information blocking and certification details. CMS wrote rules requiring health plans to offer data through APIs (lesson 3).",
+     "say": "2020. Law or step: Cures Act rules from O N C and C M S. What it did for data sharing: O N C wrote the information blocking and certification details. C M S wrote rules requiring health plans to offer data through A P I's (lesson 3).",
+     "focus": 5,
+     "file": "clips/e1dfe7f6692c.mp3",
+     "seconds": 18.85
+    },
+    {
+     "raw": "**2024**. Law or step: More CMS rules, and ONC renamed. What it did for data sharing: CMS added prior authorisation and more API rules. ONC became part of a renamed office, **ASTP/ONC**.",
+     "say": "2024. Law or step: More C M S rules, and O N C renamed. What it did for data sharing: C M S added prior authorisation and more A P I rules. O N C became part of a renamed office, ASTP/ONC.",
+     "focus": 6,
+     "file": "clips/93c774f1d424.mp3",
+     "seconds": 16.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 1: HIPAA, the first push.",
+     "say": "Step 1: HIPAA, the first push.",
+     "focus": -1,
+     "file": "clips/303725cd2d58.mp3",
+     "seconds": 2.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Step 1: HIPAA, the first push",
+   "lines": [
+    {
+     "raw": "Before HIPAA, each insurer could ask for claims in its own layout.",
+     "say": "Before HIPAA, each insurer could ask for claims in its own layout.",
+     "focus": -1,
+     "file": "clips/a860e9e99220.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "A doctor's office dealing with dozens of insurers had to handle dozens of formats.",
+     "say": "A doctor's office dealing with dozens of insurers had to handle dozens of formats.",
+     "focus": -1,
+     "file": "clips/75d86ea62729.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "HIPAA's **Administrative Simplification** part said: everyone uses the **same electronic transactions** and the **same code sets**.",
+     "say": "HIPAA's Administrative Simplification part said: everyone uses the same electronic transactions and the same code sets.",
+     "focus": -1,
+     "file": "clips/10c4a665c674.mp3",
+     "seconds": 8.3
+    },
+    {
+     "raw": "That is why a claim today travels as an **X12 837** file coded with **ICD-10** and **CPT**, whichever insurer receives it.",
+     "say": "That is why a claim today travels as an X12 8 37 file coded with I C D 10 and C P T, whichever insurer receives it.",
+     "focus": -1,
+     "file": "clips/def61c0172df.mp3",
+     "seconds": 9.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Step 1: HIPAA, the first push",
+   "lines": [
+    {
+     "raw": "HIPAA does two jobs.",
+     "say": "HIPAA does two jobs.",
+     "focus": -1,
+     "file": "clips/d564095aac02.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Most people know HIPAA for **privacy**.",
+     "say": "Most people know HIPAA for privacy.",
+     "focus": -1,
+     "file": "clips/20df8342b35d.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "For data people, its standard transactions matter just as much.",
+     "say": "For data people, its standard transactions matter just as much.",
+     "focus": -1,
+     "file": "clips/542e63c47673.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "The HIPAA course covers both in detail.",
+     "say": "The HIPAA course covers both in detail.",
+     "focus": -1,
+     "file": "clips/b22a47d029b0.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 2: HITECH and the move to EHRs.",
+     "say": "Step 2: HITECH and the move to E H R's.",
+     "focus": -1,
+     "file": "clips/e364e9a7fd75.mp3",
+     "seconds": 3.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Step 2: HITECH and the move to EHRs",
+   "lines": [
+    {
+     "raw": "HIPAA standardised the **insurance** side, but clinical records were still mostly on paper.",
+     "say": "HIPAA standardised the insurance side, but clinical records were still mostly on paper.",
+     "focus": -1,
+     "file": "clips/0bb09a432184.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "The **HITECH Act** of 2009 changed that with money.",
+     "say": "The HITECH Act of 2009 changed that with money.",
+     "focus": -1,
+     "file": "clips/636fa1700a24.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Hospitals and doctors who adopted **certified** EHR software and used it in set ways (\"meaningful use\") received incentive payments from Medicare and Medicaid.",
+     "say": "Hospitals and doctors who adopted certified E H R software and used it in set ways (\"meaningful use\") received incentive payments from Medicare and Medicaid.",
+     "focus": -1,
+     "file": "clips/6201d455a473.mp3",
+     "seconds": 11.525
+    },
+    {
+     "raw": "Later, Medicare turned this into payment **reductions** for those who did not take part.",
+     "say": "Later, Medicare turned this into payment reductions for those who did not take part.",
+     "focus": -1,
+     "file": "clips/b86297858c33.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "The program is now called **Promoting Interoperability**.",
+     "say": "The program is now called Promoting Interoperability.",
+     "focus": -1,
+     "file": "clips/6b9b3979d97d.mp3",
+     "seconds": 3.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Step 2: HITECH and the move to EHRs",
+   "lines": [
+    {
+     "raw": "Digital is not the same as connected.",
+     "say": "Digital is not the same as connected.",
+     "focus": -1,
+     "file": "clips/8f8c8912a374.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "By the late 2010s most US hospitals had EHRs.",
+     "say": "By the late 2010s most U S hospitals had E H R's.",
+     "focus": -1,
+     "file": "clips/91d56446979b.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "But many EHRs still could not talk to each other easily.",
+     "say": "But many E H R's still could not talk to each other easily.",
+     "focus": -1,
+     "file": "clips/a8635858d6d6.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "Getting records **digital** came first.",
+     "say": "Getting records digital came first.",
+     "focus": -1,
+     "file": "clips/d4b7e07d67fb.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Getting them **connected** needed the next law.",
+     "say": "Getting them connected needed the next law.",
+     "focus": -1,
+     "file": "clips/cded1870ab4d.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 3: the 21st Century Cures Act.",
+     "say": "Step 3: the 21st Century Cures Act.",
+     "focus": -1,
+     "file": "clips/044f808f3efc.mp3",
+     "seconds": 3.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Step 3: the 21st Century Cures Act",
+   "lines": [
+    {
+     "raw": "Passed in **December 2016**, the Cures Act covered many topics.",
+     "say": "Passed in December 2016, the Cures Act covered many topics.",
+     "focus": -1,
+     "file": "clips/3c7b27842134.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "For data, its big idea was **information blocking**: practices that unreasonably stop electronic health information from being accessed, exchanged or used.",
+     "say": "For data, its big idea was information blocking: practices that unreasonably stop electronic health information from being accessed, exchanged or used.",
+     "focus": -1,
+     "file": "clips/188ba3c71f7d.mp3",
+     "seconds": 10.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Step 3: the 21st Century Cures Act",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Healthcare providers (hospitals, doctors). Example of blocking: Refusing to send results to a competing clinic the patient chose. Allowed reasons not to share (simplified): Protecting privacy, keeping systems secure, preventing harm.",
+     "say": "Healthcare providers (hospitals, doctors). Example of blocking: Refusing to send results to a competing clinic the patient chose. Allowed reasons not to share (simplified): Protecting privacy, keeping systems secure, preventing harm.",
+     "focus": 0,
+     "file": "clips/28b903f0c66a.mp3",
+     "seconds": 15.85
+    },
+    {
+     "raw": "Health IT developers (EHR makers). Example of blocking: Charging unreasonable fees to connect another system. Allowed reasons not to share (simplified): The request is truly not feasible.",
+     "say": "Health I T developers (E H R makers). Example of blocking: Charging unreasonable fees to connect another system. Allowed reasons not to share (simplified): The request is truly not feasible.",
+     "focus": 1,
+     "file": "clips/7c4a7d2e88ff.mp3",
+     "seconds": 14.075
+    },
+    {
+     "raw": "Health information exchanges and networks. Example of blocking: Only sharing with members who buy extra services. Allowed reasons not to share (simplified): Reasonable, fair fees and licences are allowed.",
+     "say": "Health information exchanges and networks. Example of blocking: Only sharing with members who buy extra services. Allowed reasons not to share (simplified): Reasonable, fair fees and licences are allowed.",
+     "focus": 2,
+     "file": "clips/54d5ec188eac.mp3",
+     "seconds": 14.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Step 3: the 21st Century Cures Act",
+   "lines": [
+    {
+     "raw": "The detailed rules list specific **exceptions**, so not every refusal is blocking.",
+     "say": "The detailed rules list specific exceptions, so not every refusal is blocking.",
+     "focus": -1,
+     "file": "clips/8ea89c6c0a16.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Penalties differ by type of actor and are still being phased in, so phrase them carefully at work: \"information blocking can lead to penalties or payment disincentives\".",
+     "say": "Penalties differ by type of actor and are still being phased in, so phrase them carefully at work: \"information blocking can lead to penalties or payment disincentives\".",
+     "focus": -1,
+     "file": "clips/4000b98704ea.mp3",
+     "seconds": 10.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "ONC, certified health IT and USCDI.",
+     "say": "O N C, certified health I T and U S C D I.",
+     "focus": -1,
+     "file": "clips/dad5aa9803c0.mp3",
+     "seconds": 4.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "ONC, certified health IT and USCDI",
+   "lines": [
+    {
+     "raw": "ONC (now ASTP/ONC).",
+     "say": "O N C (now ASTP/ONC).",
+     "focus": 0,
+     "file": "clips/91750d60cf48.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "The federal office that leads US health IT policy.",
+     "say": "The federal office that leads U S health I T policy.",
+     "focus": 0,
+     "file": "clips/8bb2a05bb13f.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "In **2024** it was reorganised and renamed, and it is now usually written **ASTP/ONC** (Assistant Secretary for Technology Policy / Office of the National Coordinator for Health IT).",
+     "say": "In 2024 it was reorganised and renamed, and it is now usually written ASTP/ONC (Assistant Secretary for Technology Policy or Office of the National Coordinator for Health I T).",
+     "focus": 0,
+     "file": "clips/ec4aba48b553.mp3",
+     "seconds": 13.975
+    },
+    {
+     "raw": "Many people still just say \"ONC\".",
+     "say": "Many people still just say \"O N C\".",
+     "focus": 0,
+     "file": "clips/165d8b8d8ffa.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Certified health IT.",
+     "say": "Certified health I T.",
+     "focus": 1,
+     "file": "clips/430b72c7afaa.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "EHR software that has passed ONC's certification program, proving it can do required things, such as export records in standard formats and offer a standard FHIR API.",
+     "say": "E H R software that has passed ONC's certification program, proving it can do required things, such as export records in standard formats and offer a standard F H I R A P I.",
+     "focus": 1,
+     "file": "clips/7434fe34af13.mp3",
+     "seconds": 12.725
+    },
+    {
+     "raw": "Medicare programs expect providers to use certified software.",
+     "say": "Medicare programs expect providers to use certified software.",
+     "focus": 1,
+     "file": "clips/344b2b0b8297.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "USCDI.",
+     "say": "U S C D I.",
+     "focus": 2,
+     "file": "clips/1d3fedd910b3.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "The **United States Core Data for Interoperability**: an agreed list of data elements that certified systems must be able to share.",
+     "say": "The United States Core Data for Interoperability: an agreed list of data elements that certified systems must be able to share.",
+     "focus": 2,
+     "file": "clips/f1985189440a.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "It grows in new versions over time.",
+     "say": "It grows in new versions over time.",
+     "focus": 2,
+     "file": "clips/feb96dbd15aa.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "ONC, certified health IT and USCDI",
+   "lines": [
+    {
+     "raw": "Some USCDI data classes, with Robert as the example.",
+     "say": "Some U S C D I data classes, with Robert as the example.",
+     "focus": -1,
+     "file": "clips/803640d30519.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Patient demographics. What it includes: Name, date of birth, sex, address, phone. Robert example: Robert Carter, born 2 May 1957, Houston TX.",
+     "say": "Patient demographics. What it includes: Name, date of birth, sex, address, phone. Robert example: Robert Carter, born 2 May 1957, Houston T X.",
+     "focus": 0,
+     "file": "clips/b45748889ac8.mp3",
+     "seconds": 11.575
+    },
+    {
+     "raw": "Problems. What it includes: Conditions the patient has. Robert example: Type 2 diabetes, high blood pressure.",
+     "say": "Problems. What it includes: Conditions the patient has. Robert example: Type 2 diabetes, high blood pressure.",
+     "focus": 1,
+     "file": "clips/c4f3d14a743c.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "Medications. What it includes: Medicines the patient takes. Robert example: Metformin, lisinopril.",
+     "say": "Medications. What it includes: Medicines the patient takes. Robert example: Metformin, lisinopril.",
+     "focus": 2,
+     "file": "clips/6b5b0c6d6a0c.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "Laboratory. What it includes: Tests and results. Robert example: HbA1c 9.4%.",
+     "say": "Laboratory. What it includes: Tests and results. Robert example: H b A 1 c 9.4 percent.",
+     "focus": 3,
+     "file": "clips/53485a724824.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "Vital signs. What it includes: Blood pressure, weight, height. Robert example: Blood pressure 148/92.",
+     "say": "Vital signs. What it includes: Blood pressure, weight, height. Robert example: Blood pressure 148/92.",
+     "focus": 4,
+     "file": "clips/0e01e2f8048f.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "Allergies and intolerances. What it includes: Substances that cause reactions. Robert example: None known.",
+     "say": "Allergies and intolerances. What it includes: Substances that cause reactions. Robert example: None known.",
+     "focus": 5,
+     "file": "clips/60265f874276.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "Health insurance information. What it includes: Coverage details (added in a later version). Robert example: His Medicare health plan member ID.",
+     "say": "Health insurance information. What it includes: Coverage details (added in a later version). Robert example: His Medicare health plan member I D.",
+     "focus": 6,
+     "file": "clips/7fd734d39174.mp3",
+     "seconds": 10
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "ONC, certified health IT and USCDI",
+   "lines": [
+    {
+     "raw": "Why USCDI matters to an analyst.",
+     "say": "Why U S C D I matters to an analyst.",
+     "focus": -1,
+     "file": "clips/094651c3f925.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "USCDI is the \"minimum common menu\".",
+     "say": "U S C D I is the \"minimum common menu\".",
+     "focus": -1,
+     "file": "clips/0fa87d39a8b5.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "If you receive clinical data from many different EHRs, the USCDI items are the ones you can most reasonably expect to find, in a standard form.",
+     "say": "If you receive clinical data from many different E H R's, the U S C D I items are the ones you can most reasonably expect to find, in a standard form.",
+     "focus": -1,
+     "file": "clips/def023dcfa55.mp3",
+     "seconds": 11.275
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**HIPAA (1996)** created standard electronic insurance transactions and code sets: the first big push.",
+     "say": "HIPAA (1996) created standard electronic insurance transactions and code sets: the first big push.",
+     "focus": 0,
+     "file": "clips/e0f11aff1171.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "**HITECH (2009)** paid providers to adopt **certified EHRs**, so most clinical records became digital.",
+     "say": "HITECH (2009) paid providers to adopt certified E H R's, so most clinical records became digital.",
+     "focus": 1,
+     "file": "clips/932a828b2e1d.mp3",
+     "seconds": 8.35
+    },
+    {
+     "raw": "The **21st Century Cures Act (2016)** banned **information blocking** and pushed standard APIs.",
+     "say": "The 21st Century Cures Act (2016) banned information blocking and pushed standard A P I's.",
+     "focus": 2,
+     "file": "clips/49bb29df6001.mp3",
+     "seconds": 6.925
+    },
+    {
+     "raw": "**ONC** (renamed **ASTP/ONC** in 2024) certifies health IT; **USCDI** is the common set of data elements.",
+     "say": "O N C (renamed ASTP/ONC in 2024) certifies health I T; U S C D I is the common set of data elements.",
+     "focus": 3,
+     "file": "clips/82726679e574.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

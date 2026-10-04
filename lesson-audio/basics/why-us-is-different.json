@@ -1,0 +1,883 @@
+{
+ "courseId": "basics",
+ "lessonId": "why-us-is-different",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: Why US Healthcare Is Different.",
+     "say": "Lesson 1: Why U S Healthcare Is Different.",
+     "focus": -1,
+     "file": "clips/b98cf85c331f.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "No single national system, most people insured through a job, and very high costs.",
+     "say": "No single national system, most people insured through a job, and very high costs.",
+     "focus": -1,
+     "file": "clips/aa8487587fb8.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Describe how people in Nepal usually pay for healthcare.",
+     "say": "Describe how people in Nepal usually pay for healthcare.",
+     "focus": 0,
+     "file": "clips/c446606cdac4.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Explain why there is no single \"US health system\".",
+     "say": "Explain why there is no single \"U S health system\".",
+     "focus": 1,
+     "file": "clips/8f085a4878f7.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Know the three big facts: many payers, employer cover, high cost.",
+     "say": "Know the three big facts: many payers, employer cover, high cost.",
+     "focus": 2,
+     "file": "clips/1fe9f0afd9dd.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Name the five main players you will meet in this course.",
+     "say": "Name the five main players you will meet in this course.",
+     "focus": 3,
+     "file": "clips/e159539f4b6e.mp3",
+     "seconds": 3.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with Nepal.",
+     "say": "Start with Nepal.",
+     "focus": -1,
+     "file": "clips/c32b57575b5a.mp3",
+     "seconds": 1.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with Nepal",
+   "lines": [
+    {
+     "raw": "Before we look at the US, think about how healthcare works at home.",
+     "say": "Before we look at the U S, think about how healthcare works at home.",
+     "focus": -1,
+     "file": "clips/3ed8c32bd0fc.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "In Nepal you can go to a **government hospital** (like Bir Hospital or a district hospital), where you buy a cheap OPD ticket.",
+     "say": "In Nepal you can go to a government hospital (like Bir Hospital or a district hospital), where you buy a cheap O P D ticket.",
+     "focus": -1,
+     "file": "clips/8cfb38fd6296.mp3",
+     "seconds": 8.35
+    },
+    {
+     "raw": "Or you can go to a **private hospital** or clinic, which is usually faster but costs more.",
+     "say": "Or you can go to a private hospital or clinic, which is usually faster but costs more.",
+     "focus": -1,
+     "file": "clips/7b5a63501c09.mp3",
+     "seconds": 5.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with Nepal",
+   "lines": [
+    {
+     "raw": "How do people pay?",
+     "say": "How do people pay?",
+     "focus": -1,
+     "file": "clips/f40c116fe54a.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "For many families the answer is simple: **out of their own pocket**, at the counter, in cash.",
+     "say": "For many families the answer is simple: out of their own pocket, at the counter, in cash.",
+     "focus": -1,
+     "file": "clips/c6dda6197e50.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "A large share of all health spending in Nepal is paid this way.",
+     "say": "A large share of all health spending in Nepal is paid this way.",
+     "focus": -1,
+     "file": "clips/e796e5529c9f.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "Some people have help from a scheme or an insurer:",
+     "say": "Some people have help from a scheme or an insurer:",
+     "focus": -1,
+     "file": "clips/1c45a4253506.mp3",
+     "seconds": 3.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Start with Nepal",
+   "lines": [
+    {
+     "raw": "Common ways people pay for care in Nepal (simplified).",
+     "say": "Common ways people pay for care in Nepal (simplified).",
+     "focus": -1,
+     "file": "clips/ba5569d81f7b.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "**Out of pocket**. Who it is for: Anyone, especially people with no cover. How it feels to the patient: Pay the full bill at the counter.",
+     "say": "Out of pocket. Who it is for: Anyone, especially people with no cover. How it feels to the patient: Pay the full bill at the counter.",
+     "focus": 0,
+     "file": "clips/41febe5e65de.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "**Health Insurance Board** (national health insurance). Who it is for: Families who enrol and pay a yearly premium. How it feels to the patient: Use listed health facilities, the scheme pays up to a yearly limit.",
+     "say": "Health Insurance Board (national health insurance). Who it is for: Families who enrol and pay a yearly premium. How it feels to the patient: Use listed health facilities, the scheme pays up to a yearly limit.",
+     "focus": 1,
+     "file": "clips/77634046f430.mp3",
+     "seconds": 13.8
+    },
+    {
+     "raw": "**Social Security Fund (SSF)**. Who it is for: Formal-sector workers whose employer is registered, like **Sita**. How it feels to the patient: Use SSF-listed hospitals, pay a share, SSF pays the rest to the hospital.",
+     "say": "Social Security Fund (S S F). Who it is for: Formal-sector workers whose employer is registered, like Sita. How it feels to the patient: Use S S F listed hospitals, pay a share, S S F pays the rest to the hospital.",
+     "focus": 2,
+     "file": "clips/7029180a79fb.mp3",
+     "seconds": 16.075
+    },
+    {
+     "raw": "**Private health insurance**. Who it is for: People whose employer buys a group policy, like **Ram**, or who buy their own. How it feels to the patient: Often pay first, then claim the money back (reimbursement).",
+     "say": "Private health insurance. Who it is for: People whose employer buys a group policy, like Ram, or who buy their own. How it feels to the patient: Often pay first, then claim the money back (reimbursement).",
+     "focus": 3,
+     "file": "clips/1b8519b5efe3.mp3",
+     "seconds": 13.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Start with Nepal",
+   "lines": [
+    {
+     "raw": "A note on Nepal details.",
+     "say": "A note on Nepal details.",
+     "focus": -1,
+     "file": "clips/49232e71bebe.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Rules for the Health Insurance Board and SSF change from time to time.",
+     "say": "Rules for the Health Insurance Board and S S F change from time to time.",
+     "focus": -1,
+     "file": "clips/182ad1b48a8f.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "In this course we only use them as a **simple comparison**, not as an exact guide to their current rules.",
+     "say": "In this course we only use them as a simple comparison, not as an exact guide to their current rules.",
+     "focus": -1,
+     "file": "clips/63a4366e2b5a.mp3",
+     "seconds": 6.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet our people.",
+     "say": "Meet our people.",
+     "focus": -1,
+     "file": "clips/f8aec1fba809.mp3",
+     "seconds": 1.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram and Sita in Kathmandu.",
+     "say": "In Nepal: Ram and Sita in Kathmandu.",
+     "focus": -1,
+     "file": "clips/16f859ae1871.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "**Ram** works at a tech startup.",
+     "say": "Ram works at a tech startup.",
+     "focus": 0,
+     "file": "clips/50989f15aa25.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "The startup is not in SSF, but it buys **private group health insurance** for its staff.",
+     "say": "The startup is not in S S F, but it buys private group health insurance for its staff.",
+     "focus": 0,
+     "file": "clips/3b76871c6e91.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "When Ram is sick, he pays the hospital first, keeps the bills, and sends them to the insurer to get his money back.",
+     "say": "When Ram is sick, he pays the hospital first, keeps the bills, and sends them to the insurer to get his money back.",
+     "focus": 1,
+     "file": "clips/bf1eaa8bf459.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "**Sita** is an accountant at a private company.",
+     "say": "Sita is an accountant at a private company.",
+     "focus": 2,
+     "file": "clips/1bd6c46b3d08.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Part of her salary goes to the **Social Security Fund (SSF)** every month.",
+     "say": "Part of her salary goes to the Social Security Fund (S S F) every month.",
+     "focus": 2,
+     "file": "clips/2d5ab15e99b9.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "At an **SSF-listed hospital** she pays **20%** of the bill.",
+     "say": "At an S S F listed hospital she pays 20 percent of the bill.",
+     "focus": 3,
+     "file": "clips/15889e124305.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "SSF pays the other **80%** directly to the hospital.",
+     "say": "S S F pays the other 80 percent directly to the hospital.",
+     "focus": 3,
+     "file": "clips/de3d18abd833.mp3",
+     "seconds": 4.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "In the US: Emily and her father Robert in Texas.",
+     "say": "In the U S: Emily and her father Robert in Texas.",
+     "focus": -1,
+     "file": "clips/5bba218c812a.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "**Emily Carter** is an office worker in Austin, Texas.",
+     "say": "Emily Carter is an office worker in Austin, Texas.",
+     "focus": 0,
+     "file": "clips/0693eacee4ad.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Her employer, **Bluebonnet Logistics** (a made-up company), gives her **health insurance**.",
+     "say": "Her employer, Bluebonnet Logistics (a made-up company), gives her health insurance.",
+     "focus": 0,
+     "file": "clips/4f5ac126724c.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "Her husband **Daniel** and daughter **Lily** are on the same plan.",
+     "say": "Her husband Daniel and daughter Lily are on the same plan.",
+     "focus": 0,
+     "file": "clips/0d034509661a.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "**Robert Carter** is Emily's father, a retired school teacher in Houston.",
+     "say": "Robert Carter is Emily's father, a retired school teacher in Houston.",
+     "focus": 1,
+     "file": "clips/6004a88af4e6.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "He is 68 in 2025, so he is covered by **Medicare**, the government programme for people 65 and older.",
+     "say": "He is 68 in 2025, so he is covered by Medicare, the government programme for people 65 and older.",
+     "focus": 1,
+     "file": "clips/c903c5a378f1.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "He gets his Medicare through a private plan called **Gulf Coast Advantage (HMO)** (made up).",
+     "say": "He gets his Medicare through a private plan called Gulf Coast Advantage (H M O) (made up).",
+     "focus": 1,
+     "file": "clips/7a713d6c2d9b.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Two people in one family, two very different sources of cover.",
+     "say": "Two people in one family, two very different sources of cover.",
+     "focus": 2,
+     "file": "clips/2e018bba1973.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "That is normal in the US.",
+     "say": "That is normal in the U S.",
+     "focus": 2,
+     "file": "clips/159efd217149.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Big fact 1: there is no single US system.",
+     "say": "Big fact 1: there is no single U S system.",
+     "focus": -1,
+     "file": "clips/a52e4165a0fe.mp3",
+     "seconds": 3.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Big fact 1: there is no single US system",
+   "lines": [
+    {
+     "raw": "Many countries have one main national system.",
+     "say": "Many countries have one main national system.",
+     "focus": -1,
+     "file": "clips/f3a0dcd2c7ed.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "The UK, for example, has the NHS, paid for by taxes.",
+     "say": "The U K, for example, has the N H S, paid for by taxes.",
+     "focus": -1,
+     "file": "clips/3f12beb1a81e.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "The US does not.",
+     "say": "The U S does not.",
+     "focus": -1,
+     "file": "clips/637ae98ca4f6.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Instead it has **many separate systems** side by side: private insurance companies, employer plans, and several government programmes, each with its own rules.",
+     "say": "Instead it has many separate systems side by side: private insurance companies, employer plans, and several government programmes, each with its own rules.",
+     "focus": -1,
+     "file": "clips/9e562663d9ba.mp3",
+     "seconds": 10.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Big fact 1: there is no single US system",
+   "lines": [
+    {
+     "raw": "Think of buses in Kathmandu.",
+     "say": "Think of buses in Kathmandu.",
+     "focus": -1,
+     "file": "clips/91f29d60536d.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "There is no single bus company in Kathmandu.",
+     "say": "There is no single bus company in Kathmandu.",
+     "focus": -1,
+     "file": "clips/2e4a6634d813.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Sajha Yatayat, private micro buses, tempos and many small operators all run on the same roads, each with its own fares and routes.",
+     "say": "Sajha Yatayat, private micro buses, tempos and many small operators all run on the same roads, each with its own fares and routes.",
+     "focus": -1,
+     "file": "clips/c38d8ee6ddfe.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "US healthcare is similar: many **payers** run on the same \"roads\" (the same hospitals and doctors), each with its own prices and rules.",
+     "say": "U S healthcare is similar: many payers run on the same \"roads\" (the same hospitals and doctors), each with its own prices and rules.",
+     "focus": -1,
+     "file": "clips/ac2c6196ff33.mp3",
+     "seconds": 9.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Big fact 2: most people get insurance through a job.",
+     "say": "Big fact 2: most people get insurance through a job.",
+     "focus": -1,
+     "file": "clips/ed35cd3ec161.mp3",
+     "seconds": 3.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Big fact 2: most people get insurance through a job",
+   "lines": [
+    {
+     "raw": "In the US, the most common way to get health insurance is through an **employer**.",
+     "say": "In the U S, the most common way to get health insurance is through an employer.",
+     "focus": -1,
+     "file": "clips/dde53888a282.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "About half of all Americans are covered this way.",
+     "say": "About half of all Americans are covered this way.",
+     "focus": -1,
+     "file": "clips/9b008a83fe51.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "The employer chooses an insurance plan, pays most of the cost, and the worker pays the rest from each paycheck.",
+     "say": "The employer chooses an insurance plan, pays most of the cost, and the worker pays the rest from each paycheck.",
+     "focus": -1,
+     "file": "clips/cb5c7affb74e.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "This is exactly like **Ram's** startup buying a group policy, but in the US it is the normal case, not the exception.",
+     "say": "This is exactly like Ram's startup buying a group policy, but in the U S it is the normal case, not the exception.",
+     "focus": -1,
+     "file": "clips/4a3939b96919.mp3",
+     "seconds": 8.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Big fact 2: most people get insurance through a job",
+   "lines": [
+    {
+     "raw": "Lose the job, lose the insurance.",
+     "say": "Lose the job, lose the insurance.",
+     "focus": -1,
+     "file": "clips/a4051af1397a.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Because cover is tied to a job, losing a job can mean losing health insurance.",
+     "say": "Because cover is tied to a job, losing a job can mean losing health insurance.",
+     "focus": -1,
+     "file": "clips/bd07d6e9501c.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Emily's husband **Daniel** lost his job in 2025, and with it his insurance.",
+     "say": "Emily's husband Daniel lost his job in 2025, and with it his insurance.",
+     "focus": -1,
+     "file": "clips/bfeee53f6804.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "On **1 July 2025** he joined Emily's plan instead.",
+     "say": "On 1 July 2025 he joined Emily's plan instead.",
+     "focus": -1,
+     "file": "clips/b921ce5e653c.mp3",
+     "seconds": 4.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Big fact 3: care is very expensive.",
+     "say": "Big fact 3: care is very expensive.",
+     "focus": -1,
+     "file": "clips/b740847e872e.mp3",
+     "seconds": 3.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Big fact 3: care is very expensive",
+   "lines": [
+    {
+     "raw": "US health spending in 2023 (source: CMS, rounded).",
+     "say": "U S health spending in 2023 (source: C M S, rounded).",
+     "focus": -1,
+     "file": "clips/f177f4f7b61c.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Total spent in one year. Amount: About **$4.9 trillion**. To picture it: More than 100 times Nepal's whole economy.",
+     "say": "Total spent in one year. Amount: About 4.9 trillion dollars. To picture it: More than 100 times Nepal's whole economy.",
+     "focus": 0,
+     "file": "clips/2701be466d5e.mp3",
+     "seconds": 9.65
+    },
+    {
+     "raw": "Share of the US economy. Amount: About **17.6%**. To picture it: Roughly **$1 of every $6** spent in the US.",
+     "say": "Share of the U S economy. Amount: About 17.6 percent. To picture it: Roughly 1 dollar of every 6 dollars spent in the U S.",
+     "focus": 1,
+     "file": "clips/3dfdf6ece410.mp3",
+     "seconds": 10.175
+    },
+    {
+     "raw": "Spent per person. Amount: About **$14,570**. To picture it: Roughly **Rs 20 lakh** per person, every year.",
+     "say": "Spent per person. Amount: About 14570 dollars. To picture it: Roughly Rs 20 lakh per person, every year.",
+     "focus": 2,
+     "file": "clips/45c85996532d.mp3",
+     "seconds": 10.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Big fact 3: care is very expensive",
+   "lines": [
+    {
+     "raw": "A simple doctor visit can cost **$150** or more, and a short hospital stay can cost many thousands of dollars.",
+     "say": "A simple doctor visit can cost 150 dollars or more, and a short hospital stay can cost many thousands of dollars.",
+     "focus": -1,
+     "file": "clips/7b79db4c3d51.mp3",
+     "seconds": 8.375
+    },
+    {
+     "raw": "Without insurance, one surgery can wipe out a family's savings.",
+     "say": "Without insurance, one surgery can wipe out a family's savings.",
+     "focus": -1,
+     "file": "clips/f9a81d0f47f5.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "That is why almost everything in US healthcare revolves around **who pays**.",
+     "say": "That is why almost everything in U S healthcare revolves around who pays.",
+     "focus": -1,
+     "file": "clips/480802217236.mp3",
+     "seconds": 5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The five players.",
+     "say": "The five players.",
+     "focus": -1,
+     "file": "clips/48f1ef3c1aae.mp3",
+     "seconds": 1.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "The five players",
+   "lines": [
+    {
+     "raw": "Patient (member).",
+     "say": "Patient (member).",
+     "focus": 0,
+     "file": "clips/5704048d5458.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "The person who receives care.",
+     "say": "The person who receives care.",
+     "focus": 0,
+     "file": "clips/ac6ac0e0f485.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "When they have insurance, the insurer calls them a **member**.",
+     "say": "When they have insurance, the insurer calls them a member.",
+     "focus": 0,
+     "file": "clips/1eddd04ba154.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Lesson 2.",
+     "say": "Lesson 2.",
+     "focus": 0,
+     "file": "clips/d38bc408e0f5.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Provider.",
+     "say": "Provider.",
+     "focus": 1,
+     "file": "clips/1c1ae4af0bc9.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "Anyone who **gives** care: doctors, hospitals, clinics, labs, pharmacies.",
+     "say": "Anyone who gives care: doctors, hospitals, clinics, labs, pharmacies.",
+     "focus": 1,
+     "file": "clips/abb955392a83.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Lesson 3.",
+     "say": "Lesson 3.",
+     "focus": 1,
+     "file": "clips/60b30434816e.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Payer.",
+     "say": "Payer.",
+     "focus": 2,
+     "file": "clips/45bb3e6f2029.mp3",
+     "seconds": 1.325
+    },
+    {
+     "raw": "Whoever **pays** the bill: insurance companies, employers that pay their own claims, and government programmes.",
+     "say": "Whoever pays the bill: insurance companies, employers that pay their own claims, and government programmes.",
+     "focus": 2,
+     "file": "clips/a2af1a724fa2.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "Lesson 4.",
+     "say": "Lesson 4.",
+     "focus": 2,
+     "file": "clips/d857fdab2854.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "Government & regulators.",
+     "say": "Government and regulators.",
+     "focus": 3,
+     "file": "clips/328b529761a9.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Agencies that run public programmes and make the rules everyone must follow.",
+     "say": "Agencies that run public programmes and make the rules everyone must follow.",
+     "focus": 3,
+     "file": "clips/19d18faf156d.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Lesson 5.",
+     "say": "Lesson 5.",
+     "focus": 3,
+     "file": "clips/ed96141a5e1b.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Middle-men.",
+     "say": "Middle-men.",
+     "focus": 4,
+     "file": "clips/5106a3a8f055.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "Companies that sit between the others, such as **pharmacy benefit managers (PBMs)** and **clearinghouses** that pass claims along.",
+     "say": "Companies that sit between the others, such as pharmacy benefit managers (P B M's) and clearinghouses that pass claims along.",
+     "focus": 4,
+     "file": "clips/6e8d12a1fd87.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "Lessons 4 and 6.",
+     "say": "Lessons 4 and 6.",
+     "focus": 4,
+     "file": "clips/2b97e66bf1d6.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "The five players",
+   "lines": [
+    {
+     "raw": "The same roles, Nepal vs US.",
+     "say": "The same roles, Nepal versus U S.",
+     "focus": -1,
+     "file": "clips/679e74a4a0d2.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Patient. Nepal example: Ram, Sita. US example: Emily, Robert.",
+     "say": "Patient. Nepal example: Ram, Sita. U S example: Emily, Robert.",
+     "focus": 0,
+     "file": "clips/b28ceaac25dc.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "Provider. Nepal example: Bir Hospital, a private hospital, a medical shop. US example: Dr. Patel's clinic, Lakeside General Hospital, Main Street Pharmacy.",
+     "say": "Provider. Nepal example: Bir Hospital, a private hospital, a medical shop. U S example: Doctor Patel's clinic, Lakeside General Hospital, Main Street Pharmacy.",
+     "focus": 1,
+     "file": "clips/735190f8edcc.mp3",
+     "seconds": 11.65
+    },
+    {
+     "raw": "Payer. Nepal example: The patient (cash), SSF, Health Insurance Board, Ram's insurer. US example: Emily's insurance company, Medicare.",
+     "say": "Payer. Nepal example: The patient (cash), S S F, Health Insurance Board, Ram's insurer. U S example: Emily's insurance company, Medicare.",
+     "focus": 2,
+     "file": "clips/498ee7e6a684.mp3",
+     "seconds": 10.55
+    },
+    {
+     "raw": "Regulator. Nepal example: Ministry of Health and Population, Insurance Authority. US example: CMS, state insurance departments.",
+     "say": "Regulator. Nepal example: Ministry of Health and Population, Insurance Authority. U S example: C M S, state insurance departments.",
+     "focus": 3,
+     "file": "clips/7751b11f8bb1.mp3",
+     "seconds": 10.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "The five players",
+   "lines": [
+    {
+     "raw": "The big idea.",
+     "say": "The big idea.",
+     "focus": -1,
+     "file": "clips/7d7554d3f69f.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "In Nepal, the patient is often also the payer.",
+     "say": "In Nepal, the patient is often also the payer.",
+     "focus": -1,
+     "file": "clips/a3dc3323290d.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "In the US, the patient, the provider and the payer are almost always **three different parties**.",
+     "say": "In the U S, the patient, the provider and the payer are almost always three different parties.",
+     "focus": -1,
+     "file": "clips/1469acc15363.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "Most of US healthcare (and most of its data) is about these three talking to each other.",
+     "say": "Most of U S healthcare (and most of its data) is about these three talking to each other.",
+     "focus": -1,
+     "file": "clips/a6c272d41323.mp3",
+     "seconds": 5.75
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Nepal: many people pay out of pocket; some use SSF, the Health Insurance Board or private insurance.",
+     "say": "Nepal: many people pay out of pocket; some use S S F, the Health Insurance Board or private insurance.",
+     "focus": 0,
+     "file": "clips/526ee199adb1.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "The US has no single national system: many payers, each with its own rules.",
+     "say": "The U S has no single national system: many payers, each with its own rules.",
+     "focus": 1,
+     "file": "clips/deb877a674c8.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "About half of Americans get insurance through an employer.",
+     "say": "About half of Americans get insurance through an employer.",
+     "focus": 2,
+     "file": "clips/579ef0e03353.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "US care is very expensive: about $4.9 trillion in 2023, roughly $14,570 per person.",
+     "say": "U S care is very expensive: about 4.9 trillion dollars in 2023, roughly 14570 dollars per person.",
+     "focus": 3,
+     "file": "clips/c5f92e837ffa.mp3",
+     "seconds": 10.45
+    },
+    {
+     "raw": "Five players: patient, provider, payer, government, and middle-men.",
+     "say": "Five players: patient, provider, payer, government, and middle-men.",
+     "focus": 4,
+     "file": "clips/b1ec2e3f9dad.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.6
+    }
+   ]
+  }
+ ]
+}

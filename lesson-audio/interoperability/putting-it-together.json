@@ -1,0 +1,764 @@
+{
+ "courseId": "interoperability",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 8,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 8: Putting It All Together.",
+     "say": "Lesson 8: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/45e5c0790752.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "One year of Robert's care moving across many systems, seen from the analyst's desk.",
+     "say": "One year of Robert's care moving across many systems, seen from the analyst's desk.",
+     "focus": -1,
+     "file": "clips/50262524e675.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Follow one patient's data through every standard in this course.",
+     "say": "Follow one patient's data through every standard in this course.",
+     "focus": 0,
+     "file": "clips/99bb23ff9f6f.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "See where each piece lands in an analyst's tables, and which table answers which question.",
+     "say": "See where each piece lands in an analyst's tables, and which table answers which question.",
+     "focus": 1,
+     "file": "clips/88811301bda0.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Map each standard and data item back to the lesson that taught it.",
+     "say": "Map each standard and data item back to the lesson that taught it.",
+     "focus": 2,
+     "file": "clips/8eb1e2f317ce.mp3",
+     "seconds": 4.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram's and Sita's year, for comparison.",
+     "say": "In Nepal: Ram's and Sita's year, for comparison.",
+     "focus": -1,
+     "file": "clips/cf6505981906.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's year of care lives in a paper folder: lab reports, bills and prescriptions he carries from place to place and posts to his insurer.",
+     "say": "Ram's year of care lives in a paper folder: lab reports, bills and prescriptions he carries from place to place and posts to his insurer.",
+     "focus": 0,
+     "file": "clips/73044df8fea2.mp3",
+     "seconds": 9.6
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's claims reach SSF electronically, but her clinical notes stay inside each hospital.",
+     "say": "Sita's claims reach S S F electronically, but her clinical notes stay inside each hospital.",
+     "focus": 1,
+     "file": "clips/588b440e010e.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "Now watch how much more moves, and how fast, for Robert in Houston.",
+     "say": "Now watch how much more moves, and how fast, for Robert in Houston.",
+     "focus": 1,
+     "file": "clips/c672ecf043d5.mp3",
+     "seconds": 4.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story: Robert's 2025.",
+     "say": "The story: Robert's 2025.",
+     "focus": -1,
+     "file": "clips/3f671809d428.mp3",
+     "seconds": 2.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The story: Robert's 2025",
+   "lines": [
+    {
+     "raw": "**Robert Carter**, born 2 May 1957, lives in Houston and has type 2 diabetes and high blood pressure.",
+     "say": "Robert Carter, born 2 May 1957, lives in Houston and has type 2 diabetes and high blood pressure.",
+     "focus": -1,
+     "file": "clips/63beac906902.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "Since January 2024 he has been on a Medicare Advantage plan with drug coverage, **Gulf Coast Advantage (HMO)** from **Gulf Coast Health Plan**, member ID **GC5001**.",
+     "say": "Since January 2024 he has been on a Medicare Advantage plan with drug coverage, Gulf Coast Advantage (H M O) from Gulf Coast Health Plan, member I D G C 5 0 0 1.",
+     "focus": -1,
+     "file": "clips/1e6e9e915d54.mp3",
+     "seconds": 14
+    },
+    {
+     "raw": "His primary care doctor is **Dr. Nguyen at Bayou Family Medicine** (NPI `1982736450`).",
+     "say": "His primary care doctor is Doctor Nguyen at Bayou Family Medicine (N P I 1 9 8 2 7 3 6 4 5 0).",
+     "focus": -1,
+     "file": "clips/0ed83e6c8700.mp3",
+     "seconds": 9.15
+    },
+    {
+     "raw": "All organisations, IDs and numbers here are fictional.",
+     "say": "All organisations, I D's and numbers here are fictional.",
+     "focus": -1,
+     "file": "clips/99a43590a4db.mp3",
+     "seconds": 4.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The story: Robert's 2025",
+   "lines": [
+    {
+     "raw": "Step 1: Check-up, 10 Feb 2025.",
+     "say": "Step 1: Check-up, 10 Feb 2025.",
+     "focus": 0,
+     "file": "clips/702db73ab794.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Robert sees Dr. Nguyen.",
+     "say": "Robert sees Doctor Nguyen.",
+     "focus": 0,
+     "file": "clips/9f825ce4b528.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "The visit, his blood pressure and his diagnoses (type 2 diabetes `E11.9`, high blood pressure `I10`) go into the clinic's **EHR**.",
+     "say": "The visit, his blood pressure and his diagnoses (type 2 diabetes E 1 1 . 9, high blood pressure I10) go into the clinic's E H R.",
+     "focus": 0,
+     "file": "clips/09ac036d46d3.mp3",
+     "seconds": 10.125
+    },
+    {
+     "raw": "Dr. Nguyen orders an HbA1c test: the EHR sends an **HL7 ORM** order to Bayou Clinical Lab.",
+     "say": "Doctor Nguyen orders an H b A 1 c test: the E H R sends an HL7 O R M order to Bayou Clinical Lab.",
+     "focus": 0,
+     "file": "clips/b73c52d48de2.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "Step 2: Lab result, 11 Feb 2025.",
+     "say": "Step 2: Lab result, 11 Feb 2025.",
+     "focus": 1,
+     "file": "clips/ed15a78b3b18.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "The lab sends the result back as an **HL7 ORU** message: HbA1c **9.4%**, LOINC `4548-4`, flagged high.",
+     "say": "The lab sends the result back as an HL7 O R U message: H b A 1 c 9.4 percent, L O I N C 4 5 4 8 dash 4, flagged high.",
+     "focus": 1,
+     "file": "clips/647ff79f2141.mp3",
+     "seconds": 11.75
+    },
+    {
+     "raw": "It lands in Robert's chart in the EHR.",
+     "say": "It lands in Robert's chart in the E H R.",
+     "focus": 1,
+     "file": "clips/e686088c5502.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "2b.",
+     "say": "2b.",
+     "focus": 2,
+     "file": "clips/5a855da67c5d.mp3",
+     "seconds": 1.425
+    },
+    {
+     "raw": "Visit summary, 11 Feb 2025.",
+     "say": "Visit summary, 11 Feb 2025.",
+     "focus": 2,
+     "file": "clips/a984d54ea97a.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "The clinic's EHR creates a **C-CDA CCD** for the visit, with his problems, medicines, vitals and the HbA1c result.",
+     "say": "The clinic's E H R creates a C-CDA C C D for the visit, with his problems, medicines, vitals and the H b A 1 c result.",
+     "focus": 2,
+     "file": "clips/b9efff1202d7.mp3",
+     "seconds": 9.85
+    },
+    {
+     "raw": "Its nightly data feed sends the CCD to Gulf Coast Health Plan.",
+     "say": "Its nightly data feed sends the C C D to Gulf Coast Health Plan.",
+     "focus": 2,
+     "file": "clips/277705e585ce.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Step 4: Two claims.",
+     "say": "Step 4: Two claims.",
+     "focus": 3,
+     "file": "clips/66696e870f7f.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "The clinic bills the visit (CPT `99214`) and the lab bills the test (CPT `83036`), each as an **X12 837P** claim to Gulf Coast Health Plan, often through a clearinghouse.",
+     "say": "The clinic bills the visit (C P T 9 9 2 1 4) and the lab bills the test (C P T 8 3 0 3 6), each as an X12 8 3 7 P claim to Gulf Coast Health Plan, often through a clearinghouse.",
+     "focus": 3,
+     "file": "clips/c8fedb2274cd.mp3",
+     "seconds": 15.4
+    },
+    {
+     "raw": "The plan pays and returns **X12 835** remittances.",
+     "say": "The plan pays and returns X12 8 35 remittances.",
+     "focus": 3,
+     "file": "clips/b2c7a72a05d5.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Step 5: Reported to CMS.",
+     "say": "Step 5: Reported to C M S.",
+     "focus": 4,
+     "file": "clips/f0d27ac5cbc6.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Because it is a Medicare Advantage plan, Gulf Coast Health Plan also sends a record of these services to CMS as **encounter data**.",
+     "say": "Because it is a Medicare Advantage plan, Gulf Coast Health Plan also sends a record of these services to C M S as encounter data.",
+     "focus": 4,
+     "file": "clips/14ed72b30be9.mp3",
+     "seconds": 9.375
+    },
+    {
+     "raw": "The Risk Adjustment course explains why CMS wants the diagnoses.",
+     "say": "The Risk Adjustment course explains why C M S wants the diagnoses.",
+     "focus": 4,
+     "file": "clips/d645375126c2.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Step 6: ER visit, 20 May 2025.",
+     "say": "Step 6: E R visit, 20 May 2025.",
+     "focus": 5,
+     "file": "clips/425cedb559f8.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Robert feels dizzy and goes to the ER at **Bayou City Medical Center**.",
+     "say": "Robert feels dizzy and goes to the E R at Bayou City Medical Center.",
+     "focus": 5,
+     "file": "clips/0ffc386e7d28.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "The hospital sends **HL7 ADT^A04** on arrival and **ADT^A03** when he goes home to the HIE.",
+     "say": "The hospital sends HL7 A D T ^ A 0 4 on arrival and A D T ^ A 0 3 when he goes home to the H I E.",
+     "focus": 5,
+     "file": "clips/15ce34a35fc7.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "The HIE matches him by name and birth date and alerts Dr. Nguyen's clinic the same evening.",
+     "say": "The H I E matches him by name and birth date and alerts Doctor Nguyen's clinic the same evening.",
+     "focus": 5,
+     "file": "clips/4ca45006e14f.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "The hospital later bills the plan with an **X12 837I** claim.",
+     "say": "The hospital later bills the plan with an X12 8 3 7 I claim.",
+     "focus": 5,
+     "file": "clips/717a46798577.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Step 7: His app, June 2025.",
+     "say": "Step 7: His app, June 2025.",
+     "focus": 6,
+     "file": "clips/1da476aae56b.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "With Emily's help, Robert connects a health app to his plan using **SMART on FHIR**.",
+     "say": "With Emily's help, Robert connects a health app to his plan using S M A R T on F H I R.",
+     "focus": 6,
+     "file": "clips/55ad7451f5a3.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "The app calls the **Patient Access API** and shows his claims as FHIR **ExplanationOfBenefit** resources and his HbA1c as an **Observation**, if the plan holds that result.",
+     "say": "The app calls the Patient Access A P I and shows his claims as F H I R ExplanationOfBenefit resources and his H b A 1 c as an Observation, if the plan holds that result.",
+     "focus": 6,
+     "file": "clips/f850466325a2.mp3",
+     "seconds": 12.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The story: Robert's 2025",
+   "lines": [
+    {
+     "raw": "Each step, the systems involved and the standard used.",
+     "say": "Each step, the systems involved and the standard used.",
+     "focus": -1,
+     "file": "clips/4d591e967f83.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "1. Check-up. From → to: Inside Bayou Family Medicine's EHR. Standard: EHR data (shared later as C-CDA or FHIR). Data produced: Encounter, vitals, problems E11.9 and I10.",
+     "say": "1. Check-up. From to to: Inside Bayou Family Medicine's E H R. Standard: E H R data (shared later as C-CDA or F H I R). Data produced: Encounter, vitals, problems E 1 1 . 9 and I10.",
+     "focus": 0,
+     "file": "clips/6e8ad1c322c2.mp3",
+     "seconds": 16.4
+    },
+    {
+     "raw": "1. Lab order. From → to: Clinic EHR → Bayou Clinical Lab. Standard: HL7 v2 **ORM**. Data produced: Order for HbA1c.",
+     "say": "1. Lab order. From to to: Clinic E H R to Bayou Clinical Lab. Standard: HL7 v2 O R M. Data produced: Order for H b A 1 c.",
+     "focus": 1,
+     "file": "clips/0d977cb8c89a.mp3",
+     "seconds": 12
+    },
+    {
+     "raw": "2. Lab result. From → to: Bayou Clinical Lab → Clinic EHR. Standard: HL7 v2 **ORU**, LOINC. Data produced: HbA1c 9.4%, flag H.",
+     "say": "2. Lab result. From to to: Bayou Clinical Lab to Clinic E H R. Standard: HL7 v2 O R U, L O I N C. Data produced: H b A 1 c 9.4 percent, flag H.",
+     "focus": 2,
+     "file": "clips/3ab3b37958c6.mp3",
+     "seconds": 15.1
+    },
+    {
+     "raw": "2b. Visit summary. From → to: Clinic EHR → Gulf Coast Health Plan. Standard: **C-CDA** CCD (SNOMED CT, LOINC, RxNorm). Data produced: Problems, medicines, vitals, HbA1c as coded entries.",
+     "say": "2b. Visit summary. From to to: Clinic E H R to Gulf Coast Health Plan. Standard: C-CDA C C D (SNOMED C T, L O I N C, RxNorm). Data produced: Problems, medicines, vitals, H b A 1 c as coded entries.",
+     "focus": 3,
+     "file": "clips/2aa3bedd0131.mp3",
+     "seconds": 18
+    },
+    {
+     "raw": "3. Claims. From → to: Clinic and lab → Gulf Coast Health Plan. Standard: X12 **837P**, then **835** back. Data produced: Two professional claims and two payments.",
+     "say": "3. Claims. From to to: Clinic and lab to Gulf Coast Health Plan. Standard: X12 8 3 7 P, then 8 35 back. Data produced: Two professional claims and two payments.",
+     "focus": 4,
+     "file": "clips/7c87031cf2e7.mp3",
+     "seconds": 13.725
+    },
+    {
+     "raw": "4. Encounter data. From → to: Gulf Coast Health Plan → CMS. Standard: Encounter data submission. Data produced: Record of the services and diagnoses.",
+     "say": "4. Encounter data. From to to: Gulf Coast Health Plan to C M S. Standard: Encounter data submission. Data produced: Record of the services and diagnoses.",
+     "focus": 5,
+     "file": "clips/b152a2eae013.mp3",
+     "seconds": 12.275
+    },
+    {
+     "raw": "5. ER alert. From → to: Bayou City Medical Center → Gulf Region HIE → Clinic. Standard: HL7 v2 **ADT** A04 and A03. Data produced: Arrival and discharge events, diagnosis R42.",
+     "say": "5. E R alert. From to to: Bayou City Medical Center to Gulf Region H I E to Clinic. Standard: HL7 v2 A D T A04 and A03. Data produced: Arrival and discharge events, diagnosis R42.",
+     "focus": 6,
+     "file": "clips/168fc3059121.mp3",
+     "seconds": 18.225
+    },
+    {
+     "raw": "5. ER claim. From → to: Bayou City Medical Center → Gulf Coast Health Plan. Standard: X12 **837I**. Data produced: Outpatient hospital claim.",
+     "say": "5. E R claim. From to to: Bayou City Medical Center to Gulf Coast Health Plan. Standard: X12 8 3 7 I. Data produced: Outpatient hospital claim.",
+     "focus": 7,
+     "file": "clips/b71dbfd3f504.mp3",
+     "seconds": 12.25
+    },
+    {
+     "raw": "6. App. From → to: Gulf Coast Health Plan → Robert's app. Standard: FHIR R4 API, SMART on FHIR, CARIN Blue Button. Data produced: ExplanationOfBenefit resources, Observation.",
+     "say": "6. App. From to to: Gulf Coast Health Plan to Robert's app. Standard: F H I R R4 A P I, S M A R T on F H I R, C A R I N Blue Button. Data produced: ExplanationOfBenefit resources, Observation.",
+     "focus": 8,
+     "file": "clips/48d4ece37604.mp3",
+     "seconds": 17.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The story: Robert's 2025",
+   "lines": [
+    {
+     "raw": "Three different IDs for one man.",
+     "say": "Three different I D's for one man.",
+     "focus": -1,
+     "file": "clips/c61019c7dd1f.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "The clinic knows Robert by its own chart number, the hospital by **BC448210**, and the plan by **GC5001**.",
+     "say": "The clinic knows Robert by its own chart number, the hospital by B C 4 4 8 2 1 0, and the plan by G C 5 0 0 1.",
+     "focus": -1,
+     "file": "clips/6dc4ab267288.mp3",
+     "seconds": 9.925
+    },
+    {
+     "raw": "Medicare itself knows him by his **MBI** (Medicare Beneficiary Identifier, `3TW7HC2AP58`).",
+     "say": "Medicare itself knows him by his M B I (Medicare Beneficiary Identifier, 3 T W 7 H C 2 A P 5 8).",
+     "focus": -1,
+     "file": "clips/35fa0e61e9be.mp3",
+     "seconds": 9.15
+    },
+    {
+     "raw": "Linking these is a daily data job.",
+     "say": "Linking these is a daily data job.",
+     "focus": -1,
+     "file": "clips/fc16faccb3da.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Never assume one ID works everywhere.",
+     "say": "Never assume one I D works everywhere.",
+     "focus": -1,
+     "file": "clips/e710185b8bed.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The data analyst's view.",
+     "say": "The data analyst's view.",
+     "focus": -1,
+     "file": "clips/b2cf94d5d390.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The data analyst's view",
+   "lines": [
+    {
+     "raw": "Suppose you are an analyst at Gulf Coast Health Plan.",
+     "say": "Suppose you are an analyst at Gulf Coast Health Plan.",
+     "focus": -1,
+     "file": "clips/329f5993ae65.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Data about Robert arrives through several doors.",
+     "say": "Data about Robert arrives through several doors.",
+     "focus": -1,
+     "file": "clips/c370ae76ebbb.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "After loading, it lands in different tables, all keyed to member **GC5001**.",
+     "say": "After loading, it lands in different tables, all keyed to member G C 5 0 0 1.",
+     "focus": -1,
+     "file": "clips/e87327240a9c.mp3",
+     "seconds": 6.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The data analyst's view",
+   "lines": [
+    {
+     "raw": "Where each piece lands (simplified, fictional rows).",
+     "say": "Where each piece lands (simplified, fictional rows).",
+     "focus": -1,
+     "file": "clips/edcbae531b50.mp3",
+     "seconds": 3.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The data analyst's view",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "How much did we pay for Robert this year? Which table answers it: **medical_claims** (plus pharmacy claims for his medicines).",
+     "say": "How much did we pay for Robert this year? Which table answers it: medical_claims (plus pharmacy claims for his medicines).",
+     "focus": 0,
+     "file": "clips/8854c3c0f22a.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "Is Robert's diabetes under control? Which table answers it: **lab_results** (the HbA1c value), backed up by **clinical_documents**. Claims show the test was done, not the value.",
+     "say": "Is Robert's diabetes under control? Which table answers it: lab_results (the H b A 1 c value), backed up by clinical_documents. Claims show the test was done, not the value.",
+     "focus": 1,
+     "file": "clips/1531f1f9e215.mp3",
+     "seconds": 12.575
+    },
+    {
+     "raw": "Did Robert go to the ER before the claim arrived? Which table answers it: **adt_events**. ADT alerts arrive the same day; claims can take weeks.",
+     "say": "Did Robert go to the E R before the claim arrived? Which table answers it: adt_events. A D T alerts arrive the same day; claims can take weeks.",
+     "focus": 2,
+     "file": "clips/15943031f977.mp3",
+     "seconds": 9.95
+    },
+    {
+     "raw": "Are members using their right to their data? Which table answers it: **api_access_log**. Plans report Patient Access API use to CMS under the newer rules.",
+     "say": "Are members using their right to their data? Which table answers it: api_access_log. Plans report Patient Access A P I use to C M S under the newer rules.",
+     "focus": 3,
+     "file": "clips/586814e77069.mp3",
+     "seconds": 11.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The data analyst's view",
+   "lines": [
+    {
+     "raw": "Why speed matters.",
+     "say": "Why speed matters.",
+     "focus": -1,
+     "file": "clips/5aeeb97b0dd3.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "The ADT alert reached Dr. Nguyen's clinic the **same evening**.",
+     "say": "The A D T alert reached Doctor Nguyen's clinic the same evening.",
+     "focus": -1,
+     "file": "clips/a7cc4c2a40c9.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "The ER claim may take weeks to arrive and be paid.",
+     "say": "The E R claim may take weeks to arrive and be paid.",
+     "focus": -1,
+     "file": "clips/9be4743c9004.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "A care team using ADT data can phone Robert the next day; a team using only claims would find out much later.",
+     "say": "A care team using A D T data can phone Robert the next day; a team using only claims would find out much later.",
+     "focus": -1,
+     "file": "clips/491105d648cd.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "This is one reason interoperability matters for care, not just for paperwork.",
+     "say": "This is one reason interoperability matters for care, not just for paperwork.",
+     "focus": -1,
+     "file": "clips/96735d131902.mp3",
+     "seconds": 5.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Standard → lesson map.",
+     "say": "Standard to lesson map.",
+     "focus": -1,
+     "file": "clips/14f9f98a1952.mp3",
+     "seconds": 2.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Standard → lesson map",
+   "lines": [
+    {
+     "raw": "Every standard and data item in Robert's story, and where it was taught.",
+     "say": "Every standard and data item in Robert's story, and where it was taught.",
+     "focus": -1,
+     "file": "clips/48f50c1ee998.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "The four levels of interoperability; EHR. In Robert's story: Why a scanned PDF is not enough. Lesson: 1.",
+     "say": "The four levels of interoperability; E H R. In Robert's story: Why a scanned P D F is not enough. Lesson: 1.",
+     "focus": 0,
+     "file": "clips/78bd9b350f51.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "HIPAA, HITECH, Cures Act, information blocking, USCDI. In Robert's story: Why his clinic and hospital must share. Lesson: 2.",
+     "say": "HIPAA, HITECH, Cures Act, information blocking, U S C D I. In Robert's story: Why his clinic and hospital must share. Lesson: 2.",
+     "focus": 1,
+     "file": "clips/ab3698a472f4.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "CMS Patient Access API, Blue Button 2.0, ADT notification rule. In Robert's story: His app; the ER alert rule. Lesson: 3.",
+     "say": "C M S Patient Access A P I, Blue Button 2.0, A D T notification rule. In Robert's story: His app; the E R alert rule. Lesson: 3.",
+     "focus": 2,
+     "file": "clips/d7b6470c8b4c.mp3",
+     "seconds": 11.775
+    },
+    {
+     "raw": "X12 837P / 837I and 835. In Robert's story: The claims and payments. Lesson: 4.",
+     "say": "X12 8 3 7 P or 8 3 7 I and 8 35. In Robert's story: The claims and payments. Lesson: 4.",
+     "focus": 3,
+     "file": "clips/cf8897ac9f28.mp3",
+     "seconds": 9.35
+    },
+    {
+     "raw": "HL7 v2 ORM, ORU, ADT. In Robert's story: Lab order, lab result, ER arrival and discharge. Lesson: 4.",
+     "say": "HL7 v2 O R M, O R U, A D T. In Robert's story: Lab order, lab result, E R arrival and discharge. Lesson: 4.",
+     "focus": 4,
+     "file": "clips/e8c1895483b2.mp3",
+     "seconds": 10.775
+    },
+    {
+     "raw": "Code sets: ICD-10-CM, CPT, LOINC, SNOMED CT, RxNorm, NDC. In Robert's story: E11.9, 99214, 4548-4 and the rest. Lesson: 4.",
+     "say": "Code sets: I C D 10-CM, C P T, L O I N C, SNOMED C T, RxNorm, N D C. In Robert's story: E 1 1 . 9, 99214, 4 5 4 8 dash 4 and the rest. Lesson: 4.",
+     "focus": 5,
+     "file": "clips/0f3e4c5ff996.mp3",
+     "seconds": 17.05
+    },
+    {
+     "raw": "C-CDA CCD: header, sections, coded entries. In Robert's story: The visit summary sent to his plan. Lesson: 5.",
+     "say": "C-CDA C C D: header, sections, coded entries. In Robert's story: The visit summary sent to his plan. Lesson: 5.",
+     "focus": 6,
+     "file": "clips/216d8c0f0551.mp3",
+     "seconds": 9.575
+    },
+    {
+     "raw": "FHIR resources, REST, SMART on FHIR, CARIN Blue Button. In Robert's story: His app reading ExplanationOfBenefit and Observation. Lesson: 6.",
+     "say": "F H I R resources, R E S T, S M A R T on F H I R, C A R I N Blue Button. In Robert's story: His app reading ExplanationOfBenefit and Observation. Lesson: 6.",
+     "focus": 7,
+     "file": "clips/0e274b4c3399.mp3",
+     "seconds": 14.525
+    },
+    {
+     "raw": "HIE, event notifications, patient matching. In Robert's story: Gulf Region HIE alerting Dr. Nguyen's clinic. Lesson: 7.",
+     "say": "H I E, event notifications, patient matching. In Robert's story: Gulf Region H I E alerting Doctor Nguyen's clinic. Lesson: 7.",
+     "focus": 8,
+     "file": "clips/55c9ea812e5a.mp3",
+     "seconds": 10.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Standard → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations!",
+     "say": "Congratulations!",
+     "focus": -1,
+     "file": "clips/41fcd6c2ef56.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "You now know why US rules require health data to be shared (HIPAA, HITECH, the Cures Act, the CMS rules), the standards that do the work (X12, NCPDP, HL7 v2, C-CDA, FHIR and the code sets) and the networks that carry them.",
+     "say": "You now know why U S rules require health data to be shared (HIPAA, HITECH, the Cures Act, the C M S rules), the standards that do the work (X12, N C P D P, HL7 v2, C-CDA, F H I R and the code sets) and the networks that carry them.",
+     "focus": -1,
+     "file": "clips/01fc87603ebf.mp3",
+     "seconds": 18.05
+    },
+    {
+     "raw": "Next, see how the diagnoses flowing through these systems decide how much Medicare pays a plan like Robert's.",
+     "say": "Next, see how the diagnoses flowing through these systems decide how much Medicare pays a plan like Robert's.",
+     "focus": -1,
+     "file": "clips/54b899d9c707.mp3",
+     "seconds": 7.525
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "One visit creates data in many standards: EHR data, HL7 ORM/ORU and ADT, a C-CDA visit summary, X12 837 and 835, encounter data to CMS, FHIR for the member's app.",
+     "say": "One visit creates data in many standards: E H R data, HL7 ORM/ORU and A D T, a C-CDA visit summary, X12 8 37 and 8 35, encounter data to C M S, F H I R for the member's app.",
+     "focus": 0,
+     "file": "clips/fbb542edebd1.mp3",
+     "seconds": 16.85
+    },
+    {
+     "raw": "Networks such as an **HIE** carry the fast clinical feeds (ADT alerts, documents) between organisations.",
+     "say": "Networks such as an H I E carry the fast clinical feeds (A D T alerts, documents) between organisations.",
+     "focus": 1,
+     "file": "clips/5ddee7609e8b.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "Each source lands in its own table; analysts link them by member ID and must handle **different IDs** for the same person.",
+     "say": "Each source lands in its own table; analysts link them by member I D and must handle different I D's for the same person.",
+     "focus": 2,
+     "file": "clips/fbdaf570640d.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "Clinical feeds (ADT, labs) are faster and richer than claims; claims hold the money.",
+     "say": "Clinical feeds (A D T, labs) are faster and richer than claims; claims hold the money.",
+     "focus": 3,
+     "file": "clips/b9993fe3fcc6.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

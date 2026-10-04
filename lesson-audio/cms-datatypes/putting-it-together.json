@@ -1,0 +1,820 @@
+{
+ "courseId": "cms-datatypes",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Putting It All Together.",
+     "say": "Lesson 6: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/13c01b6e41c4.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "The same year of Robert's care, seen through CCLF in one world and MA reports in the other.",
+     "say": "The same year of Robert's care, seen through C C L F in one world and M A reports in the other.",
+     "focus": -1,
+     "file": "clips/4d3bbf0be8a9.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Follow the same health events into CCLF (Scenario A) and MA reports (Scenario B).",
+     "say": "Follow the same health events into C C L F (Scenario A) and M A reports (Scenario B).",
+     "focus": 0,
+     "file": "clips/c649e0ce0606.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "Compare what the money means in each set of files.",
+     "say": "Compare what the money means in each set of files.",
+     "focus": 1,
+     "file": "clips/5cb2797ad27d.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Map every field you met back to the lesson that taught it.",
+     "say": "Map every field you met back to the lesson that taught it.",
+     "focus": 2,
+     "file": "clips/7fa3aef1f1c5.mp3",
+     "seconds": 3.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story.",
+     "say": "The story.",
+     "focus": -1,
+     "file": "clips/5103112bb3ad.mp3",
+     "seconds": 1.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "**8 April 2025**: Robert sees **Dr. Nguyen** for his diabetes and blood pressure check-up.",
+     "say": "8 April 2025: Robert sees Doctor Nguyen for his diabetes and blood pressure check-up.",
+     "focus": 0,
+     "file": "clips/dcb1236d7038.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Blood is drawn for an **HbA1c** test, sent to an outside lab.",
+     "say": "Blood is drawn for an H b A 1 c test, sent to an outside lab.",
+     "focus": 0,
+     "file": "clips/aa4f1efbed7e.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "**15 April 2025**: he gets **glucose test strips** from a medical supply company.",
+     "say": "15 April 2025: he gets glucose test strips from a medical supply company.",
+     "focus": 1,
+     "file": "clips/c794b11c3a1e.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "**20 May 2025**: he feels dizzy and goes to the **ER** at Bayou City Medical Center.",
+     "say": "20 May 2025: he feels dizzy and goes to the E R at Bayou City Medical Center.",
+     "focus": 2,
+     "file": "clips/d4a76a5d90f0.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "In July, the hospital **corrects** that claim.",
+     "say": "In July, the hospital corrects that claim.",
+     "focus": 2,
+     "file": "clips/4837e2484ec0.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Every month: he fills **metformin** (diabetes) and **lisinopril** (blood pressure) at his pharmacy.",
+     "say": "Every month: he fills metformin (diabetes) and lisinopril (blood pressure) at his pharmacy.",
+     "focus": 3,
+     "file": "clips/2375492e787d.mp3",
+     "seconds": 6.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "Remember: two separate scenarios.",
+     "say": "Remember: two separate scenarios.",
+     "focus": -1,
+     "file": "clips/80eeab5433fc.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Robert can only be in one world at a time.",
+     "say": "Robert can only be in one world at a time.",
+     "focus": -1,
+     "file": "clips/e705fe8c7375.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "**Scenario A** (what-if): Original Medicare, assigned to Houston Care Partners ACO.",
+     "say": "Scenario A (what-if): Original Medicare, assigned to Houston Care Partners A C O.",
+     "focus": -1,
+     "file": "clips/1bd2ca7ca35b.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "**Scenario B** (his actual plan): a member of Gulf Coast Advantage (HMO), contract `H9876`, plan `012`, member ID `GC5001`.",
+     "say": "Scenario B (his actual plan): a member of Gulf Coast Advantage (H M O), contract H 9 8 7 6, plan 012, member I D G C 5 0 0 1.",
+     "focus": -1,
+     "file": "clips/188957b3e35b.mp3",
+     "seconds": 12.925
+    },
+    {
+     "raw": "The events are the same; the files are completely different.",
+     "say": "The events are the same; the files are completely different.",
+     "focus": -1,
+     "file": "clips/d5635b7e77f9.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "All names and IDs are fictional.",
+     "say": "All names and I D's are fictional.",
+     "focus": -1,
+     "file": "clips/fe4f8fb06316.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram's and Sita's versions in Kathmandu.",
+     "say": "In Nepal: Ram's and Sita's versions in Kathmandu.",
+     "focus": -1,
+     "file": "clips/ecf4d9a6f580.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's insurer holds his bills because it pays them.",
+     "say": "Ram's insurer holds his bills because it pays them.",
+     "focus": 0,
+     "file": "clips/562e812356b2.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Anyone else who wants to understand Ram's care has to ask the insurer for copies.",
+     "say": "Anyone else who wants to understand Ram's care has to ask the insurer for copies.",
+     "focus": 0,
+     "file": "clips/38c203050489.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF holds Sita's claims because it pays the hospitals.",
+     "say": "S S F holds Sita's claims because it pays the hospitals.",
+     "focus": 1,
+     "file": "clips/39c630cae76a.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "A partner looking after SSF contributors would need SSF to share copies.",
+     "say": "A partner looking after S S F contributors would need S S F to share copies.",
+     "focus": 1,
+     "file": "clips/64b9d6a4f81e.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "Whoever pays the bills holds the data: the same rule decides who sends which file in the US.",
+     "say": "Whoever pays the bills holds the data: the same rule decides who sends which file in the U S.",
+     "focus": 1,
+     "file": "clips/3b5ca63d9171.mp3",
+     "seconds": 6.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Where each event lands.",
+     "say": "Where each event lands.",
+     "focus": -1,
+     "file": "clips/ccbcab2a7fa1.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Where each event lands",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Office visit, 8 Apr. Scenario A: Original Medicare + ACO: CCLF5 line (claim type 71), Medicare paid $104.00. Scenario B: Medicare Advantage plan: Plan pays the claim; encounter sent to CMS; MAO-004 shows E119 and I10 allowed.",
+     "say": "Office visit, 8 Apr. Scenario A: Original Medicare and A C O: C C L F 5 line (claim type 71), Medicare paid 104 dollars. Scenario B: Medicare Advantage plan: Plan pays the claim; encounter sent to C M S; M A O 004 shows E 1 1 9 and I10 allowed.",
+     "focus": 0,
+     "file": "clips/b8bc897f2bde.mp3",
+     "seconds": 21.825
+    },
+    {
+     "raw": "HbA1c lab, 8 Apr. Scenario A: Original Medicare + ACO: CCLF5 line, Medicare paid $13.00. Scenario B: Medicare Advantage plan: Encounter sent; MAO-004 shows E119 **not** allowed (lab source).",
+     "say": "H b A 1 c lab, 8 Apr. Scenario A: Original Medicare and A C O: C C L F 5 line, Medicare paid 13 dollars. Scenario B: Medicare Advantage plan: Encounter sent; M A O 004 shows E 1 1 9 not allowed (lab source).",
+     "focus": 1,
+     "file": "clips/e6e87606faec.mp3",
+     "seconds": 18.625
+    },
+    {
+     "raw": "Test strips, 15 Apr. Scenario A: Original Medicare + ACO: CCLF6 line (claim type 82), Medicare paid $24.00. Scenario B: Medicare Advantage plan: Plan pays; encounter sent (no new diagnoses that matter).",
+     "say": "Test strips, 15 Apr. Scenario A: Original Medicare and A C O: C C L F 6 line (claim type 82), Medicare paid 24 dollars. Scenario B: Medicare Advantage plan: Plan pays; encounter sent (no new diagnoses that matter).",
+     "focus": 2,
+     "file": "clips/457720440ddd.mp3",
+     "seconds": 17.85
+    },
+    {
+     "raw": "ER visit, 20 May. Scenario A: Original Medicare + ACO: CCLF1 + CCLF2 + CCLF4, then a cancel and corrected version (latest: $580.00); ER doctor in CCLF5 ($96.00). Scenario B: Medicare Advantage plan: Plan pays both claims; encounters sent; MAO-004 shows R42, I10, E119 allowed.",
+     "say": "E R visit, 20 May. Scenario A: Original Medicare and A C O: C C L F 1 and C C L F 2 and C C L F 4, then a cancel and corrected version (latest: 580 dollars); E R doctor in C C L F 5 (96 dollars). Scenario B: Medicare Advantage plan: Plan pays both claims; encounters sent; M A O 004 shows R42, I10, E 1 1 9 allowed.",
+     "focus": 3,
+     "file": "clips/7128f9ac884e.mp3",
+     "seconds": 27.4
+    },
+    {
+     "raw": "Monthly medicines. Scenario A: Original Medicare + ACO: CCLF7 Part D events. Scenario B: Medicare Advantage plan: Plan's own pharmacy claims (it covers drugs too).",
+     "say": "Monthly medicines. Scenario A: Original Medicare and A C O: C C L F 7 Part D events. Scenario B: Medicare Advantage plan: Plan's own pharmacy claims (it covers drugs too).",
+     "focus": 4,
+     "file": "clips/7c4cd5ef934f.mp3",
+     "seconds": 14.025
+    },
+    {
+     "raw": "Who Robert is. Scenario A: Original Medicare + ACO: CCLF8 demographics, CCLF9 old MBI → new MBI. Scenario B: Medicare Advantage plan: MMR rows each month with his status flags.",
+     "say": "Who Robert is. Scenario A: Original Medicare and A C O: C C L F 8 demographics, C C L F 9 old M B I to new M B I. Scenario B: Medicare Advantage plan: M M R rows each month with his status flags.",
+     "focus": 5,
+     "file": "clips/8f742740d38b.mp3",
+     "seconds": 17.575
+    },
+    {
+     "raw": "Money CMS spent. Scenario A: Original Medicare + ACO: The sum of what Medicare paid on his claims. Scenario B: Medicare Advantage plan: The monthly payments to the plan in the MMR.",
+     "say": "Money C M S spent. Scenario A: Original Medicare and A C O: The sum of what Medicare paid on his claims. Scenario B: Medicare Advantage plan: The monthly payments to the plan in the M M R.",
+     "focus": 6,
+     "file": "clips/0998daa6a08c.mp3",
+     "seconds": 14.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Scenario A: the ACO analyst's view.",
+     "say": "Scenario A: the A C O analyst's view.",
+     "focus": -1,
+     "file": "clips/daa65145e294.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Scenario A: the ACO analyst's view",
+   "lines": [
+    {
+     "raw": "After keeping only the latest version of each claim and mapping every MBI through CCLF9, the analyst builds one simple table: one row per claim.",
+     "say": "After keeping only the latest version of each claim and mapping every M B I through C C L F 9, the analyst builds one simple table: one row per claim.",
+     "focus": -1,
+     "file": "clips/9f0dbf69ea4f.mp3",
+     "seconds": 11.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Scenario A: the ACO analyst's view",
+   "lines": [
+    {
+     "raw": "Robert's 2025 Medicare claims from CCLF, latest versions only (as of the September 2025 delivery).",
+     "say": "Robert's 2025 Medicare claims from C C L F, latest versions only (as of the September 2025 delivery).",
+     "focus": -1,
+     "file": "clips/d165ed54434a.mp3",
+     "seconds": 9.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Scenario A: the ACO analyst's view",
+   "lines": [
+    {
+     "raw": "Robert's Part B cost of care so far in 2025.",
+     "say": "Robert's Part B cost of care so far in 2025.",
+     "focus": -1,
+     "file": "clips/b9de7fa2c087.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "$104.00 plus $13.00 plus $24.00 plus $580.00 plus $96.00 equals $817.00.",
+     "say": "104 dollars plus 13 dollars plus 24 dollars plus 580 dollars plus 96 dollars equals 817 dollars.",
+     "focus": 0,
+     "file": "clips/aefe957827f6.mp3",
+     "seconds": 10.9
+    },
+    {
+     "raw": "For example: Part A (inpatient, type 60): $0.",
+     "say": "For example: Part A (inpatient, type 60): 0 dollars.",
+     "focus": 1,
+     "file": "clips/05a3e549d135.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "If the analyst had summed every CCLF1 row, the ER claim alone would have counted $1,804.80 instead of $580.00.",
+     "say": "If the analyst had summed every C C L F 1 row, the E R claim alone would have counted 1804 dollars 80 cents instead of 580 dollars.",
+     "focus": 1,
+     "file": "clips/7979c43110ed.mp3",
+     "seconds": 10.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Scenario A: the ACO analyst's view",
+   "lines": [
+    {
+     "raw": "What the ACO learns.",
+     "say": "What the A C O learns.",
+     "focus": -1,
+     "file": "clips/5e75b1523e5d.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Robert had an **ER visit outside the ACO's own clinics**.",
+     "say": "Robert had an E R visit outside the ACO's own clinics.",
+     "focus": -1,
+     "file": "clips/ea34adf07327.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "The ACO's care team can call him, check his blood pressure medicines and try to prevent another ER trip.",
+     "say": "The ACO's care team can call him, check his blood pressure medicines and try to prevent another E R trip.",
+     "focus": -1,
+     "file": "clips/45bce3cb209b.mp3",
+     "seconds": 7.35
+    },
+    {
+     "raw": "Without CCLF, the ACO would never have known.",
+     "say": "Without C C L F, the A C O would never have known.",
+     "focus": -1,
+     "file": "clips/97c8648c0b7b.mp3",
+     "seconds": 3.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Scenario B: the MA plan analyst's view.",
+     "say": "Scenario B: the M A plan analyst's view.",
+     "focus": -1,
+     "file": "clips/977514590d99.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Scenario B: the MA plan analyst's view",
+   "lines": [
+    {
+     "raw": "The plan already has Robert's claims, because it paid them.",
+     "say": "The plan already has Robert's claims, because it paid them.",
+     "focus": -1,
+     "file": "clips/0bfd9c0eaae2.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "What it needs from CMS is the **payment side**.",
+     "say": "What it needs from C M S is the payment side.",
+     "focus": -1,
+     "file": "clips/efff845e084b.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Using the illustrative numbers from lesson 4 (base rate $1,100):",
+     "say": "Using the illustrative numbers from lesson 4 (base rate 1100 dollars):",
+     "focus": -1,
+     "file": "clips/6bd1aeb2de43.mp3",
+     "seconds": 5.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Scenario B: the MA plan analyst's view",
+   "lines": [
+    {
+     "raw": "CMS payments to Gulf Coast Health Plan for Robert, 2025 (Part C only, illustrative).",
+     "say": "C M S payments to Gulf Coast Health Plan for Robert, 2025 (Part C only, illustrative).",
+     "focus": -1,
+     "file": "clips/8629aa6b3758.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "January to June (first paid). Risk score: 1.150. Per month: $1,265.00. Months: 6. Total: $7,590.00.",
+     "say": "January to June (first paid). Risk score: 1.150. Per month: 1265 dollars. Months: 6. Total: 7590 dollars.",
+     "focus": 0,
+     "file": "clips/c9378db2d2c4.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "Mid-year adjustment for January to June. Risk score: 1.180 − 1.150. Per month: $33.00. Months: 6. Total: $198.00.",
+     "say": "Mid-year adjustment for January to June. Risk score: 1.180 − 1.150. Per month: 33 dollars. Months: 6. Total: 198 dollars.",
+     "focus": 1,
+     "file": "clips/75873644376f.mp3",
+     "seconds": 14.15
+    },
+    {
+     "raw": "July to December. Risk score: 1.180. Per month: $1,298.00. Months: 6. Total: $7,788.00.",
+     "say": "July to December. Risk score: 1.180. Per month: 1298 dollars. Months: 6. Total: 7788 dollars.",
+     "focus": 2,
+     "file": "clips/c58b7e0bdfd1.mp3",
+     "seconds": 10.8
+    },
+    {
+     "raw": "**Total for 2025**. Total: **$15,576.00**.",
+     "say": "Total for 2025. Total: 15576 dollars.",
+     "focus": 3,
+     "file": "clips/2099117e695e.mp3",
+     "seconds": 5.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Scenario B: the MA plan analyst's view",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "$7,590.00 + $198.00 + $7,788.00 = **$15,576.00**, which equals 12 × $1,298.00.",
+     "say": "7590 dollars and 198 dollars and 7788 dollars = 15576 dollars, which equals 12 × 1298 dollars.",
+     "focus": -1,
+     "file": "clips/0f185d673950.mp3",
+     "seconds": 12.725
+    },
+    {
+     "raw": "After the adjustment, every month of 2025 is paid at the updated risk score of 1.180.",
+     "say": "After the adjustment, every month of 2025 is paid at the updated risk score of 1.180.",
+     "focus": -1,
+     "file": "clips/0c447a62a6f8.mp3",
+     "seconds": 8.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Scenario B: the MA plan analyst's view",
+   "lines": [
+    {
+     "raw": "The plan also reads the **MAO-004** to confirm that Robert's diabetes was accepted from at least one **acceptable** 2025 visit.",
+     "say": "The plan also reads the M A O 004 to confirm that Robert's diabetes was accepted from at least one acceptable 2025 visit.",
+     "focus": -1,
+     "file": "clips/d2997fb2a449.mp3",
+     "seconds": 10.725
+    },
+    {
+     "raw": "Diagnoses do not carry over: if no acceptable visit in 2025 recorded his diabetes, his **2026** risk score would not include the diabetes HCC, even though he still has diabetes.",
+     "say": "Diagnoses do not carry over: if no acceptable visit in 2025 recorded his diabetes, his 2026 risk score would not include the diabetes H C C, even though he still has diabetes.",
+     "focus": -1,
+     "file": "clips/e6631f0242db.mp3",
+     "seconds": 14.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How an analyst sees it.",
+     "say": "How an analyst sees it.",
+     "focus": -1,
+     "file": "clips/04b8ca4373bc.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "How an analyst sees it",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "ACO analyst (Scenario A). Starts from: CCLF claim files plus CCLF8 and CCLF9. Cleans or checks: Latest versions only, MBIs mapped, claim types split, run-out allowed. Answers: \"Robert went to an ER outside our clinics; his Part B cost so far is $817.00.\".",
+     "say": "A C O analyst (Scenario A). Starts from: C C L F claim files plus C C L F 8 and C C L F 9. Cleans or checks: Latest versions only, M B I's mapped, claim types split, run-out allowed. Answers: \"Robert went to an E R outside our clinics; his Part B cost so far is 817 dollars.\".",
+     "focus": 0,
+     "file": "clips/ffad7d1deb57.mp3",
+     "seconds": 22.45
+    },
+    {
+     "raw": "MA plan analyst (Scenario B). Starts from: MMR, MOR and MAO-004. Cleans or checks: MMR matched to the enrollment list; retro rows grouped by payment month; diagnoses checked for acceptable sources. Answers: \"CMS paid us $15,576.00 for Robert in 2025, and his diabetes was accepted for 2026.\".",
+     "say": "M A plan analyst (Scenario B). Starts from: M M R, M O R and M A O 004. Cleans or checks: M M R matched to the enrollment list; retro rows grouped by payment month; diagnoses checked for acceptable sources. Answers: \"C M S paid us 15576 dollars for Robert in 2025, and his diabetes was accepted for 2026.\".",
+     "focus": 1,
+     "file": "clips/26d227b938a6.mp3",
+     "seconds": 25.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Field → lesson map.",
+     "say": "Field to lesson map.",
+     "focus": -1,
+     "file": "clips/e9cf9eeca18e.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Every field in this course, and where it was taught.",
+     "say": "Every field in this course, and where it was taught.",
+     "focus": -1,
+     "file": "clips/dd3681e04693.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "`BENE_MBI_ID` / `mbi`. File: All files. What it tells you: Who the beneficiary is (the MBI). Lesson: 1.",
+     "say": "BENE_MBI_ID or mbi. File: All files. What it tells you: Who the beneficiary is (the M B I). Lesson: 1.",
+     "focus": 0,
+     "file": "clips/a700b2e42d3f.mp3",
+     "seconds": 9.45
+    },
+    {
+     "raw": "`CUR_CLM_UNIQ_ID`. File: CCLF claim files. What it tells you: Links a claim's header to its lines, diagnoses and procedures. Lesson: 2.",
+     "say": "CUR_CLM_UNIQ_ID. File: C C L F claim files. What it tells you: Links a claim's header to its lines, diagnoses and procedures. Lesson: 2.",
+     "focus": 1,
+     "file": "clips/725caeb9ba90.mp3",
+     "seconds": 11.675
+    },
+    {
+     "raw": "`CLM_TYPE_CD`. File: CCLF claim files. What it tells you: Kind of bill (outpatient, inpatient, doctor, DME). Lesson: 2, 3.",
+     "say": "CLM_TYPE_CD. File: C C L F claim files. What it tells you: Kind of bill (outpatient, inpatient, doctor, D M E). Lesson: 2, 3.",
+     "focus": 2,
+     "file": "clips/3a9298a60840.mp3",
+     "seconds": 10.9
+    },
+    {
+     "raw": "`CLM_LINE_PROD_REV_CTR_CD`, `CLM_LINE_HCPCS_CD`. File: CCLF2, CCLF5. What it tells you: What service each line was. Lesson: 2.",
+     "say": "CLM_LINE_PROD_REV_CTR_CD, CLM_LINE_HCPCS_CD. File: C C L F 2, C C L F 5. What it tells you: What service each line was. Lesson: 2.",
+     "focus": 3,
+     "file": "clips/c413c9a7ae95.mp3",
+     "seconds": 13.95
+    },
+    {
+     "raw": "`CLM_DGNS_CD`, `PRNCPL_DGNS_CD`. File: CCLF1, CCLF4. What it tells you: Why the care happened (diagnoses). Lesson: 2.",
+     "say": "CLM_DGNS_CD, PRNCPL_DGNS_CD. File: C C L F 1, C C L F 4. What it tells you: Why the care happened (diagnoses). Lesson: 2.",
+     "focus": 4,
+     "file": "clips/0b40e9d1fad3.mp3",
+     "seconds": 13.675
+    },
+    {
+     "raw": "`CRNT_NUM`, `PRVS_NUM`. File: CCLF9. What it tells you: Old MBI → current MBI. Lesson: 2.",
+     "say": "CRNT_NUM, PRVS_NUM. File: C C L F 9. What it tells you: Old M B I to current M B I. Lesson: 2.",
+     "focus": 5,
+     "file": "clips/c090278349d8.mp3",
+     "seconds": 10.3
+    },
+    {
+     "raw": "`CLM_ADJSMT_TYPE_CD`, `CLM_EFCTV_DT`. File: CCLF claim files. What it tells you: Original, cancel or adjustment, and which version is newest. Lesson: 3.",
+     "say": "CLM_ADJSMT_TYPE_CD, CLM_EFCTV_DT. File: C C L F claim files. What it tells you: Original, cancel or adjustment, and which version is newest. Lesson: 3.",
+     "focus": 6,
+     "file": "clips/6514a483edc4.mp3",
+     "seconds": 14.1
+    },
+    {
+     "raw": "`CLM_FROM_DT` vs processed date. File: CCLF claim files. What it tells you: Incurred vs paid month, for run-out. Lesson: 3.",
+     "say": "CLM_FROM_DT versus processed date. File: C C L F claim files. What it tells you: Incurred versus paid month, for run-out. Lesson: 3.",
+     "focus": 7,
+     "file": "clips/6a6349df7b1d.mp3",
+     "seconds": 11.225
+    },
+    {
+     "raw": "`run_month`, `payment_month`, `adjustment`. File: MMR. What it tells you: When CMS paid, for which month, and corrections. Lesson: 4.",
+     "say": "run_month, payment_month, adjustment. File: M M R. What it tells you: When C M S paid, for which month, and corrections. Lesson: 4.",
+     "focus": 8,
+     "file": "clips/99d0ba15ab8a.mp3",
+     "seconds": 9.875
+    },
+    {
+     "raw": "`risk_score_part_c`, `part_c_payment`. File: MMR. What it tells you: The score used and the money paid. Lesson: 4.",
+     "say": "risk_score_part_c, part_c_payment. File: M M R. What it tells you: The score used and the money paid. Lesson: 4.",
+     "focus": 9,
+     "file": "clips/75b83194b67d.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "`esrd`, `hospice`, `medicaid`. File: MMR. What it tells you: Status flags that change payment. Lesson: 4.",
+     "say": "esrd, hospice, medicaid. File: M M R. What it tells you: Status flags that change payment. Lesson: 4.",
+     "focus": 10,
+     "file": "clips/6c0b5ce6975f.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "`dx_code`, `ra_allowed`, `add_or_delete`. File: MAO-004. What it tells you: Which diagnoses CMS accepted for risk adjustment. Lesson: 5.",
+     "say": "dx_code, ra_allowed, add_or_delete. File: M A O 004. What it tells you: Which diagnoses C M S accepted for risk adjustment. Lesson: 5.",
+     "focus": 11,
+     "file": "clips/ec01293645cb.mp3",
+     "seconds": 12.5
+    },
+    {
+     "raw": "`model`, `hccs_present`, `risk_score`. File: MOR. What it tells you: Which HCCs CMS credited, under which model. Lesson: 5.",
+     "say": "model, hccs_present, risk_score. File: M O R. What it tells you: Which H C C's C M S credited, under which model. Lesson: 5.",
+     "focus": 12,
+     "file": "clips/ae063538696f.mp3",
+     "seconds": 11.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You can now explain why CMS shares data, read the CCLF file set, clean claim versions, read MMR, MOR and MAO-004 rows, and choose the right file for a question.",
+     "say": "You can now explain why C M S shares data, read the C C L F file set, clean claim versions, read M M R, M O R and M A O 004 rows, and choose the right file for a question.",
+     "focus": -1,
+     "file": "clips/b9277a6d278b.mp3",
+     "seconds": 14.775
+    },
+    {
+     "raw": "Next, the **Interoperability** course shows the rules and standards (X12, HL7, FHIR) behind all this data sharing.",
+     "say": "Next, the Interoperability course shows the rules and standards (X12, HL7, F H I R) behind all this data sharing.",
+     "focus": -1,
+     "file": "clips/c2add7e32984.mp3",
+     "seconds": 9.325
+    },
+    {
+     "raw": "Later, the **Risk Adjustment** course shows how diagnoses become risk scores and payments, and the **Value-Based Care** course shows how ACOs use files like CCLF.",
+     "say": "Later, the Risk Adjustment course shows how diagnoses become risk scores and payments, and the Value-Based Care course shows how A C O's use files like C C L F.",
+     "focus": -1,
+     "file": "clips/26790818eb0d.mp3",
+     "seconds": 11.4
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Whoever pays the claims holds them.",
+     "say": "Whoever pays the claims holds them.",
+     "focus": 0,
+     "file": "clips/44de02a9787e.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "CMS pays in Original Medicare, so it sends **CCLF** to ACOs.",
+     "say": "C M S pays in Original Medicare, so it sends C C L F to A C O's.",
+     "focus": 0,
+     "file": "clips/a8664a9a8cb2.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "MA plans pay their own claims, so CMS sends them **payment and risk reports**.",
+     "say": "M A plans pay their own claims, so C M S sends them payment and risk reports.",
+     "focus": 0,
+     "file": "clips/1bd5821d0493.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "A beneficiary is in one world or the other in a given month: CCLF **or** MMR, not both.",
+     "say": "A beneficiary is in one world or the other in a given month: C C L F or M M R, not both.",
+     "focus": 1,
+     "file": "clips/4a080e7fe5b4.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "In CCLF: keep the latest version, map MBIs through CCLF9, and split spending by claim type.",
+     "say": "In C C L F: keep the latest version, map M B I's through C C L F 9, and split spending by claim type.",
+     "focus": 2,
+     "file": "clips/c2bee8bf5ba4.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "In MA reports: MMR = payments, MOR = HCCs, MAO-004 = accepted diagnoses.",
+     "say": "In M A reports: M M R = payments, M O R = H C C's, M A O 004 = accepted diagnoses.",
+     "focus": 3,
+     "file": "clips/88da4e65d446.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "Diagnoses must be recorded again every year.",
+     "say": "Diagnoses must be recorded again every year.",
+     "focus": 3,
+     "file": "clips/3af082358d80.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

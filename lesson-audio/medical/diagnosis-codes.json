@@ -1,0 +1,1030 @@
+{
+ "courseId": "medical",
+ "lessonId": "diagnosis-codes",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Diagnosis: Why.",
+     "say": "Lesson 5: Diagnosis: Why.",
+     "focus": -1,
+     "file": "clips/07fa11c24967.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Every illness, injury and symptom has a code, so computers can understand it.",
+     "say": "Every illness, injury and symptom has a code, so computers can understand it.",
+     "focus": -1,
+     "file": "clips/afe85948c39b.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain why diagnoses are written as codes.",
+     "say": "Explain why diagnoses are written as codes.",
+     "focus": 0,
+     "file": "clips/e76a16634dcc.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Read the structure of an ICD-10-CM code.",
+     "say": "Read the structure of an I C D 10-CM code.",
+     "focus": 1,
+     "file": "clips/e07fb884a285.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Understand admitting, primary and secondary diagnoses, and \"medical necessity\".",
+     "say": "Understand admitting, primary and secondary diagnoses, and \"medical necessity\".",
+     "focus": 2,
+     "file": "clips/4c1ba0c86df3.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "Know what the Present on Admission (POA) flag tells you.",
+     "say": "Know what the Present on Admission (P O A) flag tells you.",
+     "focus": 3,
+     "file": "clips/88082a885092.mp3",
+     "seconds": 4.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Why use codes instead of words?",
+     "say": "Why use codes instead of words?",
+     "focus": -1,
+     "file": "clips/70aab7523a1c.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Why use codes instead of words?",
+   "lines": [
+    {
+     "raw": "One doctor writes \"sugar\", another writes \"DM-2\", another writes \"Type 2 diabetes mellitus\".",
+     "say": "One doctor writes \"sugar\", another writes \"D M 2\", another writes \"Type 2 diabetes mellitus\".",
+     "focus": -1,
+     "file": "clips/6cf939ebd1a9.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "A computer cannot tell these are the same.",
+     "say": "A computer cannot tell these are the same.",
+     "focus": -1,
+     "file": "clips/0718e9b9240a.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "So the world agreed on a **code book** where every disease has exactly one code.",
+     "say": "So the world agreed on a code book where every disease has exactly one code.",
+     "focus": -1,
+     "file": "clips/f9b489896125.mp3",
+     "seconds": 5.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Why use codes instead of words?",
+   "lines": [
+    {
+     "raw": "That code book is the **ICD**, the **International Classification of Diseases**, created by the World Health Organization (WHO).",
+     "say": "That code book is the I C D, the International Classification of Diseases, created by the World Health Organization (W H O).",
+     "focus": -1,
+     "file": "clips/7d3e7714cb39.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "The US uses its own detailed version called **ICD-10-CM** (CM = Clinical Modification).",
+     "say": "The U S uses its own detailed version called I C D 10-CM (C M = Clinical Modification).",
+     "focus": -1,
+     "file": "clips/59d4b878666b.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "It has around **70,000+ codes**.",
+     "say": "It has around 70,000+ codes.",
+     "focus": -1,
+     "file": "clips/8bcaf8a2d68c.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Why use codes instead of words?",
+   "lines": [
+    {
+     "raw": "Nepal already uses ICD.",
+     "say": "Nepal already uses I C D.",
+     "focus": -1,
+     "file": "clips/ef1460bbbead.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Hospitals in Nepal use **WHO's ICD-10** to report diseases to the government health information system (HMIS).",
+     "say": "Hospitals in Nepal use WHO's I C D 10 to report diseases to the government health information system (H M I S).",
+     "focus": 0,
+     "file": "clips/3d96bffdd711.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "So when you see the US code for typhoid, it belongs to the same family of codes Nepali hospital record officers use.",
+     "say": "So when you see the U S code for typhoid, it belongs to the same family of codes Nepali hospital record officers use.",
+     "focus": 1,
+     "file": "clips/1afcfe11232f.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "When Ram claims from his private insurer, the insurer reads the **diagnosis** on his prescription or discharge summary to check that the illness is covered by his policy.",
+     "say": "When Ram claims from his private insurer, the insurer reads the diagnosis on his prescription or discharge summary to check that the illness is covered by his policy.",
+     "focus": 2,
+     "file": "clips/adcf180bb047.mp3",
+     "seconds": 11.1
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "When a hospital sends a claim to SSF, it records the **diagnosis**: what disease Sita was treated for.",
+     "say": "When a hospital sends a claim to S S F, it records the diagnosis: what disease Sita was treated for.",
+     "focus": 3,
+     "file": "clips/a09828910155.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "SSF uses the diagnosis to check that the treatment makes sense for that illness, and whether it falls under a special category such as serious illness.",
+     "say": "S S F uses the diagnosis to check that the treatment makes sense for that illness, and whether it falls under a special category such as serious illness.",
+     "focus": 4,
+     "file": "clips/5ef415a25e48.mp3",
+     "seconds": 10.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Reading an ICD-10-CM code.",
+     "say": "Reading an I C D 10-CM code.",
+     "focus": -1,
+     "file": "clips/7fe5d8648cf2.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Reading an ICD-10-CM code",
+   "lines": [
+    {
+     "raw": "ICD-10-CM codes are **3 to 7 characters** long.",
+     "say": "I C D 10-CM codes are 3 to 7 characters long.",
+     "focus": -1,
+     "file": "clips/4784de192f52.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "They always start with a **letter**, and there is a **dot after the 3rd character**.",
+     "say": "They always start with a letter, and there is a dot after the 3rd character.",
+     "focus": -1,
+     "file": "clips/371bdaf81646.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "The first 3 characters are the **category** (the general disease); the characters after the dot add detail.",
+     "say": "The first 3 characters are the category (the general disease); the characters after the dot add detail.",
+     "focus": -1,
+     "file": "clips/46ea2aa62bd5.mp3",
+     "seconds": 6.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Reading an ICD-10-CM code",
+   "lines": [
+    {
+     "raw": "Simple code: strep throat.",
+     "say": "Simple code: strep throat.",
+     "focus": -1,
+     "file": "clips/06b537fbe9a4.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "J: Chapter: diseases of the **respiratory system** (breathing).",
+     "say": "J: Chapter: diseases of the respiratory system (breathing).",
+     "focus": 0,
+     "file": "clips/3db40e26e532.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "02: Category: **acute pharyngitis** (sore throat).",
+     "say": "02: Category: acute pharyngitis (sore throat).",
+     "focus": 1,
+     "file": "clips/ab18b9162a5f.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": ".0: Detail: caused by **streptococcus** bacteria.",
+     "say": ".0: Detail: caused by streptococcus bacteria.",
+     "focus": 2,
+     "file": "clips/478053cccbb7.mp3",
+     "seconds": 4.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Reading an ICD-10-CM code",
+   "lines": [
+    {
+     "raw": "Detailed code: broken wrist.",
+     "say": "Detailed code: broken wrist.",
+     "focus": -1,
+     "file": "clips/2b4a99b993a2.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "S52: Category: **fracture of the forearm**.",
+     "say": "S52: Category: fracture of the forearm.",
+     "focus": 0,
+     "file": "clips/7c695c794f78.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": ".5: Location: **lower end of the radius** (near the wrist).",
+     "say": ".5: Location: lower end of the radius (near the wrist).",
+     "focus": 1,
+     "file": "clips/2d62188956e0.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "0: Type: **unspecified** fracture type.",
+     "say": "0: Type: unspecified fracture type.",
+     "focus": 2,
+     "file": "clips/3ac9947d4dd4.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "1: Side: **right** arm.",
+     "say": "1: Side: right arm.",
+     "focus": 3,
+     "file": "clips/3025ff312cff.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "A: Visit: **initial encounter** (first treatment) for a closed fracture.",
+     "say": "A: Visit: initial encounter (first treatment) for a closed fracture.",
+     "focus": 4,
+     "file": "clips/beae90ccfc7e.mp3",
+     "seconds": 4.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Reading an ICD-10-CM code",
+   "lines": [
+    {
+     "raw": "Common ICD-10-CM codes with familiar illnesses.",
+     "say": "Common I C D 10-CM codes with familiar illnesses.",
+     "focus": -1,
+     "file": "clips/2dffc3f0e436.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "`A01.00`. Meaning: Typhoid fever, unspecified. Where you'd see it in Nepal: Very common, especially in summer and monsoon.",
+     "say": "A 0 1 . 0 0. Meaning: Typhoid fever, unspecified. Where you'd see it in Nepal: Very common, especially in summer and monsoon.",
+     "focus": 0,
+     "file": "clips/a511e1699ab1.mp3",
+     "seconds": 10.275
+    },
+    {
+     "raw": "`A90`. Meaning: Dengue fever. Where you'd see it in Nepal: Outbreaks every monsoon season.",
+     "say": "A90. Meaning: Dengue fever. Where you'd see it in Nepal: Outbreaks every monsoon season.",
+     "focus": 1,
+     "file": "clips/21a35bfc57aa.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "`J02.0`. Meaning: Strep throat. Where you'd see it in Nepal: Sore throat with fever.",
+     "say": "J 0 2 . 0. Meaning: Strep throat. Where you'd see it in Nepal: Sore throat with fever.",
+     "focus": 2,
+     "file": "clips/734534a27613.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "`E11.9`. Meaning: Type 2 diabetes without complications. Where you'd see it in Nepal: \"Sugar\" patients in every OPD.",
+     "say": "E 1 1 . 9. Meaning: Type 2 diabetes without complications. Where you'd see it in Nepal: \"Sugar\" patients in every O P D.",
+     "focus": 3,
+     "file": "clips/35281b063ab9.mp3",
+     "seconds": 10.025
+    },
+    {
+     "raw": "`I10`. Meaning: High blood pressure (essential hypertension). Where you'd see it in Nepal: \"Pressure\" patients.",
+     "say": "I10. Meaning: High blood pressure (essential hypertension). Where you'd see it in Nepal: \"Pressure\" patients.",
+     "focus": 4,
+     "file": "clips/a03a4f84eae9.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "`K35.80`. Meaning: Acute appendicitis, unspecified. Where you'd see it in Nepal: Sita's appendix surgery.",
+     "say": "K 3 5 . 8 0. Meaning: Acute appendicitis, unspecified. Where you'd see it in Nepal: Sita's appendix surgery.",
+     "focus": 5,
+     "file": "clips/c05d2f1abcf3.mp3",
+     "seconds": 9.35
+    },
+    {
+     "raw": "`R50.9`. Meaning: Fever, unspecified. Where you'd see it in Nepal: Fever where the cause is not yet known.",
+     "say": "R 5 0 . 9. Meaning: Fever, unspecified. Where you'd see it in Nepal: Fever where the cause is not yet known.",
+     "focus": 6,
+     "file": "clips/6eb8d2686853.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "`Z00.00`. Meaning: General adult check-up, no abnormal findings. Where you'd see it in Nepal: Annual health check-up package.",
+     "say": "Z 0 0 . 0 0. Meaning: General adult check-up, no abnormal findings. Where you'd see it in Nepal: Annual health check-up package.",
+     "focus": 7,
+     "file": "clips/c23e69cdae53.mp3",
+     "seconds": 10.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Reading an ICD-10-CM code",
+   "lines": [
+    {
+     "raw": "Letters give clues.",
+     "say": "Letters give clues.",
+     "focus": -1,
+     "file": "clips/6ac10bdb9594.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**A–B** infections · **C** cancers · **E** hormones and diabetes · **I** heart and blood vessels · **J** lungs and breathing · **K** stomach and digestion · **R** symptoms · **S–T** injuries · **Z** check-ups and other reasons for a visit.",
+     "say": "A–B infections, C cancers, E hormones and diabetes, I heart and blood vessels, J lungs and breathing, K stomach and digestion, R symptoms, S–T injuries, Z check-ups and other reasons for a visit.",
+     "focus": -1,
+     "file": "clips/55186c103864.mp3",
+     "seconds": 14.425
+    },
+    {
+     "raw": "You do not need to memorise them all; just know codes are grouped by body system.",
+     "say": "You do not need to memorise them all; just know codes are grouped by body system.",
+     "focus": -1,
+     "file": "clips/3a06fd493431.mp3",
+     "seconds": 5.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Types of diagnoses on a claim.",
+     "say": "Types of diagnoses on a claim.",
+     "focus": -1,
+     "file": "clips/d129cd06a7e7.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Types of diagnoses on a claim",
+   "lines": [
+    {
+     "raw": "A patient can have more than one problem.",
+     "say": "A patient can have more than one problem.",
+     "focus": -1,
+     "file": "clips/fe6742e9ef63.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "A claim can carry **many diagnosis codes** (up to 12 on a CMS-1500, up to 25 on a UB-04).",
+     "say": "A claim can carry many diagnosis codes (up to 12 on a C M S 1500, up to 25 on a U B 04).",
+     "focus": -1,
+     "file": "clips/c4ad1ec2a974.mp3",
+     "seconds": 9.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Types of diagnoses on a claim",
+   "lines": [
+    {
+     "raw": "Admitting diagnosis.",
+     "say": "Admitting diagnosis.",
+     "focus": 0,
+     "file": "clips/7f5f519df85d.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "The problem the doctor writes **when the patient is admitted**, before tests confirm the cause.",
+     "say": "The problem the doctor writes when the patient is admitted, before tests confirm the cause.",
+     "focus": 0,
+     "file": "clips/3f8bef079286.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Often just a symptom, like belly pain.",
+     "say": "Often just a symptom, like belly pain.",
+     "focus": 0,
+     "file": "clips/0826d0ca2440.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Used on **inpatient hospital claims** (UB-04), which have room for only **one** admitting code.",
+     "say": "Used on inpatient hospital claims (U B 04), which have room for only one admitting code.",
+     "focus": 0,
+     "file": "clips/588cadf950fd.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "Primary (principal) diagnosis.",
+     "say": "Primary (principal) diagnosis.",
+     "focus": 1,
+     "file": "clips/4c1ccccd6486.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "The **main reason** for the visit or hospital stay, confirmed after tests.",
+     "say": "The main reason for the visit or hospital stay, confirmed after tests.",
+     "focus": 1,
+     "file": "clips/a0d08292c904.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Listed first.",
+     "say": "Listed first.",
+     "focus": 1,
+     "file": "clips/2584a56963e1.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Secondary diagnoses.",
+     "say": "Secondary diagnoses.",
+     "focus": 2,
+     "file": "clips/51d9f07fe4f0.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Other conditions the patient has that affect care.",
+     "say": "Other conditions the patient has that affect care.",
+     "focus": 2,
+     "file": "clips/c5c28e85d9af.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Example: Sita has appendicitis (primary) and also diabetes (secondary).",
+     "say": "Example: Sita has appendicitis (primary) and also diabetes (secondary).",
+     "focus": 2,
+     "file": "clips/c6f5e2edd8b4.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Diagnosis pointer.",
+     "say": "Diagnosis pointer.",
+     "focus": 3,
+     "file": "clips/c6cb5e3d6207.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "On a professional claim (CMS-1500), each service line \"points\" to the diagnosis (A, B, C...) on the header that justifies it.",
+     "say": "On a professional claim (C M S 1500), each service line \"points\" to the diagnosis (A, B, C...) on the header that justifies it.",
+     "focus": 3,
+     "file": "clips/1c9036ef7e4a.mp3",
+     "seconds": 9.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Types of diagnoses on a claim",
+   "lines": [
+    {
+     "raw": "Sita's appendix stay: how the diagnoses change.",
+     "say": "Sita's appendix stay: how the diagnoses change.",
+     "focus": -1,
+     "file": "clips/7ced5fa97865.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Arrives at the hospital. Diagnosis type: Admitting. Code: `R10.31`. Meaning: Pain in the lower right belly (a symptom, cause not yet known).",
+     "say": "Arrives at the hospital. Diagnosis type: Admitting. Code: R 1 0 . 3 1. Meaning: Pain in the lower right belly (a symptom, cause not yet known).",
+     "focus": 0,
+     "file": "clips/a0b4c17bf1d8.mp3",
+     "seconds": 11.35
+    },
+    {
+     "raw": "After tests and surgery. Diagnosis type: Principal. Code: `K35.80`. Meaning: Acute appendicitis (the confirmed main reason).",
+     "say": "After tests and surgery. Diagnosis type: Principal. Code: K 3 5 . 8 0. Meaning: Acute appendicitis (the confirmed main reason).",
+     "focus": 1,
+     "file": "clips/d610d5632be1.mp3",
+     "seconds": 10.775
+    },
+    {
+     "raw": "Throughout the stay. Diagnosis type: Secondary. Code: `E11.9`. Meaning: Type 2 diabetes (another condition that affects her care).",
+     "say": "Throughout the stay. Diagnosis type: Secondary. Code: E 1 1 . 9. Meaning: Type 2 diabetes (another condition that affects her care).",
+     "focus": 2,
+     "file": "clips/4a5c502e9cf5.mp3",
+     "seconds": 10.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Types of diagnoses on a claim",
+   "lines": [
+    {
+     "raw": "Another example: Mr. Brown (60, has diabetes) is admitted with breathing trouble.",
+     "say": "Another example: Mr. Brown (60, has diabetes) is admitted with breathing trouble.",
+     "focus": -1,
+     "file": "clips/a2c70c8b5b1d.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Arrives with fever and breathing trouble. Diagnosis type: Admitting. Code: `R06.02`. Meaning: Shortness of breath (a claim has only **one** admitting code, so the main symptom is chosen; the fever `R50.9` is noted in his chart).",
+     "say": "Arrives with fever and breathing trouble. Diagnosis type: Admitting. Code: R 0 6 . 0 2. Meaning: Shortness of breath (a claim has only one admitting code, so the main symptom is chosen; the fever R 5 0 . 9 is noted in his chart).",
+     "focus": 0,
+     "file": "clips/d6044e1542e0.mp3",
+     "seconds": 17.95
+    },
+    {
+     "raw": "After the test is positive. Diagnosis type: Principal. Code: `U07.1`. Meaning: COVID-19 (the confirmed main reason).",
+     "say": "After the test is positive. Diagnosis type: Principal. Code: U 0 7 . 1. Meaning: C O V I D 19 (the confirmed main reason).",
+     "focus": 1,
+     "file": "clips/f1d126896653.mp3",
+     "seconds": 11.175
+    },
+    {
+     "raw": "Found during the stay. Diagnosis type: Secondary. Code: `J12.82`. Meaning: Pneumonia caused by COVID-19 (a new problem COVID caused).",
+     "say": "Found during the stay. Diagnosis type: Secondary. Code: J 1 2 . 8 2. Meaning: Pneumonia caused by C O V I D 19 (a new problem C O V I D caused).",
+     "focus": 2,
+     "file": "clips/cd9e36dddaec.mp3",
+     "seconds": 13
+    },
+    {
+     "raw": "Already had before. Diagnosis type: Secondary. Code: `E11.9`. Meaning: Type 2 diabetes (another condition that affects his care).",
+     "say": "Already had before. Diagnosis type: Secondary. Code: E 1 1 . 9. Meaning: Type 2 diabetes (another condition that affects his care).",
+     "focus": 3,
+     "file": "clips/3c218e89da67.mp3",
+     "seconds": 10.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Types of diagnoses on a claim",
+   "lines": [
+    {
+     "raw": "Where did the fever and breathing trouble go?",
+     "say": "Where did the fever and breathing trouble go?",
+     "focus": -1,
+     "file": "clips/bd8d20372c89.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Once COVID-19 is confirmed, the fever and shortness of breath are **not** coded again as secondary diagnoses.",
+     "say": "Once C O V I D 19 is confirmed, the fever and shortness of breath are not coded again as secondary diagnoses.",
+     "focus": -1,
+     "file": "clips/ef5fba182307.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "They are a normal part of COVID, so the COVID code already covers them.",
+     "say": "They are a normal part of C O V I D, so the C O V I D code already covers them.",
+     "focus": -1,
+     "file": "clips/34f05ac73c3a.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "**Secondary diagnoses** are for **other** conditions: a new problem (like pneumonia) or an illness the patient already had (like diabetes).",
+     "say": "Secondary diagnoses are for other conditions: a new problem (like pneumonia) or an illness the patient already had (like diabetes).",
+     "focus": -1,
+     "file": "clips/e5607e08a99d.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "Symptoms are only coded when the cause is still unknown.",
+     "say": "Symptoms are only coded when the cause is still unknown.",
+     "focus": -1,
+     "file": "clips/22246e0c4faf.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Types of diagnoses on a claim",
+   "lines": [
+    {
+     "raw": "In Nepal: You have seen this on hospital papers.",
+     "say": "In Nepal: You have seen this on hospital papers.",
+     "focus": -1,
+     "file": "clips/c5b3fed31b55.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "When Ram is admitted, his admission sheet also shows a **provisional diagnosis** (the **admitting diagnosis**), and his discharge summary shows the **final diagnosis** (the **principal diagnosis**).",
+     "say": "When Ram is admitted, his admission sheet also shows a provisional diagnosis (the admitting diagnosis), and his discharge summary shows the final diagnosis (the principal diagnosis).",
+     "focus": 0,
+     "file": "clips/06607131c413.mp3",
+     "seconds": 12.325
+    },
+    {
+     "raw": "He attaches the discharge summary to his claim.",
+     "say": "He attaches the discharge summary to his claim.",
+     "focus": 1,
+     "file": "clips/31a4456b8fee.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "His insurer checks the final diagnosis to decide whether the illness is covered by his policy.",
+     "say": "His insurer checks the final diagnosis to decide whether the illness is covered by his policy.",
+     "focus": 1,
+     "file": "clips/1c0a84bdee6b.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "When Sita is admitted, the admission sheet shows a **provisional diagnosis**: what the doctor thinks at first.",
+     "say": "When Sita is admitted, the admission sheet shows a provisional diagnosis: what the doctor thinks at first.",
+     "focus": 2,
+     "file": "clips/49bf1af87b44.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "That is the **admitting diagnosis**.",
+     "say": "That is the admitting diagnosis.",
+     "focus": 2,
+     "file": "clips/75211acadef0.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Her **discharge summary** shows the **final diagnosis**, confirmed after tests.",
+     "say": "Her discharge summary shows the final diagnosis, confirmed after tests.",
+     "focus": 3,
+     "file": "clips/381f74fd1a0f.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "That is the **principal diagnosis**.",
+     "say": "That is the principal diagnosis.",
+     "focus": 3,
+     "file": "clips/efeecf1e0109.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "SSF reviews the final diagnosis on the discharge summary when it checks her claim.",
+     "say": "S S F reviews the final diagnosis on the discharge summary when it checks her claim.",
+     "focus": 4,
+     "file": "clips/c837ecf4978b.mp3",
+     "seconds": 6.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Present on Admission (POA): did she have it when she arrived?",
+     "say": "Present on Admission (P O A): did she have it when she arrived?",
+     "focus": -1,
+     "file": "clips/b9e46a3a8982.mp3",
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Present on Admission (POA): did she have it when she arrived?",
+   "lines": [
+    {
+     "raw": "On an **inpatient** hospital claim, each diagnosis carries a small **Present on Admission (POA)** flag.",
+     "say": "On an inpatient hospital claim, each diagnosis carries a small Present on Admission (P O A) flag.",
+     "focus": -1,
+     "file": "clips/6cf2c8eef8a6.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "It answers one question: **did the patient already have this condition when she was admitted, or did it start in the hospital?**",
+     "say": "It answers one question: did the patient already have this condition when she was admitted, or did it start in the hospital?",
+     "focus": -1,
+     "file": "clips/58a9bcc9be46.mp3",
+     "seconds": 7.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Present on Admission (POA): did she have it when she arrived?",
+   "lines": [
+    {
+     "raw": "POA values in plain words.",
+     "say": "P O A values in plain words.",
+     "focus": -1,
+     "file": "clips/026556213d13.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "`Y`. Meaning: Yes, present when admitted. Sita's stay: Appendicitis, diabetes.",
+     "say": "Y. Meaning: Yes, present when admitted. Sita's stay: Appendicitis, diabetes.",
+     "focus": 0,
+     "file": "clips/54f78e4e1f85.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "`N`. Meaning: No, it started **during** the stay. Sita's stay: A wound infection after surgery would be `N`.",
+     "say": "N. Meaning: No, it started during the stay. Sita's stay: A wound infection after surgery would be N.",
+     "focus": 1,
+     "file": "clips/c2b1d3247fe8.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "`U`. Meaning: Unknown: the records do not say. Sita's stay: -.",
+     "say": "U. Meaning: Unknown: the records do not say. Sita's stay: -.",
+     "focus": 2,
+     "file": "clips/5a5694cd7c96.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "`W`. Meaning: The doctor cannot tell clinically. Sita's stay: -.",
+     "say": "W. Meaning: The doctor cannot tell clinically. Sita's stay: -.",
+     "focus": 3,
+     "file": "clips/e854b5484797.mp3",
+     "seconds": 4.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Present on Admission (POA): did she have it when she arrived?",
+   "lines": [
+    {
+     "raw": "Why POA matters for data.",
+     "say": "Why P O A matters for data.",
+     "focus": -1,
+     "file": "clips/f676115095f7.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "A diagnosis with POA = `N` is a problem that began in the hospital, such as an infection or a fall.",
+     "say": "A diagnosis with P O A = N is a problem that began in the hospital, such as an infection or a fall.",
+     "focus": -1,
+     "file": "clips/12769f879ade.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "Insurers and **Medicare** (the US government health plan for people aged 65 and over) use these flags to measure hospital safety and may pay less for some hospital-caused conditions.",
+     "say": "Insurers and Medicare (the U S government health plan for people aged 65 and over) use these flags to measure hospital safety and may pay less for some hospital-caused conditions.",
+     "focus": -1,
+     "file": "clips/d52928e4d06c.mp3",
+     "seconds": 12.95
+    },
+    {
+     "raw": "Analysts filter on POA to separate \"why she came in\" from \"what happened while she was there\".",
+     "say": "Analysts filter on P O A to separate \"why she came in\" from \"what happened while she was there\".",
+     "focus": -1,
+     "file": "clips/776217789f32.mp3",
+     "seconds": 6.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Medical necessity: the diagnosis must match the service.",
+     "say": "Medical necessity: the diagnosis must match the service.",
+     "focus": -1,
+     "file": "clips/17a9cd93a013.mp3",
+     "seconds": 4.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Medical necessity: the diagnosis must match the service",
+   "lines": [
+    {
+     "raw": "Insurers check that the **why** supports the **what**.",
+     "say": "Insurers check that the why supports the what.",
+     "focus": -1,
+     "file": "clips/85a4721e8a4f.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "This is called **medical necessity**.",
+     "say": "This is called medical necessity.",
+     "focus": -1,
+     "file": "clips/42e8ec470fa0.mp3",
+     "seconds": 2.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "Medical necessity: the diagnosis must match the service",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Chest X-ray. Diagnosis (why): Pneumonia. Makes sense?: ✅ Yes.",
+     "say": "Chest X-ray. Diagnosis (why): Pneumonia. Makes sense?: ✅ Yes.",
+     "focus": 0,
+     "file": "clips/7f9c36b8f665.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Blood sugar test. Diagnosis (why): Type 2 diabetes. Makes sense?: ✅ Yes.",
+     "say": "Blood sugar test. Diagnosis (why): Type 2 diabetes. Makes sense?: ✅ Yes.",
+     "focus": 1,
+     "file": "clips/6cdd705869f3.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "Knee MRI. Diagnosis (why): Sore throat. Makes sense?: ❌ No. Likely denied or questioned.",
+     "say": "Knee M R I. Diagnosis (why): Sore throat. Makes sense?: ❌ No. Likely denied or questioned.",
+     "focus": 2,
+     "file": "clips/abd1d897d47f.mp3",
+     "seconds": 7.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "Medical necessity: the diagnosis must match the service",
+   "lines": [
+    {
+     "raw": "ICD-9 vs. ICD-10.",
+     "say": "I C D 9 versus I C D 10.",
+     "focus": -1,
+     "file": "clips/917b6b06a5d6.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Before **1 October 2015**, the US used the older **ICD-9** (mostly numbers, 3–5 digits).",
+     "say": "Before 1 October 2015, the U S used the older I C D 9 (mostly numbers, 3–5 digits).",
+     "focus": -1,
+     "file": "clips/83f3bc809962.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "Old historical data may still contain ICD-9 codes, so data teams often need to convert between the two.",
+     "say": "Old historical data may still contain I C D 9 codes, so data teams often need to convert between the two.",
+     "focus": -1,
+     "file": "clips/f3c4f6ef51a8.mp3",
+     "seconds": 8.05
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Diagnosis codes answer **why** the patient needed care.",
+     "say": "Diagnosis codes answer why the patient needed care.",
+     "focus": 0,
+     "file": "clips/fc44206d9914.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "The US uses **ICD-10-CM**: starts with a letter, 3–7 characters, dot after the 3rd.",
+     "say": "The U S uses I C D 10-CM: starts with a letter, 3–7 characters, dot after the 3rd.",
+     "focus": 1,
+     "file": "clips/08ec7a8ebb5f.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "Admitting diagnosis = first impression on admission.",
+     "say": "Admitting diagnosis = first impression on admission.",
+     "focus": 2,
+     "file": "clips/75a398ea62a6.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "Principal diagnosis = confirmed main reason.",
+     "say": "Principal diagnosis = confirmed main reason.",
+     "focus": 2,
+     "file": "clips/a7da9c351878.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Others are secondary.",
+     "say": "Others are secondary.",
+     "focus": 2,
+     "file": "clips/327e46299e61.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "The **POA** flag on inpatient claims tells you whether a condition was there on arrival or started in the hospital.",
+     "say": "The P O A flag on inpatient claims tells you whether a condition was there on arrival or started in the hospital.",
+     "focus": 3,
+     "file": "clips/b619cccc07d1.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "The diagnosis must support the service (medical necessity), or the claim can be denied.",
+     "say": "The diagnosis must support the service (medical necessity), or the claim can be denied.",
+     "focus": 4,
+     "file": "clips/0ea1442107b2.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

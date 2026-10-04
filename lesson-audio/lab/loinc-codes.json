@@ -1,0 +1,1044 @@
+{
+ "courseId": "lab",
+ "lessonId": "loinc-codes",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: LOINC: The Test Code.",
+     "say": "Lesson 4: L O I N C: The Test Code.",
+     "focus": -1,
+     "file": "clips/547f743c50dc.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "One code, six parts, and the same test means the same thing in every lab.",
+     "say": "One code, six parts, and the same test means the same thing in every lab.",
+     "focus": -1,
+     "file": "clips/6260ccfaa1fb.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a LOINC code names, and why we need one.",
+     "say": "Explain what a L O I N C code names, and why we need one.",
+     "focus": 0,
+     "file": "clips/3aa6afe84aea.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Read a LOINC code and its check digit.",
+     "say": "Read a L O I N C code and its check digit.",
+     "focus": 1,
+     "file": "clips/8e0a4a658ebf.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Name the six parts of a LOINC test name.",
+     "say": "Name the six parts of a L O I N C test name.",
+     "focus": 2,
+     "file": "clips/de64c0f127c8.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Tell LOINC codes from CPT codes.",
+     "say": "Tell L O I N C codes from C P T codes.",
+     "focus": 3,
+     "file": "clips/fe69e19e0979.mp3",
+     "seconds": 3.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The problem: every lab names tests differently.",
+     "say": "The problem: every lab names tests differently.",
+     "focus": -1,
+     "file": "clips/62ec9bc69aa6.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The problem: every lab names tests differently",
+   "lines": [
+    {
+     "raw": "Collect lab reports from three labs in Kathmandu and compare them.",
+     "say": "Collect lab reports from three labs in Kathmandu and compare them.",
+     "focus": -1,
+     "file": "clips/83b898fa437a.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "One says **\"FBS\"**, another **\"Fasting Blood Sugar\"**, a third **\"Glucose (F)\"**.",
+     "say": "One says \"F B S\", another \"Fasting Blood Sugar\", a third \"Glucose (F)\".",
+     "focus": -1,
+     "file": "clips/b2ea3a49969a.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "A person can see they are the same test.",
+     "say": "A person can see they are the same test.",
+     "focus": -1,
+     "file": "clips/12cf8bb6d35c.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "A computer cannot.",
+     "say": "A computer cannot.",
+     "focus": -1,
+     "file": "clips/af30bda1ba8d.mp3",
+     "seconds": 1.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The problem: every lab names tests differently",
+   "lines": [
+    {
+     "raw": "The US has thousands of labs.",
+     "say": "The U S has thousands of labs.",
+     "focus": -1,
+     "file": "clips/433cc7023d19.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "If each used its own names, nobody could add up results from different labs.",
+     "say": "If each used its own names, nobody could add up results from different labs.",
+     "focus": -1,
+     "file": "clips/8a391bb6dbc4.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "The answer is one shared list of codes, with **one code for each kind of test**.",
+     "say": "The answer is one shared list of codes, with one code for each kind of test.",
+     "focus": -1,
+     "file": "clips/26a02e901f7b.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "That list is **LOINC**.",
+     "say": "That list is L O I N C.",
+     "focus": -1,
+     "file": "clips/20ee029ffeff.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The problem: every lab names tests differently",
+   "lines": [
+    {
+     "raw": "Like a national ID for tests.",
+     "say": "Like a national I D for tests.",
+     "focus": -1,
+     "file": "clips/1802aa09a1da.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Ram may be called \"Ram\", \"Ram dai\" or \"R.",
+     "say": "Ram may be called \"Ram\", \"Ram dai\" or \"R.",
+     "focus": -1,
+     "file": "clips/4f5803b34ac7.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "Sharma\" by different people, but his citizenship number is always the same.",
+     "say": "Sharma\" by different people, but his citizenship number is always the same.",
+     "focus": -1,
+     "file": "clips/14ce0e36435b.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "A LOINC code is the citizenship number of a lab test: every lab's local name points to the same code.",
+     "say": "A L O I N C code is the citizenship number of a lab test: every lab's local name points to the same code.",
+     "focus": -1,
+     "file": "clips/41aeca1763cd.mp3",
+     "seconds": 8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The problem: every lab names tests differently",
+   "lines": [
+    {
+     "raw": "LOINC.",
+     "say": "L O I N C.",
+     "focus": 0,
+     "file": "clips/004c94e175c6.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "**Logical Observation Identifiers Names and Codes** (say \"LOY-nk\").",
+     "say": "Logical Observation Identifiers Names and Codes (say \"L O Y nk\").",
+     "focus": 0,
+     "file": "clips/43202f827629.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "A free, universal list of codes for lab tests and other clinical measurements.",
+     "say": "A free, universal list of codes for lab tests and other clinical measurements.",
+     "focus": 0,
+     "file": "clips/fc3904c471ce.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Regenstrief Institute.",
+     "say": "Regenstrief Institute.",
+     "focus": 1,
+     "file": "clips/a56e2372262b.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "The non-profit organisation in Indiana, USA, that created LOINC in 1994 and still maintains it.",
+     "say": "The non-profit organisation in Indiana, U S A, that created L O I N C in 1994 and still maintains it.",
+     "focus": 1,
+     "file": "clips/eea6b41c1a49.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "Local code.",
+     "say": "Local code.",
+     "focus": 2,
+     "file": "clips/f769ee1b6ac0.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "The lab's own in-house name or number for a test.",
+     "say": "The lab's own in-house name or number for a test.",
+     "focus": 2,
+     "file": "clips/7a3aca76fdf9.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Labs map their local codes to LOINC.",
+     "say": "Labs map their local codes to L O I N C.",
+     "focus": 2,
+     "file": "clips/e3753f1ed3e4.mp3",
+     "seconds": 3.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The problem: every lab names tests differently",
+   "lines": [
+    {
+     "raw": "How big is LOINC?",
+     "say": "How big is L O I N C?",
+     "focus": -1,
+     "file": "clips/76d72367705b.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "LOINC has around **100,000** codes and grows twice a year.",
+     "say": "L O I N C has around 100,000 codes and grows twice a year.",
+     "focus": -1,
+     "file": "clips/f26d1b20a796.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Most of them are lab tests, but LOINC also names other measurements, such as blood pressure, body weight and survey questions.",
+     "say": "Most of them are lab tests, but L O I N C also names other measurements, such as blood pressure, body weight and survey questions.",
+     "focus": -1,
+     "file": "clips/8cf5c8089672.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "You only need to know a handful to start.",
+     "say": "You only need to know a handful to start.",
+     "focus": -1,
+     "file": "clips/dc0f20922a85.mp3",
+     "seconds": 2.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What a LOINC code looks like.",
+     "say": "What a L O I N C code looks like.",
+     "focus": -1,
+     "file": "clips/2c87e9773252.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "What a LOINC code looks like",
+   "lines": [
+    {
+     "raw": "A LOINC code is a **number, a dash, and one check digit**.",
+     "say": "A L O I N C code is a number, a dash, and one check digit.",
+     "focus": -1,
+     "file": "clips/d2f6e523f62f.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "The number has no hidden meaning: codes are simply handed out in order.",
+     "say": "The number has no hidden meaning: codes are simply handed out in order.",
+     "focus": -1,
+     "file": "clips/8b67b74dfdbe.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "The last digit is calculated from the others, so a typing mistake can be caught.",
+     "say": "The last digit is calculated from the others, so a typing mistake can be caught.",
+     "focus": -1,
+     "file": "clips/4c548b132dea.mp3",
+     "seconds": 5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "What a LOINC code looks like",
+   "lines": [
+    {
+     "raw": "LOINC 4548-4 (HbA1c).",
+     "say": "L O I N C 4 5 4 8 dash 4 (H b A 1 c).",
+     "focus": -1,
+     "file": "clips/550c81ce49a0.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "4548: **Item number**: just a serial number.",
+     "say": "4548: Item number: just a serial number.",
+     "focus": 0,
+     "file": "clips/6a083aa49bd6.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "It does not mean \"blood\" or \"sugar\" by itself.",
+     "say": "It does not mean \"blood\" or \"sugar\" by itself.",
+     "focus": 0,
+     "file": "clips/b5be61fa7db9.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "-: A dash, always before the last digit.",
+     "say": "-: A dash, always before the last digit.",
+     "focus": 1,
+     "file": "clips/8938476abc78.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "4: **Check digit**: worked out from 4548 by a formula.",
+     "say": "4: Check digit: worked out from 4548 by a formula.",
+     "focus": 2,
+     "file": "clips/4bc065320b6a.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "If someone types `4548-5`, a system can tell it is wrong.",
+     "say": "If someone types 4 5 4 8 dash 5, a system can tell it is wrong.",
+     "focus": 2,
+     "file": "clips/f077b5b48339.mp3",
+     "seconds": 5.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "What a LOINC code looks like",
+   "lines": [
+    {
+     "raw": "Store LOINC codes as text.",
+     "say": "Store L O I N C codes as text.",
+     "focus": -1,
+     "file": "clips/4c2453c9d2d9.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Keep the dash and store the code as **text**, not a number.",
+     "say": "Keep the dash and store the code as text, not a number.",
+     "focus": -1,
+     "file": "clips/76d7f2161e1d.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "`4548-4` stored as a number becomes `4544` (4548 minus 4), which is nonsense.",
+     "say": "4 5 4 8 dash 4 stored as a number becomes 4 5 4 4 (4548 minus 4), which is nonsense.",
+     "focus": -1,
+     "file": "clips/3d40f8c85e70.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "Lengths also vary: `718-7` and `13457-7` are both valid LOINC codes.",
+     "say": "Lengths also vary: 7 1 8 dash 7 and 1 3 4 5 7 dash 7 are both valid L O I N C codes.",
+     "focus": -1,
+     "file": "clips/9c45c6c62224.mp3",
+     "seconds": 9.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The six parts of a LOINC name.",
+     "say": "The six parts of a L O I N C name.",
+     "focus": -1,
+     "file": "clips/fb63ef7b34d1.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The six parts of a LOINC name",
+   "lines": [
+    {
+     "raw": "Behind every code is a **fully specified name** with six parts.",
+     "say": "Behind every code is a fully specified name with six parts.",
+     "focus": -1,
+     "file": "clips/23ddf6ae53cb.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "Together they describe a test so exactly that two different tests can never share a code.",
+     "say": "Together they describe a test so exactly that two different tests can never share a code.",
+     "focus": -1,
+     "file": "clips/be6aab12d84c.mp3",
+     "seconds": 5.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The six parts of a LOINC name",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**1. Component**. Question it answers: What is measured? HbA1c (4548-4): Hemoglobin A1c / Hemoglobin.total. Glucose (2345-7): Glucose.",
+     "say": "1. Component. Question it answers: What is measured? H b A 1 c (4 5 4 8 dash 4): Hemoglobin A1c or Hemoglobin.total. Glucose (2 3 4 5 dash 7): Glucose.",
+     "focus": 0,
+     "file": "clips/256f8c54caa9.mp3",
+     "seconds": 14.325
+    },
+    {
+     "raw": "**2. Property**. Question it answers: What kind of amount? HbA1c (4548-4): `MFr`: mass fraction (a percentage). Glucose (2345-7): `MCnc`: mass concentration (mg per dL).",
+     "say": "2. Property. Question it answers: What kind of amount? H b A 1 c (4 5 4 8 dash 4): MFr: mass fraction (a percentage). Glucose (2 3 4 5 dash 7): MCnc: mass concentration (mg per dL).",
+     "focus": 1,
+     "file": "clips/fddc45139636.mp3",
+     "seconds": 17.15
+    },
+    {
+     "raw": "**3. Time**. Question it answers: At one moment, or over a period? HbA1c (4548-4): `Pt`: a single point in time. Glucose (2345-7): `Pt`: a single point in time.",
+     "say": "3. Time. Question it answers: At one moment, or over a period? H b A 1 c (4 5 4 8 dash 4): Pt: a single point in time. Glucose (2 3 4 5 dash 7): Pt: a single point in time.",
+     "focus": 2,
+     "file": "clips/4455fb497824.mp3",
+     "seconds": 16.025
+    },
+    {
+     "raw": "**4. System**. Question it answers: Which specimen? HbA1c (4548-4): `Bld`: whole blood. Glucose (2345-7): `Ser/Plas`: serum or plasma (the liquid part of blood).",
+     "say": "4. System. Question it answers: Which specimen? H b A 1 c (4 5 4 8 dash 4): Bld: whole blood. Glucose (2 3 4 5 dash 7): Ser/Plas: serum or plasma (the liquid part of blood).",
+     "focus": 3,
+     "file": "clips/4422e40274c1.mp3",
+     "seconds": 15.9
+    },
+    {
+     "raw": "**5. Scale**. Question it answers: Number, category or text? HbA1c (4548-4): `Qn`: quantitative (a number). Glucose (2345-7): `Qn`: quantitative (a number).",
+     "say": "5. Scale. Question it answers: Number, category or text? H b A 1 c (4 5 4 8 dash 4): Qn: quantitative (a number). Glucose (2 3 4 5 dash 7): Qn: quantitative (a number).",
+     "focus": 4,
+     "file": "clips/b27f40c2a626.mp3",
+     "seconds": 14.825
+    },
+    {
+     "raw": "**6. Method**. Question it answers: How was it measured? (often left blank). HbA1c (4548-4): Blank: any method. Glucose (2345-7): Blank: any method.",
+     "say": "6. Method. Question it answers: How was it measured? (often left blank). H b A 1 c (4 5 4 8 dash 4): Blank: any method. Glucose (2 3 4 5 dash 7): Blank: any method.",
+     "focus": 5,
+     "file": "clips/f4c3c6593e1d.mp3",
+     "seconds": 14.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "The six parts of a LOINC name",
+   "lines": [
+    {
+     "raw": "The fully specified name of 4548-4.",
+     "say": "The fully specified name of 4 5 4 8 dash 4.",
+     "focus": -1,
+     "file": "clips/ccaa2e67f894.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Hemoglobin A1c/Hemoglobin.total: **Component**: the share of haemoglobin that has sugar stuck to it.",
+     "say": "Hemoglobin A 1 c / H e m o g l o b i n . t o t a l: Component: the share of haemoglobin that has sugar stuck to it.",
+     "focus": 0,
+     "file": "clips/73da1e435324.mp3",
+     "seconds": 10.05
+    },
+    {
+     "raw": "MFr: **Property**: a mass fraction, reported as a percentage.",
+     "say": "MFr: Property: a mass fraction, reported as a percentage.",
+     "focus": 1,
+     "file": "clips/4d4b57d6e755.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "Pt: **Time**: measured at one point in time.",
+     "say": "Pt: Time: measured at one point in time.",
+     "focus": 2,
+     "file": "clips/394e0fdcb5b8.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Bld: **System**: whole blood.",
+     "say": "Bld: System: whole blood.",
+     "focus": 3,
+     "file": "clips/d69a5e4e8a61.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Qn: **Scale**: a number.",
+     "say": "Qn: Scale: a number.",
+     "focus": 4,
+     "file": "clips/2d7054a330ee.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "The **method** part is empty, so it covers any method.",
+     "say": "The method part is empty, so it covers any method.",
+     "focus": 4,
+     "file": "clips/aea893f79d82.mp3",
+     "seconds": 3.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "The six parts of a LOINC name",
+   "lines": [
+    {
+     "raw": "The display name is easier to read.",
+     "say": "The display name is easier to read.",
+     "focus": -1,
+     "file": "clips/1b22fdaa094b.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Each code also has a friendly **long common name**.",
+     "say": "Each code also has a friendly long common name.",
+     "focus": -1,
+     "file": "clips/15ce31ce947f.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "For `4548-4` it is \"Hemoglobin A1c/Hemoglobin.total in Blood\".",
+     "say": "For 4 5 4 8 dash 4 it is \"Hemoglobin A 1 c / H e m o g l o b i n . t o t a l in Blood\".",
+     "focus": -1,
+     "file": "clips/1a6df5b3878d.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "For `2345-7` it is \"Glucose [Mass/volume] in Serum or Plasma\".",
+     "say": "For 2 3 4 5 dash 7 it is \"Glucose [Mass/volume] in Serum or Plasma\".",
+     "focus": -1,
+     "file": "clips/21302c8b9924.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "Reports show these names, data tables store the code.",
+     "say": "Reports show these names, data tables store the code.",
+     "focus": -1,
+     "file": "clips/7b7f362f46d0.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Change one part, get a new code.",
+     "say": "Change one part, get a new code.",
+     "focus": -1,
+     "file": "clips/51d1385b6d3d.mp3",
+     "seconds": 2.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Change one part, get a new code",
+   "lines": [
+    {
+     "raw": "Because all six parts make up the name, changing **any** of them gives a **different code**.",
+     "say": "Because all six parts make up the name, changing any of them gives a different code.",
+     "focus": -1,
+     "file": "clips/c7d0dd4c3040.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "This is the most important idea in LOINC.",
+     "say": "This is the most important idea in L O I N C.",
+     "focus": -1,
+     "file": "clips/e5400589b7c1.mp3",
+     "seconds": 3.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Change one part, get a new code",
+   "lines": [
+    {
+     "raw": "Glucose tests that differ in one part.",
+     "say": "Glucose tests that differ in one part.",
+     "focus": -1,
+     "file": "clips/942609370746.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "`2345-7`. Name: Glucose [Mass/volume] in Serum or Plasma. What changed: The starting point.",
+     "say": "2 3 4 5 dash 7. Name: Glucose [Mass/volume] in Serum or Plasma. What changed: The starting point.",
+     "focus": 0,
+     "file": "clips/774da272f169.mp3",
+     "seconds": 9.025
+    },
+    {
+     "raw": "`2339-0`. Name: Glucose [Mass/volume] in Blood. What changed: **System**: whole blood instead of serum or plasma.",
+     "say": "2 3 3 9 dash 0. Name: Glucose [Mass/volume] in Blood. What changed: System: whole blood instead of serum or plasma.",
+     "focus": 1,
+     "file": "clips/5521ca6ae524.mp3",
+     "seconds": 10.175
+    },
+    {
+     "raw": "`14749-6`. Name: Glucose [Moles/volume] in Serum or Plasma. What changed: **Property**: moles (mmol/L) instead of mass (mg/dL).",
+     "say": "1 4 7 4 9 dash 6. Name: Glucose [Moles/volume] in Serum or Plasma. What changed: Property: moles (mmol/L) instead of mass (mg/dL).",
+     "focus": 2,
+     "file": "clips/71ceebb2dd82.mp3",
+     "seconds": 13.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Change one part, get a new code",
+   "lines": [
+    {
+     "raw": "One question, several codes.",
+     "say": "One question, several codes.",
+     "focus": -1,
+     "file": "clips/29f1f6403235.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "If you want \"all of Robert's blood sugar results\", searching for just one LOINC code will miss some.",
+     "say": "If you want \"all of Robert's blood sugar results\", searching for just one L O I N C code will miss some.",
+     "focus": -1,
+     "file": "clips/a4f45a7f33f2.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "Analysts use a **list of codes** (often called a **value set**) that covers every code that answers the same question.",
+     "say": "Analysts use a list of codes (often called a value set) that covers every code that answers the same question.",
+     "focus": -1,
+     "file": "clips/fb90e900a037.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "Quality programmes publish such lists for HbA1c, for example.",
+     "say": "Quality programmes publish such lists for H b A 1 c, for example.",
+     "focus": -1,
+     "file": "clips/1fcb377b370b.mp3",
+     "seconds": 4.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Codes you will see in this course.",
+     "say": "Codes you will see in this course.",
+     "focus": -1,
+     "file": "clips/a3e1b610a782.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Codes you will see in this course",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`4548-4`. Test: Hemoglobin A1c in Blood. Why it matters for Robert: Average sugar over about 3 months: the main diabetes check.",
+     "say": "4 5 4 8 dash 4. Test: Hemoglobin A1c in Blood. Why it matters for Robert: Average sugar over about 3 months: the main diabetes check.",
+     "focus": 0,
+     "file": "clips/52e1c3705940.mp3",
+     "seconds": 11.475
+    },
+    {
+     "raw": "`2345-7`. Test: Glucose in Serum or Plasma. Why it matters for Robert: Blood sugar at the moment of the test.",
+     "say": "2 3 4 5 dash 7. Test: Glucose in Serum or Plasma. Why it matters for Robert: Blood sugar at the moment of the test.",
+     "focus": 1,
+     "file": "clips/aa52016e69e6.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "`2093-3`. Test: Total cholesterol in Serum or Plasma. Why it matters for Robert: Heart risk.",
+     "say": "2 0 9 3 dash 3. Test: Total cholesterol in Serum or Plasma. Why it matters for Robert: Heart risk.",
+     "focus": 2,
+     "file": "clips/c1733a30ea25.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "`2085-9`. Test: HDL cholesterol (\"good\" cholesterol). Why it matters for Robert: Heart risk: higher is better.",
+     "say": "2 0 8 5 dash 9. Test: H D L cholesterol (\"good\" cholesterol). Why it matters for Robert: Heart risk: higher is better.",
+     "focus": 3,
+     "file": "clips/acf4c9291084.mp3",
+     "seconds": 9.65
+    },
+    {
+     "raw": "`13457-7`. Test: LDL cholesterol, calculated (\"bad\" cholesterol). Why it matters for Robert: Heart risk: lower is better.",
+     "say": "1 3 4 5 7 dash 7. Test: L D L cholesterol, calculated (\"bad\" cholesterol). Why it matters for Robert: Heart risk: lower is better.",
+     "focus": 4,
+     "file": "clips/24346e8b3e62.mp3",
+     "seconds": 11.525
+    },
+    {
+     "raw": "`2571-8`. Test: Triglycerides in Serum or Plasma. Why it matters for Robert: Blood fats, used to calculate LDL.",
+     "say": "2 5 7 1 dash 8. Test: Triglycerides in Serum or Plasma. Why it matters for Robert: Blood fats, used to calculate L D L.",
+     "focus": 5,
+     "file": "clips/cb032a923387.mp3",
+     "seconds": 10.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "",
+   "lines": [
+    {
+     "raw": "LOINC vs CPT: not the same job.",
+     "say": "L O I N C versus C P T: not the same job.",
+     "focus": -1,
+     "file": "clips/ee04571ba0ee.mp3",
+     "seconds": 4.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "LOINC vs CPT: not the same job",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Names. CPT (lesson 3): The **service** that was billed. LOINC (this lesson): The **observation** that was measured.",
+     "say": "Names. C P T (lesson 3): The service that was billed. L O I N C (this lesson): The observation that was measured.",
+     "focus": 0,
+     "file": "clips/ed29d5b7fc18.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "Lives on. CPT (lesson 3): Claims. LOINC (this lesson): Results.",
+     "say": "Lives on. C P T (lesson 3): Claims. L O I N C (this lesson): Results.",
+     "focus": 1,
+     "file": "clips/cd1a76d25140.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "HbA1c example. CPT (lesson 3): `83036`: \"I did an HbA1c test, pay me\". LOINC (this lesson): `4548-4`: \"this number is an HbA1c in blood\".",
+     "say": "H b A 1 c example. C P T (lesson 3): 8 3 0 3 6: \"I did an H b A 1 c test, pay me\". L O I N C (this lesson): 4 5 4 8 dash 4: \"this number is an H b A 1 c in blood\".",
+     "focus": 2,
+     "file": "clips/b4f8d34b4fb4.mp3",
+     "seconds": 15.8
+    },
+    {
+     "raw": "One panel. CPT (lesson 3): Often **one** code, e.g. `80061` lipid panel. LOINC (this lesson): **One code per test** inside the panel (cholesterol, HDL, triglycerides, LDL...).",
+     "say": "One panel. C P T (lesson 3): Often one code, for example 8 0 0 6 1 lipid panel. L O I N C (this lesson): One code per test inside the panel (cholesterol, H D L, triglycerides, L D L...).",
+     "focus": 3,
+     "file": "clips/2e574cccf70b.mp3",
+     "seconds": 16.575
+    },
+    {
+     "raw": "Cost to use. CPT (lesson 3): Owned by the AMA, licence needed. LOINC (this lesson): Free to use.",
+     "say": "Cost to use. C P T (lesson 3): Owned by the A M A, licence needed. L O I N C (this lesson): Free to use.",
+     "focus": 4,
+     "file": "clips/210990461cc3.mp3",
+     "seconds": 8.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "LOINC vs CPT: not the same job",
+   "lines": [
+    {
+     "raw": "What would this look like in Nepal?",
+     "say": "What would this look like in Nepal?",
+     "focus": -1,
+     "file": "clips/29a8f4ae98e8.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's check-up report lists tests by each lab's own names, such as \"FBS\" or \"Lipid Profile\".",
+     "say": "Ram's check-up report lists tests by each lab's own names, such as \"F B S\" or \"Lipid Profile\".",
+     "focus": 0,
+     "file": "clips/e717fd3b2de1.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "If his insurer wanted to compare reports from many labs, someone would have to read each name and match it by hand.",
+     "say": "If his insurer wanted to compare reports from many labs, someone would have to read each name and match it by hand.",
+     "focus": 1,
+     "file": "clips/8011210c68ad.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "A shared code like LOINC would do that matching once, for everybody.",
+     "say": "A shared code like L O I N C would do that matching once, for everybody.",
+     "focus": 1,
+     "file": "clips/38d21ede4d3a.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF receives claims from many listed hospitals.",
+     "say": "S S F receives claims from many listed hospitals.",
+     "focus": 2,
+     "file": "clips/3d7e301da703.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "Each hospital may name the same test differently.",
+     "say": "Each hospital may name the same test differently.",
+     "focus": 2,
+     "file": "clips/3980904eef9d.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Shared test codes would let a fund like SSF count tests across hospitals reliably.",
+     "say": "Shared test codes would let a fund like S S F count tests across hospitals reliably.",
+     "focus": 3,
+     "file": "clips/201bc82d25e7.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "We do not cover whether Nepal uses LOINC today; the point is why such codes help.",
+     "say": "We do not cover whether Nepal uses L O I N C today; the point is why such codes help.",
+     "focus": 3,
+     "file": "clips/26b60f1e6d96.mp3",
+     "seconds": 6.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "LOINC vs CPT: not the same job",
+   "lines": [
+    {
+     "raw": "In the US: LOINC in the US.",
+     "say": "In the U S: L O I N C in the U S.",
+     "focus": -1,
+     "file": "clips/51f432f4606e.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "US rules for certified electronic health record systems expect lab results to be coded with **LOINC**.",
+     "say": "U S rules for certified electronic health record systems expect lab results to be coded with L O I N C.",
+     "focus": 0,
+     "file": "clips/45eb4acb8fd9.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "Large labs send results with LOINC codes, so the same test from two labs can be added up.",
+     "say": "Large labs send results with L O I N C codes, so the same test from two labs can be added up.",
+     "focus": 1,
+     "file": "clips/0effedd1f300.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "Quality measures, such as the diabetes measure in lesson 7, list the LOINC codes that count.",
+     "say": "Quality measures, such as the diabetes measure in lesson 7, list the L O I N C codes that count.",
+     "focus": 2,
+     "file": "clips/57a7535b05c7.mp3",
+     "seconds": 7.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 25,
+   "section": "LOINC vs CPT: not the same job",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "LOINC is the column you filter on.",
+     "say": "L O I N C is the column you filter on.",
+     "focus": -1,
+     "file": "clips/d65390a03aba.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "\"All HbA1c results\" means `loinc_cd IN (a list of codes)`, not a search on test names typed by hundreds of labs.",
+     "say": "\"All H b A 1 c results\" means loinc_cd I N (a list of codes), not a search on test names typed by hundreds of labs.",
+     "focus": -1,
+     "file": "clips/06f51693b641.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "If a lab sends only its **local code** with no LOINC, its results are invisible to that filter until someone maps them (lesson 6).",
+     "say": "If a lab sends only its local code with no L O I N C, its results are invisible to that filter until someone maps them (lesson 6).",
+     "focus": -1,
+     "file": "clips/05ea5f662d6c.mp3",
+     "seconds": 9.725
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "LOINC gives each kind of test one universal code, so results from any lab can be combined.",
+     "say": "L O I N C gives each kind of test one universal code, so results from any lab can be combined.",
+     "focus": 0,
+     "file": "clips/5323a59c279b.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "A LOINC code is a serial number + dash + check digit, e.g. `4548-4`.",
+     "say": "A L O I N C code is a serial number and dash and check digit, for example 4 5 4 8 dash 4.",
+     "focus": 1,
+     "file": "clips/ce788e360e9c.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Store it as text.",
+     "say": "Store it as text.",
+     "focus": 1,
+     "file": "clips/45393e5d136f.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Six parts define a test: component, property, time, system, scale, method.",
+     "say": "Six parts define a test: component, property, time, system, scale, method.",
+     "focus": 2,
+     "file": "clips/b8f00203711c.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Change any part (specimen, units type, method) and you get a different code.",
+     "say": "Change any part (specimen, units type, method) and you get a different code.",
+     "focus": 3,
+     "file": "clips/d019e2345c63.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "CPT names the billed service on the claim; LOINC names the measured result.",
+     "say": "C P T names the billed service on the claim; L O I N C names the measured result.",
+     "focus": 4,
+     "file": "clips/1302f3972998.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

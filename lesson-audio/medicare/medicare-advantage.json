@@ -1,0 +1,799 @@
+{
+ "courseId": "medicare",
+ "lessonId": "medicare-advantage",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: Part C: Medicare Advantage.",
+     "say": "Lesson 4: Part C: Medicare Advantage.",
+     "focus": -1,
+     "file": "clips/624dff706970.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "The same Medicare benefits, delivered by a private insurer.",
+     "say": "The same Medicare benefits, delivered by a private insurer.",
+     "focus": -1,
+     "file": "clips/9dc316ff3429.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain how Medicare Advantage differs from Original Medicare.",
+     "say": "Explain how Medicare Advantage differs from Original Medicare.",
+     "focus": 0,
+     "file": "clips/faddc47a9d8e.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Know, in one line, how CMS pays an MA plan.",
+     "say": "Know, in one line, how C M S pays an M A plan.",
+     "focus": 1,
+     "file": "clips/fe8e4138c4ab.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Know about networks, extra benefits and the yearly out-of-pocket limit.",
+     "say": "Know about networks, extra benefits and the yearly out-of-pocket limit.",
+     "focus": 2,
+     "file": "clips/e34db1e3fef2.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "See why Robert switched, and what his 2025 plan looks like.",
+     "say": "See why Robert switched, and what his 2025 plan looks like.",
+     "focus": 3,
+     "file": "clips/01a446366bb0.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A private company runs Medicare for you.",
+     "say": "A private company runs Medicare for you.",
+     "focus": -1,
+     "file": "clips/bb5b6ee3b047.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "A private company runs Medicare for you",
+   "lines": [
+    {
+     "raw": "With **Medicare Advantage** (also called **Part C** or **MA**), a person still has Medicare, but a **private insurance company** handles their care.",
+     "say": "With Medicare Advantage (also called Part C or M A), a person still has Medicare, but a private insurance company handles their care.",
+     "focus": -1,
+     "file": "clips/731d4a958cc0.mp3",
+     "seconds": 9.55
+    },
+    {
+     "raw": "The insurer must cover everything Parts A and B cover, and most MA plans also include **Part D** drug cover.",
+     "say": "The insurer must cover everything Parts A and B cover, and most M A plans also include Part D drug cover.",
+     "focus": -1,
+     "file": "clips/d1e6ec0d2052.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "In 2025, a little **over half** of people on Medicare are in an MA plan.",
+     "say": "In 2025, a little over half of people on Medicare are in an M A plan.",
+     "focus": -1,
+     "file": "clips/0807d0f5d5b0.mp3",
+     "seconds": 5.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "A private company runs Medicare for you",
+   "lines": [
+    {
+     "raw": "Think of an office canteen contractor.",
+     "say": "Think of an office canteen contractor.",
+     "focus": -1,
+     "file": "clips/da840df2d7d6.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "A company could run its own staff canteen, buying every kilo of rice and paying every cook.",
+     "say": "A company could run its own staff canteen, buying every kilo of rice and paying every cook.",
+     "focus": -1,
+     "file": "clips/45c96e30c339.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Or it could hire a **contractor** and pay a fixed **amount per employee per month**.",
+     "say": "Or it could hire a contractor and pay a fixed amount per employee per month.",
+     "focus": -1,
+     "file": "clips/63e84344042a.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "The contractor must serve at least the agreed meals.",
+     "say": "The contractor must serve at least the agreed meals.",
+     "focus": -1,
+     "file": "clips/31322dbfb6a2.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "If it runs the kitchen cheaply and well, it keeps the difference, and it may add tea and biscuits to attract staff.",
+     "say": "If it runs the kitchen cheaply and well, it keeps the difference, and it may add tea and biscuits to attract staff.",
+     "focus": -1,
+     "file": "clips/d32f43dd45e4.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Medicare is the company, the MA insurer is the contractor, and the fixed amount is called a **capitation** payment.",
+     "say": "Medicare is the company, the M A insurer is the contractor, and the fixed amount is called a capitation payment.",
+     "focus": -1,
+     "file": "clips/5ed3be408132.mp3",
+     "seconds": 7.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "A private company runs Medicare for you",
+   "lines": [
+    {
+     "raw": "In Nepal: Who pays the hospital?",
+     "say": "In Nepal: Who pays the hospital?",
+     "focus": -1,
+     "file": "clips/2e0ab3cf2e25.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's private insurer collects a premium from his startup and pays his covered bills.",
+     "say": "Ram's private insurer collects a premium from his startup and pays his covered bills.",
+     "focus": 0,
+     "file": "clips/27e746a6d088.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "It makes money if the premiums are larger than the claims.",
+     "say": "It makes money if the premiums are larger than the claims.",
+     "focus": 0,
+     "file": "clips/01e093c4ed61.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF itself checks and pays Sita's hospital claims.",
+     "say": "S S F itself checks and pays Sita's hospital claims.",
+     "focus": 1,
+     "file": "clips/54c7030f232c.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "There is no middle company between SSF and the hospital in this simple picture.",
+     "say": "There is no middle company between S S F and the hospital in this simple picture.",
+     "focus": 1,
+     "file": "clips/339502f195cb.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Original Medicare is like this: the government (through its contractors) pays the hospital directly.",
+     "say": "Original Medicare is like this: the government (through its contractors) pays the hospital directly.",
+     "focus": 2,
+     "file": "clips/fe5563538b1b.mp3",
+     "seconds": 6.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "A private company runs Medicare for you",
+   "lines": [
+    {
+     "raw": "Original Medicare vs Medicare Advantage.",
+     "say": "Original Medicare versus Medicare Advantage.",
+     "focus": -1,
+     "file": "clips/387f4d6c6a49.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Who pays the doctor? Original Medicare (A + B): The government, through a MAC. Medicare Advantage (C): The private MA plan.",
+     "say": "Who pays the doctor? Original Medicare (A and B): The government, through a M A C. Medicare Advantage (C): The private M A plan.",
+     "focus": 0,
+     "file": "clips/4de91e298d0c.mp3",
+     "seconds": 9.15
+    },
+    {
+     "raw": "Which doctors? Original Medicare (A + B): Almost any doctor in the US who takes Medicare. Medicare Advantage (C): Usually a **network** of doctors and hospitals.",
+     "say": "Which doctors? Original Medicare (A and B): Almost any doctor in the U S who takes Medicare. Medicare Advantage (C): Usually a network of doctors and hospitals.",
+     "focus": 1,
+     "file": "clips/997b6a6bef8f.mp3",
+     "seconds": 11.55
+    },
+    {
+     "raw": "Referrals and approvals. Original Medicare (A + B): Rarely needed. Medicare Advantage (C): Often needed: referrals (HMOs) and **prior authorisation**.",
+     "say": "Referrals and approvals. Original Medicare (A and B): Rarely needed. Medicare Advantage (C): Often needed: referrals (H M O's) and prior authorisation.",
+     "focus": 2,
+     "file": "clips/d8c04246e7a4.mp3",
+     "seconds": 11.5
+    },
+    {
+     "raw": "Drug cover. Original Medicare (A + B): Buy a separate Part D plan. Medicare Advantage (C): Usually built in (an **MA-PD** plan).",
+     "say": "Drug cover. Original Medicare (A and B): Buy a separate Part D plan. Medicare Advantage (C): Usually built in (an M A PD plan).",
+     "focus": 3,
+     "file": "clips/4eb0cae20f9e.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "Extras (dental, vision, hearing, gym). Original Medicare (A + B): Mostly not covered. Medicare Advantage (C): Often included.",
+     "say": "Extras (dental, vision, hearing, gym). Original Medicare (A and B): Mostly not covered. Medicare Advantage (C): Often included.",
+     "focus": 4,
+     "file": "clips/c7c1572e21e4.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "Yearly out-of-pocket limit. Original Medicare (A + B): None. Medicare Advantage (C): Yes: at most **$9,350** for in-network care in 2025, often lower.",
+     "say": "Yearly out-of-pocket limit. Original Medicare (A and B): None. Medicare Advantage (C): Yes: at most 9350 dollars for in-network care in 2025, often lower.",
+     "focus": 5,
+     "file": "clips/ea8ce40515f3.mp3",
+     "seconds": 13
+    },
+    {
+     "raw": "Can add Medigap? Original Medicare (A + B): Yes. Medicare Advantage (C): No.",
+     "say": "Can add Medigap? Original Medicare (A and B): Yes. Medicare Advantage (C): No.",
+     "focus": 6,
+     "file": "clips/6da85b49dd53.mp3",
+     "seconds": 5.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How the plan is paid, in one line.",
+     "say": "How the plan is paid, in one line.",
+     "focus": -1,
+     "file": "clips/502fc9a6130a.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "How the plan is paid, in one line",
+   "lines": [
+    {
+     "raw": "CMS pays each MA plan a fixed amount **per member per month** (a **capitation** payment), set higher for members who are expected to cost more because of their health.",
+     "say": "C M S pays each M A plan a fixed amount per member per month (a capitation payment), set higher for members who are expected to cost more because of their health.",
+     "focus": -1,
+     "file": "clips/c1270d5bf30b.mp3",
+     "seconds": 10.55
+    },
+    {
+     "raw": "For Robert, his plan receives about **$1,265 a month** (an illustrative figure).",
+     "say": "For Robert, his plan receives about 1265 dollars a month (an illustrative figure).",
+     "focus": -1,
+     "file": "clips/9474c1a4d7fb.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "Doctors and hospitals then bill the **plan**, not Medicare, and the plan sends CMS a copy of each service as **encounter data**.",
+     "say": "Doctors and hospitals then bill the plan, not Medicare, and the plan sends C M S a copy of each service as encounter data.",
+     "focus": -1,
+     "file": "clips/d621fa75059b.mp3",
+     "seconds": 9.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "How the plan is paid, in one line",
+   "lines": [
+    {
+     "raw": "How the payment is worked out.",
+     "say": "How the payment is worked out.",
+     "focus": -1,
+     "file": "clips/fa767dfffe48.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "The monthly amount is adjusted by each member's **risk score**, which is built from the diagnosis codes on their claims and encounters.",
+     "say": "The monthly amount is adjusted by each member's risk score, which is built from the diagnosis codes on their claims and encounters.",
+     "focus": -1,
+     "file": "clips/00c5b2386eda.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "That is why MA plans care so much about complete, accurate coding.",
+     "say": "That is why M A plans care so much about complete, accurate coding.",
+     "focus": -1,
+     "file": "clips/61d79d12da65.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "The Risk Adjustment course explains the full method.",
+     "say": "The Risk Adjustment course explains the full method.",
+     "focus": -1,
+     "file": "clips/7aec27b55f82.mp3",
+     "seconds": 3.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "How the plan is paid, in one line",
+   "lines": [
+    {
+     "raw": "Capitation / PMPM.",
+     "say": "Capitation or P M P M.",
+     "focus": 0,
+     "file": "clips/6ca1ba4dac85.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "A fixed payment **per member per month**, regardless of how much care the member uses.",
+     "say": "A fixed payment per member per month, regardless of how much care the member uses.",
+     "focus": 0,
+     "file": "clips/aa37b10b8fa4.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "Risk score.",
+     "say": "Risk score.",
+     "focus": 1,
+     "file": "clips/07c4a36ba278.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "A number describing how costly a member is expected to be compared with average (1.0).",
+     "say": "A number describing how costly a member is expected to be compared with average (1.0).",
+     "focus": 1,
+     "file": "clips/74ac1e58e098.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "Covered in the Risk Adjustment course.",
+     "say": "Covered in the Risk Adjustment course.",
+     "focus": 1,
+     "file": "clips/6788858ecc49.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Encounter data.",
+     "say": "Encounter data.",
+     "focus": 2,
+     "file": "clips/171f0bc281d7.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "Records of each service an MA member received, sent from the plan to CMS.",
+     "say": "Records of each service an M A member received, sent from the plan to C M S.",
+     "focus": 2,
+     "file": "clips/d29299615ae4.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "They look like claims but are not bills to CMS.",
+     "say": "They look like claims but are not bills to C M S.",
+     "focus": 2,
+     "file": "clips/1c669321e243.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Star rating.",
+     "say": "Star rating.",
+     "focus": 3,
+     "file": "clips/f24b04889eb4.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "CMS rates each MA plan from 1 to 5 stars on quality and member experience.",
+     "say": "C M S rates each M A plan from 1 to 5 stars on quality and member experience.",
+     "focus": 3,
+     "file": "clips/21e38a1d90bf.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Plans with 4 stars or more get bonus payments.",
+     "say": "Plans with 4 stars or more get bonus payments.",
+     "focus": 3,
+     "file": "clips/4aeeb2424a64.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Contract ID.",
+     "say": "Contract I D.",
+     "focus": 4,
+     "file": "clips/44976cff18ec.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "CMS's ID for an MA contract, like `H9876`.",
+     "say": "CMS's I D for an M A contract, like H 9 8 7 6.",
+     "focus": 4,
+     "file": "clips/968ecd73efa7.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "MA contracts usually start with H; standalone drug plans start with S.",
+     "say": "M A contracts usually start with H; standalone drug plans start with S.",
+     "focus": 4,
+     "file": "clips/571cbf4a75ab.mp3",
+     "seconds": 5.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Types of MA plans.",
+     "say": "Types of M A plans.",
+     "focus": -1,
+     "file": "clips/26f94b8f92b1.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Types of MA plans",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**HMO**. How it works: Use the plan's network; usually need a primary care doctor and referrals to see specialists. Out-of-network care is not covered except emergencies.",
+     "say": "H M O. How it works: Use the plan's network; usually need a primary care doctor and referrals to see specialists. Out-of-network care is not covered except emergencies.",
+     "focus": 0,
+     "file": "clips/2b3d39232ce5.mp3",
+     "seconds": 12.175
+    },
+    {
+     "raw": "**PPO**. How it works: Can go out of network, but pay more for it.",
+     "say": "P P O. How it works: Can go out of network, but pay more for it.",
+     "focus": 1,
+     "file": "clips/a758fceab872.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "**SNP** (Special Needs Plan). How it works: For specific groups: people with both Medicare and Medicaid (**D-SNP**), certain chronic conditions (**C-SNP**), or living in a nursing home (**I-SNP**).",
+     "say": "S N P (Special Needs Plan). How it works: For specific groups: people with both Medicare and Medicaid (D-SNP), certain chronic conditions (C-SNP), or living in a nursing home (I-SNP).",
+     "focus": 2,
+     "file": "clips/6ba1b5a1883e.mp3",
+     "seconds": 14.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Robert's choice.",
+     "say": "Robert's choice.",
+     "focus": -1,
+     "file": "clips/8df32878d947.mp3",
+     "seconds": 1.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Robert's choice",
+   "lines": [
+    {
+     "raw": "In the US: Why Robert switched to Medicare Advantage.",
+     "say": "In the U S: Why Robert switched to Medicare Advantage.",
+     "focus": -1,
+     "file": "clips/d4f492b7c3fe.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "On Original Medicare in 2022 and 2023, Robert paid **20%** of most doctor bills, with **no yearly limit**, plus a separate drug plan.",
+     "say": "On Original Medicare in 2022 and 2023, Robert paid 20 percent of most doctor bills, with no yearly limit, plus a separate drug plan.",
+     "focus": 0,
+     "file": "clips/127676d28651.mp3",
+     "seconds": 10.6
+    },
+    {
+     "raw": "In November 2023, during the Annual Enrollment Period, he chose **Gulf Coast Advantage (HMO)**, an MA-PD plan from **Gulf Coast Health Plan**.",
+     "say": "In November 2023, during the Annual Enrollment Period, he chose Gulf Coast Advantage (H M O), an M A PD plan from Gulf Coast Health Plan.",
+     "focus": 1,
+     "file": "clips/860fbb46bd86.mp3",
+     "seconds": 10.925
+    },
+    {
+     "raw": "(Both names are fictional.).",
+     "say": "(Both names are fictional.).",
+     "focus": 1,
+     "file": "clips/678b06644a86.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "Its plan premium is **$0**, but he **still pays his Part B premium** ($185 a month in 2025).",
+     "say": "Its plan premium is 0 dollars but he still pays his Part B premium (185 dollars a month in 2025).",
+     "focus": 2,
+     "file": "clips/684860293e5d.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "This surprises many people.",
+     "say": "This surprises many people.",
+     "focus": 2,
+     "file": "clips/790425063817.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "He likes the yearly limit, the dental and eye benefits, and having his diabetes drugs in the same plan.",
+     "say": "He likes the yearly limit, the dental and eye benefits, and having his diabetes drugs in the same plan.",
+     "focus": 3,
+     "file": "clips/bed43af7363e.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "In return, he must use the plan's network and get referrals.",
+     "say": "In return, he must use the plan's network and get referrals.",
+     "focus": 3,
+     "file": "clips/0b32a2cdda74.mp3",
+     "seconds": 4.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Robert's choice",
+   "lines": [
+    {
+     "raw": "Robert's plan in 2025: Gulf Coast Advantage (HMO), contract H9876, plan 012 (fictional).",
+     "say": "Robert's plan in 2025: Gulf Coast Advantage (H M O), contract H 9 8 7 6, plan 012 (fictional).",
+     "focus": -1,
+     "file": "clips/8cdb736eda35.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "Monthly plan premium. Robert pays (in network): $0 (plus the $185 Part B premium).",
+     "say": "Monthly plan premium. Robert pays (in network): 0 dollars (plus the 185 dollars Part B premium).",
+     "focus": 0,
+     "file": "clips/2352a9851c52.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "Primary care doctor visit. Robert pays (in network): $0 copay.",
+     "say": "Primary care doctor visit. Robert pays (in network): 0 dollars copay.",
+     "focus": 1,
+     "file": "clips/af748875bebf.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "Specialist visit (with referral). Robert pays (in network): $35 copay.",
+     "say": "Specialist visit (with referral). Robert pays (in network): 35 dollars copay.",
+     "focus": 2,
+     "file": "clips/42ae9f48d4b9.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Hospital stay. Robert pays (in network): $350 per day for days 1 to 5, then $0.",
+     "say": "Hospital stay. Robert pays (in network): 350 dollars per day for days 1 to 5, then 0 dollars.",
+     "focus": 3,
+     "file": "clips/cbfb8139755b.mp3",
+     "seconds": 8.35
+    },
+    {
+     "raw": "Emergency room. Robert pays (in network): $110 copay.",
+     "say": "Emergency room. Robert pays (in network): 110 dollars copay.",
+     "focus": 4,
+     "file": "clips/a3db656ad353.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Lab tests. Robert pays (in network): $0.",
+     "say": "Lab tests. Robert pays (in network): 0 dollars.",
+     "focus": 5,
+     "file": "clips/39998ce8be1e.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Yearly out-of-pocket maximum. Robert pays (in network): $4,900 (below the $9,350 limit CMS allows).",
+     "say": "Yearly out-of-pocket maximum. Robert pays (in network): 4900 dollars (below the 9350 dollars limit C M S allows).",
+     "focus": 6,
+     "file": "clips/b539ca6d9a62.mp3",
+     "seconds": 9.9
+    },
+    {
+     "raw": "Extras. Robert pays (in network): Two dental cleanings, a yearly eye exam, $150 towards glasses, a gym membership.",
+     "say": "Extras. Robert pays (in network): Two dental cleanings, a yearly eye exam, 150 dollars towards glasses, a gym membership.",
+     "focus": 7,
+     "file": "clips/c9de3da6ccc2.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "Drugs (Part D). Robert pays (in network): Built in. See lesson 5.",
+     "say": "Drugs (Part D). Robert pays (in network): Built in. See lesson 5.",
+     "focus": 8,
+     "file": "clips/c54cb07c8164.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Robert's choice",
+   "lines": [
+    {
+     "raw": "Where Robert's claims go now.",
+     "say": "Where Robert's claims go now.",
+     "focus": -1,
+     "file": "clips/e35dadfe3092.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Since 1 January 2024, when Robert visits his doctor, the doctor's office sends the claim to **Gulf Coast Health Plan**, using Robert's **plan member ID** from his plan card.",
+     "say": "Since 1 January 2024, when Robert visits his doctor, the doctor's office sends the claim to Gulf Coast Health Plan, using Robert's plan member I D from his plan card.",
+     "focus": -1,
+     "file": "clips/79d74adb5032.mp3",
+     "seconds": 12.3
+    },
+    {
+     "raw": "Robert is told to keep his red, white and blue Medicare card safe but to show the **plan card** at visits.",
+     "say": "Robert is told to keep his red, white and blue Medicare card safe but to show the plan card at visits.",
+     "focus": -1,
+     "file": "clips/f4a23fcd76d5.mp3",
+     "seconds": 6.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Robert's choice",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "An MA plan's data has two IDs for each member: its own **member ID** and the Medicare **MBI**.",
+     "say": "An M A plan's data has two I D's for each member: its own member I D and the Medicare M B I.",
+     "focus": -1,
+     "file": "clips/bb909265243c.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "Coverage is tied to a **contract ID** (like `H9876`) and a **plan benefit package** number.",
+     "say": "Coverage is tied to a contract I D (like H 9 8 7 6) and a plan benefit package number.",
+     "focus": -1,
+     "file": "clips/b267125eec74.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "Claims sit in the plan's tables, and only from the date the member joined.",
+     "say": "Claims sit in the plan's tables, and only from the date the member joined.",
+     "focus": -1,
+     "file": "clips/864d08157b4f.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "Earlier Original Medicare claims stay with CMS.",
+     "say": "Earlier Original Medicare claims stay with C M S.",
+     "focus": -1,
+     "file": "clips/fd06c32d41b9.mp3",
+     "seconds": 3.625
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Medicare Advantage (Part C) is Medicare delivered by private insurers approved by CMS.",
+     "say": "Medicare Advantage (Part C) is Medicare delivered by private insurers approved by C M S.",
+     "focus": 0,
+     "file": "clips/af9e5341979f.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "A little over half of beneficiaries use it in 2025.",
+     "say": "A little over half of beneficiaries use it in 2025.",
+     "focus": 0,
+     "file": "clips/5940d7caea3f.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "CMS pays MA plans a fixed amount per member per month, adjusted for health (risk adjustment, covered in its own course).",
+     "say": "C M S pays M A plans a fixed amount per member per month, adjusted for health (risk adjustment, covered in its own course).",
+     "focus": 1,
+     "file": "clips/8d423081bb5c.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "MA plans use networks and prior authorisation, often add drugs and extras, and must have a yearly out-of-pocket limit ($9,350 at most in-network in 2025).",
+     "say": "M A plans use networks and prior authorisation, often add drugs and extras, and must have a yearly out-of-pocket limit (9350 dollars at most in-network in 2025).",
+     "focus": 2,
+     "file": "clips/bfe5a871e24c.mp3",
+     "seconds": 12.6
+    },
+    {
+     "raw": "MA members still pay the Part B premium.",
+     "say": "M A members still pay the Part B premium.",
+     "focus": 3,
+     "file": "clips/29bfa887c683.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Providers bill the MA plan, and the plan sends encounter data to CMS.",
+     "say": "Providers bill the M A plan, and the plan sends encounter data to C M S.",
+     "focus": 4,
+     "file": "clips/cdba345c9265.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

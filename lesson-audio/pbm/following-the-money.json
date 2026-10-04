@@ -1,0 +1,1191 @@
+{
+ "courseId": "pbm",
+ "lessonId": "following-the-money",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: Following the Money.",
+     "say": "Lesson 2: Following the Money.",
+     "focus": -1,
+     "file": "clips/1f93e490343f.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Medicine flows one way, money flows another.",
+     "say": "Medicine flows one way, money flows another.",
+     "focus": -1,
+     "file": "clips/24ee23e2f66c.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "Follow one brand drug from factory to member.",
+     "say": "Follow one brand drug from factory to member.",
+     "focus": -1,
+     "file": "clips/5063129a637f.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Trace how a drug and its money move between manufacturer, wholesaler, pharmacy, PBM and plan.",
+     "say": "Trace how a drug and its money move between manufacturer, wholesaler, pharmacy, P B M and plan.",
+     "focus": 0,
+     "file": "clips/8a78c814da84.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "Explain list price (WAC) versus net price.",
+     "say": "Explain list price (W A C) versus net price.",
+     "focus": 1,
+     "file": "clips/722cce27720e.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Work out who keeps what on one illustrative brand claim.",
+     "say": "Work out who keeps what on one illustrative brand claim.",
+     "focus": 2,
+     "file": "clips/8cbae4d456fd.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "See why the plan's true cost is lower than the claim shows.",
+     "say": "See why the plan's true cost is lower than the claim shows.",
+     "focus": 3,
+     "file": "clips/d057104b0684.mp3",
+     "seconds": 3.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two flows, not one.",
+     "say": "Two flows, not one.",
+     "focus": -1,
+     "file": "clips/bebe2e74955f.mp3",
+     "seconds": 1.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Two flows, not one",
+   "lines": [
+    {
+     "raw": "At the pharmacy counter, a claim is priced like this: ingredient cost (the medicine) + dispensing fee (the pharmacy's work) = gross amount due, split between the plan and the patient.",
+     "say": "At the pharmacy counter, a claim is priced like this: ingredient cost (the medicine) and dispensing fee (the pharmacy's work) = gross amount due, split between the plan and the patient.",
+     "focus": -1,
+     "file": "clips/c8d46c82c9f9.mp3",
+     "seconds": 12.1
+    },
+    {
+     "raw": "That is only the **middle** of the story.",
+     "say": "That is only the middle of the story.",
+     "focus": -1,
+     "file": "clips/a71aa2584a00.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Before the counter, the medicine was bought and sold twice.",
+     "say": "Before the counter, the medicine was bought and sold twice.",
+     "focus": -1,
+     "file": "clips/1426408eb5fb.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "After the counter, the drug maker sends money **back** as a rebate.",
+     "say": "After the counter, the drug maker sends money back as a rebate.",
+     "focus": -1,
+     "file": "clips/577d29586746.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "In this lesson we follow the whole chain.",
+     "say": "In this lesson we follow the whole chain.",
+     "focus": -1,
+     "file": "clips/bc62e0bd4af5.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Two flows, not one",
+   "lines": [
+    {
+     "raw": "WAC (Wholesale Acquisition Cost).",
+     "say": "W A C (Wholesale Acquisition Cost).",
+     "focus": 0,
+     "file": "clips/26f2fde44ec9.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "The manufacturer's **list price** to wholesalers.",
+     "say": "The manufacturer's list price to wholesalers.",
+     "focus": 0,
+     "file": "clips/075b4634d702.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "AWP (Average Wholesale Price).",
+     "say": "A W P (Average Wholesale Price).",
+     "focus": 1,
+     "file": "clips/e80b266a5a1e.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Another published list price.",
+     "say": "Another published list price.",
+     "focus": 1,
+     "file": "clips/70fae99e3c42.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "For brand drugs it is often about 20% above WAC.",
+     "say": "For brand drugs it is often about 20 percent above W A C.",
+     "focus": 1,
+     "file": "clips/1198c75f7fa5.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "Almost nobody pays it: pharmacy contracts use \"AWP minus a discount\".",
+     "say": "Almost nobody pays it: pharmacy contracts use \"A W P minus a discount\".",
+     "focus": 1,
+     "file": "clips/5fad2460291a.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "MAC (Maximum Allowable Cost).",
+     "say": "M A C (Maximum Allowable Cost).",
+     "focus": 2,
+     "file": "clips/0961ab03ffe9.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "A price cap per unit that the PBM sets for **generics**, whichever company made the bottle.",
+     "say": "A price cap per unit that the P B M sets for generics, whichever company made the bottle.",
+     "focus": 2,
+     "file": "clips/806b07b864d0.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Dispensing fee.",
+     "say": "Dispensing fee.",
+     "focus": 3,
+     "file": "clips/fe05dc61d33a.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "A small fee paid to the pharmacy for its work on each fill, often $1 to $2.",
+     "say": "A small fee paid to the pharmacy for its work on each fill, often 1 dollar to 2 dollars.",
+     "focus": 3,
+     "file": "clips/d66410a3b458.mp3",
+     "seconds": 5.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Two flows, not one",
+   "lines": [
+    {
+     "raw": "More on claim pricing.",
+     "say": "More on claim pricing.",
+     "focus": -1,
+     "file": "clips/99f3a077c9a4.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "How these prices combine at the counter (including the pharmacy's cash price and the \"lesser of\" rule) is covered in the Pharmacy course.",
+     "say": "How these prices combine at the counter (including the pharmacy's cash price and the \"lesser of\" rule) is covered in the Pharmacy course.",
+     "focus": -1,
+     "file": "clips/00b38def9386.mp3",
+     "seconds": 8.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Two flows, not one",
+   "lines": [
+    {
+     "raw": "How medicine money moves in Nepal.",
+     "say": "How medicine money moves in Nepal.",
+     "focus": -1,
+     "file": "clips/eeecaf39f9b6.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "The **company** sells boxes to a **distributor**.",
+     "say": "The company sells boxes to a distributor.",
+     "focus": 0,
+     "file": "clips/f99b4a32f02c.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "The distributor sells to Ram's **medical shop**.",
+     "say": "The distributor sells to Ram's medical shop.",
+     "focus": 0,
+     "file": "clips/f175a0568277.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Ram pays the shop the price on the strip (the **MRP** or a little less).",
+     "say": "Ram pays the shop the price on the strip (the M R P or a little less).",
+     "focus": 0,
+     "file": "clips/67f17c13e2cf.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "If the company runs a **scheme** (free boxes, a discount for big orders), that deal happens between the company and the distributor or shop.",
+     "say": "If the company runs a scheme (free boxes, a discount for big orders), that deal happens between the company and the distributor or shop.",
+     "focus": 1,
+     "file": "clips/8a61d3399c77.mp3",
+     "seconds": 8.95
+    },
+    {
+     "raw": "It never appears on Ram's bill.",
+     "say": "It never appears on Ram's bill.",
+     "focus": 1,
+     "file": "clips/709bc719d08b.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Ram's insurer pays Ram back later.",
+     "say": "Ram's insurer pays Ram back later.",
+     "focus": 2,
+     "file": "clips/d4921fae3c23.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "The insurer never sees the company's scheme either.",
+     "say": "The insurer never sees the company's scheme either.",
+     "focus": 2,
+     "file": "clips/5dd40e068c74.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's hospital pharmacy buys stock from distributors at trade prices and sells to patients at its own prices.",
+     "say": "Sita's hospital pharmacy buys stock from distributors at trade prices and sells to patients at its own prices.",
+     "focus": 3,
+     "file": "clips/d149305e2f4f.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "SSF pays the hospital its share of the bill.",
+     "say": "S S F pays the hospital its share of the bill.",
+     "focus": 4,
+     "file": "clips/34fcf0f3cd0c.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Any deal between the hospital and its suppliers stays between them.",
+     "say": "Any deal between the hospital and its suppliers stays between them.",
+     "focus": 4,
+     "file": "clips/103476bede3e.mp3",
+     "seconds": 4.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Two flows, not one",
+   "lines": [
+    {
+     "raw": "The US has the same \"hidden deal\" idea, called a **rebate**, but it is much bigger, and it goes to the **PBM**, not to the shop.",
+     "say": "The U S has the same \"hidden deal\" idea, called a rebate, but it is much bigger, and it goes to the P B M, not to the shop.",
+     "focus": -1,
+     "file": "clips/eb3fdcbf9546.mp3",
+     "seconds": 8.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The chain, step by step.",
+     "say": "The chain, step by step.",
+     "focus": -1,
+     "file": "clips/678abb68716b.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The chain, step by step",
+   "lines": [
+    {
+     "raw": "Step 1: Manufacturer → wholesaler.",
+     "say": "Step 1: Manufacturer to wholesaler.",
+     "focus": 0,
+     "file": "clips/0e12be46c9ce.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "The drug maker sells cartons of medicine to a **wholesaler**, at about its list price (**WAC**).",
+     "say": "The drug maker sells cartons of medicine to a wholesaler, at about its list price (W A C).",
+     "focus": 0,
+     "file": "clips/5695636da8a3.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "Step 2: Wholesaler → pharmacy.",
+     "say": "Step 2: Wholesaler to pharmacy.",
+     "focus": 1,
+     "file": "clips/6a9e39d63468.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "The wholesaler delivers to thousands of pharmacies, often every day, and charges each pharmacy for the stock.",
+     "say": "The wholesaler delivers to thousands of pharmacies, often every day, and charges each pharmacy for the stock.",
+     "focus": 1,
+     "file": "clips/a9e979c81f8b.mp3",
+     "seconds": 7.225
+    },
+    {
+     "raw": "Step 3: Pharmacy → member.",
+     "say": "Step 3: Pharmacy to member.",
+     "focus": 2,
+     "file": "clips/6326e803334f.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "The member picks up the medicine and pays the **copay** or **coinsurance**.",
+     "say": "The member picks up the medicine and pays the copay or coinsurance.",
+     "focus": 2,
+     "file": "clips/b99590ecc6fd.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Step 4: PBM → pharmacy.",
+     "say": "Step 4: P B M to pharmacy.",
+     "focus": 3,
+     "file": "clips/a5a1bf36aad2.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "The PBM pays the pharmacy the rest of the contracted price (the **gross amount due** minus the member's share).",
+     "say": "The P B M pays the pharmacy the rest of the contracted price (the gross amount due minus the member's share).",
+     "focus": 3,
+     "file": "clips/bc65e3bc136b.mp3",
+     "seconds": 7.35
+    },
+    {
+     "raw": "Step 5: Plan → PBM.",
+     "say": "Step 5: Plan to P B M.",
+     "focus": 4,
+     "file": "clips/aa9ea8de3eeb.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "The PBM sends the plan an **invoice** for the claims it paid, plus any fees.",
+     "say": "The P B M sends the plan an invoice for the claims it paid, plus any fees.",
+     "focus": 4,
+     "file": "clips/ff6a749f8cef.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "The plan pays.",
+     "say": "The plan pays.",
+     "focus": 4,
+     "file": "clips/09d8eea46e0c.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Step 6: Manufacturer → PBM → plan.",
+     "say": "Step 6: Manufacturer to P B M to plan.",
+     "focus": 5,
+     "file": "clips/0515f6b3c02b.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Months later, the drug maker pays the PBM a **rebate** for the brand drugs dispensed.",
+     "say": "Months later, the drug maker pays the P B M a rebate for the brand drugs dispensed.",
+     "focus": 5,
+     "file": "clips/bfbd0ab876b9.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "The PBM keeps or passes on its share, as the contract says (lesson 3).",
+     "say": "The P B M keeps or passes on its share, as the contract says (lesson 3).",
+     "focus": 5,
+     "file": "clips/136cecb21dbe.mp3",
+     "seconds": 5.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The chain, step by step",
+   "lines": [
+    {
+     "raw": "The PBM never owns the medicine.",
+     "say": "The P B M never owns the medicine.",
+     "focus": -1,
+     "file": "clips/a0cf0a1bc1d5.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Look at the flow again: the medicine goes manufacturer → wholesaler → pharmacy → member.",
+     "say": "Look at the flow again: the medicine goes manufacturer to wholesaler to pharmacy to member.",
+     "focus": -1,
+     "file": "clips/3024c325ba37.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "The PBM is **not** in that path (unless the fill comes from its own mail-order or specialty pharmacy).",
+     "say": "The P B M is not in that path (unless the fill comes from its own mail-order or specialty pharmacy).",
+     "focus": -1,
+     "file": "clips/61a1845b50ad.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "It is in the **money** path: it pays pharmacies, bills the plan and collects rebates.",
+     "say": "It is in the money path: it pays pharmacies, bills the plan and collects rebates.",
+     "focus": -1,
+     "file": "clips/66fb252fa7f6.mp3",
+     "seconds": 5.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "List price and net price.",
+     "say": "List price and net price.",
+     "focus": -1,
+     "file": "clips/bd9b617ef1eb.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "List price and net price",
+   "lines": [
+    {
+     "raw": "List price.",
+     "say": "List price.",
+     "focus": 0,
+     "file": "clips/ae5251aa536f.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "The price the manufacturer publishes, usually the **WAC**.",
+     "say": "The price the manufacturer publishes, usually the W A C.",
+     "focus": 0,
+     "file": "clips/8d4ca2367b33.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "It is the starting point for almost every other price in the chain, including AWP.",
+     "say": "It is the starting point for almost every other price in the chain, including A W P.",
+     "focus": 0,
+     "file": "clips/14d2483097b6.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "Rebate.",
+     "say": "Rebate.",
+     "focus": 1,
+     "file": "clips/3c14ee70fb85.mp3",
+     "seconds": 1.45
+    },
+    {
+     "raw": "Money the manufacturer pays **after** the drug is dispensed, usually to the PBM, in return for good formulary placement or reaching sales targets.",
+     "say": "Money the manufacturer pays after the drug is dispensed, usually to the P B M, in return for good formulary placement or reaching sales targets.",
+     "focus": 1,
+     "file": "clips/3a6d8e4bbe25.mp3",
+     "seconds": 10.475
+    },
+    {
+     "raw": "Not on the claim.",
+     "say": "Not on the claim.",
+     "focus": 1,
+     "file": "clips/808d6ae84b2b.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Net price.",
+     "say": "Net price.",
+     "focus": 2,
+     "file": "clips/ac2a178adc20.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "What the manufacturer really keeps after **all** rebates and discounts.",
+     "say": "What the manufacturer really keeps after all rebates and discounts.",
+     "focus": 2,
+     "file": "clips/57b8a287975e.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "It can be far below the list price, but it is usually kept confidential.",
+     "say": "It can be far below the list price, but it is usually kept confidential.",
+     "focus": 2,
+     "file": "clips/1f067de2b09b.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Gross-to-net gap.",
+     "say": "Gross-to-net gap.",
+     "focus": 3,
+     "file": "clips/8d0836f0258e.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "The difference between list price and net price.",
+     "say": "The difference between list price and net price.",
+     "focus": 3,
+     "file": "clips/1e543feba2ab.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "For some brand drugs it is small, for others it is very large.",
+     "say": "For some brand drugs it is small, for others it is very large.",
+     "focus": 3,
+     "file": "clips/61fe12f759cd.mp3",
+     "seconds": 4.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "List price and net price",
+   "lines": [
+    {
+     "raw": "Net price.",
+     "say": "Net price.",
+     "focus": -1,
+     "file": "clips/ac2a178adc20.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Net price equals List price − Discounts − Rebates.",
+     "say": "Net price equals List price − Discounts − Rebates.",
+     "focus": 0,
+     "file": "clips/d5f7e3613815.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "For example: Brand X below: $500.00 − $10.00 − $150.00 equals $340.00.",
+     "say": "For example: Brand X below: 500 dollars − 10 dollars − 150 dollars equals 340 dollars.",
+     "focus": 1,
+     "file": "clips/fb4d7ee2ba15.mp3",
+     "seconds": 9.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: one fill of Brand X.",
+     "say": "Worked example: one fill of Brand X.",
+     "focus": -1,
+     "file": "clips/92a3967ab6bf.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: one fill of Brand X",
+   "lines": [
+    {
+     "raw": "Illustrative numbers.",
+     "say": "Illustrative numbers.",
+     "focus": -1,
+     "file": "clips/b35a6d1a817d.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "**Brand X** is a made-up brand drug, and every price below is invented to show the mechanics.",
+     "say": "Brand X is a made-up brand drug, and every price below is invented to show the mechanics.",
+     "focus": -1,
+     "file": "clips/276458dd4ee7.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Real discounts, rebates and margins differ a lot from drug to drug and contract to contract, and most are confidential.",
+     "say": "Real discounts, rebates and margins differ a lot from drug to drug and contract to contract, and most are confidential.",
+     "focus": -1,
+     "file": "clips/95f59019e8d6.mp3",
+     "seconds": 8.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: one fill of Brand X",
+   "lines": [
+    {
+     "raw": "A member of Emily's plan fills a 30-day pack of **Brand X**, a **tier 2** preferred brand.",
+     "say": "A member of Emily's plan fills a 30-day pack of Brand X, a tier 2 preferred brand.",
+     "focus": -1,
+     "file": "clips/67e449a10691.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "Emily's plan charges a **$40 copay** for tier 2 drugs and **$5** for tier 1 generics.",
+     "say": "Emily's plan charges a 40 dollars copay for tier 2 drugs and 5 dollars for tier 1 generics.",
+     "focus": -1,
+     "file": "clips/823c312ace4f.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "In this example the plan has a **pass-through** contract with its PBM: the PBM passes on the pharmacy price and all rebates, and charges a **$3.00 admin fee** per claim (lesson 3 explains the contract types).",
+     "say": "In this example the plan has a pass-through contract with its P B M: the P B M passes on the pharmacy price and all rebates, and charges a 3 dollars admin fee per claim (lesson 3 explains the contract types).",
+     "focus": -1,
+     "file": "clips/742a74918d04.mp3",
+     "seconds": 14.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: one fill of Brand X",
+   "lines": [
+    {
+     "raw": "Step by step: what each player pays and receives (illustrative).",
+     "say": "Step by step: what each player pays and receives (illustrative).",
+     "focus": -1,
+     "file": "clips/de98a4c949c2.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "List price (WAC) for a 30-day pack. Amount: $500.00.",
+     "say": "List price (W A C) for a 30-day pack. Amount: 500 dollars.",
+     "focus": 0,
+     "file": "clips/13ec7d4401a5.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "Wholesaler pays manufacturer (small discount for paying quickly). Calculation: $500.00 × 0.98. Amount: $490.00.",
+     "say": "Wholesaler pays manufacturer (small discount for paying quickly). Calculation: 500 dollars × 0.98. Amount: 490 dollars.",
+     "focus": 1,
+     "file": "clips/e9c02257c94f.mp3",
+     "seconds": 11.4
+    },
+    {
+     "raw": "Pharmacy pays wholesaler (its acquisition cost). Amount: $500.00.",
+     "say": "Pharmacy pays wholesaler (its acquisition cost). Amount: 500 dollars.",
+     "focus": 2,
+     "file": "clips/2a7918c135c6.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "AWP (about 20% above WAC). Calculation: $500.00 × 1.20. Amount: $600.00.",
+     "say": "A W P (about 20 percent above W A C). Calculation: 500 dollars × 1.20. Amount: 600 dollars.",
+     "focus": 3,
+     "file": "clips/1390e630c662.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "Ingredient cost: AWP − 15%. Calculation: $600.00 × 0.85. Amount: $510.00.",
+     "say": "Ingredient cost: A W P − 15 percent. Calculation: 600 dollars × 0.85. Amount: 510 dollars.",
+     "focus": 4,
+     "file": "clips/eb1688611106.mp3",
+     "seconds": 10.825
+    },
+    {
+     "raw": "Gross amount due: + $1.00 dispensing fee. Calculation: $510.00 + $1.00. Amount: **$511.00**.",
+     "say": "Gross amount due: and 1 dollar dispensing fee. Calculation: 510 dollars and 1 dollar. Amount: 511 dollars.",
+     "focus": 5,
+     "file": "clips/2079a1097a21.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "Member pays: tier 2 copay. Amount: $40.00.",
+     "say": "Member pays: tier 2 copay. Amount: 40 dollars.",
+     "focus": 6,
+     "file": "clips/343861c944e7.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "PBM pays pharmacy. Calculation: $511.00 − $40.00. Amount: $471.00.",
+     "say": "P B M pays pharmacy. Calculation: 511 dollars − 40 dollars. Amount: 471 dollars.",
+     "focus": 7,
+     "file": "clips/3a0e973681c9.mp3",
+     "seconds": 9.6
+    },
+    {
+     "raw": "Plan pays PBM: claim + admin fee. Calculation: $471.00 + $3.00. Amount: $474.00.",
+     "say": "Plan pays P B M: claim and admin fee. Calculation: 471 dollars and 3 dollars. Amount: 474 dollars.",
+     "focus": 8,
+     "file": "clips/0b6776b7df2f.mp3",
+     "seconds": 10.875
+    },
+    {
+     "raw": "Manufacturer pays rebate to PBM (months later). Calculation: 30% of WAC: $500.00 × 0.30. Amount: $150.00.",
+     "say": "Manufacturer pays rebate to P B M (months later). Calculation: 30 percent of W A C: 500 dollars × 0.30. Amount: 150 dollars.",
+     "focus": 9,
+     "file": "clips/a0811601f63d.mp3",
+     "seconds": 13.325
+    },
+    {
+     "raw": "PBM passes rebate to plan (pass-through). Calculation: 100% of $150.00. Amount: $150.00.",
+     "say": "P B M passes rebate to plan (pass-through). Calculation: 100 percent of 150 dollars. Amount: 150 dollars.",
+     "focus": 10,
+     "file": "clips/bfb8d69fdea5.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "**Plan's net cost**. Calculation: $474.00 − $150.00. Amount: **$324.00**.",
+     "say": "Plan's net cost. Calculation: 474 dollars − 150 dollars. Amount: 324 dollars.",
+     "focus": 11,
+     "file": "clips/50b42145a1ee.mp3",
+     "seconds": 9.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: one fill of Brand X",
+   "lines": [
+    {
+     "raw": "Who keeps what at the end.",
+     "say": "Who keeps what at the end.",
+     "focus": -1,
+     "file": "clips/4e88b8804cdd.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Manufacturer. Money in: $490.00 from wholesaler. Money out: $150.00 rebate. Keeps: **$340.00** (its net price).",
+     "say": "Manufacturer. Money in: 490 dollars from wholesaler. Money out: 150 dollars rebate. Keeps: 340 dollars (its net price).",
+     "focus": 0,
+     "file": "clips/b6a23aa2e6de.mp3",
+     "seconds": 11.2
+    },
+    {
+     "raw": "Wholesaler. Money in: $500.00 from pharmacy. Money out: $490.00 to manufacturer. Keeps: **$10.00**.",
+     "say": "Wholesaler. Money in: 500 dollars from pharmacy. Money out: 490 dollars to manufacturer. Keeps: 10 dollars.",
+     "focus": 1,
+     "file": "clips/0444b0098192.mp3",
+     "seconds": 9.4
+    },
+    {
+     "raw": "Pharmacy. Money in: $40.00 from member + $471.00 from PBM. Money out: $500.00 to wholesaler. Keeps: **$11.00**.",
+     "say": "Pharmacy. Money in: 40 dollars from member and 471 dollars from P B M. Money out: 500 dollars to wholesaler. Keeps: 11 dollars.",
+     "focus": 2,
+     "file": "clips/35a1f4ec9960.mp3",
+     "seconds": 11.925
+    },
+    {
+     "raw": "PBM. Money in: $474.00 from plan + $150.00 rebate. Money out: $471.00 to pharmacy + $150.00 to plan. Keeps: **$3.00** (admin fee).",
+     "say": "P B M. Money in: 474 dollars from plan and 150 dollars rebate. Money out: 471 dollars to pharmacy and 150 dollars to plan. Keeps: 3 dollars (admin fee).",
+     "focus": 3,
+     "file": "clips/ec864d6208b5.mp3",
+     "seconds": 15.525
+    },
+    {
+     "raw": "**Total kept**. Keeps: **$364.00**.",
+     "say": "Total kept. Keeps: 364 dollars.",
+     "focus": 4,
+     "file": "clips/84ec5ecba2b8.mp3",
+     "seconds": 3.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example: one fill of Brand X",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Who paid in the end?",
+     "say": "Who paid in the end?",
+     "focus": -1,
+     "file": "clips/3282fa2e04ce.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "The plan **$324.00** + the member **$40.00** = **$364.00**.",
+     "say": "The plan 324 dollars and the member 40 dollars = 364 dollars.",
+     "focus": -1,
+     "file": "clips/bd692e1050d5.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Who kept it?",
+     "say": "Who kept it?",
+     "focus": -1,
+     "file": "clips/8c61272d882c.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "$340.00 + $10.00 + $11.00 + $3.00 = **$364.00** ✓.",
+     "say": "340 dollars and 10 dollars and 11 dollars and 3 dollars = 364 dollars ✓.",
+     "focus": -1,
+     "file": "clips/d0dced991715.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Every dollar paid is a dollar somebody kept.",
+     "say": "Every dollar paid is a dollar somebody kept.",
+     "focus": -1,
+     "file": "clips/eb258fd5dae4.mp3",
+     "seconds": 3.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example: one fill of Brand X",
+   "lines": [
+    {
+     "raw": "Why the claim overstates the cost.",
+     "say": "Why the claim overstates the cost.",
+     "focus": -1,
+     "file": "clips/e82e058dfb6f.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "The pharmacy claim for this fill shows **plan paid $471.00**.",
+     "say": "The pharmacy claim for this fill shows plan paid 471 dollars.",
+     "focus": -1,
+     "file": "clips/d33c0f4d6d54.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "The plan's true net cost, once the rebate arrives, is **$324.00** (including the admin fee).",
+     "say": "The plan's true net cost, once the rebate arrives, is 324 dollars (including the admin fee).",
+     "focus": -1,
+     "file": "clips/20742709a677.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "This is why adding up claim spend for brand drugs gives a figure **higher** than the real net cost.",
+     "say": "This is why adding up claim spend for brand drugs gives a figure higher than the real net cost.",
+     "focus": -1,
+     "file": "clips/d6901255f73f.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "To see the real cost, you need the **rebate file** too (lesson 4).",
+     "say": "To see the real cost, you need the rebate file too (lesson 4).",
+     "focus": -1,
+     "file": "clips/a3c8d57a186c.mp3",
+     "seconds": 4.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Worked example: one fill of Brand X",
+   "lines": [
+    {
+     "raw": "Notice what the member's share is based on.",
+     "say": "Notice what the member's share is based on.",
+     "focus": -1,
+     "file": "clips/2c94c8547ff0.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "The $40 copay does not change with the rebate.",
+     "say": "The 40 dollars copay does not change with the rebate.",
+     "focus": -1,
+     "file": "clips/d4567bf1db2b.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "But if Brand X were on a **coinsurance** tier, the member's share would be a percentage of the **$511.00** price at the counter, not of the lower net price.",
+     "say": "But if Brand X were on a coinsurance tier, the member's share would be a percentage of the 511 dollars price at the counter, not of the lower net price.",
+     "focus": -1,
+     "file": "clips/859d0859b875.mp3",
+     "seconds": 9.975
+    },
+    {
+     "raw": "25% of $511.00 = **$127.75**.",
+     "say": "25 percent of 511 dollars = 127 dollars 75 cents.",
+     "focus": -1,
+     "file": "clips/59c051b5aca2.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "If it were based on the price after the rebate ($511.00 − $150.00 = $361.00), it would be 25% of $361.00 = **$90.25**.",
+     "say": "If it were based on the price after the rebate (511 dollars − 150 dollars = 361 dollars), it would be 25 percent of 361 dollars = 90 dollars 25 cents.",
+     "focus": -1,
+     "file": "clips/cd0233cb1be6.mp3",
+     "seconds": 15.75
+    },
+    {
+     "raw": "This point comes up in the debate about PBMs (lesson 3).",
+     "say": "This point comes up in the debate about P B M's (lesson 3).",
+     "focus": -1,
+     "file": "clips/839e4d17591d.mp3",
+     "seconds": 4.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "",
+   "lines": [
+    {
+     "raw": "And for a generic?",
+     "say": "And for a generic?",
+     "focus": -1,
+     "file": "clips/fae6f94c82d3.mp3",
+     "seconds": 1.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "And for a generic?",
+   "lines": [
+    {
+     "raw": "Generics are different.",
+     "say": "Generics are different.",
+     "focus": -1,
+     "file": "clips/1a02de1c3ebf.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Many companies make the same generic, so they compete on price, and rebates are **small or zero**.",
+     "say": "Many companies make the same generic, so they compete on price, and rebates are small or zero.",
+     "focus": -1,
+     "file": "clips/19930e2701de.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "The money is mainly in the **MAC** price the PBM pays the pharmacy and, under some contracts, the price the PBM charges the plan (lesson 3).",
+     "say": "The money is mainly in the M A C price the P B M pays the pharmacy and, under some contracts, the price the P B M charges the plan (lesson 3).",
+     "focus": -1,
+     "file": "clips/a21e9b4dfc90.mp3",
+     "seconds": 10.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "And for a generic?",
+   "lines": [
+    {
+     "raw": "In the US: Emily's atorvastatin, 15 July 2025.",
+     "say": "In the U S: Emily's atorvastatin, 15 July 2025.",
+     "focus": -1,
+     "file": "clips/b1faacbffd29.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "Emily takes **atorvastatin**, a generic cholesterol medicine, one tablet a day.",
+     "say": "Emily takes atorvastatin, a generic cholesterol medicine, one tablet a day.",
+     "focus": 0,
+     "file": "clips/6e825f551603.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "Her first 30-day fill was on 15 July 2025.",
+     "say": "Her first 30-day fill was on 15 July 2025.",
+     "focus": 0,
+     "file": "clips/fe1e87b08923.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "Gross amount due **$9.50**: ingredient cost $7.50 (the MAC price) + $2.00 dispensing fee.",
+     "say": "Gross amount due 9 dollars 50 cents: ingredient cost 7 dollars 50 cents (the M A C price) and 2 dollars dispensing fee.",
+     "focus": 1,
+     "file": "clips/61855ba1b6ca.mp3",
+     "seconds": 9.65
+    },
+    {
+     "raw": "Emily pays her **$5.00** tier 1 copay.",
+     "say": "Emily pays her 5 dollars tier 1 copay.",
+     "focus": 2,
+     "file": "clips/21d0f358553e.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Plan paid on the claim: **$4.50**.",
+     "say": "Plan paid on the claim: 4 dollars 50 cents.",
+     "focus": 2,
+     "file": "clips/5d26413062b1.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "No rebate is expected on a cheap generic, so the claim is close to the true cost.",
+     "say": "No rebate is expected on a cheap generic, so the claim is close to the true cost.",
+     "focus": 3,
+     "file": "clips/cad697094a9b.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "The plan's only extra cost is any fee in its PBM contract.",
+     "say": "The plan's only extra cost is any fee in its P B M contract.",
+     "focus": 3,
+     "file": "clips/7f40108af030.mp3",
+     "seconds": 4.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "And for a generic?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Price at the counter. Brand drug (Brand X): $511.00. Generic drug (atorvastatin): $9.50.",
+     "say": "Price at the counter. Brand drug (Brand X): 511 dollars. Generic drug (atorvastatin): 9 dollars 50 cents.",
+     "focus": 0,
+     "file": "clips/02e8aa81e035.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "Rebate later. Brand drug (Brand X): Often large ($150.00 here). Generic drug (atorvastatin): Usually none.",
+     "say": "Rebate later. Brand drug (Brand X): Often large (150 dollars here). Generic drug (atorvastatin): Usually none.",
+     "focus": 1,
+     "file": "clips/835964fe5997.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "Claim plan paid vs true net cost. Brand drug (Brand X): Claim **overstates** the cost. Generic drug (atorvastatin): Claim is close to the true cost.",
+     "say": "Claim plan paid versus true net cost. Brand drug (Brand X): Claim overstates the cost. Generic drug (atorvastatin): Claim is close to the true cost.",
+     "focus": 2,
+     "file": "clips/251eaf5cec5c.mp3",
+     "seconds": 10.925
+    },
+    {
+     "raw": "Where the PBM's pricing matters most. Brand drug (Brand X): Rebate sharing. Generic drug (atorvastatin): MAC prices and any spread.",
+     "say": "Where the PBM's pricing matters most. Brand drug (Brand X): Rebate sharing. Generic drug (atorvastatin): M A C prices and any spread.",
+     "focus": 3,
+     "file": "clips/7948cf05ac88.mp3",
+     "seconds": 10.225
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Medicine flows **manufacturer → wholesaler → pharmacy → member**.",
+     "say": "Medicine flows manufacturer to wholesaler to pharmacy to member.",
+     "focus": 0,
+     "file": "clips/ba8469500713.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "The PBM sits in the **money** path, not the medicine path.",
+     "say": "The P B M sits in the money path, not the medicine path.",
+     "focus": 0,
+     "file": "clips/19b439395e24.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "**List price** (WAC) is the published price; **net price** is what the manufacturer keeps after discounts and rebates.",
+     "say": "List price (W A C) is the published price; net price is what the manufacturer keeps after discounts and rebates.",
+     "focus": 1,
+     "file": "clips/5ded6b3da038.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "Rebates go from the manufacturer to the PBM, months later, and the plan gets its share as the contract says.",
+     "say": "Rebates go from the manufacturer to the P B M, months later, and the plan gets its share as the contract says.",
+     "focus": 2,
+     "file": "clips/e2f2051f6b5d.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "For brand drugs, claim spend **overstates** the plan's true cost.",
+     "say": "For brand drugs, claim spend overstates the plan's true cost.",
+     "focus": 3,
+     "file": "clips/526016065101.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "For generics, rebates are usually small or zero.",
+     "say": "For generics, rebates are usually small or zero.",
+     "focus": 3,
+     "file": "clips/44caf87c096a.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

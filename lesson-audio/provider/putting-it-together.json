@@ -1,0 +1,743 @@
+{
+ "courseId": "provider",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 8,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 8: Putting It All Together.",
+     "say": "Lesson 8: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/45e5c0790752.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Build a provider table for Emily's providers, join it to her claims, and summarise her care.",
+     "say": "Build a provider table for Emily's providers, join it to her claims, and summarise her care.",
+     "focus": -1,
+     "file": "clips/6347727102e8.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read a provider dimension table with history (start and end dates).",
+     "say": "Read a provider dimension table with history (start and end dates).",
+     "focus": 0,
+     "file": "clips/1a5e28ee84e7.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "Join claims to providers through the billing and rendering NPI.",
+     "say": "Join claims to providers through the billing and rendering N P I.",
+     "focus": 1,
+     "file": "clips/ae27bde9ad15.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Summarise spend by provider and by specialty.",
+     "say": "Summarise spend by provider and by specialty.",
+     "focus": 2,
+     "file": "clips/499d3e06b088.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Connect every provider field to the lesson where you learned it.",
+     "say": "Connect every provider field to the lesson where you learned it.",
+     "focus": 3,
+     "file": "clips/defbd394cc7d.mp3",
+     "seconds": 3.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story.",
+     "say": "The story.",
+     "focus": -1,
+     "file": "clips/5103112bb3ad.mp3",
+     "seconds": 1.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "In 2025 Emily saw **Dr. Patel** for strep throat (10 March, claim **23098908**), then had **appendix surgery** at **Lakeside General Hospital** on 2 June, with **Dr. Lee** (Lakeside Surgical Group) operating and **Dr. Gomez** (Valley Anesthesia Associates) giving anaesthesia.",
+     "say": "In 2025 Emily saw Doctor Patel for strep throat (10 March, claim 23098908), then had appendix surgery at Lakeside General Hospital on 2 June, with Doctor Lee (Lakeside Surgical Group) operating and Doctor Gomez (Valley Anesthesia Associates) giving anaesthesia.",
+     "focus": -1,
+     "file": "clips/8acf5862a395.mp3",
+     "seconds": 21.175
+    },
+    {
+     "raw": "On **1 September 2025**, Sunrise Family Clinic **moved** to a new address.",
+     "say": "On 1 September 2025, Sunrise Family Clinic moved to a new address.",
+     "focus": -1,
+     "file": "clips/adce0c6825a9.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Your job: build the provider table and use it to describe Emily's care.",
+     "say": "Your job: build the provider table and use it to describe Emily's care.",
+     "focus": -1,
+     "file": "clips/d420db48d9ff.mp3",
+     "seconds": 5.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 1: the provider dimension.",
+     "say": "Step 1: the provider dimension.",
+     "focus": -1,
+     "file": "clips/d517ea79f01d.mp3",
+     "seconds": 2.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Step 1: the provider dimension",
+   "lines": [
+    {
+     "raw": "In a data warehouse, the provider master file becomes a **provider dimension**: one row per provider **version**.",
+     "say": "In a data warehouse, the provider master file becomes a provider dimension: one row per provider version.",
+     "focus": -1,
+     "file": "clips/1f0244e28801.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "When an important detail like the address changes, we do not overwrite the old row.",
+     "say": "When an important detail like the address changes, we do not overwrite the old row.",
+     "focus": -1,
+     "file": "clips/0b167a67be6f.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "We **close** it with an end date and **add** a new row.",
+     "say": "We close it with an end date and add a new row.",
+     "focus": -1,
+     "file": "clips/34059a996145.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "This is the \"keep history\" fix from lesson 7, so old claims still show the address that was true at the time.",
+     "say": "This is the \"keep history\" fix from lesson 7, so old claims still show the address that was true at the time.",
+     "focus": -1,
+     "file": "clips/3e20a2315114.mp3",
+     "seconds": 7.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Step 1: the provider dimension",
+   "lines": [
+    {
+     "raw": "provider_dim (all IDs, TINs and addresses are made up).",
+     "say": "provider_dim (all I D's, T I N's and addresses are made up).",
+     "focus": -1,
+     "file": "clips/d03ae49a1b8e.mp3",
+     "seconds": 4.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Step 1: the provider dimension",
+   "lines": [
+    {
+     "raw": "provider_key.",
+     "say": "provider_key.",
+     "focus": 0,
+     "file": "clips/65775a9de461.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "A number the warehouse makes up for each row (a **surrogate key**).",
+     "say": "A number the warehouse makes up for each row (a surrogate key).",
+     "focus": 0,
+     "file": "clips/e3ed96344723.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "The NPI repeats when a provider has history; the key never does.",
+     "say": "The N P I repeats when a provider has history; the key never does.",
+     "focus": 0,
+     "file": "clips/c6c948a615f3.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "entity_type.",
+     "say": "entity_type.",
+     "focus": 1,
+     "file": "clips/b120d0b282da.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "1 = person, 2 = organization (lesson 2).",
+     "say": "1 = person, 2 = organization (lesson 2).",
+     "focus": 1,
+     "file": "clips/157e981db00e.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "eff_dt / end_dt.",
+     "say": "eff_dt or end_dt.",
+     "focus": 2,
+     "file": "clips/aa87c5156a84.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "The dates this version of the row was true.",
+     "say": "The dates this version of the row was true.",
+     "focus": 2,
+     "file": "clips/22b07503b9d2.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "`9999-12-31` = still true.",
+     "say": "9 9 9 9 dash 1 2 dash 3 1 = still true.",
+     "focus": 2,
+     "file": "clips/70c9528a5952.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "is_current.",
+     "say": "is_current.",
+     "focus": 3,
+     "file": "clips/4d66612bd6d7.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "Y for the latest version.",
+     "say": "Y for the latest version.",
+     "focus": 3,
+     "file": "clips/861340e8308e.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Handy for \"today\" questions, but wrong for joining old claims.",
+     "say": "Handy for \"today\" questions, but wrong for joining old claims.",
+     "focus": 3,
+     "file": "clips/3d329092566c.mp3",
+     "seconds": 4.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Step 1: the provider dimension",
+   "lines": [
+    {
+     "raw": "Same TIN, different NPIs.",
+     "say": "Same T I N, different N P I's.",
+     "focus": -1,
+     "file": "clips/a52d268241bb.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Dr. Patel and Sunrise Family Clinic share TIN `74-5550101`: the clinic is paid for her work.",
+     "say": "Doctor Patel and Sunrise Family Clinic share T I N 7 4 dash 5 5 5 0 1 0 1: the clinic is paid for her work.",
+     "focus": -1,
+     "file": "clips/06fb369be895.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "Dr. Lee and Lakeside Surgical Group share `74-5550202`.",
+     "say": "Doctor Lee and Lakeside Surgical Group share 7 4 dash 5 5 5 0 2 0 2.",
+     "focus": -1,
+     "file": "clips/44a5fd19e681.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "Grouping by **TIN** shows you the business; grouping by **NPI** shows you the individual or facility.",
+     "say": "Grouping by T I N shows you the business; grouping by N P I shows you the individual or facility.",
+     "focus": -1,
+     "file": "clips/28d1d5686975.mp3",
+     "seconds": 7.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 2: join claims to providers.",
+     "say": "Step 2: join claims to providers.",
+     "focus": -1,
+     "file": "clips/6661e194d64e.mp3",
+     "seconds": 2.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Step 2: join claims to providers",
+   "lines": [
+    {
+     "raw": "Each claim line has **two** provider columns: `billing_npi` and `rendering_npi`.",
+     "say": "Each claim line has two provider columns: billing_npi and rendering_npi.",
+     "focus": -1,
+     "file": "clips/f94299fac3de.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "So we join the provider table **twice**, once for each role, and we match on the **service date** so we pick the right version of the row:",
+     "say": "So we join the provider table twice, once for each role, and we match on the service date so we pick the right version of the row:",
+     "focus": -1,
+     "file": "clips/fd605a791aa1.mp3",
+     "seconds": 8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Step 2: join claims to providers",
+   "lines": [
+    {
+     "raw": "Billing side: `claim.billing_npi = bill.npi AND claim.from_dt BETWEEN bill.eff_dt AND bill.end_dt`.",
+     "say": "Billing side: claim.billing_npi = bill.npi A N D claim.from_dt BETWEEN bill.eff_dt A N D bill.end_dt.",
+     "focus": 0,
+     "file": "clips/16e77458569e.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "Rendering side: `claim.rendering_npi = rend.npi AND claim.from_dt BETWEEN rend.eff_dt AND rend.end_dt`.",
+     "say": "Rendering side: claim.rendering_npi = rend.npi A N D claim.from_dt BETWEEN rend.eff_dt A N D rend.end_dt.",
+     "focus": 1,
+     "file": "clips/bfe95a266f34.mp3",
+     "seconds": 10.575
+    },
+    {
+     "raw": "Use a **left join** on the rendering side, because many hospital lines have no rendering NPI (NULL).",
+     "say": "Use a left join on the rendering side, because many hospital lines have no rendering N P I (N U L L).",
+     "focus": 2,
+     "file": "clips/2e374f72ee99.mp3",
+     "seconds": 7.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Step 2: join claims to providers",
+   "lines": [
+    {
+     "raw": "Emily's 2025 medical claim lines joined to provider_dim.",
+     "say": "Emily's 2025 medical claim lines joined to provider_dim.",
+     "focus": -1,
+     "file": "clips/23aa30159d44.mp3",
+     "seconds": 5.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Step 2: join claims to providers",
+   "lines": [
+    {
+     "raw": "Which Sunrise row did claim 23098908 use?",
+     "say": "Which Sunrise row did claim 23098908 use?",
+     "focus": -1,
+     "file": "clips/876cb855c0f6.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "The visit was on **2025-03-10**, which falls between `2021-01-01` and `2025-08-31`, so it joins to **provider_key 3** (the old address, 120 Oak St).",
+     "say": "The visit was on 2025-03-10, which falls between 2 0 2 1 dash 0 1 dash 0 1 and 2 0 2 5 dash 0 8 dash 3 1, so it joins to provider_key 3 (the old address, 120 Oak St).",
+     "focus": -1,
+     "file": "clips/3d5be5d57f0d.mp3",
+     "seconds": 17.35
+    },
+    {
+     "raw": "If you joined only on `is_current = Y`, the March visit would wrongly show the **new** address, which did not exist yet.",
+     "say": "If you joined only on is_current = Y, the March visit would wrongly show the new address, which did not exist yet.",
+     "focus": -1,
+     "file": "clips/34ae30f1ead9.mp3",
+     "seconds": 7.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 3: summarise.",
+     "say": "Step 3: summarise.",
+     "focus": -1,
+     "file": "clips/f36bdf63434a.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Step 3: summarise",
+   "lines": [
+    {
+     "raw": "Allowed amount by billing provider (who was paid).",
+     "say": "Allowed amount by billing provider (who was paid).",
+     "focus": -1,
+     "file": "clips/196ba2ee9f65.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "Lakeside General Hospital. Type: Hospital. Claim lines: 6. Allowed: $6,000.00.",
+     "say": "Lakeside General Hospital. Type: Hospital. Claim lines: 6. Allowed: 6000 dollars.",
+     "focus": 0,
+     "file": "clips/cf90d3739091.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "Lakeside Surgical Group. Type: Surgery group. Claim lines: 1. Allowed: $1,200.00.",
+     "say": "Lakeside Surgical Group. Type: Surgery group. Claim lines: 1. Allowed: 1200 dollars.",
+     "focus": 1,
+     "file": "clips/d4ef5fb50873.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "Valley Anesthesia Associates. Type: Anaesthesia group. Claim lines: 1. Allowed: $600.00.",
+     "say": "Valley Anesthesia Associates. Type: Anaesthesia group. Claim lines: 1. Allowed: 600 dollars.",
+     "focus": 2,
+     "file": "clips/7206ba40afa8.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "Sunrise Family Clinic. Type: Primary care clinic. Claim lines: 2. Allowed: $102.00.",
+     "say": "Sunrise Family Clinic. Type: Primary care clinic. Claim lines: 2. Allowed: 102 dollars.",
+     "focus": 3,
+     "file": "clips/bceb0c378353.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "**Total**. Claim lines: **10**. Allowed: **$7,902.00**.",
+     "say": "Total. Claim lines: 10. Allowed: 7902 dollars.",
+     "focus": 4,
+     "file": "clips/2cc3328e2cf1.mp3",
+     "seconds": 4.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Step 3: summarise",
+   "lines": [
+    {
+     "raw": "Allowed amount by rendering provider (who did the work).",
+     "say": "Allowed amount by rendering provider (who did the work).",
+     "focus": -1,
+     "file": "clips/43b5a570a922.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Dr. Lee. Lines: 2. Allowed: $3,600.00. Note: $2,400 operating room line on the hospital claim + $1,200 surgeon fee.",
+     "say": "Doctor Lee. Lines: 2. Allowed: 3600 dollars. Note: 2400 dollars operating room line on the hospital claim and 1200 dollars surgeon fee.",
+     "focus": 0,
+     "file": "clips/78ee16e4b88a.mp3",
+     "seconds": 12.175
+    },
+    {
+     "raw": "Dr. Gomez. Lines: 2. Allowed: $1,200.00. Note: $600 hospital anaesthesia line + $600 professional fee.",
+     "say": "Doctor Gomez. Lines: 2. Allowed: 1200 dollars. Note: 600 dollars hospital anaesthesia line and 600 dollars professional fee.",
+     "focus": 1,
+     "file": "clips/7b9bce72ea63.mp3",
+     "seconds": 10.775
+    },
+    {
+     "raw": "Dr. Patel. Lines: 2. Allowed: $102.00. Note: Office visit + strep test.",
+     "say": "Doctor Patel. Lines: 2. Allowed: 102 dollars. Note: Office visit and strep test.",
+     "focus": 2,
+     "file": "clips/57427236b087.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "NULL (hospital staff). Lines: 4. Allowed: $3,000.00. Note: Room, pharmacy, lab, recovery.",
+     "say": "N U L L (hospital staff). Lines: 4. Allowed: 3000 dollars. Note: Room, pharmacy, lab, recovery.",
+     "focus": 3,
+     "file": "clips/4dc5c0129319.mp3",
+     "seconds": 9.15
+    },
+    {
+     "raw": "**Total**. Lines: **10**. Allowed: **$7,902.00**. Note: Matches the billing total ✓.",
+     "say": "Total. Lines: 10. Allowed: 7902 dollars. Note: Matches the billing total ✓.",
+     "focus": 4,
+     "file": "clips/3d3621ae40a7.mp3",
+     "seconds": 6.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Step 3: summarise",
+   "lines": [
+    {
+     "raw": "Read rendering totals carefully.",
+     "say": "Read rendering totals carefully.",
+     "focus": -1,
+     "file": "clips/a39786b53220.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Dr. Lee's $3,600 includes the hospital's **$2,400 operating room** charge.",
+     "say": "Doctor Lee's 3600 dollars includes the hospital's 2400 dollars operating room charge.",
+     "focus": -1,
+     "file": "clips/2cc25bac9b46.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "That money went to the **hospital**, not to Dr. Lee.",
+     "say": "That money went to the hospital, not to Doctor Lee.",
+     "focus": -1,
+     "file": "clips/66e6de487b72.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "To answer \"how much was Dr. Lee paid?\", use claims where his group is the **billing** provider ($1,200).",
+     "say": "To answer \"how much was Doctor Lee paid?\", use claims where his group is the billing provider (1200 dollars).",
+     "focus": -1,
+     "file": "clips/bf6362e8a1d2.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "Rendering totals answer a different question: \"how much care was linked to this doctor?\".",
+     "say": "Rendering totals answer a different question: \"how much care was linked to this doctor?\".",
+     "focus": -1,
+     "file": "clips/a979a55b0665.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Check: $6,000 + $1,200 + $600 + $102 = **$7,902**, and $3,600 + $1,200 + $102 + $3,000 = **$7,902**.",
+     "say": "Check: 6000 dollars and 1200 dollars and 600 dollars and 102 dollars = 7902 dollars and 3600 dollars and 1200 dollars and 102 dollars and 3000 dollars = 7902 dollars.",
+     "focus": -1,
+     "file": "clips/c5f42a59f858.mp3",
+     "seconds": 17.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Step 3: summarise",
+   "lines": [
+    {
+     "raw": "About the IDs in this course.",
+     "say": "About the I D's in this course.",
+     "focus": -1,
+     "file": "clips/f0cd19151ff9.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "All NPIs, TINs and addresses for Emily's providers are invented for learning.",
+     "say": "All N P I's, T I N's and addresses for Emily's providers are invented for learning.",
+     "focus": -1,
+     "file": "clips/8ab8511c480d.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "Any resemblance to a real provider is a coincidence.",
+     "say": "Any resemblance to a real provider is a coincidence.",
+     "focus": -1,
+     "file": "clips/25ccc90d4fc9.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Field → lesson map.",
+     "say": "Field to lesson map.",
+     "focus": -1,
+     "file": "clips/e9cf9eeca18e.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "provider_name, practice_address. Question it answers: Who and where? Lesson: 1. What is Provider Data?",
+     "say": "provider_name, practice_address. Question it answers: Who and where? Lesson: 1. What is Provider Data?",
+     "focus": 0,
+     "file": "clips/8164414a2c79.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "entity_type, specialty. Question it answers: Person or organization? What kind? Lesson: 2. Types of Providers.",
+     "say": "entity_type, specialty. Question it answers: Person or organization? What kind? Lesson: 2. Types of Providers.",
+     "focus": 1,
+     "file": "clips/966651dec2a4.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "npi, tin, taxonomy_cd. Question it answers: Which provider? Who is paid? Which specialty? Lesson: 3. Provider IDs.",
+     "say": "npi, tin, taxonomy_cd. Question it answers: Which provider? Who is paid? Which specialty? Lesson: 3. Provider I D's.",
+     "focus": 2,
+     "file": "clips/1b4ac821acff.mp3",
+     "seconds": 9.875
+    },
+    {
+     "raw": "billing_npi vs rendering_npi, shared tin. Question it answers: Which group or business does this provider belong to? Lesson: 4. Groups, Systems & Locations.",
+     "say": "billing_npi versus rendering_npi, shared tin. Question it answers: Which group or business does this provider belong to? Lesson: 4. Groups, Systems and Locations.",
+     "focus": 3,
+     "file": "clips/62ee6339a496.mp3",
+     "seconds": 12.5
+    },
+    {
+     "raw": "par_status, network eff_dt / term_dt. Question it answers: In-network on that day? Lesson: 5. Networks, Credentialing & Contracts.",
+     "say": "par_status, network eff_dt or term_dt. Question it answers: In-network on that day? Lesson: 5. Networks, Credentialing and Contracts.",
+     "focus": 4,
+     "file": "clips/b668c73d2f13.mp3",
+     "seconds": 11.125
+    },
+    {
+     "raw": "attributed_npi / PCP. Question it answers: Who is responsible for this member? Lesson: 6. PCPs & Attribution.",
+     "say": "attributed_npi or P C P. Question it answers: Who is responsible for this member? Lesson: 6. P C P's and Attribution.",
+     "focus": 5,
+     "file": "clips/59fbbe648263.mp3",
+     "seconds": 10.6
+    },
+    {
+     "raw": "provider_key, eff_dt, end_dt, is_current. Question it answers: Which version of the provider was true then? Lesson: 7. Data Quality (keeping history), used in this lesson.",
+     "say": "provider_key, eff_dt, end_dt, is_current. Question it answers: Which version of the provider was true then? Lesson: 7. Data Quality (keeping history), used in this lesson.",
+     "focus": 6,
+     "file": "clips/7fb59080cef5.mp3",
+     "seconds": 13.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You can now explain who providers are, read their IDs, understand networks and attribution, and join a provider table to claims the way an analyst does.",
+     "say": "You can now explain who providers are, read their I D's, understand networks and attribution, and join a provider table to claims the way an analyst does.",
+     "focus": -1,
+     "file": "clips/5516419993d4.mp3",
+     "seconds": 10.9
+    },
+    {
+     "raw": "Next, take the **Dental** course to see how dental claims and dental providers work.",
+     "say": "Next, take the Dental course to see how dental claims and dental providers work.",
+     "focus": -1,
+     "file": "clips/1262d33038af.mp3",
+     "seconds": 5.5
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A provider dimension keeps one row per provider version, with eff_dt and end_dt for history.",
+     "say": "A provider dimension keeps one row per provider version, with eff_dt and end_dt for history.",
+     "focus": 0,
+     "file": "clips/fbc55970c39c.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "Join claims to providers twice (billing and rendering), matching on NPI and the service date.",
+     "say": "Join claims to providers twice (billing and rendering), matching on N P I and the service date.",
+     "focus": 1,
+     "file": "clips/c38bccafaeea.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "Billing totals show who was paid; rendering totals show whose care it was.",
+     "say": "Billing totals show who was paid; rendering totals show whose care it was.",
+     "focus": 2,
+     "file": "clips/87e36233cefa.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Do not mix them up.",
+     "say": "Do not mix them up.",
+     "focus": 2,
+     "file": "clips/60a6c0ce0520.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "Group by TIN to see the business, and by NPI to see the individual or facility.",
+     "say": "Group by T I N to see the business, and by N P I to see the individual or facility.",
+     "focus": 3,
+     "file": "clips/e98b9e65b9e4.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

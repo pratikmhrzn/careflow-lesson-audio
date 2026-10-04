@@ -1,0 +1,897 @@
+{
+ "courseId": "hipaa",
+ "lessonId": "phi-and-who",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: PHI and Who Must Protect It.",
+     "say": "Lesson 2: P H I and Who Must Protect It.",
+     "focus": -1,
+     "file": "clips/5d19ab6303e7.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "What counts as protected health information, the 18 identifiers, and who HIPAA applies to.",
+     "say": "What counts as protected health information, the 18 identifiers, and who HIPAA applies to.",
+     "focus": -1,
+     "file": "clips/83310d7dacc8.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Define PHI in plain words.",
+     "say": "Define P H I in plain words.",
+     "focus": 0,
+     "file": "clips/2d9254f163a0.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "List the 18 HIPAA identifiers.",
+     "say": "List the 18 HIPAA identifiers.",
+     "focus": 1,
+     "file": "clips/0d4bd35a3d33.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Tell covered entities from business associates.",
+     "say": "Tell covered entities from business associates.",
+     "focus": 2,
+     "file": "clips/dd0a987de65c.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Explain what a Business Associate Agreement (BAA) is.",
+     "say": "Explain what a Business Associate Agreement (B A A) is.",
+     "focus": 3,
+     "file": "clips/ea0c49687b22.mp3",
+     "seconds": 3.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What exactly is protected?",
+     "say": "What exactly is protected?",
+     "focus": -1,
+     "file": "clips/8ffa3138c50d.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "What exactly is protected?",
+   "lines": [
+    {
+     "raw": "HIPAA does not protect every piece of health information in the world.",
+     "say": "HIPAA does not protect every piece of health information in the world.",
+     "focus": -1,
+     "file": "clips/7dd569f73e9f.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "It protects **PHI**: Protected Health Information.",
+     "say": "It protects P H I: Protected Health Information.",
+     "focus": -1,
+     "file": "clips/c273584b1d6e.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "Information becomes PHI when two things come together: something about a person's **health, care or payment for care**, and something that can **identify** who that person is.",
+     "say": "Information becomes P H I when two things come together: something about a person's health, care or payment for care, and something that can identify who that person is.",
+     "focus": -1,
+     "file": "clips/7fc9adaefb81.mp3",
+     "seconds": 11.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "What exactly is protected?",
+   "lines": [
+    {
+     "raw": "The PHI test.",
+     "say": "The P H I test.",
+     "focus": -1,
+     "file": "clips/d04d36522b96.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "PHI equals health information plus something that identifies the person (held by a covered entity or business associate).",
+     "say": "P H I equals health information plus something that identifies the person (held by a covered entity or business associate).",
+     "focus": 0,
+     "file": "clips/f4bd34be419a.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "For example: \"A patient had strep throat\" is not PHI.",
+     "say": "For example: \"A patient had strep throat\" is not P H I.",
+     "focus": 1,
+     "file": "clips/62ed0e048d96.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "\"Emily Carter, member M1001, had strep throat on 10 March 2025\" is PHI.",
+     "say": "\"Emily Carter, member M 1 0 0 1, had strep throat on 10 March 2025\" is P H I.",
+     "focus": 1,
+     "file": "clips/42fb60b85ca6.mp3",
+     "seconds": 8.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "What exactly is protected?",
+   "lines": [
+    {
+     "raw": "Like an OPD register in Nepal.",
+     "say": "Like an O P D register in Nepal.",
+     "focus": -1,
+     "file": "clips/2d7039a8e749.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "A hospital OPD register lists each patient's name, age, address and complaint.",
+     "say": "A hospital O P D register lists each patient's name, age, address and complaint.",
+     "focus": -1,
+     "file": "clips/0b5093360cfa.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "Tear off the name and address column and the page says only \"35-year-old woman, fever\".",
+     "say": "Tear off the name and address column and the page says only \"35-year-old woman, fever\".",
+     "focus": -1,
+     "file": "clips/6fcc0a0a9e3a.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "Keep the names and the page tells the whole hospital who was sick with what.",
+     "say": "Keep the names and the page tells the whole hospital who was sick with what.",
+     "focus": -1,
+     "file": "clips/951ca32e566d.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "The **combination** is what makes it sensitive.",
+     "say": "The combination is what makes it sensitive.",
+     "focus": -1,
+     "file": "clips/ec7a3a2ef54d.mp3",
+     "seconds": 3.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "What exactly is protected?",
+   "lines": [
+    {
+     "raw": "PHI.",
+     "say": "P H I.",
+     "focus": 0,
+     "file": "clips/f2226fad8754.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Protected Health Information: identifiable health, care or payment information held by a covered entity or business associate.",
+     "say": "Protected Health Information: identifiable health, care or payment information held by a covered entity or business associate.",
+     "focus": 0,
+     "file": "clips/c9eb636abc9f.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "Paper, spoken and electronic forms all count.",
+     "say": "Paper, spoken and electronic forms all count.",
+     "focus": 0,
+     "file": "clips/9579584fb3bc.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "ePHI.",
+     "say": "ePHI.",
+     "focus": 1,
+     "file": "clips/2b8ae73b633a.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "Electronic PHI: PHI stored or sent electronically, in databases, files, emails and so on.",
+     "say": "Electronic P H I: P H I stored or sent electronically, in databases, files, emails and so on.",
+     "focus": 1,
+     "file": "clips/3a1ae8d1396b.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "The Security Rule is about ePHI.",
+     "say": "The Security Rule is about ePHI.",
+     "focus": 1,
+     "file": "clips/40f036eed749.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Individually identifiable.",
+     "say": "Individually identifiable.",
+     "focus": 2,
+     "file": "clips/99b1f00177ea.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Identifies the person, or gives a reasonable basis to identify them.",
+     "say": "Identifies the person, or gives a reasonable basis to identify them.",
+     "focus": 2,
+     "file": "clips/3312b5b09a9f.mp3",
+     "seconds": 5.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "What exactly is protected?",
+   "lines": [
+    {
+     "raw": "Payment data is health data.",
+     "say": "Payment data is health data.",
+     "focus": -1,
+     "file": "clips/5b83a2048c37.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "A claim with **only** a member ID, a date and a dollar amount is still PHI.",
+     "say": "A claim with only a member I D, a date and a dollar amount is still P H I.",
+     "focus": -1,
+     "file": "clips/df14518b368c.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "It shows that a person got care on that day.",
+     "say": "It shows that a person got care on that day.",
+     "focus": -1,
+     "file": "clips/a0444f0fcc9b.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Claims, eligibility files and pharmacy fills are all PHI.",
+     "say": "Claims, eligibility files and pharmacy fills are all P H I.",
+     "focus": -1,
+     "file": "clips/375c96e89d79.mp3",
+     "seconds": 4.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The 18 identifiers.",
+     "say": "The 18 identifiers.",
+     "focus": -1,
+     "file": "clips/a19ac827bebf.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "The 18 identifiers",
+   "lines": [
+    {
+     "raw": "HIPAA lists **18 types of identifiers**.",
+     "say": "HIPAA lists 18 types of identifiers.",
+     "focus": -1,
+     "file": "clips/475c9f82f5b9.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "They matter most when you want to make data **de-identified** (taught in lesson 6): every one must be removed.",
+     "say": "They matter most when you want to make data de-identified (taught in lesson 6): every one must be removed.",
+     "focus": -1,
+     "file": "clips/f360cb6e535c.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "They cover the patient and also their **relatives, employer and household members**.",
+     "say": "They cover the patient and also their relatives, employer and household members.",
+     "focus": -1,
+     "file": "clips/2594dbce9161.mp3",
+     "seconds": 5.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The 18 identifiers",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "1. Identifier: Names. Example from Emily's records: Emily Carter.",
+     "say": "1. Identifier: Names. Example from Emily's records: Emily Carter.",
+     "focus": 0,
+     "file": "clips/0d0b93b9cd61.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "2. Identifier: Geographic areas smaller than a state: street address, city, county, ZIP code (the first 3 digits of a ZIP may stay if that area has more than 20,000 people). Example from Emily's records: Street address, Austin, ZIP code.",
+     "say": "2. Identifier: Geographic areas smaller than a state: street address, city, county, Z I P code (the first 3 digits of a Z I P may stay if that area has more than 20,000 people). Example from Emily's records: Street address, Austin, Z I P code.",
+     "focus": 1,
+     "file": "clips/28e83fd2c625.mp3",
+     "seconds": 18.375
+    },
+    {
+     "raw": "3. Identifier: All parts of dates (except the year) linked to the person: birth, admission, discharge, death, service dates. Ages over 89 must be grouped as \"90 or older\". Example from Emily's records: Born 1990-08-14, seen 2025-03-10.",
+     "say": "3. Identifier: All parts of dates (except the year) linked to the person: birth, admission, discharge, death, service dates. Ages over 89 must be grouped as \"90 or older\". Example from Emily's records: Born 1990-08-14, seen 2025-03-10.",
+     "focus": 2,
+     "file": "clips/5be6313aee6c.mp3",
+     "seconds": 20.55
+    },
+    {
+     "raw": "4. Identifier: Telephone numbers. Example from Emily's records: Her mobile number.",
+     "say": "4. Identifier: Telephone numbers. Example from Emily's records: Her mobile number.",
+     "focus": 3,
+     "file": "clips/5c0d899c9401.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "5. Identifier: Fax numbers. Example from Emily's records: A clinic fax with her name on it.",
+     "say": "5. Identifier: Fax numbers. Example from Emily's records: A clinic fax with her name on it.",
+     "focus": 4,
+     "file": "clips/adaaa3d746a7.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "6. Identifier: Email addresses. Example from Emily's records: Her personal email.",
+     "say": "6. Identifier: Email addresses. Example from Emily's records: Her personal email.",
+     "focus": 5,
+     "file": "clips/1c670f0bccee.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "7. Identifier: Social Security numbers. Example from Emily's records: Her SSN.",
+     "say": "7. Identifier: Social Security numbers. Example from Emily's records: Her S S N.",
+     "focus": 6,
+     "file": "clips/3bc93128cf0b.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "8. Identifier: Medical record numbers. Example from Emily's records: Lakeside General Hospital's record number for her.",
+     "say": "8. Identifier: Medical record numbers. Example from Emily's records: Lakeside General Hospital's record number for her.",
+     "focus": 7,
+     "file": "clips/61931655a46c.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "9. Identifier: Health plan beneficiary numbers. Example from Emily's records: Member ID `M1001`, insurance card ID `48291307-01`.",
+     "say": "9. Identifier: Health plan beneficiary numbers. Example from Emily's records: Member I D M 1 0 0 1, insurance card I D 4 8 2 9 1 3 0 7 dash 0 1.",
+     "focus": 8,
+     "file": "clips/a1dac3f8741e.mp3",
+     "seconds": 14.9
+    },
+    {
+     "raw": "10. Identifier: Account numbers. Example from Emily's records: Her hospital billing account.",
+     "say": "10. Identifier: Account numbers. Example from Emily's records: Her hospital billing account.",
+     "focus": 9,
+     "file": "clips/81bdbe9c516f.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "11. Identifier: Certificate and licence numbers. Example from Emily's records: Her driving licence number.",
+     "say": "11. Identifier: Certificate and licence numbers. Example from Emily's records: Her driving licence number.",
+     "focus": 10,
+     "file": "clips/dd0a6c57b87a.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "12. Identifier: Vehicle identifiers and serial numbers, including number plates. Example from Emily's records: Her car number plate.",
+     "say": "12. Identifier: Vehicle identifiers and serial numbers, including number plates. Example from Emily's records: Her car number plate.",
+     "focus": 11,
+     "file": "clips/bd11cdbdb0b0.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "13. Identifier: Device identifiers and serial numbers. Example from Emily's records: Serial number of an implant or medical device.",
+     "say": "13. Identifier: Device identifiers and serial numbers. Example from Emily's records: Serial number of an implant or medical device.",
+     "focus": 12,
+     "file": "clips/3bdb6861ca98.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "14. Identifier: Web URLs. Example from Emily's records: A link to her personal page.",
+     "say": "14. Identifier: Web U R L's. Example from Emily's records: A link to her personal page.",
+     "focus": 13,
+     "file": "clips/1e874e860f42.mp3",
+     "seconds": 7.5
+    },
+    {
+     "raw": "15. Identifier: IP addresses. Example from Emily's records: Her IP when she logs in to the insurer's website.",
+     "say": "15. Identifier: I P addresses. Example from Emily's records: Her I P when she logs in to the insurer's website.",
+     "focus": 14,
+     "file": "clips/d1891f7303b6.mp3",
+     "seconds": 8.8
+    },
+    {
+     "raw": "16. Identifier: Biometric identifiers, such as finger and voice prints. Example from Emily's records: Her fingerprint.",
+     "say": "16. Identifier: Biometric identifiers, such as finger and voice prints. Example from Emily's records: Her fingerprint.",
+     "focus": 15,
+     "file": "clips/ac2259537dc8.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "17. Identifier: Full-face photos and similar images. Example from Emily's records: A photo on her ID card.",
+     "say": "17. Identifier: Full-face photos and similar images. Example from Emily's records: A photo on her I D card.",
+     "focus": 16,
+     "file": "clips/fc011fbb632d.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "18. Identifier: Any other unique identifying number, characteristic or code. Example from Emily's records: Claim number `23098908`.",
+     "say": "18. Identifier: Any other unique identifying number, characteristic or code. Example from Emily's records: Claim number 2 3 0 9 8 9 0 8.",
+     "focus": 17,
+     "file": "clips/83a4852d83a9.mp3",
+     "seconds": 12.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The 18 identifiers",
+   "lines": [
+    {
+     "raw": "How to remember them.",
+     "say": "How to remember them.",
+     "focus": -1,
+     "file": "clips/4a187ffd2664.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Think in groups: **who** (name, face, biometrics), **where** (address, small geography), **when** (dates, ages over 89), **how to contact** (phone, fax, email, URL, IP), **numbers** (SSN, record, member, account, licence, vehicle, device) and **anything else unique**.",
+     "say": "Think in groups: who (name, face, biometrics), where (address, small geography), when (dates, ages over 89), how to contact (phone, fax, email, U R L, I P), numbers (S S N, record, member, account, licence, vehicle, device) and anything else unique.",
+     "focus": -1,
+     "file": "clips/81bf5e2792ee.mp3",
+     "seconds": 17.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The 18 identifiers",
+   "lines": [
+    {
+     "raw": "Not on the list does not mean safe.",
+     "say": "Not on the list does not mean safe.",
+     "focus": -1,
+     "file": "clips/b84b3e40499f.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "A diagnosis code is not an identifier.",
+     "say": "A diagnosis code is not an identifier.",
+     "focus": -1,
+     "file": "clips/5f5735abf63a.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "But a rare diagnosis plus a small town plus an age can still point to one person.",
+     "say": "But a rare diagnosis plus a small town plus an age can still point to one person.",
+     "focus": -1,
+     "file": "clips/0393d7c1a1f4.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "The list is a minimum, not a guarantee.",
+     "say": "The list is a minimum, not a guarantee.",
+     "focus": -1,
+     "file": "clips/64ed8a2c2335.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who must follow HIPAA?",
+     "say": "Who must follow HIPAA?",
+     "focus": -1,
+     "file": "clips/ac41fdc8ba53.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Who must follow HIPAA?",
+   "lines": [
+    {
+     "raw": "HIPAA applies to two groups: **covered entities**, the organisations at the centre of healthcare, and **business associates**, the companies they hire to work with PHI.",
+     "say": "HIPAA applies to two groups: covered entities, the organisations at the centre of healthcare, and business associates, the companies they hire to work with P H I.",
+     "focus": -1,
+     "file": "clips/287e4cb65d50.mp3",
+     "seconds": 10.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Who must follow HIPAA?",
+   "lines": [
+    {
+     "raw": "Covered entities: the three types.",
+     "say": "Covered entities: the three types.",
+     "focus": -1,
+     "file": "clips/e536f6df56fd.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "**Health plans**. Who: Insurers, HMOs, employer group health plans, Medicare, Medicaid. Emily's example: Emily's PPO plan (TXPPO1000).",
+     "say": "Health plans. Who: Insurers, H M O's, employer group health plans, Medicare, Medicaid. Emily's example: Emily's P P O plan (T X P P O 1 0 0 0).",
+     "focus": 0,
+     "file": "clips/42bd45ee8ae1.mp3",
+     "seconds": 13.275
+    },
+    {
+     "raw": "**Healthcare providers**. Who: Doctors, hospitals, pharmacies, labs, if they send standard electronic transactions such as claims. Emily's example: Dr. Patel, Lakeside General Hospital.",
+     "say": "Healthcare providers. Who: Doctors, hospitals, pharmacies, labs, if they send standard electronic transactions such as claims. Emily's example: Doctor Patel, Lakeside General Hospital.",
+     "focus": 1,
+     "file": "clips/0cecb47659af.mp3",
+     "seconds": 13.325
+    },
+    {
+     "raw": "**Healthcare clearinghouses**. Who: Companies that convert claims between formats and route them to payers. Emily's example: The clearinghouse that turns Dr. Patel's billing system output into an 837P.",
+     "say": "Healthcare clearinghouses. Who: Companies that convert claims between formats and route them to payers. Emily's example: The clearinghouse that turns Doctor Patel's billing system output into an 8 3 7 P.",
+     "focus": 2,
+     "file": "clips/a4efe492529a.mp3",
+     "seconds": 14.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Who must follow HIPAA?",
+   "lines": [
+    {
+     "raw": "Business associate (BA).",
+     "say": "Business associate (B A).",
+     "focus": 0,
+     "file": "clips/a32576a15a34.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "A person or company that does work **for** a covered entity and needs PHI to do it.",
+     "say": "A person or company that does work for a covered entity and needs P H I to do it.",
+     "focus": 0,
+     "file": "clips/8027a019a4e8.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "Examples: claims processors, billing and coding companies, cloud hosting, data analytics firms, lawyers and auditors who see PHI.",
+     "say": "Examples: claims processors, billing and coding companies, cloud hosting, data analytics firms, lawyers and auditors who see P H I.",
+     "focus": 0,
+     "file": "clips/2069024e29b4.mp3",
+     "seconds": 9.625
+    },
+    {
+     "raw": "Subcontractor.",
+     "say": "Subcontractor.",
+     "focus": 1,
+     "file": "clips/b6d350502f8f.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "A company hired by a business associate that also touches PHI.",
+     "say": "A company hired by a business associate that also touches P H I.",
+     "focus": 1,
+     "file": "clips/e4ba6eb6c149.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "It is treated as a business associate too, so the duties flow all the way down the chain.",
+     "say": "It is treated as a business associate too, so the duties flow all the way down the chain.",
+     "focus": 1,
+     "file": "clips/242c598376bf.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "BAA (Business Associate Agreement).",
+     "say": "B A A (Business Associate Agreement).",
+     "focus": 2,
+     "file": "clips/15fa6652dc67.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "The contract a covered entity must sign with each business associate before sharing PHI.",
+     "say": "The contract a covered entity must sign with each business associate before sharing P H I.",
+     "focus": 2,
+     "file": "clips/8cdbfbe9bd69.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "It says what the BA may do with the PHI, how it must protect it, and that it must report breaches.",
+     "say": "It says what the B A may do with the P H I, how it must protect it, and that it must report breaches.",
+     "focus": 2,
+     "file": "clips/5d5e55a8fb25.mp3",
+     "seconds": 6.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Who must follow HIPAA?",
+   "lines": [
+    {
+     "raw": "Covered entity.",
+     "say": "Covered entity.",
+     "focus": 0,
+     "file": "clips/c9a9f3fa4774.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "Emily's health plan holds her claims.",
+     "say": "Emily's health plan holds her claims.",
+     "focus": 0,
+     "file": "clips/a6b425fd3590.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "BAA signed.",
+     "say": "B A A signed.",
+     "focus": 1,
+     "file": "clips/bcf180d0ffb4.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "The plan hires a US analytics company and signs a BAA with it.",
+     "say": "The plan hires a U S analytics company and signs a B A A with it.",
+     "focus": 1,
+     "file": "clips/17f16a5a034e.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Subcontractor BAA.",
+     "say": "Subcontractor B A A.",
+     "focus": 2,
+     "file": "clips/ef432ca12526.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "The analytics company hires a data team in Kathmandu and signs a BAA (or similar contract) with them.",
+     "say": "The analytics company hires a data team in Kathmandu and signs a B A A (or similar contract) with them.",
+     "focus": 2,
+     "file": "clips/e527023846fe.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "Same rules, all the way down.",
+     "say": "Same rules, all the way down.",
+     "focus": 3,
+     "file": "clips/6c2d875c901e.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "The Kathmandu team must protect Emily's data just as the plan would.",
+     "say": "The Kathmandu team must protect Emily's data just as the plan would.",
+     "focus": 3,
+     "file": "clips/252ada78e73c.mp3",
+     "seconds": 4.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Who must follow HIPAA?",
+   "lines": [
+    {
+     "raw": "The same idea in Nepal.",
+     "say": "The same idea in Nepal.",
+     "focus": -1,
+     "file": "clips/12133dd62d0d.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's insurer may use a third-party company to check hospital bills.",
+     "say": "Ram's insurer may use a third-party company to check hospital bills.",
+     "focus": 0,
+     "file": "clips/b1466d52ac67.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Ram's diagnosis passes to that company.",
+     "say": "Ram's diagnosis passes to that company.",
+     "focus": 0,
+     "file": "clips/d1afe9da5943.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "In Nepal, how that company must protect it depends mostly on its contract and general privacy law.",
+     "say": "In Nepal, how that company must protect it depends mostly on its contract and general privacy law.",
+     "focus": 0,
+     "file": "clips/fb69481dd779.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's SSF-listed hospital shares her records with SSF for payment.",
+     "say": "Sita's S S F listed hospital shares her records with S S F for payment.",
+     "focus": 1,
+     "file": "clips/3efadb2ff250.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "You can think of SSF as a \"health plan\" and the hospital as a \"provider\".",
+     "say": "You can think of S S F as a \"health plan\" and the hospital as a \"provider\".",
+     "focus": 1,
+     "file": "clips/c8b0c99dd53a.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "In US terms, both would be covered entities.",
+     "say": "In U S terms, both would be covered entities.",
+     "focus": 1,
+     "file": "clips/b375a7d44786.mp3",
+     "seconds": 3.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Who must follow HIPAA?",
+   "lines": [
+    {
+     "raw": "In the US: Who is NOT covered by HIPAA.",
+     "say": "In the U S: Who is N O T covered by HIPAA.",
+     "focus": -1,
+     "file": "clips/9c59602528a8.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Emily's **employer** acting as an employer (for example, a sick note in her HR file).",
+     "say": "Emily's employer acting as an employer (for example, a sick note in her H R file).",
+     "focus": 0,
+     "file": "clips/ce8f1af8518d.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "The employer's **health plan** is covered, but HR is not.",
+     "say": "The employer's health plan is covered, but H R is not.",
+     "focus": 0,
+     "file": "clips/5d1365724fe1.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "A **fitness app** or smartwatch company that Emily signs up for directly.",
+     "say": "A fitness app or smartwatch company that Emily signs up for directly.",
+     "focus": 1,
+     "file": "clips/1e5291d54f7d.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "**Life insurance** companies.",
+     "say": "Life insurance companies.",
+     "focus": 2,
+     "file": "clips/551f13a69cc2.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Emily herself: she can share her own health information with anyone she likes.",
+     "say": "Emily herself: she can share her own health information with anyone she likes.",
+     "focus": 3,
+     "file": "clips/1087e673cf4a.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Other laws may still protect this data, but HIPAA itself does not.",
+     "say": "Other laws may still protect this data, but HIPAA itself does not.",
+     "focus": 4,
+     "file": "clips/f0088ec0b37b.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "PHI = health or payment information + something that identifies the person, held by a covered entity or BA.",
+     "say": "P H I = health or payment information and something that identifies the person, held by a covered entity or B A.",
+     "focus": 0,
+     "file": "clips/752492c3cada.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "HIPAA lists 18 identifiers, including names, small geography, dates (except year), contact details, ID numbers, photos and any other unique code.",
+     "say": "HIPAA lists 18 identifiers, including names, small geography, dates (except year), contact details, I D numbers, photos and any other unique code.",
+     "focus": 1,
+     "file": "clips/9c04706289e2.mp3",
+     "seconds": 10.75
+    },
+    {
+     "raw": "Covered entities: health plans, healthcare providers that bill electronically, and clearinghouses.",
+     "say": "Covered entities: health plans, healthcare providers that bill electronically, and clearinghouses.",
+     "focus": 2,
+     "file": "clips/9c8b44e0b6c4.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "Business associates work with PHI on their behalf and must sign a BAA.",
+     "say": "Business associates work with P H I on their behalf and must sign a B A A.",
+     "focus": 3,
+     "file": "clips/6b24817f07b7.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "Subcontractors are business associates too.",
+     "say": "Subcontractors are business associates too.",
+     "focus": 3,
+     "file": "clips/ebabde702531.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

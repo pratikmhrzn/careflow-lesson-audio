@@ -1,0 +1,645 @@
+{
+ "courseId": "vision",
+ "lessonId": "diagnosis-decides-plan",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Diagnosis Decides the Plan.",
+     "say": "Lesson 5: Diagnosis Decides the Plan.",
+     "focus": -1,
+     "file": "clips/04d33ecf824f.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Why routine eye care goes to the vision plan and eye disease goes to the medical plan.",
+     "say": "Why routine eye care goes to the vision plan and eye disease goes to the medical plan.",
+     "focus": -1,
+     "file": "clips/92e5c956230c.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Use the diagnosis code to decide if an eye visit is routine or medical.",
+     "say": "Use the diagnosis code to decide if an eye visit is routine or medical.",
+     "focus": 0,
+     "file": "clips/7423b55c8ff3.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Read the parts of an eye diagnosis code.",
+     "say": "Read the parts of an eye diagnosis code.",
+     "focus": 1,
+     "file": "clips/57002e29af77.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Follow the routing steps from diagnosis to the right plan.",
+     "say": "Follow the routing steps from diagnosis to the right plan.",
+     "focus": 2,
+     "file": "clips/10b038ec0e80.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "Follow Robert's diabetic eye exam through Medicare.",
+     "say": "Follow Robert's diabetic eye exam through Medicare.",
+     "focus": 3,
+     "file": "clips/b712d3854cf9.mp3",
+     "seconds": 3.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "In Nepal: Same eye hospital, two kinds of visit.",
+     "say": "In Nepal: Same eye hospital, two kinds of visit.",
+     "focus": -1,
+     "file": "clips/4b5d3dfef472.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "At an eye hospital in Kathmandu, one patient comes for a **power check** before buying glasses.",
+     "say": "At an eye hospital in Kathmandu, one patient comes for a power check before buying glasses.",
+     "focus": 0,
+     "file": "clips/824672ea2474.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "The next comes with **cataract**, and is booked for surgery.",
+     "say": "The next comes with cataract, and is booked for surgery.",
+     "focus": 0,
+     "file": "clips/48ce3cbc6ac6.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "If Ram claimed both from his insurer, the insurer would read the **reason** on each bill: a power check is a routine expense many policies exclude, while cataract surgery is treatment of a disease.",
+     "say": "If Ram claimed both from his insurer, the insurer would read the reason on each bill: a power check is a routine expense many policies exclude, while cataract surgery is treatment of a disease.",
+     "focus": 1,
+     "file": "clips/93857607be3c.mp3",
+     "seconds": 12.9
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "For Sita, the same split applies: an eye **disease** treated at an SSF-listed hospital is handled like other SSF treatment, while glasses depend on SSF's current rules.",
+     "say": "For Sita, the same split applies: an eye disease treated at an S S F listed hospital is handled like other S S F treatment, while glasses depend on SSF's current rules.",
+     "focus": 2,
+     "file": "clips/d2cca7255269.mp3",
+     "seconds": 12.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Diagnosis codes decide the plan.",
+     "say": "Diagnosis codes decide the plan.",
+     "focus": -1,
+     "file": "clips/86ae1c05205e.mp3",
+     "seconds": 2.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Diagnosis codes decide the plan",
+   "lines": [
+    {
+     "raw": "The **diagnosis** answers **why** the patient came.",
+     "say": "The diagnosis answers why the patient came.",
+     "focus": -1,
+     "file": "clips/80fdef17a212.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "For eyes, that is how a claim is steered to the right plan: a refraction problem or a routine check goes to **vision**; a disease goes to **medical**.",
+     "say": "For eyes, that is how a claim is steered to the right plan: a refraction problem or a routine check goes to vision; a disease goes to medical.",
+     "focus": -1,
+     "file": "clips/80e8848d71fa.mp3",
+     "seconds": 9.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Diagnosis codes decide the plan",
+   "lines": [
+    {
+     "raw": "Short-sightedness in both eyes.",
+     "say": "Short-sightedness in both eyes.",
+     "focus": -1,
+     "file": "clips/26e70f848f06.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "H52: Chapter H00–H59 is **eye** diseases; **H52** is **disorders of refraction** (problems glasses fix).",
+     "say": "H52: Chapter H 0 0 – H 5 9 is eye diseases; H52 is disorders of refraction (problems glasses fix).",
+     "focus": 0,
+     "file": "clips/9ed57a6d78aa.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": ".1: **Myopia** (short-sightedness: far things look blurry).",
+     "say": ".1: Myopia (short-sightedness: far things look blurry).",
+     "focus": 1,
+     "file": "clips/b24526dd5ea0.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "3: **Both eyes** (1 = right, 2 = left, 3 = both).",
+     "say": "3: Both eyes (1 = right, 2 = left, 3 = both).",
+     "focus": 2,
+     "file": "clips/1ac3f354dd2a.mp3",
+     "seconds": 4.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Diagnosis codes decide the plan",
+   "lines": [
+    {
+     "raw": "Common eye diagnosis codes.",
+     "say": "Common eye diagnosis codes.",
+     "focus": -1,
+     "file": "clips/2a23f2482b46.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "`Z01.00` / `Z01.01`. Meaning: Routine eye and vision exam, without / with abnormal findings. Usually billed to: Vision plan.",
+     "say": "Z 0 1 . 0 0 or Z 0 1 . 0 1. Meaning: Routine eye and vision exam, without or with abnormal findings. Usually billed to: Vision plan.",
+     "focus": 0,
+     "file": "clips/b20109e0fbb5.mp3",
+     "seconds": 12.4
+    },
+    {
+     "raw": "`H52.13`. Meaning: Myopia (short-sighted), both eyes. Usually billed to: Vision plan.",
+     "say": "H 5 2 . 1 3. Meaning: Myopia (short-sighted), both eyes. Usually billed to: Vision plan.",
+     "focus": 1,
+     "file": "clips/aa57afcfc4bc.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "`H52.4`. Meaning: Presbyopia (age-related trouble reading up close). Usually billed to: Vision plan.",
+     "say": "H 5 2 . 4. Meaning: Presbyopia (age-related trouble reading up close). Usually billed to: Vision plan.",
+     "focus": 2,
+     "file": "clips/d85b062fc746.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "`H10.9`. Meaning: Conjunctivitis (pink eye), unspecified. Usually billed to: Medical plan.",
+     "say": "H 1 0 . 9. Meaning: Conjunctivitis (pink eye), unspecified. Usually billed to: Medical plan.",
+     "focus": 3,
+     "file": "clips/c5d30e5925e0.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "`H25.9`. Meaning: Age-related cataract, unspecified. Usually billed to: Medical plan.",
+     "say": "H 2 5 . 9. Meaning: Age-related cataract, unspecified. Usually billed to: Medical plan.",
+     "focus": 4,
+     "file": "clips/aadbaaf855d5.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "`H40.9`. Meaning: Glaucoma, unspecified. Usually billed to: Medical plan.",
+     "say": "H 4 0 . 9. Meaning: Glaucoma, unspecified. Usually billed to: Medical plan.",
+     "focus": 5,
+     "file": "clips/c6f45d074969.mp3",
+     "seconds": 7.025
+    },
+    {
+     "raw": "`E11.9`. Meaning: Type 2 diabetes without complications (used for a diabetic eye check that finds no eye damage). Usually billed to: Medical plan / Medicare.",
+     "say": "E 1 1 . 9. Meaning: Type 2 diabetes without complications (used for a diabetic eye check that finds no eye damage). Usually billed to: Medical plan or Medicare.",
+     "focus": 6,
+     "file": "clips/891e2bd47d0c.mp3",
+     "seconds": 12.75
+    },
+    {
+     "raw": "`E11.319`. Meaning: Type 2 diabetes with diabetic retinopathy (eye damage), without macular oedema. Usually billed to: Medical plan / Medicare.",
+     "say": "E 1 1 . 3 1 9. Meaning: Type 2 diabetes with diabetic retinopathy (eye damage), without macular oedema. Usually billed to: Medical plan or Medicare.",
+     "focus": 7,
+     "file": "clips/1ed55ef14e7f.mp3",
+     "seconds": 12.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Diagnosis codes decide the plan",
+   "lines": [
+    {
+     "raw": "Why did the patient come?",
+     "say": "Why did the patient come?",
+     "focus": 0,
+     "file": "clips/256545d7eaee.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Look at the **diagnosis** on the claim.",
+     "say": "Look at the diagnosis on the claim.",
+     "focus": 0,
+     "file": "clips/16c61e276805.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Routine or refraction?",
+     "say": "Routine or refraction?",
+     "focus": 1,
+     "file": "clips/9e15125a9ae2.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "`Z01.0x` or `H52.x` with an S-code or V-codes: send to the **vision plan**.",
+     "say": "Z 0 1 . 0 x or H 5 2 . x with an S-code or V-codes: send to the vision plan.",
+     "focus": 1,
+     "file": "clips/6cde07015f0d.mp3",
+     "seconds": 7.8
+    },
+    {
+     "raw": "Disease or injury?",
+     "say": "Disease or injury?",
+     "focus": 2,
+     "file": "clips/731714818d2a.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Infection, cataract, glaucoma, diabetes: send to the **medical plan** with a `92xxx` exam code.",
+     "say": "Infection, cataract, glaucoma, diabetes: send to the medical plan with a 9 2 x x x exam code.",
+     "focus": 2,
+     "file": "clips/b4a5cc7e9a85.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "Check the member.",
+     "say": "Check the member.",
+     "focus": 3,
+     "file": "clips/64f5789a9c2c.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Is the member enrolled in that plan on the service date?",
+     "say": "Is the member enrolled in that plan on the service date?",
+     "focus": 3,
+     "file": "clips/204f51f2a8eb.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "(See the Eligibility course.)",
+     "say": "(See the Eligibility course.)",
+     "focus": 3,
+     "file": "clips/2fb925224be7.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Apply the plan rules.",
+     "say": "Apply the plan rules.",
+     "focus": 4,
+     "file": "clips/ef000d6614b6.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Vision: copay, allowance, frequency.",
+     "say": "Vision: copay, allowance, frequency.",
+     "focus": 4,
+     "file": "clips/ce00a072cb54.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Medical: deductible, copay, coinsurance.",
+     "say": "Medical: deductible, copay, coinsurance.",
+     "focus": 4,
+     "file": "clips/1842151ec726.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Robert's diabetic eye exam.",
+     "say": "Robert's diabetic eye exam.",
+     "focus": -1,
+     "file": "clips/cb39e91aad1c.mp3",
+     "seconds": 2.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Robert's diabetic eye exam",
+   "lines": [
+    {
+     "raw": "Robert, Emily's father, has **type 2 diabetes** and **high blood pressure**.",
+     "say": "Robert, Emily's father, has type 2 diabetes and high blood pressure.",
+     "focus": -1,
+     "file": "clips/efe69534cd61.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "In **2023** he had **Original Medicare** (Parts A and B) and no extra vision plan, so this lesson follows his 2023 exam.",
+     "say": "In 2023 he had Original Medicare (Parts A and B) and no extra vision plan, so this lesson follows his 2023 exam.",
+     "focus": -1,
+     "file": "clips/65b310277473.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "(Since 2024 he has had a Medicare Advantage plan, which handles the same exam with its own copays.)",
+     "say": "(Since 2024 he has had a Medicare Advantage plan, which handles the same exam with its own copays.)",
+     "focus": -1,
+     "file": "clips/a9c8a8c4cd64.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "High blood sugar can slowly damage the back of the eye (**diabetic retinopathy**), so people with diabetes should have a **dilated eye exam** every year.",
+     "say": "High blood sugar can slowly damage the back of the eye (diabetic retinopathy), so people with diabetes should have a dilated eye exam every year.",
+     "focus": -1,
+     "file": "clips/3a873d859f04.mp3",
+     "seconds": 10.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Robert's diabetic eye exam",
+   "lines": [
+    {
+     "raw": "On **16 September 2023**, Robert sees his eye doctor, **Dr. Shah** at **Clear View Eye Center** (fictional), an ophthalmology practice in Houston.",
+     "say": "On 16 September 2023, Robert sees his eye doctor, Doctor Shah at Clear View Eye Center (fictional), an ophthalmology practice in Houston.",
+     "focus": -1,
+     "file": "clips/92d2ff661866.mp3",
+     "seconds": 10.3
+    },
+    {
+     "raw": "Dr. Shah puts drops in his eyes to widen the pupils and checks the retina.",
+     "say": "Doctor Shah puts drops in his eyes to widen the pupils and checks the retina.",
+     "focus": -1,
+     "file": "clips/bb7b5f7f5d10.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Good news: **no diabetic eye damage**.",
+     "say": "Good news: no diabetic eye damage.",
+     "focus": -1,
+     "file": "clips/c7a2de62b620.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Dr. Shah also measures his power for new reading glasses.",
+     "say": "Doctor Shah also measures his power for new reading glasses.",
+     "focus": -1,
+     "file": "clips/be5179148bb2.mp3",
+     "seconds": 4.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Robert's diabetic eye exam",
+   "lines": [
+    {
+     "raw": "Here is the CMS-1500 form: Robert's claim to Medicare Part B.",
+     "say": "Here is the C M S 1500 form: Robert's claim to Medicare Part B.",
+     "focus": -1,
+     "file": "clips/9415cbd65ba0.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Patient: Robert Carter.",
+     "say": "Patient: Robert Carter.",
+     "focus": 0,
+     "file": "clips/f4c5c1c2c56c.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Original Medicare.",
+     "say": "Original Medicare.",
+     "focus": 0,
+     "file": "clips/143348156ec5.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Billing provider: Clear View Eye Center.",
+     "say": "Billing provider: Clear View Eye Center.",
+     "focus": 1,
+     "file": "clips/7966aeb7403a.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Fictional ophthalmology practice, Houston.",
+     "say": "Fictional ophthalmology practice, Houston.",
+     "focus": 1,
+     "file": "clips/13b54fcffe2f.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "Diagnosis 1: E11.9.",
+     "say": "Diagnosis 1: E 1 1 . 9.",
+     "focus": 2,
+     "file": "clips/1452dbbde9c4.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "Type 2 diabetes, no complications found.",
+     "say": "Type 2 diabetes, no complications found.",
+     "focus": 2,
+     "file": "clips/be2ae9d1a605.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Diagnosis 2: I10.",
+     "say": "Diagnosis 2: I10.",
+     "focus": 3,
+     "file": "clips/981e158a3e0d.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "High blood pressure.",
+     "say": "High blood pressure.",
+     "focus": 3,
+     "file": "clips/a14f1473559f.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Diagnosis 3: H52.4.",
+     "say": "Diagnosis 3: H 5 2 . 4.",
+     "focus": 4,
+     "file": "clips/5e6ff975fdb0.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Presbyopia (needs reading glasses).",
+     "say": "Presbyopia (needs reading glasses).",
+     "focus": 4,
+     "file": "clips/cb59caedf4c9.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Total charges: $245.00.",
+     "say": "Total charges: 245 dollars.",
+     "focus": 5,
+     "file": "clips/2035d4e69317.mp3",
+     "seconds": 3.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Robert's diabetic eye exam",
+   "lines": [
+    {
+     "raw": "Reading Robert's claim.",
+     "say": "Reading Robert's claim.",
+     "focus": -1,
+     "file": "clips/a4b14e93c44c.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Robert had already met his Part B deductible earlier in 2023, so line 1 is split **80/20**: Medicare pays $104 and Robert pays $26 (20% of $130).",
+     "say": "Robert had already met his Part B deductible earlier in 2023, so line 1 is split 80/20: Medicare pays 104 dollars and Robert pays 26 dollars (20 percent of 130 dollars).",
+     "focus": -1,
+     "file": "clips/de2375bfc67c.mp3",
+     "seconds": 14.825
+    },
+    {
+     "raw": "**Refraction is not covered** by Original Medicare, so Robert pays the full $45.",
+     "say": "Refraction is not covered by Original Medicare, so Robert pays the full 45 dollars.",
+     "focus": -1,
+     "file": "clips/b07885a9867a.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "His total: $26 + $45 = **$71**.",
+     "say": "His total: 26 dollars and 45 dollars = 71 dollars.",
+     "focus": -1,
+     "file": "clips/1a1f9ffac4bc.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "Medicare's amounts here are illustrative, not real fee schedule prices.",
+     "say": "Medicare's amounts here are illustrative, not real fee schedule prices.",
+     "focus": -1,
+     "file": "clips/5ac978aea464.mp3",
+     "seconds": 5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Robert's diabetic eye exam",
+   "lines": [
+    {
+     "raw": "Why analysts care about diabetic eye exams.",
+     "say": "Why analysts care about diabetic eye exams.",
+     "focus": -1,
+     "file": "clips/10652efc1292.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Health plans are scored on **quality**, and one common measure checks whether members with diabetes had an **eye exam** for retinopathy during the year.",
+     "say": "Health plans are scored on quality, and one common measure checks whether members with diabetes had an eye exam for retinopathy during the year.",
+     "focus": -1,
+     "file": "clips/b920433b06be.mp3",
+     "seconds": 9.425
+    },
+    {
+     "raw": "Analysts find these exams in **medical** claims (not vision claims) by combining a diabetes diagnosis with an eye exam code like `92014`.",
+     "say": "Analysts find these exams in medical claims (not vision claims) by combining a diabetes diagnosis with an eye exam code like 9 2 0 1 4.",
+     "focus": -1,
+     "file": "clips/b944547cb3dc.mp3",
+     "seconds": 11.5
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The **diagnosis** (why the patient came) decides which plan pays, not the type of eye professional.",
+     "say": "The diagnosis (why the patient came) decides which plan pays, not the type of eye professional.",
+     "focus": 0,
+     "file": "clips/f7cb342cfdd0.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "Refraction problems and routine checks (`H52.x`, `Z01.0x`) go to the **vision** plan; disease and injury (infections, cataract, glaucoma, diabetes) go to the **medical** plan.",
+     "say": "Refraction problems and routine checks (H 5 2 . x, Z 0 1 . 0 x) go to the vision plan; disease and injury (infections, cataract, glaucoma, diabetes) go to the medical plan.",
+     "focus": 1,
+     "file": "clips/4525274a06d9.mp3",
+     "seconds": 14.275
+    },
+    {
+     "raw": "One visit can split: Robert's diabetic exam was medical, but the refraction on the same day was not covered by Original Medicare.",
+     "say": "One visit can split: Robert's diabetic exam was medical, but the refraction on the same day was not covered by Original Medicare.",
+     "focus": 2,
+     "file": "clips/f7aa2d2fab0e.mp3",
+     "seconds": 9.375
+    },
+    {
+     "raw": "Diabetic eye exams live in **medical** claims, found by combining a diabetes diagnosis with an eye exam code.",
+     "say": "Diabetic eye exams live in medical claims, found by combining a diabetes diagnosis with an eye exam code.",
+     "focus": 3,
+     "file": "clips/29848279fbe6.mp3",
+     "seconds": 8.475
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

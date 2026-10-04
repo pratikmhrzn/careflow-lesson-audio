@@ -1,0 +1,967 @@
+{
+ "courseId": "interoperability",
+ "lessonId": "c-cda-clinical-documents",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: C-CDA: Clinical Documents.",
+     "say": "Lesson 5: C-CDA: Clinical Documents.",
+     "focus": -1,
+     "file": "clips/73a6fd441817.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "How EHRs package a whole visit or hospital stay into one standard document, and how plans receive it.",
+     "say": "How E H R's package a whole visit or hospital stay into one standard document, and how plans receive it.",
+     "focus": -1,
+     "file": "clips/68c9922ca5ca.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what CDA and C-CDA are, and name the common document types (CCD, discharge summary, referral note).",
+     "say": "Explain what C D A and C-CDA are, and name the common document types (C C D, discharge summary, referral note).",
+     "focus": 0,
+     "file": "clips/56a53e69b242.mp3",
+     "seconds": 8.65
+    },
+    {
+     "raw": "Tell the document header from its body sections, and narrative text from coded entries.",
+     "say": "Tell the document header from its body sections, and narrative text from coded entries.",
+     "focus": 1,
+     "file": "clips/596f5644a4e6.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Recognise the code sets inside a C-CDA: SNOMED CT, LOINC and RxNorm.",
+     "say": "Recognise the code sets inside a C-CDA: SNOMED C T, L O I N C and RxNorm.",
+     "focus": 2,
+     "file": "clips/3196de8bad76.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "Describe how health plans receive C-CDAs and use them, for example as HEDIS supplemental data.",
+     "say": "Describe how health plans receive C-CDAs and use them, for example as HEDIS supplemental data.",
+     "focus": 3,
+     "file": "clips/4fee86fde88c.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "Decide when data arrives as a C-CDA and when as FHIR.",
+     "say": "Decide when data arrives as a C-CDA and when as F H I R.",
+     "focus": 4,
+     "file": "clips/b473ec89a160.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something you already know.",
+     "say": "Start with something you already know.",
+     "focus": -1,
+     "file": "clips/4ff938f8e90d.mp3",
+     "seconds": 2.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "In Nepal: The discharge paper you take home.",
+     "say": "In Nepal: The discharge paper you take home.",
+     "focus": -1,
+     "file": "clips/496e295fdbe3.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "When Ram is discharged from a private hospital in Kathmandu, he gets a printed **discharge summary**: why he was admitted, what was done, the medicines to take and when to come back.",
+     "say": "When Ram is discharged from a private hospital in Kathmandu, he gets a printed discharge summary: why he was admitted, what was done, the medicines to take and when to come back.",
+     "focus": 0,
+     "file": "clips/2360c80cbdd3.mp3",
+     "seconds": 11.6
+    },
+    {
+     "raw": "Months later, a new doctor reads that paper to understand his history.",
+     "say": "Months later, a new doctor reads that paper to understand his history.",
+     "focus": 0,
+     "file": "clips/17c0f61d47e1.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Every hospital prints it in its own layout, so the new doctor has to hunt for the medicine list on each one.",
+     "say": "Every hospital prints it in its own layout, so the new doctor has to hunt for the medicine list on each one.",
+     "focus": 1,
+     "file": "clips/1c520df11c58.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's SSF-listed hospital gives her a similar paper, and copies of documents may travel with her claim.",
+     "say": "Sita's S S F listed hospital gives her a similar paper, and copies of documents may travel with her claim.",
+     "focus": 2,
+     "file": "clips/5b40526ac155.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "A person still has to read them; no computer can pull \"her current medicines\" out of a scanned page.",
+     "say": "A person still has to read them; no computer can pull \"her current medicines\" out of a scanned page.",
+     "focus": 2,
+     "file": "clips/b69ad502219a.mp3",
+     "seconds": 6.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Start with something you already know",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "A **C-CDA** is that discharge paper made digital and standard: one XML document with a fixed header and fixed, labelled sections, where each important fact is also stored as a **code** a computer can read.",
+     "say": "A C-CDA is that discharge paper made digital and standard: one X M L document with a fixed header and fixed, labelled sections, where each important fact is also stored as a code a computer can read.",
+     "focus": -1,
+     "file": "clips/1bdbd42912a4.mp3",
+     "seconds": 14.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "CDA and C-CDA.",
+     "say": "C D A and C-CDA.",
+     "focus": -1,
+     "file": "clips/33d176d0dcef.mp3",
+     "seconds": 2.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "CDA and C-CDA",
+   "lines": [
+    {
+     "raw": "CDA (Clinical Document Architecture).",
+     "say": "C D A (Clinical Document Architecture).",
+     "focus": 0,
+     "file": "clips/99fdd9cfe8cc.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "An **HL7** standard (the same group behind HL7 v2) for clinical documents written in **XML**, a text format that wraps each value in named tags such as `<title>…</title>`.",
+     "say": "An HL7 standard (the same group behind HL7 v2) for clinical documents written in X M L, a text format that wraps each value in named tags such as <title>…</title>.",
+     "focus": 0,
+     "file": "clips/c1cd113a3db5.mp3",
+     "seconds": 13.825
+    },
+    {
+     "raw": "C-CDA (Consolidated CDA).",
+     "say": "C-CDA (Consolidated C D A).",
+     "focus": 1,
+     "file": "clips/ee4ce47b5ec7.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "The US set of CDA **templates**: agreed shapes for each document type and section.",
+     "say": "The U S set of C D A templates: agreed shapes for each document type and section.",
+     "focus": 1,
+     "file": "clips/ca64a7daf14f.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "Certified EHRs must be able to create and receive C-CDA documents (version **Release 2.1** is the one most widely used).",
+     "say": "Certified E H R's must be able to create and receive C-CDA documents (version Release 2.1 is the one most widely used).",
+     "focus": 1,
+     "file": "clips/570de647d0bd.mp3",
+     "seconds": 10.425
+    },
+    {
+     "raw": "Document vs message.",
+     "say": "Document versus message.",
+     "focus": 2,
+     "file": "clips/51c97a640e10.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "An HL7 v2 message reports **one event** (\"Robert was discharged\").",
+     "say": "An HL7 v2 message reports one event (\"Robert was discharged\").",
+     "focus": 2,
+     "file": "clips/63c1dfb02947.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "A document is a **complete, signed snapshot** of care at a point in time (\"here is everything about Robert's stay\").",
+     "say": "A document is a complete, signed snapshot of care at a point in time (\"here is everything about Robert's stay\").",
+     "focus": 2,
+     "file": "clips/3f7ff4041f41.mp3",
+     "seconds": 7.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The common document types.",
+     "say": "The common document types.",
+     "focus": -1,
+     "file": "clips/69a4280b1b5f.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The common document types",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**CCD** (Continuity of Care Document). When it is made: After a visit, at referral, or when a patient or another system asks for a summary. What it holds: A snapshot of the whole current record: problems, medicines, allergies, recent results, vital signs. Robert example: Bayou Family Medicine's summary after his February check-up.",
+     "say": "C C D (Continuity of Care Document). When it is made: After a visit, at referral, or when a patient or another system asks for a summary. What it holds: A snapshot of the whole current record: problems, medicines, allergies, recent results, vital signs. Robert example: Bayou Family Medicine's summary after his February check-up.",
+     "focus": 0,
+     "file": "clips/687ec1c43a8b.mp3",
+     "seconds": 22
+    },
+    {
+     "raw": "**Discharge summary**. When it is made: When a hospital stay ends. What it holds: Why the patient came, what was done, diagnoses, medicines on discharge, follow-up plan. Robert example: If Robert were admitted overnight, the hospital would send one to Dr. Nguyen.",
+     "say": "Discharge summary. When it is made: When a hospital stay ends. What it holds: Why the patient came, what was done, diagnoses, medicines on discharge, follow-up plan. Robert example: If Robert were admitted overnight, the hospital would send one to Doctor Nguyen.",
+     "focus": 1,
+     "file": "clips/034b55c928fa.mp3",
+     "seconds": 17.375
+    },
+    {
+     "raw": "**Referral note**. When it is made: When one doctor sends a patient to another. What it holds: Reason for referral, relevant history, current medicines and results. Robert example: Dr. Nguyen refers Robert to an eye doctor for a diabetic eye exam.",
+     "say": "Referral note. When it is made: When one doctor sends a patient to another. What it holds: Reason for referral, relevant history, current medicines and results. Robert example: Doctor Nguyen refers Robert to an eye doctor for a diabetic eye exam.",
+     "focus": 2,
+     "file": "clips/4f1a42867261.mp3",
+     "seconds": 16.9
+    },
+    {
+     "raw": "Others. When it is made: Various. What it holds: History and physical, progress note, consultation note, care plan and more. Robert example: Less common in plan data feeds.",
+     "say": "Others. When it is made: Various. What it holds: History and physical, progress note, consultation note, care plan and more. Robert example: Less common in plan data feeds.",
+     "focus": 3,
+     "file": "clips/a772b4008f8e.mp3",
+     "seconds": 11.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Header and body.",
+     "say": "Header and body.",
+     "focus": -1,
+     "file": "clips/826599cb14a8.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Header and body",
+   "lines": [
+    {
+     "raw": "Every C-CDA has two parts.",
+     "say": "Every C-CDA has two parts.",
+     "focus": -1,
+     "file": "clips/1fc1fe7db232.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "The **header** says what the document is and who it is about.",
+     "say": "The header says what the document is and who it is about.",
+     "focus": -1,
+     "file": "clips/37e36653a3ab.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "The **body** holds the clinical content, split into **sections**.",
+     "say": "The body holds the clinical content, split into sections.",
+     "focus": -1,
+     "file": "clips/2f277840257c.mp3",
+     "seconds": 3.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Header and body",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Header**. What it holds: Document type and date; the patient (name, birth date, sex, the clinic's own patient ID); the author (doctor); the custodian (organisation that holds the original); the visit it describes. Analyst use: Match the document to a member; know its source and date.",
+     "say": "Header. What it holds: Document type and date; the patient (name, birth date, sex, the clinic's own patient I D); the author (doctor); the custodian (organisation that holds the original); the visit it describes. Analyst use: Match the document to a member; know its source and date.",
+     "focus": 0,
+     "file": "clips/e5f5a1014f23.mp3",
+     "seconds": 18.375
+    },
+    {
+     "raw": "**Body sections**. What it holds: Problems, Medications, Allergies, Results, Vital Signs, Immunizations, Encounters, Plan of Care and others. Analyst use: Find the clinical facts you need.",
+     "say": "Body sections. What it holds: Problems, Medications, Allergies, Results, Vital Signs, Immunizations, Encounters, Plan of Care and others. Analyst use: Find the clinical facts you need.",
+     "focus": 1,
+     "file": "clips/617ab8d6748b.mp3",
+     "seconds": 13.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Header and body",
+   "lines": [
+    {
+     "raw": "Inside each section there are two layers.",
+     "say": "Inside each section there are two layers.",
+     "focus": -1,
+     "file": "clips/51a49dc26533.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "The **narrative** is human-readable text, what a doctor sees on screen.",
+     "say": "The narrative is human-readable text, what a doctor sees on screen.",
+     "focus": -1,
+     "file": "clips/6063b4f92b36.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "The **entries** are the same facts as coded, structured data that a computer can read.",
+     "say": "The entries are the same facts as coded, structured data that a computer can read.",
+     "focus": -1,
+     "file": "clips/a613923906cf.mp3",
+     "seconds": 5.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Header and body",
+   "lines": [
+    {
+     "raw": "A simplified piece of Robert's CCD (fictional; real files are longer and identify each code system with a long number called an OID).",
+     "say": "A simplified piece of Robert's C C D (fictional; real files are longer and identify each code system with a long number called an O I D).",
+     "focus": -1,
+     "file": "clips/b643070b23aa.mp3",
+     "seconds": 10.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Header and body",
+   "lines": [
+    {
+     "raw": "The first lines are the **header**: what the document is (a CCD), its date, the patient and the author.",
+     "say": "The first lines are the header: what the document is (a C C D), its date, the patient and the author.",
+     "focus": 0,
+     "file": "clips/7425c6208cce.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "Each `<section>` has a code saying which section it is, a `<text>` **narrative**, and coded `<entry>` items.",
+     "say": "Each <section> has a code saying which section it is, a <text> narrative, and coded <entry> items.",
+     "focus": 1,
+     "file": "clips/1ab104f63f19.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "The HbA1c entry carries the test code, the **value** and the **unit**.",
+     "say": "The H b A 1 c entry carries the test code, the value and the unit.",
+     "focus": 2,
+     "file": "clips/f96712ed52ff.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "That is what a computer can use; the narrative is for people.",
+     "say": "That is what a computer can use; the narrative is for people.",
+     "focus": 2,
+     "file": "clips/615794533d8d.mp3",
+     "seconds": 4.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Coded entries: the code sets inside.",
+     "say": "Coded entries: the code sets inside.",
+     "focus": -1,
+     "file": "clips/f002baee2a95.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Coded entries: the code sets inside",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Problems. Code set usually used in entries: **SNOMED CT** (detailed clinical terms), often with ICD-10-CM alongside. Example for Robert: SNOMED CT `44054006` type 2 diabetes.",
+     "say": "Problems. Code set usually used in entries: SNOMED C T (detailed clinical terms), often with I C D 10-CM alongside. Example for Robert: SNOMED C T 4 4 0 5 4 0 0 6 type 2 diabetes.",
+     "focus": 0,
+     "file": "clips/3af291b15dab.mp3",
+     "seconds": 17.3
+    },
+    {
+     "raw": "Medications. Code set usually used in entries: **RxNorm** (clinical drug names). Example for Robert: An RxNorm code for metformin 500 mg oral tablet.",
+     "say": "Medications. Code set usually used in entries: RxNorm (clinical drug names). Example for Robert: An RxNorm code for metformin 500 mg oral tablet.",
+     "focus": 1,
+     "file": "clips/734be8af7978.mp3",
+     "seconds": 12.65
+    },
+    {
+     "raw": "Results. Code set usually used in entries: **LOINC** for the test, plus value and unit. Example for Robert: LOINC `4548-4` HbA1c = 9.4 %.",
+     "say": "Results. Code set usually used in entries: L O I N C for the test, plus value and unit. Example for Robert: L O I N C 4 5 4 8 dash 4 H b A 1 c = 9.4 percent.",
+     "focus": 2,
+     "file": "clips/3407156b7af4.mp3",
+     "seconds": 15.45
+    },
+    {
+     "raw": "Vital signs. Code set usually used in entries: **LOINC** for each measurement. Example for Robert: Blood pressure 148/92.",
+     "say": "Vital signs. Code set usually used in entries: L O I N C for each measurement. Example for Robert: Blood pressure 148/92.",
+     "focus": 3,
+     "file": "clips/4f80f7ef395e.mp3",
+     "seconds": 11.5
+    },
+    {
+     "raw": "Allergies. Code set usually used in entries: RxNorm or SNOMED CT for the substance and reaction. Example for Robert: \"No known allergies\".",
+     "say": "Allergies. Code set usually used in entries: RxNorm or SNOMED C T for the substance and reaction. Example for Robert: \"No known allergies\".",
+     "focus": 4,
+     "file": "clips/d795e784527c.mp3",
+     "seconds": 11.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Coded entries: the code sets inside",
+   "lines": [
+    {
+     "raw": "Narrative only is a data gap.",
+     "say": "Narrative only is a data gap.",
+     "focus": -1,
+     "file": "clips/6d95e2a9bc08.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Some EHRs fill the narrative but leave entries empty or vague.",
+     "say": "Some E H R's fill the narrative but leave entries empty or vague.",
+     "focus": -1,
+     "file": "clips/5d972e92e16f.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "To a computer, a fact that is **only in the narrative** is almost as hidden as a scanned PDF.",
+     "say": "To a computer, a fact that is only in the narrative is almost as hidden as a scanned P D F.",
+     "focus": -1,
+     "file": "clips/29c497dc1d16.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "Analysts measure how many documents from each source have coded entries before relying on that source.",
+     "say": "Analysts measure how many documents from each source have coded entries before relying on that source.",
+     "focus": -1,
+     "file": "clips/dd625bc740bd.mp3",
+     "seconds": 6.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How health plans receive C-CDAs.",
+     "say": "How health plans receive C-CDAs.",
+     "focus": -1,
+     "file": "clips/def73aa996a2.mp3",
+     "seconds": 2.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "How health plans receive C-CDAs",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Health information exchange (HIE)**. How it works: A regional network that passes clinical data between local providers (lesson 7). Plans that join can receive or look up members' CCDs and discharge summaries. Typical plan use: Care management after a hospital stay; finding missing results.",
+     "say": "Health information exchange (H I E). How it works: A regional network that passes clinical data between local providers (lesson 7). Plans that join can receive or look up members' C C D's and discharge summaries. Typical plan use: Care management after a hospital stay; finding missing results.",
+     "focus": 0,
+     "file": "clips/b7233139e94d.mp3",
+     "seconds": 20.95
+    },
+    {
+     "raw": "**EHR data feeds**. How it works: Under a data-sharing agreement, a provider group's EHR sends CCDs to the plan on a schedule, often nightly or weekly. Typical plan use: Quality measures, risk adjustment review, care gaps.",
+     "say": "E H R data feeds. How it works: Under a data-sharing agreement, a provider group's E H R sends C C D's to the plan on a schedule, often nightly or weekly. Typical plan use: Quality measures, risk adjustment review, care gaps.",
+     "focus": 1,
+     "file": "clips/b97e934c768d.mp3",
+     "seconds": 16.95
+    },
+    {
+     "raw": "**Medical record retrieval**. How it works: The plan, or a vendor, requests charts for specific members and dates. They may come as C-CDA or as PDFs. Typical plan use: Risk adjustment chart review, HEDIS record review.",
+     "say": "Medical record retrieval. How it works: The plan, or a vendor, requests charts for specific members and dates. They may come as C-CDA or as P D F's. Typical plan use: Risk adjustment chart review, HEDIS record review.",
+     "focus": 2,
+     "file": "clips/d090861e767a.mp3",
+     "seconds": 16.05
+    },
+    {
+     "raw": "**HEDIS supplemental data**. How it works: Coded results pulled from C-CDAs (such as an HbA1c value) can count toward HEDIS quality measures when the source meets NCQA's audit rules. Typical plan use: Closing quality gaps that claims cannot show.",
+     "say": "HEDIS supplemental data. How it works: Coded results pulled from C-CDAs (such as an H b A 1 c value) can count toward HEDIS quality measures when the source meets NCQA's audit rules. Typical plan use: Closing quality gaps that claims cannot show.",
+     "focus": 3,
+     "file": "clips/b20bdc0c84b9.mp3",
+     "seconds": 17.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "How health plans receive C-CDAs",
+   "lines": [
+    {
+     "raw": "HEDIS owns the measures.",
+     "say": "HEDIS owns the measures.",
+     "focus": -1,
+     "file": "clips/763f6542b13d.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Which results count for which quality measure, and how supplemental data is audited, is taught in the HEDIS course.",
+     "say": "Which results count for which quality measure, and how supplemental data is audited, is taught in the HEDIS course.",
+     "focus": -1,
+     "file": "clips/c210f2ad7cb2.mp3",
+     "seconds": 7.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "",
+   "lines": [
+    {
+     "raw": "C-CDA or FHIR?",
+     "say": "C-CDA or F H I R?",
+     "focus": -1,
+     "file": "clips/ee0c038ae616.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "C-CDA or FHIR?",
+   "lines": [
+    {
+     "raw": "Lesson 4 introduced **FHIR**, the web API standard that sends small pieces of data called resources.",
+     "say": "Lesson 4 introduced F H I R, the web A P I standard that sends small pieces of data called resources.",
+     "focus": -1,
+     "file": "clips/ff88408c068b.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "Both are from HL7 and both carry clinical data, but they suit different jobs.",
+     "say": "Both are from HL7 and both carry clinical data, but they suit different jobs.",
+     "focus": -1,
+     "file": "clips/17034be921a2.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "Lesson 6 covers FHIR in depth.",
+     "say": "Lesson 6 covers F H I R in depth.",
+     "focus": -1,
+     "file": "clips/2ed058c45052.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "C-CDA or FHIR?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Unit of data. C-CDA: A whole **document**. FHIR: Small **resources** (one patient, one result).",
+     "say": "Unit of data. C-CDA: A whole document. F H I R: Small resources (one patient, one result).",
+     "focus": 0,
+     "file": "clips/da9ad158f851.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "Format. C-CDA: XML. FHIR: Usually JSON (XML also allowed).",
+     "say": "Format. C-CDA: X M L. F H I R: Usually J S O N (X M L also allowed).",
+     "focus": 1,
+     "file": "clips/dad0c1f4142c.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "How it moves. C-CDA: Sent or fetched as a file through HIEs, EHR feeds and secure messaging. FHIR: Asked for on demand through web API calls.",
+     "say": "How it moves. C-CDA: Sent or fetched as a file through H I E's, E H R feeds and secure messaging. F H I R: Asked for on demand through web A P I calls.",
+     "focus": 2,
+     "file": "clips/f9a07d206742.mp3",
+     "seconds": 12.375
+    },
+    {
+     "raw": "Best for. C-CDA: A complete, signed snapshot at one point in time: a discharge, a referral, a chart for review. FHIR: Exactly the piece you need, now: an app, a single result, current coverage.",
+     "say": "Best for. C-CDA: A complete, signed snapshot at one point in time: a discharge, a referral, a chart for review. F H I R: Exactly the piece you need, now: an app, a single result, current coverage.",
+     "focus": 3,
+     "file": "clips/2ca5d0ef5ad7.mp3",
+     "seconds": 14.625
+    },
+    {
+     "raw": "Where the rules require it. C-CDA: Certified EHRs must create and receive C-CDA. FHIR: CMS payer APIs (Patient Access, Provider Access, Payer-to-Payer) must use FHIR.",
+     "say": "Where the rules require it. C-CDA: Certified E H R's must create and receive C-CDA. F H I R: C M S payer A P I's (Patient Access, Provider Access, Payer-to-Payer) must use F H I R.",
+     "focus": 4,
+     "file": "clips/f6ad9447719e.mp3",
+     "seconds": 16.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "C-CDA or FHIR?",
+   "lines": [
+    {
+     "raw": "In practice, plans get both.",
+     "say": "In practice, plans get both.",
+     "focus": -1,
+     "file": "clips/f2b1333f0a01.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Clinical data from provider EHRs and HIEs still very often arrives as C-CDA, because that is what certified EHRs have produced for years.",
+     "say": "Clinical data from provider E H R's and H I E's still very often arrives as C-CDA, because that is what certified E H R's have produced for years.",
+     "focus": -1,
+     "file": "clips/5f98ac9fb5c9.mp3",
+     "seconds": 11.925
+    },
+    {
+     "raw": "Data from the newer CMS payer APIs arrives as FHIR.",
+     "say": "Data from the newer C M S payer A P I's arrives as F H I R.",
+     "focus": -1,
+     "file": "clips/7ab3151dcda0.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Many organisations convert C-CDA into FHIR resources so they can store everything one way.",
+     "say": "Many organisations convert C-CDA into F H I R resources so they can store everything one way.",
+     "focus": -1,
+     "file": "clips/14bb06f7bcaf.mp3",
+     "seconds": 7.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Robert's CCD reaches his plan.",
+     "say": "Worked example: Robert's C C D reaches his plan.",
+     "focus": -1,
+     "file": "clips/a247410ce6dc.mp3",
+     "seconds": 4.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "Worked example: Robert's CCD reaches his plan",
+   "lines": [
+    {
+     "raw": "Step 1: Check-up, 10 Feb 2025.",
+     "say": "Step 1: Check-up, 10 Feb 2025.",
+     "focus": 0,
+     "file": "clips/702db73ab794.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Robert sees Dr. Nguyen at Bayou Family Medicine.",
+     "say": "Robert sees Doctor Nguyen at Bayou Family Medicine.",
+     "focus": 0,
+     "file": "clips/702e165706e5.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "His HbA1c result (9.4%) arrives from the lab the next day and is filed in his chart.",
+     "say": "His H b A 1 c result (9.4 percent) arrives from the lab the next day and is filed in his chart.",
+     "focus": 0,
+     "file": "clips/b04eda5a65e6.mp3",
+     "seconds": 7.6
+    },
+    {
+     "raw": "Step 2: CCD created, 11 Feb.",
+     "say": "Step 2: C C D created, 11 Feb.",
+     "focus": 1,
+     "file": "clips/686b7c8313e5.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "The clinic's EHR produces a CCD for the visit, with problems (diabetes, high blood pressure), medicines (metformin, lisinopril), vitals and the HbA1c result.",
+     "say": "The clinic's E H R produces a C C D for the visit, with problems (diabetes, high blood pressure), medicines (metformin, lisinopril), vitals and the H b A 1 c result.",
+     "focus": 1,
+     "file": "clips/efc8a99f2dad.mp3",
+     "seconds": 12.475
+    },
+    {
+     "raw": "Step 3: Sent to the plan.",
+     "say": "Step 3: Sent to the plan.",
+     "focus": 2,
+     "file": "clips/684648a65ded.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "Under its data-sharing agreement with **Gulf Coast Health Plan** (fictional), the clinic's nightly feed sends the CCD to the plan.",
+     "say": "Under its data-sharing agreement with Gulf Coast Health Plan (fictional), the clinic's nightly feed sends the C C D to the plan.",
+     "focus": 2,
+     "file": "clips/791672791725.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "Step 4: Plan loads it.",
+     "say": "Step 4: Plan loads it.",
+     "focus": 3,
+     "file": "clips/a78b7af9c5b4.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "The plan matches the header (name, birth date, sex) to member **GC5001**, then reads the coded entries, not the narrative.",
+     "say": "The plan matches the header (name, birth date, sex) to member G C 5 0 0 1, then reads the coded entries, not the narrative.",
+     "focus": 3,
+     "file": "clips/3c604fc8c64b.mp3",
+     "seconds": 9.05
+    },
+    {
+     "raw": "Step 5: Used for quality.",
+     "say": "Step 5: Used for quality.",
+     "focus": 4,
+     "file": "clips/980413dda232.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "The HbA1c entry (LOINC `4548-4`, 9.4 %) becomes a lab result row.",
+     "say": "The H b A 1 c entry (L O I N C 4 5 4 8 dash 4, 9.4 percent) becomes a lab result row.",
+     "focus": 4,
+     "file": "clips/9ea40dc12690.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "The plan's HEDIS team can use it as supplemental data, because the lab claim only says the test was done, not the value.",
+     "say": "The plan's HEDIS team can use it as supplemental data, because the lab claim only says the test was done, not the value.",
+     "focus": 4,
+     "file": "clips/240db500265f.mp3",
+     "seconds": 8.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 25,
+   "section": "Worked example: Robert's CCD reaches his plan",
+   "lines": [
+    {
+     "raw": "What the plan extracts from Robert's CCD (fictional rows).",
+     "say": "What the plan extracts from Robert's C C D (fictional rows).",
+     "focus": -1,
+     "file": "clips/23474ce79fda.mp3",
+     "seconds": 4.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 26,
+   "section": "Worked example: Robert's CCD reaches his plan",
+   "lines": [
+    {
+     "raw": "Why it matters for data: the same fact many times.",
+     "say": "Why it matters for data: the same fact many times.",
+     "focus": -1,
+     "file": "clips/2ac203479bc6.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "A CCD is a **snapshot of the whole record**, so every new CCD repeats Robert's diabetes, his medicines and older results.",
+     "say": "A C C D is a snapshot of the whole record, so every new C C D repeats Robert's diabetes, his medicines and older results.",
+     "focus": -1,
+     "file": "clips/2036e42d6aee.mp3",
+     "seconds": 9.55
+    },
+    {
+     "raw": "Six visits can mean six copies of the same HbA1c.",
+     "say": "Six visits can mean six copies of the same H b A 1 c.",
+     "focus": -1,
+     "file": "clips/5bf65dee145c.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "Remove repeats using the code, value and result date, and keep the document date only to know when you learned it.",
+     "say": "Remove repeats using the code, value and result date, and keep the document date only to know when you learned it.",
+     "focus": -1,
+     "file": "clips/e3e9016ae144.mp3",
+     "seconds": 7.5
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**C-CDA** is the US template set for **CDA**, HL7's XML standard for whole clinical documents; certified EHRs create and receive it.",
+     "say": "C-CDA is the U S template set for C D A, H L 7 ' s X M L standard for whole clinical documents; certified E H R's create and receive it.",
+     "focus": 0,
+     "file": "clips/7bcd8653e493.mp3",
+     "seconds": 12.425
+    },
+    {
+     "raw": "Common types: **CCD** (summary of the current record), **discharge summary** and **referral note**.",
+     "say": "Common types: C C D (summary of the current record), discharge summary and referral note.",
+     "focus": 1,
+     "file": "clips/4ba953aaf1c4.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "A document has a **header** (what, who, when) and **body sections**; each section has a human **narrative** and coded **entries** (SNOMED CT, LOINC, RxNorm).",
+     "say": "A document has a header (what, who, when) and body sections; each section has a human narrative and coded entries (SNOMED C T, L O I N C, RxNorm).",
+     "focus": 2,
+     "file": "clips/40c9de70a87a.mp3",
+     "seconds": 11.275
+    },
+    {
+     "raw": "Plans receive C-CDAs through **HIEs**, **EHR feeds** and record retrieval, and use coded results as **HEDIS supplemental data**.",
+     "say": "Plans receive C-CDAs through H I E's, E H R feeds and record retrieval, and use coded results as HEDIS supplemental data.",
+     "focus": 3,
+     "file": "clips/9dd0ebc67255.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "C-CDA = a whole snapshot document; FHIR = small resources on demand.",
+     "say": "C-CDA = a whole snapshot document; F H I R = small resources on demand.",
+     "focus": 4,
+     "file": "clips/ce462f7c2eb4.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "Plans usually receive both.",
+     "say": "Plans usually receive both.",
+     "focus": 4,
+     "file": "clips/7cea46030b14.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

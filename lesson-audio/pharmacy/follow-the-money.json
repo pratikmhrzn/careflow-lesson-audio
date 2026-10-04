@@ -1,0 +1,1037 @@
+{
+ "courseId": "pharmacy",
+ "lessonId": "follow-the-money",
+ "lessonNumber": 8,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 8: Amounts: Follow the Money.",
+     "say": "Lesson 8: Amounts: Follow the Money.",
+     "focus": -1,
+     "file": "clips/f216045416d4.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "Ingredient cost, dispensing fee, patient pay and plan paid: how a pharmacy claim is priced.",
+     "say": "Ingredient cost, dispensing fee, patient pay and plan paid: how a pharmacy claim is priced.",
+     "focus": -1,
+     "file": "clips/84da6bc691c0.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Name the parts of a pharmacy claim's price.",
+     "say": "Name the parts of a pharmacy claim's price.",
+     "focus": 0,
+     "file": "clips/343c8c0a404d.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Understand AWP, WAC, MAC and U&C, and the \"lesser of\" rule.",
+     "say": "Understand A W P, W A C, M A C and U&C, and the \"lesser of\" rule.",
+     "focus": 1,
+     "file": "clips/4e01afc1421b.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "Calculate patient pay and plan paid for different tiers.",
+     "say": "Calculate patient pay and plan paid for different tiers.",
+     "focus": 2,
+     "file": "clips/813e269607e1.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Know why manufacturer rebates are not on the claim.",
+     "say": "Know why manufacturer rebates are not on the claim.",
+     "focus": 3,
+     "file": "clips/cf5db6a3fd35.mp3",
+     "seconds": 3.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The price has two main parts.",
+     "say": "The price has two main parts.",
+     "focus": -1,
+     "file": "clips/5a58a4278cb0.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The price has two main parts",
+   "lines": [
+    {
+     "raw": "Ingredient cost.",
+     "say": "Ingredient cost.",
+     "focus": 0,
+     "file": "clips/ca83f37c8df0.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "The price of the **medicine itself**: the 30 capsules in the bottle.",
+     "say": "The price of the medicine itself: the 30 capsules in the bottle.",
+     "focus": 0,
+     "file": "clips/8b8b67afd623.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Dispensing fee.",
+     "say": "Dispensing fee.",
+     "focus": 1,
+     "file": "clips/fe05dc61d33a.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "A small fee for the pharmacy's **work**: checking the prescription, counting, labelling, advising the patient.",
+     "say": "A small fee for the pharmacy's work: checking the prescription, counting, labelling, advising the patient.",
+     "focus": 1,
+     "file": "clips/936779597326.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "Often **$1 to $2** for commercial plans.",
+     "say": "Often 1 dollar to 2 dollars for commercial plans.",
+     "focus": 1,
+     "file": "clips/aba85f35151f.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Sales tax.",
+     "say": "Sales tax.",
+     "focus": 2,
+     "file": "clips/d12cc73a51f2.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "A tax field on the claim.",
+     "say": "A tax field on the claim.",
+     "focus": 2,
+     "file": "clips/5f70965771cd.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Usually **$0**, because most US states do not tax prescription medicines.",
+     "say": "Usually 0 dollars because most U S states do not tax prescription medicines.",
+     "focus": 2,
+     "file": "clips/480c7c87de2b.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "Gross amount due.",
+     "say": "Gross amount due.",
+     "focus": 3,
+     "file": "clips/4c2cb90108b5.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "The **total price** of the fill: ingredient cost + dispensing fee + tax.",
+     "say": "The total price of the fill: ingredient cost and dispensing fee and tax.",
+     "focus": 3,
+     "file": "clips/9de222f6197b.mp3",
+     "seconds": 5.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The price has two main parts",
+   "lines": [
+    {
+     "raw": "Total price of a fill.",
+     "say": "Total price of a fill.",
+     "focus": -1,
+     "file": "clips/cf83bb16040d.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "Gross amount due equals Ingredient cost plus Dispensing fee plus Sales tax.",
+     "say": "Gross amount due equals Ingredient cost plus Dispensing fee plus Sales tax.",
+     "focus": 0,
+     "file": "clips/e627841e6c16.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "For example: Emily's amoxicillin: $9.30 plus $2.00 plus $0.00 equals $11.30.",
+     "say": "For example: Emily's amoxicillin: 9 dollars 30 cents plus 2 dollars plus 0 dollars equals 11 dollars 30 cents.",
+     "focus": 1,
+     "file": "clips/fad8c0b5d800.mp3",
+     "seconds": 9.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Where does the ingredient cost come from?",
+     "say": "Where does the ingredient cost come from?",
+     "focus": -1,
+     "file": "clips/dfdd29fdd377.mp3",
+     "seconds": 2.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Where does the ingredient cost come from?",
+   "lines": [
+    {
+     "raw": "Drug prices in the US come from published **price lists**.",
+     "say": "Drug prices in the U S come from published price lists.",
+     "focus": -1,
+     "file": "clips/95d424543924.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "The PBM's contract with the pharmacy says which list to use, with a discount.",
+     "say": "The PBM's contract with the pharmacy says which list to use, with a discount.",
+     "focus": -1,
+     "file": "clips/226d8e7e3d58.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "You will see these names in pharmacy data:",
+     "say": "You will see these names in pharmacy data:",
+     "focus": -1,
+     "file": "clips/e0b99c801b1d.mp3",
+     "seconds": 3.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Where does the ingredient cost come from?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**AWP**. Stands for: Average Wholesale Price. What it means: A published **list price**. Despite the name, almost nobody pays it; contracts use \"AWP minus a discount\", like \"AWP − 15%\" for brands.",
+     "say": "A W P. Stands for: Average Wholesale Price. What it means: A published list price. Despite the name, almost nobody pays it; contracts use \"A W P minus a discount\", like \"A W P − 15 percent\" for brands.",
+     "focus": 0,
+     "file": "clips/c727da6391c4.mp3",
+     "seconds": 16.025
+    },
+    {
+     "raw": "**WAC**. Stands for: Wholesale Acquisition Cost. What it means: The **manufacturer's list price** to wholesalers. For brand drugs, AWP is often about 20% higher than WAC.",
+     "say": "W A C. Stands for: Wholesale Acquisition Cost. What it means: The manufacturer's list price to wholesalers. For brand drugs, A W P is often about 20 percent higher than W A C.",
+     "focus": 1,
+     "file": "clips/1e1f5128e64b.mp3",
+     "seconds": 13.775
+    },
+    {
+     "raw": "**MAC**. Stands for: Maximum Allowable Cost. What it means: A **price cap per unit** that the PBM sets for **generics**. Because many companies make the same generic, the PBM pays one price whichever company's bottle is used.",
+     "say": "M A C. Stands for: Maximum Allowable Cost. What it means: A price cap per unit that the P B M sets for generics. Because many companies make the same generic, the P B M pays one price whichever company's bottle is used.",
+     "focus": 2,
+     "file": "clips/d87958ca99e0.mp3",
+     "seconds": 16.075
+    },
+    {
+     "raw": "**U&C**. Stands for: Usual & Customary. What it means: The pharmacy's **cash price**: what it would charge a customer with no insurance.",
+     "say": "U&C. Stands for: Usual and Customary. What it means: The pharmacy's cash price: what it would charge a customer with no insurance.",
+     "focus": 3,
+     "file": "clips/90737bf388a4.mp3",
+     "seconds": 9.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Where does the ingredient cost come from?",
+   "lines": [
+    {
+     "raw": "The \"lesser of\" rule.",
+     "say": "The \"lesser of\" rule.",
+     "focus": -1,
+     "file": "clips/65f6105ec2ea.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Pharmacy contracts usually pay the **lowest** of several prices.",
+     "say": "Pharmacy contracts usually pay the lowest of several prices.",
+     "focus": -1,
+     "file": "clips/aa06177241bc.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "In simple terms: work out the price from **AWP** with its discount, and from the **MAC** if it is a generic.",
+     "say": "In simple terms: work out the price from A W P with its discount, and from the M A C if it is a generic.",
+     "focus": -1,
+     "file": "clips/6074d8523c25.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "Take the lower one and add the dispensing fee.",
+     "say": "Take the lower one and add the dispensing fee.",
+     "focus": -1,
+     "file": "clips/4926fa17d003.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Then compare with the pharmacy's **U&C** cash price, and pay whichever is **lower**.",
+     "say": "Then compare with the pharmacy's U&C cash price, and pay whichever is lower.",
+     "focus": -1,
+     "file": "clips/ecbbb1871f48.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "The plan never pays more than a cash customer would.",
+     "say": "The plan never pays more than a cash customer would.",
+     "focus": -1,
+     "file": "clips/d1b4e517a446.mp3",
+     "seconds": 3.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example 1: Emily's amoxicillin.",
+     "say": "Worked example 1: Emily's amoxicillin.",
+     "focus": -1,
+     "file": "clips/037ea4165616.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Worked example 1: Emily's amoxicillin",
+   "lines": [
+    {
+     "raw": "30 capsules of amoxicillin 500 mg, a tier 1 generic, 10 March 2025.",
+     "say": "30 capsules of amoxicillin 500 mg, a tier 1 generic, 10 March 2025.",
+     "focus": -1,
+     "file": "clips/b65362dbb009.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "AWP price. Calculation: $1.20 per capsule × 30. Amount: $36.00.",
+     "say": "A W P price. Calculation: 1 dollar 20 cents per capsule × 30. Amount: 36 dollars.",
+     "focus": 0,
+     "file": "clips/bb9ad0870386.mp3",
+     "seconds": 8.025
+    },
+    {
+     "raw": "Contract: AWP − 70% (generic). Calculation: $36.00 × 0.30. Amount: $10.80.",
+     "say": "Contract: A W P − 70 percent (generic). Calculation: 36 dollars × 0.30. Amount: 10 dollars 80 cents.",
+     "focus": 1,
+     "file": "clips/2c8acb219fca.mp3",
+     "seconds": 11.1
+    },
+    {
+     "raw": "MAC price. Calculation: $0.31 per capsule × 30. Amount: $9.30.",
+     "say": "M A C price. Calculation: 0 dollars 31 cents per capsule × 30. Amount: 9 dollars 30 cents.",
+     "focus": 2,
+     "file": "clips/17524af02a0b.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "Ingredient cost (lower of $10.80 and $9.30). Calculation: MAC wins. Amount: **$9.30**.",
+     "say": "Ingredient cost (lower of 10 dollars 80 cents and 9 dollars 30 cents). Calculation: M A C wins. Amount: 9 dollars 30 cents.",
+     "focus": 3,
+     "file": "clips/a756fc3496d1.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "Dispensing fee. Amount: $2.00.",
+     "say": "Dispensing fee. Amount: 2 dollars.",
+     "focus": 4,
+     "file": "clips/423ff82463cf.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "Contract price. Calculation: $9.30 + $2.00. Amount: $11.30.",
+     "say": "Contract price. Calculation: 9 dollars 30 cents and 2 dollars. Amount: 11 dollars 30 cents.",
+     "focus": 5,
+     "file": "clips/14b85282101a.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Pharmacy's U&C cash price. Amount: $16.99.",
+     "say": "Pharmacy's U&C cash price. Amount: 16 dollars 99 cents.",
+     "focus": 6,
+     "file": "clips/02fa2a986feb.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Gross amount due (lower of $11.30 and $16.99). Amount: **$11.30**.",
+     "say": "Gross amount due (lower of 11 dollars 30 cents and 16 dollars 99 cents). Amount: 11 dollars 30 cents.",
+     "focus": 7,
+     "file": "clips/c2f7f603c4ab.mp3",
+     "seconds": 8.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who pays the gross amount?",
+     "say": "Who pays the gross amount?",
+     "focus": -1,
+     "file": "clips/645a88ac20a7.mp3",
+     "seconds": 2.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Who pays the gross amount?",
+   "lines": [
+    {
+     "raw": "The gross amount due is split between the **patient** and the **plan**.",
+     "say": "The gross amount due is split between the patient and the plan.",
+     "focus": -1,
+     "file": "clips/680bbc32cb83.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "The patient's part depends on the drug's **tier** (lesson 7): a **copay** (fixed amount), a **coinsurance** (a percentage), or, on plans with a drug **deductible**, the full price until the deductible is used up.",
+     "say": "The patient's part depends on the drug's tier (lesson 7): a copay (fixed amount), a coinsurance (a percentage), or, on plans with a drug deductible, the full price until the deductible is used up.",
+     "focus": -1,
+     "file": "clips/6d6d50937b54.mp3",
+     "seconds": 13.1
+    },
+    {
+     "raw": "Emily's plan has **no drug deductible**.",
+     "say": "Emily's plan has no drug deductible.",
+     "focus": -1,
+     "file": "clips/53f3e823586c.mp3",
+     "seconds": 3.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Who pays the gross amount?",
+   "lines": [
+    {
+     "raw": "The key relationship.",
+     "say": "The key relationship.",
+     "focus": -1,
+     "file": "clips/bfe3da2cc971.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Gross amount due equals Plan paid plus Patient pay.",
+     "say": "Gross amount due equals Plan paid plus Patient pay.",
+     "focus": 0,
+     "file": "clips/c1c058dcfbeb.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "For example: Amoxicillin: $11.30 equals $6.30 (plan) plus $5.00 (Emily's tier 1 copay).",
+     "say": "For example: Amoxicillin: 11 dollars 30 cents equals 6 dollars 30 cents (plan) plus 5 dollars (Emily's tier 1 copay).",
+     "focus": 1,
+     "file": "clips/bab030a6357c.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "So: Plan paid equals $11.30 − $5.00 equals $6.30.",
+     "say": "So: Plan paid equals 11 dollars 30 cents − 5 dollars equals 6 dollars 30 cents.",
+     "focus": 1,
+     "file": "clips/b150e8d81fdb.mp3",
+     "seconds": 7.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Who pays the gross amount?",
+   "lines": [
+    {
+     "raw": "Compare with medical claims.",
+     "say": "Compare with medical claims.",
+     "focus": -1,
+     "file": "clips/dd2b65773fd1.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "On a medical claim, the key relationship is **Allowed = Paid + Patient share**.",
+     "say": "On a medical claim, the key relationship is Allowed = Paid and Patient share.",
+     "focus": -1,
+     "file": "clips/e9c07f8b94b9.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "On a pharmacy claim, the **gross amount due** plays the role of the allowed amount: it is the **contracted price**, already worked out at the counter.",
+     "say": "On a pharmacy claim, the gross amount due plays the role of the allowed amount: it is the contracted price, already worked out at the counter.",
+     "focus": -1,
+     "file": "clips/58b006d7f42f.mp3",
+     "seconds": 8.8
+    },
+    {
+     "raw": "There is no separate \"billed vs allowed discount\" to look at, because the lesser-of rule is applied before the answer comes back.",
+     "say": "There is no separate \"billed versus allowed discount\" to look at, because the lesser-of rule is applied before the answer comes back.",
+     "focus": -1,
+     "file": "clips/61e4dc9e4e18.mp3",
+     "seconds": 8.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example 2: a brand drug on tier 2.",
+     "say": "Worked example 2: a brand drug on tier 2.",
+     "focus": -1,
+     "file": "clips/8f35119216c3.mp3",
+     "seconds": 3.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example 2: a brand drug on tier 2",
+   "lines": [
+    {
+     "raw": "30 tablets of a preferred brand drug (example).",
+     "say": "30 tablets of a preferred brand drug (example).",
+     "focus": -1,
+     "file": "clips/5aaf29400f47.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "AWP price. Calculation: $10.00 per tablet × 30. Amount: $300.00.",
+     "say": "A W P price. Calculation: 10 dollars per tablet × 30. Amount: 300 dollars.",
+     "focus": 0,
+     "file": "clips/6ad414cc448e.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "Ingredient cost: AWP − 15% (brand, no MAC). Calculation: $300.00 × 0.85. Amount: $255.00.",
+     "say": "Ingredient cost: A W P − 15 percent (brand, no M A C). Calculation: 300 dollars × 0.85. Amount: 255 dollars.",
+     "focus": 1,
+     "file": "clips/5ec717ad006f.mp3",
+     "seconds": 12.75
+    },
+    {
+     "raw": "Dispensing fee. Amount: $1.00.",
+     "say": "Dispensing fee. Amount: 1 dollar.",
+     "focus": 2,
+     "file": "clips/69ccba2b3721.mp3",
+     "seconds": 3.175
+    },
+    {
+     "raw": "Gross amount due (U&C is $329.99, higher). Calculation: $255.00 + $1.00. Amount: **$256.00**.",
+     "say": "Gross amount due (U&C is 329 dollars 99 cents, higher). Calculation: 255 dollars and 1 dollar. Amount: 256 dollars.",
+     "focus": 3,
+     "file": "clips/e08e2cf8de5b.mp3",
+     "seconds": 12.95
+    },
+    {
+     "raw": "Patient pay: tier 2 copay. Amount: $40.00.",
+     "say": "Patient pay: tier 2 copay. Amount: 40 dollars.",
+     "focus": 4,
+     "file": "clips/315d4206731c.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Plan paid. Calculation: $256.00 − $40.00. Amount: **$216.00**.",
+     "say": "Plan paid. Calculation: 256 dollars − 40 dollars. Amount: 216 dollars.",
+     "focus": 5,
+     "file": "clips/30d15ba802f3.mp3",
+     "seconds": 8.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example 3: when the copay is more than the drug.",
+     "say": "Worked example 3: when the copay is more than the drug.",
+     "focus": -1,
+     "file": "clips/729240b98a74.mp3",
+     "seconds": 3.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example 3: when the copay is more than the drug",
+   "lines": [
+    {
+     "raw": "Emily had her appendix removed on 2 June 2025.",
+     "say": "Emily had her appendix removed on 2 June 2025.",
+     "focus": -1,
+     "file": "clips/b28364d52ec2.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "When she goes home on 4 June, she fills **ibuprofen 800 mg**, 30 tablets.",
+     "say": "When she goes home on 4 June, she fills ibuprofen 800 mg, 30 tablets.",
+     "focus": -1,
+     "file": "clips/a7f7786f2457.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "Generic ibuprofen is very cheap: ingredient cost **$2.40** (MAC $0.08 × 30) + fee **$2.00** = **$4.40** gross.",
+     "say": "Generic ibuprofen is very cheap: ingredient cost 2 dollars 40 cents (M A C 0 dollars 8 cents × 30) and fee 2 dollars = 4 dollars 40 cents gross.",
+     "focus": -1,
+     "file": "clips/69b7bba60f00.mp3",
+     "seconds": 12.625
+    },
+    {
+     "raw": "Her tier 1 copay is $5.00, which is **more** than the whole price.",
+     "say": "Her tier 1 copay is 5 dollars, which is more than the whole price.",
+     "focus": -1,
+     "file": "clips/611401965fec.mp3",
+     "seconds": 4.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example 3: when the copay is more than the drug",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Gross amount due. Amount: $4.40.",
+     "say": "Gross amount due. Amount: 4 dollars 40 cents.",
+     "focus": 0,
+     "file": "clips/b053ccea989a.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Tier 1 copay. Amount: $5.00.",
+     "say": "Tier 1 copay. Amount: 5 dollars.",
+     "focus": 1,
+     "file": "clips/fafbff854995.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Patient pay (the lower of $5.00 and $4.40). Amount: **$4.40**.",
+     "say": "Patient pay (the lower of 5 dollars and 4 dollars 40 cents). Amount: 4 dollars 40 cents.",
+     "focus": 2,
+     "file": "clips/7ccd9dcca6e8.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Plan paid ($4.40 − $4.40). Amount: **$0.00**.",
+     "say": "Plan paid (4 dollars 40 cents − 4 dollars 40 cents). Amount: 0 dollars.",
+     "focus": 3,
+     "file": "clips/159b61801e72.mp3",
+     "seconds": 6.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example 3: when the copay is more than the drug",
+   "lines": [
+    {
+     "raw": "A plan paid of $0 is not a mistake.",
+     "say": "A plan paid of 0 dollars is not a mistake.",
+     "focus": -1,
+     "file": "clips/c9a0fa34e7e8.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "On most plans, the patient pays **the copay or the full price, whichever is lower**.",
+     "say": "On most plans, the patient pays the copay or the full price, whichever is lower.",
+     "focus": -1,
+     "file": "clips/4439a333124c.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "So you will see many cheap generic claims with **plan paid = $0.00**.",
+     "say": "So you will see many cheap generic claims with plan paid = 0 dollars.",
+     "focus": -1,
+     "file": "clips/f95b0bacac41.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "They are still **paid claims**: the plan approved them, and they still count as fills.",
+     "say": "They are still paid claims: the plan approved them, and they still count as fills.",
+     "focus": -1,
+     "file": "clips/0b73a6f3bbd3.mp3",
+     "seconds": 4.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example 4: a specialty drug with coinsurance.",
+     "say": "Worked example 4: a specialty drug with coinsurance.",
+     "focus": -1,
+     "file": "clips/00869eb95e24.mp3",
+     "seconds": 4.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Worked example 4: a specialty drug with coinsurance",
+   "lines": [
+    {
+     "raw": "A tier 4 specialty drug: 25% coinsurance, maximum $250 per fill.",
+     "say": "A tier 4 specialty drug: 25 percent coinsurance, maximum 250 dollars per fill.",
+     "focus": -1,
+     "file": "clips/591a5806e581.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "Gross amount due. Amount: $4,000.00.",
+     "say": "Gross amount due. Amount: 4000 dollars.",
+     "focus": 0,
+     "file": "clips/8d82a27c2739.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "25% coinsurance. Calculation: $4,000.00 × 0.25. Amount: $1,000.00.",
+     "say": "25 percent coinsurance. Calculation: 4000 dollars × 0.25. Amount: 1000 dollars.",
+     "focus": 1,
+     "file": "clips/20a06992ef62.mp3",
+     "seconds": 9.025
+    },
+    {
+     "raw": "Patient pay (capped at $250). Calculation: lower of $1,000.00 and $250.00. Amount: **$250.00**.",
+     "say": "Patient pay (capped at 250 dollars). Calculation: lower of 1000 dollars and 250 dollars. Amount: 250 dollars.",
+     "focus": 2,
+     "file": "clips/56cae48b86c2.mp3",
+     "seconds": 10.85
+    },
+    {
+     "raw": "Plan paid. Calculation: $4,000.00 − $250.00. Amount: **$3,750.00**.",
+     "say": "Plan paid. Calculation: 4000 dollars − 250 dollars. Amount: 3750 dollars.",
+     "focus": 3,
+     "file": "clips/6dbe7c4cf2e1.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Worked example 4: a specialty drug with coinsurance",
+   "lines": [
+    {
+     "raw": "Medicine money in Nepal.",
+     "say": "Medicine money in Nepal.",
+     "focus": -1,
+     "file": "clips/418f4bcecb12.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram pays the **MRP** (maximum retail price) printed on the medicine strip, or a little less if the shop gives a discount.",
+     "say": "Ram pays the M R P (maximum retail price) printed on the medicine strip, or a little less if the shop gives a discount.",
+     "focus": 0,
+     "file": "clips/3913f905fade.mp3",
+     "seconds": 8.375
+    },
+    {
+     "raw": "That is like the US **U&C** cash price.",
+     "say": "That is like the U S U&C cash price.",
+     "focus": 0,
+     "file": "clips/42f9ab1d4f22.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "His insurer reimburses what his policy allows.",
+     "say": "His insurer reimburses what his policy allows.",
+     "focus": 1,
+     "file": "clips/157b1b10c064.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "There is no ingredient cost or dispensing fee on his bill; it is all one price.",
+     "say": "There is no ingredient cost or dispensing fee on his bill; it is all one price.",
+     "focus": 1,
+     "file": "clips/245db94dcbc4.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's medicines cost Rs 500 at the hospital pharmacy.",
+     "say": "Sita's medicines cost Rs 500 at the hospital pharmacy.",
+     "focus": 2,
+     "file": "clips/48be9e21ffe3.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "She pays **20% = Rs 100**, like a US **coinsurance**.",
+     "say": "She pays 20 percent = Rs 100, like a U S coinsurance.",
+     "focus": 2,
+     "file": "clips/35b1e055fa41.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "SSF pays the hospital **80% = Rs 400**.",
+     "say": "S S F pays the hospital 80 percent = Rs 400.",
+     "focus": 3,
+     "file": "clips/c66a4df8266b.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "Rs 100 + Rs 400 = Rs 500, the same \"patient + plan = total\" rule as Emily's claim.",
+     "say": "Rs 100 and Rs 400 = Rs 500, the same \"patient and plan = total\" rule as Emily's claim.",
+     "focus": 3,
+     "file": "clips/462d0ae39062.mp3",
+     "seconds": 9.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Money that is NOT on the claim.",
+     "say": "Money that is N O T on the claim.",
+     "focus": -1,
+     "file": "clips/76b1768f5b1d.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "Money that is NOT on the claim",
+   "lines": [
+    {
+     "raw": "Manufacturer rebates.",
+     "say": "Manufacturer rebates.",
+     "focus": 0,
+     "file": "clips/a83f13e270a6.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Brand drug makers pay the PBM money **after** the drugs are dispensed, in return for good formulary placement (for example, being on tier 2 instead of tier 3).",
+     "say": "Brand drug makers pay the P B M money after the drugs are dispensed, in return for good formulary placement (for example, being on tier 2 instead of tier 3).",
+     "focus": 0,
+     "file": "clips/52932bfed8db.mp3",
+     "seconds": 10.95
+    },
+    {
+     "raw": "The PBM shares some or all of it with the plan, depending on the contract.",
+     "say": "The P B M shares some or all of it with the plan, depending on the contract.",
+     "focus": 0,
+     "file": "clips/7ad32ee1e84e.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Rebates are paid **months later** in lump sums and are **never on the claim**.",
+     "say": "Rebates are paid months later in lump sums and are never on the claim.",
+     "focus": 0,
+     "file": "clips/6e333114b6da.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Spread.",
+     "say": "Spread.",
+     "focus": 1,
+     "file": "clips/35dff721d80c.mp3",
+     "seconds": 1.35
+    },
+    {
+     "raw": "Under some contracts, the PBM bills the plan **more** than it pays the pharmacy for the same claim and keeps the difference.",
+     "say": "Under some contracts, the P B M bills the plan more than it pays the pharmacy for the same claim and keeps the difference.",
+     "focus": 1,
+     "file": "clips/71c5d07e9398.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "In data, check which amount you have: what the **pharmacy was paid**, or what the **plan was charged**.",
+     "say": "In data, check which amount you have: what the pharmacy was paid, or what the plan was charged.",
+     "focus": 1,
+     "file": "clips/bc83fac35631.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "How PBMs earn money this way is covered in the Pharmacy Benefits Manager course.",
+     "say": "How P B M's earn money this way is covered in the Pharmacy Benefits Manager course.",
+     "focus": 1,
+     "file": "clips/bdc70edaea0b.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Premium.",
+     "say": "Premium.",
+     "focus": 2,
+     "file": "clips/993938370df8.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "As with medical, the monthly premium keeps the coverage active and is not part of any claim.",
+     "say": "As with medical, the monthly premium keeps the coverage active and is not part of any claim.",
+     "focus": 2,
+     "file": "clips/05f117bdc76e.mp3",
+     "seconds": 6.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "Money that is NOT on the claim",
+   "lines": [
+    {
+     "raw": "Claim spend is not the true net cost.",
+     "say": "Claim spend is not the true net cost.",
+     "focus": -1,
+     "file": "clips/74b5e2c4e2ef.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Because rebates arrive later and separately, adding up **plan paid** on brand-drug claims **overstates** what the plan really spent.",
+     "say": "Because rebates arrive later and separately, adding up plan paid on brand-drug claims overstates what the plan really spent.",
+     "focus": -1,
+     "file": "clips/2f701316215a.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "For generics, rebates are usually small or zero.",
+     "say": "For generics, rebates are usually small or zero.",
+     "focus": -1,
+     "file": "clips/44caf87c096a.mp3",
+     "seconds": 3.725
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Gross amount due = Ingredient cost + Dispensing fee + Tax.**.",
+     "say": "Gross amount due = Ingredient cost and Dispensing fee and Tax..",
+     "focus": 0,
+     "file": "clips/08cdf657176a.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Prices start from lists (**AWP**, **WAC**, **MAC**).",
+     "say": "Prices start from lists (A W P, W A C, M A C).",
+     "focus": 1,
+     "file": "clips/7353b4d7777f.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "Contracts pay the **lesser of** the formula price and the pharmacy's **U&C** cash price.",
+     "say": "Contracts pay the lesser of the formula price and the pharmacy's U&C cash price.",
+     "focus": 1,
+     "file": "clips/16bdef788672.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "**Gross amount due = Plan paid + Patient pay.**",
+     "say": "Gross amount due = Plan paid and Patient pay.",
+     "focus": 2,
+     "file": "clips/015d16b5b5b4.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Patient pay comes from the tier's copay or coinsurance.",
+     "say": "Patient pay comes from the tier's copay or coinsurance.",
+     "focus": 2,
+     "file": "clips/9abc777b54cf.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "If the drug costs less than the copay, the patient usually pays the lower price and the plan pays $0.",
+     "say": "If the drug costs less than the copay, the patient usually pays the lower price and the plan pays 0 dollars.",
+     "focus": 3,
+     "file": "clips/456c25ebdadc.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "Manufacturer **rebates** go to the PBM and plan later and are **not** on the claim.",
+     "say": "Manufacturer rebates go to the P B M and plan later and are not on the claim.",
+     "focus": 4,
+     "file": "clips/e3ee2447d2bd.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

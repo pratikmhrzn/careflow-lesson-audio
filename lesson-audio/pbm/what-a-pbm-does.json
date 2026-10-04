@@ -1,0 +1,1023 @@
+{
+ "courseId": "pbm",
+ "lessonId": "what-a-pbm-does",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What a PBM Does.",
+     "say": "Lesson 1: What a P B M Does.",
+     "focus": -1,
+     "file": "clips/94de1a672787.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "The company in the middle that runs the drug benefit for a health plan.",
+     "say": "The company in the middle that runs the drug benefit for a health plan.",
+     "focus": -1,
+     "file": "clips/bb79ef4b45d0.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain in one sentence what a PBM is.",
+     "say": "Explain in one sentence what a P B M is.",
+     "focus": 0,
+     "file": "clips/5be189694b9e.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Name the six main jobs a PBM does for a plan.",
+     "say": "Name the six main jobs a P B M does for a plan.",
+     "focus": 1,
+     "file": "clips/6ef115034c52.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Know who hires PBMs, and what \"carve-in\" and \"carve-out\" mean.",
+     "say": "Know who hires P B M's, and what \"carve-in\" and \"carve-out\" mean.",
+     "focus": 2,
+     "file": "clips/25f42a76f247.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Compare a PBM with a medicine distributor in Nepal, and see where the comparison stops.",
+     "say": "Compare a P B M with a medicine distributor in Nepal, and see where the comparison stops.",
+     "focus": 3,
+     "file": "clips/7b38cae0fcc2.mp3",
+     "seconds": 6.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What this course covers.",
+     "say": "What this course covers.",
+     "focus": -1,
+     "file": "clips/9a23bd0c803f.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "What this course covers",
+   "lines": [
+    {
+     "raw": "Behind almost every US prescription sits a company most patients never notice: the **PBM (Pharmacy Benefit Manager)**.",
+     "say": "Behind almost every U S prescription sits a company most patients never notice: the P B M (Pharmacy Benefit Manager).",
+     "focus": -1,
+     "file": "clips/233434ecea43.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "It answers every pharmacy claim in seconds, decides which drugs are covered and pays pharmacies.",
+     "say": "It answers every pharmacy claim in seconds, decides which drugs are covered and pays pharmacies.",
+     "focus": -1,
+     "file": "clips/07f1120c2486.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "This course looks at the PBM itself: **what it does, how money moves through it, how it earns money, and what data it sends to a plan**.",
+     "say": "This course looks at the P B M itself: what it does, how money moves through it, how it earns money, and what data it sends to a plan.",
+     "focus": -1,
+     "file": "clips/66778b19f186.mp3",
+     "seconds": 8.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "What this course covers",
+   "lines": [
+    {
+     "raw": "Pharmacy claim.",
+     "say": "Pharmacy claim.",
+     "focus": 0,
+     "file": "clips/2a329de94dc8.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "The bill a pharmacy sends electronically when a member picks up a prescription.",
+     "say": "The bill a pharmacy sends electronically when a member picks up a prescription.",
+     "focus": 0,
+     "file": "clips/bc5124f4b90f.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "It is answered (paid or rejected) in seconds, while the member waits at the counter.",
+     "say": "It is answered (paid or rejected) in seconds, while the member waits at the counter.",
+     "focus": 0,
+     "file": "clips/5fc6b71a83ef.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "One claim usually covers one drug.",
+     "say": "One claim usually covers one drug.",
+     "focus": 0,
+     "file": "clips/112ace2c3545.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Formulary and tiers.",
+     "say": "Formulary and tiers.",
+     "focus": 1,
+     "file": "clips/dd3186b5b20d.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "The plan's list of covered drugs, sorted into **tiers**.",
+     "say": "The plan's list of covered drugs, sorted into tiers.",
+     "focus": 1,
+     "file": "clips/9fe0b71c3574.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Lower tiers (usually cheap **generics**) mean a lower **copay** (a fixed amount the member pays per fill).",
+     "say": "Lower tiers (usually cheap generics) mean a lower copay (a fixed amount the member pays per fill).",
+     "focus": 1,
+     "file": "clips/63daf05d47f5.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "Gross amount due.",
+     "say": "Gross amount due.",
+     "focus": 2,
+     "file": "clips/4c2cb90108b5.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "The full contracted price of one fill: **ingredient cost** (the medicine) + **dispensing fee** (the pharmacy's work).",
+     "say": "The full contracted price of one fill: ingredient cost (the medicine) and dispensing fee (the pharmacy's work).",
+     "focus": 2,
+     "file": "clips/cba10c410dd6.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "It is split between the member and the plan.",
+     "say": "It is split between the member and the plan.",
+     "focus": 2,
+     "file": "clips/a69ee273d480.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Brand and generic.",
+     "say": "Brand and generic.",
+     "focus": 3,
+     "file": "clips/db52d6216d8f.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "A **brand** drug is the original, patented product.",
+     "say": "A brand drug is the original, patented product.",
+     "focus": 3,
+     "file": "clips/116c71c33218.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "A **generic** is an approved copy with the same active ingredient, usually much cheaper.",
+     "say": "A generic is an approved copy with the same active ingredient, usually much cheaper.",
+     "focus": 3,
+     "file": "clips/da836c41d2b2.mp3",
+     "seconds": 5.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "What this course covers",
+   "lines": [
+    {
+     "raw": "Want the claim in detail?",
+     "say": "Want the claim in detail?",
+     "focus": -1,
+     "file": "clips/72ce9cf0b134.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "The pharmacy claim itself, field by field (drug codes, days supply, pricing, reversals), is covered in the Pharmacy course.",
+     "say": "The pharmacy claim itself, field by field (drug codes, days supply, pricing, reversals), is covered in the Pharmacy course.",
+     "focus": -1,
+     "file": "clips/a1c51730ef35.mp3",
+     "seconds": 8.3
+    },
+    {
+     "raw": "This course focuses on the PBM's business and data.",
+     "say": "This course focuses on the PBM's business and data.",
+     "focus": -1,
+     "file": "clips/0556c06ac3d5.mp3",
+     "seconds": 3.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "What this course covers",
+   "lines": [
+    {
+     "raw": "Simple definition.",
+     "say": "Simple definition.",
+     "focus": -1,
+     "file": "clips/a5c5927139e3.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "A PBM is a company that a health plan hires to run its prescription drug benefit: it processes the claims, builds the pharmacy network and the drug list, negotiates with drug makers, and often runs its own pharmacies too.",
+     "say": "A P B M is a company that a health plan hires to run its prescription drug benefit: it processes the claims, builds the pharmacy network and the drug list, negotiates with drug makers, and often runs its own pharmacies too.",
+     "focus": -1,
+     "file": "clips/6b4c3ac082c3.mp3",
+     "seconds": 15.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Start with something familiar.",
+     "say": "Start with something familiar.",
+     "focus": -1,
+     "file": "clips/5f72aac509cb.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Start with something familiar",
+   "lines": [
+    {
+     "raw": "Think about how medicine reaches a medical shop in Kathmandu.",
+     "say": "Think about how medicine reaches a medical shop in Kathmandu.",
+     "focus": -1,
+     "file": "clips/6cf390b71051.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "A pharmaceutical company (in Nepal, or very often in India) does not deliver to thousands of small shops itself.",
+     "say": "A pharmaceutical company (in Nepal, or very often in India) does not deliver to thousands of small shops itself.",
+     "focus": -1,
+     "file": "clips/60db40fdc1dd.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "It sells to a **distributor** (a wholesaler), and the distributor supplies the **medical shops**.",
+     "say": "It sells to a distributor (a wholesaler), and the distributor supplies the medical shops.",
+     "focus": -1,
+     "file": "clips/90038b2e9d41.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "The distributor sits **in the middle**: it knows every shop, it negotiates with the companies, and it decides which brands to push.",
+     "say": "The distributor sits in the middle: it knows every shop, it negotiates with the companies, and it decides which brands to push.",
+     "focus": -1,
+     "file": "clips/b58f80d207be.mp3",
+     "seconds": 7.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Start with something familiar",
+   "lines": [
+    {
+     "raw": "The middle-man in Nepal.",
+     "say": "The middle-man in Nepal.",
+     "focus": -1,
+     "file": "clips/0adfaaee9615.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "**Ram** works at a tech startup in Kathmandu and has private health insurance.",
+     "say": "Ram works at a tech startup in Kathmandu and has private health insurance.",
+     "focus": 0,
+     "file": "clips/d655dc65e267.mp3",
+     "seconds": 4.95
+    },
+    {
+     "raw": "He buys medicine at a private medical shop and pays in full.",
+     "say": "He buys medicine at a private medical shop and pays in full.",
+     "focus": 0,
+     "file": "clips/dba7c9ccdcac.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "The shop got its stock from a **distributor**, who got it from the **company**.",
+     "say": "The shop got its stock from a distributor, who got it from the company.",
+     "focus": 0,
+     "file": "clips/a03bd25aac2a.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Companies sometimes offer the distributor or the shop a **scheme** (\"buy 10 boxes, get 1 free\") to push their brand.",
+     "say": "Companies sometimes offer the distributor or the shop a scheme (\"buy 10 boxes, get 1 free\") to push their brand.",
+     "focus": 1,
+     "file": "clips/3c9c52eb8edd.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "Ram never sees that deal: he just pays the price on the strip.",
+     "say": "Ram never sees that deal: he just pays the price on the strip.",
+     "focus": 1,
+     "file": "clips/f00d9cbce0a2.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Ram's **insurer** has no middle-man for medicines.",
+     "say": "Ram's insurer has no middle-man for medicines.",
+     "focus": 2,
+     "file": "clips/bc54a1d6833c.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "It simply checks his bills and prescription weeks later and pays him back.",
+     "say": "It simply checks his bills and prescription weeks later and pays him back.",
+     "focus": 2,
+     "file": "clips/f3048455fab8.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "**Sita** is an accountant who contributes to Nepal's **Social Security Fund (SSF)**.",
+     "say": "Sita is an accountant who contributes to Nepal's Social Security Fund (S S F).",
+     "focus": 3,
+     "file": "clips/590c5dc9b028.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "She gets medicine from her **SSF-listed hospital** pharmacy and pays 20%.",
+     "say": "She gets medicine from her S S F listed hospital pharmacy and pays 20 percent.",
+     "focus": 3,
+     "file": "clips/512e6b8c1ffe.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "The hospital buys its stock from distributors too.",
+     "say": "The hospital buys its stock from distributors too.",
+     "focus": 3,
+     "file": "clips/70c796ee5c46.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "As far as we know, SSF deals with the **hospitals** directly.",
+     "say": "As far as we know, S S F deals with the hospitals directly.",
+     "focus": 4,
+     "file": "clips/06813fbf8809.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "There is no separate company running \"the drug benefit\" for SSF the way a PBM does for a US plan.",
+     "say": "There is no separate company running \"the drug benefit\" for S S F the way a P B M does for a U S plan.",
+     "focus": 4,
+     "file": "clips/d431b9be65c0.mp3",
+     "seconds": 7.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Start with something familiar",
+   "lines": [
+    {
+     "raw": "Where the comparison stops.",
+     "say": "Where the comparison stops.",
+     "focus": -1,
+     "file": "clips/ecfe7f8955b7.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "A Nepali distributor moves **boxes of medicine**.",
+     "say": "A Nepali distributor moves boxes of medicine.",
+     "focus": -1,
+     "file": "clips/87478c734220.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "A US PBM mostly moves **claims, rules and money**.",
+     "say": "A U S P B M mostly moves claims, rules and money.",
+     "focus": -1,
+     "file": "clips/8d69803eeb16.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "The boxes themselves usually travel through separate US **wholesalers** (lesson 2).",
+     "say": "The boxes themselves usually travel through separate U S wholesalers (lesson 2).",
+     "focus": -1,
+     "file": "clips/233678e1e564.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "The exception is the PBM's own **mail-order** and **specialty** pharmacies, which do ship medicine to patients.",
+     "say": "The exception is the PBM's own mail-order and specialty pharmacies, which do ship medicine to patients.",
+     "focus": -1,
+     "file": "clips/62835c6f8abd.mp3",
+     "seconds": 7.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The six main jobs of a PBM.",
+     "say": "The six main jobs of a P B M.",
+     "focus": -1,
+     "file": "clips/090ce6169d5e.mp3",
+     "seconds": 2.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The six main jobs of a PBM",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**1. Claims processing**. What it means: Receives every pharmacy claim, checks it against the plan's rules and answers paid or rejected in seconds. Nepal comparison: A cashier checking your meal card at the canteen.",
+     "say": "1. Claims processing. What it means: Receives every pharmacy claim, checks it against the plan's rules and answers paid or rejected in seconds. Nepal comparison: A cashier checking your meal card at the canteen.",
+     "focus": 0,
+     "file": "clips/95b2dec3da4a.mp3",
+     "seconds": 14.525
+    },
+    {
+     "raw": "**2. Pharmacy networks**. What it means: Signs contracts with pharmacies: which ones are \"in network\" and how much each is paid per claim (AWP discount, MAC, dispensing fee). Nepal comparison: A distributor's list of shops it supplies, each with agreed prices.",
+     "say": "2. Pharmacy networks. What it means: Signs contracts with pharmacies: which ones are \"in network\" and how much each is paid per claim (A W P discount, M A C, dispensing fee). Nepal comparison: A distributor's list of shops it supplies, each with agreed prices.",
+     "focus": 1,
+     "file": "clips/46b0ec37eb2e.mp3",
+     "seconds": 18.325
+    },
+    {
+     "raw": "**3. Formulary management**. What it means: Builds and updates the list of covered drugs, the tiers and the rules (prior authorization, step therapy, quantity limits). Nepal comparison: Deciding which brands the shop keeps on the front shelf.",
+     "say": "3. Formulary management. What it means: Builds and updates the list of covered drugs, the tiers and the rules (prior authorization, step therapy, quantity limits). Nepal comparison: Deciding which brands the shop keeps on the front shelf.",
+     "focus": 2,
+     "file": "clips/2cc946790b4a.mp3",
+     "seconds": 16.225
+    },
+    {
+     "raw": "**4. Rebate negotiation**. What it means: Negotiates payments from drug makers in return for good formulary placement, then shares them with the plan as the contract says. Nepal comparison: A company \"scheme\" to the distributor for pushing its brand.",
+     "say": "4. Rebate negotiation. What it means: Negotiates payments from drug makers in return for good formulary placement, then shares them with the plan as the contract says. Nepal comparison: A company \"scheme\" to the distributor for pushing its brand.",
+     "focus": 3,
+     "file": "clips/5834f7ad6613.mp3",
+     "seconds": 17.125
+    },
+    {
+     "raw": "**5. Mail-order and specialty pharmacy**. What it means: Many PBMs own pharmacies that post 90-day supplies to homes, or handle expensive specialty drugs that need special care. Nepal comparison: A distributor that also opens its own medical shops.",
+     "say": "5. Mail-order and specialty pharmacy. What it means: Many P B M's own pharmacies that post 90-day supplies to homes, or handle expensive specialty drugs that need special care. Nepal comparison: A distributor that also opens its own medical shops.",
+     "focus": 4,
+     "file": "clips/1d9cddac2ee1.mp3",
+     "seconds": 18.675
+    },
+    {
+     "raw": "**6. Clinical programs**. What it means: Safety checks at the counter (DUR), reminders to take medicine, reviews of expensive treatments, support for patients on specialty drugs. Nepal comparison: A pharmacist who warns you about two medicines that should not be taken together.",
+     "say": "6. Clinical programs. What it means: Safety checks at the counter (D U R), reminders to take medicine, reviews of expensive treatments, support for patients on specialty drugs. Nepal comparison: A pharmacist who warns you about two medicines that should not be taken together.",
+     "focus": 5,
+     "file": "clips/0385c609cfb9.mp3",
+     "seconds": 18.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The six main jobs of a PBM",
+   "lines": [
+    {
+     "raw": "P&T committee.",
+     "say": "P&T committee.",
+     "focus": 0,
+     "file": "clips/c469f948d174.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "A **Pharmacy and Therapeutics** committee of doctors and pharmacists.",
+     "say": "A Pharmacy and Therapeutics committee of doctors and pharmacists.",
+     "focus": 0,
+     "file": "clips/24069ea8719f.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "It reviews drugs on clinical grounds (does it work? is it safe?).",
+     "say": "It reviews drugs on clinical grounds (does it work? is it safe?).",
+     "focus": 0,
+     "file": "clips/b850a1738996.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Cost and rebates are usually weighed separately when tiers are decided.",
+     "say": "Cost and rebates are usually weighed separately when tiers are decided.",
+     "focus": 0,
+     "file": "clips/a7a791cc60d9.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "DUR (Drug Utilization Review).",
+     "say": "D U R (Drug Utilization Review).",
+     "focus": 1,
+     "file": "clips/93c700fa43a4.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Automatic safety checks on each claim: dangerous drug combinations, duplicate medicines, wrong doses.",
+     "say": "Automatic safety checks on each claim: dangerous drug combinations, duplicate medicines, wrong doses.",
+     "focus": 1,
+     "file": "clips/974439dbd769.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "It runs on every claim, in seconds, before the medicine is handed over.",
+     "say": "It runs on every claim, in seconds, before the medicine is handed over.",
+     "focus": 1,
+     "file": "clips/c1d9db779c45.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Specialty drug.",
+     "say": "Specialty drug.",
+     "focus": 2,
+     "file": "clips/290220da7e88.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "A very expensive drug, often an injection or infusion for conditions like cancer, multiple sclerosis or rheumatoid arthritis.",
+     "say": "A very expensive drug, often an injection or infusion for conditions like cancer, multiple sclerosis or rheumatoid arthritis.",
+     "focus": 2,
+     "file": "clips/25e9d7d4e7b8.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "It may need special storage and close follow-up.",
+     "say": "It may need special storage and close follow-up.",
+     "focus": 2,
+     "file": "clips/43597cbdf14b.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Adherence program.",
+     "say": "Adherence program.",
+     "focus": 3,
+     "file": "clips/8e54ad2c96d2.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Reminders, refill alerts or pharmacist calls to help members take long-term medicines regularly.",
+     "say": "Reminders, refill alerts or pharmacist calls to help members take long-term medicines regularly.",
+     "focus": 3,
+     "file": "clips/1946160ab6ce.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Success is often measured with **PDC** (proportion of days covered): the share of days the member had medicine at home.",
+     "say": "Success is often measured with P D C (proportion of days covered): the share of days the member had medicine at home.",
+     "focus": 3,
+     "file": "clips/aa0c7e82d198.mp3",
+     "seconds": 7.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who hires a PBM?",
+     "say": "Who hires a P B M?",
+     "focus": -1,
+     "file": "clips/9b75aeef89eb.mp3",
+     "seconds": 2.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Who hires a PBM?",
+   "lines": [
+    {
+     "raw": "The PBM is the **hired manager**, not the owner of the money.",
+     "say": "The P B M is the hired manager, not the owner of the money.",
+     "focus": -1,
+     "file": "clips/c756417d1298.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "Its client is whoever pays for the drugs.",
+     "say": "Its client is whoever pays for the drugs.",
+     "focus": -1,
+     "file": "clips/ab2b29de8421.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "In this course we call that client **the plan**.",
+     "say": "In this course we call that client the plan.",
+     "focus": -1,
+     "file": "clips/1c205b5ae863.mp3",
+     "seconds": 2.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Who hires a PBM?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Fully insured employer plan**. Example: Emily's plan at Bluebonnet Logistics. Who signs with the PBM?: The **insurer**. The employer pays premiums and usually never deals with the PBM directly.",
+     "say": "Fully insured employer plan. Example: Emily's plan at Bluebonnet Logistics. Who signs with the P B M?: The insurer. The employer pays premiums and usually never deals with the P B M directly.",
+     "focus": 0,
+     "file": "clips/ba4b7008dd41.mp3",
+     "seconds": 14.05
+    },
+    {
+     "raw": "**Self-funded employer plan**. Example: A large company that pays its staff's claims from its own money. Who signs with the PBM?: The **employer** itself, often helped by a benefits consultant.",
+     "say": "Self-funded employer plan. Example: A large company that pays its staff's claims from its own money. Who signs with the P B M?: The employer itself, often helped by a benefits consultant.",
+     "focus": 1,
+     "file": "clips/d65da64f261b.mp3",
+     "seconds": 13.175
+    },
+    {
+     "raw": "**Medicare Part D plan**. Example: Drug coverage for people on Medicare (see the Medicare course). Who signs with the PBM?: The insurance company that runs the Part D plan.",
+     "say": "Medicare Part D plan. Example: Drug coverage for people on Medicare (see the Medicare course). Who signs with the P B M?: The insurance company that runs the Part D plan.",
+     "focus": 2,
+     "file": "clips/899977bdca0b.mp3",
+     "seconds": 12.125
+    },
+    {
+     "raw": "**Medicaid**. Example: State programs for people with low income. Who signs with the PBM?: The state, or the Medicaid managed care plans it hires.",
+     "say": "Medicaid. Example: State programs for people with low income. Who signs with the P B M?: The state, or the Medicaid managed care plans it hires.",
+     "focus": 3,
+     "file": "clips/94170ccb58a8.mp3",
+     "seconds": 10.55
+    },
+    {
+     "raw": "**Unions and public employers**. Example: A teachers' union health fund, a state employee plan. Who signs with the PBM?: The fund or the state.",
+     "say": "Unions and public employers. Example: A teachers' union health fund, a state employee plan. Who signs with the P B M?: The fund or the state.",
+     "focus": 4,
+     "file": "clips/f9c316b38f7d.mp3",
+     "seconds": 10.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Who hires a PBM?",
+   "lines": [
+    {
+     "raw": "Carve-in.",
+     "say": "Carve-in.",
+     "focus": 0,
+     "file": "clips/d7a2f7f796e3.mp3",
+     "seconds": 1.45
+    },
+    {
+     "raw": "The drug benefit is **bundled** with the medical benefit.",
+     "say": "The drug benefit is bundled with the medical benefit.",
+     "focus": 0,
+     "file": "clips/49332585ea5e.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "The insurer picks the PBM (often one it owns) and the employer gets one package.",
+     "say": "The insurer picks the P B M (often one it owns) and the employer gets one package.",
+     "focus": 0,
+     "file": "clips/4c184e4d3553.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "Carve-out.",
+     "say": "Carve-out.",
+     "focus": 1,
+     "file": "clips/a71c9113277d.mp3",
+     "seconds": 1.425
+    },
+    {
+     "raw": "The employer **separates** the drug benefit and hires a PBM **directly**, under its own contract.",
+     "say": "The employer separates the drug benefit and hires a P B M directly, under its own contract.",
+     "focus": 1,
+     "file": "clips/3b3277e4a01d.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "More control and more data, but more work.",
+     "say": "More control and more data, but more work.",
+     "focus": 1,
+     "file": "clips/67fd26aec7eb.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "This is mainly an option for **self-funded** plans.",
+     "say": "This is mainly an option for self-funded plans.",
+     "focus": 1,
+     "file": "clips/7336a7714028.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Who hires a PBM?",
+   "lines": [
+    {
+     "raw": "In the US: Emily and her PBM.",
+     "say": "In the U S: Emily and her P B M.",
+     "focus": -1,
+     "file": "clips/d87caefa9473.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "**Emily Carter** is an office worker in Texas.",
+     "say": "Emily Carter is an office worker in Texas.",
+     "focus": 0,
+     "file": "clips/cf5883422420.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Her health plan comes through her employer, **Bluebonnet Logistics** (group G20450, plan TXPPO1000), and it is **fully insured**.",
+     "say": "Her health plan comes through her employer, Bluebonnet Logistics (group G 2 0 4 5 0, plan T X P P O 1 0 0 0), and it is fully insured.",
+     "focus": 0,
+     "file": "clips/20e8ab95be31.mp3",
+     "seconds": 11.9
+    },
+    {
+     "raw": "Her insurer runs the drug benefit **carved in**, through a PBM it contracts with.",
+     "say": "Her insurer runs the drug benefit carved in, through a P B M it contracts with.",
+     "focus": 0,
+     "file": "clips/9d6e19831f10.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "The **RxBIN** and **RxPCN** on her card send every pharmacy claim to that PBM, like an address on an envelope.",
+     "say": "The RxBIN and RxPCN on her card send every pharmacy claim to that P B M, like an address on an envelope.",
+     "focus": 1,
+     "file": "clips/015a35eb50f9.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "In 2025 the PBM answered all of Emily's fills: amoxicillin for strep throat in March, ibuprofen after her appendix surgery in June, and atorvastatin for cholesterol from July, including her **90-day mail-order** fill in October from a mail pharmacy in the PBM's network.",
+     "say": "In 2025 the P B M answered all of Emily's fills: amoxicillin for strep throat in March, ibuprofen after her appendix surgery in June, and atorvastatin for cholesterol from July, including her 90-day mail-order fill in October from a mail pharmacy in the PBM's network.",
+     "focus": 2,
+     "file": "clips/0d77cee00a29.mp3",
+     "seconds": 19.775
+    },
+    {
+     "raw": "Bluebonnet Logistics never sees which medicines Emily takes.",
+     "say": "Bluebonnet Logistics never sees which medicines Emily takes.",
+     "focus": 3,
+     "file": "clips/40733045e544.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "That privacy matters later, in lesson 5.",
+     "say": "That privacy matters later, in lesson 5.",
+     "focus": 3,
+     "file": "clips/aab3ec817a11.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Who hires a PBM?",
+   "lines": [
+    {
+     "raw": "A few very large PBMs.",
+     "say": "A few very large P B M's.",
+     "focus": -1,
+     "file": "clips/2711aa50bda8.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Three very large PBMs handle roughly 80% of US prescriptions: **CVS Caremark**, **Express Scripts** and **Optum Rx**.",
+     "say": "Three very large P B M's handle roughly 80 percent of U S prescriptions: C V S Caremark, Express Scripts and Optum Rx.",
+     "focus": -1,
+     "file": "clips/c9b54da09fa2.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "Each belongs to a larger health company that also owns a big insurer (Aetna, Cigna and UnitedHealthcare) and its own mail-order and specialty pharmacies.",
+     "say": "Each belongs to a larger health company that also owns a big insurer (Aetna, Cigna and UnitedHealthcare) and its own mail-order and specialty pharmacies.",
+     "focus": -1,
+     "file": "clips/9622f05ec57a.mp3",
+     "seconds": 10.6
+    },
+    {
+     "raw": "Owning several links in the chain is called **vertical integration**, and it is one reason PBMs are debated (lesson 3).",
+     "say": "Owning several links in the chain is called vertical integration, and it is one reason P B M's are debated (lesson 3).",
+     "focus": -1,
+     "file": "clips/261eb10ed583.mp3",
+     "seconds": 8.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Who hires a PBM?",
+   "lines": [
+    {
+     "raw": "Step 1: Plan hires PBM.",
+     "say": "Step 1: Plan hires P B M.",
+     "focus": 0,
+     "file": "clips/f89864edd429.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "A contract sets the prices, fees, rebate sharing and reports (lesson 3).",
+     "say": "A contract sets the prices, fees, rebate sharing and reports (lesson 3).",
+     "focus": 0,
+     "file": "clips/283be2878bcc.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Step 2: PBM builds the benefit.",
+     "say": "Step 2: P B M builds the benefit.",
+     "focus": 1,
+     "file": "clips/426b3d35afba.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Network of pharmacies, formulary, tiers, clinical rules.",
+     "say": "Network of pharmacies, formulary, tiers, clinical rules.",
+     "focus": 1,
+     "file": "clips/ff4146a52ce3.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "Step 3: Members fill prescriptions.",
+     "say": "Step 3: Members fill prescriptions.",
+     "focus": 2,
+     "file": "clips/408eee561867.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Pharmacies send claims; the PBM answers in seconds and pays pharmacies later.",
+     "say": "Pharmacies send claims; the P B M answers in seconds and pays pharmacies later.",
+     "focus": 2,
+     "file": "clips/2acb02cabf81.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "Step 4: PBM bills the plan.",
+     "say": "Step 4: P B M bills the plan.",
+     "focus": 3,
+     "file": "clips/673cfe091cfa.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Regular invoices for the claims it paid, plus any fees.",
+     "say": "Regular invoices for the claims it paid, plus any fees.",
+     "focus": 3,
+     "file": "clips/35ad3af63537.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Step 5: Rebates arrive later.",
+     "say": "Step 5: Rebates arrive later.",
+     "focus": 4,
+     "file": "clips/d1ee8426b987.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "The PBM collects from drug makers and passes the plan's share on, months later.",
+     "say": "The P B M collects from drug makers and passes the plan's share on, months later.",
+     "focus": 4,
+     "file": "clips/41baef6ad8c0.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Step 6: Data and reports.",
+     "say": "Step 6: Data and reports.",
+     "focus": 5,
+     "file": "clips/f25a2c72f823.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Claims, invoice, rebate, formulary and network files go to the plan (lesson 4).",
+     "say": "Claims, invoice, rebate, formulary and network files go to the plan (lesson 4).",
+     "focus": 5,
+     "file": "clips/9e1e19ae29f7.mp3",
+     "seconds": 5.925
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A **PBM** runs the drug benefit for a plan.",
+     "say": "A P B M runs the drug benefit for a plan.",
+     "focus": 0,
+     "file": "clips/668e98ca554c.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "It is a hired manager; the plan owns the money.",
+     "say": "It is a hired manager; the plan owns the money.",
+     "focus": 0,
+     "file": "clips/d25cbe166457.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Six jobs: **claims processing**, **pharmacy networks**, **formulary management**, **rebate negotiation**, **mail-order and specialty pharmacy**, **clinical programs**.",
+     "say": "Six jobs: claims processing, pharmacy networks, formulary management, rebate negotiation, mail-order and specialty pharmacy, clinical programs.",
+     "focus": 1,
+     "file": "clips/d9c2d738c780.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "Clients include insurers, self-funded employers, Medicare Part D plans and Medicaid.",
+     "say": "Clients include insurers, self-funded employers, Medicare Part D plans and Medicaid.",
+     "focus": 2,
+     "file": "clips/bacd48a8400e.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "**Carve-in** = drug benefit bundled with medical; **carve-out** = employer hires a PBM directly.",
+     "say": "Carve-in = drug benefit bundled with medical; carve-out = employer hires a P B M directly.",
+     "focus": 3,
+     "file": "clips/17c4a15b0f34.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "Like a Nepali distributor, a PBM sits in the middle, but it mostly moves claims and money, not boxes.",
+     "say": "Like a Nepali distributor, a P B M sits in the middle, but it mostly moves claims and money, not boxes.",
+     "focus": 4,
+     "file": "clips/9bb61c9c5601.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1065 @@
+{
+ "courseId": "terminology",
+ "lessonId": "cost-sharing",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: Cost Sharing Words.",
+     "say": "Lesson 2: Cost Sharing Words.",
+     "focus": -1,
+     "file": "clips/b941b929efa9.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Deductible, copay, coinsurance and out-of-pocket maximum, worked out with Emily's real numbers.",
+     "say": "Deductible, copay, coinsurance and out-of-pocket maximum, worked out with Emily's real numbers.",
+     "focus": -1,
+     "file": "clips/24b0fd1f3f5c.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain billed amount, allowed amount and balance billing.",
+     "say": "Explain billed amount, allowed amount and balance billing.",
+     "focus": 0,
+     "file": "clips/4b50de791254.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Explain deductible, copay, coinsurance and out-of-pocket maximum.",
+     "say": "Explain deductible, copay, coinsurance and out-of-pocket maximum.",
+     "focus": 1,
+     "file": "clips/cef038ccb412.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Work out who pays what on a claim, step by step.",
+     "say": "Work out who pays what on a claim, step by step.",
+     "focus": 2,
+     "file": "clips/1c944886eefb.mp3",
+     "seconds": 3.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Cost sharing: the patient pays a part.",
+     "say": "Cost sharing: the patient pays a part.",
+     "focus": -1,
+     "file": "clips/bd1ab6af5167.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Cost sharing: the patient pays a part",
+   "lines": [
+    {
+     "raw": "Insurance rarely pays 100% of a bill.",
+     "say": "Insurance rarely pays 100 percent of a bill.",
+     "focus": -1,
+     "file": "clips/4d378557804d.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "The patient pays a part too.",
+     "say": "The patient pays a part too.",
+     "focus": -1,
+     "file": "clips/9c855eedca5b.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "That part is called **cost sharing**, and the US has four main words for it.",
+     "say": "That part is called cost sharing, and the U S has four main words for it.",
+     "focus": -1,
+     "file": "clips/a045d6623dc9.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "First, though, you need to know which **price** everyone is talking about.",
+     "say": "First, though, you need to know which price everyone is talking about.",
+     "focus": -1,
+     "file": "clips/2fc74b47bdd2.mp3",
+     "seconds": 4.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Cost sharing: the patient pays a part",
+   "lines": [
+    {
+     "raw": "In Nepal: Cost sharing you already know.",
+     "say": "In Nepal: Cost sharing you already know.",
+     "focus": -1,
+     "file": "clips/fba254f21a3f.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's policy may not cover some items on his bill, such as registration or file charges.",
+     "say": "Ram's policy may not cover some items on his bill, such as registration or file charges.",
+     "focus": 0,
+     "file": "clips/a439b7a160f4.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "Those **non-covered** items stay with Ram.",
+     "say": "Those non-covered items stay with Ram.",
+     "focus": 0,
+     "file": "clips/581def19c77c.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Some private policies also have a **co-payment** or a **room rent limit**, so Ram pays the difference if he picks a costlier room.",
+     "say": "Some private policies also have a co-payment or a room rent limit, so Ram pays the difference if he picks a costlier room.",
+     "focus": 1,
+     "file": "clips/3ab3e6d5ac0d.mp3",
+     "seconds": 8.225
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita pays **20%** of her covered SSF hospital bill and SSF pays **80%**.",
+     "say": "Sita pays 20 percent of her covered S S F hospital bill and S S F pays 80 percent.",
+     "focus": 2,
+     "file": "clips/cf7365152c40.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "That 20% is her **cost sharing**.",
+     "say": "That 20 percent is her cost sharing.",
+     "focus": 2,
+     "file": "clips/f5887656484d.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "In the US, a percentage share like Sita's 20% is called **coinsurance**.",
+     "say": "In the U S, a percentage share like Sita's 20 percent is called coinsurance.",
+     "focus": 3,
+     "file": "clips/b0b52942d123.mp3",
+     "seconds": 5.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Which price?",
+     "say": "Which price?",
+     "focus": -1,
+     "file": "clips/4abca442d12d.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "Billed vs allowed.",
+     "say": "Billed versus allowed.",
+     "focus": -1,
+     "file": "clips/001f0eb91156.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Which price? Billed vs allowed",
+   "lines": [
+    {
+     "raw": "Billed amount (charge).",
+     "say": "Billed amount (charge).",
+     "focus": 0,
+     "file": "clips/399aba45ab3b.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "The **price the provider asks** for, from its own price list.",
+     "say": "The price the provider asks for, from its own price list.",
+     "focus": 0,
+     "file": "clips/368b95432a13.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Often much higher than what anyone actually pays.",
+     "say": "Often much higher than what anyone actually pays.",
+     "focus": 0,
+     "file": "clips/610c94a201fd.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Allowed amount.",
+     "say": "Allowed amount.",
+     "focus": 1,
+     "file": "clips/7462da1a09f9.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The **price the plan accepts** for a service, set by its contract with the provider.",
+     "say": "The price the plan accepts for a service, set by its contract with the provider.",
+     "focus": 1,
+     "file": "clips/39931bca7593.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "All cost sharing is worked out from the **allowed** amount, not the billed amount.",
+     "say": "All cost sharing is worked out from the allowed amount, not the billed amount.",
+     "focus": 1,
+     "file": "clips/32e935c58729.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Discount (contractual adjustment / write-off).",
+     "say": "Discount (contractual adjustment or write-off).",
+     "focus": 2,
+     "file": "clips/2ffac36f9328.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Billed minus allowed.",
+     "say": "Billed minus allowed.",
+     "focus": 2,
+     "file": "clips/8cb49dba5327.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "An **in-network** provider agrees to drop this amount.",
+     "say": "An in-network provider agrees to drop this amount.",
+     "focus": 2,
+     "file": "clips/1d632f151dc4.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Nobody pays it.",
+     "say": "Nobody pays it.",
+     "focus": 2,
+     "file": "clips/52f8abcbcb42.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "Balance billing.",
+     "say": "Balance billing.",
+     "focus": 3,
+     "file": "clips/089ce65a305e.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "When a provider bills the patient for the **difference between billed and allowed**.",
+     "say": "When a provider bills the patient for the difference between billed and allowed.",
+     "focus": 3,
+     "file": "clips/5f9618b172a6.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "In-network providers are not allowed to do this.",
+     "say": "In-network providers are not allowed to do this.",
+     "focus": 3,
+     "file": "clips/d9cb74c0f548.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Out-of-network providers sometimes can, though US law now limits it for emergencies and some surprise bills.",
+     "say": "Out-of-network providers sometimes can, though U S law now limits it for emergencies and some surprise bills.",
+     "focus": 3,
+     "file": "clips/21fffaeb2aca.mp3",
+     "seconds": 7.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Which price? Billed vs allowed",
+   "lines": [
+    {
+     "raw": "Discount.",
+     "say": "Discount.",
+     "focus": -1,
+     "file": "clips/03f237b02677.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "Discount equals Billed − Allowed.",
+     "say": "Discount equals Billed − Allowed.",
+     "focus": 0,
+     "file": "clips/679462402589.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "For example: Emily's strep throat visit: $150 billed − $102 allowed equals $48 discount.",
+     "say": "For example: Emily's strep throat visit: 150 dollars billed − 102 dollars allowed equals 48 dollars discount.",
+     "focus": 1,
+     "file": "clips/a30a47b30682.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "Dr. Patel is in-network, so she cannot bill Emily for this $48.",
+     "say": "Doctor Patel is in-network, so she cannot bill Emily for this 48 dollars.",
+     "focus": 1,
+     "file": "clips/fa2cedded31b.mp3",
+     "seconds": 5.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Which price? Billed vs allowed",
+   "lines": [
+    {
+     "raw": "The No Surprises Act.",
+     "say": "The No Surprises Act.",
+     "focus": -1,
+     "file": "clips/54ecf415f8fd.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Since 2022, a US federal law called the **No Surprises Act** protects patients from most **surprise balance bills**, for example for emergency care, or when an out-of-network doctor treats them at an in-network hospital without their choice.",
+     "say": "Since 2022, a U S federal law called the No Surprises Act protects patients from most surprise balance bills, for example for emergency care, or when an out-of-network doctor treats them at an in-network hospital without their choice.",
+     "focus": -1,
+     "file": "clips/2f9dbeff117b.mp3",
+     "seconds": 15.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The four cost sharing words.",
+     "say": "The four cost sharing words.",
+     "focus": -1,
+     "file": "clips/08ed7f2b8d84.mp3",
+     "seconds": 2.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "The four cost sharing words",
+   "lines": [
+    {
+     "raw": "Deductible.",
+     "say": "Deductible.",
+     "focus": 0,
+     "file": "clips/8d910216ca71.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "The amount the member pays **each plan year** before the plan starts sharing costs for most services.",
+     "say": "The amount the member pays each plan year before the plan starts sharing costs for most services.",
+     "focus": 0,
+     "file": "clips/afd75168700c.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Emily's is **$1,000**.",
+     "say": "Emily's is 1000 dollars.",
+     "focus": 0,
+     "file": "clips/65e6de5d0ee1.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Copay (copayment).",
+     "say": "Copay (copayment).",
+     "focus": 1,
+     "file": "clips/08e4949c9dea.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "A **fixed amount** for a service, such as **$25** for each office visit.",
+     "say": "A fixed amount for a service, such as 25 dollars for each office visit.",
+     "focus": 1,
+     "file": "clips/167d29db980a.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "The same amount whatever the bill.",
+     "say": "The same amount whatever the bill.",
+     "focus": 1,
+     "file": "clips/58640d1b7ddb.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Coinsurance.",
+     "say": "Coinsurance.",
+     "focus": 2,
+     "file": "clips/82ac221df10b.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "A **percentage** of the allowed amount the member pays after the deductible.",
+     "say": "A percentage of the allowed amount the member pays after the deductible.",
+     "focus": 2,
+     "file": "clips/6d13e5ef6e1a.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Emily pays **20%** and the plan pays 80%, just like Sita and SSF.",
+     "say": "Emily pays 20 percent and the plan pays 80 percent, just like Sita and S S F.",
+     "focus": 2,
+     "file": "clips/e5f731df4550.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "Out-of-pocket maximum (OOP max).",
+     "say": "Out-of-pocket maximum (O O P max).",
+     "focus": 3,
+     "file": "clips/c090285bb7cb.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "The **most** a member pays for covered, in-network care in a plan year.",
+     "say": "The most a member pays for covered, in-network care in a plan year.",
+     "focus": 3,
+     "file": "clips/ad8ed5ef71aa.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "After reaching it, the plan pays **100%**.",
+     "say": "After reaching it, the plan pays 100 percent.",
+     "focus": 3,
+     "file": "clips/979c65d14236.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Emily's is **$5,000**.",
+     "say": "Emily's is 5000 dollars.",
+     "focus": 3,
+     "file": "clips/465baa0a8ffe.mp3",
+     "seconds": 2.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The four cost sharing words",
+   "lines": [
+    {
+     "raw": "A bus pass with a cap.",
+     "say": "A bus pass with a cap.",
+     "focus": -1,
+     "file": "clips/ef5564784ecd.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Imagine a Kathmandu bus company.",
+     "say": "Imagine a Kathmandu bus company.",
+     "focus": -1,
+     "file": "clips/65072d587b9f.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "For your first Rs 1,000 of rides each year, you pay full fare (**deductible**).",
+     "say": "For your first Rs 1,000 of rides each year, you pay full fare (deductible).",
+     "focus": -1,
+     "file": "clips/3292f1379dca.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "After that, some short routes cost a flat Rs 25 (**copay**) and longer rides cost you 20% of the fare (**coinsurance**).",
+     "say": "After that, some short routes cost a flat Rs 25 (copay) and longer rides cost you 20 percent of the fare (coinsurance).",
+     "focus": -1,
+     "file": "clips/22f93c7180b0.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "Once you have spent Rs 5,000 in a year, every ride is free until the year ends (**out-of-pocket maximum**).",
+     "say": "Once you have spent Rs 5,000 in a year, every ride is free until the year ends (out-of-pocket maximum).",
+     "focus": -1,
+     "file": "clips/baea5fa3aaa7.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "Your yearly bus pass fee is the **premium**.",
+     "say": "Your yearly bus pass fee is the premium.",
+     "focus": -1,
+     "file": "clips/23c0635cea86.mp3",
+     "seconds": 2.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The four cost sharing words",
+   "lines": [
+    {
+     "raw": "Emily's plan TXPPO1000 at a glance (in-network).",
+     "say": "Emily's plan T X P P O 1 0 0 0 at a glance (in-network).",
+     "focus": -1,
+     "file": "clips/7d65c9919012.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "Premium. Emily's plan: Monthly, from her salary. Counts toward the OOP max?: No. Premiums never count.",
+     "say": "Premium. Emily's plan: Monthly, from her salary. Counts toward the O O P max?: No. Premiums never count.",
+     "focus": 0,
+     "file": "clips/585d44316d9f.mp3",
+     "seconds": 8.2
+    },
+    {
+     "raw": "Deductible. Emily's plan: $1,000 per year. Counts toward the OOP max?: Yes.",
+     "say": "Deductible. Emily's plan: 1000 dollars per year. Counts toward the O O P max?: Yes.",
+     "focus": 1,
+     "file": "clips/ca1ed7586190.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Copay. Emily's plan: $25 per office visit. Counts toward the OOP max?: Yes.",
+     "say": "Copay. Emily's plan: 25 dollars per office visit. Counts toward the O O P max?: Yes.",
+     "focus": 2,
+     "file": "clips/c88ece70fd22.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "Coinsurance. Emily's plan: 20% after the deductible. Counts toward the OOP max?: Yes.",
+     "say": "Coinsurance. Emily's plan: 20 percent after the deductible. Counts toward the O O P max?: Yes.",
+     "focus": 3,
+     "file": "clips/919932524638.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "Out-of-pocket maximum. Emily's plan: $5,000 per year. Counts toward the OOP max?: It is the cap itself.",
+     "say": "Out-of-pocket maximum. Emily's plan: 5000 dollars per year. Counts toward the O O P max?: It is the cap itself.",
+     "focus": 4,
+     "file": "clips/3742d7890ead.mp3",
+     "seconds": 9.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The four cost sharing words",
+   "lines": [
+    {
+     "raw": "Plans differ.",
+     "say": "Plans differ.",
+     "focus": -1,
+     "file": "clips/f6d3011a0b38.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Each plan has its own rules: on many plans office-visit copays do **not** count toward the deductible, and some plans apply copays only after the deductible.",
+     "say": "Each plan has its own rules: on many plans office-visit copays do not count toward the deductible, and some plans apply copays only after the deductible.",
+     "focus": -1,
+     "file": "clips/bbcc2a4984ec.mp3",
+     "seconds": 10.85
+    },
+    {
+     "raw": "In this course, Emily's office-visit copay applies straight away and does not count toward her deductible.",
+     "say": "In this course, Emily's office-visit copay applies straight away and does not count toward her deductible.",
+     "focus": -1,
+     "file": "clips/2892bdcbb6a6.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Always read the plan's **Summary of Benefits and Coverage (SBC)**.",
+     "say": "Always read the plan's Summary of Benefits and Coverage (S B C).",
+     "focus": -1,
+     "file": "clips/6ac7b42ce0d0.mp3",
+     "seconds": 4.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: Emily's 2025.",
+     "say": "Worked example: Emily's 2025.",
+     "focus": -1,
+     "file": "clips/bfd88dd4f5eb.mp3",
+     "seconds": 3.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Worked example: Emily's 2025",
+   "lines": [
+    {
+     "raw": "Let us follow Emily's own medical claims through 2025.",
+     "say": "Let us follow Emily's own medical claims through 2025.",
+     "focus": -1,
+     "file": "clips/8dc3d43ec92b.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "Her plan year starts on **1 January**, so on that day she has paid $0 toward her deductible and $0 toward her out-of-pocket maximum.",
+     "say": "Her plan year starts on 1 January, so on that day she has paid 0 dollars toward her deductible and 0 dollars toward her out-of-pocket maximum.",
+     "focus": -1,
+     "file": "clips/066df3d8bc81.mp3",
+     "seconds": 9.975
+    },
+    {
+     "raw": "She has two pieces of care: a strep throat visit with her family doctor, **Dr. Patel**, on 10 March, and appendicitis in June, when she stays at **Lakeside General Hospital** from 2 to 4 June and has her appendix removed.",
+     "say": "She has two pieces of care: a strep throat visit with her family doctor, Doctor Patel, on 10 March, and appendicitis in June, when she stays at Lakeside General Hospital from 2 to 4 June and has her appendix removed.",
+     "focus": -1,
+     "file": "clips/959cc77de52f.mp3",
+     "seconds": 14.775
+    },
+    {
+     "raw": "That hospital stay produces three claims: one from the hospital, one from the surgeon and one from the anaesthesia doctor.",
+     "say": "That hospital stay produces three claims: one from the hospital, one from the surgeon and one from the anaesthesia doctor.",
+     "focus": -1,
+     "file": "clips/dedcc2d5882a.mp3",
+     "seconds": 7.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: Emily's 2025",
+   "lines": [
+    {
+     "raw": "Step 1: strep throat visit with Dr. Patel, 10 March 2025 (claim 23098908).",
+     "say": "Step 1: strep throat visit with Doctor Patel, 10 March 2025 (claim 23098908).",
+     "focus": -1,
+     "file": "clips/deffaecf9568.mp3",
+     "seconds": 9.075
+    },
+    {
+     "raw": "Billed by Dr. Patel's clinic. Amount: $150.00.",
+     "say": "Billed by Doctor Patel's clinic. Amount: 150 dollars.",
+     "focus": 0,
+     "file": "clips/9b3647af1562.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Allowed by the plan. Amount: $102.00.",
+     "say": "Allowed by the plan. Amount: 102 dollars.",
+     "focus": 1,
+     "file": "clips/76207d8f74ea.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "Discount (150 − 102). Amount: $48.00, written off.",
+     "say": "Discount (150 − 102). Amount: 48 dollars, written off.",
+     "focus": 2,
+     "file": "clips/384b9f92d4eb.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "Emily's office-visit copay. Amount: $25.00.",
+     "say": "Emily's office-visit copay. Amount: 25 dollars.",
+     "focus": 3,
+     "file": "clips/a4089ef35e5d.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Plan pays (102 − 25). Amount: **$77.00**.",
+     "say": "Plan pays (102 − 25). Amount: 77 dollars.",
+     "focus": 4,
+     "file": "clips/7b546767d9c0.mp3",
+     "seconds": 5.7
+    },
+    {
+     "raw": "Emily pays. Amount: **$25.00**.",
+     "say": "Emily pays. Amount: 25 dollars.",
+     "focus": 5,
+     "file": "clips/093276d85d49.mp3",
+     "seconds": 3.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: Emily's 2025",
+   "lines": [
+    {
+     "raw": "Step 2: appendix surgery, 2 to 4 June 2025 (claims 778201, 551200 and 551870 together).",
+     "say": "Step 2: appendix surgery, 2 to 4 June 2025 (claims 778201, 551200 and 551870 together).",
+     "focus": -1,
+     "file": "clips/a4a7bd83a2c4.mp3",
+     "seconds": 14.525
+    },
+    {
+     "raw": "Total allowed (hospital $6,000 + surgeon $1,200 + anaesthesia $600). Amount: $7,800.",
+     "say": "Total allowed (hospital 6000 dollars and surgeon 1200 dollars and anaesthesia 600 dollars). Amount: 7800 dollars.",
+     "focus": 0,
+     "file": "clips/049bdf0a1953.mp3",
+     "seconds": 10.4
+    },
+    {
+     "raw": "Deductible (none paid yet this year). Amount: $1,000 → Emily.",
+     "say": "Deductible (none paid yet this year). Amount: 1000 dollars to Emily.",
+     "focus": 1,
+     "file": "clips/8abd9cb1bf96.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "Left after the deductible (7,800 − 1,000). Amount: $6,800.",
+     "say": "Left after the deductible (7,800 − 1,000). Amount: 6800 dollars.",
+     "focus": 2,
+     "file": "clips/aa6be8e2f0e4.mp3",
+     "seconds": 7.35
+    },
+    {
+     "raw": "Coinsurance: 20% of $6,800. Amount: $1,360 → Emily.",
+     "say": "Coinsurance: 20 percent of 6800 dollars. Amount: 1360 dollars to Emily.",
+     "focus": 3,
+     "file": "clips/1ea690672511.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "Plan pays: 80% of $6,800. Amount: **$5,440**.",
+     "say": "Plan pays: 80 percent of 6800 dollars. Amount: 5440 dollars.",
+     "focus": 4,
+     "file": "clips/facb77663167.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "Emily pays (1,000 + 1,360). Amount: **$2,360**.",
+     "say": "Emily pays (1,000 and 1,360). Amount: 2360 dollars.",
+     "focus": 5,
+     "file": "clips/b5d5a01f871e.mp3",
+     "seconds": 6.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: Emily's 2025",
+   "lines": [
+    {
+     "raw": "Always check: the allowed amount splits into two parts.",
+     "say": "Always check: the allowed amount splits into two parts.",
+     "focus": -1,
+     "file": "clips/edb1b9fbef60.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Allowed equals Plan paid plus Member paid.",
+     "say": "Allowed equals Plan paid plus Member paid.",
+     "focus": 0,
+     "file": "clips/7b2b2ffa1d1e.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "For example: Strep visit: $77 plus $25 equals $102 ✓.",
+     "say": "For example: Strep visit: 77 dollars plus 25 dollars equals 102 dollars ✓.",
+     "focus": 1,
+     "file": "clips/647b56f99ebe.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "Surgery: $5,440 plus $2,360 equals $7,800 ✓.",
+     "say": "Surgery: 5440 dollars plus 2360 dollars equals 7800 dollars ✓.",
+     "focus": 1,
+     "file": "clips/e67f5739edef.mp3",
+     "seconds": 6.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example: Emily's 2025",
+   "lines": [
+    {
+     "raw": "Step 3: Emily's running totals for 2025 (her own medical claims only).",
+     "say": "Step 3: Emily's running totals for 2025 (her own medical claims only).",
+     "focus": -1,
+     "file": "clips/4c083a04fd8c.mp3",
+     "seconds": 6.05
+    },
+    {
+     "raw": "1 January. Toward deductible: $0 of $1,000. Toward OOP max: $0. Left before OOP max: $5,000.",
+     "say": "1 January. Toward deductible: 0 dollars of 1000 dollars. Toward O O P max: 0 dollars. Left before O O P max: 5000 dollars.",
+     "focus": 0,
+     "file": "clips/f33c931712ff.mp3",
+     "seconds": 12.25
+    },
+    {
+     "raw": "Strep visit (10 Mar). Toward deductible: $0 (copay does not count toward it). Toward OOP max: $25. Left before OOP max: $4,975.",
+     "say": "Strep visit (10 Mar). Toward deductible: 0 dollars (copay does not count toward it). Toward O O P max: 25 dollars. Left before O O P max: 4975 dollars.",
+     "focus": 1,
+     "file": "clips/cb0a774b4108.mp3",
+     "seconds": 14.15
+    },
+    {
+     "raw": "Surgery (2–4 Jun). Toward deductible: $1,000 of $1,000, met. Toward OOP max: $2,385. Left before OOP max: $2,615.",
+     "say": "Surgery (2–4 Jun). Toward deductible: 1000 dollars of 1000 dollars met. Toward O O P max: 2385 dollars. Left before O O P max: 2615 dollars.",
+     "focus": 2,
+     "file": "clips/9f2756db3fc7.mp3",
+     "seconds": 14.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Worked example: Emily's 2025",
+   "lines": [
+    {
+     "raw": "What if Emily had another big bill in 2025?",
+     "say": "What if Emily had another big bill in 2025?",
+     "focus": -1,
+     "file": "clips/13a70568e540.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Imagine (this is made up) a second hospital stay later in 2025 with **$15,000 allowed**.",
+     "say": "Imagine (this is made up) a second hospital stay later in 2025 with 15000 dollars allowed.",
+     "focus": -1,
+     "file": "clips/72e6e5efea2a.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "Her deductible is already met, so 20% coinsurance would be $3,000.",
+     "say": "Her deductible is already met, so 20 percent coinsurance would be 3000 dollars.",
+     "focus": -1,
+     "file": "clips/82a487317459.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "But she has only **$2,615** left before her $5,000 OOP max.",
+     "say": "But she has only 2615 dollars left before her 5000 dollars O O P max.",
+     "focus": -1,
+     "file": "clips/2d71eccf71cd.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "So Emily pays **$2,615**, and the plan pays **$12,385** ($15,000 − $2,615).",
+     "say": "So Emily pays 2615 dollars and the plan pays 12385 dollars (15000 dollars − 2615 dollars).",
+     "focus": -1,
+     "file": "clips/4fe8adfdc26b.mp3",
+     "seconds": 10.625
+    },
+    {
+     "raw": "For the rest of 2025, the plan pays 100% of her covered in-network care.",
+     "say": "For the rest of 2025, the plan pays 100 percent of her covered in-network care.",
+     "focus": -1,
+     "file": "clips/56b7ede3c786.mp3",
+     "seconds": 6.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Worked example: Emily's 2025",
+   "lines": [
+    {
+     "raw": "In Nepal: A cap: on the patient or on the fund?",
+     "say": "In Nepal: A cap: on the patient or on the fund?",
+     "focus": -1,
+     "file": "clips/f0eb583a7b66.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's policy usually has a **sum insured** (a yearly limit).",
+     "say": "Ram's policy usually has a sum insured (a yearly limit).",
+     "focus": 0,
+     "file": "clips/5b64f5a3a0cb.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Once his claims reach it, the insurer stops paying and Ram pays the rest.",
+     "say": "Once his claims reach it, the insurer stops paying and Ram pays the rest.",
+     "focus": 0,
+     "file": "clips/24dfd2445135.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF also has **yearly limits** on what it pays for a member.",
+     "say": "S S F also has yearly limits on what it pays for a member.",
+     "focus": 1,
+     "file": "clips/65dc650c59b7.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "The cap is on the **fund's** spending, not on Sita's.",
+     "say": "The cap is on the fund's spending, not on Sita's.",
+     "focus": 1,
+     "file": "clips/4869a785f24a.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "A US out-of-pocket maximum is the reverse: it caps the **patient's** spending, and the plan pays everything above it.",
+     "say": "A U S out-of-pocket maximum is the reverse: it caps the patient's spending, and the plan pays everything above it.",
+     "focus": 2,
+     "file": "clips/7246a642f551.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "(SSF limits and rates change over time, so check the latest guidelines for real numbers.).",
+     "say": "(S S F limits and rates change over time, so check the latest guidelines for real numbers.).",
+     "focus": 2,
+     "file": "clips/ab41c5b69db7.mp3",
+     "seconds": 6.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Worked example: Emily's 2025",
+   "lines": [
+    {
+     "raw": "More on the money.",
+     "say": "More on the money.",
+     "focus": -1,
+     "file": "clips/eb6892ac1a5e.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The Amounts: How Much lesson of the Medical course shows these same amounts as columns in a claim table, line by line.",
+     "say": "The Amounts: How Much lesson of the Medical course shows these same amounts as columns in a claim table, line by line.",
+     "focus": -1,
+     "file": "clips/c565fed8d5a0.mp3",
+     "seconds": 8.1
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Allowed** amount, not billed, is the base for all cost sharing.",
+     "say": "Allowed amount, not billed, is the base for all cost sharing.",
+     "focus": 0,
+     "file": "clips/481348158a82.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "**Discount = Billed − Allowed**.",
+     "say": "Discount = Billed − Allowed.",
+     "focus": 0,
+     "file": "clips/2d1bb8535cf5.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "**Deductible**: pay first each year.",
+     "say": "Deductible: pay first each year.",
+     "focus": 1,
+     "file": "clips/5f7734cfb8e8.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "**Copay**: fixed amount.",
+     "say": "Copay: fixed amount.",
+     "focus": 1,
+     "file": "clips/4c0079aaa162.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "**Coinsurance**: percentage.",
+     "say": "Coinsurance: percentage.",
+     "focus": 1,
+     "file": "clips/219892c3610a.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "**OOP max**: yearly cap on the member's share.",
+     "say": "O O P max: yearly cap on the member's share.",
+     "focus": 1,
+     "file": "clips/12bc2c775b93.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "**Balance billing** is billing the patient for billed minus allowed.",
+     "say": "Balance billing is billing the patient for billed minus allowed.",
+     "focus": 2,
+     "file": "clips/65300f8323fd.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "In-network providers cannot do it.",
+     "say": "In-network providers cannot do it.",
+     "focus": 2,
+     "file": "clips/59323bcb56b0.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "For every claim: **Allowed = Plan paid + Member paid**.",
+     "say": "For every claim: Allowed = Plan paid and Member paid.",
+     "focus": 3,
+     "file": "clips/8a75c95892f5.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Premiums never count toward the deductible or the OOP max.",
+     "say": "Premiums never count toward the deductible or the O O P max.",
+     "focus": 4,
+     "file": "clips/3f1744368b86.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

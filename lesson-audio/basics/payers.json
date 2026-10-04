@@ -1,0 +1,750 @@
+{
+ "courseId": "basics",
+ "lessonId": "payers",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: Payers: Who Pays the Bill.",
+     "say": "Lesson 4: Payers: Who Pays the Bill.",
+     "focus": -1,
+     "file": "clips/22fdaa60fbc5.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "Insurance companies, employers that pay their own claims, government programmes, and PBMs.",
+     "say": "Insurance companies, employers that pay their own claims, government programmes, and P B M's.",
+     "focus": -1,
+     "file": "clips/8641cc0c7ada.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Explain what a payer is and what it does with a claim.",
+     "say": "Explain what a payer is and what it does with a claim.",
+     "focus": 0,
+     "file": "clips/e5f15c919d55.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Tell fully insured from self-funded employer plans.",
+     "say": "Tell fully insured from self-funded employer plans.",
+     "focus": 1,
+     "file": "clips/7314ea1aa3a0.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "Name the government payers: Medicare and Medicaid.",
+     "say": "Name the government payers: Medicare and Medicaid.",
+     "focus": 2,
+     "file": "clips/2683599ada61.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Describe a PBM in one sentence.",
+     "say": "Describe a P B M in one sentence.",
+     "focus": 3,
+     "file": "clips/a8520220fbe2.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What is a payer?",
+     "say": "What is a payer?",
+     "focus": -1,
+     "file": "clips/162d931158f6.mp3",
+     "seconds": 1.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "What is a payer?",
+   "lines": [
+    {
+     "raw": "A **payer** is whoever pays for healthcare on the patient's behalf.",
+     "say": "A payer is whoever pays for healthcare on the patient's behalf.",
+     "focus": -1,
+     "file": "clips/c6ec5b8b5d92.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "In Nepal, the biggest payer is often the **patient's own family**.",
+     "say": "In Nepal, the biggest payer is often the patient's own family.",
+     "focus": -1,
+     "file": "clips/04000f130d56.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "In the US, it is usually an **insurance company** or a **government programme**.",
+     "say": "In the U S, it is usually an insurance company or a government programme.",
+     "focus": -1,
+     "file": "clips/7f057e9897ce.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "People in the industry say \"payer\" and \"health plan\" almost as the same thing.",
+     "say": "People in the industry say \"payer\" and \"health plan\" almost as the same thing.",
+     "focus": -1,
+     "file": "clips/0f2fc6761c39.mp3",
+     "seconds": 5.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "What is a payer?",
+   "lines": [
+    {
+     "raw": "Payers in Nepal.",
+     "say": "Payers in Nepal.",
+     "focus": -1,
+     "file": "clips/1c2b87029bdf.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Ram's payer is his **private insurance company**.",
+     "say": "Ram's payer is his private insurance company.",
+     "focus": 0,
+     "file": "clips/cc465d5855b5.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "But Ram pays the hospital first, so for a few weeks he is the payer, until the insurer reimburses him.",
+     "say": "But Ram pays the hospital first, so for a few weeks he is the payer, until the insurer reimburses him.",
+     "focus": 0,
+     "file": "clips/d5ed2cbf58ab.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's payer is the **SSF**.",
+     "say": "Sita's payer is the S S F.",
+     "focus": 1,
+     "file": "clips/731152b27111.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "It pays 80% straight to the hospital.",
+     "say": "It pays 80 percent straight to the hospital.",
+     "focus": 1,
+     "file": "clips/a761734a824c.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Sita pays 20% herself, so she is a small payer too.",
+     "say": "Sita pays 20 percent herself, so she is a small payer too.",
+     "focus": 1,
+     "file": "clips/7b857e5ecd2c.mp3",
+     "seconds": 4.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What does a payer do?",
+     "say": "What does a payer do?",
+     "focus": -1,
+     "file": "clips/bcf52f7302d4.mp3",
+     "seconds": 1.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "What does a payer do?",
+   "lines": [
+    {
+     "raw": "**Collects premiums** from employers, members or the government.",
+     "say": "Collects premiums from employers, members or the government.",
+     "focus": 0,
+     "file": "clips/42775439c196.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "**Builds a network** by signing contracts and prices with providers.",
+     "say": "Builds a network by signing contracts and prices with providers.",
+     "focus": 1,
+     "file": "clips/71b810c76ae4.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "**Checks eligibility**: is this person covered today?",
+     "say": "Checks eligibility: is this person covered today?",
+     "focus": 2,
+     "file": "clips/01d7d941de8c.mp3",
+     "seconds": 3.725
+    },
+    {
+     "raw": "**Processes claims** (called **adjudication**): is the service covered, what is the allowed amount, what does the member owe?",
+     "say": "Processes claims (called adjudication): is the service covered, what is the allowed amount, what does the member owe?",
+     "focus": 3,
+     "file": "clips/e865117286a1.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "**Pays providers** and sends the member an **Explanation of Benefits (EOB)**, a letter showing what was billed, paid and owed.",
+     "say": "Pays providers and sends the member an Explanation of Benefits (E O B), a letter showing what was billed, paid and owed.",
+     "focus": 4,
+     "file": "clips/693b9966b243.mp3",
+     "seconds": 8.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "What does a payer do?",
+   "lines": [
+    {
+     "raw": "Like a cooperative (sahakari) health fund.",
+     "say": "Like a cooperative (sahakari) health fund.",
+     "focus": -1,
+     "file": "clips/b644223a9578.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Imagine 1,000 families in a sahakari each put Rs 500 a month into a health fund.",
+     "say": "Imagine 1,000 families in a sahakari each put Rs 500 a month into a health fund.",
+     "focus": -1,
+     "file": "clips/55126f5bd3f5.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Most months, only a few families get sick, and the fund pays their hospital bills.",
+     "say": "Most months, only a few families get sick, and the fund pays their hospital bills.",
+     "focus": -1,
+     "file": "clips/a6db2b791aa9.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Everyone pays a little so nobody has to pay a lot alone.",
+     "say": "Everyone pays a little so nobody has to pay a lot alone.",
+     "focus": -1,
+     "file": "clips/8efcc1db5b1b.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "That is **pooling risk**, and it is exactly what a US insurer does, at a much bigger scale.",
+     "say": "That is pooling risk, and it is exactly what a U S insurer does, at a much bigger scale.",
+     "focus": -1,
+     "file": "clips/aad51e71a8cf.mp3",
+     "seconds": 6.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Three kinds of payer.",
+     "say": "Three kinds of payer.",
+     "focus": -1,
+     "file": "clips/0de5cd31ddc5.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Three kinds of payer",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Insurance company** (fully insured plan). Whose money pays claims?: The **insurer**. The employer or person pays a premium; the insurer takes the risk. Example: Emily's plan: Bluebonnet Logistics pays premiums, the insurer pays claims.",
+     "say": "Insurance company (fully insured plan). Whose money pays claims?: The insurer. The employer or person pays a premium; the insurer takes the risk. Example: Emily's plan: Bluebonnet Logistics pays premiums, the insurer pays claims.",
+     "focus": 0,
+     "file": "clips/b66854bd4dfa.mp3",
+     "seconds": 16.35
+    },
+    {
+     "raw": "**Self-funded employer** (ASO). Whose money pays claims?: The **employer's own money**. An insurer only runs the paperwork (Administrative Services Only). Example: Most large US employers.",
+     "say": "Self-funded employer (A S O). Whose money pays claims?: The employer's own money. An insurer only runs the paperwork (Administrative Services Only). Example: Most large U S employers.",
+     "focus": 1,
+     "file": "clips/aa9a497a44e9.mp3",
+     "seconds": 13.45
+    },
+    {
+     "raw": "**Government**. Whose money pays claims?: **Tax money**, plus some member premiums. Example: Medicare (Robert, through his Medicare Advantage plan), Medicaid.",
+     "say": "Government. Whose money pays claims?: Tax money, plus some member premiums. Example: Medicare (Robert, through his Medicare Advantage plan), Medicaid.",
+     "focus": 2,
+     "file": "clips/1baf170e174e.mp3",
+     "seconds": 10.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Three kinds of payer",
+   "lines": [
+    {
+     "raw": "Big insurers you may hear about.",
+     "say": "Big insurers you may hear about.",
+     "focus": -1,
+     "file": "clips/4e8916c37e37.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Well-known US health insurers include **UnitedHealthcare**, **Elevance Health**, **Aetna**, **Cigna**, **Humana** and the **Blue Cross Blue Shield** companies.",
+     "say": "Well-known U S health insurers include UnitedHealthcare, Elevance Health, Aetna, Cigna, Humana and the Blue Cross Blue Shield companies.",
+     "focus": -1,
+     "file": "clips/877f0960259b.mp3",
+     "seconds": 9.45
+    },
+    {
+     "raw": "In this course, Emily's insurer is left unnamed on purpose.",
+     "say": "In this course, Emily's insurer is left unnamed on purpose.",
+     "focus": -1,
+     "file": "clips/529cd97a1d5a.mp3",
+     "seconds": 4.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Employer plans and premiums.",
+     "say": "Employer plans and premiums.",
+     "focus": -1,
+     "file": "clips/cc0718879dbc.mp3",
+     "seconds": 2.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Employer plans and premiums",
+   "lines": [
+    {
+     "raw": "For employer cover, the employer and the worker share the premium.",
+     "say": "For employer cover, the employer and the worker share the premium.",
+     "focus": -1,
+     "file": "clips/541e27876b51.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "In 2024, the average yearly premium for **family** cover through a US employer was roughly **$25,000**.",
+     "say": "In 2024, the average yearly premium for family cover through a U S employer was roughly 25000 dollars.",
+     "focus": -1,
+     "file": "clips/5fb23f2f2800.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "Employers paid most of it; workers paid roughly a quarter from their paychecks.",
+     "say": "Employers paid most of it; workers paid roughly a quarter from their paychecks.",
+     "focus": -1,
+     "file": "clips/ded0b785cec7.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "Numbers vary a lot by company.",
+     "say": "Numbers vary a lot by company.",
+     "focus": -1,
+     "file": "clips/65ee3695cd99.mp3",
+     "seconds": 2.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Employer plans and premiums",
+   "lines": [
+    {
+     "raw": "In the US: Emily's payer.",
+     "say": "In the U S: Emily's payer.",
+     "focus": -1,
+     "file": "clips/b3153b26496d.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Line of business: **commercial** (employer).",
+     "say": "Line of business: commercial (employer).",
+     "focus": 0,
+     "file": "clips/fb6cde8127d6.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Group **G20450**, plan **TXPPO1000** (a **PPO**).",
+     "say": "Group G 2 0 4 5 0, plan T X P P O 1 0 0 0 (a P P O).",
+     "focus": 0,
+     "file": "clips/82d8e1474853.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "Funding: **fully insured**.",
+     "say": "Funding: fully insured.",
+     "focus": 1,
+     "file": "clips/a2fb5b544dde.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Bluebonnet Logistics pays premiums to the insurer, and the insurer carries the risk.",
+     "say": "Bluebonnet Logistics pays premiums to the insurer, and the insurer carries the risk.",
+     "focus": 1,
+     "file": "clips/fa39708e2db8.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "When Dr. Patel's claim arrives, the insurer checks Emily is covered, applies the allowed amount ($102), takes off her $25 copay and pays **$77**.",
+     "say": "When Doctor Patel's claim arrives, the insurer checks Emily is covered, applies the allowed amount (102 dollars), takes off her 25 dollars copay and pays 77 dollars.",
+     "focus": 2,
+     "file": "clips/4b2a3d79385c.mp3",
+     "seconds": 12.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Government payers.",
+     "say": "Government payers.",
+     "focus": -1,
+     "file": "clips/ac270e7a65f6.mp3",
+     "seconds": 1.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Government payers",
+   "lines": [
+    {
+     "raw": "Medicare.",
+     "say": "Medicare.",
+     "focus": 0,
+     "file": "clips/1c87ac7e3481.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "Federal programme for people **65 and older** and some younger people with disabilities.",
+     "say": "Federal programme for people 65 and older and some younger people with disabilities.",
+     "focus": 0,
+     "file": "clips/a3f591984fe8.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "**Part A** = hospital, **Part B** = doctors and outpatient, **Part D** = medicines.",
+     "say": "Part A = hospital, Part B = doctors and outpatient, Part D = medicines.",
+     "focus": 0,
+     "file": "clips/885ac7a7c6bc.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "Original Medicare.",
+     "say": "Original Medicare.",
+     "focus": 1,
+     "file": "clips/143348156ec5.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "The **government** pays providers directly.",
+     "say": "The government pays providers directly.",
+     "focus": 1,
+     "file": "clips/5beaea378698.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Robert had this from 2022 to 2023, plus a separate Part D drug plan from a private company.",
+     "say": "Robert had this from 2022 to 2023, plus a separate Part D drug plan from a private company.",
+     "focus": 1,
+     "file": "clips/d4dfaf3b74bb.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "Medicare Advantage (Part C).",
+     "say": "Medicare Advantage (Part C).",
+     "focus": 2,
+     "file": "clips/b16a56445996.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "A **private insurer** gets a fixed monthly amount from Medicare to cover a member.",
+     "say": "A private insurer gets a fixed monthly amount from Medicare to cover a member.",
+     "focus": 2,
+     "file": "clips/e853ab873035.mp3",
+     "seconds": 5.35
+    },
+    {
+     "raw": "About half of people on Medicare choose this.",
+     "say": "About half of people on Medicare choose this.",
+     "focus": 2,
+     "file": "clips/764d08a7bc0f.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Since 2024 Robert has one: **Gulf Coast Advantage (HMO)** from Gulf Coast Health Plan (made up), which also covers his medicines.",
+     "say": "Since 2024 Robert has one: Gulf Coast Advantage (H M O) from Gulf Coast Health Plan (made up), which also covers his medicines.",
+     "focus": 2,
+     "file": "clips/cef4ead517bd.mp3",
+     "seconds": 9.7
+    },
+    {
+     "raw": "Medicaid.",
+     "say": "Medicaid.",
+     "focus": 3,
+     "file": "clips/512cd9869186.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "For people with **low income**.",
+     "say": "For people with low income.",
+     "focus": 3,
+     "file": "clips/c3236a9dd9d1.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "Paid jointly by the federal government and each state, and run by the state, often through private health plans.",
+     "say": "Paid jointly by the federal government and each state, and run by the state, often through private health plans.",
+     "focus": 3,
+     "file": "clips/8b6393ffaafb.mp3",
+     "seconds": 6.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Government payers",
+   "lines": [
+    {
+     "raw": "Same hospital, different payers.",
+     "say": "Same hospital, different payers.",
+     "focus": -1,
+     "file": "clips/6c69bc31d4b8.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "If Robert and Emily both visited Lakeside General Hospital on the same day, the hospital would send Emily's claim to her **insurer** and Robert's claim to his **Medicare Advantage plan**.",
+     "say": "If Robert and Emily both visited Lakeside General Hospital on the same day, the hospital would send Emily's claim to her insurer and Robert's claim to his Medicare Advantage plan.",
+     "focus": -1,
+     "file": "clips/7d190aeccada.mp3",
+     "seconds": 11.55
+    },
+    {
+     "raw": "Different payers, different prices, different rules, same building.",
+     "say": "Different payers, different prices, different rules, same building.",
+     "focus": -1,
+     "file": "clips/901b21e703d4.mp3",
+     "seconds": 4.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "PBMs: the middle-men for medicines.",
+     "say": "P B M's: the middle-men for medicines.",
+     "focus": -1,
+     "file": "clips/c6281d3cb898.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "PBMs: the middle-men for medicines",
+   "lines": [
+    {
+     "raw": "Most US plans hire a **Pharmacy Benefit Manager (PBM)** to run the medicine side.",
+     "say": "Most U S plans hire a Pharmacy Benefit Manager (P B M) to run the medicine side.",
+     "focus": -1,
+     "file": "clips/e639335109ed.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "The PBM checks each prescription at the pharmacy counter in seconds, keeps the list of covered drugs (the **formulary**), pays pharmacies and negotiates with drug makers.",
+     "say": "The P B M checks each prescription at the pharmacy counter in seconds, keeps the list of covered drugs (the formulary), pays pharmacies and negotiates with drug makers.",
+     "focus": -1,
+     "file": "clips/6f3c82afb359.mp3",
+     "seconds": 11.075
+    },
+    {
+     "raw": "The plan's money still pays; the PBM manages it.",
+     "say": "The plan's money still pays; the P B M manages it.",
+     "focus": -1,
+     "file": "clips/b30d9cc670b7.mp3",
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "PBMs: the middle-men for medicines",
+   "lines": [
+    {
+     "raw": "A canteen manager.",
+     "say": "A canteen manager.",
+     "focus": -1,
+     "file": "clips/8e51541de737.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "An office hires a **canteen manager**.",
+     "say": "An office hires a canteen manager.",
+     "focus": -1,
+     "file": "clips/c00c8073fd2a.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "The office pays for the food, but the manager decides the menu, bargains with suppliers and checks each staff member's meal card.",
+     "say": "The office pays for the food, but the manager decides the menu, bargains with suppliers and checks each staff member's meal card.",
+     "focus": -1,
+     "file": "clips/dee68b498025.mp3",
+     "seconds": 8.525
+    },
+    {
+     "raw": "The office is the **plan**, the manager is the **PBM**.",
+     "say": "The office is the plan, the manager is the P B M.",
+     "focus": -1,
+     "file": "clips/23ecfb4177ca.mp3",
+     "seconds": 3.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "PBMs: the middle-men for medicines",
+   "lines": [
+    {
+     "raw": "Want to go deeper?",
+     "say": "Want to go deeper?",
+     "focus": -1,
+     "file": "clips/5f97636bdef1.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The Pharmacy course follows Emily's prescriptions through the PBM, step by step.",
+     "say": "The Pharmacy course follows Emily's prescriptions through the P B M, step by step.",
+     "focus": -1,
+     "file": "clips/b2bd7f4eb92a.mp3",
+     "seconds": 5.6
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A payer pays for care on the patient's behalf: insurers, self-funded employers and government.",
+     "say": "A payer pays for care on the patient's behalf: insurers, self-funded employers and government.",
+     "focus": 0,
+     "file": "clips/2977c6a4bebe.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Payers collect premiums, build networks, check eligibility, process claims and pay providers.",
+     "say": "Payers collect premiums, build networks, check eligibility, process claims and pay providers.",
+     "focus": 1,
+     "file": "clips/64107c45b56f.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "Fully insured: the insurer carries the risk.",
+     "say": "Fully insured: the insurer carries the risk.",
+     "focus": 2,
+     "file": "clips/9e2cf9931746.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Self-funded (ASO): the employer does.",
+     "say": "Self-funded (A S O): the employer does.",
+     "focus": 2,
+     "file": "clips/f464f3be396a.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Government payers: Medicare (65+) and Medicaid (low income).",
+     "say": "Government payers: Medicare (65+) and Medicaid (low income).",
+     "focus": 3,
+     "file": "clips/b732d7aef507.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "PBMs manage the pharmacy benefit for the plan.",
+     "say": "P B M's manage the pharmacy benefit for the plan.",
+     "focus": 4,
+     "file": "clips/4a8948d8b965.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.6
+    }
+   ]
+  }
+ ]
+}

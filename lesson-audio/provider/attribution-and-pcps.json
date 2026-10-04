@@ -1,0 +1,834 @@
+{
+ "courseId": "provider",
+ "lessonId": "attribution-and-pcps",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: PCPs and Attribution.",
+     "say": "Lesson 6: P C P's and Attribution.",
+     "focus": -1,
+     "file": "clips/10fe7ecf1bc6.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "Which doctor is responsible for which member?",
+     "say": "Which doctor is responsible for which member?",
+     "focus": -1,
+     "file": "clips/dae4397394e6.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "The answer drives value-based payments.",
+     "say": "The answer drives value-based payments.",
+     "focus": -1,
+     "file": "clips/48e3490e1f12.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a PCP (primary care provider) is.",
+     "say": "Explain what a P C P (primary care provider) is.",
+     "focus": 0,
+     "file": "clips/d1eab6420fad.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Understand attribution: linking each member to one responsible provider.",
+     "say": "Understand attribution: linking each member to one responsible provider.",
+     "focus": 1,
+     "file": "clips/ded7cc7e76a6.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Apply a simple \"most primary care visits\" rule to Emily's family.",
+     "say": "Apply a simple \"most primary care visits\" rule to Emily's family.",
+     "focus": 2,
+     "file": "clips/ad9b6df8023c.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "See why attribution matters for value-based care.",
+     "say": "See why attribution matters for value-based care.",
+     "focus": 3,
+     "file": "clips/cd5fcf71c7aa.mp3",
+     "seconds": 3.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The class teacher idea.",
+     "say": "The class teacher idea.",
+     "focus": -1,
+     "file": "clips/f793e24c96c7.mp3",
+     "seconds": 1.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The class teacher idea",
+   "lines": [
+    {
+     "raw": "Who is responsible for this student?",
+     "say": "Who is responsible for this student?",
+     "focus": -1,
+     "file": "clips/b7bb20a8853f.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "In a Nepali school, a student is taught by many teachers, but one **class teacher** is responsible for them: tracks attendance, talks to parents, and is asked \"why did this student's results drop?\".",
+     "say": "In a Nepali school, a student is taught by many teachers, but one class teacher is responsible for them: tracks attendance, talks to parents, and is asked \"why did this student's results drop?\".",
+     "focus": -1,
+     "file": "clips/099a2a9da2bc.mp3",
+     "seconds": 12.325
+    },
+    {
+     "raw": "**Attribution** gives each insurance member a \"class teacher\": the one provider responsible for their overall health and cost.",
+     "say": "Attribution gives each insurance member a \"class teacher\": the one provider responsible for their overall health and cost.",
+     "focus": -1,
+     "file": "clips/9baf48f38de6.mp3",
+     "seconds": 8.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The class teacher idea",
+   "lines": [
+    {
+     "raw": "PCP (Primary Care Provider or Physician).",
+     "say": "P C P (Primary Care Provider or Physician).",
+     "focus": 0,
+     "file": "clips/3fa1c618fcac.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "A member's main, regular doctor for everyday care: check-ups, common illnesses, long-term conditions, referrals.",
+     "say": "A member's main, regular doctor for everyday care: check-ups, common illnesses, long-term conditions, referrals.",
+     "focus": 0,
+     "file": "clips/e091eb3e07d2.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "Usually family medicine, internal medicine or pediatrics; sometimes a nurse practitioner.",
+     "say": "Usually family medicine, internal medicine or pediatrics; sometimes a nurse practitioner.",
+     "focus": 0,
+     "file": "clips/d49c8b01d8ae.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "Attribution.",
+     "say": "Attribution.",
+     "focus": 1,
+     "file": "clips/ed35765279a5.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "The rule that links each member to **one** responsible provider (a PCP, a clinic or a larger group) for a period of time.",
+     "say": "The rule that links each member to one responsible provider (a P C P, a clinic or a larger group) for a period of time.",
+     "focus": 1,
+     "file": "clips/94fa77e2583d.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "Panel.",
+     "say": "Panel.",
+     "focus": 2,
+     "file": "clips/8482fcb527bc.mp3",
+     "seconds": 1.35
+    },
+    {
+     "raw": "The list of members attributed to one PCP.",
+     "say": "The list of members attributed to one P C P.",
+     "focus": 2,
+     "file": "clips/cb6c0c5b1597.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "\"Dr. Patel's panel\" = all members who count as hers.",
+     "say": "\"Doctor Patel's panel\" = all members who count as hers.",
+     "focus": 2,
+     "file": "clips/2e6411894f5c.mp3",
+     "seconds": 4.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two ways to decide the PCP.",
+     "say": "Two ways to decide the P C P.",
+     "focus": -1,
+     "file": "clips/baa9efff4b41.mp3",
+     "seconds": 2.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Two ways to decide the PCP",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Typical plans. Member chooses (or is assigned): HMOs and many Medicaid plans. Worked out from claims: PPOs (like Emily's) and Original Medicare.",
+     "say": "Typical plans. Member chooses (or is assigned): H M O's and many Medicaid plans. Worked out from claims: P P O's (like Emily's) and Original Medicare.",
+     "focus": 0,
+     "file": "clips/737d64c0a062.mp3",
+     "seconds": 11.65
+    },
+    {
+     "raw": "How. Member chooses (or is assigned): Member picks a PCP when enrolling; if not, the plan assigns one. Worked out from claims: An analyst looks at past visits and picks the provider seen most for primary care.",
+     "say": "How. Member chooses (or is assigned): Member picks a P C P when enrolling; if not, the plan assigns one. Worked out from claims: An analyst looks at past visits and picks the provider seen most for primary care.",
+     "focus": 1,
+     "file": "clips/a55056ad097f.mp3",
+     "seconds": 14.425
+    },
+    {
+     "raw": "Where it is stored. Member chooses (or is assigned): On the **eligibility** record (a PCP field). Worked out from claims: In a separate **attribution** table, refreshed regularly.",
+     "say": "Where it is stored. Member chooses (or is assigned): On the eligibility record (a P C P field). Worked out from claims: In a separate attribution table, refreshed regularly.",
+     "focus": 2,
+     "file": "clips/b8e9f228b458.mp3",
+     "seconds": 12.025
+    },
+    {
+     "raw": "Strength. Member chooses (or is assigned): Clear from day one. Worked out from claims: Reflects where members really go.",
+     "say": "Strength. Member chooses (or is assigned): Clear from day one. Worked out from claims: Reflects where members really go.",
+     "focus": 3,
+     "file": "clips/420dd82e667b.mp3",
+     "seconds": 7.725
+    },
+    {
+     "raw": "Weakness. Member chooses (or is assigned): Many members never visit the PCP they were given. Worked out from claims: New members with no visits have no PCP yet.",
+     "say": "Weakness. Member chooses (or is assigned): Many members never visit the P C P they were given. Worked out from claims: New members with no visits have no P C P yet.",
+     "focus": 4,
+     "file": "clips/36e85de7c9c7.mp3",
+     "seconds": 11.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Two ways to decide the PCP",
+   "lines": [
+    {
+     "raw": "A main doctor in Nepal.",
+     "say": "A main doctor in Nepal.",
+     "focus": -1,
+     "file": "clips/1ada0aa354db.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram has no official PCP.",
+     "say": "Ram has no official P C P.",
+     "focus": 0,
+     "file": "clips/f3c69b43484d.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "But like many families, he trusts one doctor he goes back to for most things.",
+     "say": "But like many families, he trusts one doctor he goes back to for most things.",
+     "focus": 0,
+     "file": "clips/d493c64c44c6.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "If you looked at his receipts, you could guess who that doctor is: that guess is **claims-based attribution**.",
+     "say": "If you looked at his receipts, you could guess who that doctor is: that guess is claims-based attribution.",
+     "focus": 0,
+     "file": "clips/f83275547128.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita picks which SSF-listed hospital she uses; there is no single assigned doctor in this course's story.",
+     "say": "Sita picks which S S F listed hospital she uses; there is no single assigned doctor in this course's story.",
+     "focus": 1,
+     "file": "clips/e1b00bbf69d8.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "Nepal's government **health insurance** scheme is closer to an HMO: members register at a **first service point** and need a referral to go to bigger hospitals (except emergencies).",
+     "say": "Nepal's government health insurance scheme is closer to an H M O: members register at a first service point and need a referral to go to bigger hospitals (except emergencies).",
+     "focus": 2,
+     "file": "clips/f44fd099a850.mp3",
+     "seconds": 12.05
+    },
+    {
+     "raw": "That first service point is like an assigned PCP.",
+     "say": "That first service point is like an assigned P C P.",
+     "focus": 2,
+     "file": "clips/0f96e171d6f0.mp3",
+     "seconds": 3.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "A simple claims-based rule.",
+     "say": "A simple claims-based rule.",
+     "focus": -1,
+     "file": "clips/52df717d1a03.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "A simple claims-based rule",
+   "lines": [
+    {
+     "raw": "Each organization writes its own rules, but most follow the same pattern.",
+     "say": "Each organization writes its own rules, but most follow the same pattern.",
+     "focus": -1,
+     "file": "clips/380a19843adb.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Here is a typical one, which we will use for Emily's family:",
+     "say": "Here is a typical one, which we will use for Emily's family:",
+     "focus": -1,
+     "file": "clips/61a8f577b3d3.mp3",
+     "seconds": 4.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "A simple claims-based rule",
+   "lines": [
+    {
+     "raw": "Step 1: Pick a lookback period.",
+     "say": "Step 1: Pick a lookback period.",
+     "focus": 0,
+     "file": "clips/22cc9f16e244.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "For example, all claims in **2025** (many programs use 12 or 24 months).",
+     "say": "For example, all claims in 2025 (many programs use 12 or 24 months).",
+     "focus": 0,
+     "file": "clips/4f0ccbcc2171.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "Step 2: Keep only primary care visits.",
+     "say": "Step 2: Keep only primary care visits.",
+     "focus": 1,
+     "file": "clips/950aad5a2cd6.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Office visit codes such as `99213`, given by a provider with a **primary care taxonomy** (family medicine, internal medicine, pediatrics).",
+     "say": "Office visit codes such as 9 9 2 1 3, given by a provider with a primary care taxonomy (family medicine, internal medicine, pediatrics).",
+     "focus": 1,
+     "file": "clips/ed198307d4ef.mp3",
+     "seconds": 10.5
+    },
+    {
+     "raw": "Step 3: Count visits per provider.",
+     "say": "Step 3: Count visits per provider.",
+     "focus": 2,
+     "file": "clips/fd6553aa2718.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Use the **rendering NPI** for the doctor, and the billing **TIN** for the practice.",
+     "say": "Use the rendering N P I for the doctor, and the billing T I N for the practice.",
+     "focus": 2,
+     "file": "clips/61497eb5b07e.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "Step 4: Most visits wins.",
+     "say": "Step 4: Most visits wins.",
+     "focus": 3,
+     "file": "clips/2f8f160390ed.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "This is called the **plurality** rule.",
+     "say": "This is called the plurality rule.",
+     "focus": 3,
+     "file": "clips/f2fec05904ea.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "Ties go to the **most recent** visit.",
+     "say": "Ties go to the most recent visit.",
+     "focus": 3,
+     "file": "clips/5ccb7bd4383c.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Step 5: No visits?",
+     "say": "Step 5: No visits?",
+     "focus": 4,
+     "file": "clips/e82066b6254f.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "The member is **unattributed** (or a plan may fall back to the PCP they chose).",
+     "say": "The member is unattributed (or a plan may fall back to the P C P they chose).",
+     "focus": 4,
+     "file": "clips/7bf4e10c8b77.mp3",
+     "seconds": 5.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "A simple claims-based rule",
+   "lines": [
+    {
+     "raw": "Emily's family: 2025 visits (Dr. Kim and Bright Kids Pediatrics are made up for this example).",
+     "say": "Emily's family: 2025 visits (Doctor Kim and Bright Kids Pediatrics are made up for this example).",
+     "focus": -1,
+     "file": "clips/77281bda7203.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "Emily (M1001). Date: 10 Mar 2025. Provider: Dr. Patel. Specialty: Family medicine. Primary care visit?: ✅ strep throat visit (claim 23098908).",
+     "say": "Emily (M 1 0 0 1). Date: 10 Mar 2025. Provider: Doctor Patel. Specialty: Family medicine. Primary care visit?: ✅ strep throat visit (claim 23098908).",
+     "focus": 0,
+     "file": "clips/14638e343e95.mp3",
+     "seconds": 17.25
+    },
+    {
+     "raw": "Emily (M1001). Date: 2 Jun 2025. Provider: Dr. Lee. Specialty: General surgery. Primary care visit?: ❌ surgery, not primary care.",
+     "say": "Emily (M 1 0 0 1). Date: 2 Jun 2025. Provider: Doctor Lee. Specialty: General surgery. Primary care visit?: ❌ surgery, not primary care.",
+     "focus": 1,
+     "file": "clips/96056ca72839.mp3",
+     "seconds": 13.25
+    },
+    {
+     "raw": "Emily (M1001). Date: 2 Jun 2025. Provider: Dr. Gomez. Specialty: Anesthesiology. Primary care visit?: ❌ not primary care.",
+     "say": "Emily (M 1 0 0 1). Date: 2 Jun 2025. Provider: Doctor Gomez. Specialty: Anesthesiology. Primary care visit?: ❌ not primary care.",
+     "focus": 2,
+     "file": "clips/3081f7b18aae.mp3",
+     "seconds": 13.275
+    },
+    {
+     "raw": "Emily (M1001). Date: 15 Jul 2025. Provider: Dr. Patel. Specialty: Family medicine. Primary care visit?: ✅ check-up.",
+     "say": "Emily (M 1 0 0 1). Date: 15 Jul 2025. Provider: Doctor Patel. Specialty: Family medicine. Primary care visit?: ✅ check-up.",
+     "focus": 3,
+     "file": "clips/0536b5598f0a.mp3",
+     "seconds": 13.325
+    },
+    {
+     "raw": "Lily (M1002). Date: 12 Feb 2025. Provider: Dr. Kim, Bright Kids Pediatrics. Specialty: Pediatrics. Primary care visit?: ✅.",
+     "say": "Lily (M 1 0 0 2). Date: 12 Feb 2025. Provider: Doctor Kim, Bright Kids Pediatrics. Specialty: Pediatrics. Primary care visit?: ✅.",
+     "focus": 4,
+     "file": "clips/4660801fea5b.mp3",
+     "seconds": 13.425
+    },
+    {
+     "raw": "Lily (M1002). Date: 10 Sep 2025. Provider: Dr. Patel. Specialty: Family medicine. Primary care visit?: ✅.",
+     "say": "Lily (M 1 0 0 2). Date: 10 Sep 2025. Provider: Doctor Patel. Specialty: Family medicine. Primary care visit?: ✅.",
+     "focus": 5,
+     "file": "clips/97a1d0d98392.mp3",
+     "seconds": 12.15
+    },
+    {
+     "raw": "Lily (M1002). Date: 20 Oct 2025. Provider: Dr. Kim, Bright Kids Pediatrics. Specialty: Pediatrics. Primary care visit?: ✅.",
+     "say": "Lily (M 1 0 0 2). Date: 20 Oct 2025. Provider: Doctor Kim, Bright Kids Pediatrics. Specialty: Pediatrics. Primary care visit?: ✅.",
+     "focus": 6,
+     "file": "clips/24638f570b2d.mp3",
+     "seconds": 13.275
+    },
+    {
+     "raw": "Daniel (M1003). Date: -. Provider: No visits since joining on 1 Jul 2025. Specialty: -. Primary care visit?: -.",
+     "say": "Daniel (M 1 0 0 3). Date: -. Provider: No visits since joining on 1 Jul 2025. Specialty: -. Primary care visit?: -.",
+     "focus": 7,
+     "file": "clips/d9ebc4755a79.mp3",
+     "seconds": 10.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "A simple claims-based rule",
+   "lines": [
+    {
+     "raw": "Result of the rule.",
+     "say": "Result of the rule.",
+     "focus": -1,
+     "file": "clips/26585a2ace71.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "Emily (M1001). Primary care visits counted: Dr. Patel: 2. Attributed to: **Dr. Patel**, Sunrise Family Clinic. Why: Only primary care visits count; the surgery is ignored.",
+     "say": "Emily (M 1 0 0 1). Primary care visits counted: Doctor Patel: 2. Attributed to: Doctor Patel, Sunrise Family Clinic. Why: Only primary care visits count; the surgery is ignored.",
+     "focus": 0,
+     "file": "clips/af09fb59d0f2.mp3",
+     "seconds": 14.9
+    },
+    {
+     "raw": "Lily (M1002). Primary care visits counted: Dr. Kim: 2, Dr. Patel: 1. Attributed to: **Dr. Kim**, Bright Kids Pediatrics. Why: Plurality: 2 beats 1.",
+     "say": "Lily (M 1 0 0 2). Primary care visits counted: Doctor Kim: 2, Doctor Patel: 1. Attributed to: Doctor Kim, Bright Kids Pediatrics. Why: Plurality: 2 beats 1.",
+     "focus": 1,
+     "file": "clips/52ae3d02bbe4.mp3",
+     "seconds": 13.7
+    },
+    {
+     "raw": "Daniel (M1003). Primary care visits counted: None. Attributed to: **Unattributed**. Why: No primary care visits yet.",
+     "say": "Daniel (M 1 0 0 3). Primary care visits counted: None. Attributed to: Unattributed. Why: No primary care visits yet.",
+     "focus": 2,
+     "file": "clips/d6568eb73842.mp3",
+     "seconds": 10.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "A simple claims-based rule",
+   "lines": [
+    {
+     "raw": "Why provider data must be right.",
+     "say": "Why provider data must be right.",
+     "focus": -1,
+     "file": "clips/3cb587f8021d.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Step 2 depends on the **taxonomy** in the provider master file.",
+     "say": "Step 2 depends on the taxonomy in the provider master file.",
+     "focus": -1,
+     "file": "clips/9125aa525833.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "If Dr. Lee were wrongly stored as \"Family Medicine\", the rule would count Emily's surgery visit as primary care.",
+     "say": "If Doctor Lee were wrongly stored as \"Family Medicine\", the rule would count Emily's surgery visit as primary care.",
+     "focus": -1,
+     "file": "clips/e28d1c3f6da4.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "Bad provider data leads straight to wrong attribution, and wrong payments.",
+     "say": "Bad provider data leads straight to wrong attribution, and wrong payments.",
+     "focus": -1,
+     "file": "clips/a682e5b74b0c.mp3",
+     "seconds": 4.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Why attribution matters: value-based care.",
+     "say": "Why attribution matters: value-based care.",
+     "focus": -1,
+     "file": "clips/2b26c8044763.mp3",
+     "seconds": 3.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Why attribution matters: value-based care",
+   "lines": [
+    {
+     "raw": "In the old **fee-for-service** model, a provider is paid for each service, so more visits mean more money.",
+     "say": "In the old fee-for-service model, a provider is paid for each service, so more visits mean more money.",
+     "focus": -1,
+     "file": "clips/45d9a74d04b5.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "In **value-based care**, providers are also rewarded for keeping their members **healthy** and costs **reasonable**.",
+     "say": "In value-based care, providers are also rewarded for keeping their members healthy and costs reasonable.",
+     "focus": -1,
+     "file": "clips/f0034761ef04.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "To do that, the payer must know **whose members are whose**.",
+     "say": "To do that, the payer must know whose members are whose.",
+     "focus": -1,
+     "file": "clips/3fdeb3a5d039.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "That is exactly what attribution provides.",
+     "say": "That is exactly what attribution provides.",
+     "focus": -1,
+     "file": "clips/8e3ce1390cc0.mp3",
+     "seconds": 3.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Why attribution matters: value-based care",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Capitation**. How attribution is used: The PCP gets a fixed amount **per attributed member per month** (PMPM), whether or not the member visits.",
+     "say": "Capitation. How attribution is used: The P C P gets a fixed amount per attributed member per month (P M P M), whether or not the member visits.",
+     "focus": 0,
+     "file": "clips/2cd605281149.mp3",
+     "seconds": 10.4
+    },
+    {
+     "raw": "**Shared savings**. How attribution is used: If the total yearly cost of a provider's attributed members is below a target, the provider shares the savings.",
+     "say": "Shared savings. How attribution is used: If the total yearly cost of a provider's attributed members is below a target, the provider shares the savings.",
+     "focus": 1,
+     "file": "clips/0e1b422e9168.mp3",
+     "seconds": 10
+    },
+    {
+     "raw": "**Quality bonuses**. How attribution is used: Paid when attributed members get recommended care, e.g. yearly checks for members with diabetes.",
+     "say": "Quality bonuses. How attribution is used: Paid when attributed members get recommended care, for example yearly checks for members with diabetes.",
+     "focus": 2,
+     "file": "clips/5d0355bc1154.mp3",
+     "seconds": 9.8
+    },
+    {
+     "raw": "**Care gaps reports**. How attribution is used: Each PCP gets a list of their attributed members who are missing a screening or check-up.",
+     "say": "Care gaps reports. How attribution is used: Each P C P gets a list of their attributed members who are missing a screening or check-up.",
+     "focus": 3,
+     "file": "clips/298fdf17caa4.mp3",
+     "seconds": 9.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Why attribution matters: value-based care",
+   "lines": [
+    {
+     "raw": "A simple capitation payment.",
+     "say": "A simple capitation payment.",
+     "focus": -1,
+     "file": "clips/15d4f2fd58bf.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "monthly payment equals attributed members times PMPM rate.",
+     "say": "monthly payment equals attributed members times P M P M rate.",
+     "focus": 0,
+     "file": "clips/7a84d07231b1.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "For example: Imagine Dr. Patel's clinic has 1,200 attributed members and a rate of $30 PMPM: 1,200 times $30 equals $36,000 a month, paid even if many members never visit.",
+     "say": "For example: Imagine Doctor Patel's clinic has 1,200 attributed members and a rate of 30 dollars P M P M: 1,200 times 30 dollars equals 36000 dollars a month, paid even if many members never visit.",
+     "focus": 1,
+     "file": "clips/c06a5dad7b25.mp3",
+     "seconds": 16.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Why attribution matters: value-based care",
+   "lines": [
+    {
+     "raw": "In the US: Attribution in Medicare.",
+     "say": "In the U S: Attribution in Medicare.",
+     "focus": -1,
+     "file": "clips/b1e43f6068f3.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Emily's father **Robert** (a retired school teacher in Houston, Texas, with type 2 diabetes and high blood pressure) has been on a **Medicare Advantage HMO**, **Gulf Coast Advantage (HMO)** from Gulf Coast Health Plan, since 1 January 2024.",
+     "say": "Emily's father Robert (a retired school teacher in Houston, Texas, with type 2 diabetes and high blood pressure) has been on a Medicare Advantage H M O, Gulf Coast Advantage (H M O) from Gulf Coast Health Plan, since 1 January 2024.",
+     "focus": 0,
+     "file": "clips/cc15c73ff7b1.mp3",
+     "seconds": 17.3
+    },
+    {
+     "raw": "Like other HMO members, he chose a PCP when he enrolled: **Dr. Nguyen at Bayou Family Medicine**.",
+     "say": "Like other H M O members, he chose a P C P when he enrolled: Doctor Nguyen at Bayou Family Medicine.",
+     "focus": 0,
+     "file": "clips/eaff0003266f.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "That choice is stored on his eligibility record.",
+     "say": "That choice is stored on his eligibility record.",
+     "focus": 0,
+     "file": "clips/a43d414b81d7.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Before 2024, Robert had **Original Medicare**, where nobody chooses a PCP officially.",
+     "say": "Before 2024, Robert had Original Medicare, where nobody chooses a P C P officially.",
+     "focus": 1,
+     "file": "clips/d2d80611d367.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "If his doctors had belonged to a Medicare **ACO** (Accountable Care Organization, a group of providers that shares responsibility for patients), Medicare would have **assigned** him to that ACO mainly based on where he received most of his primary care.",
+     "say": "If his doctors had belonged to a Medicare A C O (Accountable Care Organization, a group of providers that shares responsibility for patients), Medicare would have assigned him to that A C O mainly based on where he received most of his primary care.",
+     "focus": 1,
+     "file": "clips/d40b830315c7.mp3",
+     "seconds": 15.675
+    },
+    {
+     "raw": "The ACO is then measured on its assigned patients' total cost and quality of care, for example how well diabetes and blood pressure are managed for patients like Robert.",
+     "say": "The A C O is then measured on its assigned patients' total cost and quality of care, for example how well diabetes and blood pressure are managed for patients like Robert.",
+     "focus": 2,
+     "file": "clips/5133f63c8b4c.mp3",
+     "seconds": 11.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Why attribution matters: value-based care",
+   "lines": [
+    {
+     "raw": "Attribution changes over time.",
+     "say": "Attribution changes over time.",
+     "focus": -1,
+     "file": "clips/3bb75f884841.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Attribution is usually re-run every month, quarter or year.",
+     "say": "Attribution is usually re-run every month, quarter or year.",
+     "focus": -1,
+     "file": "clips/d7960c62fd72.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "If Lily starts seeing Dr. Patel more often in 2026, she may move to Dr. Patel's panel.",
+     "say": "If Lily starts seeing Doctor Patel more often in 2026, she may move to Doctor Patel's panel.",
+     "focus": -1,
+     "file": "clips/a385910af300.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "Store attribution with **start and end dates**, just like coverage spans.",
+     "say": "Store attribution with start and end dates, just like coverage spans.",
+     "focus": -1,
+     "file": "clips/3d3bbe7b1daa.mp3",
+     "seconds": 4.625
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A PCP is a member's main everyday doctor; attribution links each member to one responsible provider.",
+     "say": "A P C P is a member's main everyday doctor; attribution links each member to one responsible provider.",
+     "focus": 0,
+     "file": "clips/9c9db5f417d9.mp3",
+     "seconds": 7.875
+    },
+    {
+     "raw": "HMO members usually choose or are assigned a PCP; PPO and Original Medicare members are attributed from claims.",
+     "say": "H M O members usually choose or are assigned a P C P; P P O and Original Medicare members are attributed from claims.",
+     "focus": 1,
+     "file": "clips/b93bb87e7a4a.mp3",
+     "seconds": 9.3
+    },
+    {
+     "raw": "A common rule: count primary care visits in a lookback period; most visits wins; ties go to the most recent.",
+     "say": "A common rule: count primary care visits in a lookback period; most visits wins; ties go to the most recent.",
+     "focus": 2,
+     "file": "clips/fc3dfa0fbcba.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "Attribution depends on correct provider data, especially taxonomy and NPI/TIN.",
+     "say": "Attribution depends on correct provider data, especially taxonomy and NPI/TIN.",
+     "focus": 3,
+     "file": "clips/03bf7633f712.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "Value-based care (capitation, shared savings, quality bonuses) cannot work without attribution.",
+     "say": "Value-based care (capitation, shared savings, quality bonuses) cannot work without attribution.",
+     "focus": 4,
+     "file": "clips/4885ad45f6ba.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

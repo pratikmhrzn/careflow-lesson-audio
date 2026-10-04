@@ -1,0 +1,1002 @@
+{
+ "courseId": "flow",
+ "lessonId": "choosing-a-plan",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: The Journey Map & Choosing a Plan.",
+     "say": "Lesson 1: The Journey Map and Choosing a Plan.",
+     "focus": -1,
+     "file": "clips/28364385a395.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "Every US healthcare story starts long before anyone gets sick: with a plan.",
+     "say": "Every U S healthcare story starts long before anyone gets sick: with a plan.",
+     "focus": -1,
+     "file": "clips/ecec8fb8c580.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "See the whole journey from buying a plan to paying the bill, in the same order as Try It Yourself.",
+     "say": "See the whole journey from buying a plan to paying the bill, in the same order as Try It Yourself.",
+     "focus": 0,
+     "file": "clips/ef356a5efa2b.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Compare an HMO and a PPO the way the simulator does.",
+     "say": "Compare an H M O and a P P O the way the simulator does.",
+     "focus": 1,
+     "file": "clips/088296225153.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "Understand premium, deductible, copay, coinsurance and out-of-pocket maximum before any care happens.",
+     "say": "Understand premium, deductible, copay, coinsurance and out-of-pocket maximum before any care happens.",
+     "focus": 2,
+     "file": "clips/bf59397dbc67.mp3",
+     "seconds": 7.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "One visit, many hands.",
+     "say": "One visit, many hands.",
+     "focus": -1,
+     "file": "clips/d91a8b7342c2.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "One visit, many hands",
+   "lines": [
+    {
+     "raw": "In **Try It Yourself** you click through a full US healthcare journey on screen.",
+     "say": "In Try It Yourself you click through a full U S healthcare journey on screen.",
+     "focus": -1,
+     "file": "clips/aa462cb860ed.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "This course is the **written version** of that same journey.",
+     "say": "This course is the written version of that same journey.",
+     "focus": -1,
+     "file": "clips/1caa0aca345f.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Each lesson covers one stage, in the same order, and follows one patient: **Emily Carter**, an office worker in Texas.",
+     "say": "Each lesson covers one stage, in the same order, and follows one patient: Emily Carter, an office worker in Texas.",
+     "focus": -1,
+     "file": "clips/a2b3e82d52ba.mp3",
+     "seconds": 7.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "One visit, many hands",
+   "lines": [
+    {
+     "raw": "Step 1: Choose a plan.",
+     "say": "Step 1: Choose a plan.",
+     "focus": 0,
+     "file": "clips/3d407846464a.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "Compare HMO and PPO, then confirm the plan.",
+     "say": "Compare H M O and P P O, then confirm the plan.",
+     "focus": 0,
+     "file": "clips/916f0e78a4ce.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "(This lesson)",
+     "say": "(This lesson)",
+     "focus": 0,
+     "file": "clips/3bbde6495538.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Step 2: Get sick, get care.",
+     "say": "Step 2: Get sick, get care.",
+     "focus": 1,
+     "file": "clips/61c8a2b92486.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "A health event, choosing where to go, booking, and check-in with an eligibility check.",
+     "say": "A health event, choosing where to go, booking, and check-in with an eligibility check.",
+     "focus": 1,
+     "file": "clips/831d6a3ab1af.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "(Lesson 2)",
+     "say": "(Lesson 2)",
+     "focus": 1,
+     "file": "clips/339bc9867358.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Step 3: The visit & coding.",
+     "say": "Step 3: The visit and coding.",
+     "focus": 2,
+     "file": "clips/a24e9d943937.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "The doctor examines the patient, and the visit is turned into ICD-10 and CPT codes.",
+     "say": "The doctor examines the patient, and the visit is turned into I C D 10 and C P T codes.",
+     "focus": 2,
+     "file": "clips/67ec6418d399.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "(Lesson 3)",
+     "say": "(Lesson 3)",
+     "focus": 2,
+     "file": "clips/6e624618bc7b.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Step 4: Claim & clearinghouse.",
+     "say": "Step 4: Claim and clearinghouse.",
+     "focus": 3,
+     "file": "clips/644198ecfd14.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "The codes go on a claim form, become an electronic 837P file, and pass through a clearinghouse.",
+     "say": "The codes go on a claim form, become an electronic 8 3 7 P file, and pass through a clearinghouse.",
+     "focus": 3,
+     "file": "clips/05b1a05101b4.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "(Lesson 4)",
+     "say": "(Lesson 4)",
+     "focus": 3,
+     "file": "clips/7442f03dccf4.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Step 5: Payer checks & adjudication.",
+     "say": "Step 5: Payer checks and adjudication.",
+     "focus": 4,
+     "file": "clips/f2cf4cf26494.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "The insurer runs its checks and works out who pays what.",
+     "say": "The insurer runs its checks and works out who pays what.",
+     "focus": 4,
+     "file": "clips/2960924422a0.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "(Lesson 5)",
+     "say": "(Lesson 5)",
+     "focus": 4,
+     "file": "clips/4455888c1abe.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Step 6: EOB, payment & bill.",
+     "say": "Step 6: E O B, payment and bill.",
+     "focus": 5,
+     "file": "clips/d1e4f63f317f.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "The patient gets an EOB, the provider gets paid, and the patient gets any bill.",
+     "say": "The patient gets an E O B, the provider gets paid, and the patient gets any bill.",
+     "focus": 5,
+     "file": "clips/4e3764c71d27.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "(Lesson 6)",
+     "say": "(Lesson 6)",
+     "focus": 5,
+     "file": "clips/292738c3b0ad.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Step 7: Putting it together.",
+     "say": "Step 7: Putting it together.",
+     "focus": 6,
+     "file": "clips/14edffa0e3c8.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "The full journey again, and the data each step leaves behind.",
+     "say": "The full journey again, and the data each step leaves behind.",
+     "focus": 6,
+     "file": "clips/ca14708928a5.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "(Lesson 7)",
+     "say": "(Lesson 7)",
+     "focus": 6,
+     "file": "clips/c25f0cadf297.mp3",
+     "seconds": 1.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "One visit, many hands",
+   "lines": [
+    {
+     "raw": "Read here, click there.",
+     "say": "Read here, click there.",
+     "focus": -1,
+     "file": "clips/673178ab8199.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "You can read a lesson first and then play the same stage in the simulator, or the other way round.",
+     "say": "You can read a lesson first and then play the same stage in the simulator, or the other way round.",
+     "focus": -1,
+     "file": "clips/2834f82c4e9b.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "The simulator uses a generic patient and sample plans; this course uses Emily and her real (fictional) employer plan.",
+     "say": "The simulator uses a generic patient and sample plans; this course uses Emily and her real (fictional) employer plan.",
+     "focus": -1,
+     "file": "clips/0e356aa36907.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "The steps are the same.",
+     "say": "The steps are the same.",
+     "focus": -1,
+     "file": "clips/7753a4c82c08.mp3",
+     "seconds": 1.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Meet our people.",
+     "say": "Meet our people.",
+     "focus": -1,
+     "file": "clips/f8aec1fba809.mp3",
+     "seconds": 1.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Meet our people",
+   "lines": [
+    {
+     "raw": "Our main example is **Emily Carter**, an office worker in Austin, Texas, covered by her employer's health plan with her husband **Daniel** and daughter **Lily**.",
+     "say": "Our main example is Emily Carter, an office worker in Austin, Texas, covered by her employer's health plan with her husband Daniel and daughter Lily.",
+     "focus": -1,
+     "file": "clips/56c1c2a25ca6.mp3",
+     "seconds": 9.85
+    },
+    {
+     "raw": "For comparison we also follow two people in Kathmandu: **Ram**, whose tech startup buys him private group health insurance, and **Sita**, an accountant who contributes to the **Social Security Fund (SSF)**.",
+     "say": "For comparison we also follow two people in Kathmandu: Ram, whose tech startup buys him private group health insurance, and Sita, an accountant who contributes to the Social Security Fund (S S F).",
+     "focus": -1,
+     "file": "clips/37dcaa9d77dd.mp3",
+     "seconds": 13.675
+    },
+    {
+     "raw": "All of them are made up.",
+     "say": "All of them are made up.",
+     "focus": -1,
+     "file": "clips/fd693f4049a5.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 1 in the simulator: compare two plans.",
+     "say": "Step 1 in the simulator: compare two plans.",
+     "focus": -1,
+     "file": "clips/758b8b65c0af.mp3",
+     "seconds": 3.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Step 1 in the simulator: compare two plans",
+   "lines": [
+    {
+     "raw": "The first screen of the simulator asks you to pick a **plan type** and then a **premium level**.",
+     "say": "The first screen of the simulator asks you to pick a plan type and then a premium level.",
+     "focus": -1,
+     "file": "clips/bf2dfc0d014d.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "The two sample plans are an **HMO** and a **PPO**.",
+     "say": "The two sample plans are an H M O and a P P O.",
+     "focus": -1,
+     "file": "clips/d3ba21ea6e77.mp3",
+     "seconds": 4.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Step 1 in the simulator: compare two plans",
+   "lines": [
+    {
+     "raw": "HMO (Health Maintenance Organization).",
+     "say": "H M O (Health Maintenance Organization).",
+     "focus": 0,
+     "file": "clips/9a21f643fd44.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "A plan with a **closed network**.",
+     "say": "A plan with a closed network.",
+     "focus": 0,
+     "file": "clips/a96071c35b55.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "You choose a **primary care physician (PCP)** who coordinates your care, you need a **referral** from the PCP to see a specialist, and care outside the network is not covered except in emergencies.",
+     "say": "You choose a primary care physician (P C P) who coordinates your care, you need a referral from the P C P to see a specialist, and care outside the network is not covered except in emergencies.",
+     "focus": 0,
+     "file": "clips/2bf8a13b9189.mp3",
+     "seconds": 13.15
+    },
+    {
+     "raw": "Cheaper each month, more rules.",
+     "say": "Cheaper each month, more rules.",
+     "focus": 0,
+     "file": "clips/bd92137b273d.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "PPO (Preferred Provider Organization).",
+     "say": "P P O (Preferred Provider Organization).",
+     "focus": 1,
+     "file": "clips/bbd5e2de2a9c.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "A plan with a **preferred network**.",
+     "say": "A plan with a preferred network.",
+     "focus": 1,
+     "file": "clips/d934f636f62d.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "No PCP required, no referrals, and you **can** go out of network, but you pay more there.",
+     "say": "No P C P required, no referrals, and you can go out of network, but you pay more there.",
+     "focus": 1,
+     "file": "clips/926b2bc8eee9.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "More freedom, higher monthly cost.",
+     "say": "More freedom, higher monthly cost.",
+     "focus": 1,
+     "file": "clips/5f0d19f50ddc.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Network.",
+     "say": "Network.",
+     "focus": 2,
+     "file": "clips/8f057723ae3c.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "The list of doctors and hospitals that have a **contract** with the insurer and accept its prices.",
+     "say": "The list of doctors and hospitals that have a contract with the insurer and accept its prices.",
+     "focus": 2,
+     "file": "clips/c0e9272db7b5.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "\"In-network\" means on the list.",
+     "say": "\"In-network\" means on the list.",
+     "focus": 2,
+     "file": "clips/4639599eb9d0.mp3",
+     "seconds": 2.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Step 1 in the simulator: compare two plans",
+   "lines": [
+    {
+     "raw": "The two sample plans in Try It Yourself.",
+     "say": "The two sample plans in Try It Yourself.",
+     "focus": -1,
+     "file": "clips/99e377e4262e.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Monthly premium. HMO Standard: $250. PPO Premium: $450.",
+     "say": "Monthly premium. H M O Standard: 250 dollars. P P O Premium: 450 dollars.",
+     "focus": 0,
+     "file": "clips/6217772be4b5.mp3",
+     "seconds": 8.5
+    },
+    {
+     "raw": "Annual deductible. HMO Standard: $2,000. PPO Premium: $1,500.",
+     "say": "Annual deductible. H M O Standard: 2000 dollars. P P O Premium: 1500 dollars.",
+     "focus": 1,
+     "file": "clips/c6dcc2abc218.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "Out-of-pocket maximum. HMO Standard: $6,000. PPO Premium: $5,000.",
+     "say": "Out-of-pocket maximum. H M O Standard: 6000 dollars. P P O Premium: 5000 dollars.",
+     "focus": 2,
+     "file": "clips/cd56263d2fe8.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "Copay: primary care visit. HMO Standard: $35. PPO Premium: $20.",
+     "say": "Copay: primary care visit. H M O Standard: 35 dollars. P P O Premium: 20 dollars.",
+     "focus": 3,
+     "file": "clips/682c90fe0988.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "Copay: specialist. HMO Standard: $60. PPO Premium: $40.",
+     "say": "Copay: specialist. H M O Standard: 60 dollars. P P O Premium: 40 dollars.",
+     "focus": 4,
+     "file": "clips/d0f500f2c261.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "Copay: urgent care. HMO Standard: $85. PPO Premium: $50.",
+     "say": "Copay: urgent care. H M O Standard: 85 dollars. P P O Premium: 50 dollars.",
+     "focus": 5,
+     "file": "clips/5e9f32e1cafa.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "Copay: emergency room. HMO Standard: $300. PPO Premium: $150.",
+     "say": "Copay: emergency room. H M O Standard: 300 dollars. P P O Premium: 150 dollars.",
+     "focus": 6,
+     "file": "clips/16d4ab6ae1a6.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "Coinsurance (insurer / patient). HMO Standard: 70% / 30%. PPO Premium: 90% / 10%.",
+     "say": "Coinsurance (insurer or patient). H M O Standard: 70 percent or 30 percent. P P O Premium: 90 percent or 10 percent.",
+     "focus": 7,
+     "file": "clips/a24b8c1a2cab.mp3",
+     "seconds": 10.575
+    },
+    {
+     "raw": "PCP required? HMO Standard: Yes. PPO Premium: No.",
+     "say": "P C P required? H M O Standard: Yes. P P O Premium: No.",
+     "focus": 8,
+     "file": "clips/f064d6b88c16.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "Referral for specialist? HMO Standard: Yes. PPO Premium: No.",
+     "say": "Referral for specialist? H M O Standard: Yes. P P O Premium: No.",
+     "focus": 9,
+     "file": "clips/3869bdfd90c9.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "Out-of-network cover. HMO Standard: Emergency only. PPO Premium: Yes, at a higher cost.",
+     "say": "Out-of-network cover. H M O Standard: Emergency only. P P O Premium: Yes, at a higher cost.",
+     "focus": 10,
+     "file": "clips/452178290a8e.mp3",
+     "seconds": 7.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The five money words, before any care.",
+     "say": "The five money words, before any care.",
+     "focus": -1,
+     "file": "clips/a7a18a6978d5.mp3",
+     "seconds": 2.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The five money words, before any care",
+   "lines": [
+    {
+     "raw": "The **plan confirmation** screen in the simulator repeats the plan's numbers.",
+     "say": "The plan confirmation screen in the simulator repeats the plan's numbers.",
+     "focus": -1,
+     "file": "clips/c89eb2ddca99.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "These five words decide every bill that follows, so learn them now.",
+     "say": "These five words decide every bill that follows, so learn them now.",
+     "focus": -1,
+     "file": "clips/a21f99e1f1bd.mp3",
+     "seconds": 4.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The five money words, before any care",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Premium**. What it means: The regular fee to keep the plan active, paid whether you are sick or not. Emily's plan: Shared by Emily and her employer, taken from her pay each month.",
+     "say": "Premium. What it means: The regular fee to keep the plan active, paid whether you are sick or not. Emily's plan: Shared by Emily and her employer, taken from her pay each month.",
+     "focus": 0,
+     "file": "clips/2d72161ea569.mp3",
+     "seconds": 11.6
+    },
+    {
+     "raw": "**Deductible**. What it means: What you pay each year before the plan starts sharing most costs. Emily's plan: $1,000 per year.",
+     "say": "Deductible. What it means: What you pay each year before the plan starts sharing most costs. Emily's plan: 1000 dollars per year.",
+     "focus": 1,
+     "file": "clips/30df6ed9bfdd.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "**Copay**. What it means: A fixed amount for certain services, like a doctor visit. Emily's plan: $25 per office visit.",
+     "say": "Copay. What it means: A fixed amount for certain services, like a doctor visit. Emily's plan: 25 dollars per office visit.",
+     "focus": 2,
+     "file": "clips/66cee59758c0.mp3",
+     "seconds": 8.85
+    },
+    {
+     "raw": "**Coinsurance**. What it means: A percentage split after the deductible. Emily's plan: Plan 80%, Emily 20%.",
+     "say": "Coinsurance. What it means: A percentage split after the deductible. Emily's plan: Plan 80 percent, Emily 20 percent.",
+     "focus": 3,
+     "file": "clips/9dc1749756b8.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "**Out-of-pocket maximum**. What it means: The most you pay in a year for covered in-network care. After that the plan pays 100%. Emily's plan: $5,000 per year.",
+     "say": "Out-of-pocket maximum. What it means: The most you pay in a year for covered in-network care. After that the plan pays 100 percent. Emily's plan: 5000 dollars per year.",
+     "focus": 4,
+     "file": "clips/48f15daea9a5.mp3",
+     "seconds": 12.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "The five money words, before any care",
+   "lines": [
+    {
+     "raw": "What counts toward the out-of-pocket maximum.",
+     "say": "What counts toward the out-of-pocket maximum.",
+     "focus": -1,
+     "file": "clips/4d70d42d1256.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Copays, deductible payments and coinsurance count.",
+     "say": "Copays, deductible payments and coinsurance count.",
+     "focus": -1,
+     "file": "clips/3dc48264dd20.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Premiums do **not** count, and neither do services the plan does not cover.",
+     "say": "Premiums do not count, and neither do services the plan does not cover.",
+     "focus": -1,
+     "file": "clips/d66b488d37ca.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "(For an HMO, out-of-network care that is not an emergency does not count either, because it is not covered.)",
+     "say": "(For an H M O, out-of-network care that is not an emergency does not count either, because it is not covered.)",
+     "focus": -1,
+     "file": "clips/2a0861f326d1.mp3",
+     "seconds": 7.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "The five money words, before any care",
+   "lines": [
+    {
+     "raw": "Think of a mobile data pack.",
+     "say": "Think of a mobile data pack.",
+     "focus": -1,
+     "file": "clips/afdb9f1a4aa7.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "You pay Ncell or Nepal Telecom a monthly fee for a pack whether you use it or not: that is the **premium**.",
+     "say": "You pay Ncell or Nepal Telecom a monthly fee for a pack whether you use it or not: that is the premium.",
+     "focus": -1,
+     "file": "clips/4227de8bb8d7.mp3",
+     "seconds": 7.525
+    },
+    {
+     "raw": "The pack has rules about what is included and what costs extra: those are the **deductible, copay and coinsurance**.",
+     "say": "The pack has rules about what is included and what costs extra: those are the deductible, copay and coinsurance.",
+     "focus": -1,
+     "file": "clips/c1b2289c9a3f.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "Choosing a plan is like choosing a pack: a cheap pack with many limits (HMO), or a pricier pack that works almost everywhere (PPO).",
+     "say": "Choosing a plan is like choosing a pack: a cheap pack with many limits (H M O), or a pricier pack that works almost everywhere (P P O).",
+     "focus": -1,
+     "file": "clips/b4e3968ea2c3.mp3",
+     "seconds": 9.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How Emily chose her plan.",
+     "say": "How Emily chose her plan.",
+     "focus": -1,
+     "file": "clips/b688a4327b35.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "How Emily chose her plan",
+   "lines": [
+    {
+     "raw": "In the US: Open enrollment at Bluebonnet Logistics.",
+     "say": "In the U S: Open enrollment at Bluebonnet Logistics.",
+     "focus": -1,
+     "file": "clips/7df5b18540b4.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Emily works for **Bluebonnet Logistics** in Austin, Texas (a fictional company).",
+     "say": "Emily works for Bluebonnet Logistics in Austin, Texas (a fictional company).",
+     "focus": 0,
+     "file": "clips/6abd4961eca6.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Like most Americans under 65, she gets health insurance **through her job**.",
+     "say": "Like most Americans under 65, she gets health insurance through her job.",
+     "focus": 0,
+     "file": "clips/2acbcfa4e315.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Every **November** her employer holds **open enrollment**: a yearly window to pick or change a plan for the next year, starting **1 January**.",
+     "say": "Every November her employer holds open enrollment: a yearly window to pick or change a plan for the next year, starting 1 January.",
+     "focus": 1,
+     "file": "clips/85339c7dcbc0.mp3",
+     "seconds": 8.8
+    },
+    {
+     "raw": "For 2025 she kept plan **TXPPO1000**, a **PPO**, group number **G20450**.",
+     "say": "For 2025 she kept plan T X P P O 1 0 0 0, a P P O, group number G 2 0 4 5 0.",
+     "focus": 2,
+     "file": "clips/66f8b6b9d40e.mp3",
+     "seconds": 9.925
+    },
+    {
+     "raw": "She likes being able to see a specialist without a referral.",
+     "say": "She likes being able to see a specialist without a referral.",
+     "focus": 2,
+     "file": "clips/c1e48228da36.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Her husband **Daniel** joined her plan on **1 July 2025** after losing his job (a qualifying life event), and her daughter **Lily** is also covered.",
+     "say": "Her husband Daniel joined her plan on 1 July 2025 after losing his job (a qualifying life event), and her daughter Lily is also covered.",
+     "focus": 3,
+     "file": "clips/a8425f7d0f42.mp3",
+     "seconds": 10.1
+    },
+    {
+     "raw": "The Eligibility course tells that story.",
+     "say": "The Eligibility course tells that story.",
+     "focus": 3,
+     "file": "clips/76fcc02b069c.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "The employer sends an **834 enrollment file** to the insurer so it knows who is covered.",
+     "say": "The employer sends an 8 34 enrollment file to the insurer so it knows who is covered.",
+     "focus": 4,
+     "file": "clips/49d7dead56d0.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "Emily gets an **ID card** with her ID number (**48291307-01**), group number and copays.",
+     "say": "Emily gets an I D card with her I D number (4 8 2 9 1 3 0 7 dash 0 1), group number and copays.",
+     "focus": 4,
+     "file": "clips/67249575775c.mp3",
+     "seconds": 9.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "How Emily chose her plan",
+   "lines": [
+    {
+     "raw": "In Nepal: How Ram and Sita get their cover.",
+     "say": "In Nepal: How Ram and Sita get their cover.",
+     "focus": -1,
+     "file": "clips/c05ad9951e24.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's startup buys a **group health policy** from a private insurance company for all staff.",
+     "say": "Ram's startup buys a group health policy from a private insurance company for all staff.",
+     "focus": 0,
+     "file": "clips/e82520c4ffdb.mp3",
+     "seconds": 6.075
+    },
+    {
+     "raw": "Ram usually does not choose between plan types: the company picks one policy.",
+     "say": "Ram usually does not choose between plan types: the company picks one policy.",
+     "focus": 0,
+     "file": "clips/527cee3c1444.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "The policy has a **yearly limit** and a list of what is and is not covered.",
+     "say": "The policy has a yearly limit and a list of what is and is not covered.",
+     "focus": 1,
+     "file": "clips/bf8b739d310d.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "There is normally no network to choose: Ram can go to most hospitals, pay the bill, and claim the money back later.",
+     "say": "There is normally no network to choose: Ram can go to most hospitals, pay the bill, and claim the money back later.",
+     "focus": 1,
+     "file": "clips/c739e56def1a.mp3",
+     "seconds": 7.425
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita is enrolled in the **Social Security Fund** through her employer.",
+     "say": "Sita is enrolled in the Social Security Fund through her employer.",
+     "focus": 2,
+     "file": "clips/add1d4b8be66.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "Contributions are deducted from her salary, a little like a premium.",
+     "say": "Contributions are deducted from her salary, a little like a premium.",
+     "focus": 2,
+     "file": "clips/602ab179a4a8.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "She can use **SSF-listed hospitals**, which is close to the idea of a US **network**.",
+     "say": "She can use S S F listed hospitals, which is close to the idea of a U S network.",
+     "focus": 3,
+     "file": "clips/8c548daa12e9.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "She pays a **20%** share and SSF pays **80%**, up to a yearly limit.",
+     "say": "She pays a 20 percent share and S S F pays 80 percent, up to a yearly limit.",
+     "focus": 3,
+     "file": "clips/0bff4e639ff6.mp3",
+     "seconds": 6.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "How Emily chose her plan",
+   "lines": [
+    {
+     "raw": "Buying cover: Nepal and the US side by side.",
+     "say": "Buying cover: Nepal and the U S side by side.",
+     "focus": -1,
+     "file": "clips/76f76124171e.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Who arranges it? Ram (private insurance): His employer. Sita (SSF): Her employer, through SSF. Emily (US employer plan): Her employer.",
+     "say": "Who arranges it? Ram (private insurance): His employer. Sita (S S F): Her employer, through S S F. Emily (U S employer plan): Her employer.",
+     "focus": 0,
+     "file": "clips/92eba0553159.mp3",
+     "seconds": 10.325
+    },
+    {
+     "raw": "Does the person choose a plan? Ram (private insurance): Usually not. Sita (SSF): No. Emily (US employer plan): Yes, at open enrollment.",
+     "say": "Does the person choose a plan? Ram (private insurance): Usually not. Sita (S S F): No. Emily (U S employer plan): Yes, at open enrollment.",
+     "focus": 1,
+     "file": "clips/3557bcbafd3d.mp3",
+     "seconds": 10.525
+    },
+    {
+     "raw": "Is there a network? Ram (private insurance): Not usually. Sita (SSF): Yes, SSF-listed hospitals. Emily (US employer plan): Yes, in-network providers.",
+     "say": "Is there a network? Ram (private insurance): Not usually. Sita (S S F): Yes, S S F listed hospitals. Emily (U S employer plan): Yes, in-network providers.",
+     "focus": 2,
+     "file": "clips/4ffb0408203d.mp3",
+     "seconds": 12.15
+    },
+    {
+     "raw": "Main cost-sharing rule. Ram (private insurance): Items not covered, yearly limit. Sita (SSF): 20% share, yearly limit. Emily (US employer plan): Deductible, copay, coinsurance, out-of-pocket max.",
+     "say": "Main cost-sharing rule. Ram (private insurance): Items not covered, yearly limit. Sita (S S F): 20 percent share, yearly limit. Emily (U S employer plan): Deductible, copay, coinsurance, out-of-pocket max.",
+     "focus": 3,
+     "file": "clips/f51e6c4b2d49.mp3",
+     "seconds": 15.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "How Emily chose her plan",
+   "lines": [
+    {
+     "raw": "About Nepal examples.",
+     "say": "About Nepal examples.",
+     "focus": -1,
+     "file": "clips/69a00fd104ff.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "SSF rules and private policy terms change and differ from policy to policy.",
+     "say": "S S F rules and private policy terms change and differ from policy to policy.",
+     "focus": -1,
+     "file": "clips/8cf1b8c8e574.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "The Nepal comparisons in this course are simplified for learning.",
+     "say": "The Nepal comparisons in this course are simplified for learning.",
+     "focus": -1,
+     "file": "clips/02ad206797f1.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "Check the current SSF guidelines or the policy document for real details.",
+     "say": "Check the current S S F guidelines or the policy document for real details.",
+     "focus": -1,
+     "file": "clips/024fcf0511f2.mp3",
+     "seconds": 5.7
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The journey has seven stages: plan, care, coding, claim and clearinghouse, payer checks and adjudication, EOB and payment, then the full picture.",
+     "say": "The journey has seven stages: plan, care, coding, claim and clearinghouse, payer checks and adjudication, E O B and payment, then the full picture.",
+     "focus": 0,
+     "file": "clips/dea8ef230292.mp3",
+     "seconds": 10.025
+    },
+    {
+     "raw": "HMO: cheaper, PCP and referrals required, network only.",
+     "say": "H M O: cheaper, P C P and referrals required, network only.",
+     "focus": 1,
+     "file": "clips/e8f91670a845.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "PPO: pricier, more freedom, out-of-network allowed at a higher cost.",
+     "say": "P P O: pricier, more freedom, out-of-network allowed at a higher cost.",
+     "focus": 1,
+     "file": "clips/ce7df294ec08.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Premium, deductible, copay, coinsurance and out-of-pocket maximum are fixed when you choose the plan, before any care.",
+     "say": "Premium, deductible, copay, coinsurance and out-of-pocket maximum are fixed when you choose the plan, before any care.",
+     "focus": 2,
+     "file": "clips/31c5b535ad7d.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "Emily has a PPO through her employer: $1,000 deductible, $25 copay, 20% coinsurance, $5,000 out-of-pocket maximum.",
+     "say": "Emily has a P P O through her employer: 1000 dollars deductible, 25 dollars copay, 20 percent coinsurance, 5000 dollars out-of-pocket maximum.",
+     "focus": 3,
+     "file": "clips/3a31a9cf8c96.mp3",
+     "seconds": 11.825
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

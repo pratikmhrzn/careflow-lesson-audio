@@ -1,0 +1,834 @@
+{
+ "courseId": "revenue-cycle",
+ "lessonId": "denials-management",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Denials Management.",
+     "say": "Lesson 5: Denials Management.",
+     "focus": -1,
+     "file": "clips/eb1981a95966.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Finding why claims are denied, getting the money back, and stopping it happening again.",
+     "say": "Finding why claims are denied, getting the money back, and stopping it happening again.",
+     "focus": -1,
+     "file": "clips/1d890c089f57.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Group denials by root cause, using their reason codes.",
+     "say": "Group denials by root cause, using their reason codes.",
+     "focus": 0,
+     "file": "clips/b6ee2dc5a588.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "Tell soft (fixable) denials from hard denials, and preventable from unavoidable ones.",
+     "say": "Tell soft (fixable) denials from hard denials, and preventable from unavoidable ones.",
+     "focus": 1,
+     "file": "clips/191fbf8ed550.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "Follow the denial workflow: sort, fix or appeal, track, prevent.",
+     "say": "Follow the denial workflow: sort, fix or appeal, track, prevent.",
+     "focus": 2,
+     "file": "clips/f87bb394ee60.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "Read a denial log and find where to act first.",
+     "say": "Read a denial log and find where to act first.",
+     "focus": 3,
+     "file": "clips/f90a95eb3dfd.mp3",
+     "seconds": 3.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "In Nepal: When SSF says no.",
+     "say": "In Nepal: When S S F says no.",
+     "focus": -1,
+     "file": "clips/e5c7d556f446.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "If Ram's insurer refuses part of his claim, the settlement letter says why: \"not covered\", \"prescription missing\".",
+     "say": "If Ram's insurer refuses part of his claim, the settlement letter says why: \"not covered\", \"prescription missing\".",
+     "focus": 0,
+     "file": "clips/6b3f2a4abea9.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "Ram can send the missing paper and ask again, or accept it.",
+     "say": "Ram can send the missing paper and ask again, or accept it.",
+     "focus": 0,
+     "file": "clips/284b08aada14.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "If SSF refuses part of a hospital's claim for Sita, the hospital's billing team must find out why.",
+     "say": "If S S F refuses part of a hospital's claim for Sita, the hospital's billing team must find out why.",
+     "focus": 1,
+     "file": "clips/d4eb5e791f46.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "If the reason is a missing document, they send it.",
+     "say": "If the reason is a missing document, they send it.",
+     "focus": 2,
+     "file": "clips/e6a17611d168.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "If the same reason keeps coming back for many patients, a good manager fixes the **cause**, for example by training the counter staff, so it stops happening.",
+     "say": "If the same reason keeps coming back for many patients, a good manager fixes the cause, for example by training the counter staff, so it stops happening.",
+     "focus": 2,
+     "file": "clips/e27f979ebc3d.mp3",
+     "seconds": 9.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The idea in one sentence.",
+     "say": "The idea in one sentence.",
+     "focus": -1,
+     "file": "clips/959604115806.mp3",
+     "seconds": 2.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "Denials management.",
+     "say": "Denials management.",
+     "focus": -1,
+     "file": "clips/b988ae7fd4c6.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "**Denials management** is the work of finding out **why** claims are denied, **recovering** the money where possible, and **fixing the cause** upstream so the same denial does not happen again.",
+     "say": "Denials management is the work of finding out why claims are denied, recovering the money where possible, and fixing the cause upstream so the same denial does not happen again.",
+     "focus": -1,
+     "file": "clips/abea2db1151d.mp3",
+     "seconds": 11.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The idea in one sentence",
+   "lines": [
+    {
+     "raw": "In the US: Why US providers have whole denial teams.",
+     "say": "In the U S: Why U S providers have whole denial teams.",
+     "focus": -1,
+     "file": "clips/f46667bf7357.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "A **denial** is the insurer's decision not to pay a claim or a line, after processing it.",
+     "say": "A denial is the insurer's decision not to pay a claim or a line, after processing it.",
+     "focus": 0,
+     "file": "clips/d2b15937ba3c.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "It arrives on the 835 remittance with a reason code.",
+     "say": "It arrives on the 8 35 remittance with a reason code.",
+     "focus": 0,
+     "file": "clips/1d2bf9eb61fc.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "Industry surveys commonly report that around one in ten claims is denied the first time, and that a large share of denials are never reworked: that money is simply lost.",
+     "say": "Industry surveys commonly report that around one in ten claims is denied the first time, and that a large share of denials are never reworked: that money is simply lost.",
+     "focus": 1,
+     "file": "clips/bd43c079e516.mp3",
+     "seconds": 11.025
+    },
+    {
+     "raw": "Each reworked denial costs staff time, so preventing denials is worth more than working them.",
+     "say": "Each reworked denial costs staff time, so preventing denials is worth more than working them.",
+     "focus": 2,
+     "file": "clips/73f931ed4253.mp3",
+     "seconds": 6.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Reading the reason.",
+     "say": "Reading the reason.",
+     "focus": -1,
+     "file": "clips/c244d83c9142.mp3",
+     "seconds": 1.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Reading the reason",
+   "lines": [
+    {
+     "raw": "Each denial carries a **Claim Adjustment Reason Code (CARC)**, sometimes with a **Remittance Advice Remark Code (RARC)** that adds detail.",
+     "say": "Each denial carries a Claim Adjustment Reason Code (C A R C), sometimes with a Remittance Advice Remark Code (R A R C) that adds detail.",
+     "focus": -1,
+     "file": "clips/2520a07b34b9.mp3",
+     "seconds": 10.225
+    },
+    {
+     "raw": "The **Claim Adjudication** course explains how insurers assign them.",
+     "say": "The Claim Adjudication course explains how insurers assign them.",
+     "focus": -1,
+     "file": "clips/b72f3bcc4d1a.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "A denial team maps each code to a **root cause category**, so it can see which part of the cycle caused it.",
+     "say": "A denial team maps each code to a root cause category, so it can see which part of the cycle caused it.",
+     "focus": -1,
+     "file": "clips/137100c2ff1b.mp3",
+     "seconds": 6.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Reading the reason",
+   "lines": [
+    {
+     "raw": "Reason codes are taught in Adjudication.",
+     "say": "Reason codes are taught in Adjudication.",
+     "focus": -1,
+     "file": "clips/92d201ffe663.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "How CARCs, RARCs and group codes are assigned during pricing and edits is covered in the Claim Adjudication course.",
+     "say": "How C A R C's, R A R C's and group codes are assigned during pricing and edits is covered in the Claim Adjudication course.",
+     "focus": -1,
+     "file": "clips/b62203a59247.mp3",
+     "seconds": 9.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Reading the reason",
+   "lines": [
+    {
+     "raw": "Mapping reason codes to root causes.",
+     "say": "Mapping reason codes to root causes.",
+     "focus": -1,
+     "file": "clips/127e7ab05857.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "**Eligibility / registration**. Example CARC: `27`. What it means: Care given after coverage ended. Where it started: Front end (lesson 2).",
+     "say": "Eligibility or registration. Example C A R C: 27. What it means: Care given after coverage ended. Where it started: Front end (lesson 2).",
+     "focus": 0,
+     "file": "clips/2f8be46a45b7.mp3",
+     "seconds": 11.325
+    },
+    {
+     "raw": "**Other insurance (coordination of benefits, COB)**. Example CARC: `22`. What it means: Another plan should pay first. Where it started: Front end.",
+     "say": "Other insurance (coordination of benefits, C O B). Example C A R C: 22. What it means: Another plan should pay first. Where it started: Front end.",
+     "focus": 1,
+     "file": "clips/308549bf0e2e.mp3",
+     "seconds": 11.025
+    },
+    {
+     "raw": "**Missing information**. Example CARC: `16`. What it means: Claim lacks information or has a billing error. Where it started: Front end or back end.",
+     "say": "Missing information. Example C A R C: 16. What it means: Claim lacks information or has a billing error. Where it started: Front end or back end.",
+     "focus": 2,
+     "file": "clips/ac08281859fc.mp3",
+     "seconds": 11.175
+    },
+    {
+     "raw": "**Authorization**. Example CARC: `197`. What it means: Required approval was not obtained. Where it started: Front end.",
+     "say": "Authorization. Example C A R C: 197. What it means: Required approval was not obtained. Where it started: Front end.",
+     "focus": 3,
+     "file": "clips/1e304df5d52c.mp3",
+     "seconds": 10.05
+    },
+    {
+     "raw": "**Coding**. Example CARC: `97`, `4`. What it means: Service bundled into another; modifier missing or wrong. Where it started: Mid cycle (lesson 3).",
+     "say": "Coding. Example C A R C: 97, 4. What it means: Service bundled into another; modifier missing or wrong. Where it started: Mid cycle (lesson 3).",
+     "focus": 4,
+     "file": "clips/996267c7e907.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "**Medical necessity**. Example CARC: `50`. What it means: Insurer says the service was not medically necessary. Where it started: Mid cycle (documentation) or clinical.",
+     "say": "Medical necessity. Example C A R C: 50. What it means: Insurer says the service was not medically necessary. Where it started: Mid cycle (documentation) or clinical.",
+     "focus": 5,
+     "file": "clips/4d1852270be6.mp3",
+     "seconds": 12.7
+    },
+    {
+     "raw": "**Timely filing**. Example CARC: `29`. What it means: Claim arrived after the deadline. Where it started: Back end (lesson 4).",
+     "say": "Timely filing. Example C A R C: 29. What it means: Claim arrived after the deadline. Where it started: Back end (lesson 4).",
+     "focus": 6,
+     "file": "clips/eff582d26b0f.mp3",
+     "seconds": 9.975
+    },
+    {
+     "raw": "**Duplicate**. Example CARC: `18`. What it means: Same service already billed. Where it started: Back end.",
+     "say": "Duplicate. Example C A R C: 18. What it means: Same service already billed. Where it started: Back end.",
+     "focus": 7,
+     "file": "clips/4d17e4ec8bd1.mp3",
+     "seconds": 8.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Kinds of denial.",
+     "say": "Kinds of denial.",
+     "focus": -1,
+     "file": "clips/8b829ad2e897.mp3",
+     "seconds": 1.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Kinds of denial",
+   "lines": [
+    {
+     "raw": "Soft denial.",
+     "say": "Soft denial.",
+     "focus": 0,
+     "file": "clips/39521b97d838.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Can be fixed: add the missing information, correct a code, and resubmit.",
+     "say": "Can be fixed: add the missing information, correct a code, and resubmit.",
+     "focus": 0,
+     "file": "clips/5c78fe81f57e.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Example: CARC 16 for a missing referring doctor.",
+     "say": "Example: C A R C 16 for a missing referring doctor.",
+     "focus": 0,
+     "file": "clips/975b50e4c54d.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Hard denial.",
+     "say": "Hard denial.",
+     "focus": 1,
+     "file": "clips/3b0c96d4e3ba.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Final unless it is **appealed**: the insurer has decided not to pay.",
+     "say": "Final unless it is appealed: the insurer has decided not to pay.",
+     "focus": 1,
+     "file": "clips/dfa0882e1479.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Example: CARC 50, not medically necessary.",
+     "say": "Example: C A R C 50, not medically necessary.",
+     "focus": 1,
+     "file": "clips/7e6170024713.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Preventable denial.",
+     "say": "Preventable denial.",
+     "focus": 2,
+     "file": "clips/5476b0ad5b64.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Would not have happened if a process had been followed, such as an insurance check or an authorization request.",
+     "say": "Would not have happened if a process had been followed, such as an insurance check or an authorization request.",
+     "focus": 2,
+     "file": "clips/eeb3b57855ac.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "Denial write-off.",
+     "say": "Denial write-off.",
+     "focus": 3,
+     "file": "clips/a737acbc29f7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Money given up on a denial that cannot be recovered.",
+     "say": "Money given up on a denial that cannot be recovered.",
+     "focus": 3,
+     "file": "clips/23491c430b9d.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "For in-network providers, contracts often stop them billing the patient for it.",
+     "say": "For in-network providers, contracts often stop them billing the patient for it.",
+     "focus": 3,
+     "file": "clips/1ad749fb220a.mp3",
+     "seconds": 5.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The denial workflow.",
+     "say": "The denial workflow.",
+     "focus": -1,
+     "file": "clips/53055c1835c6.mp3",
+     "seconds": 1.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The denial workflow",
+   "lines": [
+    {
+     "raw": "Step 1: Identify.",
+     "say": "Step 1: Identify.",
+     "focus": 0,
+     "file": "clips/0ddec5d09b3a.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Denied lines are found during payment posting and sent to a **denial work queue**.",
+     "say": "Denied lines are found during payment posting and sent to a denial work queue.",
+     "focus": 0,
+     "file": "clips/cae8de8b6e45.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "Step 2: Categorise.",
+     "say": "Step 2: Categorise.",
+     "focus": 1,
+     "file": "clips/b2e6124d08fb.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Each denial is tagged with a root cause from its CARC/RARC (and sometimes a person's review).",
+     "say": "Each denial is tagged with a root cause from its CARC/RARC (and sometimes a person's review).",
+     "focus": 1,
+     "file": "clips/bf53540003f7.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "Step 3: Prioritise.",
+     "say": "Step 3: Prioritise.",
+     "focus": 2,
+     "file": "clips/410cd61580f7.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Work the largest amounts and the nearest deadlines first.",
+     "say": "Work the largest amounts and the nearest deadlines first.",
+     "focus": 2,
+     "file": "clips/f16480a4607a.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Step 4: Resolve.",
+     "say": "Step 4: Resolve.",
+     "focus": 3,
+     "file": "clips/7962661ca850.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "**Soft**: correct and resubmit.",
+     "say": "Soft: correct and resubmit.",
+     "focus": 3,
+     "file": "clips/07db872954f4.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "**Hard**: decide whether to appeal, with records.",
+     "say": "Hard: decide whether to appeal, with records.",
+     "focus": 3,
+     "file": "clips/df7b92eaeddf.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Otherwise write off.",
+     "say": "Otherwise write off.",
+     "focus": 3,
+     "file": "clips/032cb5da3959.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "Step 5: Track.",
+     "say": "Step 5: Track.",
+     "focus": 4,
+     "file": "clips/c5c9f1c63d88.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Record the outcome: recovered amount, date, and who worked it.",
+     "say": "Record the outcome: recovered amount, date, and who worked it.",
+     "focus": 4,
+     "file": "clips/0ebf10517e21.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Step 6: Prevent.",
+     "say": "Step 6: Prevent.",
+     "focus": 5,
+     "file": "clips/7cf83bae0eb8.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Send the pattern back to the step that caused it: train staff, fix a chargemaster line, add a scrubber edit.",
+     "say": "Send the pattern back to the step that caused it: train staff, fix a chargemaster line, add a scrubber edit.",
+     "focus": 5,
+     "file": "clips/e9189529216c.mp3",
+     "seconds": 7.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The denial workflow",
+   "lines": [
+    {
+     "raw": "Appeals have their own course.",
+     "say": "Appeals have their own course.",
+     "focus": -1,
+     "file": "clips/a48574dedc59.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "Who can appeal, the appeal levels and the deadlines are taught in the Appeals & Grievances course.",
+     "say": "Who can appeal, the appeal levels and the deadlines are taught in the Appeals and Grievances course.",
+     "focus": -1,
+     "file": "clips/b4bb2999d93c.mp3",
+     "seconds": 6.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Worked example: one month of denials.",
+     "say": "Worked example: one month of denials.",
+     "focus": -1,
+     "file": "clips/602c8e18aeb2.mp3",
+     "seconds": 2.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Worked example: one month of denials",
+   "lines": [
+    {
+     "raw": "Sunrise Family Clinic's billing manager pulls April 2025's denials (fictional numbers).",
+     "say": "Sunrise Family Clinic's billing manager pulls April 2025's denials (fictional numbers).",
+     "focus": -1,
+     "file": "clips/4293705825f9.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "The clinic sent **2,000** claims that month, and **160** were denied on first submission.",
+     "say": "The clinic sent 2,000 claims that month, and 160 were denied on first submission.",
+     "focus": -1,
+     "file": "clips/1ab148c1bcf4.mp3",
+     "seconds": 6.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Worked example: one month of denials",
+   "lines": [
+    {
+     "raw": "April 2025 denials by root cause.",
+     "say": "April 2025 denials by root cause.",
+     "focus": -1,
+     "file": "clips/dd4156b6ce8c.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Eligibility / registration. Denied claims: 64. Denied $: $9,600. Share of denied claims: 40%. Recovered so far: $7,100.",
+     "say": "Eligibility or registration. Denied claims: 64. Denied $: 9600 dollars. Share of denied claims: 40 percent. Recovered so far: 7100 dollars.",
+     "focus": 0,
+     "file": "clips/6c2b83122220.mp3",
+     "seconds": 13.375
+    },
+    {
+     "raw": "Missing information. Denied claims: 32. Denied $: $4,200. Share of denied claims: 20%. Recovered so far: $3,900.",
+     "say": "Missing information. Denied claims: 32. Denied $: 4200 dollars. Share of denied claims: 20 percent. Recovered so far: 3900 dollars.",
+     "focus": 1,
+     "file": "clips/46512759eb81.mp3",
+     "seconds": 11.925
+    },
+    {
+     "raw": "Coding. Denied claims: 24. Denied $: $4,800. Share of denied claims: 15%. Recovered so far: $2,400.",
+     "say": "Coding. Denied claims: 24. Denied $: 4800 dollars. Share of denied claims: 15 percent. Recovered so far: 2400 dollars.",
+     "focus": 2,
+     "file": "clips/88644f0ba0a3.mp3",
+     "seconds": 11.575
+    },
+    {
+     "raw": "Authorization. Denied claims: 16. Denied $: $6,400. Share of denied claims: 10%. Recovered so far: $1,600.",
+     "say": "Authorization. Denied claims: 16. Denied $: 6400 dollars. Share of denied claims: 10 percent. Recovered so far: 1600 dollars.",
+     "focus": 3,
+     "file": "clips/471cc104749c.mp3",
+     "seconds": 11.775
+    },
+    {
+     "raw": "Medical necessity. Denied claims: 12. Denied $: $3,600. Share of denied claims: 7.5%. Recovered so far: $900.",
+     "say": "Medical necessity. Denied claims: 12. Denied $: 3600 dollars. Share of denied claims: 7.5 percent. Recovered so far: 900 dollars.",
+     "focus": 4,
+     "file": "clips/2c9e41d119ee.mp3",
+     "seconds": 12.6
+    },
+    {
+     "raw": "Duplicate. Denied claims: 8. Denied $: $1,000. Share of denied claims: 5%. Recovered so far: $0.",
+     "say": "Duplicate. Denied claims: 8. Denied $: 1000 dollars. Share of denied claims: 5 percent. Recovered so far: 0 dollars.",
+     "focus": 5,
+     "file": "clips/1022a0e31fb9.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "Timely filing. Denied claims: 4. Denied $: $400. Share of denied claims: 2.5%. Recovered so far: $0.",
+     "say": "Timely filing. Denied claims: 4. Denied $: 400 dollars. Share of denied claims: 2.5 percent. Recovered so far: 0 dollars.",
+     "focus": 6,
+     "file": "clips/c6e039ae05d6.mp3",
+     "seconds": 11.25
+    },
+    {
+     "raw": "**Total**. Denied claims: **160**. Denied $: **$30,000**. Share of denied claims: **100%**. Recovered so far: **$15,900**.",
+     "say": "Total. Denied claims: 160. Denied $: 30000 dollars. Share of denied claims: 100 percent. Recovered so far: 15900 dollars.",
+     "focus": 7,
+     "file": "clips/da74a3034c83.mp3",
+     "seconds": 12.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Worked example: one month of denials",
+   "lines": [
+    {
+     "raw": "**Biggest by count**: eligibility and registration, 40% of denials.",
+     "say": "Biggest by count: eligibility and registration, 40 percent of denials.",
+     "focus": 0,
+     "file": "clips/e198aec6fa4a.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Most were recovered by billing the right insurer, but each one cost staff time.",
+     "say": "Most were recovered by billing the right insurer, but each one cost staff time.",
+     "focus": 0,
+     "file": "clips/567e5861f22d.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "The fix belongs at the **front desk**: run an insurance check on every visit.",
+     "say": "The fix belongs at the front desk: run an insurance check on every visit.",
+     "focus": 0,
+     "file": "clips/cbbacd8c78b5.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "**Biggest dollars per claim**: authorization denials average **$400** each ($6,400 ÷ 16), and only a quarter was recovered.",
+     "say": "Biggest dollars per claim: authorization denials average 400 dollars each (6400 dollars ÷ 16), and only a quarter was recovered.",
+     "focus": 1,
+     "file": "clips/067a66346f74.mp3",
+     "seconds": 10.9
+    },
+    {
+     "raw": "A check for required approvals at scheduling would prevent most of them.",
+     "say": "A check for required approvals at scheduling would prevent most of them.",
+     "focus": 1,
+     "file": "clips/99281a78af03.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "**Duplicates** are not lost money: the first claim was already paid.",
+     "say": "Duplicates are not lost money: the first claim was already paid.",
+     "focus": 2,
+     "file": "clips/0c479adefb11.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "They are noise that wastes follow-up time and should be left out of \"money at risk\".",
+     "say": "They are noise that wastes follow-up time and should be left out of \"money at risk\".",
+     "focus": 2,
+     "file": "clips/7b4f5c718bf8.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "**Timely filing** money is gone: the deadline has passed.",
+     "say": "Timely filing money is gone: the deadline has passed.",
+     "focus": 3,
+     "file": "clips/e7ef1608fe65.mp3",
+     "seconds": 3.825
+    },
+    {
+     "raw": "Small here, but a warning sign about follow-up.",
+     "say": "Small here, but a warning sign about follow-up.",
+     "focus": 3,
+     "file": "clips/865f74b89116.mp3",
+     "seconds": 3.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Worked example: one month of denials",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "A useful denial table has one row per denied **line**, with the claim, payer, CARC, RARC, denied amount, root cause, owner, status, resolution date and recovered amount.",
+     "say": "A useful denial table has one row per denied line, with the claim, payer, C A R C, R A R C, denied amount, root cause, owner, status, resolution date and recovered amount.",
+     "focus": -1,
+     "file": "clips/e3ef7e7caee2.mp3",
+     "seconds": 12.55
+    },
+    {
+     "raw": "Watch out: the **same claim** can be denied, resubmitted and denied again, so decide whether you count denial **events** or denied **claims**; report denials by **count and dollars**; and keep duplicate denials apart, because they are not lost revenue.",
+     "say": "Watch out: the same claim can be denied, resubmitted and denied again, so decide whether you count denial events or denied claims; report denials by count and dollars; and keep duplicate denials apart, because they are not lost revenue.",
+     "focus": -1,
+     "file": "clips/77e009e26753.mp3",
+     "seconds": 16.025
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Denials management = find the cause, recover the money, fix the cause upstream.",
+     "say": "Denials management = find the cause, recover the money, fix the cause upstream.",
+     "focus": 0,
+     "file": "clips/ff3b7ef5ef34.mp3",
+     "seconds": 5.875
+    },
+    {
+     "raw": "Map CARC/RARC codes to **root causes** to see which part of the cycle created the denial.",
+     "say": "Map CARC/RARC codes to root causes to see which part of the cycle created the denial.",
+     "focus": 1,
+     "file": "clips/c58392e83e71.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "**Soft** denials are corrected and resubmitted; **hard** denials need an appeal or a write-off.",
+     "say": "Soft denials are corrected and resubmitted; hard denials need an appeal or a write-off.",
+     "focus": 2,
+     "file": "clips/e960a4c87f63.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "Prioritise by dollars and deadlines; prevention beats rework.",
+     "say": "Prioritise by dollars and deadlines; prevention beats rework.",
+     "focus": 3,
+     "file": "clips/6d8dc45b53f1.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "Count denials consistently (events vs claims, count vs dollars) and treat duplicates separately.",
+     "say": "Count denials consistently (events versus claims, count versus dollars) and treat duplicates separately.",
+     "focus": 4,
+     "file": "clips/03c060556ec8.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

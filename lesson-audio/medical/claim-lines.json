@@ -1,0 +1,638 @@
+{
+ "courseId": "medical",
+ "lessonId": "claim-lines",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: Claim Lines (Items).",
+     "say": "Lesson 4: Claim Lines (Items).",
+     "focus": -1,
+     "file": "clips/27ac8975ec00.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "One row for each service on the bill.",
+     "say": "One row for each service on the bill.",
+     "focus": -1,
+     "file": "clips/fefa94313739.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a claim line (claim item) is.",
+     "say": "Explain what a claim line (claim item) is.",
+     "focus": 0,
+     "file": "clips/02eb3320cf79.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "Name the main line-level fields.",
+     "say": "Name the main line-level fields.",
+     "focus": 1,
+     "file": "clips/1b1084579491.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Know why counting claims is different from counting lines.",
+     "say": "Know why counting claims is different from counting lines.",
+     "focus": 2,
+     "file": "clips/3542ec4118f0.mp3",
+     "seconds": 3.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The items under the header.",
+     "say": "The items under the header.",
+     "focus": -1,
+     "file": "clips/156b2678af4d.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The items under the header",
+   "lines": [
+    {
+     "raw": "Look at any bill from a Nepali hospital.",
+     "say": "Look at any bill from a Nepali hospital.",
+     "focus": -1,
+     "file": "clips/500bbac192ff.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Under the bill number there is a list of **items**: OPD ticket, CBC test, X-ray, and so on.",
+     "say": "Under the bill number there is a list of items: O P D ticket, C B C test, X-ray, and so on.",
+     "focus": -1,
+     "file": "clips/ee9486fd0179.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "US claims work exactly the same way.",
+     "say": "U S claims work exactly the same way.",
+     "focus": -1,
+     "file": "clips/017269ca3ae3.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The items under the header",
+   "lines": [
+    {
+     "raw": "The idea in one sentence: **a claim line is one service on the bill, with its own code, date and amount.**",
+     "say": "The idea in one sentence: a claim line is one service on the bill, with its own code, date and amount.",
+     "focus": -1,
+     "file": "clips/2c5be8221010.mp3",
+     "seconds": 7.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The items under the header",
+   "lines": [
+    {
+     "raw": "Claim line (also called claim item).",
+     "say": "Claim line (also called claim item).",
+     "focus": 0,
+     "file": "clips/89263e992021.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "One row for each service on the bill, just like each **item** on a hospital receipt.",
+     "say": "One row for each service on the bill, just like each item on a hospital receipt.",
+     "focus": 0,
+     "file": "clips/1e6600a3a881.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Claim line number (also called claim item number).",
+     "say": "Claim line number (also called claim item number).",
+     "focus": 1,
+     "file": "clips/46fa72923bac.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "The position of the line: 1, 2, 3...",
+     "say": "The position of the line: 1, 2, 3...",
+     "focus": 1,
+     "file": "clips/065299fb1852.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "It starts again at 1 on every claim.",
+     "say": "It starts again at 1 on every claim.",
+     "focus": 1,
+     "file": "clips/89d9e2d9e2e4.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "Claim number + line number together identify one service.",
+     "say": "Claim number and line number together identify one service.",
+     "focus": 1,
+     "file": "clips/5b4b841b485d.mp3",
+     "seconds": 4.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The items under the header",
+   "lines": [
+    {
+     "raw": "Same thing, different names.",
+     "say": "Same thing, different names.",
+     "focus": -1,
+     "file": "clips/e1a7fde4d973.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "\"Claim line\" and \"claim item\" mean the same thing.",
+     "say": "\"Claim line\" and \"claim item\" mean the same thing.",
+     "focus": -1,
+     "file": "clips/092dec59062f.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "In data files you may see the column called `ClaimLineNumber`, `ClaimLineNum`, `ClaimItem`, `LineSeq` or just `Line`.",
+     "say": "In data files you may see the column called ClaimLineNumber, ClaimLineNum, ClaimItem, LineSeq or just Line.",
+     "focus": -1,
+     "file": "clips/12b514788e45.mp3",
+     "seconds": 7.75
+    },
+    {
+     "raw": "If a file has no line number at all, data teams usually create one (1, 2, 3...) for each claim number.",
+     "say": "If a file has no line number at all, data teams usually create one (1, 2, 3...) for each claim number.",
+     "focus": -1,
+     "file": "clips/9dfd7bfa1eb4.mp3",
+     "seconds": 7.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The items under the header",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram's and Sita's bill items.",
+     "say": "In Nepal: Ram's and Sita's bill items.",
+     "focus": -1,
+     "file": "clips/1e515b396746.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's receipt: **Bill No.",
+     "say": "Ram's receipt: Bill No.",
+     "focus": 0,
+     "file": "clips/e967b85d60fe.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "4587**.",
+     "say": "4587.",
+     "focus": 0,
+     "file": "clips/a66b863de47a.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Items: 1) OPD ticket Rs 500, 2) CBC blood test Rs 600, 3) Throat swab test Rs 900.",
+     "say": "Items: 1) O P D ticket Rs 500, 2) C B C blood test Rs 600, 3) Throat swab test Rs 900.",
+     "focus": 0,
+     "file": "clips/1a633c6709fa.mp3",
+     "seconds": 10.525
+    },
+    {
+     "raw": "Total Rs 2,000.",
+     "say": "Total Rs 2,000.",
+     "focus": 0,
+     "file": "clips/a3685285bc76.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "He attaches this receipt to his claim form.",
+     "say": "He attaches this receipt to his claim form.",
+     "focus": 1,
+     "file": "clips/0a2aab166c0f.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "The insurer checks **each line** to decide what to pay back.",
+     "say": "The insurer checks each line to decide what to pay back.",
+     "focus": 1,
+     "file": "clips/bb0f5ea9dee7.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "That is why an itemised bill matters.",
+     "say": "That is why an itemised bill matters.",
+     "focus": 1,
+     "file": "clips/c2867c8d84c0.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's claim **SSF-22871** has three lines, one for each item: consultation, blood test, throat swab test.",
+     "say": "Sita's claim S S F 22871 has three lines, one for each item: consultation, blood test, throat swab test.",
+     "focus": 2,
+     "file": "clips/bd87224ab68f.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "SSF can approve some lines and reject others.",
+     "say": "S S F can approve some lines and reject others.",
+     "focus": 3,
+     "file": "clips/a983df8aa7f1.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "That is why each item needs its own line.",
+     "say": "That is why each item needs its own line.",
+     "focus": 3,
+     "file": "clips/6381f958b15c.mp3",
+     "seconds": 3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The items under the header",
+   "lines": [
+    {
+     "raw": "In the US: Emily's claim, line by line.",
+     "say": "In the U S: Emily's claim, line by line.",
+     "focus": -1,
+     "file": "clips/5a65ef4c1cae.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "**Claim number 23098908** with two lines.",
+     "say": "Claim number 23098908 with two lines.",
+     "focus": 0,
+     "file": "clips/feb198bdd59b.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "Line 1 → `23098908-1` → office visit → $117.",
+     "say": "Line 1 to 2 3 0 9 8 9 0 8 dash 1 to office visit to 117 dollars.",
+     "focus": 1,
+     "file": "clips/a6ff0854a453.mp3",
+     "seconds": 7.825
+    },
+    {
+     "raw": "Line 2 → `23098908-2` → rapid strep test → $33.",
+     "say": "Line 2 to 2 3 0 9 8 9 0 8 dash 2 to rapid strep test to 33 dollars.",
+     "focus": 2,
+     "file": "clips/ea2ae750c9fc.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "Total billed (on the header): $150.",
+     "say": "Total billed (on the header): 150 dollars.",
+     "focus": 3,
+     "file": "clips/b9b14bf3b877.mp3",
+     "seconds": 3.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What is on each line?",
+     "say": "What is on each line?",
+     "focus": -1,
+     "file": "clips/46576ead597e.mp3",
+     "seconds": 1.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "What is on each line?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Line number**. What it tells you: Which item on the bill. Taught in: This lesson.",
+     "say": "Line number. What it tells you: Which item on the bill. Taught in: This lesson.",
+     "focus": 0,
+     "file": "clips/32a71909efa4.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "**Procedure code** and **modifiers**. What it tells you: What service was done. Taught in: Lesson 6.",
+     "say": "Procedure code and modifiers. What it tells you: What service was done. Taught in: Lesson 6.",
+     "focus": 1,
+     "file": "clips/e869ea69467a.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "**Units**. What it tells you: How many times, or how much. Taught in: Lesson 6.",
+     "say": "Units. What it tells you: How many times, or how much. Taught in: Lesson 6.",
+     "focus": 2,
+     "file": "clips/9ef2fbe0f4be.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "**Diagnosis pointer** (professional). What it tells you: Which header diagnosis supports this line. Taught in: Lesson 5.",
+     "say": "Diagnosis pointer (professional). What it tells you: Which header diagnosis supports this line. Taught in: Lesson 5.",
+     "focus": 3,
+     "file": "clips/c3b3ad745dc6.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "**Line service dates**. What it tells you: When this service happened. Taught in: Lesson 7.",
+     "say": "Line service dates. What it tells you: When this service happened. Taught in: Lesson 7.",
+     "focus": 4,
+     "file": "clips/3048f81c5882.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "**Rendering provider**. What it tells you: Which doctor did this service. Taught in: Lesson 8.",
+     "say": "Rendering provider. What it tells you: Which doctor did this service. Taught in: Lesson 8.",
+     "focus": 5,
+     "file": "clips/2e992d04d2bf.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "**Place of Service** (professional) / **Revenue code** (institutional). What it tells you: Where it happened / which hospital department. Taught in: Lesson 9.",
+     "say": "Place of Service (professional) or Revenue code (institutional). What it tells you: Where it happened or which hospital department. Taught in: Lesson 9.",
+     "focus": 6,
+     "file": "clips/26091f76c594.mp3",
+     "seconds": 9.85
+    },
+    {
+     "raw": "**Line charge**, and later **allowed** and **paid** amounts. What it tells you: How much was asked and paid for this one service. Taught in: Lesson 10.",
+     "say": "Line charge, and later allowed and paid amounts. What it tells you: How much was asked and paid for this one service. Taught in: Lesson 10.",
+     "focus": 7,
+     "file": "clips/fc45295e26b3.mp3",
+     "seconds": 9.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "What is on each line?",
+   "lines": [
+    {
+     "raw": "Header vs. line: two levels of information.",
+     "say": "Header versus line: two levels of information.",
+     "focus": -1,
+     "file": "clips/e164dfe76d9b.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Claim number, member ID. Claim line (each service): Line number.",
+     "say": "Claim number, member I D. Claim line (each service): Line number.",
+     "focus": 0,
+     "file": "clips/1da61cfcbe8f.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Billing provider (who gets paid). Claim line (each service): Procedure code (what was done).",
+     "say": "Billing provider (who gets paid). Claim line (each service): Procedure code (what was done).",
+     "focus": 1,
+     "file": "clips/f9065ba0f71d.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "Diagnosis codes (why). Claim line (each service): Units (how many).",
+     "say": "Diagnosis codes (why). Claim line (each service): Units (how many).",
+     "focus": 2,
+     "file": "clips/57e924c26928.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Claim dates (first to last day). Claim line (each service): Line service date.",
+     "say": "Claim dates (first to last day). Claim line (each service): Line service date.",
+     "focus": 3,
+     "file": "clips/96ca434bf1d7.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Total charge. Claim line (each service): Line charge.",
+     "say": "Total charge. Claim line (each service): Line charge.",
+     "focus": 4,
+     "file": "clips/84fbf23c6b0c.mp3",
+     "seconds": 3.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How lines look as data.",
+     "say": "How lines look as data.",
+     "focus": -1,
+     "file": "clips/dbee80006471.mp3",
+     "seconds": 2.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "How lines look as data",
+   "lines": [
+    {
+     "raw": "Emily's claim as data rows (one row per line).",
+     "say": "Emily's claim as data rows (one row per line).",
+     "focus": -1,
+     "file": "clips/9716016386a7.mp3",
+     "seconds": 3.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "How lines look as data",
+   "lines": [
+    {
+     "raw": "Counting claims vs. counting lines.",
+     "say": "Counting claims versus counting lines.",
+     "focus": -1,
+     "file": "clips/acdd1dd75cee.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "In most claim tables, each **row is a claim line**, not a whole claim.",
+     "say": "In most claim tables, each row is a claim line, not a whole claim.",
+     "focus": -1,
+     "file": "clips/8663e7c4adc7.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "If you count rows, you count services, not visits.",
+     "say": "If you count rows, you count services, not visits.",
+     "focus": -1,
+     "file": "clips/1074f07cb9b3.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "To count bills, count **unique claim numbers**.",
+     "say": "To count bills, count unique claim numbers.",
+     "focus": -1,
+     "file": "clips/043a2cff2e57.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "This trips up many beginners.",
+     "say": "This trips up many beginners.",
+     "focus": -1,
+     "file": "clips/0cbb341e280d.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "How lines look as data",
+   "lines": [
+    {
+     "raw": "Header fields repeat on every line.",
+     "say": "Header fields repeat on every line.",
+     "focus": -1,
+     "file": "clips/7b1e5882849b.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "In a line-level table, the database copies the header fields (member ID, billing provider, diagnoses) onto **every** line.",
+     "say": "In a line-level table, the database copies the header fields (member I D, billing provider, diagnoses) onto every line.",
+     "focus": -1,
+     "file": "clips/29a0c21aad80.mp3",
+     "seconds": 8.525
+    },
+    {
+     "raw": "That is why Emily's `member_id` appears on both rows.",
+     "say": "That is why Emily's member_id appears on both rows.",
+     "focus": -1,
+     "file": "clips/7191b12754ee.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "To get a claim's total, **sum the line amounts by claim number**; never add the header total once per line, or you will double count.",
+     "say": "To get a claim's total, sum the line amounts by claim number; never add the header total once per line, or you will double count.",
+     "focus": -1,
+     "file": "clips/48ae1758fdd6.mp3",
+     "seconds": 8.125
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A claim line (claim item) is one service on the bill, with its own code, date and amount.",
+     "say": "A claim line (claim item) is one service on the bill, with its own code, date and amount.",
+     "focus": 0,
+     "file": "clips/ec35a460c087.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "Line numbers restart at 1 on every claim, so claim number + line number identifies one service.",
+     "say": "Line numbers restart at 1 on every claim, so claim number and line number identifies one service.",
+     "focus": 1,
+     "file": "clips/eb38c11d50ce.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "In data, one row usually equals one claim line, not one visit.",
+     "say": "In data, one row usually equals one claim line, not one visit.",
+     "focus": 2,
+     "file": "clips/bc5403441c38.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "To count bills, count unique claim numbers.",
+     "say": "To count bills, count unique claim numbers.",
+     "focus": 3,
+     "file": "clips/043a2cff2e57.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "To total a claim, sum its lines.",
+     "say": "To total a claim, sum its lines.",
+     "focus": 3,
+     "file": "clips/4a62a6791e25.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Header fields are copied onto every line in a line-level table.",
+     "say": "Header fields are copied onto every line in a line-level table.",
+     "focus": 4,
+     "file": "clips/611fd7eea8d0.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1156 @@
+{
+ "courseId": "pbm",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Putting It All Together.",
+     "say": "Lesson 5: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/14aa150d7927.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Emily's employer reviews a year of drug spending and compares two PBM offers.",
+     "say": "Emily's employer reviews a year of drug spending and compares two P B M offers.",
+     "focus": -1,
+     "file": "clips/438dedae5aa9.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Calculate per-member-per-month (PMPM) drug spend, generic rate and rebates per claim.",
+     "say": "Calculate per-member-per-month (P M P M) drug spend, generic rate and rebates per claim.",
+     "focus": 0,
+     "file": "clips/ea33f8ab101c.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "Explain why a few specialty fills can drive a large share of cost.",
+     "say": "Explain why a few specialty fills can drive a large share of cost.",
+     "focus": 1,
+     "file": "clips/dc72db4cbacc.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "Re-price a year of claims under a traditional and a pass-through PBM offer.",
+     "say": "Re-price a year of claims under a traditional and a pass-through P B M offer.",
+     "focus": 2,
+     "file": "clips/c604e3e038a9.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Connect each step to the lesson where you learned it.",
+     "say": "Connect each step to the lesson where you learned it.",
+     "focus": 3,
+     "file": "clips/1fdb51bc91f2.mp3",
+     "seconds": 3.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story.",
+     "say": "The story.",
+     "focus": -1,
+     "file": "clips/5103112bb3ad.mp3",
+     "seconds": 1.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "It is autumn 2025.",
+     "say": "It is autumn 2025.",
+     "focus": -1,
+     "file": "clips/02c48ad29686.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "**Bluebonnet Logistics** (Austin, Texas, group G20450), the employer of **Emily Carter**, is planning for 2026.",
+     "say": "Bluebonnet Logistics (Austin, Texas, group G 2 0 4 5 0), the employer of Emily Carter, is planning for 2026.",
+     "focus": -1,
+     "file": "clips/c7f2ebb09298.mp3",
+     "seconds": 9.875
+    },
+    {
+     "raw": "Today its plan is **fully insured**, so the insurer runs the drug benefit through its own PBM (lesson 1).",
+     "say": "Today its plan is fully insured, so the insurer runs the drug benefit through its own P B M (lesson 1).",
+     "focus": -1,
+     "file": "clips/690f5faa7194.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "Bluebonnet is thinking about becoming **self-funded** and **carving out** the drug benefit to a PBM of its own choosing.",
+     "say": "Bluebonnet is thinking about becoming self-funded and carving out the drug benefit to a P B M of its own choosing.",
+     "focus": -1,
+     "file": "clips/4cd7161fbc88.mp3",
+     "seconds": 7.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "Its **benefits consultant** gets a summary of Bluebonnet's 2025 pharmacy claims from the insurer and asks two PBMs to bid.",
+     "say": "Its benefits consultant gets a summary of Bluebonnet's 2025 pharmacy claims from the insurer and asks two P B M's to bid.",
+     "focus": -1,
+     "file": "clips/142ecd504641.mp3",
+     "seconds": 9.7
+    },
+    {
+     "raw": "The consultant's job: understand the spending, then work out which offer would have cost less on Bluebonnet's real claims.",
+     "say": "The consultant's job: understand the spending, then work out which offer would have cost less on Bluebonnet's real claims.",
+     "focus": -1,
+     "file": "clips/951c56adfdfe.mp3",
+     "seconds": 7.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "Illustrative numbers.",
+     "say": "Illustrative numbers.",
+     "focus": -1,
+     "file": "clips/b35a6d1a817d.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Bluebonnet Logistics is fictional, and every number in this lesson is invented to show the method.",
+     "say": "Bluebonnet Logistics is fictional, and every number in this lesson is invented to show the method.",
+     "focus": -1,
+     "file": "clips/3920933cc990.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "The numbers are chosen to be easy to check, not to describe any real employer or PBM.",
+     "say": "The numbers are chosen to be easy to check, not to describe any real employer or P B M.",
+     "focus": -1,
+     "file": "clips/5919c65a1d5d.mp3",
+     "seconds": 6.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "What the employer does NOT see.",
+     "say": "What the employer does N O T see.",
+     "focus": -1,
+     "file": "clips/2de88ac00839.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "The consultant works with **totals and de-identified data**.",
+     "say": "The consultant works with totals and de-identified data.",
+     "focus": -1,
+     "file": "clips/3078d90eb497.mp3",
+     "seconds": 4
+    },
+    {
+     "raw": "Bluebonnet's HR team never sees that Emily takes atorvastatin.",
+     "say": "Bluebonnet's H R team never sees that Emily takes atorvastatin.",
+     "focus": -1,
+     "file": "clips/56d7eebd235b.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "US privacy rules (HIPAA) limit what an employer can see about its staff's health, even when it pays the claims.",
+     "say": "U S privacy rules (HIPAA) limit what an employer can see about its staff's health, even when it pays the claims.",
+     "focus": -1,
+     "file": "clips/e38c2199f533.mp3",
+     "seconds": 7.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "In Nepal: The same review in Kathmandu.",
+     "say": "In Nepal: The same review in Kathmandu.",
+     "focus": -1,
+     "file": "clips/c062f9bf8910.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's startup renews its group health policy every year.",
+     "say": "Ram's startup renews its group health policy every year.",
+     "focus": 0,
+     "file": "clips/0b6241bad636.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "HR compares quotes from insurers: premium, what is covered, and how claims were paid last year.",
+     "say": "H R compares quotes from insurers: premium, what is covered, and how claims were paid last year.",
+     "focus": 0,
+     "file": "clips/558def23fc69.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "The startup sees **totals**, such as how much was claimed in the year, not which medicines Ram bought.",
+     "say": "The startup sees totals, such as how much was claimed in the year, not which medicines Ram bought.",
+     "focus": 1,
+     "file": "clips/2702c733de54.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's company does not choose a \"drug manager\" for SSF.",
+     "say": "Sita's company does not choose a \"drug manager\" for S S F.",
+     "focus": 2,
+     "file": "clips/103ac0a6f9c9.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Its job is to deduct and pay contributions on time.",
+     "say": "Its job is to deduct and pay contributions on time.",
+     "focus": 2,
+     "file": "clips/7b67156ba014.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "The kind of review Bluebonnet does is done, if at all, by SSF itself, not by each employer.",
+     "say": "The kind of review Bluebonnet does is done, if at all, by S S F itself, not by each employer.",
+     "focus": 3,
+     "file": "clips/0eb7b7f9e7db.mp3",
+     "seconds": 6.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 1: the 2025 summary.",
+     "say": "Step 1: the 2025 summary.",
+     "focus": -1,
+     "file": "clips/a59d260b671c.mp3",
+     "seconds": 3.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Step 1: the 2025 summary",
+   "lines": [
+    {
+     "raw": "Bluebonnet Logistics pharmacy claims, 2025 (after netting reversals).",
+     "say": "Bluebonnet Logistics pharmacy claims, 2025 (after netting reversals).",
+     "focus": -1,
+     "file": "clips/f3ffa43a7b14.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Generic. Fills: 8,640. Gross amount: $216,000. Members paid: $43,200. Plan paid: $172,800. Share of plan paid: 18.0%.",
+     "say": "Generic. Fills: 8,640. Gross amount: 216000 dollars. Members paid: 43200 dollars. Plan paid: 172800 dollars. Share of plan paid: 18.0 percent.",
+     "focus": 0,
+     "file": "clips/757add0dd617.mp3",
+     "seconds": 17.575
+    },
+    {
+     "raw": "Brand (not specialty). Fills: 900. Gross amount: $540,000. Members paid: $36,000. Plan paid: $504,000. Share of plan paid: 52.4%.",
+     "say": "Brand (not specialty). Fills: 900. Gross amount: 540000 dollars. Members paid: 36000 dollars. Plan paid: 504000 dollars. Share of plan paid: 52.4 percent.",
+     "focus": 1,
+     "file": "clips/94ce30d45846.mp3",
+     "seconds": 16.225
+    },
+    {
+     "raw": "Specialty (all brand). Fills: 60. Gross amount: $300,000. Members paid: $15,000. Plan paid: $285,000. Share of plan paid: 29.6%.",
+     "say": "Specialty (all brand). Fills: 60. Gross amount: 300000 dollars. Members paid: 15000 dollars. Plan paid: 285000 dollars. Share of plan paid: 29.6 percent.",
+     "focus": 2,
+     "file": "clips/019171a7bacc.mp3",
+     "seconds": 15.8
+    },
+    {
+     "raw": "**Total**. Fills: **9,600**. Gross amount: **$1,056,000**. Members paid: **$94,200**. Plan paid: **$961,800**. Share of plan paid: **100%**.",
+     "say": "Total. Fills: 9,600. Gross amount: 1056000 dollars. Members paid: 94200 dollars. Plan paid: 961800 dollars. Share of plan paid: 100 percent.",
+     "focus": 3,
+     "file": "clips/fcd68eae395e.mp3",
+     "seconds": 17.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Step 1: the 2025 summary",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Each row: gross = members paid + plan paid.",
+     "say": "Each row: gross = members paid and plan paid.",
+     "focus": -1,
+     "file": "clips/aa54a0599de3.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Generic: $43,200 + $172,800 = $216,000 ✓.",
+     "say": "Generic: 43200 dollars and 172800 dollars = 216000 dollars ✓.",
+     "focus": -1,
+     "file": "clips/cf6ce154a43f.mp3",
+     "seconds": 9.2
+    },
+    {
+     "raw": "Specialty: $15,000 + $285,000 = $300,000 ✓.",
+     "say": "Specialty: 15000 dollars and 285000 dollars = 300000 dollars ✓.",
+     "focus": -1,
+     "file": "clips/2eb51582771f.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "Plan paid total: $172,800 + $504,000 + $285,000 = **$961,800** ✓.",
+     "say": "Plan paid total: 172800 dollars and 504000 dollars and 285000 dollars = 961800 dollars ✓.",
+     "focus": -1,
+     "file": "clips/1dacae077e7a.mp3",
+     "seconds": 13.2
+    },
+    {
+     "raw": "Bluebonnet had on average **1,000 members** (employees and family) covered for the whole year: 1,000 × 12 = **12,000 member months** (one member covered for one month = one member month; covered in the Eligibility course).",
+     "say": "Bluebonnet had on average 1,000 members (employees and family) covered for the whole year: 1,000 × 12 = 12,000 member months (one member covered for one month = one member month; covered in the Eligibility course).",
+     "focus": -1,
+     "file": "clips/e2782c26acad.mp3",
+     "seconds": 15.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 2: the key measures.",
+     "say": "Step 2: the key measures.",
+     "focus": -1,
+     "file": "clips/6b982dc9d767.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Step 2: the key measures",
+   "lines": [
+    {
+     "raw": "Per member per month (PMPM) drug spend.",
+     "say": "Per member per month (P M P M) drug spend.",
+     "focus": -1,
+     "file": "clips/3a13bfd970dc.mp3",
+     "seconds": 3.3
+    },
+    {
+     "raw": "PMPM equals Plan paid ÷ Member months.",
+     "say": "P M P M equals Plan paid ÷ Member months.",
+     "focus": 0,
+     "file": "clips/49d56ec76a40.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "For example: $961,800 ÷ 12,000 equals $80.15 PMPM plan paid.",
+     "say": "For example: 961800 dollars ÷ 12,000 equals 80 dollars 15 cents P M P M plan paid.",
+     "focus": 1,
+     "file": "clips/e1420217055a.mp3",
+     "seconds": 10.55
+    },
+    {
+     "raw": "Gross (plan plus members): $1,056,000 ÷ 12,000 equals $88.00 PMPM.",
+     "say": "Gross (plan plus members): 1056000 dollars ÷ 12,000 equals 88 dollars P M P M.",
+     "focus": 1,
+     "file": "clips/1e98f704ac1a.mp3",
+     "seconds": 9.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Step 2: the key measures",
+   "lines": [
+    {
+     "raw": "Generic dispensing rate (GDR).",
+     "say": "Generic dispensing rate (G D R).",
+     "focus": -1,
+     "file": "clips/8117989b11da.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "GDR equals Generic fills ÷ All fills.",
+     "say": "G D R equals Generic fills ÷ All fills.",
+     "focus": 0,
+     "file": "clips/49eb0d271c70.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "For example: 8,640 ÷ 9,600 equals 90.0%.",
+     "say": "For example: 8,640 ÷ 9,600 equals 90.0 percent.",
+     "focus": 1,
+     "file": "clips/8cef19f669b8.mp3",
+     "seconds": 8.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Step 2: the key measures",
+   "lines": [
+    {
+     "raw": "Fills per member per year.",
+     "say": "Fills per member per year.",
+     "focus": -1,
+     "file": "clips/19c07ccb373d.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Fills ÷ Average members.",
+     "say": "Fills ÷ Average members.",
+     "focus": 0,
+     "file": "clips/6be5afe4f32e.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "For example: 9,600 ÷ 1,000 equals 9.6 fills per member per year.",
+     "say": "For example: 9,600 ÷ 1,000 equals 9.6 fills per member per year.",
+     "focus": 1,
+     "file": "clips/69090fe05ad7.mp3",
+     "seconds": 7.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Step 2: the key measures",
+   "lines": [
+    {
+     "raw": "What the summary tells the consultant.",
+     "say": "What the summary tells the consultant.",
+     "focus": -1,
+     "file": "clips/3e373e800400.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "Generics are most fills but little money. Numbers: 90.0% of fills, 18.0% of plan paid. Why it matters: Generic prices (MAC, any spread) matter, but small savings per fill.",
+     "say": "Generics are most fills but little money. Numbers: 90.0 percent of fills, 18.0 percent of plan paid. Why it matters: Generic prices (M A C, any spread) matter, but small savings per fill.",
+     "focus": 0,
+     "file": "clips/332f697ebbf9.mp3",
+     "seconds": 14.875
+    },
+    {
+     "raw": "Brands are the biggest cost. Numbers: 9.4% of fills, 52.4% of plan paid. Why it matters: Rebates matter most here (lesson 2).",
+     "say": "Brands are the biggest cost. Numbers: 9.4 percent of fills, 52.4 percent of plan paid. Why it matters: Rebates matter most here (lesson 2).",
+     "focus": 1,
+     "file": "clips/1db6c46a95f2.mp3",
+     "seconds": 11.625
+    },
+    {
+     "raw": "Specialty is tiny in count, huge in cost. Numbers: 60 fills (0.6%), 29.6% of plan paid. Why it matters: A handful of members drive a large share. Specialty pricing and programs matter.",
+     "say": "Specialty is tiny in count, huge in cost. Numbers: 60 fills (0.6 percent), 29.6 percent of plan paid. Why it matters: A handful of members drive a large share. Specialty pricing and programs matter.",
+     "focus": 2,
+     "file": "clips/405f2bf08100.mp3",
+     "seconds": 16.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Step 2: the key measures",
+   "lines": [
+    {
+     "raw": "Where is Emily?",
+     "say": "Where is Emily?",
+     "focus": -1,
+     "file": "clips/ec2e1d638ce1.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "In 2025 Emily had **6 generic fills**: amoxicillin for strep throat in March, ibuprofen after her appendix surgery in June, and four fills of atorvastatin for cholesterol from July (the last a 90-day mail-order fill).",
+     "say": "In 2025 Emily had 6 generic fills: amoxicillin for strep throat in March, ibuprofen after her appendix surgery in June, and four fills of atorvastatin for cholesterol from July (the last a 90-day mail-order fill).",
+     "focus": -1,
+     "file": "clips/6b35a5e7c436.mp3",
+     "seconds": 16.475
+    },
+    {
+     "raw": "They are 6 of the 8,640 generic fills.",
+     "say": "They are 6 of the 8,640 generic fills.",
+     "focus": -1,
+     "file": "clips/17e1593241d9.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "Her plan paid total of **$33.30** is a tiny part of $961,800.",
+     "say": "Her plan paid total of 33 dollars 30 cents is a tiny part of 961800 dollars.",
+     "focus": -1,
+     "file": "clips/56966deeba87.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "Most members are like Emily: cheap, regular generics.",
+     "say": "Most members are like Emily: cheap, regular generics.",
+     "focus": -1,
+     "file": "clips/910a726e28f2.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "A few members on specialty drugs cost far more.",
+     "say": "A few members on specialty drugs cost far more.",
+     "focus": -1,
+     "file": "clips/b59eb05a1c92.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 3: rebates per claim.",
+     "say": "Step 3: rebates per claim.",
+     "focus": -1,
+     "file": "clips/27b240df07a5.mp3",
+     "seconds": 2.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Step 3: rebates per claim",
+   "lines": [
+    {
+     "raw": "Both PBMs expect rebates of about **$200 per brand fill** (brand and specialty together: 900 + 60 = **960 fills**).",
+     "say": "Both P B M's expect rebates of about 200 dollars per brand fill (brand and specialty together: 900 and 60 = 960 fills).",
+     "focus": -1,
+     "file": "clips/bff8a5bb0fa4.mp3",
+     "seconds": 11.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Step 3: rebates per claim",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Expected rebates. Calculation: 960 brand fills × $200. Result: **$192,000**.",
+     "say": "Expected rebates. Calculation: 960 brand fills × 200 dollars. Result: 192000 dollars.",
+     "focus": 0,
+     "file": "clips/121463c69c48.mp3",
+     "seconds": 10.025
+    },
+    {
+     "raw": "Rebates per brand claim. Calculation: $192,000 ÷ 960. Result: $200.00.",
+     "say": "Rebates per brand claim. Calculation: 192000 dollars ÷ 960. Result: 200 dollars.",
+     "focus": 1,
+     "file": "clips/acdd2e5b07ca.mp3",
+     "seconds": 9.95
+    },
+    {
+     "raw": "Rebates per claim (all fills). Calculation: $192,000 ÷ 9,600. Result: **$20.00**.",
+     "say": "Rebates per claim (all fills). Calculation: 192000 dollars ÷ 9,600. Result: 20 dollars.",
+     "focus": 2,
+     "file": "clips/2d4364806528.mp3",
+     "seconds": 10.05
+    },
+    {
+     "raw": "Rebates PMPM. Calculation: $192,000 ÷ 12,000. Result: $16.00.",
+     "say": "Rebates P M P M. Calculation: 192000 dollars ÷ 12,000. Result: 16 dollars.",
+     "focus": 3,
+     "file": "clips/cd4f2bf24f2c.mp3",
+     "seconds": 9.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Step 3: rebates per claim",
+   "lines": [
+    {
+     "raw": "Always say \"per what\".",
+     "say": "Always say \"per what\".",
+     "focus": -1,
+     "file": "clips/0e05f8041dc0.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "\"$200 per claim\" and \"$20 per claim\" can describe the **same** rebates: one divides by brand claims, the other by all claims.",
+     "say": "\"200 dollars per claim\" and \"20 dollars per claim\" can describe the same rebates: one divides by brand claims, the other by all claims.",
+     "focus": -1,
+     "file": "clips/cc6cce721e93.mp3",
+     "seconds": 10.1
+    },
+    {
+     "raw": "When comparing PBM offers, make sure both use the same denominator.",
+     "say": "When comparing P B M offers, make sure both use the same denominator.",
+     "focus": -1,
+     "file": "clips/5980aeb17d1a.mp3",
+     "seconds": 5.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 4: the two offers.",
+     "say": "Step 4: the two offers.",
+     "focus": -1,
+     "file": "clips/a4660c569e2a.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Step 4: the two offers",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Pharmacy prices. PBM A: traditional: Same network prices as today. PBM B: pass-through: Same network prices as today.",
+     "say": "Pharmacy prices. P B M A: traditional: Same network prices as today. P B M B: pass-through: Same network prices as today.",
+     "focus": 0,
+     "file": "clips/e7adcd4b67e0.mp3",
+     "seconds": 10.125
+    },
+    {
+     "raw": "Price billed to Bluebonnet. PBM A: traditional: Generics billed at **$3.00 more** per fill than the pharmacy is paid, on average (spread). Brands at the pharmacy price. PBM B: pass-through: Exactly the pharmacy price.",
+     "say": "Price billed to Bluebonnet. P B M A: traditional: Generics billed at 3 dollars more per fill than the pharmacy is paid, on average (spread). Brands at the pharmacy price. P B M B: pass-through: Exactly the pharmacy price.",
+     "focus": 1,
+     "file": "clips/2cb91bfb71f4.mp3",
+     "seconds": 15.65
+    },
+    {
+     "raw": "Admin fee. PBM A: traditional: $0. PBM B: pass-through: **$3.00** per fill.",
+     "say": "Admin fee. P B M A: traditional: 0 dollars. P B M B: pass-through: 3 dollars per fill.",
+     "focus": 2,
+     "file": "clips/7f2f86312bbb.mp3",
+     "seconds": 7.65
+    },
+    {
+     "raw": "Rebates passed to Bluebonnet. PBM A: traditional: **80%**. PBM B: pass-through: **100%**.",
+     "say": "Rebates passed to Bluebonnet. P B M A: traditional: 80 percent. P B M B: pass-through: 100 percent.",
+     "focus": 3,
+     "file": "clips/15ccf170ef3e.mp3",
+     "seconds": 8.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Step 4: the two offers",
+   "lines": [
+    {
+     "raw": "In the US: The spread on one of Emily's fills.",
+     "say": "In the U S: The spread on one of Emily's fills.",
+     "focus": -1,
+     "file": "clips/d9cae8ec3ffb.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "Under PBM A, Emily's 30-day atorvastatin (pharmacy price **$9.50**) would be billed to Bluebonnet at **$12.50**.",
+     "say": "Under P B M A, Emily's 30-day atorvastatin (pharmacy price 9 dollars 50 cents) would be billed to Bluebonnet at 12 dollars 50 cents.",
+     "focus": 0,
+     "file": "clips/41105519e62a.mp3",
+     "seconds": 10.575
+    },
+    {
+     "raw": "Emily still pays **$5.00**.",
+     "say": "Emily still pays 5 dollars.",
+     "focus": 1,
+     "file": "clips/5c17aa2d66fc.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "The pharmacy still receives $4.50 from the PBM.",
+     "say": "The pharmacy still receives 4 dollars 50 cents from the P B M.",
+     "focus": 1,
+     "file": "clips/6f5ea1413d47.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Bluebonnet pays **$7.50**.",
+     "say": "Bluebonnet pays 7 dollars 50 cents.",
+     "focus": 1,
+     "file": "clips/b315836f51fa.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "Spread: $7.50 − $4.50 = **$3.00**, the same example as lesson 3.",
+     "say": "Spread: 7 dollars 50 cents − 4 dollars 50 cents = 3 dollars, the same example as lesson 3.",
+     "focus": 2,
+     "file": "clips/c982c0f5bc5a.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 5: re-price 2025 under each offer.",
+     "say": "Step 5: re-price 2025 under each offer.",
+     "focus": -1,
+     "file": "clips/dc86a059b2f2.mp3",
+     "seconds": 3.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "Step 5: re-price 2025 under each offer",
+   "lines": [
+    {
+     "raw": "Bluebonnet's 2025 claims re-priced (illustrative).",
+     "say": "Bluebonnet's 2025 claims re-priced (illustrative).",
+     "focus": -1,
+     "file": "clips/56627cd039c1.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "Plan paid to pharmacies. Calculation: From the summary. PBM A: traditional: $961,800. PBM B: pass-through: $961,800.",
+     "say": "Plan paid to pharmacies. Calculation: From the summary. P B M A: traditional: 961800 dollars. P B M B: pass-through: 961800 dollars.",
+     "focus": 0,
+     "file": "clips/29ce1ae4d821.mp3",
+     "seconds": 14.8
+    },
+    {
+     "raw": "+ Spread on generics. Calculation: A: 8,640 × $3.00. PBM A: traditional: $25,920. PBM B: pass-through: $0.",
+     "say": "+ Spread on generics. Calculation: A: 8,640 × 3 dollars. P B M A: traditional: 25920 dollars. P B M B: pass-through: 0 dollars.",
+     "focus": 1,
+     "file": "clips/827ce15672b0.mp3",
+     "seconds": 14.825
+    },
+    {
+     "raw": "+ Admin fees. Calculation: B: 9,600 × $3.00. PBM A: traditional: $0. PBM B: pass-through: $28,800.",
+     "say": "+ Admin fees. Calculation: B: 9,600 × 3 dollars. P B M A: traditional: 0 dollars. P B M B: pass-through: 28800 dollars.",
+     "focus": 2,
+     "file": "clips/934ce494e018.mp3",
+     "seconds": 13.825
+    },
+    {
+     "raw": "− Rebates received. Calculation: A: 80% of $192,000. B: 100%. PBM A: traditional: − $153,600. PBM B: pass-through: − $192,000.",
+     "say": "− Rebates received. Calculation: A: 80 percent of 192000 dollars. B: 100 percent. P B M A: traditional: − 153600 dollars. P B M B: pass-through: − 192000 dollars.",
+     "focus": 3,
+     "file": "clips/04273d3ae578.mp3",
+     "seconds": 19.55
+    },
+    {
+     "raw": "**Net cost to Bluebonnet**. PBM A: traditional: **$834,120**. PBM B: pass-through: **$798,600**.",
+     "say": "Net cost to Bluebonnet. P B M A: traditional: 834120 dollars. P B M B: pass-through: 798600 dollars.",
+     "focus": 4,
+     "file": "clips/a7b86ea6c151.mp3",
+     "seconds": 12.975
+    },
+    {
+     "raw": "**Net PMPM**. Calculation: ÷ 12,000 member months. PBM A: traditional: **$69.51**. PBM B: pass-through: **$66.55**.",
+     "say": "Net P M P M. Calculation: ÷ 12,000 member months. P B M A: traditional: 69 dollars 51 cents. P B M B: pass-through: 66 dollars 55 cents.",
+     "focus": 5,
+     "file": "clips/9eecee2587d5.mp3",
+     "seconds": 14.975
+    },
+    {
+     "raw": "PBM earns from Bluebonnet. Calculation: A: $25,920 spread + $38,400 retained rebates. PBM A: traditional: $64,320. PBM B: pass-through: $28,800.",
+     "say": "P B M earns from Bluebonnet. Calculation: A: 25920 dollars spread and 38400 dollars retained rebates. P B M A: traditional: 64320 dollars. P B M B: pass-through: 28800 dollars.",
+     "focus": 6,
+     "file": "clips/198e03dc0e54.mp3",
+     "seconds": 20.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "Step 5: re-price 2025 under each offer",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "A: $961,800 + $25,920 − $153,600 = **$834,120** ✓.",
+     "say": "A: 961800 dollars and 25920 dollars − 153600 dollars = 834120 dollars ✓.",
+     "focus": -1,
+     "file": "clips/a4110aac76ae.mp3",
+     "seconds": 14.325
+    },
+    {
+     "raw": "B: $961,800 + $28,800 − $192,000 = **$798,600** ✓.",
+     "say": "B: 961800 dollars and 28800 dollars − 192000 dollars = 798600 dollars ✓.",
+     "focus": -1,
+     "file": "clips/e51a9cd9cf40.mp3",
+     "seconds": 12.875
+    },
+    {
+     "raw": "Difference: $834,120 − $798,600 = **$35,520** a year, or $69.51 − $66.55 = **$2.96 PMPM**.",
+     "say": "Difference: 834120 dollars − 798600 dollars = 35520 dollars a year, or 69 dollars 51 cents − 66 dollars 55 cents = 2 dollars 96 cents P M P M.",
+     "focus": -1,
+     "file": "clips/4cd459a47dde.mp3",
+     "seconds": 20.275
+    },
+    {
+     "raw": "Retained rebates under A: $192,000 − $153,600 = $38,400 ✓.",
+     "say": "Retained rebates under A: 192000 dollars − 153600 dollars = 38400 dollars ✓.",
+     "focus": -1,
+     "file": "clips/dde2c92e9d66.mp3",
+     "seconds": 11.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 25,
+   "section": "Step 5: re-price 2025 under each offer",
+   "lines": [
+    {
+     "raw": "Change one term and the answer can flip.",
+     "say": "Change one term and the answer can flip.",
+     "focus": -1,
+     "file": "clips/c47ca96c2f1c.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Suppose PBM A agreed to pass on **100%** of rebates but kept its $3.00 generic spread: $961,800 + $25,920 − $192,000 = **$795,720**, which is **$2,880 cheaper** than PBM B.",
+     "say": "Suppose P B M A agreed to pass on 100 percent of rebates but kept its 3 dollars generic spread: 961800 dollars and 25920 dollars − 192000 dollars = 795720 dollars which is 2880 dollars cheaper than P B M B.",
+     "focus": -1,
+     "file": "clips/2886d07921ae.mp3",
+     "seconds": 24
+    },
+    {
+     "raw": "The contract type alone does not decide the winner; the **numbers** do.",
+     "say": "The contract type alone does not decide the winner; the numbers do.",
+     "focus": -1,
+     "file": "clips/8183611fd0d9.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Real reviews also compare network prices, guarantees, specialty pricing, clinical programs, service and how each contract defines \"rebate\".",
+     "say": "Real reviews also compare network prices, guarantees, specialty pricing, clinical programs, service and how each contract defines \"rebate\".",
+     "focus": -1,
+     "file": "clips/b2087eeaf840.mp3",
+     "seconds": 10.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 26,
+   "section": "Step 5: re-price 2025 under each offer",
+   "lines": [
+    {
+     "raw": "Step 1: Get the data.",
+     "say": "Step 1: Get the data.",
+     "focus": 0,
+     "file": "clips/dc11f4a048a6.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "A year of claims, netted for reversals (lesson 4).",
+     "say": "A year of claims, netted for reversals (lesson 4).",
+     "focus": 0,
+     "file": "clips/02f03f4a5469.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Step 2: Summarise.",
+     "say": "Step 2: Summarise.",
+     "focus": 1,
+     "file": "clips/8e23e6578db0.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Fills, gross, member paid, plan paid by generic, brand and specialty.",
+     "say": "Fills, gross, member paid, plan paid by generic, brand and specialty.",
+     "focus": 1,
+     "file": "clips/79d5eaff7e10.mp3",
+     "seconds": 4.9
+    },
+    {
+     "raw": "Step 3: Measure.",
+     "say": "Step 3: Measure.",
+     "focus": 2,
+     "file": "clips/4964c5e0054d.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "PMPM, GDR, fills per member, rebates per claim, stating the denominator.",
+     "say": "P M P M, G D R, fills per member, rebates per claim, stating the denominator.",
+     "focus": 2,
+     "file": "clips/7ebbe71c218b.mp3",
+     "seconds": 6.225
+    },
+    {
+     "raw": "Step 4: Re-price.",
+     "say": "Step 4: Re-price.",
+     "focus": 3,
+     "file": "clips/41f43f33aae1.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "Apply each offer's spread, fees and rebate share to the same claims (lesson 3).",
+     "say": "Apply each offer's spread, fees and rebate share to the same claims (lesson 3).",
+     "focus": 3,
+     "file": "clips/2aeb97e8d197.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "Step 5: Decide and monitor.",
+     "say": "Step 5: Decide and monitor.",
+     "focus": 4,
+     "file": "clips/db6b6f85ad2e.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "Pick an offer, then reconcile invoices, rebates and guarantees every period (lesson 4).",
+     "say": "Pick an offer, then reconcile invoices, rebates and guarantees every period (lesson 4).",
+     "focus": 4,
+     "file": "clips/c889bcc30551.mp3",
+     "seconds": 6.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 27,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step → lesson map.",
+     "say": "Step to lesson map.",
+     "focus": -1,
+     "file": "clips/a999147027f2.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 28,
+   "section": "Step → lesson map",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Who runs the benefit, carve-in vs carve-out. What you needed: The PBM's jobs and clients. Lesson: 1. What a PBM Does.",
+     "say": "Who runs the benefit, carve-in versus carve-out. What you needed: The PBM's jobs and clients. Lesson: 1. What a P B M Does.",
+     "focus": 0,
+     "file": "clips/4529f94cd1fd.mp3",
+     "seconds": 9.65
+    },
+    {
+     "raw": "Why brand claims overstate cost. What you needed: Rebates, list vs net price. Lesson: 2. Following the Money.",
+     "say": "Why brand claims overstate cost. What you needed: Rebates, list versus net price. Lesson: 2. Following the Money.",
+     "focus": 1,
+     "file": "clips/6a79a66b670e.mp3",
+     "seconds": 8.25
+    },
+    {
+     "raw": "Spread and rebate share. What you needed: Contract types. Lesson: 3. How PBMs Make Money.",
+     "say": "Spread and rebate share. What you needed: Contract types. Lesson: 3. How P B M's Make Money.",
+     "focus": 2,
+     "file": "clips/50d8acd4bf51.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "Where the numbers come from, and checking them. What you needed: Claims, invoice and rebate files. Lesson: 4. PBM Data for a Plan.",
+     "say": "Where the numbers come from, and checking them. What you needed: Claims, invoice and rebate files. Lesson: 4. P B M Data for a Plan.",
+     "focus": 3,
+     "file": "clips/18d17aa6d089.mp3",
+     "seconds": 9.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 29,
+   "section": "Step → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You now understand what a PBM does, how money flows around it, how it earns, and how a plan checks its numbers.",
+     "say": "You now understand what a P B M does, how money flows around it, how it earns, and how a plan checks its numbers.",
+     "focus": -1,
+     "file": "clips/09f74bc12590.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "Next, the **Insurance Fraud** course shows how fake or inflated claims are caught.",
+     "say": "Next, the Insurance Fraud course shows how fake or inflated claims are caught.",
+     "focus": -1,
+     "file": "clips/24075793fce6.mp3",
+     "seconds": 5.475
+    },
+    {
+     "raw": "To see each claim at the pharmacy counter, field by field, see the Pharmacy course.",
+     "say": "To see each claim at the pharmacy counter, field by field, see the Pharmacy course.",
+     "focus": -1,
+     "file": "clips/572d45fbe9d5.mp3",
+     "seconds": 5.45
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**PMPM** = plan paid ÷ member months.",
+     "say": "P M P M = plan paid ÷ member months.",
+     "focus": 0,
+     "file": "clips/bd9fccc0527c.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "Here: $961,800 ÷ 12,000 = $80.15.",
+     "say": "Here: 961800 dollars ÷ 12,000 = 80 dollars 15 cents.",
+     "focus": 0,
+     "file": "clips/01bc99ac4264.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "Generics are most fills but a small share of cost.",
+     "say": "Generics are most fills but a small share of cost.",
+     "focus": 1,
+     "file": "clips/7e6f0e264a04.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Brands and **specialty** drive spending.",
+     "say": "Brands and specialty drive spending.",
+     "focus": 1,
+     "file": "clips/3c125163cfd3.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Rebates per claim depend on the denominator: per **brand** claim or per **all** claims.",
+     "say": "Rebates per claim depend on the denominator: per brand claim or per all claims.",
+     "focus": 2,
+     "file": "clips/1caf21a5d546.mp3",
+     "seconds": 5.675
+    },
+    {
+     "raw": "Compare PBM offers by **re-pricing the same claims**: add spread and fees, subtract rebates received.",
+     "say": "Compare P B M offers by re-pricing the same claims: add spread and fees, subtract rebates received.",
+     "focus": 3,
+     "file": "clips/2e3fcae3df9e.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "After choosing, keep reconciling invoices, rebates and guarantees.",
+     "say": "After choosing, keep reconciling invoices, rebates and guarantees.",
+     "focus": 4,
+     "file": "clips/58d426f007f8.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

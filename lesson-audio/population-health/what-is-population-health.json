@@ -1,0 +1,897 @@
+{
+ "courseId": "population-health",
+ "lessonId": "what-is-population-health",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: What is Population Health?",
+     "say": "Lesson 1: What is Population Health?",
+     "focus": -1,
+     "file": "clips/04a09b5dfb2e.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "A doctor looks after one patient.",
+     "say": "A doctor looks after one patient.",
+     "focus": -1,
+     "file": "clips/1e3aa82a297e.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "Population health looks after the whole group.",
+     "say": "Population health looks after the whole group.",
+     "focus": -1,
+     "file": "clips/a658389fd98b.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain the difference between caring for one person and caring for a group.",
+     "say": "Explain the difference between caring for one person and caring for a group.",
+     "focus": 0,
+     "file": "clips/b62e9ac68ff5.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "Know who in the US does population health work, and why they pay for it.",
+     "say": "Know who in the U S does population health work, and why they pay for it.",
+     "focus": 1,
+     "file": "clips/a708d696654b.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "See how Nepal's community health volunteers already work this way.",
+     "say": "See how Nepal's community health volunteers already work this way.",
+     "focus": 2,
+     "file": "clips/a79822908aac.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two ways to look at health.",
+     "say": "Two ways to look at health.",
+     "focus": -1,
+     "file": "clips/b9db01111b6e.mp3",
+     "seconds": 1.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Two ways to look at health",
+   "lines": [
+    {
+     "raw": "When Ram, who works at a tech startup in Kathmandu, goes to a clinic with a fever, the doctor asks: **\"What is wrong with Ram, and how do I fix it?\"** That is **individual care**.",
+     "say": "When Ram, who works at a tech startup in Kathmandu, goes to a clinic with a fever, the doctor asks: \"What is wrong with Ram, and how do I fix it?\" That is individual care.",
+     "focus": -1,
+     "file": "clips/6c817f3a8e5e.mp3",
+     "seconds": 11.225
+    },
+    {
+     "raw": "One patient, one problem, one visit.",
+     "say": "One patient, one problem, one visit.",
+     "focus": -1,
+     "file": "clips/ab4696a2b8ef.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Two ways to look at health",
+   "lines": [
+    {
+     "raw": "Now imagine you are in charge of the health of **everyone** in a ward, or every employee of a company, or every member of an insurance plan.",
+     "say": "Now imagine you are in charge of the health of everyone in a ward, or every employee of a company, or every member of an insurance plan.",
+     "focus": -1,
+     "file": "clips/6e3c99fa64cd.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "Your questions change: **\"Who in this group is sick?",
+     "say": "Your questions change: \"Who in this group is sick?",
+     "focus": -1,
+     "file": "clips/6d80f90ce898.mp3",
+     "seconds": 3.4
+    },
+    {
+     "raw": "Who is about to get sick?",
+     "say": "Who is about to get sick?",
+     "focus": -1,
+     "file": "clips/968ac8017778.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Who has not been seen at all?",
+     "say": "Who has not been seen at all?",
+     "focus": -1,
+     "file": "clips/4315f1e7bc93.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "What can we do before they end up in hospital?\"** That is **population health**.",
+     "say": "What can we do before they end up in hospital?\" That is population health.",
+     "focus": -1,
+     "file": "clips/d88adae94d00.mp3",
+     "seconds": 4.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Two ways to look at health",
+   "lines": [
+    {
+     "raw": "Simple definition.",
+     "say": "Simple definition.",
+     "focus": -1,
+     "file": "clips/a5c5927139e3.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Population health means looking after the health of a **whole group of people**, not just the patient sitting in front of you.",
+     "say": "Population health means looking after the health of a whole group of people, not just the patient sitting in front of you.",
+     "focus": -1,
+     "file": "clips/69a22dfbac78.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "You use data to find who needs help, reach out to them, and measure whether the whole group got healthier.",
+     "say": "You use data to find who needs help, reach out to them, and measure whether the whole group got healthier.",
+     "focus": -1,
+     "file": "clips/810281a59a77.mp3",
+     "seconds": 6.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Two ways to look at health",
+   "lines": [
+    {
+     "raw": "Same health system, two points of view.",
+     "say": "Same health system, two points of view.",
+     "focus": -1,
+     "file": "clips/34cfeb2989ab.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Who do we look at? Individual care: The patient who walked in. Population health: Everyone in the group, including people who never came in.",
+     "say": "Who do we look at? Individual care: The patient who walked in. Population health: Everyone in the group, including people who never came in.",
+     "focus": 0,
+     "file": "clips/b26123a9d622.mp3",
+     "seconds": 8.75
+    },
+    {
+     "raw": "When do we act? Individual care: When the patient feels sick. Population health: Before people get sick, or before they get worse.",
+     "say": "When do we act? Individual care: When the patient feels sick. Population health: Before people get sick, or before they get worse.",
+     "focus": 1,
+     "file": "clips/96c8d51d6f1b.mp3",
+     "seconds": 8.4
+    },
+    {
+     "raw": "Main tool. Individual care: Examination and tests. Population health: Data: lists, counts, risk scores.",
+     "say": "Main tool. Individual care: Examination and tests. Population health: Data: lists, counts, risk scores.",
+     "focus": 2,
+     "file": "clips/6255befb77f9.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "Success means. Individual care: This patient got better. Population health: The whole group is healthier and care costs less per person.",
+     "say": "Success means. Individual care: This patient got better. Population health: The whole group is healthier and care costs less per person.",
+     "focus": 3,
+     "file": "clips/5a813fd5bc73.mp3",
+     "seconds": 9.225
+    },
+    {
+     "raw": "Typical person. Individual care: Doctor, nurse. Population health: Care manager, public health worker, data analyst.",
+     "say": "Typical person. Individual care: Doctor, nurse. Population health: Care manager, public health worker, data analyst.",
+     "focus": 4,
+     "file": "clips/6482067d6e99.mp3",
+     "seconds": 8.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Nepal already does this.",
+     "say": "Nepal already does this.",
+     "focus": -1,
+     "file": "clips/7d30674e2de9.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Nepal already does this",
+   "lines": [
+    {
+     "raw": "You have probably seen population health in action without calling it that.",
+     "say": "You have probably seen population health in action without calling it that.",
+     "focus": -1,
+     "file": "clips/26169e1a94e6.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "Nepal has around **50,000 Female Community Health Volunteers (FCHVs)**, often called **\"mahila swasthya swayamsevika\"**.",
+     "say": "Nepal has around 50,000 Female Community Health Volunteers (F C H V's), often called \"mahila swasthya swayamsevika\".",
+     "focus": -1,
+     "file": "clips/39b98bdb80a4.mp3",
+     "seconds": 9.5
+    },
+    {
+     "raw": "Many have served their communities since the programme began in the late 1980s.",
+     "say": "Many have served their communities since the programme began in the late 1980s.",
+     "focus": -1,
+     "file": "clips/423185f22257.mp3",
+     "seconds": 5.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Nepal already does this",
+   "lines": [
+    {
+     "raw": "An FCHV **knows every household** in her area: who is pregnant, which children are newborn, who is old and living alone.",
+     "say": "An F C H V knows every household in her area: who is pregnant, which children are newborn, who is old and living alone.",
+     "focus": 0,
+     "file": "clips/28b9ace38efe.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "She does not wait for people to visit a hospital.",
+     "say": "She does not wait for people to visit a hospital.",
+     "focus": 1,
+     "file": "clips/9ee1b306c205.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "She **goes to them**: reminding mothers about check-ups, giving health advice, and pointing people to the health post.",
+     "say": "She goes to them: reminding mothers about check-ups, giving health advice, and pointing people to the health post.",
+     "focus": 1,
+     "file": "clips/07de3306110f.mp3",
+     "seconds": 6.9
+    },
+    {
+     "raw": "During **national vaccination and vitamin A campaigns**, she helps make sure **every** eligible child in the area is reached, not only the children whose parents remembered to come.",
+     "say": "During national vaccination and vitamin A campaigns, she helps make sure every eligible child in the area is reached, not only the children whose parents remembered to come.",
+     "focus": 2,
+     "file": "clips/064a3fbc6644.mp3",
+     "seconds": 10.95
+    },
+    {
+     "raw": "Health posts **count** how many children were reached, so the district can see which areas are falling behind.",
+     "say": "Health posts count how many children were reached, so the district can see which areas are falling behind.",
+     "focus": 3,
+     "file": "clips/4efe962549b3.mp3",
+     "seconds": 6.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Nepal already does this",
+   "lines": [
+    {
+     "raw": "That is population health.",
+     "say": "That is population health.",
+     "focus": -1,
+     "file": "clips/8529c3b6a917.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Know your whole group.",
+     "say": "Know your whole group.",
+     "focus": -1,
+     "file": "clips/5a2048f8d20e.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Find the people who need something.",
+     "say": "Find the people who need something.",
+     "focus": -1,
+     "file": "clips/3c02ec895a4f.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Reach out before they get sick.",
+     "say": "Reach out before they get sick.",
+     "focus": -1,
+     "file": "clips/7bbd741919d3.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Count the results.",
+     "say": "Count the results.",
+     "focus": -1,
+     "file": "clips/15d85c5de489.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "The US does exactly the same thing, but with insurance data instead of a volunteer's notebook.",
+     "say": "The U S does exactly the same thing, but with insurance data instead of a volunteer's notebook.",
+     "focus": -1,
+     "file": "clips/1d33fdf4ebdf.mp3",
+     "seconds": 6.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Nepal already does this",
+   "lines": [
+    {
+     "raw": "In Nepal: How Ram's and Sita's schemes look at the group.",
+     "say": "In Nepal: How Ram's and Sita's schemes look at the group.",
+     "focus": -1,
+     "file": "clips/86550bddee6c.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's startup buys **one group policy** for all its employees.",
+     "say": "Ram's startup buys one group policy for all its employees.",
+     "focus": 0,
+     "file": "clips/bf4d9b2f2a55.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "When the policy is renewed, the insurer looks at the **whole group's claims** from last year, not just Ram's.",
+     "say": "When the policy is renewed, the insurer looks at the whole group's claims from last year, not just Ram's.",
+     "focus": 1,
+     "file": "clips/2eb7129be938.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "If many employees made big claims, the premium may go up.",
+     "say": "If many employees made big claims, the premium may go up.",
+     "focus": 1,
+     "file": "clips/f9bb98caac7b.mp3",
+     "seconds": 4.125
+    },
+    {
+     "raw": "So the startup has a reason to care about everyone's health, for example by arranging a yearly **health check camp** at the office.",
+     "say": "So the startup has a reason to care about everyone's health, for example by arranging a yearly health check camp at the office.",
+     "focus": 2,
+     "file": "clips/a0e025d397f9.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 3,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita, an accountant in Kathmandu, has SSF cover that is paid for by the contributions of **many workers together**.",
+     "say": "Sita, an accountant in Kathmandu, has S S F cover that is paid for by the contributions of many workers together.",
+     "focus": 3,
+     "file": "clips/b7374856789f.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "A fund like this must think about the whole group: how many contributors are getting sick, and which illnesses cost the most.",
+     "say": "A fund like this must think about the whole group: how many contributors are getting sick, and which illnesses cost the most.",
+     "focus": 4,
+     "file": "clips/47011089bbaa.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "Keeping the group healthy, for example through check-ups that catch problems early, helps the money last for everyone.",
+     "say": "Keeping the group healthy, for example through check-ups that catch problems early, helps the money last for everyone.",
+     "focus": 5,
+     "file": "clips/9915ee544696.mp3",
+     "seconds": 7.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Population health in the US.",
+     "say": "Population health in the U S.",
+     "focus": -1,
+     "file": "clips/d67f7a19ab2c.mp3",
+     "seconds": 2.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Population health in the US",
+   "lines": [
+    {
+     "raw": "In the US: Who looks after Emily's whole group?",
+     "say": "In the U S: Who looks after Emily's whole group?",
+     "focus": -1,
+     "file": "clips/57817781822d.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "**Emily's insurer** covers thousands of members, including Emily (an office worker in Texas), her husband Daniel and their daughter Lily.",
+     "say": "Emily's insurer covers thousands of members, including Emily (an office worker in Texas), her husband Daniel and their daughter Lily.",
+     "focus": 0,
+     "file": "clips/5b995bb14f57.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "It pays their claims, so it wants them to stay healthy.",
+     "say": "It pays their claims, so it wants them to stay healthy.",
+     "focus": 0,
+     "file": "clips/d5c5ddff404a.mp3",
+     "seconds": 3.475
+    },
+    {
+     "raw": "**Bluebonnet Logistics**, Emily's employer (fictional), helps pay the premium.",
+     "say": "Bluebonnet Logistics, Emily's employer (fictional), helps pay the premium.",
+     "focus": 1,
+     "file": "clips/a3e3ca28b070.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "It also wants healthy workers and lower costs.",
+     "say": "It also wants healthy workers and lower costs.",
+     "focus": 1,
+     "file": "clips/661e49003f63.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "**Doctors' groups and hospitals** are more and more often paid for keeping a group of patients healthy, not just for each visit.",
+     "say": "Doctors' groups and hospitals are more and more often paid for keeping a group of patients healthy, not just for each visit.",
+     "focus": 2,
+     "file": "clips/10ce62ad2e42.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "(This is called value-based care.).",
+     "say": "(This is called value-based care.).",
+     "focus": 2,
+     "file": "clips/bd6dde332b21.mp3",
+     "seconds": 2.45
+    },
+    {
+     "raw": "**Medicare**, the government plan for people aged 65 and over, covers Emily's father **Robert**.",
+     "say": "Medicare, the government plan for people aged 65 and over, covers Emily's father Robert.",
+     "focus": 3,
+     "file": "clips/349a04be0512.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "Since January 2024, Robert has been on **Gulf Coast Advantage (HMO)**, a **Medicare Advantage** plan run by a different private insurer, **Gulf Coast Health Plan** (made-up names).",
+     "say": "Since January 2024, Robert has been on Gulf Coast Advantage (H M O), a Medicare Advantage plan run by a different private insurer, Gulf Coast Health Plan (made-up names).",
+     "focus": 3,
+     "file": "clips/fab0388437d1.mp3",
+     "seconds": 12.7
+    },
+    {
+     "raw": "It runs programmes for members with long-term illnesses like his diabetes.",
+     "say": "It runs programmes for members with long-term illnesses like his diabetes.",
+     "focus": 3,
+     "file": "clips/46692e3541ac.mp3",
+     "seconds": 5.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Population health in the US",
+   "lines": [
+    {
+     "raw": "Why the money matters.",
+     "say": "Why the money matters.",
+     "focus": -1,
+     "file": "clips/cf483710df09.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "In the US, a small group of very sick people uses a large share of all healthcare money.",
+     "say": "In the U S, a small group of very sick people uses a large share of all healthcare money.",
+     "focus": -1,
+     "file": "clips/9cd5d7c58831.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "If an insurer can help a person with diabetes keep their sugar under control, it may avoid a hospital stay that costs many thousands of dollars.",
+     "say": "If an insurer can help a person with diabetes keep their sugar under control, it may avoid a hospital stay that costs many thousands of dollars.",
+     "focus": -1,
+     "file": "clips/4e667f32cf8d.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "Better health and lower cost often go together.",
+     "say": "Better health and lower cost often go together.",
+     "focus": -1,
+     "file": "clips/25167ff39375.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "You will see the numbers in lesson 3.",
+     "say": "You will see the numbers in lesson 3.",
+     "focus": -1,
+     "file": "clips/242f65141e46.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The population health cycle.",
+     "say": "The population health cycle.",
+     "focus": -1,
+     "file": "clips/d1873086d26f.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "The population health cycle",
+   "lines": [
+    {
+     "raw": "Almost every population health programme follows the same loop.",
+     "say": "Almost every population health programme follows the same loop.",
+     "focus": -1,
+     "file": "clips/115d620b07e8.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "You will learn each step in this course.",
+     "say": "You will learn each step in this course.",
+     "focus": -1,
+     "file": "clips/79dd8700a8d7.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "The population health cycle",
+   "lines": [
+    {
+     "raw": "Step 1: Define the group.",
+     "say": "Step 1: Define the group.",
+     "focus": 0,
+     "file": "clips/0de9bc4b3322.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Who are we responsible for?",
+     "say": "Who are we responsible for?",
+     "focus": 0,
+     "file": "clips/43082311ea78.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "For example, all members of Emily's employer plan in 2025.",
+     "say": "For example, all members of Emily's employer plan in 2025.",
+     "focus": 0,
+     "file": "clips/2e7e941b962b.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Step 2: Gather the data.",
+     "say": "Step 2: Gather the data.",
+     "focus": 1,
+     "file": "clips/fd381f4af498.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Eligibility, medical claims, pharmacy claims, lab results, and more (lesson 2).",
+     "say": "Eligibility, medical claims, pharmacy claims, lab results, and more (lesson 2).",
+     "focus": 1,
+     "file": "clips/6a55735f65c9.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Step 3: Find and sort people.",
+     "say": "Step 3: Find and sort people.",
+     "focus": 2,
+     "file": "clips/4532a975c19c.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Who is healthy, at risk, chronically ill, or very complex (lesson 3)?",
+     "say": "Who is healthy, at risk, chronically ill, or very complex (lesson 3)?",
+     "focus": 2,
+     "file": "clips/30394029a9ae.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "Who needs help first (lesson 4)?",
+     "say": "Who needs help first (lesson 4)?",
+     "focus": 2,
+     "file": "clips/4da11e2845ff.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Step 4: Act.",
+     "say": "Step 4: Act.",
+     "focus": 3,
+     "file": "clips/1625f50f4cdf.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Send reminders, offer programmes, assign a nurse to the sickest people, help with social needs (lesson 5).",
+     "say": "Send reminders, offer programmes, assign a nurse to the sickest people, help with social needs (lesson 5).",
+     "focus": 3,
+     "file": "clips/1bb9bf26ca21.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "Step 5: Measure.",
+     "say": "Step 5: Measure.",
+     "focus": 4,
+     "file": "clips/6f761d0aecb3.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "Did people get their check-ups?",
+     "say": "Did people get their check-ups?",
+     "focus": 4,
+     "file": "clips/11e5d76c56ef.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Did hospital stays go down?",
+     "say": "Did hospital stays go down?",
+     "focus": 4,
+     "file": "clips/2889692f9f56.mp3",
+     "seconds": 2.4
+    },
+    {
+     "raw": "Did cost per member per month fall?",
+     "say": "Did cost per member per month fall?",
+     "focus": 4,
+     "file": "clips/744de15c422a.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "(lesson 6)",
+     "say": "(lesson 6)",
+     "focus": 4,
+     "file": "clips/bc7d31d0b7ba.mp3",
+     "seconds": 1.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "The population health cycle",
+   "lines": [
+    {
+     "raw": "Population.",
+     "say": "Population.",
+     "focus": 0,
+     "file": "clips/25ef5f8c958f.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The group you are responsible for: members of a plan, patients of a clinic, residents of a district.",
+     "say": "The group you are responsible for: members of a plan, patients of a clinic, residents of a district.",
+     "focus": 0,
+     "file": "clips/2242caaf4d81.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Member.",
+     "say": "Member.",
+     "focus": 1,
+     "file": "clips/8bbaccc90249.mp3",
+     "seconds": 1.375
+    },
+    {
+     "raw": "A person covered by a US health plan.",
+     "say": "A person covered by a U S health plan.",
+     "focus": 1,
+     "file": "clips/9fb2f4a44953.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "Emily, Daniel and Lily are all members.",
+     "say": "Emily, Daniel and Lily are all members.",
+     "focus": 1,
+     "file": "clips/68f566586f58.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Chronic condition.",
+     "say": "Chronic condition.",
+     "focus": 2,
+     "file": "clips/4dcdd74e5664.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "A long-term illness that needs ongoing care, like diabetes, high blood pressure or asthma.",
+     "say": "A long-term illness that needs ongoing care, like diabetes, high blood pressure or asthma.",
+     "focus": 2,
+     "file": "clips/e337b6e54c46.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "Prevention.",
+     "say": "Prevention.",
+     "focus": 3,
+     "file": "clips/792881f10a52.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "Stopping illness before it starts or catching it early: vaccines, screening tests, yearly check-ups.",
+     "say": "Stopping illness before it starts or catching it early: vaccines, screening tests, yearly check-ups.",
+     "focus": 3,
+     "file": "clips/c87755e00c63.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Outreach.",
+     "say": "Outreach.",
+     "focus": 4,
+     "file": "clips/9d9aef13e245.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "Contacting people who need something (a phone call, a letter, a text) instead of waiting for them to come in.",
+     "say": "Contacting people who need something (a phone call, a letter, a text) instead of waiting for them to come in.",
+     "focus": 4,
+     "file": "clips/f29629aa5073.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Care manager.",
+     "say": "Care manager.",
+     "focus": 5,
+     "file": "clips/47fb1980dae2.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "Usually a nurse or social worker who helps very sick members coordinate their care.",
+     "say": "Usually a nurse or social worker who helps very sick members coordinate their care.",
+     "focus": 5,
+     "file": "clips/c79d9d8ba7f7.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "Like an FCHV, but for a few dozen complex patients.",
+     "say": "Like an F C H V, but for a few dozen complex patients.",
+     "focus": 5,
+     "file": "clips/0d98e92ed80d.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "The population health cycle",
+   "lines": [
+    {
+     "raw": "Before you start.",
+     "say": "Before you start.",
+     "focus": -1,
+     "file": "clips/9a74f7dd8463.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "This course uses ideas from the **Eligibility**, **Medical** and **Pharmacy** courses: members, claims, diagnosis codes and member months.",
+     "say": "This course uses ideas from the Eligibility, Medical and Pharmacy courses: members, claims, diagnosis codes and member months.",
+     "focus": -1,
+     "file": "clips/7c33a05c009e.mp3",
+     "seconds": 9.125
+    },
+    {
+     "raw": "You do not need to take them first, but they help.",
+     "say": "You do not need to take them first, but they help.",
+     "focus": -1,
+     "file": "clips/1156e1b4ce06.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Individual care treats the patient in front of you.",
+     "say": "Individual care treats the patient in front of you.",
+     "focus": 0,
+     "file": "clips/5896d71dc6e5.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "Population health looks after the whole group, including people who never come in.",
+     "say": "Population health looks after the whole group, including people who never come in.",
+     "focus": 0,
+     "file": "clips/fb332de84011.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "Nepal's FCHVs and vaccination campaigns are population health: know every household, reach out, count the results.",
+     "say": "Nepal's F C H V's and vaccination campaigns are population health: know every household, reach out, count the results.",
+     "focus": 1,
+     "file": "clips/5a51730e2fe5.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "In the US, insurers, employers, doctors' groups and Medicare all have reasons to keep their group healthy.",
+     "say": "In the U S, insurers, employers, doctors' groups and Medicare all have reasons to keep their group healthy.",
+     "focus": 2,
+     "file": "clips/a8b33f0b035c.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "The cycle: define the group, gather data, sort people, act, measure.",
+     "say": "The cycle: define the group, gather data, sort people, act, measure.",
+     "focus": 3,
+     "file": "clips/ab034477f4e4.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

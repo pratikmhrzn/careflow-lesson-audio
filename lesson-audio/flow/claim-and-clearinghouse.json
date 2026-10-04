@@ -1,0 +1,1044 @@
+{
+ "courseId": "flow",
+ "lessonId": "claim-and-clearinghouse",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: The Claim Form, the 837 & the Clearinghouse.",
+     "say": "Lesson 4: The Claim Form, the 8 37 and the Clearinghouse.",
+     "focus": -1,
+     "file": "clips/60694ba95d48.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "The coded visit becomes a claim, a computer file, and a trip through the checkpoint.",
+     "say": "The coded visit becomes a claim, a computer file, and a trip through the checkpoint.",
+     "focus": -1,
+     "file": "clips/1e56857d90ab.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Fill in the main boxes of a CMS-1500 professional claim.",
+     "say": "Fill in the main boxes of a C M S 1500 professional claim.",
+     "focus": 0,
+     "file": "clips/4c47bf8f3793.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Recognise the shape of an electronic 837P claim file.",
+     "say": "Recognise the shape of an electronic 8 3 7 P claim file.",
+     "focus": 1,
+     "file": "clips/7eb9993d6962.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "Explain what a clearinghouse checks, and the difference between a rejection and a denial.",
+     "say": "Explain what a clearinghouse checks, and the difference between a rejection and a denial.",
+     "focus": 2,
+     "file": "clips/b06711810c5f.mp3",
+     "seconds": 5.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Claim generation: the CMS-1500.",
+     "say": "Claim generation: the C M S 1500.",
+     "focus": -1,
+     "file": "clips/5e3542161a9e.mp3",
+     "seconds": 3.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Claim generation: the CMS-1500",
+   "lines": [
+    {
+     "raw": "After coding, the simulator moves to **claim generation**.",
+     "say": "After coding, the simulator moves to claim generation.",
+     "focus": -1,
+     "file": "clips/4d208570587b.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "A doctor or clinic uses the **CMS-1500** form (a **professional** claim).",
+     "say": "A doctor or clinic uses the C M S 1500 form (a professional claim).",
+     "focus": -1,
+     "file": "clips/705d7c4beebe.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "A hospital stay would use the **UB-04** form (an **institutional** claim) instead.",
+     "say": "A hospital stay would use the U B 04 form (an institutional claim) instead.",
+     "focus": -1,
+     "file": "clips/eff4bc36c417.mp3",
+     "seconds": 6.15
+    },
+    {
+     "raw": "Sunrise Family Clinic is a doctor's office, so Emily's visit goes on a CMS-1500.",
+     "say": "Sunrise Family Clinic is a doctor's office, so Emily's visit goes on a C M S 1500.",
+     "focus": -1,
+     "file": "clips/e3fabaeaa1df.mp3",
+     "seconds": 6.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Claim generation: the CMS-1500",
+   "lines": [
+    {
+     "raw": "The two halves of a CMS-1500.",
+     "say": "The two halves of a C M S 1500.",
+     "focus": -1,
+     "file": "clips/e1482317aa5b.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "**Patient and insured**. Boxes: 1 to 13. What goes there: Insurance type, member ID, patient name, date of birth, address, relationship to the insured, group number, signatures.",
+     "say": "Patient and insured. Boxes: 1 to 13. What goes there: Insurance type, member I D, patient name, date of birth, address, relationship to the insured, group number, signatures.",
+     "focus": 0,
+     "file": "clips/99353fd30623.mp3",
+     "seconds": 12.9
+    },
+    {
+     "raw": "**Provider and services**. Boxes: 14 to 33. What goes there: Diagnosis codes, service lines (dates, place, CPT, pointers, charges), tax ID, account number, totals, provider NPIs.",
+     "say": "Provider and services. Boxes: 14 to 33. What goes there: Diagnosis codes, service lines (dates, place, C P T, pointers, charges), tax I D, account number, totals, provider N P I's.",
+     "focus": 1,
+     "file": "clips/f8f857f8785d.mp3",
+     "seconds": 14.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Claim generation: the CMS-1500",
+   "lines": [
+    {
+     "raw": "Here is the CMS-1500 form: Emily's claim from Sunrise Family Clinic.",
+     "say": "Here is the C M S 1500 form: Emily's claim from Sunrise Family Clinic.",
+     "focus": -1,
+     "file": "clips/1024805ccf3a.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "1a.",
+     "say": "1a.",
+     "focus": 0,
+     "file": "clips/4a8b8a10c9dc.mp3",
+     "seconds": 1.45
+    },
+    {
+     "raw": "Insured's ID number: 48291307-01.",
+     "say": "Insured's I D number: 4 8 2 9 1 3 0 7 dash 0 1.",
+     "focus": 0,
+     "file": "clips/0fe2c10612a4.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "The ID on Emily's insurance card.",
+     "say": "The I D on Emily's insurance card.",
+     "focus": 0,
+     "file": "clips/19baa94911fd.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "2.",
+     "say": "2.",
+     "focus": 1,
+     "file": "clips/55e92e4c1325.mp3",
+     "seconds": 1.325
+    },
+    {
+     "raw": "Patient's name: Carter, Emily.",
+     "say": "Patient's name: Carter, Emily.",
+     "focus": 1,
+     "file": "clips/0daaf23d0a69.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "3.",
+     "say": "3.",
+     "focus": 2,
+     "file": "clips/552595db0da3.mp3",
+     "seconds": 1.375
+    },
+    {
+     "raw": "Birth date / sex: 08/14/1990 · F.",
+     "say": "Birth date or sex: 08/14/1990, F.",
+     "focus": 2,
+     "file": "clips/afcc3f62edad.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "4.",
+     "say": "4.",
+     "focus": 3,
+     "file": "clips/02e8c87217d7.mp3",
+     "seconds": 1.325
+    },
+    {
+     "raw": "Insured's name: Carter, Emily.",
+     "say": "Insured's name: Carter, Emily.",
+     "focus": 3,
+     "file": "clips/085c92344026.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "She is the subscriber herself.",
+     "say": "She is the subscriber herself.",
+     "focus": 3,
+     "file": "clips/f50d3ab7528e.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "6.",
+     "say": "6.",
+     "focus": 4,
+     "file": "clips/ac8ef287dddf.mp3",
+     "seconds": 1.35
+    },
+    {
+     "raw": "Relationship to insured: Self.",
+     "say": "Relationship to insured: Self.",
+     "focus": 4,
+     "file": "clips/815ae47bc261.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "11.",
+     "say": "11.",
+     "focus": 5,
+     "file": "clips/ec4d79f18da2.mp3",
+     "seconds": 1.45
+    },
+    {
+     "raw": "Insured's group number: G20450.",
+     "say": "Insured's group number: G 2 0 4 5 0.",
+     "focus": 5,
+     "file": "clips/735253ffd918.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "Bluebonnet Logistics.",
+     "say": "Bluebonnet Logistics.",
+     "focus": 5,
+     "file": "clips/55e8c989ab8d.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "21.",
+     "say": "21.",
+     "focus": 6,
+     "file": "clips/560813dc7663.mp3",
+     "seconds": 1.525
+    },
+    {
+     "raw": "Diagnosis A: J02.0.",
+     "say": "Diagnosis A: J 0 2 . 0.",
+     "focus": 6,
+     "file": "clips/d73a5a9ff36c.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Strep throat.",
+     "say": "Strep throat.",
+     "focus": 6,
+     "file": "clips/0ef458850b1a.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "26.",
+     "say": "26.",
+     "focus": 7,
+     "file": "clips/fad8382a09e9.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "Patient account no.: SFC-0457.",
+     "say": "Patient account no.: S F C 0457.",
+     "focus": 7,
+     "file": "clips/a775d23db922.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "The clinic's own reference (fictional).",
+     "say": "The clinic's own reference (fictional).",
+     "focus": 7,
+     "file": "clips/252808cd0b23.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "29.",
+     "say": "29.",
+     "focus": 8,
+     "file": "clips/9f10c36604a2.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Amount paid: $25.00.",
+     "say": "Amount paid: 25 dollars.",
+     "focus": 8,
+     "file": "clips/5b0b7144a418.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Copay collected at check-in.",
+     "say": "Copay collected at check-in.",
+     "focus": 8,
+     "file": "clips/b818e07fe209.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "33.",
+     "say": "33.",
+     "focus": 9,
+     "file": "clips/ca95a2c4b8de.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Billing provider: Sunrise Family Clinic.",
+     "say": "Billing provider: Sunrise Family Clinic.",
+     "focus": 9,
+     "file": "clips/f52290e8d28d.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Fictional clinic and NPI 1356789012.",
+     "say": "Fictional clinic and N P I 1356789012.",
+     "focus": 9,
+     "file": "clips/96fe416e7405.mp3",
+     "seconds": 7.525
+    },
+    {
+     "raw": "28.",
+     "say": "28.",
+     "focus": 10,
+     "file": "clips/e7884ee688f6.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Total charge: $150.00.",
+     "say": "Total charge: 150 dollars.",
+     "focus": 10,
+     "file": "clips/40034dcb2572.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Claim generation: the CMS-1500",
+   "lines": [
+    {
+     "raw": "Billing vs rendering.",
+     "say": "Billing versus rendering.",
+     "focus": -1,
+     "file": "clips/efb6b6c12139.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Dr. Patel **did the work** (rendering provider, box 24J).",
+     "say": "Doctor Patel did the work (rendering provider, box 24J).",
+     "focus": -1,
+     "file": "clips/164833d61c5d.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "The clinic **gets the money** (billing provider, box 33).",
+     "say": "The clinic gets the money (billing provider, box 33).",
+     "focus": -1,
+     "file": "clips/ee95bf5da2c8.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "The Medical Data course explains these roles in detail.",
+     "say": "The Medical Data course explains these roles in detail.",
+     "focus": -1,
+     "file": "clips/ca283f730bdf.mp3",
+     "seconds": 4.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "EDI conversion: the 837P file.",
+     "say": "E D I conversion: the 8 3 7 P file.",
+     "focus": -1,
+     "file": "clips/832b8125a865.mp3",
+     "seconds": 4.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "EDI conversion: the 837P file",
+   "lines": [
+    {
+     "raw": "Very few claims travel on paper.",
+     "say": "Very few claims travel on paper.",
+     "focus": -1,
+     "file": "clips/2f55773e704f.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "The clinic's billing software converts the form into an **EDI 837** file, a strict text format every US insurer understands.",
+     "say": "The clinic's billing software converts the form into an E D I 8 37 file, a strict text format every U S insurer understands.",
+     "focus": -1,
+     "file": "clips/ce8e3cae4a2e.mp3",
+     "seconds": 9.7
+    },
+    {
+     "raw": "**837P** is for professional claims, **837I** for institutional (hospital) claims.",
+     "say": "8 3 7 P is for professional claims, 8 3 7 I for institutional (hospital) claims.",
+     "focus": -1,
+     "file": "clips/1503bc87c272.mp3",
+     "seconds": 7.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "EDI conversion: the 837P file",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Doctors, clinics, outpatient providers. 837I (institutional): Hospitals, nursing facilities, inpatient stays. Shared by both: Envelope header and trailer.",
+     "say": "Doctors, clinics, outpatient providers. 8 3 7 I (institutional): Hospitals, nursing facilities, inpatient stays. Shared by both: Envelope header and trailer.",
+     "focus": 0,
+     "file": "clips/4c2c70c07398.mp3",
+     "seconds": 12.05
+    },
+    {
+     "raw": "Service lines with CPT codes. 837I (institutional): Revenue codes, room charges. Shared by both: Names, addresses, IDs.",
+     "say": "Service lines with C P T codes. 8 3 7 I (institutional): Revenue codes, room charges. Shared by both: Names, addresses, I D's.",
+     "focus": 1,
+     "file": "clips/0b86dd575cf8.mp3",
+     "seconds": 10.95
+    },
+    {
+     "raw": "Place of service per claim or line. 837I (institutional): Admission and discharge dates, type of bill. Shared by both: ICD-10 diagnosis codes.",
+     "say": "Place of service per claim or line. 8 3 7 I (institutional): Admission and discharge dates, type of bill. Shared by both: I C D 10 diagnosis codes.",
+     "focus": 2,
+     "file": "clips/cd606604d9c6.mp3",
+     "seconds": 11.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "EDI conversion: the 837P file",
+   "lines": [
+    {
+     "raw": "A few lines of Emily's 837P (simplified).",
+     "say": "A few lines of Emily's 8 3 7 P (simplified).",
+     "focus": -1,
+     "file": "clips/0de1c633668a.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "`NM1*IL*1*CARTER*EMILY****MI*48291307-01~`. What it says: **Name** segment. `IL` = the insured (subscriber). `MI` = member ID follows: 48291307-01, the ID on her card.",
+     "say": "N M 1 * I L * 1 * C A R T E R * E M I L Y * * * * M I * 4 8 2 9 1 3 0 7 dash 0 1 ~. What it says: Name segment. I L = the insured (subscriber). M I = member I D follows: 4 8 2 9 1 3 0 7 dash 0 1, the I D on her card.",
+     "focus": 0,
+     "file": "clips/d358d4ce4cf6.mp3",
+     "seconds": 25.325
+    },
+    {
+     "raw": "`CLM*SFC-0457*150***11:B:1*Y*A*Y*Y~`. What it says: **Claim** segment: the clinic's account number, total charge $150, place of service 11, and `1` = an original claim (not a correction).",
+     "say": "C L M * S F C dash 0 4 5 7 * 1 5 0 * * * 1 1 : B : 1 * Y * A * Y * Y ~. What it says: Claim segment: the clinic's account number, total charge 150 dollars place of service 11, and 1 = an original claim (not a correction).",
+     "focus": 1,
+     "file": "clips/cb537758b424.mp3",
+     "seconds": 24.125
+    },
+    {
+     "raw": "`HI*ABK:J020~`. What it says: **Diagnosis** segment. `ABK` = principal ICD-10 diagnosis. The dot is dropped: `J02.0` is sent as `J020`.",
+     "say": "H I * A B K : J 0 2 0 ~. What it says: Diagnosis segment. A B K = principal I C D 10 diagnosis. The dot is dropped: J 0 2 . 0 is sent as J 0 2 0.",
+     "focus": 2,
+     "file": "clips/88e92664237d.mp3",
+     "seconds": 16.425
+    },
+    {
+     "raw": "`LX*1~`. What it says: Starts **service line 1**.",
+     "say": "L X * 1 ~. What it says: Starts service line 1.",
+     "focus": 3,
+     "file": "clips/04bf77e580fc.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "`SV1*HC:99213*117*UN*1***1~`. What it says: **Professional service**: CPT (`HC`) 99213, $117, 1 unit, diagnosis pointer **1**. On the paper form the pointer is a letter (A); in the 837 it is a number (1).",
+     "say": "S V 1 * H C : 9 9 2 1 3 * 1 1 7 * U N * 1 * * * 1 ~. What it says: Professional service: C P T (H C) 99213, 117 dollars 1 unit, diagnosis pointer 1. On the paper form the pointer is a letter (A); in the 8 37 it is a number (1).",
+     "focus": 4,
+     "file": "clips/88f380868b9f.mp3",
+     "seconds": 23.975
+    },
+    {
+     "raw": "`DTP*472*D8*20250310~`. What it says: **Date** of service: 10 March 2025, written as YYYYMMDD.",
+     "say": "D T P * 4 7 2 * D 8 * 2 0 2 5 0 3 1 0 ~. What it says: Date of service: 10 March 2025, written as YYYYMMDD.",
+     "focus": 5,
+     "file": "clips/13c568cc9089.mp3",
+     "seconds": 13.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "EDI conversion: the 837P file",
+   "lines": [
+    {
+     "raw": "Each **segment** ends with a tilde `~`.",
+     "say": "Each segment ends with a tilde ~.",
+     "focus": 0,
+     "file": "clips/ac903622e771.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Elements inside a segment are separated by an asterisk `*`.",
+     "say": "Elements inside a segment are separated by an asterisk *.",
+     "focus": 1,
+     "file": "clips/b966831508da.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "Parts inside one element are separated by a colon `:`.",
+     "say": "Parts inside one element are separated by a colon :.",
+     "focus": 2,
+     "file": "clips/512db34b173b.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "The whole file is wrapped in **envelopes**: `ISA`/`IEA` (interchange), `GS`/`GE` (group) and `ST`/`SE` (one transaction), like envelopes inside a courier bag.",
+     "say": "The whole file is wrapped in envelopes: ISA/IEA (interchange), GS/GE (group) and ST/SE (one transaction), like envelopes inside a courier bag.",
+     "focus": 3,
+     "file": "clips/846028b784e9.mp3",
+     "seconds": 11.3
+    },
+    {
+     "raw": "Real files are usually one long line with no line breaks.",
+     "say": "Real files are usually one long line with no line breaks.",
+     "focus": 4,
+     "file": "clips/849491a1b938.mp3",
+     "seconds": 4.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "EDI conversion: the 837P file",
+   "lines": [
+    {
+     "raw": "Whose claim number?",
+     "say": "Whose claim number?",
+     "focus": -1,
+     "file": "clips/f17917748dac.mp3",
+     "seconds": 1.675
+    },
+    {
+     "raw": "In the 837 the clinic uses its **own** account number (SFC-0457).",
+     "say": "In the 8 37 the clinic uses its own account number (S F C 0457).",
+     "focus": -1,
+     "file": "clips/6a81ff682891.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "When the insurer receives the claim, it gives it **its own** claim number: **23098908**.",
+     "say": "When the insurer receives the claim, it gives it its own claim number: 23098908.",
+     "focus": -1,
+     "file": "clips/928d0c0cd72e.mp3",
+     "seconds": 7.95
+    },
+    {
+     "raw": "Data teams at insurers mostly see the insurer's number.",
+     "say": "Data teams at insurers mostly see the insurer's number.",
+     "focus": -1,
+     "file": "clips/ce7a5e8ed42b.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "In the same way, the insurer's data stores Emily under its internal member ID **M1001**, not the card number.",
+     "say": "In the same way, the insurer's data stores Emily under its internal member I D M 1 0 0 1, not the card number.",
+     "focus": -1,
+     "file": "clips/a4bfbfb00b40.mp3",
+     "seconds": 8.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The clearinghouse: a checkpoint in the middle.",
+     "say": "The clearinghouse: a checkpoint in the middle.",
+     "focus": -1,
+     "file": "clips/63f44835b3ae.mp3",
+     "seconds": 2.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The clearinghouse: a checkpoint in the middle",
+   "lines": [
+    {
+     "raw": "Most clinics do not send claims straight to each insurer.",
+     "say": "Most clinics do not send claims straight to each insurer.",
+     "focus": -1,
+     "file": "clips/976f1175630f.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "They send all their claims to a **clearinghouse**, a company that checks them and forwards each one to the right insurer.",
+     "say": "They send all their claims to a clearinghouse, a company that checks them and forwards each one to the right insurer.",
+     "focus": -1,
+     "file": "clips/94009bf88dfd.mp3",
+     "seconds": 7.075
+    },
+    {
+     "raw": "The simulator shows four checks.",
+     "say": "The simulator shows four checks.",
+     "focus": -1,
+     "file": "clips/6c7acac2086e.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "The clearinghouse: a checkpoint in the middle",
+   "lines": [
+    {
+     "raw": "Clearinghouse checks in Try It Yourself.",
+     "say": "Clearinghouse checks in Try It Yourself.",
+     "focus": -1,
+     "file": "clips/b82aaea70e5a.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "**EDI format validation**. What it looks for: Is the file valid X12 837 format? Example failure: Envelope segment missing parts.",
+     "say": "E D I format validation. What it looks for: Is the file valid X12 8 37 format? Example failure: Envelope segment missing parts.",
+     "focus": 0,
+     "file": "clips/74be2d0c4546.mp3",
+     "seconds": 10.725
+    },
+    {
+     "raw": "**Required fields check**. What it looks for: Are mandatory fields filled? Example failure: Patient date of birth missing; subscriber ID empty.",
+     "say": "Required fields check. What it looks for: Are mandatory fields filled? Example failure: Patient date of birth missing; subscriber I D empty.",
+     "focus": 1,
+     "file": "clips/19965ec525c7.mp3",
+     "seconds": 9.925
+    },
+    {
+     "raw": "**Code validity**. What it looks for: Are ICD-10 and CPT codes real and well formed? Example failure: `J11.1X` has too many characters.",
+     "say": "Code validity. What it looks for: Are I C D 10 and C P T codes real and well formed? Example failure: J 1 1 . 1 X has too many characters.",
+     "focus": 2,
+     "file": "clips/fc0dc2a0a5b9.mp3",
+     "seconds": 11.2
+    },
+    {
+     "raw": "**Payer identification**. What it looks for: Which insurer should get this claim? Example failure: Payer ID not recognised.",
+     "say": "Payer identification. What it looks for: Which insurer should get this claim? Example failure: Payer I D not recognised.",
+     "focus": 3,
+     "file": "clips/2f84464fb83f.mp3",
+     "seconds": 8.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "The clearinghouse: a checkpoint in the middle",
+   "lines": [
+    {
+     "raw": "Like the form-checking counter at a government office.",
+     "say": "Like the form-checking counter at a government office.",
+     "focus": -1,
+     "file": "clips/c6731f563ed8.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "At the passport office in Kathmandu, a clerk at the first counter checks your form: every box filled, photo attached, right fee.",
+     "say": "At the passport office in Kathmandu, a clerk at the first counter checks your form: every box filled, photo attached, right fee.",
+     "focus": -1,
+     "file": "clips/65b7d73e6da7.mp3",
+     "seconds": 8.45
+    },
+    {
+     "raw": "If something is missing, you are sent back **before** your file goes inside.",
+     "say": "If something is missing, you are sent back before your file goes inside.",
+     "focus": -1,
+     "file": "clips/9bc538efa86c.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "The clerk does not decide whether you get a passport.",
+     "say": "The clerk does not decide whether you get a passport.",
+     "focus": -1,
+     "file": "clips/0cfd991b7ff8.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "A clearinghouse is that first counter: it checks the form, not whether the insurer will pay.",
+     "say": "A clearinghouse is that first counter: it checks the form, not whether the insurer will pay.",
+     "focus": -1,
+     "file": "clips/034b5fc0079c.mp3",
+     "seconds": 6.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "The clearinghouse: a checkpoint in the middle",
+   "lines": [
+    {
+     "raw": "Clinic sends 837P.",
+     "say": "Clinic sends 8 3 7 P.",
+     "focus": 0,
+     "file": "clips/63fafe892d21.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Sunrise Family Clinic sends Emily's claim to its clearinghouse on 11 March 2025.",
+     "say": "Sunrise Family Clinic sends Emily's claim to its clearinghouse on 11 March 2025.",
+     "focus": 0,
+     "file": "clips/62c75c4ba2b0.mp3",
+     "seconds": 6.675
+    },
+    {
+     "raw": "Format and fields.",
+     "say": "Format and fields.",
+     "focus": 1,
+     "file": "clips/84ccbe67c4b1.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "The file is valid X12 and every required field is present.",
+     "say": "The file is valid X12 and every required field is present.",
+     "focus": 1,
+     "file": "clips/56688c3f8c80.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "Codes.",
+     "say": "Codes.",
+     "focus": 2,
+     "file": "clips/a68ebd556cfd.mp3",
+     "seconds": 1.45
+    },
+    {
+     "raw": "`J02.0`, `99213` and `87880` are valid codes.",
+     "say": "J 0 2 . 0, 9 9 2 1 3 and 8 7 8 8 0 are valid codes.",
+     "focus": 2,
+     "file": "clips/07b0e9e707df.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "Routing.",
+     "say": "Routing.",
+     "focus": 3,
+     "file": "clips/e3d54dd03e03.mp3",
+     "seconds": 1.425
+    },
+    {
+     "raw": "The payer ID on the claim matches Emily's insurer.",
+     "say": "The payer I D on the claim matches Emily's insurer.",
+     "focus": 3,
+     "file": "clips/cdbffbfcdd4d.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "The claim is forwarded.",
+     "say": "The claim is forwarded.",
+     "focus": 3,
+     "file": "clips/220a6aee268d.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Acknowledgement.",
+     "say": "Acknowledgement.",
+     "focus": 4,
+     "file": "clips/62f9257a603e.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The clinic gets an electronic report (a **277CA**) saying the claim was accepted.",
+     "say": "The clinic gets an electronic report (a 2 7 7 C A) saying the claim was accepted.",
+     "focus": 4,
+     "file": "clips/2178622d0bd7.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "Had it failed, the 277CA would give a rejection reason.",
+     "say": "Had it failed, the 2 7 7 C A would give a rejection reason.",
+     "focus": 4,
+     "file": "clips/8a783b64fcd9.mp3",
+     "seconds": 4.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Rejected vs denied: not the same thing.",
+     "say": "Rejected versus denied: not the same thing.",
+     "focus": -1,
+     "file": "clips/b32a6f096644.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Rejected vs denied: not the same thing",
+   "lines": [
+    {
+     "raw": "Rejected.",
+     "say": "Rejected.",
+     "focus": 0,
+     "file": "clips/b3a1043e1fd6.mp3",
+     "seconds": 1.55
+    },
+    {
+     "raw": "The claim was **not accepted for processing** because of a form or data error.",
+     "say": "The claim was not accepted for processing because of a form or data error.",
+     "focus": 0,
+     "file": "clips/93df00081837.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "It never really \"entered\" the system.",
+     "say": "It never really \"entered\" the system.",
+     "focus": 0,
+     "file": "clips/d4dea28d8c0f.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Fix it and send again.",
+     "say": "Fix it and send again.",
+     "focus": 0,
+     "file": "clips/9273a4bb4e20.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "Denied.",
+     "say": "Denied.",
+     "focus": 1,
+     "file": "clips/d47968734b14.mp3",
+     "seconds": 1.45
+    },
+    {
+     "raw": "The insurer **processed** the claim and decided **not to pay** (for example, not covered).",
+     "say": "The insurer processed the claim and decided not to pay (for example, not covered).",
+     "focus": 1,
+     "file": "clips/b26120f3aed3.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "It is a decision.",
+     "say": "It is a decision.",
+     "focus": 1,
+     "file": "clips/4bd17f7c4b13.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "Changing it needs a corrected claim or an **appeal**.",
+     "say": "Changing it needs a corrected claim or an appeal.",
+     "focus": 1,
+     "file": "clips/ff1b240607ac.mp3",
+     "seconds": 3.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Rejected vs denied: not the same thing",
+   "lines": [
+    {
+     "raw": "Sending the claim in Nepal.",
+     "say": "Sending the claim in Nepal.",
+     "focus": -1,
+     "file": "clips/4c81520ea14c.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram is his own \"clearinghouse\".",
+     "say": "Ram is his own \"clearinghouse\".",
+     "focus": 0,
+     "file": "clips/9a36db070c87.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "He fills in the insurer's claim form, attaches receipts and prescriptions, and submits them, on paper or by uploading photos.",
+     "say": "He fills in the insurer's claim form, attaches receipts and prescriptions, and submits them, on paper or by uploading photos.",
+     "focus": 0,
+     "file": "clips/5f384d275572.mp3",
+     "seconds": 8.65
+    },
+    {
+     "raw": "If a receipt is missing, the insurer sends the claim back: that is a **rejection** in US terms.",
+     "say": "If a receipt is missing, the insurer sends the claim back: that is a rejection in U S terms.",
+     "focus": 1,
+     "file": "clips/412bc4ea7b87.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "If the insurer says \"not covered by your policy\", that is a **denial**.",
+     "say": "If the insurer says \"not covered by your policy\", that is a denial.",
+     "focus": 1,
+     "file": "clips/6bb11e574fb3.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita's hospital sends the claim to SSF itself, with the bill and documents.",
+     "say": "Sita's hospital sends the claim to S S F itself, with the bill and documents.",
+     "focus": 2,
+     "file": "clips/736fe0418942.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "There is no separate checking company in between, and no single standard file format like the 837 used by every payer.",
+     "say": "There is no separate checking company in between, and no single standard file format like the 8 37 used by every payer.",
+     "focus": 2,
+     "file": "clips/ccc5b72c2993.mp3",
+     "seconds": 8.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Rejected vs denied: not the same thing",
+   "lines": [
+    {
+     "raw": "See a rejection happen.",
+     "say": "See a rejection happen.",
+     "focus": -1,
+     "file": "clips/fd8ade1cdd01.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "In Try It Yourself, the clearinghouse screen can show a failed check with its 277CA error and what the provider must fix.",
+     "say": "In Try It Yourself, the clearinghouse screen can show a failed check with its 2 7 7 C A error and what the provider must fix.",
+     "focus": -1,
+     "file": "clips/8bff863bf723.mp3",
+     "seconds": 8.25
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Doctors use the CMS-1500 (professional); hospitals use the UB-04 (institutional).",
+     "say": "Doctors use the C M S 1500 (professional); hospitals use the U B 04 (institutional).",
+     "focus": 0,
+     "file": "clips/4f230507ffeb.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "The form becomes an EDI 837P or 837I file: segments end with `~`, elements split by `*`.",
+     "say": "The form becomes an E D I 8 3 7 P or 8 3 7 I file: segments end with ~, elements split by *.",
+     "focus": 1,
+     "file": "clips/e35c19ae79e8.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "A clearinghouse checks format, required fields, code validity and payer ID, then forwards the claim.",
+     "say": "A clearinghouse checks format, required fields, code validity and payer I D, then forwards the claim.",
+     "focus": 2,
+     "file": "clips/0a7f64013151.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "Rejected = not accepted because of an error, fix and resend.",
+     "say": "Rejected = not accepted because of an error, fix and resend.",
+     "focus": 3,
+     "file": "clips/7f31f579a813.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "Denied = processed and refused.",
+     "say": "Denied = processed and refused.",
+     "focus": 3,
+     "file": "clips/f6391ceb636a.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

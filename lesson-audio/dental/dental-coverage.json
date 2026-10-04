@@ -1,0 +1,946 @@
+{
+ "courseId": "dental",
+ "lessonId": "dental-coverage",
+ "lessonNumber": 1,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 1: Dental Coverage.",
+     "say": "Lesson 1: Dental Coverage.",
+     "focus": -1,
+     "file": "clips/c2f714ecacbb.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Dental plan types, the 100-80-50 pattern and the annual maximum.",
+     "say": "Dental plan types, the 100-80-50 pattern and the annual maximum.",
+     "focus": -1,
+     "file": "clips/669063f55d3c.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Explain what a dental plan is and who it covers.",
+     "say": "Explain what a dental plan is and who it covers.",
+     "focus": 0,
+     "file": "clips/c1956a70b8a5.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "Tell a DHMO from a DPPO.",
+     "say": "Tell a D H M O from a D P P O.",
+     "focus": 1,
+     "file": "clips/310ed279be01.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Understand the annual maximum and the 100-80-50 coverage pattern.",
+     "say": "Understand the annual maximum and the 100-80-50 coverage pattern.",
+     "focus": 2,
+     "file": "clips/121e9ad0d7a1.mp3",
+     "seconds": 5.625
+    },
+    {
+     "raw": "Know what waiting periods and deductibles mean for dental care.",
+     "say": "Know what waiting periods and deductibles mean for dental care.",
+     "focus": 3,
+     "file": "clips/40cc0bd33632.mp3",
+     "seconds": 4.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Teeth are treated differently.",
+     "say": "Teeth are treated differently.",
+     "focus": -1,
+     "file": "clips/d4d85c926cfd.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Teeth are treated differently",
+   "lines": [
+    {
+     "raw": "When you get a toothache in Kathmandu, you usually walk into a **dental clinic**, not a big hospital.",
+     "say": "When you get a toothache in Kathmandu, you usually walk into a dental clinic, not a big hospital.",
+     "focus": -1,
+     "file": "clips/1dfda683d86b.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "You see the dentist, get a filling or a cleaning, and **pay at the counter**.",
+     "say": "You see the dentist, get a filling or a cleaning, and pay at the counter.",
+     "focus": -1,
+     "file": "clips/3f5f29b0d145.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Teeth feel like their own little world, separate from \"normal\" health care.",
+     "say": "Teeth feel like their own little world, separate from \"normal\" health care.",
+     "focus": -1,
+     "file": "clips/04a6fed9ccf8.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Teeth are treated differently",
+   "lines": [
+    {
+     "raw": "The US works in a similar way, but with insurance.",
+     "say": "The U S works in a similar way, but with insurance.",
+     "focus": -1,
+     "file": "clips/a236fceaf169.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "A **medical plan** (like Emily's PPO) pays for doctors and hospitals.",
+     "say": "A medical plan (like Emily's P P O) pays for doctors and hospitals.",
+     "focus": -1,
+     "file": "clips/433129fd6de1.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "Teeth are usually covered by a **separate dental plan**, often from a different insurance company.",
+     "say": "Teeth are usually covered by a separate dental plan, often from a different insurance company.",
+     "focus": -1,
+     "file": "clips/3c73786777e7.mp3",
+     "seconds": 6.1
+    },
+    {
+     "raw": "This lesson explains how a dental plan pays; lesson 2 lines it up side by side with a medical plan.",
+     "say": "This lesson explains how a dental plan pays; lesson 2 lines it up side by side with a medical plan.",
+     "focus": -1,
+     "file": "clips/489c04fb33b6.mp3",
+     "seconds": 7.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Teeth are treated differently",
+   "lines": [
+    {
+     "raw": "In Nepal: Dental care in Kathmandu.",
+     "say": "In Nepal: Dental care in Kathmandu.",
+     "focus": -1,
+     "file": "clips/4b85047e02fd.mp3",
+     "seconds": 3
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram goes to a private dental clinic in Baneshwor for a filling.",
+     "say": "Ram goes to a private dental clinic in Baneshwor for a filling.",
+     "focus": 0,
+     "file": "clips/bc8d2a901fd3.mp3",
+     "seconds": 4.25
+    },
+    {
+     "raw": "He pays the clinic **from his own pocket**.",
+     "say": "He pays the clinic from his own pocket.",
+     "focus": 0,
+     "file": "clips/495634ac2568.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Many private health policies in Nepal **do not cover routine dental care** like check-ups and fillings, or cover it only after an accident.",
+     "say": "Many private health policies in Nepal do not cover routine dental care like check-ups and fillings, or cover it only after an accident.",
+     "focus": 1,
+     "file": "clips/6896f423d384.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "Ram should check his policy wording before assuming he can claim it back.",
+     "say": "Ram should check his policy wording before assuming he can claim it back.",
+     "focus": 1,
+     "file": "clips/456bdfa41a56.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita uses SSF-listed hospitals for her medical care.",
+     "say": "Sita uses S S F listed hospitals for her medical care.",
+     "focus": 2,
+     "file": "clips/9bf875aae465.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "Whether a dental treatment is covered depends on SSF's own rules and listed services, so she should **check with SSF or the hospital first**.",
+     "say": "Whether a dental treatment is covered depends on SSF's own rules and listed services, so she should check with S S F or the hospital first.",
+     "focus": 2,
+     "file": "clips/02e340478e10.mp3",
+     "seconds": 9.75
+    },
+    {
+     "raw": "In practice, many people in Nepal, with or without SSF, pay for dental clinic visits **out of pocket**.",
+     "say": "In practice, many people in Nepal, with or without S S F, pay for dental clinic visits out of pocket.",
+     "focus": 3,
+     "file": "clips/2642398bcc86.mp3",
+     "seconds": 6.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Teeth are treated differently",
+   "lines": [
+    {
+     "raw": "In the US: Emily's dental plan in Texas.",
+     "say": "In the U S: Emily's dental plan in Texas.",
+     "focus": -1,
+     "file": "clips/5b28b9081cb5.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Emily's employer, Bluebonnet Logistics, offers a **separate dental plan** next to the medical plan.",
+     "say": "Emily's employer, Bluebonnet Logistics, offers a separate dental plan next to the medical plan.",
+     "focus": 0,
+     "file": "clips/74c056a3c01d.mp3",
+     "seconds": 6.525
+    },
+    {
+     "raw": "Emily signs up for it for herself and her daughter **Lily**.",
+     "say": "Emily signs up for it for herself and her daughter Lily.",
+     "focus": 0,
+     "file": "clips/6f7c8ca2a734.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "The dental plan is run by **Lone Star Dental** (a fictional company for this course).",
+     "say": "The dental plan is run by Lone Star Dental (a fictional company for this course).",
+     "focus": 1,
+     "file": "clips/b5ef09d88666.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "Emily gets a second insurance card just for teeth.",
+     "say": "Emily gets a second insurance card just for teeth.",
+     "focus": 1,
+     "file": "clips/02b91e3a21ea.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "Every dental visit creates a **dental claim**, sent to Lone Star Dental, not to her medical insurer.",
+     "say": "Every dental visit creates a dental claim, sent to Lone Star Dental, not to her medical insurer.",
+     "focus": 2,
+     "file": "clips/2e6bb2b5985a.mp3",
+     "seconds": 6.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two main plan types: DHMO and DPPO.",
+     "say": "Two main plan types: D H M O and D P P O.",
+     "focus": -1,
+     "file": "clips/73e96fe8bba7.mp3",
+     "seconds": 4.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Two main plan types: DHMO and DPPO",
+   "lines": [
+    {
+     "raw": "Dental plans come in the same two flavours you may know from medical plans: an **HMO** style and a **PPO** style.",
+     "say": "Dental plans come in the same two flavours you may know from medical plans: an H M O style and a P P O style.",
+     "focus": -1,
+     "file": "clips/3d1e1cb08770.mp3",
+     "seconds": 8.1
+    },
+    {
+     "raw": "A \"D\" is added in front for dental.",
+     "say": "A \"D\" is added in front for dental.",
+     "focus": -1,
+     "file": "clips/7e8fddcd2bcb.mp3",
+     "seconds": 2.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Two main plan types: DHMO and DPPO",
+   "lines": [
+    {
+     "raw": "DHMO vs DPPO.",
+     "say": "D H M O versus D P P O.",
+     "focus": -1,
+     "file": "clips/bf388f8ed4c5.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Choosing a dentist. DHMO (Dental HMO): Pick **one** primary dentist from the plan's list. DPPO (Dental PPO): Any dentist; cheaper **in-network**.",
+     "say": "Choosing a dentist. D H M O (Dental H M O): Pick one primary dentist from the plan's list. D P P O (Dental P P O): Any dentist; cheaper in-network.",
+     "focus": 0,
+     "file": "clips/a911de428783.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "Out-of-network care. DHMO (Dental HMO): Usually **not covered**. DPPO (Dental PPO): Covered, but you pay more.",
+     "say": "Out-of-network care. D H M O (Dental H M O): Usually not covered. D P P O (Dental P P O): Covered, but you pay more.",
+     "focus": 1,
+     "file": "clips/05b0f6c34ed8.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "What you pay. DHMO (Dental HMO): A fixed **copay** per service (e.g. $20 for a filling). DPPO (Dental PPO): **Deductible** + a **percentage** of the cost.",
+     "say": "What you pay. D H M O (Dental H M O): A fixed copay per service (for example 20 dollars for a filling). D P P O (Dental P P O): Deductible and a percentage of the cost.",
+     "focus": 2,
+     "file": "clips/a3451e8138af.mp3",
+     "seconds": 13.3
+    },
+    {
+     "raw": "Annual maximum. DHMO (Dental HMO): Often **none**. DPPO (Dental PPO): Usually **yes** (see below).",
+     "say": "Annual maximum. D H M O (Dental H M O): Often none. D P P O (Dental P P O): Usually yes (see below).",
+     "focus": 3,
+     "file": "clips/cbfbcfbf4788.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "Monthly premium. DHMO (Dental HMO): Lower. DPPO (Dental PPO): Higher.",
+     "say": "Monthly premium. D H M O (Dental H M O): Lower. D P P O (Dental P P O): Higher.",
+     "focus": 4,
+     "file": "clips/87a65666d41f.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "Specialists. DHMO (Dental HMO): Usually need a **referral**. DPPO (Dental PPO): Usually no referral needed.",
+     "say": "Specialists. D H M O (Dental H M O): Usually need a referral. D P P O (Dental P P O): Usually no referral needed.",
+     "focus": 5,
+     "file": "clips/22a7257de0ba.mp3",
+     "seconds": 9.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Two main plan types: DHMO and DPPO",
+   "lines": [
+    {
+     "raw": "Think of a canteen card vs a discount card.",
+     "say": "Think of a canteen card versus a discount card.",
+     "focus": -1,
+     "file": "clips/18361f1cd86d.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "A **DHMO** is like a staff canteen card: you must eat at **one** canteen, but every item has a fixed low price.",
+     "say": "A D H M O is like a staff canteen card: you must eat at one canteen, but every item has a fixed low price.",
+     "focus": -1,
+     "file": "clips/9a5771629238.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "A **DPPO** is like a discount card that works at many restaurants: you can go almost anywhere, but you pay a share of each bill, and the discount is biggest at partner restaurants.",
+     "say": "A D P P O is like a discount card that works at many restaurants: you can go almost anywhere, but you pay a share of each bill, and the discount is biggest at partner restaurants.",
+     "focus": -1,
+     "file": "clips/24e600e1412b.mp3",
+     "seconds": 11.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Two main plan types: DHMO and DPPO",
+   "lines": [
+    {
+     "raw": "Emily's plan is a **DPPO**.",
+     "say": "Emily's plan is a D P P O.",
+     "focus": -1,
+     "file": "clips/3dd1f58eb074.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "Her dentist, **Dr. Grace Liu** at **Hill Country Family Dental** in Austin (both fictional), is **in-network**.",
+     "say": "Her dentist, Doctor Grace Liu at Hill Country Family Dental in Austin (both fictional), is in-network.",
+     "focus": -1,
+     "file": "clips/7fd4627590b0.mp3",
+     "seconds": 7.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The 100-80-50 pattern.",
+     "say": "The 100-80-50 pattern.",
+     "focus": -1,
+     "file": "clips/daf2fadc0315.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The 100-80-50 pattern",
+   "lines": [
+    {
+     "raw": "Most DPPO plans sort dental services into **three groups** and pay a different share for each.",
+     "say": "Most D P P O plans sort dental services into three groups and pay a different share for each.",
+     "focus": -1,
+     "file": "clips/4ca630555c2a.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "A very common pattern is called **100-80-50**:",
+     "say": "A very common pattern is called 100-80-50:",
+     "focus": -1,
+     "file": "clips/7ed39274cf7c.mp3",
+     "seconds": 4.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The 100-80-50 pattern",
+   "lines": [
+    {
+     "raw": "A typical 100-80-50 dental plan.",
+     "say": "A typical 100-80-50 dental plan.",
+     "focus": -1,
+     "file": "clips/ac112cdf96bf.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "**Preventive & diagnostic**. Examples: Check-up exam, cleaning, X-rays, fluoride for children. Plan pays: **100%**. Patient pays: 0%.",
+     "say": "Preventive and diagnostic. Examples: Check-up exam, cleaning, X-rays, fluoride for children. Plan pays: 100 percent. Patient pays: 0 percent.",
+     "focus": 0,
+     "file": "clips/0d65df2bf79c.mp3",
+     "seconds": 11.85
+    },
+    {
+     "raw": "**Basic**. Examples: Fillings, simple tooth removal, often root canals. Plan pays: **80%**. Patient pays: 20%.",
+     "say": "Basic. Examples: Fillings, simple tooth removal, often root canals. Plan pays: 80 percent. Patient pays: 20 percent.",
+     "focus": 1,
+     "file": "clips/e955d9f5f42d.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "**Major**. Examples: Crowns, bridges, dentures, implants. Plan pays: **50%**. Patient pays: 50%.",
+     "say": "Major. Examples: Crowns, bridges, dentures, implants. Plan pays: 50 percent. Patient pays: 50 percent.",
+     "focus": 2,
+     "file": "clips/2ac2f6cfca5d.mp3",
+     "seconds": 8.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "The 100-80-50 pattern",
+   "lines": [
+    {
+     "raw": "Why preventive care is free.",
+     "say": "Why preventive care is free.",
+     "focus": -1,
+     "file": "clips/391b92e5e360.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "A $100 cleaning today can prevent a $1,000 root canal and crown later.",
+     "say": "A 100 dollars cleaning today can prevent a 1000 dollars root canal and crown later.",
+     "focus": -1,
+     "file": "clips/967e58eed569.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "Paying **100%** for check-ups encourages people to come in twice a year, which saves the insurer money in the long run.",
+     "say": "Paying 100 percent for check-ups encourages people to come in twice a year, which saves the insurer money in the long run.",
+     "focus": -1,
+     "file": "clips/92f40629064f.mp3",
+     "seconds": 8.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "The 100-80-50 pattern",
+   "lines": [
+    {
+     "raw": "Plans differ.",
+     "say": "Plans differ.",
+     "focus": -1,
+     "file": "clips/f6d3011a0b38.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Which service sits in which group is a **plan decision**.",
+     "say": "Which service sits in which group is a plan decision.",
+     "focus": -1,
+     "file": "clips/089b0c2b61f0.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Root canals, for example, are \"basic\" in some plans and \"major\" in others.",
+     "say": "Root canals, for example, are \"basic\" in some plans and \"major\" in others.",
+     "focus": -1,
+     "file": "clips/343ea51977a2.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "Always read the plan's own **benefit summary**; never assume.",
+     "say": "Always read the plan's own benefit summary; never assume.",
+     "focus": -1,
+     "file": "clips/e195cfbd9efc.mp3",
+     "seconds": 4.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The annual maximum: a ceiling on what the plan pays.",
+     "say": "The annual maximum: a ceiling on what the plan pays.",
+     "focus": -1,
+     "file": "clips/06ae957b8d18.mp3",
+     "seconds": 3.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "The annual maximum: a ceiling on what the plan pays",
+   "lines": [
+    {
+     "raw": "Dental PPO plans usually have an **annual maximum**: a ceiling on what the **plan** pays for each person in a year.",
+     "say": "Dental P P O plans usually have an annual maximum: a ceiling on what the plan pays for each person in a year.",
+     "focus": -1,
+     "file": "clips/81cd47a15d16.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "Once the plan has paid that amount, the patient pays **everything** else until the next plan year.",
+     "say": "Once the plan has paid that amount, the patient pays everything else until the next plan year.",
+     "focus": -1,
+     "file": "clips/68714c176931.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "Emily's plan has a **$1,500** annual maximum per person.",
+     "say": "Emily's plan has a 1500 dollars annual maximum per person.",
+     "focus": -1,
+     "file": "clips/a9b60d996d35.mp3",
+     "seconds": 4.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "The annual maximum: a ceiling on what the plan pays",
+   "lines": [
+    {
+     "raw": "Nepal has a similar idea.",
+     "say": "Nepal has a similar idea.",
+     "focus": -1,
+     "file": "clips/11a1ebd61515.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's private policy has a **sum insured** (for example a yearly limit).",
+     "say": "Ram's private policy has a sum insured (for example a yearly limit).",
+     "focus": 0,
+     "file": "clips/5ffbca732a29.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "After his claims reach it, the insurer stops paying.",
+     "say": "After his claims reach it, the insurer stops paying.",
+     "focus": 0,
+     "file": "clips/bf1b41bbf543.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "A US dental annual maximum works the same way.",
+     "say": "A U S dental annual maximum works the same way.",
+     "focus": 0,
+     "file": "clips/1a264b00000b.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF medical benefits also have **yearly limits** on what SSF will pay.",
+     "say": "S S F medical benefits also have yearly limits on what S S F will pay.",
+     "focus": 1,
+     "file": "clips/52d5449d014f.mp3",
+     "seconds": 5.775
+    },
+    {
+     "raw": "Once used up, Sita pays the rest herself.",
+     "say": "Once used up, Sita pays the rest herself.",
+     "focus": 1,
+     "file": "clips/2f50260758fb.mp3",
+     "seconds": 3.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "The annual maximum: a ceiling on what the plan pays",
+   "lines": [
+    {
+     "raw": "Annual maximums are small.",
+     "say": "Annual maximums are small.",
+     "focus": -1,
+     "file": "clips/c2d41a89e116.mp3",
+     "seconds": 2.225
+    },
+    {
+     "raw": "Dental annual maximums are often somewhere around **$1,000 to $2,000** per person, and have stayed at roughly that level for many years.",
+     "say": "Dental annual maximums are often somewhere around 1000 dollars to 2000 dollars per person, and have stayed at roughly that level for many years.",
+     "focus": -1,
+     "file": "clips/d5ce3fec3e37.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "One crown plus a root canal can use up most of it.",
+     "say": "One crown plus a root canal can use up most of it.",
+     "focus": -1,
+     "file": "clips/03aa10c177db.mp3",
+     "seconds": 3.775
+    },
+    {
+     "raw": "You will see this happen to Emily in lesson 7.",
+     "say": "You will see this happen to Emily in lesson 7.",
+     "focus": -1,
+     "file": "clips/6dfe100ec396.mp3",
+     "seconds": 3.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Deductibles and waiting periods.",
+     "say": "Deductibles and waiting periods.",
+     "focus": -1,
+     "file": "clips/0a864352190a.mp3",
+     "seconds": 2.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Deductibles and waiting periods",
+   "lines": [
+    {
+     "raw": "Dental deductible.",
+     "say": "Dental deductible.",
+     "focus": 0,
+     "file": "clips/90884aedb426.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "A small amount the patient pays first each year, often around **$50 per person**.",
+     "say": "A small amount the patient pays first each year, often around 50 dollars per person.",
+     "focus": 0,
+     "file": "clips/e625b89509eb.mp3",
+     "seconds": 5.725
+    },
+    {
+     "raw": "It usually applies only to **basic** and **major** services, not to preventive care.",
+     "say": "It usually applies only to basic and major services, not to preventive care.",
+     "focus": 0,
+     "file": "clips/dd55a43fba81.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Waiting period.",
+     "say": "Waiting period.",
+     "focus": 1,
+     "file": "clips/c3dbac581407.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "Time you must be enrolled before some services are covered.",
+     "say": "Time you must be enrolled before some services are covered.",
+     "focus": 1,
+     "file": "clips/6bfdaef421e9.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "For example: basic services after **6 months**, major services after **12 months**.",
+     "say": "For example: basic services after 6 months, major services after 12 months.",
+     "focus": 1,
+     "file": "clips/aaf80bffde4a.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "More common in plans people buy themselves; many employer plans have none.",
+     "say": "More common in plans people buy themselves; many employer plans have none.",
+     "focus": 1,
+     "file": "clips/abed1af114df.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "Plan year.",
+     "say": "Plan year.",
+     "focus": 2,
+     "file": "clips/dc100ae9c056.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "The 12 months the deductible and annual maximum count over.",
+     "say": "The 12 months the deductible and annual maximum count over.",
+     "focus": 2,
+     "file": "clips/bc1226ac2e65.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "Often the **calendar year** (1 January to 31 December).",
+     "say": "Often the calendar year (1 January to 31 December).",
+     "focus": 2,
+     "file": "clips/3188cbefcf54.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "In-network fee.",
+     "say": "In-network fee.",
+     "focus": 3,
+     "file": "clips/91a76bea8ff4.mp3",
+     "seconds": 1.75
+    },
+    {
+     "raw": "The price the dentist has agreed with the plan.",
+     "say": "The price the dentist has agreed with the plan.",
+     "focus": 3,
+     "file": "clips/4e188af49322.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Like the \"allowed amount\" on a medical claim.",
+     "say": "Like the \"allowed amount\" on a medical claim.",
+     "focus": 3,
+     "file": "clips/79e7cf1c1561.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Deductibles and waiting periods",
+   "lines": [
+    {
+     "raw": "Why waiting periods exist.",
+     "say": "Why waiting periods exist.",
+     "focus": -1,
+     "file": "clips/b53c4d472ffa.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Without them, someone could buy a plan the day before getting an expensive crown, then cancel.",
+     "say": "Without them, someone could buy a plan the day before getting an expensive crown, then cancel.",
+     "focus": -1,
+     "file": "clips/4e42c82b5354.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "It is the same reason a Nepali insurer may refuse to cover an illness you already had before buying the policy.",
+     "say": "It is the same reason a Nepali insurer may refuse to cover an illness you already had before buying the policy.",
+     "focus": -1,
+     "file": "clips/e1af866d492a.mp3",
+     "seconds": 8.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Deductibles and waiting periods",
+   "lines": [
+    {
+     "raw": "Emily's dental plan, summarised (fictional).",
+     "say": "Emily's dental plan, summarised (fictional).",
+     "focus": -1,
+     "file": "clips/4014dc480e0f.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Insurer. Emily's DPPO: Lone Star Dental (fictional).",
+     "say": "Insurer. Emily's D P P O: Lone Star Dental (fictional).",
+     "focus": 0,
+     "file": "clips/421349abe240.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "Members covered. Emily's DPPO: Emily (M1001) and Lily (M1002).",
+     "say": "Members covered. Emily's D P P O: Emily (M 1 0 0 1) and Lily (M 1 0 0 2).",
+     "focus": 1,
+     "file": "clips/f421feb7994d.mp3",
+     "seconds": 8.075
+    },
+    {
+     "raw": "Plan year. Emily's DPPO: Calendar year.",
+     "say": "Plan year. Emily's D P P O: Calendar year.",
+     "focus": 2,
+     "file": "clips/53ed7f8cf0c8.mp3",
+     "seconds": 3.7
+    },
+    {
+     "raw": "Deductible. Emily's DPPO: $50 per person, not applied to preventive & diagnostic.",
+     "say": "Deductible. Emily's D P P O: 50 dollars per person, not applied to preventive and diagnostic.",
+     "focus": 3,
+     "file": "clips/a4947ef72daa.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "Coverage. Emily's DPPO: Preventive & diagnostic 100% · Basic 80% · Major 50%.",
+     "say": "Coverage. Emily's D P P O: Preventive and diagnostic 100 percent, Basic 80 percent, Major 50 percent.",
+     "focus": 4,
+     "file": "clips/91be2ca94167.mp3",
+     "seconds": 8.925
+    },
+    {
+     "raw": "Root canals. Emily's DPPO: Basic (80%) in this plan.",
+     "say": "Root canals. Emily's D P P O: Basic (80 percent) in this plan.",
+     "focus": 5,
+     "file": "clips/a7c5ae93d84d.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Annual maximum. Emily's DPPO: $1,500 per person per calendar year.",
+     "say": "Annual maximum. Emily's D P P O: 1500 dollars per person per calendar year.",
+     "focus": 6,
+     "file": "clips/d1270a7fa31e.mp3",
+     "seconds": 6.625
+    },
+    {
+     "raw": "Waiting periods. Emily's DPPO: None (employer plan).",
+     "say": "Waiting periods. Emily's D P P O: None (employer plan).",
+     "focus": 7,
+     "file": "clips/846795272d90.mp3",
+     "seconds": 4.7
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "In the US, dental care is usually covered by a **separate dental plan** with its own card and claims.",
+     "say": "In the U S, dental care is usually covered by a separate dental plan with its own card and claims.",
+     "focus": 0,
+     "file": "clips/5ec422efeb2e.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "**DHMO**: one chosen dentist, fixed copays, often no annual maximum.",
+     "say": "D H M O: one chosen dentist, fixed copays, often no annual maximum.",
+     "focus": 1,
+     "file": "clips/09ddbe268fcb.mp3",
+     "seconds": 6.25
+    },
+    {
+     "raw": "**DPPO**: any dentist, deductible plus a percentage, usually an annual maximum.",
+     "say": "D P P O: any dentist, deductible plus a percentage, usually an annual maximum.",
+     "focus": 1,
+     "file": "clips/5258cf3f5cdb.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "Many DPPO plans follow **100-80-50**: preventive 100%, basic 80%, major 50%.",
+     "say": "Many D P P O plans follow 100-80-50: preventive 100 percent, basic 80 percent, major 50 percent.",
+     "focus": 2,
+     "file": "clips/19c5e96d0e32.mp3",
+     "seconds": 9.6
+    },
+    {
+     "raw": "The **annual maximum** caps what the **plan** pays each year; after it is used up, the member pays the full fee until the plan year resets.",
+     "say": "The annual maximum caps what the plan pays each year; after it is used up, the member pays the full fee until the plan year resets.",
+     "focus": 3,
+     "file": "clips/243995b8dc79.mp3",
+     "seconds": 8.65
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,841 @@
+{
+ "courseId": "medical",
+ "lessonId": "claim-types",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: Medical Claim Types.",
+     "say": "Lesson 2: Medical Claim Types.",
+     "focus": -1,
+     "file": "clips/0990090de94f.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "In the US, the doctor and the hospital usually send separate bills.",
+     "say": "In the U S, the doctor and the hospital usually send separate bills.",
+     "focus": -1,
+     "file": "clips/bfd63bd6df9e.mp3",
+     "seconds": 4.725
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Tell the difference between a professional claim and an institutional claim.",
+     "say": "Tell the difference between a professional claim and an institutional claim.",
+     "focus": 0,
+     "file": "clips/e3a289d09f8a.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "See how one emergency room visit creates a hospital claim and a doctor claim.",
+     "say": "See how one emergency room visit creates a hospital claim and a doctor claim.",
+     "focus": 1,
+     "file": "clips/5495bc9bb665.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Know which fields appear only on institutional or only on professional claims.",
+     "say": "Know which fields appear only on institutional or only on professional claims.",
+     "focus": 2,
+     "file": "clips/e6c8b55e7ad2.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "Understand inpatient vs. outpatient.",
+     "say": "Understand inpatient versus outpatient.",
+     "focus": 3,
+     "file": "clips/96e943b77557.mp3",
+     "seconds": 3.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Doctor's work vs. hospital's building.",
+     "say": "Doctor's work versus hospital's building.",
+     "focus": -1,
+     "file": "clips/26f475605a0d.mp3",
+     "seconds": 2.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Doctor's work vs. hospital's building",
+   "lines": [
+    {
+     "raw": "When you are treated in a hospital, two different things are being \"used\": the **skills of the doctor** and the **hospital itself**: its bed, emergency room, nurses, machines and supplies.",
+     "say": "When you are treated in a hospital, two different things are being \"used\": the skills of the doctor and the hospital itself: its bed, emergency room, nurses, machines and supplies.",
+     "focus": -1,
+     "file": "clips/f82d46c66f3d.mp3",
+     "seconds": 11.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Doctor's work vs. hospital's building",
+   "lines": [
+    {
+     "raw": "Think of a wedding party venue.",
+     "say": "Think of a wedding party venue.",
+     "focus": -1,
+     "file": "clips/e7d3aa8a29a1.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "You rent a party palace (the building, chairs, kitchen) and separately hire a photographer.",
+     "say": "You rent a party palace (the building, chairs, kitchen) and separately hire a photographer.",
+     "focus": -1,
+     "file": "clips/99cedf643ee6.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "The party palace sends one bill, the photographer sends another.",
+     "say": "The party palace sends one bill, the photographer sends another.",
+     "focus": -1,
+     "file": "clips/b41ed4d20ad0.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "In US healthcare, the **hospital is the party palace** (institutional claim), and the **doctor is the photographer** (professional claim).",
+     "say": "In U S healthcare, the hospital is the party palace (institutional claim), and the doctor is the photographer (professional claim).",
+     "focus": -1,
+     "file": "clips/0632dce3fb8e.mp3",
+     "seconds": 8.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "Doctor's work vs. hospital's building",
+   "lines": [
+    {
+     "raw": "The idea in one sentence: **a professional claim bills for a person's work, and an institutional claim bills for a facility's services.**",
+     "say": "The idea in one sentence: a professional claim bills for a person's work, and an institutional claim bills for a facility's services.",
+     "focus": -1,
+     "file": "clips/72b916266781.mp3",
+     "seconds": 8.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "Doctor's work vs. hospital's building",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Bills for. Professional claim: A person's work (doctor, nurse practitioner, therapist). Institutional claim: A facility's services (hospital, nursing home).",
+     "say": "Bills for. Professional claim: A person's work (doctor, nurse practitioner, therapist). Institutional claim: A facility's services (hospital, nursing home).",
+     "focus": 0,
+     "file": "clips/3aee13665a98.mp3",
+     "seconds": 10.675
+    },
+    {
+     "raw": "Paper form. Professional claim: **CMS-1500** (named after CMS, the Centers for Medicare & Medicaid Services, the US government's health agency). Institutional claim: **UB-04** (also called CMS-1450).",
+     "say": "Paper form. Professional claim: C M S 1500 (named after C M S, the Centers for Medicare and Medicaid Services, the U S government's health agency). Institutional claim: U B 04 (also called C M S 1450).",
+     "focus": 1,
+     "file": "clips/e8ec64a684da.mp3",
+     "seconds": 17.25
+    },
+    {
+     "raw": "Electronic format. Professional claim: **837P** (P = Professional). Institutional claim: **837I** (I = Institutional).",
+     "say": "Electronic format. Professional claim: 8 3 7 P (P = Professional). Institutional claim: 8 3 7 I (I = Institutional).",
+     "focus": 2,
+     "file": "clips/c742b78cf1d5.mp3",
+     "seconds": 10.9
+    },
+    {
+     "raw": "Example. Professional claim: The ER doctor's fee for examining the patient. Institutional claim: The ER room, nurses, X-ray machine, supplies.",
+     "say": "Example. Professional claim: The E R doctor's fee for examining the patient. Institutional claim: The E R room, nurses, X-ray machine, supplies.",
+     "focus": 3,
+     "file": "clips/1bf9acb38d9c.mp3",
+     "seconds": 10.8
+    },
+    {
+     "raw": "Often called. Professional claim: \"Doctor claim\", \"physician claim\". Institutional claim: \"Facility claim\", \"hospital claim\".",
+     "say": "Often called. Professional claim: \"Doctor claim\", \"physician claim\". Institutional claim: \"Facility claim\", \"hospital claim\".",
+     "focus": 4,
+     "file": "clips/1346d4bf1147.mp3",
+     "seconds": 8.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "",
+   "lines": [
+    {
+     "raw": "One ER visit, two claims.",
+     "say": "One E R visit, two claims.",
+     "focus": -1,
+     "file": "clips/55f936e2091c.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "One ER visit, two claims",
+   "lines": [
+    {
+     "raw": "In Nepal: A night in the emergency room in Kathmandu.",
+     "say": "In Nepal: A night in the emergency room in Kathmandu.",
+     "focus": -1,
+     "file": "clips/1347ce09c045.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram falls off his scooter and hurts his wrist.",
+     "say": "Ram falls off his scooter and hurts his wrist.",
+     "focus": 0,
+     "file": "clips/1900977976ce.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "He goes to a private hospital's **emergency** at night.",
+     "say": "He goes to a private hospital's emergency at night.",
+     "focus": 0,
+     "file": "clips/e45d1175cc90.mp3",
+     "seconds": 3.525
+    },
+    {
+     "raw": "He gets **one final bill**, but it lists separate items: **emergency charge**, **doctor fee**, **X-ray**, **plaster**.",
+     "say": "He gets one final bill, but it lists separate items: emergency charge, doctor fee, X-ray, plaster.",
+     "focus": 1,
+     "file": "clips/ff6f903d1427.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "He pays at the counter, then sends the bill to his insurer to be reimbursed.",
+     "say": "He pays at the counter, then sends the bill to his insurer to be reimbursed.",
+     "focus": 2,
+     "file": "clips/92818a2668bd.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "Nepal combines everything in one bill.",
+     "say": "Nepal combines everything in one bill.",
+     "focus": 3,
+     "file": "clips/c64b3501c255.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "The US splits the doctor's fee and the hospital's charges into different claims.",
+     "say": "The U S splits the doctor's fee and the hospital's charges into different claims.",
+     "focus": 3,
+     "file": "clips/7cd753c83569.mp3",
+     "seconds": 5.325
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 4,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita has the same fall and goes to an SSF-listed hospital's emergency.",
+     "say": "Sita has the same fall and goes to an S S F listed hospital's emergency.",
+     "focus": 4,
+     "file": "clips/06ae66491755.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "The hospital sends SSF **one claim** for the whole visit: emergency charge, doctor, X-ray and plaster.",
+     "say": "The hospital sends S S F one claim for the whole visit: emergency charge, doctor, X-ray and plaster.",
+     "focus": 5,
+     "file": "clips/d718a428fd64.mp3",
+     "seconds": 7.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "One ER visit, two claims",
+   "lines": [
+    {
+     "raw": "In the US: Emily's ER visit creates two claims.",
+     "say": "In the U S: Emily's E R visit creates two claims.",
+     "focus": -1,
+     "file": "clips/37f68af3ebf1.mp3",
+     "seconds": 4.025
+    },
+    {
+     "raw": "Emily twists her wrist and goes to the **emergency room (ER)** at Lakeside General Hospital.",
+     "say": "Emily twists her wrist and goes to the emergency room (E R) at Lakeside General Hospital.",
+     "focus": 0,
+     "file": "clips/f717df2f3cfd.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "She is X-rayed, splinted and sent home the same night.",
+     "say": "She is X-rayed, splinted and sent home the same night.",
+     "focus": 0,
+     "file": "clips/83e1ee994709.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "**Hospital claim → UB-04 / 837I**: the ER room and nursing, the X-ray picture, the splint.",
+     "say": "Hospital claim to U B 04 or 8 3 7 I: the E R room and nursing, the X-ray picture, the splint.",
+     "focus": 1,
+     "file": "clips/fa4e153e0c3e.mp3",
+     "seconds": 8.375
+    },
+    {
+     "raw": "Billing provider: Lakeside General Hospital.",
+     "say": "Billing provider: Lakeside General Hospital.",
+     "focus": 1,
+     "file": "clips/8c7aa436e25b.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "**Doctor claim → CMS-1500 / 837P**: the ER doctor's examination.",
+     "say": "Doctor claim to C M S 1500 or 8 3 7 P: the E R doctor's examination.",
+     "focus": 2,
+     "file": "clips/b9676423b63b.mp3",
+     "seconds": 6.95
+    },
+    {
+     "raw": "Billing provider: the ER doctors' group, not the hospital.",
+     "say": "Billing provider: the E R doctors' group, not the hospital.",
+     "focus": 2,
+     "file": "clips/f8f32f18e16c.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "Both go to the same insurance company, often on different days.",
+     "say": "Both go to the same insurance company, often on different days.",
+     "focus": 3,
+     "file": "clips/d0cb5485a342.mp3",
+     "seconds": 4.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "One ER visit, two claims",
+   "lines": [
+    {
+     "raw": "Emily's ER visit as two claims.",
+     "say": "Emily's E R visit as two claims.",
+     "focus": -1,
+     "file": "clips/4f69b7125cea.mp3",
+     "seconds": 2.75
+    },
+    {
+     "raw": "Claim type. Claim 1: hospital: Institutional. Claim 2: ER doctor: Professional.",
+     "say": "Claim type. Claim 1: hospital: Institutional. Claim 2: E R doctor: Professional.",
+     "focus": 0,
+     "file": "clips/8056a7e17f8b.mp3",
+     "seconds": 6.35
+    },
+    {
+     "raw": "Form. Claim 1: hospital: UB-04 / 837I. Claim 2: ER doctor: CMS-1500 / 837P.",
+     "say": "Form. Claim 1: hospital: U B 04 or 8 3 7 I. Claim 2: E R doctor: C M S 1500 or 8 3 7 P.",
+     "focus": 1,
+     "file": "clips/77344fd18780.mp3",
+     "seconds": 11.175
+    },
+    {
+     "raw": "Who gets paid. Claim 1: hospital: Lakeside General Hospital. Claim 2: ER doctor: Lakeside Emergency Physicians (the doctors' group).",
+     "say": "Who gets paid. Claim 1: hospital: Lakeside General Hospital. Claim 2: E R doctor: Lakeside Emergency Physicians (the doctors' group).",
+     "focus": 2,
+     "file": "clips/9d2b9e1880e3.mp3",
+     "seconds": 10.35
+    },
+    {
+     "raw": "What it bills. Claim 1: hospital: ER room, nursing, X-ray picture, splint. Claim 2: ER doctor: The doctor's examination and treatment.",
+     "say": "What it bills. Claim 1: hospital: E R room, nursing, X-ray picture, splint. Claim 2: E R doctor: The doctor's examination and treatment.",
+     "focus": 3,
+     "file": "clips/4d2dd83db500.mp3",
+     "seconds": 10.7
+    },
+    {
+     "raw": "Billed. Claim 1: hospital: $1,400. Claim 2: ER doctor: $350.",
+     "say": "Billed. Claim 1: hospital: 1400 dollars. Claim 2: E R doctor: 350 dollars.",
+     "focus": 4,
+     "file": "clips/5b54e0160fb1.mp3",
+     "seconds": 7.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "One ER visit, two claims",
+   "lines": [
+    {
+     "raw": "Common beginner mistake.",
+     "say": "Common beginner mistake.",
+     "focus": -1,
+     "file": "clips/690a8ee2ff47.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "One visit can produce several claims from different providers.",
+     "say": "One visit can produce several claims from different providers.",
+     "focus": -1,
+     "file": "clips/3a215e116ace.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "A hospital stay with surgery often makes three or more: the hospital, the surgeon and the anaesthesiologist.",
+     "say": "A hospital stay with surgery often makes three or more: the hospital, the surgeon and the anaesthesiologist.",
+     "focus": -1,
+     "file": "clips/07cf7fa9978a.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "If you want the full cost of Emily's ER visit, you must add up the hospital claim **and** the doctor claim for that date.",
+     "say": "If you want the full cost of Emily's E R visit, you must add up the hospital claim and the doctor claim for that date.",
+     "focus": -1,
+     "file": "clips/b0a163d3ba58.mp3",
+     "seconds": 7.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Inpatient vs. outpatient.",
+     "say": "Inpatient versus outpatient.",
+     "focus": -1,
+     "file": "clips/a2d4d909db0f.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Inpatient vs. outpatient",
+   "lines": [
+    {
+     "raw": "Inpatient.",
+     "say": "Inpatient.",
+     "focus": 0,
+     "file": "clips/697e415f42dd.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "The patient is formally **admitted** and stays overnight (usually at least one night).",
+     "say": "The patient is formally admitted and stays overnight (usually at least one night).",
+     "focus": 0,
+     "file": "clips/d56a8c2dc0b4.mp3",
+     "seconds": 5.3
+    },
+    {
+     "raw": "In Nepal: being \"admitted to the ward\" or \"bharna\".",
+     "say": "In Nepal: being \"admitted to the ward\" or \"bharna\".",
+     "focus": 0,
+     "file": "clips/9262bbfd9f78.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "Outpatient.",
+     "say": "Outpatient.",
+     "focus": 1,
+     "file": "clips/be386a318741.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "The patient comes and goes without being admitted.",
+     "say": "The patient comes and goes without being admitted.",
+     "focus": 1,
+     "file": "clips/f3eb71f42fce.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "In Nepal: **OPD** visits, day-care procedures, X-rays, tests.",
+     "say": "In Nepal: O P D visits, day-care procedures, X-rays, tests.",
+     "focus": 1,
+     "file": "clips/7d0c6e5eb5b4.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Emily's ER visit is outpatient: she went home the same night.",
+     "say": "Emily's E R visit is outpatient: she went home the same night.",
+     "focus": 1,
+     "file": "clips/0792aa133187.mp3",
+     "seconds": 4.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Inpatient vs. outpatient",
+   "lines": [
+    {
+     "raw": "Common claim categories you will see in data.",
+     "say": "Common claim categories you will see in data.",
+     "focus": -1,
+     "file": "clips/72740bd31507.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Inpatient facility. Form: UB-04 / 837I. Example: Hospital stay for surgery, childbirth, pneumonia.",
+     "say": "Inpatient facility. Form: U B 04 or 8 3 7 I. Example: Hospital stay for surgery, childbirth, pneumonia.",
+     "focus": 0,
+     "file": "clips/4ba35eaa30f2.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "Outpatient facility. Form: UB-04 / 837I. Example: Hospital ER visit, day surgery, CT scan at hospital.",
+     "say": "Outpatient facility. Form: U B 04 or 8 3 7 I. Example: Hospital E R visit, day surgery, C T scan at hospital.",
+     "focus": 1,
+     "file": "clips/a0d1b07c08ef.mp3",
+     "seconds": 10.875
+    },
+    {
+     "raw": "Professional. Form: CMS-1500 / 837P. Example: Doctor visit, surgeon fee, physiotherapy session.",
+     "say": "Professional. Form: C M S 1500 or 8 3 7 P. Example: Doctor visit, surgeon fee, physiotherapy session.",
+     "focus": 2,
+     "file": "clips/098b7aa71b6c.mp3",
+     "seconds": 9.525
+    },
+    {
+     "raw": "Pharmacy. Form: NCPDP (separate format). Example: Medicines from a pharmacy (see the Pharmacy course).",
+     "say": "Pharmacy. Form: N C P D P (separate format). Example: Medicines from a pharmacy (see the Pharmacy course).",
+     "focus": 3,
+     "file": "clips/bec857a9f0f2.mp3",
+     "seconds": 8.175
+    },
+    {
+     "raw": "Other. Form: Varies. Example: Ambulance, wheelchair, dental, vision.",
+     "say": "Other. Form: Varies. Example: Ambulance, wheelchair, dental, vision.",
+     "focus": 4,
+     "file": "clips/65dce1b3cbb9.mp3",
+     "seconds": 5.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Which fields belong to which claim type?",
+     "say": "Which fields belong to which claim type?",
+     "focus": -1,
+     "file": "clips/a68d11364ac1.mp3",
+     "seconds": 2.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Which fields belong to which claim type?",
+   "lines": [
+    {
+     "raw": "Most fields appear on both claim types: member, claim number, billing provider, diagnoses, procedure codes, dates and amounts.",
+     "say": "Most fields appear on both claim types: member, claim number, billing provider, diagnoses, procedure codes, dates and amounts.",
+     "focus": -1,
+     "file": "clips/e7fc4e038827.mp3",
+     "seconds": 8.725
+    },
+    {
+     "raw": "A few appear on **only one** type.",
+     "say": "A few appear on only one type.",
+     "focus": -1,
+     "file": "clips/2ba0a120983f.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "You do not need to know these fields yet; later lessons explain each one.",
+     "say": "You do not need to know these fields yet; later lessons explain each one.",
+     "focus": -1,
+     "file": "clips/747c26c911f1.mp3",
+     "seconds": 4.625
+    },
+    {
+     "raw": "Just notice that the two types are shaped differently.",
+     "say": "Just notice that the two types are shaped differently.",
+     "focus": -1,
+     "file": "clips/f74495bc8a56.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Which fields belong to which claim type?",
+   "lines": [
+    {
+     "raw": "Side by side: fields that only one claim type has.",
+     "say": "Side by side: fields that only one claim type has.",
+     "focus": -1,
+     "file": "clips/1142135deb3f.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "**Type of Bill**: what kind of facility bill this is, e.g. hospital inpatient (lesson 9). Professional only (CMS-1500): **Place of Service**: where the doctor gave the care, e.g. office or ER (lesson 9).",
+     "say": "Type of Bill: what kind of facility bill this is, for example hospital inpatient (lesson 9). Professional only (C M S 1500): Place of Service: where the doctor gave the care, for example office or E R (lesson 9).",
+     "focus": 0,
+     "file": "clips/5e7e05e7b80b.mp3",
+     "seconds": 15.375
+    },
+    {
+     "raw": "**Revenue code** on each line: which hospital department the charge belongs to (lesson 9). Professional only (CMS-1500): **Diagnosis pointer** on each line: which diagnosis supports that line (lesson 5).",
+     "say": "Revenue code on each line: which hospital department the charge belongs to (lesson 9). Professional only (C M S 1500): Diagnosis pointer on each line: which diagnosis supports that line (lesson 5).",
+     "focus": 1,
+     "file": "clips/555e4182a5cf.mp3",
+     "seconds": 15.05
+    },
+    {
+     "raw": "**Admission and discharge dates** for inpatient stays (lesson 7). Professional only (CMS-1500): A **rendering provider** filled on every line, naming the doctor who did the work (on hospital claims it is often empty) (lesson 8).",
+     "say": "Admission and discharge dates for inpatient stays (lesson 7). Professional only (C M S 1500): A rendering provider filled on every line, naming the doctor who did the work (on hospital claims it is often empty) (lesson 8).",
+     "focus": 2,
+     "file": "clips/200622e39f53.mp3",
+     "seconds": 15.975
+    },
+    {
+     "raw": "**Admitting diagnosis** and **Present on Admission** flags for inpatient stays (lesson 5).",
+     "say": "Admitting diagnosis and Present on Admission flags for inpatient stays (lesson 5).",
+     "focus": 3,
+     "file": "clips/4752684e2d77.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "**Attending provider**: the main doctor responsible for a hospital stay (lesson 8).",
+     "say": "Attending provider: the main doctor responsible for a hospital stay (lesson 8).",
+     "focus": 4,
+     "file": "clips/4de45c3a5ebe.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "**ICD-10-PCS** procedure codes for inpatient stays (lesson 6).",
+     "say": "I C D 10-PCS procedure codes for inpatient stays (lesson 6).",
+     "focus": 5,
+     "file": "clips/95868e788c2f.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "**DRG**: the package group for an inpatient stay (lesson 10).",
+     "say": "D R G: the package group for an inpatient stay (lesson 10).",
+     "focus": 6,
+     "file": "clips/0ecbb3d517bd.mp3",
+     "seconds": 4.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Which fields belong to which claim type?",
+   "lines": [
+    {
+     "raw": "Why this matters for data.",
+     "say": "Why this matters for data.",
+     "focus": -1,
+     "file": "clips/c8f083c01ae7.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Most data teams load both types into **one claim table** with a `claim_type` column (Institutional / Professional, sometimes stored as `I` / `P`).",
+     "say": "Most data teams load both types into one claim table with a claim_type column (Institutional or Professional, sometimes stored as I or P).",
+     "focus": -1,
+     "file": "clips/51999b2e0633.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "The fields that do not apply to a row are left empty (**NULL**).",
+     "say": "The fields that do not apply to a row are left empty (N U L L).",
+     "focus": -1,
+     "file": "clips/4ebad70304ef.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "Always filter or group on `claim_type` before comparing hospitals with doctors, or you will mix apples and oranges.",
+     "say": "Always filter or group on claim_type before comparing hospitals with doctors, or you will mix apples and oranges.",
+     "focus": -1,
+     "file": "clips/45f476af787e.mp3",
+     "seconds": 7.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Paper forms and electronic files.",
+     "say": "Paper forms and electronic files.",
+     "focus": -1,
+     "file": "clips/8caf7e02e16a.mp3",
+     "seconds": 2.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Paper forms and electronic files",
+   "lines": [
+    {
+     "raw": "The **CMS-1500** and **UB-04** are paper forms with numbered boxes.",
+     "say": "The C M S 1500 and U B 04 are paper forms with numbered boxes.",
+     "focus": -1,
+     "file": "clips/a5b11100af9c.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "Today, almost all claims are sent **electronically** as text files in a format called **X12 837**.",
+     "say": "Today, almost all claims are sent electronically as text files in a format called X12 8 37.",
+     "focus": -1,
+     "file": "clips/a86ed5dba741.mp3",
+     "seconds": 7.525
+    },
+    {
+     "raw": "The boxes on the paper form map to fields in the file.",
+     "say": "The boxes on the paper form map to fields in the file.",
+     "focus": -1,
+     "file": "clips/450663368828.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "How these standard files work is covered in the Interoperability course.",
+     "say": "How these standard files work is covered in the Interoperability course.",
+     "focus": -1,
+     "file": "clips/fb13946285b3.mp3",
+     "seconds": 4.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Paper forms and electronic files",
+   "lines": [
+    {
+     "raw": "Try it yourself.",
+     "say": "Try it yourself.",
+     "focus": -1,
+     "file": "clips/23cd2ae663a4.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "The **Try It Yourself** section shows you a real-looking CMS-1500 form and the 837P file it becomes.",
+     "say": "The Try It Yourself section shows you a real-looking C M S 1500 form and the 8 3 7 P file it becomes.",
+     "focus": -1,
+     "file": "clips/f0a406320603.mp3",
+     "seconds": 8.525
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "**Professional** claims bill for a person's work: CMS-1500 on paper, 837P electronically.",
+     "say": "Professional claims bill for a person's work: C M S 1500 on paper, 8 3 7 P electronically.",
+     "focus": 0,
+     "file": "clips/d8c07f3a50a7.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "**Institutional** claims bill for a facility: UB-04 on paper, 837I electronically.",
+     "say": "Institutional claims bill for a facility: U B 04 on paper, 8 3 7 I electronically.",
+     "focus": 1,
+     "file": "clips/39a21d44125a.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "One ER visit usually creates a hospital claim plus a doctor claim; a hospital stay creates even more.",
+     "say": "One E R visit usually creates a hospital claim plus a doctor claim; a hospital stay creates even more.",
+     "focus": 2,
+     "file": "clips/c8f0774262a7.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Some fields exist on only one type (Type of Bill and revenue codes on institutional; Place of Service on professional).",
+     "say": "Some fields exist on only one type (Type of Bill and revenue codes on institutional; Place of Service on professional).",
+     "focus": 3,
+     "file": "clips/d26f5902b34b.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "In a combined table they are NULL on the other type.",
+     "say": "In a combined table they are N U L L on the other type.",
+     "focus": 3,
+     "file": "clips/07fc6fae891f.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "Inpatient = admitted overnight.",
+     "say": "Inpatient = admitted overnight.",
+     "focus": 4,
+     "file": "clips/35edfb1ba2af.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Outpatient = not admitted.",
+     "say": "Outpatient = not admitted.",
+     "focus": 4,
+     "file": "clips/9d1dbae35bc7.mp3",
+     "seconds": 2.625
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

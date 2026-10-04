@@ -1,0 +1,1233 @@
+{
+ "courseId": "provider",
+ "lessonId": "provider-identifiers",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: Provider IDs: NPI, TIN, Taxonomy and More.",
+     "say": "Lesson 3: Provider I D's: N P I, T I N, Taxonomy and More.",
+     "focus": -1,
+     "file": "clips/bbc16981de0c.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "One doctor, many numbers.",
+     "say": "One doctor, many numbers.",
+     "focus": -1,
+     "file": "clips/523f19e5826c.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Learn what each one is for and how to check an NPI by hand.",
+     "say": "Learn what each one is for and how to check an N P I by hand.",
+     "focus": -1,
+     "file": "clips/dbdef53e0b07.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read an NPI and check its last digit with the Luhn method.",
+     "say": "Read an N P I and check its last digit with the Luhn method.",
+     "focus": 0,
+     "file": "clips/d88a850160ea.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Explain the difference between an NPI and a TIN.",
+     "say": "Explain the difference between an N P I and a T I N.",
+     "focus": 1,
+     "file": "clips/4c01ee1bdecc.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Read a taxonomy code like 207Q00000X.",
+     "say": "Read a taxonomy code like 2 0 7 Q 0 0 0 0 0 X.",
+     "focus": 2,
+     "file": "clips/dff3ab2e14af.mp3",
+     "seconds": 6.45
+    },
+    {
+     "raw": "Know what state licences, DEA numbers, PTANs and CCNs are.",
+     "say": "Know what state licences, D E A numbers, P T A N's and C C N's are.",
+     "focus": 3,
+     "file": "clips/4bc1a67810fe.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "Look a provider up in the public NPPES NPI Registry.",
+     "say": "Look a provider up in the public N P P E S N P I Registry.",
+     "focus": 4,
+     "file": "clips/8914a991ae0f.mp3",
+     "seconds": 5.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Why so many numbers?",
+     "say": "Why so many numbers?",
+     "focus": -1,
+     "file": "clips/cb38150998d2.mp3",
+     "seconds": 1.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Why so many numbers?",
+   "lines": [
+    {
+     "raw": "A person in Nepal has a citizenship number, a PAN, maybe a passport number and a driving licence number.",
+     "say": "A person in Nepal has a citizenship number, a P A N, maybe a passport number and a driving licence number.",
+     "focus": -1,
+     "file": "clips/674f35436bac.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Each is given by a different office for a different purpose.",
+     "say": "Each is given by a different office for a different purpose.",
+     "focus": -1,
+     "file": "clips/7c3fa2e307d5.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "US providers are the same: each ID answers a different question.",
+     "say": "U S providers are the same: each I D answers a different question.",
+     "focus": -1,
+     "file": "clips/5ae29ac511eb.mp3",
+     "seconds": 4.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Why so many numbers?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**NPI**. Question it answers: Which provider is this? Who gives it: NPPES, for CMS. Nepal comparison: NMC registration number.",
+     "say": "N P I. Question it answers: Which provider is this? Who gives it: N P P E S, for C M S. Nepal comparison: N M C registration number.",
+     "focus": 0,
+     "file": "clips/a1bfdfeb7c94.mp3",
+     "seconds": 11.55
+    },
+    {
+     "raw": "**TIN** (often an **EIN**). Question it answers: Which business gets the money and pays tax? Who gives it: IRS (the US tax office). Nepal comparison: PAN from the Inland Revenue Department.",
+     "say": "T I N (often an E I N). Question it answers: Which business gets the money and pays tax? Who gives it: I R S (the U S tax office). Nepal comparison: P A N from the Inland Revenue Department.",
+     "focus": 1,
+     "file": "clips/551576c107b5.mp3",
+     "seconds": 14.15
+    },
+    {
+     "raw": "**Taxonomy code**. Question it answers: What kind of provider, which specialty? Who gives it: Chosen from the NUCC code list. Nepal comparison: Specialty on the doctor's nameboard.",
+     "say": "Taxonomy code. Question it answers: What kind of provider, which specialty? Who gives it: Chosen from the N U C C code list. Nepal comparison: Specialty on the doctor's nameboard.",
+     "focus": 2,
+     "file": "clips/4d0dec0872b3.mp3",
+     "seconds": 13.1
+    },
+    {
+     "raw": "**State licence**. Question it answers: Is this person allowed to practise in this state? Who gives it: State medical board. Nepal comparison: NMC licence to practise.",
+     "say": "State licence. Question it answers: Is this person allowed to practise in this state? Who gives it: State medical board. Nepal comparison: N M C licence to practise.",
+     "focus": 3,
+     "file": "clips/14b4ae1a9c25.mp3",
+     "seconds": 11.95
+    },
+    {
+     "raw": "**DEA number**. Question it answers: May they prescribe controlled drugs? Who gives it: Drug Enforcement Administration. Nepal comparison: Special permission for strong medicines.",
+     "say": "D E A number. Question it answers: May they prescribe controlled drugs? Who gives it: Drug Enforcement Administration. Nepal comparison: Special permission for strong medicines.",
+     "focus": 4,
+     "file": "clips/749ad540d48d.mp3",
+     "seconds": 12.825
+    },
+    {
+     "raw": "**PTAN**, **CCN**. Question it answers: Is this provider enrolled with / certified by Medicare? Who gives it: Medicare (CMS and its contractors). Nepal comparison: Being listed with SSF.",
+     "say": "P T A N, C C N. Question it answers: Is this provider enrolled with or certified by Medicare? Who gives it: Medicare (C M S and its contractors). Nepal comparison: Being listed with S S F.",
+     "focus": 5,
+     "file": "clips/c52315b69d1c.mp3",
+     "seconds": 15.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "NPI: the national provider ID.",
+     "say": "N P I: the national provider I D.",
+     "focus": -1,
+     "file": "clips/f9a0963b047a.mp3",
+     "seconds": 3.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "NPI: the national provider ID",
+   "lines": [
+    {
+     "raw": "The **NPI** (National Provider Identifier) is a **10-digit** number.",
+     "say": "The N P I (National Provider Identifier) is a 10-digit number.",
+     "focus": -1,
+     "file": "clips/958f6c5c4d4c.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "US law (HIPAA) requires it on standard electronic claims, so every claim you see in data uses NPIs.",
+     "say": "U S law (HIPAA) requires it on standard electronic claims, so every claim you see in data uses N P I's.",
+     "focus": -1,
+     "file": "clips/6ef5c58f383f.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Providers apply once through **NPPES** (National Plan and Provider Enumeration System).",
+     "say": "Providers apply once through N P P E S (National Plan and Provider Enumeration System).",
+     "focus": -1,
+     "file": "clips/82d39fca3c4d.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "It is free.",
+     "say": "It is free.",
+     "focus": -1,
+     "file": "clips/4480e967af91.mp3",
+     "seconds": 1.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "NPI: the national provider ID",
+   "lines": [
+    {
+     "raw": "Lakeside General Hospital's NPI.",
+     "say": "Lakeside General Hospital's N P I.",
+     "focus": -1,
+     "file": "clips/c9fdde3975dd.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "123456789: The first 9 digits: the provider's number.",
+     "say": "123456789: The first 9 digits: the provider's number.",
+     "focus": 0,
+     "file": "clips/a23d3a964c49.mp3",
+     "seconds": 8.425
+    },
+    {
+     "raw": "It carries **no meaning**: not the state, not the specialty, not the type.",
+     "say": "It carries no meaning: not the state, not the specialty, not the type.",
+     "focus": 0,
+     "file": "clips/716e49005021.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "3: The **check digit**, calculated from the first 9 digits.",
+     "say": "3: The check digit, calculated from the first 9 digits.",
+     "focus": 1,
+     "file": "clips/577e457ff9fa.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "It catches typing mistakes.",
+     "say": "It catches typing mistakes.",
+     "focus": 1,
+     "file": "clips/aff936f275ba.mp3",
+     "seconds": 2.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "NPI: the national provider ID",
+   "lines": [
+    {
+     "raw": "Myth: \"NPIs starting with 1 are Type 1\".",
+     "say": "Myth: \"N P I's starting with 1 are Type 1\".",
+     "focus": -1,
+     "file": "clips/8634e7f41310.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "NPIs today start with **1** or **2**, but the first digit does **not** tell you Type 1 or Type 2.",
+     "say": "N P I's today start with 1 or 2, but the first digit does not tell you Type 1 or Type 2.",
+     "focus": -1,
+     "file": "clips/99145a510963.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "Lakeside General Hospital is an organization (Type 2) and its NPI starts with 1.",
+     "say": "Lakeside General Hospital is an organization (Type 2) and its N P I starts with 1.",
+     "focus": -1,
+     "file": "clips/9b0e1133eaf1.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "To know the type, look up the **entity type** field in NPPES.",
+     "say": "To know the type, look up the entity type field in N P P E S.",
+     "focus": -1,
+     "file": "clips/754cbd2c0ebb.mp3",
+     "seconds": 4.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Checking an NPI by hand (the Luhn check).",
+     "say": "Checking an N P I by hand (the Luhn check).",
+     "focus": -1,
+     "file": "clips/1d1b4c35a931.mp3",
+     "seconds": 3.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Checking an NPI by hand (the Luhn check)",
+   "lines": [
+    {
+     "raw": "The last digit is calculated with the **Luhn formula**, the same trick used on credit card numbers.",
+     "say": "The last digit is calculated with the Luhn formula, the same trick used on credit card numbers.",
+     "focus": -1,
+     "file": "clips/bdd0e9c4a0cf.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "Officially the NPI is treated as if it starts with the prefix `80840` (`80` = health, `840` = the USA).",
+     "say": "Officially the N P I is treated as if it starts with the prefix 8 0 8 4 0 (80 = health, 840 = the U S A).",
+     "focus": -1,
+     "file": "clips/00c1d81914d1.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "You do not need to write the prefix: it always adds exactly **24** to the total, so we simply add 24.",
+     "say": "You do not need to write the prefix: it always adds exactly 24 to the total, so we simply add 24.",
+     "focus": -1,
+     "file": "clips/8b66a1c43173.mp3",
+     "seconds": 7.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Checking an NPI by hand (the Luhn check)",
+   "lines": [
+    {
+     "raw": "Step 1: Take the first 9 digits.",
+     "say": "Step 1: Take the first 9 digits.",
+     "focus": 0,
+     "file": "clips/a86f21a9ce95.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "`1 2 3 4 5 6 7 8 9`",
+     "say": "1 2 3 4 5 6 7 8 9",
+     "focus": 0,
+     "file": "clips/93e64a78220e.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "Step 2: Double every other digit, starting from the right.",
+     "say": "Step 2: Double every other digit, starting from the right.",
+     "focus": 1,
+     "file": "clips/e7356cadd0fe.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "Double the 9, 7, 5, 3 and 1: they become 18, 14, 10, 6 and 2.",
+     "say": "Double the 9, 7, 5, 3 and 1: they become 18, 14, 10, 6 and 2.",
+     "focus": 1,
+     "file": "clips/37bedaa1239d.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "Step 3: Two-digit results: add the digits.",
+     "say": "Step 3: Two-digit results: add the digits.",
+     "focus": 2,
+     "file": "clips/954344906e86.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "18 → 1+8 = 9, 14 → 5, 10 → 1.",
+     "say": "18 to 1+8 = 9, 14 to 5, 10 to 1.",
+     "focus": 2,
+     "file": "clips/c5df5c9378f5.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "So the doubled group is 9 + 5 + 1 + 6 + 2 = **23**.",
+     "say": "So the doubled group is 9 and 5 and 1 and 6 and 2 = 23.",
+     "focus": 2,
+     "file": "clips/d2ffb9aadb82.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "Step 4: Add the digits you did not double.",
+     "say": "Step 4: Add the digits you did not double.",
+     "focus": 3,
+     "file": "clips/a39a913880f6.mp3",
+     "seconds": 3.05
+    },
+    {
+     "raw": "2 + 4 + 6 + 8 = **20**.",
+     "say": "2 and 4 and 6 and 8 = 20.",
+     "focus": 3,
+     "file": "clips/bf2c199be6a6.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Running total: 23 + 20 = **43**.",
+     "say": "Running total: 23 and 20 = 43.",
+     "focus": 3,
+     "file": "clips/3c818b95a432.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Step 5: Add 24 for the 80840 prefix.",
+     "say": "Step 5: Add 24 for the 80840 prefix.",
+     "focus": 4,
+     "file": "clips/2ac738e4c01b.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "43 + 24 = **67**.",
+     "say": "43 and 24 = 67.",
+     "focus": 4,
+     "file": "clips/2a45b86a0087.mp3",
+     "seconds": 3.5
+    },
+    {
+     "raw": "Step 6: Round up to the next 10.",
+     "say": "Step 6: Round up to the next 10.",
+     "focus": 5,
+     "file": "clips/5394d680a1dd.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "The next multiple of 10 is 70.",
+     "say": "The next multiple of 10 is 70.",
+     "focus": 5,
+     "file": "clips/5eca11c95586.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "70 − 67 = **3**.",
+     "say": "70 − 67 = 3.",
+     "focus": 5,
+     "file": "clips/27e6900cfc2a.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "The check digit is 3, so the NPI is `1234567893` ✓",
+     "say": "The check digit is 3, so the N P I is 1 2 3 4 5 6 7 8 9 3 ✓",
+     "focus": 5,
+     "file": "clips/2ebc3908156d.mp3",
+     "seconds": 6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Checking an NPI by hand (the Luhn check)",
+   "lines": [
+    {
+     "raw": "Check digit.",
+     "say": "Check digit.",
+     "focus": -1,
+     "file": "clips/3a2fbbf791ad.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "check digit equals (10 − (total mod 10)) mod 10.",
+     "say": "check digit equals (10 − (total mod 10)) mod 10.",
+     "focus": 0,
+     "file": "clips/7e4b54d27214.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "For example: total equals 67 → 67 mod 10 equals 7 → 10 − 7 equals 3.",
+     "say": "For example: total equals 67 to 67 mod 10 equals 7 to 10 − 7 equals 3.",
+     "focus": 1,
+     "file": "clips/8137aa72bf75.mp3",
+     "seconds": 7.975
+    },
+    {
+     "raw": "If the total already ends in 0, the check digit is 0.",
+     "say": "If the total already ends in 0, the check digit is 0.",
+     "focus": 1,
+     "file": "clips/0e9402bd4257.mp3",
+     "seconds": 4.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Checking an NPI by hand (the Luhn check)",
+   "lines": [
+    {
+     "raw": "What the check digit proves, and what it does not.",
+     "say": "What the check digit proves, and what it does not.",
+     "focus": -1,
+     "file": "clips/25f015d06499.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "A correct check digit only means the number is **well formed**.",
+     "say": "A correct check digit only means the number is well formed.",
+     "focus": -1,
+     "file": "clips/85bf629bb27d.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "It catches most single-digit typos and swapped neighbours.",
+     "say": "It catches most single-digit typos and swapped neighbours.",
+     "focus": -1,
+     "file": "clips/f057e1cd11a1.mp3",
+     "seconds": 3.95
+    },
+    {
+     "raw": "It does **not** prove the NPI was ever given to anyone.",
+     "say": "It does not prove the N P I was ever given to anyone.",
+     "focus": -1,
+     "file": "clips/b627abb4cb5a.mp3",
+     "seconds": 3.675
+    },
+    {
+     "raw": "For that, look it up in the **NPI Registry**.",
+     "say": "For that, look it up in the N P I Registry.",
+     "focus": -1,
+     "file": "clips/43cae6179e56.mp3",
+     "seconds": 3.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The NPPES NPI Registry.",
+     "say": "The N P P E S N P I Registry.",
+     "focus": -1,
+     "file": "clips/0ce957869993.mp3",
+     "seconds": 3.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "The NPPES NPI Registry",
+   "lines": [
+    {
+     "raw": "In the US: A public list anyone can search.",
+     "say": "In the U S: A public list anyone can search.",
+     "focus": -1,
+     "file": "clips/3754e9e4a854.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "CMS publishes the **NPI Registry** online for free.",
+     "say": "C M S publishes the N P I Registry online for free.",
+     "focus": 0,
+     "file": "clips/61b4685d4277.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Anyone can search by NPI, name or location.",
+     "say": "Anyone can search by N P I, name or location.",
+     "focus": 0,
+     "file": "clips/1ef35d82cd4d.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Each record shows the **entity type** (1 or 2), name, practice **address**, **taxonomy** codes, and the date the NPI was issued or last updated.",
+     "say": "Each record shows the entity type (1 or 2), name, practice address, taxonomy codes, and the date the N P I was issued or last updated.",
+     "focus": 1,
+     "file": "clips/bb36e999246a.mp3",
+     "seconds": 9.875
+    },
+    {
+     "raw": "CMS also offers the whole registry as a **downloadable file**, which insurers load into their provider master file.",
+     "say": "C M S also offers the whole registry as a downloadable file, which insurers load into their provider master file.",
+     "focus": 2,
+     "file": "clips/b46102aba5ce.mp3",
+     "seconds": 8.475
+    },
+    {
+     "raw": "Providers are expected to update their own NPPES record when details change, but many records are not kept current.",
+     "say": "Providers are expected to update their own N P P E S record when details change, but many records are not kept current.",
+     "focus": 3,
+     "file": "clips/12b534bb3f00.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "Treat addresses in NPPES as a good start, not as the truth.",
+     "say": "Treat addresses in N P P E S as a good start, not as the truth.",
+     "focus": 3,
+     "file": "clips/d9fd124679cd.mp3",
+     "seconds": 4.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "The NPPES NPI Registry",
+   "lines": [
+    {
+     "raw": "Looking up a provider in Nepal.",
+     "say": "Looking up a provider in Nepal.",
+     "focus": -1,
+     "file": "clips/748f00eb840a.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram can check a doctor's **NMC number** against the Nepal Medical Council's register of doctors.",
+     "say": "Ram can check a doctor's N M C number against the Nepal Medical Council's register of doctors.",
+     "focus": 0,
+     "file": "clips/a0178c76a401.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "His insurer can check the hospital's **PAN** on the receipt to make sure the bill is from a real, tax-registered business.",
+     "say": "His insurer can check the hospital's P A N on the receipt to make sure the bill is from a real, tax-registered business.",
+     "focus": 1,
+     "file": "clips/7a6c608a37fd.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita can check whether a hospital is on SSF's published list of listed hospitals before she goes.",
+     "say": "Sita can check whether a hospital is on SSF's published list of listed hospitals before she goes.",
+     "focus": 2,
+     "file": "clips/f344638396ee.mp3",
+     "seconds": 6.8
+    },
+    {
+     "raw": "This is the same idea as Emily checking her insurer's directory to find an in-network doctor.",
+     "say": "This is the same idea as Emily checking her insurer's directory to find an in-network doctor.",
+     "focus": 3,
+     "file": "clips/953b48497d4f.mp3",
+     "seconds": 6.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "TIN: the money ID.",
+     "say": "T I N: the money I D.",
+     "focus": -1,
+     "file": "clips/17884e6a8f5d.mp3",
+     "seconds": 2.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "TIN: the money ID",
+   "lines": [
+    {
+     "raw": "The **TIN** (Tax Identification Number) is **9 digits**, written `XX-XXXXXXX`.",
+     "say": "The T I N (Tax Identification Number) is 9 digits, written X X XXXXXXX.",
+     "focus": -1,
+     "file": "clips/5c1cdc3866f5.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "For a business it is an **EIN** (Employer Identification Number) from the IRS.",
+     "say": "For a business it is an E I N (Employer Identification Number) from the I R S.",
+     "focus": -1,
+     "file": "clips/bbdbac563d62.mp3",
+     "seconds": 5.95
+    },
+    {
+     "raw": "It tells the insurer **which business** receives the payment and gets a tax form for it at year end.",
+     "say": "It tells the insurer which business receives the payment and gets a tax form for it at year end.",
+     "focus": -1,
+     "file": "clips/cbfd1d8da3b8.mp3",
+     "seconds": 5.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "TIN: the money ID",
+   "lines": [
+    {
+     "raw": "Many NPIs, one TIN (all numbers here are made up).",
+     "say": "Many N P I's, one T I N (all numbers here are made up).",
+     "focus": -1,
+     "file": "clips/3e2ac0329048.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "1457382913. Name: Lakeside Surgical Group. Type: Type 2. TIN: 74-5550202.",
+     "say": "1457382913. Name: Lakeside Surgical Group. Type: Type 2. T I N: 74-5550202.",
+     "focus": 0,
+     "file": "clips/2d6fd0d058a5.mp3",
+     "seconds": 15.45
+    },
+    {
+     "raw": "1093817462. Name: Dr. Lee. Type: Type 1. TIN: 74-5550202 (paid through the group).",
+     "say": "1093817462. Name: Doctor Lee. Type: Type 1. T I N: 74-5550202 (paid through the group).",
+     "focus": 1,
+     "file": "clips/7ab740893ce5.mp3",
+     "seconds": 15.125
+    },
+    {
+     "raw": "1245987601. Name: Sunrise Family Clinic. Type: Type 2. TIN: 74-5550101.",
+     "say": "1245987601. Name: Sunrise Family Clinic. Type: Type 2. T I N: 74-5550101.",
+     "focus": 2,
+     "file": "clips/094a7f8418e1.mp3",
+     "seconds": 15.45
+    },
+    {
+     "raw": "1043827165. Name: Dr. Patel. Type: Type 1. TIN: 74-5550101 (paid through the clinic).",
+     "say": "1043827165. Name: Doctor Patel. Type: Type 1. T I N: 74-5550101 (paid through the clinic).",
+     "focus": 3,
+     "file": "clips/58f010b5ee5b.mp3",
+     "seconds": 15.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "TIN: the money ID",
+   "lines": [
+    {
+     "raw": "NPI vs. TIN in one line.",
+     "say": "N P I versus T I N in one line.",
+     "focus": -1,
+     "file": "clips/1d660b24340c.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "**NPI** = who the provider is.",
+     "say": "N P I = who the provider is.",
+     "focus": -1,
+     "file": "clips/4a89463ac91e.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "**TIN** = whose bank account the money goes to.",
+     "say": "T I N = whose bank account the money goes to.",
+     "focus": -1,
+     "file": "clips/6b182ce444ac.mp3",
+     "seconds": 3.85
+    },
+    {
+     "raw": "A group with 50 doctors has **one TIN** and **51 NPIs** (50 Type 1 plus the group's Type 2).",
+     "say": "A group with 50 doctors has one T I N and 51 N P I's (50 Type 1 plus the group's Type 2).",
+     "focus": -1,
+     "file": "clips/1083c66dbc9a.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "Insurers often sign contracts at the **TIN** level, so the TIN decides which contract applies.",
+     "say": "Insurers often sign contracts at the T I N level, so the T I N decides which contract applies.",
+     "focus": -1,
+     "file": "clips/a4090ca08bd8.mp3",
+     "seconds": 7.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Taxonomy codes: type and specialty.",
+     "say": "Taxonomy codes: type and specialty.",
+     "focus": -1,
+     "file": "clips/00a5c3a12dfd.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Taxonomy codes: type and specialty",
+   "lines": [
+    {
+     "raw": "A **taxonomy code** is a **10-character** code from the Health Care Provider Taxonomy list, kept by the **NUCC** (National Uniform Claim Committee).",
+     "say": "A taxonomy code is a 10-character code from the Health Care Provider Taxonomy list, kept by the N U C C (National Uniform Claim Committee).",
+     "focus": -1,
+     "file": "clips/ef3afa396ec3.mp3",
+     "seconds": 10.225
+    },
+    {
+     "raw": "Providers pick one or more when they apply for an NPI and mark one as **primary**.",
+     "say": "Providers pick one or more when they apply for an N P I and mark one as primary.",
+     "focus": -1,
+     "file": "clips/5b40fc958c9b.mp3",
+     "seconds": 5.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Taxonomy codes: type and specialty",
+   "lines": [
+    {
+     "raw": "Taxonomy code for a heart specialist.",
+     "say": "Taxonomy code for a heart specialist.",
+     "focus": -1,
+     "file": "clips/37c5dee324d8.mp3",
+     "seconds": 2.925
+    },
+    {
+     "raw": "207R: Internal Medicine (a kind of physician).",
+     "say": "2 0 7 R: Internal Medicine (a kind of physician).",
+     "focus": 0,
+     "file": "clips/499ba4a55fc5.mp3",
+     "seconds": 4.475
+    },
+    {
+     "raw": "C0000: Area of specialization: Cardiovascular Disease (cardiology).",
+     "say": "C 0 0 0 0: Area of specialization: Cardiovascular Disease (cardiology).",
+     "focus": 1,
+     "file": "clips/56bc3af7d654.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Zeros here (as in `207R00000X`) mean \"general, no narrower area\".",
+     "say": "Zeros here (as in 2 0 7 R 0 0 0 0 0 X) mean \"general, no narrower area\".",
+     "focus": 1,
+     "file": "clips/75dfdc6ec924.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "X: The last character of the code is always `X`.",
+     "say": "X: The last character of the code is always X.",
+     "focus": 2,
+     "file": "clips/033ab271d78e.mp3",
+     "seconds": 3.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Taxonomy codes: type and specialty",
+   "lines": [
+    {
+     "raw": "Common taxonomy codes.",
+     "say": "Common taxonomy codes.",
+     "focus": -1,
+     "file": "clips/53dd3bfddeeb.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "`207Q00000X`. Meaning: Family Medicine. Emily's providers: Dr. Patel.",
+     "say": "2 0 7 Q 0 0 0 0 0 X. Meaning: Family Medicine. Emily's providers: Doctor Patel.",
+     "focus": 0,
+     "file": "clips/fb740f1a09fc.mp3",
+     "seconds": 9.175
+    },
+    {
+     "raw": "`207R00000X`. Meaning: Internal Medicine. Emily's providers: -.",
+     "say": "2 0 7 R 0 0 0 0 0 X. Meaning: Internal Medicine. Emily's providers: -.",
+     "focus": 1,
+     "file": "clips/3bdb31ee8b60.mp3",
+     "seconds": 8.05
+    },
+    {
+     "raw": "`208000000X`. Meaning: Pediatrics. Emily's providers: -.",
+     "say": "2 0 8 0 0 0 0 0 0 X. Meaning: Pediatrics. Emily's providers: -.",
+     "focus": 2,
+     "file": "clips/5a27c0f9161d.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "`208600000X`. Meaning: Surgery (general surgeon). Emily's providers: Dr. Lee.",
+     "say": "2 0 8 6 0 0 0 0 0 X. Meaning: Surgery (general surgeon). Emily's providers: Doctor Lee.",
+     "focus": 3,
+     "file": "clips/dde1aa355310.mp3",
+     "seconds": 9.35
+    },
+    {
+     "raw": "`207L00000X`. Meaning: Anesthesiology. Emily's providers: Dr. Gomez.",
+     "say": "2 0 7 L 0 0 0 0 0 X. Meaning: Anesthesiology. Emily's providers: Doctor Gomez.",
+     "focus": 4,
+     "file": "clips/66c2200dad64.mp3",
+     "seconds": 9.25
+    },
+    {
+     "raw": "`207P00000X`. Meaning: Emergency Medicine. Emily's providers: -.",
+     "say": "2 0 7 P 0 0 0 0 0 X. Meaning: Emergency Medicine. Emily's providers: -.",
+     "focus": 5,
+     "file": "clips/25fc95fc657c.mp3",
+     "seconds": 8.375
+    },
+    {
+     "raw": "`363L00000X`. Meaning: Nurse Practitioner. Emily's providers: -.",
+     "say": "3 6 3 L 0 0 0 0 0 X. Meaning: Nurse Practitioner. Emily's providers: -.",
+     "focus": 6,
+     "file": "clips/e18d3181bd99.mp3",
+     "seconds": 7.9
+    },
+    {
+     "raw": "`282N00000X`. Meaning: General Acute Care Hospital. Emily's providers: Lakeside General Hospital.",
+     "say": "2 8 2 N 0 0 0 0 0 X. Meaning: General Acute Care Hospital. Emily's providers: Lakeside General Hospital.",
+     "focus": 7,
+     "file": "clips/00e1f59f47ad.mp3",
+     "seconds": 10.225
+    },
+    {
+     "raw": "`261QP2300X`. Meaning: Clinic/Center: Primary Care. Emily's providers: Sunrise Family Clinic.",
+     "say": "2 6 1 Q P 2 3 0 0 X. Meaning: Clinic/Center: Primary Care. Emily's providers: Sunrise Family Clinic.",
+     "focus": 8,
+     "file": "clips/a612ba3dd492.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "`193400000X`. Meaning: Single Specialty Group. Emily's providers: Lakeside Surgical Group.",
+     "say": "1 9 3 4 0 0 0 0 0 X. Meaning: Single Specialty Group. Emily's providers: Lakeside Surgical Group.",
+     "focus": 9,
+     "file": "clips/615245886714.mp3",
+     "seconds": 10
+    },
+    {
+     "raw": "`3336C0003X`. Meaning: Community/Retail Pharmacy. Emily's providers: Main Street Pharmacy.",
+     "say": "3 3 3 6 C 0 0 0 3 X. Meaning: Community/Retail Pharmacy. Emily's providers: Main Street Pharmacy.",
+     "focus": 10,
+     "file": "clips/e6e863a87c6b.mp3",
+     "seconds": 10.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Other IDs you will meet.",
+     "say": "Other I D's you will meet.",
+     "focus": -1,
+     "file": "clips/0f6d56e708d4.mp3",
+     "seconds": 2.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "Other IDs you will meet",
+   "lines": [
+    {
+     "raw": "State licence number.",
+     "say": "State licence number.",
+     "focus": 0,
+     "file": "clips/005d4590f462.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Given by each **state's medical board**.",
+     "say": "Given by each state's medical board.",
+     "focus": 0,
+     "file": "clips/3c238b705523.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "A doctor needs a licence in every state where she treats patients.",
+     "say": "A doctor needs a licence in every state where she treats patients.",
+     "focus": 0,
+     "file": "clips/005694be0eca.mp3",
+     "seconds": 4.3
+    },
+    {
+     "raw": "Dr. Patel has a Texas licence.",
+     "say": "Doctor Patel has a Texas licence.",
+     "focus": 0,
+     "file": "clips/0bb7ce8f68ff.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "Like an **NMC licence**, but per state.",
+     "say": "Like an N M C licence, but per state.",
+     "focus": 0,
+     "file": "clips/d2154e4a6e87.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "DEA number.",
+     "say": "D E A number.",
+     "focus": 1,
+     "file": "clips/71a1408309ec.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "**2 letters + 7 digits**.",
+     "say": "2 letters and 7 digits.",
+     "focus": 1,
+     "file": "clips/b112e01af060.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Needed to prescribe **controlled drugs** such as strong painkillers.",
+     "say": "Needed to prescribe controlled drugs such as strong painkillers.",
+     "focus": 1,
+     "file": "clips/b364cc6f4ae2.mp3",
+     "seconds": 4.325
+    },
+    {
+     "raw": "The Pharmacy course covers it too.",
+     "say": "The Pharmacy course covers it too.",
+     "focus": 1,
+     "file": "clips/5661dfdef681.mp3",
+     "seconds": 2.55
+    },
+    {
+     "raw": "PTAN.",
+     "say": "P T A N.",
+     "focus": 2,
+     "file": "clips/b46b0c53646d.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Provider Transaction Access Number.",
+     "say": "Provider Transaction Access Number.",
+     "focus": 2,
+     "file": "clips/80ac73ceabdc.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Given by Medicare's regional contractor after a provider **enrolls in Medicare**.",
+     "say": "Given by Medicare's regional contractor after a provider enrolls in Medicare.",
+     "focus": 2,
+     "file": "clips/41dfcbb9407f.mp3",
+     "seconds": 5.6
+    },
+    {
+     "raw": "Used mostly when talking to Medicare, not on claims to private insurers.",
+     "say": "Used mostly when talking to Medicare, not on claims to private insurers.",
+     "focus": 2,
+     "file": "clips/cad71d3e4c45.mp3",
+     "seconds": 5
+    },
+    {
+     "raw": "CCN.",
+     "say": "C C N.",
+     "focus": 3,
+     "file": "clips/cea7ca840533.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "CMS Certification Number: a **6-character** ID for facilities certified by Medicare, such as hospitals and nursing homes.",
+     "say": "C M S Certification Number: a 6-character I D for facilities certified by Medicare, such as hospitals and nursing homes.",
+     "focus": 3,
+     "file": "clips/b6a137398bfe.mp3",
+     "seconds": 9.225
+    },
+    {
+     "raw": "The first two characters show the state.",
+     "say": "The first two characters show the state.",
+     "focus": 3,
+     "file": "clips/6d4e186b254e.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Appears in public Medicare hospital data.",
+     "say": "Appears in public Medicare hospital data.",
+     "focus": 3,
+     "file": "clips/5228b9576b38.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Medicaid ID.",
+     "say": "Medicaid I D.",
+     "focus": 4,
+     "file": "clips/4dacfa019eda.mp3",
+     "seconds": 1.825
+    },
+    {
+     "raw": "Each state's Medicaid program gives its own provider ID to providers who join it.",
+     "say": "Each state's Medicaid program gives its own provider I D to providers who join it.",
+     "focus": 4,
+     "file": "clips/ede3ac17cfcf.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "NCPDP ID.",
+     "say": "N C P D P I D.",
+     "focus": 5,
+     "file": "clips/f3c57a89e8a2.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "7-digit ID for pharmacies, used in pharmacy claims alongside the pharmacy's NPI.",
+     "say": "7-digit I D for pharmacies, used in pharmacy claims alongside the pharmacy's N P I.",
+     "focus": 5,
+     "file": "clips/aedcbd40c89b.mp3",
+     "seconds": 6.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 25,
+   "section": "Other IDs you will meet",
+   "lines": [
+    {
+     "raw": "Made-up numbers.",
+     "say": "Made-up numbers.",
+     "focus": -1,
+     "file": "clips/4d0ff6168860.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "The NPIs, TINs and other IDs for Emily's providers in this course are invented for learning.",
+     "say": "The N P I's, T I N's and other I D's for Emily's providers in this course are invented for learning.",
+     "focus": -1,
+     "file": "clips/6b2d8dbbd1a5.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "`1234567893` is a well-known example NPI used in teaching material.",
+     "say": "1 2 3 4 5 6 7 8 9 3 is a well-known example N P I used in teaching material.",
+     "focus": -1,
+     "file": "clips/0ac404f19088.mp3",
+     "seconds": 7.625
+    },
+    {
+     "raw": "Do not look these providers up expecting real people.",
+     "say": "Do not look these providers up expecting real people.",
+     "focus": -1,
+     "file": "clips/446ecd8e2c9f.mp3",
+     "seconds": 3.775
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "NPI = 10 digits, no hidden meaning, last digit is a Luhn check digit (with the 80840 prefix, which adds 24).",
+     "say": "N P I = 10 digits, no hidden meaning, last digit is a Luhn check digit (with the 80840 prefix, which adds 24).",
+     "focus": 0,
+     "file": "clips/d33b240e7a51.mp3",
+     "seconds": 10.5
+    },
+    {
+     "raw": "A correct check digit means \"well formed\", not \"real\".",
+     "say": "A correct check digit means \"well formed\", not \"real\".",
+     "focus": 1,
+     "file": "clips/11b34abd050b.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "Confirm in the NPPES NPI Registry.",
+     "say": "Confirm in the N P P E S N P I Registry.",
+     "focus": 1,
+     "file": "clips/1a122e93d947.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "TIN (EIN) = 9-digit tax ID of the business that gets paid.",
+     "say": "T I N (E I N) = 9-digit tax I D of the business that gets paid.",
+     "focus": 2,
+     "file": "clips/6ca81c694e06.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Many NPIs can share one TIN.",
+     "say": "Many N P I's can share one T I N.",
+     "focus": 2,
+     "file": "clips/49f4b15a2311.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Taxonomy = 10-character type and specialty code, e.g. 207Q00000X Family Medicine.",
+     "say": "Taxonomy = 10-character type and specialty code, for example 2 0 7 Q 0 0 0 0 0 X Family Medicine.",
+     "focus": 3,
+     "file": "clips/a538b97284fa.mp3",
+     "seconds": 10.325
+    },
+    {
+     "raw": "State licence, DEA, PTAN, CCN, Medicaid ID and NCPDP ID each answer a different question.",
+     "say": "State licence, D E A, P T A N, C C N, Medicaid I D and N C P D P I D each answer a different question.",
+     "focus": 4,
+     "file": "clips/4ce0fd835ef1.mp3",
+     "seconds": 9.275
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

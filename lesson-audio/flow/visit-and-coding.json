@@ -1,0 +1,813 @@
+{
+ "courseId": "flow",
+ "lessonId": "visit-and-coding",
+ "lessonNumber": 3,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 3: The Visit & Medical Coding.",
+     "say": "Lesson 3: The Visit and Medical Coding.",
+     "focus": -1,
+     "file": "clips/12445076ae24.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "What the doctor writes down becomes codes, and codes become money.",
+     "say": "What the doctor writes down becomes codes, and codes become money.",
+     "focus": -1,
+     "file": "clips/c00399227e09.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Follow the doctor consultation: complaint, symptoms, examination.",
+     "say": "Follow the doctor consultation: complaint, symptoms, examination.",
+     "focus": 0,
+     "file": "clips/01da6a7f75c4.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "See how the visit becomes diagnosis codes (why) and procedure codes (what).",
+     "say": "See how the visit becomes diagnosis codes (why) and procedure codes (what).",
+     "focus": 1,
+     "file": "clips/7aeb1df20e54.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "Know, at concept level, what diagnosis pointers and modifiers are for.",
+     "say": "Know, at concept level, what diagnosis pointers and modifiers are for.",
+     "focus": 2,
+     "file": "clips/7dceb4ad5721.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "Explain why wrong codes cost money.",
+     "say": "Explain why wrong codes cost money.",
+     "focus": 3,
+     "file": "clips/798dd0839807.mp3",
+     "seconds": 2.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The hand-over: patient side to provider side.",
+     "say": "The hand-over: patient side to provider side.",
+     "focus": -1,
+     "file": "clips/dba72dbf5020.mp3",
+     "seconds": 3.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The hand-over: patient side to provider side",
+   "lines": [
+    {
+     "raw": "Up to now the simulator showed the **member's** side: choosing a plan and booking care.",
+     "say": "Up to now the simulator showed the member's side: choosing a plan and booking care.",
+     "focus": -1,
+     "file": "clips/2a8eaabf77db.mp3",
+     "seconds": 5.2
+    },
+    {
+     "raw": "A transition screen now hands the story to the **healthcare provider**, whose job is to **document the care** and **create the claim**.",
+     "say": "A transition screen now hands the story to the healthcare provider, whose job is to document the care and create the claim.",
+     "focus": -1,
+     "file": "clips/af0bae5e3bf7.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "From here on, most of the work happens behind the scenes.",
+     "say": "From here on, most of the work happens behind the scenes.",
+     "focus": -1,
+     "file": "clips/a608b8ec3cd0.mp3",
+     "seconds": 3.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The doctor consultation.",
+     "say": "The doctor consultation.",
+     "focus": -1,
+     "file": "clips/e59b5c001916.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The doctor consultation",
+   "lines": [
+    {
+     "raw": "The **doctor consultation** screen starts with three parts of the clinical note.",
+     "say": "The doctor consultation screen starts with three parts of the clinical note.",
+     "focus": -1,
+     "file": "clips/36f8f200fa08.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Dr. Patel records the same three for Emily in the clinic's **electronic health record (EHR)**.",
+     "say": "Doctor Patel records the same three for Emily in the clinic's electronic health record (E H R).",
+     "focus": -1,
+     "file": "clips/4fe04ebffb3b.mp3",
+     "seconds": 6.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The doctor consultation",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Chief complaint**. Meaning: The main reason for the visit, in the patient's words. Emily on 10 March 2025: \"Very sore throat and fever since yesterday\".",
+     "say": "Chief complaint. Meaning: The main reason for the visit, in the patient's words. Emily on 10 March 2025: \"Very sore throat and fever since yesterday\".",
+     "focus": 0,
+     "file": "clips/0bb8abf6f4c1.mp3",
+     "seconds": 10.975
+    },
+    {
+     "raw": "**Presenting symptoms**. Meaning: What the patient reports. Emily on 10 March 2025: Pain when swallowing, fever, tiredness, no cough.",
+     "say": "Presenting symptoms. Meaning: What the patient reports. Emily on 10 March 2025: Pain when swallowing, fever, tiredness, no cough.",
+     "focus": 1,
+     "file": "clips/500fffc1d4e7.mp3",
+     "seconds": 10.225
+    },
+    {
+     "raw": "**Examination findings**. Meaning: What the doctor sees and measures. Emily on 10 March 2025: Temperature 101.5°F (about 38.6°C), red swollen tonsils with white patches, tender neck glands.",
+     "say": "Examination findings. Meaning: What the doctor sees and measures. Emily on 10 March 2025: Temperature 1 0 1 . 5 ° F (about 3 8 . 6 ° C), red swollen tonsils with white patches, tender neck glands.",
+     "focus": 2,
+     "file": "clips/66223d0d3933.mp3",
+     "seconds": 17.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The doctor consultation",
+   "lines": [
+    {
+     "raw": "Dr. Patel suspects a bacterial infection, so she does a **rapid strep test** in the clinic: a throat swab that gives a result in minutes.",
+     "say": "Doctor Patel suspects a bacterial infection, so she does a rapid strep test in the clinic: a throat swab that gives a result in minutes.",
+     "focus": -1,
+     "file": "clips/ac81971aa245.mp3",
+     "seconds": 8.85
+    },
+    {
+     "raw": "It is **positive**.",
+     "say": "It is positive.",
+     "focus": -1,
+     "file": "clips/285376d871a7.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Diagnosis: **strep throat**.",
+     "say": "Diagnosis: strep throat.",
+     "focus": -1,
+     "file": "clips/d2f2f4e1ff42.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "She prescribes **amoxicillin**, an antibiotic.",
+     "say": "She prescribes amoxicillin, an antibiotic.",
+     "focus": -1,
+     "file": "clips/88e7ed7db881.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "The doctor consultation",
+   "lines": [
+    {
+     "raw": "In Nepal: The same visit in Kathmandu.",
+     "say": "In Nepal: The same visit in Kathmandu.",
+     "focus": -1,
+     "file": "clips/3d47195b6892.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's doctor writes the complaint, findings and diagnosis by hand on the OPD ticket or in the hospital system, then sends him to the lab for a throat swab.",
+     "say": "Ram's doctor writes the complaint, findings and diagnosis by hand on the O P D ticket or in the hospital system, then sends him to the lab for a throat swab.",
+     "focus": 0,
+     "file": "clips/a7eef8867d0a.mp3",
+     "seconds": 11.025
+    },
+    {
+     "raw": "For Ram's insurance claim, what matters is the **receipt** and the **prescription**.",
+     "say": "For Ram's insurance claim, what matters is the receipt and the prescription.",
+     "focus": 1,
+     "file": "clips/c6d2e0198497.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "Usually nobody turns the visit into standard codes.",
+     "say": "Usually nobody turns the visit into standard codes.",
+     "focus": 1,
+     "file": "clips/7569966faafb.mp3",
+     "seconds": 3.9
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "For Sita, the hospital records the diagnosis and the services so it can claim from SSF.",
+     "say": "For Sita, the hospital records the diagnosis and the services so it can claim from S S F.",
+     "focus": 2,
+     "file": "clips/50006bd7460a.mp3",
+     "seconds": 6.75
+    },
+    {
+     "raw": "It may use the ICD diagnosis system, but the rules are not as detailed or strict as US coding.",
+     "say": "It may use the I C D diagnosis system, but the rules are not as detailed or strict as U S coding.",
+     "focus": 2,
+     "file": "clips/4be3d8ea8364.mp3",
+     "seconds": 7.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 2: diagnosis codes (ICD-10).",
+     "say": "Step 2: diagnosis codes (I C D 10).",
+     "focus": -1,
+     "file": "clips/75643d60eef4.mp3",
+     "seconds": 3.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Step 2: diagnosis codes (ICD-10)",
+   "lines": [
+    {
+     "raw": "In the US, a trained **medical coder** (or the doctor, using the EHR) translates the note into codes.",
+     "say": "In the U S, a trained medical coder (or the doctor, using the E H R) translates the note into codes.",
+     "focus": -1,
+     "file": "clips/515c376fac8a.mp3",
+     "seconds": 7.475
+    },
+    {
+     "raw": "The **why** of the visit becomes an **ICD-10-CM** diagnosis code.",
+     "say": "The why of the visit becomes an I C D 10-CM diagnosis code.",
+     "focus": -1,
+     "file": "clips/22649ec3e217.mp3",
+     "seconds": 5.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Step 2: diagnosis codes (ICD-10)",
+   "lines": [
+    {
+     "raw": "Emily's strep throat becomes the diagnosis code `J02.0`.",
+     "say": "Emily's strep throat becomes the diagnosis code J 0 2 . 0.",
+     "focus": -1,
+     "file": "clips/368738f6f4a6.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "You do not need to know how the code is built yet; what matters here is that every claim carries a **standard code for the reason** for care.",
+     "say": "You do not need to know how the code is built yet; what matters here is that every claim carries a standard code for the reason for care.",
+     "focus": -1,
+     "file": "clips/d196aeb496c1.mp3",
+     "seconds": 8.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Step 2: diagnosis codes (ICD-10)",
+   "lines": [
+    {
+     "raw": "More specific is better.",
+     "say": "More specific is better.",
+     "focus": -1,
+     "file": "clips/d7d7a2488e6e.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "`J02.9` means \"acute pharyngitis, cause not stated\".",
+     "say": "J 0 2 . 9 means \"acute pharyngitis, cause not stated\".",
+     "focus": -1,
+     "file": "clips/f9e7cefc2f4a.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "It is a valid code, but the test showed strep, so `J02.0` tells the true story.",
+     "say": "It is a valid code, but the test showed strep, so J 0 2 . 0 tells the true story.",
+     "focus": -1,
+     "file": "clips/66f5dd12f2b7.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "The insurer uses the diagnosis to judge whether the services were **medically necessary**.",
+     "say": "The insurer uses the diagnosis to judge whether the services were medically necessary.",
+     "focus": -1,
+     "file": "clips/95823bcc5b32.mp3",
+     "seconds": 6.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 3: procedure codes (CPT).",
+     "say": "Step 3: procedure codes (C P T).",
+     "focus": -1,
+     "file": "clips/1b60d9ee306e.mp3",
+     "seconds": 3.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Step 3: procedure codes (CPT)",
+   "lines": [
+    {
+     "raw": "The **what** of the visit becomes **CPT** codes, one per service.",
+     "say": "The what of the visit becomes C P T codes, one per service.",
+     "focus": -1,
+     "file": "clips/3389bb912e8c.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "Each becomes a **line** on the claim, with the clinic's price (the **billed amount**).",
+     "say": "Each becomes a line on the claim, with the clinic's price (the billed amount).",
+     "focus": -1,
+     "file": "clips/91b898f1cbfb.mp3",
+     "seconds": 4.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Step 3: procedure codes (CPT)",
+   "lines": [
+    {
+     "raw": "Emily's procedures.",
+     "say": "Emily's procedures.",
+     "focus": -1,
+     "file": "clips/747f91956606.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "1. CPT: `99213`. Meaning: Office visit, established patient, low complexity. Billed: $117.00.",
+     "say": "1. C P T: 9 9 2 1 3. Meaning: Office visit, established patient, low complexity. Billed: 117 dollars.",
+     "focus": 0,
+     "file": "clips/24cae649543d.mp3",
+     "seconds": 10.25
+    },
+    {
+     "raw": "2. CPT: `87880`. Meaning: Rapid strep test (throat swab). Billed: $33.00.",
+     "say": "2. C P T: 8 7 8 8 0. Meaning: Rapid strep test (throat swab). Billed: 33 dollars.",
+     "focus": 1,
+     "file": "clips/4a7a1529e309.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "Meaning: **Total billed**. Billed: **$150.00**.",
+     "say": "Meaning: Total billed. Billed: 150 dollars.",
+     "focus": 2,
+     "file": "clips/55295dc2e24a.mp3",
+     "seconds": 4.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Linking why to what, and small add-ons.",
+     "say": "Linking why to what, and small add-ons.",
+     "focus": -1,
+     "file": "clips/f0e14afd86c5.mp3",
+     "seconds": 2.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Linking why to what, and small add-ons",
+   "lines": [
+    {
+     "raw": "A claim lists the diagnoses once, and each service line **points** to the diagnosis that justifies it.",
+     "say": "A claim lists the diagnoses once, and each service line points to the diagnosis that justifies it.",
+     "focus": -1,
+     "file": "clips/9caa90d17cba.mp3",
+     "seconds": 6.825
+    },
+    {
+     "raw": "Emily has one diagnosis, so both lines point to it.",
+     "say": "Emily has one diagnosis, so both lines point to it.",
+     "focus": -1,
+     "file": "clips/ed4e630a5bfd.mp3",
+     "seconds": 4.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Linking why to what, and small add-ons",
+   "lines": [
+    {
+     "raw": "Like a school excuse letter.",
+     "say": "Like a school excuse letter.",
+     "focus": -1,
+     "file": "clips/addba7f2e37b.mp3",
+     "seconds": 2.175
+    },
+    {
+     "raw": "A leave application says **why** (fever) and **what** you are asking for (two days off).",
+     "say": "A leave application says why (fever) and what you are asking for (two days off).",
+     "focus": -1,
+     "file": "clips/1e1bad206b06.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "If it asked for two days off because of \"a new phone\", the head teacher would refuse.",
+     "say": "If it asked for two days off because of \"a new phone\", the head teacher would refuse.",
+     "focus": -1,
+     "file": "clips/9690a4723b6d.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "The pointer joins each service to its reason, and the insurer checks that they make sense together.",
+     "say": "The pointer joins each service to its reason, and the insurer checks that they make sense together.",
+     "focus": -1,
+     "file": "clips/f92edc537909.mp3",
+     "seconds": 5.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "Linking why to what, and small add-ons",
+   "lines": [
+    {
+     "raw": "A **modifier** is a short add-on to a procedure code that adds a detail without changing the service, such as which side of the body or that the visit was by video.",
+     "say": "A modifier is a short add-on to a procedure code that adds a detail without changing the service, such as which side of the body or that the visit was by video.",
+     "focus": -1,
+     "file": "clips/8b8759d60646.mp3",
+     "seconds": 10.625
+    },
+    {
+     "raw": "Emily's visit is in person and nothing needs a side, so **no modifier** is needed.",
+     "say": "Emily's visit is in person and nothing needs a side, so no modifier is needed.",
+     "focus": -1,
+     "file": "clips/7eb6f17fec86.mp3",
+     "seconds": 5.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Linking why to what, and small add-ons",
+   "lines": [
+    {
+     "raw": "The codes in depth.",
+     "say": "The codes in depth.",
+     "focus": -1,
+     "file": "clips/8f7dfe243ff7.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "How diagnosis and procedure codes are built, how pointers work on a real claim, and the common modifiers are taught in the Medical course.",
+     "say": "How diagnosis and procedure codes are built, how pointers work on a real claim, and the common modifiers are taught in the Medical course.",
+     "focus": -1,
+     "file": "clips/3bf887a437a3.mp3",
+     "seconds": 9.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Step 4: the coding summary, and why errors cost money.",
+     "say": "Step 4: the coding summary, and why errors cost money.",
+     "focus": -1,
+     "file": "clips/bd38a987d1e9.mp3",
+     "seconds": 4.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Step 4: the coding summary, and why errors cost money",
+   "lines": [
+    {
+     "raw": "Common coding mistakes the simulator warns about.",
+     "say": "Common coding mistakes the simulator warns about.",
+     "focus": -1,
+     "file": "clips/4d542ebce0b4.mp3",
+     "seconds": 3.575
+    },
+    {
+     "raw": "**Upcoding**. Example: Billing `99214` (more complex visit) for a simple visit. Effect: Overpayment; can be treated as fraud.",
+     "say": "Upcoding. Example: Billing 9 9 2 1 4 (more complex visit) for a simple visit. Effect: Overpayment; can be treated as fraud.",
+     "focus": 0,
+     "file": "clips/ab2613a5f6ea.mp3",
+     "seconds": 10.125
+    },
+    {
+     "raw": "**Downcoding**. Example: Billing `99212` when the note supports `99213`. Effect: The clinic is paid less than it earned.",
+     "say": "Downcoding. Example: Billing 9 9 2 1 2 when the note supports 9 9 2 1 3. Effect: The clinic is paid less than it earned.",
+     "focus": 1,
+     "file": "clips/0c61e158a040.mp3",
+     "seconds": 9.95
+    },
+    {
+     "raw": "**Wrong diagnosis link**. Example: Pointing a strep test to a knee diagnosis. Effect: The line is denied (diagnosis does not support the procedure).",
+     "say": "Wrong diagnosis link. Example: Pointing a strep test to a knee diagnosis. Effect: The line is denied (diagnosis does not support the procedure).",
+     "focus": 2,
+     "file": "clips/2f0b0ca28c21.mp3",
+     "seconds": 10.825
+    },
+    {
+     "raw": "**Invalid code**. Example: `J11.1X` (too many characters). Effect: Rejected before it even reaches the insurer.",
+     "say": "Invalid code. Example: J 1 1 . 1 X (too many characters). Effect: Rejected before it even reaches the insurer.",
+     "focus": 3,
+     "file": "clips/36b94609b068.mp3",
+     "seconds": 9.075
+    },
+    {
+     "raw": "**Missing modifier**. Example: Telehealth visit billed with no telehealth modifier. Effect: Rejected or paid wrongly.",
+     "say": "Missing modifier. Example: Telehealth visit billed with no telehealth modifier. Effect: Rejected or paid wrongly.",
+     "focus": 4,
+     "file": "clips/f74d04470f61.mp3",
+     "seconds": 8.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Step 4: the coding summary, and why errors cost money",
+   "lines": [
+    {
+     "raw": "Here is the Coding summary form: Emily's visit, ready for the claim.",
+     "say": "Here is the Coding summary form: Emily's visit, ready for the claim.",
+     "focus": -1,
+     "file": "clips/c2e53e27df93.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Patient: Emily Carter.",
+     "say": "Patient: Emily Carter.",
+     "focus": 0,
+     "file": "clips/481f9e1c8979.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Insurance ID 48291307-01.",
+     "say": "Insurance I D 4 8 2 9 1 3 0 7 dash 0 1.",
+     "focus": 0,
+     "file": "clips/5eb97ecff642.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Date of service: 10 Mar 2025.",
+     "say": "Date of service: 10 Mar 2025.",
+     "focus": 1,
+     "file": "clips/2e1e6bc28278.mp3",
+     "seconds": 3.325
+    },
+    {
+     "raw": "Rendering provider: Dr. Patel.",
+     "say": "Rendering provider: Doctor Patel.",
+     "focus": 2,
+     "file": "clips/58b7201eb1cf.mp3",
+     "seconds": 2.825
+    },
+    {
+     "raw": "NPI 1043827165.",
+     "say": "N P I 1043827165.",
+     "focus": 2,
+     "file": "clips/1eaa866e2c34.mp3",
+     "seconds": 6.725
+    },
+    {
+     "raw": "Place of service: 11.",
+     "say": "Place of service: 11.",
+     "focus": 3,
+     "file": "clips/269b87eaa221.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Office.",
+     "say": "Office.",
+     "focus": 3,
+     "file": "clips/92b13da08ecc.mp3",
+     "seconds": 1.5
+    },
+    {
+     "raw": "Diagnosis A: J02.0.",
+     "say": "Diagnosis A: J 0 2 . 0.",
+     "focus": 4,
+     "file": "clips/d73a5a9ff36c.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "Strep throat.",
+     "say": "Strep throat.",
+     "focus": 4,
+     "file": "clips/0ef458850b1a.mp3",
+     "seconds": 1.6
+    },
+    {
+     "raw": "Total billed: $150.00.",
+     "say": "Total billed: 150 dollars.",
+     "focus": 5,
+     "file": "clips/dfceef15b66f.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "99213 ($117) + 87880 ($33).",
+     "say": "99213 (117 dollars) and 87880 (33 dollars).",
+     "focus": 5,
+     "file": "clips/5f1eac9e4b83.mp3",
+     "seconds": 8.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Step 4: the coding summary, and why errors cost money",
+   "lines": [
+    {
+     "raw": "The prescription takes a different road.",
+     "say": "The prescription takes a different road.",
+     "focus": -1,
+     "file": "clips/ff9b4a205e5f.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Dr. Patel sends Emily's amoxicillin prescription electronically to Main Street Pharmacy.",
+     "say": "Doctor Patel sends Emily's amoxicillin prescription electronically to Main Street Pharmacy.",
+     "focus": -1,
+     "file": "clips/4994f3b92ded.mp3",
+     "seconds": 6.7
+    },
+    {
+     "raw": "The medicine is **not** on this medical claim.",
+     "say": "The medicine is not on this medical claim.",
+     "focus": -1,
+     "file": "clips/f2bf7d3c48d9.mp3",
+     "seconds": 3.1
+    },
+    {
+     "raw": "The pharmacy sends its own **pharmacy claim** to a **PBM** in seconds (lesson 6 and the Pharmacy course).",
+     "say": "The pharmacy sends its own pharmacy claim to a P B M in seconds (lesson 6 and the Pharmacy course).",
+     "focus": -1,
+     "file": "clips/caabfa63ee0b.mp3",
+     "seconds": 7.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "Step 4: the coding summary, and why errors cost money",
+   "lines": [
+    {
+     "raw": "Try the coding yourself.",
+     "say": "Try the coding yourself.",
+     "focus": -1,
+     "file": "clips/2df84ebdb731.mp3",
+     "seconds": 1.975
+    },
+    {
+     "raw": "The doctor consultation screen in Try It Yourself lets you pick diagnosis codes, procedure codes and modifiers, and shows what happens when you choose a wrong one.",
+     "say": "The doctor consultation screen in Try It Yourself lets you pick diagnosis codes, procedure codes and modifiers, and shows what happens when you choose a wrong one.",
+     "focus": -1,
+     "file": "clips/ae44f552b609.mp3",
+     "seconds": 10.625
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "The note records chief complaint, symptoms and examination findings.",
+     "say": "The note records chief complaint, symptoms and examination findings.",
+     "focus": 0,
+     "file": "clips/f7c10e3438e6.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "ICD-10 codes say why (Emily: `J02.0`); CPT codes say what (`99213`, `87880`).",
+     "say": "I C D 10 codes say why (Emily: J 0 2 . 0); C P T codes say what (9 9 2 1 3, 8 7 8 8 0).",
+     "focus": 1,
+     "file": "clips/4e968239deee.mp3",
+     "seconds": 10.15
+    },
+    {
+     "raw": "Diagnosis pointers link each service line to its reason; modifiers add small details.",
+     "say": "Diagnosis pointers link each service line to its reason; modifiers add small details.",
+     "focus": 2,
+     "file": "clips/0cd1aa98f609.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "The Medical course teaches both in depth.",
+     "say": "The Medical course teaches both in depth.",
+     "focus": 2,
+     "file": "clips/c5667b9b546a.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "Wrong codes mean rejections, denials, underpayment or even fraud.",
+     "say": "Wrong codes mean rejections, denials, underpayment or even fraud.",
+     "focus": 3,
+     "file": "clips/10ee0d0f6170.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

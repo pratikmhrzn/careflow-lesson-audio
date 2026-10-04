@@ -1,0 +1,862 @@
+{
+ "courseId": "vision",
+ "lessonId": "vision-putting-it-together",
+ "lessonNumber": 6,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 6: Putting It All Together.",
+     "say": "Lesson 6: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/13c01b6e41c4.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "Follow Emily's and Lily's 2025 eye care through every claim it created.",
+     "say": "Follow Emily's and Lily's 2025 eye care through every claim it created.",
+     "focus": -1,
+     "file": "clips/5f6a808eca21.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read a year of vision and medical eye claims for one family.",
+     "say": "Read a year of vision and medical eye claims for one family.",
+     "focus": 0,
+     "file": "clips/c8c9b5b16ea3.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "Check the allowance and copay maths on every line.",
+     "say": "Check the allowance and copay maths on every line.",
+     "focus": 1,
+     "file": "clips/92981c90cbbb.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Spot a frequency denial and explain it.",
+     "say": "Spot a frequency denial and explain it.",
+     "focus": 2,
+     "file": "clips/3c47b40b6cda.mp3",
+     "seconds": 3.025
+    },
+    {
+     "raw": "See vision data the way an analyst does.",
+     "say": "See vision data the way an analyst does.",
+     "focus": 3,
+     "file": "clips/4445d8cf2d92.mp3",
+     "seconds": 3.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story.",
+     "say": "The story.",
+     "focus": -1,
+     "file": "clips/5103112bb3ad.mp3",
+     "seconds": 1.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "**22 April 2025**: Emily's yearly exam with **Dr. Anna Novak** at **Hill Country Eye Care** (fictional, in the ClearSight network).",
+     "say": "22 April 2025: Emily's yearly exam with Doctor Anna Novak at Hill Country Eye Care (fictional, in the ClearSight network).",
+     "focus": 0,
+     "file": "clips/7ef6201d9942.mp3",
+     "seconds": 9.725
+    },
+    {
+     "raw": "She buys glasses: standard single vision lenses and a **$230** frame (lessons 3 and 4).",
+     "say": "She buys glasses: standard single vision lenses and a 230 dollars frame (lessons 3 and 4).",
+     "focus": 0,
+     "file": "clips/14201457059f.mp3",
+     "seconds": 7.1
+    },
+    {
+     "raw": "**8 August 2025**: before school starts, **Lily** (age 6) has her **first** eye exam.",
+     "say": "8 August 2025: before school starts, Lily (age 6) has her first eye exam.",
+     "focus": 1,
+     "file": "clips/2a17e0240555.mp3",
+     "seconds": 6.375
+    },
+    {
+     "raw": "She is short-sighted (`H52.13`) and gets her first glasses with a **$120** frame.",
+     "say": "She is short-sighted (H 5 2 . 1 3) and gets her first glasses with a 120 dollars frame.",
+     "focus": 1,
+     "file": "clips/1a77b4a53b06.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "**3 September 2025**: Emily wakes up with a red, sticky eye.",
+     "say": "3 September 2025: Emily wakes up with a red, sticky eye.",
+     "focus": 2,
+     "file": "clips/b80d48a570b6.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "Dr. Novak diagnoses **pink eye** (`H10.9`).",
+     "say": "Doctor Novak diagnoses pink eye (H 1 0 . 9).",
+     "focus": 2,
+     "file": "clips/d0e62b36e831.mp3",
+     "seconds": 4.425
+    },
+    {
+     "raw": "This is a **medical** visit, billed to her PPO.",
+     "say": "This is a medical visit, billed to her P P O.",
+     "focus": 2,
+     "file": "clips/5b1b622a3f59.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "**20 November 2025**: Lily breaks her frame at school.",
+     "say": "20 November 2025: Lily breaks her frame at school.",
+     "focus": 3,
+     "file": "clips/77f29beb3d40.mp3",
+     "seconds": 4.45
+    },
+    {
+     "raw": "The optician puts her old lenses into a new **$120** frame.",
+     "say": "The optician puts her old lenses into a new 120 dollars frame.",
+     "focus": 3,
+     "file": "clips/6c980c877236.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "Frames are covered only **once every 24 months**, so the plan says no.",
+     "say": "Frames are covered only once every 24 months, so the plan says no.",
+     "focus": 3,
+     "file": "clips/486dec7cbf6e.mp3",
+     "seconds": 4.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "Reminder of the ClearSight rules: **$10** exam copay, **$25** materials copay for lenses, **$150** frame allowance.",
+     "say": "Reminder of the ClearSight rules: 10 dollars exam copay, 25 dollars materials copay for lenses, 150 dollars frame allowance.",
+     "focus": -1,
+     "file": "clips/c5b6aa516fb0.mp3",
+     "seconds": 10.05
+    },
+    {
+     "raw": "Exams and lenses every **12 months**, frames every **24 months**, counted from the last service date.",
+     "say": "Exams and lenses every 12 months, frames every 24 months, counted from the last service date.",
+     "focus": -1,
+     "file": "clips/22d0cdf2f4cc.mp3",
+     "seconds": 7.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram's and Sita's versions in Kathmandu.",
+     "say": "In Nepal: Ram's and Sita's versions in Kathmandu.",
+     "focus": -1,
+     "file": "clips/ecf4d9a6f580.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "If Ram's child needed glasses, Ram would pay the eye hospital and the optical shop himself.",
+     "say": "If Ram's child needed glasses, Ram would pay the eye hospital and the optical shop himself.",
+     "focus": 0,
+     "file": "clips/98f659fe0cce.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "If his policy covered glasses at all, he would send both bills with the prescription and wait to be paid back.",
+     "say": "If his policy covered glasses at all, he would send both bills with the prescription and wait to be paid back.",
+     "focus": 0,
+     "file": "clips/cf574ef6fdb7.mp3",
+     "seconds": 6.875
+    },
+    {
+     "raw": "A broken frame a few months later would almost certainly be **his own cost**.",
+     "say": "A broken frame a few months later would almost certainly be his own cost.",
+     "focus": 1,
+     "file": "clips/b2678f786772.mp3",
+     "seconds": 4.75
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "For Sita, a red infected eye is an ordinary medical problem: she can be treated at an SSF-listed hospital and pay her **20%** share.",
+     "say": "For Sita, a red infected eye is an ordinary medical problem: she can be treated at an S S F listed hospital and pay her 20 percent share.",
+     "focus": 2,
+     "file": "clips/27e19e1aa7d2.mp3",
+     "seconds": 9.825
+    },
+    {
+     "raw": "For glasses, she should check SSF's current rules.",
+     "say": "For glasses, she should check SSF's current rules.",
+     "focus": 3,
+     "file": "clips/d54020a513ee.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Do not assume they are covered.",
+     "say": "Do not assume they are covered.",
+     "focus": 3,
+     "file": "clips/fd371d8a6554.mp3",
+     "seconds": 2.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Emily's glasses claim.",
+     "say": "Emily's glasses claim.",
+     "focus": -1,
+     "file": "clips/835fda7aa2fd.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Emily's glasses claim",
+   "lines": [
+    {
+     "raw": "Lesson 4 showed Emily's glasses claim **VC250422** on the form: an exam (`S0621`), a pair of single vision lenses (`V2100`, 2 units) and a $230 frame (`V2020`), billed $500 in total.",
+     "say": "Lesson 4 showed Emily's glasses claim V C 2 5 0 4 2 2 on the form: an exam (S 0 6 2 1), a pair of single vision lenses (V 2 1 0 0, 2 units) and a 230 dollars frame (V 2 0 2 0), billed 500 dollars in total.",
+     "focus": -1,
+     "file": "clips/d9f04699cf41.mp3",
+     "seconds": 19.85
+    },
+    {
+     "raw": "Here is how its money splits.",
+     "say": "Here is how its money splits.",
+     "focus": -1,
+     "file": "clips/b132ece2cf9c.mp3",
+     "seconds": 2.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Emily's glasses claim",
+   "lines": [
+    {
+     "raw": "Three rules that every vision line must follow.",
+     "say": "Three rules that every vision line must follow.",
+     "focus": -1,
+     "file": "clips/0c7f170c34fb.mp3",
+     "seconds": 3.25
+    },
+    {
+     "raw": "allowed equals paid plus copay  ·  patient_resp equals copay plus overage  ·  billed equals allowed plus overage plus write_off.",
+     "say": "allowed equals paid plus copay , patient_resp equals copay plus overage , billed equals allowed plus overage plus write_off.",
+     "focus": 0,
+     "file": "clips/6bd6a46e8d9a.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "For example: Frame line: allowed $150 equals paid $150 plus copay $0.",
+     "say": "For example: Frame line: allowed 150 dollars equals paid 150 dollars plus copay 0 dollars.",
+     "focus": 1,
+     "file": "clips/cd8470480865.mp3",
+     "seconds": 8.5
+    },
+    {
+     "raw": "Emily pays the $80 overage.",
+     "say": "Emily pays the 80 dollars overage.",
+     "focus": 1,
+     "file": "clips/5353f66a97b2.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "$230 equals $150 plus $80 plus $0 write-off.",
+     "say": "230 dollars equals 150 dollars plus 80 dollars plus 0 dollars write-off.",
+     "focus": 1,
+     "file": "clips/421d40b8afca.mp3",
+     "seconds": 7.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Emily's glasses claim",
+   "lines": [
+    {
+     "raw": "Allowed works differently for frames.",
+     "say": "Allowed works differently for frames.",
+     "focus": -1,
+     "file": "clips/837a0ac6bab7.mp3",
+     "seconds": 2.525
+    },
+    {
+     "raw": "For the exam and lenses, the **allowed** amount is the network price, and the shop **writes off** the rest.",
+     "say": "For the exam and lenses, the allowed amount is the network price, and the shop writes off the rest.",
+     "focus": -1,
+     "file": "clips/cc1d63e17640.mp3",
+     "seconds": 6.3
+    },
+    {
+     "raw": "For the frame, the allowed amount is the **allowance** ($150), and Emily pays the overage.",
+     "say": "For the frame, the allowed amount is the allowance (150 dollars), and Emily pays the overage.",
+     "focus": -1,
+     "file": "clips/0c06d5423edd.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Real plans pay network shops their own contracted rates for frames; we keep it simple here.",
+     "say": "Real plans pay network shops their own contracted rates for frames; we keep it simple here.",
+     "focus": -1,
+     "file": "clips/0bce04ef5819.mp3",
+     "seconds": 6.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The family's eye claim table.",
+     "say": "The family's eye claim table.",
+     "focus": -1,
+     "file": "clips/50d1a3096597.mp3",
+     "seconds": 2.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "The family's eye claim table",
+   "lines": [
+    {
+     "raw": "An analyst puts all eye-related lines in one table, with a `plan` column showing which plan paid.",
+     "say": "An analyst puts all eye-related lines in one table, with a plan column showing which plan paid.",
+     "focus": -1,
+     "file": "clips/a5f5371dda69.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "The family's year creates **9 rows** on **4 claims**.",
+     "say": "The family's year creates 9 rows on 4 claims.",
+     "focus": -1,
+     "file": "clips/0242a413c318.mp3",
+     "seconds": 3.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "The family's eye claim table",
+   "lines": [
+    {
+     "raw": "Eye care claim lines for the Carter family, 2025 (one row per claim line).",
+     "say": "Eye care claim lines for the Carter family, 2025 (one row per claim line).",
+     "focus": -1,
+     "file": "clips/20bec77792a4.mp3",
+     "seconds": 5.775
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "The family's eye claim table",
+   "lines": [
+    {
+     "raw": "Wait, what is the last row?",
+     "say": "Wait, what is the last row?",
+     "focus": -1,
+     "file": "clips/a423bf487ab2.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Trick row!",
+     "say": "Trick row!",
+     "focus": -1,
+     "file": "clips/4ebf80747839.mp3",
+     "seconds": 1.475
+    },
+    {
+     "raw": "Line 2 of claim VC251120 has **0 units and $0**: the shop sent an empty line by mistake.",
+     "say": "Line 2 of claim V C 2 5 1 1 2 0 has 0 units and 0 dollars: the shop sent an empty line by mistake.",
+     "focus": -1,
+     "file": "clips/8a029beb1262.mp3",
+     "seconds": 9.225
+    },
+    {
+     "raw": "Real data has rows like this.",
+     "say": "Real data has rows like this.",
+     "focus": -1,
+     "file": "clips/e037c125ac7f.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "An analyst should **exclude zero-unit, zero-dollar lines** before counting items, or Lily will look like she got two frames in November.",
+     "say": "An analyst should exclude zero-unit, zero-dollar lines before counting items, or Lily will look like she got two frames in November.",
+     "focus": -1,
+     "file": "clips/8360414a1c36.mp3",
+     "seconds": 9.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "The family's eye claim table",
+   "lines": [
+    {
+     "raw": "Reading the denial.",
+     "say": "Reading the denial.",
+     "focus": -1,
+     "file": "clips/eccc86fa0652.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "Lily's frame on 8 Aug 2025 used her frame benefit, so the next covered frame is **8 Aug 2027**.",
+     "say": "Lily's frame on 8 Aug 2025 used her frame benefit, so the next covered frame is 8 Aug 2027.",
+     "focus": -1,
+     "file": "clips/fcf286944a60.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "The November frame is **DENIED** for frequency: allowed and paid are **$0**, and Emily pays the full **$120**.",
+     "say": "The November frame is DENIED for frequency: allowed and paid are 0 dollars and Emily pays the full 120 dollars.",
+     "focus": -1,
+     "file": "clips/4829b63e2c38.mp3",
+     "seconds": 9
+    },
+    {
+     "raw": "The lenses were reused, so no lens line was needed.",
+     "say": "The lenses were reused, so no lens line was needed.",
+     "focus": -1,
+     "file": "clips/958e35a915fc.mp3",
+     "seconds": 3.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Who paid what?",
+     "say": "Who paid what?",
+     "focus": -1,
+     "file": "clips/d05e2c0b91db.mp3",
+     "seconds": 1.625
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Who paid what?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "VC250422: Emily's exam + glasses. Member: Emily. Billed: $500. Allowed: $280. Plan paid: $245. Family paid: $115. Written off: $140.",
+     "say": "V C 2 5 0 4 2 2: Emily's exam and glasses. Member: Emily. Billed: 500 dollars. Allowed: 280 dollars. Plan paid: 245 dollars. Family paid: 115 dollars. Written off: 140 dollars.",
+     "focus": 0,
+     "file": "clips/afb8f26569e9.mp3",
+     "seconds": 18.825
+    },
+    {
+     "raw": "VC250808: Lily's exam + glasses. Member: Lily. Billed: $400. Allowed: $255. Plan paid: $220. Family paid: $35. Written off: $145.",
+     "say": "V C 2 5 0 8 0 8: Lily's exam and glasses. Member: Lily. Billed: 400 dollars. Allowed: 255 dollars. Plan paid: 220 dollars. Family paid: 35 dollars. Written off: 145 dollars.",
+     "focus": 1,
+     "file": "clips/98d20e98f425.mp3",
+     "seconds": 18.475
+    },
+    {
+     "raw": "23140512: Emily's pink eye (medical). Member: Emily. Billed: $140. Allowed: $90. Plan paid: $65. Family paid: $25. Written off: $50.",
+     "say": "23140512: Emily's pink eye (medical). Member: Emily. Billed: 140 dollars. Allowed: 90 dollars. Plan paid: 65 dollars. Family paid: 25 dollars. Written off: 50 dollars.",
+     "focus": 2,
+     "file": "clips/a70bc2b20331.mp3",
+     "seconds": 17.85
+    },
+    {
+     "raw": "VC251120: Lily's broken frame (denied). Member: Lily. Billed: $120. Allowed: $0. Plan paid: $0. Family paid: $120. Written off: $0.",
+     "say": "V C 2 5 1 1 2 0: Lily's broken frame (denied). Member: Lily. Billed: 120 dollars. Allowed: 0 dollars. Plan paid: 0 dollars. Family paid: 120 dollars. Written off: 0 dollars.",
+     "focus": 3,
+     "file": "clips/8719d817c2c9.mp3",
+     "seconds": 16.775
+    },
+    {
+     "raw": "**Total**. Billed: **$1,160**. Allowed: **$625**. Plan paid: **$530**. Family paid: **$295**. Written off: **$335**.",
+     "say": "Total. Billed: 1160 dollars. Allowed: 625 dollars. Plan paid: 530 dollars. Family paid: 295 dollars. Written off: 335 dollars.",
+     "focus": 4,
+     "file": "clips/b2fbce6e0203.mp3",
+     "seconds": 14.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Who paid what?",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "For every claim: **Billed = Plan paid + Family paid + Written off**.",
+     "say": "For every claim: Billed = Plan paid and Family paid and Written off.",
+     "focus": -1,
+     "file": "clips/4993f4798e2a.mp3",
+     "seconds": 4.675
+    },
+    {
+     "raw": "Emily's glasses: $245 + $115 + $140 = $500 ✓.",
+     "say": "Emily's glasses: 245 dollars and 115 dollars and 140 dollars = 500 dollars ✓.",
+     "focus": -1,
+     "file": "clips/4ce39e179617.mp3",
+     "seconds": 8.775
+    },
+    {
+     "raw": "Lily's glasses: $220 + $35 + $145 = $400 ✓.",
+     "say": "Lily's glasses: 220 dollars and 35 dollars and 145 dollars = 400 dollars ✓.",
+     "focus": -1,
+     "file": "clips/dfe7c6c486bd.mp3",
+     "seconds": 8.325
+    },
+    {
+     "raw": "Pink eye: $65 + $25 + $50 = $140 ✓.",
+     "say": "Pink eye: 65 dollars and 25 dollars and 50 dollars = 140 dollars ✓.",
+     "focus": -1,
+     "file": "clips/e6145a3ee1c4.mp3",
+     "seconds": 7.15
+    },
+    {
+     "raw": "Broken frame: $0 + $120 + $0 = $120 ✓.",
+     "say": "Broken frame: 0 dollars and 120 dollars and 0 dollars = 120 dollars ✓.",
+     "focus": -1,
+     "file": "clips/3c0b0918c482.mp3",
+     "seconds": 7.55
+    },
+    {
+     "raw": "Total: $530 + $295 + $335 = **$1,160** ✓.",
+     "say": "Total: 530 dollars and 295 dollars and 335 dollars = 1160 dollars ✓.",
+     "focus": -1,
+     "file": "clips/b2b0bce04e56.mp3",
+     "seconds": 8.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Who paid what?",
+   "lines": [
+    {
+     "raw": "Notice Lily's first frame: it cost **$120**, under the **$150** allowance, so the plan paid $120 and Emily paid nothing.",
+     "say": "Notice Lily's first frame: it cost 120 dollars under the 150 dollars allowance, so the plan paid 120 dollars and Emily paid nothing.",
+     "focus": -1,
+     "file": "clips/74336396c5f3.mp3",
+     "seconds": 10.8
+    },
+    {
+     "raw": "The unused **$30** is simply lost; it does not help with the broken frame in November.",
+     "say": "The unused 30 dollars is simply lost; it does not help with the broken frame in November.",
+     "focus": -1,
+     "file": "clips/dcd2922ec0e1.mp3",
+     "seconds": 5.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "How an analyst uses this table.",
+     "say": "How an analyst uses this table.",
+     "focus": -1,
+     "file": "clips/aaa795aba227.mp3",
+     "seconds": 2.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "How an analyst uses this table",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "How much did the vision plan pay in 2025? How to answer it: Sum `paid_amt` where `plan` = VISION: $245 + $220 + $0 = **$465**.",
+     "say": "How much did the vision plan pay in 2025? How to answer it: Sum paid_amt where plan = VISION: 245 dollars and 220 dollars and 0 dollars = 465 dollars.",
+     "focus": 0,
+     "file": "clips/648a976d324b.mp3",
+     "seconds": 14.8
+    },
+    {
+     "raw": "How many pairs of glasses were bought? How to answer it: Count paid `V2020` lines with units > 0: **2** (Emily and Lily).",
+     "say": "How many pairs of glasses were bought? How to answer it: Count paid V 2 0 2 0 lines with units > 0: 2 (Emily and Lily).",
+     "focus": 1,
+     "file": "clips/bfb7f5657594.mp3",
+     "seconds": 9.025
+    },
+    {
+     "raw": "Is a member eligible for a frame today? How to answer it: Find the latest **paid** `V2020` date for that member, add 24 months.",
+     "say": "Is a member eligible for a frame today? How to answer it: Find the latest paid V 2 0 2 0 date for that member, add 24 months.",
+     "focus": 2,
+     "file": "clips/94152c4f9b2f.mp3",
+     "seconds": 9.625
+    },
+    {
+     "raw": "How often do members pay over the allowance? How to answer it: Count frame lines with `overage_amt` > 0, divided by all paid frame lines: 1 of 2 = **50%**.",
+     "say": "How often do members pay over the allowance? How to answer it: Count frame lines with overage_amt > 0, divided by all paid frame lines: 1 of 2 = 50 percent.",
+     "focus": 3,
+     "file": "clips/0eec262f5a78.mp3",
+     "seconds": 11.925
+    },
+    {
+     "raw": "Was any eye care medical? How to answer it: Filter `plan` = MEDICAL: Emily's pink eye, `H10.9`.",
+     "say": "Was any eye care medical? How to answer it: Filter plan = MEDICAL: Emily's pink eye, H 1 0 . 9.",
+     "focus": 4,
+     "file": "clips/5610daec77b5.mp3",
+     "seconds": 7.925
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "How an analyst uses this table",
+   "lines": [
+    {
+     "raw": "Where is Robert?",
+     "say": "Where is Robert?",
+     "focus": -1,
+     "file": "clips/6f2b7bf9134b.mp3",
+     "seconds": 1.65
+    },
+    {
+     "raw": "Robert's diabetic eye exam (lesson 5) is on **Medicare** claims (Original Medicare in 2023, his Medicare Advantage plan from 2024), which live in a different data source from Emily's employer plans.",
+     "say": "Robert's diabetic eye exam (lesson 5) is on Medicare claims (Original Medicare in 2023, his Medicare Advantage plan from 2024), which live in a different data source from Emily's employer plans.",
+     "focus": -1,
+     "file": "clips/75ca9e707758.mp3",
+     "seconds": 14.9
+    },
+    {
+     "raw": "To see the whole family's eye care you would need both, matched by person, not by member ID.",
+     "say": "To see the whole family's eye care you would need both, matched by person, not by member I D.",
+     "focus": -1,
+     "file": "clips/69cc7c08dbda.mp3",
+     "seconds": 6.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Field → lesson map.",
+     "say": "Field to lesson map.",
+     "focus": -1,
+     "file": "clips/e9cf9eeca18e.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "plan. Question it answers: Routine vision or medical eye care? Lesson: 1. Vision Coverage.",
+     "say": "plan. Question it answers: Routine vision or medical eye care? Lesson: 1. Vision Coverage.",
+     "focus": 0,
+     "file": "clips/e5c28aa71fef.mp3",
+     "seconds": 7.2
+    },
+    {
+     "raw": "plan (VISION vs MEDICAL source). Question it answers: Which plan's rules apply: allowance or deductible? Lesson: 2. Vision vs Medical.",
+     "say": "plan (VISION versus MEDICAL source). Question it answers: Which plan's rules apply: allowance or deductible? Lesson: 2. Vision versus Medical.",
+     "focus": 1,
+     "file": "clips/c42b6202a3d3.mp3",
+     "seconds": 10.5
+    },
+    {
+     "raw": "copay_amt, overage_amt, allowed_amt (frames). Question it answers: How do copays and allowances split the cost? Lesson: 3. Vision Benefits.",
+     "say": "copay_amt, overage_amt, allowed_amt (frames). Question it answers: How do copays and allowances split the cost? Lesson: 3. Vision Benefits.",
+     "focus": 2,
+     "file": "clips/7433a17debd4.mp3",
+     "seconds": 11
+    },
+    {
+     "raw": "service_dt, status. Question it answers: Is the member within the frequency limit? Lesson: 3. Vision Benefits.",
+     "say": "service_dt, status. Question it answers: Is the member within the frequency limit? Lesson: 3. Vision Benefits.",
+     "focus": 3,
+     "file": "clips/df05b49402ee.mp3",
+     "seconds": 8.625
+    },
+    {
+     "raw": "claim_id, line_no, billing_npi, proc_cd, units. Question it answers: Which claim and line? Which exam or material? How many lenses? Lesson: 4. The Vision Claim & Codes.",
+     "say": "claim_id, line_no, billing_npi, proc_cd, units. Question it answers: Which claim and line? Which exam or material? How many lenses? Lesson: 4. The Vision Claim and Codes.",
+     "focus": 4,
+     "file": "clips/c889192042d8.mp3",
+     "seconds": 13.075
+    },
+    {
+     "raw": "dx. Question it answers: Why did the patient come? Which plan? Lesson: 5. Diagnosis Decides the Plan.",
+     "say": "dx. Question it answers: Why did the patient come? Which plan? Lesson: 5. Diagnosis Decides the Plan.",
+     "focus": 5,
+     "file": "clips/1312359bb79e.mp3",
+     "seconds": 8.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You can now read vision benefits and eye care claims, tell routine vision from medical eye care, and check allowance maths.",
+     "say": "You can now read vision benefits and eye care claims, tell routine vision from medical eye care, and check allowance maths.",
+     "focus": -1,
+     "file": "clips/080ea26fa839.mp3",
+     "seconds": 8
+    },
+    {
+     "raw": "Next, the **Lab** course shows how lab tests and their results travel as data.",
+     "say": "Next, the Lab course shows how lab tests and their results travel as data.",
+     "focus": -1,
+     "file": "clips/9c237f58fd30.mp3",
+     "seconds": 4.95
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Routine exams and glasses go to the vision plan; eye disease goes to the medical plan.",
+     "say": "Routine exams and glasses go to the vision plan; eye disease goes to the medical plan.",
+     "focus": 0,
+     "file": "clips/1839eb345a44.mp3",
+     "seconds": 6.125
+    },
+    {
+     "raw": "For each line: allowed = paid + copay, and the member also pays any overage above the allowance.",
+     "say": "For each line: allowed = paid and copay, and the member also pays any overage above the allowance.",
+     "focus": 1,
+     "file": "clips/c22122ac7f2c.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "Frequency limits cause denials: the member pays the full price until the benefit renews.",
+     "say": "Frequency limits cause denials: the member pays the full price until the benefit renews.",
+     "focus": 2,
+     "file": "clips/9f0997e5fab5.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "Clean the data first: drop zero-unit, zero-dollar lines and denied lines before counting items.",
+     "say": "Clean the data first: drop zero-unit, zero-dollar lines and denied lines before counting items.",
+     "focus": 3,
+     "file": "clips/481a7175ff1e.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

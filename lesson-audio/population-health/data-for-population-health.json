@@ -1,0 +1,701 @@
+{
+ "courseId": "population-health",
+ "lessonId": "data-for-population-health",
+ "lessonNumber": 2,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 2: The Data Behind It.",
+     "say": "Lesson 2: The Data Behind It.",
+     "focus": -1,
+     "file": "clips/a4727377e189.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Join every data type for each person, then find who has which condition.",
+     "say": "Join every data type for each person, then find who has which condition.",
+     "focus": -1,
+     "file": "clips/ea2c274d97e2.mp3",
+     "seconds": 5.05
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Name the data types a population health team combines, and what each adds.",
+     "say": "Name the data types a population health team combines, and what each adds.",
+     "focus": 0,
+     "file": "clips/4b38c9e0f64c.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "Explain why the population must start from eligibility.",
+     "say": "Explain why the population must start from eligibility.",
+     "focus": 1,
+     "file": "clips/ce453b4bc07d.mp3",
+     "seconds": 4.05
+    },
+    {
+     "raw": "Read a simple condition identification rule and apply it to members.",
+     "say": "Read a simple condition identification rule and apply it to members.",
+     "focus": 2,
+     "file": "clips/e6e309768814.mp3",
+     "seconds": 4.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "One person, many data sources.",
+     "say": "One person, many data sources.",
+     "focus": -1,
+     "file": "clips/96779cdc78b0.mp3",
+     "seconds": 2.825
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "One person, many data sources",
+   "lines": [
+    {
+     "raw": "No single data type tells the whole story.",
+     "say": "No single data type tells the whole story.",
+     "focus": -1,
+     "file": "clips/4a4c3f6e5355.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "A pharmacy claim shows Robert takes metformin, but not his blood sugar.",
+     "say": "A pharmacy claim shows Robert takes metformin, but not his blood sugar.",
+     "focus": -1,
+     "file": "clips/2f765a865c59.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "A lab result shows his sugar, but not whether he went to hospital.",
+     "say": "A lab result shows his sugar, but not whether he went to hospital.",
+     "focus": -1,
+     "file": "clips/6892e306cfa2.mp3",
+     "seconds": 4.35
+    },
+    {
+     "raw": "So the team **joins all the data types for each person**, using the **member ID** as the key.",
+     "say": "So the team joins all the data types for each person, using the member I D as the key.",
+     "focus": -1,
+     "file": "clips/b8fde1dcae37.mp3",
+     "seconds": 5.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "One person, many data sources",
+   "lines": [
+    {
+     "raw": "Like a family file at the health post.",
+     "say": "Like a family file at the health post.",
+     "focus": -1,
+     "file": "clips/b659e69eee12.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Imagine one folder per household at a health post: the vaccination card, the OPD tickets, the lab reports, the weight chart and the FCHV's notes, all clipped together.",
+     "say": "Imagine one folder per household at a health post: the vaccination card, the O P D tickets, the lab reports, the weight chart and the FCHV's notes, all clipped together.",
+     "focus": -1,
+     "file": "clips/a11ba34f4ff1.mp3",
+     "seconds": 11.675
+    },
+    {
+     "raw": "Nobody could see the full picture from one sheet.",
+     "say": "Nobody could see the full picture from one sheet.",
+     "focus": -1,
+     "file": "clips/284d9b882f8c.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "Population health builds that folder for every member, from data.",
+     "say": "Population health builds that folder for every member, from data.",
+     "focus": -1,
+     "file": "clips/eb9b9a36fa8d.mp3",
+     "seconds": 4.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "One person, many data sources",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Eligibility**. What it adds: Who is in the population, and for which months. The **denominator**: everyone counts, even people with no claims. Example for Robert (2025): Covered all 12 months of 2025 on his Medicare Advantage plan.",
+     "say": "Eligibility. What it adds: Who is in the population, and for which months. The denominator: everyone counts, even people with no claims. Example for Robert (2025): Covered all 12 months of 2025 on his Medicare Advantage plan.",
+     "focus": 0,
+     "file": "clips/351d351aef0e.mp3",
+     "seconds": 16.975
+    },
+    {
+     "raw": "**Medical claims**. What it adds: Diagnoses (as **ICD-10** codes, from the International Classification of Diseases; see the Medical course), visits, hospital stays, emergency room (ER) visits, procedures. Example for Robert (2025): Doctor visits on 14 Mar and 12 Sep with `E11.9` (type 2 diabetes) and `I10` (high blood pressure); one ER visit for dizziness.",
+     "say": "Medical claims. What it adds: Diagnoses (as I C D 10 codes, from the International Classification of Diseases; see the Medical course), visits, hospital stays, emergency room (E R) visits, procedures. Example for Robert (2025): Doctor visits on 14 Mar and 12 Sep with E 1 1 . 9 (type 2 diabetes) and I10 (high blood pressure); one E R visit for dizziness.",
+     "focus": 1,
+     "file": "clips/023954164870.mp3",
+     "seconds": 25.575
+    },
+    {
+     "raw": "**Pharmacy claims**. What it adds: Which medicines, and whether they are refilled on time. Example for Robert (2025): Metformin and lisinopril (a blood pressure medicine) filled every month.",
+     "say": "Pharmacy claims. What it adds: Which medicines, and whether they are refilled on time. Example for Robert (2025): Metformin and lisinopril (a blood pressure medicine) filled every month.",
+     "focus": 2,
+     "file": "clips/7527ba5b1931.mp3",
+     "seconds": 12.95
+    },
+    {
+     "raw": "**Lab results**. What it adds: Test values: how well a condition is controlled. For diabetes the key test is the **A1c**, which shows average blood sugar over about the last 3 months. Example for Robert (2025): A1c 8.4% on 12 Sep 2025.",
+     "say": "Lab results. What it adds: Test values: how well a condition is controlled. For diabetes the key test is the A1c, which shows average blood sugar over about the last 3 months. Example for Robert (2025): A1c 8.4 percent on 12 Sep 2025.",
+     "focus": 3,
+     "file": "clips/855ea5b8c6f4.mp3",
+     "seconds": 19.65
+    },
+    {
+     "raw": "**Biometrics**. What it adds: Height, weight, blood pressure, BMI (body mass index: weight compared with height). Example for Robert (2025): Blood pressure 148/92 at his September visit.",
+     "say": "Biometrics. What it adds: Height, weight, blood pressure, B M I (body mass index: weight compared with height). Example for Robert (2025): Blood pressure 148/92 at his September visit.",
+     "focus": 4,
+     "file": "clips/8bbe9f68f9fb.mp3",
+     "seconds": 15.475
+    },
+    {
+     "raw": "**Other**. What it adds: Health surveys, care manager notes, social needs such as no transport or no job (lesson 5). Example for Robert (2025): Survey: drives himself, no social needs reported.",
+     "say": "Other. What it adds: Health surveys, care manager notes, social needs such as no transport or no job (lesson 5). Example for Robert (2025): Survey: drives himself, no social needs reported.",
+     "focus": 5,
+     "file": "clips/70243601f3a4.mp3",
+     "seconds": 14.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "One person, many data sources",
+   "lines": [
+    {
+     "raw": "People with no claims still count.",
+     "say": "People with no claims still count.",
+     "focus": -1,
+     "file": "clips/fd163186b2b9.mp3",
+     "seconds": 2.475
+    },
+    {
+     "raw": "A member who never went to a doctor has **no** medical or pharmacy rows.",
+     "say": "A member who never went to a doctor has no medical or pharmacy rows.",
+     "focus": -1,
+     "file": "clips/387d0623fee7.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "If you build your population from claims only, they disappear.",
+     "say": "If you build your population from claims only, they disappear.",
+     "focus": -1,
+     "file": "clips/665a6b8833b0.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Always start from **eligibility**, then attach claims.",
+     "say": "Always start from eligibility, then attach claims.",
+     "focus": -1,
+     "file": "clips/2682f146ec94.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Someone with no claims in two years may be healthy, or may be avoiding care, and both are worth knowing.",
+     "say": "Someone with no claims in two years may be healthy, or may be avoiding care, and both are worth knowing.",
+     "focus": -1,
+     "file": "clips/628f0b25fa04.mp3",
+     "seconds": 6.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "One person, many data sources",
+   "lines": [
+    {
+     "raw": "Claims arrive late.",
+     "say": "Claims arrive late.",
+     "focus": -1,
+     "file": "clips/736a2c7e357b.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Doctors and hospitals can send claims weeks or months after the visit.",
+     "say": "Doctors and hospitals can send claims weeks or months after the visit.",
+     "focus": -1,
+     "file": "clips/85f535bf5e1b.mp3",
+     "seconds": 5.175
+    },
+    {
+     "raw": "So a report run on 1 January will be missing some December care.",
+     "say": "So a report run on 1 January will be missing some December care.",
+     "focus": -1,
+     "file": "clips/735f4ccf311b.mp3",
+     "seconds": 4.775
+    },
+    {
+     "raw": "Teams usually wait for most claims to arrive (often a few months) before trusting a full year's numbers.",
+     "say": "Teams usually wait for most claims to arrive (often a few months) before trusting a full year's numbers.",
+     "focus": -1,
+     "file": "clips/d2961e8b1e57.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "This waiting time is called **claims run-out** or **lag**.",
+     "say": "This waiting time is called claims run-out or lag.",
+     "focus": -1,
+     "file": "clips/2ea344df7611.mp3",
+     "seconds": 3.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Finding who has which condition.",
+     "say": "Finding who has which condition.",
+     "focus": -1,
+     "file": "clips/9ce64255ee96.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Finding who has which condition",
+   "lines": [
+    {
+     "raw": "Before you can build a diabetes registry, you need to decide **who has diabetes**.",
+     "say": "Before you can build a diabetes registry, you need to decide who has diabetes.",
+     "focus": -1,
+     "file": "clips/2f6575837cdf.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "There is no \"has diabetes = yes\" column.",
+     "say": "There is no \"has diabetes = yes\" column.",
+     "focus": -1,
+     "file": "clips/f1eb70068b0a.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "Instead, analysts write a **condition identification rule** that looks for evidence in the data.",
+     "say": "Instead, analysts write a condition identification rule that looks for evidence in the data.",
+     "focus": -1,
+     "file": "clips/f6094c9c9dd3.mp3",
+     "seconds": 6.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Finding who has which condition",
+   "lines": [
+    {
+     "raw": "Why not just \"any claim with a diabetes code\"?",
+     "say": "Why not just \"any claim with a diabetes code\"?",
+     "focus": -1,
+     "file": "clips/5683fcbe8534.mp3",
+     "seconds": 3.425
+    },
+    {
+     "raw": "Because codes are sometimes used when a doctor is only **checking** for a condition, or a code is entered by mistake.",
+     "say": "Because codes are sometimes used when a doctor is only checking for a condition, or a code is entered by mistake.",
+     "focus": -1,
+     "file": "clips/82c34dbf67a2.mp3",
+     "seconds": 7.3
+    },
+    {
+     "raw": "Requiring more than one piece of evidence makes the list more reliable.",
+     "say": "Requiring more than one piece of evidence makes the list more reliable.",
+     "focus": -1,
+     "file": "clips/08995ecece64.mp3",
+     "seconds": 4.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Finding who has which condition",
+   "lines": [
+    {
+     "raw": "An example diabetes rule (a common style, simplified).",
+     "say": "An example diabetes rule (a common style, simplified).",
+     "focus": -1,
+     "file": "clips/05301f25c9a0.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "2+ outpatient claims ... on different dates: Two separate doctor visits both recorded diabetes, so it is unlikely to be a one-off mistake.",
+     "say": "2+ outpatient claims ... on different dates: Two separate doctor visits both recorded diabetes, so it is unlikely to be a one-off mistake.",
+     "focus": 0,
+     "file": "clips/1fc09f1903d8.mp3",
+     "seconds": 9.675
+    },
+    {
+     "raw": "E10.x or E11.x: ICD-10 codes for type 1 (`E10`) and type 2 (`E11`) diabetes, with any extra digits.",
+     "say": "E 1 0 . x or E 1 1 . x: I C D 10 codes for type 1 (E10) and type 2 (E11) diabetes, with any extra digits.",
+     "focus": 1,
+     "file": "clips/e9e5cf76ae27.mp3",
+     "seconds": 10.825
+    },
+    {
+     "raw": "1+ inpatient claim: A hospital stay where diabetes was coded.",
+     "say": "1+ inpatient claim: A hospital stay where diabetes was coded.",
+     "focus": 2,
+     "file": "clips/5b1c27426e44.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "One is enough because hospital coding is detailed.",
+     "say": "One is enough because hospital coding is detailed.",
+     "focus": 2,
+     "file": "clips/83234704d118.mp3",
+     "seconds": 3.45
+    },
+    {
+     "raw": "1+ fill of a diabetes medicine: Pharmacy evidence, for example insulin.",
+     "say": "1+ fill of a diabetes medicine: Pharmacy evidence, for example insulin.",
+     "focus": 3,
+     "file": "clips/35d2ba55c839.mp3",
+     "seconds": 5.925
+    },
+    {
+     "raw": "Real rules are careful here: metformin is sometimes prescribed for other reasons, so some rules need a diagnosis too.",
+     "say": "Real rules are careful here: metformin is sometimes prescribed for other reasons, so some rules need a diagnosis too.",
+     "focus": 3,
+     "file": "clips/8f158b690658.mp3",
+     "seconds": 8.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Finding who has which condition",
+   "lines": [
+    {
+     "raw": "Where do real rules come from?",
+     "say": "Where do real rules come from?",
+     "focus": -1,
+     "file": "clips/c046441b04e9.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "Many teams borrow rules from published standards, such as the definitions used in HEDIS quality measures, or from their analytics vendor.",
+     "say": "Many teams borrow rules from published standards, such as the definitions used in HEDIS quality measures, or from their analytics vendor.",
+     "focus": -1,
+     "file": "clips/3b56db463abd.mp3",
+     "seconds": 8.85
+    },
+    {
+     "raw": "The exact counts and look-back periods (often 1 or 2 years) vary.",
+     "say": "The exact counts and look-back periods (often 1 or 2 years) vary.",
+     "focus": -1,
+     "file": "clips/8a9b222cdf38.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Always write down which rule you used.",
+     "say": "Always write down which rule you used.",
+     "focus": -1,
+     "file": "clips/56484ff03301.mp3",
+     "seconds": 2.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Finding who has which condition",
+   "lines": [
+    {
+     "raw": "Applying rules to our members (2024 to 2025 look-back).",
+     "say": "Applying rules to our members (2024 to 2025 look-back).",
+     "focus": -1,
+     "file": "clips/ebb196223b2d.mp3",
+     "seconds": 5.275
+    },
+    {
+     "raw": "Robert. Evidence found: 2 outpatient claims with `E11.9` on different dates + monthly metformin fills + A1c 8.4%. Condition flagged: **Diabetes** ✅ and **high blood pressure** ✅ (`I10` on 2 visits + lisinopril).",
+     "say": "Robert. Evidence found: 2 outpatient claims with E 1 1 . 9 on different dates and monthly metformin fills and A1c 8.4 percent. Condition flagged: Diabetes ✅ and high blood pressure ✅ (I10 on 2 visits and lisinopril).",
+     "focus": 0,
+     "file": "clips/8ad62f61e905.mp3",
+     "seconds": 19.1
+    },
+    {
+     "raw": "Emily. Evidence found: July 2025 check-up with `E78.5` (high cholesterol) + atorvastatin fills from 15 Jul 2025. Condition flagged: **High cholesterol** ✅.",
+     "say": "Emily. Evidence found: July 2025 check-up with E 7 8 . 5 (high cholesterol) and atorvastatin fills from 15 Jul 2025. Condition flagged: High cholesterol ✅.",
+     "focus": 1,
+     "file": "clips/468667f14a19.mp3",
+     "seconds": 15.4
+    },
+    {
+     "raw": "Emily. Evidence found: Appendix stay, 2 to 4 Jun 2025, `K35.80`. Condition flagged: Not a chronic condition. Recorded as a past hospital stay, not a flag.",
+     "say": "Emily. Evidence found: Appendix stay, 2 to 4 Jun 2025, K 3 5 . 8 0. Condition flagged: Not a chronic condition. Recorded as a past hospital stay, not a flag.",
+     "focus": 2,
+     "file": "clips/c9acf42870f9.mp3",
+     "seconds": 13.825
+    },
+    {
+     "raw": "Daniel. Evidence found: One check-up in August 2025, no chronic codes. Condition flagged: None (his doctor did record that he had lost his job, a social need covered in lesson 5).",
+     "say": "Daniel. Evidence found: One check-up in August 2025, no chronic codes. Condition flagged: None (his doctor did record that he had lost his job, a social need covered in lesson 5).",
+     "focus": 3,
+     "file": "clips/ad0be980bd04.mp3",
+     "seconds": 13.85
+    },
+    {
+     "raw": "Lily. Evidence found: Well-child check-up and routine vaccines, no chronic codes. Condition flagged: None.",
+     "say": "Lily. Evidence found: Well-child check-up and routine vaccines, no chronic codes. Condition flagged: None.",
+     "focus": 4,
+     "file": "clips/2fe4ef044570.mp3",
+     "seconds": 7.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Finding who has which condition",
+   "lines": [
+    {
+     "raw": "In the US: What a population health dataset looks like.",
+     "say": "In the U S: What a population health dataset looks like.",
+     "focus": -1,
+     "file": "clips/e819964ea3dd.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "Usually **one row per member per month** (or per year), built from eligibility.",
+     "say": "Usually one row per member per month (or per year), built from eligibility.",
+     "focus": 0,
+     "file": "clips/b39533a26c8e.mp3",
+     "seconds": 5.075
+    },
+    {
+     "raw": "Columns are added from every source: `member_months`, `has_diabetes`, `last_a1c`, `ip_stays_12m`, `er_visits_12m`, `allowed_amt`.",
+     "say": "Columns are added from every source: member_months, has_diabetes, l a s t _ a 1 c, i p _ s t a y s _ 1 2 m, e r _ v i s i t s _ 1 2 m, allowed_amt.",
+     "focus": 1,
+     "file": "clips/d3e9936908e8.mp3",
+     "seconds": 12.85
+    },
+    {
+     "raw": "Later lessons add `segment`, `open_gaps` and `risk_score`.",
+     "say": "Later lessons add segment, open_gaps and risk_score.",
+     "focus": 1,
+     "file": "clips/13ecb7714b62.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "It is refreshed regularly (often monthly) as new claims and labs arrive, so a member's flags can change.",
+     "say": "It is refreshed regularly (often monthly) as new claims and labs arrive, so a member's flags can change.",
+     "focus": 2,
+     "file": "clips/aa3250f221a4.mp3",
+     "seconds": 7.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Finding who has which condition",
+   "lines": [
+    {
+     "raw": "Part of the member table, 2025 (one row per member).",
+     "say": "Part of the member table, 2025 (one row per member).",
+     "focus": -1,
+     "file": "clips/6217a13eb946.mp3",
+     "seconds": 4.2
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Finding who has which condition",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Every later number in this course (segments, risk scores, cost per member) is only as good as this table.",
+     "say": "Every later number in this course (segments, risk scores, cost per member) is only as good as this table.",
+     "focus": -1,
+     "file": "clips/56c9254dfe56.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "Three checks catch most problems: **every eligible member has a row** (even with no claims), **every flag says which rule and look-back it used**, and **`NULL` means \"no data\", not \"normal\"**: Emily has no A1c because she was never tested, not because her sugar is fine.",
+     "say": "Three checks catch most problems: every eligible member has a row (even with no claims), every flag says which rule and look-back it used, and N U L L means \"no data\", not \"normal\": Emily has no A1c because she was never tested, not because her sugar is fine.",
+     "focus": -1,
+     "file": "clips/4dcc0f8583e3.mp3",
+     "seconds": 18.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "Finding who has which condition",
+   "lines": [
+    {
+     "raw": "Condition identification rule.",
+     "say": "Condition identification rule.",
+     "focus": 0,
+     "file": "clips/e719e7944820.mp3",
+     "seconds": 2.7
+    },
+    {
+     "raw": "A written rule that decides who has a condition, using codes, medicines and lab results.",
+     "say": "A written rule that decides who has a condition, using codes, medicines and lab results.",
+     "focus": 0,
+     "file": "clips/b067f862d1b5.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "Look-back period.",
+     "say": "Look-back period.",
+     "focus": 1,
+     "file": "clips/8b9d9965f603.mp3",
+     "seconds": 1.8
+    },
+    {
+     "raw": "How far back the rule searches for evidence, for example the last 24 months.",
+     "say": "How far back the rule searches for evidence, for example the last 24 months.",
+     "focus": 1,
+     "file": "clips/25f0449ca9ae.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "A1c (HbA1c).",
+     "say": "A1c (H b A 1 c).",
+     "focus": 2,
+     "file": "clips/2a680f4ee16a.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "A blood test that shows a person's **average blood sugar over about the last 3 months**.",
+     "say": "A blood test that shows a person's average blood sugar over about the last 3 months.",
+     "focus": 2,
+     "file": "clips/7dd82c60f863.mp3",
+     "seconds": 5.55
+    },
+    {
+     "raw": "Higher is worse.",
+     "say": "Higher is worse.",
+     "focus": 2,
+     "file": "clips/0ed246f523bf.mp3",
+     "seconds": 1.7
+    },
+    {
+     "raw": "Claims run-out (lag).",
+     "say": "Claims run-out (lag).",
+     "focus": 3,
+     "file": "clips/550c2c68c193.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "The delay between care happening and its claim arriving in the data.",
+     "say": "The delay between care happening and its claim arriving in the data.",
+     "focus": 3,
+     "file": "clips/a67e66a351c8.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Population health joins eligibility, medical, pharmacy, lab and biometrics data per member, using the member ID.",
+     "say": "Population health joins eligibility, medical, pharmacy, lab and biometrics data per member, using the member I D.",
+     "focus": 0,
+     "file": "clips/3c69440bf52b.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "Start from eligibility so members with no claims are still counted.",
+     "say": "Start from eligibility so members with no claims are still counted.",
+     "focus": 1,
+     "file": "clips/299193651c48.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "Condition identification rules usually need more than one piece of evidence, within a look-back period.",
+     "say": "Condition identification rules usually need more than one piece of evidence, within a look-back period.",
+     "focus": 2,
+     "file": "clips/dda9751284f4.mp3",
+     "seconds": 6.85
+    },
+    {
+     "raw": "Claims arrive late, so recent months are incomplete until the run-out has passed.",
+     "say": "Claims arrive late, so recent months are incomplete until the run-out has passed.",
+     "focus": 3,
+     "file": "clips/0dfb3d212009.mp3",
+     "seconds": 5.5
+    },
+    {
+     "raw": "Build one row per member, and treat a missing value as \"no data\", not as \"normal\".",
+     "say": "Build one row per member, and treat a missing value as \"no data\", not as \"normal\".",
+     "focus": 4,
+     "file": "clips/3bab06726b4b.mp3",
+     "seconds": 5.575
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

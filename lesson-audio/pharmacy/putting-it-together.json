@@ -1,0 +1,1009 @@
+{
+ "courseId": "pharmacy",
+ "lessonId": "putting-it-together",
+ "lessonNumber": 11,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 11: Putting It All Together.",
+     "say": "Lesson 11: Putting It All Together.",
+     "focus": -1,
+     "file": "clips/a316749e9219.mp3",
+     "seconds": 2.85
+    },
+    {
+     "raw": "Follow Emily's 2025 prescriptions through every pharmacy claim they created.",
+     "say": "Follow Emily's 2025 prescriptions through every pharmacy claim they created.",
+     "focus": -1,
+     "file": "clips/72ea7ba8d901.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read a full year of pharmacy claims for one member.",
+     "say": "Read a full year of pharmacy claims for one member.",
+     "focus": 0,
+     "file": "clips/fde121263b7c.mp3",
+     "seconds": 3.625
+    },
+    {
+     "raw": "Count fills and spend correctly after netting reversals.",
+     "say": "Count fills and spend correctly after netting reversals.",
+     "focus": 1,
+     "file": "clips/87fcde43e7c9.mp3",
+     "seconds": 3.875
+    },
+    {
+     "raw": "Calculate the generic dispensing rate and adherence (PDC).",
+     "say": "Calculate the generic dispensing rate and adherence (P D C).",
+     "focus": 2,
+     "file": "clips/b46fd68cb282.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Connect every field to the lesson where you learned it.",
+     "say": "Connect every field to the lesson where you learned it.",
+     "focus": 3,
+     "file": "clips/ee95a33fe28c.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The story.",
+     "say": "The story.",
+     "focus": -1,
+     "file": "clips/5103112bb3ad.mp3",
+     "seconds": 1.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "**10 March 2025**: strep throat.",
+     "say": "10 March 2025: strep throat.",
+     "focus": 0,
+     "file": "clips/4f5349da3dca.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "Dr. Patel prescribes **amoxicillin 500 mg**, 30 capsules for 10 days (lessons 3 and 5).",
+     "say": "Doctor Patel prescribes amoxicillin 500 mg, 30 capsules for 10 days (lessons 3 and 5).",
+     "focus": 0,
+     "file": "clips/99d3be0b659e.mp3",
+     "seconds": 7.675
+    },
+    {
+     "raw": "This is the same day as her medical claim **23098908**.",
+     "say": "This is the same day as her medical claim 23098908.",
+     "focus": 0,
+     "file": "clips/980bfa378024.mp3",
+     "seconds": 6.475
+    },
+    {
+     "raw": "**4 June 2025**: Emily goes home after having her appendix removed on 2 June (a two-night hospital stay).",
+     "say": "4 June 2025: Emily goes home after having her appendix removed on 2 June (a two-night hospital stay).",
+     "focus": 1,
+     "file": "clips/fb5f23e7d3a9.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "Her surgeon, **Dr. Lee**, prescribes **ibuprofen 800 mg**, 1 tablet 3 times a day, 30 tablets, for pain.",
+     "say": "Her surgeon, Doctor Lee, prescribes ibuprofen 800 mg, 1 tablet 3 times a day, 30 tablets, for pain.",
+     "focus": 1,
+     "file": "clips/e7dfce2cf41c.mp3",
+     "seconds": 8.575
+    },
+    {
+     "raw": "**15 July 2025**: at a check-up, Dr. Patel reviews Emily's high cholesterol results and prescribes **atorvastatin 20 mg**, 1 tablet a day, 30 tablets with 5 refills.",
+     "say": "15 July 2025: at a check-up, Doctor Patel reviews Emily's high cholesterol results and prescribes atorvastatin 20 mg, 1 tablet a day, 30 tablets with 5 refills.",
+     "focus": 2,
+     "file": "clips/72306ab2aa04.mp3",
+     "seconds": 14.075
+    },
+    {
+     "raw": "Emily refills every month.",
+     "say": "Emily refills every month.",
+     "focus": 2,
+     "file": "clips/0d90c66100f0.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "**September**: one refill is never picked up and is **reversed**, then filled again (lesson 10).",
+     "say": "September: one refill is never picked up and is reversed, then filled again (lesson 10).",
+     "focus": 3,
+     "file": "clips/af3c24cf6505.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "**29 October 2025**: Emily switches to a **90-day supply** from her plan's **mail-order pharmacy**, with a new prescription.",
+     "say": "29 October 2025: Emily switches to a 90-day supply from her plan's mail-order pharmacy, with a new prescription.",
+     "focus": 4,
+     "file": "clips/6de3cbb5ab38.mp3",
+     "seconds": 9.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "Emily's plan has **no drug deductible**.",
+     "say": "Emily's plan has no drug deductible.",
+     "focus": -1,
+     "file": "clips/53f3e823586c.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "All three drugs are **tier 1 generics**: **$5** for a 30-day retail fill, **$10** for a 90-day mail-order fill, or the full price if that is lower (lesson 8).",
+     "say": "All three drugs are tier 1 generics: 5 dollars for a 30-day retail fill, 10 dollars for a 90-day mail-order fill, or the full price if that is lower (lesson 8).",
+     "focus": -1,
+     "file": "clips/b29fe1112c0a.mp3",
+     "seconds": 11.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The story",
+   "lines": [
+    {
+     "raw": "In Nepal: Ram's and Sita's versions in Kathmandu.",
+     "say": "In Nepal: Ram's and Sita's versions in Kathmandu.",
+     "focus": -1,
+     "file": "clips/ecf4d9a6f580.mp3",
+     "seconds": 3.975
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "If Ram took a cholesterol medicine every month, he would buy a strip at the medical shop each month, **pay in full**, and collect the bills.",
+     "say": "If Ram took a cholesterol medicine every month, he would buy a strip at the medical shop each month, pay in full, and collect the bills.",
+     "focus": 0,
+     "file": "clips/35f4c4459892.mp3",
+     "seconds": 8.4
+    },
+    {
+     "raw": "He might send all the bills with the prescription to his insurer together.",
+     "say": "He might send all the bills with the prescription to his insurer together.",
+     "focus": 1,
+     "file": "clips/f00fbdcef3b6.mp3",
+     "seconds": 4.825
+    },
+    {
+     "raw": "The insurer sees **paper bills**, not a neat table of fills with days supply.",
+     "say": "The insurer sees paper bills, not a neat table of fills with days supply.",
+     "focus": 1,
+     "file": "clips/f7b0687b621b.mp3",
+     "seconds": 4.975
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "Sita would get her monthly medicine from her SSF-listed hospital pharmacy, paying **20%** each time, with SSF paying **80%** to the hospital.",
+     "say": "Sita would get her monthly medicine from her S S F listed hospital pharmacy, paying 20 percent each time, with S S F paying 80 percent to the hospital.",
+     "focus": 2,
+     "file": "clips/6210cb5ac06e.mp3",
+     "seconds": 10.95
+    },
+    {
+     "raw": "SSF sees each purchase as an item on a hospital claim.",
+     "say": "S S F sees each purchase as an item on a hospital claim.",
+     "focus": 3,
+     "file": "clips/2f5ec1a634ba.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Working out whether Sita took her medicine **every day** would be much harder than with US pharmacy data.",
+     "say": "Working out whether Sita took her medicine every day would be much harder than with U S pharmacy data.",
+     "focus": 3,
+     "file": "clips/7a26c24a6fb9.mp3",
+     "seconds": 6.525
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Emily's pharmacy claim table.",
+     "say": "Emily's pharmacy claim table.",
+     "focus": -1,
+     "file": "clips/719bb450ae1f.mp3",
+     "seconds": 2.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Emily's pharmacy claim table",
+   "lines": [
+    {
+     "raw": "All pharmacy claims go into **one table** with one row per claim transaction.",
+     "say": "All pharmacy claims go into one table with one row per claim transaction.",
+     "focus": -1,
+     "file": "clips/9d068a5355d2.mp3",
+     "seconds": 5.225
+    },
+    {
+     "raw": "Emily's year creates **8 rows**.",
+     "say": "Emily's year creates 8 rows.",
+     "focus": -1,
+     "file": "clips/970533c9323e.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Look for the reversal row with negative amounts.",
+     "say": "Look for the reversal row with negative amounts.",
+     "focus": -1,
+     "file": "clips/f8b3f57ca297.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Emily's pharmacy claim table",
+   "lines": [
+    {
+     "raw": "Pharmacy claims for member M1001, 2025 (one row per transaction).",
+     "say": "Pharmacy claims for member M 1 0 0 1, 2025 (one row per transaction).",
+     "focus": -1,
+     "file": "clips/225678bf281b.mp3",
+     "seconds": 7.025
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Emily's pharmacy claim table",
+   "lines": [
+    {
+     "raw": "Things to notice.",
+     "say": "Things to notice.",
+     "focus": -1,
+     "file": "clips/a02b5fd11934.mp3",
+     "seconds": 1.775
+    },
+    {
+     "raw": "The **mail-order** fill has a **new Rx number** (`7100456`) and **fill number 0**, because it is a new prescription at a different pharmacy (`1645230982`).",
+     "say": "The mail-order fill has a new Rx number (7 1 0 0 4 5 6) and fill number 0, because it is a new prescription at a different pharmacy (1 6 4 5 2 3 0 9 8 2).",
+     "focus": -1,
+     "file": "clips/070e1f539b9e.mp3",
+     "seconds": 14.025
+    },
+    {
+     "raw": "Its **NDC** ends in `03` instead of `09`: same company and same drug, but a **90-tablet bottle**, so a different package code (lesson 4).",
+     "say": "Its N D C ends in 03 instead of 09: same company and same drug, but a 90-tablet bottle, so a different package code (lesson 4).",
+     "focus": -1,
+     "file": "clips/c6086d840b48.mp3",
+     "seconds": 10.725
+    },
+    {
+     "raw": "The ibuprofen was prescribed by Dr. Lee (`1093817462`), the surgeon who removed her appendix.",
+     "say": "The ibuprofen was prescribed by Doctor Lee (1 0 9 3 8 1 7 4 6 2), the surgeon who removed her appendix.",
+     "focus": -1,
+     "file": "clips/ac33a97e0e55.mp3",
+     "seconds": 9.1
+    },
+    {
+     "raw": "The rejected refill from 30 July (lesson 9) is **not in the table**: this file holds only paid and reversed claims.",
+     "say": "The rejected refill from 30 July (lesson 9) is not in the table: this file holds only paid and reversed claims.",
+     "focus": -1,
+     "file": "clips/895f8770cb58.mp3",
+     "seconds": 8.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Emily's pharmacy claim table",
+   "lines": [
+    {
+     "raw": "Row-level math: every row must balance.",
+     "say": "Row-level math: every row must balance.",
+     "focus": -1,
+     "file": "clips/54cb5d66012a.mp3",
+     "seconds": 3.225
+    },
+    {
+     "raw": "gross_amt equals ingredient_cost plus dispensing_fee equals patient_pay plus plan_paid.",
+     "say": "gross_amt equals ingredient_cost plus dispensing_fee equals patient_pay plus plan_paid.",
+     "focus": 0,
+     "file": "clips/eaabe48230ed.mp3",
+     "seconds": 6.575
+    },
+    {
+     "raw": "For example: Mail-order row: $22.50 plus $1.00 equals $23.50 equals $10.00 plus $13.50 ✓.",
+     "say": "For example: Mail-order row: 22 dollars 50 cents plus 1 dollar equals 23 dollars 50 cents equals 10 dollars plus 13 dollars 50 cents ✓.",
+     "focus": 1,
+     "file": "clips/4b17bcfee87b.mp3",
+     "seconds": 11.275
+    },
+    {
+     "raw": "Ibuprofen row: $2.40 plus $2.00 equals $4.40 equals $4.40 plus $0.00 ✓.",
+     "say": "Ibuprofen row: 2 dollars 40 cents plus 2 dollars equals 4 dollars 40 cents equals 4 dollars 40 cents plus 0 dollars ✓.",
+     "focus": 1,
+     "file": "clips/6a28f670b690.mp3",
+     "seconds": 9.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Question 1: how many fills did Emily have?",
+     "say": "Question 1: how many fills did Emily have?",
+     "focus": -1,
+     "file": "clips/a798802a5f7b.mp3",
+     "seconds": 3.35
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Question 1: how many fills did Emily have?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "Count all rows. Answer: 8. Right?: **No**: includes the reversal row.",
+     "say": "Count all rows. Answer: 8. Right?: No: includes the reversal row.",
+     "focus": 0,
+     "file": "clips/32942de0447f.mp3",
+     "seconds": 5.15
+    },
+    {
+     "raw": "Count unique `claim_id`. Answer: 7. Right?: **No**: still includes the reversed 15 September fill.",
+     "say": "Count unique claim_id. Answer: 7. Right?: No: still includes the reversed 15 September fill.",
+     "focus": 1,
+     "file": "clips/9fef37ec9beb.mp3",
+     "seconds": 7.575
+    },
+    {
+     "raw": "Net reversals, then count fills with net qty above 0. Answer: **6**. Right?: **Yes**: 1 amoxicillin + 1 ibuprofen + 4 atorvastatin.",
+     "say": "Net reversals, then count fills with net qty above 0. Answer: 6. Right?: Yes: 1 amoxicillin and 1 ibuprofen and 4 atorvastatin.",
+     "focus": 2,
+     "file": "clips/7b0d3bc9a378.mp3",
+     "seconds": 11.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Question 2: how much was spent?",
+     "say": "Question 2: how much was spent?",
+     "focus": -1,
+     "file": "clips/061088abf170.mp3",
+     "seconds": 2.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Question 2: how much was spent?",
+   "lines": [
+    {
+     "raw": "Because the reversal row is already negative, you can simply **sum every row**.",
+     "say": "Because the reversal row is already negative, you can simply sum every row.",
+     "focus": -1,
+     "file": "clips/fd6356bfef5c.mp3",
+     "seconds": 5.25
+    },
+    {
+     "raw": "The 15 September fill and its reversal cancel out.",
+     "say": "The 15 September fill and its reversal cancel out.",
+     "focus": -1,
+     "file": "clips/07549e719790.mp3",
+     "seconds": 3.95
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Question 2: how much was spent?",
+   "lines": [
+    {
+     "raw": "Spend by drug (after netting).",
+     "say": "Spend by drug (after netting).",
+     "focus": -1,
+     "file": "clips/87e5b1935fa2.mp3",
+     "seconds": 2.275
+    },
+    {
+     "raw": "Amoxicillin 500 mg. Fills: 1. Gross: $11.30. Emily paid: $5.00. Plan paid: $6.30.",
+     "say": "Amoxicillin 500 mg. Fills: 1. Gross: 11 dollars 30 cents. Emily paid: 5 dollars. Plan paid: 6 dollars 30 cents.",
+     "focus": 0,
+     "file": "clips/66049ea7c771.mp3",
+     "seconds": 11.225
+    },
+    {
+     "raw": "Ibuprofen 800 mg. Fills: 1. Gross: $4.40. Emily paid: $4.40. Plan paid: $0.00.",
+     "say": "Ibuprofen 800 mg. Fills: 1. Gross: 4 dollars 40 cents. Emily paid: 4 dollars 40 cents. Plan paid: 0 dollars.",
+     "focus": 1,
+     "file": "clips/2a4af51a1c7b.mp3",
+     "seconds": 10.975
+    },
+    {
+     "raw": "Atorvastatin 20 mg. Fills: 4. Gross: $52.00. Emily paid: $25.00. Plan paid: $27.00.",
+     "say": "Atorvastatin 20 mg. Fills: 4. Gross: 52 dollars. Emily paid: 25 dollars. Plan paid: 27 dollars.",
+     "focus": 2,
+     "file": "clips/71e4bb9b9b41.mp3",
+     "seconds": 10.2
+    },
+    {
+     "raw": "**Total**. Fills: **6**. Gross: **$67.70**. Emily paid: **$34.40**. Plan paid: **$33.30**.",
+     "say": "Total. Fills: 6. Gross: 67 dollars 70 cents. Emily paid: 34 dollars 40 cents. Plan paid: 33 dollars 30 cents.",
+     "focus": 3,
+     "file": "clips/f6d561a9ec1e.mp3",
+     "seconds": 11.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 14,
+   "section": "Question 2: how much was spent?",
+   "lines": [
+    {
+     "raw": "Check the maths.",
+     "say": "Check the maths.",
+     "focus": -1,
+     "file": "clips/c39297615a26.mp3",
+     "seconds": 1.625
+    },
+    {
+     "raw": "Atorvastatin gross: $9.50 + $9.50 + $9.50 − $9.50 + $9.50 + $23.50 = **$52.00** (three 30-day fills + one 90-day fill).",
+     "say": "Atorvastatin gross: 9 dollars 50 cents and 9 dollars 50 cents and 9 dollars 50 cents − 9 dollars 50 cents and 9 dollars 50 cents and 23 dollars 50 cents = 52 dollars (three 30-day fills and one 90-day fill).",
+     "focus": -1,
+     "file": "clips/a57684bc5378.mp3",
+     "seconds": 17.85
+    },
+    {
+     "raw": "Total: Emily **$34.40** + plan **$33.30** = **$67.70** ✓.",
+     "say": "Total: Emily 34 dollars 40 cents and plan 33 dollars 30 cents = 67 dollars 70 cents ✓.",
+     "focus": -1,
+     "file": "clips/c184274ec307.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "Compare this with her appendix stay, where the plan paid **$5,440** across the hospital, surgeon and anaesthesia claims: generic drugs are cheap, but they are filled again and again, for years.",
+     "say": "Compare this with her appendix stay, where the plan paid 5440 dollars across the hospital, surgeon and anaesthesia claims: generic drugs are cheap, but they are filled again and again, for years.",
+     "focus": -1,
+     "file": "clips/d91780ed568b.mp3",
+     "seconds": 13.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 15,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Question 3: what is the generic dispensing rate?",
+     "say": "Question 3: what is the generic dispensing rate?",
+     "focus": -1,
+     "file": "clips/d877ce25af29.mp3",
+     "seconds": 3.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 16,
+   "section": "Question 3: what is the generic dispensing rate?",
+   "lines": [
+    {
+     "raw": "Generic dispensing rate (GDR).",
+     "say": "Generic dispensing rate (G D R).",
+     "focus": -1,
+     "file": "clips/8117989b11da.mp3",
+     "seconds": 2.9
+    },
+    {
+     "raw": "GDR equals Generic fills ÷ All fills.",
+     "say": "G D R equals Generic fills ÷ All fills.",
+     "focus": 0,
+     "file": "clips/49eb0d271c70.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "For example: Emily: 6 generic fills ÷ 6 fills equals 100%.",
+     "say": "For example: Emily: 6 generic fills ÷ 6 fills equals 100 percent.",
+     "focus": 1,
+     "file": "clips/11532e1c3a3c.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "If one atorvastatin fill had been brand Lipitor instead, it would be 5 ÷ 6 equals 83.3%.",
+     "say": "If one atorvastatin fill had been brand Lipitor instead, it would be 5 ÷ 6 equals 83.3 percent.",
+     "focus": 1,
+     "file": "clips/3e478dd264ae.mp3",
+     "seconds": 8.7
+    },
+    {
+     "raw": "Plans track GDR across all members; a high GDR usually means lower costs.",
+     "say": "Plans track G D R across all members; a high G D R usually means lower costs.",
+     "focus": 1,
+     "file": "clips/e0d7162dae85.mp3",
+     "seconds": 6.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 17,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Question 4: did Emily take her atorvastatin regularly?",
+     "say": "Question 4: did Emily take her atorvastatin regularly?",
+     "focus": -1,
+     "file": "clips/9aa179277f1f.mp3",
+     "seconds": 4.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 18,
+   "section": "Question 4: did Emily take her atorvastatin regularly?",
+   "lines": [
+    {
+     "raw": "For daily medicines, analysts measure **adherence** with **PDC (proportion of days covered)**: out of all the days Emily should have had medicine, on how many days did she actually **have it at home**?",
+     "say": "For daily medicines, analysts measure adherence with P D C (proportion of days covered): out of all the days Emily should have had medicine, on how many days did she actually have it at home?",
+     "focus": -1,
+     "file": "clips/e31d35461539.mp3",
+     "seconds": 11.775
+    },
+    {
+     "raw": "Each fill covers its **days supply**, starting on the fill date.",
+     "say": "Each fill covers its days supply, starting on the fill date.",
+     "focus": -1,
+     "file": "clips/99eb48627e37.mp3",
+     "seconds": 3.975
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 19,
+   "section": "Question 4: did Emily take her atorvastatin regularly?",
+   "lines": [
+    {
+     "raw": "Proportion of days covered.",
+     "say": "Proportion of days covered.",
+     "focus": -1,
+     "file": "clips/2060693a8139.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "PDC equals Days covered ÷ Days in the period.",
+     "say": "P D C equals Days covered ÷ Days in the period.",
+     "focus": 0,
+     "file": "clips/f935a71dd718.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "For example: The period runs from the first fill (15 July) to the end of the year (31 December): 17 plus 31 plus 30 plus 31 plus 30 plus 31 equals 170 days.",
+     "say": "For example: The period runs from the first fill (15 July) to the end of the year (31 December): 17 plus 31 plus 30 plus 31 plus 30 plus 31 equals 170 days.",
+     "focus": 1,
+     "file": "clips/77e30502f4f1.mp3",
+     "seconds": 14.675
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 20,
+   "section": "Question 4: did Emily take her atorvastatin regularly?",
+   "lines": [
+    {
+     "raw": "Atorvastatin coverage, 15 July to 31 December 2025.",
+     "say": "Atorvastatin coverage, 15 July to 31 December 2025.",
+     "focus": -1,
+     "file": "clips/26c3b6f27e30.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Rx 6003390, fill 0. Fill date: 15 Jul. Days supply: 30. Covers: 15 Jul – 13 Aug. Days counted in 2025: 30.",
+     "say": "Rx 6003390, fill 0. Fill date: 15 Jul. Days supply: 30. Covers: 15 Jul – 13 Aug. Days counted in 2025: 30.",
+     "focus": 0,
+     "file": "clips/64c6ccdee6b2.mp3",
+     "seconds": 13.575
+    },
+    {
+     "raw": "Rx 6003390, fill 1. Fill date: 14 Aug. Days supply: 30. Covers: 14 Aug – 12 Sep. Days counted in 2025: 30.",
+     "say": "Rx 6003390, fill 1. Fill date: 14 Aug. Days supply: 30. Covers: 14 Aug – 12 Sep. Days counted in 2025: 30.",
+     "focus": 1,
+     "file": "clips/822556236057.mp3",
+     "seconds": 13.075
+    },
+    {
+     "raw": "Rx 6003390, fill 2. Fill date: 15 Sep. Days supply: reversed. Covers: Nothing: never picked up. Days counted in 2025: 0.",
+     "say": "Rx 6003390, fill 2. Fill date: 15 Sep. Days supply: reversed. Covers: Nothing: never picked up. Days counted in 2025: 0.",
+     "focus": 2,
+     "file": "clips/5a1849f360d9.mp3",
+     "seconds": 13.15
+    },
+    {
+     "raw": "Gap. Covers: 13 Sep – 28 Sep (no medicine). Days counted in 2025: **16 days not covered**.",
+     "say": "Gap. Covers: 13 Sep – 28 Sep (no medicine). Days counted in 2025: 16 days not covered.",
+     "focus": 3,
+     "file": "clips/4546a3846417.mp3",
+     "seconds": 8.475
+    },
+    {
+     "raw": "Rx 6003390, fill 2. Fill date: 29 Sep. Days supply: 30. Covers: 29 Sep – 28 Oct. Days counted in 2025: 30.",
+     "say": "Rx 6003390, fill 2. Fill date: 29 Sep. Days supply: 30. Covers: 29 Sep – 28 Oct. Days counted in 2025: 30.",
+     "focus": 4,
+     "file": "clips/446aa42995d3.mp3",
+     "seconds": 13.425
+    },
+    {
+     "raw": "Rx 7100456, fill 0 (mail). Fill date: 29 Oct. Days supply: 90. Covers: 29 Oct 2025 – 26 Jan 2026. Days counted in 2025: 64 (29 Oct – 31 Dec).",
+     "say": "Rx 7100456, fill 0 (mail). Fill date: 29 Oct. Days supply: 90. Covers: 29 Oct 2025 – 26 Jan 2026. Days counted in 2025: 64 (29 Oct – 31 Dec).",
+     "focus": 5,
+     "file": "clips/c8b1f242da60.mp3",
+     "seconds": 19.6
+    },
+    {
+     "raw": "**Total**. Days counted in 2025: **154 days covered**.",
+     "say": "Total. Days counted in 2025: 154 days covered.",
+     "focus": 6,
+     "file": "clips/522a0793740d.mp3",
+     "seconds": 5.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 21,
+   "section": "Question 4: did Emily take her atorvastatin regularly?",
+   "lines": [
+    {
+     "raw": "Emily's PDC.",
+     "say": "Emily's P D C.",
+     "focus": -1,
+     "file": "clips/d6a962d0b60a.mp3",
+     "seconds": 1.95
+    },
+    {
+     "raw": "PDC = 154 ÷ 170 = **0.906, or 90.6%**.",
+     "say": "P D C = 154 ÷ 170 = 0.906, or 90.6 percent.",
+     "focus": -1,
+     "file": "clips/21dcfba3ac42.mp3",
+     "seconds": 9.775
+    },
+    {
+     "raw": "Check: 154 covered + 16 gap days = 170 ✓.",
+     "say": "Check: 154 covered and 16 gap days = 170 ✓.",
+     "focus": -1,
+     "file": "clips/51697708f322.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "A common rule says a patient is **adherent** when PDC is **80% or more**, so Emily counts as adherent.",
+     "say": "A common rule says a patient is adherent when P D C is 80 percent or more, so Emily counts as adherent.",
+     "focus": -1,
+     "file": "clips/51760c8ccb12.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "Note that we grouped both prescriptions by **drug** (atorvastatin), not by Rx number or NDC, because the mail-order fill is the same medicine.",
+     "say": "Note that we grouped both prescriptions by drug (atorvastatin), not by Rx number or N D C, because the mail-order fill is the same medicine.",
+     "focus": -1,
+     "file": "clips/4e1ff93f110d.mp3",
+     "seconds": 10.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 22,
+   "section": "Question 4: did Emily take her atorvastatin regularly?",
+   "lines": [
+    {
+     "raw": "What if you forgot the reversal?",
+     "say": "What if you forgot the reversal?",
+     "focus": -1,
+     "file": "clips/844c5f8ab774.mp3",
+     "seconds": 2.3
+    },
+    {
+     "raw": "You would think the 15 September fill covered Emily from 15 September onward, and the 16-day gap would almost disappear.",
+     "say": "You would think the 15 September fill covered Emily from 15 September onward, and the 16-day gap would almost disappear.",
+     "focus": -1,
+     "file": "clips/d071d9e3cebd.mp3",
+     "seconds": 8.3
+    },
+    {
+     "raw": "PDC would come out at about **98.8%** (168 ÷ 170) instead of the real **90.6%**.",
+     "say": "P D C would come out at about 98.8 percent (168 ÷ 170) instead of the real 90.6 percent.",
+     "focus": -1,
+     "file": "clips/d154438b5c9d.mp3",
+     "seconds": 11
+    },
+    {
+     "raw": "Reversals are not just an accounting detail; they change clinical answers too.",
+     "say": "Reversals are not just an accounting detail; they change clinical answers too.",
+     "focus": -1,
+     "file": "clips/5ef99c03ca01.mp3",
+     "seconds": 5.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 23,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Linking pharmacy and medical claims.",
+     "say": "Linking pharmacy and medical claims.",
+     "focus": -1,
+     "file": "clips/64301732391d.mp3",
+     "seconds": 2.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 24,
+   "section": "Linking pharmacy and medical claims",
+   "lines": [
+    {
+     "raw": "Joining by member_id and date fills in the missing \"why\".",
+     "say": "Joining by member_id and date fills in the missing \"why\".",
+     "focus": -1,
+     "file": "clips/b12a1f69c0de.mp3",
+     "seconds": 4.1
+    },
+    {
+     "raw": "840112301 · amoxicillin. Fill date: 2025-03-10. Medical claim on the same day: 23098908 · office visit with Dr. Patel. Diagnosis: `J02.0` strep throat.",
+     "say": "840112301, amoxicillin. Fill date: 2025-03-10. Medical claim on the same day: 23098908, office visit with Doctor Patel. Diagnosis: J 0 2 . 0 strep throat.",
+     "focus": 0,
+     "file": "clips/2aa84906742c.mp3",
+     "seconds": 19.875
+    },
+    {
+     "raw": "840115620 · ibuprofen. Fill date: 2025-06-04. Medical claim on the same day: 778201 · hospital stay, discharged 4 June. Diagnosis: `K35.80` acute appendicitis.",
+     "say": "840115620, ibuprofen. Fill date: 2025-06-04. Medical claim on the same day: 778201, hospital stay, discharged 4 June. Diagnosis: K 3 5 . 8 0 acute appendicitis.",
+     "focus": 1,
+     "file": "clips/1c161579f61d.mp3",
+     "seconds": 21.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 25,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Field → lesson map.",
+     "say": "Field to lesson map.",
+     "focus": -1,
+     "file": "clips/e9cf9eeca18e.mp3",
+     "seconds": 1.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 26,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "member_id, claim_id, rx_number. Question it answers: Who? Which claim? Which prescription? Lesson: 3. The Claim Record.",
+     "say": "member_id, claim_id, rx_number. Question it answers: Who? Which claim? Which prescription? Lesson: 3. The Claim Record.",
+     "focus": 0,
+     "file": "clips/4bdb2cd59d86.mp3",
+     "seconds": 9.025
+    },
+    {
+     "raw": "ndc11, drug_name. Question it answers: Which drug, exactly? Lesson: 4. The Drug: NDC.",
+     "say": "ndc11, drug_name. Question it answers: Which drug, exactly? Lesson: 4. The Drug: N D C.",
+     "focus": 1,
+     "file": "clips/cce81d2fd881.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "qty, days_supply, fill_dt, fill_number. Question it answers: How much, how long, when, which refill? Lesson: 5. Quantity, Days Supply & Dates.",
+     "say": "qty, days_supply, fill_dt, fill_number. Question it answers: How much, how long, when, which refill? Lesson: 5. Quantity, Days Supply and Dates.",
+     "focus": 2,
+     "file": "clips/c2fa2572c151.mp3",
+     "seconds": 11.3
+    },
+    {
+     "raw": "prescriber_npi, pharmacy_npi. Question it answers: Who prescribed it? Who filled it? Lesson: 6. Prescriber & Pharmacy.",
+     "say": "prescriber_npi, pharmacy_npi. Question it answers: Who prescribed it? Who filled it? Lesson: 6. Prescriber and Pharmacy.",
+     "focus": 3,
+     "file": "clips/1bb7b0719b02.mp3",
+     "seconds": 9.55
+    },
+    {
+     "raw": "generic_ind, daw_cd, tier. Question it answers: Brand or generic? Who chose? Which price level? Lesson: 7. Brand, Generic & Formulary.",
+     "say": "generic_ind, daw_cd, tier. Question it answers: Brand or generic? Who chose? Which price level? Lesson: 7. Brand, Generic and Formulary.",
+     "focus": 4,
+     "file": "clips/e8b6e80f67a5.mp3",
+     "seconds": 10.925
+    },
+    {
+     "raw": "ingredient_cost, dispensing_fee, gross_amt, patient_pay, plan_paid. Question it answers: How much, and who paid? Lesson: 8. Amounts: Follow the Money.",
+     "say": "ingredient_cost, dispensing_fee, gross_amt, patient_pay, plan_paid. Question it answers: How much, and who paid? Lesson: 8. Amounts: Follow the Money.",
+     "focus": 5,
+     "file": "clips/de2775adbd23.mp3",
+     "seconds": 10.925
+    },
+    {
+     "raw": "txn_cd, claim_status. Question it answers: Paid or rejected? Lesson: 9. Claim Status.",
+     "say": "txn_cd, claim_status. Question it answers: Paid or rejected? Lesson: 9. Claim Status.",
+     "focus": 6,
+     "file": "clips/2c4cc955d711.mp3",
+     "seconds": 7.775
+    },
+    {
+     "raw": "B2 rows with negative amounts. Question it answers: Was the fill cancelled? Which version is final? Lesson: 10. Reversals & Duplicates.",
+     "say": "B2 rows with negative amounts. Question it answers: Was the fill cancelled? Which version is final? Lesson: 10. Reversals and Duplicates.",
+     "focus": 7,
+     "file": "clips/b2b2baa360f2.mp3",
+     "seconds": 10.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 27,
+   "section": "Field → lesson map",
+   "lines": [
+    {
+     "raw": "Congratulations! 🎉.",
+     "say": "Congratulations! 🎉.",
+     "focus": -1,
+     "file": "clips/42e8ee67286c.mp3",
+     "seconds": 2.8
+    },
+    {
+     "raw": "You can now read US pharmacy claims from top to bottom: the drug code, the fill, the money and the status, and you can answer real analyst questions with them.",
+     "say": "You can now read U S pharmacy claims from top to bottom: the drug code, the fill, the money and the status, and you can answer real analyst questions with them.",
+     "focus": -1,
+     "file": "clips/c9b9a102b393.mp3",
+     "seconds": 10.6
+    },
+    {
+     "raw": "Next, take the **Provider** course to learn about the doctors, pharmacies and hospitals behind these claims.",
+     "say": "Next, take the Provider course to learn about the doctors, pharmacies and hospitals behind these claims.",
+     "focus": -1,
+     "file": "clips/2eb1e3bcb738.mp3",
+     "seconds": 6.725
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "A pharmacy claim table has one row per transaction: paid fills and their reversals.",
+     "say": "A pharmacy claim table has one row per transaction: paid fills and their reversals.",
+     "focus": 0,
+     "file": "clips/83bff18436ab.mp3",
+     "seconds": 5.975
+    },
+    {
+     "raw": "Net reversals before counting fills, adding up money or measuring adherence.",
+     "say": "Net reversals before counting fills, adding up money or measuring adherence.",
+     "focus": 1,
+     "file": "clips/97512687ad06.mp3",
+     "seconds": 5.4
+    },
+    {
+     "raw": "For every row: gross amount = ingredient cost + dispensing fee = patient pay + plan paid.",
+     "say": "For every row: gross amount = ingredient cost and dispensing fee = patient pay and plan paid.",
+     "focus": 2,
+     "file": "clips/1b2106511795.mp3",
+     "seconds": 7.45
+    },
+    {
+     "raw": "**GDR** = generic fills ÷ all fills.",
+     "say": "G D R = generic fills ÷ all fills.",
+     "focus": 3,
+     "file": "clips/461f57b435e3.mp3",
+     "seconds": 4.5
+    },
+    {
+     "raw": "**PDC** = days covered ÷ days in the period (80%+ is a common adherence target).",
+     "say": "P D C = days covered ÷ days in the period (80 percent+ is a common adherence target).",
+     "focus": 3,
+     "file": "clips/b05d6270825a.mp3",
+     "seconds": 7.85
+    },
+    {
+     "raw": "Link pharmacy claims to medical claims by member and date to find the diagnosis.",
+     "say": "Link pharmacy claims to medical claims by member and date to find the diagnosis.",
+     "focus": 4,
+     "file": "clips/cc8194546826.mp3",
+     "seconds": 5.9
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

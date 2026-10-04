@@ -1,0 +1,596 @@
+{
+ "courseId": "vision",
+ "lessonId": "vision-claims-codes",
+ "lessonNumber": 4,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 4: The Vision Claim & Codes.",
+     "say": "Lesson 4: The Vision Claim and Codes.",
+     "focus": -1,
+     "file": "clips/8998ea56d6a4.mp3",
+     "seconds": 3.125
+    },
+    {
+     "raw": "What a vision claim looks like, and the codes for exams, frames, lenses and contacts.",
+     "say": "What a vision claim looks like, and the codes for exams, frames, lenses and contacts.",
+     "focus": -1,
+     "file": "clips/fafe098998c4.mp3",
+     "seconds": 6
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Read a vision claim: header and lines.",
+     "say": "Read a vision claim: header and lines.",
+     "focus": 0,
+     "file": "clips/4ca3291fcbe2.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Recognise the procedure codes for eye exams (CPT 92xxx and S0620/S0621).",
+     "say": "Recognise the procedure codes for eye exams (C P T 92xxx and S 0 6 2 0 / S 0 6 2 1).",
+     "focus": 1,
+     "file": "clips/2128f4e8b677.mp3",
+     "seconds": 10.425
+    },
+    {
+     "raw": "Recognise HCPCS V-codes for frames, lenses and contact lenses, and how their units count.",
+     "say": "Recognise H C P C S V-codes for frames, lenses and contact lenses, and how their units count.",
+     "focus": 2,
+     "file": "clips/287536625c2a.mp3",
+     "seconds": 7.65
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What a vision claim looks like.",
+     "say": "What a vision claim looks like.",
+     "focus": -1,
+     "file": "clips/8c9c4683b5e1.mp3",
+     "seconds": 2.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "What a vision claim looks like",
+   "lines": [
+    {
+     "raw": "An eye clinic bills like a doctor's office.",
+     "say": "An eye clinic bills like a doctor's office.",
+     "focus": -1,
+     "file": "clips/c8a4d71ce1cd.mp3",
+     "seconds": 3.075
+    },
+    {
+     "raw": "Vision claims are **professional claims** (the **CMS-1500** paper form, or the electronic **837P**), or they are entered on the vision company's own online portal.",
+     "say": "Vision claims are professional claims (the C M S 1500 paper form, or the electronic 8 3 7 P), or they are entered on the vision company's own online portal.",
+     "focus": -1,
+     "file": "clips/c187ae8d90f9.mp3",
+     "seconds": 12.1
+    },
+    {
+     "raw": "Either way they have the same parts as any doctor's claim (covered in detail in the Medical course): patient, provider, dates, **diagnosis codes** (why) and **procedure codes** (what).",
+     "say": "Either way they have the same parts as any doctor's claim (covered in detail in the Medical course): patient, provider, dates, diagnosis codes (why) and procedure codes (what).",
+     "focus": -1,
+     "file": "clips/f5bfc935ed7c.mp3",
+     "seconds": 11.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "What a vision claim looks like",
+   "lines": [
+    {
+     "raw": "The Nepal version of these \"codes\".",
+     "say": "The Nepal version of these \"codes\".",
+     "focus": -1,
+     "file": "clips/245dfe44b00d.mp3",
+     "seconds": 2.575
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Ram's eye hospital ticket says \"eye check-up\" and his glasses bill says \"frame\" and \"lens\" with prices.",
+     "say": "Ram's eye hospital ticket says \"eye check-up\" and his glasses bill says \"frame\" and \"lens\" with prices.",
+     "focus": 0,
+     "file": "clips/1381efd9a117.mp3",
+     "seconds": 7.125
+    },
+    {
+     "raw": "If he claims from his insurer, they read those **words**.",
+     "say": "If he claims from his insurer, they read those words.",
+     "focus": 0,
+     "file": "clips/5428adc9c2ba.mp3",
+     "seconds": 3.6
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 1,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "On an SSF hospital claim, the hospital describes the service and diagnosis in its own system.",
+     "say": "On an S S F hospital claim, the hospital describes the service and diagnosis in its own system.",
+     "focus": 1,
+     "file": "clips/359e5299c816.mp3",
+     "seconds": 7
+    },
+    {
+     "raw": "Sita never sees codes, but the hospital records **what** was done and **why**.",
+     "say": "Sita never sees codes, but the hospital records what was done and why.",
+     "focus": 1,
+     "file": "clips/fc6a438e2ef6.mp3",
+     "seconds": 4.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "What a vision claim looks like",
+   "lines": [
+    {
+     "raw": "In the US: Codes replace words.",
+     "say": "In the U S: Codes replace words.",
+     "focus": -1,
+     "file": "clips/912bb93df7aa.mp3",
+     "seconds": 2.875
+    },
+    {
+     "raw": "In the US every service and item has a **standard code**, so a computer can price it and check the plan rules automatically.",
+     "say": "In the U S every service and item has a standard code, so a computer can price it and check the plan rules automatically.",
+     "focus": 0,
+     "file": "clips/2897603b3edf.mp3",
+     "seconds": 8.15
+    },
+    {
+     "raw": "Exams use **CPT** codes (or HCPCS **S-codes**).",
+     "say": "Exams use C P T codes (or H C P C S S-codes).",
+     "focus": 1,
+     "file": "clips/41f3dd923cfd.mp3",
+     "seconds": 4.6
+    },
+    {
+     "raw": "Glasses and contacts use HCPCS **V-codes**.",
+     "say": "Glasses and contacts use H C P C S V-codes.",
+     "focus": 1,
+     "file": "clips/fbc4001867a2.mp3",
+     "seconds": 4.075
+    },
+    {
+     "raw": "Diagnoses use **ICD-10-CM** codes.",
+     "say": "Diagnoses use I C D 10-CM codes.",
+     "focus": 1,
+     "file": "clips/4c9c1ca14471.mp3",
+     "seconds": 3.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Exam codes.",
+     "say": "Exam codes.",
+     "focus": -1,
+     "file": "clips/2735211ae5fe.mp3",
+     "seconds": 1.725
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Exam codes",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`92002` / `92004`. Meaning: Eye exam, **new** patient (intermediate / comprehensive). Used mostly by: Medical plans and Medicare, also some vision plans.",
+     "say": "9 2 0 0 2 or 9 2 0 0 4. Meaning: Eye exam, new patient (intermediate or comprehensive). Used mostly by: Medical plans and Medicare, also some vision plans.",
+     "focus": 0,
+     "file": "clips/803e5100e619.mp3",
+     "seconds": 14.275
+    },
+    {
+     "raw": "`92012` / `92014`. Meaning: Eye exam, **established** patient (intermediate / comprehensive). Used mostly by: Medical plans and Medicare, also some vision plans.",
+     "say": "9 2 0 1 2 or 9 2 0 1 4. Meaning: Eye exam, established patient (intermediate or comprehensive). Used mostly by: Medical plans and Medicare, also some vision plans.",
+     "focus": 1,
+     "file": "clips/5e233daa623b.mp3",
+     "seconds": 14.45
+    },
+    {
+     "raw": "`92015`. Meaning: **Refraction**: measuring the power for glasses. Used mostly by: Billed separately; often **not** paid by medical plans or Medicare.",
+     "say": "9 2 0 1 5. Meaning: Refraction: measuring the power for glasses. Used mostly by: Billed separately; often not paid by medical plans or Medicare.",
+     "focus": 2,
+     "file": "clips/085b2f1d9b6d.mp3",
+     "seconds": 11.9
+    },
+    {
+     "raw": "`S0620`. Meaning: Routine eye exam **including refraction**, new patient. Used mostly by: Vision plans.",
+     "say": "S 0 6 2 0. Meaning: Routine eye exam including refraction, new patient. Used mostly by: Vision plans.",
+     "focus": 3,
+     "file": "clips/ba021b7ba24d.mp3",
+     "seconds": 8.975
+    },
+    {
+     "raw": "`S0621`. Meaning: Routine eye exam **including refraction**, established patient. Used mostly by: Vision plans.",
+     "say": "S 0 6 2 1. Meaning: Routine eye exam including refraction, established patient. Used mostly by: Vision plans.",
+     "focus": 4,
+     "file": "clips/644e91eda52b.mp3",
+     "seconds": 9.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "Exam codes",
+   "lines": [
+    {
+     "raw": "New or established?",
+     "say": "New or established?",
+     "focus": -1,
+     "file": "clips/e4dea405b377.mp3",
+     "seconds": 1.85
+    },
+    {
+     "raw": "A **new** patient has not been seen by that practice (roughly, in the last three years).",
+     "say": "A new patient has not been seen by that practice (roughly, in the last three years).",
+     "focus": -1,
+     "file": "clips/67769f157eb3.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "An **established** patient has.",
+     "say": "An established patient has.",
+     "focus": -1,
+     "file": "clips/617812b8d266.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "Lily's first ever exam is **new**; Emily, who sees Dr. Novak every year, is **established**.",
+     "say": "Lily's first ever exam is new; Emily, who sees Doctor Novak every year, is established.",
+     "focus": -1,
+     "file": "clips/3c76039e01ea.mp3",
+     "seconds": 6.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Materials codes: HCPCS V-codes.",
+     "say": "Materials codes: H C P C S V-codes.",
+     "focus": -1,
+     "file": "clips/54bb829c3a15.mp3",
+     "seconds": 3.6
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Materials codes: HCPCS V-codes",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "`V2020`. Item: Frames. Units: 1 per frame.",
+     "say": "V 2 0 2 0. Item: Frames. Units: 1 per frame.",
+     "focus": 0,
+     "file": "clips/a4127983d214.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "`V2100`–`V2199`. Item: Single vision lenses (one power for the whole lens). Units: **Per lens**, so a pair = 2 units.",
+     "say": "V 2 1 0 0–V 2 1 9 9. Item: Single vision lenses (one power for the whole lens). Units: Per lens, so a pair = 2 units.",
+     "focus": 1,
+     "file": "clips/d55bdb0b2ef5.mp3",
+     "seconds": 11.375
+    },
+    {
+     "raw": "`V2200`–`V2299`. Item: Bifocal lenses. Units: Per lens.",
+     "say": "V 2 2 0 0–V 2 2 9 9. Item: Bifocal lenses. Units: Per lens.",
+     "focus": 2,
+     "file": "clips/0d92ce9691f3.mp3",
+     "seconds": 7.05
+    },
+    {
+     "raw": "`V2300`–`V2399`. Item: Trifocal lenses. Units: Per lens.",
+     "say": "V 2 3 0 0–V 2 3 9 9. Item: Trifocal lenses. Units: Per lens.",
+     "focus": 3,
+     "file": "clips/534de8531012.mp3",
+     "seconds": 7.25
+    },
+    {
+     "raw": "`V2500`–`V2599`. Item: Contact lenses. Units: Per lens.",
+     "say": "V 2 5 0 0–V 2 5 9 9. Item: Contact lenses. Units: Per lens.",
+     "focus": 4,
+     "file": "clips/e4c583a37250.mp3",
+     "seconds": 7.275
+    },
+    {
+     "raw": "`V2781`. Item: Progressive lens (no visible line). Units: Per lens.",
+     "say": "V 2 7 8 1. Item: Progressive lens (no visible line). Units: Per lens.",
+     "focus": 5,
+     "file": "clips/7f54e6f98800.mp3",
+     "seconds": 6.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "Materials codes: HCPCS V-codes",
+   "lines": [
+    {
+     "raw": "Units: one pair is two lenses.",
+     "say": "Units: one pair is two lenses.",
+     "focus": -1,
+     "file": "clips/02799a770658.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Lens codes count **each lens**.",
+     "say": "Lens codes count each lens.",
+     "focus": -1,
+     "file": "clips/a5beea9dacb4.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "A pair of glasses shows the lens code with **units = 2**.",
+     "say": "A pair of glasses shows the lens code with units = 2.",
+     "focus": -1,
+     "file": "clips/d1dd188d5f9a.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "If you count \"pairs of glasses\" in data, count frames or divide lens units by 2.",
+     "say": "If you count \"pairs of glasses\" in data, count frames or divide lens units by 2.",
+     "focus": -1,
+     "file": "clips/a143c96d0ccb.mp3",
+     "seconds": 5.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Emily's glasses claim.",
+     "say": "Emily's glasses claim.",
+     "focus": -1,
+     "file": "clips/835fda7aa2fd.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Emily's glasses claim",
+   "lines": [
+    {
+     "raw": "On 22 April 2025, Emily has her yearly exam with **Dr. Anna Novak** at **Hill Country Eye Care** (fictional, in the ClearSight network) and buys glasses there.",
+     "say": "On 22 April 2025, Emily has her yearly exam with Doctor Anna Novak at Hill Country Eye Care (fictional, in the ClearSight network) and buys glasses there.",
+     "focus": -1,
+     "file": "clips/ce85d715e2f3.mp3",
+     "seconds": 11.45
+    },
+    {
+     "raw": "Every code from this lesson appears on one claim: the header says who, which plan and why; each line says what was provided.",
+     "say": "Every code from this lesson appears on one claim: the header says who, which plan and why; each line says what was provided.",
+     "focus": -1,
+     "file": "clips/f6c12f5604bc.mp3",
+     "seconds": 8.1
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Emily's glasses claim",
+   "lines": [
+    {
+     "raw": "Here is the CMS-1500 form: Vision claim VC250422 (fictional).",
+     "say": "Here is the C M S 1500 form: Vision claim V C 2 5 0 4 2 2 (fictional).",
+     "focus": -1,
+     "file": "clips/2586cc790609.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "Claim number: VC250422.",
+     "say": "Claim number: V C 2 5 0 4 2 2.",
+     "focus": 0,
+     "file": "clips/831509f64924.mp3",
+     "seconds": 3.75
+    },
+    {
+     "raw": "Plan: ClearSight Vision.",
+     "say": "Plan: ClearSight Vision.",
+     "focus": 1,
+     "file": "clips/d6555ea86755.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Routine vision (carve-out).",
+     "say": "Routine vision (carve-out).",
+     "focus": 1,
+     "file": "clips/2db88bda61d1.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Patient: Emily Carter.",
+     "say": "Patient: Emily Carter.",
+     "focus": 2,
+     "file": "clips/481f9e1c8979.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Member ID M1001.",
+     "say": "Member I D M 1 0 0 1.",
+     "focus": 2,
+     "file": "clips/3e12072f2c54.mp3",
+     "seconds": 3.2
+    },
+    {
+     "raw": "Billing provider: Hill Country Eye Care.",
+     "say": "Billing provider: Hill Country Eye Care.",
+     "focus": 3,
+     "file": "clips/ef925beed4cd.mp3",
+     "seconds": 2.95
+    },
+    {
+     "raw": "NPI 1520438767 · fictional.",
+     "say": "N P I 1520438767, fictional.",
+     "focus": 3,
+     "file": "clips/c6cd66cc4b34.mp3",
+     "seconds": 7.7
+    },
+    {
+     "raw": "Diagnosis: H52.13.",
+     "say": "Diagnosis: H 5 2 . 1 3.",
+     "focus": 4,
+     "file": "clips/b759bd669567.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Myopia, both eyes.",
+     "say": "Myopia, both eyes.",
+     "focus": 4,
+     "file": "clips/5f80925fc305.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "Total charges: $500.00.",
+     "say": "Total charges: 500 dollars.",
+     "focus": 5,
+     "file": "clips/7dc9c683ad87.mp3",
+     "seconds": 3.05
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Emily's glasses claim",
+   "lines": [
+    {
+     "raw": "Why it matters for data.",
+     "say": "Why it matters for data.",
+     "focus": -1,
+     "file": "clips/6134d8f7e1cd.mp3",
+     "seconds": 2.1
+    },
+    {
+     "raw": "The procedure code tells you the **kind** of line: an S-code exam is routine vision, a `92xxx` exam can be either, and a V-code is a material.",
+     "say": "The procedure code tells you the kind of line: an S-code exam is routine vision, a 9 2 x x x exam can be either, and a V-code is a material.",
+     "focus": -1,
+     "file": "clips/c6582d69ef92.mp3",
+     "seconds": 10.625
+    },
+    {
+     "raw": "Lesson 5 shows how the diagnosis on the header settles which plan pays.",
+     "say": "Lesson 5 shows how the diagnosis on the header settles which plan pays.",
+     "focus": -1,
+     "file": "clips/0e416a4582a0.mp3",
+     "seconds": 5.175
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Vision claims are professional claims (CMS-1500 / 837P) or portal submissions, with a header and lines like any doctor's claim.",
+     "say": "Vision claims are professional claims (C M S 1500 or 8 3 7 P) or portal submissions, with a header and lines like any doctor's claim.",
+     "focus": 0,
+     "file": "clips/120db1b20ddd.mp3",
+     "seconds": 11.075
+    },
+    {
+     "raw": "Exams use CPT `92xxx` codes (plus `92015` for refraction) or the routine-exam S-codes `S0620` / `S0621`.",
+     "say": "Exams use C P T 9 2 x x x codes (plus 9 2 0 1 5 for refraction) or the routine-exam S-codes S 0 6 2 0 or S 0 6 2 1.",
+     "focus": 1,
+     "file": "clips/5567a95bb008.mp3",
+     "seconds": 13.575
+    },
+    {
+     "raw": "Materials use HCPCS V-codes: frames, lenses (by type) and contact lenses.",
+     "say": "Materials use H C P C S V-codes: frames, lenses (by type) and contact lenses.",
+     "focus": 2,
+     "file": "clips/4c24495aeda5.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "Lens codes count **per lens**: a pair of glasses is 2 units, so count pairs by frames or by lens units ÷ 2.",
+     "say": "Lens codes count per lens: a pair of glasses is 2 units, so count pairs by frames or by lens units ÷ 2.",
+     "focus": 3,
+     "file": "clips/5886cfce698f.mp3",
+     "seconds": 8.6
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

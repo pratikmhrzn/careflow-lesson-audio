@@ -1,0 +1,708 @@
+{
+ "courseId": "medical",
+ "lessonId": "claim-status",
+ "lessonNumber": 11,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 11: Claim Status.",
+     "say": "Lesson 11: Claim Status.",
+     "focus": -1,
+     "file": "clips/9511a1421860.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "What happens once the claim reaches the insurer, and how it ends.",
+     "say": "What happens once the claim reaches the insurer, and how it ends.",
+     "focus": -1,
+     "file": "clips/b787ebfb2a96.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "Follow a claim from submission to payment.",
+     "say": "Follow a claim from submission to payment.",
+     "focus": 0,
+     "file": "clips/1ceaa0a19a8f.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Know common claim statuses: paid, denied, adjusted, reversed.",
+     "say": "Know common claim statuses: paid, denied, adjusted, reversed.",
+     "focus": 1,
+     "file": "clips/ee52d73356bb.mp3",
+     "seconds": 4.85
+    },
+    {
+     "raw": "Know why claim status matters before you add up money.",
+     "say": "Know why claim status matters before you add up money.",
+     "focus": 2,
+     "file": "clips/d044df73e241.mp3",
+     "seconds": 3.8
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The journey of a claim.",
+     "say": "The journey of a claim.",
+     "focus": -1,
+     "file": "clips/aac2ec2da6cc.mp3",
+     "seconds": 1.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "The journey of a claim",
+   "lines": [
+    {
+     "raw": "Step 1: Care given.",
+     "say": "Step 1: Care given.",
+     "focus": 0,
+     "file": "clips/14cb7210294b.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "Emily sees the doctor.",
+     "say": "Emily sees the doctor.",
+     "focus": 0,
+     "file": "clips/40354ed78533.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "The visit is recorded and coded.",
+     "say": "The visit is recorded and coded.",
+     "focus": 0,
+     "file": "clips/b822057a3eaf.mp3",
+     "seconds": 2.6
+    },
+    {
+     "raw": "Step 2: Claim submitted.",
+     "say": "Step 2: Claim submitted.",
+     "focus": 1,
+     "file": "clips/1e00514f62c4.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "The clinic sends the claim to the insurance company.",
+     "say": "The clinic sends the claim to the insurance company.",
+     "focus": 1,
+     "file": "clips/6dc2e2fa3f46.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "Step 3: Eligibility check.",
+     "say": "Step 3: Eligibility check.",
+     "focus": 2,
+     "file": "clips/d244ae7a3622.mp3",
+     "seconds": 2.5
+    },
+    {
+     "raw": "Insurer checks: was Emily covered on the service date?",
+     "say": "Insurer checks: was Emily covered on the service date?",
+     "focus": 2,
+     "file": "clips/f09b906ad594.mp3",
+     "seconds": 3.8
+    },
+    {
+     "raw": "Step 4: Network & rules check.",
+     "say": "Step 4: Network and rules check.",
+     "focus": 3,
+     "file": "clips/490718b31471.mp3",
+     "seconds": 2.65
+    },
+    {
+     "raw": "Is the doctor in-network?",
+     "say": "Is the doctor in-network?",
+     "focus": 3,
+     "file": "clips/6ed56cec28f8.mp3",
+     "seconds": 2.125
+    },
+    {
+     "raw": "Is the service covered?",
+     "say": "Is the service covered?",
+     "focus": 3,
+     "file": "clips/60b605f3854d.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Does the diagnosis support it?",
+     "say": "Does the diagnosis support it?",
+     "focus": 3,
+     "file": "clips/daeaa5c4dc4a.mp3",
+     "seconds": 2.375
+    },
+    {
+     "raw": "Step 5: Adjudication.",
+     "say": "Step 5: Adjudication.",
+     "focus": 4,
+     "file": "clips/599cf579a621.mp3",
+     "seconds": 2.325
+    },
+    {
+     "raw": "Insurer decides the allowed amount, patient share and payment.",
+     "say": "Insurer decides the allowed amount, patient share and payment.",
+     "focus": 4,
+     "file": "clips/92e30c69d824.mp3",
+     "seconds": 4.175
+    },
+    {
+     "raw": "Step 6: Payment & EOB.",
+     "say": "Step 6: Payment and E O B.",
+     "focus": 5,
+     "file": "clips/be183b8d43b7.mp3",
+     "seconds": 2.725
+    },
+    {
+     "raw": "Provider gets paid; Emily gets an Explanation of Benefits.",
+     "say": "Provider gets paid; Emily gets an Explanation of Benefits.",
+     "focus": 5,
+     "file": "clips/ce3a1738b9b7.mp3",
+     "seconds": 4.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "The journey of a claim",
+   "lines": [
+    {
+     "raw": "The same journey in Nepal.",
+     "say": "The same journey in Nepal.",
+     "focus": -1,
+     "file": "clips/5877a3dc5785.mp3",
+     "seconds": 2.075
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "**Pay first**: Ram is treated and pays the full bill at the counter.",
+     "say": "Pay first: Ram is treated and pays the full bill at the counter.",
+     "focus": 0,
+     "file": "clips/adddb056b648.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "**Collect papers**: original bills, prescription, test reports (and discharge summary if admitted).",
+     "say": "Collect papers: original bills, prescription, test reports (and discharge summary if admitted).",
+     "focus": 1,
+     "file": "clips/132995986bd8.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "**Claim**: he submits a claim form with those papers to his insurer.",
+     "say": "Claim: he submits a claim form with those papers to his insurer.",
+     "focus": 2,
+     "file": "clips/6aa11d5b7bef.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "**Review**: the insurer checks his policy is active, the illness and items are covered, and the bills are genuine.",
+     "say": "Review: the insurer checks his policy is active, the illness and items are covered, and the bills are genuine.",
+     "focus": 3,
+     "file": "clips/b45630aeedeb.mp3",
+     "seconds": 7.375
+    },
+    {
+     "raw": "**Reimbursement**: the insurer pays the approved amount back to **Ram**.",
+     "say": "Reimbursement: the insurer pays the approved amount back to Ram.",
+     "focus": 4,
+     "file": "clips/f6f32947728e.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "Items not covered are rejected, and Ram bears that cost.",
+     "say": "Items not covered are rejected, and Ram bears that cost.",
+     "focus": 4,
+     "file": "clips/db6700028714.mp3",
+     "seconds": 4.15
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 5,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "**Eligibility**: the hospital verifies Sita's SSF ID and contribution status before or during treatment.",
+     "say": "Eligibility: the hospital verifies Sita's S S F I D and contribution status before or during treatment.",
+     "focus": 5,
+     "file": "clips/624157ec4017.mp3",
+     "seconds": 8.275
+    },
+    {
+     "raw": "**Claim**: after treatment, the hospital submits the claim with the bill and documents to SSF.",
+     "say": "Claim: after treatment, the hospital submits the claim with the bill and documents to S S F.",
+     "focus": 6,
+     "file": "clips/cd6c498e8396.mp3",
+     "seconds": 6.325
+    },
+    {
+     "raw": "**Review**: SSF checks if Sita is eligible, the hospital is listed, and the treatment and rates are correct.",
+     "say": "Review: S S F checks if Sita is eligible, the hospital is listed, and the treatment and rates are correct.",
+     "focus": 7,
+     "file": "clips/d9ad4f96c2ff.mp3",
+     "seconds": 7.4
+    },
+    {
+     "raw": "**Payment**: Sita has already paid her 20% share at the hospital.",
+     "say": "Payment: Sita has already paid her 20 percent share at the hospital.",
+     "focus": 8,
+     "file": "clips/2acfce1d4478.mp3",
+     "seconds": 4.4
+    },
+    {
+     "raw": "SSF pays the hospital its 80% for approved claims.",
+     "say": "S S F pays the hospital its 80 percent for approved claims.",
+     "focus": 8,
+     "file": "clips/0c6d5bf55069.mp3",
+     "seconds": 4.575
+    },
+    {
+     "raw": "Rejected items may be returned or charged to Sita.",
+     "say": "Rejected items may be returned or charged to Sita.",
+     "focus": 8,
+     "file": "clips/967d2e202cd7.mp3",
+     "seconds": 4.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "The journey of a claim",
+   "lines": [
+    {
+     "raw": "\"Adjudication\" just means deciding.",
+     "say": "\"Adjudication\" just means deciding.",
+     "focus": -1,
+     "file": "clips/7ddd6736eec5.mp3",
+     "seconds": 2.975
+    },
+    {
+     "raw": "Adjudication is the insurer's process of **reviewing a claim and deciding what to pay**.",
+     "say": "Adjudication is the insurer's process of reviewing a claim and deciding what to pay.",
+     "focus": -1,
+     "file": "clips/df672760416f.mp3",
+     "seconds": 5.85
+    },
+    {
+     "raw": "It is like a judge reviewing a case, which is where the word comes from.",
+     "say": "It is like a judge reviewing a case, which is where the word comes from.",
+     "focus": -1,
+     "file": "clips/36f22a2dceca.mp3",
+     "seconds": 4.55
+    },
+    {
+     "raw": "The Adjudication course covers it in detail.",
+     "say": "The Adjudication course covers it in detail.",
+     "focus": -1,
+     "file": "clips/07b47eb77d16.mp3",
+     "seconds": 3.45
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Claim status: how did it end?",
+     "say": "Claim status: how did it end?",
+     "focus": -1,
+     "file": "clips/43540fcdfe8f.mp3",
+     "seconds": 2.425
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "Claim status: how did it end?",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Paid**. Meaning: The insurer approved and paid (fully or partly). Example: Emily's visit: insurer paid $77.",
+     "say": "Paid. Meaning: The insurer approved and paid (fully or partly). Example: Emily's visit: insurer paid 77 dollars.",
+     "focus": 0,
+     "file": "clips/00119fb2786d.mp3",
+     "seconds": 9.025
+    },
+    {
+     "raw": "**Denied**. Meaning: The insurer refuses to pay. Can be **full** (whole claim) or **partial** (only some lines). Example: Service date was after coverage ended.",
+     "say": "Denied. Meaning: The insurer refuses to pay. Can be full (whole claim) or partial (only some lines). Example: Service date was after coverage ended.",
+     "focus": 1,
+     "file": "clips/074a380b584c.mp3",
+     "seconds": 10.475
+    },
+    {
+     "raw": "**Rejected**. Meaning: Returned before processing because of errors (missing or invalid data). Example: Service date is missing; provider must fix and resend.",
+     "say": "Rejected. Meaning: Returned before processing because of errors (missing or invalid data). Example: Service date is missing; provider must fix and resend.",
+     "focus": 2,
+     "file": "clips/01d698167c25.mp3",
+     "seconds": 11.025
+    },
+    {
+     "raw": "**Pending**. Meaning: Still being reviewed; maybe waiting for documents. Example: Insurer asks for medical records.",
+     "say": "Pending. Meaning: Still being reviewed; maybe waiting for documents. Example: Insurer asks for medical records.",
+     "focus": 3,
+     "file": "clips/c794a8db6817.mp3",
+     "seconds": 8.175
+    },
+    {
+     "raw": "**Adjusted**. Meaning: A previously processed claim was changed. Example: Wrong amount was paid, so it is corrected (lesson 12).",
+     "say": "Adjusted. Meaning: A previously processed claim was changed. Example: Wrong amount was paid, so it is corrected (lesson 12).",
+     "focus": 4,
+     "file": "clips/05d184e3f4c8.mp3",
+     "seconds": 8.825
+    },
+    {
+     "raw": "**Reversed / voided**. Meaning: The original claim is cancelled, shown as a negative copy. Example: Claim was sent by mistake (lesson 12).",
+     "say": "Reversed or voided. Meaning: The original claim is cancelled, shown as a negative copy. Example: Claim was sent by mistake (lesson 12).",
+     "focus": 5,
+     "file": "clips/84f1a13fbcdc.mp3",
+     "seconds": 10.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Common reasons for denial.",
+     "say": "Common reasons for denial.",
+     "focus": -1,
+     "file": "clips/8d0fcbbc6dbd.mp3",
+     "seconds": 2.225
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Common reasons for denial",
+   "lines": [
+    {
+     "raw": "**Not eligible**: the patient was not covered on the service date.",
+     "say": "Not eligible: the patient was not covered on the service date.",
+     "focus": 0,
+     "file": "clips/bb77b9256a93.mp3",
+     "seconds": 4.275
+    },
+    {
+     "raw": "**No prior authorization**: some expensive services need approval **before** they happen.",
+     "say": "No prior authorization: some expensive services need approval before they happen.",
+     "focus": 1,
+     "file": "clips/6d6f35ad8d16.mp3",
+     "seconds": 5.825
+    },
+    {
+     "raw": "**Not medically necessary**: the diagnosis does not support the service.",
+     "say": "Not medically necessary: the diagnosis does not support the service.",
+     "focus": 2,
+     "file": "clips/bf8178afe952.mp3",
+     "seconds": 4.8
+    },
+    {
+     "raw": "**Not covered**: the plan excludes this service (e.g. cosmetic surgery).",
+     "say": "Not covered: the plan excludes this service (for example cosmetic surgery).",
+     "focus": 3,
+     "file": "clips/96557e115e64.mp3",
+     "seconds": 5.525
+    },
+    {
+     "raw": "**Provider not allowed**: the provider is not licensed or qualified for that service.",
+     "say": "Provider not allowed: the provider is not licensed or qualified for that service.",
+     "focus": 4,
+     "file": "clips/1b0c075d54bb.mp3",
+     "seconds": 5.65
+    },
+    {
+     "raw": "**Provider sanctioned**: the government has banned (excluded) the provider, for example for fraud.",
+     "say": "Provider sanctioned: the government has banned (excluded) the provider, for example for fraud.",
+     "focus": 5,
+     "file": "clips/b3fee81208e7.mp3",
+     "seconds": 6.025
+    },
+    {
+     "raw": "**Duplicate**: the same claim was sent twice.",
+     "say": "Duplicate: the same claim was sent twice.",
+     "focus": 6,
+     "file": "clips/a772d368f162.mp3",
+     "seconds": 3.15
+    },
+    {
+     "raw": "Lesson 12 shows what duplicates look like in data.",
+     "say": "Lesson 12 shows what duplicates look like in data.",
+     "focus": 6,
+     "file": "clips/0e5730c20eea.mp3",
+     "seconds": 3.925
+    },
+    {
+     "raw": "**Late**: sent after the timely filing deadline.",
+     "say": "Late: sent after the timely filing deadline.",
+     "focus": 7,
+     "file": "clips/414d5ac6e83a.mp3",
+     "seconds": 3.3
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Common reasons for denial",
+   "lines": [
+    {
+     "raw": "Denials have codes too.",
+     "say": "Denials have codes too.",
+     "focus": -1,
+     "file": "clips/6675b5f7efc1.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Insurers explain each denial and each reduction with standard **reason codes** called **CARCs (Claim Adjustment Reason Codes)**.",
+     "say": "Insurers explain each denial and each reduction with standard reason codes called C A R C's (Claim Adjustment Reason Codes).",
+     "focus": -1,
+     "file": "clips/90e75cceed2b.mp3",
+     "seconds": 9.475
+    },
+    {
+     "raw": "A prefix tells you who carries the cost: **CO** means the provider absorbs it; **PR** means the patient is responsible.",
+     "say": "A prefix tells you who carries the cost: C O means the provider absorbs it; P R means the patient is responsible.",
+     "focus": -1,
+     "file": "clips/c763f04bc99f.mp3",
+     "seconds": 8.125
+    },
+    {
+     "raw": "Analysts group denials by reason code to find the most common problems.",
+     "say": "Analysts group denials by reason code to find the most common problems.",
+     "focus": -1,
+     "file": "clips/5374c48ab5f3.mp3",
+     "seconds": 5.125
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "What the patient and the provider receive.",
+     "say": "What the patient and the provider receive.",
+     "focus": -1,
+     "file": "clips/52defa92c36c.mp3",
+     "seconds": 2.875
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "What the patient and the provider receive",
+   "lines": [
+    {
+     "raw": "Once the claim is decided, the insurer sends the patient an **Explanation of Benefits (EOB)**.",
+     "say": "Once the claim is decided, the insurer sends the patient an Explanation of Benefits (E O B).",
+     "focus": -1,
+     "file": "clips/385b9f1eab3a.mp3",
+     "seconds": 6.65
+    },
+    {
+     "raw": "It is **not a bill**: it explains what was charged, allowed and paid, and what the patient may owe.",
+     "say": "It is not a bill: it explains what was charged, allowed and paid, and what the patient may owe.",
+     "focus": -1,
+     "file": "clips/18049fcc06d5.mp3",
+     "seconds": 6.275
+    },
+    {
+     "raw": "The provider receives a matching **remittance advice**.",
+     "say": "The provider receives a matching remittance advice.",
+     "focus": -1,
+     "file": "clips/97a25d3e19c2.mp3",
+     "seconds": 3.55
+    },
+    {
+     "raw": "Both are covered in the Claim Payment course.",
+     "say": "Both are covered in the Claim Payment course.",
+     "focus": -1,
+     "file": "clips/9e7e9929fba9.mp3",
+     "seconds": 2.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "What the patient and the provider receive",
+   "lines": [
+    {
+     "raw": "Learn more about the EOB.",
+     "say": "Learn more about the E O B.",
+     "focus": -1,
+     "file": "clips/b1311fb966f2.mp3",
+     "seconds": 2.25
+    },
+    {
+     "raw": "The Claim Payment course walks through a full EOB and remittance line by line.",
+     "say": "The Claim Payment course walks through a full E O B and remittance line by line.",
+     "focus": -1,
+     "file": "clips/4c1731404780.mp3",
+     "seconds": 5.5
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "What the patient and the provider receive",
+   "lines": [
+    {
+     "raw": "Why this matters for data.",
+     "say": "Why this matters for data.",
+     "focus": -1,
+     "file": "clips/c8f083c01ae7.mp3",
+     "seconds": 2.15
+    },
+    {
+     "raw": "Before you add up money, check the status.",
+     "say": "Before you add up money, check the status.",
+     "focus": -1,
+     "file": "clips/40fbe7e48b6d.mp3",
+     "seconds": 2.775
+    },
+    {
+     "raw": "**Rejected** and **pending** claims have no payment yet, and **denied** lines are paid $0.",
+     "say": "Rejected and pending claims have no payment yet, and denied lines are paid 0 dollars.",
+     "focus": -1,
+     "file": "clips/a47419537b6a.mp3",
+     "seconds": 6.175
+    },
+    {
+     "raw": "If you report \"average cost per visit\" using every claim, the $0 rows pull the average down.",
+     "say": "If you report \"average cost per visit\" using every claim, the 0 dollars rows pull the average down.",
+     "focus": -1,
+     "file": "clips/9301343d4690.mp3",
+     "seconds": 7.175
+    },
+    {
+     "raw": "Adjusted and reversed claims need special handling, covered in the next lesson.",
+     "say": "Adjusted and reversed claims need special handling, covered in the next lesson.",
+     "focus": -1,
+     "file": "clips/943296a104c4.mp3",
+     "seconds": 5.25
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "What the patient and the provider receive",
+   "lines": [
+    {
+     "raw": "See it live.",
+     "say": "See it live.",
+     "focus": -1,
+     "file": "clips/f19933ec06eb.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "In **Try It Yourself** you go through adjudication, the EOB and provider payment step by step.",
+     "say": "In Try It Yourself you go through adjudication, the E O B and provider payment step by step.",
+     "focus": -1,
+     "file": "clips/46d9ef934393.mp3",
+     "seconds": 6.65
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Claim journey: care → submit → eligibility → rules → adjudication → payment & EOB.",
+     "say": "Claim journey: care to submit to eligibility to rules to adjudication to payment and E O B.",
+     "focus": 0,
+     "file": "clips/699a2d8075cd.mp3",
+     "seconds": 6.775
+    },
+    {
+     "raw": "Statuses: paid, denied, rejected, pending, adjusted, reversed.",
+     "say": "Statuses: paid, denied, rejected, pending, adjusted, reversed.",
+     "focus": 1,
+     "file": "clips/a0560fa42ffd.mp3",
+     "seconds": 4.65
+    },
+    {
+     "raw": "Denials can be full (whole claim) or partial (some lines), and each has a reason.",
+     "say": "Denials can be full (whole claim) or partial (some lines), and each has a reason.",
+     "focus": 2,
+     "file": "clips/9509ed9f2f5a.mp3",
+     "seconds": 5.025
+    },
+    {
+     "raw": "Check status before adding up money: rejected, pending and denied claims distort totals.",
+     "say": "Check status before adding up money: rejected, pending and denied claims distort totals.",
+     "focus": 3,
+     "file": "clips/1efba11c2b84.mp3",
+     "seconds": 6.4
+    },
+    {
+     "raw": "The EOB explains the payment to the patient; it is not a bill (see the Claim Payment course).",
+     "say": "The E O B explains the payment to the patient; it is not a bill (see the Claim Payment course).",
+     "focus": 4,
+     "file": "clips/d197cd262bb2.mp3",
+     "seconds": 6.2
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.65
+    }
+   ]
+  }
+ ]
+}

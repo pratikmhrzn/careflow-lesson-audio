@@ -1,0 +1,610 @@
+{
+ "courseId": "basics",
+ "lessonId": "government-and-regulators",
+ "lessonNumber": 5,
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "kind": "intro",
+   "blockIndex": -1,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Lesson 5: Government & Regulators.",
+     "say": "Lesson 5: Government and Regulators.",
+     "focus": -1,
+     "file": "clips/c6dcd4aa21b1.mp3",
+     "seconds": 3.275
+    },
+    {
+     "raw": "HHS, CMS, the FDA and state insurance departments, plus the laws everyone must follow.",
+     "say": "H H S, C M S, the F D A and state insurance departments, plus the laws everyone must follow.",
+     "focus": -1,
+     "file": "clips/4177dc6ddb0b.mp3",
+     "seconds": 7.525
+    },
+    {
+     "raw": "In this lesson you will:",
+     "say": "In this lesson you will:",
+     "focus": -1,
+     "file": "clips/232a945ce405.mp3",
+     "seconds": 1.925
+    },
+    {
+     "raw": "Explain the two roles of the US government: payer and rule-maker.",
+     "say": "Explain the two roles of the U S government: payer and rule-maker.",
+     "focus": 0,
+     "file": "clips/d9da7519f704.mp3",
+     "seconds": 4.7
+    },
+    {
+     "raw": "Know what HHS, CMS, the FDA and state insurance departments do.",
+     "say": "Know what H H S, C M S, the F D A and state insurance departments do.",
+     "focus": 1,
+     "file": "clips/67f08f5133d6.mp3",
+     "seconds": 5.8
+    },
+    {
+     "raw": "Describe the ACA and HIPAA in one line each.",
+     "say": "Describe the A C A and HIPAA in one line each.",
+     "focus": 2,
+     "file": "clips/7e847eea927e.mp3",
+     "seconds": 3.375
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 0,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Two hats: payer and rule-maker.",
+     "say": "Two hats: payer and rule-maker.",
+     "focus": -1,
+     "file": "clips/c740cb655eea.mp3",
+     "seconds": 2.475
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 1,
+   "section": "Two hats: payer and rule-maker",
+   "lines": [
+    {
+     "raw": "The US government wears **two hats** in healthcare.",
+     "say": "The U S government wears two hats in healthcare.",
+     "focus": -1,
+     "file": "clips/082e47e20951.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "As a **payer**, it pays for care through Medicare and Medicaid (lesson 4).",
+     "say": "As a payer, it pays for care through Medicare and Medicaid (lesson 4).",
+     "focus": -1,
+     "file": "clips/d685e85f3a95.mp3",
+     "seconds": 4.875
+    },
+    {
+     "raw": "As a **rule-maker**, it writes the laws and checks that insurers, hospitals, doctors and drug makers follow them.",
+     "say": "As a rule-maker, it writes the laws and checks that insurers, hospitals, doctors and drug makers follow them.",
+     "focus": -1,
+     "file": "clips/04944bd3097c.mp3",
+     "seconds": 7.4
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 2,
+   "section": "Two hats: payer and rule-maker",
+   "lines": [
+    {
+     "raw": "Regulators in Nepal.",
+     "say": "Regulators in Nepal.",
+     "focus": -1,
+     "file": "clips/59fb541b37a0.mp3",
+     "seconds": 2.025
+    },
+    {
+     "raw": "With private insurance:",
+     "say": "With private insurance:",
+     "focus": 0,
+     "file": "clips/ef1980693d33.mp3",
+     "seconds": 1.9
+    },
+    {
+     "raw": "The **Nepal Insurance Authority** regulates insurance companies, including the one that covers Ram.",
+     "say": "The Nepal Insurance Authority regulates insurance companies, including the one that covers Ram.",
+     "focus": 0,
+     "file": "clips/d91e62ae5805.mp3",
+     "seconds": 6.6
+    },
+    {
+     "raw": "The **Nepal Medical Council** registers doctors, and the **Department of Drug Administration** controls medicines.",
+     "say": "The Nepal Medical Council registers doctors, and the Department of Drug Administration controls medicines.",
+     "focus": 1,
+     "file": "clips/0d6c5d018730.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "With the Social Security Fund:",
+     "say": "With the Social Security Fund:",
+     "focus": 2,
+     "file": "clips/4e8b58b61376.mp3",
+     "seconds": 2.35
+    },
+    {
+     "raw": "SSF itself is a government-created fund.",
+     "say": "S S F itself is a government-created fund.",
+     "focus": 2,
+     "file": "clips/7aa834fec465.mp3",
+     "seconds": 3.65
+    },
+    {
+     "raw": "The **Ministry of Health and Population** sets health policy and runs government hospitals.",
+     "say": "The Ministry of Health and Population sets health policy and runs government hospitals.",
+     "focus": 2,
+     "file": "clips/6cfeae05fed3.mp3",
+     "seconds": 5.85
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 3,
+   "section": "",
+   "lines": [
+    {
+     "raw": "The main US agencies.",
+     "say": "The main U S agencies.",
+     "focus": -1,
+     "file": "clips/8790b17dd9c3.mp3",
+     "seconds": 2.275
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 4,
+   "section": "The main US agencies",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**HHS** (Department of Health and Human Services). What it does: The federal health ministry. CMS, the FDA and the CDC all sit under it. Nepal comparison: Ministry of Health and Population.",
+     "say": "H H S (Department of Health and Human Services). What it does: The federal health ministry. C M S, the F D A and the C D C all sit under it. Nepal comparison: Ministry of Health and Population.",
+     "focus": 0,
+     "file": "clips/5062f7949b88.mp3",
+     "seconds": 14.275
+    },
+    {
+     "raw": "**CMS** (Centers for Medicare & Medicaid Services). What it does: Runs **Medicare**, oversees **Medicaid** and CHIP with the states, runs the federal **Marketplace** (HealthCare.gov), and sets many rules for claims and codes. Nepal comparison: A mix of SSF and the Health Insurance Board, at national scale.",
+     "say": "C M S (Centers for Medicare and Medicaid Services). What it does: Runs Medicare, oversees Medicaid and CHIP with the states, runs the federal Marketplace (HealthCare.gov), and sets many rules for claims and codes. Nepal comparison: A mix of S S F and the Health Insurance Board, at national scale.",
+     "focus": 1,
+     "file": "clips/4aba350c5c4c.mp3",
+     "seconds": 20.425
+    },
+    {
+     "raw": "**FDA** (Food and Drug Administration). What it does: Approves **medicines** and **medical devices** before they can be sold. Nepal comparison: Department of Drug Administration.",
+     "say": "F D A (Food and Drug Administration). What it does: Approves medicines and medical devices before they can be sold. Nepal comparison: Department of Drug Administration.",
+     "focus": 2,
+     "file": "clips/3fe6d48d395c.mp3",
+     "seconds": 12.275
+    },
+    {
+     "raw": "**CDC** (Centers for Disease Control and Prevention). What it does: Tracks diseases and public health. Nepal comparison: Epidemiology and Disease Control Division.",
+     "say": "C D C (Centers for Disease Control and Prevention). What it does: Tracks diseases and public health. Nepal comparison: Epidemiology and Disease Control Division.",
+     "focus": 3,
+     "file": "clips/deeb1b5c1dd0.mp3",
+     "seconds": 11.975
+    },
+    {
+     "raw": "**State insurance departments**. What it does: License insurers in each state, check that plans follow state law, handle member complaints. Nepal comparison: Nepal Insurance Authority.",
+     "say": "State insurance departments. What it does: License insurers in each state, check that plans follow state law, handle member complaints. Nepal comparison: Nepal Insurance Authority.",
+     "focus": 4,
+     "file": "clips/7bf3e66534f7.mp3",
+     "seconds": 12.85
+    },
+    {
+     "raw": "**Department of Labor**. What it does: Oversees **employer** benefit plans, especially **self-funded** ones, under a law called ERISA. Nepal comparison: Ministry of Labour.",
+     "say": "Department of Labor. What it does: Oversees employer benefit plans, especially self-funded ones, under a law called E R I S A. Nepal comparison: Ministry of Labour.",
+     "focus": 5,
+     "file": "clips/35027aadd5d7.mp3",
+     "seconds": 12.7
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 5,
+   "section": "The main US agencies",
+   "lines": [
+    {
+     "raw": "Why CMS matters so much.",
+     "say": "Why C M S matters so much.",
+     "focus": -1,
+     "file": "clips/5f3996c45070.mp3",
+     "seconds": 2.425
+    },
+    {
+     "raw": "Medicare is the biggest single payer in the US.",
+     "say": "Medicare is the biggest single payer in the U S.",
+     "focus": -1,
+     "file": "clips/176059f8c2ce.mp3",
+     "seconds": 3.375
+    },
+    {
+     "raw": "When CMS changes how Medicare pays, private insurers often copy it.",
+     "say": "When C M S changes how Medicare pays, private insurers often copy it.",
+     "focus": -1,
+     "file": "clips/e629b69dfbb1.mp3",
+     "seconds": 5.375
+    },
+    {
+     "raw": "CMS also gives out the **NPI** numbers that every provider uses.",
+     "say": "C M S also gives out the N P I numbers that every provider uses.",
+     "focus": -1,
+     "file": "clips/284b9abc60d6.mp3",
+     "seconds": 5.45
+    },
+    {
+     "raw": "If you work with US healthcare data, you will see \"CMS\" everywhere.",
+     "say": "If you work with U S healthcare data, you will see \"C M S\" everywhere.",
+     "focus": -1,
+     "file": "clips/1f61242dd809.mp3",
+     "seconds": 5.15
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 6,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Federal and state.",
+     "say": "Federal and state.",
+     "focus": -1,
+     "file": "clips/beedf3aca025.mp3",
+     "seconds": 1.75
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 7,
+   "section": "Federal and state",
+   "lines": [
+    {
+     "raw": "The US is a federation of **50 states**, and health rules are split between the federal government and each state.",
+     "say": "The U S is a federation of 50 states, and health rules are split between the federal government and each state.",
+     "focus": -1,
+     "file": "clips/1c3505ee77b7.mp3",
+     "seconds": 7.325
+    },
+    {
+     "raw": "Nepal has a similar idea since federalism: federal, provincial and local governments each have health duties.",
+     "say": "Nepal has a similar idea since federalism: federal, provincial and local governments each have health duties.",
+     "focus": -1,
+     "file": "clips/c33e00152884.mp3",
+     "seconds": 7.55
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 8,
+   "section": "Federal and state",
+   "lines": [
+    {
+     "raw": "In the US: Who regulates whom in our story.",
+     "say": "In the U S: Who regulates whom in our story.",
+     "focus": -1,
+     "file": "clips/938b81215750.mp3",
+     "seconds": 3.35
+    },
+    {
+     "raw": "**Emily's plan** is fully insured in Texas, so the **Texas Department of Insurance** checks that it follows state insurance law, along with federal rules.",
+     "say": "Emily's plan is fully insured in Texas, so the Texas Department of Insurance checks that it follows state insurance law, along with federal rules.",
+     "focus": 0,
+     "file": "clips/f9ecd33db196.mp3",
+     "seconds": 9.85
+    },
+    {
+     "raw": "**Robert's Medicare** is a federal programme, so **CMS** sets the rules.",
+     "say": "Robert's Medicare is a federal programme, so C M S sets the rules.",
+     "focus": 1,
+     "file": "clips/df4b2dc9f9fa.mp3",
+     "seconds": 4.925
+    },
+    {
+     "raw": "CMS pays his Medicare Advantage plan a monthly amount, and the plan pays his claims.",
+     "say": "C M S pays his Medicare Advantage plan a monthly amount, and the plan pays his claims.",
+     "focus": 1,
+     "file": "clips/8cacf68673d3.mp3",
+     "seconds": 6.5
+    },
+    {
+     "raw": "A Texas **Medicaid** member would be covered by rules from **both** CMS and the state of Texas.",
+     "say": "A Texas Medicaid member would be covered by rules from both C M S and the state of Texas.",
+     "focus": 2,
+     "file": "clips/3e35936401ba.mp3",
+     "seconds": 6.425
+    },
+    {
+     "raw": "Emily's **amoxicillin** could only be sold because the **FDA** approved it.",
+     "say": "Emily's amoxicillin could only be sold because the F D A approved it.",
+     "focus": 3,
+     "file": "clips/a5f9d4dab8bc.mp3",
+     "seconds": 4.9
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 9,
+   "section": "",
+   "lines": [
+    {
+     "raw": "Laws in one line each.",
+     "say": "Laws in one line each.",
+     "focus": -1,
+     "file": "clips/236435f4645d.mp3",
+     "seconds": 2.075
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 10,
+   "section": "Laws in one line each",
+   "lines": [
+    {
+     "raw": "Here is a quick table.",
+     "say": "Here is a quick table.",
+     "focus": -1,
+     "file": "clips/8d7d953421d7.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "**Medicare and Medicaid**. Year: 1965. In one line: Created the two big government health programmes.",
+     "say": "Medicare and Medicaid. Year: 1965. In one line: Created the two big government health programmes.",
+     "focus": 0,
+     "file": "clips/0115878482e0.mp3",
+     "seconds": 7.925
+    },
+    {
+     "raw": "**ERISA**. Year: 1974. In one line: Sets federal rules for employer benefit plans, including self-funded health plans.",
+     "say": "E R I S A. Year: 1974. In one line: Sets federal rules for employer benefit plans, including self-funded health plans.",
+     "focus": 1,
+     "file": "clips/8454571e9d38.mp3",
+     "seconds": 10.375
+    },
+    {
+     "raw": "**HIPAA**. Year: 1996. In one line: Protects the **privacy** and **security** of health information, and sets **standard electronic formats** for claims and other transactions.",
+     "say": "HIPAA. Year: 1996. In one line: Protects the privacy and security of health information, and sets standard electronic formats for claims and other transactions.",
+     "focus": 2,
+     "file": "clips/32d085e44dcf.mp3",
+     "seconds": 11.9
+    },
+    {
+     "raw": "**ACA** (Affordable Care Act, \"Obamacare\"). Year: 2010. In one line: Created the **Marketplaces**, let states **expand Medicaid**, stopped insurers refusing people for **pre-existing conditions**, and lets children stay on a parent's plan **until age 26**.",
+     "say": "A C A (Affordable Care Act, \"Obamacare\"). Year: 2010. In one line: Created the Marketplaces, let states expand Medicaid, stopped insurers refusing people for pre-existing conditions, and lets children stay on a parent's plan until age 26.",
+     "focus": 3,
+     "file": "clips/22a359f72c08.mp3",
+     "seconds": 18.2
+    },
+    {
+     "raw": "**No Surprises Act**. Year: In effect from 2022. In one line: Protects patients from most **surprise bills** from out-of-network providers, for example in emergencies.",
+     "say": "No Surprises Act. Year: In effect from 2022. In one line: Protects patients from most surprise bills from out-of-network providers, for example in emergencies.",
+     "focus": 4,
+     "file": "clips/1e08541e9723.mp3",
+     "seconds": 12.325
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 11,
+   "section": "Laws in one line each",
+   "lines": [
+    {
+     "raw": "HIPAA matters for data work.",
+     "say": "HIPAA matters for data work.",
+     "focus": -1,
+     "file": "clips/b8090dc5bf58.mp3",
+     "seconds": 2.2
+    },
+    {
+     "raw": "Names, dates of birth, addresses and member IDs are **protected health information (PHI)**.",
+     "say": "Names, dates of birth, addresses and member I D's are protected health information (P H I).",
+     "focus": -1,
+     "file": "clips/06549ba9dd7e.mp3",
+     "seconds": 6.975
+    },
+    {
+     "raw": "Under HIPAA, anyone working with real claims must keep it private and share only what is needed.",
+     "say": "Under HIPAA, anyone working with real claims must keep it private and share only what is needed.",
+     "focus": -1,
+     "file": "clips/4f0001e85958.mp3",
+     "seconds": 6.55
+    },
+    {
+     "raw": "That is why the people and IDs in this course are **made up**.",
+     "say": "That is why the people and I D's in this course are made up.",
+     "focus": -1,
+     "file": "clips/6c30373a17b3.mp3",
+     "seconds": 4.175
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 12,
+   "section": "Laws in one line each",
+   "lines": [
+    {
+     "raw": "PHI.",
+     "say": "P H I.",
+     "focus": 0,
+     "file": "clips/f2226fad8754.mp3",
+     "seconds": 1.575
+    },
+    {
+     "raw": "Protected Health Information: any health information that can identify a person.",
+     "say": "Protected Health Information: any health information that can identify a person.",
+     "focus": 0,
+     "file": "clips/ad6e98d82062.mp3",
+     "seconds": 5.425
+    },
+    {
+     "raw": "Pre-existing condition.",
+     "say": "Pre-existing condition.",
+     "focus": 1,
+     "file": "clips/277dc14d4f89.mp3",
+     "seconds": 2.05
+    },
+    {
+     "raw": "An illness a person already had before getting insurance, like diabetes.",
+     "say": "An illness a person already had before getting insurance, like diabetes.",
+     "focus": 1,
+     "file": "clips/061a1c8ae07b.mp3",
+     "seconds": 5.1
+    },
+    {
+     "raw": "Since the ACA, insurers cannot refuse cover because of it.",
+     "say": "Since the A C A, insurers cannot refuse cover because of it.",
+     "focus": 1,
+     "file": "clips/6693b6923ec3.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Medicaid expansion.",
+     "say": "Medicaid expansion.",
+     "focus": 2,
+     "file": "clips/0fdc45637b68.mp3",
+     "seconds": 1.875
+    },
+    {
+     "raw": "An ACA option for states to cover more low-income adults.",
+     "say": "An A C A option for states to cover more low-income adults.",
+     "focus": 2,
+     "file": "clips/a989f653ee43.mp3",
+     "seconds": 4.2
+    },
+    {
+     "raw": "Most states have expanded; some, including **Texas**, have not.",
+     "say": "Most states have expanded; some, including Texas, have not.",
+     "focus": 2,
+     "file": "clips/a27f7b90fb85.mp3",
+     "seconds": 4.375
+    },
+    {
+     "raw": "Marketplace (exchange).",
+     "say": "Marketplace (exchange).",
+     "focus": 3,
+     "file": "clips/5a648969271b.mp3",
+     "seconds": 2
+    },
+    {
+     "raw": "A government website where people buy individual cover, often with a subsidy.",
+     "say": "A government website where people buy individual cover, often with a subsidy.",
+     "focus": 3,
+     "file": "clips/cbf5dda9cbdb.mp3",
+     "seconds": 5.125
+    },
+    {
+     "raw": "HealthCare.gov is the federal one.",
+     "say": "HealthCare.gov is the federal one.",
+     "focus": 3,
+     "file": "clips/3ace0fac223c.mp3",
+     "seconds": 2.575
+    }
+   ]
+  },
+  {
+   "kind": "block",
+   "blockIndex": 13,
+   "section": "Laws in one line each",
+   "lines": [
+    {
+     "raw": "Lily and the age-26 rule.",
+     "say": "Lily and the age-26 rule.",
+     "focus": -1,
+     "file": "clips/852e475f5800.mp3",
+     "seconds": 2.675
+    },
+    {
+     "raw": "Thanks to the ACA, Emily's daughter **Lily** (born 2019) can stay on her mother's plan as a dependent until she turns **26**, even if she moves out or marries.",
+     "say": "Thanks to the A C A, Emily's daughter Lily (born 2019) can stay on her mother's plan as a dependent until she turns 26, even if she moves out or marries.",
+     "focus": -1,
+     "file": "clips/b0c24c9d5f88.mp3",
+     "seconds": 10.95
+    }
+   ]
+  },
+  {
+   "kind": "takeaways",
+   "blockIndex": -1,
+   "section": "Key takeaways",
+   "lines": [
+    {
+     "raw": "Key takeaways.",
+     "say": "Key takeaways.",
+     "focus": -1,
+     "file": "clips/7685009563e2.mp3",
+     "seconds": 1.725
+    },
+    {
+     "raw": "Government is both a payer (Medicare, Medicaid) and a rule-maker.",
+     "say": "Government is both a payer (Medicare, Medicaid) and a rule-maker.",
+     "focus": 0,
+     "file": "clips/d4e239f1ac39.mp3",
+     "seconds": 4.525
+    },
+    {
+     "raw": "HHS is the federal health ministry; CMS runs Medicare and oversees Medicaid; the FDA approves drugs and devices.",
+     "say": "H H S is the federal health ministry; C M S runs Medicare and oversees Medicaid; the F D A approves drugs and devices.",
+     "focus": 1,
+     "file": "clips/e0afcb5f06fb.mp3",
+     "seconds": 9.45
+    },
+    {
+     "raw": "State insurance departments regulate insurers in each state; the Department of Labor oversees self-funded employer plans.",
+     "say": "State insurance departments regulate insurers in each state; the Department of Labor oversees self-funded employer plans.",
+     "focus": 2,
+     "file": "clips/90a68602a1ad.mp3",
+     "seconds": 8.55
+    },
+    {
+     "raw": "HIPAA protects health data and standardises claims formats.",
+     "say": "HIPAA protects health data and standardises claims formats.",
+     "focus": 3,
+     "file": "clips/651add997929.mp3",
+     "seconds": 4.225
+    },
+    {
+     "raw": "The ACA created Marketplaces and protects people with pre-existing conditions.",
+     "say": "The A C A created Marketplaces and protects people with pre-existing conditions.",
+     "focus": 3,
+     "file": "clips/3f34cbb8bf55.mp3",
+     "seconds": 5.75
+    },
+    {
+     "raw": "Now try the quiz below the video to check what you learned.",
+     "say": "Now try the quiz below the video to check what you learned.",
+     "focus": -1,
+     "file": "clips/6e04307dace2.mp3",
+     "seconds": 3.6
+    }
+   ]
+  }
+ ]
+}
